@@ -1,6 +1,8 @@
 
 package ru.acs.fts.schemas.album.mpocustomsmark;
 
+import java.util.ArrayList;
+import java.util.List;
 import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
@@ -15,7 +17,8 @@ public class MPOCustomsMarkType extends BaseDocType
     private String decisionTime;
     private String decision;
     private String decisionDescription;
-    private String comments;
+    private List<String> commentList = new ArrayList<String>();
+    private LocalDate prolongDate;
     private MPORegistrationType MPORegistration;
     private PersonSignatureType customsPerson;
     private CustomsType customs;
@@ -58,7 +61,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Decision' element value. Решение: 1 - выпуск запрещен; 2 - выпуск разрешен; 3 - выпуск разрешен с обязательной уплатой таможенных платежей; 4 - иное
+     * Get the 'Decision' element value. Решение: 1 - выпуск товаров запрещен; 2 - выпуск товаров разрешен без уплаты таможенных платежей; 3 - выпуск разрешен с обязательной уплатой таможенных платежей; 4 - резерв;  5 - товары подлежат таможенному декларированию с применением декларации на товары;  6 - приостановка выпуска товаров
      * 
      * @return value
      */
@@ -67,7 +70,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'Decision' element value. Решение: 1 - выпуск запрещен; 2 - выпуск разрешен; 3 - выпуск разрешен с обязательной уплатой таможенных платежей; 4 - иное
+     * Set the 'Decision' element value. Решение: 1 - выпуск товаров запрещен; 2 - выпуск товаров разрешен без уплаты таможенных платежей; 3 - выпуск разрешен с обязательной уплатой таможенных платежей; 4 - резерв;  5 - товары подлежат таможенному декларированию с применением декларации на товары;  6 - приостановка выпуска товаров
      * 
      * @param decision
      */
@@ -94,21 +97,39 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the list of 'Comments' element items. Комментарии
      * 
-     * @return value
+     * @return list
      */
-    public String getComments() {
-        return comments;
+    public List<String> getCommentList() {
+        return commentList;
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the list of 'Comments' element items. Комментарии
      * 
-     * @param comments
+     * @param list
      */
-    public void setComments(String comments) {
-        this.comments = comments;
+    public void setCommentList(List<String> list) {
+        commentList = list;
+    }
+
+    /** 
+     * Get the 'ProlongDate' element value. Срок продления выпуска товаров
+     * 
+     * @return value
+     */
+    public LocalDate getProlongDate() {
+        return prolongDate;
+    }
+
+    /** 
+     * Set the 'ProlongDate' element value. Срок продления выпуска товаров
+     * 
+     * @param prolongDate
+     */
+    public void setProlongDate(LocalDate prolongDate) {
+        this.prolongDate = prolongDate;
     }
 
     /** 

@@ -211,6 +211,8 @@ public class MessageType
 
 	public static final String CMN_12118 = "CMN.12118";
 
+    public static final String CMN_12124 = "CMN.12124";
+
 	public static final String CMN_13001 = "CMN.13001";
 	
 	public static final String CMN_13002 = "CMN.13002";
@@ -330,7 +332,19 @@ public class MessageType
 	public static final String PVR_00002 = "PVR.00002";
 	
 	public static final String PVR_00003 = "PVR.00003";
-	
+
+    public static final String MSG_12015 = "MSG.12015";
+
+    public static final String MSG_12016 = "MSG.12016";
+
+    public static final String ADM_12016 = "ADM.12016";
+
+    public static final String MSG_12017 = "MSG.12017";
+
+    public static final String ADM_12017 = "ADM.12017";
+
+	public static final String CMN_11127 = "CMN.11127";
+
 	public static boolean isOkNotification( String messageType )
 	{
 		boolean isOkNotification = false;

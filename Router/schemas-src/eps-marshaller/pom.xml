@@ -9,7 +9,7 @@
 	<parent>
 		<artifactId>eps-schemas</artifactId>
 		<groupId>ru.acs.fts.schemas</groupId>
-		<version>5.4.3</version>
+		<version>5.4.5</version>
 		<relativePath>..</relativePath>
 	</parent>
 	
@@ -135,7 +135,7 @@
   <dependency>
    <groupId>ru.acs.fts.schemas</groupId>
    <artifactId>eps-fts-schemas</artifactId>
-   <version>5.4.3</version>
+   <version>5.4.5</version>
    <scope>compile</scope>
    <type>jar</type>
   </dependency>

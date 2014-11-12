@@ -1,6 +1,6 @@
 <binding trim-whitespace="false" >
     <include path="envelope.binding" />
-    <include path="album_5_4_3.binding" />
+    <include path="album_5_4_5.binding" />
     <include path="admin.binding" />
     <include path="aud.binding" />
 </binding>

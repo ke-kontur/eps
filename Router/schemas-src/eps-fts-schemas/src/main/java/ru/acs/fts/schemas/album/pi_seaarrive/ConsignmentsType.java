@@ -26,6 +26,7 @@ public class ConsignmentsType
     private CUCustomsType borderCustoms;
     private CountryPortInfoType primaryDeparturePort;
     private CountryPortInfoType remainGoodsUnloadPort;
+    private String PIRegID;
 
     /** 
      * Get the 'TransportDocumentNum' element value. Номер коноссамента (или иного транспортного документа на товарную партию)
@@ -278,5 +279,23 @@ public class ConsignmentsType
     public void setRemainGoodsUnloadPort(
             CountryPortInfoType remainGoodsUnloadPort) {
         this.remainGoodsUnloadPort = remainGoodsUnloadPort;
+    }
+
+    /** 
+     * Get the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
+     * 
+     * @return value
+     */
+    public String getPIRegID() {
+        return PIRegID;
+    }
+
+    /** 
+     * Set the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
+     * 
+     * @param PIRegID
+     */
+    public void setPIRegID(String PIRegID) {
+        this.PIRegID = PIRegID;
     }
 }

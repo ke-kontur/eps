@@ -1,26 +1,26 @@
-<binding xmlns:ns3="urn:customs.ru:Information:ExchangeDocuments:Result:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+<binding xmlns:ns5="urn:customs.ru:Information:ExchangeDocuments:Result:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
   <namespace uri="urn:customs.ru:Information:ExchangeDocuments:Result:5.4.0" default="elements"/>
-  <mapping abstract="true" type-name="ns3:ResultType" class="ru.acs.fts.schemas.album.result.ResultType">
+  <mapping abstract="true" type-name="ns5:ResultType" class="ru.acs.fts.schemas.album.result.ResultType">
     <structure map-as="cat_ru:BaseDocType"/>
     <collection get-method="getResponseList" set-method="setResponseList" create-type="java.util.ArrayList">
-      <structure map-as="ns3:ResponseType" name="Response"/>
+      <structure map-as="ns5:ResponseType" name="Response"/>
     </collection>
     <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
   </mapping>
   <mapping class="ru.acs.fts.schemas.album.result.ResultType" name="Result">
-    <structure map-as="ns3:ResultType"/>
+    <structure map-as="ns5:ResultType"/>
   </mapping>
-  <mapping abstract="true" type-name="ns3:DocumentResultType" class="ru.acs.fts.schemas.album.result.DocumentResultType">
+  <mapping abstract="true" type-name="ns5:DocumentResultType" class="ru.acs.fts.schemas.album.result.DocumentResultType">
     <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
     <value style="element" name="DocumentID" get-method="getDocumentID" set-method="setDocumentID" usage="optional"/>
   </mapping>
-  <mapping abstract="true" type-name="ns3:EADInfoType" class="ru.acs.fts.schemas.album.result.EADInfoType">
+  <mapping abstract="true" type-name="ns5:EADInfoType" class="ru.acs.fts.schemas.album.result.EADInfoType">
     <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID" usage="optional"/>
     <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID" usage="optional"/>
     <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
     <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus" usage="optional"/>
   </mapping>
-  <mapping abstract="true" type-name="ns3:EventListType" class="ru.acs.fts.schemas.album.result.EventListType">
+  <mapping abstract="true" type-name="ns5:EventListType" class="ru.acs.fts.schemas.album.result.EventListType">
     <value style="element" name="MessageCode" get-method="getMessageCode" set-method="setMessageCode"/>
     <value style="element" name="MessageDescription" get-method="getMessageDescription" set-method="setMessageDescription" usage="optional"/>
     <value style="element" name="ProcState" get-method="getProcState" set-method="setProcState" usage="optional"/>
@@ -34,30 +34,30 @@
     <value style="element" name="MsgDocumentID" get-method="getMsgDocumentID" set-method="setMsgDocumentID" usage="optional"/>
     <value style="element" name="MsgRefDocumentID" get-method="getMsgRefDocumentID" set-method="setMsgRefDocumentID" usage="optional"/>
     <collection get-method="getDocumentResultList" set-method="setDocumentResultList" usage="optional" create-type="java.util.ArrayList">
-      <structure map-as="ns3:DocumentResultType" name="DocumentResult"/>
+      <structure map-as="ns5:DocumentResultType" name="DocumentResult"/>
     </collection>
   </mapping>
-  <mapping abstract="true" type-name="ns3:ItemInfoType" class="ru.acs.fts.schemas.album.result.ItemInfoType">
+  <mapping abstract="true" type-name="ns5:ItemInfoType" class="ru.acs.fts.schemas.album.result.ItemInfoType">
     <value style="element" name="RefItem" get-method="getRefItem" set-method="setRefItem"/>
     <value style="element" name="RecommendValue" get-method="getRecommendValue" set-method="setRecommendValue" usage="optional"/>
   </mapping>
-  <mapping abstract="true" type-name="ns3:ProcInformationType" class="ru.acs.fts.schemas.album.result.ProcInformationType">
+  <mapping abstract="true" type-name="ns5:ProcInformationType" class="ru.acs.fts.schemas.album.result.ProcInformationType">
     <value style="element" name="ProcState" get-method="getProcState" set-method="setProcState" usage="optional"/>
     <value style="element" name="ProcessID" get-method="getProcessID" set-method="setProcessID"/>
     <value style="element" name="StateDescription" get-method="getStateDescription" set-method="setStateDescription" usage="optional"/>
     <collection get-method="getEventList" set-method="setEventList" usage="optional" create-type="java.util.ArrayList">
-      <structure map-as="ns3:EventListType" name="EventList"/>
+      <structure map-as="ns5:EventListType" name="EventList"/>
     </collection>
   </mapping>
-  <mapping abstract="true" type-name="ns3:ResponseType" class="ru.acs.fts.schemas.album.result.ResponseType">
+  <mapping abstract="true" type-name="ns5:ResponseType" class="ru.acs.fts.schemas.album.result.ResponseType">
     <value style="element" name="RefDocumentID" get-method="getRefDocumentID" set-method="setRefDocumentID" usage="optional"/>
     <value style="element" name="CreateDate" get-method="getCreateDate" set-method="setCreateDate" usage="optional" format="LocalDate.default"/>
     <value style="element" name="CreateTime" get-method="getCreateTime" set-method="setCreateTime" usage="optional"/>
     <collection get-method="getResultInformationList" set-method="setResultInformationList" create-type="java.util.ArrayList">
-      <structure map-as="ns3:ResultInformationType" name="ResultInformation"/>
+      <structure map-as="ns5:ResultInformationType" name="ResultInformation"/>
     </collection>
   </mapping>
-  <mapping abstract="true" type-name="ns3:ResultInformationType" class="ru.acs.fts.schemas.album.result.ResultInformationType">
+  <mapping abstract="true" type-name="ns5:ResultInformationType" class="ru.acs.fts.schemas.album.result.ResultInformationType">
     <value style="element" name="ResultSource" get-method="getResultSource" set-method="setResultSource" usage="optional"/>
     <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
     <collection get-method="getResultDescriptionList" set-method="setResultDescriptionList" create-type="java.util.ArrayList">
@@ -65,10 +65,10 @@
     </collection>
     <value style="element" name="ResultCategory" get-method="getResultCategory" set-method="setResultCategory" usage="optional"/>
     <value style="element" name="RefLineID" get-method="getRefLineID" set-method="setRefLineID" usage="optional"/>
-    <structure map-as="ns3:ItemInfoType" get-method="getItemInfo" set-method="setItemInfo" usage="optional" name="ItemInfo"/>
+    <structure map-as="ns5:ItemInfoType" get-method="getItemInfo" set-method="setItemInfo" usage="optional" name="ItemInfo"/>
     <collection get-method="getEADInfoList" set-method="setEADInfoList" usage="optional" create-type="java.util.ArrayList">
-      <structure map-as="ns3:EADInfoType" name="EADInfo"/>
+      <structure map-as="ns5:EADInfoType" name="EADInfo"/>
     </collection>
-    <structure map-as="ns3:ProcInformationType" get-method="getProcInformation" set-method="setProcInformation" usage="optional" name="ProcInformation"/>
+    <structure map-as="ns5:ProcInformationType" get-method="getProcInformation" set-method="setProcInformation" usage="optional" name="ProcInformation"/>
   </mapping>
 </binding>

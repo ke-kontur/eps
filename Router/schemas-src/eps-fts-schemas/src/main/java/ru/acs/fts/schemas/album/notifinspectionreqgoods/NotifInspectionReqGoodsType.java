@@ -7,7 +7,6 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
  * Уведомление о проведении таможенного досмотра/ Требование о предъявлении товаров 
@@ -22,7 +21,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     private String presence;
     private String documentKind;
     private CUCustomsType customs;
-    private GTDIDType GTDID;
+    private DocIDType docID;
     private List<InspectionPlaceType> inspectionPlaceList = new ArrayList<InspectionPlaceType>();
     private CustomsPersonType customsPerson;
     private DirectionNotifReqType directionNotifReq;
@@ -174,21 +173,21 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ
+     * Get the 'DocID' element value. Регистрационный номер документа
      * 
      * @return value
      */
-    public GTDIDType getGTDID() {
-        return GTDID;
+    public DocIDType getDocID() {
+        return docID;
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ
+     * Set the 'DocID' element value. Регистрационный номер документа
      * 
-     * @param GTDID
+     * @param docID
      */
-    public void setGTDID(GTDIDType GTDID) {
-        this.GTDID = GTDID;
+    public void setDocID(DocIDType docID) {
+        this.docID = docID;
     }
 
     /** 

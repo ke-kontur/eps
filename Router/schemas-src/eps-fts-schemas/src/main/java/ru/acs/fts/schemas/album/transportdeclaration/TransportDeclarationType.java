@@ -26,6 +26,7 @@ public class TransportDeclarationType extends BaseDocType
     private PassengersType passengers;
     private OperatingEquipmentType operatingEquipment;
     private SignerType signer;
+    private TDTSRegNumType TDTSOpenRegNum;
     private String documentModeID;
 
     /** 
@@ -296,6 +297,24 @@ public class TransportDeclarationType extends BaseDocType
      */
     public void setSigner(SignerType signer) {
         this.signer = signer;
+    }
+
+    /** 
+     * Get the 'TDTSOpenRegNum' element value. Регистрационный номер ТДТС 
+     * 
+     * @return value
+     */
+    public TDTSRegNumType getTDTSOpenRegNum() {
+        return TDTSOpenRegNum;
+    }
+
+    /** 
+     * Set the 'TDTSOpenRegNum' element value. Регистрационный номер ТДТС 
+     * 
+     * @param TDTSOpenRegNum
+     */
+    public void setTDTSOpenRegNum(TDTSRegNumType TDTSOpenRegNum) {
+        this.TDTSOpenRegNum = TDTSOpenRegNum;
     }
 
     /** 

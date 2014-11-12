@@ -3,99 +3,58 @@ package ru.acs.fts.schemas.album;
 
 import java.util.ArrayList;
 import java.util.List;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о товарах
+ * Тип, описывающий товар, на котором выявлен ПР/ЦПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
- * &lt;xs:complexType xmlns:ns="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:ns1="urn:customs.ru:Information:CustomsDocuments:RefusalInFavorOfStateApplic:5.4.3" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="GoodsType">
+ * &lt;xs:complexType xmlns:ns="urn:customs.ru:Information:CustomsDocuments:DTRevealedRisks:5.4.4" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="GoodsType">
  *   &lt;xs:sequence>
- *     &lt;xs:element type="xs:string" name="GoodDescription" maxOccurs="4"/>
- *     &lt;xs:element type="xs:string" name="GoodsTNVEDCode"/>
- *     &lt;xs:element type="xs:string" name="Cost" minOccurs="0"/>
- *     &lt;xs:element type="ns:SupplementaryQuantityType" name="GoodsQuantity" minOccurs="0"/>
+ *     &lt;xs:element type="xs:string" name="GoodsNumber"/>
+ *     &lt;xs:element type="ns:ProfileRefType" name="ProfileRef" maxOccurs="unbounded"/>
  *   &lt;/xs:sequence>
  * &lt;/xs:complexType>
  * </pre>
  */
 public class GoodsType
 {
-    private List<String> goodDescriptionList = new ArrayList<String>();
-    private String goodsTNVEDCode;
-    private String cost;
-    private SupplementaryQuantityType goodsQuantity;
+    private String goodsNumber;
+    private List<ProfileRefType> profileRefList = new ArrayList<ProfileRefType>();
 
     /** 
-     * Get the list of 'GoodDescription' element items. Наименование товара
+     * Get the 'GoodsNumber' element value. Порядковый номер товара
+     * 
+     * @return value
+     */
+    public String getGoodsNumber() {
+        return goodsNumber;
+    }
+
+    /** 
+     * Set the 'GoodsNumber' element value. Порядковый номер товара
+     * 
+     * @param goodsNumber
+     */
+    public void setGoodsNumber(String goodsNumber) {
+        this.goodsNumber = goodsNumber;
+    }
+
+    /** 
+     * Get the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретный товар
      * 
      * @return list
      */
-    public List<String> getGoodDescriptionList() {
-        return goodDescriptionList;
+    public List<ProfileRefType> getProfileRefList() {
+        return profileRefList;
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. Наименование товара
+     * Set the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретный товар
      * 
      * @param list
      */
-    public void setGoodDescriptionList(List<String> list) {
-        goodDescriptionList = list;
-    }
-
-    /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
-     * 
-     * @return value
-     */
-    public String getGoodsTNVEDCode() {
-        return goodsTNVEDCode;
-    }
-
-    /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
-     * 
-     * @param goodsTNVEDCode
-     */
-    public void setGoodsTNVEDCode(String goodsTNVEDCode) {
-        this.goodsTNVEDCode = goodsTNVEDCode;
-    }
-
-    /** 
-     * Get the 'Cost' element value. Стоимость товара
-     * 
-     * @return value
-     */
-    public String getCost() {
-        return cost;
-    }
-
-    /** 
-     * Set the 'Cost' element value. Стоимость товара
-     * 
-     * @param cost
-     */
-    public void setCost(String cost) {
-        this.cost = cost;
-    }
-
-    /** 
-     * Get the 'GoodsQuantity' element value. Количество товара
-     * 
-     * @return value
-     */
-    public SupplementaryQuantityType getGoodsQuantity() {
-        return goodsQuantity;
-    }
-
-    /** 
-     * Set the 'GoodsQuantity' element value. Количество товара
-     * 
-     * @param goodsQuantity
-     */
-    public void setGoodsQuantity(SupplementaryQuantityType goodsQuantity) {
-        this.goodsQuantity = goodsQuantity;
+    public void setProfileRefList(List<ProfileRefType> list) {
+        profileRefList = list;
     }
 }

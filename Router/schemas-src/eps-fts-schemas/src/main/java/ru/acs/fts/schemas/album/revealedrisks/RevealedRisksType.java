@@ -14,7 +14,11 @@ public class RevealedRisksType extends BaseDocType
     private String GTDDocumentID;
     private List<RevealledRisksType> revealledRiskList = new ArrayList<RevealledRisksType>();
     private List<RiskInfType> riskInfList = new ArrayList<RiskInfType>();
-    private GTDIDType GTDID;
+    private int docIDSelect = -1;
+    private static final int DOC_IDDT_REG_NUM_CHOICE = 0;
+    private static final int DOC_IDMPO_REG_NUM_CHOICE = 1;
+    private GTDIDType docIDDTRegNum;
+    private MPORegNumType docIDMPORegNum;
     private String documentModeID;
 
     /** 
@@ -36,7 +40,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RevealledRisks' element items. ДТ - выявленные риски
+     * Get the list of 'RevealledRisks' element items. Выявленные риски
      * 
      * @return list
      */
@@ -45,7 +49,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RevealledRisks' element items. ДТ - выявленные риски
+     * Set the list of 'RevealledRisks' element items. Выявленные риски
      * 
      * @param list
      */
@@ -54,7 +58,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков
+     * Get the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков (Резерв)
      * 
      * @return list
      */
@@ -63,7 +67,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков
+     * Set the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков (Резерв)
      * 
      * @param list
      */
@@ -71,22 +75,76 @@ public class RevealedRisksType extends BaseDocType
         riskInfList = list;
     }
 
-    /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ.
-     * 
-     * @return value
-     */
-    public GTDIDType getGTDID() {
-        return GTDID;
+    private void setDocIDSelect(int choice) {
+        if (docIDSelect == -1) {
+            docIDSelect = choice;
+        } else if (docIDSelect != choice) {
+            throw new IllegalStateException(
+                    "Need to call clearDocIDSelect() before changing existing choice");
+        }
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ.
-     * 
-     * @param GTDID
+     * Clear the choice selection.
      */
-    public void setGTDID(GTDIDType GTDID) {
-        this.GTDID = GTDID;
+    public void clearDocIDSelect() {
+        docIDSelect = -1;
+    }
+
+    /** 
+     * Check if DocIDDTRegNum is current selection for choice.
+     * 
+     * @return <code>true</code> if selection, <code>false</code> if not
+     */
+    public boolean ifDocIDDTRegNum() {
+        return docIDSelect == DOC_IDDT_REG_NUM_CHOICE;
+    }
+
+    /** 
+     * Get the 'DTRegNum' element value. Регистрационный номер ДТ / реестра экспресс-грузов
+     * 
+     * @return value
+     */
+    public GTDIDType getDocIDDTRegNum() {
+        return docIDDTRegNum;
+    }
+
+    /** 
+     * Set the 'DTRegNum' element value. Регистрационный номер ДТ / реестра экспресс-грузов
+     * 
+     * @param docIDDTRegNum
+     */
+    public void setDocIDDTRegNum(GTDIDType docIDDTRegNum) {
+        setDocIDSelect(DOC_IDDT_REG_NUM_CHOICE);
+        this.docIDDTRegNum = docIDDTRegNum;
+    }
+
+    /** 
+     * Check if DocIDMPORegNum is current selection for choice.
+     * 
+     * @return <code>true</code> if selection, <code>false</code> if not
+     */
+    public boolean ifDocIDMPORegNum() {
+        return docIDSelect == DOC_IDMPO_REG_NUM_CHOICE;
+    }
+
+    /** 
+     * Get the 'MPORegNum' element value. Регистрационный номер МПО
+     * 
+     * @return value
+     */
+    public MPORegNumType getDocIDMPORegNum() {
+        return docIDMPORegNum;
+    }
+
+    /** 
+     * Set the 'MPORegNum' element value. Регистрационный номер МПО
+     * 
+     * @param docIDMPORegNum
+     */
+    public void setDocIDMPORegNum(MPORegNumType docIDMPORegNum) {
+        setDocIDSelect(DOC_IDMPO_REG_NUM_CHOICE);
+        this.docIDMPORegNum = docIDMPORegNum;
     }
 
     /** 

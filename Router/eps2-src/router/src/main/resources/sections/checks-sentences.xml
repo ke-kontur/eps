@@ -1452,9 +1452,9 @@
     <ch:checksSentence id="suppliesClaimCheckSentence_Full11146" >
         <ch:clause op="" >
             <ch:containerCheck>
-                <id1006200E>1</id1006200E> <!-- RepresApplicChange -->
+                <id1006200E>-3</id1006200E> <!-- RepresApplicChange -->
                 <id1006181E>1</id1006181E> <!-- RepresentativeApplication -->
-
+                <id1006003E>1</id1006003E> <!-- Inventory -->
             </ch:containerCheck>
         </ch:clause>
     </ch:checksSentence>
@@ -1962,6 +1962,16 @@
                 <id1006003E>1</id1006003E> <!-- Inventory -->
                 <id1006111E>-3</id1006111E> <!-- KDTout_CU -->
                 <id1004115E>-3</id1004115E> <!-- DeclChangeRequest -->
+            </ch:containerCheck>
+        </ch:clause>
+    </ch:checksSentence>
+
+    <ch:checksSentence id="cmn11106CheckSentence" >
+        <ch:clause op="" >
+            <ch:containerCheck>
+                <id1006177E>1</id1006177E> <!-- MPO_Declaration -->
+                <id1006197E>1</id1006197E> <!-- NotifMPORegistration -->
+                <id1006191E>1</id1006191E> <!-- RepresApplicStatInfo -->
             </ch:containerCheck>
         </ch:clause>
     </ch:checksSentence>

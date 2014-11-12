@@ -2,6 +2,7 @@ package ru.acs.fts.aud.router.processing.jobs;
 
 import java.io.IOException;
 
+import org.jibx.runtime.JiBXException;
 import ru.acs.fts.aud.model.entities.ArchiveRequest;
 import ru.acs.fts.aud.router.objects.AudEnvelope;
 import ru.acs.fts.aud.router.processing.AudJobBatchContext;
@@ -51,9 +52,8 @@ public class SaveRequestJob extends AudJob
 		return ACTION;
 	}
 	
-	private byte[ ] getRequestDocumentData( AudEnvelope envelope ) 
-		throws IOException 
-	{
+	private byte[ ] getRequestDocumentData( AudEnvelope envelope )
+            throws IOException, JiBXException {
 		Object obj = envelope.getDocument( ).getNakedDocument( );
 		
 		EnvelopeMarshaller envMarshaller = new EnvelopeMarshaller( );		

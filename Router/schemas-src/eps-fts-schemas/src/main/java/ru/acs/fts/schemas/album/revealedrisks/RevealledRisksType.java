@@ -6,10 +6,11 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * ДТ - выявленные риски
+ * Выявленные риски
  */
 public class RevealledRisksType
 {
+    private boolean consigment;
     private String goodsNumeric;
     private String riskProfileType;
     private String terrActionCode;
@@ -17,6 +18,7 @@ public class RevealledRisksType
     private String riskProfileNumber;
     private String riskProfileNumberVersion;
     private String criteriionCode;
+    private String activityCode;
     private String pointCode;
     private LocalDate pointDate;
     private String pointTime;
@@ -29,7 +31,25 @@ public class RevealledRisksType
     private List<AddNonFormInfoRiskProfileType> addNonFormInfoRiskProfileList = new ArrayList<AddNonFormInfoRiskProfileType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск. 0 - если выявленный риск распространяется на все товары
+     * Check if the 'Consigment' element is present.
+     * 
+     * @return <code>true</code> if present, <code>false</code> if not
+     */
+    public boolean ifConsigmentPresent() {
+        return consigment;
+    }
+
+    /** 
+     * Set flag for 'Consigment' element present.
+     * 
+     * @param consigment
+     */
+    public void flagConsigmentPresent(boolean consigment) {
+        this.consigment = consigment;
+    }
+
+    /** 
+     * Get the 'GoodsNumeric' element value. Номер товара, по которому выявлен риск. 0 - если выявленный риск распространяется на все товары
      * 
      * @return value
      */
@@ -38,7 +58,7 @@ public class RevealledRisksType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск. 0 - если выявленный риск распространяется на все товары
+     * Set the 'GoodsNumeric' element value. Номер товара, по которому выявлен риск. 0 - если выявленный риск распространяется на все товары
      * 
      * @param goodsNumeric
      */
@@ -152,6 +172,24 @@ public class RevealledRisksType
      */
     public void setCriteriionCode(String criteriionCode) {
         this.criteriionCode = criteriionCode;
+    }
+
+    /** 
+     * Get the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
+     * 
+     * @return value
+     */
+    public String getActivityCode() {
+        return activityCode;
+    }
+
+    /** 
+     * Set the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
+     * 
+     * @param activityCode
+     */
+    public void setActivityCode(String activityCode) {
+        this.activityCode = activityCode;
     }
 
     /** 

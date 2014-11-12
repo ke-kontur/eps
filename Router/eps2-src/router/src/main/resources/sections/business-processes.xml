@@ -303,21 +303,34 @@
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageADM11020BusinessProcess" />
 			
 	<!-- Бизнес процесс для обработки сообщения ADM.15001 на внешнем (удаленном) РТУ -->
-	<bean id="ADM15001BusinessProcess" parent="businessProcessBase" 
-			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageADM15001BusinessProcess" />
+    <bean id="ADM15001BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageADM15001BusinessProcess" />
+
+    <!-- Бизнес процесс для обработки сообщения ADM.12016 на внешнем (удаленном) РТУ -->
+    <bean id="ADM12016BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageADM12016BusinessProcess" />
 		
 	<!-- Бизнес процесс для обработки сообщения MSG.15001 на локальном РТУ -->
 	<bean id="MSG15001BusinessProcess" parent="businessProcessBase" 
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG15001BusinessProcess" />
+
+    <!-- Бизнес процесс для обработки сообщения MSG.12016 на локальном РТУ -->
+    <bean id="MSG12016BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG12016BusinessProcess" />
 			
 	<bean id="MSGAsktt2AistmBusinessProcess" parent="businessProcessBase" 
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSGAsktt2AistmBusinessProcess" />
 			
 	<bean id="MSGAistmAsktt2BusinessProcess" parent="businessProcessBase" 
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSGAistmAsktt2BusinessProcess" />
-			
-	
-      <bean id="CMN11072BusinessProcess" parent="businessProcessBase"
+
+    <bean id="MSG12018BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG12018BusinessProcess" />
+
+    <bean id="CMN11134BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11134BusinessProcess" />
+
+    <bean id="CMN11072BusinessProcess" parent="businessProcessBase"
               class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11072BusinessProcess" />
 
     <!-- Бизнес процесс для обработки сообщения CMN.15020 -->
@@ -335,9 +348,16 @@
 	<!-- Бизнес процесс для обработки сообщения CMN.11005 -->
 	<bean id="CMN11005BusinessProcess" parent="businessProcessBase" 
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11005BusinessProcess" />
+
+	<!-- Бизнес процесс для обработки сообщения CMN.11005 -->
+	<bean id="CMN11095BusinessProcess" parent="businessProcessBase"
+		  class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11095BusinessProcess" />
 				
 	<bean id="MSG15002BusinessProcess" parent="businessProcessBase" 
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG15002BusinessProcess" />
+
+    <bean id="MSG12017BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG12017BusinessProcess" />
 			
 	<bean id="MSG11022RemoteEpsBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG11022RemoteEpsBusinessProcess" />
@@ -455,9 +475,18 @@
 			
 	<bean id="CMN11092BusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11092BusinessProcess" />
+
+	<bean id="CMN11127BusinessProcess" parent="businessProcessBase"
+		  class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11127BusinessProcess" />
 			
 	<bean id="MSG11052BusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG11052BusinessProcess" />
+
+    <bean id="CMN11106BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11106BusinessProcess" />
+
+    <!--<bean id="CMN11106BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11106BusinessProcess" />-->
 			
 	<bean id="MSG11060BusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG11060BusinessProcess" />
@@ -504,6 +533,9 @@
 			
 	<bean id="TranzitInProcRemotenessBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.TranzitInProcRemotenesBusinessProcess" />
+
+	<bean id="TranzitInProcRemoteness11121" parent="businessProcessBase"
+		  class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.TranzitInProcRemotenes11121" />
 			
 	<bean id="TranzitInProcRemotenessRemoteBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.TranzitInProcRemotenesRemoteBusinessProcess" />

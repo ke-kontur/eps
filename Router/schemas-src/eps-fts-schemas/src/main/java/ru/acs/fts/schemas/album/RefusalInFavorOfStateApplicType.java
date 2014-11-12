@@ -36,7 +36,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     private String totalCost;
     private List<String> reasonList = new ArrayList<String>();
     private CUOrganizationType declarant;
-    private List<GoodsType> goodList = new ArrayList<GoodsType>();
+    private List<GoodsType2> goodList = new ArrayList<GoodsType2>();
     private AddressType goodsPlace;
     private CustomsType customs;
     private AddressType storagePlace;
@@ -101,7 +101,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
      * 
      * @return list
      */
-    public List<GoodsType> getGoodList() {
+    public List<GoodsType2> getGoodList() {
         return goodList;
     }
 
@@ -110,7 +110,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
      * 
      * @param list
      */
-    public void setGoodList(List<GoodsType> list) {
+    public void setGoodList(List<GoodsType2> list) {
         goodList = list;
     }
 

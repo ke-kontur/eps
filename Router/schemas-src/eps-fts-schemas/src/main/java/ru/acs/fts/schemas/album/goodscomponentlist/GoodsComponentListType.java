@@ -3,7 +3,6 @@ package ru.acs.fts.schemas.album.goodscomponentlist;
 
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
-import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ComponentsListType;
 
 /** 
  * Поставка компонентами - Список компонентов

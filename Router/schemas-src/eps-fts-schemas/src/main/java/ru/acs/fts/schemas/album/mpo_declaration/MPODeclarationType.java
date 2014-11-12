@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
  * Таможенная декларация товаров, пересылаемых в МПО
@@ -15,20 +14,26 @@ public class MPODeclarationType extends BaseDocType
     private String feedBillAgency;
     private LocalDate feedBillDate;
     private String MPONumber;
+    private String docSign;
+    private String PIRegID;
     private List<String> consignmentCategoryList = new ArrayList<String>();
     private String explication;
     private List<String> postalFeeList = new ArrayList<String>();
     private String totalCost;
     private String currencyCode;
+    private String departureCountry;
+    private String destinationCountry;
     private String totalGrossWeight;
     private String MPOFactWeight;
     private String comment;
     private String designatedOperator;
-    private CUOrganizationType consignee;
+    private String MMPOName;
+    private ConsigneeType consignee;
     private ImporterType importer;
     private ConsignorType consignor;
     private List<DocumentInfoType> documentInfoList = new ArrayList<DocumentInfoType>();
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
+    private InformationType information;
     private String documentModeID;
 
     /** 
@@ -83,6 +88,42 @@ public class MPODeclarationType extends BaseDocType
      */
     public void setMPONumber(String MPONumber) {
         this.MPONumber = MPONumber;
+    }
+
+    /** 
+     * Get the 'DocSign' element value. Тип информации: 0 - основная, 1-предварительная
+     * 
+     * @return value
+     */
+    public String getDocSign() {
+        return docSign;
+    }
+
+    /** 
+     * Set the 'DocSign' element value. Тип информации: 0 - основная, 1-предварительная
+     * 
+     * @param docSign
+     */
+    public void setDocSign(String docSign) {
+        this.docSign = docSign;
+    }
+
+    /** 
+     * Get the 'PI_RegID' element value. Регистрационный номер предварительной информации об МПО
+     * 
+     * @return value
+     */
+    public String getPIRegID() {
+        return PIRegID;
+    }
+
+    /** 
+     * Set the 'PI_RegID' element value. Регистрационный номер предварительной информации об МПО
+     * 
+     * @param PIRegID
+     */
+    public void setPIRegID(String PIRegID) {
+        this.PIRegID = PIRegID;
     }
 
     /** 
@@ -176,6 +217,42 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
+     * Get the 'DepartureCountry' element value. Страна отправления товара
+     * 
+     * @return value
+     */
+    public String getDepartureCountry() {
+        return departureCountry;
+    }
+
+    /** 
+     * Set the 'DepartureCountry' element value. Страна отправления товара
+     * 
+     * @param departureCountry
+     */
+    public void setDepartureCountry(String departureCountry) {
+        this.departureCountry = departureCountry;
+    }
+
+    /** 
+     * Get the 'DestinationCountry' element value. Страна назначения товара
+     * 
+     * @return value
+     */
+    public String getDestinationCountry() {
+        return destinationCountry;
+    }
+
+    /** 
+     * Set the 'DestinationCountry' element value. Страна назначения товара
+     * 
+     * @param destinationCountry
+     */
+    public void setDestinationCountry(String destinationCountry) {
+        this.destinationCountry = destinationCountry;
+    }
+
+    /** 
      * Get the 'TotalGrossWeight' element value. Общий вес товара, брутто (кг)
      * 
      * @return value
@@ -248,11 +325,29 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
+     * Get the 'MMPOName' element value. Наименование ММПО
+     * 
+     * @return value
+     */
+    public String getMMPOName() {
+        return MMPOName;
+    }
+
+    /** 
+     * Set the 'MMPOName' element value. Наименование ММПО
+     * 
+     * @param MMPOName
+     */
+    public void setMMPOName(String MMPOName) {
+        this.MMPOName = MMPOName;
+    }
+
+    /** 
      * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
-    public CUOrganizationType getConsignee() {
+    public ConsigneeType getConsignee() {
         return consignee;
     }
 
@@ -261,7 +356,7 @@ public class MPODeclarationType extends BaseDocType
      * 
      * @param consignee
      */
-    public void setConsignee(CUOrganizationType consignee) {
+    public void setConsignee(ConsigneeType consignee) {
         this.consignee = consignee;
     }
 
@@ -335,6 +430,24 @@ public class MPODeclarationType extends BaseDocType
      */
     public void setGoodList(List<GoodsType> list) {
         goodList = list;
+    }
+
+    /** 
+     * Get the 'Information' element value. Дополнительная информация
+     * 
+     * @return value
+     */
+    public InformationType getInformation() {
+        return information;
+    }
+
+    /** 
+     * Set the 'Information' element value. Дополнительная информация
+     * 
+     * @param information
+     */
+    public void setInformation(InformationType information) {
+        this.information = information;
     }
 
     /** 

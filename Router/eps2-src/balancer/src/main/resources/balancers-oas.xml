@@ -105,6 +105,15 @@
 						</bean>
 					</list>
 				</entry>
+				<entry key="5.4.5/3.3.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5405DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5405.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
 			</map>
 		</property>
     </bean>
@@ -203,6 +212,15 @@
 							<property name="destination" ref="jndiEPS5403CustomsFrom" />
 							<property name="jmsTemplate" ref="jmsTemplateRouter" />
 							<property name="description" value="WLS(local):EPS5403.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.5/3.3.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5405CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5405.CUSTOMS.FROM" />
 						</bean>
 					</list>
 				</entry>
@@ -327,6 +345,15 @@
 						</bean>
 					</list>
 				</entry>
+				<entry key="5.4.5/3.3.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5405EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5405.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
     		</map>
     	</property>
     </bean>
@@ -425,6 +452,15 @@
 							<property name="destination" ref="jndiEPS5403AdminFrom" />
 							<property name="jmsTemplate" ref="jmsTemplateRouter" />
 							<property name="description" value="WLS(local):EPS5403.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.5/3.3.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5405AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5405.ADMIN.FROM" />
 						</bean>
 					</list>
 				</entry>

@@ -19,6 +19,7 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 
+import org.jibx.runtime.JiBXException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Required;
@@ -355,9 +356,8 @@ public class OverallParserJob extends EDJob
 		return baos.toByteArray( );
 	}		
 	
-	public void putDummy( Document doc, Node parent, DocumentBuilder db ) 
-		throws IOException, SAXException
-	{
+	public void putDummy( Document doc, Node parent, DocumentBuilder db )
+            throws IOException, SAXException, JiBXException {
 		ReqOpenProcType openProc = new ReqOpenProcType( );
 		openProc.setDocumentModeID( DocumentModeIDs.REQ_OPEN_PROC );
 		openProc.setDocumentID( UUIDGen.getUUID( ).toString( ) );

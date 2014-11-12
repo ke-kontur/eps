@@ -16,6 +16,7 @@ public class ProfilesType
     private LocalDate beginDate;
     private String documentDescription;
     private String PRNote;
+    private String activityCode;
     private CriterionCodeInfoType criterionCodeInfo;
     private MinimizeMeasuresType minimizeMeasures;
     private String ID;
@@ -162,6 +163,24 @@ public class ProfilesType
      */
     public void setPRNote(String PRNote) {
         this.PRNote = PRNote;
+    }
+
+    /** 
+     * Get the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
+     * 
+     * @return value
+     */
+    public String getActivityCode() {
+        return activityCode;
+    }
+
+    /** 
+     * Set the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
+     * 
+     * @param activityCode
+     */
+    public void setActivityCode(String activityCode) {
+        this.activityCode = activityCode;
     }
 
     /** 

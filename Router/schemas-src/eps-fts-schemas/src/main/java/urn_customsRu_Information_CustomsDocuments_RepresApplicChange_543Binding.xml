@@ -11,7 +11,7 @@
   <mapping class="ru.acs.fts.schemas.album.RepresApplicChangeType" name="RepresApplicChange">
     <structure map-as="rapc:RepresApplicChangeType"/>
   </mapping>
-  <mapping abstract="true" type-name="rapc:ConsignmentType" class="ru.acs.fts.schemas.album.ConsignmentType">
+  <mapping abstract="true" type-name="rapc:ConsignmentType" class="ru.acs.fts.schemas.album.ConsignmentType1">
     <value style="element" name="ListNumeric" get-method="getListNumeric" set-method="setListNumeric"/>
     <structure map-as="cat_ru:DocumentBaseType" get-method="getIndividualWayBill" set-method="setIndividualWayBill" name="IndividualWayBill"/>
     <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>

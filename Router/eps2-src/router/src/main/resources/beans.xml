@@ -603,6 +603,7 @@
     	<entry key="CMN.11076" value-ref="cmn11076CheckSentence" />
     	<entry key="CMN.11090" value-ref="cmn11076CheckSentence" /> <!-- Именно так -->
     	<entry key="CMN.11096" value-ref="cmn11096CheckSentence" />
+        <entry key="CMN.11106" value-ref="cmn11106CheckSentence" />
         <entry key="CMN.11149" value-ref="cmn11096CheckSentence" />
         <entry key="CMN.11151" value-ref="cmn11096CheckSentence" />
     	<entry key="CMN.11128" value-ref="cmn11128CheckSentence" />
@@ -617,6 +618,7 @@
     	<entry key="CMN.12083" value-ref="cmn12079CheckSentence" /> <!-- Именно так -->
     	<entry key="CMN.12087" value-ref="cmn12087CheckSentence" />
     	<entry key="CMN.12094" value-ref="cmn12094CheckSentence" />
+        <entry key="CMN.12124" value-ref="cmn12094CheckSentence" />
     	<entry key="CMN.12095" value-ref="cmn12095CheckSentence" />
     	
     	<entry key="CMN.12101" value-ref="cmn12095CheckSentence" /> <!-- Именно так -->

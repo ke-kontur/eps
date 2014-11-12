@@ -1,11 +1,11 @@
-<binding xmlns:ns2="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
+<binding xmlns:ns4="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
   <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" default="elements"/>
-  <mapping abstract="true" type-name="ns2:ArchDocStatusResponseType" class="ru.acs.fts.schemas.album.archdocstatusresponse.ArchDocStatusResponseType">
+  <mapping abstract="true" type-name="ns4:ArchDocStatusResponseType" class="ru.acs.fts.schemas.album.archdocstatusresponse.ArchDocStatusResponseType">
     <structure map-as="catArch_ru:ArchBaseDocType"/>
     <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus"/>
     <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
   </mapping>
   <mapping class="ru.acs.fts.schemas.album.archdocstatusresponse.ArchDocStatusResponseType" name="ArchDocStatusResponse">
-    <structure map-as="ns2:ArchDocStatusResponseType"/>
+    <structure map-as="ns4:ArchDocStatusResponseType"/>
   </mapping>
 </binding>

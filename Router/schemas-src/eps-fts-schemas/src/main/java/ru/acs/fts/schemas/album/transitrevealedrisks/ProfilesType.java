@@ -17,6 +17,7 @@ public class ProfilesType
     private String documentDescription;
     private String PRNote;
     private CriterionCodeInfoType criterionCodeInfo;
+    private String activityCode;
     private MinimizeMeasuresType minimizeMeasures;
     private String ID;
 
@@ -180,6 +181,24 @@ public class ProfilesType
      */
     public void setCriterionCodeInfo(CriterionCodeInfoType criterionCodeInfo) {
         this.criterionCodeInfo = criterionCodeInfo;
+    }
+
+    /** 
+     * Get the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
+     * 
+     * @return value
+     */
+    public String getActivityCode() {
+        return activityCode;
+    }
+
+    /** 
+     * Set the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
+     * 
+     * @param activityCode
+     */
+    public void setActivityCode(String activityCode) {
+        this.activityCode = activityCode;
     }
 
     /** 

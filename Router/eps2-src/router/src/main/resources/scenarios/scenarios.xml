@@ -26,6 +26,10 @@
 	<import resource="adm00010.xml" />
 	<import resource="adm10005.xml" />
 	<import resource="adm11020.xml" />
+    <import resource="adm12016.xml" />
+    <import resource="adm12017.xml" />
+    <import resource="adm12018.xml" />
+    <import resource="adm12019.xml" />
 	<import resource="adm15001.xml"/>
 	<import resource="adm15002.xml"/>
 	<import resource="adm15005.xml"/>
@@ -79,8 +83,10 @@
     <import resource="cmn11096.xml"/>
     <import resource="cmn11097.xml"/>
     <import resource="cmn11103.xml"/>
+    <import resource="cmn11106.xml"/>
     <import resource="cmn11111.xml"/>
     <import resource="cmn11122.xml"/>
+    <import resource="cmn11134.xml"/>
     <import resource="cmn11138.xml"/>
     <import resource="cmn11139.xml"/>
     <import resource="cmn11140.xml"/>
@@ -149,6 +155,9 @@
     <import resource="msg11060.xml" />
     <import resource="msg11066.xml" />
     <import resource="msg11066_remote.xml" />
+    <import resource="msg12016.xml" />
+    <import resource="msg12017.xml" />
+    <import resource="msg12018.xml" />
     <import resource="msg13007_remote_in.xml" />
     <import resource="msg15001.xml"/>
     <import resource="msg15002.xml"/>
@@ -204,6 +213,10 @@
     <import resource="tranzitInProc.xml"/>
     <import resource="tranzitInProc11119.xml"/>
     <import resource="tranzitInProcContainer.xml" />
+    <import resource="tranzitInProcToMalakhit.xml" />
+    <import resource="admFromUPIToDecl.xml" />
+    <import resource="admFromDeclToPITransit.xml" />
+    <import resource="tranzitToDeclMayBeFromPI.xml" />
     <import resource="tranzitInProcContainerToPIClearSign.xml" />
     <import resource="tranzitInProcWithBusinessProcess.xml" />
     <import resource="tranzitOutOfProc.xml"/> <!-- semi ok, tocheck -->

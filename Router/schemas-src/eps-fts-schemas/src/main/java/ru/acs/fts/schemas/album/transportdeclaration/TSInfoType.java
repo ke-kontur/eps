@@ -10,8 +10,10 @@ public class TSInfoType
     private String model;
     private String kind;
     private String regNumber;
+    private String transportNationalityCode;
     private String countryName;
     private String VINID;
+    private String transportModeCode;
 
     /** 
      * Get the 'Mark' element value. Марка
@@ -86,7 +88,25 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'CountryName' element value. Страна регистрации транспортного средства. Если страна, в которой зарегистрировано ТС, на момент декларирования неизвестна, то указываются два нуля "00"
+     * Get the 'TransportNationalityCode' element value. Буквенный код страны принадлежности (регистрации) транспортных средств по классификатору стран мира. 00-неизвестна
+     * 
+     * @return value
+     */
+    public String getTransportNationalityCode() {
+        return transportNationalityCode;
+    }
+
+    /** 
+     * Set the 'TransportNationalityCode' element value. Буквенный код страны принадлежности (регистрации) транспортных средств по классификатору стран мира. 00-неизвестна
+     * 
+     * @param transportNationalityCode
+     */
+    public void setTransportNationalityCode(String transportNationalityCode) {
+        this.transportNationalityCode = transportNationalityCode;
+    }
+
+    /** 
+     * Get the 'CountryName' element value. Краткое наименование страны регистрации ТСМП в соответствии с классификатором стран мира.
      * 
      * @return value
      */
@@ -95,7 +115,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'CountryName' element value. Страна регистрации транспортного средства. Если страна, в которой зарегистрировано ТС, на момент декларирования неизвестна, то указываются два нуля "00"
+     * Set the 'CountryName' element value. Краткое наименование страны регистрации ТСМП в соответствии с классификатором стран мира.
      * 
      * @param countryName
      */
@@ -119,5 +139,23 @@ public class TSInfoType
      */
     public void setVINID(String VINID) {
         this.VINID = VINID;
+    }
+
+    /** 
+     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
+     * 
+     * @return value
+     */
+    public String getTransportModeCode() {
+        return transportModeCode;
+    }
+
+    /** 
+     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
+     * 
+     * @param transportModeCode
+     */
+    public void setTransportModeCode(String transportModeCode) {
+        this.transportModeCode = transportModeCode;
     }
 }

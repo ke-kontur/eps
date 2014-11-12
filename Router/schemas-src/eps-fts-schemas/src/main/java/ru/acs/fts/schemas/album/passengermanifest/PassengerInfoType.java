@@ -16,6 +16,7 @@ public class PassengerInfoType
     private String placesQuantity;
     private String weightUnitQualifierCode;
     private String grossWeightQuantity;
+    private LuggageTagType luggageTag;
     private String comment;
     private String passClass;
     private LocalDate birthDate;
@@ -133,6 +134,24 @@ public class PassengerInfoType
      */
     public void setGrossWeightQuantity(String grossWeightQuantity) {
         this.grossWeightQuantity = grossWeightQuantity;
+    }
+
+    /** 
+     * Get the 'LuggageTag' element value. Багажные бирки пассажира
+     * 
+     * @return value
+     */
+    public LuggageTagType getLuggageTag() {
+        return luggageTag;
+    }
+
+    /** 
+     * Set the 'LuggageTag' element value. Багажные бирки пассажира
+     * 
+     * @param luggageTag
+     */
+    public void setLuggageTag(LuggageTagType luggageTag) {
+        this.luggageTag = luggageTag;
     }
 
     /** 

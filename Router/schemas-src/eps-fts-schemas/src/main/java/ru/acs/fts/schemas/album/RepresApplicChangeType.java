@@ -29,7 +29,7 @@ public class RepresApplicChangeType extends BaseDocType
     private RepresentativeType representative;
     private String changeType;
     private GTDIDType applicationRegNumber;
-    private ConsignmentType consignment;
+    private ConsignmentType1 consignment;
     private String documentModeID;
 
     /** 
@@ -91,7 +91,7 @@ public class RepresApplicChangeType extends BaseDocType
      * 
      * @return value
      */
-    public ConsignmentType getConsignment() {
+    public ConsignmentType1 getConsignment() {
         return consignment;
     }
 
@@ -100,7 +100,7 @@ public class RepresApplicChangeType extends BaseDocType
      * 
      * @param consignment
      */
-    public void setConsignment(ConsignmentType consignment) {
+    public void setConsignment(ConsignmentType1 consignment) {
         this.consignment = consignment;
     }
 

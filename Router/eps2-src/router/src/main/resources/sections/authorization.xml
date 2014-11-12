@@ -157,7 +157,8 @@
     								<value>CMN.11104</value>
     								<value>CMN.11108</value>
     								<value>CMN.11110</value>
-
+                                    <value>CMN.11127</value>
+                                    <value>CMN.11132</value>
                                     <value>CMN.11144</value>
     								
     								<value>CMN.12102</value>
@@ -304,6 +305,7 @@
     								<value>CMN.11097</value>
     								<value>CMN.11099</value>
                                     <value>CMN.11100</value>
+                                    <value>CMN.11131</value>
     								<value>CMN.11101</value>
     								<value>CMN.11102</value>
                                     <value>CMN.11105</value>

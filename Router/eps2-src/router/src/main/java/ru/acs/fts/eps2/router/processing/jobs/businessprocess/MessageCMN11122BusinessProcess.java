@@ -16,6 +16,7 @@ import ru.acs.fts.eps2.model.entities.Edecl_Proc_Information;
 import ru.acs.fts.eps2.model.services.CustomsService;
 import ru.acs.fts.eps2.model.services.EnvelopeService;
 import ru.acs.fts.eps2.router.defines.BusinessSystems;
+import ru.acs.fts.eps2.router.defines.ProcedureUdFlags;
 import ru.acs.fts.eps2.router.errors.ErrorHelper;
 import ru.acs.fts.eps2.router.errors.ResultTypeException;
 import ru.acs.fts.eps2.router.objects.EDDocument;
@@ -48,6 +49,7 @@ public class MessageCMN11122BusinessProcess extends BusinessProcess
 	private final static String cmn00004notifName = "cmn00004notif";	
 	private final static String msgLocalTransitName = "msgLocalTransit";	
 	private final static String msgRemoteTransitName = "msgRemoteTransit";
+	private final static String adm11122RemoteTransitName = "adm11122Transit";
 	
 	@Override
 	public void executeProcess( EDJobBatchContext jobBatchContext, JobContext jobContext ) 
@@ -63,8 +65,10 @@ public class MessageCMN11122BusinessProcess extends BusinessProcess
 		{
 			String borderCustCode = process.getBorderCustCode( );
 			String senderCustCode = recvEnv.getSenderCustoms( ).getCustomsCode( );
-
-			if ( RemotenessHelper.areCustomsLocal( senderCustCode, borderCustCode ) )
+			if ( ProcedureUdFlags.isRrwTransit(process.getUdFlag()) ) {
+				envelopes.add( prepareAdmRemoteTransit(jobBatchContext, recvEnv, process) );
+			}
+			else if ( RemotenessHelper.areCustomsLocal( senderCustCode, borderCustCode ) )
 			{
 				envelopes.add( prepareCmnTransit( jobBatchContext ) );
 				envelopes.add( prepareMsgLocalTransit( jobBatchContext, recvEnv, process ) );
@@ -157,6 +161,31 @@ public class MessageCMN11122BusinessProcess extends BusinessProcess
 		
 		transit.setSaveEnvelope( true );
 				
+		return transit;
+	}
+
+	private EDEnvelope prepareAdmRemoteTransit(
+			EDJobBatchContext jobBatchContext,
+			EDEnvelope recvEnv,
+			Edecl_Proc_Information process )
+			throws ResultTypeException, DatabaseException
+	{
+		EDEnvelope transit = ( EDEnvelope ) jobBatchContext.get( adm11122RemoteTransitName );
+
+		CustomsType senderCustoms = recvEnv.getSenderCustoms( );
+
+		CustomsType receiverCustoms = new CustomsType( );
+		receiverCustoms.setCustomsCode( process.getBorderCustCode( ) );
+		receiverCustoms.setExchType( Integer.toString( process.getExchType( ) ) );
+
+		EnvelopeCreator.reRouteMessage(
+				transit, senderCustoms,
+				BusinessSystems.EPS, receiverCustoms,
+				null, transit.getIncomeEnvelopeID( )
+		);
+
+		transit.setSaveEnvelope( true );
+
 		return transit;
 	}
 	

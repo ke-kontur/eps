@@ -379,7 +379,6 @@ public class EdarchOperator extends BaseOperator
 				{
 					if ( current != 0 )
 						sb.append( current );
-
 					else
 						i--;
 				}

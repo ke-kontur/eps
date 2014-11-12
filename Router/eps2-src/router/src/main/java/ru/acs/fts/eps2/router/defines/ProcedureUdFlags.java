@@ -28,6 +28,8 @@ public class ProcedureUdFlags
 	 * Оформление транзита товаров при обмене с РЖД (Russian RailWays)
 	 */
 	public static final int RRW_TRANSIT = 4;
+
+	public static final int UPI_TRANSIT = 5;
 	
 	public static boolean isNoRemoteness( int flag )
 	{
@@ -52,6 +54,11 @@ public class ProcedureUdFlags
 	public static boolean isRrwTransit( int flag )
 	{
 		return RRW_TRANSIT == flag;
+	}
+
+	public static boolean isUPITransit( int flag )
+	{
+		return UPI_TRANSIT == flag;
 	}
 	
 	public static boolean isTrivialRemoteness( int flag )

@@ -15,25 +15,25 @@
 	<!-- jndi для очереди сообщений от декларанта -->	
 	<bean id="inputDeclQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
 		<!--<property name="jndiName" value="eps2config/inputDeclQueue" />-->
-		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5403331decl" />
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5405332decl" />
 	</bean>
 	
 	<!-- jndi для очереди сообщений от таможенного поста -->
 	<bean id="inputCustomsQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
 		<!--<property name="jndiName" value="eps2config/inputCustomsQueue" />-->
-		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5403331customs" />
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5405332customs" />
 	</bean>
 	
 	<!-- jndi для очереди сообщений от другой электрички -->
 	<bean id="inputEPSQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
 		<!--<property name="jndiName" value="eps2config/inputEPSQueue" />-->
-		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5403331eps"/>
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5405332eps"/>
 	</bean>
 	
 	<!-- jndi для очереди сообщений от администратора -->
 	<bean id="inputAdminQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
 		<!--<property name="jndiName" value="eps2config/inputAdminQueue" />-->
-		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5403331admin" />
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5405332admin" />
 	</bean>
 	
 	<!-- jndi для очереди ошибочных сообщений ( ошибка приема ) -->

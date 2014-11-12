@@ -1,6 +1,8 @@
 
 package ru.acs.fts.schemas.album.transitinfo;
 
+import org.joda.time.LocalDate;
+
 /** 
  * Номер книжки МДП.
  */
@@ -9,6 +11,7 @@ public class TIRIDType
     private String TIRID;
     private String TIRSeries;
     private String TIRPageNumber;
+    private LocalDate registrationDate;
 
     /** 
      * Get the 'TIRID' element value. Номер книжки МДП.
@@ -62,5 +65,23 @@ public class TIRIDType
      */
     public void setTIRPageNumber(String TIRPageNumber) {
         this.TIRPageNumber = TIRPageNumber;
+    }
+
+    /** 
+     * Get the 'RegistrationDate' element value. Дата регистрации документа
+     * 
+     * @return value
+     */
+    public LocalDate getRegistrationDate() {
+        return registrationDate;
+    }
+
+    /** 
+     * Set the 'RegistrationDate' element value. Дата регистрации документа
+     * 
+     * @param registrationDate
+     */
+    public void setRegistrationDate(LocalDate registrationDate) {
+        this.registrationDate = registrationDate;
     }
 }

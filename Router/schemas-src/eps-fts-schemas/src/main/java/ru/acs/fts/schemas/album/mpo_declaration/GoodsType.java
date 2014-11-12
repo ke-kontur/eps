@@ -10,13 +10,33 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
  */
 public class GoodsType
 {
+    private String listNumeric;
     private List<String> goodDescriptionList = new ArrayList<String>();
     private String netWeight;
+    private String grossWeight;
     private String TNVEDCode;
     private String cost;
     private String currencyCode;
     private String originCountryCode;
     private SupplementaryQuantityType goodsQuantity;
+
+    /** 
+     * Get the 'ListNumeric' element value. Номер товара по порядку
+     * 
+     * @return value
+     */
+    public String getListNumeric() {
+        return listNumeric;
+    }
+
+    /** 
+     * Set the 'ListNumeric' element value. Номер товара по порядку
+     * 
+     * @param listNumeric
+     */
+    public void setListNumeric(String listNumeric) {
+        this.listNumeric = listNumeric;
+    }
 
     /** 
      * Get the list of 'GoodDescription' element items. Наименование товара
@@ -52,6 +72,24 @@ public class GoodsType
      */
     public void setNetWeight(String netWeight) {
         this.netWeight = netWeight;
+    }
+
+    /** 
+     * Get the 'GrossWeight' element value. Вес товара, брутто (кг)
+     * 
+     * @return value
+     */
+    public String getGrossWeight() {
+        return grossWeight;
+    }
+
+    /** 
+     * Set the 'GrossWeight' element value. Вес товара, брутто (кг)
+     * 
+     * @param grossWeight
+     */
+    public void setGrossWeight(String grossWeight) {
+        this.grossWeight = grossWeight;
     }
 
     /** 

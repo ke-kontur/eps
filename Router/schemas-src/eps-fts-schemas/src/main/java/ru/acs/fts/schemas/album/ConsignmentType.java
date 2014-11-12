@@ -3,179 +3,78 @@ package ru.acs.fts.schemas.album;
 
 import java.util.ArrayList;
 import java.util.List;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о корретируемой партии
+ * Тип, описывающий партию, на которой выявлен ПР/ЦПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
- * &lt;xs:complexType xmlns:ns="urn:customs.ru:Information:CustomsDocuments:RepresApplicChange:5.4.3" xmlns:ns1="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="ConsignmentType">
+ * &lt;xs:complexType xmlns:ns="urn:customs.ru:Information:CustomsDocuments:DTRevealedRisks:5.4.4" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="ConsignmentType">
  *   &lt;xs:sequence>
- *     &lt;xs:element type="xs:string" name="ListNumeric"/>
- *     &lt;xs:element type="ns1:DocumentBaseType" name="IndividualWayBill"/>
- *     &lt;xs:element type="xs:string" name="GoodsNumeric" minOccurs="0"/>
- *     &lt;xs:element type="xs:string" name="GoodsDescription" minOccurs="0" maxOccurs="4"/>
- *     &lt;xs:element type="xs:string" name="GrNumber"/>
- *     &lt;xs:element type="xs:string" name="GrDescription"/>
- *     &lt;xs:element type="xs:string" name="PreviousData" minOccurs="0"/>
- *     &lt;xs:element type="xs:string" name="CorrectData"/>
+ *     &lt;xs:element type="xs:string" name="ConsigmentNumber"/>
+ *     &lt;xs:element type="ns:ProfileRefType" name="ProfileRef" minOccurs="0" maxOccurs="unbounded"/>
+ *     &lt;xs:element type="ns:GoodsType" name="Goods" minOccurs="0" maxOccurs="unbounded"/>
  *   &lt;/xs:sequence>
  * &lt;/xs:complexType>
  * </pre>
  */
 public class ConsignmentType
 {
-    private String listNumeric;
-    private DocumentBaseType individualWayBill;
-    private String goodsNumeric;
-    private List<String> goodsDescriptionList = new ArrayList<String>();
-    private String grNumber;
-    private String grDescription;
-    private String previousData;
-    private String correctData;
+    private String consigmentNumber;
+    private List<ProfileRefType> profileRefList = new ArrayList<ProfileRefType>();
+    private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'ListNumeric' element value. Порядковый номер корректируемого отправления/накладной 
+     * Get the 'ConsigmentNumber' element value. Порядковый номер товарной партии. Примечание: Для реестров экспресс-грузов заполняется порядковый номер партии из документа-запроса; для ДТ, МПО всегда равен 1.
      * 
      * @return value
      */
-    public String getListNumeric() {
-        return listNumeric;
+    public String getConsigmentNumber() {
+        return consigmentNumber;
     }
 
     /** 
-     * Set the 'ListNumeric' element value. Порядковый номер корректируемого отправления/накладной 
+     * Set the 'ConsigmentNumber' element value. Порядковый номер товарной партии. Примечание: Для реестров экспресс-грузов заполняется порядковый номер партии из документа-запроса; для ДТ, МПО всегда равен 1.
      * 
-     * @param listNumeric
+     * @param consigmentNumber
      */
-    public void setListNumeric(String listNumeric) {
-        this.listNumeric = listNumeric;
+    public void setConsigmentNumber(String consigmentNumber) {
+        this.consigmentNumber = consigmentNumber;
     }
 
     /** 
-     * Get the 'IndividualWayBill' element value. Сведения об индивидуальной накладной
-     * 
-     * @return value
-     */
-    public DocumentBaseType getIndividualWayBill() {
-        return individualWayBill;
-    }
-
-    /** 
-     * Set the 'IndividualWayBill' element value. Сведения об индивидуальной накладной
-     * 
-     * @param individualWayBill
-     */
-    public void setIndividualWayBill(DocumentBaseType individualWayBill) {
-        this.individualWayBill = individualWayBill;
-    }
-
-    /** 
-     * Get the 'GoodsNumeric' element value. Номер товара
-     * 
-     * @return value
-     */
-    public String getGoodsNumeric() {
-        return goodsNumeric;
-    }
-
-    /** 
-     * Set the 'GoodsNumeric' element value. Номер товара
-     * 
-     * @param goodsNumeric
-     */
-    public void setGoodsNumeric(String goodsNumeric) {
-        this.goodsNumeric = goodsNumeric;
-    }
-
-    /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара
+     * Get the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретную товарную партию
      * 
      * @return list
      */
-    public List<String> getGoodsDescriptionList() {
-        return goodsDescriptionList;
+    public List<ProfileRefType> getProfileRefList() {
+        return profileRefList;
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара
+     * Set the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретную товарную партию
      * 
      * @param list
      */
-    public void setGoodsDescriptionList(List<String> list) {
-        goodsDescriptionList = list;
+    public void setProfileRefList(List<ProfileRefType> list) {
+        profileRefList = list;
     }
 
     /** 
-     * Get the 'GrNumber' element value. Номер корректируемой графы
+     * Get the list of 'Goods' element items. Товары, на которых выявлены риски
      * 
-     * @return value
+     * @return list
      */
-    public String getGrNumber() {
-        return grNumber;
+    public List<GoodsType> getGoodList() {
+        return goodList;
     }
 
     /** 
-     * Set the 'GrNumber' element value. Номер корректируемой графы
+     * Set the list of 'Goods' element items. Товары, на которых выявлены риски
      * 
-     * @param grNumber
+     * @param list
      */
-    public void setGrNumber(String grNumber) {
-        this.grNumber = grNumber;
-    }
-
-    /** 
-     * Get the 'GrDescription' element value. Название корректируемой графы
-     * 
-     * @return value
-     */
-    public String getGrDescription() {
-        return grDescription;
-    }
-
-    /** 
-     * Set the 'GrDescription' element value. Название корректируемой графы
-     * 
-     * @param grDescription
-     */
-    public void setGrDescription(String grDescription) {
-        this.grDescription = grDescription;
-    }
-
-    /** 
-     * Get the 'PreviousData' element value. Предыдущее значение графы
-     * 
-     * @return value
-     */
-    public String getPreviousData() {
-        return previousData;
-    }
-
-    /** 
-     * Set the 'PreviousData' element value. Предыдущее значение графы
-     * 
-     * @param previousData
-     */
-    public void setPreviousData(String previousData) {
-        this.previousData = previousData;
-    }
-
-    /** 
-     * Get the 'CorrectData' element value. Скорректированное значение графы
-     * 
-     * @return value
-     */
-    public String getCorrectData() {
-        return correctData;
-    }
-
-    /** 
-     * Set the 'CorrectData' element value. Скорректированное значение графы
-     * 
-     * @param correctData
-     */
-    public void setCorrectData(String correctData) {
-        this.correctData = correctData;
+    public void setGoodList(List<GoodsType> list) {
+        goodList = list;
     }
 }

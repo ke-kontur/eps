@@ -23,6 +23,7 @@ public class GuaranteeUsageType extends BaseDocType
     private CustomsPersonType customsOfficial;
     private CustomsGuaranteeDocType customsDocument;
     private List<CustomsGuaranteeDocType> guaranteeDocumentList = new ArrayList<CustomsGuaranteeDocType>();
+    private String obligationKind;
     private AmountType reservationAmount;
     private CUOrganizationType liableTrader;
     private ReasonType reason;
@@ -152,6 +153,24 @@ public class GuaranteeUsageType extends BaseDocType
      */
     public void setGuaranteeDocumentList(List<CustomsGuaranteeDocType> list) {
         guaranteeDocumentList = list;
+    }
+
+    /** 
+     * Get the 'ObligationKind' element value. Код вида обязательства
+     * 
+     * @return value
+     */
+    public String getObligationKind() {
+        return obligationKind;
+    }
+
+    /** 
+     * Set the 'ObligationKind' element value. Код вида обязательства
+     * 
+     * @param obligationKind
+     */
+    public void setObligationKind(String obligationKind) {
+        this.obligationKind = obligationKind;
     }
 
     /** 

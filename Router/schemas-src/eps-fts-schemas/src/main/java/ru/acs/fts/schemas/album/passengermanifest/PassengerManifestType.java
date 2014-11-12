@@ -21,6 +21,8 @@ public class PassengerManifestType extends BaseDocType
     private String carrierCode;
     private String totalPassNumber;
     private String factPassNumber;
+    private String luggagePlaces;
+    private String luggageWeight;
     private String LNG;
     private String transportKind;
     private String shipName;
@@ -142,6 +144,42 @@ public class PassengerManifestType extends BaseDocType
      */
     public void setFactPassNumber(String factPassNumber) {
         this.factPassNumber = factPassNumber;
+    }
+
+    /** 
+     * Get the 'LuggagePlaces' element value. Общее количество мест багажа
+     * 
+     * @return value
+     */
+    public String getLuggagePlaces() {
+        return luggagePlaces;
+    }
+
+    /** 
+     * Set the 'LuggagePlaces' element value. Общее количество мест багажа
+     * 
+     * @param luggagePlaces
+     */
+    public void setLuggagePlaces(String luggagePlaces) {
+        this.luggagePlaces = luggagePlaces;
+    }
+
+    /** 
+     * Get the 'LuggageWeight' element value. Общий вес багажа
+     * 
+     * @return value
+     */
+    public String getLuggageWeight() {
+        return luggageWeight;
+    }
+
+    /** 
+     * Set the 'LuggageWeight' element value. Общий вес багажа
+     * 
+     * @param luggageWeight
+     */
+    public void setLuggageWeight(String luggageWeight) {
+        this.luggageWeight = luggageWeight;
     }
 
     /** 

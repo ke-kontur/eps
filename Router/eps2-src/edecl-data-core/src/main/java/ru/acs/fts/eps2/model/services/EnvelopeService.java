@@ -224,6 +224,35 @@ public class EnvelopeService implements IGenericService
 
         return msgs;
     }
+
+    public String getEnvelope11052InnerByEnvelopeId( String envelopeId )
+            throws DatabaseException
+    {
+        StringBuilder q = new StringBuilder( );
+
+        //по 92 берем инитиал и ищем 95
+        q.append( "select msg from Edecl_Messages msg " );
+        q.append( "where msg.envelopeId = :envelopeId" );
+
+        Map< String, Object > args = new HashMap< String, Object >( );
+        args.put( "envelopeId", envelopeId );
+
+        List< Edecl_Messages > res = _edeclMessages.select( q.toString( ), args );
+        if ( null == res || 0 == res.size( ) )
+            return "";
+
+        String envelope95 = res.get( 0 ).getIncomeEnvelopeId();
+        q = new StringBuilder();
+        q.append( "select msg from Edecl_Messages msg " );
+        q.append( "where msg.incomeEnvelopeId = :envelopeId and msg.messageType='CMN.11052'" );
+        args = new HashMap< String, Object >( );
+        args.put( "envelopeId", envelope95 );
+
+        res = _edeclMessages.select( q.toString( ), args );
+        if ( null == res || 0 == res.size( ) )
+            return "";
+        return res.get(0).getEnvelopeId();
+    }
 	
 	public String getGlobalDocumentId( String refDocumentId ) 
 		throws DatabaseException
@@ -257,35 +286,6 @@ public class EnvelopeService implements IGenericService
 		
 		return res.get( 0 );
 	}
-
-    public String getEnvelope11052InnerByEnvelopeId( String envelopeId )
-            throws DatabaseException
-    {
-        StringBuilder q = new StringBuilder( );
-
-        //по 92 берем инитиал и ищем 95
-        q.append( "select msg from Edecl_Messages msg " );
-        q.append( "where msg.envelopeId = :envelopeId" );
-
-        Map< String, Object > args = new HashMap< String, Object >( );
-        args.put( "envelopeId", envelopeId );
-
-        List< Edecl_Messages > res = _edeclMessages.select( q.toString( ), args );
-        if ( null == res || 0 == res.size( ) )
-            return "";
-
-        String envelope95 = res.get( 0 ).getIncomeEnvelopeId();
-        q = new StringBuilder();
-        q.append( "select msg from Edecl_Messages msg " );
-        q.append( "where msg.incomeEnvelopeId = :envelopeId and msg.messageType='CMN.11052'" );
-        args = new HashMap< String, Object >( );
-        args.put( "envelopeId", envelope95 );
-
-        res = _edeclMessages.select( q.toString( ), args );
-        if ( null == res || 0 == res.size( ) )
-            return "";
-        return res.get(0).getEnvelopeId();
-    }
 	
 	public Edecl_Messages getEnvelope_RefDocumentId( String documentId )
 		throws DatabaseException

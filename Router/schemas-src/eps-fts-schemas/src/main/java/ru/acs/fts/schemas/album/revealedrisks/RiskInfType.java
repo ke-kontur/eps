@@ -22,7 +22,7 @@ public class RiskInfType
     private String customsActionCode;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск. 0 - 0 - если выявленный риск распространяется на все товары
+     * Get the 'GoodsNumeric' element value. Номер товара по документу, по которому выявлен риск. 0 - 0 - если выявленный риск распространяется на все товары
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск. 0 - 0 - если выявленный риск распространяется на все товары
+     * Set the 'GoodsNumeric' element value. Номер товара по документу, по которому выявлен риск. 0 - 0 - если выявленный риск распространяется на все товары
      * 
      * @param goodsNumeric
      */

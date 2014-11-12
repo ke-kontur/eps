@@ -4,7 +4,6 @@ package ru.acs.fts.schemas.album.represapplicstatinfo;
 import java.util.ArrayList;
 import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
  * Сведения о поставках в адрес физического лица
@@ -12,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 public class RepresApplicStatInfoType extends BaseDocType
 {
     private List<ConsignmentType> consignmentList = new ArrayList<ConsignmentType>();
-    private GTDIDType applicationRegNumber;
+    private DocIDType docID;
     private String documentModeID;
 
     /** 
@@ -34,21 +33,21 @@ public class RepresApplicStatInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Регистрационный номер заявления
+     * Get the 'DocID' element value. Регистрационный номер документа
      * 
      * @return value
      */
-    public GTDIDType getApplicationRegNumber() {
-        return applicationRegNumber;
+    public DocIDType getDocID() {
+        return docID;
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Регистрационный номер заявления
+     * Set the 'DocID' element value. Регистрационный номер документа
      * 
-     * @param applicationRegNumber
+     * @param docID
      */
-    public void setApplicationRegNumber(GTDIDType applicationRegNumber) {
-        this.applicationRegNumber = applicationRegNumber;
+    public void setDocID(DocIDType docID) {
+        this.docID = docID;
     }
 
     /** 

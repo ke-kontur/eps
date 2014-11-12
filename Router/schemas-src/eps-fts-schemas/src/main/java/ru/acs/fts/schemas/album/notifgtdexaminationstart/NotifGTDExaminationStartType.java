@@ -5,7 +5,6 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
  * Уведомление о начале проверки ДТ.
@@ -17,7 +16,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     private String comments;
     private CustomsPersonType customsPerson;
     private CustomsType customs;
-    private GTDIDType GTDID;
+    private DocIDType docID;
     private String documentModeID;
 
     /** 
@@ -111,21 +110,21 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ.
+     * Get the 'DocID' element value. Регистрационный номер документа
      * 
      * @return value
      */
-    public GTDIDType getGTDID() {
-        return GTDID;
+    public DocIDType getDocID() {
+        return docID;
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ.
+     * Set the 'DocID' element value. Регистрационный номер документа
      * 
-     * @param GTDID
+     * @param docID
      */
-    public void setGTDID(GTDIDType GTDID) {
-        this.GTDID = GTDID;
+    public void setDocID(DocIDType docID) {
+        this.docID = docID;
     }
 
     /** 

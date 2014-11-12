@@ -9,7 +9,7 @@ public class PlaceInformType
     private String placeName;
     private String countryName;
     private String countryCode;
-    private String airlineIATACode;
+    private String airportIATACode;
 
     /** 
      * Get the 'PlaceName' element value. Наименование порта/аэропорта/станции
@@ -66,20 +66,20 @@ public class PlaceInformType
     }
 
     /** 
-     * Get the 'AirlineIATACode' element value. Код ИАТА аэропорта назначения
+     * Get the 'AirportIATACode' element value. Код ИАТА аэропорта назначения
      * 
      * @return value
      */
-    public String getAirlineIATACode() {
-        return airlineIATACode;
+    public String getAirportIATACode() {
+        return airportIATACode;
     }
 
     /** 
-     * Set the 'AirlineIATACode' element value. Код ИАТА аэропорта назначения
+     * Set the 'AirportIATACode' element value. Код ИАТА аэропорта назначения
      * 
-     * @param airlineIATACode
+     * @param airportIATACode
      */
-    public void setAirlineIATACode(String airlineIATACode) {
-        this.airlineIATACode = airlineIATACode;
+    public void setAirportIATACode(String airportIATACode) {
+        this.airportIATACode = airportIATACode;
     }
 }

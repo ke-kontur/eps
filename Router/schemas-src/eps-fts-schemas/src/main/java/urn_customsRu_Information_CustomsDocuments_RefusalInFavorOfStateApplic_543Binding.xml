@@ -18,7 +18,7 @@
   <mapping class="ru.acs.fts.schemas.album.RefusalInFavorOfStateApplicType" name="RefusalInFavorOfStateApplic">
     <structure map-as="rsfa:RefusalInFavorOfStateApplicType"/>
   </mapping>
-  <mapping abstract="true" type-name="rsfa:GoodsType" class="ru.acs.fts.schemas.album.GoodsType">
+  <mapping abstract="true" type-name="rsfa:GoodsType" class="ru.acs.fts.schemas.album.GoodsType2">
     <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
       <value style="element" name="GoodDescription" type="java.lang.String"/>
     </collection>

@@ -74,7 +74,12 @@ public class MessageCMN12094BusinessProcess extends BusinessProcess
 		String envelopeName = jobContext.getString( ContextConstants.ENVELOPE_NAME );
 		
 		Map< String, String > messageTypeSubstituion = new HashMap< String, String >( );
-		messageTypeSubstituion.put( recvEnv.getMessageType( ), MessageType.MSG_12004 );
+        if(recvEnv.getMessageType( ).equals(MessageType.CMN_12124)){
+            messageTypeSubstituion.put(recvEnv.getMessageType(), MessageType.MSG_12015);
+        }
+        else {
+            messageTypeSubstituion.put(recvEnv.getMessageType(), MessageType.MSG_12004);
+        }
 		
 		EDEnvelope respEnvelope = EnvelopeCreator.createTranzitMessage( 
 			messageTypeSubstituion, recvEnv, 

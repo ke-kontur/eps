@@ -2,6 +2,7 @@ package ru.acs.fts.eps2.router.processing.auth;
 
 
 import ru.acs.fts.eps2.core.processing.ResultCodes;
+import ru.acs.fts.eps2.engine.data.MessageType;
 import ru.acs.fts.eps2.engine.util.RemotenessHelper;
 import ru.acs.fts.eps2.model.entities.Edecl_Proc_Information;
 import ru.acs.fts.eps2.router.errors.ResultTypeException;
@@ -29,6 +30,12 @@ public abstract class AbstractDeclToCustomsInProcessAuthType extends AbstractDec
 		}
 		
 		String messageKind = env.getApplicationInfo( ).getMessageKind( );
+		/*
+		проверка удаленки игнорится для 11127
+		 */
+		if(env.getMessageType().equals(MessageType.CMN_11127)){
+			return;
+		}
 		int udFlag = procInfo.getUdFlag( );
 		if ( ! StringUtil.isNullOrEmpty( messageKind ) && messageKind.matches( "UD:\\d{8}" ) )
 		{

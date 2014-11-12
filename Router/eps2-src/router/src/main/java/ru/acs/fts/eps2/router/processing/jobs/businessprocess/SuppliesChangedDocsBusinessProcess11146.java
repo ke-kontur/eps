@@ -44,6 +44,14 @@ public class SuppliesChangedDocsBusinessProcess11146 extends BusinessProcess
 		
 		if ( null != docs && ! docs.isEmpty( ) )
 		{
+            for ( Edecl_Msg_Doc doc : docs )
+            {
+                if ( ! DocumentModeIDs.KDT_OUT_CU.equals( doc.getDocumentModeId( )) &&
+                        ! DocumentModeIDs.REPRES_APPLIC_CHANGE.equals( doc.getDocumentModeId( )) &&
+                        !DocumentModeIDs.DECL_CHANGE_REQUEST.equals((doc.getDocumentModeId())))
+                    checkRefDocument( doc, envelopeService, jobBatchContext );
+            }
+
 			/** Субстатус устанавливаем только для контейнера */
 			createAndSaveSubstatusState( processId, container );
 			
