@@ -1,0 +1,10 @@
+<binding xmlns:docnot="urn:customs.ru:Information:DocumentNotification:5.4.1" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:DocumentNotification:5.4.1" default="elements" prefix="docnot"/>
+  <mapping abstract="true" type-name="docnot:DocumentNotificationType" class="ru.acs.fts.schemas.admin.documentnotification.DocumentNotificationType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.documentnotification.DocumentNotificationType" name="DocumentNotification">
+    <structure map-as="docnot:DocumentNotificationType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,22 @@
+<binding xmlns:conana="urn:customs.ru:Information:SQDocuments:ConclusionAboutNotAccessory:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:ConclusionAboutNotAccessory:5.4.0" default="elements" prefix="conana"/>
+  <mapping abstract="true" type-name="conana:ConclusionAboutNotAccessoryType" class="ru.acs.fts.schemas.album.conclusionaboutnotaccessory.ConclusionAboutNotAccessoryType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="conana:ConclusionType" get-method="getConclusion" set-method="setConclusion" name="Conclusion"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractInfo" set-method="setContractInfo" name="ContractInfo"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConclusionReceiver" set-method="setConclusionReceiver" name="ConclusionReceiver"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.conclusionaboutnotaccessory.ConclusionAboutNotAccessoryType" name="ConclusionAboutNotAccessory">
+    <structure map-as="conana:ConclusionAboutNotAccessoryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="conana:ConclusionType" class="ru.acs.fts.schemas.album.conclusionaboutnotaccessory.ConclusionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Duration" get-method="getDuration" set-method="setDuration" format="LocalDate.default"/>
+  </mapping>
+</binding>

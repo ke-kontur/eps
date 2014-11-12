@@ -1,0 +1,66 @@
+<binding xmlns:whdi="urn:customs.ru:Information:WarehouseDocuments:WHDocInventory:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cltWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonLeafTypesCust:5.0.5">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:WHDocInventory:5.4.0" default="elements" prefix="whdi"/>
+  <mapping abstract="true" type-name="whdi:WHDocInventoryType" class="ru.acs.fts.schemas.album.whdocinventory.WHDocInventoryType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InventoryInstanceDate" get-method="getInventoryInstanceDate" set-method="setInventoryInstanceDate" format="LocalDate.default"/>
+    <collection get-method="getInventDocumentList" set-method="setInventDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="whdi:InventDocumentType" name="InventDocument"/>
+    </collection>
+    <structure map-as="whdi:SenderType" get-method="getSender" set-method="setSender" name="Sender"/>
+    <structure map-as="whdi:ReceiverType" get-method="getReceiver" set-method="setReceiver" name="Receiver"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDoc" set-method="setRegNumberDoc" usage="optional" name="RegNumberDoc"/>
+    <structure map-as="catWH_ru:WarehouseCertificateType" get-method="getWarehouseLicense" set-method="setWarehouseLicense" usage="optional" name="WarehouseLicense"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhTransportType" name="Transports"/>
+    </collection>
+    <collection get-method="getGoodsShipmentList" set-method="setGoodsShipmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="whdi:GoodsShipmentType" name="GoodsShipment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.whdocinventory.WHDocInventoryType" name="WHDocInventory">
+    <structure map-as="whdi:WHDocInventoryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="whdi:CustomsType" class="ru.acs.fts.schemas.album.whdocinventory.CustomsType">
+    <structure map-as="cat_ru:CustomsType"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="whdi:GoodsShipmentType" class="ru.acs.fts.schemas.album.whdocinventory.GoodsShipmentType">
+    <structure map-as="catWH_ru:WhTransportDocType"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhGoodType" name="Goods"/>
+    </collection>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHContainerInformationType" name="Containers"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="whdi:InventDocumentType" class="ru.acs.fts.schemas.album.whdocinventory.InventDocumentType">
+    <value style="element" name="InvDocCode" get-method="getInvDocCode" set-method="setInvDocCode"/>
+    <value style="element" name="InvDocNumber" get-method="getInvDocNumber" set-method="setInvDocNumber" usage="optional"/>
+    <value style="element" name="InvDocDate" get-method="getInvDocDate" set-method="setInvDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="InvDocLists" get-method="getInvDocLists" set-method="setInvDocLists" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="InventDocumentID" get-method="getInventDocumentID" set-method="setInventDocumentID" usage="optional"/>
+    <value style="element" name="InventLineID" get-method="getInventLineID" set-method="setInventLineID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="whdi:ReceiverType" class="ru.acs.fts.schemas.album.whdocinventory.ReceiverType">
+    <structure ordered="false" choice="true">
+      <structure map-as="whdi:CustomsType" test-method="ifCustoms" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+      <structure map-as="whdi:SVHType" test-method="ifSVH" get-method="getSVH" set-method="setSVH" usage="optional" name="SVH"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="whdi:SVHType" class="ru.acs.fts.schemas.album.whdocinventory.SVHType">
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional" format="cltWH_ru:WareHouseCertificateKind"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="DO1PresentDocumentDate" get-method="getDO1PresentDocumentDate" set-method="setDO1PresentDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DO1PresentDocumentTime" get-method="getDO1PresentDocumentTime" set-method="setDO1PresentDocumentTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="whdi:SenderType" class="ru.acs.fts.schemas.album.whdocinventory.SenderType">
+    <structure ordered="false" choice="true">
+      <structure map-as="catWH_ru:WHCarrierType" test-method="ifCarrier" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+      <structure map-as="whdi:CustomsType" test-method="ifCustoms" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    </structure>
+  </mapping>
+</binding>

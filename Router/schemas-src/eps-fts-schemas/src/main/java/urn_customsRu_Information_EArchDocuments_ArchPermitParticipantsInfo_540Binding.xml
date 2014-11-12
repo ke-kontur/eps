@@ -1,0 +1,30 @@
+<binding xmlns:appi="urn:customs.ru:Information:EArchDocuments:ArchPermitParticipantsInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchPermitParticipantsInfo:5.4.0" default="elements" prefix="appi"/>
+  <mapping abstract="true" type-name="appi:ArchPermitParticipantsInfoType" class="ru.acs.fts.schemas.album.archpermitparticipantsinfo.ArchPermitParticipantsInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID"/>
+    <collection get-method="getParticipantList" set-method="setParticipantList" create-type="java.util.ArrayList">
+      <structure map-as="appi:ParticipantType" name="Participant"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archpermitparticipantsinfo.ArchPermitParticipantsInfoType" name="ArchPermitParticipantsInfo">
+    <structure map-as="appi:ArchPermitParticipantsInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="appi:ArchDocumentType" class="ru.acs.fts.schemas.album.archpermitparticipantsinfo.ArchDocumentType">
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="ArchDocumentID" get-method="getArchDocumentID" set-method="setArchDocumentID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="appi:ArchiveType" class="ru.acs.fts.schemas.album.archpermitparticipantsinfo.ArchiveType">
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID"/>
+    <collection get-method="getArchDocumentList" set-method="setArchDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="appi:ArchDocumentType" name="ArchDocument"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="appi:ParticipantType" class="ru.acs.fts.schemas.album.archpermitparticipantsinfo.ParticipantType">
+    <value style="element" name="ParticipantID" get-method="getParticipantID" set-method="setParticipantID"/>
+    <collection get-method="getArchiveList" set-method="setArchiveList" create-type="java.util.ArrayList">
+      <structure map-as="appi:ArchiveType" name="Archive"/>
+    </collection>
+  </mapping>
+</binding>

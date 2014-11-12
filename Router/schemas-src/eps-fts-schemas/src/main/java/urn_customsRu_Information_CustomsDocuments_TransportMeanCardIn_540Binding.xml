@@ -1,0 +1,39 @@
+<binding xmlns:TMCin="urn:customs.ru:Information:CustomsDocuments:TransportMeanCardIn:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransportMeanCardIn:5.4.0" default="elements" prefix="TMCin"/>
+  <mapping abstract="true" type-name="TMCin:TransportMeanCardInType" class="ru.acs.fts.schemas.album.transportmeancardin.TransportMeanCardInType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <structure map-as="catESAD_ru:TransportOwnerType" get-method="getTransportOwner" set-method="setTransportOwner" usage="optional" name="TransportOwner"/>
+    <structure map-as="catESAD_ru:TransportManufacturerType" get-method="getTransportManufacturer" set-method="setTransportManufacturer" usage="optional" name="TransportManufacturer"/>
+    <structure map-as="TMCin:TransportCardOfficialMarkType" get-method="getTransportCardOfficialMark" set-method="setTransportCardOfficialMark" usage="optional" name="TransportCardOfficialMark"/>
+    <structure map-as="TMCin:TransportCardTechMarkType" get-method="getTransportCardTechMark" set-method="setTransportCardTechMark" usage="optional" name="TransportCardTechMark"/>
+    <structure map-as="catESAD_ru:ESADTransportMeanCardType" get-method="getESADTransportMeanCard" set-method="setESADTransportMeanCard" name="ESADTransportMeanCard"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocument" set-method="setDocument" usage="optional" name="Document"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getCardNumber" set-method="setCardNumber" usage="optional" name="CardNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transportmeancardin.TransportMeanCardInType" name="TransportMeanCardIn">
+    <structure map-as="TMCin:TransportMeanCardInType"/>
+  </mapping>
+  <mapping abstract="true" type-name="TMCin:TransportCardOfficialMarkType" class="ru.acs.fts.schemas.album.transportmeancardin.TransportCardOfficialMarkType">
+    <value style="element" name="ImportCertificate" get-method="getImportCertificate" set-method="setImportCertificate" usage="optional"/>
+    <value style="element" name="ImportCertificateDate" get-method="getImportCertificateDate" set-method="setImportCertificateDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="LNPImportCertificate" get-method="getLNPImportCertificate" set-method="setLNPImportCertificate" usage="optional"/>
+    <value style="element" name="CustomsConditions" get-method="getCustomsConditions" set-method="setCustomsConditions" usage="optional"/>
+    <value style="element" name="PTSNumber" get-method="getPTSNumber" set-method="setPTSNumber" usage="optional"/>
+    <value style="element" name="PTSDate" get-method="getPTSDate" set-method="setPTSDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+    <value style="element" name="CustomsMark" get-method="getCustomsMark" set-method="setCustomsMark" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="TMCin:TransportCardTechMarkType" class="ru.acs.fts.schemas.album.transportmeancardin.TransportCardTechMarkType">
+    <value style="element" name="DateOut" get-method="getDateOut" set-method="setDateOut" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeOut" get-method="getTimeOut" set-method="setTimeOut" usage="optional"/>
+    <value style="element" name="ModificationDate" get-method="getModificationDate" set-method="setModificationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ModificationTime" get-method="getModificationTime" set-method="setModificationTime" usage="optional"/>
+    <value style="element" name="ModificationIndicator" get-method="getModificationIndicator" set-method="setModificationIndicator" usage="optional"/>
+    <value style="element" name="PacketControlIndicator" get-method="getPacketControlIndicator" set-method="setPacketControlIndicator" usage="optional"/>
+    <value style="element" name="PTSUseDateTime" get-method="getPTSUseDateTime" set-method="setPTSUseDateTime" usage="optional"/>
+    <value style="element" name="PTSOutDateTime" get-method="getPTSOutDateTime" set-method="setPTSOutDateTime" usage="optional"/>
+  </mapping>
+</binding>

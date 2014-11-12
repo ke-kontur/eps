@@ -1,0 +1,97 @@
+<binding xmlns:dep="urn:customs.ru:Information:CommercialFinanceDocuments:DealPassport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:DealPassport:5.4.0" default="elements" prefix="dep"/>
+  <mapping abstract="true" type-name="dep:DealPassportType" class="ru.acs.fts.schemas.album.dealpassport.DealPassportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <structure map-as="dep:DPNumberType" get-method="getDPNumber" set-method="setDPNumber" name="DPNumber"/>
+    <structure map-as="dep:DPNumberType" get-method="getAnotherBankDPNumber" set-method="setAnotherBankDPNumber" usage="optional" name="AnotherBankDPNumber"/>
+    <structure map-as="dep:DPoldNumberType" get-method="getDPoldNumber" set-method="setDPoldNumber" usage="optional" name="DPoldNumber"/>
+    <structure map-as="dep:ResidentType" get-method="getResident" set-method="setResident" name="Resident"/>
+    <structure map-as="dep:ForeignContractorType" get-method="getForeignContractor" set-method="setForeignContractor" name="ForeignContractor"/>
+    <structure map-as="dep:ContractTermsType" get-method="getContractTerms" set-method="setContractTerms" name="ContractTerms"/>
+    <collection get-method="getAddContractTermList" set-method="setAddContractTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="dep:AddContractTermsType" name="AddContractTerms"/>
+    </collection>
+    <collection get-method="getPermissionList" set-method="setPermissionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="dep:PermissionsType" name="Permissions"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getBankSignature" set-method="setBankSignature" name="BankSignature"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getResidentSignature" set-method="setResidentSignature" name="ResidentSignature"/>
+    <structure map-as="dep:DPEndType" get-method="getDPEnd" set-method="setDPEnd" usage="optional" name="DPEnd"/>
+    <structure map-as="dep:DPReMadeType" get-method="getDPReMade" set-method="setDPReMade" usage="optional" name="DPReMade"/>
+    <structure map-as="dep:SpecialInformationType" get-method="getSpecialInformation" set-method="setSpecialInformation" usage="optional" name="SpecialInformation"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.dealpassport.DealPassportType" name="DealPassport">
+    <structure map-as="dep:DealPassportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:AddContractTermsType" class="ru.acs.fts.schemas.album.dealpassport.AddContractTermsType">
+    <structure map-as="dep:TermsType"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <collection get-method="getAdditionalInformationList" set-method="setAdditionalInformationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AdditionalInformation" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WS" get-method="getWS" set-method="setWS"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:ContractTermsType" class="ru.acs.fts.schemas.album.dealpassport.ContractTermsType">
+    <structure map-as="dep:TermsType"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="WS" get-method="getWS" set-method="setWS"/>
+    <value style="element" name="CurrencyName" get-method="getCurrencyName" set-method="setCurrencyName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:DPEndType" class="ru.acs.fts.schemas.album.dealpassport.DPEndType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:DPNumberType" class="ru.acs.fts.schemas.album.dealpassport.DPNumberType">
+    <value style="element" name="Part1" get-method="getPart1" set-method="setPart1"/>
+    <value style="element" name="Part2" get-method="getPart2" set-method="setPart2"/>
+    <value style="element" name="Part3" get-method="getPart3" set-method="setPart3"/>
+    <value style="element" name="Part4" get-method="getPart4" set-method="setPart4"/>
+    <value style="element" name="Part5" get-method="getPart5" set-method="setPart5"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:DPReMadeType" class="ru.acs.fts.schemas.album.dealpassport.DPReMadeType">
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:DPoldNumberType" class="ru.acs.fts.schemas.album.dealpassport.DPoldNumberType">
+    <value style="element" name="TypeOfDP" get-method="getTypeOfDP" set-method="setTypeOfDP"/>
+    <value style="element" name="BankOKPO" get-method="getBankOKPO" set-method="setBankOKPO"/>
+    <value style="element" name="OldReNumber" get-method="getOldReNumber" set-method="setOldReNumber"/>
+    <value style="element" name="OldPart4" get-method="getOldPart4" set-method="setOldPart4"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:ForeignContractorType" class="ru.acs.fts.schemas.album.dealpassport.ForeignContractorType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:PermissionsType" class="ru.acs.fts.schemas.album.dealpassport.PermissionsType">
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="Summa" get-method="getSumma" set-method="setSumma" usage="optional"/>
+    <value style="element" name="PermitEndDate" get-method="getPermitEndDate" set-method="setPermitEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:ResidentType" class="ru.acs.fts.schemas.album.dealpassport.ResidentType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:AddressType" get-method="getResidentAddress" set-method="setResidentAddress" name="ResidentAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:SpecialInformationType" class="ru.acs.fts.schemas.album.dealpassport.SpecialInformationType">
+    <collection get-method="getContractTermList" set-method="setContractTermList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContractTerms" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Term" get-method="getTerm" set-method="setTerm" usage="optional"/>
+    <value style="element" name="List2IssueDate" get-method="getList2IssueDate" set-method="setList2IssueDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="dep:TermsType" class="ru.acs.fts.schemas.album.dealpassport.TermsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ContractEndDate" get-method="getContractEndDate" set-method="setContractEndDate" format="LocalDate.default"/>
+    <value style="element" name="SpecialTerms1" get-method="getSpecialTerms1" set-method="setSpecialTerms1" usage="optional"/>
+    <value style="element" name="SpecialTerms2" get-method="getSpecialTerms2" set-method="setSpecialTerms2" usage="optional"/>
+    <value style="element" name="SpecialTerms3" get-method="getSpecialTerms3" set-method="setSpecialTerms3" usage="optional"/>
+    <value style="element" name="SpecialTerms4" get-method="getSpecialTerms4" set-method="setSpecialTerms4" usage="optional"/>
+  </mapping>
+</binding>

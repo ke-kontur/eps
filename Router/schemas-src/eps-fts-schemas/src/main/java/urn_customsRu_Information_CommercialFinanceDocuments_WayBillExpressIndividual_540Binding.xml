@@ -1,0 +1,92 @@
+<binding xmlns:wbei="urn:customs.ru:Information:CommercialFinanceDocuments:WayBillExpressIndividual:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:WayBillExpressIndividual:5.4.0" default="elements" prefix="wbei"/>
+  <mapping abstract="true" type-name="wbei:WayBillExpressIndividualType" class="ru.acs.fts.schemas.album.waybillexpressindividual.WayBillExpressIndividualType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="WayBillNumber" get-method="getWayBillNumber" set-method="setWayBillNumber"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="ShipmentType" get-method="getShipmentType" set-method="setShipmentType"/>
+    <value style="element" name="Services" get-method="getServices" set-method="setServices" usage="optional"/>
+    <value style="element" name="SpecialServices" get-method="getSpecialServices" set-method="setSpecialServices" usage="optional"/>
+    <value style="element" name="InternationalDistribution" get-method="getInternationalDistribution" set-method="setInternationalDistribution"/>
+    <value style="element" name="MailStickerNumber" get-method="getMailStickerNumber" set-method="setMailStickerNumber" usage="optional"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode"/>
+    <value style="element" name="NetWeightTotal" get-method="getNetWeightTotal" set-method="setNetWeightTotal" usage="optional"/>
+    <value style="element" name="GrossWeightTotal" get-method="getGrossWeightTotal" set-method="setGrossWeightTotal"/>
+    <structure map-as="wbei:SenderType" get-method="getSender" set-method="setSender" name="Sender"/>
+    <collection get-method="getReceiverList" set-method="setReceiverList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="wbei:ReceiverType" name="Receiver"/>
+    </collection>
+    <structure map-as="wbei:CarrierType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="wbei:DeparturePointType" get-method="getDeparturePoint" set-method="setDeparturePoint" name="DeparturePoint"/>
+    <structure map-as="wbei:DeliveryPointType" get-method="getDeliveryPoint" set-method="setDeliveryPoint" name="DeliveryPoint"/>
+    <structure map-as="wbei:WayBillAcceptedType" get-method="getWayBillAccepted" set-method="setWayBillAccepted" usage="optional" name="WayBillAccepted"/>
+    <structure map-as="wbei:InsuranceType" get-method="getInsurance" set-method="setInsurance" usage="optional" name="Insurance"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="wbei:GoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.waybillexpressindividual.WayBillExpressIndividualType" name="WayBillExpressIndividual">
+    <structure map-as="wbei:WayBillExpressIndividualType"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:CarrierType" class="ru.acs.fts.schemas.album.waybillexpressindividual.CarrierType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="CustomsBrokerCertificate" get-method="getCustomsBrokerCertificate" set-method="setCustomsBrokerCertificate"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" name="LegalAddress"/>
+    <structure map-as="cat_ru:AddressType" get-method="getFactAddress" set-method="setFactAddress" name="FactAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:CustomsPaymentType" class="ru.acs.fts.schemas.album.waybillexpressindividual.CustomsPaymentType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="TaxBase" get-method="getTaxBase" set-method="setTaxBase"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:DeliveryPointType" class="ru.acs.fts.schemas.album.waybillexpressindividual.DeliveryPointType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="IATACode" get-method="getIATACode" set-method="setIATACode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:DeparturePointType" class="ru.acs.fts.schemas.album.waybillexpressindividual.DeparturePointType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="IATACode" get-method="getIATACode" set-method="setIATACode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:GoodsType" class="ru.acs.fts.schemas.album.waybillexpressindividual.GoodsType">
+    <value style="element" name="CommonWayBillNumber" get-method="getCommonWayBillNumber" set-method="setCommonWayBillNumber"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED" usage="optional"/>
+    <value style="element" name="NetWeight" get-method="getNetWeight" set-method="setNetWeight" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getReceiverByCommonWayBill" set-method="setReceiverByCommonWayBill" name="ReceiverByCommonWayBill"/>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getPackaging" set-method="setPackaging" usage="optional" name="Packaging"/>
+    <structure map-as="cat_ru:DimensionsType" get-method="getDimensions" set-method="setDimensions" usage="optional" name="Dimensions"/>
+    <structure map-as="wbei:CustomsPaymentType" get-method="getCustomsPayment" set-method="setCustomsPayment" usage="optional" name="CustomsPayment"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:InsuranceType" class="ru.acs.fts.schemas.album.waybillexpressindividual.InsuranceType">
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="Account" get-method="getAccount" set-method="setAccount"/>
+    <value style="element" name="PaymentType" get-method="getPaymentType" set-method="setPaymentType"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getInsuanceCompany" set-method="setInsuanceCompany" name="InsuanceCompany"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:ReceiverType" class="ru.acs.fts.schemas.album.waybillexpressindividual.ReceiverType">
+    <value style="element" name="Account" get-method="getAccount" set-method="setAccount" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganisation" set-method="setOrganisation" name="Organisation"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:SenderType" class="ru.acs.fts.schemas.album.waybillexpressindividual.SenderType">
+    <value style="element" name="Account" get-method="getAccount" set-method="setAccount" usage="optional"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganisation" set-method="setOrganisation" name="Organisation"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSignature" set-method="setSignature" usage="optional" name="Signature"/>
+  </mapping>
+  <mapping abstract="true" type-name="wbei:WayBillAcceptedType" class="ru.acs.fts.schemas.album.waybillexpressindividual.WayBillAcceptedType">
+    <value style="element" name="DateTime" get-method="getDateTime" set-method="setDateTime"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+  </mapping>
+</binding>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+    xmlns="http://www.springframework.org/schema/beans"
+	xmlns:s="http://www.springframework.org/schema/security"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:j="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/security
+                        http://www.springframework.org/schema/security/spring-security.xsd
+                        http://www.springframework.org/schema/jee 
+                        http://www.springframework.org/schema/jee/spring-jee.xsd">
+	
+	 
+	<import resource="classpath:/ru/acs/fts/webconsole/security/securityContext.xml"/>  
+	<!--
+	<j:jndi-lookup id="monitoringDataSource" jndi-name="jdbc/monitoringDataSource" /> 
+	-->
+
+    <s:authentication-provider>
+		<s:jdbc-user-service data-source-ref="monitoringDataSource" />
+	</s:authentication-provider>
+
+    <s:http auto-config="true" entry-point-ref="entryPoint">
+        <s:intercept-url pattern="/app/log" access="ROLE_USER" />
+        <s:intercept-url pattern="/app/monitoring/connections" access="ROLE_ADMIN" />
+        <s:intercept-url pattern="/app/security" access="ROLE_USER" />
+    </s:http>
+</beans>
+

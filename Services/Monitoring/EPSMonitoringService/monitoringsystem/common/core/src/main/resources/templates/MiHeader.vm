@@ -1,0 +1,144 @@
+<html>
+			<head>
+				<title>Информация о работоспособности системы</title>
+				<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
+				<style type="text/css">
+					body {
+						text-align: left;
+							
+							}
+							
+						div.page {
+							width: 100%;
+							height: 100%;
+							margin-top: 6pt;
+							margin-bottom: 6pt;
+							padding:	10mm;
+							padding-left:	10mm;
+							background: white;
+						
+							}
+						
+						div.goods {
+							background: #ffffff;
+							}
+							
+						.bordered {
+							border: solid 1pt #000000;
+							padding-top:4pt;
+							padding-bottom:4pt;
+							font-family: Arial;
+							font-size: 9pt;
+							font-weight: bold;
+							}
+							
+						.underlined {
+							border-bottom: solid 0.5pt #000000;
+							font-weight: bold;
+							}
+							
+						p.NumberDate {
+							font-weight: bold;
+							}
+							
+						.graph {
+							font-family: Arial;
+							font-size: 7pt;
+							}
+						.graphColumn {
+							font-family: Arial;
+							font-size: 6.5pt;
+							}
+						.graphTitleIt {
+							font-family: Arial;
+							font-size: 7pt;
+							font-weight: italian;
+							}
+						td {
+							font-family: Arial;
+							font-size: 10pt;
+							padding-left: 4pt;
+							}
+		
+						.graphMain {
+							font-family: Arial;
+							font-size: 11pt;
+							font-weight: bold;
+							}
+							
+						.graphNum {
+							font-family: Arial;
+							font-size: 7pt;
+							font-weight: bold;
+							}
+							
+						.graphNo {
+							font-size: 7pt;
+							font-weight: bold;
+							}
+							
+						.imgState {
+							float: left;
+							}
+
+						.sysName {
+							text-align:left;
+							font-size: 12pt;
+							margin-left: 0pt;
+							margin-top: 2pt;
+							margin-bottom: 5pt;
+							color: darkgray;
+							width:100%;
+							border-bottom:solid 0pt #000000;
+							}
+							
+						.subSysName {
+							text-align:left;
+							font-size: 12pt;
+							margin-left: 0pt;
+							margin-top: 5pt;
+							margin-bottom: 2pt;
+							color: black;
+							width:100%;
+							border-bottom:solid 1pt #000000;
+							}
+							
+							
+							.hdGroup {
+								font-weight: normal;
+								margin-top: 4pt;
+							}
+							
+							.itGroup {
+								margin-left: 20pt;
+							}
+							.INFO_List {
+								color:green;
+								font-size: 15pt;
+								padding-right: 2pt;
+							}
+							
+							.ERROR_List {
+								color:red;
+								font-size: 15pt;
+								padding-right: 2pt;
+							}
+							
+							.WARNING_List {
+								color:#ffc700;
+								font-size: 15pt;
+								padding-right: 2pt;
+							}
+							
+							.UNAVAILABLE_List {
+								color:gray;
+								font-size: 15pt;
+								padding-right: 2pt;
+							}
+							
+							
+					</style>
+			</head>
+			<body>
+				<div class="page">
+	

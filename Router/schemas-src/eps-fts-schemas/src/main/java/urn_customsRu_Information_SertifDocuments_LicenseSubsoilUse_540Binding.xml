@@ -1,0 +1,58 @@
+<binding xmlns:lsu="urn:customs.ru:Information:SertifDocuments:LicenseSubsoilUse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:LicenseSubsoilUse:5.4.0" default="elements" prefix="lsu"/>
+  <mapping abstract="true" type-name="lsu:LicenseSubsoilUseType" class="ru.acs.fts.schemas.album.licensesubsoiluse.LicenseSubsoilUseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="LicensingAuthority" get-method="getLicensingAuthority" set-method="setLicensingAuthority"/>
+    <collection get-method="getAimList" set-method="setAimList" create-type="java.util.ArrayList">
+      <value style="element" name="Aim" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="StatusArea" get-method="getStatusArea" set-method="setStatusArea"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate"/>
+    <collection get-method="getRightSubsoilUseList" set-method="setRightSubsoilUseList" create-type="java.util.ArrayList">
+      <value style="element" name="RightSubsoilUse" type="java.lang.String"/>
+    </collection>
+    <structure map-as="lsu:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getOrganizationReceiver" set-method="setOrganizationReceiver" name="OrganizationReceiver"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getRepresentativeOrganization" set-method="setRepresentativeOrganization" name="RepresentativeOrganization"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLocationArea" set-method="setLocationArea" name="LocationArea"/>
+    <structure map-as="lsu:VersoType" get-method="getVerso" set-method="setVerso" usage="optional" name="Verso"/>
+    <collection get-method="getPersonIssuingSignatureList" set-method="setPersonIssuingSignatureList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="PersonIssuingSignature"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSuperiorsSignature" set-method="setSuperiorsSignature" name="SuperiorsSignature"/>
+    <collection get-method="getApplicationList" set-method="setApplicationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="lsu:ApplicationType" name="Application"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.licensesubsoiluse.LicenseSubsoilUseType" name="LicenseSubsoilUse">
+    <structure map-as="lsu:LicenseSubsoilUseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="lsu:ApplicationType" class="ru.acs.fts.schemas.album.licensesubsoiluse.ApplicationType">
+    <value style="element" name="KIndApplication" get-method="getKIndApplication" set-method="setKIndApplication"/>
+    <value style="element" name="NumberApplication" get-method="getNumberApplication" set-method="setNumberApplication"/>
+    <value style="element" name="SheetApplication" get-method="getSheetApplication" set-method="setSheetApplication"/>
+  </mapping>
+  <mapping abstract="true" type-name="lsu:OtherApplicationsType" class="ru.acs.fts.schemas.album.licensesubsoiluse.OtherApplicationsType">
+    <value style="element" name="NameDocument" get-method="getNameDocument" set-method="setNameDocument"/>
+    <value style="element" name="NumberSheets" get-method="getNumberSheets" set-method="setNumberSheets"/>
+  </mapping>
+  <mapping abstract="true" type-name="lsu:RegistrationNumberType" class="ru.acs.fts.schemas.album.licensesubsoiluse.RegistrationNumberType">
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="LicenseType" get-method="getLicenseType" set-method="setLicenseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="lsu:VersoType" class="ru.acs.fts.schemas.album.licensesubsoiluse.VersoType">
+    <value style="element" name="TermsSubsoil" get-method="getTermsSubsoil" set-method="setTermsSubsoil" usage="optional"/>
+    <value style="element" name="CopySolutions" get-method="getCopySolutions" set-method="setCopySolutions" usage="optional"/>
+    <value style="element" name="LocationPlot" get-method="getLocationPlot" set-method="setLocationPlot" usage="optional"/>
+    <value style="element" name="CopyJuridicalPersonRegistrationCertificate" get-method="getCopyJuridicalPersonRegistrationCertificate" set-method="setCopyJuridicalPersonRegistrationCertificate" usage="optional"/>
+    <value style="element" name="CopyTaxOrganRegistrationCertificate" get-method="getCopyTaxOrganRegistrationCertificate" set-method="setCopyTaxOrganRegistrationCertificate" usage="optional"/>
+    <value style="element" name="AreaInfo" get-method="getAreaInfo" set-method="setAreaInfo" usage="optional"/>
+    <value style="element" name="ListPreviousUser" get-method="getListPreviousUser" set-method="setListPreviousUser" usage="optional"/>
+    <value style="element" name="UserInfo" get-method="getUserInfo" set-method="setUserInfo" usage="optional"/>
+    <collection get-method="getOtherApplicationList" set-method="setOtherApplicationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="lsu:OtherApplicationsType" name="OtherApplications"/>
+    </collection>
+  </mapping>
+</binding>

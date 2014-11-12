@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:SEMDocuments:SEM_NIResponse:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:ni_res="urn:customs.ru:Information:SEMDocuments:SEM_NIResponse:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Сервис NI - выходные данные</xs:documentation>
+   </xs:annotation>
+   <xs:element name="SEM_NIResponse" type="ni_res:SEM_NIResponseType"/>
+   <xs:complexType name="SEM_NIResponseType">
+      <xs:annotation>
+         <xs:documentation>Ответ сервиса NI</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="Message" type="clt_ru:FreeText500Type">
+                  <xs:annotation>
+                     <xs:documentation>Сообщение о статусе обработки</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="ResDeclarations" type="ni_res:ResDeclarationsType">
+                  <xs:annotation>
+                     <xs:documentation>Обработанные декларации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1030008E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="GoodsType">
+      <xs:annotation>
+         <xs:documentation>Результат обработки товара по сервису СУР</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="GoodsNumeric" type="clt_ru:Count3Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер декларируемого  товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Relevance" type="clt_ru:QuantityBasisType">
+            <xs:annotation>
+               <xs:documentation>Числовое значение, характеризующее степень соответствия неформализованных индикаторов описанию товара (оценка достоверности)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RiskDetected" type="clt_ru:IndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак найденного соответствия описания товара неформализованным индикаторам профиля риска</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ResDeclarationsType">
+      <xs:annotation>
+         <xs:documentation>Результат обработки декларациипо сервису СУР</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="GtdRegNumber" type="cat_ru:GTDIDType">
+            <xs:annotation>
+               <xs:documentation>Номер декларации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="Goods" type="ni_res:GoodsType">
+            <xs:annotation>
+               <xs:documentation>Обработанные товары</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

@@ -1,0 +1,11 @@
+<binding xmlns:ausynres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_ArcPutDocumentResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_ArcPutDocumentResponse:4.1.1" default="elements" prefix="ausynres"/>
+  <mapping abstract="true" type-name="ausynres:AUD_ArcPutDocumentResponseType" class="ru.acs.fts.schemas.aud.aud_arcputdocumentresponse.AUDArcPutDocumentResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="ArchiveDocumentId" get-method="getArchiveDocumentId" set-method="setArchiveDocumentId"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_arcputdocumentresponse.AUDArcPutDocumentResponseType" name="AUD_ArcPutDocumentResponse">
+    <structure map-as="ausynres:AUD_ArcPutDocumentResponseType"/>
+  </mapping>
+</binding>

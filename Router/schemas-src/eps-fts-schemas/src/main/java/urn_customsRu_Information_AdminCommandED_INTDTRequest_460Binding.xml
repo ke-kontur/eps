@@ -1,0 +1,23 @@
+<binding xmlns:ns1="urn:customs.ru:Information:AdminCommandED:INT_DTRequest:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:AdminCommandED:INT_DTRequest:4.6.0" default="elements"/>
+  <mapping abstract="true" type-name="ns1:INT_DTRequestType" class="ru.acs.fts.schemas.admin.int_dtrequest.INTDTRequestType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="element" name="SoftVersionID" get-method="getSoftVersionID" set-method="setSoftVersionID"/>
+    <structure map-as="ns1:GTDIDType" get-method="getDT" set-method="setDT" name="DT"/>
+    <value style="element" name="RequestCustomsCode" get-method="getRequestCustomsCode" set-method="setRequestCustomsCode"/>
+    <structure map-as="ns1:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.int_dtrequest.INTDTRequestType" name="INT_DTRequest">
+    <structure map-as="ns1:INT_DTRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns1:GTDIDType" class="ru.acs.fts.schemas.admin.int_dtrequest.GTDIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="GTDNumber" get-method="getGTDNumber" set-method="setGTDNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns1:CustomsPersonType" class="ru.acs.fts.schemas.admin.int_dtrequest.CustomsPersonType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+  </mapping>
+</binding>

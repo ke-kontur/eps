@@ -1,0 +1,38 @@
+<binding xmlns:por="urn:customs.ru:Information:CommercialFinanceDocuments:PaymentOrder:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:PaymentOrder:5.4.0" default="elements" prefix="por"/>
+  <mapping abstract="true" type-name="por:PaymentOrderType" class="ru.acs.fts.schemas.album.paymentorder.PaymentOrderType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="TransactionKind" get-method="getTransactionKind" set-method="setTransactionKind"/>
+    <value style="element" name="Priority" get-method="getPriority" set-method="setPriority"/>
+    <value style="element" name="ReceiptDate" get-method="getReceiptDate" set-method="setReceiptDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ChargeOffDate" get-method="getChargeOffDate" set-method="setChargeOffDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Purpose" get-method="getPurpose" set-method="setPurpose"/>
+    <value style="element" name="ValueSpelledOut" get-method="getValueSpelledOut" set-method="setValueSpelledOut"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentReference" set-method="setDocumentReference" name="DocumentReference"/>
+    <structure map-as="por:PayerType" get-method="getPayer" set-method="setPayer" name="Payer"/>
+    <structure map-as="catComFin_ru:PayCustomerType" get-method="getPayee" set-method="setPayee" name="Payee"/>
+    <structure map-as="por:DepartmentalDetailsType" get-method="getDepartmentalInfo" set-method="setDepartmentalInfo" usage="optional" name="DepartmentalInfo"/>
+    <collection get-method="getPayerSignList" set-method="setPayerSignList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="PayerSign"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getBankSign" set-method="setBankSign" usage="optional" name="BankSign"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.paymentorder.PaymentOrderType" name="PaymentOrder">
+    <structure map-as="por:PaymentOrderType"/>
+  </mapping>
+  <mapping abstract="true" type-name="por:DepartmentalDetailsType" class="ru.acs.fts.schemas.album.paymentorder.DepartmentalDetailsType">
+    <structure map-as="catComFin_ru:DepartmentalInfoType"/>
+    <value style="element" name="UniqueID" get-method="getUniqueID" set-method="setUniqueID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="por:PayCustomerType" class="ru.acs.fts.schemas.album.paymentorder.PayCustomerType">
+    <structure map-as="catComFin_ru:CustomerType"/>
+    <value style="element" name="AddInformation" get-method="getAddInformation" set-method="setAddInformation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="por:PayerType" class="ru.acs.fts.schemas.album.paymentorder.PayerType">
+    <structure map-as="catComFin_ru:PayCustomerType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+</binding>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:LiquidationAct:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:lqact="urn:customs.ru:Information:CustomsDocuments:LiquidationAct:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Акт об уничтожении</xs:documentation>
+   </xs:annotation>
+   <xs:element name="LiquidationAct" type="lqact:LiquidationActType"/>
+   <xs:complexType name="LiquidationActType">
+      <xs:annotation>
+         <xs:documentation>Акт об уничтожении</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="ResidentOEZ" type="lqact:LiquidationParticipantType">
+                  <xs:annotation>
+                     <xs:documentation>Резидент ОЭЗ/Нерезидент ОЭЗ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Liquidator" type="lqact:LiquidationParticipantType">
+                  <xs:annotation>
+                     <xs:documentation>Лицо, осуществляющее уничтожение</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="CUCustoms" type="cat_ru:CUCustomsType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о таможенном органе</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="LiquidationPlace" type="cat_ru:AddressType">
+                  <xs:annotation>
+                     <xs:documentation>Место уничтожения</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="WasteProducts" type="lqact:WasteProductsType">
+                  <xs:annotation>
+                     <xs:documentation>Отходы, полученные из товаров и (или) упаковки</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="ParticipatedPerson" type="lqact:ParticipatedPersonType">
+                  <xs:annotation>
+                     <xs:documentation>Лицо, присутствующее при уничтожении</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="ApplicationRegNumber" type="lqact:ApplicationRegNumberType">
+                  <xs:annotation>
+                     <xs:documentation>Регистрационный номер заявления</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1006188E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="ApplicationRegNumberType">
+      <xs:annotation>
+         <xs:documentation>Регистрационный номер заявления</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="CustomsCode" type="clt_ru:CustomsCodeType">
+            <xs:annotation>
+               <xs:documentation>Код таможенного органа, зарегистрировавшего документ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RegistrationDate" type="clt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата регистрации документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="SerialNumber" type="clt_ru:Code9Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер документа по журналу регистрации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ConsignmentType">
+      <xs:annotation>
+         <xs:documentation>Сведения о партии товаров</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="RegNumberDT" type="cat_ru:GTDIDType">
+            <xs:annotation>
+               <xs:documentation>Регистрационный номер ДТ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="Goods" type="lqact:GoodsType">
+            <xs:annotation>
+               <xs:documentation>Товар, помещенный под таможенную процедуру СТЗ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="GoodsType">
+      <xs:annotation>
+         <xs:documentation>Товар, помещенный под таможенную процедуру СТЗ</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element maxOccurs="4" name="GoodDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Наименование товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GoodsNumeric" type="clt_ru:Count3Type">
+            <xs:annotation>
+               <xs:documentation>Номер товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GoodsTNVEDCode" type="clt_ru:CUGoodsNomenclatuerCodeType">
+            <xs:annotation>
+               <xs:documentation>Код товара по ТН ВЭД ТС</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="LiquidationParticipantType">
+      <xs:annotation>
+         <xs:documentation>Участник мероприятий по уничтожению товаров, пришедших в негодность</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="PersonPost" type="clt_ru:PostType">
+                  <xs:annotation>
+                     <xs:documentation>Должность</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="OEZ_ResidentCertif" type="cat_ru:DocumentBaseType">
+                  <xs:annotation>
+                     <xs:documentation>Свидетельство, удостоверяющее регистрацию лица в качестве резидента ОЭЗ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="PackingInformationType">
+      <xs:annotation>
+         <xs:documentation>Сведения об упаковке</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="PackingCode" type="clt_ru:PackageCodeType">
+            <xs:annotation>
+               <xs:documentation>Код вида упаковки товаров в соответствии с  Классификатором видов груза, упаковки и упаковочных материалов</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PackingDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Наименование упаковки товаров в соответствии с  Классификатором видов груза, упаковки и упаковочных материалов</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ParticipatedPersonType">
+      <xs:annotation>
+         <xs:documentation>Лицо, присутствующее при уничтожении</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:PersonSignatureType">
+            <xs:sequence>
+               <xs:element name="PersonSign" type="clt_ru:DigitalIndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак лица: 0 - от уполномоченного таможенного органа; 1 - от резидента ОЭЗ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="WasteProductsType">
+      <xs:annotation>
+         <xs:documentation>Отходы, полученные из товаров и (или) упаковки</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element maxOccurs="4" name="WasteDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Наименование отхода в соответствии с Федеральным классификационным каталогом отходов</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="WasteCode" type="clt_ru:Code13Type">
+            <xs:annotation>
+               <xs:documentation>Код отхода в соответствии с Федеральным классификационным каталогом отходов</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="LiquidationMethod" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Способ уничтожения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="WasteSign" type="clt_ru:DigitalIndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак происхождения отходов: 0 - товары; 1 - упаковка</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="NewWasteSign" type="clt_ru:IndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак наличия отходов, образовавшиеся в результате уничтожения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="WasteQuantity" type="cat_ru:SupplementaryQuantityType">
+            <xs:annotation>
+               <xs:documentation>Количество отходов</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="PackingInformation" type="lqact:PackingInformationType">
+            <xs:annotation>
+               <xs:documentation>Сведения об упаковке</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="Document" type="cat_ru:DocumentBaseType">
+            <xs:annotation>
+               <xs:documentation>Документ, подтверждающий факт уничтожения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="Consignment" type="lqact:ConsignmentType">
+            <xs:annotation>
+               <xs:documentation>Сведения о партии товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

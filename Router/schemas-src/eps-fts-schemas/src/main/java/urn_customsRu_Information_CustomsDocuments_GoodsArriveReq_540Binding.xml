@@ -1,0 +1,30 @@
+<binding xmlns:gar="urn:customs.ru:Information:CustomsDocuments:GoodsArriveReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsArriveReq:5.4.0" default="elements" prefix="gar"/>
+  <mapping abstract="true" type-name="gar:GoodsArriveReqType" class="ru.acs.fts.schemas.album.goodsarrivereq.GoodsArriveReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReqNumber" get-method="getReqNumber" set-method="setReqNumber" usage="optional"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="gar:GoodsShipmentType" get-method="getGoodsShipment" set-method="setGoodsShipment" name="GoodsShipment"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsarrivereq.GoodsArriveReqType" name="GoodsArriveReq">
+    <structure map-as="gar:GoodsArriveReqType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gar:GoodsShipmentType" class="ru.acs.fts.schemas.album.goodsarrivereq.GoodsShipmentType">
+    <collection get-method="getPresentDocumentList" set-method="setPresentDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="gar:PresentDocumentType" name="PresentDocument"/>
+    </collection>
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ContainerNumberType" name="ContainerNumber"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gar:PresentDocumentType" class="ru.acs.fts.schemas.album.goodsarrivereq.PresentDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+  </mapping>
+</binding>

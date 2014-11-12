@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+    version="2.4"
+    xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+                        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>WEB-INF/beans.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+
+	<filter>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+    <servlet>
+		<servlet-name>monitoring-web</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>rpc-exp</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	
+    <servlet-mapping>
+		<servlet-name>monitoring-web</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>rpc-exp</servlet-name>
+		<url-pattern>/rpc/*</url-pattern>
+	</servlet-mapping>
+    
+    <!-- Журнал событий -->
+    <servlet>
+        <servlet-name>logService</servlet-name>
+        <servlet-class>ru.acs.monitoring.app.log.LogServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logService</servlet-name>
+        <url-pattern>/app/log</url-pattern>
+    </servlet-mapping>
+
+    <!-- Настройка безопасности -->
+    <servlet>
+        <servlet-name>securityService</servlet-name>
+        <servlet-class>ru.acs.fts.webconsole.security.SecurityServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>securityService</servlet-name>
+        <url-pattern>/app/security</url-pattern>
+    </servlet-mapping>
+    <!-- 
+    <resource-ref>
+        <description>ds</description>
+        <res-ref-name>jdbc/monitoringDataSource</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+ </resource-ref>
+ --> 
+</web-app>

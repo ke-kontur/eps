@@ -1,0 +1,12 @@
+<binding xmlns:rddrd="urn:customs.ru:Information:CustomsDocuments:RequestDetailDataRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RequestDetailDataRD:5.4.0" default="elements" prefix="rddrd"/>
+  <mapping abstract="true" type-name="rddrd:RequestDetailDataRDType" class="ru.acs.fts.schemas.album.requestdetaildatard.RequestDetailDataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.requestdetaildatard.RequestDetailDataRDType" name="RequestDetailDataRD">
+    <structure map-as="rddrd:RequestDetailDataRDType"/>
+  </mapping>
+</binding>

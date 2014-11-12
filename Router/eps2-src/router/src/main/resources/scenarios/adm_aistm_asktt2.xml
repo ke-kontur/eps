@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+        					http://www.springframework.org/schema/beans/spring-beans-2.5.xsd" >
+	
+	<bean id="adm_aistm_asktt2" class="ru.acs.fts.eps2.engine.processing.JobBatch" >
+		<property name="description" value="ADM от АИСТ-М в АСКТТ-2 (через удаленку)" />
+		<property name="preparedJobs">
+			<list>
+			
+				<!-- Проверяем наличие в базе конверта с таким же EnvelopeID, DocumentID -->                
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+                	<constructor-arg ref="checkSameEnvelopeExists" />
+                	<constructor-arg>
+                		<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+                			<constructor-arg>
+                				<map />
+                			</constructor-arg>
+                		</bean>
+                	</constructor-arg>
+                </bean>            			
+
+				<!-- Сохраняем входящий конверт -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="saveIncomeEnvelope" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="needFlush" value="true" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+
+				<!-- CMN.00002 -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="callSubBatch" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="subBatch" value-ref="sendCMN00002" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>				
+
+				<!-- Авторизация (от КАСТО декларанту в контексте процедуры) -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="authorization" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="authType" value="FROM_EPS_TO_KASTO_NOT_IN_PROCESS" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<!-- Структурный контроль -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="structControlRequest" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map />
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<!-- Проверка подписи -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="checkSignedEnvelope" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map />
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<!-- Проверка содержимого конверта -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="checkMessageContent" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map />
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<!-- 
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="changeProcessState" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="eventName" value="DIFF_RTU_EVENT" />
+									<entry key="ignoreChangeState" value="udFlagNotOK" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				-->
+				
+				<!-- Создаем транзитное сообщение ADM.15005 сохраняя заголовок и тело исходного сообщения -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="createTransitMessage" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="envelopeName" value="msg15002" />
+									<entry key="messageTypes" >
+										<map>
+											<entry key="ADM.15035" value="MSG.15035" />
+											<entry key="ADM.15038" value="MSG.15038" />
+										</map>
+									</entry>
+									<entry key="receivingSystem" value="ASKTT2" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="sendMessage" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="envelopeName" value="msg15002" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="saveObjectToDb" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="objectToSave" value="msg15002" />
+									<entry key="needFlush" value="true" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				
+				<!-- ADM.00004 -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="callSubBatch" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="subBatch" value-ref="sendADM00004" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<!-- 
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="updateProcessInfo" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="needFlush" value="true" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				-->
+				
+			</list>
+		</property>
+	</bean>
+</beans>

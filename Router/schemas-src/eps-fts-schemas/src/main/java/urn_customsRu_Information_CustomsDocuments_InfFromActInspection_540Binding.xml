@@ -1,0 +1,18 @@
+<binding xmlns:ifa="urn:customs.ru:Information:CustomsDocuments:InfFromActInspection:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InfFromActInspection:5.4.0" default="elements" prefix="ifa"/>
+  <mapping abstract="true" type-name="ifa:InfFromActInspectionType" class="ru.acs.fts.schemas.album.inffromactinspection.InfFromActInspectionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="ifa:VEDParticipantShortInfType" get-method="getVEDParticipantShortInf" set-method="setVEDParticipantShortInf" usage="optional" name="VEDParticipantShortInf"/>
+    <collection get-method="getCarInformationList" set-method="setCarInformationList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_ru:CarInformationType" name="CarInformation"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inffromactinspection.InfFromActInspectionType" name="InfFromActInspection">
+    <structure map-as="ifa:InfFromActInspectionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ifa:VEDParticipantShortInfType" class="ru.acs.fts.schemas.album.inffromactinspection.VEDParticipantShortInfType">
+    <value style="element" name="INNID" get-method="getINNID" set-method="setINNID" usage="optional"/>
+    <value style="element" name="KPPCode" get-method="getKPPCode" set-method="setKPPCode" usage="optional"/>
+  </mapping>
+</binding>

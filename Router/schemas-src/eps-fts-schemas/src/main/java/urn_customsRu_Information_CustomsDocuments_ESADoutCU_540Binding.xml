@@ -1,0 +1,191 @@
+<binding xmlns:ESADout_CU="urn:customs.ru:Information:CustomsDocuments:ESADout_CU:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ESADout_CU:5.4.0" default="elements" prefix="ESADout_CU"/>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="CustomsModeCodeMPO" get-method="getCustomsModeCodeMPO" set-method="setCustomsModeCodeMPO" usage="optional"/>
+    <value style="element" name="TransitDirectionCode" get-method="getTransitDirectionCode" set-method="setTransitDirectionCode" usage="optional"/>
+    <value style="element" name="ElectronicDocumentSign" get-method="getElectronicDocumentSign" set-method="setElectronicDocumentSign" usage="optional"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind" usage="optional"/>
+    <value style="element" name="SubsoilSign" get-method="getSubsoilSign" set-method="setSubsoilSign" usage="optional"/>
+    <value style="element" name="SealNumber" get-method="getSealNumber" set-method="setSealNumber" usage="optional"/>
+    <value style="element" name="SealQuantity" get-method="getSealQuantity" set-method="setSealQuantity" usage="optional"/>
+    <value style="element" name="LanguageCUESAD" get-method="getLanguageCUESAD" set-method="setLanguageCUESAD" usage="optional"/>
+    <value style="element" name="RecipientCountryCode" get-method="getRecipientCountryCode" set-method="setRecipientCountryCode"/>
+    <value style="element" name="MovementCode" get-method="getMovementCode" set-method="setMovementCode" usage="optional"/>
+    <value style="element" name="ExecutionPlace" get-method="getExecutionPlace" set-method="setExecutionPlace" usage="optional"/>
+    <value style="element" name="RailwayStationCode" get-method="getRailwayStationCode" set-method="setRailwayStationCode" usage="optional"/>
+    <value style="element" name="RegNumberDoc" get-method="getRegNumberDoc" set-method="setRegNumberDoc" usage="optional"/>
+    <value style="element" name="ExecutionDate" get-method="getExecutionDate" set-method="setExecutionDate" format="LocalDate.default"/>
+    <value style="element" name="SecurityLabelCode" get-method="getSecurityLabelCode" set-method="setSecurityLabelCode" usage="optional"/>
+    <structure map-as="ESADout_CU:ESADout_CUGoodsShipmentType" get-method="getESADoutCUGoodsShipment" set-method="setESADoutCUGoodsShipment" name="ESADout_CUGoodsShipment"/>
+    <structure map-as="ESADout_CU:RBTechMarKType" get-method="getRBTechMarK" set-method="setRBTechMarK" usage="optional" name="RBTechMarK"/>
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getFilledPerson" set-method="setFilledPerson" usage="optional" name="FilledPerson"/>
+    <structure map-as="catESAD_cu:CUESADCustomsRepresentativeType" get-method="getCUESADCustomsRepresentative" set-method="setCUESADCustomsRepresentative" usage="optional" name="CUESADCustomsRepresentative"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUType" name="ESADout_CU">
+    <structure map-as="ESADout_CU:ESADout_CUType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:CUWarehousePlaceType" class="ru.acs.fts.schemas.album.esadout_cu.CUWarehousePlaceType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:CustomsPaymentType" class="ru.acs.fts.schemas.album.esadout_cu.CustomsPaymentType">
+    <structure map-as="catESAD_cu:ESADout_CUCustomsPaymentType"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode" usage="optional"/>
+    <structure map-as="ESADout_CU:PaymentDocumentType" get-method="getPaymentDocument" set-method="setPaymentDocument" usage="optional" name="PaymentDocument"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="cat_ru:RFOrganizationFeaturesType" test-method="ifRFOrganizationFeatures" get-method="getRFOrganizationFeatures" set-method="setRFOrganizationFeatures" usage="optional" name="RFOrganizationFeatures"/>
+      <structure map-as="cat_ru:RKOrganizationFeaturesType" test-method="ifRKOrganizationFeatures" get-method="getRKOrganizationFeatures" set-method="setRKOrganizationFeatures" usage="optional" name="RKOrganizationFeatures"/>
+      <structure map-as="cat_ru:RBOrganizationFeaturesType" test-method="ifRBOrganizationFeatures" get-method="getRBOrganizationFeatures" set-method="setRBOrganizationFeatures" usage="optional" name="RBOrganizationFeatures"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADoutGoodsOrganizationType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutGoodsOrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUBorderTransportType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUBorderTransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportMeansQuantity" get-method="getTransportMeansQuantity" set-method="setTransportMeansQuantity" usage="optional"/>
+    <value style="element" name="MethodTransport" get-method="getMethodTransport" set-method="setMethodTransport" usage="optional"/>
+    <value style="element" name="NameObject" get-method="getNameObject" set-method="setNameObject" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUCarrierType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUCarrierType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:DriverInformationType" get-method="getESADoutCUDriverInformation" set-method="setESADoutCUDriverInformation" usage="optional" name="ESADout_CUDriverInformation"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUConsigmentType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUConsigmentType">
+    <structure map-as="catESAD_cu:CUConsigmentType"/>
+    <value style="element" name="DateExpectedArrival" get-method="getDateExpectedArrival" set-method="setDateExpectedArrival" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeExpectedArrival" get-method="getTimeExpectedArrival" set-method="setTimeExpectedArrival" usage="optional"/>
+    <structure map-as="ESADout_CU:ESADout_CUDepartureArrivalTransportType" get-method="getESADoutCUDepartureArrivalTransport" set-method="setESADoutCUDepartureArrivalTransport" usage="optional" name="ESADout_CUDepartureArrivalTransport"/>
+    <structure map-as="ESADout_CU:ESADout_CUBorderTransportType" get-method="getESADoutCUBorderTransport" set-method="setESADoutCUBorderTransport" usage="optional" name="ESADout_CUBorderTransport"/>
+    <collection get-method="getESADoutCUReloadingInfoList" set-method="setESADoutCUReloadingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADReloadingInfoType" name="ESADout_CUReloadingInfo"/>
+    </collection>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getDeliveryCustomsOffice" set-method="setDeliveryCustomsOffice" usage="optional" name="DeliveryCustomsOffice"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getPPBorderCustoms" set-method="setPPBorderCustoms" usage="optional" name="PPBorderCustoms"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUConsigneeType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUConsigneeType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OfficesExchangeCode" get-method="getOfficesExchangeCode" set-method="setOfficesExchangeCode" usage="optional"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUConsignorType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUConsignorType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OfficesExchangeCode" get-method="getOfficesExchangeCode" set-method="setOfficesExchangeCode" usage="optional"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUDeclarantType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUDeclarantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUDepartureArrivalTransportType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUDepartureArrivalTransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportMeansQuantity" get-method="getTransportMeansQuantity" set-method="setTransportMeansQuantity" usage="optional"/>
+    <value style="element" name="MethodTransport" get-method="getMethodTransport" set-method="setMethodTransport" usage="optional"/>
+    <value style="element" name="NameObject" get-method="getNameObject" set-method="setNameObject" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUFinancialAdjustingResponsiblePersonType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUFinancialAdjustingResponsiblePersonType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUGoodsLocationType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUGoodsLocationType">
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode"/>
+    <value style="element" name="CustomsOffice" get-method="getCustomsOffice" set-method="setCustomsOffice"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode"/>
+    <value style="element" name="LocationName" get-method="getLocationName" set-method="setLocationName" usage="optional"/>
+    <structure map-as="catESAD_cu:CUGoodsLocationPlaceType" get-method="getGoodsLocationPlace" set-method="setGoodsLocationPlace" usage="optional" name="GoodsLocationPlace"/>
+    <structure map-as="ESADout_CU:CUWarehousePlaceType" get-method="getGoodsLocationWarehouse" set-method="setGoodsLocationWarehouse" usage="optional" name="GoodsLocationWarehouse"/>
+    <structure map-as="catESAD_cu:CUTransportType" get-method="getTransport" set-method="setTransport" usage="optional" name="Transport"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUGoodsShipmentType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUGoodsShipmentType">
+    <structure map-as="catESAD_cu:CUESADGoodsShipmentType"/>
+    <structure map-as="ESADout_CU:ESADout_CUConsignorType" get-method="getESADoutCUConsignor" set-method="setESADoutCUConsignor" usage="optional" name="ESADout_CUConsignor"/>
+    <structure map-as="ESADout_CU:ESADout_CUConsigneeType" get-method="getESADoutCUConsignee" set-method="setESADoutCUConsignee" usage="optional" name="ESADout_CUConsignee"/>
+    <structure map-as="ESADout_CU:ESADout_CUFinancialAdjustingResponsiblePersonType" get-method="getESADoutCUFinancialAdjustingResponsiblePerson" set-method="setESADoutCUFinancialAdjustingResponsiblePerson" usage="optional" name="ESADout_CUFinancialAdjustingResponsiblePerson"/>
+    <structure map-as="ESADout_CU:ESADout_CUDeclarantType" get-method="getESADoutCUDeclarant" set-method="setESADoutCUDeclarant" usage="optional" name="ESADout_CUDeclarant"/>
+    <structure map-as="ESADout_CU:ESADout_CUCarrierType" get-method="getESADoutCUCarrier" set-method="setESADoutCUCarrier" usage="optional" name="ESADout_CUCarrier"/>
+    <collection get-method="getESADoutCUGoodsLocationList" set-method="setESADoutCUGoodsLocationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ESADout_CU:ESADout_CUGoodsLocationType" name="ESADout_CUGoodsLocation"/>
+    </collection>
+    <structure map-as="ESADout_CU:ESADout_CUConsigmentType" get-method="getESADoutCUConsigment" set-method="setESADoutCUConsigment" usage="optional" name="ESADout_CUConsigment"/>
+    <structure map-as="catESAD_cu:CUESADMainContractTermsType" get-method="getESADoutCUMainContractTerms" set-method="setESADoutCUMainContractTerms" usage="optional" name="ESADout_CUMainContractTerms"/>
+    <collection get-method="getESADoutCUGoodList" set-method="setESADoutCUGoodList" create-type="java.util.ArrayList">
+      <structure map-as="ESADout_CU:ESADout_CUGoodsType" name="ESADout_CUGoods"/>
+    </collection>
+    <structure map-as="ESADout_CU:ESADout_CUPaymentsType" get-method="getESADoutCUPayments" set-method="setESADoutCUPayments" usage="optional" name="ESADout_CUPayments"/>
+    <collection get-method="getGuaranteeList" set-method="setGuaranteeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUGuaranteeType" name="Guarantee"/>
+    </collection>
+    <collection get-method="getTDGuaranteeList" set-method="setTDGuaranteeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:TDGuaranteeType" name="TDGuarantee"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUGoodsType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUGoodsType">
+    <structure map-as="catESAD_cu:CUESADGoodsItemType"/>
+    <value style="element" name="LanguageGoods" get-method="getLanguageGoods" set-method="setLanguageGoods" usage="optional"/>
+    <value style="element" name="MilitaryProducts" get-method="getMilitaryProducts" set-method="setMilitaryProducts" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <collection get-method="getESADoutCUPresentedDocumentList" set-method="setESADoutCUPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUPresentedDocumentsType" name="ESADout_CUPresentedDocument"/>
+    </collection>
+    <collection get-method="getESADoutCUPrecedingDocumentList" set-method="setESADoutCUPrecedingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUPrecedingDocumentType" name="ESADout_CUPrecedingDocument"/>
+    </collection>
+    <collection get-method="getESADoutCUCustomsPaymentCalculationList" set-method="setESADoutCUCustomsPaymentCalculationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUCustomsPaymentCalculationType" name="ESADout_CUCustomsPaymentCalculation"/>
+    </collection>
+    <structure map-as="catESAD_cu:ProcessingGoodsDeclarationType" get-method="getESADoutCUCustomsConditions" set-method="setESADoutCUCustomsConditions" usage="optional" name="ESADout_CUCustomsConditions"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+    <collection get-method="getSupplementaryGoodsQuantity1List" set-method="setSupplementaryGoodsQuantity1List" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="SupplementaryGoodsQuantity1"/>
+    </collection>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getESADGoodsPackaging" set-method="setESADGoodsPackaging" usage="optional" name="ESADGoodsPackaging"/>
+    <structure map-as="catESAD_cu:ESADGoodsQuotaType" get-method="getESADGoodsQuota" set-method="setESADGoodsQuota" usage="optional" name="ESADGoodsQuota"/>
+    <structure map-as="catESAD_cu:ESADContainerType" get-method="getESADContainer" set-method="setESADContainer" usage="optional" name="ESADContainer"/>
+    <structure map-as="catESAD_cu:ESADCustomsProcedureType" get-method="getESADCustomsProcedure" set-method="setESADCustomsProcedure" usage="optional" name="ESADCustomsProcedure"/>
+    <collection get-method="getESADExciseList" set-method="setESADExciseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADExciseType" name="ESADExcise"/>
+    </collection>
+    <collection get-method="getElectricalEnergReceivedList" set-method="setElectricalEnergReceivedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CU_ElectricalEnergyType" name="ElectricalEnergReceived"/>
+    </collection>
+    <collection get-method="getElectricalEnergGivenList" set-method="setElectricalEnergGivenList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CU_ElectricalEnergyType" name="ElectricalEnergGiven"/>
+    </collection>
+    <collection get-method="getGoodsAutomobileList" set-method="setGoodsAutomobileList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:AutomobileType" name="GoodsAutomobile"/>
+    </collection>
+    <structure map-as="ESADout_CU:ESADoutGoodsOrganizationType" get-method="getESADoutGoodsOrganization" set-method="setESADoutGoodsOrganization" usage="optional" name="ESADoutGoodsOrganization"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getRBSupplementaryGoodsQuantity" set-method="setRBSupplementaryGoodsQuantity" usage="optional" name="RBSupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:ESADout_CUPaymentsType" class="ru.acs.fts.schemas.album.esadout_cu.ESADoutCUPaymentsType">
+    <collection get-method="getESADoutCUCustomsPaymentList" set-method="setESADoutCUCustomsPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ESADout_CU:CustomsPaymentType" name="ESADout_CUCustomsPayment"/>
+    </collection>
+    <collection get-method="getCUDelayPaymentList" set-method="setCUDelayPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUDelayPaymentsType" name="CUDelayPayments"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:PaymentDocumentType" class="ru.acs.fts.schemas.album.esadout_cu.PaymentDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PaymentDate" get-method="getPaymentDate" set-method="setPaymentDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="ESADout_CU:RBTechMarKType" class="ru.acs.fts.schemas.album.esadout_cu.RBTechMarKType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DelcKind" get-method="getDelcKind" set-method="setDelcKind"/>
+    <value style="element" name="SumPayment" get-method="getSumPayment" set-method="setSumPayment" usage="optional"/>
+  </mapping>
+</binding>

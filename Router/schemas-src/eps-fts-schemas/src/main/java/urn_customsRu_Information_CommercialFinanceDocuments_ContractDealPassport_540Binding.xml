@@ -1,0 +1,71 @@
+<binding xmlns:cdep="urn:customs.ru:Information:CommercialFinanceDocuments:ContractDealPassport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ContractDealPassport:5.4.0" default="elements" prefix="cdep"/>
+  <mapping abstract="true" type-name="cdep:ContractDealPassportType" class="ru.acs.fts.schemas.album.contractdealpassport.ContractDealPassportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <structure map-as="cdep:RegNumberType" get-method="getPSNumber" set-method="setPSNumber" name="PSNumber"/>
+    <structure map-as="cdep:ResidentType" get-method="getResidentInfo" set-method="setResidentInfo" name="ResidentInfo"/>
+    <collection get-method="getNonresidentInfoList" set-method="setNonresidentInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cdep:NonresidentType" name="NonresidentInfo"/>
+    </collection>
+    <collection get-method="getCommonContractInfoList" set-method="setCommonContractInfoList" create-type="java.util.ArrayList">
+      <structure map-as="cdep:ContractTermsType" name="CommonContractInfo"/>
+    </collection>
+    <collection get-method="getAdditionalInfoList" set-method="setAdditionalInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cdep:AdditionalInfoType" name="AdditionalInfo"/>
+    </collection>
+    <collection get-method="getUpdatingInfoList" set-method="setUpdatingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cdep:UpdatingInfoType" name="UpdatingInfo"/>
+    </collection>
+    <structure map-as="cdep:RegNumberType" get-method="getPreviousPSNumber" set-method="setPreviousPSNumber" usage="optional" name="PreviousPSNumber"/>
+    <structure map-as="cdep:SupplementalInformationType" get-method="getDocumentRegistrationType" set-method="setDocumentRegistrationType" name="DocumentRegistrationType"/>
+    <structure map-as="cdep:SupplementalInformationType" get-method="getCompletedDocumentType" set-method="setCompletedDocumentType" usage="optional" name="CompletedDocumentType"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.contractdealpassport.ContractDealPassportType" name="ContractDealPassport">
+    <structure map-as="cdep:ContractDealPassportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:AdditionalInfoType" class="ru.acs.fts.schemas.album.contractdealpassport.AdditionalInfoType">
+    <value style="element" name="BankRegistrationNumber" get-method="getBankRegistrationNumber" set-method="setBankRegistrationNumber" usage="optional"/>
+    <value style="element" name="AffilianceRegistrationNumber" get-method="getAffilianceRegistrationNumber" set-method="setAffilianceRegistrationNumber" usage="optional"/>
+    <value style="element" name="TransferDate" get-method="getTransferDate" set-method="setTransferDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ClosingDate" get-method="getClosingDate" set-method="setClosingDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ClosingReasons" get-method="getClosingReasons" set-method="setClosingReasons" usage="optional"/>
+    <value style="element" name="NotaryAttorneyRegNumber" get-method="getNotaryAttorneyRegNumber" set-method="setNotaryAttorneyRegNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:ContractTermsType" class="ru.acs.fts.schemas.album.contractdealpassport.ContractTermsType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="MostLaterDate" get-method="getMostLaterDate" set-method="setMostLaterDate" format="LocalDate.default"/>
+    <value style="element" name="CurrencyName" get-method="getCurrencyName" set-method="setCurrencyName"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="ContractSum" get-method="getContractSum" set-method="setContractSum" usage="optional"/>
+    <value style="element" name="NonContractSum" get-method="getNonContractSum" set-method="setNonContractSum" usage="optional"/>
+    <value style="element" name="CompletionDate" get-method="getCompletionDate" set-method="setCompletionDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:NonresidentType" class="ru.acs.fts.schemas.album.contractdealpassport.NonresidentType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:RegNumberType" class="ru.acs.fts.schemas.album.contractdealpassport.RegNumberType">
+    <value style="element" name="RegistrationPeriod" get-method="getRegistrationPeriod" set-method="setRegistrationPeriod"/>
+    <value style="element" name="PSSerialNumber" get-method="getPSSerialNumber" set-method="setPSSerialNumber"/>
+    <value style="element" name="BankRegistrationNumber" get-method="getBankRegistrationNumber" set-method="setBankRegistrationNumber"/>
+    <value style="element" name="AffiliateSerialNumber" get-method="getAffiliateSerialNumber" set-method="setAffiliateSerialNumber"/>
+    <value style="element" name="ContractCode" get-method="getContractCode" set-method="setContractCode"/>
+    <value style="element" name="ResidentSign" get-method="getResidentSign" set-method="setResidentSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:ResidentType" class="ru.acs.fts.schemas.album.contractdealpassport.ResidentType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="AffiliateName" get-method="getAffiliateName" set-method="setAffiliateName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:SupplementalInformationType" class="ru.acs.fts.schemas.album.contractdealpassport.SupplementalInformationType">
+    <value style="element" name="DocumentType" get-method="getDocumentType" set-method="setDocumentType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdep:UpdatingInfoType" class="ru.acs.fts.schemas.album.contractdealpassport.UpdatingInfoType">
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRestructuring" set-method="setRestructuring" name="Restructuring"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getReasonsDocuments" set-method="setReasonsDocuments" usage="optional" name="ReasonsDocuments"/>
+  </mapping>
+</binding>

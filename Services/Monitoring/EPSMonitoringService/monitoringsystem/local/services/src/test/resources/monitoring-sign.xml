@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:m="http://acs.ru/schema/monitoring-agent"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+	<m:signature name="Сервер ЭЦП VMDIG" serverName="VMDSIG">
+		<m:certificateName>july2009</m:certificateName>
+		<m:certificateName>cert2</m:certificateName>		
+	</m:signature>
+	
+	<bean class="ru.acs.monitoring.services.SignatureSettings">
+		<property name="name" value="Сервер ЭЦП VMDIG" />
+		<property name="serverName" value="VMDSIG" />
+		<!--
+			<property name="port" value="1099" /> <property name="serviceName"
+			value="SignatureProcessor"/>
+		-->
+		<property name="certificates">
+			<list>
+				<value>july2009</value>
+				<!-- 
+					<value>cert2</value> 
+					<value>cert3</value>
+				-->
+			</list>
+		</property>
+	</bean>
+	<bean class="ru.acs.monitoring.services.SignatureSettings">
+		<property name="name" value="Сервер ЭЦП VMDIG2" />
+		<property name="serverName" value="VMDSIG2" />
+		<property name="certificates">
+			<list>
+				<value>july2009</value>
+				<value>cert2</value>
+				<value>cert3</value>
+			</list>
+		</property>
+	</bean>
+	<bean class="ru.acs.monitoring.services.SignatureSettings">
+		<property name="name" value="Сервер ЭЦП VMDIG3" />
+		<property name="serverName" value="VMDSIG" />
+		<property name="certificates">
+			<list>
+				<value>july2009</value>
+				<value>cert2</value>
+				<value>cert3</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

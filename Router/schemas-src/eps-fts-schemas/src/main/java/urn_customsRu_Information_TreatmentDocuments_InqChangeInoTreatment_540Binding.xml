@@ -1,0 +1,25 @@
+<binding xmlns:ici="urn:customs.ru:Information:TreatmentDocuments:InqChangeInoTreatment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:InqChangeInoTreatment:5.4.0" default="elements" prefix="ici"/>
+  <mapping abstract="true" type-name="ici:InqChangeInoTreatmentType" class="ru.acs.fts.schemas.album.inqchangeinotreatment.InqChangeInoTreatmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <collection get-method="getChangeList" set-method="setChangeList" create-type="java.util.ArrayList">
+      <structure map-as="ici:ChangesType" name="Changes"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqchangeinotreatment.InqChangeInoTreatmentType" name="InqChangeInoTreatment">
+    <structure map-as="ici:InqChangeInoTreatmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ici:ChangesType" class="ru.acs.fts.schemas.album.inqchangeinotreatment.ChangesType">
+    <collection get-method="getChDescriptionList" set-method="setChDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="ChDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

@@ -1,0 +1,35 @@
+<binding xmlns:tmprdb="urn:customs.ru:Information:SQDocuments:RosPrirodTempOutRedBook:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPrirodTempOutRedBook:5.4.0" default="elements" prefix="tmprdb"/>
+  <mapping abstract="true" type-name="tmprdb:RosPrirodTempOutRedBookType" class="ru.acs.fts.schemas.album.rosprirodtempoutredbook.RosPrirodTempOutRedBookType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocumentId" get-method="getDocumentId" set-method="setDocumentId"/>
+    <value style="element" name="RemovalTime" get-method="getRemovalTime" set-method="setRemovalTime" usage="optional"/>
+    <value style="element" name="AuthorizedPerson" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getConclusion" set-method="setConclusion" usage="optional" name="Conclusion"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getPerson" set-method="setPerson" usage="optional" name="Person"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getRecipient" set-method="setRecipient" usage="optional" name="Recipient"/>
+    <collection get-method="getObjectList" set-method="setObjectList" create-type="java.util.ArrayList">
+      <structure map-as="tmprdb:ObjectType" name="Object"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rosprirodtempoutredbook.RosPrirodTempOutRedBookType" name="RosPrirodTempOutRedBook">
+    <structure map-as="tmprdb:RosPrirodTempOutRedBookType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmprdb:CountMarksType" class="ru.acs.fts.schemas.album.rosprirodtempoutredbook.CountMarksType">
+    <structure map-as="cat_ru:SupplementaryQuantityType"/>
+    <value style="element" name="AdditionalMarks" get-method="getAdditionalMarks" set-method="setAdditionalMarks" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmprdb:ObjectType" class="ru.acs.fts.schemas.album.rosprirodtempoutredbook.ObjectType">
+    <collection get-method="getNameList" set-method="setNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <value style="element" name="Country" get-method="getCountry" set-method="setCountry" usage="optional"/>
+    <value style="element" name="PurposeExport" get-method="getPurposeExport" set-method="setPurposeExport" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <structure map-as="tmprdb:CountMarksType" get-method="getCount" set-method="setCount" name="Count"/>
+  </mapping>
+</binding>

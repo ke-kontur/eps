@@ -1,0 +1,25 @@
+<binding xmlns:ptnzdn="urn:customs.ru:Information:SQDocuments:RPNDecision:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RPNDecision:5.4.0" default="elements" prefix="ptnzdn"/>
+  <mapping abstract="true" type-name="ptnzdn:RPNDecisionType" class="ru.acs.fts.schemas.album.rpndecision.RPNDecisionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" format="LocalDate.default"/>
+    <value style="element" name="DecisionTime" get-method="getDecisionTime" set-method="setDecisionTime" usage="optional"/>
+    <value style="element" name="Decision" get-method="getDecision" set-method="setDecision"/>
+    <value style="element" name="KppName" get-method="getKppName" set-method="setKppName"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTransport" set-method="setTransport" name="Transport"/>
+    <structure map-as="ptnzdn:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" name="GoodsDescription"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getOfficer" set-method="setOfficer" name="Officer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rpndecision.RPNDecisionType" name="RPNDecision">
+    <structure map-as="ptnzdn:RPNDecisionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ptnzdn:GoodsDescriptionType" class="ru.acs.fts.schemas.album.rpndecision.GoodsDescriptionType">
+    <collection get-method="getGoodNameList" set-method="setGoodNameList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodName" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+  </mapping>
+</binding>

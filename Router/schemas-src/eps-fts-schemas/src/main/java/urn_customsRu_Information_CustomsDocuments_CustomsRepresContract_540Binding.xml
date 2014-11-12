@@ -1,0 +1,19 @@
+<binding xmlns:crc="urn:customs.ru:Information:CustomsDocuments:CustomsRepresContract:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CustomsRepresContract:5.4.0" default="elements" prefix="crc"/>
+  <mapping abstract="true" type-name="crc:CustomsRepresContractType" class="ru.acs.fts.schemas.album.customsreprescontract.CustomsRepresContractType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PaymentFactSign" get-method="getPaymentFactSign" set-method="setPaymentFactSign"/>
+    <value style="element" name="AdditionalInformation" get-method="getAdditionalInformation" set-method="setAdditionalInformation" usage="optional"/>
+    <structure map-as="crc:CustomsRepresentativType" get-method="getCustomsRepresentative" set-method="setCustomsRepresentative" name="CustomsRepresentative"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractDetails" set-method="setContractDetails" name="ContractDetails"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.customsreprescontract.CustomsRepresContractType" name="CustomsRepresContract">
+    <structure map-as="crc:CustomsRepresContractType"/>
+  </mapping>
+  <mapping abstract="true" type-name="crc:CustomsRepresentativType" class="ru.acs.fts.schemas.album.customsreprescontract.CustomsRepresentativType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCustomsRepresCertificate" set-method="setCustomsRepresCertificate" name="CustomsRepresCertificate"/>
+  </mapping>
+</binding>

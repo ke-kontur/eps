@@ -1,0 +1,13 @@
+<binding xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0" default="elements" prefix="catArch_ru"/>
+  <mapping abstract="true" type-name="catArch_ru:ArchBaseDocType" class="ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseDocType">
+    <structure map-as="catArch_ru:ArchBaseType"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="ArchDocumentID" get-method="getArchDocumentID" set-method="setArchDocumentID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catArch_ru:ArchBaseType" class="ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID"/>
+  </mapping>
+</binding>

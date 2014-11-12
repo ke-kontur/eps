@@ -1,0 +1,26 @@
+<binding xmlns:reqwh="urn:customs.ru:Information:WarehouseDocuments:ReqWHGoodsProlong:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:ReqWHGoodsProlong:5.4.0" default="elements" prefix="reqwh"/>
+  <mapping abstract="true" type-name="reqwh:ReqWHGoodsProlongType" class="ru.acs.fts.schemas.album.reqwhgoodsprolong.ReqWHGoodsProlongType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getGoodsReasonList" set-method="setGoodsReasonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="reqwh:GoodsReasonType" name="GoodsReason"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqwhgoodsprolong.ReqWHGoodsProlongType" name="ReqWHGoodsProlong">
+    <structure map-as="reqwh:ReqWHGoodsProlongType"/>
+  </mapping>
+  <mapping abstract="true" type-name="reqwh:GoodsReasonType" class="ru.acs.fts.schemas.album.reqwhgoodsprolong.GoodsReasonType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="ReqPeriod" get-method="getReqPeriod" set-method="setReqPeriod" format="LocalDate.default"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

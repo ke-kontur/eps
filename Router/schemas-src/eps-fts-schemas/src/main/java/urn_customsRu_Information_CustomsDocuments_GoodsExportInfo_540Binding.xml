@@ -1,0 +1,13 @@
+<binding xmlns:GExInf="urn:customs.ru:Information:CustomsDocuments:GoodsExportInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsExportInfo:5.4.0" default="elements" prefix="GExInf"/>
+  <mapping abstract="true" type-name="GExInf:GoodsExportInfoType" class="ru.acs.fts.schemas.album.goodsexportinfo.GoodsExportInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getExportInfoList" set-method="setExportInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:GTDExportInfoType" name="ExportInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsexportinfo.GoodsExportInfoType" name="GoodsExportInfo">
+    <structure map-as="GExInf:GoodsExportInfoType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,14 @@
+<binding xmlns:rnains="urn:customs.ru:Information:CustomsDocuments:RegNumberActInspection:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RegNumberActInspection:5.4.0" default="elements" prefix="rnains"/>
+  <mapping abstract="true" type-name="rnains:RegNumberActInspectionType" class="ru.acs.fts.schemas.album.regnumberactinspection.RegNumberActInspectionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getActNumberList" set-method="setActNumberList" create-type="java.util.ArrayList">
+      <value style="element" name="ActNumber" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="InspectionDate" get-method="getInspectionDate" set-method="setInspectionDate" format="LocalDate.default"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.regnumberactinspection.RegNumberActInspectionType" name="RegNumberActInspection">
+    <structure map-as="rnains:RegNumberActInspectionType"/>
+  </mapping>
+</binding>

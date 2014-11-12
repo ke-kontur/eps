@@ -1,0 +1,23 @@
+<binding xmlns:aiftc="urn:customs.ru:Information:CustomsDocuments:AddInfoForeignTradeContract:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:AddInfoForeignTradeContract:5.4.0" default="elements" prefix="aiftc"/>
+  <mapping abstract="true" type-name="aiftc:AddInfoForeignTradeContractType" class="ru.acs.fts.schemas.album.addinfoforeigntradecontract.AddInfoForeignTradeContractType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GTDDocumentId" get-method="getGTDDocumentId" set-method="setGTDDocumentId" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDeclarantSignature" set-method="setDeclarantSignature" name="DeclarantSignature"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGtdRegNumber" set-method="setGtdRegNumber" usage="optional" name="GtdRegNumber"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="aiftc:GoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.addinfoforeigntradecontract.AddInfoForeignTradeContractType" name="AddInfoForeignTradeContract">
+    <structure map-as="aiftc:AddInfoForeignTradeContractType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aiftc:GoodsType" class="ru.acs.fts.schemas.album.addinfoforeigntradecontract.GoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <collection get-method="getContractList" set-method="setContractList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADContractListType" name="ContractList"/>
+    </collection>
+  </mapping>
+</binding>

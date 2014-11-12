@@ -1,0 +1,381 @@
+<binding xmlns:ain="urn:customs.ru:Information:CustomsDocuments:ActInspection:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActInspection:5.4.0" default="elements" prefix="ain"/>
+  <mapping abstract="true" type-name="ain:ActInspectionType" class="ru.acs.fts.schemas.album.actinspection.ActInspectionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="ActNumber" get-method="getActNumber" set-method="setActNumber"/>
+    <value style="element" name="ActType" get-method="getActType" set-method="setActType"/>
+    <value style="element" name="BeginInspectionTime" get-method="getBeginInspectionTime" set-method="setBeginInspectionTime"/>
+    <value style="element" name="BeginInspectionDate" get-method="getBeginInspectionDate" set-method="setBeginInspectionDate" format="LocalDate.default"/>
+    <value style="element" name="EndInspectionTime" get-method="getEndInspectionTime" set-method="setEndInspectionTime"/>
+    <value style="element" name="EndInspectionDate" get-method="getEndInspectionDate" set-method="setEndInspectionDate" format="LocalDate.default"/>
+    <value style="element" name="SecExempDate" get-method="getSecExempDate" set-method="setSecExempDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="SecExempTime" get-method="getSecExempTime" set-method="setSecExempTime" usage="optional"/>
+    <value style="element" name="NumberOfPlaces" get-method="getNumberOfPlaces" set-method="setNumberOfPlaces" usage="optional"/>
+    <value style="element" name="BruttoWeightDocs" get-method="getBruttoWeightDocs" set-method="setBruttoWeightDocs" usage="optional"/>
+    <value style="element" name="NewCustomsModeCode" get-method="getNewCustomsModeCode" set-method="setNewCustomsModeCode" usage="optional"/>
+    <collection get-method="getCustomsMarkList" set-method="setCustomsMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CustomsMark" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ActKind" get-method="getActKind" set-method="setActKind" usage="optional"/>
+    <value style="element" name="ShortFormSign" get-method="getShortFormSign" set-method="setShortFormSign"/>
+    <value style="element" name="EndComposeDate" get-method="getEndComposeDate" set-method="setEndComposeDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndComposeTime" get-method="getEndComposeTime" set-method="setEndComposeTime" usage="optional"/>
+    <collection get-method="getInspectionParticipantList" set-method="setInspectionParticipantList" create-type="java.util.ArrayList">
+      <structure map-as="ain:InspectionParticipantType" name="InspectionParticipant"/>
+    </collection>
+    <structure map-as="ain:ConsigneeType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="ain:TransporterType" get-method="getTransporter" set-method="setTransporter" usage="optional" name="Transporter"/>
+    <collection get-method="getAccDocList" set-method="setAccDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:AccDocsType" name="AccDocs"/>
+    </collection>
+    <structure map-as="ain:InspectionResultsType" get-method="getInspectionResults" set-method="setInspectionResults" name="InspectionResults"/>
+    <structure map-as="ain:TextActType" get-method="getTextAct" set-method="setTextAct" usage="optional" name="TextAct"/>
+    <structure map-as="ain:SeizeType" get-method="getSeize" set-method="setSeize" name="Seize"/>
+    <collection get-method="getAMTInspResultList" set-method="setAMTInspResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:AMTInspResultsType" name="AMTInspResults"/>
+    </collection>
+    <collection get-method="getBusInspResultList" set-method="setBusInspResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:BusInspResultsType" name="BusInspResults"/>
+    </collection>
+    <collection get-method="getTrailerInspResultList" set-method="setTrailerInspResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:TrailerInspResultsType" name="TrailerInspResults"/>
+    </collection>
+    <collection get-method="getTruckInspResultList" set-method="setTruckInspResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:TruckInspResultsType" name="TruckInspResults"/>
+    </collection>
+    <collection get-method="getMotoInspResultList" set-method="setMotoInspResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:MotoInspResultsType" name="MotoInspResults"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="ain:ConsignorType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="ain:InspectionPlaceType" get-method="getInspectionPlace" set-method="setInspectionPlace" name="InspectionPlace"/>
+    <structure map-as="ain:InspInstructionType" get-method="getInstructionNumber" set-method="setInstructionNumber" usage="optional" name="InstructionNumber"/>
+    <collection get-method="getATDCustomsPersonList" set-method="setATDCustomsPersonList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_ru:ATDCustomPersonType" name="ATDCustomsPerson"/>
+    </collection>
+    <collection get-method="getAutoInspResultList" set-method="setAutoInspResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:CarInformationType" name="AutoInspResults"/>
+    </collection>
+    <structure map-as="ain:InspTransportType" get-method="getInspTransport" set-method="setInspTransport" usage="optional" name="InspTransport"/>
+    <collection get-method="getUseTMCCList" set-method="setUseTMCCList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:UseTMCCType" name="UseTMCC"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actinspection.ActInspectionType" name="ActInspection">
+    <structure map-as="ain:ActInspectionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:AMTDopDeviceType" class="ru.acs.fts.schemas.album.actinspection.AMTDopDeviceType">
+    <value style="element" name="CabCowl" get-method="getCabCowl" set-method="setCabCowl"/>
+    <value style="element" name="ABS" get-method="getABS" set-method="setABS"/>
+    <value style="element" name="Conditioner" get-method="getConditioner" set-method="setConditioner"/>
+    <value style="element" name="Signalization" get-method="getSignalization" set-method="setSignalization"/>
+    <value style="element" name="VideotapeRecorder" get-method="getVideotapeRecorder" set-method="setVideotapeRecorder"/>
+    <value style="element" name="AudioSystem" get-method="getAudioSystem" set-method="setAudioSystem"/>
+    <value style="element" name="TV" get-method="getTV" set-method="setTV"/>
+    <value style="element" name="Telefon" get-method="getTelefon" set-method="setTelefon"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax"/>
+    <value style="element" name="Fridge" get-method="getFridge" set-method="setFridge"/>
+    <value style="element" name="Microvawe" get-method="getMicrovawe" set-method="setMicrovawe"/>
+    <value style="element" name="NavigationSystem" get-method="getNavigationSystem" set-method="setNavigationSystem"/>
+    <value style="element" name="PressRegulationSystem" get-method="getPressRegulationSystem" set-method="setPressRegulationSystem"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:AMTInspResultsType" class="ru.acs.fts.schemas.album.actinspection.AMTInspResultsType">
+    <structure map-as="ain:CommonParametersType"/>
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+    <value style="element" name="HighCeiling" get-method="getHighCeiling" set-method="setHighCeiling"/>
+    <structure map-as="ain:PodveskaType" get-method="getPodveska" set-method="setPodveska" name="Podveska"/>
+    <structure map-as="ain:TruckParametersType" get-method="getTruckParameters" set-method="setTruckParameters" name="TruckParameters"/>
+    <structure map-as="ain:AMTDopDeviceType" get-method="getAMTDopDevice" set-method="setAMTDopDevice" usage="optional" name="AMTDopDevice"/>
+    <structure map-as="ain:DamagesType" get-method="getDamages" set-method="setDamages" usage="optional" name="Damages"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:AccDocsType" class="ru.acs.fts.schemas.album.actinspection.AccDocsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:BusDopDeviceType" class="ru.acs.fts.schemas.album.actinspection.BusDopDeviceType">
+    <value style="element" name="ABS" get-method="getABS" set-method="setABS"/>
+    <value style="element" name="Conditioner" get-method="getConditioner" set-method="setConditioner"/>
+    <value style="element" name="VideotapeRecorder" get-method="getVideotapeRecorder" set-method="setVideotapeRecorder"/>
+    <value style="element" name="AudioSystem" get-method="getAudioSystem" set-method="setAudioSystem"/>
+    <value style="element" name="TV" get-method="getTV" set-method="setTV"/>
+    <value style="element" name="Telefon" get-method="getTelefon" set-method="setTelefon"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax"/>
+    <value style="element" name="BioCloset" get-method="getBioCloset" set-method="setBioCloset"/>
+    <value style="element" name="Fridge" get-method="getFridge" set-method="setFridge"/>
+    <value style="element" name="Microvawe" get-method="getMicrovawe" set-method="setMicrovawe"/>
+    <value style="element" name="NavigationSystem" get-method="getNavigationSystem" set-method="setNavigationSystem"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:BusInspResultsType" class="ru.acs.fts.schemas.album.actinspection.BusInspResultsType">
+    <structure map-as="ain:CommonParametersType"/>
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+    <value style="element" name="SeatPlaceNumber" get-method="getSeatPlaceNumber" set-method="setSeatPlaceNumber"/>
+    <value style="element" name="StandPlaceNumber" get-method="getStandPlaceNumber" set-method="setStandPlaceNumber"/>
+    <value style="element" name="PassPlaceNumber" get-method="getPassPlaceNumber" set-method="setPassPlaceNumber"/>
+    <value style="element" name="Lengthm" get-method="getLengthm" set-method="setLengthm"/>
+    <value style="element" name="Widthm" get-method="getWidthm" set-method="setWidthm"/>
+    <value style="element" name="Heightm" get-method="getHeightm" set-method="setHeightm"/>
+    <value style="element" name="SolarBatPresence" get-method="getSolarBatPresence" set-method="setSolarBatPresence"/>
+    <value style="element" name="LuggBoxNumber" get-method="getLuggBoxNumber" set-method="setLuggBoxNumber"/>
+    <value style="element" name="LuggBoxVolume" get-method="getLuggBoxVolume" set-method="setLuggBoxVolume"/>
+    <value style="element" name="NumberOfStore" get-method="getNumberOfStore" set-method="setNumberOfStore" usage="optional"/>
+    <value style="element" name="SeatKind" get-method="getSeatKind" set-method="setSeatKind"/>
+    <value style="element" name="WindowKind" get-method="getWindowKind" set-method="setWindowKind"/>
+    <value style="element" name="PassDoorNumber" get-method="getPassDoorNumber" set-method="setPassDoorNumber"/>
+    <value style="element" name="DriverCabDividingWall" get-method="getDriverCabDividingWall" set-method="setDriverCabDividingWall"/>
+    <structure map-as="ain:PodveskaType" get-method="getPodveska" set-method="setPodveska" name="Podveska"/>
+    <structure map-as="ain:BusDopDeviceType" get-method="getBusDopDevice" set-method="setBusDopDevice" usage="optional" name="BusDopDevice"/>
+    <structure map-as="ain:DamagesType" get-method="getDamages" set-method="setDamages" usage="optional" name="Damages"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:CarInformationType" class="ru.acs.fts.schemas.album.actinspection.CarInformationType">
+    <structure map-as="catESAD_ru:AutoInspResultsType"/>
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:CargoPlaceType" class="ru.acs.fts.schemas.album.actinspection.CargoPlaceType">
+    <value style="element" name="CargoPlaceKind" get-method="getCargoPlaceKind" set-method="setCargoPlaceKind"/>
+    <value style="element" name="Lengthm" get-method="getLengthm" set-method="setLengthm"/>
+    <value style="element" name="Widthm" get-method="getWidthm" set-method="setWidthm"/>
+    <value style="element" name="Heightm" get-method="getHeightm" set-method="setHeightm"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:CommonParametersType" class="ru.acs.fts.schemas.album.actinspection.CommonParametersType">
+    <value style="element" name="Model" get-method="getModel" set-method="setModel"/>
+    <value style="element" name="VINID" get-method="getVINID" set-method="setVINID" usage="optional"/>
+    <value style="element" name="EngineModel" get-method="getEngineModel" set-method="setEngineModel" usage="optional"/>
+    <value style="element" name="EngineNumber" get-method="getEngineNumber" set-method="setEngineNumber" usage="optional"/>
+    <value style="element" name="CapstanNumber" get-method="getCapstanNumber" set-method="setCapstanNumber"/>
+    <value style="element" name="WheelSize" get-method="getWheelSize" set-method="setWheelSize" usage="optional"/>
+    <value style="element" name="NumberOfPhoto" get-method="getNumberOfPhoto" set-method="setNumberOfPhoto" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:ConsigneeType" class="ru.acs.fts.schemas.album.actinspection.ConsigneeType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="DestinCountry" get-method="getDestinCountry" set-method="setDestinCountry" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getPhysicalPersonIdCard" set-method="setPhysicalPersonIdCard" usage="optional" name="PhysicalPersonIdCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:ConsignorType" class="ru.acs.fts.schemas.album.actinspection.ConsignorType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="DepartCountry" get-method="getDepartCountry" set-method="setDepartCountry" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getPhysicalPersonIdCard" set-method="setPhysicalPersonIdCard" usage="optional" name="PhysicalPersonIdCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:ContainerType" class="ru.acs.fts.schemas.album.actinspection.ContainerType">
+    <value style="element" name="ContainerQuantity" get-method="getContainerQuantity" set-method="setContainerQuantity"/>
+    <collection get-method="getContainerIdentificatorList" set-method="setContainerIdentificatorList" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerIdentificator" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:DamagesType" class="ru.acs.fts.schemas.album.actinspection.DamagesType">
+    <collection get-method="getVisDamageList" set-method="setVisDamageList" create-type="java.util.ArrayList">
+      <value style="element" name="VisDamage" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:FactWeightType" class="ru.acs.fts.schemas.album.actinspection.FactWeightType">
+    <value style="element" name="Netto" get-method="getNetto" set-method="setNetto" usage="optional"/>
+    <value style="element" name="Brutto" get-method="getBrutto" set-method="setBrutto" usage="optional"/>
+    <value style="element" name="FWMethod" get-method="getFWMethod" set-method="setFWMethod"/>
+    <value style="element" name="WFMetodsComments" get-method="getWFMetodsComments" set-method="setWFMetodsComments" usage="optional"/>
+    <value style="element" name="WeighPlacesNumber" get-method="getWeighPlacesNumber" set-method="setWeighPlacesNumber" usage="optional"/>
+    <collection get-method="getPlaceWeightList" set-method="setPlaceWeightList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PlaceWeight" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:IdentifyMeanType" class="ru.acs.fts.schemas.album.actinspection.IdentifyMeanType">
+    <value style="element" name="IdentMeanState" get-method="getIdentMeanState" set-method="setIdentMeanState"/>
+    <value style="element" name="IdentNumber" get-method="getIdentNumber" set-method="setIdentNumber"/>
+    <value style="element" name="IdentBreakFlag" get-method="getIdentBreakFlag" set-method="setIdentBreakFlag"/>
+    <value style="element" name="IdentKind" get-method="getIdentKind" set-method="setIdentKind"/>
+    <value style="element" name="IdentDesc" get-method="getIdentDesc" set-method="setIdentDesc" usage="optional"/>
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspGoodsType" class="ru.acs.fts.schemas.album.actinspection.InspGoodsType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="CountrySrcFlag" get-method="getCountrySrcFlag" set-method="setCountrySrcFlag"/>
+    <collection get-method="getCountrySrcDescList" set-method="setCountrySrcDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CountrySrcDesc" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DocBruttoWeight" get-method="getDocBruttoWeight" set-method="setDocBruttoWeight"/>
+    <value style="element" name="GoodsDamageFlag" get-method="getGoodsDamageFlag" set-method="setGoodsDamageFlag"/>
+    <collection get-method="getDamageDescList" set-method="setDamageDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DamageDesc" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsViolationFlag" get-method="getGoodsViolationFlag" set-method="setGoodsViolationFlag" usage="optional"/>
+    <collection get-method="getGoodsViolationDescList" set-method="setGoodsViolationDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsViolationDesc" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTestFlag" get-method="getGoodsTestFlag" set-method="setGoodsTestFlag"/>
+    <value style="element" name="GoodsNumericDT" get-method="getGoodsNumericDT" set-method="setGoodsNumericDT" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getCargoInfoList" set-method="setCargoInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:InspPackageType" name="CargoInfo"/>
+    </collection>
+    <collection get-method="getPlaceInfoList" set-method="setPlaceInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:InspPackageType" name="PlaceInfo"/>
+    </collection>
+    <collection get-method="getPalleteInfoList" set-method="setPalleteInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:InspPackageType" name="PalleteInfo"/>
+    </collection>
+    <collection get-method="getPackageInfoList" set-method="setPackageInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:InspPackageType" name="PackageInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspInstructionType" class="ru.acs.fts.schemas.album.actinspection.InspInstructionType">
+    <value style="element" name="Time" get-method="getTime" set-method="setTime"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="PTDNumber" get-method="getPTDNumber" set-method="setPTDNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspPackageType" class="ru.acs.fts.schemas.album.actinspection.InspPackageType">
+    <structure map-as="catESAD_cu:PackingInformationType"/>
+    <collection get-method="getPackageDescriptionList" set-method="setPackageDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PackageDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PackDestructFlag" get-method="getPackDestructFlag" set-method="setPackDestructFlag"/>
+    <collection get-method="getPackDestructDescList" set-method="setPackDestructDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PackDestructDesc" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspTransportMeanType" class="ru.acs.fts.schemas.album.actinspection.InspTransportMeanType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspTransportType" class="ru.acs.fts.schemas.album.actinspection.InspTransportType">
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+    <structure map-as="ain:InspTransportMeanType" get-method="getInspTransportMean" set-method="setInspTransportMean" usage="optional" name="InspTransportMean"/>
+    <structure map-as="ain:ContainerType" get-method="getContainerInfo" set-method="setContainerInfo" usage="optional" name="ContainerInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspectionParticipantType" class="ru.acs.fts.schemas.album.actinspection.InspectionParticipantType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason" usage="optional"/>
+    <value style="element" name="Job" get-method="getJob" set-method="setJob" usage="optional"/>
+    <value style="element" name="AddresseeMPO" get-method="getAddresseeMPO" set-method="setAddresseeMPO" usage="optional"/>
+    <value style="element" name="ATDReceiveCopy" get-method="getATDReceiveCopy" set-method="setATDReceiveCopy"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getParticipantDocs" set-method="setParticipantDocs" usage="optional" name="ParticipantDocs"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritesDocs" set-method="setAuthoritesDocs" usage="optional" name="AuthoritesDocs"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspectionPlaceType" class="ru.acs.fts.schemas.album.actinspection.InspectionPlaceType">
+    <structure map-as="cat_ru:CustomsType"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode"/>
+    <value style="element" name="InspPlaceName" get-method="getInspPlaceName" set-method="setInspPlaceName"/>
+    <collection get-method="getInspPlaceDescList" set-method="setInspPlaceDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InspPlaceDesc" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getInspAddress" set-method="setInspAddress" usage="optional" name="InspAddress"/>
+    <structure map-as="ain:WarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" usage="optional" name="WarehousePlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:InspectionResultsType" class="ru.acs.fts.schemas.album.actinspection.InspectionResultsType">
+    <value style="element" name="ApplicMarks" get-method="getApplicMarks" set-method="setApplicMarks" usage="optional"/>
+    <value style="element" name="AKParts" get-method="getAKParts" set-method="setAKParts" usage="optional"/>
+    <value style="element" name="NewIdentMarks" get-method="getNewIdentMarks" set-method="setNewIdentMarks" usage="optional"/>
+    <value style="element" name="NumberOfNewIdentMarks" get-method="getNumberOfNewIdentMarks" set-method="setNumberOfNewIdentMarks" usage="optional"/>
+    <value style="element" name="ViolationSign" get-method="getViolationSign" set-method="setViolationSign" usage="optional"/>
+    <structure map-as="ain:RadiationType" get-method="getRadiation" set-method="setRadiation" usage="optional" name="Radiation"/>
+    <structure map-as="ain:FactWeightType" get-method="getFactWeight" set-method="setFactWeight" usage="optional" name="FactWeight"/>
+    <collection get-method="getIdentifyMeanList" set-method="setIdentifyMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:IdentifyMeanType" name="IdentifyMean"/>
+    </collection>
+    <collection get-method="getInspGoodList" set-method="setInspGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ain:InspGoodsType" name="InspGoods"/>
+    </collection>
+    <structure map-as="ain:MPOType" get-method="getMPO" set-method="setMPO" usage="optional" name="MPO"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:MPOType" class="ru.acs.fts.schemas.album.actinspection.MPOType">
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+    <value style="element" name="MPO_Name" get-method="getMPOName" set-method="setMPOName"/>
+    <value style="element" name="MPO_DamageFlag" get-method="getMPODamageFlag" set-method="setMPODamageFlag"/>
+    <collection get-method="getDamageDescList" set-method="setDamageDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DamageDesc" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:MotoInspResultsType" class="ru.acs.fts.schemas.album.actinspection.MotoInspResultsType">
+    <structure map-as="catESAD_ru:AutoMotoParametersType"/>
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+    <value style="element" name="MotoKind" get-method="getMotoKind" set-method="setMotoKind"/>
+    <value style="element" name="EngineKind" get-method="getEngineKind" set-method="setEngineKind"/>
+    <value style="element" name="Frame" get-method="getFrame" set-method="setFrame"/>
+    <value style="element" name="FrontBrake" get-method="getFrontBrake" set-method="setFrontBrake"/>
+    <value style="element" name="RearBrake" get-method="getRearBrake" set-method="setRearBrake"/>
+    <value style="element" name="ElDriveGlass" get-method="getElDriveGlass" set-method="setElDriveGlass"/>
+    <value style="element" name="ElHeatingHandle" get-method="getElHeatingHandle" set-method="setElHeatingHandle"/>
+    <collection get-method="getOpticList" set-method="setOpticList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Optic" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="AdjustDevice" get-method="getAdjustDevice" set-method="setAdjustDevice"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:PodveskaType" class="ru.acs.fts.schemas.album.actinspection.PodveskaType">
+    <value style="element" name="FrontSuspension" get-method="getFrontSuspension" set-method="setFrontSuspension" usage="optional"/>
+    <collection get-method="getRearSuspensionList" set-method="setRearSuspensionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="RearSuspension" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:RadiationType" class="ru.acs.fts.schemas.album.actinspection.RadiationType">
+    <value style="element" name="RadValue" get-method="getRadValue" set-method="setRadValue"/>
+    <value style="element" name="DeviceName" get-method="getDeviceName" set-method="setDeviceName"/>
+    <value style="element" name="DeviceNumber" get-method="getDeviceNumber" set-method="setDeviceNumber"/>
+    <value style="element" name="DeviceCertificate" get-method="getDeviceCertificate" set-method="setDeviceCertificate" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:SeizeType" class="ru.acs.fts.schemas.album.actinspection.SeizeType">
+    <value style="element" name="Presence" get-method="getPresence" set-method="setPresence"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getSeizeAct" set-method="setSeizeAct" usage="optional" name="SeizeAct"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:TextActType" class="ru.acs.fts.schemas.album.actinspection.TextActType">
+    <collection get-method="getParagraphList" set-method="setParagraphList" create-type="java.util.ArrayList">
+      <value style="element" name="Paragraph" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:TrailerInspResultsType" class="ru.acs.fts.schemas.album.actinspection.TrailerInspResultsType">
+    <structure map-as="ain:CommonParametersType"/>
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+    <value style="element" name="Skatnost" get-method="getSkatnost" set-method="setSkatnost" usage="optional"/>
+    <structure map-as="ain:PodveskaType" get-method="getPodveska" set-method="setPodveska" name="Podveska"/>
+    <structure map-as="ain:CargoPlaceType" get-method="getCargoPlace" set-method="setCargoPlace" name="CargoPlace"/>
+    <structure map-as="ain:DamagesType" get-method="getDamages" set-method="setDamages" usage="optional" name="Damages"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:TransporterType" class="ru.acs.fts.schemas.album.actinspection.TransporterType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <collection get-method="getDriverDocList" set-method="setDriverDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="DriverDocs"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ain:TruckDopDeviceType" class="ru.acs.fts.schemas.album.actinspection.TruckDopDeviceType">
+    <value style="element" name="CabCowl" get-method="getCabCowl" set-method="setCabCowl"/>
+    <value style="element" name="Winch" get-method="getWinch" set-method="setWinch"/>
+    <value style="element" name="Manipulator" get-method="getManipulator" set-method="setManipulator"/>
+    <value style="element" name="Stage" get-method="getStage" set-method="setStage"/>
+    <value style="element" name="ABS" get-method="getABS" set-method="setABS"/>
+    <value style="element" name="Conditioner" get-method="getConditioner" set-method="setConditioner"/>
+    <value style="element" name="AudioSystem" get-method="getAudioSystem" set-method="setAudioSystem"/>
+    <value style="element" name="Telefon" get-method="getTelefon" set-method="setTelefon"/>
+    <value style="element" name="Fridge" get-method="getFridge" set-method="setFridge"/>
+    <value style="element" name="Microvawe" get-method="getMicrovawe" set-method="setMicrovawe"/>
+    <value style="element" name="NavigationSystem" get-method="getNavigationSystem" set-method="setNavigationSystem"/>
+    <value style="element" name="PressRegulationSystem" get-method="getPressRegulationSystem" set-method="setPressRegulationSystem"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:TruckInspResultsType" class="ru.acs.fts.schemas.album.actinspection.TruckInspResultsType">
+    <structure map-as="ain:CommonParametersType"/>
+    <value style="element" name="ArriveMode" get-method="getArriveMode" set-method="setArriveMode"/>
+    <value style="element" name="DuoCabPresence" get-method="getDuoCabPresence" set-method="setDuoCabPresence"/>
+    <structure map-as="ain:TruckParametersType" get-method="getTruckParameters" set-method="setTruckParameters" name="TruckParameters"/>
+    <structure map-as="ain:CargoPlaceType" get-method="getCargoPlace" set-method="setCargoPlace" name="CargoPlace"/>
+    <structure map-as="ain:TruckDopDeviceType" get-method="getTruckDopDevice" set-method="setTruckDopDevice" usage="optional" name="TruckDopDevice"/>
+    <structure map-as="ain:PodveskaType" get-method="getPodveska" set-method="setPodveska" usage="optional" name="Podveska"/>
+    <structure map-as="ain:DamagesType" get-method="getDamages" set-method="setDamages" usage="optional" name="Damages"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:TruckParametersType" class="ru.acs.fts.schemas.album.actinspection.TruckParametersType">
+    <value style="element" name="DriveCapstanNumber" get-method="getDriveCapstanNumber" set-method="setDriveCapstanNumber"/>
+    <value style="element" name="Compositing" get-method="getCompositing" set-method="setCompositing"/>
+    <value style="element" name="SleepPlaceNumber" get-method="getSleepPlaceNumber" set-method="setSleepPlaceNumber"/>
+    <value style="element" name="Skatnost" get-method="getSkatnost" set-method="setSkatnost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:UseTMCCType" class="ru.acs.fts.schemas.album.actinspection.UseTMCCType">
+    <value style="element" name="TSTKCode" get-method="getTSTKCode" set-method="setTSTKCode"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ain:WarehousePlaceType" class="ru.acs.fts.schemas.album.actinspection.WarehousePlaceType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

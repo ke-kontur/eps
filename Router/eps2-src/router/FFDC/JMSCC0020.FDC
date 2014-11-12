@@ -1,0 +1,293 @@
+----------------------------------START FFST------------------------------------
+C:\Projects\EPS\Router\eps2-src\router\FFDC\JMSCC0020.FDC PID:2456
+
+                                    FDCTitle
+                                            
+
+Product          :- IBM WebSphere MQ classes for JMS
+Date/Time        :- Thu Sep 25 05:25:45 VET 2014
+System time      :- 1411638945657
+Operating System :- Windows 7
+UserID           :- kdsoft
+Java Vendor      :- Sun Microsystems Inc.
+Java Version     :- 19.1-b02
+
+Source Class     :- com.ibm.mq.jms.MQXAQueueConnectionFactory
+Source Method    :- readObject()
+ProbeID          :- XF001003
+Thread           :- name=main priority=5 group=main ccl=sun.misc.Launcher$AppClassLoader@1cde100
+
+                                      Data
+                                      ----
+
+Data        :- none
+
+                              Version information
+                              -------------------
+
+Java Message Service Client
+7.0.1.3
+k701-103-100812
+Production
+
+WebSphere MQ classes for Java Message Service
+7.0.1.3
+k701-103-100812
+Production
+
+IBM WebSphere MQ
+7.0.1.3
+k701-103-100812
+Production
+
+Common Services for Java Platform, Standard Edition
+7.0.1.3
+k701-103-100812
+Production
+
+
+
+                                  Stack trace
+                                  -----------
+
+Stack trace to show the location of the FFST call
+|   FFST Location  :-  java.lang.Exception
+|   	at com.ibm.msg.client.commonservices.trace.Trace.getCurrentPosition(Trace.java:1714)
+|   	at com.ibm.msg.client.commonservices.trace.Trace.createFFSTString(Trace.java:1653)
+|   	at com.ibm.msg.client.commonservices.trace.Trace.ffstInternal(Trace.java:1536)
+|   	at com.ibm.msg.client.commonservices.trace.Trace.ffst(Trace.java:1395)
+|   	at com.ibm.mq.jms.MQConnectionFactory.initialiseMQConnectionFactory(MQConnectionFactory.java:3335)
+|   	at com.ibm.mq.jms.MQConnectionFactory.<init>(MQConnectionFactory.java:274)
+|   	at com.ibm.mq.jms.MQQueueConnectionFactory.<init>(MQQueueConnectionFactory.java:76)
+|   	at com.ibm.mq.jms.MQXAQueueConnectionFactory.<init>(MQXAQueueConnectionFactory.java:75)
+|   	at router.SpringContextTest.getCF(SpringContextTest.java:142)
+|   	at router.SpringContextTest.predefine(SpringContextTest.java:107)
+|   	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+|   	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+|   	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+|   	at java.lang.reflect.Method.invoke(Method.java:597)
+|   	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+|   	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+|   	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+|   	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+|   	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+|   	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+|   	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+|   	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+|   	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+|   	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+|   	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+|   	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+|   
+
+                            Property Store Contents
+                            -----------------------
+
+All currently set properties
+|   awt.toolkit                    :-  sun.awt.windows.WToolkit
+|   basedir                        :-  C:\Projects\EPS\Router\eps2-src\router
+|   env.ORACLE_HOME                :-  C:\oracle\Middleware\Oracle_Home
+|   file.encoding                  :-  Cp1251
+|   file.encoding.pkg              :-  sun.io
+|   file.separator                 :-  \
+|   java.awt.graphicsenv           :-  sun.awt.Win32GraphicsEnvironment
+|   java.awt.printerjob            :-  sun.awt.windows.WPrinterJob
+|   java.class.path                :-  C:\Projects\EPS\Router\eps2-src\router\target\test-classes;C:\Projects\EPS\Router\eps2-src\router\target\classes;C:\Projects\EPS\eps-repository\ru\acs\fts\eps2\edecl-data-core\5.4.1-3.2.5\edecl-data-core-5.4.1-3.2.5.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\eps2\engine\2.0.0\engine-2.0.0.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-context-support\3.2.8.RELEASE\spring-context-support-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\schemas\eps-marshaller\5.4.1\eps-marshaller-5.4.1.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-extras\1.2.5\jibx-extras-1.2.5.jar;C:\Projects\EPS\eps-repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Projects\EPS\eps-repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Projects\EPS\eps-repository\org\jdom\jdom\1.1.3\jdom-1.1.3.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-tools\1.2.5\jibx-tools-1.2.5.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-schema\1.2.5\jibx-schema-1.2.5.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-bind\1.2.5\jibx-bind-1.2.5.jar;C:\Projects\EPS\eps-repository\bcel\bcel\5.1\bcel-5.1.jar;C:\Projects\EPS\eps-repository\regexp\regexp\1.2\regexp-1.2.jar;C:\Projects\EPS\eps-repository\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.contenttype\3.4.100.v20110423-0524\org.eclipse.core.contenttype-3.4.100.v20110423-0524.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.jobs\3.5.100.v20110404\org.eclipse.core.jobs-3.5.100.v20110404.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.resources\3.7.100.v20110510-0712\org.eclipse.core.resources-3.7.100.v20110510-0712.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.runtime\3.7.0.v20110110\org.eclipse.core.runtime-3.7.0.v20110110.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.equinox.common\3.6.0.v20110523\org.eclipse.equinox.common-3.6.0.v20110523.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.equinox.preferences\3.4.0.v20110502\org.eclipse.equinox.preferences-3.4.0.v20110502.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.jdt.core\3.7.0.v_B61\org.eclipse.jdt.core-3.7.0.v_B61.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.osgi\3.7.0.v20110613\org.eclipse.osgi-3.7.0.v20110613.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.text\3.5.100.v20110505-0800\org.eclipse.text-3.5.100.v20110505-0800.jar;C:\Projects\EPS\eps-repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Projects\EPS\eps-repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Projects\EPS\eps-repository\org\codehaus\jackson\jackson-mapper-asl\1.7.1\jackson-mapper-asl-1.7.1.jar;C:\Projects\EPS\eps-repository\org\slf4j\slf4j-api\1.7.2\slf4j-api-1.7.2.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-run\1.2.5\jibx-run-1.2.5.jar;C:\Projects\EPS\eps-repository\org\codehaus\jackson\jackson-core-asl\1.7.1\jackson-core-asl-1.7.1.jar;C:\Projects\EPS\eps-repository\org\springframework\ws\spring-xml\1.5.10\spring-xml-1.5.10.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\schemas\eps-fts-schemas\5.4.1\eps-fts-schemas-5.4.1.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\eps2\eps2-utils\1.0\eps2-utils-1.0.jar;C:\Projects\EPS\eps-repository\javax\resource\connector\1.0\connector-1.0.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-test\3.2.8.RELEASE\spring-test-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions-jdbc\3.9.2\transactions-jdbc-3.9.2.jar;C:\Projects\EPS\eps-repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-web\3.2.8.RELEASE\spring-web-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-beans\3.2.8.RELEASE\spring-beans-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-orm\3.2.8.RELEASE\spring-orm-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-jdbc\3.2.8.RELEASE\spring-jdbc-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-context\3.2.8.RELEASE\spring-context-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-expression\3.2.8.RELEASE\spring-expression-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-core\3.2.8.RELEASE\spring-core-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-jms\3.2.8.RELEASE\spring-jms-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-aop\3.2.8.RELEASE\spring-aop-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Projects\EPS\eps-repository\org\springframework\ws\spring-oxm\1.5.10\spring-oxm-1.5.10.jar;C:\Projects\EPS\eps-repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Projects\EPS\eps-repository\org\eclipse\persistence\eclipselink\1.2.0\eclipselink-1.2.0.jar;C:\Projects\EPS\eps-repository\com\ibm\com.ibm.mq\7.0.1\com.ibm.mq-7.0.1.jar;C:\Projects\EPS\eps-repository\com\ibm\com.ibm.mqjms\7.0.1\com.ibm.mqjms-7.0.1.jar;C:\Projects\EPS\eps-repository\com\ibm\com.ibm.mq.jmqi\7.0.1\com.ibm.mq.jmqi-7.0.1.jar;C:\Projects\EPS\eps-repository\javax\jms\jms\1.1\jms-1.1.jar;C:\Projects\EPS\eps-repository\junit\junit\4.5\junit-4.5.jar;C:\Projects\EPS\eps-repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Projects\EPS\eps-repository\org\slf4j\slf4j-log4j12\1.7.2\slf4j-log4j12-1.7.2.jar;C:\Projects\EPS\eps-repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Projects\EPS\eps-repository\com\oracle\ojdbc14\10.2.0.3.0\ojdbc14-10.2.0.3.0.jar;C:\Projects\EPS\eps-repository\xpp3\xpp3\1.1.3.3\xpp3-1.1.3.3.jar;C:\Projects\EPS\eps-repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Projects\EPS\eps-repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Projects\EPS\eps-repository\xerces\xercesImpl\2.4.0\xercesImpl-2.4.0.jar;C:\Projects\EPS\eps-repository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar;C:\Projects\EPS\eps-repository\joda-time\joda-time\2.2\joda-time-2.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions-jta\3.9.2\transactions-jta-3.9.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions\3.9.2\transactions-3.9.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions-api\3.9.2\transactions-api-3.9.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\atomikos-util\3.9.2\atomikos-util-3.9.2.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-tx\3.2.8.RELEASE\spring-tx-3.2.8.RELEASE.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/com.ibm.mq-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/com.ibm.mq.jmqi-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/com.ibm.mqjms-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/dhbcore-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/transactions-jdbc-3.9.2.jar;
+|   java.class.version             :-  50.0
+|   java.endorsed.dirs             :-  C:\oracle\Middleware\jdk160_24\jre\lib\endorsed
+|   java.ext.dirs                  :-  C:\oracle\Middleware\jdk160_24\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+|   java.home                      :-  C:\oracle\Middleware\jdk160_24\jre
+|   java.io.tmpdir                 :-  C:\Users\kdsoft\AppData\Local\Temp\
+|   java.library.path              :-  C:\oracle\Middleware\jdk160_24\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\app\kdsoft\product\11.2.0\client_2\bin;C:\Program Files\Microsoft HPC Pack 2008 R2\Bin\;C:\app\kdsoft\product\11.2.0\dbhome_1\bin;C:\app\kdsoft\product\11.2.0\client_1;C:\app\kdsoft\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Liquid Technologies\Liquid XML 2013\XmlDataBinder11\Redist11\cpp\win32\bin;C:\Program Files (x86)\VisualSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\IBM\WebSphere MQ_1\bin64;C:\Program Files (x86)\IBM\WebSphere MQ_1\bin;C:\Program Files (x86)\IBM\WebSphere MQ_1\tools\c\samples\bin;%M2%;c:\maven\bin
+|   java.runtime.name              :-  Java(TM) SE Runtime Environment
+|   java.runtime.version           :-  1.6.0_24-b50
+|   java.specification.name        :-  Java Platform API Specification
+|   java.specification.vendor      :-  Sun Microsystems Inc.
+|   java.specification.version     :-  1.6
+|   java.vendor                    :-  Sun Microsystems Inc.
+|   java.vendor.url                :-  http://java.sun.com/
+|   java.vendor.url.bug            :-  http://java.sun.com/cgi-bin/bugreport.cgi
+|   java.version                   :-  1.6.0_24
+|   java.vm.info                   :-  mixed mode
+|   java.vm.name                   :-  Java HotSpot(TM) Client VM
+|   java.vm.specification.name     :-  Java Virtual Machine Specification
+|   java.vm.specification.vendor   :-  Sun Microsystems Inc.
+|   java.vm.specification.version  :-  1.0
+|   java.vm.vendor                 :-  Sun Microsystems Inc.
+|   java.vm.version                :-  19.1-b02
+|   line.separator                 :-  
+|   
+|   localRepository                :-  C:\Projects\EPS\eps-repository
+|   os.arch                        :-  x86
+|   os.name                        :-  Windows 7
+|   os.version                     :-  6.1
+|   path.separator                 :-  ;
+|   sun.arch.data.model            :-  32
+|   sun.boot.class.path            :-  C:\oracle\Middleware\jdk160_24\jre\lib\resources.jar;C:\oracle\Middleware\jdk160_24\jre\lib\rt.jar;C:\oracle\Middleware\jdk160_24\jre\lib\sunrsasign.jar;C:\oracle\Middleware\jdk160_24\jre\lib\jsse.jar;C:\oracle\Middleware\jdk160_24\jre\lib\jce.jar;C:\oracle\Middleware\jdk160_24\jre\lib\charsets.jar;C:\oracle\Middleware\jdk160_24\jre\lib\modules\jdk.boot.jar;C:\oracle\Middleware\jdk160_24\jre\classes
+|   sun.boot.library.path          :-  C:\oracle\Middleware\jdk160_24\jre\bin
+|   sun.cpu.endian                 :-  little
+|   sun.cpu.isalist                :-  pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+|   sun.desktop                    :-  windows
+|   sun.io.unicode.encoding        :-  UnicodeLittle
+|   sun.java.launcher              :-  SUN_STANDARD
+|   sun.jnu.encoding               :-  Cp1251
+|   sun.management.compiler        :-  HotSpot Client Compiler
+|   sun.os.patch.level             :-  Service Pack 1
+|   surefire.real.class.path       :-  C:\Projects\EPS\Router\eps2-src\router\target\surefire\surefirebooter7365818503733106708.jar
+|   surefire.test.class.path       :-  C:\Projects\EPS\Router\eps2-src\router\target\test-classes;C:\Projects\EPS\Router\eps2-src\router\target\classes;C:\Projects\EPS\eps-repository\ru\acs\fts\eps2\edecl-data-core\5.4.1-3.2.5\edecl-data-core-5.4.1-3.2.5.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\eps2\engine\2.0.0\engine-2.0.0.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-context-support\3.2.8.RELEASE\spring-context-support-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\schemas\eps-marshaller\5.4.1\eps-marshaller-5.4.1.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-extras\1.2.5\jibx-extras-1.2.5.jar;C:\Projects\EPS\eps-repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Projects\EPS\eps-repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Projects\EPS\eps-repository\org\jdom\jdom\1.1.3\jdom-1.1.3.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-tools\1.2.5\jibx-tools-1.2.5.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-schema\1.2.5\jibx-schema-1.2.5.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-bind\1.2.5\jibx-bind-1.2.5.jar;C:\Projects\EPS\eps-repository\bcel\bcel\5.1\bcel-5.1.jar;C:\Projects\EPS\eps-repository\regexp\regexp\1.2\regexp-1.2.jar;C:\Projects\EPS\eps-repository\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.contenttype\3.4.100.v20110423-0524\org.eclipse.core.contenttype-3.4.100.v20110423-0524.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.jobs\3.5.100.v20110404\org.eclipse.core.jobs-3.5.100.v20110404.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.resources\3.7.100.v20110510-0712\org.eclipse.core.resources-3.7.100.v20110510-0712.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.core.runtime\3.7.0.v20110110\org.eclipse.core.runtime-3.7.0.v20110110.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.equinox.common\3.6.0.v20110523\org.eclipse.equinox.common-3.6.0.v20110523.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.equinox.preferences\3.4.0.v20110502\org.eclipse.equinox.preferences-3.4.0.v20110502.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.jdt.core\3.7.0.v_B61\org.eclipse.jdt.core-3.7.0.v_B61.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.osgi\3.7.0.v20110613\org.eclipse.osgi-3.7.0.v20110613.jar;C:\Projects\EPS\eps-repository\org\jibx\config\3rdparty\org\eclipse\org.eclipse.text\3.5.100.v20110505-0800\org.eclipse.text-3.5.100.v20110505-0800.jar;C:\Projects\EPS\eps-repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Projects\EPS\eps-repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Projects\EPS\eps-repository\org\codehaus\jackson\jackson-mapper-asl\1.7.1\jackson-mapper-asl-1.7.1.jar;C:\Projects\EPS\eps-repository\org\slf4j\slf4j-api\1.7.2\slf4j-api-1.7.2.jar;C:\Projects\EPS\eps-repository\org\jibx\jibx-run\1.2.5\jibx-run-1.2.5.jar;C:\Projects\EPS\eps-repository\org\codehaus\jackson\jackson-core-asl\1.7.1\jackson-core-asl-1.7.1.jar;C:\Projects\EPS\eps-repository\org\springframework\ws\spring-xml\1.5.10\spring-xml-1.5.10.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\schemas\eps-fts-schemas\5.4.1\eps-fts-schemas-5.4.1.jar;C:\Projects\EPS\eps-repository\ru\acs\fts\eps2\eps2-utils\1.0\eps2-utils-1.0.jar;C:\Projects\EPS\eps-repository\javax\resource\connector\1.0\connector-1.0.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-test\3.2.8.RELEASE\spring-test-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions-jdbc\3.9.2\transactions-jdbc-3.9.2.jar;C:\Projects\EPS\eps-repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-web\3.2.8.RELEASE\spring-web-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-beans\3.2.8.RELEASE\spring-beans-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-orm\3.2.8.RELEASE\spring-orm-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-jdbc\3.2.8.RELEASE\spring-jdbc-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-context\3.2.8.RELEASE\spring-context-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-expression\3.2.8.RELEASE\spring-expression-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-core\3.2.8.RELEASE\spring-core-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-jms\3.2.8.RELEASE\spring-jms-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-aop\3.2.8.RELEASE\spring-aop-3.2.8.RELEASE.jar;C:\Projects\EPS\eps-repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Projects\EPS\eps-repository\org\springframework\ws\spring-oxm\1.5.10\spring-oxm-1.5.10.jar;C:\Projects\EPS\eps-repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Projects\EPS\eps-repository\org\eclipse\persistence\eclipselink\1.2.0\eclipselink-1.2.0.jar;C:\Projects\EPS\eps-repository\com\ibm\com.ibm.mq\7.0.1\com.ibm.mq-7.0.1.jar;C:\Projects\EPS\eps-repository\com\ibm\com.ibm.mqjms\7.0.1\com.ibm.mqjms-7.0.1.jar;C:\Projects\EPS\eps-repository\com\ibm\com.ibm.mq.jmqi\7.0.1\com.ibm.mq.jmqi-7.0.1.jar;C:\Projects\EPS\eps-repository\javax\jms\jms\1.1\jms-1.1.jar;C:\Projects\EPS\eps-repository\junit\junit\4.5\junit-4.5.jar;C:\Projects\EPS\eps-repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Projects\EPS\eps-repository\org\slf4j\slf4j-log4j12\1.7.2\slf4j-log4j12-1.7.2.jar;C:\Projects\EPS\eps-repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Projects\EPS\eps-repository\com\oracle\ojdbc14\10.2.0.3.0\ojdbc14-10.2.0.3.0.jar;C:\Projects\EPS\eps-repository\xpp3\xpp3\1.1.3.3\xpp3-1.1.3.3.jar;C:\Projects\EPS\eps-repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Projects\EPS\eps-repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Projects\EPS\eps-repository\xerces\xercesImpl\2.4.0\xercesImpl-2.4.0.jar;C:\Projects\EPS\eps-repository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar;C:\Projects\EPS\eps-repository\joda-time\joda-time\2.2\joda-time-2.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions-jta\3.9.2\transactions-jta-3.9.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions\3.9.2\transactions-3.9.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\transactions-api\3.9.2\transactions-api-3.9.2.jar;C:\Projects\EPS\eps-repository\com\atomikos\atomikos-util\3.9.2\atomikos-util-3.9.2.jar;C:\Projects\EPS\eps-repository\org\springframework\spring-tx\3.2.8.RELEASE\spring-tx-3.2.8.RELEASE.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/com.ibm.mq-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/com.ibm.mq.jmqi-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/com.ibm.mqjms-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/dhbcore-7.0.1.jar;C:\Projects\EPS\Router\eps2-src\router/../../Tools/tests/transactions-jdbc-3.9.2.jar;
+|   user.country                   :-  RU
+|   user.dir                       :-  C:\Projects\EPS\Router\eps2-src\router
+|   user.home                      :-  C:\Users\kdsoft
+|   user.language                  :-  ru
+|   user.name                      :-  kdsoft
+|   user.timezone                  :-  America/Caracas
+|   user.variant                   :-  
+
+                           WorkQueueMananger Contents
+                           --------------------------
+
+|   Current ThreadPool size      :-  0
+|   Maintain ThreadPool size     :-  false
+|   Maximum ThreadPool size      :-  -1
+|   ThreadPool inactive timeout  :-  0
+
+                               Runtime properties
+                               ------------------
+
+|   Available processors         :-  4
+|   Free memory in bytes (now)   :-  12374696
+|   Max memory in bytes          :-  259522560
+|   Total memory in bytes (now)  :-  16252928
+
+                           Component Manager Contents
+                           --------------------------
+
+Common Services Components:
+|   CMVC               :-  k701-103-100812
+|   Class Name         :-  class com.ibm.msg.client.commonservices.j2se.J2SEComponent
+|   Component Name     :-  com.ibm.msg.client.commonservices.j2se
+|   Component Title    :-  Common Services for Java Platform, Standard Edition
+|   Factory Class      :-  class com.ibm.msg.client.commonservices.j2se.CommonServicesImplementation
+|   Version            :-  7.0.1.3
+|   inPreferenceTo[0]  :-  com.ibm.msg.client.commonservices.j2me
+
+Messaging Provider Components:
+|   CMVC             :-  k701-103-100812
+|   Class Name       :-  class com.ibm.msg.client.wmq.factories.WMQComponent
+|   Component Name   :-  com.ibm.msg.client.wmq
+|   Component Title  :-  IBM WebSphere MQ
+|   Factory Class    :-  class com.ibm.msg.client.wmq.factories.WMQFactoryFactory
+|   Version          :-  7.0.1.3
+
+
+
+                             FFST Object Properties
+                             ----------------------
+
+All currently set properties
+|   XMSC_CONNECTION_TYPE       :-  1
+|   XMSC_CONNECTION_TYPE_NAME  :-  com.ibm.msg.client.wmq
+
+                         Provider Specific Information
+                         -----------------------------
+
+Overview of JMS System
+Num. Connections : 0
+Num. Sessions    : 0
+Num. Consumers   : 0
+Num. Producers   : 0
+
+Detailed JMS System Information
+Connections      : 
+Sessions         : 
+Consumers        : 
+Producers        : 
+
+All Thread Information
+
+                          Name : Attach Listener
+                      Priority : 5
+                   ThreadGroup : java.lang.ThreadGroup[name=system,maxpri=10]
+                            ID : 5
+                         State : RUNNABLE
+
+                          Name : Reference Handler
+                      Priority : 10
+                   ThreadGroup : java.lang.ThreadGroup[name=system,maxpri=10]
+                            ID : 2
+                         State : WAITING
+                         Stack : java.lang.Object.wait(Object.java:-2)
+                               : java.lang.Object.wait(Object.java:485)
+                               : java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+
+                          Name : Signal Dispatcher
+                      Priority : 9
+                   ThreadGroup : java.lang.ThreadGroup[name=system,maxpri=10]
+                            ID : 4
+                         State : RUNNABLE
+
+                          Name : JMSCCThreadPoolMaster
+                      Priority : 5
+                   ThreadGroup : java.lang.ThreadGroup[name=main,maxpri=10]
+                            ID : 10
+                         State : WAITING
+                         Stack : java.lang.Object.wait(Object.java:-2)
+                               : java.lang.Object.wait(Object.java:485)
+                               : com.ibm.msg.client.commonservices.j2se.workqueue.WorkQueueManagerImplementation$WorkQueueManagerThread.waitForNotification(WorkQueueManagerImplementation.java:651)
+                               : com.ibm.msg.client.commonservices.j2se.workqueue.WorkQueueManagerImplementation$WorkQueueManagerThread.waitForNotification(WorkQueueManagerImplementation.java:621)
+                               : com.ibm.msg.client.commonservices.j2se.workqueue.WorkQueueManagerImplementation$WorkQueueManagerThread.run(WorkQueueManagerImplementation.java:887)
+
+                          Name : main
+                      Priority : 5
+                   ThreadGroup : java.lang.ThreadGroup[name=main,maxpri=10]
+                            ID : 1
+                         State : RUNNABLE
+                         Stack : java.lang.Thread.dumpThreads(Thread.java:-2)
+                               : java.lang.Thread.getAllStackTraces(Thread.java:1530)
+                               : sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+                               : sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                               : sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                               : java.lang.reflect.Method.invoke(Method.java:597)
+                               : com.ibm.msg.client.commonservices.j2se.trace.DefaultTracer.getAllThreads(DefaultTracer.java:1492)
+                               : com.ibm.msg.client.commonservices.j2se.trace.DefaultTracer.generateThreadInfo(DefaultTracer.java:1313)
+                               : com.ibm.msg.client.commonservices.j2se.trace.DefaultTracer.access$1200(DefaultTracer.java:145)
+                               : com.ibm.msg.client.commonservices.j2se.trace.DefaultTracer$8.run(DefaultTracer.java:1263)
+                               : java.security.AccessController.doPrivileged(AccessController.java:-2)
+                               : com.ibm.msg.client.commonservices.j2se.trace.DefaultTracer.ffst(DefaultTracer.java:1196)
+                               : com.ibm.msg.client.commonservices.trace.Trace.ffstInternal(Trace.java:1541)
+                               : com.ibm.msg.client.commonservices.trace.Trace.ffst(Trace.java:1395)
+                               : com.ibm.mq.jms.MQConnectionFactory.initialiseMQConnectionFactory(MQConnectionFactory.java:3335)
+                               : com.ibm.mq.jms.MQConnectionFactory.<init>(MQConnectionFactory.java:274)
+                               : com.ibm.mq.jms.MQQueueConnectionFactory.<init>(MQQueueConnectionFactory.java:76)
+                               : com.ibm.mq.jms.MQXAQueueConnectionFactory.<init>(MQXAQueueConnectionFactory.java:75)
+                               : router.SpringContextTest.getCF(SpringContextTest.java:142)
+                               : router.SpringContextTest.predefine(SpringContextTest.java:107)
+                               : sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+                               : sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                               : sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                               : java.lang.reflect.Method.invoke(Method.java:597)
+                               : org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+                               : org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+                               : org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+                               : org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+                               : org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+                               : org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+                               : org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+                               : org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+                               : org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+                               : org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+                               : org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+                               : org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+                          Name : Finalizer
+                      Priority : 8
+                   ThreadGroup : java.lang.ThreadGroup[name=system,maxpri=10]
+                            ID : 3
+                         State : WAITING
+                         Stack : java.lang.Object.wait(Object.java:-2)
+                               : java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                               : java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                               : java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:159)
+
+First Failure Symptom Report completed at Thu Sep 25 05:25:45 VET 2014
+------------------------------------END FFST------------------------------------

@@ -1,0 +1,78 @@
+<binding xmlns:arm="urn:customs.ru:Information:CustomsDocuments:ActRegistrationMining:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActRegistrationMining:5.4.0" default="elements" prefix="arm"/>
+  <mapping abstract="true" type-name="arm:ActRegistrationMiningType" class="ru.acs.fts.schemas.album.actregistrationmining.ActRegistrationMiningType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NameManagement" get-method="getNameManagement" set-method="setNameManagement"/>
+    <value style="element" name="DateAct" get-method="getDateAct" set-method="setDateAct" format="LocalDate.default"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="StartTime" get-method="getStartTime" set-method="setStartTime"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndTime" get-method="getEndTime" set-method="setEndTime" usage="optional"/>
+    <value style="element" name="OverloadUnloading" get-method="getOverloadUnloading" set-method="setOverloadUnloading"/>
+    <structure map-as="arm:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="cat_ru:AddressType" get-method="getExecutionPlace" set-method="setExecutionPlace" name="ExecutionPlace"/>
+    <structure map-as="arm:VesselType" get-method="getVessel" set-method="setVessel" name="Vessel"/>
+    <structure map-as="arm:VesselType" get-method="getReceivingVessel" set-method="setReceivingVessel" usage="optional" name="ReceivingVessel"/>
+    <structure map-as="arm:VesselType" get-method="getVesselExtracted" set-method="setVesselExtracted" usage="optional" name="VesselExtracted"/>
+    <collection get-method="getRegistrationList" set-method="setRegistrationList" create-type="java.util.ArrayList">
+      <structure map-as="arm:RegistrationType" name="Registration"/>
+    </collection>
+    <collection get-method="getInspectorSignatureList" set-method="setInspectorSignatureList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="InspectorSignature"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getShipmasterSignature" set-method="setShipmasterSignature" name="ShipmasterSignature"/>
+    <structure map-as="arm:RegistrationDatabaseType" get-method="getRegistrationDatabase" set-method="setRegistrationDatabase" usage="optional" name="RegistrationDatabase"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actregistrationmining.ActRegistrationMiningType" name="ActRegistrationMining">
+    <structure map-as="arm:ActRegistrationMiningType"/>
+  </mapping>
+  <mapping abstract="true" type-name="arm:ProductListType" class="ru.acs.fts.schemas.album.actregistrationmining.ProductListType">
+    <collection get-method="getProductTypeList" set-method="setProductTypeList" create-type="java.util.ArrayList">
+      <value style="element" name="ProductType" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Weigh" get-method="getWeigh" set-method="setWeigh"/>
+    <value style="element" name="ConversionFactor" get-method="getConversionFactor" set-method="setConversionFactor" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <collection get-method="getAreaMiningList" set-method="setAreaMiningList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AreaMining" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TimingExtraction" get-method="getTimingExtraction" set-method="setTimingExtraction" usage="optional"/>
+    <value style="element" name="MeasurementUnitTime" get-method="getMeasurementUnitTime" set-method="setMeasurementUnitTime" usage="optional"/>
+    <collection get-method="getConsigneeList" set-method="setConsigneeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Consignee" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="arm:RegistrationDatabaseType" class="ru.acs.fts.schemas.album.actregistrationmining.RegistrationDatabaseType">
+    <value style="element" name="TransferMethod" get-method="getTransferMethod" set-method="setTransferMethod"/>
+    <value style="element" name="DateTransfer" get-method="getDateTransfer" set-method="setDateTransfer" format="LocalDate.default"/>
+    <value style="element" name="TimeTransfer" get-method="getTimeTransfer" set-method="setTimeTransfer"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+  </mapping>
+  <mapping abstract="true" type-name="arm:RegistrationNumberType" class="ru.acs.fts.schemas.album.actregistrationmining.RegistrationNumberType">
+    <value style="element" name="NumberInspectors" get-method="getNumberInspectors" set-method="setNumberInspectors"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="arm:RegistrationType" class="ru.acs.fts.schemas.album.actregistrationmining.RegistrationType">
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <value style="element" name="Action" get-method="getAction" set-method="setAction"/>
+    <collection get-method="getResolutionList" set-method="setResolutionList" create-type="java.util.ArrayList">
+      <structure map-as="arm:ResolutionType" name="Resolution"/>
+    </collection>
+    <collection get-method="getProductList" set-method="setProductList" create-type="java.util.ArrayList">
+      <structure map-as="arm:ProductListType" name="ProductList"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="arm:ResolutionType" class="ru.acs.fts.schemas.album.actregistrationmining.ResolutionType">
+    <value style="element" name="ResolutionNumber" get-method="getResolutionNumber" set-method="setResolutionNumber" usage="optional"/>
+    <value style="element" name="ResolutionDate" get-method="getResolutionDate" set-method="setResolutionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Issued" get-method="getIssued" set-method="setIssued" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="arm:VesselType" class="ru.acs.fts.schemas.album.actregistrationmining.VesselType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Type" get-method="getType" set-method="setType" usage="optional"/>
+    <value style="element" name="NumberBoard" get-method="getNumberBoard" set-method="setNumberBoard" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getShipowner" set-method="setShipowner" name="Shipowner"/>
+  </mapping>
+</binding>

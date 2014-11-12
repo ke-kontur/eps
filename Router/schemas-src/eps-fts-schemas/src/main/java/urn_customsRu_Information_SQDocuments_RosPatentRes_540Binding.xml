@@ -1,0 +1,14 @@
+<binding xmlns:rpr="urn:customs.ru:Information:SQDocuments:RosPatentRes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPatentRes:5.4.0" default="elements" prefix="rpr"/>
+  <mapping abstract="true" type-name="rpr:RosPatentResType" class="ru.acs.fts.schemas.album.rospatentres.RosPatentResType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="ObjectDescription" get-method="getObjectDescription" set-method="setObjectDescription" usage="optional"/>
+    <value style="element" name="ObjectType" get-method="getObjectType" set-method="setObjectType"/>
+    <value style="element" name="ObjectNum" get-method="getObjectNum" set-method="setObjectNum"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rospatentres.RosPatentResType" name="RosPatentRes">
+    <structure map-as="rpr:RosPatentResType"/>
+  </mapping>
+</binding>

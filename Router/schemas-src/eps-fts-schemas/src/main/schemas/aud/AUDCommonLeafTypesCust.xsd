@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="4.1.0.0" elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:CategoryCust="urn:customs.ru:Categories:3.0.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0">
+   <xs:import namespace="urn:customs.ru:Categories:3.0.0" schemaLocation="CategoriesCust.xsd" />
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd" />
+   <xs:annotation>
+      <xs:documentation>Общие локальные типы технологических документов АЮД</xs:documentation>
+   </xs:annotation>
+   <xs:simpleType name="AUD_AppliedDocumentKindIdType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор вида документов.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="500" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_AppliedDocumentKindVersionIdType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор версии вида документов.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="2000" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_AppliedIdType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор (документа, пакета), указываемый прикладной системой.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="100" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_DocumentAttributeIdType">
+      <xs:annotation>
+         <xs:documentation>Прикладной идентификатор реквизита документа.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="100" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_DocumentAttributeValueKindType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор типа значения реквизита документа.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:enumeration value="string" />
+         <xs:enumeration value="integer" />
+         <xs:enumeration value="real" />
+         <xs:enumeration value="datetime" />
+         <xs:enumeration value="date" />
+         <xs:enumeration value="time" />
+         <xs:enumeration value="boolean" />
+         <xs:enumeration value="duration" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_DocumentRepresentationType">
+      <xs:annotation>
+         <xs:documentation>Представление документа в некотором произвольном формате (для визуализации). Бинарные данные в формате Base64.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:BinaryDataCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="AUD_DocumentVersionNumberType">
+      <xs:annotation>
+         <xs:documentation>Номер версии документа. Тип - натуральное число, от 1 до 10 цифр.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IntegerCategoriesCust">
+         <xs:totalDigits value="10" />
+         <xs:minInclusive value="1" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_DocumentVersionsRequestType">
+      <xs:annotation>
+         <xs:documentation>Возможные значения для запроса версий документа архива.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:enumeration value="all_versions" />
+         <xs:enumeration value="last_version" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_DurationCategoriesCust">
+      <xs:annotation>
+         <xs:documentation>Длительность (продолжительность).</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:duration" />
+   </xs:simpleType>
+   <xs:simpleType name="AUD_FilterOperatorType">
+      <xs:annotation>
+         <xs:documentation>Оператор фильтра.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:enumeration value="empty" />
+         <xs:enumeration value="not_empty" />
+         <xs:enumeration value="equal" />
+         <xs:enumeration value="not_equal" />
+         <xs:enumeration value="like" />
+         <xs:enumeration value="more_than" />
+         <xs:enumeration value="more_than_or_equal" />
+         <xs:enumeration value="less_than" />
+         <xs:enumeration value="less_than_or_equal" />
+         <xs:enumeration value="between" />
+         <xs:enumeration value="between_or_equal" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_IntegerNumberType">
+      <xs:annotation>
+         <xs:documentation>Целое число.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IntegerCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="AUD_RealNumberType">
+      <xs:annotation>
+         <xs:documentation>Вещественное число.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:NumericCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="AUD_RepresentationFormDataType">
+      <xs:annotation>
+         <xs:documentation>Данные, используемые для формирования представления документа (для визуализации документа). Бинарные данные в формате Base64.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:BinaryDataCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="AUD_RepresentationKindIdType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор вида представления (для визуализации документа).</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="100" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_ResultCodeType">
+      <xs:annotation>
+         <xs:documentation>Код ошибки.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:CodeCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="AUD_Text10MBType">
+      <xs:annotation>
+         <xs:documentation>Текстовая строка. До 10485760 символов (10 MByte).</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:TextCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="1048576" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="AUD_UniqueIdType">
+      <xs:annotation>
+         <xs:documentation>Уникальный идентификатор (документа, пакета), формируемый АЮД.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:length value="36" />
+         <xs:pattern value="[0-9a-fA-F]{8}(\-[0-9a-fA-F]{4}){3}\-[0-9a-fA-F]{12}" />
+      </xs:restriction>
+   </xs:simpleType>
+</xs:schema>

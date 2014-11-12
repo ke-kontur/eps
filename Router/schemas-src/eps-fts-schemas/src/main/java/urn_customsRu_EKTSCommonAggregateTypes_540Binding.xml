@@ -1,0 +1,18 @@
+<binding xmlns:catEKTS_ru="urn:customs.ru:EKTSCommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:EKTSCommonAggregateTypes:5.4.0" default="elements" prefix="catEKTS_ru"/>
+  <mapping abstract="true" type-name="catEKTS_ru:KTSCustomsPaymentCalculationType" class="ru.acs.fts.schemas.album.ruesadktscommonaggregatetypescust.KTSCustomsPaymentCalculationType">
+    <structure map-as="catESAD_ru:CustomsPaymentCalculationType"/>
+    <value style="element" name="PrecedingPaymentAmount" get-method="getPrecedingPaymentAmount" set-method="setPrecedingPaymentAmount" usage="optional"/>
+    <value style="element" name="ChangeAmount" get-method="getChangeAmount" set-method="setChangeAmount" usage="optional"/>
+    <value style="element" name="PrecedingPaymentCurrencyCode" get-method="getPrecedingPaymentCurrencyCode" set-method="setPrecedingPaymentCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_ru:KTSFillType" class="ru.acs.fts.schemas.album.ruesadktscommonaggregatetypescust.KTSFillType">
+    <value style="element" name="KTSFilledDate" get-method="getKTSFilledDate" set-method="setKTSFilledDate" format="LocalDate.default"/>
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getKTSFilledPerson" set-method="setKTSFilledPerson" name="KTSFilledPerson"/>
+    <structure map-as="catESAD_ru:CustomsBrokerType" get-method="getKTSFilledBroker" set-method="setKTSFilledBroker" usage="optional" name="KTSFilledBroker"/>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_ru:KTSReasonDocumentsType" class="ru.acs.fts.schemas.album.ruesadktscommonaggregatetypescust.KTSReasonDocumentsType">
+    <structure map-as="catESAD_ru:PresentedDocumentType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

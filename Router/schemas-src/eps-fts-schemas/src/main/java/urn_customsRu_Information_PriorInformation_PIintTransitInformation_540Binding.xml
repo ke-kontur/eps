@@ -1,0 +1,92 @@
+<binding xmlns:pint="urn:customs.ru:Information:PriorInformation:PIint_TransitInformation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catpi_ru="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:PIint_TransitInformation:5.4.0" default="elements" prefix="pint"/>
+  <mapping abstract="true" type-name="pint:PIint_TransitInformationType" class="ru.acs.fts.schemas.album.piint_transitinformation.PIintTransitInformationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PI_URN" get-method="getPIURN" set-method="setPIURN" usage="optional"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+    <value style="element" name="BrokerDocNumber" get-method="getBrokerDocNumber" set-method="setBrokerDocNumber" usage="optional"/>
+    <value style="element" name="BorderCustomsCode" get-method="getBorderCustomsCode" set-method="setBorderCustomsCode" usage="optional"/>
+    <value style="element" name="BorderCustomsName" get-method="getBorderCustomsName" set-method="setBorderCustomsName" usage="optional"/>
+    <value style="element" name="ExpectArriveDate" get-method="getExpectArriveDate" set-method="setExpectArriveDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ExpectArriveTime" get-method="getExpectArriveTime" set-method="setExpectArriveTime" usage="optional"/>
+    <structure map-as="pint:ConsigneeType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="pint:CarrierType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <structure map-as="pint:GoodsInformationType" get-method="getGoodsInformation" set-method="setGoodsInformation" name="GoodsInformation"/>
+    <collection get-method="getLicenceDocumentList" set-method="setLicenceDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:PresentedDocumentsType" name="LicenceDocument"/>
+    </collection>
+    <structure map-as="pint:PrincipalType" get-method="getPrincipal" set-method="setPrincipal" usage="optional" name="Principal"/>
+    <structure map-as="pint:ShippingInformationType" get-method="getShippingInformation" set-method="setShippingInformation" name="ShippingInformation"/>
+    <structure map-as="pint:ConsignorType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.piint_transitinformation.PIintTransitInformationType" name="PIint_TransitInformation">
+    <structure map-as="pint:PIint_TransitInformationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pint:CarrierType" class="ru.acs.fts.schemas.album.piint_transitinformation.CarrierType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <collection get-method="getDriverInformationList" set-method="setDriverInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:DriverInformationType" name="DriverInformation"/>
+    </collection>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="pint:ConsigneeType" class="ru.acs.fts.schemas.album.piint_transitinformation.ConsigneeType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="pint:ConsignorType" class="ru.acs.fts.schemas.album.piint_transitinformation.ConsignorType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="pint:DestinationType" class="ru.acs.fts.schemas.album.piint_transitinformation.DestinationType">
+    <value style="element" name="DestinationRWStationCode" get-method="getDestinationRWStationCode" set-method="setDestinationRWStationCode" usage="optional"/>
+    <value style="element" name="DestinationRWStationName" get-method="getDestinationRWStationName" set-method="setDestinationRWStationName" usage="optional"/>
+    <value style="element" name="DestinantionPlaceName" get-method="getDestinantionPlaceName" set-method="setDestinantionPlaceName" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="catpi_ru:DestinationWarehouseType" get-method="getDestinationWarehouse" set-method="setDestinationWarehouse" usage="optional" name="DestinationWarehouse"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getDestinationCustoms" set-method="setDestinationCustoms" usage="optional" name="DestinationCustoms"/>
+  </mapping>
+  <mapping abstract="true" type-name="pint:GoodsInformationType" class="ru.acs.fts.schemas.album.piint_transitinformation.GoodsInformationType">
+    <value style="element" name="TotalGoodsNameQuantity" get-method="getTotalGoodsNameQuantity" set-method="setTotalGoodsNameQuantity"/>
+    <value style="element" name="ShipSpecifQuantity" get-method="getShipSpecifQuantity" set-method="setShipSpecifQuantity" usage="optional"/>
+    <value style="element" name="ShipSpecifGoodsQuantity" get-method="getShipSpecifGoodsQuantity" set-method="setShipSpecifGoodsQuantity" usage="optional"/>
+    <value style="element" name="TotalInvoicedCost" get-method="getTotalInvoicedCost" set-method="setTotalInvoicedCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pint:PrincipalType" class="ru.acs.fts.schemas.album.piint_transitinformation.PrincipalType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="pint:ShippingInformationType" class="ru.acs.fts.schemas.album.piint_transitinformation.ShippingInformationType">
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getDispatchCustoms" set-method="setDispatchCustoms" usage="optional" name="DispatchCustoms"/>
+    <collection get-method="getBorderTransportList" set-method="setBorderTransportList" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:TransportMeansType" name="BorderTransport"/>
+    </collection>
+    <collection get-method="getGuaranteeList" set-method="setGuaranteeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:GuaranteeType" name="Guarantee"/>
+    </collection>
+    <structure map-as="catpi_ru:CountryInformationType" get-method="getDestinationCountry" set-method="setDestinationCountry" name="DestinationCountry"/>
+    <collection get-method="getReloadingInfoList" set-method="setReloadingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:ReloadingInfoType" name="ReloadingInfo"/>
+    </collection>
+    <structure map-as="catpi_ru:CountryInformationType" get-method="getDispatchCountry" set-method="setDispatchCountry" name="DispatchCountry"/>
+    <collection get-method="getTransitRouteList" set-method="setTransitRouteList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:TransitRouteType" name="TransitRoute"/>
+    </collection>
+    <structure map-as="pint:DestinationType" get-method="getDestination" set-method="setDestination" name="Destination"/>
+  </mapping>
+</binding>

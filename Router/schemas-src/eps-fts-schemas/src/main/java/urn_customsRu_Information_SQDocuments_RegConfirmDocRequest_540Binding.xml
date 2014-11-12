@@ -1,0 +1,27 @@
+<binding xmlns:rcdr="urn:customs.ru:Information:SQDocuments:RegConfirmDocRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RegConfirmDocRequest:5.4.0" default="elements" prefix="rcdr"/>
+  <mapping abstract="true" type-name="rcdr:RegConfirmDocRequestType" class="ru.acs.fts.schemas.album.regconfirmdocrequest.RegConfirmDocRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="ApplicationSourceSystemID" get-method="getApplicationSourceSystemID" set-method="setApplicationSourceSystemID" usage="optional"/>
+    <value style="element" name="ApplicationID" get-method="getApplicationID" set-method="setApplicationID" usage="optional"/>
+    <structure map-as="rcdr:OrganizationType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+    <structure map-as="rcdr:ObjectDescriptionType" get-method="getObjectDescription" set-method="setObjectDescription" usage="optional" name="ObjectDescription"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentDetails" set-method="setDocumentDetails" usage="optional" name="DocumentDetails"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.regconfirmdocrequest.RegConfirmDocRequestType" name="RegConfirmDocRequest">
+    <structure map-as="rcdr:RegConfirmDocRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcdr:ObjectDescriptionType" class="ru.acs.fts.schemas.album.regconfirmdocrequest.ObjectDescriptionType">
+    <value style="element" name="KindCode" get-method="getKindCode" set-method="setKindCode" usage="optional"/>
+    <value style="element" name="ObjectName" get-method="getObjectName" set-method="setObjectName" usage="optional"/>
+    <value style="element" name="MovementType" get-method="getMovementType" set-method="setMovementType" usage="optional"/>
+    <value style="element" name="ObjectNumber" get-method="getObjectNumber" set-method="setObjectNumber" usage="optional"/>
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcdr:OrganizationType" class="ru.acs.fts.schemas.album.regconfirmdocrequest.OrganizationType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign" usage="optional"/>
+  </mapping>
+</binding>

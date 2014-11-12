@@ -1,0 +1,12 @@
+<binding xmlns:rcdp="urn:customs.ru:Information:ExchangeDocuments:ReqCloseProc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ReqCloseProc:5.4.0" default="elements" prefix="rcdp"/>
+  <mapping abstract="true" type-name="rcdp:ReqCloseProcType" class="ru.acs.fts.schemas.album.reqcloseproc.ReqCloseProcType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CloseProcedureID" get-method="getCloseProcedureID" set-method="setCloseProcedureID"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqcloseproc.ReqCloseProcType" name="ReqCloseProc">
+    <structure map-as="rcdp:ReqCloseProcType"/>
+  </mapping>
+</binding>

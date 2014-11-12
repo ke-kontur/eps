@@ -1,0 +1,17 @@
+<binding xmlns:edhead="urn:customs.ru:Envelope:EDHeader:2.0">
+  <namespace uri="urn:customs.ru:Envelope:EDHeader:2.0" default="elements" prefix="edhead"/>
+  <mapping abstract="true" type-name="edhead:EDHeaderType" class="ru.acs.fts.schemas.envelope.EDHeaderType">
+    <value style="element" name="MessageType" get-method="getMessageType" set-method="setMessageType"/>
+    <value style="element" name="ProccessID" get-method="getProccessID" set-method="setProccessID" usage="optional"/>
+    <value style="element" name="ParticipantID" get-method="getParticipantID" set-method="setParticipantID" usage="optional"/>
+    <structure map-as="edhead:CustomsType" get-method="getSenderCustoms" set-method="setSenderCustoms" usage="optional" name="SenderCustoms"/>
+    <structure map-as="edhead:CustomsType" get-method="getReceiverCustoms" set-method="setReceiverCustoms" usage="optional" name="ReceiverCustoms"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.envelope.EDHeaderType" name="EDHeader">
+    <structure map-as="edhead:EDHeaderType"/>
+  </mapping>
+  <mapping abstract="true" type-name="edhead:CustomsType" class="ru.acs.fts.schemas.envelope.CustomsType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="ExchType" get-method="getExchType" set-method="setExchType"/>
+  </mapping>
+</binding>

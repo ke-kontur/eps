@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetPacketResponse:4.1.1" version="4.1.1.0" xmlns:aupres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetPacketResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Ответ на запрос на извлечение пакета (пакетов) документов архива.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_GetPacketResponse" type="aupres:AUD_GetPacketResponseType"/>
+   <xs:complexType name="AUD_GetPacketResponseType">
+      <xs:annotation>
+         <xs:documentation>Ответ на запрос на извлечение пакета (пакетов) документов архива.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="PacketInfoWithDocuments" type="catAUD_ru:AUD_PacketInfoWithDocumentsType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о пакете архива и его документах.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010004E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

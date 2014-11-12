@@ -1,0 +1,55 @@
+<binding xmlns:itsri="urn:customs.ru:Information:CustomsDocuments:RequestMCA:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RequestMCA:5.4.0" default="elements" prefix="itsri"/>
+  <mapping abstract="true" type-name="itsri:RequestMCAType" class="ru.acs.fts.schemas.album.requestmca.RequestMCAType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TransitDirectionCode" get-method="getTransitDirectionCode" set-method="setTransitDirectionCode"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="PaymentsFact" get-method="getPaymentsFact" set-method="setPaymentsFact"/>
+    <value style="element" name="OtherPaymentsFact" get-method="getOtherPaymentsFact" set-method="setOtherPaymentsFact"/>
+    <value style="element" name="VendorInfo" get-method="getVendorInfo" set-method="setVendorInfo" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTRegNumber" set-method="setDTRegNumber" name="DTRegNumber"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getConsigner" set-method="setConsigner" usage="optional" name="Consigner"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getContractHolder" set-method="setContractHolder" usage="optional" name="ContractHolder"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getBuyer" set-method="setBuyer" usage="optional" name="Buyer"/>
+    <collection get-method="getITSInfoList" set-method="setITSInfoList" create-type="java.util.ArrayList">
+      <structure map-as="itsri:ITSInfoType" name="ITSInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.requestmca.RequestMCAType" name="RequestMCA">
+    <structure map-as="itsri:RequestMCAType"/>
+  </mapping>
+  <mapping abstract="true" type-name="itsri:ITSInfoType" class="ru.acs.fts.schemas.album.requestmca.ITSInfoType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode" usage="optional"/>
+    <collection get-method="getMDPNumList" set-method="setMDPNumList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="MDPNum" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getPassportDealList" set-method="setPassportDealList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PassportDeal" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="InvoiceCost" get-method="getInvoiceCost" set-method="setInvoiceCost" usage="optional"/>
+    <value style="element" name="PlacesKol" get-method="getPlacesKol" set-method="setPlacesKol" usage="optional"/>
+    <collection get-method="getGoodsGroupInformationList" set-method="setGoodsGroupInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupInformationType" name="GoodsGroupInformation"/>
+    </collection>
+    <collection get-method="getContractList" set-method="setContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Contract"/>
+    </collection>
+    <collection get-method="getInvoiceList" set-method="setInvoiceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Invoice"/>
+    </collection>
+    <structure map-as="itsri:ITSRequestInfoMCAType" get-method="getITSRequest" set-method="setITSRequest" name="ITSRequest"/>
+  </mapping>
+  <mapping abstract="true" type-name="itsri:ITSRequestInfoMCAType" class="ru.acs.fts.schemas.album.requestmca.ITSRequestInfoMCAType">
+    <value style="element" name="NetWeight" get-method="getNetWeight" set-method="setNetWeight" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <value style="element" name="CustomsCostRUB" get-method="getCustomsCostRUB" set-method="setCustomsCostRUB" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional" name="GoodsQuantity"/>
+  </mapping>
+</binding>

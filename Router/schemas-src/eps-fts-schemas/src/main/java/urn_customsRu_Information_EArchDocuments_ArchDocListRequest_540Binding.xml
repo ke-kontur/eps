@@ -1,0 +1,10 @@
+<binding xmlns:adlr="urn:customs.ru:Information:EArchDocuments:ArchDocListRequest:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocListRequest:5.4.0" default="elements" prefix="adlr"/>
+  <mapping abstract="true" type-name="adlr:ArchDocListRequestType" class="ru.acs.fts.schemas.album.archdoclistrequest.ArchDocListRequestType">
+    <structure map-as="catArch_ru:ArchBaseType"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archdoclistrequest.ArchDocListRequestType" name="ArchDocListRequest">
+    <structure map-as="adlr:ArchDocListRequestType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,47 @@
+<binding xmlns:gooid="urn:customs.ru:Information:CustomsDocuments:OEZ_GoodsIdentify:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_GoodsIdentify:5.4.0" default="elements" prefix="gooid"/>
+  <mapping abstract="true" type-name="gooid:OEZ_GoodsIdentifyType" class="ru.acs.fts.schemas.album.oez_goodsidentify.OEZGoodsIdentifyType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DateDocument" get-method="getDateDocument" set-method="setDateDocument" format="LocalDate.default"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getPlaceIdentifyList" set-method="setPlaceIdentifyList" create-type="java.util.ArrayList">
+      <value style="element" name="PlaceIdentify" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getActivityList" set-method="setActivityList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Activity" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getPresentInfoList" set-method="setPresentInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PresentInfo" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="gooid:ConsigneeType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="gooid:RegistrationNumberImpType" get-method="getRegistrationNumberImp" set-method="setRegistrationNumberImp" name="RegistrationNumberImp"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="gooid:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_goodsidentify.OEZGoodsIdentifyType" name="OEZ_GoodsIdentify">
+    <structure map-as="gooid:OEZ_GoodsIdentifyType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gooid:ConsigneeType" class="ru.acs.fts.schemas.album.oez_goodsidentify.ConsigneeType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="SertificateNumberOEZ" get-method="getSertificateNumberOEZ" set-method="setSertificateNumberOEZ" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="gooid:GoodsInfoType" class="ru.acs.fts.schemas.album.oez_goodsidentify.GoodsInfoType">
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gooid:RegistrationNumberImpType" class="ru.acs.fts.schemas.album.oez_goodsidentify.RegistrationNumberImpType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+</binding>

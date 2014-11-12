@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_ArcPutDocumentRequest:4.1.1" version="4.1.1.0" xmlns:ausynreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_ArcPutDocumentRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос на размещение документа на хранение в архиве верхнего уровня.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_ArcPutDocumentRequest" type="ausynreq:AUD_ArcPutDocumentRequestType"/>
+   <xs:complexType name="AUD_ArcPutDocumentRequestType">
+      <xs:annotation>
+         <xs:documentation>Запрос на размещение документа на хранение в архиве верхнего уровня.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element name="DocumentInfoWithPacketSync" type="catAUD_ru:AUD_DocumentInfoWithPacketSyncType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о документе архива и пакете (в состав которого входит документ).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010023E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

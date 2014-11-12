@@ -1,0 +1,11 @@
+<binding xmlns:aucsreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_CheckDocumentSignatureRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_CheckDocumentSignatureRequest:4.1.1" default="elements" prefix="aucsreq"/>
+  <mapping abstract="true" type-name="aucsreq:AUD_CheckDocumentSignatureRequestType" class="ru.acs.fts.schemas.aud.aud_checkdocumentsignaturerequest.AUDCheckDocumentSignatureRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="ArchiveDocumentId" get-method="getArchiveDocumentId" set-method="setArchiveDocumentId"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_checkdocumentsignaturerequest.AUDCheckDocumentSignatureRequestType" name="AUD_CheckDocumentSignatureRequest">
+    <structure map-as="aucsreq:AUD_CheckDocumentSignatureRequestType"/>
+  </mapping>
+</binding>

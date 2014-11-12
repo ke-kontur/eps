@@ -1,0 +1,33 @@
+<binding xmlns:rcpi="urn:customs.ru:Information:TreatmentDocuments:ReqCustProcessingInvent:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:ReqCustProcessingInvent:5.4.0" default="elements" prefix="rcpi"/>
+  <mapping abstract="true" type-name="rcpi:ReqCustProcessingInventType" class="ru.acs.fts.schemas.album.reqcustprocessinginvent.ReqCustProcessingInventType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" format="LocalDate.default"/>
+    <value style="element" name="RequestTime" get-method="getRequestTime" set-method="setRequestTime" usage="optional"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getRequestedDocList" set-method="setRequestedDocList" create-type="java.util.ArrayList">
+      <structure map-as="rcpi:RequestedDocType" name="RequestedDoc"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqcustprocessinginvent.ReqCustProcessingInventType" name="ReqCustProcessingInvent">
+    <structure map-as="rcpi:ReqCustProcessingInventType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcpi:RequestedDocType" class="ru.acs.fts.schemas.album.reqcustprocessinginvent.RequestedDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID" usage="optional"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode" usage="optional"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID" usage="optional"/>
+    <value style="element" name="AarchID" get-method="getAarchID" set-method="setAarchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="ADocumentID" get-method="getADocumentID" set-method="setADocumentID" usage="optional"/>
+    <value style="element" name="ReqPurpose" get-method="getReqPurpose" set-method="setReqPurpose" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="RequestorName" get-method="getRequestorName" set-method="setRequestorName"/>
+    <value style="element" name="InventLineID" get-method="getInventLineID" set-method="setInventLineID" usage="optional"/>
+  </mapping>
+</binding>

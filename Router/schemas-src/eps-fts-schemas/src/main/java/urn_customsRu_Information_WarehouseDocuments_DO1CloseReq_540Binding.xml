@@ -1,0 +1,14 @@
+<binding xmlns:do1cl="urn:customs.ru:Information:WarehouseDocuments:DO1CloseReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:DO1CloseReq:5.4.0" default="elements" prefix="do1cl"/>
+  <mapping abstract="true" type-name="do1cl:DO1CloseReqType" class="ru.acs.fts.schemas.album.do1closereq.DO1CloseReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="FormationMSGDate" get-method="getFormationMSGDate" set-method="setFormationMSGDate" format="LocalDate.default"/>
+    <value style="element" name="FormationMSGTime" get-method="getFormationMSGTime" set-method="setFormationMSGTime"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getCustomInspector" set-method="setCustomInspector" name="CustomInspector"/>
+    <structure map-as="catWH_ru:WHDocumentRegisterNumberType" get-method="getRegNumberDO1" set-method="setRegNumberDO1" name="RegNumberDO1"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.do1closereq.DO1CloseReqType" name="DO1CloseReq">
+    <structure map-as="do1cl:DO1CloseReqType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,26 @@
+<binding xmlns:zdrtrs="urn:customs.ru:Information:SQDocuments:RosZdravTranspl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosZdravTranspl:5.4.0" default="elements" prefix="zdrtrs"/>
+  <mapping abstract="true" type-name="zdrtrs:RosZdravTransplType" class="ru.acs.fts.schemas.album.roszdravtranspl.RosZdravTransplType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <collection get-method="getConclusionList" set-method="setConclusionList" create-type="java.util.ArrayList">
+      <structure map-as="zdrtrs:ConclusionType" name="Conclusion"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.roszdravtranspl.RosZdravTransplType" name="RosZdravTranspl">
+    <structure map-as="zdrtrs:RosZdravTransplType"/>
+  </mapping>
+  <mapping abstract="true" type-name="zdrtrs:ConclusionType" class="ru.acs.fts.schemas.album.roszdravtranspl.ConclusionType">
+    <collection get-method="getDescriptionGoodList" set-method="setDescriptionGoodList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DescriptionGoods" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Country" get-method="getCountry" set-method="setCountry" usage="optional"/>
+    <structure map-as="sq_cat:DocumentType" get-method="getConclusionDescription" set-method="setConclusionDescription" name="ConclusionDescription"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOwner" set-method="setOwner" usage="optional" name="Owner"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getRecipient" set-method="setRecipient" usage="optional" name="Recipient"/>
+    <structure map-as="sq_cat:DocumentType" get-method="getContractDescription" set-method="setContractDescription" usage="optional" name="ContractDescription"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantityGoods" set-method="setQuantityGoods" name="QuantityGoods"/>
+  </mapping>
+</binding>

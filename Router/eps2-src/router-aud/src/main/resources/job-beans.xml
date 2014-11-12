@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+        					http://www.springframework.org/schema/beans/spring-beans.xsd" >
+    
+    <import resource="job-batches.xml" /> 
+    <import resource="sections/failed-jobs.xml" />    
+    <import resource="database.xml" />
+    <import resource="settings.xml" /> 
+    			
+	<bean id="errors" class="ru.acs.fts.aud.router.errors.AudErrors" />
+    			
+	<!-- Job batch context factories -->
+	<bean id="audJobBatchContextFactory" class="ru.acs.fts.aud.router.processing.AudJobBatchContextFactory" >
+		<property name="configurator" ref="configurator" />
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+		
+	<bean id="restEventFactory" class="ru.acs.fts.aud.router.processing.inspection.RESTEventFactory" >
+		<property name="eventRestWs" ref="restEventWebService" />
+		<property name="commitId" value="${git.commit.id}" />
+	</bean>
+	
+	<bean id="restEventWebService" class="ru.acs.fts.eps2.engine.restWs.event.EventRestWs" >
+		<property name="restEventSrvUrl" ref="restEventSrvUrl" />
+	</bean>		
+	
+	<bean id="restStructCtrlWebService" class="ru.acs.fts.eps2.engine.restWs.struct.StructRestWs" >
+		<property name="restStructSrvUrl" ref="restStructSrvUrl" />
+		<property name="marshaller" ref="jibx" />
+		<property name="errors" ref="errors" />
+	</bean>
+		
+	<bean id="restCryptoWebService" class="ru.acs.fts.eps2.engine.restWs.crypto.CryptoRestWs" >
+		<property name="restCryptoSrvUrl" ref="restCryptoSrvUrl" />
+		<property name="marshaller" ref="jibx" />
+		<property name="unmarshaller" ref="jibx" />
+		<property name="errors" ref="errors" />
+	</bean>
+	
+	<bean id="cryptoHelper" class="ru.acs.fts.eps2.engine.processing.helpers.CryptoHelper" >
+		<property name="cryptoRestWs" ref="restCryptoWebService" />
+		<property name="marshaller" ref="jibx" />
+		<property name="unmarshaller" ref="jibx" />
+	</bean>		
+		
+	<!-- Фабрика для сбора событий с JobExecutor'ов -->
+	<bean id="audEventFactory" class="ru.acs.fts.aud.router.processing.inspection.AudEventFactory" >
+		<property name="commitId" value="${git.commit.id}" />
+		<property name="eventRestWs" ref="restEventWebService" />
+	</bean>
+	
+	<!-- JobExecutor'ы для обработки сообщений -->	
+	<bean id="audBaseJobExecutor" class="ru.acs.fts.eps2.engine.processing.JobExecutor2" 
+			abstract="true" scope="prototype" >
+			
+		<property name="failedJobBatchesWarehouse" ref="failedJobBatchWarehouse" />
+			
+		<property name="preProcessingJobBatch" ref="preProcessingJobBatch" />
+		<property name="postProcessingJobBatch" ref="postProcessingJobBatch" />
+		<property name="exceptionalJobBatch" ref="errorHandlingJobBatch" />
+		
+		<property name="transmissionFSM" ref="transmissionsFSM" />
+		<property name="executionLog" >
+			<bean class="ru.acs.fts.eps2.engine.processing.JobExecutionLog" >
+				<property name="restEventFactory" ref="restEventFactory" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="audJobExecutor" parent="audBaseJobExecutor">
+		<property name="jobBatchesWarehouse" ref="audJobBatchWarehouse" />
+	</bean>
+	
+	<bean id="docExtractor" class="ru.acs.fts.aud.router.processing.helpers.DocExtractor" >
+	   	<property name="conditionalUnmarshaller" ref="conditionalUnmarshaller" />	
+	</bean>
+		
+</beans>

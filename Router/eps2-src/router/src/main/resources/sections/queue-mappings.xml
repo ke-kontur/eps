@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Маппинги для ошибочных очередей -->
+
+	<!-- очередь ошибки приема -->
+	<bean id="ErrorRecvQueue" class="java.lang.String" >
+		<constructor-arg value="ErrorRecv" />
+	</bean>
+		
+	<!-- очередь ошибок сохранения в базу -->
+	<bean id="ErrorDBSaveQueue" class="java.lang.String" >
+		<constructor-arg value="ErrorDBSave" />
+	</bean>
+	
+	<!-- очередь ошибок авторизации -->
+	<bean id="ErrorAuthQueue" class="java.lang.String" >
+		<constructor-arg value="ErrorAuth" />
+	</bean>
+	
+	<!-- очередь ошибок структурного контроля -->
+	<bean id="ErrorStructureQueue" class="java.lang.String">
+		<constructor-arg value="ErrorStructure" />
+	</bean>
+	
+	<!-- очередь фатальных ошибок -->
+	<bean id="ErrorFatalQueue" class="java.lang.String">
+		<constructor-arg value="ErrorFatal" />
+	</bean>
+
+</beans>

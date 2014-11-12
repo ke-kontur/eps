@@ -1,0 +1,47 @@
+<binding xmlns:cdi="urn:customs.ru:Information:RegistrationDocuments:CertificatDImmatriculation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:CertificatDImmatriculation:5.4.0" default="elements" prefix="cdi"/>
+  <mapping abstract="true" type-name="cdi:CertificatDImmatriculationType" class="ru.acs.fts.schemas.album.certificatdimmatriculation.CertificatDImmatriculationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comment" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PTSNumber" get-method="getPTSNumber" set-method="setPTSNumber" usage="optional"/>
+    <structure map-as="cdi:RegistrationType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure map-as="cdi:UnRegistrationType" get-method="getUnRegistration" set-method="setUnRegistration" usage="optional" name="UnRegistration"/>
+    <structure map-as="cdi:CDITransportMeansType" get-method="getCDITransportMeans" set-method="setCDITransportMeans" name="CDITransportMeans"/>
+    <structure map-as="cdi:CDIAutomobileownerType" get-method="getCDIAutomobileowner" set-method="setCDIAutomobileowner" name="CDIAutomobileowner"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.certificatdimmatriculation.CertificatDImmatriculationType" name="CertificatDImmatriculation">
+    <structure map-as="cdi:CertificatDImmatriculationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdi:CDIAutomobileownerType" class="ru.acs.fts.schemas.album.certificatdimmatriculation.CDIAutomobileownerType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="NaturalPersonIndicator" get-method="getNaturalPersonIndicator" set-method="setNaturalPersonIndicator" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAdress" set-method="setPostalAdress" name="PostalAdress"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdi:CDITransportMeansType" class="ru.acs.fts.schemas.album.certificatdimmatriculation.CDITransportMeansType">
+    <structure map-as="cat_ru:AutomobileBaseType"/>
+    <value style="element" name="TransportStateSignID" get-method="getTransportStateSignID" set-method="setTransportStateSignID"/>
+    <value style="element" name="TransportMeansColorCode" get-method="getTransportMeansColorCode" set-method="setTransportMeansColorCode"/>
+    <value style="element" name="EnginePowerKvtQuanity" get-method="getEnginePowerKvtQuanity" set-method="setEnginePowerKvtQuanity" usage="optional"/>
+    <value style="element" name="EnginePowerHpQuanity" get-method="getEnginePowerHpQuanity" set-method="setEnginePowerHpQuanity" usage="optional"/>
+    <value style="element" name="MaxWeightQuantity" get-method="getMaxWeightQuantity" set-method="setMaxWeightQuantity"/>
+    <value style="element" name="MinWeightQuantity" get-method="getMinWeightQuantity" set-method="setMinWeightQuantity"/>
+    <value style="element" name="TransportCategoryCode" get-method="getTransportCategoryCode" set-method="setTransportCategoryCode" format="clt_ru:TransportCategoryCodeType"/>
+    <value style="element" name="EngineModel" get-method="getEngineModel" set-method="setEngineModel" usage="optional"/>
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdi:RegistrationType" class="ru.acs.fts.schemas.album.certificatdimmatriculation.RegistrationType">
+    <value style="element" name="RegionCode" get-method="getRegionCode" set-method="setRegionCode"/>
+    <value style="element" name="SeriesCode" get-method="getSeriesCode" set-method="setSeriesCode"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="GAIName" get-method="getGAIName" set-method="setGAIName"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdi:UnRegistrationType" class="ru.acs.fts.schemas.album.certificatdimmatriculation.UnRegistrationType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="GAIName" get-method="getGAIName" set-method="setGAIName"/>
+    <value style="element" name="Cause" get-method="getCause" set-method="setCause"/>
+  </mapping>
+</binding>

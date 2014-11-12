@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configures the Camel Context-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd
+ http://www.springframework.org/schema/tx
+                        http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                          http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-2.5.xsd ">
+
+    <import resource="beans.xml" /> 
+
+    <camelContext id="camel" trace="false" xmlns="http://camel.apache.org/schema/spring"
+                  xmlns:soap="http://www.w3.org/2001/06/soap-envelope"
+                  xmlns:rou="urn:customs.ru:Envelope:RoutingInf:1.0"
+                  xmlns:app="urn:customs.ru:Envelope:ApplicationInf:1.0"
+            >
+        <!-- Default JMX connector url: "service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi/camel" -->
+        <jmxAgent id="agent1" createConnector="true"/>
+        <endpoint id="errors" uri="file://c:/temp/mq/?fileName=${date:now:yyyyMMdd-HHmmssSSS}-${property.uid}"/>
+        <endpoint id="errors2" uri="file://c:/temp/mq/?fileName=${date:now:yyyyMMdd-HHmmssSSS}-${property.uid}"/>
+        <endpoint id="errors_in" uri="file://c:/temp/mq/"/>
+        <endpoint id="logerror" uri="log:+++ ERROR +++?showException=true&amp;showBody=false&amp;showExchangeId=true&amp;showStackTrace=true&amp;showHeaders=true&amp;showCaughtException=true"/>
+<!--    
+  <route>
+            <from uri='wmq:RNTS.INCOME'/>
+            <onException>
+                <exception>java.lang.Exception</exception>
+                <handled>
+                    <constant>true</constant>
+                </handled>
+                <to ref="logerror"/>
+                <log message="Сообщение перемещено в ERRORS endpoint"/>
+                <to ref="errors2"/>
+                <rollback markRollbackOnlyLast="true"/>
+            </onException>
+            <to uri='mq:RNTS.INCOME.INT'/> 
+      </route>
+-->
+        <route>
+            <from uri='mq:RNTS.INCOME'/>
+            <transacted ref="PROPAGATION_REQUIRES_NEW"/>
+<!--             <to uri="log:+++ request +++"/>   -->
+            <onException>
+                <exception>java.lang.Exception</exception>
+                <handled>
+                    <constant>true</constant>
+                </handled>
+                <setProperty propertyName="uid">
+                    <ognl>request.headers.jmsmessageid.replace(':','-')</ognl>
+                </setProperty>
+       
+           <to ref="logerror"/>
+                <log message="Сообщение перемещено в ERRORS endpoint"  loggingLevel="FATAL" logName="ru.acs.fts.router"/>
+                <to ref="errors"/>
+                <rollback markRollbackOnlyLast="true"/>
+            </onException>
+
+            <setProperty propertyName="InputQueue">
+                <constant>RNTS.INCOME</constant>
+            </setProperty>
+            <log message="Route from ${property.InputQueue} by rules.xml"/>
+
+       <choice>
+            <when>
+                  <ognl>request.body.length > 1000</ognl>
+                  <log message="Для сообщения будет выставлен флаг сегментации"  loggingLevel="DEBUG" logName="ru.acs.fts.router"/>
+	  <to uri="bean:xmlRulesRouterSegm?method=route"/>
+            </when>
+            <otherwise>
+                <log message="Для сообщения НЕ будет выставлен флаг сегментации" loggingLevel="DEBUG" logName="ru.acs.fts.router"/>
+	<to uri="bean:xmlRulesRouter?method=route"/>
+            </otherwise>
+        </choice>
+   <!--         <to uri="bean:xmlRulesRouter?method=route"/> -->
+        </route>
+
+
+               <route>
+            <from uri="mq:RNTS.APP.FROM"/>
+            <transacted ref="PROPAGATION_REQUIRES_NEW"/>
+<!--                    <to uri="log:+++ request +++"/>   -->
+            <onException>
+                <exception>java.lang.Exception</exception>
+                <handled>
+                    <constant>true</constant>
+                </handled>
+                <setProperty propertyName="uid">
+                    <ognl>request.headers.jmsmessageid.replace(':','-')</ognl>
+                </setProperty>
+                <to ref="logerror"/>
+                <log message="Сообщение перемещено в ERRORS endpoint"  loggingLevel="FATAL"  logName="ru.acs.fts.router"/>
+                <to ref="errors"/>
+                <rollback markRollbackOnlyLast="true"/>
+            </onException>
+
+            <setProperty propertyName="InputQueue">
+                <constant>RNTS.APP.FROM</constant>
+            </setProperty>
+            <log message="Route from ${property.InputQueue} by rules.xml" />
+
+            
+       <choice>
+            <when>
+                  <ognl>request.body.length > 10000</ognl>
+                  <log message="Для сообщения будет выставлен флаг сегментации"  loggingLevel="DEBUG"  logName="ru.acs.fts.router"/>
+	  <to uri="bean:xmlRulesRouterSegm?method=route"/>
+            </when>
+            <otherwise>
+                <log message="Для сообщения НЕ будет выставлен флаг сегментации"  loggingLevel="DEBUG"  logName="ru.acs.fts.router"/>
+	<to uri="bean:xmlRulesRouter?method=route"/>
+            </otherwise>
+        </choice>
+   <!--         <to uri="bean:xmlRulesRouter?method=route"/> -->
+        </route> 
+     
+        <route>
+            <from ref="errors_in"/>
+            <to uri="mq:ROUTER.ERRORS"/>
+        </route>
+
+
+    </camelContext>
+</beans>

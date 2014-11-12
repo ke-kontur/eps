@@ -1,0 +1,15 @@
+<binding xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0" default="elements" prefix="sq_cat"/>
+  <mapping abstract="true" type-name="sq_cat:AuthorizedPersonType" class="ru.acs.fts.schemas.album.sqcommonaggregatetypescust.AuthorizedPersonType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="sq_cat:ConclusionType" class="ru.acs.fts.schemas.album.sqcommonaggregatetypescust.ConclusionType">
+    <structure map-as="sq_cat:DocumentType"/>
+    <value style="element" name="ConclusionType" get-method="getConclusionType" set-method="setConclusionType" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="sq_cat:DocumentType" class="ru.acs.fts.schemas.album.sqcommonaggregatetypescust.DocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DateTo" get-method="getDateTo" set-method="setDateTo" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

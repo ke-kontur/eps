@@ -1,0 +1,19 @@
+<binding xmlns:prch="urn:customs.ru:Information:WarehouseDocuments:PermitDOChange:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:PermitDOChange:5.4.0" default="elements" prefix="prch"/>
+  <mapping abstract="true" type-name="prch:PermitDOChangeType" class="ru.acs.fts.schemas.album.permitdochange.PermitDOChangeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="catWH_ru:WHDocumentRegisterNumberType" test-method="ifDORegisterNumber" get-method="getDORegisterNumber" set-method="setDORegisterNumber" usage="optional" name="DORegisterNumber"/>
+      <structure map-as="cat_ru:DocumentBaseType" test-method="ifDocumentRegNumber" get-method="getDocumentRegNumber" set-method="setDocumentRegNumber" usage="optional" name="DocumentRegNumber"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitdochange.PermitDOChangeType" name="PermitDOChange">
+    <structure map-as="prch:PermitDOChangeType"/>
+  </mapping>
+</binding>

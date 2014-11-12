@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+	
+	<!-- Queues -->
+	
+	<bean id="ReportsQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/ReportsQueue" />
+	</bean>
+	
+	<!-- JMS Containers -->
+	
+	<bean id="baseReceiptMessageListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer"
+			abstract="true" >
+		<property name="connectionFactory" ref="jmsConnectionFactory" />
+		<property name="concurrentConsumers" value="1" />
+		<property name="maxConcurrentConsumers" value="5" />
+		<property name="sessionTransacted" value="true" />
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="autoStartup" ref="IsReceiptServiceOnBean" />
+	</bean>
+	
+	<bean id="receiptsMessageListenerContainer" parent="baseReceiptMessageListenerContainer" >
+		<property name="messageListener" ref="receiptsMessageListener" />
+		<property name="destination" ref="ReportsQueue" />
+	</bean>	
+	
+	<!-- JMS Listeners -->
+	
+	<bean id="receiptsMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="receiptsDispatcher" />
+	</bean>
+	
+	<!-- Dispatchers -->
+	
+	<bean id="receiptsDispatcher" class="ru.acs.fts.eps2.failedMessages.dispatch.ReceiptsMessageDispatcher" 
+			scope="prototype" >
+		<property name="messageService" ref="messageService" />
+		<property name="messageSender" ref="messageSender" />
+		<property name="configurator" ref="configurator" />
+	</bean>
+	
+	<bean id="messageSender" class="ru.acs.fts.eps2.failedMessages.supplementary.MessageSender" >
+		<property name="jmsTemplate" ref="jmsTemplateFullDataReports" />
+	</bean>
+
+</beans>

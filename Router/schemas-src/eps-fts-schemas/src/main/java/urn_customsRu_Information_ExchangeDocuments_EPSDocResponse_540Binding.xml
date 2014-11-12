@@ -1,0 +1,31 @@
+<binding xmlns:edrs="urn:customs.ru:Information:ExchangeDocuments:EPS_DocResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:EPS_DocResponse:5.4.0" default="elements" prefix="edrs"/>
+  <mapping abstract="true" type-name="edrs:EPS_DocResponseType" class="ru.acs.fts.schemas.album.eps_docresponse.EPSDocResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="edrs:ArchDocInfoType" get-method="getArchDocumentInfo" set-method="setArchDocumentInfo" usage="optional" name="ArchDocumentInfo"/>
+    <structure map-as="edrs:DocResponseType" get-method="getDocResponse" set-method="setDocResponse" name="DocResponse"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getResponcePerson" set-method="setResponcePerson" usage="optional" name="ResponcePerson"/>
+    <structure map-as="edrs:ArchiveInformationType" get-method="getArchiveInformation" set-method="setArchiveInformation" usage="optional" name="ArchiveInformation"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.eps_docresponse.EPSDocResponseType" name="EPS_DocResponse">
+    <structure map-as="edrs:EPS_DocResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="edrs:ArchDocInfoType" class="ru.acs.fts.schemas.album.eps_docresponse.ArchDocInfoType">
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID"/>
+    <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus"/>
+  </mapping>
+  <mapping abstract="true" type-name="edrs:ArchiveInformationType" class="ru.acs.fts.schemas.album.eps_docresponse.ArchiveInformationType">
+    <value style="element" name="ArchDocAlbum" get-method="getArchDocAlbum" set-method="setArchDocAlbum"/>
+    <value style="element" name="ArchDocDate" get-method="getArchDocDate" set-method="setArchDocDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="edrs:DocResponseBodyType" class="ru.acs.fts.schemas.album.eps_docresponse.DocResponseBodyType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+  <mapping abstract="true" type-name="edrs:DocResponseType" class="ru.acs.fts.schemas.album.eps_docresponse.DocResponseType">
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID"/>
+    <structure map-as="edrs:DocResponseBodyType" get-method="getDocResponseBody" set-method="setDocResponseBody" name="DocResponseBody"/>
+  </mapping>
+</binding>

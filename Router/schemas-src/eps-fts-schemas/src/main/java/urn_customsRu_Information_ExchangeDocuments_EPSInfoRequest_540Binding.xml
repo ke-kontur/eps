@@ -1,0 +1,27 @@
+<binding xmlns:eir="urn:customs.ru:Information:ExchangeDocuments:EPS_InfoRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:EPS_InfoRequest:5.4.0" default="elements" prefix="eir"/>
+  <mapping abstract="true" type-name="eir:EPS_InfoRequestType" class="ru.acs.fts.schemas.album.eps_inforequest.EPSInfoRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="eir:ArchRequestType" test-method="ifArchRequest" get-method="getArchRequest" set-method="setArchRequest" usage="optional" name="ArchRequest"/>
+      <structure map-as="eir:ProcessRequestType" test-method="ifProcessRequest" get-method="getProcessRequest" set-method="setProcessRequest" usage="optional" name="ProcessRequest"/>
+      <structure map-as="eir:EnvRequestType" test-method="ifEnvRequest" get-method="getEnvRequest" set-method="setEnvRequest" usage="optional" name="EnvRequest"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.eps_inforequest.EPSInfoRequestType" name="EPS_InfoRequest">
+    <structure map-as="eir:EPS_InfoRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="eir:ArchRequestType" class="ru.acs.fts.schemas.album.eps_inforequest.ArchRequestType">
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID" usage="optional"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="ArchDocumentID" get-method="getArchDocumentID" set-method="setArchDocumentID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="eir:EnvRequestType" class="ru.acs.fts.schemas.album.eps_inforequest.EnvRequestType">
+    <value style="element" name="EnvelopeID" get-method="getEnvelopeID" set-method="setEnvelopeID"/>
+  </mapping>
+  <mapping abstract="true" type-name="eir:ProcessRequestType" class="ru.acs.fts.schemas.album.eps_inforequest.ProcessRequestType">
+    <value style="element" name="ProcessID" get-method="getProcessID" set-method="setProcessID"/>
+  </mapping>
+</binding>

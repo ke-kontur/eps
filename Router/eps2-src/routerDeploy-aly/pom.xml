@@ -1,0 +1,101 @@
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+							http://maven.apache.org/xsd/maven-4.0.0.xsd">
+							
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ru.acs.fts.eps2</groupId>
+		<artifactId>eps2</artifactId>
+		<version>1.0</version>
+		<relativePath>../parent</relativePath>
+	</parent>
+
+	<groupId>ru.acs.fts.analytics</groupId>	
+	<artifactId>router-aly-deploy</artifactId>
+	<version>1.0.0</version>
+	
+	<packaging>ear</packaging>
+	<name>Analytics Processor Deployment</name>
+	
+	<build>
+        <resources>
+            <resource>
+                <targetPath>META-INF/</targetPath>
+                <directory>${project.basedir}/EarContent/META-INF/</directory>
+                <excludes>
+                    <exclude>**/application.xml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+        <sourceDirectory>EarContent</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>${maven.ear-version}</version>
+                <configuration>
+                    <modules>
+                        <webModule>
+                            <groupId>ru.acs.fts.analytics</groupId>
+                            <artifactId>router-aly</artifactId>
+                            <contextRoot>/router-aly-${alyVersion}</contextRoot>
+                        </webModule>
+                    </modules>
+                    <displayName>Analytics Processor Deployment</displayName>
+                    <generateApplicationXml>true</generateApplicationXml>
+                    <resourcesDir>target/classes</resourcesDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+    <dependencies>
+  <dependency>
+   <groupId>ru.acs.fts.analytics</groupId>
+   <artifactId>router-aly</artifactId>
+   <version>1.0.0</version>
+   <type>war</type>
+   <scope>compile</scope>
+  </dependency>
+  <dependency>
+   <groupId>joda-time</groupId>
+   <artifactId>joda-time</artifactId>
+   <version>2.3</version>
+   <scope>compile</scope>
+   <type>jar</type>
+  </dependency>
+ </dependencies>
+    
+    <profiles>
+		<profile>
+			<id>wls</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/EarContent/META-INF/</directory>
+						<excludes>							
+                                                        <exclude>orion-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+		
+		<profile>
+			<id>oas</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/EarContent/META-INF/</directory>
+						<excludes>
+							<exclude>weblogic-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+	</profiles>
+  
+</project>

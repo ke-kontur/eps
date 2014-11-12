@@ -1,0 +1,18 @@
+<binding xmlns:cdr="urn:customs.ru:Information:ExchangeDocuments:ConfirmDocsRecip:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catExch_ru="urn:customs.ru:Information:ExchangeDocuments:ExchangeCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ConfirmDocsRecip:5.4.0" default="elements" prefix="cdr"/>
+  <mapping abstract="true" type-name="cdr:ConfirmDocsRecipType" class="ru.acs.fts.schemas.album.confirmdocsrecip.ConfirmDocsRecipType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="NumberOfDocs" get-method="getNumberOfDocs" set-method="setNumberOfDocs"/>
+    <collection get-method="getRecipDocList" set-method="setRecipDocList" create-type="java.util.ArrayList">
+      <structure map-as="catExch_ru:RecipDocumentType" name="RecipDoc"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.confirmdocsrecip.ConfirmDocsRecipType" name="ConfirmDocsRecip">
+    <structure map-as="cdr:ConfirmDocsRecipType"/>
+  </mapping>
+</binding>

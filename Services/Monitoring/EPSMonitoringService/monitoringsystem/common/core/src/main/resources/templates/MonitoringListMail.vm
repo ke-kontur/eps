@@ -1,0 +1,38 @@
+#include("templates/MiHeader.vm")
+#foreach($mi in $miList)
+<big class="${mi.severity}_List">&#9679;</big><b> ${mi.serviceName}</b> [${mi.serviceId}].
+
+#if ($mi.severity == "INFO")
+<big class="INFO_List">&#9679;</big> Предупреждений нет.
+#end
+#if ($mi.hostState.severity !="-1")
+<big class="${mi.hostState.severity}_List">&#9679;</big> Хосты.
+#end
+#if ($mi.dbState.severity !="-1")
+<big class="${mi.dbState.severity}_List">#if ($mi.dbState.severity)&#35;#else&#9679;#end</big> БД.
+#end
+#if ($mi.mqState.severity !="-1")
+<big class="${mi.mqState.severity}_List">#if ($mi.mqState.changed)&#35;#else&#9679;#end</big> MQ.
+#end
+#if ($mi.servicesState.severity !="-1")
+<big class="${mi.servicesState.severity}_List">#if ($mi.servicesState.changed)&#35;#else&#9679;#end</big> Cервисы.
+#end
+#if ($mi.eventLogState.severity !="-1")
+<big class="${mi.eventLogState.severity}_List">#if ($mi.eventLogState.changed)&#35;#else&#9679;#end</big> Системные журналы.
+#end
+#if ($mi.mpState.severity !="-1")
+<big class="${mi.mpState.severity}_List">#if ($mi.mpState.changed)&#35;#else&#9679;#end</big> Обработка сообщений.
+#end
+#if ($mi.systemState.severity !="-1")
+<big class="${mi.systemState.severity}_List">#if ($mi.systemState.changed)&#35;#else&#9679;#end</big> Системные ресурсы.
+#end
+#if ($mi.signState.severity !="-1")
+<big class="${mi.signState.severity}_List">#if ($mi.signState.changed)&#35;#else&#9679;#end</big> ЭЦП.
+#end
+ <a href="${mi.zipName}">Отчет - ${mi.zipName}.</a>
+<br>
+#end
+
+<br><br>
+Создано в ${time}				
+#include("templates/MiFooter.vm")

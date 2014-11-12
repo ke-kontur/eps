@@ -1,0 +1,24 @@
+<binding xmlns:cqdrd="urn:customs.ru:Information:CustomsDocuments:ConfirmQuotaDataRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ConfirmQuotaDataRD:5.4.0" default="elements" prefix="cqdrd"/>
+  <mapping abstract="true" type-name="cqdrd:ConfirmQuotaDataRDType" class="ru.acs.fts.schemas.album.confirmquotadatard.ConfirmQuotaDataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID"/>
+    <value style="element" name="UseDateTime" get-method="getUseDateTime" set-method="setUseDateTime"/>
+    <value style="element" name="CustDocType" get-method="getCustDocType" set-method="setCustDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cqdrd:GoodsDescriptionType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.confirmquotadatard.ConfirmQuotaDataRDType" name="ConfirmQuotaDataRD">
+    <structure map-as="cqdrd:ConfirmQuotaDataRDType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cqdrd:GoodsDescriptionType" class="ru.acs.fts.schemas.album.confirmquotadatard.GoodsDescriptionType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <collection get-method="getSupplementaryQuantityList" set-method="setSupplementaryQuantityList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="SupplementaryQuantity"/>
+    </collection>
+    <structure map-as="catESAD_cu:LicenseGoodsType" get-method="getLicenseGoods" set-method="setLicenseGoods" name="LicenseGoods"/>
+  </mapping>
+</binding>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+							
+	<!-- savers -->
+	
+	<bean id="putDocumentResponseSaver" class="ru.acs.fts.aud.result.dispatcher.savers.PutDocumentResponseSaver" >
+		<property name="audService" ref="audService" />
+	</bean>
+	
+	<bean id="errorDocumentSaver" class="ru.acs.fts.aud.result.dispatcher.savers.ErrorDocumentSaver" >
+		<property name="audService" ref="audService" />
+	</bean>
+	
+	<bean id="registrySaver" class="ru.acs.fts.aud.result.dispatcher.savers.RegistrySaver" >
+		<property name="audService" ref="audService" />
+	</bean>
+	
+	<!-- processors -->
+							
+	<bean id="responseProcessor" class="ru.acs.fts.aud.result.dispatcher.processing.ResponseProcessor" >
+		<property name="audService" ref="audService" />
+		<property name="registrySaver" ref="registrySaver" />
+		
+		<property name="savers" >
+			<map>
+				<entry key="AUDPutDocumentResponseType" value-ref="putDocumentResponseSaver" />
+				<entry key="AUDErrorType" value-ref="errorDocumentSaver" />
+				<!-- entry key="AUDDeliveryNotificationType" value-ref="deliveryNotificationDocumentSaver" / -->
+			</map>
+		</property>
+		<property name="states">
+			<map>
+				<entry key="AUDPutDocumentResponseType" value="Processed" />
+				<entry key="AUDErrorType" value="Error_Response" />
+				<entry key="AUDDeliveryNotificationType" value="Processing" />
+				<entry key="AUDRegistryResponseType" value="Processing" />
+			</map>
+		</property>
+	</bean>
+
+
+</beans>

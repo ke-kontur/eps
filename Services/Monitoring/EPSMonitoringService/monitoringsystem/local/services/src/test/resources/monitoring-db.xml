@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:m="http://acs.ru/schema/monitoring-agent"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+	<m:database name="БД РТУ">
+		<m:dataSource address="192.168.23.155" dbname="RTU1"
+			username="RNTS_CONNECT_S" password="1" />
+		<m:tableSpace name="USERS"/>
+		<m:tableSpace name="SYSTEM" warningLevel="65500" errorLevel="30000"/>
+		<m:contentCheck name="Проверка содержимого БД #1" sql="select query.state as state, decode( query.state, 'ok', 'all is ok', 'error!!!') as description from (select decode(greatest(TO_NUMBER(To_CHAR(sysdate, 'HH')) , 13), 13, 'ok', 'error') as state from dual) query"/>
+	</m:database>
+	
+	<m:database name="БД Гнивц">
+		<m:dataSource address="192.168.23.155" dbname="GNIVC"
+			username="RNTS_CONNECT_S" password="1" />		
+	</m:database>
+<!-- 
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД РТУ" />
+		<property name="dataSource">
+		
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/RTU1" />
+				<property name="username" value="RNTS_CONNECT_S" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+	</bean>
+ 
+ 
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД Гнивц" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/GNIVC" />
+				<property name="username" value="RNTS_CONNECT_S" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+		<property name="monitoredTableSpaces">
+			<list>
+				<bean class="ru.acs.monitoring.services.DBSettings$TableSpaceSettings">
+					<property name="name" value="USERS"/>
+					<property name="warningLevel" value="4"/>
+				</bean>
+				<bean class="ru.acs.monitoring.services.DBSettings$TableSpaceSettings">
+					<property name="name" value="SYSTEM"/>
+					<property name="errorLevel" value="1"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД НСИ" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url" value="jdbc:oracle:thin:@//dev04:1520/RNTSNSI" />
+				<property name="username" value="ACCESS_NSI" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД ГНИВЦ WH" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/GNIVCWH" />
+				<property name="username" value="RNTS_WHUSER" />
+				<property name="password" value="2" />
+			</bean>
+		</property>
+	</bean>
+ 
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД РТУ WH" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/RTU1WH" />
+				<property name="username" value="RNTS_WHUSER" />
+				<property name="password" value="2" />
+			</bean>
+		</property>
+	</bean>
+	  -->
+ </beans>

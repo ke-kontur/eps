@@ -1,0 +1,66 @@
+<binding xmlns:catEKTS_cu="urn:customs.ru:CUEKTSCommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:CUEKTSCommonAggregateTypes:5.4.0" default="elements" prefix="catEKTS_cu"/>
+  <mapping abstract="true" type-name="catEKTS_cu:Adjustment2TypeCodeType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.Adjustment2TypeCodeType">
+    <value style="element" name="BasisCalculating" get-method="getBasisCalculating" set-method="setBasisCalculating"/>
+    <value style="element" name="AddAccrual" get-method="getAddAccrual" set-method="setAddAccrual"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost"/>
+    <value style="element" name="BasisCompilationKTS" get-method="getBasisCompilationKTS" set-method="setBasisCompilationKTS"/>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_cu:CUKTSCustomsPaymentCalculationType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.CUKTSCustomsPaymentCalculationType">
+    <structure map-as="catESAD_cu:CUCustomsPaymentCalculationType"/>
+    <value style="element" name="PrecedingPaymentAmount" get-method="getPrecedingPaymentAmount" set-method="setPrecedingPaymentAmount" usage="optional"/>
+    <value style="element" name="ChangeAmount" get-method="getChangeAmount" set-method="setChangeAmount" usage="optional"/>
+    <value style="element" name="PrecedingPaymentCurrencyCode" get-method="getPrecedingPaymentCurrencyCode" set-method="setPrecedingPaymentCurrencyCode" usage="optional"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catEKTS_cu:KTSPaymentDocumentType" name="PaymentDocument"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_cu:KTSContractTermsType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSContractTermsType">
+    <structure map-as="catESAD_cu:ContractCostType"/>
+    <value style="element" name="DealFeatureCode" get-method="getDealFeatureCode" set-method="setDealFeatureCode" usage="optional"/>
+    <value style="element" name="DealNatureCode" get-method="getDealNatureCode" set-method="setDealNatureCode" usage="optional"/>
+    <structure map-as="cat_ru:DeliveryTermsType" get-method="getDeliveryTerms" set-method="setDeliveryTerms" usage="optional" name="DeliveryTerms"/>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_cu:KTSGoodsItemType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSGoodsItemType">
+    <structure map-as="catESAD_cu:CUESADGoodsItemType"/>
+    <value style="element" name="GoodsSerialNumber" get-method="getGoodsSerialNumber" set-method="setGoodsSerialNumber" usage="optional"/>
+    <value style="element" name="Adjustment1TypeCode" get-method="getAdjustment1TypeCode" set-method="setAdjustment1TypeCode"/>
+    <value style="element" name="Adjustment3TypeCode" get-method="getAdjustment3TypeCode" set-method="setAdjustment3TypeCode"/>
+    <value style="element" name="AdditionalSheetNumber" get-method="getAdditionalSheetNumber" set-method="setAdditionalSheetNumber" usage="optional"/>
+    <value style="element" name="SheetPartNumeric" get-method="getSheetPartNumeric" set-method="setSheetPartNumeric" usage="optional"/>
+    <value style="element" name="PreviousCustomsCost" get-method="getPreviousCustomsCost" set-method="setPreviousCustomsCost"/>
+    <value style="element" name="TotalCorrectedCost" get-method="getTotalCorrectedCost" set-method="setTotalCorrectedCost" usage="optional"/>
+    <value style="element" name="KTSKind" get-method="getKTSKind" set-method="setKTSKind" usage="optional"/>
+    <structure map-as="catEKTS_cu:Adjustment2TypeCodeType" get-method="getAdjustment2TypeCode" set-method="setAdjustment2TypeCode" name="Adjustment2TypeCode"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getSupplementaryQuantity1List" set-method="setSupplementaryQuantity1List" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="SupplementaryQuantity1"/>
+    </collection>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getKTSGoodsPackaging" set-method="setKTSGoodsPackaging" usage="optional" name="KTSGoodsPackaging"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getRBSupplementaryGoodsQuantity" set-method="setRBSupplementaryGoodsQuantity" usage="optional" name="RBSupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_cu:KTSGoodsShipmentType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSGoodsShipmentType">
+    <value style="element" name="TotalGoodsNumber" get-method="getTotalGoodsNumber" set-method="setTotalGoodsNumber"/>
+    <value style="element" name="TotalSheetNumber" get-method="getTotalSheetNumber" set-method="setTotalSheetNumber" usage="optional"/>
+    <value style="element" name="TotalCustomsAmount" get-method="getTotalCustomsAmount" set-method="setTotalCustomsAmount" usage="optional"/>
+    <value style="element" name="PreviousTotalCustomsAmount" get-method="getPreviousTotalCustomsAmount" set-method="setPreviousTotalCustomsAmount" usage="optional"/>
+    <value style="element" name="DebtReturnSumm" get-method="getDebtReturnSumm" set-method="setDebtReturnSumm" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_cu:KTSPaymentDocumentType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSPaymentDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode" usage="optional"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="cat_ru:RFOrganizationFeaturesType" test-method="ifRFOrganizationFeatures" get-method="getRFOrganizationFeatures" set-method="setRFOrganizationFeatures" usage="optional" name="RFOrganizationFeatures"/>
+      <structure map-as="cat_ru:RKOrganizationFeaturesType" test-method="ifRKOrganizationFeatures" get-method="getRKOrganizationFeatures" set-method="setRKOrganizationFeatures" usage="optional" name="RKOrganizationFeatures"/>
+      <structure map-as="cat_ru:RBOrganizationFeaturesType" test-method="ifRBOrganizationFeatures" get-method="getRBOrganizationFeatures" set-method="setRBOrganizationFeatures" usage="optional" name="RBOrganizationFeatures"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="catEKTS_cu:KTSPaymentsReCalcType" class="ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSPaymentsReCalcType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount" usage="optional"/>
+    <value style="element" name="PrecedingPaymentAmount" get-method="getPrecedingPaymentAmount" set-method="setPrecedingPaymentAmount" usage="optional"/>
+    <value style="element" name="ChangeAmount" get-method="getChangeAmount" set-method="setChangeAmount" usage="optional"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,57 @@
+<binding xmlns:rcd="urn:customs.ru:Information:CustomsDocuments:ReqCorrectedData:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqCorrectedData:5.4.0" default="elements" prefix="rcd"/>
+  <mapping abstract="true" type-name="rcd:ReqCorrectedDataType" class="ru.acs.fts.schemas.album.reqcorrecteddata.ReqCorrectedDataType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" format="LocalDate.default"/>
+    <value style="element" name="RequestNumber" get-method="getRequestNumber" set-method="setRequestNumber" usage="optional"/>
+    <value style="element" name="TKPunkt" get-method="getTKPunkt" set-method="setTKPunkt" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="rcd:UncertaintyType" get-method="getUncertainty" set-method="setUncertainty" name="Uncertainty"/>
+    <structure map-as="rcd:InstructionReqType" get-method="getInstruction" set-method="setInstruction" name="Instruction"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqcorrecteddata.ReqCorrectedDataType" name="ReqCorrectedData">
+    <structure map-as="rcd:ReqCorrectedDataType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcd:BadDocumentType" class="ru.acs.fts.schemas.album.reqcorrecteddata.BadDocumentType">
+    <value style="element" name="DocID" get-method="getDocID" set-method="setDocID"/>
+    <value style="element" name="DocName" get-method="getDocName" set-method="setDocName" usage="optional"/>
+    <value style="element" name="DocModeID" get-method="getDocModeID" set-method="setDocModeID" usage="optional"/>
+    <collection get-method="getListErrorList" set-method="setListErrorList" create-type="java.util.ArrayList">
+      <structure map-as="rcd:ListErrorType" name="ListError"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rcd:InstructionReqType" class="ru.acs.fts.schemas.album.reqcorrecteddata.InstructionReqType">
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getInstructionDescriptionList" set-method="setInstructionDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="InstructionDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getInstrDocumentList" set-method="setInstrDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InstrDocument" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rcd:ListErrorType" class="ru.acs.fts.schemas.album.reqcorrecteddata.ListErrorType">
+    <value style="element" name="ErrCode" get-method="getErrCode" set-method="setErrCode"/>
+    <value style="element" name="ErrorName" get-method="getErrorName" set-method="setErrorName"/>
+    <value style="element" name="ErrDescription" get-method="getErrDescription" set-method="setErrDescription" usage="optional"/>
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber" usage="optional"/>
+    <value style="element" name="ErrElement" get-method="getErrElement" set-method="setErrElement" usage="optional"/>
+    <value style="element" name="ErrField" get-method="getErrField" set-method="setErrField" usage="optional"/>
+    <value style="element" name="SuccessContent" get-method="getSuccessContent" set-method="setSuccessContent" usage="optional"/>
+    <value style="element" name="ErrLevel" get-method="getErrLevel" set-method="setErrLevel"/>
+    <value style="element" name="CodeOrder" get-method="getCodeOrder" set-method="setCodeOrder" usage="optional"/>
+    <value style="element" name="ErrElementDesc" get-method="getErrElementDesc" set-method="setErrElementDesc" usage="optional"/>
+    <value style="element" name="CorrectValue" get-method="getCorrectValue" set-method="setCorrectValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcd:UncertaintyType" class="ru.acs.fts.schemas.album.reqcorrecteddata.UncertaintyType">
+    <collection get-method="getUncertDescriptionList" set-method="setUncertDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="UncertDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getBadDocumentList" set-method="setBadDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rcd:BadDocumentType" name="BadDocument"/>
+    </collection>
+  </mapping>
+</binding>

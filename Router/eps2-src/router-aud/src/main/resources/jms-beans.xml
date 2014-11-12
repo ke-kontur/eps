@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm-1.5.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+
+	
+	<!-- Подключаем файл с бинами JNDI для JMS -->
+	<import resource="sections/jms-jndi.xml" />
+	
+	<!-- Подключаем файл с бинами для JIBX -->
+	<import resource="sections/jibx.xml" />
+	
+	<!-- Подключаем файл с бинами для работы с конвертами -->
+	<import resource="sections/envelope-management.xml" />
+		
+	<!-- Бин для фабрики соединений -->
+	<bean id="audJmsRoutingConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory" >
+		<property name="targetConnectionFactory" ref="audJmsRoutingFactory" />
+	</bean>
+	
+	<!-- Шаблон для отправки сообщений -->
+	<bean id="audJmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
+		<property name="sessionTransacted" value="true" />
+		<property name="connectionFactory" ref="audJmsRoutingFactory" />
+		<property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+	</bean>
+	
+	<!-- Messaging Gateway -->
+	
+<!-- 	<bean id="messagingGateway" class="ru.acs.fts.aud.router.processing.transport.AudMessagingGatewayImpl"> -->
+	<bean id="messagingGateway" class="ru.acs.fts.eps2.engine.transport.gateway.out.MessagingGatewayImpl">
+		<property name="outgoingConnection"  ref="audJmsTemplate" /> 
+		<property name="predefinedQueues" >
+			<map>
+				<entry key="ErrorRecv" value-ref="audErrorQueue" />
+				<entry key="AUD.SERVER.ERRORS" value-ref="audErrorQueue" />
+			</map>
+		</property>
+	</bean>
+	
+	<!-- Диспетчеры сообщений -->
+	
+	<bean id="baseAudMessageDispatcher" class="ru.acs.fts.eps2.engine.transport.gateway.in.UniversalMessageDispatcher" >
+		<property name="errorRecvQueue" value="Error" />
+		<property name="messagingGateway" ref="messagingGateway" />
+		<property name="fatalErrorQueue" value="AUD.SERVER.ERRORS" />
+	</bean>
+	
+	<bean id="audMessageDispatcher" parent="baseAudMessageDispatcher" >
+		<property name="jobBatchContextFactory" ref="audJobBatchContextFactory" />
+		<property name="jobExecutor" ref="audJobExecutor" />
+    </bean>
+    
+	<!-- JMS Listener'ы -->
+	<bean id="audMessageListener" class="ru.acs.fts.eps2.engine.transport.gateway.in.SampleMessageListener">
+		<property name="dispatcher" ref="audMessageDispatcher" />
+	</bean>
+	
+	<!-- JMS контейнеры -->
+	<bean id="baseAudMessageListenerContainer" abstract="true"
+			class="org.springframework.jms.listener.DefaultMessageListenerContainer" >
+		
+		<property name="connectionFactory" ref="audJmsRoutingConnectionFactory" />
+		<property name="concurrentConsumers" value="1" />
+		<property name="maxConcurrentConsumers" value="10" />
+		<property name="idleTaskExecutionLimit" value="5" />
+		<property name="sessionTransacted" value="true" />
+		<property name="receiveTimeout" value="2000" />
+		<property name="transactionManager" ref="transactionManager" />
+		
+    </bean>
+    
+    <bean id="audMessageListenerContainer" parent="baseAudMessageListenerContainer" >
+		<property name="messageListener" ref="audMessageListener" />
+		<property name="destination" ref="audInputQueue" />
+	</bean>
+	
+	<!-- Определение очередей -->
+	<util:map id="queuesMap" map-class="java.util.Hashtable" >
+		<entry key="ERROR_QUEUE" value-ref="audErrorQueue" />
+		<entry key="OUTPUT_QUEUE" value-ref="audOutputQueue" />
+		<entry key="INPUT_QUEUE" value-ref="audInputQueue" />
+	</util:map>
+	
+	<bean id="messageSender" class="ru.acs.fts.aud.router.processing.helpers.MessageSender" >
+		<property name="queues" ref="queuesMap" />
+		<property name="messagingGateway" ref="messagingGateway" />
+		<property name="marshaller" ref="jibx" />
+	</bean>
+	
+</beans>

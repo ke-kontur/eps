@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<import resource="monitoring-settings.xml" />
+	<import resource="monitoring-hosts.xml" />
+	<import resource="monitoring-db.xml" />	
+	<import resource="monitoring-mq.xml" />
+	<import resource="monitoring-sys-services.xml" />
+	
+	<import resource="monitoring-mail.xml" />
+	<import resource="monitoring-jms.xml" />
+	<import resource="monitoring-message-processing.xml" />
+	<import resource="monitoring-eventLogs.xml" />	
+	
+	<import resource="monitoring-sign.xml" />
+
+    <import resource="monitoring-pop3.xml" />
+	
+	<bean id="monitoringService" class="ru.acs.monitoring.MonitoringServiceImpl">
+		<property name="monitoringProcesses">
+			<list>			
+				<ref bean="hostMonitoring" />
+				<ref bean="dbMonitoring" />
+				<ref bean="systemMonitoringProcess" />
+				<ref bean="servicesMonitoringProcess" />
+				<ref bean="mqMonitoringProcess" />
+				<ref bean="messageProcessingMonitoringProcess"/>
+				<ref bean="signatureMonitoringProcess"/>
+				<ref bean="eventLogMonitoring" />
+				<ref bean="pop3MonitoringProcess"/>
+			</list>
+		</property>			
+	</bean>
+
+    <bean id="eventLogMonitoring" class="ru.acs.monitoring.services.EventLogMonitoringProcess" />
+    <bean id="hostMonitoring" class="ru.acs.monitoring.services.HostMonitoringProcess" />
+	<bean id="dbMonitoring" class="ru.acs.monitoring.services.DBMonitoringProcess" />
+	<bean id="servicesMonitoringProcess" class="ru.acs.monitoring.services.ServicesMonitoringProcess"/>
+	<bean id="systemMonitoringProcess" class="ru.acs.monitoring.services.SystemMonitoringProcess"/>
+	<bean id="mqMonitoringProcess" class="ru.acs.monitoring.services.MQMonitoringProcess"/>
+	<bean id="messageProcessingMonitoringProcess" class="ru.acs.monitoring.services.MessageProcessingMonitoringProcess"/>
+	<bean id="signatureMonitoringProcess" class="ru.acs.monitoring.services.SignatureMonitoringProcess"/>
+	<bean id="pop3MonitoringProcess" class="ru.acs.monitoring.services.POP3MonitoringProcess"/>
+	
+	<bean id="logNotifier" class="ru.acs.monitoring.notification.LogNotifier" />
+
+
+	<bean name="OracleDataSource" abstract="true" destroy-method="close"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
+	</bean>
+	
+
+
+</beans>

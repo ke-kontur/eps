@@ -1,0 +1,6 @@
+<binding>
+  <namespace uri="urn:customs.ru:CompressedBody:1.0" default="elements" prefix="cb"/>
+  <mapping class="ru.acs.fts.schemas.envelope.Compressed" name="Compressed">
+    <value style="text" get-method="getCompressed" set-method="setCompressed"/>
+  </mapping>
+</binding>

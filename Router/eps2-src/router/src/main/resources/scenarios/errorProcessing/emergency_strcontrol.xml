@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-2.5.xsd" >
+
+	<bean id="emergencyStrControl" class="ru.acs.fts.eps2.engine.processing.JobBatch">
+		<property name="description" value="Батч для корректной обработки ошибки анмаршаллинга" />
+		<property name="preparedJobs">
+			<list>
+			
+				<!-- Сохраняем входящий конверт -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="saveIncomeEnvelope" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="needFlush" value="true" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>			
+			
+				<!-- CMN.00002 -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="callSubBatch" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="subBatch" value-ref="sendCMN00002" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<!-- Структурный контроль -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="structControlRequest" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map />
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="failUnmarshaller" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map />
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				
+
+			</list>
+		</property>
+	</bean>
+</beans>

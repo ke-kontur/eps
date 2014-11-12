@@ -1,0 +1,43 @@
+<binding xmlns:quc="urn:customs.ru:Information:RegistrationDocuments:QualificationCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:QualificationCertificate:5.4.0" default="elements" prefix="quc"/>
+  <mapping abstract="true" type-name="quc:QualificationCertificateType" class="ru.acs.fts.schemas.album.qualificationcertificate.QualificationCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="DateBirth" get-method="getDateBirth" set-method="setDateBirth" format="LocalDate.default"/>
+    <value style="element" name="DateIssueCertificate" get-method="getDateIssueCertificate" set-method="setDateIssueCertificate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" name="IdentityCard"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSignatureChairmanCommission" set-method="setSignatureChairmanCommission" name="SignatureChairmanCommission"/>
+    <collection get-method="getInfoLearningList" set-method="setInfoLearningList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="quc:InfoLearningType" name="InfoLearning"/>
+    </collection>
+    <structure map-as="quc:RegistrationNumberCertificateType" get-method="getRegistrationNumberCertificate" set-method="setRegistrationNumberCertificate" name="RegistrationNumberCertificate"/>
+    <structure map-as="quc:FormType" get-method="getForm" set-method="setForm" name="Form"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.qualificationcertificate.QualificationCertificateType" name="QualificationCertificate">
+    <structure map-as="quc:QualificationCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="quc:FormType" class="ru.acs.fts.schemas.album.qualificationcertificate.FormType">
+    <value style="element" name="FormSerial" get-method="getFormSerial" set-method="setFormSerial"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="quc:InfoLearningType" class="ru.acs.fts.schemas.album.qualificationcertificate.InfoLearningType">
+    <value style="element" name="StartPeriod" get-method="getStartPeriod" set-method="setStartPeriod" format="LocalDate.default"/>
+    <value style="element" name="EndPeriod" get-method="getEndPeriod" set-method="setEndPeriod" format="LocalDate.default"/>
+    <value style="element" name="NameOrganizaion" get-method="getNameOrganizaion" set-method="setNameOrganizaion"/>
+    <value style="element" name="NubmerLicenseOrganization" get-method="getNubmerLicenseOrganization" set-method="setNubmerLicenseOrganization"/>
+    <value style="element" name="MarkCustoms" get-method="getMarkCustoms" set-method="setMarkCustoms" usage="optional"/>
+    <collection get-method="getDocumentLearningList" set-method="setDocumentLearningList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="DocumentLearning"/>
+    </collection>
+    <collection get-method="getSignatureAuthorizedPersonList" set-method="setSignatureAuthorizedPersonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="SignatureAuthorizedPerson"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="quc:RegistrationNumberCertificateType" class="ru.acs.fts.schemas.album.qualificationcertificate.RegistrationNumberCertificateType">
+    <value style="element" name="NumberManagement" get-method="getNumberManagement" set-method="setNumberManagement"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+</binding>

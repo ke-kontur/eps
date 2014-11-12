@@ -1,0 +1,20 @@
+<binding xmlns:opc="urn:customs.ru:Information:SQDocuments:OilProductionConfirmation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:OilProductionConfirmation:5.4.0" default="elements" prefix="opc"/>
+  <mapping abstract="true" type-name="opc:OilProductionConfirmationType" class="ru.acs.fts.schemas.album.oilproductionconfirmation.OilProductionConfirmationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="StatusCode" get-method="getStatusCode" set-method="setStatusCode"/>
+    <value style="element" name="StatusComment" get-method="getStatusComment" set-method="setStatusComment" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getReceiver" set-method="setReceiver" name="Receiver"/>
+    <structure map-as="opc:ConsignmentInfoType" get-method="getConsignmentInfo" set-method="setConsignmentInfo" name="ConsignmentInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oilproductionconfirmation.OilProductionConfirmationType" name="OilProductionConfirmation">
+    <structure map-as="opc:OilProductionConfirmationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="opc:ConsignmentInfoType" class="ru.acs.fts.schemas.album.oilproductionconfirmation.ConsignmentInfoType">
+    <value style="element" name="OilDescription" get-method="getOilDescription" set-method="setOilDescription" usage="optional"/>
+    <value style="element" name="ProductionYear" get-method="getProductionYear" set-method="setProductionYear"/>
+    <value style="element" name="OilField" get-method="getOilField" set-method="setOilField"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getOilQuantity" set-method="setOilQuantity" name="OilQuantity"/>
+  </mapping>
+</binding>

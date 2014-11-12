@@ -1,0 +1,14 @@
+<binding xmlns:tsd="urn:customs.ru:Information:CustomsDocuments:TSDecision:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TSDecision:5.4.0" default="elements" prefix="tsd"/>
+  <mapping abstract="true" type-name="tsd:TSDecisionType" class="ru.acs.fts.schemas.album.tsdecision.TSDecisionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DecisionIndicator" get-method="getDecisionIndicator" set-method="setDecisionIndicator"/>
+    <value style="element" name="DecisionText" get-method="getDecisionText" set-method="setDecisionText" usage="optional"/>
+    <value style="element" name="DecisionDateTime" get-method="getDecisionDateTime" set-method="setDecisionDateTime"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.tsdecision.TSDecisionType" name="TSDecision">
+    <structure map-as="tsd:TSDecisionType"/>
+  </mapping>
+</binding>

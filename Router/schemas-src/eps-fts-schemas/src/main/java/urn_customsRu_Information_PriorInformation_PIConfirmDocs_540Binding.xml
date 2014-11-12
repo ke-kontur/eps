@@ -1,0 +1,23 @@
+<binding xmlns:rwcd="urn:customs.ru:Information:PriorInformation:PI_ConfirmDocs:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:PI_ConfirmDocs:5.4.0" default="elements" prefix="rwcd"/>
+  <mapping abstract="true" type-name="rwcd:PI_ConfirmDocsType" class="ru.acs.fts.schemas.album.pi_confirmdocs.PIConfirmDocsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime"/>
+    <collection get-method="getRecipDocumentList" set-method="setRecipDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="rwcd:RecipDocumentType" name="RecipDocument"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getDeclPerson" set-method="setDeclPerson" name="DeclPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.pi_confirmdocs.PIConfirmDocsType" name="PI_ConfirmDocs">
+    <structure map-as="rwcd:PI_ConfirmDocsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwcd:RecipDocumentType" class="ru.acs.fts.schemas.album.pi_confirmdocs.RecipDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="RecipDocumentID" get-method="getRecipDocumentID" set-method="setRecipDocumentID"/>
+    <value style="element" name="RecipDocDate" get-method="getRecipDocDate" set-method="setRecipDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RecipDate" get-method="getRecipDate" set-method="setRecipDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RecipTime" get-method="getRecipTime" set-method="setRecipTime" usage="optional"/>
+  </mapping>
+</binding>

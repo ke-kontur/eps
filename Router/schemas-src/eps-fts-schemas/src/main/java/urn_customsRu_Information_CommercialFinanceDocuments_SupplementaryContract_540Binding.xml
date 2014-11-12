@@ -1,0 +1,50 @@
+<binding xmlns:s_con="urn:customs.ru:Information:CommercialFinanceDocuments:SupplementaryContract:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:SupplementaryContract:5.4.0" default="elements" prefix="s_con"/>
+  <mapping abstract="true" type-name="s_con:SupplementaryContractType" class="ru.acs.fts.schemas.album.supplementarycontract.SupplementaryContractType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getContractRegistrationList" set-method="setContractRegistrationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:ContractRegistrationType" name="ContractRegistration"/>
+    </collection>
+    <structure map-as="catComFin_ru:ContractDescriptionType" get-method="getContractDescription" set-method="setContractDescription" usage="optional" name="ContractDescription"/>
+    <collection get-method="getSupContractDeliveryTermList" set-method="setSupContractDeliveryTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:ContractDeliveryTermsType" name="SupContractDeliveryTerms"/>
+    </collection>
+    <collection get-method="getContractSpecificationList" set-method="setContractSpecificationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="s_con:AddContractSpecificationType" name="ContractSpecification"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationWBankType" get-method="getRussianPerson" set-method="setRussianPerson" usage="optional" name="RussianPerson"/>
+    <structure map-as="cat_ru:OrganizationWBankType" get-method="getForeignPerson" set-method="setForeignPerson" usage="optional" name="ForeignPerson"/>
+    <collection get-method="getContractSignedPersonList" set-method="setContractSignedPersonList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="ContractSignedPerson"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.supplementarycontract.SupplementaryContractType" name="SupplementaryContract">
+    <structure map-as="s_con:SupplementaryContractType"/>
+  </mapping>
+  <mapping abstract="true" type-name="s_con:AddContractSpecificationType" class="ru.acs.fts.schemas.album.supplementarycontract.AddContractSpecificationType">
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID"/>
+    <collection get-method="getAddSpecificationGoodList" set-method="setAddSpecificationGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="s_con:AddSpecificationGoodsType" name="AddSpecificationGoods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="s_con:AddSpecificationGoodsType" class="ru.acs.fts.schemas.album.supplementarycontract.AddSpecificationGoodsType">
+    <value style="element" name="GoodMarking" get-method="getGoodMarking" set-method="setGoodMarking" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="Price" get-method="getPrice" set-method="setPrice" usage="optional"/>
+    <value style="element" name="GCost" get-method="getGCost" set-method="setGCost" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <structure map-as="catComFin_ru:GoodsWeightType" get-method="getGoodsWeight" set-method="setGoodsWeight" usage="optional" name="GoodsWeight"/>
+    <structure map-as="catComFin_ru:GoodsPlaceType" get-method="getGoodsPlace" set-method="setGoodsPlace" usage="optional" name="GoodsPlace"/>
+    <structure map-as="catComFin_ru:AdditionalGoodsDescriptionType" get-method="getAdditionalGoodsDescription" set-method="setAdditionalGoodsDescription" usage="optional" name="AdditionalGoodsDescription"/>
+  </mapping>
+</binding>

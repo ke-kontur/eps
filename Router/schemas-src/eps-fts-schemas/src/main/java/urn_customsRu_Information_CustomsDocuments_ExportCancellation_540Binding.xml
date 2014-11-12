@@ -1,0 +1,18 @@
+<binding xmlns:ExCnc="urn:customs.ru:Information:CustomsDocuments:ExportCancellation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ExportCancellation:5.4.0" default="elements" prefix="ExCnc"/>
+  <mapping abstract="true" type-name="ExCnc:ExportCancellationType" class="ru.acs.fts.schemas.album.exportcancellation.ExportCancellationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ExportCancelDate" get-method="getExportCancelDate" set-method="setExportCancelDate" format="LocalDate.default"/>
+    <value style="element" name="AddInfo" get-method="getAddInfo" set-method="setAddInfo" usage="optional"/>
+    <value style="element" name="ProcessNumber" get-method="getProcessNumber" set-method="setProcessNumber" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsOffice" set-method="setCustomsOffice" name="CustomsOffice"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsOfficial" set-method="setCustomsOfficial" name="CustomsOfficial"/>
+    <collection get-method="getShipmentInfoList" set-method="setShipmentInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:ShipmentBaseInfoType" name="ShipmentInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID" usage="optional"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.exportcancellation.ExportCancellationType" name="ExportCancellation">
+    <structure map-as="ExCnc:ExportCancellationType"/>
+  </mapping>
+</binding>

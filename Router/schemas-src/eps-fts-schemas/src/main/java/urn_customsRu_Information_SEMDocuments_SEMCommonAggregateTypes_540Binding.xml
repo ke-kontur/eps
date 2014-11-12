@@ -1,0 +1,97 @@
+<binding xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0" default="elements" prefix="sem_cat"/>
+  <mapping abstract="true" type-name="sem_cat:BaseServiceRequestType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.BaseServiceRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="AccelerationIndicator" get-method="getAccelerationIndicator" set-method="setAccelerationIndicator" usage="optional"/>
+    <value style="element" name="Direction" get-method="getDirection" set-method="setDirection" usage="optional"/>
+    <collection get-method="getCalculationSettingList" set-method="setCalculationSettingList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:SettingsType" name="CalculationSettings"/>
+    </collection>
+    <structure map-as="sem_cat:InConsParticipantType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="sem_cat:InConsParticipantType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="sem_cat:InParticipantType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <structure map-as="sem_cat:InParticipantType" get-method="getFinancialAdjustingResponsiblePerson" set-method="setFinancialAdjustingResponsiblePerson" usage="optional" name="FinancialAdjustingResponsiblePerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGtdRegNumber" set-method="setGtdRegNumber" name="GtdRegNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:GoodsType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.GoodsType">
+    <structure map-as="catESAD_cu:GoodsItemBaseType"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="AdditionalSign" get-method="getAdditionalSign" set-method="setAdditionalSign" usage="optional"/>
+    <value style="element" name="IntellectPropertySign" get-method="getIntellectPropertySign" set-method="setIntellectPropertySign" usage="optional"/>
+    <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+    <collection get-method="getPresentedDocumentModeCodeList" set-method="setPresentedDocumentModeCodeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PresentedDocumentModeCode" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Procedure" get-method="getProcedure" set-method="setProcedure" usage="optional"/>
+    <collection get-method="getGoodsGroupDescriptionList" set-method="setGoodsGroupDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupDescriptionType" name="GoodsGroupDescription"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:InConsParticipantType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.InConsParticipantType">
+    <structure map-as="sem_cat:InParticipantType"/>
+    <value style="element" name="BowelsINN" get-method="getBowelsINN" set-method="setBowelsINN" usage="optional"/>
+    <value style="element" name="BowelsOKPO" get-method="getBowelsOKPO" set-method="setBowelsOKPO" usage="optional"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:InParticipantType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.InParticipantType">
+    <structure map-as="catESAD_ru:ESADOrganizationInType"/>
+    <structure map-as="catESAD_ru:BranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:KTsType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.KTsType">
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <value style="element" name="KTID" get-method="getKTID" set-method="setKTID"/>
+    <value style="element" name="Requisites" get-method="getRequisites" set-method="setRequisites" usage="optional"/>
+    <value style="element" name="Relevance" get-method="getRelevance" set-method="setRelevance"/>
+    <collection get-method="getDescriptionMarkupList" set-method="setDescriptionMarkupList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="DescriptionMarkup"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:MarkUpType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.MarkUpType">
+    <value style="element" name="Delimiter" get-method="getDelimiter" set-method="setDelimiter" usage="optional"/>
+    <value style="element" name="Word" get-method="getWord" set-method="setWord" usage="optional"/>
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:OISsType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.OISsType">
+    <value style="element" name="OISID" get-method="getOISID" set-method="setOISID"/>
+    <value style="element" name="Relevance" get-method="getRelevance" set-method="setRelevance"/>
+    <value style="element" name="MessageR" get-method="getMessageR" set-method="setMessageR" usage="optional"/>
+    <collection get-method="getBrandOwnerList" set-method="setBrandOwnerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="BrandOwner"/>
+    </collection>
+    <collection get-method="getOISDescriptionMarkedList" set-method="setOISDescriptionMarkedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="OISDescriptionMarked"/>
+    </collection>
+    <collection get-method="getTradeMarkMarkedList" set-method="setTradeMarkMarkedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="TradeMarkMarked"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:ResultGoodsType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.ResultGoodsType">
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <collection get-method="getGoodsDescriptionMarkupList" set-method="setGoodsDescriptionMarkupList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="GoodsDescriptionMarkup"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:RiskProfileDescriptionType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.RiskProfileDescriptionType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:RiskProfileRegNumberType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.RiskProfileRegNumberType">
+    <value style="element" name="DivisionCode" get-method="getDivisionCode" set-method="setDivisionCode"/>
+    <value style="element" name="DocumentSignCode" get-method="getDocumentSignCode" set-method="setDocumentSignCode"/>
+    <value style="element" name="RegistryDate" get-method="getRegistryDate" set-method="setRegistryDate" format="LocalDate.default"/>
+    <value style="element" name="SequenceNumber" get-method="getSequenceNumber" set-method="setSequenceNumber"/>
+    <value style="element" name="VersionNumber" get-method="getVersionNumber" set-method="setVersionNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:RiskProfilesType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.RiskProfilesType">
+    <structure map-as="sem_cat:RiskProfileRegNumberType" get-method="getRiskProfileRegNumber" set-method="setRiskProfileRegNumber" name="RiskProfileRegNumber"/>
+    <collection get-method="getRiskProfileDescriptionList" set-method="setRiskProfileDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:RiskProfileDescriptionType" name="RiskProfileDescription"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sem_cat:SettingsType" class="ru.acs.fts.schemas.album.semcommonaggregatetypescust.SettingsType">
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+    <value style="element" name="Value" get-method="getValue" set-method="setValue" usage="optional"/>
+    <value style="element" name="Type" get-method="getType" set-method="setType" usage="optional"/>
+  </mapping>
+</binding>

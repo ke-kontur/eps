@@ -1,0 +1,522 @@
+<binding xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" default="elements" prefix="catESAD_cu"/>
+  <mapping abstract="true" type-name="catESAD_cu:AutomobileType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.AutomobileType">
+    <structure map-as="cat_ru:AutomobileBaseType"/>
+    <value style="element" name="IdentityCardNumber" get-method="getIdentityCardNumber" set-method="setIdentityCardNumber" usage="optional"/>
+    <value style="element" name="CarCost" get-method="getCarCost" set-method="setCarCost" usage="optional"/>
+    <value style="element" name="PowerWeightQuanity" get-method="getPowerWeightQuanity" set-method="setPowerWeightQuanity" usage="optional"/>
+    <value style="element" name="PassedKilometerQuantity" get-method="getPassedKilometerQuantity" set-method="setPassedKilometerQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUConsigmentType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUConsigmentType">
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="RBDispatchCountryCode" get-method="getRBDispatchCountryCode" set-method="setRBDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DispatchCountryName" get-method="getDispatchCountryName" set-method="setDispatchCountryName" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryName" get-method="getDestinationCountryName" set-method="setDestinationCountryName" usage="optional"/>
+    <value style="element" name="RBDestinationCountryCode" get-method="getRBDestinationCountryCode" set-method="setRBDestinationCountryCode" usage="optional"/>
+    <collection get-method="getBorderCustomsOfficeList" set-method="setBorderCustomsOfficeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUCustomsType" name="BorderCustomsOffice"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUCustomsPaymentCalculationType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUCustomsPaymentCalculationType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount" usage="optional"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="TaxBase" get-method="getTaxBase" set-method="setTaxBase" usage="optional"/>
+    <value style="element" name="TaxBaseCurrencyCode" get-method="getTaxBaseCurrencyCode" set-method="setTaxBaseCurrencyCode" usage="optional"/>
+    <value style="element" name="Rate" get-method="getRate" set-method="setRate" usage="optional"/>
+    <value style="element" name="RateTypeCode" get-method="getRateTypeCode" set-method="setRateTypeCode" usage="optional"/>
+    <value style="element" name="RateCurrencyCode" get-method="getRateCurrencyCode" set-method="setRateCurrencyCode" usage="optional"/>
+    <value style="element" name="RateTNVEDQualifierCode" get-method="getRateTNVEDQualifierCode" set-method="setRateTNVEDQualifierCode" usage="optional"/>
+    <value style="element" name="WeightingFactor" get-method="getWeightingFactor" set-method="setWeightingFactor" usage="optional"/>
+    <value style="element" name="ComparisonOperationsSign" get-method="getComparisonOperationsSign" set-method="setComparisonOperationsSign" usage="optional"/>
+    <value style="element" name="Rate2" get-method="getRate2" set-method="setRate2" usage="optional"/>
+    <value style="element" name="RateTypeCode2" get-method="getRateTypeCode2" set-method="setRateTypeCode2" usage="optional"/>
+    <value style="element" name="RateCurrencyCode2" get-method="getRateCurrencyCode2" set-method="setRateCurrencyCode2" usage="optional"/>
+    <value style="element" name="RateTNVEDQualifierCode2" get-method="getRateTNVEDQualifierCode2" set-method="setRateTNVEDQualifierCode2" usage="optional"/>
+    <value style="element" name="WeightingFactor2" get-method="getWeightingFactor2" set-method="setWeightingFactor2" usage="optional"/>
+    <value style="element" name="OperationsSign" get-method="getOperationsSign" set-method="setOperationsSign" usage="optional"/>
+    <value style="element" name="Rate3" get-method="getRate3" set-method="setRate3" usage="optional"/>
+    <value style="element" name="RateTypeCode3" get-method="getRateTypeCode3" set-method="setRateTypeCode3" usage="optional"/>
+    <value style="element" name="RateCurrencyCode3" get-method="getRateCurrencyCode3" set-method="setRateCurrencyCode3" usage="optional"/>
+    <value style="element" name="RateTNVEDQualifierCode3" get-method="getRateTNVEDQualifierCode3" set-method="setRateTNVEDQualifierCode3" usage="optional"/>
+    <value style="element" name="WeightingFactor3" get-method="getWeightingFactor3" set-method="setWeightingFactor3" usage="optional"/>
+    <value style="element" name="ComparisonResult" get-method="getComparisonResult" set-method="setComparisonResult" usage="optional"/>
+    <value style="element" name="RateUseDate" get-method="getRateUseDate" set-method="setRateUseDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PaymentCode" get-method="getPaymentCode" set-method="setPaymentCode" usage="optional"/>
+    <value style="element" name="NumberDays" get-method="getNumberDays" set-method="setNumberDays" usage="optional"/>
+    <value style="element" name="NumberStages" get-method="getNumberStages" set-method="setNumberStages" usage="optional"/>
+    <value style="element" name="NumberMonths" get-method="getNumberMonths" set-method="setNumberMonths" usage="optional"/>
+    <value style="element" name="TariffRate" get-method="getTariffRate" set-method="setTariffRate" usage="optional"/>
+    <value style="element" name="LineNumber" get-method="getLineNumber" set-method="setLineNumber" usage="optional"/>
+    <value style="element" name="NumberGroup" get-method="getNumberGroup" set-method="setNumberGroup" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUDelayPaymentsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUDelayPaymentsType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="DelayDocumentNumber" get-method="getDelayDocumentNumber" set-method="setDelayDocumentNumber"/>
+    <value style="element" name="DelayDocumentDate" get-method="getDelayDocumentDate" set-method="setDelayDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DelayDate" get-method="getDelayDate" set-method="setDelayDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUESADCustomsRepresCertificateType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADCustomsRepresCertificateType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUESADCustomsRepresentativeType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADCustomsRepresentativeType">
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractRepresDecl" set-method="setContractRepresDecl" name="ContractRepresDecl"/>
+    <structure map-as="catESAD_cu:CUESADCustomsRepresCertificateType" get-method="getCustomsRepresCertificate" set-method="setCustomsRepresCertificate" name="CustomsRepresCertificate"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="cat_ru:RFOrganizationFeaturesType" test-method="ifRFOrganizationFeatures" get-method="getRFOrganizationFeatures" set-method="setRFOrganizationFeatures" usage="optional" name="RFOrganizationFeatures"/>
+      <structure map-as="cat_ru:RKOrganizationFeaturesType" test-method="ifRKOrganizationFeatures" get-method="getRKOrganizationFeatures" set-method="setRKOrganizationFeatures" usage="optional" name="RKOrganizationFeatures"/>
+      <structure map-as="cat_ru:RBOrganizationFeaturesType" test-method="ifRBOrganizationFeatures" get-method="getRBOrganizationFeatures" set-method="setRBOrganizationFeatures" usage="optional" name="RBOrganizationFeatures"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUESADGoodsItemType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADGoodsItemType">
+    <structure map-as="catESAD_cu:GoodsItemBaseType"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GoodsClassificationCode" get-method="getGoodsClassificationCode" set-method="setGoodsClassificationCode" usage="optional"/>
+    <value style="element" name="AdditionalSign" get-method="getAdditionalSign" set-method="setAdditionalSign" usage="optional"/>
+    <value style="element" name="IntellectPropertySign" get-method="getIntellectPropertySign" set-method="setIntellectPropertySign" usage="optional"/>
+    <collection get-method="getRestrictionSignList" set-method="setRestrictionSignList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="RestrictionSign" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="BeginPeriodDate" get-method="getBeginPeriodDate" set-method="setBeginPeriodDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndPeriodDate" get-method="getEndPeriodDate" set-method="setEndPeriodDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="CustomsCostCorrectMethod" get-method="getCustomsCostCorrectMethod" set-method="setCustomsCostCorrectMethod" usage="optional"/>
+    <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+    <value style="element" name="DeliveryTime" get-method="getDeliveryTime" set-method="setDeliveryTime" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DeliveryTimeEND" get-method="getDeliveryTimeEND" set-method="setDeliveryTimeEND" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AdditionalSheetCount" get-method="getAdditionalSheetCount" set-method="setAdditionalSheetCount" usage="optional"/>
+    <value style="element" name="QuantityFact" get-method="getQuantityFact" set-method="setQuantityFact" usage="optional"/>
+    <value style="element" name="OilField" get-method="getOilField" set-method="setOilField" usage="optional"/>
+    <value style="element" name="TNVEDContract" get-method="getTNVEDContract" set-method="setTNVEDContract" usage="optional"/>
+    <collection get-method="getCUESADDeliveryTermList" set-method="setCUESADDeliveryTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DeliveryTermsType" name="CUESADDeliveryTerms"/>
+    </collection>
+    <collection get-method="getGoodsGroupDescriptionList" set-method="setGoodsGroupDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupDescriptionType" name="GoodsGroupDescription"/>
+    </collection>
+    <structure map-as="catESAD_cu:CUPreferenciiType" get-method="getPreferencii" set-method="setPreferencii" usage="optional" name="Preferencii"/>
+    <collection get-method="getGoodsSTZList" set-method="setGoodsSTZList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsSTZType" name="GoodsSTZ"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUESADGoodsShipmentType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADGoodsShipmentType">
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="SpecificationNumber" get-method="getSpecificationNumber" set-method="setSpecificationNumber" usage="optional"/>
+    <value style="element" name="SpecificationListNumber" get-method="getSpecificationListNumber" set-method="setSpecificationListNumber" usage="optional"/>
+    <value style="element" name="TotalGoodsNumber" get-method="getTotalGoodsNumber" set-method="setTotalGoodsNumber"/>
+    <value style="element" name="TotalPackageNumber" get-method="getTotalPackageNumber" set-method="setTotalPackageNumber" usage="optional"/>
+    <value style="element" name="TotalSheetNumber" get-method="getTotalSheetNumber" set-method="setTotalSheetNumber" usage="optional"/>
+    <value style="element" name="TotalCustCost" get-method="getTotalCustCost" set-method="setTotalCustCost" usage="optional"/>
+    <value style="element" name="CustCostCurrencyCode" get-method="getCustCostCurrencyCode" set-method="setCustCostCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUESADMainContractTermsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADMainContractTermsType">
+    <structure map-as="catESAD_cu:ContractCostType"/>
+    <value style="element" name="TradeCountryCode" get-method="getTradeCountryCode" set-method="setTradeCountryCode" usage="optional"/>
+    <value style="element" name="RBCountryCode" get-method="getRBCountryCode" set-method="setRBCountryCode" usage="optional"/>
+    <value style="element" name="DealFeatureCode" get-method="getDealFeatureCode" set-method="setDealFeatureCode" usage="optional"/>
+    <value style="element" name="DealNatureCode" get-method="getDealNatureCode" set-method="setDealNatureCode" usage="optional"/>
+    <structure map-as="cat_ru:DeliveryTermsType" get-method="getCUESADDeliveryTerms" set-method="setCUESADDeliveryTerms" usage="optional" name="CUESADDeliveryTerms"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUESADPresentedDocumentsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADPresentedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+    <value style="element" name="DocumentBeginActionsDate" get-method="getDocumentBeginActionsDate" set-method="setDocumentBeginActionsDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentEndActionsDate" get-method="getDocumentEndActionsDate" set-method="setDocumentEndActionsDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PresentingLackingDate" get-method="getPresentingLackingDate" set-method="setPresentingLackingDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TemporaryImportCode" get-method="getTemporaryImportCode" set-method="setTemporaryImportCode" usage="optional"/>
+    <value style="element" name="TemporaryStorageImportDate" get-method="getTemporaryStorageImportDate" set-method="setTemporaryStorageImportDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CustomsPaymentModeCodeType" get-method="getCustomsPaymentModeCodeType" set-method="setCustomsPaymentModeCodeType" usage="optional"/>
+    <value style="element" name="SupplyStatus" get-method="getSupplyStatus" set-method="setSupplyStatus" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="SpecialSimplifiedCode" get-method="getSpecialSimplifiedCode" set-method="setSpecialSimplifiedCode" usage="optional"/>
+    <value style="element" name="TotalDocuments" get-method="getTotalDocuments" set-method="setTotalDocuments" usage="optional"/>
+    <value style="element" name="PreferenciiCountryCode" get-method="getPreferenciiCountryCode" set-method="setPreferenciiCountryCode" usage="optional"/>
+    <value style="element" name="PreferenciiDocID" get-method="getPreferenciiDocID" set-method="setPreferenciiDocID" usage="optional"/>
+    <value style="element" name="ProcessingGoodsCost" get-method="getProcessingGoodsCost" set-method="setProcessingGoodsCost" usage="optional"/>
+    <structure map-as="catESAD_cu:LicenseGoodsType" get-method="getLicenseGoods" set-method="setLicenseGoods" usage="optional" name="LicenseGoods"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUGoodsLocationPlaceType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGoodsLocationPlaceType">
+    <value style="element" name="NumberCustomsZone" get-method="getNumberCustomsZone" set-method="setNumberCustomsZone"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUGuaranteeType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGuaranteeType">
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="UNP" get-method="getUNP" set-method="setUNP" usage="optional"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUMarkExcisableGoodsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUMarkExcisableGoodsType">
+    <collection get-method="getSeryList" set-method="setSeryList" create-type="java.util.ArrayList">
+      <value style="element" name="Series" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber" usage="optional"/>
+    <collection get-method="getQuantityMarkList" set-method="setQuantityMarkList" create-type="java.util.ArrayList">
+      <value style="element" name="QuantityMark" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUPrecedingDocumentType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUPrecedingDocumentType">
+    <structure map-as="catESAD_cu:PrecedingDocumentType"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+    <value style="element" name="AddNumberPart" get-method="getAddNumberPart" set-method="setAddNumberPart" usage="optional"/>
+    <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost" usage="optional"/>
+    <value style="element" name="NetWeight" get-method="getNetWeight" set-method="setNetWeight" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUPreferenciiType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUPreferenciiType">
+    <value style="element" name="CustomsTax" get-method="getCustomsTax" set-method="setCustomsTax"/>
+    <value style="element" name="CustomsDuty" get-method="getCustomsDuty" set-method="setCustomsDuty"/>
+    <value style="element" name="Excise" get-method="getExcise" set-method="setExcise"/>
+    <value style="element" name="Rate" get-method="getRate" set-method="setRate"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUPresentedDocumentsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUPresentedDocumentsType">
+    <structure map-as="catESAD_cu:CUESADPresentedDocumentsType"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+    <value style="element" name="TIRHolderID" get-method="getTIRHolderID" set-method="setTIRHolderID" usage="optional"/>
+    <value style="element" name="RegNumberDocument" get-method="getRegNumberDocument" set-method="setRegNumberDocument" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CUTransportType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUTransportType">
+    <value style="element" name="TransporKind" get-method="getTransporKind" set-method="setTransporKind"/>
+    <collection get-method="getTransporIdentifierList" set-method="setTransporIdentifierList" create-type="java.util.ArrayList">
+      <value style="element" name="TransporIdentifier" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:CU_ElectricalEnergyType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUElectricalEnergyType">
+    <value style="element" name="ElectricalEnergyQuantity" get-method="getElectricalEnergyQuantity" set-method="setElectricalEnergyQuantity"/>
+    <value style="element" name="QualifierCode" get-method="getQualifierCode" set-method="setQualifierCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ComponentDescriptionType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ComponentDescriptionType">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="KGWeight" get-method="getKGWeight" set-method="setKGWeight" usage="optional"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="InvoiceCurrencyCode" get-method="getInvoiceCurrencyCode" set-method="setInvoiceCurrencyCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ComponentsListType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ComponentsListType">
+    <collection get-method="getMechanismUnitList" set-method="setMechanismUnitList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:MechanismUnitType" name="MechanismUnit"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ContainerNumberType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ContainerNumberType">
+    <value style="element" name="ContainerIdentificaror" get-method="getContainerIdentificaror" set-method="setContainerIdentificaror"/>
+    <value style="element" name="FullIndicator" get-method="getFullIndicator" set-method="setFullIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ContractCostType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ContractCostType">
+    <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyQuantity" get-method="getCurrencyQuantity" set-method="setCurrencyQuantity" usage="optional"/>
+    <value style="element" name="ContractCurrencyRate" get-method="getContractCurrencyRate" set-method="setContractCurrencyRate" usage="optional"/>
+    <value style="element" name="TotalInvoiceAmount" get-method="getTotalInvoiceAmount" set-method="setTotalInvoiceAmount" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADCommonOfficialMarkType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADCommonOfficialMarkType">
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <value style="element" name="StageMarkIdentifier" get-method="getStageMarkIdentifier" set-method="setStageMarkIdentifier"/>
+    <value style="element" name="NoteMarkIdentifier" get-method="getNoteMarkIdentifier" set-method="setNoteMarkIdentifier"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode" usage="optional"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription" usage="optional"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf" usage="optional"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount" usage="optional"/>
+    <value style="element" name="PaymentTypeCode" get-method="getPaymentTypeCode" set-method="setPaymentTypeCode" usage="optional"/>
+    <value style="element" name="PostponementProcent" get-method="getPostponementProcent" set-method="setPostponementProcent" usage="optional"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="CurrencyName" get-method="getCurrencyName" set-method="setCurrencyName" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="GoodsDevisionDate" get-method="getGoodsDevisionDate" set-method="setGoodsDevisionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="GoodsDevisionTime" get-method="getGoodsDevisionTime" set-method="setGoodsDevisionTime" usage="optional"/>
+    <value style="element" name="Deadline" get-method="getDeadline" set-method="setDeadline" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="CustomsActionDate" get-method="getCustomsActionDate" set-method="setCustomsActionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentIndicator" get-method="getDocumentIndicator" set-method="setDocumentIndicator" usage="optional"/>
+    <value style="element" name="DeadlineMonth" get-method="getDeadlineMonth" set-method="setDeadlineMonth" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentInfo" set-method="setDocumentInfo" usage="optional" name="DocumentInfo"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getCommonMarkOrganization" set-method="setCommonMarkOrganization" usage="optional" name="CommonMarkOrganization"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADConsigmentType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADConsigmentType">
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="RBDispatchCountryCode" get-method="getRBDispatchCountryCode" set-method="setRBDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DispatchCountryName" get-method="getDispatchCountryName" set-method="setDispatchCountryName" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryName" get-method="getDestinationCountryName" set-method="setDestinationCountryName" usage="optional"/>
+    <value style="element" name="RBDestinationCountryCode" get-method="getRBDestinationCountryCode" set-method="setRBDestinationCountryCode" usage="optional"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getDeliveryCustomsOffice" set-method="setDeliveryCustomsOffice" usage="optional" name="DeliveryCustomsOffice"/>
+    <collection get-method="getBorderCustomsOfficeList" set-method="setBorderCustomsOfficeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUCustomsType" name="BorderCustomsOffice"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADContainerType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADContainerType">
+    <value style="element" name="ContainerQuantity" get-method="getContainerQuantity" set-method="setContainerQuantity" usage="optional"/>
+    <value style="element" name="ContainerKind" get-method="getContainerKind" set-method="setContainerKind" usage="optional"/>
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ContainerNumberType" name="ContainerNumber"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADContractListType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADContractListType">
+    <value style="element" name="DealPassportNumber" get-method="getDealPassportNumber" set-method="setDealPassportNumber"/>
+    <value style="element" name="ContractNumber" get-method="getContractNumber" set-method="setContractNumber" usage="optional"/>
+    <value style="element" name="ContractDate" get-method="getContractDate" set-method="setContractDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName" usage="optional"/>
+    <collection get-method="getSupplyInformationList" set-method="setSupplyInformationList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:SupplyInformationsType" name="SupplyInformations"/>
+    </collection>
+    <collection get-method="getAdditionalContractList" set-method="setAdditionalContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="AdditionalContract"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADCurrencyQuotaType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADCurrencyQuotaType">
+    <value style="element" name="QuotaCurrencyQuantity" get-method="getQuotaCurrencyQuantity" set-method="setQuotaCurrencyQuantity"/>
+    <value style="element" name="QuotaCurrencyCode" get-method="getQuotaCurrencyCode" set-method="setQuotaCurrencyCode"/>
+    <value style="element" name="QuotaCurrencyName" get-method="getQuotaCurrencyName" set-method="setQuotaCurrencyName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADCustomsProcedureType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADCustomsProcedureType">
+    <value style="element" name="MainCustomsModeCode" get-method="getMainCustomsModeCode" set-method="setMainCustomsModeCode"/>
+    <value style="element" name="PrecedingCustomsModeCode" get-method="getPrecedingCustomsModeCode" set-method="setPrecedingCustomsModeCode"/>
+    <value style="element" name="GoodsTransferFeature" get-method="getGoodsTransferFeature" set-method="setGoodsTransferFeature"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADDecisionType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADDecisionType">
+    <value style="element" name="DecisionCode" get-method="getDecisionCode" set-method="setDecisionCode" usage="optional"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf" usage="optional"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+    <value style="element" name="Foundation" get-method="getFoundation" set-method="setFoundation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADExciseType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADExciseType">
+    <value style="element" name="ExciseSerieses" get-method="getExciseSerieses" set-method="setExciseSerieses" usage="optional"/>
+    <value style="element" name="ExciseFirstNumber" get-method="getExciseFirstNumber" set-method="setExciseFirstNumber" usage="optional"/>
+    <value style="element" name="ExciseLastNumber" get-method="getExciseLastNumber" set-method="setExciseLastNumber" usage="optional"/>
+    <value style="element" name="ExciseQuantity" get-method="getExciseQuantity" set-method="setExciseQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADFilledPersonType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="QualificationCertificate" get-method="getQualificationCertificate" set-method="setQualificationCertificate" usage="optional"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritesDocument" set-method="setAuthoritesDocument" usage="optional" name="AuthoritesDocument"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:ContactType" get-method="getContact" set-method="setContact" usage="optional" name="Contact"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADGoodsOfficialMarkType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsOfficialMarkType">
+    <value style="element" name="StageMarkIdentifier" get-method="getStageMarkIdentifier" set-method="setStageMarkIdentifier"/>
+    <value style="element" name="NoteMarkIdentifier" get-method="getNoteMarkIdentifier" set-method="setNoteMarkIdentifier"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode" usage="optional"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription" usage="optional"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="ReqCompletionDate" get-method="getReqCompletionDate" set-method="setReqCompletionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ReqCompletionTime" get-method="getReqCompletionTime" set-method="setReqCompletionTime" usage="optional"/>
+    <value style="element" name="DocumentIndicator" get-method="getDocumentIndicator" set-method="setDocumentIndicator" usage="optional"/>
+    <value style="element" name="Deadline" get-method="getDeadline" set-method="setDeadline" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DeadlineMonth" get-method="getDeadlineMonth" set-method="setDeadlineMonth" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADGoodsPackagingType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsPackagingType">
+    <value style="element" name="PakageQuantity" get-method="getPakageQuantity" set-method="setPakageQuantity" usage="optional"/>
+    <value style="element" name="PakageTypeCode" get-method="getPakageTypeCode" set-method="setPakageTypeCode" usage="optional"/>
+    <value style="element" name="PakagePartQuantity" get-method="getPakagePartQuantity" set-method="setPakagePartQuantity" usage="optional"/>
+    <value style="element" name="RBCargoKind" get-method="getRBCargoKind" set-method="setRBCargoKind" usage="optional"/>
+    <value style="element" name="PackageCode" get-method="getPackageCode" set-method="setPackageCode" usage="optional"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:PackingInformationType" name="PackingInformation"/>
+    </collection>
+    <collection get-method="getPalleteInformationList" set-method="setPalleteInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:PalleteInformationType" name="PalleteInformation"/>
+    </collection>
+    <collection get-method="getUnitPackInfoList" set-method="setUnitPackInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:PackingInformationType" name="UnitPackInfo"/>
+    </collection>
+    <collection get-method="getCargoInfoList" set-method="setCargoInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:PackingInformationType" name="CargoInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADGoodsQuotaType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsQuotaType">
+    <collection get-method="getESADProductQuantityQuotaList" set-method="setESADProductQuantityQuotaList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADProductQuantityQuotaType" name="ESADProductQuantityQuota"/>
+    </collection>
+    <structure map-as="catESAD_cu:ESADCurrencyQuotaType" get-method="getESADCurrencyQuota" set-method="setESADCurrencyQuota" usage="optional" name="ESADCurrencyQuota"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADProductQuantityQuotaType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADProductQuantityQuotaType">
+    <value style="element" name="QuotaQuantity" get-method="getQuotaQuantity" set-method="setQuotaQuantity"/>
+    <value style="element" name="QuotaMeasureUnitQualifierCode" get-method="getQuotaMeasureUnitQualifierCode" set-method="setQuotaMeasureUnitQualifierCode"/>
+    <value style="element" name="QuotaMeasurementName" get-method="getQuotaMeasurementName" set-method="setQuotaMeasurementName"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADReloadContainerType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADReloadContainerType">
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerNumber" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADReloadingInfoType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADReloadingInfoType">
+    <value style="element" name="ReloadCountryCode" get-method="getReloadCountryCode" set-method="setReloadCountryCode" usage="optional"/>
+    <value style="element" name="ReloadCountryName" get-method="getReloadCountryName" set-method="setReloadCountryName" usage="optional"/>
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+    <collection get-method="getReloadingTransportMeanList" set-method="setReloadingTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="ReloadingTransportMeans"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getReloadingCustomsOffice" set-method="setReloadingCustomsOffice" usage="optional" name="ReloadingCustomsOffice"/>
+    <structure map-as="catESAD_cu:ESADReloadContainerType" get-method="getReloadContainer" set-method="setReloadContainer" usage="optional" name="ReloadContainer"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ESADout_CUCustomsPaymentType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADoutCUCustomsPaymentType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:GoodsGroupDescriptionType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupDescriptionType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RKTNVED" get-method="getRKTNVED" set-method="setRKTNVED" usage="optional"/>
+    <collection get-method="getGoodsGroupInformationList" set-method="setGoodsGroupInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupInformationType" name="GoodsGroupInformation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:GoodsGroupInformationType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupInformationType">
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+    <value style="element" name="TradeMark" get-method="getTradeMark" set-method="setTradeMark" usage="optional"/>
+    <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+    <value style="element" name="GoodsModel" get-method="getGoodsModel" set-method="setGoodsModel" usage="optional"/>
+    <value style="element" name="GoodsMarking" get-method="getGoodsMarking" set-method="setGoodsMarking" usage="optional"/>
+    <value style="element" name="GoodsStandard" get-method="getGoodsStandard" set-method="setGoodsStandard" usage="optional"/>
+    <value style="element" name="GoodsSort" get-method="getGoodsSort" set-method="setGoodsSort" usage="optional"/>
+    <value style="element" name="WoodSortiment" get-method="getWoodSortiment" set-method="setWoodSortiment" usage="optional"/>
+    <value style="element" name="WoodKind" get-method="getWoodKind" set-method="setWoodKind" usage="optional"/>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+    <value style="element" name="DateIssue" get-method="getDateIssue" set-method="setDateIssue" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getSerialNumberList" set-method="setSerialNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SerialNumber" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsGroupQuantity" set-method="setGoodsGroupQuantity" usage="optional" name="GoodsGroupQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:GoodsItemBaseType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsItemBaseType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="ListNumeric" get-method="getListNumeric" set-method="setListNumeric" usage="optional"/>
+    <value style="element" name="GoodFeatures" get-method="getGoodFeatures" set-method="setGoodFeatures" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="NetWeightQuantity2" get-method="getNetWeightQuantity2" set-method="setNetWeightQuantity2" usage="optional"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost" usage="optional"/>
+    <value style="element" name="StatisticalCost" get-method="getStatisticalCost" set-method="setStatisticalCost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:GoodsSTZType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsSTZType">
+    <value style="element" name="LineNumber" get-method="getLineNumber" set-method="setLineNumber"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getGoodsGroupDescriptionList" set-method="setGoodsGroupDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupDescriptionType" name="GoodsGroupDescription"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:GuaranteeTDType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GuaranteeTDType">
+    <value style="element" name="GeneralNumber" get-method="getGeneralNumber" set-method="setGeneralNumber" usage="optional"/>
+    <value style="element" name="GeneralDate" get-method="getGeneralDate" set-method="setGeneralDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="GuaranteeNumber" get-method="getGuaranteeNumber" set-method="setGuaranteeNumber" usage="optional"/>
+    <value style="element" name="GuaranteeDate" get-method="getGuaranteeDate" set-method="setGuaranteeDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AddGuaranteeNumber" get-method="getAddGuaranteeNumber" set-method="setAddGuaranteeNumber" usage="optional"/>
+    <value style="element" name="AddGuaranteeDate" get-method="getAddGuaranteeDate" set-method="setAddGuaranteeDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:LicenseGoodsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.LicenseGoodsType">
+    <value style="element" name="AppNumber" get-method="getAppNumber" set-method="setAppNumber" usage="optional"/>
+    <value style="element" name="GoodsNumericLic" get-method="getGoodsNumericLic" set-method="setGoodsNumericLic"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:MechUnitPartType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.MechUnitPartType">
+    <structure map-as="catESAD_cu:ComponentDescriptionType"/>
+    <value style="element" name="PartDescription" get-method="getPartDescription" set-method="setPartDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:MechanismUnitType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.MechanismUnitType">
+    <structure map-as="catESAD_cu:ComponentDescriptionType"/>
+    <value style="element" name="UnitDescription" get-method="getUnitDescription" set-method="setUnitDescription"/>
+    <collection get-method="getMechUnitPartList" set-method="setMechUnitPartList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:MechUnitPartType" name="MechUnitPart"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:PackingInformationType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PackingInformationType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:PalleteInformationType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PalleteInformationType">
+    <value style="element" name="PalleteQuantity" get-method="getPalleteQuantity" set-method="setPalleteQuantity"/>
+    <value style="element" name="PalleteDescription" get-method="getPalleteDescription" set-method="setPalleteDescription" usage="optional"/>
+    <value style="element" name="PalleteCode" get-method="getPalleteCode" set-method="setPalleteCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:PrecedingDocumentType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PrecedingDocumentType">
+    <value style="element" name="PrecedingDocumentID" get-method="getPrecedingDocumentID" set-method="setPrecedingDocumentID" usage="optional"/>
+    <value style="element" name="PrecedingDocumentCustomsCode" get-method="getPrecedingDocumentCustomsCode" set-method="setPrecedingDocumentCustomsCode" usage="optional"/>
+    <value style="element" name="PrecedingDocumentDate" get-method="getPrecedingDocumentDate" set-method="setPrecedingDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PrecedingDocumentNumber" get-method="getPrecedingDocumentNumber" set-method="setPrecedingDocumentNumber"/>
+    <value style="element" name="PrecedingDocumentGoodsNumeric" get-method="getPrecedingDocumentGoodsNumeric" set-method="setPrecedingDocumentGoodsNumeric" usage="optional"/>
+    <value style="element" name="PrecedingDocumentName" get-method="getPrecedingDocumentName" set-method="setPrecedingDocumentName" usage="optional"/>
+    <value style="element" name="PrecedingDocumentModeCode" get-method="getPrecedingDocumentModeCode" set-method="setPrecedingDocumentModeCode" usage="optional"/>
+    <value style="element" name="LineNumber" get-method="getLineNumber" set-method="setLineNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ProcessingGoodsDeclarationType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ProcessingGoodsDeclarationType">
+    <collection get-method="getRateOutputGoodList" set-method="setRateOutputGoodList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="RateOutputGoods" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ProcessingDocNumber" get-method="getProcessingDocNumber" set-method="setProcessingDocNumber" usage="optional"/>
+    <value style="element" name="ProcessingDocDate" get-method="getProcessingDocDate" set-method="setProcessingDocDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getGoodsIdentificationMethodList" set-method="setGoodsIdentificationMethodList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsIdentificationMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ProcessingPlace" get-method="getProcessingPlace" set-method="setProcessingPlace" usage="optional"/>
+    <collection get-method="getSubstituteList" set-method="setSubstituteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Substitute" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getPlaceProcessing" set-method="setPlaceProcessing" usage="optional" name="PlaceProcessing"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+    <structure map-as="catESAD_cu:ProcessingGoodsType" get-method="getProcessingProduct" set-method="setProcessingProduct" name="ProcessingProduct"/>
+    <collection get-method="getWasteProductList" set-method="setWasteProductList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ProcessingGoodsType" name="WasteProducts"/>
+    </collection>
+    <collection get-method="getHeelList" set-method="setHeelList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ProcessingGoodsType" name="Heels"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:ProcessingGoodsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ProcessingGoodsType">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getProcessingGoodsQuantity" set-method="setProcessingGoodsQuantity" usage="optional" name="ProcessingGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:SupplyConsigneeType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.SupplyConsigneeType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:SupplyConsignorType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.SupplyConsignorType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:SupplyInformationsType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.SupplyInformationsType">
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost" usage="optional"/>
+    <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode" usage="optional"/>
+    <structure map-as="cat_ru:DeliveryTermsRUType" get-method="getDeliveryTerms" set-method="setDeliveryTerms" name="DeliveryTerms"/>
+    <collection get-method="getGoodsQuantityList" set-method="setGoodsQuantityList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="GoodsQuantity"/>
+    </collection>
+    <structure map-as="catESAD_cu:SupplyConsignorType" get-method="getSupplyConsignor" set-method="setSupplyConsignor" usage="optional" name="SupplyConsignor"/>
+    <structure map-as="catESAD_cu:SupplyConsigneeType" get-method="getSupplyConsignee" set-method="setSupplyConsignee" usage="optional" name="SupplyConsignee"/>
+  </mapping>
+  <mapping abstract="true" type-name="catESAD_cu:TDGuaranteeType" class="ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.TDGuaranteeType">
+    <value style="element" name="MeasureCode" get-method="getMeasureCode" set-method="setMeasureCode"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber" usage="optional"/>
+    <value style="element" name="DocDate" get-method="getDocDate" set-method="setDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="GuaranteeName" get-method="getGuaranteeName" set-method="setGuaranteeName" usage="optional"/>
+    <value style="element" name="UNP" get-method="getUNP" set-method="setUNP" usage="optional"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+    <value style="element" name="GuaranteeAmount" get-method="getGuaranteeAmount" set-method="setGuaranteeAmount" usage="optional"/>
+    <structure map-as="catESAD_cu:GuaranteeTDType" get-method="getGuaranteeTD" set-method="setGuaranteeTD" usage="optional" name="GuaranteeTD"/>
+    <structure map-as="cat_ru:AddressType" get-method="getGuaranteeAddress" set-method="setGuaranteeAddress" usage="optional" name="GuaranteeAddress"/>
+  </mapping>
+</binding>

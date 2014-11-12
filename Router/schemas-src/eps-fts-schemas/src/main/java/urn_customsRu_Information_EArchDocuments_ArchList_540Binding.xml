@@ -1,0 +1,17 @@
+<binding xmlns:alst="urn:customs.ru:Information:EArchDocuments:ArchList:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchList:5.4.0" default="elements" prefix="alst"/>
+  <mapping abstract="true" type-name="alst:ArchListType" class="ru.acs.fts.schemas.album.archlist.ArchListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getArchiveList" set-method="setArchiveList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="alst:ArchiveListType" name="ArchiveList"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archlist.ArchListType" name="ArchList">
+    <structure map-as="alst:ArchListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="alst:ArchiveListType" class="ru.acs.fts.schemas.album.archlist.ArchiveListType">
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID"/>
+    <value style="element" name="ArchName" get-method="getArchName" set-method="setArchName" usage="optional"/>
+  </mapping>
+</binding>

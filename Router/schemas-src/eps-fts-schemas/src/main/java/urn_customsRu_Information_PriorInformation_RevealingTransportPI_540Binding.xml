@@ -1,0 +1,74 @@
+<binding xmlns:rqpi="urn:customs.ru:Information:PriorInformation:RevealingTransportPI:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catpi_ru="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:RevealingTransportPI:5.4.0" default="elements" prefix="rqpi"/>
+  <mapping abstract="true" type-name="rqpi:RevealingTransportPIType" class="ru.acs.fts.schemas.album.revealingtransportpi.RevealingTransportPIType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="rqpi:ServiceInfoType" get-method="getServiceInfo" set-method="setServiceInfo" name="ServiceInfo"/>
+    <structure map-as="rqpi:CarInformationType" get-method="getCarInformation" set-method="setCarInformation" name="CarInformation"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rqpi:ConsignmentType" name="Consignment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.revealingtransportpi.RevealingTransportPIType" name="RevealingTransportPI">
+    <structure map-as="rqpi:RevealingTransportPIType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rqpi:CarInformationType" class="ru.acs.fts.schemas.album.revealingtransportpi.CarInformationType">
+    <value style="element" name="TIRHolder" get-method="getTIRHolder" set-method="setTIRHolder" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:TransportMeansType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rqpi:ConsignmentType" class="ru.acs.fts.schemas.album.revealingtransportpi.ConsignmentType">
+    <value style="element" name="LotID" get-method="getLotID" set-method="setLotID"/>
+    <value style="element" name="ConsignmentSerNumber" get-method="getConsignmentSerNumber" set-method="setConsignmentSerNumber"/>
+    <value style="element" name="DispatchCountryCode2" get-method="getDispatchCountryCode2" set-method="setDispatchCountryCode2" usage="optional"/>
+    <value style="element" name="DestinationCountryCode2" get-method="getDestinationCountryCode2" set-method="setDestinationCountryCode2" usage="optional"/>
+    <value style="element" name="TotalInvoicedCost" get-method="getTotalInvoicedCost" set-method="setTotalInvoicedCost" usage="optional"/>
+    <value style="element" name="ShipSpecifQuantity" get-method="getShipSpecifQuantity" set-method="setShipSpecifQuantity" usage="optional"/>
+    <value style="element" name="ShipSpecifGoodsQuantity" get-method="getShipSpecifGoodsQuantity" set-method="setShipSpecifGoodsQuantity" usage="optional"/>
+    <value style="element" name="TotalPackageQuantity" get-method="getTotalPackageQuantity" set-method="setTotalPackageQuantity" usage="optional"/>
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+    <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode" usage="optional"/>
+    <value style="element" name="TTNDate" get-method="getTTNDate" set-method="setTTNDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CountGoodsNames" get-method="getCountGoodsNames" set-method="setCountGoodsNames" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <value style="element" name="NetWeight" get-method="getNetWeight" set-method="setNetWeight" usage="optional"/>
+    <value style="element" name="PIoutDestination" get-method="getPIoutDestination" set-method="setPIoutDestination" usage="optional"/>
+    <value style="element" name="ReloadCountryCode" get-method="getReloadCountryCode" set-method="setReloadCountryCode" usage="optional"/>
+    <value style="element" name="ReloadCustomsCode" get-method="getReloadCustomsCode" set-method="setReloadCustomsCode" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="rqpi:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getTTNAddress" set-method="setTTNAddress" usage="optional" name="TTNAddress"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getSeller" set-method="setSeller" usage="optional" name="Seller"/>
+  </mapping>
+  <mapping abstract="true" type-name="rqpi:GoodsType" class="ru.acs.fts.schemas.album.revealingtransportpi.GoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <value style="element" name="NetWeight" get-method="getNetWeight" set-method="setNetWeight" usage="optional"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+    <collection get-method="getContainerIDList" set-method="setContainerIDList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerID" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCargoDescriptionList" set-method="setCargoDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CargoDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:PresentedDocumentsType" name="PresentedDocument"/>
+    </collection>
+    <structure map-as="catpi_ru:PackingInformationType" get-method="getPackingInformation" set-method="setPackingInformation" usage="optional" name="PackingInformation"/>
+  </mapping>
+  <mapping abstract="true" type-name="rqpi:ServiceInfoType" class="ru.acs.fts.schemas.album.revealingtransportpi.ServiceInfoType">
+    <value style="element" name="TransportID" get-method="getTransportID" set-method="setTransportID"/>
+    <value style="element" name="CrossDate" get-method="getCrossDate" set-method="setCrossDate" format="LocalDate.default"/>
+    <value style="element" name="CustomsArriveID" get-method="getCustomsArriveID" set-method="setCustomsArriveID"/>
+    <value style="element" name="ArriveDateTime" get-method="getArriveDateTime" set-method="setArriveDateTime"/>
+    <value style="element" name="Exp_DTNumber" get-method="getExpDTNumber" set-method="setExpDTNumber" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,40 @@
+<binding xmlns:desprs="urn:customs.ru:Information:SQDocuments:RZNDesignatedPurpose:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RZNDesignatedPurpose:5.4.0" default="elements" prefix="desprs"/>
+  <mapping abstract="true" type-name="desprs:RZNDesignatedPurposeType" class="ru.acs.fts.schemas.album.rzndesignatedpurpose.RZNDesignatedPurposeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="desprs:ConfirmationType" get-method="getConfirmation" set-method="setConfirmation" usage="optional" name="Confirmation"/>
+    <structure map-as="desprs:OrganizationType" get-method="getHolder" set-method="setHolder" usage="optional" name="Holder"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <structure map-as="desprs:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" name="GoodsDescription"/>
+    <collection get-method="getTargetMedOrgList" set-method="setTargetMedOrgList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUOrganizationType" name="TargetMedOrg"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getConfirmationLetter" set-method="setConfirmationLetter" usage="optional" name="ConfirmationLetter"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rzndesignatedpurpose.RZNDesignatedPurposeType" name="RZNDesignatedPurpose">
+    <structure map-as="desprs:RZNDesignatedPurposeType"/>
+  </mapping>
+  <mapping abstract="true" type-name="desprs:ConfirmationType" class="ru.acs.fts.schemas.album.rzndesignatedpurpose.ConfirmationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Duration" get-method="getDuration" set-method="setDuration" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="desprs:GoodsDescriptionType" class="ru.acs.fts.schemas.album.rzndesignatedpurpose.GoodsDescriptionType">
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="OriginCountry" get-method="getOriginCountry" set-method="setOriginCountry" usage="optional"/>
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+    <value style="element" name="GoodsPurpose" get-method="getGoodsPurpose" set-method="setGoodsPurpose" usage="optional"/>
+    <value style="element" name="ModelMark" get-method="getModelMark" set-method="setModelMark" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" usage="optional" name="Quantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="desprs:OrganizationType" class="ru.acs.fts.schemas.album.rzndesignatedpurpose.OrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign" usage="optional"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+  </mapping>
+</binding>

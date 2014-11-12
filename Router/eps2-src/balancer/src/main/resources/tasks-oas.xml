@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+							
+	<!-- Balancer Dump Task -->
+
+	<!-- 
+	<bean id="bdTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="heartbeatNotifier" />
+		<property name="targetMethod" value="dump" />
+	</bean>
+	
+	<bean id="bdTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="bdTaskScheduled" />
+		<property name="delay" value="60000" />
+		<property name="period" value="60000" />
+	</bean>
+	-->
+
+	<!-- Scheduler -->
+	
+	<!-- 
+	<bean id="scheduler" class="org.springframework.scheduling.timer.TimerFactoryBean" >
+		<property name="scheduledTimerTasks" >
+			<list>
+				<ref bean="bdTaskTimer" />
+			</list>
+		</property>
+	</bean>
+	-->
+
+</beans>

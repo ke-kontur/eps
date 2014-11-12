@@ -1,0 +1,22 @@
+<binding xmlns:torc="urn:customs.ru:Information:RegistrationDocuments:TaxOrganRegistrationCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:TaxOrganRegistrationCertificate:5.4.0" default="elements" prefix="torc"/>
+  <mapping abstract="true" type-name="torc:TaxOrganRegistrationCertificateType" class="ru.acs.fts.schemas.album.taxorganregistrationcertificate.TaxOrganRegistrationCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="TaxOrganName" get-method="getTaxOrganName" set-method="setTaxOrganName"/>
+    <value style="element" name="CertificateDate" get-method="getCertificateDate" set-method="setCertificateDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CertificateID" get-method="getCertificateID" set-method="setCertificateID"/>
+    <value style="element" name="TaxOrganID" get-method="getTaxOrganID" set-method="setTaxOrganID"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getCompany" set-method="setCompany" name="Company"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getTaxOrganClerkSignature" set-method="setTaxOrganClerkSignature" name="TaxOrganClerkSignature"/>
+    <structure map-as="torc:RegistrationDocumentType" get-method="getRegistrationDocument" set-method="setRegistrationDocument" usage="optional" name="RegistrationDocument"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.taxorganregistrationcertificate.TaxOrganRegistrationCertificateType" name="TaxOrganRegistrationCertificate">
+    <structure map-as="torc:TaxOrganRegistrationCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="torc:RegistrationDocumentType" class="ru.acs.fts.schemas.album.taxorganregistrationcertificate.RegistrationDocumentType">
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentName" get-method="getDocumentName" set-method="setDocumentName" usage="optional"/>
+  </mapping>
+</binding>

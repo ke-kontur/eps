@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:udb="urn:customs.ru:Information:AdminCommandED:UpdateDB_Result:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" version="4.6.0.1" elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:AdminCommandED:UpdateDB_Result:4.6.0">
+   <xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Результат обновления БД</xs:documentation>
+   </xs:annotation>
+   <xs:element name="UpdateDB_Result" type="udb:UpdateDB_ResultType"/>
+   <xs:complexType name="UpdateDB_ResultType">
+      <xs:annotation>
+         <xs:documentation>Результат обновления БД</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="IEcat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="ResultCode" type="IEclt_ru:Text10Type">
+                  <xs:annotation>
+                     <xs:documentation>Результат(код)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="ResultDescription" type="IEclt_ru:FreeText250Type" minOccurs="1" maxOccurs="unbounded">
+                  <xs:annotation>
+                     <xs:documentation>Описание  </xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="RowResult" type="udb:RowResultType" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                     <xs:documentation>Результат обработки строки записи</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" fixed="1090004E" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа.</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RowResultType">
+      <xs:annotation>
+         <xs:documentation>Результат обработки строки записи</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="RowID" type="xs:string">
+            <xs:annotation>
+               <xs:documentation>Идентификатор записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ResultCode" type="IEclt_ru:Text10Type">
+            <xs:annotation>
+               <xs:documentation>Результат(код)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ResultDescription" type="IEclt_ru:FreeText250Type" minOccurs="1" maxOccurs="unbounded">
+            <xs:annotation>
+               <xs:documentation>Описание</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="InfoCode" type="IEclt_ru:Text10Type">
+            <xs:annotation>
+               <xs:documentation>Информационный код</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

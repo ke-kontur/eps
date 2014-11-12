@@ -1,0 +1,24 @@
+<binding xmlns:pdd="urn:customs.ru:Information:CustomsDocuments:PermitDelayDocs:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PermitDelayDocs:5.4.0" default="elements" prefix="pdd"/>
+  <mapping abstract="true" type-name="pdd:PermitDelayDocsType" class="ru.acs.fts.schemas.album.permitdelaydocs.PermitDelayDocsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <collection get-method="getDelayedDocList" set-method="setDelayedDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pdd:DelayedDocsType" name="DelayedDocs"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitdelaydocs.PermitDelayDocsType" name="PermitDelayDocs">
+    <structure map-as="pdd:PermitDelayDocsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pdd:DelayedDocsType" class="ru.acs.fts.schemas.album.permitdelaydocs.DelayedDocsType">
+    <structure map-as="catESAD_ru:DocumentDescriptionType"/>
+    <value style="element" name="DelayDecision" get-method="getDelayDecision" set-method="setDelayDecision" usage="optional"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID" usage="optional"/>
+  </mapping>
+</binding>

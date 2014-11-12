@@ -1,0 +1,30 @@
+<binding xmlns:ngwa="urn:customs.ru:Information:CustomsDocuments:NotifGoodsWhArrive:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifGoodsWhArrive:5.4.0" default="elements" prefix="ngwa"/>
+  <mapping abstract="true" type-name="ngwa:NotifGoodsWhArriveType" class="ru.acs.fts.schemas.album.notifgoodswharrive.NotifGoodsWhArriveType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NotifDate" get-method="getNotifDate" set-method="setNotifDate" format="LocalDate.default"/>
+    <value style="element" name="NotifTime" get-method="getNotifTime" set-method="setNotifTime"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <structure map-as="ngwa:GoodsLocationType" get-method="getGoodsLocation" set-method="setGoodsLocation" name="GoodsLocation"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgoodswharrive.NotifGoodsWhArriveType" name="NotifGoodsWhArrive">
+    <structure map-as="ngwa:NotifGoodsWhArriveType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ngwa:GoodsLocationType" class="ru.acs.fts.schemas.album.notifgoodswharrive.GoodsLocationType">
+    <value style="element" name="CustomsOffice" get-method="getCustomsOffice" set-method="setCustomsOffice" usage="optional"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="ngwa:GoodsLocationWarehouseType" test-method="ifGoodsLocationWarehouse" get-method="getGoodsLocationWarehouse" set-method="setGoodsLocationWarehouse" usage="optional" name="GoodsLocationWarehouse"/>
+      <structure map-as="catESAD_cu:CUGoodsLocationPlaceType" test-method="ifCUGoodsLocationPlace" get-method="getCUGoodsLocationPlace" set-method="setCUGoodsLocationPlace" usage="optional" name="CUGoodsLocationPlace"/>
+      <structure map-as="catESAD_cu:CUTransportType" test-method="ifCUTransport" get-method="getCUTransport" set-method="setCUTransport" usage="optional" name="CUTransport"/>
+    </structure>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="ngwa:GoodsLocationWarehouseType" class="ru.acs.fts.schemas.album.notifgoodswharrive.GoodsLocationWarehouseType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

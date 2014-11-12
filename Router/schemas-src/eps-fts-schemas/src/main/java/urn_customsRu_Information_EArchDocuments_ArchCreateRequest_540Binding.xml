@@ -1,0 +1,12 @@
+<binding xmlns:acr="urn:customs.ru:Information:EArchDocuments:ArchCreateRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchCreateRequest:5.4.0" default="elements" prefix="acr"/>
+  <mapping abstract="true" type-name="acr:ArchCreateRequestType" class="ru.acs.fts.schemas.album.archcreaterequest.ArchCreateRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ArchiveName" get-method="getArchiveName" set-method="setArchiveName"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archcreaterequest.ArchCreateRequestType" name="ArchCreateRequest">
+    <structure map-as="acr:ArchCreateRequestType"/>
+  </mapping>
+</binding>

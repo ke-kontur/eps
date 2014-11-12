@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:jee="http://www.springframework.org/schema/jee" 
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd 
+							http://www.springframework.org/schema/jee 
+							http://www.springframework.org/schema/jee/spring-jee.xsd
+							http://www.springframework.org/schema/tx
+							http://www.springframework.org/schema/tx/spring-tx.xsd
+							http://www.springframework.org/schema/data/jpa
+							http://www.springframework.org/schema/data/jpa/spring-jpa.xsd" >
+
+	<!--Подключение к БД-->
+	
+	<bean id="pum" class="org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager" >
+		<property name="persistenceXmlLocations">
+			<list>
+				<value>classpath:spring-persistence.xml</value>
+			</list>
+		</property>
+		<property name="defaultDataSource" ref="businessProcessOracleConnection" />
+	</bean>
+	
+	<jee:jndi-lookup id="businessProcessOracleConnection" jndi-name="epsBusinessProcess" />
+
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" >
+		<property name="persistenceUnitManager" ref="pum" />
+		<property name="dataSource" ref="businessProcessOracleConnection" />
+		<property name="jpaProperties">
+			<props>
+				<prop key="eclipselink.ddl-generation">none</prop>
+				<prop key="javax.persistence.jdbc.driver">oracle.jdbc.OracleDriver</prop>
+				<prop key="eclipselink.weaving">false</prop>
+				<prop key="eclipselink.target-server">${eclipseLinkTargetServer}</prop>
+				<prop key="eclipselink.target-database">org.eclipse.persistence.platform.database.oracle.Oracle10Platform</prop>
+				<prop key="eclipselink.logging.logger">ServerLogger</prop>
+			</props>
+		</property>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+				<property name="databasePlatform" value="org.eclipse.persistence.platform.database.OraclePlatform" />
+				<property name="showSql" value="true" />
+			</bean>
+		</property>
+	</bean>
+	
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager" />
+
+	<bean id="jpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" lazy-init="true" >
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>	
+	   
+	<!-- Новые сервисы для работы с БД -->
+
+	<bean id="audService" class="ru.acs.fts.aud.management.model.services.AudService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="edarchService" class="ru.acs.fts.aud.management.model.services.EdarchService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="edeclService" class="ru.acs.fts.aud.management.model.services.EdeclService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<!-- Дополнительные производные сервисы для работы с БД -->
+	
+	<bean id="audOperator" class="ru.acs.fts.aud.management.model.operators.AudOperator" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+	</bean>
+
+</beans>

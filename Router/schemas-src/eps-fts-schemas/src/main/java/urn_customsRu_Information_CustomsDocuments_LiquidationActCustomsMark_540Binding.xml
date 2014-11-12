@@ -1,0 +1,21 @@
+<binding xmlns:lacm="urn:customs.ru:Information:CustomsDocuments:LiquidationActCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:LiquidationActCustomsMark:5.4.0" default="elements" prefix="lacm"/>
+  <mapping abstract="true" type-name="lacm:LiquidationActCustomsMarkType" class="ru.acs.fts.schemas.album.liquidationactcustomsmark.LiquidationActCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsMark" get-method="getCustomsMark" set-method="setCustomsMark"/>
+    <value style="element" name="NeededActions" get-method="getNeededActions" set-method="setNeededActions" usage="optional"/>
+    <value style="element" name="ActPresentDate" get-method="getActPresentDate" set-method="setActPresentDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="lacm:ActRegNumberType" get-method="getActRegNumber" set-method="setActRegNumber" name="ActRegNumber"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.liquidationactcustomsmark.LiquidationActCustomsMarkType" name="LiquidationActCustomsMark">
+    <structure map-as="lacm:LiquidationActCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="lacm:ActRegNumberType" class="ru.acs.fts.schemas.album.liquidationactcustomsmark.ActRegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+</binding>

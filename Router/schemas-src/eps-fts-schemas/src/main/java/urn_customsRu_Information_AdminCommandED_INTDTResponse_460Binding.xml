@@ -1,0 +1,17 @@
+<binding xmlns:idtrs="urn:customs.ru:Information:AdminCommandED:INT_DTResponse:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:AdminCommandED:INT_DTResponse:4.6.0" default="elements" prefix="idtrs"/>
+  <mapping abstract="true" type-name="idtrs:INT_DTResponseType" class="ru.acs.fts.schemas.admin.int_dtresponce.INTDTResponseType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
+    <value style="element" name="ResultDescription" get-method="getResultDescription" set-method="setResultDescription"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.int_dtresponce.INTDTResponseType" name="INT_DTResponse">
+    <structure map-as="idtrs:INT_DTResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="idtrs:GTDIDType" class="ru.acs.fts.schemas.admin.int_dtresponce.GTDIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="GTDNumber" get-method="getGTDNumber" set-method="setGTDNumber"/>
+  </mapping>
+</binding>

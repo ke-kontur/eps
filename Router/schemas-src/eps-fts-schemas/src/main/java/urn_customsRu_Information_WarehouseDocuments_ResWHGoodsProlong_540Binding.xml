@@ -1,0 +1,23 @@
+<binding xmlns:reswh="urn:customs.ru:Information:WarehouseDocuments:ResWHGoodsProlong:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:ResWHGoodsProlong:5.4.0" default="elements" prefix="reswh"/>
+  <mapping abstract="true" type-name="reswh:ResWHGoodsProlongType" class="ru.acs.fts.schemas.album.reswhgoodsprolong.ResWHGoodsProlongType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <collection get-method="getGoodsDecisionList" set-method="setGoodsDecisionList" create-type="java.util.ArrayList">
+      <structure map-as="reswh:GoodsDecisionType" name="GoodsDecision"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reswhgoodsprolong.ResWHGoodsProlongType" name="ResWHGoodsProlong">
+    <structure map-as="reswh:ResWHGoodsProlongType"/>
+  </mapping>
+  <mapping abstract="true" type-name="reswh:GoodsDecisionType" class="ru.acs.fts.schemas.album.reswhgoodsprolong.GoodsDecisionType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="ReqPeriod" get-method="getReqPeriod" set-method="setReqPeriod" format="LocalDate.default"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

@@ -1,0 +1,30 @@
+<binding xmlns:gno="urn:customs.ru:Information:CustomsDocuments:GoodsNoArrive:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsNoArrive:5.4.0" default="elements" prefix="gno"/>
+  <mapping abstract="true" type-name="gno:GoodsNoArriveType" class="ru.acs.fts.schemas.album.goodsnoarrive.GoodsNoArriveType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ResNumber" get-method="getResNumber" set-method="setResNumber" usage="optional"/>
+    <value style="element" name="ResDate" get-method="getResDate" set-method="setResDate" format="LocalDate.default"/>
+    <value style="element" name="ReqNumber" get-method="getReqNumber" set-method="setReqNumber" usage="optional"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="gno:GoodsShipmentType" get-method="getGoodsShipment" set-method="setGoodsShipment" name="GoodsShipment"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsnoarrive.GoodsNoArriveType" name="GoodsNoArrive">
+    <structure map-as="gno:GoodsNoArriveType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gno:GoodsShipmentType" class="ru.acs.fts.schemas.album.goodsnoarrive.GoodsShipmentType">
+    <collection get-method="getPresentDocumentList" set-method="setPresentDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="gno:PresentDocumentType" name="PresentDocument"/>
+    </collection>
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ContainerNumberType" name="ContainerNumber"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gno:PresentDocumentType" class="ru.acs.fts.schemas.album.goodsnoarrive.PresentDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+  </mapping>
+</binding>

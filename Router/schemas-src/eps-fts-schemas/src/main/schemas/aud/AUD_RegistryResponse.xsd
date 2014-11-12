@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryResponse:4.1.1" version="4.1.1.0" xmlns:aurrs="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Реестр  документов, размещенных в  архиве</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_RegistryResponse" type="aurrs:AUD_RegistryResponseType"/>
+   <xs:complexType name="AUD_RegistryResponseType">
+      <xs:annotation>
+         <xs:documentation>Реестр документов,  размещенных  в архиве</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element name="NullFlag" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак наличия  записей  в реестре. true - присутствуют false -  отсутствуют</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="AUD_PacketRegistryRow" type="aurrs:RegistryPacketInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о  размещенных  пакетах</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010031E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="RegistryPacketInfoType">
+      <xs:annotation>
+         <xs:documentation>Сведения  о пакете, помещенном  в  архив</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_PacketInfoType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" name="RegistryRow" type="aurrs:RegistryRowType">
+                  <xs:annotation>
+                     <xs:documentation>Информация  о документах</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RegistryRowType">
+      <xs:annotation>
+         <xs:documentation>Сведения о документах  пакета</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="IsActualDocumentIndicator" type="clt_ru:IndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак: является ли документ актуальным (true) или нет (false).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ArchiveContainerDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный идентификатор документа-контейнера, содержащего данный документ. Указывается в случае, если документ был передан в архив на хранение не в виде самостоятельного документа, а в составе документа-контейнера (документа вида 'ED_Container').</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ArchiveDocInfo" type="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType">
+            <xs:annotation>
+               <xs:documentation>Архивные  идентификаторы  документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="AppliedDocInfo" type="catAUD_ru:AUD_AppliedDocumentInfoType">
+            <xs:annotation>
+               <xs:documentation>Прикладная  информация  о документе</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

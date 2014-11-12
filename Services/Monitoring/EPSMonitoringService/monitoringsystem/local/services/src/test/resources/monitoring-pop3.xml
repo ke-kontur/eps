@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+    <mailbox mailboxName="main" path="C://path/to/mailbox" maxMessagesCount="100" delay="600000"/>
+
+</monitoring>

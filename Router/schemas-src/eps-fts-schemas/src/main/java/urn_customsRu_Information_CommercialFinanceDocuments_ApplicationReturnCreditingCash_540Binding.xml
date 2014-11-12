@@ -1,0 +1,33 @@
+<binding xmlns:arcc="urn:customs.ru:Information:CommercialFinanceDocuments:ApplicationReturnCreditingCash:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ApplicationReturnCreditingCash:5.4.0" default="elements" prefix="arcc"/>
+  <mapping abstract="true" type-name="arcc:ApplicationReturnCreditingCashType" class="ru.acs.fts.schemas.album.applicationreturncreditingcash.ApplicationReturnCreditingCashType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getArticleList" set-method="setArticleList" create-type="java.util.ArrayList">
+      <value style="element" name="Article" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ReturnCrediting" get-method="getReturnCrediting" set-method="setReturnCrediting"/>
+    <value style="element" name="CashType" get-method="getCashType" set-method="setCashType"/>
+    <value style="element" name="ReasonReturningCrediting" get-method="getReasonReturningCrediting" set-method="setReasonReturningCrediting" usage="optional"/>
+    <value style="element" name="ConditionCrediting" get-method="getConditionCrediting" set-method="setConditionCrediting" usage="optional"/>
+    <value style="element" name="AmountCash" get-method="getAmountCash" set-method="setAmountCash"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicantInfo" set-method="setApplicantInfo" name="ApplicantInfo"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="PaymentDocument"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCustomsReceipt" set-method="setCustomsReceipt" usage="optional" name="CustomsReceipt"/>
+    <structure map-as="cat_ru:BankInformationType" get-method="getBankInformation" set-method="setBankInformation" usage="optional" name="BankInformation"/>
+    <collection get-method="getAttachedDocumentList" set-method="setAttachedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="AttachedDocuments"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getApplicantSignature" set-method="setApplicantSignature" name="ApplicantSignature"/>
+    <collection get-method="getGTDIDList" set-method="setGTDIDList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:GTDIDType" name="GTDID"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.applicationreturncreditingcash.ApplicationReturnCreditingCashType" name="ApplicationReturnCreditingCash">
+    <structure map-as="arcc:ApplicationReturnCreditingCashType"/>
+  </mapping>
+</binding>

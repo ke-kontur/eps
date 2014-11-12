@@ -1,0 +1,12 @@
+<binding xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0">
+  <namespace uri="urn:customs.ru:CommonAggregateTypes:4.1.0" default="elements" prefix="cat_ru"/>
+  <mapping abstract="true" type-name="cat_ru:BaseDocType" class="ru.acs.fts.schemas.aud.commonaggregatetypescust.BaseDocType">
+    <value style="element" name="DocumentID" get-method="getDocumentID" set-method="setDocumentID"/>
+    <value style="element" name="RefDocumentID" get-method="getRefDocumentID" set-method="setRefDocumentID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_ru:GTDIDType" class="ru.acs.fts.schemas.aud.commonaggregatetypescust.GTDIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="GTDNumber" get-method="getGTDNumber" set-method="setGTDNumber"/>
+  </mapping>
+</binding>

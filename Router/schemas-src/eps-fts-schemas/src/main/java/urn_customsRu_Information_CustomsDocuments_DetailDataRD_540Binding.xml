@@ -1,0 +1,44 @@
+<binding xmlns:ddrd="urn:customs.ru:Information:CustomsDocuments:DetailDataRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DetailDataRD:5.4.0" default="elements" prefix="ddrd"/>
+  <mapping abstract="true" type-name="ddrd:DetailDataRDType" class="ru.acs.fts.schemas.album.detaildatard.DetailDataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Term" get-method="getTerm" set-method="setTerm" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode" usage="optional"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+    <value style="element" name="StatusDate" get-method="getStatusDate" set-method="setStatusDate" format="LocalDate.default"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber" usage="optional"/>
+    <value style="element" name="DatePlacement" get-method="getDatePlacement" set-method="setDatePlacement" format="LocalDate.default"/>
+    <structure map-as="ddrd:OrganizationInfoType" get-method="getManufacturer" set-method="setManufacturer" name="Manufacturer"/>
+    <structure map-as="ddrd:OrganizationInfoType" get-method="getReceiver" set-method="setReceiver" name="Receiver"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="ddrd:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.detaildatard.DetailDataRDType" name="DetailDataRD">
+    <structure map-as="ddrd:DetailDataRDType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ddrd:GoodsInfoType" class="ru.acs.fts.schemas.album.detaildatard.GoodsInfoType">
+    <value style="element" name="GoodsKind" get-method="getGoodsKind" set-method="setGoodsKind" usage="optional"/>
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ddrd:StructuredTextType" name="GoodsName"/>
+    </collection>
+    <collection get-method="getGoodsIdentificationList" set-method="setGoodsIdentificationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ddrd:StructuredTextType" name="GoodsIdentification"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ddrd:OrganizationInfoType" class="ru.acs.fts.schemas.album.detaildatard.OrganizationInfoType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <collection get-method="getNameList" set-method="setNameList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ddrd:StructuredTextType" name="Name"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ddrd:StructuredTextType" class="ru.acs.fts.schemas.album.detaildatard.StructuredTextType">
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber"/>
+    <value style="element" name="Text" get-method="getText" set-method="setText"/>
+  </mapping>
+</binding>

@@ -1,0 +1,16 @@
+<binding xmlns:ds="urn:customs.ru:Information:CustomsDocuments:DeclarationStatus:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DeclarationStatus:5.4.0" default="elements" prefix="ds"/>
+  <mapping abstract="true" type-name="ds:DeclarationStatusType" class="ru.acs.fts.schemas.album.declarationstatus.DeclarationStatusType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="StatusDescription" get-method="getStatusDescription" set-method="setStatusDescription"/>
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID" usage="optional"/>
+    <value style="element" name="DecisionCode" get-method="getDecisionCode" set-method="setDecisionCode" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDeclarationRegNumber" set-method="setDeclarationRegNumber" name="DeclarationRegNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.declarationstatus.DeclarationStatusType" name="DeclarationStatus">
+    <structure map-as="ds:DeclarationStatusType"/>
+  </mapping>
+</binding>

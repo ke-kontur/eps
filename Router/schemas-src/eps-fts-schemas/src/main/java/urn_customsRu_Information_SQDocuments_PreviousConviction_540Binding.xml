@@ -1,0 +1,25 @@
+<binding xmlns:pc="urn:customs.ru:Information:SQDocuments:PreviousConviction:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:PreviousConviction:5.4.0" default="elements" prefix="pc"/>
+  <mapping abstract="true" type-name="pc:PreviousConvictionType" class="ru.acs.fts.schemas.album.previousconviction.PreviousConvictionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="pc:OrganizationType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="pc:ResultInfoType" get-method="getResultInfo" set-method="setResultInfo" name="ResultInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.previousconviction.PreviousConvictionType" name="PreviousConviction">
+    <structure map-as="pc:PreviousConvictionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pc:OrganizationType" class="ru.acs.fts.schemas.album.previousconviction.OrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="InsuranceNumber" get-method="getInsuranceNumber" set-method="setInsuranceNumber" usage="optional"/>
+    <value style="element" name="BirthDate" get-method="getBirthDate" set-method="setBirthDate" format="LocalDate.default"/>
+    <value style="element" name="AddressSign" get-method="getAddressSign" set-method="setAddressSign" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getBirthPlace" set-method="setBirthPlace" name="BirthPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="pc:ResultInfoType" class="ru.acs.fts.schemas.album.previousconviction.ResultInfoType">
+    <value style="element" name="OrgCode" get-method="getOrgCode" set-method="setOrgCode"/>
+    <value style="element" name="OrgName" get-method="getOrgName" set-method="setOrgName"/>
+    <value style="element" name="ResultSign" get-method="getResultSign" set-method="setResultSign"/>
+    <value style="element" name="ResultDate" get-method="getResultDate" set-method="setResultDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

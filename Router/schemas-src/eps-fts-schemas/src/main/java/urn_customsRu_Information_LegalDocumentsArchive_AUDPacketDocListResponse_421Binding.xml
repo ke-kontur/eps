@@ -1,0 +1,22 @@
+<binding xmlns:aplres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListResponse:4.2.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListResponse:4.2.1" default="elements" prefix="aplres"/>
+  <mapping abstract="true" type-name="aplres:AUD_PacketDocListResponseType" class="ru.acs.fts.schemas.aud.aud_packetdoclistresponse.AUDPacketDocListResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="PacketAppliedID" get-method="getPacketAppliedID" set-method="setPacketAppliedID"/>
+    <value style="element" name="ArchivePacketID" get-method="getArchivePacketID" set-method="setArchivePacketID"/>
+    <collection get-method="getArchiveDocInfoList" set-method="setArchiveDocInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="aplres:ArchiveDocInfoType" name="ArchiveDocInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_packetdoclistresponse.AUDPacketDocListResponseType" name="AUD_PacketDocListResponse">
+    <structure map-as="aplres:AUD_PacketDocListResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aplres:ArchiveDocInfoType" class="ru.acs.fts.schemas.aud.aud_packetdoclistresponse.ArchiveDocInfoType">
+    <value style="element" name="ArchiveDocID" get-method="getArchiveDocID" set-method="setArchiveDocID"/>
+    <value style="element" name="AppliedDocID" get-method="getAppliedDocID" set-method="setAppliedDocID"/>
+    <value style="element" name="DocDescription" get-method="getDocDescription" set-method="setDocDescription" usage="optional"/>
+    <value style="element" name="CreateDateTime" get-method="getCreateDateTime" set-method="setCreateDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <value style="element" name="DocVersion" get-method="getDocVersion" set-method="setDocVersion"/>
+  </mapping>
+</binding>

@@ -1,0 +1,13 @@
+<binding xmlns:ncdt="urn:customs.ru:Information:CustomsDocuments:NotifConfirmDT:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifConfirmDT:5.4.0" default="elements" prefix="ncdt"/>
+  <mapping abstract="true" type-name="ncdt:NotifConfirmDTType" class="ru.acs.fts.schemas.album.notifconfirmdt.NotifConfirmDTType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocRecieptTime" get-method="getDocRecieptTime" set-method="setDocRecieptTime"/>
+    <value style="element" name="ObligationDeadline" get-method="getObligationDeadline" set-method="setObligationDeadline" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifconfirmdt.NotifConfirmDTType" name="NotifConfirmDT">
+    <structure map-as="ncdt:NotifConfirmDTType"/>
+  </mapping>
+</binding>

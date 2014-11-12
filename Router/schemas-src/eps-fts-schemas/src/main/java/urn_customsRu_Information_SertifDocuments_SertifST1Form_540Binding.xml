@@ -1,0 +1,74 @@
+<binding xmlns:sst="urn:customs.ru:Information:SertifDocuments:SertifST1Form:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:SertifST1Form:5.4.0" default="elements" prefix="sst"/>
+  <mapping abstract="true" type-name="sst:SertifST1FormType" class="ru.acs.fts.schemas.album.sertifst1form.SertifST1FormType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SertifNumber" get-method="getSertifNumber" set-method="setSertifNumber"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <value style="element" name="IssueCountryCode" get-method="getIssueCountryCode" set-method="setIssueCountryCode"/>
+    <value style="element" name="DestinCountryCode" get-method="getDestinCountryCode" set-method="setDestinCountryCode"/>
+    <collection get-method="getTransportMeansRouteList" set-method="setTransportMeansRouteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TransportMeansRoute" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSpecialCommentList" set-method="setSpecialCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SpecialComments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="IssueCountryName" get-method="getIssueCountryName" set-method="setIssueCountryName"/>
+    <value style="element" name="DestinCountryName" get-method="getDestinCountryName" set-method="setDestinCountryName"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getSenderInformation" set-method="setSenderInformation" name="SenderInformation"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getExporterInformation" set-method="setExporterInformation" usage="optional" name="ExporterInformation"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getRecipient" set-method="setRecipient" name="Recipient"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getImporter" set-method="setImporter" usage="optional" name="Importer"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="sst:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="sst:SertifInfType" get-method="getSertifInf" set-method="setSertifInf" name="SertifInf"/>
+    <structure map-as="sst:AppDeclarationType" get-method="getAppDeclaration" set-method="setAppDeclaration" name="AppDeclaration"/>
+    <collection get-method="getContractList" set-method="setContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Contract"/>
+    </collection>
+    <collection get-method="getInvoiceList" set-method="setInvoiceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Invoice"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getAnnuledSertifForm" set-method="setAnnuledSertifForm" usage="optional" name="AnnuledSertifForm"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sertifst1form.SertifST1FormType" name="SertifST1Form">
+    <structure map-as="sst:SertifST1FormType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sst:AppDeclarationType" class="ru.acs.fts.schemas.album.sertifst1form.AppDeclarationType">
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="AppCountry" get-method="getAppCountry" set-method="setAppCountry" usage="optional"/>
+    <value style="element" name="FIO" get-method="getFIO" set-method="setFIO" usage="optional"/>
+    <value style="element" name="SignPlace" get-method="getSignPlace" set-method="setSignPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="sst:ExporterSenderInformationType" class="ru.acs.fts.schemas.album.sertifst1form.ExporterSenderInformationType">
+    <value style="element" name="SenderName" get-method="getSenderName" set-method="setSenderName"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="sst:GoodsType" class="ru.acs.fts.schemas.album.sertifst1form.GoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="SupplementaryGoodsQuantity" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional"/>
+    <value style="element" name="SupplementaryMeasureUnitQualifierCode" get-method="getSupplementaryMeasureUnitQualifierCode" set-method="setSupplementaryMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="GoodsPlacesQuantity" get-method="getGoodsPlacesQuantity" set-method="setGoodsPlacesQuantity" usage="optional"/>
+    <value style="element" name="PlacesDescription" get-method="getPlacesDescription" set-method="setPlacesDescription"/>
+    <value style="element" name="OriginCriterionCode" get-method="getOriginCriterionCode" set-method="setOriginCriterionCode" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <collection get-method="getGoodsInvoiceList" set-method="setGoodsInvoiceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="GoodsInvoice"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sst:SertifInfType" class="ru.acs.fts.schemas.album.sertifst1form.SertifInfType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="FIO" get-method="getFIO" set-method="setFIO" usage="optional"/>
+    <value style="element" name="SignPlace" get-method="getSignPlace" set-method="setSignPlace"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPlace" set-method="setPlace" name="Place"/>
+  </mapping>
+</binding>

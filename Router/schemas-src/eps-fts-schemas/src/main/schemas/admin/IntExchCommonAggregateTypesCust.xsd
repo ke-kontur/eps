@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" version="4.6.0.0" elementFormDefault="qualified" targetNamespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+   <xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+   <xs:complexType name="BaseDocType">
+      <xs:annotation>
+         <xs:documentation>Базовый тип для электронного документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="DocumentID" type="IEclt_ru:DocumentIDType">
+            <xs:annotation>
+               <xs:documentation>Уникальный идентификатор документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RefDocumentID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Уникальный идентификатор исходного документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

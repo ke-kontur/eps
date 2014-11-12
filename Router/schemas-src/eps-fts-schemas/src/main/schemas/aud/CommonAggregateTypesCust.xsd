@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="4.1.0.0" elementFormDefault="qualified" targetNamespace="urn:customs.ru:CommonAggregateTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd" />
+   <xs:annotation>
+      <xs:documentation>Общие сложные прикладные типы.</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="BaseDocType">
+      <xs:annotation>
+         <xs:documentation>Базовый тип для электронного документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="DocumentID" type="clt_ru:DocumentIDType">
+            <xs:annotation>
+               <xs:documentation>Уникальный идентификатор документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RefDocumentID" type="clt_ru:DocumentIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Уникальный идентификатор исходного документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="GTDIDType">
+      <xs:annotation>
+         <xs:documentation>Регистрационный номер таможенного документа. Применяется для всех документов имеющих структуру номера, совпадающую с со структурой номера ГТД.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="CustomsCode" type="clt_ru:CustomsCodeType">
+            <xs:annotation>
+               <xs:documentation>Код таможенного органа, зарегистрировавшего документ.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RegistrationDate" type="clt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата регистрации документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GTDNumber" type="clt_ru:GTDIDType">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер документа по журналу регистрации.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

@@ -1,0 +1,21 @@
+<binding xmlns:poisub="urn:customs.ru:Information:SQDocuments:RosPrirodPoisonousSubstances:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPrirodPoisonousSubstances:5.4.0" default="elements" prefix="poisub"/>
+  <mapping abstract="true" type-name="poisub:RosPrirodPoisonousSubstancesType" class="ru.acs.fts.schemas.album.rosprirodpoisonoussubstances.RosPrirodPoisonousSubstancesType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocumentId" get-method="getDocumentId" set-method="setDocumentId"/>
+    <value style="element" name="Info" get-method="getInfo" set-method="setInfo" usage="optional"/>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED" usage="optional"/>
+    <value style="element" name="AuthorizedPerson" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional"/>
+    <structure map-as="sq_cat:ConclusionType" get-method="getConclusion" set-method="setConclusion" usage="optional" name="Conclusion"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getSender" set-method="setSender" usage="optional" name="Sender"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getReceiver" set-method="setReceiver" usage="optional" name="Receiver"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getCount" set-method="setCount" name="Count"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rosprirodpoisonoussubstances.RosPrirodPoisonousSubstancesType" name="RosPrirodPoisonousSubstances">
+    <structure map-as="poisub:RosPrirodPoisonousSubstancesType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,45 @@
+<binding xmlns:sur_res="urn:customs.ru:Information:SEMDocuments:SEM_SURResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SEMDocuments:SEM_SURResponse:5.4.0" default="elements" prefix="sur_res"/>
+  <mapping abstract="true" type-name="sur_res:SEM_SURResponseType" class="ru.acs.fts.schemas.album.sem_surresponse.SEMSURResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGtdRegNumber" set-method="setGtdRegNumber" name="GtdRegNumber"/>
+    <collection get-method="getRiskProfileRegNumberList" set-method="setRiskProfileRegNumberList" create-type="java.util.ArrayList">
+      <structure map-as="sur_res:RiskProfileType" name="RiskProfileRegNumber"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sem_surresponse.SEMSURResponseType" name="SEM_SURResponse">
+    <structure map-as="sur_res:SEM_SURResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sur_res:DTFieldDescriptionMarkUpType" class="ru.acs.fts.schemas.album.sem_surresponse.DTFieldDescriptionMarkUpType">
+    <value style="element" name="DTFieldName" get-method="getDTFieldName" set-method="setDTFieldName"/>
+    <collection get-method="getMarkupList" set-method="setMarkupList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="Markup"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sur_res:GoodsType" class="ru.acs.fts.schemas.album.sem_surresponse.GoodsType">
+    <structure map-as="sem_cat:ResultGoodsType"/>
+    <value style="element" name="ProfileIndex" get-method="getProfileIndex" set-method="setProfileIndex"/>
+    <value style="element" name="Relevance" get-method="getRelevance" set-method="setRelevance"/>
+    <value style="element" name="RiskDetected" get-method="getRiskDetected" set-method="setRiskDetected"/>
+    <value style="element" name="Threshold" get-method="getThreshold" set-method="setThreshold"/>
+    <collection get-method="getDTFieldDescriptionMarkUpList" set-method="setDTFieldDescriptionMarkUpList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sur_res:DTFieldDescriptionMarkUpType" name="DTFieldDescriptionMarkUp"/>
+    </collection>
+    <collection get-method="getRiskProfileDescriptionMarkUpList" set-method="setRiskProfileDescriptionMarkUpList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sur_res:RiskProfileDescriptionMarkUpType" name="RiskProfileDescriptionMarkUp"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sur_res:RiskProfileDescriptionMarkUpType" class="ru.acs.fts.schemas.album.sem_surresponse.RiskProfileDescriptionMarkUpType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <collection get-method="getMarkupList" set-method="setMarkupList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:MarkUpType" name="Markup"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sur_res:RiskProfileType" class="ru.acs.fts.schemas.album.sem_surresponse.RiskProfileType">
+    <structure map-as="sem_cat:RiskProfileRegNumberType"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="sur_res:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+</binding>

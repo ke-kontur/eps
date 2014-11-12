@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetDocumentRequest:4.2.2" version="4.2.2.0" xmlns:audreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetDocumentRequest:4.2.2" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос на поиск и извлечение документа (документов) архива.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_GetDocumentRequest" type="audreq:AUD_GetDocumentRequestType"/>
+   <xs:complexType name="AUD_GetDocumentRequestType">
+      <xs:annotation>
+         <xs:documentation>Запрос на поиск и извлечение документа (документов) архива.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:choice>
+                  <xs:element name="DocumentFilter" type="audreq:DocumentFilterType">
+                     <xs:annotation>
+                        <xs:documentation>Параметры поиска документов с использованием фильтров. Использование всех заданных значений фильтров производится с применением логического "И" (искомые документы должны удовлетворять всем заданным критериям и фильтрам).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="DocumentArchiveIdRequestParams" type="audreq:DocumentArchiveIdRequestParamsType">
+                     <xs:annotation>
+                        <xs:documentation>Параметры запроса документа по архивному идентификатору.</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+               </xs:choice>
+               <xs:element name="DocumentDataPresenceInfo" type="catAUD_ru:AUD_DocumentDataPresenceInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Признаки необходимости предоставления отдельных данных, связанных с документом.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010005E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="DocumentArchiveIdRequestParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры запроса документа по архивному идентификатору.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный идентификатор документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="DocumentVersionsRequirements" type="cltAUD_ru:AUD_DocumentVersionsRequestType">
+            <xs:annotation>
+               <xs:documentation>Указывает, какие версии документа с заданным архивным идентификатором требуется предоставить. Если значение не указано - предоставляется только документ с архивным идентификатором, указанным в элементе ArchiveDocumentId. Если указано значение 'all_versions' - предоставляются все версии документа, прежние и более новые. Если указано значение 'last_version' - предоставляется только последняя (актуальная) версия.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="DocumentAttributesFilterType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра на реквизиты документа. Должен быть указан вид искомых документов (идентификатор вида и идентификатор версии вида), который определяет перечень возможных реквизитов, на которые может быть наложен фильтр.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="AppliedDocumentKindId" type="cltAUD_ru:AUD_AppliedDocumentKindIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="AppliedDocumentKindVersionId" type="cltAUD_ru:AUD_AppliedDocumentKindVersionIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="AttributeFilterParams" type="catAUD_ru:AUD_AttributeFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на реквизит документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="AppliedGTDID" type="catAUD_ru:AUD_DTFilterType">
+            <xs:annotation>
+               <xs:documentation>Регистрационный номер ДТ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="AppliedPacketID" type="catAUD_ru:AUD_StringFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на прикладной идентификатор пакета. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="DocumentFilterType">
+      <xs:annotation>
+         <xs:documentation>Параметры поиска документов с использованием фильтров.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="DocumentAttributesFilter" type="audreq:DocumentAttributesFilterType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на реквизиты документа. Должен быть указан вид искомых документов (идентификатор вида и идентификатор версии вида), который определяет перечень возможных реквизитов, на которые может быть наложен фильтр.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentContentsFilter" type="catAUD_ru:AUD_StringFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на содержимое (текст) документа. Значение типа "string" (строка). Допустимые операторы: like.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentDescriptionFilter" type="catAUD_ru:AUD_StringFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на описание документа. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentPutDateTimeFilter" type="catAUD_ru:AUD_DateTimeFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на дату и время размещения документа в архиве - значение типа "datetime" (дата и время). Допустимые операторы: equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal. Значения фильтра должны быть представлены с указанием смещения (значения локального времени относительно всемирного времени).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="AppliedDocumentId" type="catAUD_ru:AUD_StringFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Параметры фильтра на прикладной идентификатор документа. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

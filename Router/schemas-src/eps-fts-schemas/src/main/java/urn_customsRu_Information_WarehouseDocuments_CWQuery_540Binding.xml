@@ -1,0 +1,29 @@
+<binding xmlns:cwqr="urn:customs.ru:Information:WarehouseDocuments:CWQuery:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CWQuery:5.4.0" default="elements" prefix="cwqr"/>
+  <mapping abstract="true" type-name="cwqr:CWQueryType" class="ru.acs.fts.schemas.album.cwquery.CWQueryType">
+    <structure map-as="catWH_ru:CWDocType"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cwqr:DocumentType" name="Document"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cwquery.CWQueryType" name="CWQuery">
+    <structure map-as="cwqr:CWQueryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwqr:DocumentType" class="ru.acs.fts.schemas.album.cwquery.DocumentType">
+    <value style="element" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="cwqr:PeriodType" test-method="ifPeriod" get-method="getPeriod" set-method="setPeriod" usage="optional" name="Period"/>
+      <structure map-as="cwqr:NumbersType" test-method="ifNumbers" get-method="getNumbers" set-method="setNumbers" usage="optional" name="Numbers"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="cwqr:NumbersType" class="ru.acs.fts.schemas.album.cwquery.NumbersType">
+    <collection get-method="getDocumentNumberList" set-method="setDocumentNumberList" create-type="java.util.ArrayList">
+      <value style="element" name="DocumentNumbers" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cwqr:PeriodType" class="ru.acs.fts.schemas.album.cwquery.PeriodType">
+    <value style="element" name="PeriodBegin" get-method="getPeriodBegin" set-method="setPeriodBegin" format="LocalDate.default"/>
+    <value style="element" name="PeriodEnd" get-method="getPeriodEnd" set-method="setPeriodEnd" format="LocalDate.default"/>
+  </mapping>
+</binding>

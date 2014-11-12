@@ -1,0 +1,58 @@
+<binding xmlns:rktsg="urn:customs.ru:Information:ExchangeDocuments:ReqCorrectPayment:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ReqCorrectPayment:5.4.1" default="elements" prefix="rktsg"/>
+  <mapping abstract="true" type-name="rktsg:ReqCorrectPaymentType" class="ru.acs.fts.schemas.album.reqcorrectpayment.ReqCorrectPaymentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ResolDate" get-method="getResolDate" set-method="setResolDate" format="LocalDate.default"/>
+    <value style="element" name="OfficeName" get-method="getOfficeName" set-method="setOfficeName"/>
+    <value style="element" name="DeclName" get-method="getDeclName" set-method="setDeclName"/>
+    <value style="element" name="DateLimitPriorRelease" get-method="getDateLimitPriorRelease" set-method="setDateLimitPriorRelease" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DateLimitAfterRelease" get-method="getDateLimitAfterRelease" set-method="setDateLimitAfterRelease" usage="optional"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <collection get-method="getKTSGoodList" set-method="setKTSGoodList" create-type="java.util.ArrayList">
+      <structure map-as="rktsg:KTSGoodsType" name="KTSGoods"/>
+    </collection>
+    <collection get-method="getValuationCustCostList" set-method="setValuationCustCostList" create-type="java.util.ArrayList">
+      <structure map-as="rktsg:ValuationCustCostType" name="ValuationCustCost"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="rktsg:SignatureInfType" get-method="getReceivingResolution" set-method="setReceivingResolution" usage="optional" name="ReceivingResolution"/>
+    <structure map-as="rktsg:SignatureInfType" get-method="getSendResolution" set-method="setSendResolution" usage="optional" name="SendResolution"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqcorrectpayment.ReqCorrectPaymentType" name="ReqCorrectPayment">
+    <structure map-as="rktsg:ReqCorrectPaymentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rktsg:DeclarationChangesType" class="ru.acs.fts.schemas.album.reqcorrectpayment.DeclarationChangesType">
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <collection get-method="getPreviousDataList" set-method="setPreviousDataList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PreviousData" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getModifiedDataList" set-method="setModifiedDataList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ModifiedData" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rktsg:KTSGoodsType" class="ru.acs.fts.schemas.album.reqcorrectpayment.KTSGoodsType">
+    <value style="element" name="NumberGood" get-method="getNumberGood" set-method="setNumberGood"/>
+    <collection get-method="getRationaleList" set-method="setRationaleList" create-type="java.util.ArrayList">
+      <value style="element" name="Rationale" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rktsg:SignatureInfType" class="ru.acs.fts.schemas.album.reqcorrectpayment.SignatureInfType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="rktsg:ValuationCustCostType" class="ru.acs.fts.schemas.album.reqcorrectpayment.ValuationCustCostType">
+    <value style="element" name="NumberGood" get-method="getNumberGood" set-method="setNumberGood"/>
+    <value style="element" name="ArtAgreement" get-method="getArtAgreement" set-method="setArtAgreement" usage="optional"/>
+    <value style="element" name="CustCostGoods" get-method="getCustCostGoods" set-method="setCustCostGoods"/>
+    <collection get-method="getSourceInfList" set-method="setSourceInfList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SourceInf" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MethodNumber" get-method="getMethodNumber" set-method="setMethodNumber"/>
+    <collection get-method="getDeclarationChangeList" set-method="setDeclarationChangeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rktsg:DeclarationChangesType" name="DeclarationChanges"/>
+    </collection>
+  </mapping>
+</binding>

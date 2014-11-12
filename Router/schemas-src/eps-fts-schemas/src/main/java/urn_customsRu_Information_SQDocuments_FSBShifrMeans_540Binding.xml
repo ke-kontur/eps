@@ -1,0 +1,23 @@
+<binding xmlns:shfrmn="urn:customs.ru:Information:SQDocuments:FSBShifrMeans:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:FSBShifrMeans:5.4.0" default="elements" prefix="shfrmn"/>
+  <mapping abstract="true" type-name="shfrmn:FSBShifrMeansType" class="ru.acs.fts.schemas.album.fsbshifrmeans.FSBShifrMeansType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="Sign" get-method="getSign" set-method="setSign"/>
+    <value style="element" name="CountryOrigin" get-method="getCountryOrigin" set-method="setCountryOrigin"/>
+    <value style="element" name="Info" get-method="getInfo" set-method="setInfo"/>
+    <value style="element" name="AuthorizedPerson" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson"/>
+    <structure map-as="sq_cat:DocumentType" get-method="getConclusionDescription" set-method="setConclusionDescription" name="ConclusionDescription"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getName" set-method="setName" name="Name"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getManufacturerName" set-method="setManufacturerName" name="ManufacturerName"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="sq_cat:DocumentType" get-method="getContractDescription" set-method="setContractDescription" name="ContractDescription"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getAddQuantity" set-method="setAddQuantity" name="AddQuantity"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.fsbshifrmeans.FSBShifrMeansType" name="FSBShifrMeans">
+    <structure map-as="shfrmn:FSBShifrMeansType"/>
+  </mapping>
+</binding>

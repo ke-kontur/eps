@@ -1,0 +1,39 @@
+<binding xmlns:ediac="urn:customs.ru:Information:SertifDocuments:ExportDiamondsCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:ExportDiamondsCertificate:5.4.0" default="elements" prefix="ediac"/>
+  <mapping abstract="true" type-name="ediac:ExportDiamondsCertificateType" class="ru.acs.fts.schemas.album.exportdiamondscertificate.ExportDiamondsCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ExpiryDate" get-method="getExpiryDate" set-method="setExpiryDate" format="LocalDate.default"/>
+    <structure map-as="ediac:OrganizationInfoType" get-method="getExporterInfo" set-method="setExporterInfo" name="ExporterInfo"/>
+    <structure map-as="ediac:OrganizationInfoType" get-method="getRecipient" set-method="setRecipient" name="Recipient"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractInfo" set-method="setContractInfo" name="ContractInfo"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsControler" set-method="setCustomsControler" name="CustomsControler"/>
+    <structure map-as="ediac:DiamondsInfoType" get-method="getDiamondsInfo" set-method="setDiamondsInfo" name="DiamondsInfo"/>
+    <structure map-as="ediac:CertificateNumberType" get-method="getCertificateNumber" set-method="setCertificateNumber" name="CertificateNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.exportdiamondscertificate.ExportDiamondsCertificateType" name="ExportDiamondsCertificate">
+    <structure map-as="ediac:ExportDiamondsCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ediac:CertificateNumberType" class="ru.acs.fts.schemas.album.exportdiamondscertificate.CertificateNumberType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ediac:DiamondsInfoType" class="ru.acs.fts.schemas.album.exportdiamondscertificate.DiamondsInfoType">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <value style="element" name="TotalDiamodsCost" get-method="getTotalDiamodsCost" set-method="setTotalDiamodsCost"/>
+    <value style="element" name="TotalDiamondsWeight" get-method="getTotalDiamondsWeight" set-method="setTotalDiamondsWeight"/>
+    <value style="element" name="PlaceNumber" get-method="getPlaceNumber" set-method="setPlaceNumber" usage="optional"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ediac:OrganizationInfoType" class="ru.acs.fts.schemas.album.exportdiamondscertificate.OrganizationInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+    <value style="element" name="CountryCodeN" get-method="getCountryCodeN" set-method="setCountryCodeN"/>
+    <value style="element" name="CountryCodeA" get-method="getCountryCodeA" set-method="setCountryCodeA"/>
+  </mapping>
+</binding>

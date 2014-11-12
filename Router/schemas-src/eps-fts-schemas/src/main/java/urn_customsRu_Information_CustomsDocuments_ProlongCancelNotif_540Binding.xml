@@ -1,0 +1,29 @@
+<binding xmlns:prcn="urn:customs.ru:Information:CustomsDocuments:ProlongCancelNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ProlongCancelNotif:5.4.0" default="elements" prefix="prcn"/>
+  <mapping abstract="true" type-name="prcn:ProlongCancelNotifType" class="ru.acs.fts.schemas.album.prolongcancelnotif.ProlongCancelNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ProlongDate" get-method="getProlongDate" set-method="setProlongDate" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reasons" type="java.lang.String"/>
+    </collection>
+    <structure map-as="prcn:ApplicationRegNumberType" get-method="getApplicationRegNumber" set-method="setApplicationRegNumber" name="ApplicationRegNumber"/>
+    <structure map-as="prcn:ApplicantType" get-method="getApplicant" set-method="setApplicant" usage="optional" name="Applicant"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.prolongcancelnotif.ProlongCancelNotifType" name="ProlongCancelNotif">
+    <structure map-as="prcn:ProlongCancelNotifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="prcn:ApplicantType" class="ru.acs.fts.schemas.album.prolongcancelnotif.ApplicantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getOEZResidentCertif" set-method="setOEZResidentCertif" usage="optional" name="OEZ_ResidentCertif"/>
+  </mapping>
+  <mapping abstract="true" type-name="prcn:ApplicationRegNumberType" class="ru.acs.fts.schemas.album.prolongcancelnotif.ApplicationRegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+</binding>

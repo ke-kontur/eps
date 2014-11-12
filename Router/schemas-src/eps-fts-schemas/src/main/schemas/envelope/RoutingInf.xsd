@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="urn:customs.ru:Envelope:RoutingInf:1.0" elementFormDefault="qualified" version="1.0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:roi="urn:customs.ru:Envelope:RoutingInf:1.0">
+	<xs:annotation>
+		<xs:documentation>Заголовок конверта. Информация для маршрутизации сообщений</xs:documentation>
+	</xs:annotation>
+	<xs:element name="RoutingInf" type="roi:RoutingInfType"/>
+	<xs:complexType name="RoutingInfType">
+		<xs:annotation>
+			<xs:documentation>Информация для маршрутизации сообщений</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="EnvelopeID" type="xs:anyURI">
+				<xs:annotation>
+					<xs:documentation>Транспортный идентификатор конверта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="InitialEnvelopeID" type="xs:anyURI" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Транспортный идентификатор исходного конверта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SenderInformation" type="xs:anyURI">
+				<xs:annotation>
+					<xs:documentation>Информация об отправителе.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReceiverInformation" type="xs:anyURI" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Информация о получателе.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PreparationDateTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Дата и время создания электронного сообщения. Время указывается по Гринвичу.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Priority" type="roi:PriorityType" default="4" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Приоритет сообщения. (0 - низкий - 9 - высокий). Значение по умлочанию - 4</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Expiration" type="xs:unsignedInt" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Время жизни сообщения  в минутах.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ConfirmationRequest" type="roi:ConfirmationRequestType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Запрос уведомлений</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationRequestType">
+		<xs:annotation>
+			<xs:documentation>Запрос уведомлений</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="COD" type="roi:ConfirmType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Запрос уведомления о доставке</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="ConfirmType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PriorityType">
+		<xs:annotation>
+			<xs:documentation>Числовой. Значения от 0 до 9.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

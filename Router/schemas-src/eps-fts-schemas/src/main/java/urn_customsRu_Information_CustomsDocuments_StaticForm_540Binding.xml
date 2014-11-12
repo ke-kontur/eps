@@ -1,0 +1,54 @@
+<binding xmlns:statf="urn:customs.ru:Information:CustomsDocuments:StaticForm:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:StaticForm:5.4.0" default="elements" prefix="statf"/>
+  <mapping abstract="true" type-name="statf:StaticFormType" class="ru.acs.fts.schemas.album.staticform.StaticFormType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+    <value style="element" name="ReportingDate" get-method="getReportingDate" set-method="setReportingDate"/>
+    <value style="element" name="NSF" get-method="getNSF" set-method="setNSF"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="statf:FinancialAdjustingResponsiblePersonType" get-method="getFinancialAdjustingResponsiblePerson" set-method="setFinancialAdjustingResponsiblePerson" name="FinancialAdjustingResponsiblePerson"/>
+    <structure map-as="statf:CountryInfoType" get-method="getTradeCountry" set-method="setTradeCountry" name="TradeCountry"/>
+    <structure map-as="statf:CountryInfoType" get-method="getDispatchCountry" set-method="setDispatchCountry" name="DispatchCountry"/>
+    <structure map-as="statf:CountryInfoType" get-method="getDestinationCountry" set-method="setDestinationCountry" name="DestinationCountry"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Documents"/>
+    </collection>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="statf:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <structure map-as="statf:ProvidePersonType" get-method="getProvidePerson" set-method="setProvidePerson" name="ProvidePerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.staticform.StaticFormType" name="StaticForm">
+    <structure map-as="statf:StaticFormType"/>
+  </mapping>
+  <mapping abstract="true" type-name="statf:CountryInfoType" class="ru.acs.fts.schemas.album.staticform.CountryInfoType">
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="statf:FinancialAdjustingResponsiblePersonType" class="ru.acs.fts.schemas.album.staticform.FinancialAdjustingResponsiblePersonType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="statf:GoodsInfoType" class="ru.acs.fts.schemas.album.staticform.GoodsInfoType">
+    <value style="element" name="CustCostCurrencyCode" get-method="getCustCostCurrencyCode" set-method="setCustCostCurrencyCode"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost"/>
+    <value style="element" name="StatisticalCostRUB" get-method="getStatisticalCostRUB" set-method="setStatisticalCostRUB"/>
+    <value style="element" name="StatisticalCostUSD" get-method="getStatisticalCostUSD" set-method="setStatisticalCostUSD"/>
+    <structure map-as="statf:CountryInfoType" get-method="getOriginCountry" set-method="setOriginCountry" name="OriginCountry"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="statf:ProvidePersonType" class="ru.acs.fts.schemas.album.staticform.ProvidePersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="ExecutionDate" get-method="getExecutionDate" set-method="setExecutionDate" format="LocalDate.default"/>
+    <value style="element" name="ContactPhone" get-method="getContactPhone" set-method="setContactPhone"/>
+    <value style="element" name="Email" get-method="getEmail" set-method="setEmail" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+</binding>

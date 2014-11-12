@@ -1,0 +1,38 @@
+<binding xmlns:c_inv="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialInvoice:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialInvoice:5.4.0" default="elements" prefix="c_inv"/>
+  <mapping abstract="true" type-name="c_inv:CommercialInvoiceType" class="ru.acs.fts.schemas.album.commercialinvoice.CommercialInvoiceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="TaxSum" get-method="getTaxSum" set-method="setTaxSum"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getBuyer" set-method="setBuyer" name="Buyer"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getSeller" set-method="setSeller" name="Seller"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <collection get-method="getInvoiceGoodList" set-method="setInvoiceGoodList" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:RussianInvoiceGoodsType" name="InvoiceGoods"/>
+    </collection>
+    <collection get-method="getPayDocsRegistrationList" set-method="setPayDocsRegistrationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="PayDocsRegistration"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="c_inv:IndividualEntrepreneurType" test-method="ifIndividualEntrepreneur" get-method="getIndividualEntrepreneur" set-method="setIndividualEntrepreneur" usage="optional" name="IndividualEntrepreneur"/>
+      <structure map-as="c_inv:SignatureDirectorChiefAccountantType" test-method="ifSignatureDirectorChiefAccountant" get-method="getSignatureDirectorChiefAccountant" set-method="setSignatureDirectorChiefAccountant" usage="optional" name="SignatureDirectorChiefAccountant"/>
+    </structure>
+    <structure map-as="catComFin_ru:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.commercialinvoice.CommercialInvoiceType" name="CommercialInvoice">
+    <structure map-as="c_inv:CommercialInvoiceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="c_inv:IndividualEntrepreneurType" class="ru.acs.fts.schemas.album.commercialinvoice.IndividualEntrepreneurType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="OGRNID" get-method="getOGRNID" set-method="setOGRNID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="c_inv:SignatureDirectorChiefAccountantType" class="ru.acs.fts.schemas.album.commercialinvoice.SignatureDirectorChiefAccountantType">
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDirector" set-method="setDirector" name="Director"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getChiefAccountant" set-method="setChiefAccountant" name="ChiefAccountant"/>
+  </mapping>
+</binding>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- 
+	<bean id="errorQueue" class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+		<property name="destination" ref="jndiErrorRecvQueue" />
+		<property name="jmsTemplate" ref="jmsTemplateToErrorQueue" />
+		<property name="description" value="Ошибочная очередь!" />
+	</bean>
+	-->
+	<!-- В свойство destination выставить подходящий бин очереди -->
+	<!-- 
+	<bean id="defaultEpsDestination" class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+		<property name="destination" ref="jndiEPS5100EpsFrom" /> 
+		<property name="jmsTemplate" ref="jmsTemplateRouter" />
+		<property name="description" value="WLS(local):DEFAULT.EPS.DESTINATION" />
+	</bean>
+	-->
+
+	<!-- Dispatchers -->
+	
+	<!-- 
+	<bean id="declDispatcher" class="ru.acs.fts.eps2.balancer.dispatch.BalancableDispatcher" >
+		<property name="balancer" ref="declarantBalancer" />
+		<property name="errorQueue" ref="errorQueue" />
+	</bean>
+	
+	<bean id="customsDispatcher" class="ru.acs.fts.eps2.balancer.dispatch.BalancableDispatcher" >
+		<property name="balancer" ref="customsBalancer" />
+		<property name="errorQueue" ref="errorQueue" />
+	</bean>
+	
+    <bean id="eadDispatcher" class="ru.acs.fts.eps2.balancer.dispatch.BalancableDispatcher" >
+    	<property name="balancer" ref="eadBalancer" />
+		<property name="errorQueue" ref="errorQueue" />
+    </bean>	
+
+    <bean id="epsDispatcher" class="ru.acs.fts.eps2.balancer.dispatch.BalancableDispatcher">
+    	<property name="balancer" ref="epsBalancer" />
+		<property name="errorQueue" ref="errorQueue" />
+    </bean>
+
+    <bean id="adminDispatcher" class="ru.acs.fts.eps2.balancer.dispatch.BalancableDispatcher" >
+    	<property name="balancer" ref="adminBalancer" />
+		<property name="errorQueue" ref="errorQueue" />
+    </bean>
+    -->
+
+
+</beans>

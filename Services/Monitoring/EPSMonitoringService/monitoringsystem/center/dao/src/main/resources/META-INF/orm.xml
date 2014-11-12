@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd" version="1.0">
+  <entity class="ru.acs.monitoring.domain.Connection" /> 
+  <entity class="ru.acs.monitoring.domain.MonitoringInf" />
+  <entity class="ru.acs.monitoring.domain.MonitoringInfoData" />
+  <entity class="ru.acs.monitoring.domain.MessageKind" />
+  <entity class="ru.acs.monitoring.domain.MessageProcessingStat" />
+  <entity class="ru.acs.monitoring.domain.MessageProcessingSystem" />
+  <entity class="ru.acs.monitoring.domain.Timer" />
+  
+</entity-mappings>

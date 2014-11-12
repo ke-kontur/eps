@@ -1,0 +1,78 @@
+<binding xmlns:foivrq="urn:customs.ru:Information:SQDocuments:FOIVRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:FOIVRequest:5.4.0" default="elements" prefix="foivrq"/>
+  <mapping abstract="true" type-name="foivrq:FOIVRequestType" class="ru.acs.fts.schemas.album.foivrequest.FOIVRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+    <value style="element" name="StartDateTime" get-method="getStartDateTime" set-method="setStartDateTime" usage="optional"/>
+    <value style="element" name="EndDateTime" get-method="getEndDateTime" set-method="setEndDateTime" usage="optional"/>
+    <value style="element" name="Period" get-method="getPeriod" set-method="setPeriod" usage="optional"/>
+    <value style="element" name="PermitCode" get-method="getPermitCode" set-method="setPermitCode" usage="optional"/>
+    <value style="element" name="ResponseStatus" get-method="getResponseStatus" set-method="setResponseStatus" usage="optional"/>
+    <value style="element" name="ResponseInfo" get-method="getResponseInfo" set-method="setResponseInfo" usage="optional"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="foivrq:TransportType" name="Transport"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocument" set-method="setDocument" usage="optional" name="Document"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="foivrq:InspectionInfoType" test-method="ifInspectionInfo" get-method="getInspectionInfo" set-method="setInspectionInfo" usage="optional" name="InspectionInfo"/>
+      <structure map-as="foivrq:CheckRequestDataType" test-method="ifCheckRequestData" get-method="getCheckRequestData" set-method="setCheckRequestData" usage="optional" name="CheckRequestData"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.foivrequest.FOIVRequestType" name="FOIVRequest">
+    <structure map-as="foivrq:FOIVRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:AutoTrainType" class="ru.acs.fts.schemas.album.foivrequest.AutoTrainType">
+    <value style="element" name="TotalWeight" get-method="getTotalWeight" set-method="setTotalWeight"/>
+    <value style="element" name="Length" get-method="getLength" set-method="setLength"/>
+    <value style="element" name="Width" get-method="getWidth" set-method="setWidth"/>
+    <value style="element" name="Height" get-method="getHeight" set-method="setHeight"/>
+    <collection get-method="getAxisLoadList" set-method="setAxisLoadList" create-type="java.util.ArrayList">
+      <value style="element" name="AxisLoads" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getAxisInvervalList" set-method="setAxisInvervalList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AxisInvervals" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:CheckRequestDataType" class="ru.acs.fts.schemas.album.foivrequest.CheckRequestDataType">
+    <structure map-as="cat_ru:CUCustomsType" get-method="getPost" set-method="setPost" name="Post"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <structure map-as="foivrq:AutoTrainType" get-method="getAutoTrain" set-method="setAutoTrain" name="AutoTrain"/>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:GoodsInfoType" class="ru.acs.fts.schemas.album.foivrequest.GoodsInfoType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="NameENG" get-method="getNameENG" set-method="setNameENG" usage="optional"/>
+    <value style="element" name="ProductGuid" get-method="getProductGuid" set-method="setProductGuid" usage="optional"/>
+    <value style="element" name="UUID" get-method="getUUID" set-method="setUUID"/>
+    <structure map-as="foivrq:QuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="foivrq:PackingInfoType" get-method="getPackingInfo" set-method="setPackingInfo" usage="optional" name="PackingInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:InspectionInfoType" class="ru.acs.fts.schemas.album.foivrequest.InspectionInfoType">
+    <value style="element" name="TransferKind" get-method="getTransferKind" set-method="setTransferKind"/>
+    <value style="element" name="StartDateTime" get-method="getStartDateTime" set-method="setStartDateTime"/>
+    <value style="element" name="Enterprise" get-method="getEnterprise" set-method="setEnterprise"/>
+    <value style="element" name="BusinessEntity" get-method="getBusinessEntity" set-method="setBusinessEntity"/>
+    <value style="element" name="DestinationPoint" get-method="getDestinationPoint" set-method="setDestinationPoint"/>
+    <value style="element" name="BorderInspectionPoint" get-method="getBorderInspectionPoint" set-method="setBorderInspectionPoint"/>
+    <value style="element" name="ShipmentType" get-method="getShipmentType" set-method="setShipmentType" usage="optional"/>
+    <value style="element" name="ImporterCountry" get-method="getImporterCountry" set-method="setImporterCountry" usage="optional"/>
+    <structure map-as="foivrq:GoodsInfoType" get-method="getGoodsInfo" set-method="setGoodsInfo" name="GoodsInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getPermission" set-method="setPermission" usage="optional" name="Permission"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getVetCertificate" set-method="setVetCertificate" usage="optional" name="VetCertificate"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getWaybill" set-method="setWaybill" usage="optional" name="Waybill"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getInspector" set-method="setInspector" name="Inspector"/>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:PackingInfoType" class="ru.acs.fts.schemas.album.foivrequest.PackingInfoType">
+    <value style="element" name="UUID" get-method="getUUID" set-method="setUUID"/>
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:QuantityType" class="ru.acs.fts.schemas.album.foivrequest.QuantityType">
+    <structure map-as="cat_ru:SupplementaryQuantityType"/>
+    <value style="element" name="UUID" get-method="getUUID" set-method="setUUID"/>
+  </mapping>
+  <mapping abstract="true" type-name="foivrq:TransportType" class="ru.acs.fts.schemas.album.foivrequest.TransportType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Хранилище пакетов задач для обработки сообщений с другой электрички -->
+	<bean id="epsJobBatchWarehouse" class="ru.acs.fts.eps2.router.processing.EDJobBatchWarehouse">
+		<property name="selectors">
+			<list >
+			
+				<!-- ADM.00001 ( Порядок важен ! ) -->
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00001_cmn13001" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00001" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.13001</value>
+									<value>CMN.13005</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00001_oezDestr" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00001" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.10070</value>
+									<value>CMN.10071</value>
+									<value>CMN.10075</value>
+									<value>CMN.10076</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00001" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00001" />
+						</bean>
+					</property>
+				</bean>
+				<!-- Конец обработки ADM.00001 -->
+
+				<!-- ADM.00004 (Порядок Важен!) -->				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="notification" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00004" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>ADM.00013</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00004" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00004" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.13001</value>
+									<value>CMN.13002</value>
+									<value>CMN.13005</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00004_oez_destr" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00004" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.10070</value>
+									<value>CMN.10071</value>
+									<value>CMN.10075</value>
+									<value>CMN.10076</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00004_generic" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00004" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="emptyJobBatch" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00004" />
+						</bean>
+					</property>
+				</bean>
+				<!-- FIXME: объединить 00006 и 00007 в один ? -->
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00006_msg11022" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00006" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.11012</value>
+									<value>CMN.11034</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00006_msg11023" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00006" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.11010</value>
+									<value>CMN.11020</value>
+									<value>CMN.11033</value>
+									<value>CMN.11042</value>
+									<value>CMN.11043</value>
+									<value>CMN.11093</value>
+									<value>CMN.11094</value>
+									<value>CMN.11101</value>
+									<value>CMN.11117</value>
+									<value>CMN.11118</value>
+									<value>CMN.11123</value>
+									<value>CMN.11124</value>
+									
+									<value>MSG.11023</value>
+									<value>MSG.11035</value>
+									<value>MSG.11024</value>
+									<value>MSG.11050</value>
+									<value>MSG.11051</value>
+									<value>MSG.11054</value>
+									<value>MSG.11064</value>
+									<value>MSG.11065</value>
+									<value>MSG.11068</value>
+									<value>MSG.11069</value>
+									<value>MSG.11070</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00006_cmn11006" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00006" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.11006</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00006_cmn11062" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00006" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>CMN.11062</value>
+									<value>CMN.11075</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="exportImportMsgResponse" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>MSG.11023</value>
+									<value>MSG.11024</value>
+									<value>MSG.11035</value>
+									<value>MSG.11050</value>
+									<value>MSG.11051</value>
+									<value>MSG.11054</value>
+									<value>MSG.11064</value>
+									<value>MSG.11065</value>
+									<value>MSG.11068</value>
+									<value>MSG.11069</value>
+									<value>MSG.11070</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00006_msg11025" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00006" />
+							<property name="initialMessageTypes" >
+								<list>
+									<value>MSG.11025</value>
+									<value>CMN.11029</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00006" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00006" />
+						</bean>
+					</property>
+				</bean>			
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00007" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00007" />
+						</bean>
+					</property>
+				</bean>			
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00008" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00008" />
+						</bean>
+					</property>
+				</bean>			
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm00009" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>ADM.00009</value>
+									<value>ADM.00011</value>
+									<value>ADM.00012</value>
+									<value>ADM.00013</value>
+									<value>ADM.00014</value>
+									<value>ADM.00015</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>			
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="adm00010" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.00010" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="emptyJobBatch" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>CMN.00001</value>
+									<value>CMN.00002</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>	
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="cmn00004" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes">
+    							<list>
+    								<value>CMN.00001</value>
+    								<value>CMN.00004</value>
+    							</list>
+    						</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm11020" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>ADM.11020</value>
+									<value>ADM.11059</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11022remoteEps" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11022" />
+							<property name="remotenessType" value="LOCAL_EPS" />
+							<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="cmn11062RemoteIn" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>CMN.11062</value>
+									<value>CMN.11075</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11029Remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11029" />
+							<property name="remotenessType" value="LOCAL_EPS" />
+							<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="transitKastoToKasto" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>MSG.11001</value>
+									<value>MSG.11021</value>
+									<value>MSG.11028</value>
+									<value>MSG.11029</value>
+									<value>MSG.11030</value>
+									<value>MSG.11032</value>
+									<value>MSG.11033</value>
+									<value>MSG.11063</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg13007RemoteIn" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.13007" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="pvr00001" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="PVR.00001" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="pvr00002" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="PVR.00002" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11026RemoteIn" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11026" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+<!-- 					<property name="jobBatch" ref="transitBusinessProcess" /> -->
+					<property name="jobBatch" ref="msg11052" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+<!-- 									<value>CMN.11092</value> -->
+									<value>MSG.11052</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="cmn11092" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>CMN.11092</value>
+<!-- 									<value>MSG.11052</value> -->
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				
+				<!-- Батчи с множественным выбором -->
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="goodsArrangementInProcRemote" />
+                    <property name="condition">
+                        <bean
+                            class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes" >
+                            	<list>
+									<value>MSG.11055</value>
+									<value>MSG.11056</value>
+									<value>MSG.11057</value>
+									<value>MSG.11067</value>
+                            	</list>
+                            </property>
+						</bean>
+                    </property>
+                </bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="goodsArrangementRemote" />
+                    <property name="condition">
+                        <bean
+                            class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes" >
+                            	<list>
+									<value>MSG.12012</value>
+                            	</list>
+                            </property>
+						</bean>
+                    </property>
+                </bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="goodsArrangementFromPIRemote" />
+                    <property name="condition">
+                        <bean
+                            class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes" >
+                            	<list>
+									<value>MSG.12013</value>
+									<value>MSG.12014</value>
+                            	</list>
+                            </property>
+						</bean>
+                    </property>
+                </bean>
+                
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="tranzitInProcRemotenessRemoteBusinessProcess" />
+                    <property name="condition">
+                        <bean
+                            class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes" >
+                            	<list>
+                            		<value>CMN.11121</value>
+                            	</list>
+                            </property>
+						</bean>
+                    </property>
+                </bean>
+
+				<!-- Простые селекторы с одиночным выбором -->
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm15001" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.15001" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm_asktt2_aistm" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>	
+									<value>ADM.15036</value>
+									<value>ADM.15037</value>
+									<value>ADM.15039</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm_aistm_asktt2" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>	
+									<value>ADM.15035</value>
+									<value>ADM.15038</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm15002" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.15002" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm15005" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.15005" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm15006" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.15006" />
+						</bean>
+					</property>
+				</bean>				
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm15007" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="ADM.15007" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="cmn11006Remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="CMN.11006" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11007Remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11007" />
+						</bean>
+					</property>
+				</bean>				
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11008Remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11008" />
+						</bean>
+					</property>
+				</bean>				
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11020Remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11020" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11025Remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11025" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11027" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11027" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11066_remote" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11066" />
+						</bean>
+					</property>
+				</bean>				
+
+			</list>
+		</property>
+	</bean>
+
+</beans>

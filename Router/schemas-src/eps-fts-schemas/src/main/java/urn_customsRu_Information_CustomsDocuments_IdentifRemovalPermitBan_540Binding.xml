@@ -1,0 +1,17 @@
+<binding xmlns:irpb="urn:customs.ru:Information:CustomsDocuments:IdentifRemovalPermitBan:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:IdentifRemovalPermitBan:5.4.0" default="elements" prefix="irpb"/>
+  <mapping abstract="true" type-name="irpb:IdentifRemovalPermitBanType" class="ru.acs.fts.schemas.album.identifremovalpermitban.IdentifRemovalPermitBanType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+    <value style="element" name="Decision" get-method="getDecision" set-method="setDecision"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getEconomicOperator" set-method="setEconomicOperator" usage="optional" name="EconomicOperator"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsOfficer" set-method="setCustomsOfficer" name="CustomsOfficer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.identifremovalpermitban.IdentifRemovalPermitBanType" name="IdentifRemovalPermitBan">
+    <structure map-as="irpb:IdentifRemovalPermitBanType"/>
+  </mapping>
+</binding>

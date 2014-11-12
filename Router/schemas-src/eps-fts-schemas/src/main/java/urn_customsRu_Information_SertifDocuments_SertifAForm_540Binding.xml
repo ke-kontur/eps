@@ -1,0 +1,63 @@
+<binding xmlns:saf="urn:customs.ru:Information:SertifDocuments:SertifAForm:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0" xmlns:cltSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonLeafTypesCust:5.0.11">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:SertifAForm:5.4.0" default="elements" prefix="saf"/>
+  <mapping abstract="true" type-name="saf:SertifAFormType" class="ru.acs.fts.schemas.album.sertifaform.SertifAFormType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="Route" get-method="getRoute" set-method="setRoute" usage="optional"/>
+    <value style="element" name="SpecialComments" get-method="getSpecialComments" set-method="setSpecialComments" usage="optional"/>
+    <value style="element" name="FilledDate" get-method="getFilledDate" set-method="setFilledDate" format="LocalDate.default"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace"/>
+    <value style="element" name="CountryOriginCode" get-method="getCountryOriginCode" set-method="setCountryOriginCode"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode"/>
+    <value style="element" name="CountryOriginName" get-method="getCountryOriginName" set-method="setCountryOriginName"/>
+    <value style="element" name="DestinationCountryName" get-method="getDestinationCountryName" set-method="setDestinationCountryName"/>
+    <structure map-as="saf:AuthenticationType" get-method="getRegistrationDocument" set-method="setRegistrationDocument" name="RegistrationDocument"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure ordered="false" choice="true">
+      <value style="element" name="ToOrderFlag" test-method="ifToOrderFlag" get-method="getToOrderFlag" set-method="setToOrderFlag" usage="optional"/>
+      <structure map-as="catSert_ru:SertifOrgBaseType" test-method="ifConsigneeName" get-method="getConsigneeName" set-method="setConsigneeName" usage="optional" name="ConsigneeName"/>
+      <structure map-as="saf:ConsigneeCountryType" test-method="ifConsigneeCountry" get-method="getConsigneeCountry" set-method="setConsigneeCountry" usage="optional" name="ConsigneeCountry"/>
+    </structure>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getAnnuledSertifAForm" set-method="setAnnuledSertifAForm" usage="optional" name="AnnuledSertifAForm"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="saf:GoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getInvoiceList" set-method="setInvoiceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Invoice"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getExportSign" set-method="setExportSign" usage="optional" name="ExportSign"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sertifaform.SertifAFormType" name="SertifAForm">
+    <structure map-as="saf:SertifAFormType"/>
+  </mapping>
+  <mapping abstract="true" type-name="saf:AuthenticationType" class="ru.acs.fts.schemas.album.sertifaform.AuthenticationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Agency" get-method="getAgency" set-method="setAgency"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace" usage="optional"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthSign" set-method="setAuthSign" usage="optional" name="AuthSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="saf:ConsigneeCountryType" class="ru.acs.fts.schemas.album.sertifaform.ConsigneeCountryType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="saf:GoodsType" class="ru.acs.fts.schemas.album.sertifaform.GoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="SupplementaryGoodsQuantity" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="SupplementaryMeasureUnitQualifierCode" get-method="getSupplementaryMeasureUnitQualifierCode" set-method="setSupplementaryMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="GoodsPlacesQuantity" get-method="getGoodsPlacesQuantity" set-method="setGoodsPlacesQuantity"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity"/>
+    <value style="element" name="PlacesDescription" get-method="getPlacesDescription" set-method="setPlacesDescription"/>
+    <value style="element" name="Marking" get-method="getMarking" set-method="setMarking" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="OriginCriterionCode" get-method="getOriginCriterionCode" set-method="setOriginCriterionCode" usage="optional" format="cltSert_ru:OriginCriterionCodeType"/>
+    <value style="element" name="PercentPart" get-method="getPercentPart" set-method="setPercentPart" usage="optional"/>
+    <collection get-method="getGoodsInvoiceList" set-method="setGoodsInvoiceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="GoodsInvoice"/>
+    </collection>
+  </mapping>
+</binding>

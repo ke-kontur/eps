@@ -1,0 +1,73 @@
+<binding xmlns:repapp="urn:customs.ru:Information:CustomsDocuments:RepresentativeApplication:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RepresentativeApplication:5.4.0" default="elements" prefix="repapp"/>
+  <mapping abstract="true" type-name="repapp:RepresentativeApplicationType" class="ru.acs.fts.schemas.album.representativeapplication.RepresentativeApplicationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DestinationCountry" get-method="getDestinationCountry" set-method="setDestinationCountry" usage="optional"/>
+    <value style="element" name="TotalGoodsNumber" get-method="getTotalGoodsNumber" set-method="setTotalGoodsNumber" usage="optional"/>
+    <structure map-as="repapp:RepresentativeType" get-method="getRepresentative" set-method="setRepresentative" name="Representative"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" create-type="java.util.ArrayList">
+      <structure map-as="repapp:ConsignmentType" name="Consignment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.representativeapplication.RepresentativeApplicationType" name="RepresentativeApplication">
+    <structure map-as="repapp:RepresentativeApplicationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:ConsigneeType" class="ru.acs.fts.schemas.album.representativeapplication.ConsigneeType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ConsigneeSign" get-method="getConsigneeSign" set-method="setConsigneeSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:ConsignmentType" class="ru.acs.fts.schemas.album.representativeapplication.ConsignmentType">
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+    <value style="element" name="CurrencyRubleRate" get-method="getCurrencyRubleRate" set-method="setCurrencyRubleRate" usage="optional"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <value style="element" name="GoodsCost" get-method="getGoodsCost" set-method="setGoodsCost" usage="optional"/>
+    <value style="element" name="GoodsCostEuro" get-method="getGoodsCostEuro" set-method="setGoodsCostEuro" usage="optional"/>
+    <value style="element" name="GoodsCostRuble" get-method="getGoodsCostRuble" set-method="setGoodsCostRuble" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="repapp:ConsigneeType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="repapp:GoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getWayBillList" set-method="setWayBillList" create-type="java.util.ArrayList">
+      <structure map-as="repapp:WayBillType" name="WayBill"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:CustomsDutiesType" class="ru.acs.fts.schemas.album.representativeapplication.CustomsDutiesType">
+    <value style="element" name="Duties" get-method="getDuties" set-method="setDuties" usage="optional"/>
+    <value style="element" name="Taxes" get-method="getTaxes" set-method="setTaxes" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:GoodsType" class="ru.acs.fts.schemas.album.representativeapplication.GoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GoodsCost" get-method="getGoodsCost" set-method="setGoodsCost"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight"/>
+    <value style="element" name="GoodsCostEuro" get-method="getGoodsCostEuro" set-method="setGoodsCostEuro"/>
+    <value style="element" name="GoodsCostRuble" get-method="getGoodsCostRuble" set-method="setGoodsCostRuble" usage="optional"/>
+    <collection get-method="getGoodsQuantityList" set-method="setGoodsQuantityList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="GoodsQuantity"/>
+    </collection>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="repapp:PresentedDocumentsType" name="PresentedDocuments"/>
+    </collection>
+    <structure map-as="repapp:CustomsDutiesType" get-method="getCustomsDuties" set-method="setCustomsDuties" usage="optional" name="CustomsDuties"/>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:PresentedDocumentsType" class="ru.acs.fts.schemas.album.representativeapplication.PresentedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:RepresentativeType" class="ru.acs.fts.schemas.album.representativeapplication.RepresentativeType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="LicenseNumber" get-method="getLicenseNumber" set-method="setLicenseNumber"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="repapp:WayBillType" class="ru.acs.fts.schemas.album.representativeapplication.WayBillType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="WayBillKind" get-method="getWayBillKind" set-method="setWayBillKind"/>
+  </mapping>
+</binding>

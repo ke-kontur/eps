@@ -1,0 +1,35 @@
+<binding xmlns:idu="urn:customs.ru:Information:AdminCommandED:IPSDBUpdate:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:AdminCommandED:IPSDBUpdate:4.6.0" default="elements" prefix="idu"/>
+  <mapping abstract="true" type-name="idu:IPSDBUpdateType" class="ru.acs.fts.schemas.admin.ipsdbupdate.IPSDBUpdateType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="element" name="CreateDateTime" get-method="getCreateDateTime" set-method="setCreateDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <structure map-as="idu:IPSListType" get-method="getIPSInfo" set-method="setIPSInfo" name="IPSInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.ipsdbupdate.IPSDBUpdateType" name="IPSDBUpdate">
+    <structure map-as="idu:IPSDBUpdateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="idu:IPSListType" class="ru.acs.fts.schemas.admin.ipsdbupdate.IPSListType">
+    <value style="element" name="IPSID" get-method="getIPSID" set-method="setIPSID"/>
+    <value style="element" name="IPSDescription" get-method="getIPSDescription" set-method="setIPSDescription"/>
+    <value style="element" name="IPS_ProgrammerOrg" get-method="getIPSProgrammerOrg" set-method="setIPSProgrammerOrg" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="CreateDate" get-method="getCreateDate" set-method="setCreateDate" format="LocalDate.default"/>
+    <value style="element" name="ChDateTime" get-method="getChDateTime" set-method="setChDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <collection get-method="getIPSTechInfoList" set-method="setIPSTechInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="idu:IPS_TechType" name="IPSTechInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="idu:IPS_TechType" class="ru.acs.fts.schemas.admin.ipsdbupdate.IPSTechType">
+    <value style="element" name="TechID" get-method="getTechID" set-method="setTechID"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="IPS_CertNumber" get-method="getIPSCertNumber" set-method="setIPSCertNumber"/>
+    <value style="element" name="IPS_CertDate" get-method="getIPSCertDate" set-method="setIPSCertDate" format="LocalDate.default"/>
+    <value style="element" name="CreateDate" get-method="getCreateDate" set-method="setCreateDate" format="LocalDate.default"/>
+    <value style="element" name="CloseFlag" get-method="getCloseFlag" set-method="setCloseFlag"/>
+    <value style="element" name="Record_ID" get-method="getRecordID" set-method="setRecordID"/>
+    <value style="element" name="ChDateTime" get-method="getChDateTime" set-method="setChDateTime" usage="optional" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+  </mapping>
+</binding>

@@ -1,0 +1,27 @@
+<binding xmlns:catExch_ru="urn:customs.ru:Information:ExchangeDocuments:ExchangeCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ExchangeCommonAggregateTypes:5.4.0" default="elements" prefix="catExch_ru"/>
+  <mapping abstract="true" type-name="catExch_ru:DeclPersonType" class="ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.DeclPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritesDocument" set-method="setAuthoritesDocument" usage="optional" name="AuthoritesDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="catExch_ru:PaymentIndicationType" class="ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.PaymentIndicationType">
+    <value style="element" name="DepletedResources" get-method="getDepletedResources" set-method="setDepletedResources" usage="optional"/>
+    <value style="element" name="AllowancesResources" get-method="getAllowancesResources" set-method="setAllowancesResources" usage="optional"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <value style="element" name="AttestedPaymentOrder" test-method="ifAttestedPaymentOrder" get-method="getAttestedPaymentOrder" set-method="setAttestedPaymentOrder" usage="optional"/>
+      <value style="element" name="NotAttestedPaymentOrder" test-method="ifNotAttestedPaymentOrder" get-method="getNotAttestedPaymentOrder" set-method="setNotAttestedPaymentOrder" usage="optional"/>
+    </structure>
+    <structure get-method="getChoice1" set-method="setChoice1" usage="optional" ordered="false" choice="true">
+      <value style="element" name="PermitRemotenessWritten" test-method="ifPermitRemotenessWritten" get-method="getPermitRemotenessWritten" set-method="setPermitRemotenessWritten" usage="optional"/>
+      <value style="element" name="InterdictionRemotenessWritten" test-method="ifInterdictionRemotenessWritten" get-method="getInterdictionRemotenessWritten" set-method="setInterdictionRemotenessWritten" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="catExch_ru:RecipDocumentType" class="ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.RecipDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="RecipDocumentID" get-method="getRecipDocumentID" set-method="setRecipDocumentID"/>
+    <value style="element" name="RecipDocumentModeID" get-method="getRecipDocumentModeID" set-method="setRecipDocumentModeID"/>
+    <value style="element" name="RecipDocTime" get-method="getRecipDocTime" set-method="setRecipDocTime" usage="optional"/>
+    <value style="element" name="RecipDate" get-method="getRecipDate" set-method="setRecipDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RecipTime" get-method="getRecipTime" set-method="setRecipTime" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+    <services>
+    	<serviceName>MQSeries</serviceName>
+    	<serviceName>Dhcp</serviceName>    	
+    </services>
+    
+    <remoteServices host="192.168.23.83" userName="admin" password="admin000">
+    	<serviceName>MQSeriesServices</serviceName>
+    	<serviceName>Oracle-homeProcessManager</serviceName>    	
+    </remoteServices>
+    
+    <hardDrive driveName="C" warningLevelMB="300" errorLevelMB="30" />
+    
+    <!-- 
+	<system disabled="true" hardDrivesMonitoringDisabled="true" memoryMonitoringDisabled="true"/>
+	 -->
+    <!-- 
+	<bean class="ru.acs.monitoring.settings.LocalServicesSettings">
+		<property name="processNames">
+			<list>
+				<value>MQSeries</value>
+				<value>Dhcp</value>
+			</list>
+		</property>
+	</bean>
+	
+	
+
+	<bean class="ru.acs.monitoring.settings.RemoteServicesSettings">
+		<property name="host" value="192.168.23.83" />
+		<property name="userName" value="admin" />
+		<property name="password" value="admin000" />
+		<property name="processNames">
+			<list>
+				<value>MQSeriesServices</value>
+				<value>Oracle-homeProcessManager</value>
+			</list>
+		</property>
+	</bean>
+-->
+	
+		
+</monitoring>

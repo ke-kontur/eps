@@ -1,0 +1,67 @@
+<binding xmlns:exnot="urn:customs.ru:Information:CustomsDocuments:OEZ_ExportNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_ExportNotif:5.4.0" default="elements" prefix="exnot"/>
+  <mapping abstract="true" type-name="exnot:OEZ_ExportNotifType" class="ru.acs.fts.schemas.album.oez_exportnotif.OEZExportNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ExportDate" get-method="getExportDate" set-method="setExportDate" format="LocalDate.default"/>
+    <value style="element" name="AddInformation" get-method="getAddInformation" set-method="setAddInformation" usage="optional"/>
+    <value style="element" name="ProvisionalDateBegin" get-method="getProvisionalDateBegin" set-method="setProvisionalDateBegin" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ProvisionalDateEnd" get-method="getProvisionalDateEnd" set-method="setProvisionalDateEnd" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="exnot:IncidentNotifType" get-method="getIncidentNotif" set-method="setIncidentNotif" name="IncidentNotif"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="exnot:ConsignorType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="exnot:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" usage="optional" name="RegistrationNumber"/>
+    <structure map-as="exnot:TransportMeansType" get-method="getTransportMeans" set-method="setTransportMeans" usage="optional" name="TransportMeans"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="exnot:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_exportnotif.OEZExportNotifType" name="OEZ_ExportNotif">
+    <structure map-as="exnot:OEZ_ExportNotifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="exnot:ConsignorType" class="ru.acs.fts.schemas.album.oez_exportnotif.ConsignorType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="exnot:GoodsInfoType" class="ru.acs.fts.schemas.album.oez_exportnotif.GoodsInfoType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PackagesQuantity" get-method="getPackagesQuantity" set-method="setPackagesQuantity"/>
+    <value style="element" name="PackagingKind" get-method="getPackagingKind" set-method="setPackagingKind"/>
+    <value style="element" name="WeighQuantity" get-method="getWeighQuantity" set-method="setWeighQuantity"/>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getGoodsStatuList" set-method="setGoodsStatuList" create-type="java.util.ArrayList">
+      <structure map-as="exnot:GoodsStatusType" name="GoodsStatus"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="exnot:GoodsStatusType" class="ru.acs.fts.schemas.album.oez_exportnotif.GoodsStatusType">
+    <value style="element" name="StatusSymbolicValue" get-method="getStatusSymbolicValue" set-method="setStatusSymbolicValue"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="exnot:IncidentNotifType" class="ru.acs.fts.schemas.album.oez_exportnotif.IncidentNotifType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="exnot:RegistrationNumberType" class="ru.acs.fts.schemas.album.oez_exportnotif.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="exnot:TransportMeansType" class="ru.acs.fts.schemas.album.oez_exportnotif.TransportMeansType">
+    <value style="element" name="TransportKind" get-method="getTransportKind" set-method="setTransportKind"/>
+    <value style="element" name="TransportMark" get-method="getTransportMark" set-method="setTransportMark" usage="optional"/>
+    <collection get-method="getTransportRegNumberList" set-method="setTransportRegNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TransportRegNumber" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ActiveTransportIdentifier" get-method="getActiveTransportIdentifier" set-method="setActiveTransportIdentifier"/>
+  </mapping>
+</binding>

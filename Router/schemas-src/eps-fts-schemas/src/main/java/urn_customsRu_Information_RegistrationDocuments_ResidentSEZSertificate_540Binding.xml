@@ -1,0 +1,35 @@
+<binding xmlns:rsezc="urn:customs.ru:Information:RegistrationDocuments:ResidentSEZSertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:ResidentSEZSertificate:5.4.0" default="elements" prefix="rsezc"/>
+  <mapping abstract="true" type-name="rsezc:ResidentSEZSertificateType" class="ru.acs.fts.schemas.album.residentsezsertificate.ResidentSEZSertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SertificateNumber" get-method="getSertificateNumber" set-method="setSertificateNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="SEZType" get-method="getSEZType" set-method="setSEZType"/>
+    <structure map-as="rsezc:RegistratorAuthorityType" get-method="getRegistratorAuthority" set-method="setRegistratorAuthority" name="RegistratorAuthority"/>
+    <structure map-as="rsezc:ResidentOrganisationType" get-method="getResidentOrganisation" set-method="setResidentOrganisation" name="ResidentOrganisation"/>
+    <structure map-as="rsezc:FormType" get-method="getForm" set-method="setForm" name="Form"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.residentsezsertificate.ResidentSEZSertificateType" name="ResidentSEZSertificate">
+    <structure map-as="rsezc:ResidentSEZSertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsezc:FormType" class="ru.acs.fts.schemas.album.residentsezsertificate.FormType">
+    <value style="element" name="FormSerial" get-method="getFormSerial" set-method="setFormSerial"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsezc:RegistratorAuthorityType" class="ru.acs.fts.schemas.album.residentsezsertificate.RegistratorAuthorityType">
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganisation" set-method="setOrganisation" name="Organisation"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthorisdPersonSignature" set-method="setAuthorisdPersonSignature" name="AuthorisdPersonSignature"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsezc:ResidentOrganisationType" class="ru.acs.fts.schemas.album.residentsezsertificate.ResidentOrganisationType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="ShortName" get-method="getShortName" set-method="setShortName" usage="optional"/>
+    <value style="element" name="FullName" get-method="getFullName" set-method="setFullName" usage="optional"/>
+    <value style="element" name="FirmName" get-method="getFirmName" set-method="setFirmName" usage="optional"/>
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="OGRN" get-method="getOGRN" set-method="setOGRN" usage="optional"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+  </mapping>
+</binding>

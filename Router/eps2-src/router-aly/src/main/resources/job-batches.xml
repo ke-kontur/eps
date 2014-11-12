@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Хранилище пакетов задач для обработки сообщений из входящей очереди -->
+	<bean id="alyJobBatchWarehouse" class="ru.acs.fts.aly.router.processing.AlyJobBatchWarehouse" >
+		<property name="selectors">
+			<list >
+
+				<bean class="ru.acs.fts.aly.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="esadFirst" />
+					<property name="condition">
+						<bean class="ru.acs.fts.aly.router.processing.JobBatchSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>CMN.11023</value>
+									<value>CMN.11024</value>
+									<value>CMN.11044</value>
+								</list>
+							</property> 
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.aly.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="esad" />
+					<property name="condition">
+						<bean class="ru.acs.fts.aly.router.processing.JobBatchSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>CMN.11025</value>
+									<value>CMN.11048</value>
+								</list>
+							</property> 
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.aly.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="notifGtd" />
+					<property name="condition">
+						<bean class="ru.acs.fts.aly.router.processing.JobBatchSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<value>CMN.11001</value>
+								</list>
+							</property> 
+						</bean>
+					</property>
+				</bean>
+			
+				<bean class="ru.acs.fts.aly.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="alyEmptyJobBatch" />
+					<property name="condition">
+						<bean class="ru.acs.fts.aly.router.processing.JobBatchSelectorCondition" >
+							<property name="default" value="true" />
+						</bean>
+					</property>
+				</bean>
+
+			</list>
+		</property>
+	</bean>
+	
+</beans>

@@ -1,0 +1,34 @@
+<binding xmlns:ckv="urn:customs.ru:Information:WarehouseDocuments:CWStorageQuitance:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CWStorageQuitance:5.4.0" default="elements" prefix="ckv"/>
+  <mapping abstract="true" type-name="ckv:CWStorageQuitanceType" class="ru.acs.fts.schemas.album.cwstoragequitance.CWStorageQuitanceType">
+    <structure map-as="catWH_ru:CWDocType"/>
+    <structure map-as="ckv:StorageQuitanceHeadType" get-method="getHeader" set-method="setHeader" name="Header"/>
+    <collection get-method="getCommodityList" set-method="setCommodityList" create-type="java.util.ArrayList">
+      <structure map-as="ckv:CommodityType" name="Commodity"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cwstoragequitance.CWStorageQuitanceType" name="CWStorageQuitance">
+    <structure map-as="ckv:CWStorageQuitanceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ckv:CommodityType" class="ru.acs.fts.schemas.album.cwstoragequitance.CommodityType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="GoodsNumericPred" get-method="getGoodsNumericPred" set-method="setGoodsNumericPred" usage="optional"/>
+    <value style="element" name="GoodsNumberInGTD" get-method="getGoodsNumberInGTD" set-method="setGoodsNumberInGTD" usage="optional"/>
+    <value style="element" name="GoodsPlacesIn" get-method="getGoodsPlacesIn" set-method="setGoodsPlacesIn"/>
+    <value style="element" name="RatableValueIn" get-method="getRatableValueIn" set-method="setRatableValueIn"/>
+    <value style="element" name="GoodsPlacesRest" get-method="getGoodsPlacesRest" set-method="setGoodsPlacesRest" usage="optional"/>
+    <value style="element" name="RatableValueRest" get-method="getRatableValueRest" set-method="setRatableValueRest" usage="optional"/>
+    <value style="element" name="GrossWeightQuantityRest" get-method="getGrossWeightQuantityRest" set-method="setGrossWeightQuantityRest" usage="optional"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGrossWeightSuppQuantityIn" set-method="setGrossWeightSuppQuantityIn" usage="optional" name="GrossWeightSuppQuantityIn"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDOutNumber" set-method="setGTDOutNumber" usage="optional" name="GTDOutNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ckv:StorageQuitanceHeadType" class="ru.acs.fts.schemas.album.cwstoragequitance.StorageQuitanceHeadType">
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="OrderNumberOfEdition" get-method="getOrderNumberOfEdition" set-method="setOrderNumberOfEdition"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getStorageQuitanceNumber" set-method="setStorageQuitanceNumber" name="StorageQuitanceNumber"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getPriorStorageQuitanceNumber" set-method="setPriorStorageQuitanceNumber" usage="optional" name="PriorStorageQuitanceNumber"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getNextStorageQuitanceNumber" set-method="setNextStorageQuitanceNumber" usage="optional" name="NextStorageQuitanceNumber"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+  </mapping>
+</binding>

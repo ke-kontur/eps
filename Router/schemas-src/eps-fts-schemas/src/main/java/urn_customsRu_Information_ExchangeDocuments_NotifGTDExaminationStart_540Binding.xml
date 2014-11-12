@@ -1,0 +1,16 @@
+<binding xmlns:nges="urn:customs.ru:Information:ExchangeDocuments:NotifGTDExaminationStart:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifGTDExaminationStart:5.4.0" default="elements" prefix="nges"/>
+  <mapping abstract="true" type-name="nges:NotifGTDExaminationStartType" class="ru.acs.fts.schemas.album.notifgtdexaminationstart.NotifGTDExaminationStartType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ControlStartDate" get-method="getControlStartDate" set-method="setControlStartDate" format="LocalDate.default"/>
+    <value style="element" name="ControlStartTime" get-method="getControlStartTime" set-method="setControlStartTime"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgtdexaminationstart.NotifGTDExaminationStartType" name="NotifGTDExaminationStart">
+    <structure map-as="nges:NotifGTDExaminationStartType"/>
+  </mapping>
+</binding>

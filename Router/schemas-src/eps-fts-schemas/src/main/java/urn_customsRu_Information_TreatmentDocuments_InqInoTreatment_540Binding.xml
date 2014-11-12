@@ -1,0 +1,45 @@
+<binding xmlns:iit="urn:customs.ru:Information:TreatmentDocuments:InqInoTreatment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTreat_ru="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:InqInoTreatment:5.4.0" default="elements" prefix="iit"/>
+  <mapping abstract="true" type-name="iit:InqInoTreatmentType" class="ru.acs.fts.schemas.album.inqinotreatment.InqInoTreatmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TreatmentCountry" get-method="getTreatmentCountry" set-method="setTreatmentCountry"/>
+    <value style="element" name="TreatmentProcedureCode" get-method="getTreatmentProcedureCode" set-method="setTreatmentProcedureCode"/>
+    <structure map-as="iit:ApplicantType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="catTreat_ru:TreatmentType" get-method="getTreatment" set-method="setTreatment" name="Treatment"/>
+    <collection get-method="getTreatContractList" set-method="setTreatContractList" create-type="java.util.ArrayList">
+      <structure map-as="iit:TreatContractsType" name="TreatContracts"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getInqDoc" set-method="setInqDoc" name="InqDoc"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsInHells" set-method="setCustomsInHells" usage="optional" name="CustomsInHells"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsInWaste" set-method="setCustomsInWaste" usage="optional" name="CustomsInWaste"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getDocumentIDInfoList" set-method="setDocumentIDInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="iit:DocumentIDInfoType" name="DocumentIDInfo"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsSuperior" set-method="setCustomsSuperior" usage="optional" name="CustomsSuperior"/>
+    <structure map-as="catTreat_ru:TreatmentOrganizationType" get-method="getContractHolder" set-method="setContractHolder" usage="optional" name="ContractHolder"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqinotreatment.InqInoTreatmentType" name="InqInoTreatment">
+    <structure map-as="iit:InqInoTreatmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="iit:ApplicantType" class="ru.acs.fts.schemas.album.inqinotreatment.ApplicantType">
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getApplicantsBoss" set-method="setApplicantsBoss" name="ApplicantsBoss"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAccountantGeneralApp" set-method="setAccountantGeneralApp" name="AccountantGeneralApp"/>
+    <structure map-as="catTreat_ru:TreatmentOrganizationType" get-method="getOrganizationInfo" set-method="setOrganizationInfo" name="OrganizationInfo"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="iit:DocumentIDInfoType" class="ru.acs.fts.schemas.album.inqinotreatment.DocumentIDInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <collection get-method="getConfirmInfoList" set-method="setConfirmInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ConfirmInfo" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="iit:TreatContractsType" class="ru.acs.fts.schemas.album.inqinotreatment.TreatContractsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="CompanyCountry" get-method="getCompanyCountry" set-method="setCompanyCountry" usage="optional"/>
+    <value style="element" name="CompanyName" get-method="getCompanyName" set-method="setCompanyName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="iit:TreatGoodsInfType" class="ru.acs.fts.schemas.album.inqinotreatment.TreatGoodsInfType"/>
+</binding>

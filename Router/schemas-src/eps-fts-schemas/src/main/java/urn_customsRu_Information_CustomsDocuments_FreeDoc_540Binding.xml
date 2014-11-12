@@ -1,0 +1,110 @@
+<binding xmlns:frd="urn:customs.ru:Information:CustomsDocuments:FreeDoc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:FreeDoc:5.4.0" default="elements" prefix="frd"/>
+  <mapping abstract="true" type-name="frd:FreeDocType" class="ru.acs.fts.schemas.album.freedoc.FreeDocType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="frd:DocumentHeadType" get-method="getDocumentHead" set-method="setDocumentHead" name="DocumentHead"/>
+    <structure map-as="frd:DocumentBodyType" get-method="getDocumentBody" set-method="setDocumentBody" name="DocumentBody"/>
+    <collection get-method="getDocumentSignList" set-method="setDocumentSignList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="DocumentSign"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.freedoc.FreeDocType" name="FreeDoc">
+    <structure map-as="frd:FreeDocType"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:DocumentBodyType" class="ru.acs.fts.schemas.album.freedoc.DocumentBodyType">
+    <collection get-method="getChoiceList" set-method="setChoiceList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.freedoc.DocumentBodyType$Choice" ordered="false" choice="true">
+        <collection test-method="ifTextSectionList" get-method="getTextSectionList" set-method="setTextSectionList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="frd:TextSectionType" name="TextSection"/>
+        </collection>
+        <collection test-method="ifTableList" get-method="getTableList" set-method="setTableList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="frd:TableType" name="Table"/>
+        </collection>
+      </structure>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="frd:DocumentHeadType" class="ru.acs.fts.schemas.album.freedoc.DocumentHeadType">
+    <value style="element" name="DocumentName" get-method="getDocumentName" set-method="setDocumentName"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="attribute" name="VisibleFlag" get-method="getVisibleFlag" set-method="setVisibleFlag" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:EntryCellType" class="ru.acs.fts.schemas.album.freedoc.EntryCellType">
+    <structure map-as="frd:EntryTableType" get-method="getEntryTable" set-method="setEntryTable" name="EntryTable"/>
+    <value style="attribute" name="align" get-method="getAlign" set-method="setAlign" usage="optional" format="frd:AlignType"/>
+    <value style="attribute" name="valign" get-method="getValign" set-method="setValign" usage="optional" format="frd:ValignType"/>
+    <value style="attribute" name="namest" get-method="getNamest" set-method="setNamest" usage="optional"/>
+    <value style="attribute" name="nameend" get-method="getNameend" set-method="setNameend" usage="optional"/>
+    <value style="attribute" name="morerows" get-method="getMorerows" set-method="setMorerows" usage="optional"/>
+    <value style="attribute" name="morecols" get-method="getMorecols" set-method="setMorecols" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:EntryRowType" class="ru.acs.fts.schemas.album.freedoc.EntryRowType">
+    <collection get-method="getTableCellList" set-method="setTableCellList" create-type="java.util.ArrayList">
+      <structure map-as="frd:TableCellType" name="TableCell"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="frd:EntryTableType" class="ru.acs.fts.schemas.album.freedoc.EntryTableType">
+    <collection get-method="getEntryRowList" set-method="setEntryRowList" create-type="java.util.ArrayList">
+      <structure map-as="frd:EntryRowType" name="EntryRow"/>
+    </collection>
+    <value style="attribute" name="cols" get-method="getCols" set-method="setCols"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TableBodyType" class="ru.acs.fts.schemas.album.freedoc.TableBodyType">
+    <collection get-method="getTableRowList" set-method="setTableRowList" create-type="java.util.ArrayList">
+      <structure map-as="frd:TableRowType" name="TableRow"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TableCellType" class="ru.acs.fts.schemas.album.freedoc.TableCellType">
+    <structure map-as="frd:TextParagrType"/>
+    <value style="attribute" name="align" get-method="getAlign" set-method="setAlign" usage="optional" format="frd:AlignType"/>
+    <value style="attribute" name="valign" get-method="getValign" set-method="setValign" usage="optional" format="frd:ValignType"/>
+    <value style="attribute" name="namest" get-method="getNamest" set-method="setNamest" usage="optional"/>
+    <value style="attribute" name="nameend" get-method="getNameend" set-method="setNameend" usage="optional"/>
+    <value style="attribute" name="morerows" get-method="getMorerows" set-method="setMorerows" usage="optional"/>
+    <value style="attribute" name="morecols" get-method="getMorecols" set-method="setMorecols" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TableFootType" class="ru.acs.fts.schemas.album.freedoc.TableFootType">
+    <collection get-method="getTableRowList" set-method="setTableRowList" create-type="java.util.ArrayList">
+      <structure map-as="frd:TableRowType" name="TableRow"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TableHeadType" class="ru.acs.fts.schemas.album.freedoc.TableHeadType">
+    <collection get-method="getTableRowList" set-method="setTableRowList" create-type="java.util.ArrayList">
+      <structure map-as="frd:TableRowType" name="TableRow"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TableRowType" class="ru.acs.fts.schemas.album.freedoc.TableRowType">
+    <collection get-method="getChoiceList" set-method="setChoiceList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.freedoc.TableRowType$Choice" ordered="false" choice="true">
+        <collection test-method="ifTableCellList" get-method="getTableCellList" set-method="setTableCellList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="frd:TableCellType" name="TableCell"/>
+        </collection>
+        <collection test-method="ifEntryCellList" get-method="getEntryCellList" set-method="setEntryCellList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="frd:EntryCellType" name="EntryCell"/>
+        </collection>
+      </structure>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TableType" class="ru.acs.fts.schemas.album.freedoc.TableType">
+    <value style="element" name="TableName" get-method="getTableName" set-method="setTableName" usage="optional"/>
+    <collection get-method="getColumnSpecList" set-method="setColumnSpecList" create-type="java.util.ArrayList">
+      <value style="element" name="ColumnSpec" type="java.lang.String"/>
+    </collection>
+    <structure map-as="frd:TableBodyType" get-method="getTableBody" set-method="setTableBody" name="TableBody"/>
+    <structure map-as="frd:TableHeadType" get-method="getTableHead" set-method="setTableHead" usage="optional" name="TableHead"/>
+    <structure map-as="frd:TableFootType" get-method="getTableFoot" set-method="setTableFoot" usage="optional" name="TableFoot"/>
+    <value style="attribute" name="cols" get-method="getCols" set-method="setCols"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TextParagrType" class="ru.acs.fts.schemas.album.freedoc.TextParagrType">
+    <collection get-method="getTextParaList" set-method="setTextParaList" create-type="java.util.ArrayList">
+      <value style="element" name="TextPara" type="java.lang.String"/>
+    </collection>
+    <value style="attribute" name="style" get-method="getStyle" set-method="setStyle" usage="optional" format="frd:TextStyleType"/>
+  </mapping>
+  <mapping abstract="true" type-name="frd:TextSectionType" class="ru.acs.fts.schemas.album.freedoc.TextSectionType">
+    <structure map-as="frd:TextParagrType"/>
+    <value style="element" name="SectionName" get-method="getSectionName" set-method="setSectionName" usage="optional"/>
+  </mapping>
+</binding>

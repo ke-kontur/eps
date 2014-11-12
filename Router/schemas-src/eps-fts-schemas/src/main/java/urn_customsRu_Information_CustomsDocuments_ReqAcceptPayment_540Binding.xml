@@ -1,0 +1,13 @@
+<binding xmlns:rap="urn:customs.ru:Information:CustomsDocuments:ReqAcceptPayment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqAcceptPayment:5.4.0" default="elements" prefix="rap"/>
+  <mapping abstract="true" type-name="rap:ReqAcceptPaymentType" class="ru.acs.fts.schemas.album.reqacceptpayment.ReqAcceptPaymentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getRequestor" set-method="setRequestor" name="Requestor"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqacceptpayment.ReqAcceptPaymentType" name="ReqAcceptPayment">
+    <structure map-as="rap:ReqAcceptPaymentType"/>
+  </mapping>
+</binding>

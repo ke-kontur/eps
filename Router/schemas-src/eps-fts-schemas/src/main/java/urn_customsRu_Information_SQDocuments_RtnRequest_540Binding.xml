@@ -1,0 +1,38 @@
+<binding xmlns:rtnreq="urn:customs.ru:Information:SQDocuments:RtnRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RtnRequest:5.4.0" default="elements" prefix="rtnreq"/>
+  <mapping abstract="true" type-name="rtnreq:RtnRequestType" class="ru.acs.fts.schemas.album.rtnrequest.RtnRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getPermitList" set-method="setPermitList" create-type="java.util.ArrayList">
+      <structure map-as="rtnreq:PermitType" name="Permit"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rtnrequest.RtnRequestType" name="RtnRequest">
+    <structure map-as="rtnreq:RtnRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtnreq:PermitInfoType" class="ru.acs.fts.schemas.album.rtnrequest.PermitInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="IssueTime" get-method="getIssueTime" set-method="setIssueTime" usage="optional"/>
+    <value style="element" name="PermitKind" get-method="getPermitKind" set-method="setPermitKind"/>
+    <value style="element" name="BeginDateTime" get-method="getBeginDateTime" set-method="setBeginDateTime" usage="optional"/>
+    <value style="element" name="EndDateTime" get-method="getEndDateTime" set-method="setEndDateTime"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+    <value style="element" name="StopDateTime" get-method="getStopDateTime" set-method="setStopDateTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtnreq:PermitType" class="ru.acs.fts.schemas.album.rtnrequest.PermitType">
+    <value style="element" name="AccessCertificate" get-method="getAccessCertificate" set-method="setAccessCertificate" usage="optional"/>
+    <value style="element" name="Information" get-method="getInformation" set-method="setInformation"/>
+    <collection get-method="getLicAddrList" set-method="setLicAddrList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="LicAddr" type="java.lang.String"/>
+    </collection>
+    <structure map-as="rtnreq:PermitInfoType" get-method="getPermitInfo" set-method="setPermitInfo" name="PermitInfo"/>
+    <structure map-as="rtnreq:TSInfoType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getPermittedCompany" set-method="setPermittedCompany" usage="optional" name="PermittedCompany"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtnreq:TSInfoType" class="ru.acs.fts.schemas.album.rtnrequest.TSInfoType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="Model" get-method="getModel" set-method="setModel"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getTSOwner" set-method="setTSOwner" usage="optional" name="TSOwner"/>
+  </mapping>
+</binding>

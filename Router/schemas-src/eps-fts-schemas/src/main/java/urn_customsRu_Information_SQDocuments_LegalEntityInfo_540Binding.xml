@@ -1,0 +1,234 @@
+<binding xmlns:le="urn:customs.ru:Information:SQDocuments:LegalEntityInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:LegalEntityInfo:5.4.0" default="elements" prefix="le"/>
+  <mapping abstract="true" type-name="le:LegalEntityInfoType" class="ru.acs.fts.schemas.album.legalentityinfo.LegalEntityInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode" usage="optional"/>
+    <value style="element" name="FormDate" get-method="getFormDate" set-method="setFormDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="le:BaseDetailsType" get-method="getBaseDetails" set-method="setBaseDetails" name="BaseDetails"/>
+    <collection get-method="getAuthorizedOrgList" set-method="setAuthorizedOrgList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:AuthorizedOrgType" name="AuthorizedOrg"/>
+    </collection>
+    <structure map-as="le:RegInfoType" get-method="getTaxRegInfo" set-method="setTaxRegInfo" usage="optional" name="TaxRegInfo"/>
+    <structure map-as="le:RegInfoType" get-method="getPensionServiceReg" set-method="setPensionServiceReg" usage="optional" name="PensionServiceReg"/>
+    <structure map-as="le:RegInfoType" get-method="getInsuranceServiceReg" set-method="setInsuranceServiceReg" usage="optional" name="InsuranceServiceReg"/>
+    <collection get-method="getLicenseList" set-method="setLicenseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:LicenseType" name="License"/>
+    </collection>
+    <collection get-method="getRecordDescriptionList" set-method="setRecordDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:RecordDescriptionType" name="RecordDescription"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.legalentityinfo.LegalEntityInfoType" name="LegalEntityInfo">
+    <structure map-as="le:LegalEntityInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:ActivityType" class="ru.acs.fts.schemas.album.legalentityinfo.ActivityType">
+    <value style="element" name="ActivityCode" get-method="getActivityCode" set-method="setActivityCode"/>
+    <value style="element" name="ActivitySign" get-method="getActivitySign" set-method="setActivitySign"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:AuthorizedOrgType" class="ru.acs.fts.schemas.album.legalentityinfo.AuthorizedOrgType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <value style="element" name="PersonKindCode" get-method="getPersonKindCode" set-method="setPersonKindCode" usage="optional"/>
+    <value style="element" name="PersonKindName" get-method="getPersonKindName" set-method="setPersonKindName" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:BaseDetailsType" class="ru.acs.fts.schemas.album.legalentityinfo.BaseDetailsType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="OGRNDate" get-method="getOGRNDate" set-method="setOGRNDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BrandName" get-method="getBrandName" set-method="setBrandName" usage="optional"/>
+    <structure map-as="le:OrgStatusInfoType" get-method="getOrgStatusInfo" set-method="setOrgStatusInfo" usage="optional" name="OrgStatusInfo"/>
+    <structure map-as="le:OrgAddressType" get-method="getOrgAddress" set-method="setOrgAddress" usage="optional" name="OrgAddress"/>
+    <collection get-method="getBranchDescriptionList" set-method="setBranchDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:BranchDescriptionType" name="BranchDescription"/>
+    </collection>
+    <structure map-as="le:OrganizationFormType" get-method="getOrganizationForm" set-method="setOrganizationForm" usage="optional" name="OrganizationForm"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+    <structure map-as="le:LegalEntityFormationType" get-method="getLegalEntityFormation" set-method="setLegalEntityFormation" usage="optional" name="LegalEntityFormation"/>
+    <structure map-as="le:SuccessionDataType" get-method="getSuccessionData" set-method="setSuccessionData" usage="optional" name="SuccessionData"/>
+    <structure map-as="le:OrgCapitalType" get-method="getOrgCapital" set-method="setOrgCapital" usage="optional" name="OrgCapital"/>
+    <structure map-as="le:OrgCapitalType" get-method="getCapitalReduction" set-method="setCapitalReduction" usage="optional" name="CapitalReduction"/>
+    <collection get-method="getFounderList" set-method="setFounderList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:FounderType" name="Founder"/>
+    </collection>
+    <structure map-as="le:ShareType" get-method="getLLCShare" set-method="setLLCShare" usage="optional" name="LLCShare"/>
+    <structure map-as="le:ParticipantType" get-method="getHolder" set-method="setHolder" usage="optional" name="Holder"/>
+    <collection get-method="getPermitPersonList" set-method="setPermitPersonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:ParticipantType" name="PermitPerson"/>
+    </collection>
+    <structure map-as="le:FounderType" get-method="getForeignPermitPerson" set-method="setForeignPermitPerson" usage="optional" name="ForeignPermitPerson"/>
+    <collection get-method="getActivityList" set-method="setActivityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:ActivityType" name="Activity"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="le:BranchDescriptionType" class="ru.acs.fts.schemas.album.legalentityinfo.BranchDescriptionType">
+    <structure map-as="cat_ru:CUBranchDescriptionType"/>
+    <value style="element" name="BranchKind" get-method="getBranchKind" set-method="setBranchKind" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getForeignAddress" set-method="setForeignAddress" usage="optional" name="ForeignAddress"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:DisqualificationType" class="ru.acs.fts.schemas.album.legalentityinfo.DisqualificationType">
+    <value style="element" name="DisqualifTerm" get-method="getDisqualifTerm" set-method="setDisqualifTerm"/>
+    <value style="element" name="DisqualifStartDate" get-method="getDisqualifStartDate" set-method="setDisqualifStartDate" format="LocalDate.default"/>
+    <value style="element" name="DisqualifEndDate" get-method="getDisqualifEndDate" set-method="setDisqualifEndDate" format="LocalDate.default"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:FounderType" class="ru.acs.fts.schemas.album.legalentityinfo.FounderType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <value style="element" name="InheritanceOpenDate" get-method="getInheritanceOpenDate" set-method="setInheritanceOpenDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="FounderKindCode" get-method="getFounderKindCode" set-method="setFounderKindCode" usage="optional"/>
+    <value style="element" name="RFSubjectCode" get-method="getRFSubjectCode" set-method="setRFSubjectCode" usage="optional"/>
+    <value style="element" name="RFSubjectName" get-method="getRFSubjectName" set-method="setRFSubjectName" usage="optional"/>
+    <structure map-as="le:ShareType" get-method="getShare" set-method="setShare" usage="optional" name="Share"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" usage="optional" name="RegOrgan"/>
+    <structure map-as="cat_ru:AddressType" get-method="getForeignAddress" set-method="setForeignAddress" usage="optional" name="ForeignAddress"/>
+    <collection get-method="getShareManagerList" set-method="setShareManagerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:ParticipantType" name="ShareManager"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="le:LegalEntityFormationType" class="ru.acs.fts.schemas.album.legalentityinfo.LegalEntityFormationType">
+    <structure map-as="le:ReferenceInfoType"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" usage="optional" name="RegOrgan"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:LegalEntityTerminationType" class="ru.acs.fts.schemas.album.legalentityinfo.LegalEntityTerminationType">
+    <structure map-as="le:ReferenceInfoType"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" name="RegOrgan"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:LicenseType" class="ru.acs.fts.schemas.album.legalentityinfo.LicenseType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="LicenseSeries" get-method="getLicenseSeries" set-method="setLicenseSeries" usage="optional"/>
+    <value style="element" name="LicenseKind" get-method="getLicenseKind" set-method="setLicenseKind" usage="optional"/>
+    <value style="element" name="LicensedServiceName" get-method="getLicensedServiceName" set-method="setLicensedServiceName" usage="optional"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+    <collection get-method="getLicensedServicePlaceList" set-method="setLicensedServicePlaceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:AddressType" name="LicensedServicePlace"/>
+    </collection>
+    <structure map-as="le:RegOrganType" get-method="getLicenseOrg" set-method="setLicenseOrg" usage="optional" name="LicenseOrg"/>
+    <structure map-as="le:SuspensionType" get-method="getSuspension" set-method="setSuspension" usage="optional" name="Suspension"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:OrgAddressType" class="ru.acs.fts.schemas.album.legalentityinfo.OrgAddressType">
+    <structure map-as="cat_ru:AddressType"/>
+    <value style="element" name="KLADRCode" get-method="getKLADRCode" set-method="setKLADRCode" usage="optional"/>
+    <value style="element" name="SubjectCode" get-method="getSubjectCode" set-method="setSubjectCode" usage="optional"/>
+    <value style="element" name="ImpossibleContact" get-method="getImpossibleContact" set-method="setImpossibleContact" usage="optional"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:OrgCapitalType" class="ru.acs.fts.schemas.album.legalentityinfo.OrgCapitalType">
+    <value style="element" name="OrgCapitalAmount" get-method="getOrgCapitalAmount" set-method="setOrgCapitalAmount"/>
+    <value style="element" name="OrgCapitalName" get-method="getOrgCapitalName" set-method="setOrgCapitalName" usage="optional"/>
+    <value style="element" name="ReduceWay" get-method="getReduceWay" set-method="setReduceWay" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:OrgStatusInfoType" class="ru.acs.fts.schemas.album.legalentityinfo.OrgStatusInfoType">
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="StatusCode" get-method="getStatusCode" set-method="setStatusCode"/>
+    <value style="element" name="StatusName" get-method="getStatusName" set-method="setStatusName"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" usage="optional" name="RegOrgan"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:OrganizationFormType" class="ru.acs.fts.schemas.album.legalentityinfo.OrganizationFormType">
+    <value style="element" name="ClassifierName" get-method="getClassifierName" set-method="setClassifierName" usage="optional"/>
+    <value style="element" name="ClassifierCode" get-method="getClassifierCode" set-method="setClassifierCode" usage="optional"/>
+    <value style="element" name="FormName" get-method="getFormName" set-method="setFormName"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:ParticipantType" class="ru.acs.fts.schemas.album.legalentityinfo.ParticipantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <value style="element" name="BranchDescription" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+    <structure map-as="cat_ru:AddressType" get-method="getForeignAddress" set-method="setForeignAddress" usage="optional" name="ForeignAddress"/>
+    <collection get-method="getDisqualificationList" set-method="setDisqualificationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:DisqualificationType" name="Disqualification"/>
+    </collection>
+    <structure map-as="le:ReferenceInfoType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" usage="optional" name="RegOrgan"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:RecordDataType" class="ru.acs.fts.schemas.album.legalentityinfo.RecordDataType">
+    <value style="element" name="RecordDate" get-method="getRecordDate" set-method="setRecordDate" format="LocalDate.default"/>
+    <value style="element" name="RecordRegNum" get-method="getRecordRegNum" set-method="setRecordRegNum" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:RecordDescriptionType" class="ru.acs.fts.schemas.album.legalentityinfo.RecordDescriptionType">
+    <structure map-as="le:ReferenceInfoType"/>
+    <value style="element" name="RecordSign" get-method="getRecordSign" set-method="setRecordSign"/>
+    <value style="element" name="InputDate" get-method="getInputDate" set-method="setInputDate" format="LocalDate.default"/>
+    <value style="element" name="RecordRegNum" get-method="getRecordRegNum" set-method="setRecordRegNum" usage="optional"/>
+    <value style="element" name="BlankSeries" get-method="getBlankSeries" set-method="setBlankSeries" usage="optional"/>
+    <value style="element" name="BlankNum" get-method="getBlankNum" set-method="setBlankNum" usage="optional"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" name="RegOrgan"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:ReferenceInfoType" class="ru.acs.fts.schemas.album.legalentityinfo.ReferenceInfoType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:RegInfoType" class="ru.acs.fts.schemas.album.legalentityinfo.RegInfoType">
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="TaxRegDateEnd" get-method="getTaxRegDateEnd" set-method="setTaxRegDateEnd" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <structure map-as="cat_ru:RFOrganizationFeaturesType" get-method="getRegData" set-method="setRegData" usage="optional" name="RegData"/>
+    <structure map-as="le:RegOrganType" get-method="getTaxOrgan" set-method="setTaxOrgan" name="TaxOrgan"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:RegOrganType" class="ru.acs.fts.schemas.album.legalentityinfo.RegOrganType">
+    <value style="element" name="OrganCode" get-method="getOrganCode" set-method="setOrganCode" usage="optional"/>
+    <value style="element" name="OrganName" get-method="getOrganName" set-method="setOrganName" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getRegOrganAddress" set-method="setRegOrganAddress" usage="optional" name="RegOrganAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:ShareType" class="ru.acs.fts.schemas.album.legalentityinfo.ShareType">
+    <value style="element" name="Numerator" get-method="getNumerator" set-method="setNumerator" usage="optional"/>
+    <value style="element" name="Denumerator" get-method="getDenumerator" set-method="setDenumerator" usage="optional"/>
+    <value style="element" name="Percent" get-method="getPercent" set-method="setPercent" usage="optional"/>
+    <value style="element" name="DecimalFraction" get-method="getDecimalFraction" set-method="setDecimalFraction" usage="optional"/>
+    <value style="element" name="NominalCost" get-method="getNominalCost" set-method="setNominalCost" usage="optional"/>
+    <value style="element" name="PledgeSign" get-method="getPledgeSign" set-method="setPledgeSign" usage="optional"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" usage="optional" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:SuccessionDataType" class="ru.acs.fts.schemas.album.legalentityinfo.SuccessionDataType">
+    <value style="element" name="SuccessionCode" get-method="getSuccessionCode" set-method="setSuccessionCode" usage="optional"/>
+    <value style="element" name="OGRNIP" get-method="getOGRNIP" set-method="setOGRNIP" usage="optional"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <collection get-method="getSelfSuccessorList" set-method="setSelfSuccessorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:SuccessionDetailsType" name="SelfSuccessor"/>
+    </collection>
+    <collection get-method="getOwnSuccessorList" set-method="setOwnSuccessorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="le:SuccessionDetailsType" name="OwnSuccessor"/>
+    </collection>
+    <collection get-method="getFarmList" set-method="setFarmList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUOrganizationType" name="Farm"/>
+    </collection>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:SuccessionDetailsType" class="ru.acs.fts.schemas.album.legalentityinfo.SuccessionDetailsType">
+    <structure map-as="le:ReferenceInfoType"/>
+    <structure map-as="le:RecordDataType" get-method="getRecordData" set-method="setRecordData" name="RecordData"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrgInfo" set-method="setOrgInfo" name="OrgInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="le:SuspensionType" class="ru.acs.fts.schemas.album.legalentityinfo.SuspensionType">
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <structure map-as="le:RegOrganType" get-method="getRegOrgan" set-method="setRegOrgan" name="RegOrgan"/>
+  </mapping>
+</binding>

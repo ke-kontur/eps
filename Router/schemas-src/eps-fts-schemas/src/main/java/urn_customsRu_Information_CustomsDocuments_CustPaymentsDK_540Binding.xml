@@ -1,0 +1,123 @@
+<binding xmlns:cpdk="urn:customs.ru:Information:CustomsDocuments:CustPaymentsDK:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CustPaymentsDK:5.4.0" default="elements" prefix="cpdk"/>
+  <mapping abstract="true" type-name="cpdk:CustPaymentsDKType" class="ru.acs.fts.schemas.album.custpaymentsdk.CustPaymentsDKType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cpdk:PaymentDocumentType" name="PaymentDocument"/>
+    </collection>
+    <collection get-method="getPaymentList" set-method="setPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cpdk:PaymentType" name="Payment"/>
+    </collection>
+    <collection get-method="getFineList" set-method="setFineList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cpdk:FineType" name="Fine"/>
+    </collection>
+    <collection get-method="getPaymentDelayList" set-method="setPaymentDelayList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cpdk:PaymentDelayType" name="PaymentDelay"/>
+    </collection>
+    <structure map-as="cpdk:PrimaryListType" get-method="getPrimaryList" set-method="setPrimaryList" name="PrimaryList"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cpdk:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.custpaymentsdk.CustPaymentsDKType" name="CustPaymentsDK">
+    <structure map-as="cpdk:CustPaymentsDKType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:CustomsMarcType" class="ru.acs.fts.schemas.album.custpaymentsdk.CustomsMarcType">
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:FineType" class="ru.acs.fts.schemas.album.custpaymentsdk.FineType">
+    <value style="element" name="CustomsFineSign" get-method="getCustomsFineSign" set-method="setCustomsFineSign" usage="optional"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="CustomsPaymentSubspecies" get-method="getCustomsPaymentSubspecies" set-method="setCustomsPaymentSubspecies" usage="optional"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:GoodsType" class="ru.acs.fts.schemas.album.custpaymentsdk.GoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <collection get-method="getPaymentCalculationList" set-method="setPaymentCalculationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cpdk:PaymentCalculationType" name="PaymentCalculation"/>
+    </collection>
+    <structure map-as="cpdk:CustomsMarcType" get-method="getCustomsMark" set-method="setCustomsMark" usage="optional" name="CustomsMark"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:PaymentCalculationType" class="ru.acs.fts.schemas.album.custpaymentsdk.PaymentCalculationType">
+    <value style="element" name="CustomsPaymentSign" get-method="getCustomsPaymentSign" set-method="setCustomsPaymentSign" usage="optional"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="TaxBase" get-method="getTaxBase" set-method="setTaxBase"/>
+    <value style="element" name="Rate" get-method="getRate" set-method="setRate"/>
+    <value style="element" name="RateTypeCode" get-method="getRateTypeCode" set-method="setRateTypeCode"/>
+    <value style="element" name="RateCurrencyCode" get-method="getRateCurrencyCode" set-method="setRateCurrencyCode" usage="optional"/>
+    <value style="element" name="RateTNVEDQualifierCode" get-method="getRateTNVEDQualifierCode" set-method="setRateTNVEDQualifierCode" usage="optional"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode"/>
+    <value style="element" name="CustomsPaymentSubspecies" get-method="getCustomsPaymentSubspecies" set-method="setCustomsPaymentSubspecies" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:PaymentDelayType" class="ru.acs.fts.schemas.album.custpaymentsdk.PaymentDelayType">
+    <value style="element" name="CustomsPaymentSign" get-method="getCustomsPaymentSign" set-method="setCustomsPaymentSign" usage="optional"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentDelayAmount" get-method="getPaymentDelayAmount" set-method="setPaymentDelayAmount"/>
+    <value style="element" name="CustomsPaymentSubspecies" get-method="getCustomsPaymentSubspecies" set-method="setCustomsPaymentSubspecies" usage="optional"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="PaymentEnsuringModeCodeType" get-method="getPaymentEnsuringModeCodeType" set-method="setPaymentEnsuringModeCodeType" usage="optional"/>
+    <value style="element" name="DelayPremitNumber" get-method="getDelayPremitNumber" set-method="setDelayPremitNumber" usage="optional"/>
+    <value style="element" name="DelayPaymentDate" get-method="getDelayPaymentDate" set-method="setDelayPaymentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Rate" get-method="getRate" set-method="setRate" usage="optional"/>
+    <value style="element" name="PostponementProcent" get-method="getPostponementProcent" set-method="setPostponementProcent" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:PaymentDocumentType" class="ru.acs.fts.schemas.album.custpaymentsdk.PaymentDocumentType">
+    <structure map-as="catESAD_ru:PaymentDocumentType"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="ReceiptDate" get-method="getReceiptDate" set-method="setReceiptDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode" usage="optional"/>
+    <value style="element" name="IncomeCode" get-method="getIncomeCode" set-method="setIncomeCode" usage="optional"/>
+    <value style="element" name="PRIZ" get-method="getPRIZ" set-method="setPRIZ" usage="optional"/>
+    <value style="element" name="WHO" get-method="getWHO" set-method="setWHO" usage="optional"/>
+    <value style="element" name="CRYPT" get-method="getCRYPT" set-method="setCRYPT" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:PaymentType" class="ru.acs.fts.schemas.album.custpaymentsdk.PaymentType">
+    <value style="element" name="CustomsPaymentSign" get-method="getCustomsPaymentSign" set-method="setCustomsPaymentSign" usage="optional"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="CustomsPaymentSubspecies" get-method="getCustomsPaymentSubspecies" set-method="setCustomsPaymentSubspecies" usage="optional"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:PrimaryListType" class="ru.acs.fts.schemas.album.custpaymentsdk.PrimaryListType">
+    <value style="element" name="TotalGoodsNumber" get-method="getTotalGoodsNumber" set-method="setTotalGoodsNumber" usage="optional"/>
+    <value style="element" name="TotalSheetNumber" get-method="getTotalSheetNumber" set-method="setTotalSheetNumber" usage="optional"/>
+    <value style="element" name="CurrencyEURO" get-method="getCurrencyEURO" set-method="setCurrencyEURO" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CustomsRemark" get-method="getCustomsRemark" set-method="setCustomsRemark" usage="optional"/>
+    <value style="element" name="ProtocolNumber" get-method="getProtocolNumber" set-method="setProtocolNumber" usage="optional"/>
+    <value style="element" name="ProtocolDate" get-method="getProtocolDate" set-method="setProtocolDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CorrespondenceSign" get-method="getCorrespondenceSign" set-method="setCorrespondenceSign" usage="optional"/>
+    <value style="element" name="DelinquencySign" get-method="getDelinquencySign" set-method="setDelinquencySign" usage="optional"/>
+    <value style="element" name="DelaySign" get-method="getDelaySign" set-method="setDelaySign" usage="optional"/>
+    <value style="element" name="InstallmentSign" get-method="getInstallmentSign" set-method="setInstallmentSign" usage="optional"/>
+    <value style="element" name="CreditSign" get-method="getCreditSign" set-method="setCreditSign" usage="optional"/>
+    <value style="element" name="ModifyDate" get-method="getModifyDate" set-method="setModifyDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PaymentDate" get-method="getPaymentDate" set-method="setPaymentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="NumberDaysDelinquency" get-method="getNumberDaysDelinquency" set-method="setNumberDaysDelinquency" usage="optional"/>
+    <value style="element" name="NumberDaysDelay" get-method="getNumberDaysDelay" set-method="setNumberDaysDelay" usage="optional"/>
+    <value style="element" name="NumberDaysDelinquencyKTS" get-method="getNumberDaysDelinquencyKTS" set-method="setNumberDaysDelinquencyKTS" usage="optional"/>
+    <value style="element" name="Conformity" get-method="getConformity" set-method="setConformity" usage="optional"/>
+    <value style="element" name="NormalEnd" get-method="getNormalEnd" set-method="setNormalEnd" usage="optional"/>
+    <value style="element" name="Payable" get-method="getPayable" set-method="setPayable" usage="optional"/>
+    <value style="element" name="OutputUnauthorized" get-method="getOutputUnauthorized" set-method="setOutputUnauthorized" usage="optional"/>
+    <value style="element" name="CompositionProtocol" get-method="getCompositionProtocol" set-method="setCompositionProtocol" usage="optional"/>
+    <value style="element" name="INNID" get-method="getINNID" set-method="setINNID" usage="optional"/>
+    <value style="element" name="CalculationKTS" get-method="getCalculationKTS" set-method="setCalculationKTS" usage="optional"/>
+    <structure map-as="cpdk:SignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cpdk:SignatureType" get-method="getPersonOTP" set-method="setPersonOTP" usage="optional" name="PersonOTP"/>
+  </mapping>
+  <mapping abstract="true" type-name="cpdk:SignatureType" class="ru.acs.fts.schemas.album.custpaymentsdk.SignatureType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

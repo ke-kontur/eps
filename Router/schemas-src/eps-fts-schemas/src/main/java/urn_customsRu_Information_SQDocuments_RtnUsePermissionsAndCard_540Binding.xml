@@ -1,0 +1,25 @@
+<binding xmlns:useper="urn:customs.ru:Information:SQDocuments:RtnUsePermissionsAndCard:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RtnUsePermissionsAndCard:5.4.0" default="elements" prefix="useper"/>
+  <mapping abstract="true" type-name="useper:RtnUsePermissionsAndCardType" class="ru.acs.fts.schemas.album.rtnusepermissionsandcard.RtnUsePermissionsAndCardType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InspectionDateTime" get-method="getInspectionDateTime" set-method="setInspectionDateTime"/>
+    <value style="element" name="DispatchLocation" get-method="getDispatchLocation" set-method="setDispatchLocation"/>
+    <value style="element" name="DestinationLocation" get-method="getDestinationLocation" set-method="setDestinationLocation"/>
+    <value style="element" name="Decision" get-method="getDecision" set-method="setDecision"/>
+    <value style="element" name="EndDateTime" get-method="getEndDateTime" set-method="setEndDateTime"/>
+    <value style="element" name="PenaltySum" get-method="getPenaltySum" set-method="setPenaltySum"/>
+    <value style="element" name="IsPaid" get-method="getIsPaid" set-method="setIsPaid"/>
+    <value style="element" name="RemovalDateTime" get-method="getRemovalDateTime" set-method="setRemovalDateTime"/>
+    <value style="element" name="ExecutionDateTime" get-method="getExecutionDateTime" set-method="setExecutionDateTime"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getDriver" set-method="setDriver" name="Driver"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getReturnActNumber" set-method="setReturnActNumber" usage="optional" name="ReturnActNumber"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getProtocolNumber" set-method="setProtocolNumber" name="ProtocolNumber"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDirectionNumber" set-method="setDirectionNumber" name="DirectionNumber"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getResolutionNumber" set-method="setResolutionNumber" name="ResolutionNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rtnusepermissionsandcard.RtnUsePermissionsAndCardType" name="RtnUsePermissionsAndCard">
+    <structure map-as="useper:RtnUsePermissionsAndCardType"/>
+  </mapping>
+</binding>

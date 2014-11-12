@@ -1,0 +1,53 @@
+<binding xmlns:porc="urn:customs.ru:Information:CustomsDocuments:PreliminaryOriginCountry:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PreliminaryOriginCountry:5.4.0" default="elements" prefix="porc"/>
+  <mapping abstract="true" type-name="porc:PreliminaryOriginCountryType" class="ru.acs.fts.schemas.album.preliminaryorigincountry.PreliminaryOriginCountryType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName"/>
+    <collection get-method="getMarkList" set-method="setMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Mark" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ManagementName" get-method="getManagementName" set-method="setManagementName"/>
+    <structure map-as="porc:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="porc:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="porc:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="porc:GoodsInfoOriginCountryType" get-method="getGoodsInfoOriginCountry" set-method="setGoodsInfoOriginCountry" name="GoodsInfoOriginCountry"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocument" set-method="setDocument" name="Document"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.preliminaryorigincountry.PreliminaryOriginCountryType" name="PreliminaryOriginCountry">
+    <structure map-as="porc:PreliminaryOriginCountryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="porc:DeclarantType" class="ru.acs.fts.schemas.album.preliminaryorigincountry.DeclarantType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getChief" set-method="setChief" usage="optional" name="Chief"/>
+  </mapping>
+  <mapping abstract="true" type-name="porc:GoodsInfoOriginCountryType" class="ru.acs.fts.schemas.album.preliminaryorigincountry.GoodsInfoOriginCountryType">
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+    <value style="element" name="PlaceManufactur" get-method="getPlaceManufactur" set-method="setPlaceManufactur" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+  </mapping>
+  <mapping abstract="true" type-name="porc:GoodsInformationType" class="ru.acs.fts.schemas.album.preliminaryorigincountry.GoodsInformationType">
+    <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+    <value style="element" name="GoodsMarking" get-method="getGoodsMarking" set-method="setGoodsMarking" usage="optional"/>
+    <value style="element" name="GoodsStandard" get-method="getGoodsStandard" set-method="setGoodsStandard" usage="optional"/>
+    <value style="element" name="GoodsSort" get-method="getGoodsSort" set-method="setGoodsSort" usage="optional"/>
+    <value style="element" name="WoodSortiment" get-method="getWoodSortiment" set-method="setWoodSortiment" usage="optional"/>
+    <value style="element" name="WoodKind" get-method="getWoodKind" set-method="setWoodKind" usage="optional"/>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="porc:GoodsType" class="ru.acs.fts.schemas.album.preliminaryorigincountry.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="porc:GoodsInformationType" get-method="getGoodsInformation" set-method="setGoodsInformation" usage="optional" name="GoodsInformation"/>
+  </mapping>
+  <mapping abstract="true" type-name="porc:RegistrationNumberType" class="ru.acs.fts.schemas.album.preliminaryorigincountry.RegistrationNumberType">
+    <value style="element" name="IndexManagement" get-method="getIndexManagement" set-method="setIndexManagement"/>
+    <value style="element" name="CaseNumber" get-method="getCaseNumber" set-method="setCaseNumber"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+</binding>

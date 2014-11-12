@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+<!-- Работает только под XP,2003 и выше -->
+<!-- 
+	<bean class="ru.acs.monitoring.settings.LocalServicesSettings">
+		<property name="processNames">
+			<list>
+				<value>MQSeries</value>
+				<value>Dhcp</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean class="ru.acs.monitoring.settings.RemoteServicesSettings">
+		<property name="host" value="192.168.23.83" />
+		<property name="userName" value="admin" />
+		<property name="password" value="admin000" />
+		<property name="processNames">
+			<list>
+				<value>MQSeriesServices</value>
+				<value>Oracle-homeProcessManager</value>
+			</list>
+		</property>
+	</bean>
+
+-->
+	<bean class="ru.acs.monitoring.settings.DiskSettings" p:diskName="C"/>
+	
+</beans>

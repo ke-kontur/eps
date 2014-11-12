@@ -1,0 +1,39 @@
+<binding xmlns:cdc="urn:customs.ru:Information:CustomsDocuments:ClassDecisionChange:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ClassDecisionChange:5.4.0" default="elements" prefix="cdc"/>
+  <mapping abstract="true" type-name="cdc:ClassDecisionChangeType" class="ru.acs.fts.schemas.album.classdecisionchange.ClassDecisionChangeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <structure map-as="cdc:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="cdc:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cdc:GoodsType" get-method="getGoods" set-method="setGoods" name="Goods"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.classdecisionchange.ClassDecisionChangeType" name="ClassDecisionChange">
+    <structure map-as="cdc:ClassDecisionChangeType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdc:ChangesDescriptionType" class="ru.acs.fts.schemas.album.classdecisionchange.ChangesDescriptionType">
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <value style="element" name="PreviousValue" get-method="getPreviousValue" set-method="setPreviousValue"/>
+    <value style="element" name="NewValue" get-method="getNewValue" set-method="setNewValue"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdc:DeclarantType" class="ru.acs.fts.schemas.album.classdecisionchange.DeclarantType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="cdc:GoodsType" class="ru.acs.fts.schemas.album.classdecisionchange.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getChangesDescriptionList" set-method="setChangesDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="cdc:ChangesDescriptionType" name="ChangesDescription"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cdc:RegistrationNumberType" class="ru.acs.fts.schemas.album.classdecisionchange.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

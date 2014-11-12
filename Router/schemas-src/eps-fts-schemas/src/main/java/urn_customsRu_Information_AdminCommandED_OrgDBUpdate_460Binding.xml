@@ -1,0 +1,68 @@
+<binding xmlns:odu="urn:customs.ru:Information:AdminCommandED:OrgDBUpdate:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:AdminCommandED:OrgDBUpdate:4.6.0" default="elements" prefix="odu"/>
+  <mapping abstract="true" type-name="odu:OrgDBUpdateType" class="ru.acs.fts.schemas.admin.orgdbupdate.OrgDBUpdateType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="element" name="CreateDateTime" get-method="getCreateDateTime" set-method="setCreateDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <structure map-as="odu:OrgInfoType" get-method="getOrgInfo" set-method="setOrgInfo" name="OrgInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.orgdbupdate.OrgDBUpdateType" name="OrgDBUpdate">
+    <structure map-as="odu:OrgDBUpdateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="odu:DocumentGroundConnectionType" class="ru.acs.fts.schemas.admin.orgdbupdate.DocumentGroundConnectionType">
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="odu:OrgInfoType" class="ru.acs.fts.schemas.admin.orgdbupdate.OrgInfoType">
+    <value style="element" name="OrganizationID" get-method="getOrganizationID" set-method="setOrganizationID"/>
+    <value style="element" name="OrgName" get-method="getOrgName" set-method="setOrgName"/>
+    <value style="element" name="OrgMail" get-method="getOrgMail" set-method="setOrgMail" usage="optional"/>
+    <value style="element" name="OGRN" get-method="getOGRN" set-method="setOGRN" usage="optional"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <value style="element" name="E_MAIL" get-method="getEMAIL" set-method="setEMAIL" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="InfBrokerFlag" get-method="getInfBrokerFlag" set-method="setInfBrokerFlag"/>
+    <value style="element" name="ChDateTime" get-method="getChDateTime" set-method="setChDateTime" usage="optional" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <collection get-method="getParticipantInfoList" set-method="setParticipantInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="odu:PtpcInfoType" name="ParticipantInfo"/>
+    </collection>
+    <collection get-method="getPersonInfoList" set-method="setPersonInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="odu:PersonInfoType" name="PersonInfo"/>
+    </collection>
+    <structure map-as="odu:DocumentGroundConnectionType" get-method="getGroundConnectionOrg" set-method="setGroundConnectionOrg" usage="optional" name="GroundConnectionOrg"/>
+  </mapping>
+  <mapping abstract="true" type-name="odu:PersonInfoType" class="ru.acs.fts.schemas.admin.orgdbupdate.PersonInfoType">
+    <value style="element" name="PersonID" get-method="getPersonID" set-method="setPersonID"/>
+    <value style="element" name="PrsnLastName" get-method="getPrsnLastName" set-method="setPrsnLastName"/>
+    <value style="element" name="PrsnName" get-method="getPrsnName" set-method="setPrsnName" usage="optional"/>
+    <value style="element" name="PrsnSecondName" get-method="getPrsnSecondName" set-method="setPrsnSecondName" usage="optional"/>
+    <value style="element" name="ContactPhone" get-method="getContactPhone" set-method="setContactPhone" usage="optional"/>
+    <value style="element" name="E_MAIL" get-method="getEMAIL" set-method="setEMAIL" usage="optional"/>
+    <value style="element" name="PrsnPost" get-method="getPrsnPost" set-method="setPrsnPost" usage="optional"/>
+    <value style="element" name="PersonCloseFlag" get-method="getPersonCloseFlag" set-method="setPersonCloseFlag"/>
+    <value style="element" name="ChDateTime" get-method="getChDateTime" set-method="setChDateTime" usage="optional" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="odu:PtpcInfoType" class="ru.acs.fts.schemas.admin.orgdbupdate.PtpcInfoType">
+    <value style="element" name="ParticipantID" get-method="getParticipantID" set-method="setParticipantID"/>
+    <value style="element" name="PTPC_Name" get-method="getPTPCName" set-method="setPTPCName"/>
+    <value style="element" name="AccessModeFlag" get-method="getAccessModeFlag" set-method="setAccessModeFlag"/>
+    <value style="element" name="FullStateAccessFlag" get-method="getFullStateAccessFlag" set-method="setFullStateAccessFlag"/>
+    <value style="element" name="TransportAddress" get-method="getTransportAddress" set-method="setTransportAddress"/>
+    <value style="element" name="TransferType" get-method="getTransferType" set-method="setTransferType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BrokerID" get-method="getBrokerID" set-method="setBrokerID" usage="optional"/>
+    <value style="element" name="IPSID" get-method="getIPSID" set-method="setIPSID" usage="optional"/>
+    <value style="element" name="ChDateTime" get-method="getChDateTime" set-method="setChDateTime" usage="optional" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <value style="element" name="Address" get-method="getAddress" set-method="setAddress" usage="optional"/>
+    <value style="element" name="GhangeAccessReason" get-method="getGhangeAccessReason" set-method="setGhangeAccessReason" usage="optional"/>
+    <value style="element" name="Password" get-method="getPassword" set-method="setPassword" usage="optional"/>
+    <value style="element" name="SVXSign" get-method="getSVXSign" set-method="setSVXSign"/>
+    <value style="element" name="SVXID" get-method="getSVXID" set-method="setSVXID" usage="optional"/>
+    <structure map-as="odu:DocumentGroundConnectionType" get-method="getGroundConnectionPtpc" set-method="setGroundConnectionPtpc" usage="optional" name="GroundConnectionPtpc"/>
+  </mapping>
+</binding>

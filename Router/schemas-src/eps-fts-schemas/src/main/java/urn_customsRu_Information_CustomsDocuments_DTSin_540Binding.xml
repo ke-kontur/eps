@@ -1,0 +1,100 @@
+<binding xmlns:DTSin="urn:customs.ru:Information:CustomsDocuments:DTSin:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0" xmlns:cat_EDTS_cu="urn:customs.ru:CUESADDTSCommonAggregateTypes:5.4.0" xmlns:cat_EDTS_ru="urn:customs.ru:RUESADDTSCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DTSin:5.4.0" default="elements" prefix="DTSin"/>
+  <mapping abstract="true" type-name="DTSin:DTSinType" class="ru.acs.fts.schemas.album.dtsin.DTSinType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsCostMethodCode" get-method="getCustomsCostMethodCode" set-method="setCustomsCostMethodCode"/>
+    <value style="element" name="BaseMethodCode" get-method="getBaseMethodCode" set-method="setBaseMethodCode" usage="optional"/>
+    <value style="element" name="AdditionalSheetNumber" get-method="getAdditionalSheetNumber" set-method="setAdditionalSheetNumber"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <value style="element" name="DTSSequenceNumber" get-method="getDTSSequenceNumber" set-method="setDTSSequenceNumber"/>
+    <value style="element" name="CurrencyDate" get-method="getCurrencyDate" set-method="setCurrencyDate" format="LocalDate.default"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+    <value style="element" name="FormDTS" get-method="getFormDTS" set-method="setFormDTS"/>
+    <structure map-as="catESAD_ru:ESADOrganizationInType" get-method="getDTSinBuyer" set-method="setDTSinBuyer" name="DTSinBuyer"/>
+    <structure map-as="catESAD_ru:ESADOrganizationInType" get-method="getDTSinSeller" set-method="setDTSinSeller" name="DTSinSeller"/>
+    <structure map-as="catESAD_ru:ESADOrganizationInType" get-method="getDTSinDeclarant" set-method="setDTSinDeclarant" name="DTSinDeclarant"/>
+    <structure map-as="DTSin:DTSinFilledPersonType" get-method="getDTSinFilledPerson" set-method="setDTSinFilledPerson" name="DTSinFilledPerson"/>
+    <collection get-method="getDTSInvoiceDocumentList" set-method="setDTSInvoiceDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:DTSPresentedDocumentsType" name="DTSInvoiceDocuments"/>
+    </collection>
+    <structure map-as="cat_EDTS_cu:DTSSellingLimitationType" get-method="getDTSSellingLimitation" set-method="setDTSSellingLimitation" usage="optional" name="DTSSellingLimitation"/>
+    <structure map-as="cat_EDTS_cu:DTSBuyerSellerDependenceType" get-method="getDTSBuyerSellerDependence" set-method="setDTSBuyerSellerDependence" usage="optional" name="DTSBuyerSellerDependence"/>
+    <structure map-as="cat_EDTS_cu:DTSAdditionalPaymentsType" get-method="getDTSAdditionalPayments" set-method="setDTSAdditionalPayments" usage="optional" name="DTSAdditionalPayments"/>
+    <structure map-as="cat_EDTS_cu:ReasonApplyMethodType" get-method="getReasonApplyMethod" set-method="setReasonApplyMethod" usage="optional" name="ReasonApplyMethod"/>
+    <collection get-method="getDTSinGoodsCustomsCostList" set-method="setDTSinGoodsCustomsCostList" create-type="java.util.ArrayList">
+      <structure map-as="DTSin:DTSinGoodsCustomsCostType" name="DTSinGoodsCustomsCost"/>
+    </collection>
+    <structure map-as="DTSin:IntermediateCustomsCostDecisionType" get-method="getIntermediateCustomsCostDecision" set-method="setIntermediateCustomsCostDecision" usage="optional" name="IntermediateCustomsCostDecision"/>
+    <structure map-as="cat_EDTS_ru:CustomsCostDecisionType" get-method="getFinalCustomsCostDecision" set-method="setFinalCustomsCostDecision" usage="optional" name="FinalCustomsCostDecision"/>
+    <structure map-as="cat_EDTS_ru:CustomsCostDecisionType" get-method="getCancelingDecision" set-method="setCancelingDecision" usage="optional" name="CancelingDecision"/>
+    <collection get-method="getDTSinOfficialMarkList" set-method="setDTSinOfficialMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="DTSin:DTSinOfficialMarksType" name="DTSinOfficialMark"/>
+    </collection>
+    <structure map-as="DTSin:DTSinTechMarksType" get-method="getDTSinTechMarks" set-method="setDTSinTechMarks" usage="optional" name="DTSinTechMarks"/>
+    <collection get-method="getCostConfirmationDocumentList" set-method="setCostConfirmationDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:CostConfirmationDocumentType" name="CostConfirmationDocument"/>
+    </collection>
+    <collection get-method="getDeliveryTermList" set-method="setDeliveryTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DeliveryTermsRUType" name="DeliveryTerms"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.dtsin.DTSinType" name="DTSin">
+    <structure map-as="DTSin:DTSinType"/>
+  </mapping>
+  <mapping abstract="true" type-name="DTSin:CustomsCostCalculationType" class="ru.acs.fts.schemas.album.dtsin.CustomsCostCalculationType">
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_EDTS_ru:DTS3Method1Type" test-method="ifDTS3Method1" get-method="getDTS3Method1" set-method="setDTS3Method1" usage="optional" name="DTS3Method1"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod56Type" test-method="ifDTSMethod56" get-method="getDTSMethod56" set-method="setDTSMethod56" usage="optional" name="DTSMethod56"/>
+      <structure map-as="cat_EDTS_ru:DTS4Method236Type" test-method="ifDTS4Method236" get-method="getDTS4Method236" set-method="setDTS4Method236" usage="optional" name="DTS4Method236"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod236Type" test-method="ifDTSMethod236" get-method="getDTSMethod236" set-method="setDTSMethod236" usage="optional" name="DTSMethod236"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod46Type" test-method="ifDTSMethod46" get-method="getDTSMethod46" set-method="setDTSMethod46" usage="optional" name="DTSMethod46"/>
+      <structure map-as="cat_EDTS_ru:DTS4Method56Type" test-method="ifDTS4Method56" get-method="getDTS4Method56" set-method="setDTS4Method56" usage="optional" name="DTS4Method56"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod1Type" test-method="ifDTSMethod1" get-method="getDTSMethod1" set-method="setDTSMethod1" usage="optional" name="DTSMethod1"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="DTSin:DTSinFilledPersonType" class="ru.acs.fts.schemas.album.dtsin.DTSinFilledPersonType">
+    <structure map-as="cat_EDTS_cu:DTSFilledPersonType"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="DTSin:DTSinGoodsCustomsCostType" class="ru.acs.fts.schemas.album.dtsin.DTSinGoodsCustomsCostType">
+    <value style="element" name="SheetNumber" get-method="getSheetNumber" set-method="setSheetNumber"/>
+    <value style="element" name="SheetGoodsSerialNumber" get-method="getSheetGoodsSerialNumber" set-method="setSheetGoodsSerialNumber" usage="optional"/>
+    <value style="element" name="MethodNumberCode" get-method="getMethodNumberCode" set-method="setMethodNumberCode" usage="optional"/>
+    <value style="element" name="BaseMethodNumberCode" get-method="getBaseMethodNumberCode" set-method="setBaseMethodNumberCode" usage="optional"/>
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="NationalDeclaredCustomsCost" get-method="getNationalDeclaredCustomsCost" set-method="setNationalDeclaredCustomsCost" usage="optional"/>
+    <value style="element" name="DollarDeclaredCustomsCost" get-method="getDollarDeclaredCustomsCost" set-method="setDollarDeclaredCustomsCost" usage="optional"/>
+    <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsCancelingDecisionList" set-method="setGoodsCancelingDecisionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_ru:CustomsCostDecisionType" name="GoodsCancelingDecision"/>
+    </collection>
+    <structure map-as="DTSin:IntermediateCustomsCostDecisionType" get-method="getIntermediateCustomsCostDecision" set-method="setIntermediateCustomsCostDecision" usage="optional" name="IntermediateCustomsCostDecision"/>
+    <structure map-as="cat_EDTS_ru:CustomsCostDecisionType" get-method="getFinalCustomsCostDecision" set-method="setFinalCustomsCostDecision" usage="optional" name="FinalCustomsCostDecision"/>
+    <structure map-as="DTSin:CustomsCostCalculationType" get-method="getCustomsCostCalculation" set-method="setCustomsCostCalculation" usage="optional" name="CustomsCostCalculation"/>
+    <collection get-method="getDTSinCurrencyPaymentList" set-method="setDTSinCurrencyPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:DTSCurrencyPaymentType" name="DTSinCurrencyPayment"/>
+    </collection>
+    <collection get-method="getAdditionalDataList" set-method="setAdditionalDataList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:AdditionalDataType" name="AdditionalData"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="DTSin:DTSinOfficialMarksType" class="ru.acs.fts.schemas.album.dtsin.DTSinOfficialMarksType">
+    <structure map-as="cat_EDTS_ru:DTSOfficialMarkType"/>
+    <value style="element" name="RecordSerialNumber" get-method="getRecordSerialNumber" set-method="setRecordSerialNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="DTSin:DTSinTechMarksType" class="ru.acs.fts.schemas.album.dtsin.DTSinTechMarksType">
+    <value style="element" name="ModificationDate" get-method="getModificationDate" set-method="setModificationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ModificationTime" get-method="getModificationTime" set-method="setModificationTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="DTSin:IntermediateCustomsCostDecisionType" class="ru.acs.fts.schemas.album.dtsin.IntermediateCustomsCostDecisionType">
+    <value style="element" name="DecisionCode" get-method="getDecisionCode" set-method="setDecisionCode"/>
+    <value style="element" name="Term" get-method="getTerm" set-method="setTerm" format="LocalDate.default"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="DecisionDescription" get-method="getDecisionDescription" set-method="setDecisionDescription" usage="optional"/>
+  </mapping>
+</binding>

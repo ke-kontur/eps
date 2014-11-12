@@ -1,0 +1,62 @@
+<binding xmlns:s_inv="urn:customs.ru:Information:CommercialFinanceDocuments:ServiceInvoice:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ServiceInvoice:5.4.0" default="elements" prefix="s_inv"/>
+  <mapping abstract="true" type-name="s_inv:ServiceInvoiceType" class="ru.acs.fts.schemas.album.serviceinvoice.ServiceInvoiceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <value style="element" name="TotalServiceCost" get-method="getTotalServiceCost" set-method="setTotalServiceCost"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+    <structure map-as="s_inv:ServiceProviderType" get-method="getServiceProvider" set-method="setServiceProvider" name="ServiceProvider"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="PaymentDocument"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractDetails" set-method="setContractDetails" name="ContractDetails"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getInsurance" set-method="setInsurance" usage="optional" name="Insurance"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getServiceConsumer" set-method="setServiceConsumer" name="ServiceConsumer"/>
+    <collection get-method="getServiceDescriptionList" set-method="setServiceDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="s_inv:ServiceDescriptionType" name="ServiceDescription"/>
+    </collection>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:PersonSignatureType" test-method="ifIndividualEntrepreneur" get-method="getIndividualEntrepreneur" set-method="setIndividualEntrepreneur" usage="optional" name="IndividualEntrepreneur"/>
+      <structure map-as="s_inv:SignatureDirectorChiefAccountantType" test-method="ifSignatureDirectorChiefAccountant" get-method="getSignatureDirectorChiefAccountant" set-method="setSignatureDirectorChiefAccountant" usage="optional" name="SignatureDirectorChiefAccountant"/>
+    </structure>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.serviceinvoice.ServiceInvoiceType" name="ServiceInvoice">
+    <structure map-as="s_inv:ServiceInvoiceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="s_inv:PaymentDetailsType" class="ru.acs.fts.schemas.album.serviceinvoice.PaymentDetailsType">
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="s_inv:ServiceDescriptionType" class="ru.acs.fts.schemas.album.serviceinvoice.ServiceDescriptionType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GCost" get-method="getGCost" set-method="setGCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="ServiceName" get-method="getServiceName" set-method="setServiceName"/>
+    <value style="element" name="InsuranceRate" get-method="getInsuranceRate" set-method="setInsuranceRate" usage="optional"/>
+    <value style="element" name="TaxRate" get-method="getTaxRate" set-method="setTaxRate"/>
+    <value style="element" name="TaxSum" get-method="getTaxSum" set-method="setTaxSum"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional" name="GoodsQuantity"/>
+    <structure map-as="s_inv:PaymentDetailsType" get-method="getInsuranceSum" set-method="setInsuranceSum" usage="optional" name="InsuranceSum"/>
+    <structure map-as="s_inv:PaymentDetailsType" get-method="getServicePrice" set-method="setServicePrice" usage="optional" name="ServicePrice"/>
+    <structure map-as="s_inv:PaymentDetailsType" get-method="getTransportCost" set-method="setTransportCost" usage="optional" name="TransportCost"/>
+    <structure map-as="s_inv:PaymentDetailsType" get-method="getLoadingCost" set-method="setLoadingCost" usage="optional" name="LoadingCost"/>
+    <structure map-as="s_inv:PaymentDetailsType" get-method="getServiceCost" set-method="setServiceCost" name="ServiceCost"/>
+  </mapping>
+  <mapping abstract="true" type-name="s_inv:ServiceProviderType" class="ru.acs.fts.schemas.album.serviceinvoice.ServiceProviderType">
+    <structure map-as="catComFin_ru:InvoiceParticipantType"/>
+    <collection get-method="getPaymentRequisitionList" set-method="setPaymentRequisitionList" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:PaymentRequisitionsType" name="PaymentRequisitions"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="s_inv:SignatureDirectorChiefAccountantType" class="ru.acs.fts.schemas.album.serviceinvoice.SignatureDirectorChiefAccountantType">
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDirector" set-method="setDirector" name="Director"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getChiefAccountant" set-method="setChiefAccountant" name="ChiefAccountant"/>
+  </mapping>
+</binding>

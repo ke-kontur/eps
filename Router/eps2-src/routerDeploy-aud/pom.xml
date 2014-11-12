@@ -1,0 +1,104 @@
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+							http://maven.apache.org/xsd/maven-4.0.0.xsd">
+							
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ru.acs.fts.eps2</groupId>
+		<artifactId>eps2</artifactId>
+		<version>1.0</version>
+		<relativePath>../parent</relativePath>
+	</parent>
+
+	<groupId>ru.acs.fts.aud</groupId>	
+	<artifactId>router-aud-deploy</artifactId>
+	<version>1.11.1</version>
+	
+	<packaging>ear</packaging>
+	<name>AUD Intelligent Router Deploy</name>
+	
+	<build>
+        <resources>
+   <resource>
+    <directory>EarContent/META-INF/</directory>
+    <excludes>
+     <exclude>**/application.xml</exclude>
+    </excludes>
+    <includes>
+     <include>**</include>
+    </includes>
+    <targetPath>META-INF/</targetPath>
+   </resource>
+  </resources>
+        <sourceDirectory>EarContent</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>${maven.ear-version}</version>
+                <configuration>
+                    <modules>
+                        <webModule>
+                            <groupId>ru.acs.fts.aud</groupId>
+                            <artifactId>router-aud</artifactId>
+                            <contextRoot>/router-aud-${audVersion}</contextRoot>
+                        </webModule>
+                    </modules>
+                    <displayName>Router Deploy</displayName>
+                    <generateApplicationXml>true</generateApplicationXml>
+                    <resourcesDir>target/classes</resourcesDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+    <dependencies>
+  <dependency>
+   <groupId>ru.acs.fts.aud</groupId>
+   <artifactId>router-aud</artifactId>
+   <version>1.11.1</version>
+   <type>war</type>
+   <scope>compile</scope>
+  </dependency>
+  <dependency>
+   <groupId>joda-time</groupId>
+   <artifactId>joda-time</artifactId>
+   <version>2.3</version>
+   <type>jar</type>
+   <scope>compile</scope>
+  </dependency>
+ </dependencies>
+    
+    <profiles>
+		<profile>
+			<id>wls</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/EarContent/META-INF/</directory>
+						<excludes>
+                                                        <exclude>orion-application.xml</exclude>							
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+		
+		<profile>
+			<id>oas</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/EarContent/META-INF/</directory>
+						<excludes>
+							<exclude>weblogic-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+	</profiles>
+  
+</project>

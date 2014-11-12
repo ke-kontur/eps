@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Rules>
+<!-- Сообщения в КПС ПП (от AS) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.PPP.001</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в КПС ПП</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения в систему АС Калининградский Транзит -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.106.001</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему АС Калининградский Транзит</Description>
+    </Output>
+  </Rule>
+  
+   <!-- Сообщение на сервер литовского сегмента NCTS -->
+ <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.106.013</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение об открытии транзита на сервер литовского сегмента NCTS</Description>
+    </Output>
+  </Rule>
+  
+  <!-- Сообщение в систему ПКОП об аннулировании транзита-->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.106.002</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП об аннулировании транзита</Description>
+    </Output>
+  </Rule>
+  <!-- Сообщение в систему ПКОП об изменении транзита-->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.106.003</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП об изменении транзита</Description>
+    </Output>
+  </Rule>
+
+  <!-- Сообщение в систему ПКОП (подтверждение успешной обработки сообщения) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.101.00011</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП (подтверждение успешной обработки сообщения)</Description>
+    </Output>
+  </Rule>
+  
+  <!-- Сообщение в систему ПКОП (подтверждение ошибочной обработки сообщения) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.101.00021</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП (подтверждение ошибочной обработки сообщения)</Description>
+    </Output>
+  </Rule>
+  
+  
+  <!-- Сообщение в систему ПКОП об изменении статуса транзита (выезд) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.202.00012</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП об изменении статуса транзита (выезд)</Description>
+    </Output>
+  </Rule>
+  
+  <!-- Сообщение в систему ПКОП об изменении статуса транзита (въезд) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.202.0009</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП об изменении статуса транзита (въезд)</Description>
+    </Output>
+  </Rule>
+  
+  <!-- Сообщение в систему ПКОП об открытии транзита -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.202.0005</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП об открытии транзита</Description>
+    </Output>
+  </Rule>
+  
+  <!-- Сообщение в систему ПКОП об изменении статуса транзита (въезд в Калининград) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.202.00041</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему ПКОП об изменении статуса транзита (въезд в Калининград)</Description>
+    </Output>
+  </Rule>
+
+ 
+  <!-- Информация о транзите для РБ (DBF) -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SG.202.00061</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Информация о транзите для РБ (DBF)</Description>
+    </Output>
+  </Rule>
+
+<!-- Сообщения в систему рисков из РТУ -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.RCS.001</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему рисков (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.RCS.004</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему рисков (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.RCS.005</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему рисков (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения в систему гарантий из РТУ -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.ASG.003</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему гарантий (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.ASG.004</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему гарантий (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.ASG.005</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему гарантий (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения в систему МСАТ из РТУ -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>CUSTOMS.TIRQUERY.INQUIRY</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему МСАТ (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>CUSTOMS.TIRQUERY.ACK</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему МСАТ (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>SafeTIRData</MessageKind>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Сообщение в систему МСАТ (в ГНИВЦ)</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения в ГНИВЦ -->
+    <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <Receiver>GNIVC</Receiver>
+    </Input>
+    <Output>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.GNIVC.RNTS.DPC</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Receiver>WMQ://RU.FTS.GNIVC.RNTS.DPC/ROUTER.INPUT</Receiver>
+      <Description>Сообщение в ГНИВЦ</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения клиенту, либо маршрутизатору РТУ -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+      <MessageKind>RNTS.109.002</MessageKind>
+      <Receiver>UZTU</Receiver>
+    </Input>
+    <Output>
+      <Queue>AS.SYNCH</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение инициирущее синхронизацию</Description>
+    </Output>
+  </Rule>
+
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+     <Receiver>UZTU</Receiver>
+    </Input>
+    <Output>
+      <Queue>AS.INPUT</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение для сервера приложений</Description>
+    </Output>
+  </Rule>
+
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM</Queue>
+    </Input>
+    <Output>
+      <Queue>Receiver</Queue>
+      <QueueManager>Receiver</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Sender>WMQ://RU.FTS.YUTU.RNTS.DPC/ROUTER.INPUT</Sender>
+      <Description>Исходящее сообщение от сервера приложений</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения синхронизации ГНИВЦ - РТУ -->
+
+  
+  <Rule>
+    <Input>
+      <Queue>ROUTER.INPUT</Queue>
+      <MessageKind>RNTS.109.003</MessageKind>
+    </Input>
+    <Output>
+      <Queue>AS.SYNCH</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение запроса документа для восходящей синхронизации</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>ROUTER.INPUT</Queue>
+      <MessageKind>RNTS.109.004</MessageKind>
+    </Input>
+    <Output>
+      <Queue>AS.ASKTT</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение документа для нисходящей синхронизации</Description>
+    </Output>
+  </Rule>
+
+
+  <Rule>
+    <Input>
+<!--      <Queue>ROUTER.INPUT@RU.FTS</Queue> -->
+      <MessageKind>RNTS.109.004</MessageKind>
+    </Input>
+    <Output>
+      <Queue>AS.ASKTT</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение документа для нисходящей синхронизации</Description>
+    </Output>
+  </Rule>
+
+
+<!--New Messages -->
+  <Rule>
+    <Input>
+      <Queue>ROUTER.INPUT</Queue>
+      <MessageKind>RNTS.113.003</MessageKind>
+      <Receiver>UZTU</Receiver>
+    </Input>
+    <Output>
+      <Queue>RNTS.ST.FROM</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение для генерации сообщения в АСКТТ</Description>
+    </Output>
+  </Rule>
+  <Rule>
+    <Input>
+      <Queue>ROUTER.INPUT</Queue>
+      <MessageKind>RNTS.113.004</MessageKind>
+      <Receiver>UZTU</Receiver>
+    </Input>
+    <Output>
+      <Queue>RNTS.ST.FROM</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение для генерации сообщения в АСКТТ</Description>
+    </Output>
+  </Rule>
+
+
+<!-- Сообщения для сервера приложений -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.INCOME</Queue>
+    </Input>
+    <Output>
+      <Queue>AS.INPUT</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.APP</QueueManager>
+      <Queue>ARCHIVE.LOG</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+      <Description>Сообщение для сервера приложений</Description>
+    </Output>
+  </Rule>
+<!-- Сообщения откатов для сервера приложений -->
+  <Rule>
+    <Input>
+      <Queue>AS.BACKOUT</Queue>
+    </Input>
+    <Output>
+      <Queue>ROLLBACK.EXCEPTION</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+    </Output>
+  </Rule>
+<!-- Сообщения откатов исходящих сообщений сервера приложений -->
+  <Rule>
+    <Input>
+      <Queue>RNTS.APP.FROM.BACKOUT</Queue>
+    </Input>
+    <Output>
+      <Queue>ROUTER.ERRORS</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+    </Output>
+  </Rule>
+    <Default>
+    <Queue>ROUTER.ERRORS</Queue>
+    <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+    <ReplyToQueue></ReplyToQueue>
+    <ReplyToQueueManager></ReplyToQueueManager>
+    <Format></Format>
+    <MsgType></MsgType>
+    <Sender></Sender>
+    <Receiver></Receiver>
+    <SoftKind></SoftKind>
+    <SoftVersion></SoftVersion>
+    <MessageKind></MessageKind>
+    <Description></Description>
+  </Default>
+<!-- Таблица адресов зарегистрированных маршрутизаторов -->
+<!--  Если при проверке менеджера очередей в адресе получателя
+  обнаруживается, что он принадлежит одному из 
+  зарегистрированных маршрутизаторов ниже, то сообщение 
+  отправляется на вход этому маршрутизатору.
+  Если подходящего маршрутизатора не обнаруживается, выполняется 
+  посылка напрямую в адрес получателя.
+-->
+  <Table>
+    <Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.CTU</QueueManager>
+    </Router>
+<!--    
+<Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.YUTU.RNTS.DPC</QueueManager>
+    </Router>
+-->
+    <Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.UZTU</QueueManager>
+    </Router>
+    <Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.PTU</QueueManager>
+    </Router>
+    <Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.YUTU</QueueManager>
+    </Router>
+    <Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.STU</QueueManager>
+    </Router>
+    <Router>
+      <Queue>ROUTER.INPUT</Queue>
+      <QueueManager>RU.FTS.DVTU</QueueManager>
+    </Router>
+  </Table>
+</Rules>

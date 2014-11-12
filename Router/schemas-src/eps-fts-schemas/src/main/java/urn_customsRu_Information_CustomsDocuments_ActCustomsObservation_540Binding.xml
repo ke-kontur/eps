@@ -1,0 +1,61 @@
+<binding xmlns:actco="urn:customs.ru:Information:CustomsDocuments:ActCustomsObservation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActCustomsObservation:5.4.0" default="elements" prefix="actco"/>
+  <mapping abstract="true" type-name="actco:ActCustomsObservationType" class="ru.acs.fts.schemas.album.actcustomsobservation.ActCustomsObservationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ActDate" get-method="getActDate" set-method="setActDate" format="LocalDate.default"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+    <value style="element" name="BeginTime" get-method="getBeginTime" set-method="setBeginTime"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndTime" get-method="getEndTime" set-method="setEndTime" usage="optional"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason"/>
+    <value style="element" name="ObservationKind" get-method="getObservationKind" set-method="setObservationKind"/>
+    <value style="element" name="OperationsCustObservation" get-method="getOperationsCustObservation" set-method="setOperationsCustObservation"/>
+    <collection get-method="getProcessDescriptionResultList" set-method="setProcessDescriptionResultList" create-type="java.util.ArrayList">
+      <value style="element" name="ProcessDescriptionResults" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="AddiSheetsNumber" get-method="getAddiSheetsNumber" set-method="setAddiSheetsNumber"/>
+    <value style="element" name="Application" get-method="getApplication" set-method="setApplication"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="actco:ObservationPlaceType" get-method="getObservationPlace" set-method="setObservationPlace" name="ObservationPlace"/>
+    <collection get-method="getApplicationTMCCList" set-method="setApplicationTMCCList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="actco:ApplicationTMCCType" name="ApplicationTMCC"/>
+    </collection>
+    <collection get-method="getCustomsPersonList" set-method="setCustomsPersonList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CustomsPersonType" name="CustomsPerson"/>
+    </collection>
+    <collection get-method="getPersonsInvolvedOperationList" set-method="setPersonsInvolvedOperationList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonBaseType" name="PersonsInvolvedOperation"/>
+    </collection>
+    <collection get-method="getAddSheetList" set-method="setAddSheetList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="actco:AddSheetType" name="AddSheet"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actcustomsobservation.ActCustomsObservationType" name="ActCustomsObservation">
+    <structure map-as="actco:ActCustomsObservationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="actco:AddSheetType" class="ru.acs.fts.schemas.album.actcustomsobservation.AddSheetType">
+    <value style="element" name="NumberSheet" get-method="getNumberSheet" set-method="setNumberSheet"/>
+    <collection get-method="getDescriptionList" set-method="setDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="Description" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="actco:ApplicationTMCCType" class="ru.acs.fts.schemas.album.actcustomsobservation.ApplicationTMCCType">
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="actco:ObservationPlaceType" class="ru.acs.fts.schemas.album.actcustomsobservation.ObservationPlaceType">
+    <structure map-as="cat_ru:CUCustomsType"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode"/>
+    <value style="element" name="InspPlaceName" get-method="getInspPlaceName" set-method="setInspPlaceName"/>
+    <collection get-method="getInspPlaceDescList" set-method="setInspPlaceDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InspPlaceDesc" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="actco:WarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" usage="optional" name="WarehousePlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="actco:WarehousePlaceType" class="ru.acs.fts.schemas.album.actcustomsobservation.WarehousePlaceType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

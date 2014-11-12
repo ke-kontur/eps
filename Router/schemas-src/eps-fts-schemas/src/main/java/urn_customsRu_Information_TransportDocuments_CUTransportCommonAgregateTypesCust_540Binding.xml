@@ -1,0 +1,31 @@
+<binding xmlns:catTrans_cu="urn:customs.ru:Information:TransportDocuments:CUTransportCommonAgregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:CUTransportCommonAgregateTypesCust:5.4.0" default="elements" prefix="catTrans_cu"/>
+  <mapping abstract="true" type-name="catTrans_cu:IdentityMarkType" class="ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.IdentityMarkType">
+    <value style="element" name="IdentityNumber" get-method="getIdentityNumber" set-method="setIdentityNumber"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_cu:TDDestinationBaseType" class="ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TDDestinationBaseType">
+    <value style="element" name="DestinationCustomsCode" get-method="getDestinationCustomsCode" set-method="setDestinationCustomsCode" usage="optional"/>
+    <value style="element" name="DeliveryCustomsPostCode" get-method="getDeliveryCustomsPostCode" set-method="setDeliveryCustomsPostCode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_cu:TIRDestinationType" class="ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TIRDestinationType">
+    <structure map-as="catTrans_cu:TDDestinationBaseType"/>
+    <value style="element" name="DestinationPlaceName" get-method="getDestinationPlaceName" set-method="setDestinationPlaceName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_cu:TIRForwarderType" class="ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TIRForwarderType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_cu:TIRIdentifierType" class="ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TIRIdentifierType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRWhitePageNumber" get-method="getTIRWhitePageNumber" set-method="setTIRWhitePageNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_cu:TRPackingInfoType" class="ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TRPackingInfoType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode" usage="optional"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity"/>
+    <value style="element" name="PackingDescription" get-method="getPackingDescription" set-method="setPackingDescription" usage="optional"/>
+    <value style="element" name="PakagePartQuantity" get-method="getPakagePartQuantity" set-method="setPakagePartQuantity" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,52 @@
+<binding xmlns:rid="urn:customs.ru:Information:CustomsDocuments:ReqInventoryDoc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqInventoryDoc:5.4.0" default="elements" prefix="rid"/>
+  <mapping abstract="true" type-name="rid:ReqInventoryDocType" class="ru.acs.fts.schemas.album.reqinventorydoc.ReqInventoryDocType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RequestNumber" get-method="getRequestNumber" set-method="setRequestNumber"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" format="LocalDate.default"/>
+    <value style="element" name="RequestTime" get-method="getRequestTime" set-method="setRequestTime" usage="optional"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ApplicationSourceSystemID" get-method="getApplicationSourceSystemID" set-method="setApplicationSourceSystemID" usage="optional"/>
+    <value style="element" name="ApplicationID" get-method="getApplicationID" set-method="setApplicationID" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <collection get-method="getCommunicationList" set-method="setCommunicationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rid:CommunicationType" name="Communication"/>
+    </collection>
+    <collection get-method="getRequestedDocList" set-method="setRequestedDocList" create-type="java.util.ArrayList">
+      <structure map-as="rid:RequestedDocType" name="RequestedDoc"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <structure map-as="rid:OEZ_RegistrationNumberType" get-method="getOEZRegistrationNumber" set-method="setOEZRegistrationNumber" usage="optional" name="OEZ_RegistrationNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqinventorydoc.ReqInventoryDocType" name="ReqInventoryDoc">
+    <structure map-as="rid:ReqInventoryDocType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rid:CommunicationType" class="ru.acs.fts.schemas.album.reqinventorydoc.CommunicationType">
+    <value style="element" name="CommCode" get-method="getCommCode" set-method="setCommCode"/>
+    <value style="element" name="CommNumberAddress" get-method="getCommNumberAddress" set-method="setCommNumberAddress" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rid:OEZ_RegistrationNumberType" class="ru.acs.fts.schemas.album.reqinventorydoc.OEZRegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rid:RequestedDocType" class="ru.acs.fts.schemas.album.reqinventorydoc.RequestedDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID" usage="optional"/>
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID" usage="optional"/>
+    <value style="element" name="AarchID" get-method="getAarchID" set-method="setAarchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="ADocumentID" get-method="getADocumentID" set-method="setADocumentID" usage="optional"/>
+    <value style="element" name="ReqPurpose" get-method="getReqPurpose" set-method="setReqPurpose" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="RequestorName" get-method="getRequestorName" set-method="setRequestorName"/>
+    <value style="element" name="InventLineID" get-method="getInventLineID" set-method="setInventLineID" usage="optional"/>
+  </mapping>
+</binding>

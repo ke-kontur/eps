@@ -1,0 +1,29 @@
+<binding xmlns:do1r="urn:customs.ru:Information:WarehouseDocuments:DO1Report:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:DO1Report:5.4.0" default="elements" prefix="do1r"/>
+  <mapping abstract="true" type-name="do1r:DO1ReportType" class="ru.acs.fts.schemas.album.do1report.DO1ReportType">
+    <structure map-as="catWH_ru:WareHouseReportType"/>
+    <structure map-as="catWH_ru:WHCarrierType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <collection get-method="getTransportList" set-method="setTransportList" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhTransportType" name="Transports"/>
+    </collection>
+    <structure map-as="do1r:DO1GoodsShipmentType" get-method="getGoodsShipment" set-method="setGoodsShipment" name="GoodsShipment"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.do1report.DO1ReportType" name="DO1Report">
+    <structure map-as="do1r:DO1ReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="do1r:DO1GoodsShipmentType" class="ru.acs.fts.schemas.album.do1report.DO1GoodsShipmentType">
+    <value style="element" name="TotalPackageNumber" get-method="getTotalPackageNumber" set-method="setTotalPackageNumber" usage="optional"/>
+    <value style="element" name="MPOSign" get-method="getMPOSign" set-method="setMPOSign"/>
+    <collection get-method="getTransportDocList" set-method="setTransportDocList" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHShipmentInfoType" name="TransportDocs"/>
+    </collection>
+    <collection get-method="getCustomsDocList" set-method="setCustomsDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhCustomDocumentType" name="CustomsDocs"/>
+    </collection>
+    <collection get-method="getCommerceDocList" set-method="setCommerceDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhPresentDocType" name="CommerceDocs"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getPresentedDocuments" set-method="setPresentedDocuments" usage="optional" name="PresentedDocuments"/>
+  </mapping>
+</binding>

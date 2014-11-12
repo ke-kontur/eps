@@ -1,0 +1,64 @@
+<binding xmlns:percp="urn:customs.ru:Information:TreatmentDocuments:PermitCustProcessing:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTreat_ru="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:PermitCustProcessing:5.4.0" default="elements" prefix="percp"/>
+  <mapping abstract="true" type-name="percp:PermitCustProcessingType" class="ru.acs.fts.schemas.album.permitcustprocessing.PermitCustProcessingType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PermitNumber" get-method="getPermitNumber" set-method="setPermitNumber"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="BasicPermitNumber" get-method="getBasicPermitNumber" set-method="setBasicPermitNumber" usage="optional"/>
+    <value style="element" name="TreatmentProcedureCode" get-method="getTreatmentProcedureCode" set-method="setTreatmentProcedureCode"/>
+    <value style="element" name="PermitPeriodDate" get-method="getPermitPeriodDate" set-method="setPermitPeriodDate" format="LocalDate.default"/>
+    <value style="element" name="SupplyStatus" get-method="getSupplyStatus" set-method="setSupplyStatus"/>
+    <collection get-method="getCustProcedureWasteList" set-method="setCustProcedureWasteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CustProcedureWaste" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="percp:PermitPropertiesType" get-method="getPermitProperties" set-method="setPermitProperties" usage="optional" name="PermitProperties"/>
+    <structure map-as="catTreat_ru:TreatmentOrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="catTreat_ru:TreatmentType" get-method="getTreatment" set-method="setTreatment" name="Treatment"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getGoodsInCustoms" set-method="setGoodsInCustoms" usage="optional" name="GoodsInCustoms"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getGoodsOutCustoms" set-method="setGoodsOutCustoms" usage="optional" name="GoodsOutCustoms"/>
+    <collection get-method="getContractList" set-method="setContractList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:BaseTreatmentDocsType" name="Contract"/>
+    </collection>
+    <structure map-as="percp:DecisionTransferType" get-method="getDecisionTransfer" set-method="setDecisionTransfer" usage="optional" name="DecisionTransfer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitcustprocessing.PermitCustProcessingType" name="PermitCustProcessing">
+    <structure map-as="percp:PermitCustProcessingType"/>
+  </mapping>
+  <mapping abstract="true" type-name="percp:DecisionTransferType" class="ru.acs.fts.schemas.album.permitcustprocessing.DecisionTransferType">
+    <value style="element" name="NumberDecision" get-method="getNumberDecision" set-method="setNumberDecision"/>
+    <value style="element" name="DateDecision" get-method="getDateDecision" set-method="setDateDecision" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="percp:PermitPropertiesType" class="ru.acs.fts.schemas.album.permitcustprocessing.PermitPropertiesType">
+    <structure map-as="catTreat_ru:TreatmentOrganizationType"/>
+    <value style="element" name="PermitNumber" get-method="getPermitNumber" set-method="setPermitNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="percp:TreatmentInfType" class="ru.acs.fts.schemas.album.permitcustprocessing.TreatmentInfType">
+    <collection get-method="getYieldNormList" set-method="setYieldNormList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="YieldNorm" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getIdentificationMethodList" set-method="setIdentificationMethodList" create-type="java.util.ArrayList">
+      <value style="element" name="IdentificationMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <collection get-method="getProcessProductionDeList" set-method="setProcessProductionDeList" create-type="java.util.ArrayList">
+      <value style="element" name="ProcessProductionDes" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSpecialCustomMarkList" set-method="setSpecialCustomMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SpecialCustomMarks" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getBaseTreatmentDocList" set-method="setBaseTreatmentDocList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:BaseTreatmentDocsType" name="BaseTreatmentDocs"/>
+    </collection>
+    <collection get-method="getTreatmentOrganizationList" set-method="setTreatmentOrganizationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatmentOrganizationType" name="TreatmentOrganization"/>
+    </collection>
+    <structure map-as="catTreat_ru:TreatmentOperationsType" get-method="getTreatmentOperations" set-method="setTreatmentOperations" name="TreatmentOperations"/>
+  </mapping>
+</binding>

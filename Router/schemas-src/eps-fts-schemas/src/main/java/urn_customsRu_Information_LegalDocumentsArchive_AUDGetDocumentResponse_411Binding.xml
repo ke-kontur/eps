@@ -1,0 +1,13 @@
+<binding xmlns:audres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetDocumentResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetDocumentResponse:4.1.1" default="elements" prefix="audres"/>
+  <mapping abstract="true" type-name="audres:AUD_GetDocumentResponseType" class="ru.acs.fts.schemas.aud.aud_getdocumentresponse.AUDGetDocumentResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <collection get-method="getDocumentInfoWithAttributeList" set-method="setDocumentInfoWithAttributeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentInfoWithAttributesType" name="DocumentInfoWithAttributes"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_getdocumentresponse.AUDGetDocumentResponseType" name="AUD_GetDocumentResponse">
+    <structure map-as="audres:AUD_GetDocumentResponseType"/>
+  </mapping>
+</binding>

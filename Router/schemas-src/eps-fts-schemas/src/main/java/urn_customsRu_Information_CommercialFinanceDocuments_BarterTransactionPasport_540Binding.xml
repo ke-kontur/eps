@@ -1,0 +1,84 @@
+<binding xmlns:btp="urn:customs.ru:Information:CommercialFinanceDocuments:BarterTransactionPasport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:BarterTransactionPasport:5.4.0" default="elements" prefix="btp"/>
+  <mapping abstract="true" type-name="btp:BarterTransactionPasportType" class="ru.acs.fts.schemas.album.bartertransactionpasport.BarterTransactionPasportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="catComFin_ru:ShortCompanyDescType" get-method="getMFER" set-method="setMFER" name="MFER"/>
+    <structure map-as="btp:RussianCompanyType" get-method="getRussianCompany" set-method="setRussianCompany" name="RussianCompany"/>
+    <structure map-as="btp:BarterContractTermsType" get-method="getContractTerms" set-method="setContractTerms" name="ContractTerms"/>
+    <structure map-as="btp:PermitPaymentType" get-method="getPermitPayment" set-method="setPermitPayment" usage="optional" name="PermitPayment"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getMFERSignature" set-method="setMFERSignature" name="MFERSignature"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getRussianCompanySignature" set-method="setRussianCompanySignature" name="RussianCompanySignature"/>
+    <structure map-as="btp:SpecialCommentsType" get-method="getSpecialComments" set-method="setSpecialComments" usage="optional" name="SpecialComments"/>
+    <collection get-method="getEnclosureList" set-method="setEnclosureList" create-type="java.util.ArrayList">
+      <structure map-as="btp:EnclosureType" name="Enclosure"/>
+    </collection>
+    <structure map-as="btp:RegistrationType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure map-as="btp:ForeignContractorType" get-method="getForeignContractor" set-method="setForeignContractor" name="ForeignContractor"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.bartertransactionpasport.BarterTransactionPasportType" name="BarterTransactionPasport">
+    <structure map-as="btp:BarterTransactionPasportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:BarterContractTermsType" class="ru.acs.fts.schemas.album.bartertransactionpasport.BarterContractTermsType">
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="DueDateCode" get-method="getDueDateCode" set-method="setDueDateCode"/>
+    <value style="element" name="LastDate" get-method="getLastDate" set-method="setLastDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <collection get-method="getChangeContractList" set-method="setChangeContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="ChangeContract"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="btp:EnclosureType" class="ru.acs.fts.schemas.album.bartertransactionpasport.EnclosureType">
+    <value style="element" name="ExportIndicator" get-method="getExportIndicator" set-method="setExportIndicator" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="SupplementaryQualifierName" get-method="getSupplementaryQualifierName" set-method="setSupplementaryQualifierName" usage="optional"/>
+    <value style="element" name="Price" get-method="getPrice" set-method="setPrice" usage="optional"/>
+    <value style="element" name="Cost1" get-method="getCost1" set-method="setCost1"/>
+    <collection get-method="getDeliveryTermsStringCodeList" set-method="setDeliveryTermsStringCodeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DeliveryTermsStringCode" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ServiceModeCode" get-method="getServiceModeCode" set-method="setServiceModeCode" usage="optional"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="btp:GoodsCostType" test-method="ifImportGoodsCost" get-method="getImportGoodsCost" set-method="setImportGoodsCost" usage="optional" name="ImportGoodsCost"/>
+      <structure map-as="btp:GoodsCostType" test-method="ifExportGoodsCost" get-method="getExportGoodsCost" set-method="setExportGoodsCost" usage="optional" name="ExportGoodsCost"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="btp:ForeignContractorType" class="ru.acs.fts.schemas.album.bartertransactionpasport.ForeignContractorType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" name="LegalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:GoodsCostType" class="ru.acs.fts.schemas.album.bartertransactionpasport.GoodsCostType">
+    <value style="element" name="Cost2" get-method="getCost2" set-method="setCost2"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:PasportIDType" class="ru.acs.fts.schemas.album.bartertransactionpasport.PasportIDType">
+    <value style="element" name="Sign" get-method="getSign" set-method="setSign"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID"/>
+    <value style="element" name="Number3" get-method="getNumber3" set-method="setNumber3"/>
+    <value style="element" name="Number10" get-method="getNumber10" set-method="setNumber10"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:PermitPaymentType" class="ru.acs.fts.schemas.album.bartertransactionpasport.PermitPaymentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Deferment" get-method="getDeferment" set-method="setDeferment"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:RegistrationType" class="ru.acs.fts.schemas.album.bartertransactionpasport.RegistrationType">
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <structure map-as="btp:PasportIDType" get-method="getPasportID" set-method="setPasportID" name="PasportID"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:RussianCompanyType" class="ru.acs.fts.schemas.album.bartertransactionpasport.RussianCompanyType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID"/>
+    <value style="element" name="INNID" get-method="getINNID" set-method="setINNID"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="btp:SpecialCommentsType" class="ru.acs.fts.schemas.album.bartertransactionpasport.SpecialCommentsType">
+    <value style="element" name="Explanations" get-method="getExplanations" set-method="setExplanations" usage="optional"/>
+    <value style="element" name="ExportAmount" get-method="getExportAmount" set-method="setExportAmount" usage="optional"/>
+    <value style="element" name="ImportAmount" get-method="getImportAmount" set-method="setImportAmount" usage="optional"/>
+  </mapping>
+</binding>

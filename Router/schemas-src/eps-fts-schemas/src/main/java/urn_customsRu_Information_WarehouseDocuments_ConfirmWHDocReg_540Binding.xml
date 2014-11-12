@@ -1,0 +1,21 @@
+<binding xmlns:condr="urn:customs.ru:Information:WarehouseDocuments:ConfirmWHDocReg:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:ConfirmWHDocReg:5.4.0" default="elements" prefix="condr"/>
+  <mapping abstract="true" type-name="condr:ConfirmWHDocRegType" class="ru.acs.fts.schemas.album.confirmwhdocreg.ConfirmWHDocRegType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="RegTime" get-method="getRegTime" set-method="setRegTime" usage="optional"/>
+    <value style="element" name="PresentDate" get-method="getPresentDate" set-method="setPresentDate" format="LocalDate.default"/>
+    <value style="element" name="PresentTime" get-method="getPresentTime" set-method="setPresentTime" usage="optional"/>
+    <value style="element" name="Deadline" get-method="getDeadline" set-method="setDeadline" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MeasuresEnsure" get-method="getMeasuresEnsure" set-method="setMeasuresEnsure" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDoc" set-method="setRegNumberDoc" name="RegNumberDoc"/>
+    <structure map-as="catWH_ru:WarehouseCertificateType" get-method="getWarehouseLicense" set-method="setWarehouseLicense" usage="optional" name="WarehouseLicense"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.confirmwhdocreg.ConfirmWHDocRegType" name="ConfirmWHDocReg">
+    <structure map-as="condr:ConfirmWHDocRegType"/>
+  </mapping>
+</binding>

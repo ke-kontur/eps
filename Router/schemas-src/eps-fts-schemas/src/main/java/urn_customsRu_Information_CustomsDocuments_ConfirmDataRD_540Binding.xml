@@ -1,0 +1,15 @@
+<binding xmlns:cdrd="urn:customs.ru:Information:CustomsDocuments:ConfirmDataRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ConfirmDataRD:5.4.0" default="elements" prefix="cdrd"/>
+  <mapping abstract="true" type-name="cdrd:ConfirmDataRDType" class="ru.acs.fts.schemas.album.confirmdatard.ConfirmDataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID"/>
+    <value style="element" name="UseDateTime" get-method="getUseDateTime" set-method="setUseDateTime"/>
+    <value style="element" name="Difference" get-method="getDifference" set-method="setDifference"/>
+    <value style="element" name="CustDocType" get-method="getCustDocType" set-method="setCustDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.confirmdatard.ConfirmDataRDType" name="ConfirmDataRD">
+    <structure map-as="cdrd:ConfirmDataRDType"/>
+  </mapping>
+</binding>

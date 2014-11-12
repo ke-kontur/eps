@@ -1,0 +1,7 @@
+<binding xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" default="elements" prefix="IEcat_ru"/>
+  <mapping abstract="true" type-name="IEcat_ru:BaseDocType" class="ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType">
+    <value style="element" name="DocumentID" get-method="getDocumentID" set-method="setDocumentID"/>
+    <value style="element" name="RefDocumentID" get-method="getRefDocumentID" set-method="setRefDocumentID" usage="optional"/>
+  </mapping>
+</binding>

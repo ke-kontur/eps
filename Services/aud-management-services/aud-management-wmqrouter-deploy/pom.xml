@@ -1,0 +1,86 @@
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+							http://maven.apache.org/xsd/maven-4.0.0.xsd" >
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ru.acs.fts.aud</groupId>
+		<artifactId>management-parent</artifactId>
+		<version>1.11.1</version>
+	</parent>
+	<artifactId>aud-management-wmqrouter-deploy</artifactId>
+	<packaging>ear</packaging>
+	<name>AUD Management - Wmq Router Deploy</name>
+	
+    <dependencies>
+        <dependency>
+            <groupId>ru.acs.fts.aud</groupId>
+            <artifactId>aud-wmq-router</artifactId>
+            <version>1.11.1</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+	
+    <build>
+        <resources>
+            <resource>
+                <targetPath>META-INF/</targetPath>
+                <directory>${project.basedir}/ear-content/META-INF/</directory>
+                <excludes>
+                    <exclude>**/application.xml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+        <sourceDirectory>ear-content</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <configuration>
+                    <modules>
+                        <webModule>
+                            <groupId>ru.acs.fts.aud</groupId>
+                            <artifactId>aud-wmq-router</artifactId>
+                            <contextRoot>/aud-wmq-router</contextRoot>
+                        </webModule>
+                    </modules>
+                    <displayName>AUD Wmq Router Deploy</displayName>
+                    <generateApplicationXml>true</generateApplicationXml>
+                    <resourcesDir>target/classes</resourcesDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+	<profiles>
+		<profile>
+			<id>oas</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/ear-content/META-INF/</directory>
+						<excludes>
+							<exclude>weblogic-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+		
+		<profile>
+			<id>wls</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/ear-content/META-INF/</directory>
+						<excludes>
+							<exclude>orion-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+	</profiles>
+		
+</project>

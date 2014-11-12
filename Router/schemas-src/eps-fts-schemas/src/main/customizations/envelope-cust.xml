@@ -1,0 +1,22 @@
+<schema-set prefer-inline="true" >
+	
+	<schema-set 
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			package="ru.acs.fts.schemas.envelope" 
+			prefer-inline="true"
+			any-handling="mapped"
+			type-substitutions="xs:base64Binary xs:string" >
+			
+		<schema-type 
+			type-name="dateTime" java-class="org.joda.time.DateTime"
+			serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime"
+			deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime" />
+			
+		<schema-type type-name="date" format-name="LocalDate.default" />
+		<schema-type type-name="time" format-name="LocalTime.local" />
+		
+		<schema name="Envelope.xsd" any-handling="mapped" />
+		
+	</schema-set>
+	
+</schema-set>

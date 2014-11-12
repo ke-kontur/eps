@@ -1,0 +1,37 @@
+<binding xmlns:gsch="urn:customs.ru:Information:ExchangeDocuments:GoodSearchRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:GoodSearchRequest:5.4.0" default="elements" prefix="gsch"/>
+  <mapping abstract="true" type-name="gsch:GoodSearchRequestType" class="ru.acs.fts.schemas.album.goodsearchrequest.GoodSearchRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GoodsRegistrationDate" get-method="getGoodsRegistrationDate" set-method="setGoodsRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="ConsignmentNumber" get-method="getConsignmentNumber" set-method="setConsignmentNumber" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getTD" set-method="setTD" name="TD"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gsch:CarriageType" name="Transport"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="gsch:PlaceType" get-method="getDeparturePlace" set-method="setDeparturePlace" name="DeparturePlace"/>
+    <structure map-as="gsch:PlaceType" get-method="getDestinationPlace" set-method="setDestinationPlace" name="DestinationPlace"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsearchrequest.GoodSearchRequestType" name="GoodSearchRequest">
+    <structure map-as="gsch:GoodSearchRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gsch:GoodsType" class="ru.acs.fts.schemas.album.goodsearchrequest.GoodsType">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Container" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gsch:PlaceType" class="ru.acs.fts.schemas.album.goodsearchrequest.PlaceType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName" usage="optional"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gsch:CarriageType" class="ru.acs.fts.schemas.album.goodsearchrequest.CarriageType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gsch:GoodsType" name="GoodsInfo"/>
+    </collection>
+  </mapping>
+</binding>

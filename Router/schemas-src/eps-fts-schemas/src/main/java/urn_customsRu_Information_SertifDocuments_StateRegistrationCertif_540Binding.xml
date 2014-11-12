@@ -1,0 +1,56 @@
+<binding xmlns:srcer="urn:customs.ru:Information:SertifDocuments:StateRegistrationCertif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:StateRegistrationCertif:5.4.0" default="elements" prefix="srcer"/>
+  <mapping abstract="true" type-name="srcer:StateRegistrationCertifType" class="ru.acs.fts.schemas.album.stateregistrationcertif.StateRegistrationCertifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="AutorizedAgency" get-method="getAutorizedAgency" set-method="setAutorizedAgency"/>
+    <value style="element" name="AgencyHead" get-method="getAgencyHead" set-method="setAgencyHead" usage="optional"/>
+    <value style="element" name="TerritorialUnit" get-method="getTerritorialUnit" set-method="setTerritorialUnit" usage="optional"/>
+    <value style="element" name="BlankSeries" get-method="getBlankSeries" set-method="setBlankSeries" usage="optional"/>
+    <value style="element" name="BlankTypographNum" get-method="getBlankTypographNum" set-method="setBlankTypographNum" usage="optional"/>
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber"/>
+    <value style="element" name="CertDate" get-method="getCertDate" set-method="setCertDate" format="LocalDate.default"/>
+    <value style="element" name="CertStatus" get-method="getCertStatus" set-method="setCertStatus" usage="optional"/>
+    <value style="element" name="BlankTypeID" get-method="getBlankTypeID" set-method="setBlankTypeID" usage="optional"/>
+    <structure map-as="srcer:GoodsType" get-method="getGoods" set-method="setGoods" name="Goods"/>
+    <structure map-as="srcer:ManufacturerType" get-method="getManufacturerInf" set-method="setManufacturerInf" name="ManufacturerInf"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getGoodsRecipient" set-method="setGoodsRecipient" usage="optional" name="GoodsRecipient"/>
+    <collection get-method="getTestingOrgList" set-method="setTestingOrgList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:OrganizationBaseType" name="TestingOrg"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAutorizedPerson" set-method="setAutorizedPerson" name="AutorizedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.stateregistrationcertif.StateRegistrationCertifType" name="StateRegistrationCertif">
+    <structure map-as="srcer:StateRegistrationCertifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="srcer:GoodsType" class="ru.acs.fts.schemas.album.stateregistrationcertif.GoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getNormTechDocList" set-method="setNormTechDocList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="NormTechDocs" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getInvestigProtocolList" set-method="setInvestigProtocolList" create-type="java.util.ArrayList">
+      <value style="element" name="InvestigProtocols" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSanitaryCharachterList" set-method="setSanitaryCharachterList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SanitaryCharachter" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="LabelInf" get-method="getLabelInf" set-method="setLabelInf" usage="optional"/>
+    <collection get-method="getSanitaryRegulationList" set-method="setSanitaryRegulationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SanitaryRegulations" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="UsageArea" get-method="getUsageArea" set-method="setUsageArea" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="srcer:ManufacturerType" class="ru.acs.fts.schemas.album.stateregistrationcertif.ManufacturerType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <collection get-method="getSubdivisionInfoList" set-method="setSubdivisionInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="srcer:SubdivisionInfoType" name="SubdivisionInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="srcer:SubdivisionInfoType" class="ru.acs.fts.schemas.album.stateregistrationcertif.SubdivisionInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+</binding>

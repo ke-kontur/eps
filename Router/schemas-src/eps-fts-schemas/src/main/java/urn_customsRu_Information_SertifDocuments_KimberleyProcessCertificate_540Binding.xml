@@ -1,0 +1,43 @@
+<binding xmlns:kimpc="urn:customs.ru:Information:SertifDocuments:KimberleyProcessCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:KimberleyProcessCertificate:5.4.0" default="elements" prefix="kimpc"/>
+  <mapping abstract="true" type-name="kimpc:KimberleyProcessCertificateType" class="ru.acs.fts.schemas.album.kimberleyprocesscertificate.KimberleyProcessCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="ValidityDateEnd" get-method="getValidityDateEnd" set-method="setValidityDateEnd" format="LocalDate.default"/>
+    <value style="element" name="PackageNumber" get-method="getPackageNumber" set-method="setPackageNumber"/>
+    <value style="element" name="ExtractingCountry" get-method="getExtractingCountry" set-method="setExtractingCountry"/>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <structure map-as="kimpc:CertificateOrgType" get-method="getCertificateOrg" set-method="setCertificateOrg" name="CertificateOrg"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getExporter" set-method="setExporter" name="Exporter"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getImporter" set-method="setImporter" name="Importer"/>
+    <collection get-method="getDiamondsInfoList" set-method="setDiamondsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="kimpc:DiamonsInfoType" name="DiamondsInfo"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getAuthenticateOrg" set-method="setAuthenticateOrg" name="AuthenticateOrg"/>
+    <structure map-as="kimpc:CertificateNumberType" get-method="getCertificateNumber" set-method="setCertificateNumber" name="CertificateNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.kimberleyprocesscertificate.KimberleyProcessCertificateType" name="KimberleyProcessCertificate">
+    <structure map-as="kimpc:KimberleyProcessCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="kimpc:CertificateNumberType" class="ru.acs.fts.schemas.album.kimberleyprocesscertificate.CertificateNumberType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="kimpc:CertificateOrgType" class="ru.acs.fts.schemas.album.kimberleyprocesscertificate.CertificateOrgType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getLicenseDocument" set-method="setLicenseDocument" usage="optional" name="LicenseDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="kimpc:DiamonsInfoType" class="ru.acs.fts.schemas.album.kimberleyprocesscertificate.DiamonsInfoType">
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="TotalWeight" get-method="getTotalWeight" set-method="setTotalWeight"/>
+    <collection get-method="getCharacteristicList" set-method="setCharacteristicList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Characteristics" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="HarmonizedCode" get-method="getHarmonizedCode" set-method="setHarmonizedCode"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric" usage="optional"/>
+  </mapping>
+</binding>

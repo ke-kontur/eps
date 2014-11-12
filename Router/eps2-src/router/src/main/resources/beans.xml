@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+    
+    <!-- Загружаем настройки -->
+    <import resource="settings.xml" />
+    
+    <!-- Загружаем пакеты задач -->
+    <import resource="job-beans.xml" />
+    
+    <!-- Грузим определение бизнес процессов -->
+    <import resource="sections/business-processing.xml" />
+    
+    <!-- Грузим сложные проверки -->
+    <import resource="sections/checks-sentences.xml" />        
+    
+    <!-- Загружаем определение авторизаторов -->
+    <import resource="sections/authorization.xml" />
+    
+    <!-- Автомат переходов для обработки ошибок -->
+    <import resource="sections/error-automata.xml" />
+    
+    <!-- Фоновые задачи -->
+    <import resource="sections/tasks.xml" />
+
+	<!-- ref-определения для булевских классов -->
+	<!-- забавно, конечно, но иногда надо бывает вместо boolean передать Boolean и вот тогда эти определения полезны -->
+	<bean id="true" class="java.lang.Boolean">
+		<constructor-arg value="true" />
+	</bean>
+	<bean id="false" class="java.lang.Boolean">
+		<constructor-arg value="false" />
+	</bean>
+
+	<!-- Читатель конфигов -->
+    <bean id="configProperties"
+			class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+			
+        <property name="locations">
+            <list>
+                <value>WEB-INF/config.properties</value>
+                <value>classpath:git.properties</value>
+            </list>
+        </property>
+    </bean>
+    
+    <!-- Задача авторизации (локальная) -->
+    <bean id="authorization" class="ru.acs.fts.eps2.router.processing.jobs.Authorization" >
+    	<property name="authorizationWarehouse" ref="authorizationWarehouse" />    	
+    </bean>
+
+	<!-- Задача обновления информации о процедуре -->
+    <bean id="updateProcessInfo" class="ru.acs.fts.eps2.router.processing.jobs.UpdateProcessInfo" >
+    	<property name="procedureService" ref="procedureService" />
+    </bean>
+    
+    <!-- Задача бизнес обработки -->
+    <bean id="businessProcessing" class="ru.acs.fts.eps2.router.processing.jobs.BusinessProcessing" >
+    	<property name="businessProcessWarehouse" ref="businessProcessWarehouse" />
+    </bean>
+
+	<!-- Задача проверки содержимого конверта -->        
+    <bean id="checkMessageContent" class="ru.acs.fts.eps2.router.processing.jobs.CheckMessageContent" >
+    	<property name="envelopeService" ref="envelopeService" />
+    	<property name="docModeMessageService" ref="docModeMessageService" />
+    </bean>
+    
+	<!-- Задача проверки подписи -->    
+    <bean id="checkSignedEnvelope" class="ru.acs.fts.eps2.engine.processing.jobs.CheckSignedEnvelope" />
+        
+    <!-- Задача по созданию нотификационного сообщения -->
+    <bean id="createNotificationMessage" class="ru.acs.fts.eps2.router.processing.jobs.CreateNotificationMessage" />
+
+	<!-- Задача создания ответного сообщения -->    
+    <bean id="createResponseMessage"
+          class="ru.acs.fts.eps2.router.processing.jobs.CreateResponseMessage" />
+
+	<!-- Задача создания транзитного сообщения -->
+    <bean id="createTransitMessage" class="ru.acs.fts.eps2.router.processing.jobs.CreateTransitMessage" />
+    
+    <!-- Задача по открытию процедуры -->
+    <bean id="openNewProcedure" class="ru.acs.fts.eps2.router.processing.jobs.OpenNewProcedure" >
+    	<property name="procedureService" ref="procedureService" />
+		<property name="udCustListService" ref="udCustListService" />
+    </bean>
+    
+    <!-- Задача по сохранию входящего конверта -->
+    <bean id="saveIncomeEnvelope" class="ru.acs.fts.eps2.router.processing.jobs.SaveIncomeEnvelope">
+        <property name="envelopeOperator" ref="envelopeOperator" />
+    </bean>
+
+	<!-- Задача для сохранения объектов в базу данных -->
+    <bean id="saveObjectToDb" class="ru.acs.fts.eps2.router.processing.jobs.SaveObjectToDb" >
+    	<property name="envelopeOperator" ref="envelopeOperator" />
+    	<property name="procedureService" ref="procedureService" />
+    </bean>
+        
+    <!-- Задача для отправки сообщений -->
+    <bean id="sendMessage" class="ru.acs.fts.eps2.engine.processing.jobs.SendMessage">
+        <property name="messagingGateway" ref="messagingGateway" />
+        <property name="addressFactory" ref="addressFactory" />
+        <property name="envelopeMarshaller" ref="unmarshallerEnvelope" />
+    </bean>
+    
+    <!-- Задача подписи конвертов -->
+    <bean id="signEnvelope" class="ru.acs.fts.eps2.engine.processing.jobs.SignEnvelope" />
+
+	<!-- Задача обращения к сервису структурного контроля -->    
+    <bean id="structControlRequest" class="ru.acs.fts.eps2.engine.processing.StructControlRequest" >
+        <property name="envelopeMarshaller" ref="unmarshallerEnvelope" />        
+		<property name="structRestWs" ref="restStructCtrlWebService" />
+    </bean>
+
+	<!-- Задача очистки подписи в сообщении -->    
+    <bean id="clearSignature" class="ru.acs.fts.eps2.engine.processing.jobs.ClearSignature" />
+    
+    <!-- Задача обработки сообщений от администратора -->
+    <bean id="adminCommandsProcessing" 
+    		class="ru.acs.fts.eps2.router.processing.jobs.AdminCommandsProcessing" >
+    	<property name="participantService" ref="participantService" />
+    	<property name="customsOperator" ref="customsOperator" />
+    </bean>
+    
+    <!-- Задача по трансформации версии сообщения -->
+    <bean id="messageVersionTransformation" 
+    		class="ru.acs.fts.eps2.engine.processing.jobs.MessageVersionTransformation">
+        <property name="xsltStorage" ref="xsltStorage" />
+        <property name="marshaller" ref="unmarshallerEnvelope" />
+        <property name="unmarshaller" ref="unmarshallerEnvelope" />
+    </bean>
+    
+    <!-- Задача по сохранению результата в базу данных -->
+    <bean id="saveResult" class="ru.acs.fts.eps2.router.processing.jobs.SaveResult"/>
+    
+    <!-- Задача сложных проверок заданных в конфигах -->
+    <bean id="compoundChecks" class="ru.acs.fts.eps2.engine.processing.jobs.CompoundChecks" >
+    </bean>
+    
+    <!-- Задача проверки наличия или отсутствия определенных субстатусов у процедуры -->
+    <bean id="checkProcessSubstatus" class="ru.acs.fts.eps2.router.processing.jobs.CheckProcessSubstatus" >
+    	<property name="procedureService" ref="procedureService" />
+    	<property name="errListService" ref="errListService" />
+    </bean>
+    
+    <!-- Задача предварительной обработки (в том числе парсинг сообщения) -->
+    <bean id="overallParserJob" class="ru.acs.fts.eps2.router.processing.jobs.OverallParserJob" >
+    	<property name="envelopeManager" ref="envelopeManager" />
+    	<property name="envelopeService" ref="envelopeService" />
+    	<property name="unmarshaller" ref="unmarshallerEnvelope" />
+    	
+    	<property name="unmarshallFailedJobBatch" ref="emergencyStrControl" />
+    	
+    	<property name="sendSystemMapping">
+    		<map>
+    			<entry key="CMN.11097" value="MALAKHIT" />
+    			<entry key="CMN.11098" value="MALAKHIT" />
+    			<entry key="CMN.11103" value="MALAKHIT" />
+    		</map>
+    	</property>
+    </bean>
+    
+    <bean id="changeProcessState" class="ru.acs.fts.eps2.router.processing.jobs.ChangeProcessState" >
+    	<property name="serviceHolder" ref="serviceHolder" />
+    </bean>
+    
+    <bean id="optionalChangeProcessState" class="ru.acs.fts.eps2.router.processing.jobs.OptionalChangeProcessState" >
+    	<property name="serviceHolder" ref="serviceHolder" />
+    </bean>
+    
+    <!-- Проверка валидных InitialEnvelopeID и RefDocumentID в рамках текущей ProccessID -->
+    <bean id="checkInitialEnvelopeAndRefDocument" class="ru.acs.fts.eps2.router.processing.jobs.CheckInitialEnvelopeAndRefDocumentJob" />
+	
+    <bean id="checkProcessTransmission" class="ru.acs.fts.eps2.router.processing.jobs.CheckProcessTransmission" >
+    </bean>
+    
+	<!-- Пустое задание для временнего заполнения JobBatch'ей -->
+	<bean id="emptyJob" class="ru.acs.fts.eps2.engine.processing.jobs.EmptyJob" />
+
+	<!-- Задача для обработки ошибок -->
+	<bean id="saveToInnerDb" class="ru.acs.fts.eps2.router.processing.jobs.SaveToInnerDbJob">
+		<property name="envelopeManager" ref="envelopeManager" />
+	</bean>    
+	
+	<!-- Задача сохранения сообщений в АЮД -->
+	<bean id="sendToAud" class="ru.acs.fts.eps2.router.processing.jobs.SendToAudJob" />
+	
+	<!-- Задача сохранения сообщений в сервис аналитики -->
+	<bean id="sendToAly" class="ru.acs.fts.eps2.router.processing.jobs.SendToAlyJob" />
+	
+	<!-- Задача для вызова вспомогательного батча -->
+	<bean id="callSubBatch" class="ru.acs.fts.eps2.engine.processing.CallSubBatchJob" />
+	
+	<!-- Задача проверки отсутствия в базе EnvelopeID, DocumentID и DocumentID документов вложенных в контейнер -->
+	<bean id="checkSameEnvelopeExists" class="ru.acs.fts.eps2.router.processing.jobs.CheckSameEnvelopeExists" >
+		<property name="notUniqDocuments" ref="notUniqDocuments" />
+		<property name="notDiffDocuments" ref="notDiffDocuments" />
+	</bean>
+	
+	<!-- Задача сохранения результата об успешной обработке -->
+	<bean id="saveResultInfo" class="ru.acs.fts.eps2.router.processing.jobs.SaveResultInfo" />
+	
+	<!-- Задача для отправки декларации в РЖД при необходимости -->
+	<bean id="rzdSend" class="ru.acs.fts.eps2.router.processing.jobs.RzdSendJob" />
+	
+	<!-- Задача установки входящего контейнера в CURRENT и предыдущего в NOTCHANGEABLE, если есть Ref'ы -->
+	<bean id="setContainerCurrent" class="ru.acs.fts.eps2.router.processing.jobs.SetContainerCurrent" >
+		<property name="doOperations" ref="setContainerCurrentState" />
+	</bean>
+	
+	<!-- Задача для падения если анмаршаллер упал, а структурный контроль нет -->
+	<bean id="failUnmarshaller" class="ru.acs.fts.eps2.router.processing.jobs.FailUnmarshallerJob" />
+	
+	<!-- Задача отправки событий веб-сервису -->
+	<bean id="sendEvents" class="ru.acs.fts.eps2.router.processing.jobs.SendEventsJob" >
+		<property name="eventRestWs" ref="restEventWebService" />
+	</bean>
+     
+	<util:map id="epsMessageTypeMappings" >
+		<entry key="MSG.10003" value="MSG.10004" />
+		<entry key="MSG.13003" value="MSG.13004" />
+		<entry key="MSG.15033" value="MSG.15034" />
+	</util:map>
+     
+     <bean id="remotenessHelper" class="ru.acs.fts.eps2.engine.util.RemotenessHelper" >
+    	<property name="rtuCodePatternsHolder">
+        	<bean class="ru.acs.fts.eps2.engine.configuration.RtuCodePatternsHolder">
+    			<constructor-arg>
+    				<ref bean="RTUCodesBean"/>
+    			</constructor-arg>
+    		</bean>
+    	</property>
+    	<property name="serviceHolder" ref="serviceHolder" />
+    </bean>
+    
+    <bean id="envelopeChecker" class="ru.acs.fts.eps2.router.processing.helpers.EnvelopeChecker" >
+    	<property name="completenessCheckSentences" ref="completenessCheckSentences" />
+    	<property name="forbidRefDocumentIds" ref="forbidRefDocumentIds" />
+    </bean>
+    
+    <bean id="adminCommandsHelper" class="ru.acs.fts.eps2.router.processing.helpers.AdminCommandsHelper" >
+    	<property name="configurator" ref="configurator" />
+    	<property name="serviceHolder" ref="serviceHolder" />
+    </bean>
+    
+    <bean id="envelopeCreator" class="ru.acs.fts.eps2.router.processing.helpers.EnvelopeCreator" >
+    	<property name="configurator" ref="configurator" />
+    	<property name="serviceHolder" ref="serviceHolder" />
+    </bean>
+    
+    <bean id="sendMessageHelper" class="ru.acs.fts.eps2.engine.processing.helpers.SendMessageHelper" >
+    	<property name="marshaller" ref="unmarshallerEnvelope" />
+    	<property name="addressFactory" ref="addressFactory" />
+    	<property name="messagingGateway" ref="messagingGateway" />
+    	<property name="ensureDestinations" ref="ensureDestinations" />
+    </bean>
+    
+    <bean id="errorHelper" class="ru.acs.fts.eps2.router.errors.ErrorHelper" >
+    	<property name="errListService" ref="errListService" />
+    </bean>
+    
+    <bean id="errors" class="ru.acs.fts.eps2.router.errors.EDErrors" />
+    
+    <bean id="bodyToDbMapper" class="ru.acs.fts.eps2.router.persistence.mappers.BodyToDbMapper" >
+    	<property name="marshaller" ref="unmarshallerEnvelope" />
+    </bean>
+    
+    <!-- Процессоры успешных манифестов -->
+    <bean id="genericManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.GenericManifestCompletedProcessor" >
+    	<property name="messageTypeMappings" ref="epsMessageTypeMappings" />
+    </bean>
+    
+    <bean id="oezDestructionContainerManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.OezDestructionContainerManifestCompletedProcessor" />
+    
+    <bean id="msg11003ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.MSG11003ManifestCompleteProcessor" />
+    <bean id="msg11044ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.MSG11044ManifestCompleteProcessor" />
+    
+    <bean id="cmn10009ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.CMN10009ManifestCompleteProcessor" />
+    <bean id="cmn10062ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.CMN10062ManifestCompletedProcessor" />
+    
+    <bean id="cmn13001ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.CMN13001ManifestCompletedProcessor" />
+    <bean id="cmn13002ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.CMN13002ManifestCompletedProcessor" />    
+    <bean id="cmn13005ManifestCompleteProcessor" class="ru.acs.fts.eps2.router.processing.ead.processing.CMN13005ManifestCompletedProcessor" />
+    
+    <util:map id="manifestCompleteProcessors" >
+    	<entry key="CMN.10009" value-ref="cmn10009ManifestCompleteProcessor" />
+    	<entry key="CMN.10062" value-ref="cmn10062ManifestCompleteProcessor" />
+    	<entry key="CMN.10070" value-ref="oezDestructionContainerManifestCompleteProcessor" />
+    	<entry key="CMN.10071" value-ref="oezDestructionContainerManifestCompleteProcessor" />
+    	<entry key="CMN.10075" value-ref="oezDestructionContainerManifestCompleteProcessor" />
+    	<entry key="CMN.10076" value-ref="oezDestructionContainerManifestCompleteProcessor" />
+    	<entry key="CMN.13001" value-ref="cmn13001ManifestCompleteProcessor" />
+    	<entry key="CMN.13002" value-ref="cmn13002ManifestCompleteProcessor" />
+    	<entry key="CMN.13005" value-ref="cmn13005ManifestCompleteProcessor" />
+    	<entry key="MSG.10003" value-ref="genericManifestCompleteProcessor" />
+    	<entry key="MSG.11003" value-ref="msg11003ManifestCompleteProcessor" />
+    	<entry key="MSG.11044" value-ref="msg11044ManifestCompleteProcessor" />
+    	<entry key="MSG.13003" value-ref="genericManifestCompleteProcessor" />
+    	<entry key="MSG.15033" value-ref="genericManifestCompleteProcessor" />
+    </util:map>
+    
+    <util:list id="declarantNotUniqDocuments" >
+		<value>1006107E</value> <!-- ESADout_CU -->
+		<value>1006112E</value> <!-- DTSout_CU -->
+		<value>1006044E</value> <!-- DTSout -->
+		<value>1006003E</value> <!-- Inventory -->
+		<value>1006113E</value> <!-- KTSout_CU -->
+		<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+		<value>1006089E</value> <!-- GoodsComponentList -->
+    </util:list>
+
+    <util:list id="declarantNotUniqDocumentsNoInv" >
+		<value>1006107E</value> <!-- ESADout_CU -->
+		<value>1006112E</value> <!-- DTSout_CU -->
+		<value>1006044E</value> <!-- DTSout -->
+		<value>1006113E</value> <!-- KTSout_CU -->
+		<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+		<value>1006089E</value> <!-- GoodsComponentList -->
+    </util:list>
+    
+    <util:map id="notUniqDocuments" >
+    	<entry key="CMN.11010" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11020" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11012" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11034" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11042" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11043" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11117" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11118" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11123" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11124" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11051">
+    		<list>
+    			<value>1006029E</value> <!-- ApplicationStore -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11052">
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006003E</value> <!-- Inventory -->
+				<value>1006113E</value> <!-- KTSout_CU -->
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+				<value>1006029E</value> <!-- ApplicationStore -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11055">
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11056" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11059">
+    		<list>
+    			<value>1006029E</value> <!-- ApplicationStore -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11060">
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006003E</value> <!-- Inventory -->
+				<value>1006113E</value> <!-- KTSout_CU -->
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+				<value>1006029E</value> <!-- ApplicationStore -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11061">
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11063" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.13026" >
+    		<list>
+    			<value>1006154E</value> <!-- TransitInfo -->
+    		</list>
+    	</entry>
+    	<entry key="MSG.11036" value-ref="declarantNotUniqDocuments" />
+    </util:map>
+    
+    <util:map id="notDiffDocuments" >
+    	<entry key="ADM.00010" ><list><value>all</value></list></entry>
+    	<entry key="CMN.10052" >
+    		<list>	
+    			<value>1006141E</value> <!-- OEZ_ImportNotif -->
+    			<value>1006144E</value> <!-- OEZ_ExportNotif -->
+    			<value>1006186E</value> <!-- LiquidationApplication -->
+    		</list>
+    	</entry>
+    	<entry key="CMN.11033" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11093" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11094" value-ref="declarantNotUniqDocuments" />
+    	<entry key="CMN.11101" value-ref="declarantNotUniqDocuments" />
+    	<entry key="MSG.11020">
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+    			<value>1006003E</value> <!-- Inventory -->
+    			<value>1004051E</value> <!-- NotifGTDRegistration -->
+    			<value>1006113E</value> <!-- KTSout_CU -->
+    		</list>
+    	</entry>    	
+    	<entry key="MSG.11022" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+    		</list>
+    	</entry>
+    	<entry key="MSG.11023" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+    		</list>
+    	</entry>
+    	<entry key="MSG.11028" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+    			<value>1006003E</value> <!-- Inventory -->
+    			<value>1006113E</value> <!-- KTSout_CU -->
+    		</list>
+    	</entry>
+    	<entry key="MSG.11064" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+    		</list>
+    	</entry>
+    	<entry key="MSG.11065" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+    		</list>
+    	</entry>
+    	<entry key="MSG.11024" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+    		</list>
+    	</entry>
+    	<entry key="MSG.11034">
+    		<list>
+    			<value>1006132E</value>
+    			<value>1006133E</value>
+    			<value>1006134E</value>
+    		</list>
+    	</entry>
+    	<entry key="MSG.11035" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+    		</list>
+    	</entry> 
+    	<entry key="MSG.11050" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+				<value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+				<value>1006089E</value> <!-- GoodsComponentList -->
+    		</list>
+    	</entry>
+    	<entry key="MSG.11051" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+    		</list>
+    	</entry>
+    	<entry key="MSG.11054" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+    		</list>
+    	</entry>
+    	<entry key="MSG.11068" value-ref="declarantNotUniqDocumentsNoInv" />
+    	<entry key="MSG.11069" >
+    		<list>
+    			<value>1006107E</value> <!-- ESADout_CU -->
+				<value>1006112E</value> <!-- DTSout_CU -->
+				<value>1006044E</value> <!-- DTSout -->
+				<value>1006113E</value> <!-- KTSout_CU -->				
+    		</list>
+    	</entry>
+    	<entry key="MSG.11070" value-ref="declarantNotUniqDocumentsNoInv" />
+    </util:map>
+    
+    <!-- tranzitInProcContainer -->
+    
+    <util:map id="completenessCheckSentences" >
+    	<entry key="CMN.10006" value-ref="cmn10006CheckSentence" />
+    	<entry key="CMN.10012" value-ref="cmn10012CheckSentence" />
+    	<entry key="CMN.10052" value-ref="cmn10052CheckSentence" />
+    	<entry key="CMN.10063" value-ref="cmn10063CompletenessCheck" />
+    	<entry key="CMN.10064" value-ref="cmn10064CompletenessCheck" />
+    	<entry key="CMN.10067" value-ref="cmn10067CompletenessCheck" />
+    	<entry key="CMN.10068" value-ref="cmn10068CompletenessCheck" />
+    	<entry key="CMN.10070" value-ref="cmn10070CompletenessCheck" />
+    	<entry key="CMN.10071" value-ref="cmn10071CompletenessCheck" />
+    	<entry key="CMN.10075" value-ref="cmn10075CompletenessCheck" />
+    	<entry key="CMN.10076" value-ref="cmn10076CompletenessCheck" />
+    	
+    	<entry key="CMN.11005" value-ref="cmn11005CompletenessCheck" />
+    	<entry key="CMN.11007" value-ref="cmn11007CompletenessCheck" />
+    	
+    	<entry key="CMN.11012" value-ref="cmn11012CheckSentence" />
+    	<entry key="CMN.11013" value-ref="cmn11013CheckSentence" />
+    	<entry key="CMN.11023" value-ref="cmn11023CheckSentence2" />
+    	<entry key="CMN.11034" value-ref="cmn11034CheckSentence" />
+    	<entry key="CMN.11044" value-ref="cmn11044CheckSentence2" />
+    	<entry key="CMN.11052" value-ref="cmn11052CheckSentence" />
+    	<entry key="CMN.11054" value-ref="cmn11054CheckSentence" />
+    	<entry key="CMN.11056" value-ref="cmn11056CheckSentence" />
+    	<entry key="CMN.11060" value-ref="cmn11052CheckSentence" /> <!-- Именно так -->
+    	<entry key="CMN.11063" value-ref="cmn11056CheckSentence" /> <!-- Именно так -->
+    	
+    	<entry key="CMN.11065" value-ref="cmn11065CompletenessCheck" />
+    	<entry key="CMN.11066" value-ref="cmn11066_67CompletenessCheck" />
+    	<entry key="CMN.11067" value-ref="cmn11066_67CompletenessCheck" />
+    	<entry key="CMN.11076" value-ref="cmn11076CheckSentence" />
+    	<entry key="CMN.11090" value-ref="cmn11076CheckSentence" /> <!-- Именно так -->
+    	<entry key="CMN.11096" value-ref="cmn11096CheckSentence" />
+    	<entry key="CMN.11128" value-ref="cmn11128CheckSentence" />
+    	
+    	<entry key="CMN.12076" value-ref="cmn12076CheckSentence" />
+    	<entry key="CMN.12078" value-ref="cmn12078CheckSentence" />
+    	<entry key="CMN.12079" value-ref="cmn12079CheckSentence" />
+    	<entry key="CMN.12080" value-ref="cmn12080CheckSentence" />
+    	<entry key="CMN.12083" value-ref="cmn12079CheckSentence" /> <!-- Именно так -->
+    	<entry key="CMN.12087" value-ref="cmn12087CheckSentence" />
+    	<entry key="CMN.12094" value-ref="cmn12094CheckSentence" />
+    	<entry key="CMN.12095" value-ref="cmn12095CheckSentence" />
+    	
+    	<entry key="CMN.12101" value-ref="cmn12095CheckSentence" /> <!-- Именно так -->
+    	<entry key="CMN.12117" value-ref="cmn12117CheckSentence" /> 
+    	
+    	<entry key="CMN.13009" value-ref="cmn13009CheckSentence" />
+    	<entry key="CMN.13020" value-ref="cmn13020CheckSentence" />
+    	
+    	<entry key="CMN.15003" value-ref="cmn15003CheckSentence2" />
+    	
+    	<entry key="ED.13003" value-ref="ed13003CheckSentence" />
+    	
+    	<entry key="MSG.11007" value-ref="msg11007CheckSentence" />
+    	<entry key="MSG.11008" value-ref="msg11008CheckSentence" />
+    	<entry key="MSG.11020" value-ref="msg11020CheckSentence" />
+    	<entry key="MSG.11021" value-ref="msg11021CheckSentence" />
+    	<entry key="MSG.11022" value-ref="msg11022CheckSentence" />
+    	<entry key="MSG.11023" value-ref="msg11023CheckSentence" />
+    	<entry key="MSG.11024" value-ref="msg11023CheckSentence" /> <!-- Именно так -->
+    	<entry key="MSG.11028" value-ref="msg11028CheckSentence" />
+    	<entry key="MSG.11030" value-ref="msg11030CheckSentence" />
+    	<entry key="MSG.11034" value-ref="msg11034CheckSentence" />
+    	<entry key="MSG.11035" value-ref="msg11035CheckSentence" />
+    	<entry key="MSG.11050" value-ref="msg11050CheckSentence" />
+    	<entry key="MSG.11051" value-ref="msg11051CheckSentence" />
+    	<entry key="MSG.11054" value-ref="msg11054CheckSentence" />
+    	<entry key="MSG.11056" value-ref="msg11056CheckSentence" />
+    	<entry key="MSG.11064" value-ref="msg11064CheckSentence" />
+    	<entry key="MSG.11065" value-ref="msg11065CheckSentence" />
+    	<entry key="MSG.11068" value-ref="msg11068CheckSentence" />
+    	<entry key="MSG.11069" value-ref="msg11069CheckSentence" />
+    	<entry key="MSG.11070" value-ref="msg11070CheckSentence" />
+    	
+    	<!-- Не были добавлены: -->
+    	<!-- cmn12102CheckSentence (CMN.12102, CMN.12103, CMN.12115) - 03.00013.01 -->
+    	<!-- cmn12112CheckSentence (CMN.12112, CMN.12114) - 03.00013.01 -->
+    	<!-- suppliesDTCheckSentence_Full - 03.00011.01 -->
+    	<!-- suppliesIssueDecisionCheckSentence - 03.00011.01 -->
+    	<!-- suppliesClaimCheckSentence_Full - 03.00011.01 -->
+    	<!-- suppliesClaimIssueDecisionCheckSentence - 03.00011.01 -->
+    	<!-- msg11027CheckSentence (MSG.11027) - 03.00011.01 -->
+    </util:map>
+    
+    <util:map id="forbidRefDocumentIds" >
+    	<entry key="CMN.10006" value="true" />
+    	<entry key="CMN.10012" value="true" />
+    </util:map>
+    
+    <util:map id="setContainerCurrentState" >
+    	<entry key="CMN.10006" value="true" />
+    	<entry key="CMN.10012" value="true" />
+    	<entry key="CMN.10063" value="true" />
+    	<entry key="CMN.10064" value="true" />
+    	<entry key="CMN.10067" value="true" />
+    	<entry key="CMN.10068" value="true" />
+    	<entry key="CMN.10070" value="true" />
+    	<entry key="CMN.10071" value="true" />
+    	<entry key="CMN.10075" value="true" />
+    	<entry key="CMN.10076" value="true" />
+    </util:map>
+    
+    <util:map id="remoteAllowStatuses" >
+		<entry key="CMN.11012" value-ref="remoteAllowStatusesCheck" />
+		<entry key="CMN.11034" value-ref="remoteAllowStatusesCheck" />
+    </util:map>
+    
+    <!-- Clean Up -->
+</beans>

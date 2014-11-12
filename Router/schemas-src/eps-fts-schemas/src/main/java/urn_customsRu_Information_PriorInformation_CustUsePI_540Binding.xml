@@ -1,0 +1,18 @@
+<binding xmlns:cupi="urn:customs.ru:Information:PriorInformation:CustUse_PI:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catpi_ru="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:CustUse_PI:5.4.0" default="elements" prefix="cupi"/>
+  <mapping abstract="true" type-name="cupi:CustUsePIType" class="ru.acs.fts.schemas.album.custuse_pi.CustUsePIType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="UseDocumentNumber" get-method="getUseDocumentNumber" set-method="setUseDocumentNumber"/>
+    <value style="element" name="UseDocumentDate" get-method="getUseDocumentDate" set-method="setUseDocumentDate" format="LocalDate.default"/>
+    <value style="element" name="UseDocDscrepancy" get-method="getUseDocDscrepancy" set-method="setUseDocDscrepancy"/>
+    <value style="element" name="UseDocumentKind" get-method="getUseDocumentKind" set-method="setUseDocumentKind"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="catpi_ru:TIR_IDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIR_ID"/>
+      <value style="element" name="PI_RegID" test-method="ifPIRegID" get-method="getPIRegID" set-method="setPIRegID" usage="optional"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.custuse_pi.CustUsePIType" name="CustUsePI">
+    <structure map-as="cupi:CustUsePIType"/>
+  </mapping>
+</binding>

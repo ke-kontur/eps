@@ -1,0 +1,31 @@
+<schema-set xmlns:xs="http://www.w3.org/2001/XMLSchema" prefer-inline="true">
+
+	<schema-type 
+		type-name="dateTime" java-class="org.joda.time.DateTime"
+		serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime"
+		deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime" />
+		
+	<schema-type type-name="date" format-name="LocalDate.default" />
+	<schema-type type-name="time" format-name="LocalTime.local" />
+
+	<schema-set package="ru.acs.fts.schemas.admin.categoriescust" names="CategoriesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.compressed" names="Compressed.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust" names="IntExchCommonAggregateTypesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.intexchcommonleaftypescust" names="IntExchCommonLeafTypesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.ipsdbupdate" names="IPSDBUpdate.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.orgdbload" names="OrgDBLoad.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.orgdbupdate" names="OrgDBUpdate.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.ptdscancmd" names="PTDScanCmd.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.udcustlistupdate" names="UDCustListUpdate.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.updatedb_result" names="UpdateDB_Result.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.ead_docrequest" names="EAD_DocRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.int_dtrequest" names="INT_DTRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.int_dtresponce" names="INT_DTResponce.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.gate_result2" names="GateResult2.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.heartbeat" names="Heartbeat.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.confirmwhdocregremote" names="ConfirmWHDocRegRemote.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.statusupdaterequest" names="StatusUpdateRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.documentnotification" names="DocumentNotification.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.admin.intexchresult" names="IntExchResult.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+
+</schema-set>

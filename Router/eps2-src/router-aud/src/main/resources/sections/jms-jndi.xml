@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+	
+	<bean id="audJmsRoutingFactory" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}archiveMqConfig/ArchiveConnectionFactory" />
+	</bean>
+	
+	<bean id="audErrorQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}archiveMqConfig/ArchiveErrorQueue" />
+	</bean>
+	
+	<bean id="audInputQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}archiveMqConfig/ArchiveInputQueue" />
+	</bean>
+	
+	<bean id="audOutputQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}archiveMqConfig/ArchiveOutputQueue" />
+	</bean>
+	
+</beans>

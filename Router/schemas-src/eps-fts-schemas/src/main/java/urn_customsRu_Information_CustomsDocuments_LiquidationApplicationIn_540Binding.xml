@@ -1,0 +1,79 @@
+<binding xmlns:liqapin="urn:customs.ru:Information:CustomsDocuments:LiquidationApplicationIn:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:LiquidationApplicationIn:5.4.0" default="elements" prefix="liqapin"/>
+  <mapping abstract="true" type-name="liqapin:LiquidationApplicationInType" class="ru.acs.fts.schemas.album.liquidationapplicationin.LiquidationApplicationInType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="OperationSign" get-method="getOperationSign" set-method="setOperationSign"/>
+    <value style="element" name="LiquidationReasons" get-method="getLiquidationReasons" set-method="setLiquidationReasons"/>
+    <value style="element" name="LiquidationDate" get-method="getLiquidationDate" set-method="setLiquidationDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="liqapin:LiquidationParticipantType" get-method="getOEZResident" set-method="setOEZResident" name="OEZ_Resident"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="liqapin:LiquidationParticipantType" get-method="getLiquidator" set-method="setLiquidator" name="Liquidator"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLiquidationPlace" set-method="setLiquidationPlace" name="LiquidationPlace"/>
+    <collection get-method="getWasteProductList" set-method="setWasteProductList" create-type="java.util.ArrayList">
+      <structure map-as="liqapin:WasteProductsType" name="WasteProducts"/>
+    </collection>
+    <structure map-as="liqapin:ApplicationRegNumberType" get-method="getApplicationRegNumber" set-method="setApplicationRegNumber" name="ApplicationRegNumber"/>
+    <collection get-method="getCustomsMarkList" set-method="setCustomsMarkList" create-type="java.util.ArrayList">
+      <structure map-as="liqapin:CustomsMarkType" name="CustomsMark"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.liquidationapplicationin.LiquidationApplicationInType" name="LiquidationApplicationIn">
+    <structure map-as="liqapin:LiquidationApplicationInType"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:ApplicationRegNumberType" class="ru.acs.fts.schemas.album.liquidationapplicationin.ApplicationRegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:ConsignmentType" class="ru.acs.fts.schemas.album.liquidationapplicationin.ConsignmentType">
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="liqapin:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:CustomsMarkType" class="ru.acs.fts.schemas.album.liquidationapplicationin.CustomsMarkType">
+    <value style="element" name="CustomsDecision" get-method="getCustomsDecision" set-method="setCustomsDecision"/>
+    <value style="element" name="ComposeDate" get-method="getComposeDate" set-method="setComposeDate" format="LocalDate.default"/>
+    <value style="element" name="CustomsControl" get-method="getCustomsControl" set-method="setCustomsControl" usage="optional"/>
+    <collection get-method="getRefusalReasonList" set-method="setRefusalReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="RefusalReasons" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="FinalLiquidationDate" get-method="getFinalLiquidationDate" set-method="setFinalLiquidationDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getProlongFoundation" set-method="setProlongFoundation" usage="optional" name="ProlongFoundation"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:GoodsType" class="ru.acs.fts.schemas.album.liquidationapplicationin.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:LiquidationParticipantType" class="ru.acs.fts.schemas.album.liquidationapplicationin.LiquidationParticipantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getOEZResidentCertif" set-method="setOEZResidentCertif" usage="optional" name="OEZ_ResidentCertif"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:PackingInformationType" class="ru.acs.fts.schemas.album.liquidationapplicationin.PackingInformationType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PackingDescription" get-method="getPackingDescription" set-method="setPackingDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqapin:WasteProductsType" class="ru.acs.fts.schemas.album.liquidationapplicationin.WasteProductsType">
+    <collection get-method="getWasteDescriptionList" set-method="setWasteDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="WasteDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteCode" get-method="getWasteCode" set-method="setWasteCode"/>
+    <collection get-method="getLiquidationMethodList" set-method="setLiquidationMethodList" create-type="java.util.ArrayList">
+      <value style="element" name="LiquidationMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteSign" get-method="getWasteSign" set-method="setWasteSign"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getWasteQuantity" set-method="setWasteQuantity" name="WasteQuantity"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="liqapin:PackingInformationType" name="PackingInformation"/>
+    </collection>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="liqapin:ConsignmentType" name="Consignment"/>
+    </collection>
+  </mapping>
+</binding>

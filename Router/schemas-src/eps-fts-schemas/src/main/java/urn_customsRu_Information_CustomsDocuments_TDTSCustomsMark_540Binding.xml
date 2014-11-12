@@ -1,0 +1,39 @@
+<binding xmlns:tdts="urn:customs.ru:Information:CustomsDocuments:TDTSCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TDTSCustomsMark:5.4.0" default="elements" prefix="tdts"/>
+  <mapping abstract="true" type-name="tdts:TDTSCustomsMarkType" class="ru.acs.fts.schemas.album.tdtscustomsmark.TDTSCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DocumentID" get-method="getDocumentID1" set-method="setDocumentID1"/>
+    <structure map-as="tdts:TDTSType" get-method="getTDTSRegNumber" set-method="setTDTSRegNumber" usage="optional" name="TDTSRegNumber"/>
+    <collection get-method="getTDTSCommonMarkList" set-method="setTDTSCommonMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tdts:TDTSCommonMarkType" name="TDTSCommonMark"/>
+    </collection>
+    <structure map-as="tdts:CancellationInfoType" get-method="getCancellationInfo" set-method="setCancellationInfo" usage="optional" name="CancellationInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.tdtscustomsmark.TDTSCustomsMarkType" name="TDTSCustomsMark">
+    <structure map-as="tdts:TDTSCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tdts:CancellationInfoType" class="ru.acs.fts.schemas.album.tdtscustomsmark.CancellationInfoType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+    <value style="element" name="Foundation" get-method="getFoundation" set-method="setFoundation" usage="optional"/>
+    <value style="element" name="ResolutionDescription" get-method="getResolutionDescription" set-method="setResolutionDescription" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="tdts:TDTSCommonMarkType" class="ru.acs.fts.schemas.album.tdtscustomsmark.TDTSCommonMarkType">
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="ControlMark" get-method="getControlMark" set-method="setControlMark"/>
+    <value style="element" name="SpecialMark" get-method="getSpecialMark" set-method="setSpecialMark" usage="optional"/>
+    <value style="element" name="Deadline" get-method="getDeadline" set-method="setDeadline" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="tdts:TDTSType" class="ru.acs.fts.schemas.album.tdtscustomsmark.TDTSType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+  </mapping>
+</binding>

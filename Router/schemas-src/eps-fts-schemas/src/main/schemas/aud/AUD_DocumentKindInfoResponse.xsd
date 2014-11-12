@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_DocumentKindInfoResponse:4.2.1" version="4.2.1.0" xmlns:audmres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_DocumentKindInfoResponse:4.2.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Ответ на запрос на получение информации о зарегистрированных видах документов.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_DocumentKindInfoResponse" type="audmres:AUD_DocumentKindInfoResponseType"/>
+   <xs:complexType name="AUD_DocumentKindInfoResponseType">
+      <xs:annotation>
+         <xs:documentation>Ответ на запрос на получение информации о зарегистрированных видах документов.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentKindInfo" type="audmres:KindInfoLocalType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о виде документов и версиях этого вида.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010013E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="KindInfoLocalType">
+      <xs:sequence>
+         <xs:element name="AppliedDocumentKindId" type="cltAUD_ru:AUD_AppliedDocumentKindIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="Description" type="clt_ru:FreeText500Type">
+            <xs:annotation>
+               <xs:documentation>Описание  вида документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentKindVersionInfo" type="catAUD_ru:AUD_DocumentKindVersionInfoType">
+            <xs:annotation>
+               <xs:documentation>Информация о версии вида документов.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentCommonAttribute" type="catAUD_ru:AUD_DocumentAttributeInfoType">
+            <xs:annotation>
+               <xs:documentation>Информация о реквизите документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

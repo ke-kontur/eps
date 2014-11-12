@@ -1,0 +1,19 @@
+<binding xmlns:sur="urn:customs.ru:Information:StatusUpdateRequest:5.1.0" name="admin" package="ru.acs.fts.schemas.admin">
+  <format label="sur:EventEnumeration" type="ru.acs.fts.schemas.admin.statusupdaterequest.EventEnumeration"/>
+  <include path="urn_customsRu_Information_ConfirmWHDocRegRemote_510Binding.xml"/>
+  <include path="urn_customsRu_Information_DocumentNotification_541Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_EADDocRequest_460Binding.xml"/>
+  <include path="urn_epsFtsAcsRu_Result_100Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_Heartbeat_460Binding.xml"/>
+  <include path="urn_customsRu_IntExchCommonAggregateTypesCust_460Binding.xml"/>
+  <include path="urn_customsRu_Information_IntExchResult_541Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_INTDTRequest_460Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_INTDTResponse_460Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_IPSDBUpdate_460Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_OrgDBLoad_460Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_OrgDBUpdate_460Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_PTDScanCmd_460Binding.xml"/>
+  <include path="urn_customsRu_Information_StatusUpdateRequest_510Binding.xml"/>
+  <include path="urn_customsRu_Informtion_AdminCommandED_UDCustListUpdate_460Binding.xml"/>
+  <include path="urn_customsRu_Information_AdminCommandED_UpdateDBResult_460Binding.xml"/>
+</binding>

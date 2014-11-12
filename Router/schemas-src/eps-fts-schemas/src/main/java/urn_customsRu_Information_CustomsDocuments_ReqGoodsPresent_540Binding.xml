@@ -1,0 +1,16 @@
+<binding xmlns:regp="urn:customs.ru:Information:CustomsDocuments:ReqGoodsPresent:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqGoodsPresent:5.4.0" default="elements" prefix="regp"/>
+  <mapping abstract="true" type-name="regp:ReqGoodsPresentType" class="ru.acs.fts.schemas.album.reqgoodspresent.ReqGoodsPresentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <value style="element" name="ReqTime" get-method="getReqTime" set-method="setReqTime"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqgoodspresent.ReqGoodsPresentType" name="ReqGoodsPresent">
+    <structure map-as="regp:ReqGoodsPresentType"/>
+  </mapping>
+</binding>

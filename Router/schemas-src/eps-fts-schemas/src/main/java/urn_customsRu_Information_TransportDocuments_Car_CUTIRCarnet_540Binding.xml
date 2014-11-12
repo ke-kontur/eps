@@ -1,0 +1,113 @@
+<binding xmlns:cutirc="urn:customs.ru:Information:TransportDocuments:Car:CUTIR_Carnet:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_cu="urn:customs.ru:Information:TransportDocuments:CUTransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Car:CUTIR_Carnet:5.4.0" default="elements" prefix="cutirc"/>
+  <mapping abstract="true" type-name="cutirc:CUTIR_CarnetType" class="ru.acs.fts.schemas.album.cutir_carnet.CUTIRCarnetType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TransitDirectionCode" get-method="getTransitDirectionCode" set-method="setTransitDirectionCode" usage="optional"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="SpecificationNumber" get-method="getSpecificationNumber" set-method="setSpecificationNumber" usage="optional"/>
+    <value style="element" name="ShipSpecifGoodsQuantity" get-method="getShipSpecifGoodsQuantity" set-method="setShipSpecifGoodsQuantity" usage="optional"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="TotalInvoicedCost" get-method="getTotalInvoicedCost" set-method="setTotalInvoicedCost" usage="optional"/>
+    <value style="element" name="InvoicedCostCurrencyCode" get-method="getInvoicedCostCurrencyCode" set-method="setInvoicedCostCurrencyCode" usage="optional"/>
+    <value style="element" name="TotalPageQuantity" get-method="getTotalPageQuantity" set-method="setTotalPageQuantity" usage="optional"/>
+    <value style="element" name="DestinationCountryName" get-method="getDestinationCountryName" set-method="setDestinationCountryName"/>
+    <value style="element" name="DispatchCountryName" get-method="getDispatchCountryName" set-method="setDispatchCountryName"/>
+    <value style="element" name="TotalPackageNumber" get-method="getTotalPackageNumber" set-method="setTotalPackageNumber" usage="optional"/>
+    <value style="element" name="Language" get-method="getLanguage" set-method="setLanguage" usage="optional"/>
+    <value style="element" name="DateExpectedArrival" get-method="getDateExpectedArrival" set-method="setDateExpectedArrival" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeExpectedArrival" get-method="getTimeExpectedArrival" set-method="setTimeExpectedArrival" usage="optional"/>
+    <structure map-as="catTrans_cu:TIRIdentifierType" get-method="getTIRIdentifier" set-method="setTIRIdentifier" name="TIRIdentifier"/>
+    <structure map-as="cutirc:TIRCarrierType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="catTrans_cu:TIRForwarderType" get-method="getForwarder" set-method="setForwarder" usage="optional" name="Forwarder"/>
+    <structure map-as="cutirc:CUDepartureArrivalTransportType" get-method="getCUTransport" set-method="setCUTransport" usage="optional" name="CUTransport"/>
+    <collection get-method="getPrecedingDocumentList" set-method="setPrecedingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cutirc:PrecedingDocumentType" name="PrecedingDocument"/>
+    </collection>
+    <collection get-method="getCUPresentedDocumentList" set-method="setCUPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cutirc:PresentedDocumentsType" name="CUPresentedDocuments"/>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getTIRDeclarant" set-method="setTIRDeclarant" usage="optional" name="TIRDeclarant"/>
+    <collection get-method="getTIRShipmentList" set-method="setTIRShipmentList" create-type="java.util.ArrayList">
+      <structure map-as="cutirc:TIRShipmentType" name="TIRShipment"/>
+    </collection>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getBorderCustoms" set-method="setBorderCustoms" usage="optional" name="BorderCustoms"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cutir_carnet.CUTIRCarnetType" name="CUTIR_Carnet">
+    <structure map-as="cutirc:CUTIR_CarnetType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cutirc:CUDepartureArrivalTransportType" class="ru.acs.fts.schemas.album.cutir_carnet.CUDepartureArrivalTransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportMeansQuantity" get-method="getTransportMeansQuantity" set-method="setTransportMeansQuantity" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cutirc:PrecedingDocumentType" class="ru.acs.fts.schemas.album.cutir_carnet.PrecedingDocumentType">
+    <value style="element" name="PrecedingDocumentID" get-method="getPrecedingDocumentID" set-method="setPrecedingDocumentID" usage="optional"/>
+    <value style="element" name="PrecedingDocumentCustomsCode" get-method="getPrecedingDocumentCustomsCode" set-method="setPrecedingDocumentCustomsCode" usage="optional"/>
+    <value style="element" name="PrecedingDocumentDate" get-method="getPrecedingDocumentDate" set-method="setPrecedingDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PrecedingDocumentNumber" get-method="getPrecedingDocumentNumber" set-method="setPrecedingDocumentNumber"/>
+    <value style="element" name="PrecedingDocumentGoodsNumeric" get-method="getPrecedingDocumentGoodsNumeric" set-method="setPrecedingDocumentGoodsNumeric" usage="optional"/>
+    <value style="element" name="PrecedingDocumentName" get-method="getPrecedingDocumentName" set-method="setPrecedingDocumentName" usage="optional"/>
+    <value style="element" name="PrecedingDocumentModeCode" get-method="getPrecedingDocumentModeCode" set-method="setPrecedingDocumentModeCode" usage="optional"/>
+    <value style="element" name="LineNumber" get-method="getLineNumber" set-method="setLineNumber" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="cutirc:PresentedDocumentsType" class="ru.acs.fts.schemas.album.cutir_carnet.PresentedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+    <value style="element" name="DocumentBeginActionsDate" get-method="getDocumentBeginActionsDate" set-method="setDocumentBeginActionsDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentEndActionsDate" get-method="getDocumentEndActionsDate" set-method="setDocumentEndActionsDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cutirc:TIRCarrierType" class="ru.acs.fts.schemas.album.cutir_carnet.TIRCarrierType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="TIRHolderID" get-method="getTIRHolderID" set-method="setTIRHolderID" usage="optional"/>
+    <structure map-as="cat_ru:DriverInformationType" get-method="getCUDriverInformation" set-method="setCUDriverInformation" usage="optional" name="CUDriverInformation"/>
+  </mapping>
+  <mapping abstract="true" type-name="cutirc:TIRGoodsType" class="ru.acs.fts.schemas.album.cutir_carnet.TIRGoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="SupplementaryGoodsQuantity" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="SupplementaryMeasureUnitCode" get-method="getSupplementaryMeasureUnitCode" set-method="setSupplementaryMeasureUnitCode" usage="optional"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="InvoicedCostCurrencyCode" get-method="getInvoicedCostCurrencyCode" set-method="setInvoicedCostCurrencyCode" usage="optional"/>
+    <value style="element" name="DocumentKind" get-method="getDocumentKind" set-method="setDocumentKind" usage="optional"/>
+    <value style="element" name="PrecedingDocumentNumber" get-method="getPrecedingDocumentNumber" set-method="setPrecedingDocumentNumber" usage="optional"/>
+    <value style="element" name="TTNNumber" get-method="getTTNNumber" set-method="setTTNNumber" usage="optional"/>
+    <value style="element" name="Language" get-method="getLanguage" set-method="setLanguage" usage="optional"/>
+    <collection get-method="getPlacesInfoList" set-method="setPlacesInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:TRPackingInfoType" name="PlacesInfo"/>
+    </collection>
+    <collection get-method="getPackingInfoList" set-method="setPackingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:TRPackingInfoType" name="PackingInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cutirc:TIRShipmentType" class="ru.acs.fts.schemas.album.cutir_carnet.TIRShipmentType">
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator"/>
+    <collection get-method="getContainerIDList" set-method="setContainerIDList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerID" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TotalPlacesQuantity" get-method="getTotalPlacesQuantity" set-method="setTotalPlacesQuantity" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getTIRConsignor" set-method="setTIRConsignor" usage="optional" name="TIRConsignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getTIRConsignee" set-method="setTIRConsignee" usage="optional" name="TIRConsignee"/>
+    <structure map-as="catTrans_cu:TIRDestinationType" get-method="getDestination" set-method="setDestination" usage="optional" name="Destination"/>
+    <collection get-method="getTIRGoodList" set-method="setTIRGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cutirc:TIRGoodsType" name="TIRGoods"/>
+    </collection>
+    <collection get-method="getIdentityMarkList" set-method="setIdentityMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:IdentityMarkType" name="IdentityMark"/>
+    </collection>
+  </mapping>
+</binding>

@@ -1,0 +1,14 @@
+<binding xmlns:GFact="urn:customs.ru:Information:CustomsDocuments:GoodsFactInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsFactInfo:5.4.0" default="elements" prefix="GFact"/>
+  <mapping abstract="true" type-name="GFact:GoodsFactInfoType" class="ru.acs.fts.schemas.album.goodsfactinfo.GoodsFactInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ProcessNumber" get-method="getProcessNumber" set-method="setProcessNumber"/>
+    <collection get-method="getShipmentFactInfoList" set-method="setShipmentFactInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:SCVVConsignmentType" name="ShipmentFactInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsfactinfo.GoodsFactInfoType" name="GoodsFactInfo">
+    <structure map-as="GFact:GoodsFactInfoType"/>
+  </mapping>
+</binding>

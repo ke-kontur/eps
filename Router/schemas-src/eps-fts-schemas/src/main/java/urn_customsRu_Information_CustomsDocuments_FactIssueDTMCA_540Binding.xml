@@ -1,0 +1,14 @@
+<binding xmlns:fidt="urn:customs.ru:Information:CustomsDocuments:FactIssueDTMCA:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:FactIssueDTMCA:5.4.0" default="elements" prefix="fidt"/>
+  <mapping abstract="true" type-name="fidt:FactIssueDTMCAType" class="ru.acs.fts.schemas.album.factissuedtmca.FactIssueDTMCAType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IssueDecisionCode" get-method="getIssueDecisionCode" set-method="setIssueDecisionCode"/>
+    <value style="element" name="IssueDecisionDate" get-method="getIssueDecisionDate" set-method="setIssueDecisionDate" format="LocalDate.default"/>
+    <value style="element" name="IssueDecisionTime" get-method="getIssueDecisionTime" set-method="setIssueDecisionTime"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTRegNumber" set-method="setDTRegNumber" name="DTRegNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.factissuedtmca.FactIssueDTMCAType" name="FactIssueDTMCA">
+    <structure map-as="fidt:FactIssueDTMCAType"/>
+  </mapping>
+</binding>

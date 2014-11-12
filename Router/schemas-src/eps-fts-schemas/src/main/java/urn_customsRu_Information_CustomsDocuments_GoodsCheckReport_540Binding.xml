@@ -1,0 +1,54 @@
+<binding xmlns:gcrc="urn:customs.ru:Information:CustomsDocuments:GoodsCheckReport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsCheckReport:5.4.0" default="elements" prefix="gcrc"/>
+  <mapping abstract="true" type-name="gcrc:GoodsCheckReportType" class="ru.acs.fts.schemas.album.goodscheckreport.GoodsCheckReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getGoodsCheckTableList" set-method="setGoodsCheckTableList" create-type="java.util.ArrayList">
+      <structure map-as="gcrc:GoodsCheckTableType" name="GoodsCheckTable"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodscheckreport.GoodsCheckReportType" name="GoodsCheckReport">
+    <structure map-as="gcrc:GoodsCheckReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcrc:DescriptionDocumentType" class="ru.acs.fts.schemas.album.goodscheckreport.DescriptionDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+    <value style="element" name="GoodsPostiton" get-method="getGoodsPostiton" set-method="setGoodsPostiton" usage="optional"/>
+    <value style="element" name="DocumentBeginActionsDate" get-method="getDocumentBeginActionsDate" set-method="setDocumentBeginActionsDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentEndActionsDate" get-method="getDocumentEndActionsDate" set-method="setDocumentEndActionsDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcrc:ElementLocationType" class="ru.acs.fts.schemas.album.goodscheckreport.ElementLocationType">
+    <value style="element" name="ColumnNumber" get-method="getColumnNumber" set-method="setColumnNumber"/>
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber" usage="optional"/>
+    <value style="element" name="LineNumber" get-method="getLineNumber" set-method="setLineNumber" usage="optional"/>
+    <value style="element" name="SubLineNumber" get-method="getSubLineNumber" set-method="setSubLineNumber" usage="optional"/>
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber" usage="optional"/>
+    <value style="element" name="FieldName" get-method="getFieldName" set-method="setFieldName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcrc:FactValueDocumentType" class="ru.acs.fts.schemas.album.goodscheckreport.FactValueDocumentType">
+    <structure map-as="gcrc:DescriptionDocumentType"/>
+    <collection get-method="getMarkList" set-method="setMarkList" create-type="java.util.ArrayList">
+      <structure map-as="gcrc:MarksType" name="Marks"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gcrc:GoodsCheckTableType" class="ru.acs.fts.schemas.album.goodscheckreport.GoodsCheckTableType">
+    <value style="element" name="GTDValue" get-method="getGTDValue" set-method="setGTDValue"/>
+    <value style="element" name="GTDValueFlag" get-method="getGTDValueFlag" set-method="setGTDValueFlag"/>
+    <value style="element" name="TrueValue" get-method="getTrueValue" set-method="setTrueValue"/>
+    <collection get-method="getGTDValueNoteList" set-method="setGTDValueNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GTDValueNote" type="java.lang.String"/>
+    </collection>
+    <structure map-as="gcrc:ElementLocationType" get-method="getCheckElementLocation" set-method="setCheckElementLocation" name="CheckElementLocation"/>
+    <structure map-as="gcrc:DescriptionDocumentType" get-method="getTrueValueRefDocumentDT" set-method="setTrueValueRefDocumentDT" usage="optional" name="TrueValueRefDocumentDT"/>
+    <structure map-as="gcrc:FactValueDocumentType" get-method="getTrueValueRefDocument" set-method="setTrueValueRefDocument" usage="optional" name="TrueValueRefDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcrc:MarksType" class="ru.acs.fts.schemas.album.goodscheckreport.MarksType">
+    <value style="element" name="NameMarks" get-method="getNameMarks" set-method="setNameMarks" usage="optional"/>
+    <value style="element" name="Value" get-method="getValue" set-method="setValue"/>
+  </mapping>
+</binding>

@@ -1,0 +1,26 @@
+<binding xmlns:aurrs="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryResponse:4.1.1" default="elements" prefix="aurrs"/>
+  <mapping abstract="true" type-name="aurrs:AUD_RegistryResponseType" class="ru.acs.fts.schemas.aud.aud_registryresponse.AUDRegistryResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="NullFlag" get-method="isNullFlag" set-method="setNullFlag"/>
+    <collection get-method="getAUDPacketRegistryRowList" set-method="setAUDPacketRegistryRowList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="aurrs:RegistryPacketInfoType" name="AUD_PacketRegistryRow"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_registryresponse.AUDRegistryResponseType" name="AUD_RegistryResponse">
+    <structure map-as="aurrs:AUD_RegistryResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aurrs:RegistryPacketInfoType" class="ru.acs.fts.schemas.aud.aud_registryresponse.RegistryPacketInfoType">
+    <structure map-as="catAUD_ru:AUD_PacketInfoType"/>
+    <collection get-method="getRegistryRowList" set-method="setRegistryRowList" create-type="java.util.ArrayList">
+      <structure map-as="aurrs:RegistryRowType" name="RegistryRow"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="aurrs:RegistryRowType" class="ru.acs.fts.schemas.aud.aud_registryresponse.RegistryRowType">
+    <value style="element" name="IsActualDocumentIndicator" get-method="isIsActualDocumentIndicator" set-method="setIsActualDocumentIndicator"/>
+    <value style="element" name="ArchiveContainerDocumentId" get-method="getArchiveContainerDocumentId" set-method="setArchiveContainerDocumentId" usage="optional"/>
+    <structure map-as="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType" get-method="getArchiveDocInfo" set-method="setArchiveDocInfo" name="ArchiveDocInfo"/>
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentInfoType" get-method="getAppliedDocInfo" set-method="setAppliedDocInfo" name="AppliedDocInfo"/>
+  </mapping>
+</binding>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- edited with XMLSpy v2005 sp2 U (http://www.altova.com) by  () -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:udcl="urn:customs.ru:Informtion:AdminCommandED:UDCustListUpdate:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" targetNamespace="urn:customs.ru:Informtion:AdminCommandED:UDCustListUpdate:4.6.0" elementFormDefault="qualified" version="4.6.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Справочник таможенных органов</xs:documentation>
+	</xs:annotation>
+	<xs:element name="UDCustListUpdate" type="udcl:UDCustListUpdateType"/>
+	<xs:complexType name="UDCustListUpdateType">
+		<xs:annotation>
+			<xs:documentation>Справочник таможенных органов</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="CreateDateTime" type="IEclt_ru:DateTimeCustType">
+						<xs:annotation>
+							<xs:documentation>Дата  и время  создания  выгрузки</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="StartDate" type="IEclt_ru:DateCustType">
+						<xs:annotation>
+							<xs:documentation>Дата начала действия</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="EndDate" type="IEclt_ru:DateCustType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Дата окончание действия</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Comments" type="IEclt_ru:FreeText250Type" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Комментарии</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="RecID" type="IEclt_ru:DocumentIDType">
+						<xs:annotation>
+							<xs:documentation>Идентификатор записи</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DocumentGroundConnect" type="udcl:DocumentGroundType">
+						<xs:annotation>
+							<xs:documentation>Основание для подключения</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="CustomsOut" type="udcl:CustomsType">
+						<xs:annotation>
+							<xs:documentation>Внешний таможенный пост</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="CustomsIn" type="udcl:CustomsType">
+						<xs:annotation>
+							<xs:documentation>Внутренний таможенный пост</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DocumentGroundDisconnect" type="udcl:DocumentGroundType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Основание для  исключения</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090005E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>Локальные прикладные типы.</xs:documentation>
+	</xs:annotation>
+	<xs:complexType name="CustomsType">
+		<xs:annotation>
+			<xs:documentation>Код и наименование таможенного органа</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code" type="IEclt_ru:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OfficeName" type="IEclt_ru:FreeText250Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование таможенного органа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DocumentGroundType">
+		<xs:annotation>
+			<xs:documentation>Основание для подключения/исключения</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DocumentCode" type="IEclt_ru:CodeVariable18Type">
+				<xs:annotation>
+					<xs:documentation>Код типа документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentNumber" type="IEclt_ru:DocumentNumberType">
+				<xs:annotation>
+					<xs:documentation>Номер документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentDate" type="IEclt_ru:DateCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

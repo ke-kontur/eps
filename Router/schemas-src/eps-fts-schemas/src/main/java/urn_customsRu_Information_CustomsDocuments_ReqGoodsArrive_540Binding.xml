@@ -1,0 +1,41 @@
+<binding xmlns:rga="urn:customs.ru:Information:CustomsDocuments:ReqGoodsArrive:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqGoodsArrive:5.4.0" default="elements" prefix="rga"/>
+  <mapping abstract="true" type-name="rga:ReqGoodsArriveType" class="ru.acs.fts.schemas.album.reqgoodsarrive.ReqGoodsArriveType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <value style="element" name="ReqTime" get-method="getReqTime" set-method="setReqTime"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="rga:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <collection get-method="getTransportMeanArriveList" set-method="setTransportMeanArriveList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rga:TransportMeanArriveType" name="TransportMeanArrive"/>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqgoodsarrive.ReqGoodsArriveType" name="ReqGoodsArrive">
+    <structure map-as="rga:ReqGoodsArriveType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rga:GoodsInfoType" class="ru.acs.fts.schemas.album.reqgoodsarrive.GoodsInfoType">
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTransportDocumentList" set-method="setTransportDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="rga:TransportDocumentsType" name="TransportDocuments"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rga:TransportDocumentsType" class="ru.acs.fts.schemas.album.reqgoodsarrive.TransportDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="rga:TransportMeanArriveType" class="ru.acs.fts.schemas.album.reqgoodsarrive.TransportMeanArriveType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="TransportMeanArriveFlag" get-method="getTransportMeanArriveFlag" set-method="setTransportMeanArriveFlag" usage="optional"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+  </mapping>
+</binding>

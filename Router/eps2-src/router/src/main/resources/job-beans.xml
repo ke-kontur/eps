@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+        					http://www.springframework.org/schema/beans/spring-beans.xsd" >
+        					
+	<!-- Подгружаем сценарии, все скопом -->
+	<import resource="scenarios/scenarios.xml" />
+	
+	<!-- Фабрика для сбора событий с JobExecutor'ов -->
+	<bean id="restEventFactory" class="ru.acs.fts.eps2.router.processing.inspection.RESTEventFactory" >
+		<property name="eventRestWs" ref="restEventWebService" />
+		<property name="commitId" value="${git.commit.id}" />
+	</bean>
+
+	<!-- Хранилища пакетов задач -->
+	<import resource="sections/eps-jobs.xml" />
+	<import resource="sections/admin-jobs.xml" />
+	<import resource="sections/declarant-jobs.xml" />
+	<import resource="sections/customs-jobs.xml" />
+	<import resource="sections/failed-jobs.xml" />
+
+	<!-- JobExecutor'ы для обработки сообщений -->	
+	<bean id="baseJobExecutor" class="ru.acs.fts.eps2.engine.processing.JobExecutor2" 
+			abstract="true" scope="prototype" >
+			
+		<property name="failedJobBatchesWarehouse" ref="failedJobBatchWarehouse" />
+			
+		<property name="preProcessingJobBatch" ref="preProcessingJobBatch" />
+		<property name="postProcessingJobBatch" ref="postProcessingJobBatch" />
+		<property name="exceptionalJobBatch" ref="errorHandlingJobBatch" />
+		
+		<property name="transmissionFSM" ref="transmissionsFSM" />
+		<property name="executionLog" >
+			<bean class="ru.acs.fts.eps2.engine.processing.JobExecutionLog" >
+				<property name="restEventFactory" ref="restEventFactory" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="declJobExecutor" parent="baseJobExecutor">
+		<property name="jobBatchesWarehouse" ref="declJobBatchWarehouse" />
+	</bean>
+
+	<bean id="customsJobExecutor" parent="baseJobExecutor">
+		<property name="jobBatchesWarehouse" ref="customsJobBatchWarehouse" />
+	</bean>
+
+	<bean id="adminJobExecutor" parent="baseJobExecutor">
+		<property name="jobBatchesWarehouse" ref="adminJobBatchWarehouse" />
+	</bean>
+
+	<bean id="epsJobExecutor" parent="baseJobExecutor">
+		<property name="jobBatchesWarehouse" ref="epsJobBatchWarehouse" />
+	</bean>
+
+	<!-- Фабрики пакетов заданий для JobExecutor'ов -->
+
+	<!-- Базовое определение для всех -->
+	<bean id="baseJobBatchContextFactory" abstract="true" scope="prototype"
+			class="ru.acs.fts.eps2.router.processing.EDJobBatchContextFactory" >
+		<property name="configurator" ref="configurator" />
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+
+	<!-- Фабрика пакетов заданий для обработки сообщений от декларантов -->
+	<bean id="declJobBatchContextFactory" parent="baseJobBatchContextFactory">
+		<property name="senderSystem" value="DECLARANT" />
+	</bean>
+
+	<!-- Фабрика пакетов заданий для обработки сообщений от таможенных органов -->
+	<bean id="customsJobBatchContextFactory" parent="baseJobBatchContextFactory">
+		<property name="senderSystem" value="CUSTOMS" />
+	</bean>
+
+	<!-- Фабрика пакетов заданий для обработки сообщений от администратора системы -->
+	<bean id="adminJobBatchContextFactory" parent="baseJobBatchContextFactory">
+		<property name="senderSystem" value="ADMIN" />
+	</bean>
+
+	<!-- Фабрика пакетов заданий для обработки сообщений с других экземпляров АПС ЭПС -->
+	<bean id="epsJobBatchContextFactory" parent="baseJobBatchContextFactory">
+		<property name="senderSystem" value="EPS" />
+	</bean>
+
+</beans>

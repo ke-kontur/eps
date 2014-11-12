@@ -1,0 +1,100 @@
+<binding xmlns:tci="urn:customs.ru:Information:CustomsDocuments:TransitInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransitInfo:5.4.0" default="elements" prefix="tci"/>
+  <mapping abstract="true" type-name="tci:TransitInfoType" class="ru.acs.fts.schemas.album.transitinfo.TransitInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="StatusName" get-method="getStatusName" set-method="setStatusName"/>
+    <value style="element" name="DocumentDateTime" get-method="getDocumentDateTime" set-method="setDocumentDateTime"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ActNumber" get-method="getActNumber" set-method="setActNumber" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="TransitStampDateTime" get-method="getTransitStampDateTime" set-method="setTransitStampDateTime" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsOfficial" set-method="setCustomsOfficial" usage="optional" name="CustomsOfficial"/>
+    <structure map-as="tci:HeaderType" get-method="getHeader" set-method="setHeader" name="Header"/>
+    <collection get-method="getConsigmentList" set-method="setConsigmentList" create-type="java.util.ArrayList">
+      <structure map-as="tci:ConsigmentType" name="Consigment"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getPrecedingDocument" set-method="setPrecedingDocument" usage="optional" name="PrecedingDocument"/>
+    <structure map-as="tci:DestinationPlaceType" get-method="getDestinationPlace" set-method="setDestinationPlace" name="DestinationPlace"/>
+    <collection get-method="getSealList" set-method="setSealList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tci:SealType" name="Seal"/>
+    </collection>
+    <collection get-method="getGuaranteeList" set-method="setGuaranteeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:TDGuaranteeType" name="Guarantee"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transitinfo.TransitInfoType" name="TransitInfo">
+    <structure map-as="tci:TransitInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:ConsigmentType" class="ru.acs.fts.schemas.album.transitinfo.ConsigmentType">
+    <structure map-as="tci:ProducedDocumentType"/>
+    <value style="element" name="Sequence" get-method="getSequence" set-method="setSequence"/>
+    <value style="element" name="CustomsInvoiceNumber" get-method="getCustomsInvoiceNumber" set-method="setCustomsInvoiceNumber" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <collection get-method="getGoodsItemList" set-method="setGoodsItemList" create-type="java.util.ArrayList">
+      <structure map-as="tci:TransitGoodsType" name="GoodsItem"/>
+    </collection>
+    <collection get-method="getProducedDocumentList" set-method="setProducedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tci:ProducedDocumentType" name="ProducedDocument"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="tci:DestinationPlaceType" class="ru.acs.fts.schemas.album.transitinfo.DestinationPlaceType">
+    <structure map-as="cat_ru:CUCustomsType"/>
+    <value style="element" name="PlaceDescription" get-method="getPlaceDescription" set-method="setPlaceDescription" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistrationCertificate" set-method="setRegistrationCertificate" usage="optional" name="RegistrationCertificate"/>
+    <structure map-as="tci:RWstationType" get-method="getRWstation" set-method="setRWstation" usage="optional" name="RWstation"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:HeaderType" class="ru.acs.fts.schemas.album.transitinfo.HeaderType">
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind"/>
+    <value style="element" name="TotalNumberOfGoods" get-method="getTotalNumberOfGoods" set-method="setTotalNumberOfGoods" usage="optional"/>
+    <value style="element" name="TotalNumberOfPackages" get-method="getTotalNumberOfPackages" set-method="setTotalNumberOfPackages"/>
+    <value style="element" name="TotalGrossMass" get-method="getTotalGrossMass" set-method="setTotalGrossMass"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+    <value style="element" name="DepartureCountryCode" get-method="getDepartureCountryCode" set-method="setDepartureCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="TransitDateLimit" get-method="getTransitDateLimit" set-method="setTransitDateLimit" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getTransportList" set-method="setTransportList" create-type="java.util.ArrayList">
+      <structure map-as="tci:TransportType" name="Transport"/>
+    </collection>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTDNumber" get-method="getTDNumber" set-method="setTDNumber" usage="optional" name="TDNumber"/>
+      <structure map-as="tci:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+    </structure>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:ProducedDocumentType" class="ru.acs.fts.schemas.album.transitinfo.ProducedDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentKind" get-method="getDocumentKind" set-method="setDocumentKind"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:RWstationType" class="ru.acs.fts.schemas.album.transitinfo.RWstationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName" usage="optional"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:SealType" class="ru.acs.fts.schemas.album.transitinfo.SealType">
+    <value style="element" name="IdentNumber" get-method="getIdentNumber" set-method="setIdentNumber"/>
+    <value style="element" name="IdentKind" get-method="getIdentKind" set-method="setIdentKind"/>
+    <value style="element" name="IdentDesc" get-method="getIdentDesc" set-method="setIdentDesc" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:TIRIDType" class="ru.acs.fts.schemas.album.transitinfo.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:TransitGoodsType" class="ru.acs.fts.schemas.album.transitinfo.TransitGoodsType">
+    <structure map-as="catESAD_cu:GoodsItemBaseType"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="tci:TransportType" class="ru.acs.fts.schemas.album.transitinfo.TransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+</binding>

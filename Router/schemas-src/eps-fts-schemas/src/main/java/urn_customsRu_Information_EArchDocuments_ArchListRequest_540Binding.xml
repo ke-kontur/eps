@@ -1,0 +1,11 @@
+<binding xmlns:arl="urn:customs.ru:Information:EArchDocuments:ArchListRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchListRequest:5.4.0" default="elements" prefix="arl"/>
+  <mapping abstract="true" type-name="arl:ArchListRequestType" class="ru.acs.fts.schemas.album.archlistrequest.ArchListRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archlistrequest.ArchListRequestType" name="ArchListRequest">
+    <structure map-as="arl:ArchListRequestType"/>
+  </mapping>
+</binding>

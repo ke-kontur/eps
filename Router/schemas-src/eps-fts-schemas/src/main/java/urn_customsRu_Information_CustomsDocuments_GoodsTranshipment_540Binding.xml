@@ -1,0 +1,94 @@
+<binding xmlns:gtsh="urn:customs.ru:Information:CustomsDocuments:GoodsTranshipment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsTranshipment:5.4.0" default="elements" prefix="gtsh"/>
+  <mapping abstract="true" type-name="gtsh:GoodsTranshipmentType" class="ru.acs.fts.schemas.album.goodstranshipment.GoodsTranshipmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDirection" get-method="getDocumentDirection" set-method="setDocumentDirection"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTD" get-method="getTD" set-method="setTD" usage="optional" name="TD"/>
+      <structure map-as="gtsh:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+    </structure>
+    <structure map-as="gtsh:IncidentInfoType" get-method="getIncidentInfo" set-method="setIncidentInfo" usage="optional" name="IncidentInfo"/>
+    <structure map-as="gtsh:ReloadPlaceType" get-method="getReloadPlace" set-method="setReloadPlace" usage="optional" name="ReloadPlace"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gtsh:TransportInfoType" name="Transport"/>
+    </collection>
+    <collection get-method="getSealList" set-method="setSealList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gtsh:SealType" name="Seal"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gtsh:ConsignmentType" name="Consignment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodstranshipment.GoodsTranshipmentType" name="GoodsTranshipment">
+    <structure map-as="gtsh:GoodsTranshipmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:ConsignmentType" class="ru.acs.fts.schemas.album.goodstranshipment.ConsignmentType">
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber" usage="optional"/>
+    <collection get-method="getGoodsItemList" set-method="setGoodsItemList" create-type="java.util.ArrayList">
+      <structure map-as="gtsh:GoodsType" name="GoodsItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:DamageIndicatorsType" class="ru.acs.fts.schemas.album.goodstranshipment.DamageIndicatorsType">
+    <value style="element" name="IsCargoApartmentDamaged" get-method="getIsCargoApartmentDamaged" set-method="setIsCargoApartmentDamaged"/>
+    <value style="element" name="IsSealsDamaged" get-method="getIsSealsDamaged" set-method="setIsSealsDamaged"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:GoodsType" class="ru.acs.fts.schemas.album.goodstranshipment.GoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GrossMass" get-method="getGrossMass" set-method="setGrossMass" usage="optional"/>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADContainerType" name="Container"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:IncidentInfoType" class="ru.acs.fts.schemas.album.goodstranshipment.IncidentInfoType">
+    <value style="element" name="IncidentDescription" get-method="getIncidentDescription" set-method="setIncidentDescription" usage="optional"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Measures" get-method="getMeasures" set-method="setMeasures" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAccidentPlace" set-method="setAccidentPlace" name="AccidentPlace"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="gtsh:DamageIndicatorsType" get-method="getDamageIndicators" set-method="setDamageIndicators" usage="optional" name="DamageIndicators"/>
+    <collection get-method="getLostGoodsInfoList" set-method="setLostGoodsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gtsh:LostGoodsInfoType" name="LostGoodsInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:LostGoodsInfoType" class="ru.acs.fts.schemas.album.goodstranshipment.LostGoodsInfoType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PackageKindSequence" get-method="getPackageKindSequence" set-method="setPackageKindSequence" usage="optional"/>
+    <value style="element" name="AbsenceKind" get-method="getAbsenceKind" set-method="setAbsenceKind" usage="optional"/>
+    <value style="element" name="GrossMass" get-method="getGrossMass" set-method="setGrossMass" usage="optional"/>
+    <structure map-as="catESAD_cu:PackingInformationType" get-method="getLostPackages" set-method="setLostPackages" usage="optional" name="LostPackages"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getLostGoodsQuantity" set-method="setLostGoodsQuantity" usage="optional" name="LostGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:RWStationType" class="ru.acs.fts.schemas.album.goodstranshipment.RWStationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName" usage="optional"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:ReloadPlaceType" class="ru.acs.fts.schemas.album.goodstranshipment.ReloadPlaceType">
+    <structure map-as="cat_ru:CustomsType"/>
+    <value style="element" name="BorderPointCode" get-method="getBorderPointCode" set-method="setBorderPointCode" usage="optional"/>
+    <structure map-as="gtsh:RWStationType" get-method="getRWStation" set-method="setRWStation" usage="optional" name="RWStation"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:SealType" class="ru.acs.fts.schemas.album.goodstranshipment.SealType">
+    <value style="element" name="IdentNumber" get-method="getIdentNumber" set-method="setIdentNumber"/>
+    <value style="element" name="IdentKind" get-method="getIdentKind" set-method="setIdentKind"/>
+    <value style="element" name="IdentDesc" get-method="getIdentDesc" set-method="setIdentDesc" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:TIRIDType" class="ru.acs.fts.schemas.album.goodstranshipment.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gtsh:TransportInfoType" class="ru.acs.fts.schemas.album.goodstranshipment.TransportInfoType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="Mode" get-method="getMode" set-method="setMode"/>
+  </mapping>
+</binding>

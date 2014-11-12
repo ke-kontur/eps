@@ -1,0 +1,28 @@
+<binding xmlns:sur="urn:customs.ru:Information:StatusUpdateRequest:5.1.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:StatusUpdateRequest:5.1.0" default="elements" prefix="sur"/>
+  <mapping abstract="true" type-name="sur:StatusUpdateRequestType" class="ru.acs.fts.schemas.admin.statusupdaterequest.StatusUpdateRequestType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <collection get-method="getStateTransmissionList" set-method="setStateTransmissionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sur:StateTransmissionsType" name="StateTransmissions"/>
+    </collection>
+    <collection get-method="getStatuseList" set-method="setStatuseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sur:StatusesType" name="Statuses"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.statusupdaterequest.StatusUpdateRequestType" name="StatusUpdateRequest">
+    <structure map-as="sur:StatusUpdateRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sur:StateTransmissionsType" class="ru.acs.fts.schemas.admin.statusupdaterequest.StateTransmissionsType">
+    <value style="element" name="InitialStateCode" get-method="getInitialStateCode" set-method="setInitialStateCode"/>
+    <value style="element" name="SoftVersion" get-method="getSoftVersion" set-method="setSoftVersion"/>
+    <value style="element" name="TargetStateCode" get-method="getTargetStateCode" set-method="setTargetStateCode"/>
+    <value style="element" name="MessageType" get-method="getMessageType" set-method="setMessageType"/>
+    <value style="element" name="StateModel" get-method="getStateModel" set-method="setStateModel"/>
+    <value style="element" name="Event" get-method="getEvent" set-method="setEvent" format="sur:EventEnumeration"/>
+  </mapping>
+  <mapping abstract="true" type-name="sur:StatusesType" class="ru.acs.fts.schemas.admin.statusupdaterequest.StatusesType">
+    <value style="element" name="StateCode" get-method="getStateCode" set-method="setStateCode"/>
+    <value style="element" name="StatusDescription" get-method="getStatusDescription" set-method="setStatusDescription"/>
+  </mapping>
+</binding>

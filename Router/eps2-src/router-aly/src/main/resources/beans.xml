@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+    <import resource="settings.xml" />
+    <import resource="job-beans.xml" />
+    <import resource="scenarios/scenarios.xml" />
+    
+    <import resource="sections/error-automata.xml" />
+
+	<!-- Подключаем файл с бинами для JIBX -->
+	<import resource="sections/jibx.xml" />
+	
+	<!-- Подключаем файл с бинами для работы с конвертами -->
+	<import resource="sections/envelope-management.xml" />
+	
+	<import resource="sections/tasks.xml" />
+
+    <!-- Джобы -->
+    
+	<bean id="alyJob" class="ru.acs.fts.aly.router.processing.jobs.AlyJob" abstract="true" scope="prototype" >
+    	<property name="serviceHolder" ref="serviceHolder" />
+    </bean>    
+    
+    <bean id="alyEmptyJob" class="ru.acs.fts.aly.router.processing.jobs.AlyEmptyJob" parent="alyJob" />
+
+    <!-- Задача предварительной обработки (в том числе парсинг сообщения) -->
+    <bean id="alyOverallParserJob" class="ru.acs.fts.aly.router.processing.jobs.AlyOverallParserJob" parent="alyJob" >
+    	<property name="envelopeManager" ref="alyEnvelopeManager" />
+    	<property name="unmarshaller" ref="jibx" />
+    	<property name="unmarshallFailedJobBatch" ref="alyEmptyJobBatch" /> <!-- TODO: -->
+    </bean>
+    
+    <bean id="saveXmlJob" class="ru.acs.fts.aly.router.processing.jobs.SaveXmlJob" parent="alyJob" />
+    
+    <bean id="esadComparisonJob" class="ru.acs.fts.aly.router.processing.jobs.EsadComparisonJob" parent="alyJob" />
+    
+    <bean id="esadSaveJob" class="ru.acs.fts.aly.router.processing.jobs.EsadSaveJob" parent="alyJob" />
+    
+    <bean id="notifGtdRegistrationJob" class="ru.acs.fts.aly.router.processing.jobs.NotifGTDRegistrationJob" parent="alyJob" />
+    
+    <bean id="xmlRestore" class="ru.acs.fts.aly.model.supplementary.XmlRestore" >
+		<property name="messageService" ref="messageService" />
+	</bean>
+    
+    <!-- Задача создания уведомления -->
+    <bean id="createNotification" class="ru.acs.fts.aly.router.processing.jobs.CreateNotificationJob" parent="alyJob" />
+    
+    <!-- Задача отправки сообщения -->
+    <bean id="sendAlyMessage" class="ru.acs.fts.aly.router.processing.jobs.SendAlyMessageJob" parent="alyJob" />
+    
+    <!-- Задача подписи конвертов -->
+    <bean id="signAlyEnvelope" class="ru.acs.fts.aly.router.processing.jobs.SignAlyEnvelopeJob" >
+    	<property name="envelopeMarshaller" ref="jibx" />
+    	<property name="envelopeUnmarshaller" ref="jibx" />
+    </bean>
+
+</beans>

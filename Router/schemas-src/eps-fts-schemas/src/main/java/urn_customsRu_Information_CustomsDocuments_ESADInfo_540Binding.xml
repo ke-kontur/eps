@@ -1,0 +1,42 @@
+<binding xmlns:esif="urn:customs.ru:Information:CustomsDocuments:ESADInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ESADInfo:5.4.0" default="elements" prefix="esif"/>
+  <mapping abstract="true" type-name="esif:ESADInfoType" class="ru.acs.fts.schemas.album.esadinfo.ESADInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <structure map-as="esif:OrganizationType" get-method="getConsigner" set-method="setConsigner" name="Consigner"/>
+    <structure map-as="esif:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <collection get-method="getGoodsList" set-method="setGoodsList" create-type="java.util.ArrayList">
+      <structure map-as="esif:GoodsListType" name="GoodsList"/>
+    </collection>
+    <collection get-method="getSupportingDocumentList" set-method="setSupportingDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="esif:DocsInfoType" name="SupportingDocuments"/>
+    </collection>
+    <collection get-method="getTransportDocumentList" set-method="setTransportDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="esif:DocsInfoType" name="TransportDocuments"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.esadinfo.ESADInfoType" name="ESADInfo">
+    <structure map-as="esif:ESADInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="esif:DocsInfoType" class="ru.acs.fts.schemas.album.esadinfo.DocsInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+    <value style="element" name="DocumentBeginActionsDate" get-method="getDocumentBeginActionsDate" set-method="setDocumentBeginActionsDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentEndActionsDate" get-method="getDocumentEndActionsDate" set-method="setDocumentEndActionsDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="esif:GoodsListType" class="ru.acs.fts.schemas.album.esadinfo.GoodsListType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getGoodsPackaging" set-method="setGoodsPackaging" usage="optional" name="GoodsPackaging"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <structure map-as="catESAD_cu:ESADContainerType" get-method="getContainer" set-method="setContainer" usage="optional" name="Container"/>
+  </mapping>
+  <mapping abstract="true" type-name="esif:OrganizationType" class="ru.acs.fts.schemas.album.esadinfo.OrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+</binding>

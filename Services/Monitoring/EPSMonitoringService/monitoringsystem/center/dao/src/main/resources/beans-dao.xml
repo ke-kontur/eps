@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+    	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+	
+	<bean id="monitoringEmf"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+		p:dataSource-ref="monitoringDataSource">
+
+		<property name="jpaVendorAdapter">
+
+			<bean
+                class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"
+				p:database="DERBY"
+                p:showSql="true"
+                p:databasePlatform="org.hibernate.dialect.DerbyDialect">
+			</bean>
+			<!--
+				<bean
+				class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter"
+				p:database="DERBY" > <property name="databasePlatform"
+				value="org.eclipse.persistence.platform.database.DerbyPlatform" />
+				<property name="showSql" value="true" /> </bean>
+			-->
+
+		</property>
+		<property name="jpaProperties">
+					<props>
+						<prop key="hibernate.hbm2ddl.auto">update</prop>
+						<prop key="hibernate.dialect">org.hibernate.dialect.DerbyDialect</prop>
+						<prop key="hibernate.query.substitutions">true 'T', false 'F'</prop>
+						<prop key="hibernate.show_sql">false</prop>
+						<prop key="hibernate.c3p0.minPoolSize">5</prop>
+						<prop key="hibernate.c3p0.maxPoolSize">20</prop>
+						<prop key="hibernate.c3p0.timeout">600</prop>
+						<prop key="hibernate.c3p0.max_statement">50</prop>
+						<prop key="hibernate.c3p0.testConnectionOnCheckout">true</prop>
+					
+
+				</props>
+				</property>
+				
+		<!--
+			<property name="loadTimeWeaver"> <bean
+			class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver"
+			/> </property>
+		-->
+		<property name="persistenceUnitName" value="monitoringPUnit" />
+	</bean>
+	
+	<bean id="baseDAO" class="ru.acs.monitoring.dao.jpa.JpaBaseDAO" abstract="true">
+		<property name="entityManagerFactory" ref="monitoringEmf" />
+	</bean>
+	
+	<bean id="connectionDAO" class="ru.acs.monitoring.dao.jpa.ConnectionDAOJpa" parent="baseDAO"/>
+	<bean id="monitoringInfoDAO" class="ru.acs.monitoring.dao.jpa.MonitoringInfoDAOJpa" parent="baseDAO"/>
+	<bean id="messageKindDAO" class="ru.acs.monitoring.dao.jpa.MessageKindDAOJpa" parent="baseDAO"/>
+	<bean id="messageProcessingStatDAO" class="ru.acs.monitoring.dao.jpa.MessageProcessingStatDAOJpa" parent="baseDAO"/>
+	<bean id="messageProcessingSystemDAO" class="ru.acs.monitoring.dao.jpa.MessageProcessingSystemDAOJpa" parent="baseDAO"/>
+	<bean id="timerDAO" class="ru.acs.monitoring.dao.jpa.TimerDAOJpa" parent="baseDAO"/>
+	<!-- <context:annotation-config/>
+	<tx:annotation-driven/>--> 
+</beans>

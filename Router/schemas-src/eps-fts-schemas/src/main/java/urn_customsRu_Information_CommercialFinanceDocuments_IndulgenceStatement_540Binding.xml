@@ -1,0 +1,65 @@
+<binding xmlns:is="urn:customs.ru:Information:CommercialFinanceDocuments:IndulgenceStatement:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:IndulgenceStatement:5.4.0" default="elements" prefix="is"/>
+  <mapping abstract="true" type-name="is:IndulgenceStatementType" class="ru.acs.fts.schemas.album.indulgencestatement.IndulgenceStatementType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getIndulgenceStatementRegistration" set-method="setIndulgenceStatementRegistration" name="IndulgenceStatementRegistration"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractRegistration" set-method="setContractRegistration" name="ContractRegistration"/>
+    <structure map-as="is:ContractTermsType" get-method="getContractTerms" set-method="setContractTerms" name="ContractTerms"/>
+    <structure map-as="is:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="is:DeclarantBankType" get-method="getDeclarantBank" set-method="setDeclarantBank" name="DeclarantBank"/>
+    <structure map-as="is:IndulgenceStatementContractorType" get-method="getIndulgenceStatementContractor" set-method="setIndulgenceStatementContractor" name="IndulgenceStatementContractor"/>
+    <collection get-method="getPaymentList" set-method="setPaymentList" create-type="java.util.ArrayList">
+      <structure map-as="is:PaymentType" name="Payment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.indulgencestatement.IndulgenceStatementType" name="IndulgenceStatement">
+    <structure map-as="is:IndulgenceStatementType"/>
+  </mapping>
+  <mapping abstract="true" type-name="is:ContractTermsType" class="ru.acs.fts.schemas.album.indulgencestatement.ContractTermsType">
+    <value style="element" name="LastDate" get-method="getLastDate" set-method="setLastDate" format="LocalDate.default"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="is:DeclarantBankType" class="ru.acs.fts.schemas.album.indulgencestatement.DeclarantBankType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="BICID" get-method="getBICID" set-method="setBICID" usage="optional"/>
+    <value style="element" name="AccountNumeric" get-method="getAccountNumeric" set-method="setAccountNumeric"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax" usage="optional"/>
+    <value style="element" name="Telex" get-method="getTelex" set-method="setTelex" usage="optional"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="OKATOCode" get-method="getOKATOCode" set-method="setOKATOCode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" name="LegalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="is:DeclarantType" class="ru.acs.fts.schemas.album.indulgencestatement.DeclarantType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure usage="optional" ordered="false" choice="true">
+      <structure map-as="is:NaturalPersonRegistrationType" test-method="ifNaturalPersonRegistration" get-method="getNaturalPersonRegistration" set-method="setNaturalPersonRegistration" usage="optional" name="NaturalPersonRegistration"/>
+      <structure map-as="is:JuridicalPersonRegistrationType" test-method="ifJuridicalPersonRegistration" get-method="getJuridicalPersonRegistration" set-method="setJuridicalPersonRegistration" usage="optional" name="JuridicalPersonRegistration"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="is:IndulgenceStatementContractorType" class="ru.acs.fts.schemas.album.indulgencestatement.IndulgenceStatementContractorType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="RegistrationPlace" get-method="getRegistrationPlace" set-method="setRegistrationPlace"/>
+    <value style="element" name="GoodsCountryCode" get-method="getGoodsCountryCode" set-method="setGoodsCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="is:JuridicalPersonRegistrationType" class="ru.acs.fts.schemas.album.indulgencestatement.JuridicalPersonRegistrationType">
+    <value style="element" name="RegistrationOrganization" get-method="getRegistrationOrganization" set-method="setRegistrationOrganization"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace"/>
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber"/>
+    <value style="element" name="CertificateSeriesCode" get-method="getCertificateSeriesCode" set-method="setCertificateSeriesCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="is:NaturalPersonRegistrationType" class="ru.acs.fts.schemas.album.indulgencestatement.NaturalPersonRegistrationType">
+    <value style="element" name="RegistrationOrganization" get-method="getRegistrationOrganization" set-method="setRegistrationOrganization"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="is:PaymentType" class="ru.acs.fts.schemas.album.indulgencestatement.PaymentType">
+    <value style="element" name="CustomsPaymentModeCode" get-method="getCustomsPaymentModeCode" set-method="setCustomsPaymentModeCode"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="SecurityText" get-method="getSecurityText" set-method="setSecurityText" usage="optional"/>
+  </mapping>
+</binding>

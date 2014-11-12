@@ -1,0 +1,13 @@
+<binding xmlns:kt_req="urn:customs.ru:Information:SEMDocuments:SEM_KTRequest:5.4.0" xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SEMDocuments:SEM_KTRequest:5.4.0" default="elements" prefix="kt_req"/>
+  <mapping abstract="true" type-name="kt_req:SEM_KTRequestType" class="ru.acs.fts.schemas.album.sem_ktrequest.SEMKTRequestType">
+    <structure map-as="sem_cat:BaseServiceRequestType"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:GoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sem_ktrequest.SEMKTRequestType" name="SEM_KTRequest">
+    <structure map-as="kt_req:SEM_KTRequestType"/>
+  </mapping>
+</binding>

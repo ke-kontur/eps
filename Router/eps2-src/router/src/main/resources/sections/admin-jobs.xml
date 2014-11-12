@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Хранилище пакетов задач для обработки сообщений от Администратора -->
+	<bean id="adminJobBatchWarehouse" class="ru.acs.fts.eps2.router.processing.EDJobBatchWarehouse">
+		<property name="selectors">
+			<list>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="admcmd" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="messageTypes">
+								<list>
+									<value>ADM.10002</value>
+									<value>ADM.10003</value>
+									<value>ADM.10004</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="adm10005" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="messageType" value="ADM.10005" />
+						</bean>
+					</property>
+				</bean>
+			</list>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,97 @@
+<binding xmlns:rmca="urn:customs.ru:Information:CustomsDocuments:ResponseMCA:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ResponseMCA:5.4.0" default="elements" prefix="rmca"/>
+  <mapping abstract="true" type-name="rmca:ResponseMCAType" class="ru.acs.fts.schemas.album.responsemca.ResponseMCAType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="rmca:DocumentHeadType" get-method="getDocumentHead" set-method="setDocumentHead" name="DocumentHead"/>
+    <structure map-as="rmca:DocumentBodyType" get-method="getDocumentBody" set-method="setDocumentBody" name="DocumentBody"/>
+    <collection get-method="getDocumentSignList" set-method="setDocumentSignList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="DocumentSign"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.responsemca.ResponseMCAType" name="ResponseMCA">
+    <structure map-as="rmca:ResponseMCAType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:CellType" class="ru.acs.fts.schemas.album.responsemca.CellType">
+    <structure map-as="rmca:TextParaType"/>
+    <value style="element" name="Align" get-method="getAlign" set-method="setAlign" usage="optional"/>
+    <value style="element" name="Valign" get-method="getValign" set-method="setValign" usage="optional"/>
+    <collection get-method="getNamestList" set-method="setNamestList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Namest" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getNameendList" set-method="setNameendList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Nameend" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Morerows" get-method="getMorerows" set-method="setMorerows" usage="optional"/>
+    <value style="element" name="Morecols" get-method="getMorecols" set-method="setMorecols" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:DocumentBodyType" class="ru.acs.fts.schemas.album.responsemca.DocumentBodyType">
+    <collection get-method="getChoiceList" set-method="setChoiceList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.responsemca.DocumentBodyType$Choice" ordered="false" choice="true">
+        <collection test-method="ifTextSectionList" get-method="getTextSectionList" set-method="setTextSectionList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="rmca:TextSectionType" name="TextSection"/>
+        </collection>
+        <collection test-method="ifTableList" get-method="getTableList" set-method="setTableList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="rmca:TableType" name="Table"/>
+        </collection>
+      </structure>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:DocumentHeadType" class="ru.acs.fts.schemas.album.responsemca.DocumentHeadType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="VisibleFlag" get-method="getVisibleFlag" set-method="setVisibleFlag" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:EntryRowType" class="ru.acs.fts.schemas.album.responsemca.EntryRowType">
+    <collection get-method="getTableCellList" set-method="setTableCellList" create-type="java.util.ArrayList">
+      <structure map-as="rmca:CellType" name="TableCell"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:EntryTableType" class="ru.acs.fts.schemas.album.responsemca.EntryTableType">
+    <structure map-as="rmca:CellType"/>
+    <value style="element" name="Cols" get-method="getCols" set-method="setCols"/>
+    <collection get-method="getEntryRowList" set-method="setEntryRowList" create-type="java.util.ArrayList">
+      <structure map-as="rmca:EntryRowType" name="EntryRow"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:TableRowType" class="ru.acs.fts.schemas.album.responsemca.TableRowType">
+    <collection get-method="getChoiceList" set-method="setChoiceList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.responsemca.TableRowType$Choice" ordered="false" choice="true">
+        <collection test-method="ifTableCellList" get-method="getTableCellList" set-method="setTableCellList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="rmca:CellType" name="TableCell"/>
+        </collection>
+        <collection test-method="ifEntryCellList" get-method="getEntryCellList" set-method="setEntryCellList" usage="optional" create-type="java.util.ArrayList">
+          <structure map-as="rmca:EntryTableType" name="EntryCell"/>
+        </collection>
+        <value style="element" name="GoodNum" test-method="ifGoodNum" get-method="getGoodNum" set-method="setGoodNum" usage="optional"/>
+      </structure>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:TableType" class="ru.acs.fts.schemas.album.responsemca.TableType">
+    <value style="element" name="Cols" get-method="getCols" set-method="setCols"/>
+    <value style="element" name="TableName" get-method="getTableName" set-method="setTableName"/>
+    <value style="element" name="ShortTableName" get-method="getShortTableName" set-method="setShortTableName"/>
+    <collection get-method="getColumnSpecList" set-method="setColumnSpecList" create-type="java.util.ArrayList">
+      <value style="element" name="ColumnSpec" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTableBodyRowList" set-method="setTableBodyRowList" create-type="java.util.ArrayList">
+      <structure map-as="rmca:TableRowType" name="TableBodyRow"/>
+    </collection>
+    <collection get-method="getTableHeadRowList" set-method="setTableHeadRowList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rmca:TableRowType" name="TableHeadRow"/>
+    </collection>
+    <collection get-method="getTableFootRowList" set-method="setTableFootRowList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rmca:TableRowType" name="TableFootRow"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:TextParaType" class="ru.acs.fts.schemas.album.responsemca.TextParaType">
+    <value style="element" name="Style" get-method="getStyle" set-method="setStyle" usage="optional"/>
+    <collection get-method="getTextParaList" set-method="setTextParaList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TextPara" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rmca:TextSectionType" class="ru.acs.fts.schemas.album.responsemca.TextSectionType">
+    <structure map-as="rmca:TextParaType"/>
+    <value style="element" name="SectionName" get-method="getSectionName" set-method="setSectionName" usage="optional"/>
+  </mapping>
+</binding>

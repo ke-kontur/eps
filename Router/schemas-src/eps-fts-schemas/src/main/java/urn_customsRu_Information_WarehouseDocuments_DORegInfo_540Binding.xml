@@ -1,0 +1,15 @@
+<binding xmlns:dori="urn:customs.ru:Information:WarehouseDocuments:DORegInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:DORegInfo:5.4.0" default="elements" prefix="dori"/>
+  <mapping abstract="true" type-name="dori:DORegInfoType" class="ru.acs.fts.schemas.album.doreginfo.DORegInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="RegTime" get-method="getRegTime" set-method="setRegTime" usage="optional"/>
+    <value style="element" name="FormReport" get-method="getFormReport" set-method="setFormReport"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getCustomInspector" set-method="setCustomInspector" name="CustomInspector"/>
+    <structure map-as="catWH_ru:WHDocumentRegisterNumberType" get-method="getRegisterNumberReport" set-method="setRegisterNumberReport" name="RegisterNumberReport"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.doreginfo.DORegInfoType" name="DORegInfo">
+    <structure map-as="dori:DORegInfoType"/>
+  </mapping>
+</binding>

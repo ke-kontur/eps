@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<bean id="tplBasic" class="java.lang.String">
+		<constructor-arg>
+			<bean class="org.apache.commons.io.IOUtils" factory-method="toString" > 
+				<constructor-arg type="java.io.InputStream" value="classpath:templates/basic.xml" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="tplBasicDoc" class="java.lang.String">
+		<constructor-arg>
+			<bean class="org.apache.commons.io.IOUtils" factory-method="toString" > 
+				<constructor-arg type="java.io.InputStream" value="classpath:templates/basic.doc.xml" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="tplBasicSig" class="java.lang.String">
+		<constructor-arg>
+			<bean class="org.apache.commons.io.IOUtils" factory-method="toString" > 
+				<constructor-arg type="java.io.InputStream" value="classpath:templates/basic.sig.xml" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="tplBasicCompressed" class="java.lang.String">
+		<constructor-arg>
+			<bean class="org.apache.commons.io.IOUtils" factory-method="toString" > 
+				<constructor-arg type="java.io.InputStream" value="classpath:templates/basic.compressed.xml" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+
+</beans>

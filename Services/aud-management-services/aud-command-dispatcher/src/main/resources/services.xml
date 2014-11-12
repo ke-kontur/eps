@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+
+	<!-- oxm:jibx-marshaller id="jibx" target-class="ru.acs.fts.schemas.envelope.EnvelopeType" / -->
+	
+	<bean id="dataAccess" class="ru.acs.fts.aud.command.dispatcher.shared.DataAccess" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="documentDescriptions" >
+			<map>
+				<entry key="1006058E" value="Декларация на товары." />
+			</map>
+		</property>
+	</bean>
+	
+	<!-- commands processors -->
+	
+	<bean id="cmn11001Processor" class="ru.acs.fts.aud.command.dispatcher.processors.Cmn11001Processor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+	
+	<bean id="cmn11014Processor" class="ru.acs.fts.aud.command.dispatcher.processors.Cmn11014Processor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+	
+	<bean id="cmn11077Processor" class="ru.acs.fts.aud.command.dispatcher.processors.Cmn11077Processor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+	
+	<bean id="ed11004Processor" class="ru.acs.fts.aud.command.dispatcher.processors.Ed11004Processor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+	
+	<bean id="msg11003Processor" class="ru.acs.fts.aud.command.dispatcher.processors.Msg11003Processor" >
+		<property name="audService" ref="audService" />
+		<property name="edarchService" ref="edarchService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+	
+	<bean id="documentOutProcessor" class="ru.acs.fts.aud.command.dispatcher.processors.DocumentOutProcessor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+		
+	<bean id="singleDocSendProcessor" class="ru.acs.fts.aud.command.dispatcher.processors.SingleDocSendProcessor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	</bean>
+	
+	<util:map id="commandProcessors" >		
+		<entry key="CMN11001" value-ref="cmn11001Processor" />
+		<entry key="CMN10014" value-ref="cmn11014Processor" />
+		<entry key="CMN11077" value-ref="cmn11077Processor" />
+		<entry key="ED11004" value-ref="ed11004Processor" />
+		<entry key="MSG11003" value-ref="msg11003Processor" />
+		
+		<entry key="DOCUMENTOUT" value-ref="documentOutProcessor" />
+		<entry key="SINGLEDOC" value-ref="singleDocSendProcessor" />
+	</util:map>
+	
+	<!-- commands dispatcher -->
+	
+	<bean id="commandDispatcher" class="ru.acs.fts.aud.command.dispatcher.CommandDispatcher" init-method="init">
+		<property name="commandProcessors" ref="commandProcessors" />
+		<property name="audService" ref="audService" />
+		<property name="commandExecutor" ref="commandExecutor" />
+	</bean>
+	
+	<bean id="commandExecutor" class="ru.acs.fts.aud.command.dispatcher.CommandExecutor" >
+		<property name="audService" ref="audService" />
+	</bean>
+
+</beans>

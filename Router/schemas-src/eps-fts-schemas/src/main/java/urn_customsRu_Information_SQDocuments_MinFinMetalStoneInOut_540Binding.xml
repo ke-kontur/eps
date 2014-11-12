@@ -1,0 +1,38 @@
+<binding xmlns:metstn="urn:customs.ru:Information:SQDocuments:MinFinMetalStoneInOut:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MinFinMetalStoneInOut:5.4.0" default="elements" prefix="metstn"/>
+  <mapping abstract="true" type-name="metstn:MinFinMetalStoneInOutType" class="ru.acs.fts.schemas.album.minfinmetalstoneinout.MinFinMetalStoneInOutType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="ControlResult" get-method="getControlResult" set-method="setControlResult"/>
+    <value style="element" name="ControlDate" get-method="getControlDate" set-method="setControlDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TotalPrice" get-method="getTotalPrice" set-method="setTotalPrice" usage="optional"/>
+    <value style="element" name="TotalWeight" get-method="getTotalWeight" set-method="setTotalWeight" usage="optional"/>
+    <value style="element" name="PlaceCount" get-method="getPlaceCount" set-method="setPlaceCount" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getAct" set-method="setAct" name="Act"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getLicense" set-method="setLicense" usage="optional" name="License"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCertificate" set-method="setCertificate" usage="optional" name="Certificate"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getSpecification" set-method="setSpecification" usage="optional" name="Specification"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getInvoice" set-method="setInvoice" usage="optional" name="Invoice"/>
+    <structure map-as="metstn:ProductDescriptionType" get-method="getProductDescription" set-method="setProductDescription" name="ProductDescription"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getOwnerOrg" set-method="setOwnerOrg" name="OwnerOrg"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getExporter" set-method="setExporter" usage="optional" name="Exporter"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getImporter" set-method="setImporter" usage="optional" name="Importer"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCargoHandler" set-method="setCargoHandler" usage="optional" name="CargoHandler"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getControlOrganization" set-method="setControlOrganization" usage="optional" name="ControlOrganization"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.minfinmetalstoneinout.MinFinMetalStoneInOutType" name="MinFinMetalStoneInOut">
+    <structure map-as="metstn:MinFinMetalStoneInOutType"/>
+  </mapping>
+  <mapping abstract="true" type-name="metstn:ProductDescriptionType" class="ru.acs.fts.schemas.album.minfinmetalstoneinout.ProductDescriptionType">
+    <value style="element" name="Product" get-method="getProduct" set-method="setProduct"/>
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight" usage="optional"/>
+    <value style="element" name="ETNVEDCode" get-method="getETNVEDCode" set-method="setETNVEDCode" usage="optional"/>
+    <value style="element" name="Price" get-method="getPrice" set-method="setPrice" usage="optional"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getCount" set-method="setCount" name="Count"/>
+  </mapping>
+</binding>

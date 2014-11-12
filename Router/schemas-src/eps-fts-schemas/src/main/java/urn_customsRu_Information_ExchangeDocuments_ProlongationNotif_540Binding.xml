@@ -1,0 +1,18 @@
+<binding xmlns:pn="urn:customs.ru:Information:ExchangeDocuments:ProlongationNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ProlongationNotif:5.4.0" default="elements" prefix="pn"/>
+  <mapping abstract="true" type-name="pn:ProlongationNotifType" class="ru.acs.fts.schemas.album.prolongationnotif.ProlongationNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NotifDate" get-method="getNotifDate" set-method="setNotifDate" format="LocalDate.default"/>
+    <value style="element" name="NotifTime" get-method="getNotifTime" set-method="setNotifTime" usage="optional"/>
+    <value style="element" name="ProlongDate" get-method="getProlongDate" set-method="setProlongDate" format="LocalDate.default"/>
+    <value style="element" name="Reasons" get-method="getReasons" set-method="setReasons"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.prolongationnotif.ProlongationNotifType" name="ProlongationNotif">
+    <structure map-as="pn:ProlongationNotifType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,73 @@
+<binding xmlns:rcc="urn:customs.ru:Information:CustomsDocuments:ReportCloseControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReportCloseControl:5.4.0" default="elements" prefix="rcc"/>
+  <mapping abstract="true" type-name="rcc:ReportCloseControlType" class="ru.acs.fts.schemas.album.reportclosecontrol.ReportCloseControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CheckDate" get-method="getCheckDate" set-method="setCheckDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CheckTime" get-method="getCheckTime" set-method="setCheckTime"/>
+    <value style="element" name="EndCheckDate" get-method="getEndCheckDate" set-method="setEndCheckDate" format="LocalDate.default"/>
+    <value style="element" name="DBFVersion" get-method="getDBFVersion" set-method="setDBFVersion" usage="optional"/>
+    <value style="element" name="ErrorCount" get-method="getErrorCount" set-method="setErrorCount"/>
+    <value style="element" name="ReasonCode" get-method="getReasonCode" set-method="setReasonCode" usage="optional"/>
+    <value style="element" name="Explanation" get-method="getExplanation" set-method="setExplanation" usage="optional"/>
+    <value style="element" name="ExplanationDate" get-method="getExplanationDate" set-method="setExplanationDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="rcc:DocumentType" get-method="getDocument" set-method="setDocument" name="Document"/>
+    <structure map-as="rcc:PSCheckType" get-method="getPSCheck" set-method="setPSCheck" usage="optional" name="PSCheck"/>
+    <collection get-method="getPZKErrorList" set-method="setPZKErrorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rcc:PZKErrorsType" name="PZKErrors"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reportclosecontrol.ReportCloseControlType" name="ReportCloseControl">
+    <structure map-as="rcc:ReportCloseControlType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:CheckNormativeDocumentType" class="ru.acs.fts.schemas.album.reportclosecontrol.CheckNormativeDocumentType">
+    <structure map-as="rcc:NormativeDocumentType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:CloseReasonType" class="ru.acs.fts.schemas.album.reportclosecontrol.CloseReasonType">
+    <value style="element" name="ReasonCode" get-method="getReasonCode" set-method="setReasonCode"/>
+    <value style="element" name="InspectorNotice" get-method="getInspectorNotice" set-method="setInspectorNotice" usage="optional"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="CloseDate" get-method="getCloseDate" set-method="setCloseDate" format="LocalDate.default"/>
+    <structure map-as="rcc:NormativeDocumentType" get-method="getCloseNormativeDoc" set-method="setCloseNormativeDoc" usage="optional" name="CloseNormativeDoc"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:DocumentType" class="ru.acs.fts.schemas.album.reportclosecontrol.DocumentType">
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind" usage="optional"/>
+    <value style="element" name="EDCode" get-method="getEDCode" set-method="setEDCode"/>
+    <value style="element" name="EDType" get-method="getEDType" set-method="setEDType" usage="optional"/>
+    <value style="element" name="EDRef" get-method="getEDRef" set-method="setEDRef" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:ErrorType" class="ru.acs.fts.schemas.album.reportclosecontrol.ErrorType">
+    <value style="element" name="ErrorCode" get-method="getErrorCode" set-method="setErrorCode"/>
+    <value style="element" name="ErrorLevel" get-method="getErrorLevel" set-method="setErrorLevel"/>
+    <value style="element" name="ErrorText" get-method="getErrorText" set-method="setErrorText"/>
+    <value style="element" name="ErrorDescription" get-method="getErrorDescription" set-method="setErrorDescription" usage="optional"/>
+    <value style="element" name="TrueValue" get-method="getTrueValue" set-method="setTrueValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:GTDinTableType" class="ru.acs.fts.schemas.album.reportclosecontrol.GTDinTableType">
+    <value style="element" name="TableName" get-method="getTableName" set-method="setTableName" usage="optional"/>
+    <value style="element" name="AttributeName" get-method="getAttributeName" set-method="setAttributeName" usage="optional"/>
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:NormativeDocumentType" class="ru.acs.fts.schemas.album.reportclosecontrol.NormativeDocumentType">
+    <value style="element" name="DocumentType" get-method="getDocumentType" set-method="setDocumentType" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:PSCheckType" class="ru.acs.fts.schemas.album.reportclosecontrol.PSCheckType">
+    <value style="element" name="PSID" get-method="getPSID" set-method="setPSID"/>
+    <value style="element" name="PSVersion" get-method="getPSVersion" set-method="setPSVersion"/>
+    <value style="element" name="PSName" get-method="getPSName" set-method="setPSName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcc:PZKErrorsType" class="ru.acs.fts.schemas.album.reportclosecontrol.PZKErrorsType">
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber"/>
+    <structure map-as="rcc:GTDinTableType" get-method="getGTDinTable" set-method="setGTDinTable" usage="optional" name="GTDinTable"/>
+    <structure map-as="rcc:ErrorType" get-method="getError" set-method="setError" name="Error"/>
+    <structure map-as="rcc:CheckNormativeDocumentType" get-method="getCheckNormativeDoc" set-method="setCheckNormativeDoc" usage="optional" name="CheckNormativeDoc"/>
+    <collection get-method="getCloseReasonList" set-method="setCloseReasonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rcc:CloseReasonType" name="CloseReason"/>
+    </collection>
+  </mapping>
+</binding>

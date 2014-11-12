@@ -1,0 +1,47 @@
+<binding xmlns:aopin="urn:customs.ru:Information:CustomsDocuments:ActOperationIndentif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActOperationIndentif:5.4.0" default="elements" prefix="aopin"/>
+  <mapping abstract="true" type-name="aopin:ActOperationIndentifType" class="ru.acs.fts.schemas.album.actoperationindentif.ActOperationIndentifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ActDate" get-method="getActDate" set-method="setActDate" format="LocalDate.default"/>
+    <value style="element" name="ActNumber" get-method="getActNumber" set-method="setActNumber"/>
+    <value style="element" name="DescriptionCircumstances" get-method="getDescriptionCircumstances" set-method="setDescriptionCircumstances"/>
+    <value style="element" name="OperationIndentif" get-method="getOperationIndentif" set-method="setOperationIndentif"/>
+    <collection get-method="getTransportIdentifierList" set-method="setTransportIdentifierList" create-type="java.util.ArrayList">
+      <value style="element" name="TransportIdentifier" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DescriptionIdentif" get-method="getDescriptionIdentif" set-method="setDescriptionIdentif"/>
+    <value style="element" name="DescriptionNewIdentif" get-method="getDescriptionNewIdentif" set-method="setDescriptionNewIdentif" usage="optional"/>
+    <value style="element" name="ApplicationIdentifiDate" get-method="getApplicationIdentifiDate" set-method="setApplicationIdentifiDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="aopin:CustomsPersonInfoType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="aopin:OperationPlaceType" get-method="getOperationPlace" set-method="setOperationPlace" name="OperationPlace"/>
+    <structure map-as="aopin:PersonType" get-method="getSecondCopyReceived" set-method="setSecondCopyReceived" usage="optional" name="SecondCopyReceived"/>
+    <structure map-as="aopin:PersonType" get-method="getPersonGoods" set-method="setPersonGoods" name="PersonGoods"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actoperationindentif.ActOperationIndentifType" name="ActOperationIndentif">
+    <structure map-as="aopin:ActOperationIndentifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aopin:CustomsPersonInfoType" class="ru.acs.fts.schemas.album.actoperationindentif.CustomsPersonInfoType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="aopin:OperationPlaceType" class="ru.acs.fts.schemas.album.actoperationindentif.OperationPlaceType">
+    <structure map-as="cat_ru:CUCustomsType"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode"/>
+    <value style="element" name="InspPlaceName" get-method="getInspPlaceName" set-method="setInspPlaceName"/>
+    <collection get-method="getInspPlaceDescList" set-method="setInspPlaceDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InspPlaceDesc" type="java.lang.String"/>
+    </collection>
+    <structure map-as="aopin:WarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" usage="optional" name="WarehousePlace"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="aopin:PersonType" class="ru.acs.fts.schemas.album.actoperationindentif.PersonType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="Job" get-method="getJob" set-method="setJob" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="aopin:WarehousePlaceType" class="ru.acs.fts.schemas.album.actoperationindentif.WarehousePlaceType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

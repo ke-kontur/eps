@@ -1,0 +1,219 @@
+<binding xmlns:KTDin="urn:customs.ru:Information:CustomsDocuments:KTDin:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:KTDin:5.4.1" default="elements" prefix="KTDin"/>
+  <mapping abstract="true" type-name="KTDin:KTDinType" class="ru.acs.fts.schemas.album.ktdin.KTDinType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind" usage="optional"/>
+    <value style="element" name="COMPLECTBL" get-method="getCOMPLECTBL" set-method="setCOMPLECTBL" usage="optional"/>
+    <value style="element" name="G0131" get-method="getG0131" set-method="setG0131" usage="optional"/>
+    <value style="element" name="KTDNumber" get-method="getKTDNumber" set-method="setKTDNumber"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="ElectronicDocumentSign" get-method="getElectronicDocumentSign" set-method="setElectronicDocumentSign" usage="optional"/>
+    <value style="element" name="RegNumberDoc" get-method="getRegNumberDoc" set-method="setRegNumberDoc" usage="optional"/>
+    <value style="element" name="ExecutionDate" get-method="getExecutionDate" set-method="setExecutionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="SecurityLabelCode" get-method="getSecurityLabelCode" set-method="setSecurityLabelCode" usage="optional"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getReason" set-method="setReason" name="Reason"/>
+    <structure map-as="KTDin:KTDinGoodsShipmentType" get-method="getKTDinGoodsShipment" set-method="setKTDinGoodsShipment" name="KTDinGoodsShipment"/>
+    <collection get-method="getKTDinCommonOfficialMarkList" set-method="setKTDinCommonOfficialMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTDin:KTDinCommonOfficialMarkType" name="KTDinCommonOfficialMark"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getFilledPerson" set-method="setFilledPerson" usage="optional" name="FilledPerson"/>
+    <structure map-as="catESAD_cu:CUESADCustomsRepresentativeType" get-method="getCustomsRepresentative" set-method="setCustomsRepresentative" usage="optional" name="CustomsRepresentative"/>
+    <structure map-as="KTDin:ChangeCodeType" get-method="getChangeCode" set-method="setChangeCode" usage="optional" name="ChangeCode"/>
+    <structure map-as="KTDin:KDTFilledInfoType" get-method="getKDTFilledInfo" set-method="setKDTFilledInfo" usage="optional" name="KDTFilledInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ktdin.KTDinType" name="KTDin">
+    <structure map-as="KTDin:KTDinType"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:CUWarehousePlaceType" class="ru.acs.fts.schemas.album.ktdin.CUWarehousePlaceType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:ChangeCodeType" class="ru.acs.fts.schemas.album.ktdin.ChangeCodeType">
+    <value style="element" name="PhaseChanges" get-method="getPhaseChanges" set-method="setPhaseChanges"/>
+    <value style="element" name="BasisCompilation" get-method="getBasisCompilation" set-method="setBasisCompilation"/>
+    <value style="element" name="QuantityChanges" get-method="getQuantityChanges" set-method="setQuantityChanges"/>
+    <value style="element" name="CountryChanges" get-method="getCountryChanges" set-method="setCountryChanges"/>
+    <value style="element" name="TNVEDChanges" get-method="getTNVEDChanges" set-method="setTNVEDChanges"/>
+    <value style="element" name="CustCostChanges" get-method="getCustCostChanges" set-method="setCustCostChanges"/>
+    <value style="element" name="CustomsPaymentChanges" get-method="getCustomsPaymentChanges" set-method="setCustomsPaymentChanges"/>
+    <value style="element" name="OtherChanges" get-method="getOtherChanges" set-method="setOtherChanges"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KDTFilledInfoType" class="ru.acs.fts.schemas.album.ktdin.KDTFilledInfoType">
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getFilledPerson" set-method="setFilledPerson" name="FilledPerson"/>
+    <structure map-as="catESAD_cu:CUESADCustomsRepresentativeType" get-method="getCustomsRepresentative" set-method="setCustomsRepresentative" usage="optional" name="CustomsRepresentative"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KDTSectionBCustomsPaymentType" class="ru.acs.fts.schemas.album.ktdin.KDTSectionBCustomsPaymentType">
+    <structure map-as="catESAD_cu:ESADout_CUCustomsPaymentType"/>
+    <value style="element" name="PaymentPrevious" get-method="getPaymentPrevious" set-method="setPaymentPrevious" usage="optional"/>
+    <value style="element" name="RateCurrencyCodePrevious" get-method="getRateCurrencyCodePrevious" set-method="setRateCurrencyCodePrevious" usage="optional"/>
+    <value style="element" name="ChangeAmount" get-method="getChangeAmount" set-method="setChangeAmount" usage="optional"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTDin:PaymentDocumentType" name="PaymentDocument"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KDTinGoodsOrganizationType" class="ru.acs.fts.schemas.album.ktdin.KDTinGoodsOrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinBorderTransportType" class="ru.acs.fts.schemas.album.ktdin.KTDinBorderTransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportMeansQuantity" get-method="getTransportMeansQuantity" set-method="setTransportMeansQuantity" usage="optional"/>
+    <value style="element" name="MethodTransport" get-method="getMethodTransport" set-method="setMethodTransport" usage="optional"/>
+    <value style="element" name="NameObject" get-method="getNameObject" set-method="setNameObject" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinCommonOfficialMarkType" class="ru.acs.fts.schemas.album.ktdin.KTDinCommonOfficialMarkType">
+    <structure map-as="catESAD_ru:RUESADCommonOfficialMarkType"/>
+    <value style="element" name="TechnologicalMarkTypeCode" get-method="getTechnologicalMarkTypeCode" set-method="setTechnologicalMarkTypeCode" usage="optional"/>
+    <value style="element" name="RecordSerialNumber" get-method="getRecordSerialNumber" set-method="setRecordSerialNumber"/>
+    <structure map-as="catESAD_ru:SolutionNumberType" get-method="getSolutionNumber" set-method="setSolutionNumber" usage="optional" name="SolutionNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinConsigmentType" class="ru.acs.fts.schemas.album.ktdin.KTDinConsigmentType">
+    <structure map-as="catESAD_cu:CUConsigmentType"/>
+    <value style="element" name="DigitDispatchCountryCode" get-method="getDigitDispatchCountryCode" set-method="setDigitDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DigitDestinationCountryCode" get-method="getDigitDestinationCountryCode" set-method="setDigitDestinationCountryCode" usage="optional"/>
+    <structure map-as="KTDin:KTDinDepartureArrivalTransportType" get-method="getKTDinDepartureArrivalTransport" set-method="setKTDinDepartureArrivalTransport" usage="optional" name="KTDinDepartureArrivalTransport"/>
+    <structure map-as="KTDin:KTDinBorderTransportType" get-method="getKTDinBorderTransportMeans" set-method="setKTDinBorderTransportMeans" usage="optional" name="KTDinBorderTransportMeans"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinConsigneeType" class="ru.acs.fts.schemas.album.ktdin.KTDinConsigneeType">
+    <structure map-as="catESAD_ru:ESADOrganizationInType"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+    <structure map-as="cat_ru:ContactType" get-method="getContact" set-method="setContact" usage="optional" name="Contact"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinConsignorType" class="ru.acs.fts.schemas.album.ktdin.KTDinConsignorType">
+    <structure map-as="catESAD_ru:ESADOrganizationInType"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+    <structure map-as="cat_ru:ContactType" get-method="getContact" set-method="setContact" usage="optional" name="Contact"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinDeclarantType" class="ru.acs.fts.schemas.album.ktdin.KTDinDeclarantType">
+    <structure map-as="catESAD_ru:ESADOrganizationInType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+    <structure map-as="cat_ru:ContactType" get-method="getContact" set-method="setContact" usage="optional" name="Contact"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinDepartureArrivalTransportType" class="ru.acs.fts.schemas.album.ktdin.KTDinDepartureArrivalTransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportMeansQuantity" get-method="getTransportMeansQuantity" set-method="setTransportMeansQuantity" usage="optional"/>
+    <value style="element" name="MethodTransport" get-method="getMethodTransport" set-method="setMethodTransport" usage="optional"/>
+    <value style="element" name="NameObject" get-method="getNameObject" set-method="setNameObject" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinFinancialAdjustingResponsiblePersonType" class="ru.acs.fts.schemas.album.ktdin.KTDinFinancialAdjustingResponsiblePersonType">
+    <structure map-as="catESAD_ru:ESADOrganizationInType"/>
+    <value style="element" name="EntityForm" get-method="getEntityForm" set-method="setEntityForm" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+    <structure map-as="cat_ru:ContactType" get-method="getContact" set-method="setContact" usage="optional" name="Contact"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinGoodsLocationType" class="ru.acs.fts.schemas.album.ktdin.KTDinGoodsLocationType">
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode" usage="optional"/>
+    <value style="element" name="CustomsOffice" get-method="getCustomsOffice" set-method="setCustomsOffice" usage="optional"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+    <value style="element" name="LocationName" get-method="getLocationName" set-method="setLocationName" usage="optional"/>
+    <structure map-as="catESAD_cu:CUTransportType" get-method="getTransport" set-method="setTransport" usage="optional" name="Transport"/>
+    <structure map-as="KTDin:CUWarehousePlaceType" get-method="getGoodsLocationWarehouse" set-method="setGoodsLocationWarehouse" usage="optional" name="GoodsLocationWarehouse"/>
+    <structure map-as="catESAD_cu:CUGoodsLocationPlaceType" get-method="getGoodsLocationPlace" set-method="setGoodsLocationPlace" usage="optional" name="GoodsLocationPlace"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinGoodsOfficialMarkType" class="ru.acs.fts.schemas.album.ktdin.KTDinGoodsOfficialMarkType">
+    <structure map-as="catESAD_cu:ESADGoodsOfficialMarkType"/>
+    <value style="element" name="TechnologicalMarkTypeCode" get-method="getTechnologicalMarkTypeCode" set-method="setTechnologicalMarkTypeCode"/>
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber" usage="optional"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <structure map-as="catESAD_ru:SolutionNumberType" get-method="getSolutionNumber" set-method="setSolutionNumber" usage="optional" name="SolutionNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinGoodsShipmentType" class="ru.acs.fts.schemas.album.ktdin.KTDinGoodsShipmentType">
+    <structure map-as="catESAD_cu:CUESADGoodsShipmentType"/>
+    <value style="element" name="PreviousTotalCustomsAmount" get-method="getPreviousTotalCustomsAmount" set-method="setPreviousTotalCustomsAmount" usage="optional"/>
+    <structure map-as="KTDin:KTDinConsignorType" get-method="getKTDinConsignor" set-method="setKTDinConsignor" usage="optional" name="KTDinConsignor"/>
+    <structure map-as="KTDin:KTDinConsigneeType" get-method="getKTDinConsignee" set-method="setKTDinConsignee" usage="optional" name="KTDinConsignee"/>
+    <structure map-as="KTDin:KTDinFinancialAdjustingResponsiblePersonType" get-method="getKTDinFinancialAdjustingResponsiblePerson" set-method="setKTDinFinancialAdjustingResponsiblePerson" usage="optional" name="KTDinFinancialAdjustingResponsiblePerson"/>
+    <structure map-as="KTDin:KTDinDeclarantType" get-method="getKTDinDeclarant" set-method="setKTDinDeclarant" usage="optional" name="KTDinDeclarant"/>
+    <collection get-method="getKTDinGoodsLocationList" set-method="setKTDinGoodsLocationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTDin:KTDinGoodsLocationType" name="KTDinGoodsLocation"/>
+    </collection>
+    <structure map-as="KTDin:KTDinMainContractTermsType" get-method="getKTDinMainContractTerms" set-method="setKTDinMainContractTerms" usage="optional" name="KTDinMainContractTerms"/>
+    <structure map-as="KTDin:KTDinConsigmentType" get-method="getKTDinConsigment" set-method="setKTDinConsigment" usage="optional" name="KTDinConsigment"/>
+    <collection get-method="getKTDinGoodList" set-method="setKTDinGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTDin:KTDinGoodsType" name="KTDinGoods"/>
+    </collection>
+    <collection get-method="getGuaranteeList" set-method="setGuaranteeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUGuaranteeType" name="Guarantee"/>
+    </collection>
+    <structure map-as="KTDin:KTDinPaymentsType" get-method="getKDTinPayments" set-method="setKDTinPayments" usage="optional" name="KDTinPayments"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinGoodsType" class="ru.acs.fts.schemas.album.ktdin.KTDinGoodsType">
+    <structure map-as="catESAD_cu:CUESADGoodsItemType"/>
+    <value style="element" name="OriginDigitCountryCode" get-method="getOriginDigitCountryCode" set-method="setOriginDigitCountryCode" usage="optional"/>
+    <value style="element" name="DestinationDigitCountryCode" get-method="getDestinationDigitCountryCode" set-method="setDestinationDigitCountryCode" usage="optional"/>
+    <value style="element" name="CustomsCostMethodCode" get-method="getCustomsCostMethodCode" set-method="setCustomsCostMethodCode" usage="optional"/>
+    <value style="element" name="LanguageGoods" get-method="getLanguageGoods" set-method="setLanguageGoods" usage="optional"/>
+    <value style="element" name="PreviousCustomsCost" get-method="getPreviousCustomsCost" set-method="setPreviousCustomsCost" usage="optional"/>
+    <value style="element" name="KDTGoodsNumeric" get-method="getKDTGoodsNumeric" set-method="setKDTGoodsNumeric" usage="optional"/>
+    <collection get-method="getKTDinPresentedDocumentList" set-method="setKTDinPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUESADPresentedDocumentsType" name="KTDinPresentedDocument"/>
+    </collection>
+    <collection get-method="getKTDinPrecedingDocumentList" set-method="setKTDinPrecedingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUPrecedingDocumentType" name="KTDinPrecedingDocument"/>
+    </collection>
+    <collection get-method="getKTDinCustomsPaymentCalculationList" set-method="setKTDinCustomsPaymentCalculationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUCustomsPaymentCalculationType" name="KTDinCustomsPaymentCalculation"/>
+    </collection>
+    <collection get-method="getKTDinAutomobileList" set-method="setKTDinAutomobileList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:AutomobileType" name="KTDinAutomobile"/>
+    </collection>
+    <collection get-method="getKTDinGoodsOfficialMarkList" set-method="setKTDinGoodsOfficialMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTDin:KTDinGoodsOfficialMarkType" name="KTDinGoodsOfficialMark"/>
+    </collection>
+    <collection get-method="getESADExciseList" set-method="setESADExciseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADExciseType" name="ESADExcise"/>
+    </collection>
+    <structure map-as="catESAD_cu:ProcessingGoodsDeclarationType" get-method="getKDTinCustomsConditions" set-method="setKDTinCustomsConditions" usage="optional" name="KDTinCustomsConditions"/>
+    <structure map-as="KTDin:KDTinGoodsOrganizationType" get-method="getKDTinGoodsOrganization" set-method="setKDTinGoodsOrganization" usage="optional" name="KDTinGoodsOrganization"/>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getESADGoodsPackaging" set-method="setESADGoodsPackaging" usage="optional" name="ESADGoodsPackaging"/>
+    <structure map-as="catESAD_cu:ESADGoodsQuotaType" get-method="getESADGoodsQuota" set-method="setESADGoodsQuota" usage="optional" name="ESADGoodsQuota"/>
+    <structure map-as="catESAD_cu:ESADContainerType" get-method="getESADContainer" set-method="setESADContainer" usage="optional" name="ESADContainer"/>
+    <structure map-as="catESAD_cu:ESADCustomsProcedureType" get-method="getKTDinCustomsProcedure" set-method="setKTDinCustomsProcedure" usage="optional" name="KTDinCustomsProcedure"/>
+    <collection get-method="getElectricalEnergReceivedList" set-method="setElectricalEnergReceivedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CU_ElectricalEnergyType" name="ElectricalEnergReceived"/>
+    </collection>
+    <collection get-method="getElectricalEnergGivenList" set-method="setElectricalEnergGivenList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CU_ElectricalEnergyType" name="ElectricalEnergGiven"/>
+    </collection>
+    <collection get-method="getSupplementaryGoodsQuantity1List" set-method="setSupplementaryGoodsQuantity1List" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="SupplementaryGoodsQuantity1"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+    <structure map-as="KTDin:ChangeCodeType" get-method="getChangeCode" set-method="setChangeCode" usage="optional" name="ChangeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinMainContractTermsType" class="ru.acs.fts.schemas.album.ktdin.KTDinMainContractTermsType">
+    <structure map-as="catESAD_cu:CUESADMainContractTermsType"/>
+    <value style="element" name="TradeDigitCountryCode" get-method="getTradeDigitCountryCode" set-method="setTradeDigitCountryCode" usage="optional"/>
+    <value style="element" name="ContractDigitCurrencyCode" get-method="getContractDigitCurrencyCode" set-method="setContractDigitCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:KTDinPaymentsType" class="ru.acs.fts.schemas.album.ktdin.KTDinPaymentsType">
+    <structure map-as="catESAD_cu:CUDelayPaymentsType" get-method="getCUDelayPayments" set-method="setCUDelayPayments" usage="optional" name="CUDelayPayments"/>
+    <collection get-method="getKDTinCustomsPaymentList" set-method="setKDTinCustomsPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTDin:KDTSectionBCustomsPaymentType" name="KDTinCustomsPayment"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTDin:PaymentDocumentType" class="ru.acs.fts.schemas.album.ktdin.PaymentDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PaymentDate" get-method="getPaymentDate" set-method="setPaymentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode"/>
+    <value style="element" name="DocPaymentAmount" get-method="getDocPaymentAmount" set-method="setDocPaymentAmount"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="cat_ru:RFOrganizationFeaturesType" test-method="ifRFOrganizationFeatures" get-method="getRFOrganizationFeatures" set-method="setRFOrganizationFeatures" usage="optional" name="RFOrganizationFeatures"/>
+      <structure map-as="cat_ru:RKOrganizationFeaturesType" test-method="ifRKOrganizationFeatures" get-method="getRKOrganizationFeatures" set-method="setRKOrganizationFeatures" usage="optional" name="RKOrganizationFeatures"/>
+      <structure map-as="cat_ru:RBOrganizationFeaturesType" test-method="ifRBOrganizationFeatures" get-method="getRBOrganizationFeatures" set-method="setRBOrganizationFeatures" usage="optional" name="RBOrganizationFeatures"/>
+    </structure>
+  </mapping>
+</binding>

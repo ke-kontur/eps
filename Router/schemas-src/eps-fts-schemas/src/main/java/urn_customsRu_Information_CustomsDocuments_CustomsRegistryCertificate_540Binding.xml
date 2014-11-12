@@ -1,0 +1,48 @@
+<binding xmlns:regcer="urn:customs.ru:Information:CustomsDocuments:CustomsRegistryCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CustomsRegistryCertificate:5.4.0" default="elements" prefix="regcer"/>
+  <mapping abstract="true" type-name="regcer:CustomsRegistryCertificateType" class="ru.acs.fts.schemas.album.customsregistrycertificate.CustomsRegistryCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="CertificateRegNumber" get-method="getCertificateRegNumber" set-method="setCertificateRegNumber"/>
+    <collection get-method="getSimplificationList" set-method="setSimplificationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Simplification" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WarehouseType" get-method="getWarehouseType" set-method="setWarehouseType" usage="optional"/>
+    <value style="element" name="TotalSquare" get-method="getTotalSquare" set-method="setTotalSquare" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getIssueCustoms" set-method="setIssueCustoms" name="IssueCustoms"/>
+    <collection get-method="getSimplificOperationCustomList" set-method="setSimplificOperationCustomList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CustomsType" name="SimplificOperationCustoms"/>
+    </collection>
+    <collection get-method="getGuaranteeList" set-method="setGuaranteeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="regcer:AmountCustomsPaymentType" name="Guarantee"/>
+    </collection>
+    <structure map-as="regcer:RegisteredOrganizationType" get-method="getRegisteredOrganization" set-method="setRegisteredOrganization" name="RegisteredOrganization"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getChiefCustomsPerson" set-method="setChiefCustomsPerson" name="ChiefCustomsPerson"/>
+    <collection get-method="getGoodsOperationPlaceList" set-method="setGoodsOperationPlaceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="regcer:GoodsOperationPlaceType" name="GoodsOperationPlace"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.customsregistrycertificate.CustomsRegistryCertificateType" name="CustomsRegistryCertificate">
+    <structure map-as="regcer:CustomsRegistryCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="regcer:AmountCustomsPaymentType" class="ru.acs.fts.schemas.album.customsregistrycertificate.AmountCustomsPaymentType">
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="regcer:GoodsOperationPlaceType" class="ru.acs.fts.schemas.album.customsregistrycertificate.GoodsOperationPlaceType">
+    <value style="element" name="PlaceSign" get-method="getPlaceSign" set-method="setPlaceSign" usage="optional"/>
+    <value style="element" name="PlaceDescription" get-method="getPlaceDescription" set-method="setPlaceDescription" usage="optional"/>
+    <value style="element" name="PlaceVolume" get-method="getPlaceVolume" set-method="setPlaceVolume" usage="optional"/>
+    <value style="element" name="PlaceSquare" get-method="getPlaceSquare" set-method="setPlaceSquare" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="regcer:RegisteredOrganizationType" class="ru.acs.fts.schemas.album.customsregistrycertificate.RegisteredOrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <collection get-method="getBranchDescriptionList" set-method="setBranchDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUBranchDescriptionType" name="BranchDescription"/>
+    </collection>
+  </mapping>
+</binding>

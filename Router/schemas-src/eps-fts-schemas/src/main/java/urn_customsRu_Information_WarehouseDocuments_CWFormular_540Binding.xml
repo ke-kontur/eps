@@ -1,0 +1,72 @@
+<binding xmlns:cwf="urn:customs.ru:Information:WarehouseDocuments:CWFormular:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CWFormular:5.4.0" default="elements" prefix="cwf"/>
+  <mapping abstract="true" type-name="cwf:CWFormularType" class="ru.acs.fts.schemas.album.cwformular.CWFormularType">
+    <structure map-as="catWH_ru:CWDocType"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cwf:DocumentType" name="Document"/>
+    </collection>
+    <collection get-method="getCommodityList" set-method="setCommodityList" create-type="java.util.ArrayList">
+      <structure map-as="cwf:CommodityType" name="Commodity"/>
+    </collection>
+    <structure map-as="cwf:FormularHeadType" get-method="getHeader" set-method="setHeader" name="Header"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cwformular.CWFormularType" name="CWFormular">
+    <structure map-as="cwf:CWFormularType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwf:CommodityOutType" class="ru.acs.fts.schemas.album.cwformular.CommodityOutType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="GoodsNumberInGTD" get-method="getGoodsNumberInGTD" set-method="setGoodsNumberInGTD" usage="optional"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="GoodsWeight" get-method="getGoodsWeight" set-method="setGoodsWeight"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+    <value style="element" name="GoodsNumberMain" get-method="getGoodsNumberMain" set-method="setGoodsNumberMain"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue" set-method="setGoodsValue" usage="optional" name="GoodsValue"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue1" set-method="setGoodsValue1" usage="optional" name="GoodsValue1"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue2" set-method="setGoodsValue2" usage="optional" name="GoodsValue2"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwf:CommodityType" class="ru.acs.fts.schemas.album.cwformular.CommodityType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="GoodsNumberInStorageQuitance" get-method="getGoodsNumberInStorageQuitance" set-method="setGoodsNumberInStorageQuitance" usage="optional"/>
+    <value style="element" name="GoodsNumberInGTD" get-method="getGoodsNumberInGTD" set-method="setGoodsNumberInGTD" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="GoodsShellLife" get-method="getGoodsShellLife" set-method="setGoodsShellLife" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue" set-method="setGoodsValue" usage="optional" name="GoodsValue"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue1" set-method="setGoodsValue1" usage="optional" name="GoodsValue1"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue2" set-method="setGoodsValue2" usage="optional" name="GoodsValue2"/>
+    <collection get-method="getCommodityOutList" set-method="setCommodityOutList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cwf:CommodityOutType" name="CommodityOut"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cwf:DocumentType" class="ru.acs.fts.schemas.album.cwformular.DocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocNN" get-method="getDocNN" set-method="setDocNN"/>
+    <value style="element" name="DocType" get-method="getDocType" set-method="setDocType" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwf:FormularHeadType" class="ru.acs.fts.schemas.album.cwformular.FormularHeadType">
+    <value style="element" name="OrderNumberOfEdition" get-method="getOrderNumberOfEdition" set-method="setOrderNumberOfEdition"/>
+    <value style="element" name="GoodsSetDate" get-method="getGoodsSetDate" set-method="setGoodsSetDate" format="LocalDate.default"/>
+    <value style="element" name="ReasonToAccess" get-method="getReasonToAccess" set-method="setReasonToAccess"/>
+    <value style="element" name="ObjectID" get-method="getObjectID" set-method="setObjectID"/>
+    <value style="element" name="ObjectName" get-method="getObjectName" set-method="setObjectName" usage="optional"/>
+    <value style="element" name="WarehouseLicenceID" get-method="getWarehouseLicenceID" set-method="setWarehouseLicenceID" usage="optional"/>
+    <value style="element" name="ObjectCustomsCode" get-method="getObjectCustomsCode" set-method="setObjectCustomsCode" usage="optional"/>
+    <value style="element" name="DelivererName" get-method="getDelivererName" set-method="setDelivererName" usage="optional"/>
+    <value style="element" name="FullPart" get-method="getFullPart" set-method="setFullPart" usage="optional"/>
+    <value style="element" name="Marks" get-method="getMarks" set-method="setMarks" usage="optional"/>
+    <value style="element" name="ControlDateOn" get-method="getControlDateOn" set-method="setControlDateOn" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ControlDateOff" get-method="getControlDateOff" set-method="setControlDateOff" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="OwnerName" get-method="getOwnerName" set-method="setOwnerName"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getFormularNumber" set-method="setFormularNumber" name="FormularNumber"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getStorageQuitanceNumber" set-method="setStorageQuitanceNumber" usage="optional" name="StorageQuitanceNumber"/>
+    <structure map-as="cwf:InspectorType" get-method="getInspector" set-method="setInspector" usage="optional" name="Inspector"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwf:InspectorType" class="ru.acs.fts.schemas.album.cwformular.InspectorType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+  </mapping>
+</binding>

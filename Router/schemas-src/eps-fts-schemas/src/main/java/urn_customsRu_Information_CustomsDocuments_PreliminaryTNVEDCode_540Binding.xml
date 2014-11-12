@@ -1,0 +1,53 @@
+<binding xmlns:tnved="urn:customs.ru:Information:CustomsDocuments:PreliminaryTNVEDCode:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PreliminaryTNVEDCode:5.4.0" default="elements" prefix="tnved"/>
+  <mapping abstract="true" type-name="tnved:PreliminaryTNVEDCodeType" class="ru.acs.fts.schemas.album.preliminarytnvedcode.PreliminaryTNVEDCodeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsInfoTNVEDCodeList" set-method="setGoodsInfoTNVEDCodeList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsInfoTNVEDCode" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getRationaleDecisionList" set-method="setRationaleDecisionList" create-type="java.util.ArrayList">
+      <value style="element" name="RationaleDecision" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getMarkList" set-method="setMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Mark" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="tnved:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="tnved:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="tnved:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.preliminarytnvedcode.PreliminaryTNVEDCodeType" name="PreliminaryTNVEDCode">
+    <structure map-as="tnved:PreliminaryTNVEDCodeType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tnved:DeclarantType" class="ru.acs.fts.schemas.album.preliminarytnvedcode.DeclarantType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getChief" set-method="setChief" usage="optional" name="Chief"/>
+  </mapping>
+  <mapping abstract="true" type-name="tnved:GoodsInformationType" class="ru.acs.fts.schemas.album.preliminarytnvedcode.GoodsInformationType">
+    <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+    <value style="element" name="GoodsMarking" get-method="getGoodsMarking" set-method="setGoodsMarking" usage="optional"/>
+    <value style="element" name="GoodsStandard" get-method="getGoodsStandard" set-method="setGoodsStandard" usage="optional"/>
+    <value style="element" name="GoodsSort" get-method="getGoodsSort" set-method="setGoodsSort" usage="optional"/>
+    <value style="element" name="WoodSortiment" get-method="getWoodSortiment" set-method="setWoodSortiment" usage="optional"/>
+    <value style="element" name="WoodKind" get-method="getWoodKind" set-method="setWoodKind" usage="optional"/>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tnved:GoodsType" class="ru.acs.fts.schemas.album.preliminarytnvedcode.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="tnved:GoodsInformationType" get-method="getGoodsInformation" set-method="setGoodsInformation" usage="optional" name="GoodsInformation"/>
+  </mapping>
+  <mapping abstract="true" type-name="tnved:RegistrationNumberType" class="ru.acs.fts.schemas.album.preliminarytnvedcode.RegistrationNumberType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="Year" get-method="getYear" set-method="setYear"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+</binding>

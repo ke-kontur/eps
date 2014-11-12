@@ -1,0 +1,44 @@
+<binding xmlns:gare="urn:customs.ru:Information:CustomsDocuments:GoodsArriveReport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsArriveReport:5.4.0" default="elements" prefix="gare"/>
+  <mapping abstract="true" type-name="gare:GoodsArriveReportType" class="ru.acs.fts.schemas.album.goodsarrivereport.GoodsArriveReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <value style="element" name="ReqTime" get-method="getReqTime" set-method="setReqTime"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="gare:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <collection get-method="getTransportMeanArriveList" set-method="setTransportMeanArriveList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gare:TransportMeanArriveType" name="TransportMeanArrive"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsarrivereport.GoodsArriveReportType" name="GoodsArriveReport">
+    <structure map-as="gare:GoodsArriveReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gare:GoodsInfoType" class="ru.acs.fts.schemas.album.goodsarrivereport.GoodsInfoType">
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ValuePresence" get-method="getValuePresence" set-method="setValuePresence"/>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTransportDocumentList" set-method="setTransportDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="gare:TransportDocumentsType" name="TransportDocuments"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gare:TransportDocumentsType" class="ru.acs.fts.schemas.album.goodsarrivereport.TransportDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="gare:TransportMeanArriveType" class="ru.acs.fts.schemas.album.goodsarrivereport.TransportMeanArriveType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="TransportMeanArriveFlag" get-method="getTransportMeanArriveFlag" set-method="setTransportMeanArriveFlag" usage="optional"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+  </mapping>
+</binding>

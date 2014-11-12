@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rslt="urn:eps.fts.acs.ru:Result:1.0.0" targetNamespace="urn:eps.fts.acs.ru:Result:1.0.0" elementFormDefault="qualified" version="1.0.0.0">
+	<xs:element name="Result" type="rslt:ResultType"/>
+		<xs:annotation>
+			<xs:documentation>Результат обработки сообщения  на  внешнем шлюзе</xs:documentation>
+		</xs:annotation>
+		
+	<xs:complexType name="ResultType">
+		<xs:annotation>
+			<xs:documentation>Результат обработки сообщения  на  внешнем шлюзе</xs:documentation>
+		</xs:annotation>
+				<xs:sequence>
+				<xs:element name="DocumentID">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:length value="36"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="CreateDate" type="xs:date"/>
+				<xs:element name="CreateTime" type="xs:time"/>
+				<xs:element name="ResultInformation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ResultCode">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:length value="11"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ResultDescription">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:length value="250"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="DocumentModeID" type="xs:string" use="required" fixed="1090007E">
+				<xs:annotation>
+					<xs:documentation>Идентификатор вида документа</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:schema>

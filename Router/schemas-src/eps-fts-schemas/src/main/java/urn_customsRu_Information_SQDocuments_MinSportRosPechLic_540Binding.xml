@@ -1,0 +1,58 @@
+<binding xmlns:mnspch="urn:customs.ru:Information:SQDocuments:MinSportRosPechLic:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MinSportRosPechLic:5.4.0" default="elements" prefix="mnspch"/>
+  <mapping abstract="true" type-name="mnspch:MinSportRosPechLicType" class="ru.acs.fts.schemas.album.minsportrospechlic.MinSportRosPechLicType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="mnspch:DocumentType" name="Document"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.minsportrospechlic.MinSportRosPechLicType" name="MinSportRosPechLic">
+    <structure map-as="mnspch:MinSportRosPechLicType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:AuthorisedPersonType" class="ru.acs.fts.schemas.album.minsportrospechlic.AuthorisedPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:ConfirmationStatusType" class="ru.acs.fts.schemas.album.minsportrospechlic.ConfirmationStatusType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:ConfirmationType" class="ru.acs.fts.schemas.album.minsportrospechlic.ConfirmationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DueDate" get-method="getDueDate" set-method="setDueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ConfirmationId" get-method="getConfirmationId" set-method="setConfirmationId" usage="optional"/>
+    <value style="element" name="LastChangeDate" get-method="getLastChangeDate" set-method="setLastChangeDate"/>
+    <structure map-as="mnspch:ConfirmationStatusType" get-method="getConfirmationStatus" set-method="setConfirmationStatus" name="ConfirmationStatus"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:DocumentType" class="ru.acs.fts.schemas.album.minsportrospechlic.DocumentType">
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo" usage="optional"/>
+    <value style="element" name="Paragraph" get-method="getParagraph" set-method="setParagraph" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractDetails" set-method="setContractDetails" usage="optional" name="ContractDetails"/>
+    <structure map-as="mnspch:PersonType" get-method="getPerson" set-method="setPerson" usage="optional" name="Person"/>
+    <structure map-as="mnspch:PersonType" get-method="getRecipient" set-method="setRecipient" usage="optional" name="Recipient"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="mnspch:GoodsDescriptionType" name="GoodsDescription"/>
+    </collection>
+    <structure map-as="mnspch:AuthorisedPersonType" get-method="getAuthorisedPerson" set-method="setAuthorisedPerson" usage="optional" name="AuthorisedPerson"/>
+    <structure map-as="mnspch:ConfirmationType" get-method="getConfirmation" set-method="setConfirmation" name="Confirmation"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:GoodsDescriptionType" class="ru.acs.fts.schemas.album.minsportrospechlic.GoodsDescriptionType">
+    <value style="element" name="CommodityName" get-method="getCommodityName" set-method="setCommodityName"/>
+    <value style="element" name="OriginCountry" get-method="getOriginCountry" set-method="setOriginCountry" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" name="GoodsQuantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+    <structure map-as="mnspch:ManufacturerType" get-method="getManufacturer" set-method="setManufacturer" usage="optional" name="Manufacturer"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:ManufacturerType" class="ru.acs.fts.schemas.album.minsportrospechlic.ManufacturerType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getManufacturerAddress" set-method="setManufacturerAddress" usage="optional" name="ManufacturerAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="mnspch:PersonType" class="ru.acs.fts.schemas.album.minsportrospechlic.PersonType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="PersonStatus" get-method="getPersonStatus" set-method="setPersonStatus"/>
+  </mapping>
+</binding>

@@ -1,0 +1,34 @@
+<binding xmlns:bdr="urn:customs.ru:Information:CustomsDocuments:BDRD_Report:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:BDRD_Report:5.4.0" default="elements" prefix="bdr"/>
+  <mapping abstract="true" type-name="bdr:BDRD_ReportType" class="ru.acs.fts.schemas.album.bdrd_report.BDRDReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID"/>
+    <collection get-method="getCheckResultList" set-method="setCheckResultList" create-type="java.util.ArrayList">
+      <structure map-as="bdr:CheckResultType" name="CheckResult"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.bdrd_report.BDRDReportType" name="BDRD_Report">
+    <structure map-as="bdr:BDRD_ReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="bdr:CheckResultType" class="ru.acs.fts.schemas.album.bdrd_report.CheckResultType">
+    <value style="element" name="DataSource" get-method="getDataSource" set-method="setDataSource" usage="optional"/>
+    <value style="element" name="QuotaPosibilitySign" get-method="getQuotaPosibilitySign" set-method="setQuotaPosibilitySign"/>
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <collection get-method="getDTGoodsDescriptionList" set-method="setDTGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="DT_GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DT_GoodsTNVEDCode" get-method="getDTGoodsTNVEDCode" set-method="setDTGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getRDGoodsDescriptionList" set-method="setRDGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="RD_GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RD_GoodsTNVEDCode" get-method="getRDGoodsTNVEDCode" set-method="setRDGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getDTSupplementaryQuantityList" set-method="setDTSupplementaryQuantityList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="DT_SupplementaryQuantity"/>
+    </collection>
+    <collection get-method="getRDSupplementaryQuantityList" set-method="setRDSupplementaryQuantityList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="RD_SupplementaryQuantity"/>
+    </collection>
+  </mapping>
+</binding>

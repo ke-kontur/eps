@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:jee="http://www.springframework.org/schema/jee"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/jee
+							http://www.springframework.org/schema/jee/spring-jee.xsd" >
+							
+	<jee:jndi-lookup id="settingsRef" jndi-name="${bindingsPrefix}aceCtxConfig/Settings" />
+	
+	<bean id="settings" class="ru.acs.fts.aud.command.executor.jndi.Settings" factory-method="fromReference" >
+		<constructor-arg ref="settingsRef" />
+	</bean>
+	
+	<bean id="settingsWrapper" class="ru.acs.fts.aud.command.executor.jndi.SettingsWrapper" >
+		<property name="settings" ref="settings" />
+	</bean>
+
+</beans>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<bean id="fromKastoToDecl" class="ru.acs.fts.eps2.router.processing.auth.CustomsToDeclAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromDeclToKasto" class="ru.acs.fts.eps2.router.processing.auth.DeclToCustomsAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromDeclToKastoNotInProcess" class="ru.acs.fts.eps2.router.processing.auth.DeclToCustomsNotInProcessAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+
+	<bean id="fromEpsToKasto" class="ru.acs.fts.eps2.router.processing.auth.EpsToCustomsAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToKasto" class="ru.acs.fts.eps2.router.processing.auth.CustomsToCustomsAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToKastoNotInProc" class="ru.acs.fts.eps2.router.processing.auth.CustomsToCustomsNotInProcAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToKastoAsktt2" class="ru.acs.fts.eps2.router.processing.auth.CustomsToCustomsWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToDeclWithoutCode" class="ru.acs.fts.eps2.router.processing.auth.CustomsToDeclWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoOnly" class="ru.acs.fts.eps2.router.processing.auth.CustomsOnlyAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoOnlyNotInProc" class="ru.acs.fts.eps2.router.processing.auth.CustomsOnlyNotInProcAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoOnlyNotInProcWithoutCode" class="ru.acs.fts.eps2.router.processing.auth.CustomsOnlyNotInProcWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+
+	<bean id="fromDeclToKastoWithoutCode" class="ru.acs.fts.eps2.router.processing.auth.DeclToCustomsWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromDeclToEpsWithoutCode" class="ru.acs.fts.eps2.router.processing.auth.DeclToEpsWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromEpsToCustomsNotInProcess" class="ru.acs.fts.eps2.router.processing.auth.EpsToCustomsNotInProcessAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromCustomsToCustomsWithoutCode" class="ru.acs.fts.eps2.router.processing.auth.CustomsToCustomsWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+
+	<bean id="fromCustomsToCustomsWithoutCodeAsktt2" class="ru.acs.fts.eps2.router.processing.auth.CustomsToCustomsWithoutCodeAsktt2AuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToDeclNotInProcess" class="ru.acs.fts.eps2.router.processing.auth.CustomsToDeclNotInProcessAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="openProc" class="ru.acs.fts.eps2.router.processing.auth.OpenProcAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="rzdOpenProc" class="ru.acs.fts.eps2.router.processing.auth.RzdOpenProcAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToEps" class="ru.acs.fts.eps2.router.processing.auth.CustomsToEpsAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromKastoToEpsNotInProcess" class="ru.acs.fts.eps2.router.processing.auth.CustomsToEpsNotInProcessAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="toEadAuth" class="ru.acs.fts.eps2.router.processing.auth.ToEadAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromDeclToCustomsCheckProcess" class="ru.acs.fts.eps2.router.processing.auth.DeclToCustomsCheckProcessAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromEpsToDeclWithoutCode" class="ru.acs.fts.eps2.router.processing.auth.EpsToDeclWithoutCodeAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromEpsToCustomsWithoutSender" class="ru.acs.fts.eps2.router.processing.auth.EpsToCustomsWithoutSenderAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="fromDeclOnly" class="ru.acs.fts.eps2.router.processing.auth.DeclOnlyAuthType" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+</beans>

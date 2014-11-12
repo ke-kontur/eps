@@ -1,0 +1,34 @@
+<binding xmlns:cores="urn:customs.ru:Information:ExchangeDocuments:ChargeOffResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catExch_ru="urn:customs.ru:Information:ExchangeDocuments:ExchangeCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ChargeOffResult:5.4.0" default="elements" prefix="cores"/>
+  <mapping abstract="true" type-name="cores:ChargeOffResultType" class="ru.acs.fts.schemas.album.chargeoffresult.ChargeOffResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <structure map-as="cores:ListStatusType" get-method="getResponseStatus" set-method="setResponseStatus" name="ResponseStatus"/>
+    <collection get-method="getPaymentOrderList" set-method="setPaymentOrderList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cores:PaymentOrderType" name="PaymentOrder"/>
+    </collection>
+    <collection get-method="getListCurrencyList" set-method="setListCurrencyList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cores:CurrencyType" name="ListCurrency"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.chargeoffresult.ChargeOffResultType" name="ChargeOffResult">
+    <structure map-as="cores:ChargeOffResultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cores:CurrencyType" class="ru.acs.fts.schemas.album.chargeoffresult.CurrencyType">
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="cores:ListStatusType" class="ru.acs.fts.schemas.album.chargeoffresult.ListStatusType">
+    <value style="element" name="ResponseStatus" get-method="getResponseStatus" set-method="setResponseStatus" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cores:PaymentOrderType" class="ru.acs.fts.schemas.album.chargeoffresult.PaymentOrderType">
+    <value style="element" name="PaymentID" get-method="getPaymentID" set-method="setPaymentID"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="Balance" get-method="getBalance" set-method="setBalance"/>
+    <value style="element" name="ShortageAssets" get-method="getShortageAssets" set-method="setShortageAssets" usage="optional"/>
+    <value style="element" name="PaymentDate" get-method="getPaymentDate" set-method="setPaymentDate" format="LocalDate.default"/>
+    <structure map-as="catExch_ru:PaymentIndicationType" get-method="getPaymentIndication" set-method="setPaymentIndication" name="PaymentIndication"/>
+  </mapping>
+</binding>

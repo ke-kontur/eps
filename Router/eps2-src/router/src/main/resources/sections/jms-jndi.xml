@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Настройки JNDI для входящих очередей -->
+	<bean id="jmsRoutingFactory" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterConnectionFactory" />
+	</bean>
+	
+	<!-- Настройки JNDI для входящих очередей -->
+	
+	<!-- jndi для очереди сообщений от декларанта -->	
+	<bean id="inputDeclQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<!--<property name="jndiName" value="eps2config/inputDeclQueue" />-->
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325decl" />
+	</bean>
+	
+	<!-- jndi для очереди сообщений от таможенного поста -->
+	<bean id="inputCustomsQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<!--<property name="jndiName" value="eps2config/inputCustomsQueue" />-->
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325customs" />
+	</bean>
+	
+	<!-- jndi для очереди сообщений от другой электрички -->
+	<bean id="inputEPSQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<!--<property name="jndiName" value="eps2config/inputEPSQueue" />-->
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325eps"/>
+	</bean>
+	
+	<!-- jndi для очереди сообщений от администратора -->
+	<bean id="inputAdminQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<!--<property name="jndiName" value="eps2config/inputAdminQueue" />-->
+		<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325admin" />
+	</bean>
+	
+	<!-- jndi для очереди ошибочных сообщений ( ошибка приема ) -->
+	<bean id="ErrorRecv" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error-recv" />
+	</bean>
+	
+	<!-- jndi для очереди ошибочных сообщений ( ошибка сохранения в БД ) -->
+	<bean id="ErrorDBSave" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error-dbsave" />
+	</bean>
+	
+	<!-- jndi для очереди ошибочных сообщений ( ошибка авторизации ) -->
+	<bean id="ErrorAuth" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error-auth" />
+	</bean>
+	
+	<!-- jndi для очереди ошибочных сообщений ( ошибка структурного контроля ) -->
+	<bean id="ErrorStructure" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error-structure" />
+	</bean>
+	
+	<!-- jndi для очереди ошибочных сообщений ( фатальная ошибка ) -->
+	<bean id="ErrorFatal" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error-fatal" />
+	</bean>
+
+</beans>

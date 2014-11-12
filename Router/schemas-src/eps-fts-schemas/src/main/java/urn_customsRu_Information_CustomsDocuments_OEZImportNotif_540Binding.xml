@@ -1,0 +1,55 @@
+<binding xmlns:impn="urn:customs.ru:Information:CustomsDocuments:OEZ_ImportNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_ImportNotif:5.4.0" default="elements" prefix="impn"/>
+  <mapping abstract="true" type-name="impn:OEZ_ImportNotifType" class="ru.acs.fts.schemas.album.oez_importnotif.OEZImportNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ImportDate" get-method="getImportDate" set-method="setImportDate" format="LocalDate.default"/>
+    <value style="element" name="AddInformation" get-method="getAddInformation" set-method="setAddInformation" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="impn:ConsigneeType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="impn:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" usage="optional" name="RegistrationNumber"/>
+    <structure map-as="impn:TransportMeansType" get-method="getTransportMeans" set-method="setTransportMeans" name="TransportMeans"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="impn:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_importnotif.OEZImportNotifType" name="OEZ_ImportNotif">
+    <structure map-as="impn:OEZ_ImportNotifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="impn:ConsigneeType" class="ru.acs.fts.schemas.album.oez_importnotif.ConsigneeType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="impn:GoodsInfoType" class="ru.acs.fts.schemas.album.oez_importnotif.GoodsInfoType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsStatus" get-method="getGoodsStatus" set-method="setGoodsStatus"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <collection get-method="getGoodsIdentificationList" set-method="setGoodsIdentificationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsIdentification" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PackagesQuantity" get-method="getPackagesQuantity" set-method="setPackagesQuantity" usage="optional"/>
+    <value style="element" name="PackagingKind" get-method="getPackagingKind" set-method="setPackagingKind" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" name="SupplementaryQuantity"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignParticipant" set-method="setConsignParticipant" usage="optional" name="ConsignParticipant"/>
+  </mapping>
+  <mapping abstract="true" type-name="impn:RegistrationNumberType" class="ru.acs.fts.schemas.album.oez_importnotif.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="impn:TransportMeansType" class="ru.acs.fts.schemas.album.oez_importnotif.TransportMeansType">
+    <value style="element" name="TransportKind" get-method="getTransportKind" set-method="setTransportKind"/>
+    <value style="element" name="TransportMark" get-method="getTransportMark" set-method="setTransportMark" usage="optional"/>
+    <collection get-method="getTransportRegNumberList" set-method="setTransportRegNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TransportRegNumber" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ActiveTransportIdentifier" get-method="getActiveTransportIdentifier" set-method="setActiveTransportIdentifier"/>
+  </mapping>
+</binding>

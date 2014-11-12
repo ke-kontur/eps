@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<import resource="${profileName}-related.xml" />
+	
+    <bean id="springJNDIPropertyFactory" class="ru.acs.fts.eps2.ws.utils.jndi.SpringJNDIPropertyFactory" />
+
+    <bean id="restEventSrvUrl" class="java.lang.String"
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}eps2wsconfig/Config/RestEventSrvUrl" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+	
+
+</beans>

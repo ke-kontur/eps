@@ -1,0 +1,23 @@
+<binding xmlns:adlst="urn:customs.ru:Information:EArchDocuments:ArchDocumentList:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocumentList:5.4.0" default="elements" prefix="adlst"/>
+  <mapping abstract="true" type-name="adlst:ArchDocumentListType" class="ru.acs.fts.schemas.album.archdocumentlist.ArchDocumentListType">
+    <structure map-as="catArch_ru:ArchBaseType"/>
+    <collection get-method="getDocumentInfoList" set-method="setDocumentInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adlst:ArchDocumentType" name="DocumentInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archdocumentlist.ArchDocumentListType" name="ArchDocumentList">
+    <structure map-as="adlst:ArchDocumentListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="adlst:ArchDocumentType" class="ru.acs.fts.schemas.album.archdocumentlist.ArchDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID"/>
+    <value style="element" name="ArchDocumentID" get-method="getArchDocumentID" set-method="setArchDocumentID" usage="optional"/>
+    <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode" usage="optional"/>
+    <value style="element" name="DocBeginDate" get-method="getDocBeginDate" set-method="setDocBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocEndDate" get-method="getDocEndDate" set-method="setDocEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ArchDocDate" get-method="getArchDocDate" set-method="setArchDocDate" usage="optional"/>
+  </mapping>
+</binding>

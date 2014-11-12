@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_Error:4.1.1" version="4.1.1.0" xmlns:auerr="urn:customs.ru:Information:LegalDocumentsArchive:AUD_Error:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Результаты обработки запроса.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_Error" type="auerr:AUD_ErrorType"/>
+   <xs:complexType name="AUD_ErrorType">
+      <xs:annotation>
+         <xs:documentation>Результаты обработки запроса.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" name="ResultInfo" type="catAUD_ru:AUD_ResultInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о результате обработки запроса.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="EmbeddedDocumentResultInfo" type="auerr:EmbeddedDocumentResultInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о результате обработки документа, вложенного в документ-контейнер.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010002E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="EmbeddedDocumentResultInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о результате обработки документа, вложенного в документ-контейнер. Указывается в случае, если переданный на хранение документ представляет собой документ-контейнер ('ED_Container').</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_AppliedDocumentIdType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" name="ResultInfo" type="catAUD_ru:AUD_ResultInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о результате обработки документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

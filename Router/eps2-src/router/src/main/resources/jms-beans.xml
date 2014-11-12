@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:jee="http://www.springframework.org/schema/jee"
+		xsi:schemaLocation="http://www.springframework.org/schema/jee 
+							http://www.springframework.org/schema/jee/spring-jee.xsd
+							http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm-1.5.xsd" >
+
+	<!-- Импортируем настройки JNDI из отдельного файла -->
+	<import resource="sections/jms-jndi.xml" />
+	
+	<!-- Импортируем маппинги для ошибочных очередей -->
+	<import resource="sections/queue-mappings.xml" />
+		
+	<!-- Загружаем различные bean'ы для управления конвертами -->
+	<import resource="sections/envelope-management.xml" />
+	
+	<!-- Загружаем bean'ы относящиеся к новому маршаллеру на jibx -->
+	<import resource="sections/jibx.xml" />
+
+	<!-- Фабрика соединения с MQ для входящих очередей -->
+	<bean id="jmsRoutingConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+		<property name="targetConnectionFactory" ref="jmsRoutingFactory"/>
+	</bean>
+
+	<!-- Шаблоны JMS для отправки сообщений в разные места -->
+	
+	<bean id="jmsTemplateRouter" class="org.springframework.jms.core.JmsTemplate" >
+		<property name="sessionTransacted" value="true" />
+		<property name="connectionFactory" ref="jmsRoutingFactory" />
+		<property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />	
+	</bean>
+
+	<!-- JMS Listener'ы -->
+	
+	<!-- jms listener сообщений от декларанта -->
+	<bean id="declFromMessageListener" 
+			class="ru.acs.fts.eps2.engine.transport.gateway.in.SampleMessageListener" >
+		<property name="dispatcher" ref="declMessageDispatcher" />
+	</bean>
+	
+	<!-- jms listener сообщений с таможенного поста -->
+	<bean id="customsFromMessageListener"
+			class="ru.acs.fts.eps2.engine.transport.gateway.in.SampleMessageListener">
+		<property name="dispatcher" ref="customsMessageDispatcher" />
+	</bean>
+	
+	<!-- jms listener сообщений с другой электрички -->
+	<bean id="epsFromMessageListener"
+			class="ru.acs.fts.eps2.engine.transport.gateway.in.SampleMessageListener">
+		<property name="dispatcher" ref="epsMessageDispatcher" />
+    </bean>
+	
+	<!-- jms listener сообщений от администратора -->
+	<bean id="adminFromMessageListener"
+			class="ru.acs.fts.eps2.engine.transport.gateway.in.SampleMessageListener">
+		<property name="dispatcher" ref="adminMessageDispatcher" />
+    </bean>
+
+	<!-- JMS контейнеры -->
+	
+	<!-- базовое определение ( для всех ) -->
+	<bean id="baseMessageListenerContainer" abstract="true"
+			class="org.springframework.jms.listener.DefaultMessageListenerContainer" >
+		
+		<property name="connectionFactory" ref="jmsRoutingConnectionFactory" />
+		<property name="concurrentConsumers" value="1" />
+		<property name="maxConcurrentConsumers" value="10" />
+		<property name="idleTaskExecutionLimit" value="5" />
+		<property name="sessionTransacted" value="true" />
+		<property name="receiveTimeout" value="2000" />
+		<property name="transactionManager" ref="transactionManager" />
+		
+    </bean>
+
+	<!-- jms контейнер для сообщений от декларанта -->
+	<bean id="declFromMessageListenerContainer" parent="baseMessageListenerContainer" >
+		<property name="messageListener" ref="declFromMessageListener" />
+		<property name="destination" ref="inputDeclQueue" />
+	</bean>
+		
+	<!-- jms контейнер для сообщений с таможенного поста -->
+	<bean id="castoFromMessageListenerContainer" parent="baseMessageListenerContainer" >
+		<property name="messageListener" ref="customsFromMessageListener" />
+		<property name="destination" ref="inputCustomsQueue" />
+	</bean>
+
+	<!-- jms контейнер для сообщений от другой электрички -->
+	<bean id="epsFromMessageListenerContainer" parent="baseMessageListenerContainer" >
+		<property name="messageListener" ref="epsFromMessageListener" />
+		<property name="destination" ref="inputEPSQueue" />
+	</bean>
+
+	<!-- jms контейнер для сообщений от администратора -->
+	<bean id="adminFromMessageListenerContainer" parent="baseMessageListenerContainer" >
+		<property name="messageListener" ref="adminFromMessageListener" />
+		<property name="destination" ref="inputAdminQueue" />
+	</bean>
+
+	<!-- Фабрика для конфигурирования адресов маршрутизации -->
+	<bean id="addressFactory" class="ru.acs.fts.eps2.router.transport.EDAddressFactory" >
+		<property name="configurator" ref="configurator" />
+		<property name="coaCodHeaders" ref="coaCodHeaders" />
+		<property name="customsOperator" ref="customsOperator" />
+	</bean>
+		
+	<!-- Диспетчеры для обработки сообщений -->
+
+	<!-- Базовое определение диспетчера -->
+	<bean id="baseMessageDispatcher" class="ru.acs.fts.eps2.engine.transport.gateway.in.UniversalMessageDispatcher" 
+			abstract="true" scope="prototype" >
+		<property name="errorRecvQueue" ref="ErrorRecvQueue" />
+		<property name="messagingGateway" ref="messagingGateway" />
+		<property name="fatalErrorQueue" ref="ErrorFatalQueue" />
+	</bean>
+
+	<!-- Диспетчер обработки сообщений от декларантов -->
+    <bean id="declMessageDispatcher" parent="baseMessageDispatcher" >
+		<property name="jobBatchContextFactory" ref="declJobBatchContextFactory" />
+		<property name="jobExecutor" ref="declJobExecutor" />
+    </bean>
+    
+	<!-- Диспетчер обработки сообщений с таможенного поста -->
+    <bean id="customsMessageDispatcher" parent="baseMessageDispatcher" >
+		<property name="jobBatchContextFactory" ref="customsJobBatchContextFactory" />
+		<property name="jobExecutor" ref="customsJobExecutor" />
+    </bean>
+	
+	<!-- Диспетчер обработки сообщений с другой электрички -->
+	<bean id="epsMessageDispatcher" parent="baseMessageDispatcher" >
+		<property name="jobBatchContextFactory" ref="epsJobBatchContextFactory" />
+		<property name="jobExecutor" ref="epsJobExecutor" />
+	</bean>
+	
+	<!-- Диспетчер обработки сообщений от администратора -->
+	<bean id="adminMessageDispatcher" parent="baseMessageDispatcher" >
+		<property name="jobBatchContextFactory" ref="adminJobBatchContextFactory" />
+		<property name="jobExecutor" ref="adminJobExecutor" />
+	</bean>
+
+	<!-- Шлюз для отправки сообщений по назначению -->
+	<bean id="messagingGateway" class="ru.acs.fts.eps2.engine.transport.gateway.out.MessagingGatewayImpl" >
+		<property name="outgoingConnection" ref="jmsTemplateRouter" />
+		<property name="predefinedQueues">
+			<map>
+				<entry key="ErrorRecv" value-ref="ErrorRecv" />
+				<entry key="ErrorDBSave" value-ref="ErrorDBSave" />
+				<entry key="ErrorAuth" value-ref="ErrorAuth" />
+				<entry key="ErrorStructure" value-ref="ErrorStructure" />
+				<entry key="ErrorFatal" value-ref="ErrorFatal" />
+			</map>
+		</property>
+    </bean>
+
+	<!-- Какие-то заголовки для менеджера очередей -->
+	<bean id="coaCodHeaders" class="ru.acs.fts.eps2.engine.transport.routingInfo.CoaCodHeaders" >
+		<property name="replyToQueueManager" ref="ReplyQMgrBean" />
+		<property name="replyToQueue" ref="ReplyQBean" />
+		<property name="coaNeed" ref="CoaNeedBean" />
+		<property name="codNeed" ref="CodNeedBean" />
+		<property name="coaCodFullData" ref="CoaCodFullDataBean" />
+	</bean>
+
+</beans>

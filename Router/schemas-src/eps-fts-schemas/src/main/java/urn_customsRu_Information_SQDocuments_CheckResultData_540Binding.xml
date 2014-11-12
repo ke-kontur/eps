@@ -1,0 +1,19 @@
+<binding xmlns:ckrtdt="urn:customs.ru:Information:SQDocuments:CheckResultData:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:CheckResultData:5.4.0" default="elements" prefix="ckrtdt"/>
+  <mapping abstract="true" type-name="ckrtdt:CheckResultDataType" class="ru.acs.fts.schemas.album.checkresultdata.CheckResultDataType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RequestId" get-method="getRequestId" set-method="setRequestId"/>
+    <value style="element" name="StatusCode" get-method="getStatusCode" set-method="setStatusCode"/>
+    <collection get-method="getResultList" set-method="setResultList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ckrtdt:ResultType" name="Result"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.checkresultdata.CheckResultDataType" name="CheckResultData">
+    <structure map-as="ckrtdt:CheckResultDataType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ckrtdt:ResultType" class="ru.acs.fts.schemas.album.checkresultdata.ResultType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,34 @@
+<binding xmlns:qfscrl="urn:customs.ru:Information:SQDocuments:QuaranFitoSanitControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:QuaranFitoSanitControl:5.4.0" default="elements" prefix="qfscrl"/>
+  <mapping abstract="true" type-name="qfscrl:QuaranFitoSanitControlType" class="ru.acs.fts.schemas.album.quaranfitosanitcontrol.QuaranFitoSanitControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CertificateIsPresent" get-method="getCertificateIsPresent" set-method="setCertificateIsPresent"/>
+    <value style="element" name="OriginCountry" get-method="getOriginCountry" set-method="setOriginCountry" usage="optional"/>
+    <value style="element" name="QuarantineCountry" get-method="getQuarantineCountry" set-method="setQuarantineCountry" usage="optional"/>
+    <value style="element" name="ControlResult" get-method="getControlResult" set-method="setControlResult"/>
+    <value style="element" name="BanImportReason" get-method="getBanImportReason" set-method="setBanImportReason" usage="optional"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCertificate" set-method="setCertificate" usage="optional" name="Certificate"/>
+    <structure map-as="qfscrl:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" name="GoodsDescription"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getImporter" set-method="setImporter" name="Importer"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getExporter" set-method="setExporter" name="Exporter"/>
+    <structure map-as="qfscrl:ActType" get-method="getAct" set-method="setAct" name="Act"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getInspector" set-method="setInspector" name="Inspector"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.quaranfitosanitcontrol.QuaranFitoSanitControlType" name="QuaranFitoSanitControl">
+    <structure map-as="qfscrl:QuaranFitoSanitControlType"/>
+  </mapping>
+  <mapping abstract="true" type-name="qfscrl:ActType" class="ru.acs.fts.schemas.album.quaranfitosanitcontrol.ActType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="BlankNum" get-method="getBlankNum" set-method="setBlankNum" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="qfscrl:GoodsDescriptionType" class="ru.acs.fts.schemas.album.quaranfitosanitcontrol.GoodsDescriptionType">
+    <collection get-method="getProductNameList" set-method="setProductNameList" create-type="java.util.ArrayList">
+      <value style="element" name="ProductName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+  </mapping>
+</binding>

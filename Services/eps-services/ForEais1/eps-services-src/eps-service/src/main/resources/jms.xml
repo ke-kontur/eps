@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+							
+	<bean id="jndiMqConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send" />
+	</bean>
+							
+    <bean id="jmsMqConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="jndiMqConnectionFactory" />
+    </bean>							
+							
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
+        <property name="connectionFactory" ref="jmsMqConnectionFactory" />
+        <property name="sessionTransacted" value="true" />
+        <property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+    </bean>	
+							
+	<bean id="messageSender" class="ru.acs.fts.eps2.ws.eps.transport.out.MessageSender" >
+		<property name="jmsTemplate" ref="jmsTemplate" />
+		<property name="marshaller" ref="jibx" />
+		<property name="extGateQueueManager" ref="extGateQueueManager" />
+		<property name="extGateQueue" ref="extGateQueue" />
+	</bean>
+
+</beans>

@@ -1,0 +1,24 @@
+<binding xmlns:apinvres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketInventoryResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketInventoryResponse:4.1.1" default="elements" prefix="apinvres"/>
+  <mapping abstract="true" type-name="apinvres:AUD_PacketInventoryResponseType" class="ru.acs.fts.schemas.aud.aud_packetinventoryresponse.AUDPacketInventoryResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="AppliedProcessId" get-method="getAppliedProcessId" set-method="setAppliedProcessId"/>
+    <collection get-method="getAppliedPacketIdList" set-method="setAppliedPacketIdList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AppliedPacketId" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PacketType" get-method="getPacketType" set-method="setPacketType"/>
+    <value style="element" name="Issued" get-method="getIssued" set-method="setIssued" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <collection get-method="getDocumentInventoryItemList" set-method="setDocumentInventoryItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="apinvres:DocumentInventoryItemType" name="DocumentInventoryItem"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_packetinventoryresponse.AUDPacketInventoryResponseType" name="AUD_PacketInventoryResponse">
+    <structure map-as="apinvres:AUD_PacketInventoryResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="apinvres:DocumentInventoryItemType" class="ru.acs.fts.schemas.aud.aud_packetinventoryresponse.DocumentInventoryItemType">
+    <value style="element" name="AppliedDocumentId" get-method="getAppliedDocumentId" set-method="setAppliedDocumentId"/>
+    <value style="element" name="ArchiveDocumentId" get-method="getArchiveDocumentId" set-method="setArchiveDocumentId"/>
+    <value style="element" name="MaxVersion" get-method="getMaxVersion" set-method="setMaxVersion"/>
+  </mapping>
+</binding>

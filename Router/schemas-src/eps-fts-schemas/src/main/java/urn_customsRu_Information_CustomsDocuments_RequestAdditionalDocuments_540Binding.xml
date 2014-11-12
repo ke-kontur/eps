@@ -1,0 +1,35 @@
+<binding xmlns:rad="urn:customs.ru:Information:CustomsDocuments:RequestAdditionalDocuments:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RequestAdditionalDocuments:5.4.0" default="elements" prefix="rad"/>
+  <mapping abstract="true" type-name="rad:ReqAdditionalDocumentsType" class="ru.acs.fts.schemas.album.reqadditionaldocuments.ReqAdditionalDocumentsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NumberDoc" get-method="getNumberDoc" set-method="setNumberDoc"/>
+    <value style="element" name="DateDoc" get-method="getDateDoc" set-method="setDateDoc" format="LocalDate.default"/>
+    <value style="element" name="Term" get-method="getTerm" set-method="setTerm" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <collection get-method="getListDocumentList" set-method="setListDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="rad:AddDocumtentType" name="ListDocuments"/>
+    </collection>
+    <structure map-as="rad:InfoDeclType" get-method="getDelcarant" set-method="setDelcarant" name="Delcarant"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqadditionaldocuments.ReqAdditionalDocumentsType" name="ReqAdditionalDocuments">
+    <structure map-as="rad:ReqAdditionalDocumentsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rad:AddDocumtentType" class="ru.acs.fts.schemas.album.reqadditionaldocuments.AddDocumtentType">
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <collection get-method="getDescriptionList" set-method="setDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="Description" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="KindDocuments" get-method="getKindDocuments" set-method="setKindDocuments"/>
+    <value style="element" name="CodeKindDocuments" get-method="getCodeKindDocuments" set-method="setCodeKindDocuments" usage="optional"/>
+    <collection get-method="getNotationList" set-method="setNotationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Notation" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rad:InfoDeclType" class="ru.acs.fts.schemas.album.reqadditionaldocuments.InfoDeclType">
+    <structure map-as="cat_ru:OrganizationType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+</binding>

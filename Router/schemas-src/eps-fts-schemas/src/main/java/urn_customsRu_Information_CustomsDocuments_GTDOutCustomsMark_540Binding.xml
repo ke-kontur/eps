@@ -1,0 +1,54 @@
+<binding xmlns:goom="urn:customs.ru:Information:CustomsDocuments:GTDOutCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GTDOutCustomsMark:5.4.0" default="elements" prefix="goom"/>
+  <mapping abstract="true" type-name="goom:GTDOutCustomsMarkType" class="ru.acs.fts.schemas.album.gtdoutcustomsmark.GTDOutCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID"/>
+    <structure map-as="goom:GTDOutResolutionType" get-method="getGTDOutResolution" set-method="setGTDOutResolution" name="GTDOutResolution"/>
+    <collection get-method="getGTDOutCommonMarkList" set-method="setGTDOutCommonMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="goom:GTDOutCommonMarkType" name="GTDOutCommonMark"/>
+    </collection>
+    <collection get-method="getGTDOutGoodsResolutionList" set-method="setGTDOutGoodsResolutionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="goom:GTDOutGoodsResolutionType" name="GTDOutGoodsResolution"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.gtdoutcustomsmark.GTDOutCustomsMarkType" name="GTDOutCustomsMark">
+    <structure map-as="goom:GTDOutCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="goom:CustCostMethodType" class="ru.acs.fts.schemas.album.gtdoutcustomsmark.CustCostMethodType">
+    <value style="element" name="CustomsCostCorrectMark" get-method="getCustomsCostCorrectMark" set-method="setCustomsCostCorrectMark" usage="optional"/>
+    <value style="element" name="CustomsCostCorrectMethod" get-method="getCustomsCostCorrectMethod" set-method="setCustomsCostCorrectMethod" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="goom:GTDOutCommonMarkType" class="ru.acs.fts.schemas.album.gtdoutcustomsmark.GTDOutCommonMarkType">
+    <structure map-as="catESAD_ru:RUESADCommonOfficialMarkType"/>
+    <value style="element" name="StageDescription" get-method="getStageDescription" set-method="setStageDescription" usage="optional"/>
+    <value style="element" name="IdentifierDescription" get-method="getIdentifierDescription" set-method="setIdentifierDescription" usage="optional"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode" usage="optional"/>
+    <value style="element" name="GuaranteeFoundation" get-method="getGuaranteeFoundation" set-method="setGuaranteeFoundation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="goom:GTDOutGoodsMarkType" class="ru.acs.fts.schemas.album.gtdoutcustomsmark.GTDOutGoodsMarkType">
+    <structure map-as="catESAD_cu:ESADGoodsOfficialMarkType"/>
+    <value style="element" name="IdentifierDescription" get-method="getIdentifierDescription" set-method="setIdentifierDescription" usage="optional"/>
+    <value style="element" name="StageDescription" get-method="getStageDescription" set-method="setStageDescription" usage="optional"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="goom:GTDOutGoodsResolutionType" class="ru.acs.fts.schemas.album.gtdoutcustomsmark.GTDOutGoodsResolutionType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <collection get-method="getGTDOutGoodsResultList" set-method="setGTDOutGoodsResultList" create-type="java.util.ArrayList">
+      <structure map-as="goom:GTDOutResolutionType" name="GTDOutGoodsResult"/>
+    </collection>
+    <collection get-method="getGTDOutGoodsMarkList" set-method="setGTDOutGoodsMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="goom:GTDOutGoodsMarkType" name="GTDOutGoodsMark"/>
+    </collection>
+    <structure map-as="goom:CustCostMethodType" get-method="getCustCostMethod" set-method="setCustCostMethod" name="CustCostMethod"/>
+  </mapping>
+  <mapping abstract="true" type-name="goom:GTDOutResolutionType" class="ru.acs.fts.schemas.album.gtdoutcustomsmark.GTDOutResolutionType">
+    <structure map-as="catESAD_ru:RUESADDecisionType"/>
+    <value style="element" name="ResolutionDescription" get-method="getResolutionDescription" set-method="setResolutionDescription" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName" usage="optional"/>
+  </mapping>
+</binding>

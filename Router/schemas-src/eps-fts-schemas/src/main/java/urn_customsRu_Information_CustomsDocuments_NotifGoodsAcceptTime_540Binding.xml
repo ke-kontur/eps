@@ -1,0 +1,26 @@
+<binding xmlns:ngact="urn:customs.ru:Information:CustomsDocuments:NotifGoodsAcceptTime:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifGoodsAcceptTime:5.4.0" default="elements" prefix="ngact"/>
+  <mapping abstract="true" type-name="ngact:NotifGoodsAcceptTimeType" class="ru.acs.fts.schemas.album.notifgoodsaccepttime.NotifGoodsAcceptTimeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+    <value style="element" name="PrecedingNotifNumber" get-method="getPrecedingNotifNumber" set-method="setPrecedingNotifNumber" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getEconomicOperator" set-method="setEconomicOperator" usage="optional" name="EconomicOperator"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="ngact:TransportType" get-method="getTransport" set-method="setTransport" name="Transport"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Document"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getNotifPerson" set-method="setNotifPerson" name="NotifPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgoodsaccepttime.NotifGoodsAcceptTimeType" name="NotifGoodsAcceptTime">
+    <structure map-as="ngact:NotifGoodsAcceptTimeType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ngact:TransportType" class="ru.acs.fts.schemas.album.notifgoodsaccepttime.TransportType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+</binding>

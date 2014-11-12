@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+							
+	<!-- JMS JNDI -->		
+	
+	<!-- Фабрики -->				
+
+		<bean id="jndiMqConnection" class="org.springframework.jndi.JndiObjectFactoryBean" >
+			<property name="jndiName" value="${bindingsPrefix}awmqrConfig/MqConnection" />
+		</bean>
+	
+	<!-- Очереди назначения -->    
+    
+	    <bean id="jndiToArchiveQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}awmqrConfig/ToArchiveQueue" />
+	    </bean>
+	    
+	<!-- Входные очереди -->
+    
+	    <bean id="jndiFromArchiveQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+	        <property name="jndiName" value="${bindingsPrefix}awmqrConfig/FromArchiveQueue" />
+	    </bean>    
+
+	<!-- Фабрики соединения с JMS -->
+
+	    <bean id="jmsMqConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+	        <property name="targetConnectionFactory" ref="jndiMqConnection" />
+	    </bean>
+
+    <!-- Шаблоны JMS -->
+    
+	    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
+	        <property name="connectionFactory" ref="jmsMqConnectionFactory" />
+	        <property name="sessionTransacted" value="true" />
+	        <property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+	    </bean>
+
+    <!-- Контейнеры слушателей JMS -->
+
+		<!-- 
+	    <bean id="baseMessageListenerContainer" 
+	    		abstract="true" scope="prototype"
+	    		class="org.springframework.jms.listener.DefaultMessageListenerContainer" >
+	    		
+	        <property name="connectionFactory" ref="jmsMqConnectionFactory"/>
+	        <property name="concurrentConsumers" value="1" />
+	        <property name="maxConcurrentConsumers" value="10" />
+	        <property name="idleTaskExecutionLimit" value="5" />
+	        <property name="receiveTimeout" value="2000" />
+	        <property name="sessionTransacted" value="true"/>
+	        <property name="transactionManager" ref="transactionManager"/>
+	    </bean>
+	
+	    <bean id="audMessageListenerContainer" parent="baseMessageListenerContainer">
+	        <property name="messageListener" ref="audMessageListener" />
+	        <property name="destination" ref="jndiFromArchiveQueue" />
+	    </bean>
+	    -->
+	    
+	   	<bean id="audMessageListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer" >
+	   		<property name="connectionFactory" ref="jmsMqConnectionFactory" />
+	   		<property name="concurrentConsumers" value="1" />
+	   		<property name="maxConcurrentConsumers" value="10" />
+	   		<property name="idleTaskExecutionLimit" value="5" />
+	   		<property name="receiveTimeout" value="2000" />
+	   		<property name="sessionTransacted" value="true" />
+	   		<property name="transactionManager" ref="transactionManager" />
+	   		<property name="messageListener" ref="audMessageListener" />
+	   		<property name="destination" ref="jndiFromArchiveQueue" />
+	   	</bean>
+
+</beans>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!-- Will automatically start scheduling on context startup -->
+	<bean id="scheduler"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref local="monitoringTrigger" />
+				<ref local="notificationTrigger" />
+				<ref local="timeoutTrigger"/>
+				<ref local="dbCleanerTrigger"/>
+			</list>
+		</property>
+		<!-- check if this affects misfires -->
+		<property name="overwriteExistingJobs" value="true" />
+	</bean>
+
+	<bean id="monitoringExecutorJobDetail" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass"
+			value="ru.acs.monitoring.scheduling.MonitoringCollectorJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="collector" value-ref="monitoringInfoCollector" />
+			</map>
+		</property>
+	</bean>
+	<bean id="notificationExecutorJobDetail" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="ru.acs.monitoring.scheduling.NotificationJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="service" value-ref="notificationService" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="timeoutScannerExecutorJobDetail" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="ru.acs.monitoring.scheduling.TimeoutScannerJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="scanner" value-ref="timeoutScanner" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="dbCleanerExecutorJobDetail" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="ru.acs.monitoring.scheduling.DBCleanerJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="service" value-ref="dbCleanerService" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="monitoringTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="monitoringExecutorJobDetail" />
+		<property name="startDelay" value="20000" />
+		<property name="repeatInterval" value="120000" />
+	</bean>
+	<bean id="notificationTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="notificationExecutorJobDetail" />
+		<property name="startDelay" value="60000" />
+		<property name="repeatInterval" value="1800000" />
+	</bean>
+	<bean id="timeoutTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="timeoutScannerExecutorJobDetail" />
+		<property name="startDelay" value="60000" />
+		<property name="repeatInterval" value="120000" />
+	</bean>
+	<bean id="dbCleanerTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="dbCleanerExecutorJobDetail" />
+		<property name="startDelay" value="180000" />
+		<property name="repeatInterval" value="43200000" />
+	</bean>
+</beans>

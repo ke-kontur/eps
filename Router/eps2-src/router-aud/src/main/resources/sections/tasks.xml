@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- GC Task -->
+
+	<bean id="gcTask" class="ru.acs.fts.eps2.engine.tasks.GCTask" />
+
+	<bean id="gcTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="gcTask" />
+		<property name="targetMethod" value="collect" />
+	</bean>
+	
+	<bean id="gcTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="gcTaskScheduled" />
+		<property name="delay" value="300000" /> <!-- 300 seconds -->
+		<property name="period" value="600000" /> <!-- 600 seconds -->
+	</bean>
+	
+	<!-- Clean Old Processed Envelopes -->
+	
+	<bean id="cleanProcessedEnvelopesTask" class="ru.acs.fts.eps2.engine.tasks.ProcessedEnvelopesClean" >
+		<property name="envelopeManager" ref="audEnvelopeManager" />
+	</bean>
+	
+	<bean id="cpeTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="cleanProcessedEnvelopesTask" />
+		<property name="targetMethod" value="clean" />
+	</bean>
+	
+	<bean id="cpeTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="cpeTaskScheduled" />
+		<property name="delay" value="60000" /> <!-- 60 seconds -->
+		<property name="period" value="600000" /> <!-- 600 seconds -->
+	</bean>
+	
+	<!-- Scheduler -->
+	
+	<bean id="scheduler" class="org.springframework.scheduling.timer.TimerFactoryBean" >
+		<property name="scheduledTimerTasks" >
+			<list>
+				<ref bean="gcTaskTimer" />
+				<ref bean="cpeTaskTimer" />
+			</list>
+		</property>
+	</bean>
+	
+</beans>

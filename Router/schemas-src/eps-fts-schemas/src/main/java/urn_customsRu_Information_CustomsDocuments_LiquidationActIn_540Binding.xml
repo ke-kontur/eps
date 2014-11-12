@@ -1,0 +1,81 @@
+<binding xmlns:lqactin="urn:customs.ru:Information:CustomsDocuments:LiquidationActIn:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:LiquidationActIn:5.4.0" default="elements" prefix="lqactin"/>
+  <mapping abstract="true" type-name="lqactin:LiquidationActInType" class="ru.acs.fts.schemas.album.liquidationactin.LiquidationActInType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsMark" get-method="getCustomsMark" set-method="setCustomsMark"/>
+    <value style="element" name="NeededActions" get-method="getNeededActions" set-method="setNeededActions" usage="optional"/>
+    <value style="element" name="ActPresentDate" get-method="getActPresentDate" set-method="setActPresentDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="lqactin:LiquidationParticipantType" get-method="getResidentOEZ" set-method="setResidentOEZ" name="ResidentOEZ"/>
+    <structure map-as="lqactin:LiquidationParticipantType" get-method="getLiquidator" set-method="setLiquidator" name="Liquidator"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCUCustoms" set-method="setCUCustoms" name="CUCustoms"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLiquidationPlace" set-method="setLiquidationPlace" name="LiquidationPlace"/>
+    <collection get-method="getWasteProductList" set-method="setWasteProductList" create-type="java.util.ArrayList">
+      <structure map-as="lqactin:WasteProductsType" name="WasteProducts"/>
+    </collection>
+    <collection get-method="getParticipatedPersonList" set-method="setParticipatedPersonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="lqactin:ParticipatedPersonType" name="ParticipatedPerson"/>
+    </collection>
+    <structure map-as="lqactin:ApplicationRegNumberType" get-method="getApplicationRegNumber" set-method="setApplicationRegNumber" name="ApplicationRegNumber"/>
+    <structure map-as="lqactin:ActRegNumberType" get-method="getActRegNumber" set-method="setActRegNumber" name="ActRegNumber"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.liquidationactin.LiquidationActInType" name="LiquidationActIn">
+    <structure map-as="lqactin:LiquidationActInType"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:ActRegNumberType" class="ru.acs.fts.schemas.album.liquidationactin.ActRegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:ApplicationRegNumberType" class="ru.acs.fts.schemas.album.liquidationactin.ApplicationRegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:ConsignmentType" class="ru.acs.fts.schemas.album.liquidationactin.ConsignmentType">
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="lqactin:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:GoodsType" class="ru.acs.fts.schemas.album.liquidationactin.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:LiquidationParticipantType" class="ru.acs.fts.schemas.album.liquidationactin.LiquidationParticipantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getOEZResidentCertif" set-method="setOEZResidentCertif" usage="optional" name="OEZ_ResidentCertif"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:PackingInformationType" class="ru.acs.fts.schemas.album.liquidationactin.PackingInformationType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PackingDescription" get-method="getPackingDescription" set-method="setPackingDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:ParticipatedPersonType" class="ru.acs.fts.schemas.album.liquidationactin.ParticipatedPersonType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="PersonSign" get-method="getPersonSign" set-method="setPersonSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="lqactin:WasteProductsType" class="ru.acs.fts.schemas.album.liquidationactin.WasteProductsType">
+    <collection get-method="getWasteDescriptionList" set-method="setWasteDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="WasteDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteCode" get-method="getWasteCode" set-method="setWasteCode"/>
+    <collection get-method="getLiquidationMethodList" set-method="setLiquidationMethodList" create-type="java.util.ArrayList">
+      <value style="element" name="LiquidationMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteSign" get-method="getWasteSign" set-method="setWasteSign"/>
+    <value style="element" name="NewWasteSign" get-method="getNewWasteSign" set-method="setNewWasteSign"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getWasteQuantity" set-method="setWasteQuantity" name="WasteQuantity"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="lqactin:PackingInformationType" name="PackingInformation"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocument" set-method="setDocument" usage="optional" name="Document"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="lqactin:ConsignmentType" name="Consignment"/>
+    </collection>
+  </mapping>
+</binding>

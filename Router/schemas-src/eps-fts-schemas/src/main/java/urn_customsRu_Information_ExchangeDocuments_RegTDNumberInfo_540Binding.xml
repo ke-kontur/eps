@@ -1,0 +1,23 @@
+<binding xmlns:rtdni="urn:customs.ru:Information:ExchangeDocuments:RegTDNumberInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:RegTDNumberInfo:5.4.0" default="elements" prefix="rtdni"/>
+  <mapping abstract="true" type-name="rtdni:RegTDNumberInfoType" class="ru.acs.fts.schemas.album.regtdnumberinfo.RegTDNumberInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTDNumber" get-method="getTDNumber" set-method="setTDNumber" usage="optional" name="TDNumber"/>
+      <structure map-as="rtdni:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.regtdnumberinfo.RegTDNumberInfoType" name="RegTDNumberInfo">
+    <structure map-as="rtdni:RegTDNumberInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdni:TIRIDType" class="ru.acs.fts.schemas.album.regtdnumberinfo.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+</binding>

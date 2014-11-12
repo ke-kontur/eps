@@ -1,0 +1,24 @@
+<binding xmlns:edcnt="urn:customs.ru:Information:ExchangeDocuments:ED_Container:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ED_Container:5.4.0" default="elements" prefix="edcnt"/>
+  <mapping abstract="true" type-name="edcnt:ED_ContainerType" class="ru.acs.fts.schemas.album.ed_container.EDContainerType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="FullSetIndicator" get-method="getFullSetIndicator" set-method="setFullSetIndicator" usage="optional"/>
+    <collection get-method="getXindicatorList" set-method="setXindicatorList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Xindicator" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getContainerDocList" set-method="setContainerDocList" create-type="java.util.ArrayList">
+      <structure map-as="edcnt:ContainerDocType" name="ContainerDoc"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ed_container.EDContainerType" name="ED_Container">
+    <structure map-as="edcnt:ED_ContainerType"/>
+  </mapping>
+  <mapping abstract="true" type-name="edcnt:ContainerDocType" class="ru.acs.fts.schemas.album.ed_container.ContainerDocType">
+    <value style="element" name="Order" get-method="getOrder" set-method="setOrder" usage="optional"/>
+    <structure map-as="edcnt:DocBodyType" get-method="getDocBody" set-method="setDocBody" name="DocBody"/>
+  </mapping>
+  <mapping abstract="true" type-name="edcnt:DocBodyType" class="ru.acs.fts.schemas.album.ed_container.DocBodyType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

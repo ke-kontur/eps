@@ -1,0 +1,40 @@
+<binding xmlns:err="urn:customs.ru:Information:ExchangeDocuments:ErrorList:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ErrorList:5.4.0" default="elements" prefix="err"/>
+  <mapping abstract="true" type-name="err:ErrorListType" class="ru.acs.fts.schemas.album.errorlist.ErrorListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getBadDocumentList" set-method="setBadDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="err:BadDocumentType" name="BadDocument"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.errorlist.ErrorListType" name="ErrorList">
+    <structure map-as="err:ErrorListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="err:BadDocumentType" class="ru.acs.fts.schemas.album.errorlist.BadDocumentType">
+    <value style="element" name="DocID" get-method="getDocID" set-method="setDocID"/>
+    <value style="element" name="DocName" get-method="getDocName" set-method="setDocName" usage="optional"/>
+    <value style="element" name="DocModeID" get-method="getDocModeID" set-method="setDocModeID" usage="optional"/>
+    <collection get-method="getErrorList" set-method="setErrorList" create-type="java.util.ArrayList">
+      <structure map-as="err:ErrorType" name="Error"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="err:ErrorType" class="ru.acs.fts.schemas.album.errorlist.ErrorType">
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf"/>
+    <value style="element" name="ErrCode" get-method="getErrCode" set-method="setErrCode"/>
+    <value style="element" name="ErrorName" get-method="getErrorName" set-method="setErrorName"/>
+    <collection get-method="getErrDescriptionList" set-method="setErrDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ErrDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber" usage="optional"/>
+    <value style="element" name="ErrElement" get-method="getErrElement" set-method="setErrElement" usage="optional"/>
+    <value style="element" name="ErrField" get-method="getErrField" set-method="setErrField" usage="optional"/>
+    <value style="element" name="SuccessContent" get-method="getSuccessContent" set-method="setSuccessContent" usage="optional"/>
+    <value style="element" name="ErrLevel" get-method="getErrLevel" set-method="setErrLevel"/>
+    <value style="element" name="CodeOrder" get-method="getCodeOrder" set-method="setCodeOrder" usage="optional"/>
+    <value style="element" name="ErrElementDesc" get-method="getErrElementDesc" set-method="setErrElementDesc" usage="optional"/>
+    <value style="element" name="CorrectValue" get-method="getCorrectValue" set-method="setCorrectValue" usage="optional"/>
+  </mapping>
+</binding>

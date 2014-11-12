@@ -1,0 +1,79 @@
+<binding xmlns:KTSin="urn:customs.ru:Information:CustomsDocuments:KTSin:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:catEKTS_cu="urn:customs.ru:CUEKTSCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:KTSin:5.4.0" default="elements" prefix="KTSin"/>
+  <mapping abstract="true" type-name="KTSin:KTSinType" class="ru.acs.fts.schemas.album.ktsin.KTSinType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <value style="element" name="KTSPresentDate" get-method="getKTSPresentDate" set-method="setKTSPresentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DecisionCode" get-method="getDecisionCode" set-method="setDecisionCode" usage="optional"/>
+    <value style="element" name="DeadLineDate" get-method="getDeadLineDate" set-method="setDeadLineDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="KTSNumber" get-method="getKTSNumber" set-method="setKTSNumber"/>
+    <value style="element" name="Adjustment" get-method="getAdjustment" set-method="setAdjustment"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="ElectronicDocumentSign" get-method="getElectronicDocumentSign" set-method="setElectronicDocumentSign" usage="optional"/>
+    <value style="element" name="ExecutionDate" get-method="getExecutionDate" set-method="setExecutionDate" format="LocalDate.default"/>
+    <structure map-as="KTSin:KTSinGoodsShipmentType" get-method="getKTSinGoodsShipment" set-method="setKTSinGoodsShipment" name="KTSinGoodsShipment"/>
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getKTSinFilledPerson" set-method="setKTSinFilledPerson" name="KTSinFilledPerson"/>
+    <structure map-as="KTSin:KTSinTechMarksType" get-method="getKTSinTechMarks" set-method="setKTSinTechMarks" usage="optional" name="KTSinTechMarks"/>
+    <collection get-method="getKTSPaymentsReCalcList" set-method="setKTSPaymentsReCalcList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catEKTS_cu:KTSPaymentsReCalcType" name="KTSPaymentsReCalc"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <structure map-as="catESAD_cu:CUESADCustomsRepresentativeType" get-method="getCustomsRepresentative" set-method="setCustomsRepresentative" usage="optional" name="CustomsRepresentative"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ktsin.KTSinType" name="KTSin">
+    <structure map-as="KTSin:KTSinType"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSin:KTSinCommonOfficialMarkType" class="ru.acs.fts.schemas.album.ktsin.KTSinCommonOfficialMarkType">
+    <value style="element" name="RecordSerialNumber" get-method="getRecordSerialNumber" set-method="setRecordSerialNumber"/>
+    <value style="element" name="ColumnCode" get-method="getColumnCode" set-method="setColumnCode"/>
+    <value style="element" name="OfficialRecord" get-method="getOfficialRecord" set-method="setOfficialRecord" usage="optional"/>
+    <value style="element" name="ReserveMarkIdentifier" get-method="getReserveMarkIdentifier" set-method="setReserveMarkIdentifier" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSin:KTSinGoodsItemType" class="ru.acs.fts.schemas.album.ktsin.KTSinGoodsItemType">
+    <structure map-as="catEKTS_cu:KTSGoodsItemType"/>
+    <collection get-method="getKTSinPresentedDocumentList" set-method="setKTSinPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUESADPresentedDocumentsType" name="KTSinPresentedDocuments"/>
+    </collection>
+    <collection get-method="getKTSinCustomsPaymentCalculationList" set-method="setKTSinCustomsPaymentCalculationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catEKTS_cu:CUKTSCustomsPaymentCalculationType" name="KTSinCustomsPaymentCalculation"/>
+    </collection>
+    <collection get-method="getKTSinGoodsOfficialMarkList" set-method="setKTSinGoodsOfficialMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTSin:KTSinGoodsOfficialMarkType" name="KTSinGoodsOfficialMark"/>
+    </collection>
+    <collection get-method="getGoodsAutomobileList" set-method="setGoodsAutomobileList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:AutomobileType" name="GoodsAutomobile"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTSin:KTSinGoodsOfficialMarkType" class="ru.acs.fts.schemas.album.ktsin.KTSinGoodsOfficialMarkType">
+    <value style="element" name="RecordSerialNumber" get-method="getRecordSerialNumber" set-method="setRecordSerialNumber"/>
+    <value style="element" name="ReserveMarkIdentifier" get-method="getReserveMarkIdentifier" set-method="setReserveMarkIdentifier" usage="optional"/>
+    <value style="element" name="OfficialRecord" get-method="getOfficialRecord" set-method="setOfficialRecord" usage="optional"/>
+    <value style="element" name="PaymentEnsuringTypeCode" get-method="getPaymentEnsuringTypeCode" set-method="setPaymentEnsuringTypeCode" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSin:KTSinGoodsShipmentType" class="ru.acs.fts.schemas.album.ktsin.KTSinGoodsShipmentType">
+    <structure map-as="catEKTS_cu:KTSGoodsShipmentType"/>
+    <structure map-as="catEKTS_cu:KTSContractTermsType" get-method="getKTSContractTerms" set-method="setKTSContractTerms" name="KTSContractTerms"/>
+    <collection get-method="getKTSinGoodsItemList" set-method="setKTSinGoodsItemList" create-type="java.util.ArrayList">
+      <structure map-as="KTSin:KTSinGoodsItemType" name="KTSinGoodsItem"/>
+    </collection>
+    <collection get-method="getKTSinCommonOfficialMarkList" set-method="setKTSinCommonOfficialMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTSin:KTSinCommonOfficialMarkType" name="KTSinCommonOfficialMark"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTSin:KTSinTechMarksType" class="ru.acs.fts.schemas.album.ktsin.KTSinTechMarksType">
+    <value style="element" name="ModificationDate" get-method="getModificationDate" set-method="setModificationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ModificationTime" get-method="getModificationTime" set-method="setModificationTime" usage="optional"/>
+  </mapping>
+</binding>

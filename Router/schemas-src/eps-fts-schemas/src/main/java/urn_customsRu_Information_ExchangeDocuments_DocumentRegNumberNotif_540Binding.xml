@@ -1,0 +1,11 @@
+<binding xmlns:drnn="urn:customs.ru:Information:ExchangeDocuments:DocumentRegNumberNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:DocumentRegNumberNotif:5.4.0" default="elements" prefix="drnn"/>
+  <mapping abstract="true" type-name="drnn:DocumentRegNumberNotifType" class="ru.acs.fts.schemas.album.documentregnumbernotif.DocumentRegNumberNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentRegNumber" get-method="getDocumentRegNumber" set-method="setDocumentRegNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.documentregnumbernotif.DocumentRegNumberNotifType" name="DocumentRegNumberNotif">
+    <structure map-as="drnn:DocumentRegNumberNotifType"/>
+  </mapping>
+</binding>

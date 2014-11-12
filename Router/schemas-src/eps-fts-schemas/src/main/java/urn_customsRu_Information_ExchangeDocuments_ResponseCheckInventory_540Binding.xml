@@ -1,0 +1,30 @@
+<binding xmlns:resinv="urn:customs.ru:Information:ExchangeDocuments:ResponseCheckInventory:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ResponseCheckInventory:5.4.0" default="elements" prefix="resinv"/>
+  <mapping abstract="true" type-name="resinv:ResponseCheckInventoryType" class="ru.acs.fts.schemas.album.responsecheckinventory.ResponseCheckInventoryType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InventoryID" get-method="getInventoryID" set-method="setInventoryID"/>
+    <collection get-method="getCheckResultList" set-method="setCheckResultList" create-type="java.util.ArrayList">
+      <structure map-as="resinv:InvCheckResultType" name="CheckResult"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.responsecheckinventory.ResponseCheckInventoryType" name="ResponseCheckInventory">
+    <structure map-as="resinv:ResponseCheckInventoryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="resinv:FoundDiscrepancyType" class="ru.acs.fts.schemas.album.responsecheckinventory.FoundDiscrepancyType">
+    <value style="element" name="InstanceNumber" get-method="getInstanceNumber" set-method="setInstanceNumber"/>
+    <value style="element" name="InventoryInstanceDate" get-method="getInventoryInstanceDate" set-method="setInventoryInstanceDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="resinv:InvCheckResultType" class="ru.acs.fts.schemas.album.responsecheckinventory.InvCheckResultType">
+    <value style="element" name="InvDocCode" get-method="getInvDocCode" set-method="setInvDocCode"/>
+    <value style="element" name="InvDocName" get-method="getInvDocName" set-method="setInvDocName"/>
+    <value style="element" name="InvDocNumber" get-method="getInvDocNumber" set-method="setInvDocNumber" usage="optional"/>
+    <value style="element" name="InvDocDate" get-method="getInvDocDate" set-method="setInvDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="InventDocumentID" get-method="getInventDocumentID" set-method="setInventDocumentID" usage="optional"/>
+    <value style="element" name="InventLineID" get-method="getInventLineID" set-method="setInventLineID" usage="optional"/>
+    <value style="element" name="CheckResultCode" get-method="getCheckResultCode" set-method="setCheckResultCode"/>
+    <value style="element" name="CheckResultDesc" get-method="getCheckResultDesc" set-method="setCheckResultDesc"/>
+  </mapping>
+</binding>

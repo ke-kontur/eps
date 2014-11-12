@@ -1,0 +1,81 @@
+<binding xmlns:pprr="urn:customs.ru:Information:CustomsDocuments:PP_RevealedRisks:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PP_RevealedRisks:5.4.0" default="elements" prefix="pprr"/>
+  <mapping abstract="true" type-name="pprr:PP_RevealedRisksType" class="ru.acs.fts.schemas.album.pp_revealedrisks.PPRevealedRisksType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TransportID" get-method="getTransportID" set-method="setTransportID"/>
+    <collection get-method="getProfileList" set-method="setProfileList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pprr:ProfilesType" name="Profiles"/>
+    </collection>
+    <structure map-as="pprr:ConsignmentsType" get-method="getConsignments" set-method="setConsignments" name="Consignments"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.pp_revealedrisks.PPRevealedRisksType" name="PP_RevealedRisks">
+    <structure map-as="pprr:PP_RevealedRisksType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:ConsignmentType" class="ru.acs.fts.schemas.album.pp_revealedrisks.ConsignmentType">
+    <value style="element" name="LotID" get-method="getLotID" set-method="setLotID"/>
+    <collection get-method="getProfileRefList" set-method="setProfileRefList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pprr:ProfileRefType" name="ProfileRef"/>
+    </collection>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pprr:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:ConsignmentsType" class="ru.acs.fts.schemas.album.pp_revealedrisks.ConsignmentsType">
+    <collection get-method="getProfileRefList" set-method="setProfileRefList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pprr:ProfileRefType" name="ProfileRef"/>
+    </collection>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pprr:ConsignmentType" name="Consignment"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:CriterionCodeInfoType" class="ru.acs.fts.schemas.album.pp_revealedrisks.CriterionCodeInfoType">
+    <value style="element" name="CriterionCode" get-method="getCriterionCode" set-method="setCriterionCode"/>
+    <value style="element" name="CriterionDescription" get-method="getCriterionDescription" set-method="setCriterionDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:GoodsType" class="ru.acs.fts.schemas.album.pp_revealedrisks.GoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <collection get-method="getProfileRefList" set-method="setProfileRefList" create-type="java.util.ArrayList">
+      <structure map-as="pprr:ProfileRefType" name="ProfileRef"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:MeasureAttributeType" class="ru.acs.fts.schemas.album.pp_revealedrisks.MeasureAttributeType">
+    <value style="element" name="MeasureAttributeCode" get-method="getMeasureAttributeCode" set-method="setMeasureAttributeCode"/>
+    <collection get-method="getMeasureAttributeValueList" set-method="setMeasureAttributeValueList" create-type="java.util.ArrayList">
+      <value style="element" name="MeasureAttributeValue" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MeasureAttributeNecessary" get-method="getMeasureAttributeNecessary" set-method="setMeasureAttributeNecessary"/>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:MinimizeMeasuresInfoType" class="ru.acs.fts.schemas.album.pp_revealedrisks.MinimizeMeasuresInfoType">
+    <value style="element" name="MinimizeMeasureCode" get-method="getMinimizeMeasureCode" set-method="setMinimizeMeasureCode"/>
+    <value style="element" name="MinimizeMeasureNecessary" get-method="getMinimizeMeasureNecessary" set-method="setMinimizeMeasureNecessary"/>
+    <value style="element" name="TakeMeasuresSign" get-method="getTakeMeasuresSign" set-method="setTakeMeasuresSign"/>
+    <value style="element" name="MeasureDescription" get-method="getMeasureDescription" set-method="setMeasureDescription" usage="optional"/>
+    <value style="element" name="MainActionCode" get-method="getMainActionCode" set-method="setMainActionCode" usage="optional"/>
+    <collection get-method="getMeasureAttributeList" set-method="setMeasureAttributeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pprr:MeasureAttributeType" name="MeasureAttribute"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:MinimizeMeasuresType" class="ru.acs.fts.schemas.album.pp_revealedrisks.MinimizeMeasuresType">
+    <value style="element" name="MinimizeMeasuresNote" get-method="getMinimizeMeasuresNote" set-method="setMinimizeMeasuresNote" usage="optional"/>
+    <collection get-method="getMinimizeMeasuresInfoList" set-method="setMinimizeMeasuresInfoList" create-type="java.util.ArrayList">
+      <structure map-as="pprr:MinimizeMeasuresInfoType" name="MinimizeMeasuresInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:ProfileRefType" class="ru.acs.fts.schemas.album.pp_revealedrisks.ProfileRefType">
+    <value style="attribute" name="URI" get-method="getURI" set-method="setURI"/>
+  </mapping>
+  <mapping abstract="true" type-name="pprr:ProfilesType" class="ru.acs.fts.schemas.album.pp_revealedrisks.ProfilesType">
+    <value style="element" name="DivisionCode" get-method="getDivisionCode" set-method="setDivisionCode"/>
+    <value style="element" name="DocumentSignCode" get-method="getDocumentSignCode" set-method="setDocumentSignCode"/>
+    <value style="element" name="RegistryDate" get-method="getRegistryDate" set-method="setRegistryDate" format="LocalDate.default"/>
+    <value style="element" name="SequenceNumber" get-method="getSequenceNumber" set-method="setSequenceNumber"/>
+    <value style="element" name="VersionNumber" get-method="getVersionNumber" set-method="setVersionNumber"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentDescription" get-method="getDocumentDescription" set-method="setDocumentDescription" usage="optional"/>
+    <value style="element" name="PRNote" get-method="getPRNote" set-method="setPRNote" usage="optional"/>
+    <structure map-as="pprr:CriterionCodeInfoType" get-method="getCriterionCodeInfo" set-method="setCriterionCodeInfo" name="CriterionCodeInfo"/>
+    <structure map-as="pprr:MinimizeMeasuresType" get-method="getMinimizeMeasures" set-method="setMinimizeMeasures" name="MinimizeMeasures"/>
+    <value style="attribute" name="ID" get-method="getID" set-method="setID"/>
+  </mapping>
+</binding>

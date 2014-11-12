@@ -1,0 +1,36 @@
+<binding xmlns:cwq="urn:customs.ru:Information:WarehouseDocuments:CWQuitance:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CWQuitance:5.4.0" default="elements" prefix="cwq"/>
+  <mapping abstract="true" type-name="cwq:CWQuitanceType" class="ru.acs.fts.schemas.album.cwquitance.CWQuitanceType">
+    <structure map-as="catWH_ru:CWDocType"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cwq:QuitanceType" test-method="ifQuitance" get-method="getQuitance" set-method="setQuitance" usage="optional" name="Quitance"/>
+      <structure map-as="cwq:DocumentWithErrorsType" test-method="ifDocumentWithErrors" get-method="getDocumentWithErrors" set-method="setDocumentWithErrors" usage="optional" name="DocumentWithErrors"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cwquitance.CWQuitanceType" name="CWQuitance">
+    <structure map-as="cwq:CWQuitanceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwq:CommonDocumentType" class="ru.acs.fts.schemas.album.cwquitance.CommonDocumentType">
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="OrderNumberOfEdition" get-method="getOrderNumberOfEdition" set-method="setOrderNumberOfEdition"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwq:DocumentWithErrorsType" class="ru.acs.fts.schemas.album.cwquitance.DocumentWithErrorsType">
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="OrderNumberOfEdition" get-method="getOrderNumberOfEdition" set-method="setOrderNumberOfEdition" usage="optional"/>
+    <collection get-method="getErrorList" set-method="setErrorList" create-type="java.util.ArrayList">
+      <structure map-as="cwq:ErrorsType" name="Errors"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cwq:ErrorsType" class="ru.acs.fts.schemas.album.cwquitance.ErrorsType">
+    <value style="element" name="CommandErrorText" get-method="getCommandErrorText" set-method="setCommandErrorText" usage="optional"/>
+    <value style="element" name="CommandErrorCode" get-method="getCommandErrorCode" set-method="setCommandErrorCode"/>
+    <value style="element" name="ErrorText" get-method="getErrorText" set-method="setErrorText"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwq:QuitanceType" class="ru.acs.fts.schemas.album.cwquitance.QuitanceType">
+    <value style="element" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+    <collection get-method="getCorrectDocumentList" set-method="setCorrectDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cwq:CommonDocumentType" name="CorrectDocument"/>
+    </collection>
+  </mapping>
+</binding>

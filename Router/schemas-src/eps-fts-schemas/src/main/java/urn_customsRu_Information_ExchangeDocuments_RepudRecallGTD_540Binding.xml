@@ -1,0 +1,17 @@
+<binding xmlns:rrg="urn:customs.ru:Information:ExchangeDocuments:RepudRecallGTD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:RepudRecallGTD:5.4.0" default="elements" prefix="rrg"/>
+  <mapping abstract="true" type-name="rrg:RepudRecallGTDType" class="ru.acs.fts.schemas.album.repudrecallgtd.RepudRecallGTDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <collection get-method="getRepudReasonList" set-method="setRepudReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="RepudReasons" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.repudrecallgtd.RepudRecallGTDType" name="RepudRecallGTD">
+    <structure map-as="rrg:RepudRecallGTDType"/>
+  </mapping>
+</binding>

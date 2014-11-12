@@ -1,0 +1,15 @@
+<binding xmlns:auares="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PutDocumentResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PutDocumentResponse:4.1.1" default="elements" prefix="auares"/>
+  <mapping abstract="true" type-name="auares:AUD_PutDocumentResponseType" class="ru.acs.fts.schemas.aud.aud_putdocumentresponse.AUDPutDocumentResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <structure map-as="catAUD_ru:AUD_ArchiveDocumentInfoType" get-method="getArchiveDocumentInfo" set-method="setArchiveDocumentInfo" name="ArchiveDocumentInfo"/>
+    <structure map-as="catAUD_ru:AUD_ArchivePacketInfoType" get-method="getArchivePacketInfo" set-method="setArchivePacketInfo" name="ArchivePacketInfo"/>
+    <collection get-method="getEmbeddedDocumentArchiveInfoList" set-method="setEmbeddedDocumentArchiveInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_EmbeddedDocumentArchiveInfoType" name="EmbeddedDocumentArchiveInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_putdocumentresponse.AUDPutDocumentResponseType" name="AUD_PutDocumentResponse">
+    <structure map-as="auares:AUD_PutDocumentResponseType"/>
+  </mapping>
+</binding>

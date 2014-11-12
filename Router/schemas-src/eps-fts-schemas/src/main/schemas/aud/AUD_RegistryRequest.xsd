@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryRequest:4.1.1" version="4.1.1.0" xmlns:aurr="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос реестра  документов</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_RegistryRequest" type="aurr:AUD_RegistryRequestType"/>
+   <xs:complexType name="AUD_RegistryRequestType">
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element name="DateBegin" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата  начала  размещения  документов</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="DateStop" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата  окончания  размещения  документов</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="DateIndicatior" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation>Признак  обработки дат. 1-Дата размещения пакета в архиве 2- дата регистрации ГТД</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010030E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

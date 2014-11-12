@@ -1,0 +1,25 @@
+<binding xmlns:rit="urn:customs.ru:Information:TreatmentDocuments:RecallInoTreatment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:RecallInoTreatment:5.4.0" default="elements" prefix="rit"/>
+  <mapping abstract="true" type-name="rit:RecallInoTreatmentType" class="ru.acs.fts.schemas.album.recallinotreatment.RecallInoTreatmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PermitNumber" get-method="getPermitNumber" set-method="setPermitNumber"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="RecallBeginDate" get-method="getRecallBeginDate" set-method="setRecallBeginDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <collection get-method="getGovermentActList" set-method="setGovermentActList" create-type="java.util.ArrayList">
+      <structure map-as="rit:GovermentActType" name="GovermentAct"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.recallinotreatment.RecallInoTreatmentType" name="RecallInoTreatment">
+    <structure map-as="rit:RecallInoTreatmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rit:GovermentActType" class="ru.acs.fts.schemas.album.recallinotreatment.GovermentActType">
+    <value style="element" name="Form" get-method="getForm" set-method="setForm"/>
+    <value style="element" name="NameInf" get-method="getNameInf" set-method="setNameInf"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

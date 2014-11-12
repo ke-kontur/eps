@@ -1,0 +1,18 @@
+<binding xmlns:GExReq="urn:customs.ru:Information:CustomsDocuments:GoodsExportReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsExportReq:5.4.0" default="elements" prefix="GExReq"/>
+  <mapping abstract="true" type-name="GExReq:GoodsExportReqType" class="ru.acs.fts.schemas.album.goodsexportreq.GoodsExportReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DateBegin" get-method="getDateBegin" set-method="setDateBegin" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DateEnd" get-method="getDateEnd" set-method="setDateEnd" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BorderPointCode" get-method="getBorderPointCode" set-method="setBorderPointCode" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getDTIDList" set-method="setDTIDList" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:GTDInqType" name="DTID"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsexportreq.GoodsExportReqType" name="GoodsExportReq">
+    <structure map-as="GExReq:GoodsExportReqType"/>
+  </mapping>
+</binding>

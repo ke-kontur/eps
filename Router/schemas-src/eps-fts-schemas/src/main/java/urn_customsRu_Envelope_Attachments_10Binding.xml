@@ -1,0 +1,25 @@
+<binding xmlns:att="urn:customs.ru:Envelope:Attachments:1.0">
+  <namespace uri="urn:customs.ru:Envelope:Attachments:1.0" default="elements" prefix="att"/>
+  <mapping abstract="true" type-name="att:AttachmentsType" class="ru.acs.fts.schemas.envelope.AttachmentsType">
+    <collection get-method="getAttachmentList" set-method="setAttachmentList" create-type="java.util.ArrayList">
+      <structure map-as="att:AttachmentType" name="Attachment"/>
+    </collection>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.envelope.AttachmentsType" name="Attachments">
+    <structure map-as="att:AttachmentsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="att:AttachmentType" class="ru.acs.fts.schemas.envelope.AttachmentType">
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+    <value style="element" name="ModificationDateTime" get-method="getModificationDateTime" set-method="setModificationDateTime" usage="optional" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <structure map-as="att:FileReferenceType" get-method="getFileReference" set-method="setFileReference" name="FileReference"/>
+    <structure map-as="att:FileSignatureType" get-method="getFileSignature" set-method="setFileSignature" usage="optional" name="FileSignature"/>
+  </mapping>
+  <mapping abstract="true" type-name="att:FileReferenceType" class="ru.acs.fts.schemas.envelope.FileReferenceType">
+    <value style="attribute" name="href" get-method="getHref" set-method="setHref"/>
+  </mapping>
+  <mapping abstract="true" type-name="att:FileSignatureType" class="ru.acs.fts.schemas.envelope.FileSignatureType">
+    <value style="element" name="SignatureValue" get-method="getSignatureValue" set-method="setSignatureValue"/>
+    <value style="element" name="KeyInfo" get-method="getKeyInfo" set-method="setKeyInfo"/>
+    <value style="attribute" name="Algorithm" get-method="getAlgorithm" set-method="setAlgorithm" usage="optional"/>
+  </mapping>
+</binding>

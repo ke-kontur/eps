@@ -1,0 +1,29 @@
+<schema-set xmlns:xs="http://www.w3.org/2001/XMLSchema" prefer-inline="true" >
+
+	<schema-type 
+		type-name="dateTime" java-class="org.joda.time.DateTime"
+		serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime"
+		deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime" />
+	
+	<schema-type type-name="date" format-name="LocalDate.default" />
+	<schema-type type-name="time" format-name="LocalTime.local" />
+
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archadddocrequest" names="ArchAddDocRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archcreaterequest" names="ArchCreateRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdeleterequest" names="ArchDeleteRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocdeleterequest" names="ArchDocDeleteRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdoclistrequest" names="ArchDocListRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocrequest" names="ArchDocRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocresponse" names="ArchDocResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocstatusrequest" names="ArchDocStatusRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocstatusresponse" names="ArchDocStatusResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocstatusupdate" names="ArchDocStatusUpdate.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />	
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocumentlist" names="ArchDocumentList.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />	
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archdocupdate" names="ArchDocUpdate.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archlist" names="ArchList.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.archlistrequest" names="ArchListRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.categoriescust" names="CategoriesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.ead_inner.electronicarchivecommonaggregateint" names="ElectronicArchiveCommonAggregateInt.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />	
+	<schema-set package="ru.acs.fts.schemas.ead_inner.electronicarchivecommonleafint" names="ElectronicArchiveCommonLeafInt.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />	
+	<schema-set package="ru.acs.fts.schemas.ead_inner.result" names="Result.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+</schema-set>

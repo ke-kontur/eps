@@ -1,0 +1,37 @@
+<binding xmlns:naigs="urn:customs.ru:Information:CustomsDocuments:NotifArrivalIntegritySeal:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifArrivalIntegritySeal:5.4.0" default="elements" prefix="naigs"/>
+  <mapping abstract="true" type-name="naigs:NotifArrivalIntegritySealType" class="ru.acs.fts.schemas.album.notifarrivalintegrityseal.NotifArrivalIntegritySealType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+    <value style="element" name="AcceptDate" get-method="getAcceptDate" set-method="setAcceptDate" format="LocalDate.default"/>
+    <value style="element" name="AcceptTime" get-method="getAcceptTime" set-method="setAcceptTime" usage="optional"/>
+    <value style="element" name="ModificationSign" get-method="getModificationSign" set-method="setModificationSign"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getEconomicOperator" set-method="setEconomicOperator" usage="optional" name="EconomicOperator"/>
+    <structure map-as="naigs:IdentifModificationType" get-method="getIdentifModification" set-method="setIdentifModification" usage="optional" name="IdentifModification"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifarrivalintegrityseal.NotifArrivalIntegritySealType" name="NotifArrivalIntegritySeal">
+    <structure map-as="naigs:NotifArrivalIntegritySealType"/>
+  </mapping>
+  <mapping abstract="true" type-name="naigs:IdentifModificationType" class="ru.acs.fts.schemas.album.notifarrivalintegrityseal.IdentifModificationType">
+    <value style="element" name="ModificationInfo" get-method="getModificationInfo" set-method="setModificationInfo"/>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Container" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMean"/>
+    </collection>
+    <collection get-method="getModifiedIdentifyMeanList" set-method="setModifiedIdentifyMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="naigs:ModifiedIdentifyMeanType" name="ModifiedIdentifyMean"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="naigs:ModifiedIdentifyMeanType" class="ru.acs.fts.schemas.album.notifarrivalintegrityseal.ModifiedIdentifyMeanType">
+    <value style="element" name="IdentMeanState" get-method="getIdentMeanState" set-method="setIdentMeanState"/>
+    <value style="element" name="IdentNumber" get-method="getIdentNumber" set-method="setIdentNumber"/>
+    <value style="element" name="IdentBreakFlag" get-method="getIdentBreakFlag" set-method="setIdentBreakFlag"/>
+    <value style="element" name="IdentKind" get-method="getIdentKind" set-method="setIdentKind"/>
+    <value style="element" name="IdentDesc" get-method="getIdentDesc" set-method="setIdentDesc" usage="optional"/>
+  </mapping>
+</binding>

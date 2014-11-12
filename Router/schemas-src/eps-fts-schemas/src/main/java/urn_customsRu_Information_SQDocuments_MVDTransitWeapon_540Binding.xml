@@ -1,0 +1,29 @@
+<binding xmlns:trwepn="urn:customs.ru:Information:SQDocuments:MVDTransitWeapon:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MVDTransitWeapon:5.4.0" default="elements" prefix="trwepn"/>
+  <mapping abstract="true" type-name="trwepn:MVDTransitWeaponType" class="ru.acs.fts.schemas.album.mvdtransitweapon.MVDTransitWeaponType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DepartureCountry" get-method="getDepartureCountry" set-method="setDepartureCountry"/>
+    <value style="element" name="DestinationCountry" get-method="getDestinationCountry" set-method="setDestinationCountry"/>
+    <structure map-as="trwepn:PermissionType" get-method="getPermission" set-method="setPermission" name="Permission"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="trwepn:WeaponDescriptionType" get-method="getWeaponDescription" set-method="setWeaponDescription" name="WeaponDescription"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getBaseDocument" set-method="setBaseDocument" name="BaseDocument"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSigner" set-method="setSigner" name="Signer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mvdtransitweapon.MVDTransitWeaponType" name="MVDTransitWeapon">
+    <structure map-as="trwepn:MVDTransitWeaponType"/>
+  </mapping>
+  <mapping abstract="true" type-name="trwepn:PermissionType" class="ru.acs.fts.schemas.album.mvdtransitweapon.PermissionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries"/>
+  </mapping>
+  <mapping abstract="true" type-name="trwepn:WeaponDescriptionType" class="ru.acs.fts.schemas.album.mvdtransitweapon.WeaponDescriptionType">
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind"/>
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getAddQuantity" set-method="setAddQuantity" name="AddQuantity"/>
+  </mapping>
+</binding>

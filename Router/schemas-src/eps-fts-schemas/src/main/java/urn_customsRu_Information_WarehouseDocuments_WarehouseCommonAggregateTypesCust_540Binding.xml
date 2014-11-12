@@ -1,0 +1,255 @@
+<binding xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:cltWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonLeafTypesCust:5.0.5">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" default="elements" prefix="catWH_ru"/>
+  <mapping abstract="true" type-name="catWH_ru:AISTSDocumentIDType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.AISTSDocumentIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:ArriveCustomsDocType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.ArriveCustomsDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:AviaParticularsType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.AviaParticularsType">
+    <value style="element" name="FlightNumber" get-method="getFlightNumber" set-method="setFlightNumber" usage="optional"/>
+    <value style="element" name="FlightDate" get-method="getFlightDate" set-method="setFlightDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:AvtoParticularsType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.AvtoParticularsType">
+    <value style="element" name="TrailerIdentifier" get-method="getTrailerIdentifier" set-method="setTrailerIdentifier" usage="optional"/>
+    <value style="element" name="SecondTrailerIdentifier" get-method="getSecondTrailerIdentifier" set-method="setSecondTrailerIdentifier" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:CWDocType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.CWDocType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDateTime" get-method="getDocumentDateTime" set-method="setDocumentDateTime"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsProperties" set-method="setCustomsProperties" name="CustomsProperties"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:ConsigneeType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.ConsigneeType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="catWH_ru:WHAddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:ConsignorType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.ConsignorType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <structure map-as="catWH_ru:WHAddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:GoodsLoadingPlaceType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.GoodsLoadingPlaceType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="catWH_ru:WarehouseType" test-method="ifWarehouse" get-method="getWarehouse" set-method="setWarehouse" usage="optional" name="Warehouse"/>
+      <structure map-as="catWH_ru:OtherLoadingPlaceType" test-method="ifOtherLoadingPlace" get-method="getOtherLoadingPlace" set-method="setOtherLoadingPlace" usage="optional" name="OtherLoadingPlace"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:MPONumberType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.MPONumberType">
+    <value style="element" name="ServiceIndicator" get-method="getServiceIndicator" set-method="setServiceIndicator"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:OtherLoadingPlaceType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.OtherLoadingPlaceType">
+    <value style="element" name="GoodsLocationPlaceDesc" get-method="getGoodsLocationPlaceDesc" set-method="setGoodsLocationPlaceDesc" usage="optional"/>
+    <value style="element" name="RailwayStationCode" get-method="getRailwayStationCode" set-method="setRailwayStationCode" usage="optional"/>
+    <value style="element" name="RailwayStationName" get-method="getRailwayStationName" set-method="setRailwayStationName" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:RailRoadParticularsType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.RailRoadParticularsType">
+    <value style="element" name="RailStation" get-method="getRailStation" set-method="setRailStation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:SeaParticularsType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.SeaParticularsType">
+    <value style="element" name="EntryNumber" get-method="getEntryNumber" set-method="setEntryNumber" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCaptain" set-method="setCaptain" usage="optional" name="Captain"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:TransportDocRegNumType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.TransportDocRegNumType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="WaybillNumPP" get-method="getWaybillNumPP" set-method="setWaybillNumPP"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHAddressType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHAddressType">
+    <structure map-as="cat_ru:AddressType"/>
+    <value style="element" name="AddressLine" get-method="getAddressLine" set-method="setAddressLine" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHAngarType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHAngarType">
+    <structure map-as="catWH_ru:WHPlaceBaseType"/>
+    <value style="element" name="Parking" get-method="getParking" set-method="setParking" usage="optional"/>
+    <value style="element" name="Angar" get-method="getAngar" set-method="setAngar" usage="optional"/>
+    <value style="element" name="WHPackind" get-method="getWHPackind" set-method="setWHPackind" usage="optional"/>
+    <value style="element" name="Cell" get-method="getCell" set-method="setCell" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHCargoPlaceType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCargoPlaceType">
+    <value style="element" name="PlaceNumber" get-method="getPlaceNumber" set-method="setPlaceNumber" usage="optional"/>
+    <value style="element" name="PackageCode" get-method="getPackageCode" set-method="setPackageCode" usage="optional"/>
+    <value style="element" name="PlaceDescription" get-method="getPlaceDescription" set-method="setPlaceDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHCarrierType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCarrierType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <structure map-as="catWH_ru:WHAddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCarrierPerson" set-method="setCarrierPerson" usage="optional" name="CarrierPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHContainerExtendedType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHContainerExtendedType">
+    <structure map-as="catWH_ru:WHContainerInformationType"/>
+    <structure map-as="catWH_ru:WHAngarType" get-method="getKeepingPlace" set-method="setKeepingPlace" usage="optional" name="KeepingPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHContainerInformationType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHContainerInformationType">
+    <value style="element" name="ContainerNumber" get-method="getContainerNumber" set-method="setContainerNumber"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHCustomInspectorType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomInspectorType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHCustomRegisterDocumentDataType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomRegisterDocumentDataType">
+    <value style="element" name="CustomState" get-method="getCustomState" set-method="setCustomState" format="cltWH_ru:CustomDocumentState"/>
+    <value style="element" name="RegisterTime" get-method="getRegisterTime" set-method="setRegisterTime" usage="optional"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getInspector" set-method="setInspector" usage="optional" name="Inspector"/>
+    <structure map-as="catWH_ru:WHDocumentCancelationType" get-method="getCancelation" set-method="setCancelation" usage="optional" name="Cancelation"/>
+    <structure map-as="catWH_ru:WHDocumentRegisterNumberType" get-method="getRegisterNumber" set-method="setRegisterNumber" usage="optional" name="RegisterNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHCustomsControlType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomsControlType">
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind" format="cltWH_ru:CustomsControlKind"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason"/>
+    <value style="element" name="KeepingLimit" get-method="getKeepingLimit" set-method="setKeepingLimit" usage="optional" format="LocalDate.default"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getInspector" set-method="setInspector" name="Inspector"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHDocumentCancelationType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHDocumentCancelationType">
+    <value style="element" name="CancelDate" get-method="getCancelDate" set-method="setCancelDate" format="LocalDate.default"/>
+    <value style="element" name="CancelReason" get-method="getCancelReason" set-method="setCancelReason"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getInspector" set-method="setInspector" name="Inspector"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHDocumentRegisterNumberType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHDocumentRegisterNumberType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <structure ordered="false" choice="true">
+      <value style="element" name="CertificateNumber" test-method="ifCertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber" usage="optional"/>
+      <value style="element" name="OtherWHPlaceKind" test-method="ifOtherWHPlaceKind" get-method="getOtherWHPlaceKind" set-method="setOtherWHPlaceKind" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHGoodContLinkType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHGoodContLinkType">
+    <value style="element" name="GoodNumber" get-method="getGoodNumber" set-method="setGoodNumber"/>
+    <value style="element" name="ContainerNumber" get-method="getContainerNumber" set-method="setContainerNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHKeepingLimitType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHKeepingLimitType">
+    <value style="element" name="AcceptDate" get-method="getAcceptDate" set-method="setAcceptDate" format="LocalDate.default"/>
+    <value style="element" name="AcceptTime" get-method="getAcceptTime" set-method="setAcceptTime" usage="optional"/>
+    <value style="element" name="StoringDateType" get-method="getStoringDateType" set-method="setStoringDateType" usage="optional"/>
+    <value style="element" name="DeadLineDate" get-method="getDeadLineDate" set-method="setDeadLineDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHOrganizationBaseType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHOrganizationBaseType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHPackingInformationType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHPackingInformationType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHPalleteInformationType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHPalleteInformationType">
+    <value style="element" name="PalleteQuantity" get-method="getPalleteQuantity" set-method="setPalleteQuantity"/>
+    <value style="element" name="PalleteDescription" get-method="getPalleteDescription" set-method="setPalleteDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHPlaceBaseType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHPlaceBaseType">
+    <value style="element" name="Area" get-method="getArea" set-method="setArea" usage="optional"/>
+    <value style="element" name="Square" get-method="getSquare" set-method="setSquare" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHShipmentInfoType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHShipmentInfoType">
+    <structure map-as="catWH_ru:WhTransportDocType"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhGoodsExtendedType" name="Goods"/>
+    </collection>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHContainerExtendedType" name="Containers"/>
+    </collection>
+    <collection get-method="getGoodContLinkList" set-method="setGoodContLinkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHGoodContLinkType" name="GoodContLinks"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WHSuppQuantityType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType">
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WareHouseReportLinkDataType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WareHouseReportLinkDataType">
+    <value style="element" name="ReportDate" get-method="getReportDate" set-method="setReportDate" format="LocalDate.default"/>
+    <value style="element" name="ReportNumber" get-method="getReportNumber" set-method="setReportNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WareHouseReportType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WareHouseReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="MainTransportModeCode" get-method="getMainTransportModeCode" set-method="setMainTransportModeCode"/>
+    <value style="element" name="ReportNumber" get-method="getReportNumber" set-method="setReportNumber"/>
+    <value style="element" name="ReportDate" get-method="getReportDate" set-method="setReportDate" format="LocalDate.default"/>
+    <value style="element" name="ReportTime" get-method="getReportTime" set-method="setReportTime" usage="optional"/>
+    <value style="element" name="ModificationDateTime" get-method="getModificationDateTime" set-method="setModificationDateTime" usage="optional"/>
+    <structure map-as="catWH_ru:WHCustomRegisterDocumentDataType" get-method="getCustomRegistration" set-method="setCustomRegistration" usage="optional" name="CustomRegistration"/>
+    <structure map-as="catWH_ru:WarehouseOwnerType" get-method="getWarehouseOwner" set-method="setWarehouseOwner" name="WarehouseOwner"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WarehouseCertificateType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseCertificateType">
+    <value style="element" name="CertificateKind" get-method="getCertificateKind" set-method="setCertificateKind" format="cltWH_ru:WareHouseCertificateKind"/>
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber"/>
+    <value style="element" name="CertificateDate" get-method="getCertificateDate" set-method="setCertificateDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WarehouseOwnerType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseOwnerType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="catWH_ru:WHAddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+    <structure map-as="catWH_ru:WarehouseCertificateType" get-method="getWarehouseLicense" set-method="setWarehouseLicense" name="WarehouseLicense"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getWarehousePerson" set-method="setWarehousePerson" usage="optional" name="WarehousePerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WarehouseType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseType">
+    <structure map-as="catWH_ru:WHOrganizationBaseType"/>
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber"/>
+    <value style="element" name="CertificateDate" get-method="getCertificateDate" set-method="setCertificateDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WhCustomDocumentType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhCustomDocumentType">
+    <structure map-as="catWH_ru:ArriveCustomsDocType"/>
+    <value style="element" name="VttCustomsCode" get-method="getVttCustomsCode" set-method="setVttCustomsCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WhGoodType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhGoodType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="InvoiceCost" get-method="getInvoiceCost" set-method="setInvoiceCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <structure ordered="false" choice="true">
+      <collection test-method="ifGoodsDescriptionList" get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+        <value style="element" name="GoodsDescription" type="java.lang.String"/>
+      </collection>
+      <structure map-as="catWH_ru:MPONumberType" test-method="ifMPONumber" get-method="getMPONumber" set-method="setMPONumber" usage="optional" name="MPONumber"/>
+      <value style="element" name="MPOCaseNum" test-method="ifMPOCaseNum" get-method="getMPOCaseNum" set-method="setMPOCaseNum" usage="optional"/>
+    </structure>
+    <structure map-as="catWH_ru:WHCargoPlaceType" get-method="getCargoPlace" set-method="setCargoPlace" usage="optional" name="CargoPlace"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getBruttoVolQuant" set-method="setBruttoVolQuant" usage="optional" name="BruttoVolQuant"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getMeasureQuantity" set-method="setMeasureQuantity" usage="optional" name="MeasureQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WhGoodsExtendedType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhGoodsExtendedType">
+    <structure map-as="catWH_ru:WhGoodType"/>
+    <value style="element" name="GoodsWHNumber" get-method="getGoodsWHNumber" set-method="setGoodsWHNumber"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="MPOCaseNumder" get-method="getMPOCaseNumder" set-method="setMPOCaseNumder" usage="optional"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getMpoBillBruttoVolQuant" set-method="setMpoBillBruttoVolQuant" usage="optional" name="MpoBillBruttoVolQuant"/>
+    <structure map-as="catWH_ru:WHAngarType" get-method="getKeepingPlace" set-method="setKeepingPlace" usage="optional" name="KeepingPlace"/>
+    <structure map-as="catWH_ru:WHKeepingLimitType" get-method="getKeepingLimit" set-method="setKeepingLimit" name="KeepingLimit"/>
+    <collection get-method="getCustomsControlList" set-method="setCustomsControlList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHCustomsControlType" name="CustomsControls"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WhPresentDocType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhPresentDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WhTransportDocType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportDocType">
+    <structure map-as="catWH_ru:WhPresentDocType"/>
+    <collection get-method="getCompletteList" set-method="setCompletteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CompletteList" type="java.lang.String"/>
+    </collection>
+    <structure map-as="catWH_ru:TransportDocRegNumType" get-method="getCustomNumber" set-method="setCustomNumber" usage="optional" name="CustomNumber"/>
+    <structure map-as="catWH_ru:ConsignorType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="catWH_ru:ConsigneeType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+  </mapping>
+  <mapping abstract="true" type-name="catWH_ru:WhTransportType" class="ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportType">
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+    <value style="element" name="TransportIdentifier" get-method="getTransportIdentifier" set-method="setTransportIdentifier"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="catWH_ru:AviaParticularsType" test-method="ifAvia" get-method="getAvia" set-method="setAvia" usage="optional" name="Avia"/>
+      <structure map-as="catWH_ru:AvtoParticularsType" test-method="ifAvto" get-method="getAvto" set-method="setAvto" usage="optional" name="Avto"/>
+      <structure map-as="catWH_ru:RailRoadParticularsType" test-method="ifRailRoad" get-method="getRailRoad" set-method="setRailRoad" usage="optional" name="RailRoad"/>
+      <structure map-as="catWH_ru:SeaParticularsType" test-method="ifSea" get-method="getSea" set-method="setSea" usage="optional" name="Sea"/>
+    </structure>
+  </mapping>
+</binding>

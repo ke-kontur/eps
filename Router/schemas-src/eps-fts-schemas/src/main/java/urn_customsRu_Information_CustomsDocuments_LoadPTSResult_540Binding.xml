@@ -1,0 +1,23 @@
+<binding xmlns:upts="urn:customs.ru:Information:CustomsDocuments:LoadPTSResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:LoadPTSResult:5.4.0" default="elements" prefix="upts"/>
+  <mapping abstract="true" type-name="upts:LoadPTSResultType" class="ru.acs.fts.schemas.album.loadptsresult.LoadPTSResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="upts:ProtocolProcessingPacketType" get-method="getProtocolProcessingPacket" set-method="setProtocolProcessingPacket" name="ProtocolProcessingPacket"/>
+    <collection get-method="getProtocolProcessingFormList" set-method="setProtocolProcessingFormList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="upts:ProtocolProcessingFormType" name="ProtocolProcessingForm"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.loadptsresult.LoadPTSResultType" name="LoadPTSResult">
+    <structure map-as="upts:LoadPTSResultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="upts:ProtocolProcessingFormType" class="ru.acs.fts.schemas.album.loadptsresult.ProtocolProcessingFormType">
+    <value style="element" name="MSG_Code" get-method="getMSGCode" set-method="setMSGCode"/>
+    <value style="element" name="GUID" get-method="getGUID" set-method="setGUID"/>
+    <value style="element" name="AddInformation" get-method="getAddInformation" set-method="setAddInformation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="upts:ProtocolProcessingPacketType" class="ru.acs.fts.schemas.album.loadptsresult.ProtocolProcessingPacketType">
+    <value style="element" name="MSG_Code" get-method="getMSGCode" set-method="setMSGCode"/>
+    <value style="element" name="AddInformation" get-method="getAddInformation" set-method="setAddInformation" usage="optional"/>
+  </mapping>
+</binding>

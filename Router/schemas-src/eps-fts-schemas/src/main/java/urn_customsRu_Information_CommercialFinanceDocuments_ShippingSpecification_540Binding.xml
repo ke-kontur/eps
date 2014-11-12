@@ -1,0 +1,39 @@
+<binding xmlns:ss="urn:customs.ru:Information:CommercialFinanceDocuments:ShippingSpecification:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ShippingSpecification:5.4.0" default="elements" prefix="ss"/>
+  <mapping abstract="true" type-name="ss:ShippingSpecificationType" class="ru.acs.fts.schemas.album.shippingspecification.ShippingSpecificationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getSpecification" set-method="setSpecification" name="Specification"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getActivitiesAgreement" set-method="setActivitiesAgreement" name="ActivitiesAgreement"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getSender" set-method="setSender" name="Sender"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getReceiver" set-method="setReceiver" name="Receiver"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="ss:GoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.shippingspecification.ShippingSpecificationType" name="ShippingSpecification">
+    <structure map-as="ss:ShippingSpecificationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ss:GoodsType" class="ru.acs.fts.schemas.album.shippingspecification.GoodsType">
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+    <value style="element" name="GoodMarking" get-method="getGoodMarking" set-method="setGoodMarking" usage="optional"/>
+    <value style="element" name="Articul" get-method="getArticul" set-method="setArticul"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED" usage="optional"/>
+    <collection get-method="getPakageNumberList" set-method="setPakageNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PakageNumber" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="Price" get-method="getPrice" set-method="setPrice" usage="optional"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+    <structure map-as="catComFin_ru:GoodsWeightType" get-method="getWeight" set-method="setWeight" usage="optional" name="Weight"/>
+    <structure map-as="catESAD_cu:ESADContainerType" get-method="getTransport" set-method="setTransport" usage="optional" name="Transport"/>
+    <structure map-as="catComFin_ru:GoodsPlaceType" get-method="getPlace" set-method="setPlace" usage="optional" name="Place"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getQualityDocument" set-method="setQualityDocument" name="QualityDocument"/>
+  </mapping>
+</binding>

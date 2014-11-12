@@ -1,0 +1,19 @@
+<binding xmlns:pri="urn:customs.ru:Information:CustomsDocuments:PreviousRequestInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PreviousRequestInfo:5.4.0" default="elements" prefix="pri"/>
+  <mapping abstract="true" type-name="pri:PreviousRequestInfoType" class="ru.acs.fts.schemas.album.previousrequestinfo.PreviousRequestInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PreviousRequestSign" get-method="getPreviousRequestSign" set-method="setPreviousRequestSign"/>
+    <collection get-method="getPreviousRequestList" set-method="setPreviousRequestList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pri:PreviousRequestsType" name="PreviousRequests"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.previousrequestinfo.PreviousRequestInfoType" name="PreviousRequestInfo">
+    <structure map-as="pri:PreviousRequestInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pri:PreviousRequestsType" class="ru.acs.fts.schemas.album.previousrequestinfo.PreviousRequestsType">
+    <value style="element" name="PreviousRequestDate" get-method="getPreviousRequestDate" set-method="setPreviousRequestDate" format="LocalDate.default"/>
+    <value style="element" name="PreviousRequestTime" get-method="getPreviousRequestTime" set-method="setPreviousRequestTime" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+  </mapping>
+</binding>

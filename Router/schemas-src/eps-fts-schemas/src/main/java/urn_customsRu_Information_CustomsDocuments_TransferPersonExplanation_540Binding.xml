@@ -1,0 +1,41 @@
+<binding xmlns:tpex="urn:customs.ru:Information:CustomsDocuments:TransferPersonExplanation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransferPersonExplanation:5.4.0" default="elements" prefix="tpex"/>
+  <mapping abstract="true" type-name="tpex:TransferPersonExplanationType" class="ru.acs.fts.schemas.album.transferpersonexplanation.TransferPersonExplanationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsOffice" set-method="setCustomsOffice" name="CustomsOffice"/>
+    <structure map-as="tpex:ExplanationPersonType" get-method="getExplanationPerson" set-method="setExplanationPerson" name="ExplanationPerson"/>
+    <structure map-as="tpex:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="tpex:TransferDocsType" get-method="getTransferDocs" set-method="setTransferDocs" usage="optional" name="TransferDocs"/>
+    <structure map-as="tpex:ExplanationTextType" get-method="getExplanationText" set-method="setExplanationText" name="ExplanationText"/>
+    <structure map-as="tpex:CustomsMarkType" get-method="getCustomsMark" set-method="setCustomsMark" usage="optional" name="CustomsMark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transferpersonexplanation.TransferPersonExplanationType" name="TransferPersonExplanation">
+    <structure map-as="tpex:TransferPersonExplanationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpex:CustomsMarkType" class="ru.acs.fts.schemas.album.transferpersonexplanation.CustomsMarkType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <value style="element" name="ReceiveDate" get-method="getReceiveDate" set-method="setReceiveDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpex:DeclarantType" class="ru.acs.fts.schemas.album.transferpersonexplanation.DeclarantType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDeclContract" set-method="setDeclContract" usage="optional" name="DeclContract"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpex:ExplanationPersonType" class="ru.acs.fts.schemas.album.transferpersonexplanation.ExplanationPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="PersonOrganization" get-method="getPersonOrganization" set-method="setPersonOrganization"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpex:ExplanationTextType" class="ru.acs.fts.schemas.album.transferpersonexplanation.ExplanationTextType">
+    <collection get-method="getTextLineList" set-method="setTextLineList" create-type="java.util.ArrayList">
+      <value style="element" name="TextLine" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="tpex:TransferDocsType" class="ru.acs.fts.schemas.album.transferpersonexplanation.TransferDocsType">
+    <collection get-method="getPresentDocList" set-method="setPresentDocList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="PresentDoc"/>
+    </collection>
+  </mapping>
+</binding>

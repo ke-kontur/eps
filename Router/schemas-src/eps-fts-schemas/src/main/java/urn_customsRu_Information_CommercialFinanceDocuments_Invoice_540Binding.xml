@@ -1,0 +1,55 @@
+<binding xmlns:inv="urn:customs.ru:Information:CommercialFinanceDocuments:Invoice:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:Invoice:5.4.0" default="elements" prefix="inv"/>
+  <mapping abstract="true" type-name="inv:InvoiceType" class="ru.acs.fts.schemas.album.invoice.InvoiceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="PlacesDescription" get-method="getPlacesDescription" set-method="setPlacesDescription" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="GCost" get-method="getGCost" set-method="setGCost"/>
+    <value style="element" name="Discount" get-method="getDiscount" set-method="setDiscount" usage="optional"/>
+    <value style="element" name="DiscountPercentage" get-method="getDiscountPercentage" set-method="setDiscountPercentage" usage="optional"/>
+    <value style="element" name="TransportCharges" get-method="getTransportCharges" set-method="setTransportCharges" usage="optional"/>
+    <value style="element" name="InsuranceCharges" get-method="getInsuranceCharges" set-method="setInsuranceCharges" usage="optional"/>
+    <value style="element" name="OtherCharges" get-method="getOtherCharges" set-method="setOtherCharges" usage="optional"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="PaymentPeriod" get-method="getPaymentPeriod" set-method="setPaymentPeriod" usage="optional"/>
+    <structure map-as="inv:InvoiceParticipantInfType" get-method="getBuyer" set-method="setBuyer" name="Buyer"/>
+    <structure map-as="inv:InvoiceParticipantInfType" get-method="getSeler" set-method="setSeler" name="Seler"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <collection get-method="getInvoiceGoodList" set-method="setInvoiceGoodList" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:InvoiceGoodsType" name="InvoiceGoods"/>
+    </collection>
+    <structure map-as="inv:InvoiceDeliveryTermsType" get-method="getDeliveryTerms" set-method="setDeliveryTerms" name="DeliveryTerms"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:TransportMeansType" name="TransportMeans"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <collection get-method="getEnclosureList" set-method="setEnclosureList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Enclosure"/>
+    </collection>
+    <structure map-as="catComFin_ru:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.invoice.InvoiceType" name="Invoice">
+    <structure map-as="inv:InvoiceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="inv:InvoiceDeliveryTermsType" class="ru.acs.fts.schemas.album.invoice.InvoiceDeliveryTermsType">
+    <structure map-as="catComFin_ru:ContractDeliveryTermsType"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode"/>
+    <value style="element" name="TradingCountryCode" get-method="getTradingCountryCode" set-method="setTradingCountryCode"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode"/>
+    <value style="element" name="Deadline" get-method="getDeadline" set-method="setDeadline" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="inv:InvoiceParticipantInfType" class="ru.acs.fts.schemas.album.invoice.InvoiceParticipantInfType">
+    <structure map-as="catComFin_ru:InvoiceParticipantType"/>
+    <collection get-method="getPaymentRequisitionList" set-method="setPaymentRequisitionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:PaymentRequisitionsType" name="PaymentRequisitions"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+  </mapping>
+</binding>

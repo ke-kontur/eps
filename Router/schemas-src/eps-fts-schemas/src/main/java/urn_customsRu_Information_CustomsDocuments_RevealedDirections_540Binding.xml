@@ -1,0 +1,30 @@
+<binding xmlns:rdir="urn:customs.ru:Information:CustomsDocuments:RevealedDirections:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RevealedDirections:5.4.0" default="elements" prefix="rdir"/>
+  <mapping abstract="true" type-name="rdir:RevealedDirectionsType" class="ru.acs.fts.schemas.album.revealeddirections.RevealedDirectionsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getDirectionsList" set-method="setDirectionsList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rdir:DirectionsListType" name="DirectionsList"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.revealeddirections.RevealedDirectionsType" name="RevealedDirections">
+    <structure map-as="rdir:RevealedDirectionsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdir:ContactInfoType" class="ru.acs.fts.schemas.album.revealeddirections.ContactInfoType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="ContactPhone" get-method="getContactPhone" set-method="setContactPhone"/>
+    <value style="element" name="ContactDepartament" get-method="getContactDepartament" set-method="setContactDepartament"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdir:DirectionRegNumberType" class="ru.acs.fts.schemas.album.revealeddirections.DirectionRegNumberType">
+    <structure map-as="cat_ru:GTDID5Type"/>
+    <value style="element" name="SeqNumberVersion" get-method="getSeqNumberVersion" set-method="setSeqNumberVersion"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdir:DirectionsListType" class="ru.acs.fts.schemas.album.revealeddirections.DirectionsListType">
+    <value style="element" name="DirectionKind" get-method="getDirectionKind" set-method="setDirectionKind"/>
+    <collection get-method="getInformationTextList" set-method="setInformationTextList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InformationText" type="java.lang.String"/>
+    </collection>
+    <structure map-as="rdir:DirectionRegNumberType" get-method="getDirectionRegNumber" set-method="setDirectionRegNumber" name="DirectionRegNumber"/>
+    <structure map-as="rdir:ContactInfoType" get-method="getContactInfo" set-method="setContactInfo" name="ContactInfo"/>
+  </mapping>
+</binding>

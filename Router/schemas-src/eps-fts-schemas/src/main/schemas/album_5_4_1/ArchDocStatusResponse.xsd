@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" version="5.4.0.0" xmlns:adstr="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0" schemaLocation="ElectronicArchiveCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Статус документа в архиве.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="ArchDocStatusResponse" type="adstr:ArchDocStatusResponseType"/>
+   <xs:complexType name="ArchDocStatusResponseType">
+      <xs:annotation>
+         <xs:documentation>Статус документа в архиве</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catArch_ru:ArchBaseDocType">
+            <xs:sequence>
+               <xs:element name="ArchDocStatus" type="clt_ru:ArchStatusCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Статус документа в архиве</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1005009E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

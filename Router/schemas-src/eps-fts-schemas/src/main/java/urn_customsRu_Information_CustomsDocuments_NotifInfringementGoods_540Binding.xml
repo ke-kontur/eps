@@ -1,0 +1,25 @@
+<binding xmlns:infrig="urn:customs.ru:Information:CustomsDocuments:NotifInfringementGoods:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifInfringementGoods:5.4.0" default="elements" prefix="infrig"/>
+  <mapping abstract="true" type-name="infrig:NotifInfringementGoodsType" class="ru.acs.fts.schemas.album.notifinfringementgoods.NotifInfringementGoodsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getEconomicOperator" set-method="setEconomicOperator" name="EconomicOperator"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+    <collection get-method="getFoundDiscrepancyList" set-method="setFoundDiscrepancyList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="infrig:FoundDiscrepancyType" name="FoundDiscrepancy"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifinfringementgoods.NotifInfringementGoodsType" name="NotifInfringementGoods">
+    <structure map-as="infrig:NotifInfringementGoodsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="infrig:FoundDiscrepancyType" class="ru.acs.fts.schemas.album.notifinfringementgoods.FoundDiscrepancyType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment"/>
+  </mapping>
+</binding>

@@ -1,0 +1,38 @@
+<binding xmlns:mc="urn:customs.ru:Information:SQDocuments:MediaCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MediaCertificate:5.4.0" default="elements" prefix="mc"/>
+  <mapping abstract="true" type-name="mc:MediaCertificateType" class="ru.acs.fts.schemas.album.mediacertificate.MediaCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="MediaName" get-method="getMediaName" set-method="setMediaName" usage="optional"/>
+    <value style="element" name="AdvertisementPercent" get-method="getAdvertisementPercent" set-method="setAdvertisementPercent" usage="optional"/>
+    <value style="element" name="Periodicity" get-method="getPeriodicity" set-method="setPeriodicity" usage="optional"/>
+    <value style="element" name="Specialty" get-method="getSpecialty" set-method="setSpecialty" usage="optional"/>
+    <value style="element" name="Append" get-method="getAppend" set-method="setAppend" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCertificate" set-method="setCertificate" name="Certificate"/>
+    <collection get-method="getLanguageList" set-method="setLanguageList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="mc:MediaInfoType" name="Language"/>
+    </collection>
+    <collection get-method="getFounderList" set-method="setFounderList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUOrganizationType" name="Founder"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getEditorialAddress" set-method="setEditorialAddress" usage="optional" name="EditorialAddress"/>
+    <collection get-method="getMediaTopicList" set-method="setMediaTopicList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="mc:MediaInfoType" name="MediaTopic"/>
+    </collection>
+    <structure map-as="mc:MediaInfoType" get-method="getDistributionForm" set-method="setDistributionForm" usage="optional" name="DistributionForm"/>
+    <structure map-as="mc:DistributionTerritoryType" get-method="getDistributionTerritory" set-method="setDistributionTerritory" usage="optional" name="DistributionTerritory"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getReferenceDoc" set-method="setReferenceDoc" usage="optional" name="ReferenceDoc"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mediacertificate.MediaCertificateType" name="MediaCertificate">
+    <structure map-as="mc:MediaCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mc:DistributionTerritoryType" class="ru.acs.fts.schemas.album.mediacertificate.DistributionTerritoryType">
+    <value style="element" name="RegionCode" get-method="getRegionCode" set-method="setRegionCode" usage="optional"/>
+    <value style="element" name="RegionName" get-method="getRegionName" set-method="setRegionName" usage="optional"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="mc:MediaInfoType" class="ru.acs.fts.schemas.album.mediacertificate.MediaInfoType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+  </mapping>
+</binding>

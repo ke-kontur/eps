@@ -1,0 +1,51 @@
+<binding xmlns:fts="http://www.w3.org/2000/09/xmldsig#">
+  <namespace uri="http://www.w3.org/2000/09/xmldsig#" default="elements" prefix="fts"/>
+  <mapping abstract="true" type-name="fts:SignatureType" class="ru.acs.fts.schemas.envelope.SignatureType">
+    <structure map-as="fts:SignedInfoType" get-method="getSignedInfo" set-method="setSignedInfo" name="SignedInfo"/>
+    <value style="element" name="SignatureValue" get-method="getSignatureValue" set-method="setSignatureValue"/>
+    <structure map-as="fts:KeyInfoType" get-method="getKeyInfo" set-method="setKeyInfo" name="KeyInfo"/>
+    <structure map-as="fts:ObjectType" get-method="getObject" set-method="setObject" name="Object"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.envelope.SignatureType" name="Signature">
+    <structure map-as="fts:SignatureType"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:SignedInfoType" class="ru.acs.fts.schemas.envelope.SignedInfoType">
+    <structure map-as="fts:CanonicalizationMethodType" get-method="getCanonicalizationMethod" set-method="setCanonicalizationMethod" name="CanonicalizationMethod"/>
+    <structure map-as="fts:SignatureMethodType" get-method="getSignatureMethod" set-method="setSignatureMethod" name="SignatureMethod"/>
+    <collection get-method="getReferenceList" set-method="setReferenceList" create-type="java.util.ArrayList">
+      <structure map-as="fts:ReferenceType" name="Reference"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="fts:CanonicalizationMethodType" class="ru.acs.fts.schemas.envelope.CanonicalizationMethodType">
+    <value style="attribute" name="Algorithm" get-method="getAlgorithm" set-method="setAlgorithm"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:SignatureMethodType" class="ru.acs.fts.schemas.envelope.SignatureMethodType">
+    <value style="attribute" name="Algorithm" get-method="getAlgorithm" set-method="setAlgorithm"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:ReferenceType" class="ru.acs.fts.schemas.envelope.ReferenceType">
+    <structure map-as="fts:TransformsType" get-method="getTransforms" set-method="setTransforms" name="Transforms"/>
+    <structure map-as="fts:DigestMethodType" get-method="getDigestMethod" set-method="setDigestMethod" name="DigestMethod"/>
+    <value style="element" name="DigestValue" get-method="getDigestValue" set-method="setDigestValue"/>
+    <value style="attribute" name="URI" get-method="getURI" set-method="setURI"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:TransformsType" class="ru.acs.fts.schemas.envelope.TransformsType">
+    <structure map-as="fts:TransformType" get-method="getTransform" set-method="setTransform" name="Transform"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:TransformType" class="ru.acs.fts.schemas.envelope.TransformType">
+    <value style="attribute" name="Algorithm" get-method="getAlgorithm" set-method="setAlgorithm"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:DigestMethodType" class="ru.acs.fts.schemas.envelope.DigestMethodType">
+    <value style="attribute" name="Algorithm" get-method="getAlgorithm" set-method="setAlgorithm"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:KeyInfoType" class="ru.acs.fts.schemas.envelope.KeyInfoType">
+    <structure map-as="fts:X509DataType" get-method="getX509Data" set-method="setX509Data" name="X509Data"/>
+    <value style="attribute" name="Id" get-method="getId" set-method="setId"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:X509DataType" class="ru.acs.fts.schemas.envelope.X509DataType">
+    <value style="element" name="X509Certificate" get-method="getX509Certificate" set-method="setX509Certificate"/>
+  </mapping>
+  <mapping abstract="true" type-name="fts:ObjectType" class="ru.acs.fts.schemas.envelope.ObjectType">
+    <structure get-method="getAny" set-method="setAny" usage="optional"/>
+    <value style="attribute" name="Id" get-method="getId" set-method="setId"/>
+  </mapping>
+</binding>

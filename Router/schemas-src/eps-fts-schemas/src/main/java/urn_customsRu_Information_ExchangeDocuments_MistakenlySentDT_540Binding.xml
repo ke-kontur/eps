@@ -1,0 +1,20 @@
+<binding xmlns:mstkDT="urn:customs.ru:Information:ExchangeDocuments:MistakenlySentDT:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:MistakenlySentDT:5.4.0" default="elements" prefix="mstkDT"/>
+  <mapping abstract="true" type-name="mstkDT:MistakenlySentDTType" class="ru.acs.fts.schemas.album.mistakenlysentdt.MistakenlySentDTType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ProcedureID" get-method="getProcedureID" set-method="setProcedureID"/>
+    <value style="element" name="DeclarationID" get-method="getDeclarationID" set-method="setDeclarationID"/>
+    <value style="element" name="CreateDate" get-method="getCreateDate" set-method="setCreateDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CreateTime" get-method="getCreateTime" set-method="setCreateTime" usage="optional"/>
+    <structure map-as="mstkDT:DecisionType" get-method="getDecision" set-method="setDecision" name="Decision"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getDecisionCustoms" set-method="setDecisionCustoms" name="DecisionCustoms"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mistakenlysentdt.MistakenlySentDTType" name="MistakenlySentDT">
+    <structure map-as="mstkDT:MistakenlySentDTType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mstkDT:DecisionType" class="ru.acs.fts.schemas.album.mistakenlysentdt.DecisionType">
+    <value style="element" name="DecisionDescription" get-method="getDecisionDescription" set-method="setDecisionDescription"/>
+    <value style="element" name="Reasons" get-method="getReasons" set-method="setReasons" usage="optional"/>
+  </mapping>
+</binding>

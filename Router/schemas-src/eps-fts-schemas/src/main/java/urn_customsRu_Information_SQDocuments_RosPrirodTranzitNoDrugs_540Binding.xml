@@ -1,0 +1,29 @@
+<binding xmlns:trndrg="urn:customs.ru:Information:SQDocuments:RosPrirodTranzitNoDrugs:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPrirodTranzitNoDrugs:5.4.0" default="elements" prefix="trndrg"/>
+  <mapping abstract="true" type-name="trndrg:RosPrirodTranzitNoDrugsType" class="ru.acs.fts.schemas.album.rosprirodtranzitnodrugs.RosPrirodTranzitNoDrugsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocumentId" get-method="getDocumentId" set-method="setDocumentId"/>
+    <value style="element" name="AuthorizedPerson" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional"/>
+    <structure map-as="sq_cat:ConclusionType" get-method="getConclusion" set-method="setConclusion" usage="optional" name="Conclusion"/>
+    <collection get-method="getObjectList" set-method="setObjectList" create-type="java.util.ArrayList">
+      <structure map-as="trndrg:ObjectType" name="Object"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rosprirodtranzitnodrugs.RosPrirodTranzitNoDrugsType" name="RosPrirodTranzitNoDrugs">
+    <structure map-as="trndrg:RosPrirodTranzitNoDrugsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="trndrg:ObjectType" class="ru.acs.fts.schemas.album.rosprirodtranzitnodrugs.ObjectType">
+    <collection get-method="getInfoList" set-method="setInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Info" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED" usage="optional"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getSender" set-method="setSender" usage="optional" name="Sender"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getReceiver" set-method="setReceiver" usage="optional" name="Receiver"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getCount" set-method="setCount" name="Count"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+  </mapping>
+</binding>

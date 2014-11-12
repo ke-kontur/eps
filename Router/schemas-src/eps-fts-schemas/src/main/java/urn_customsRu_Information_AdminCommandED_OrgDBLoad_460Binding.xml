@@ -1,0 +1,59 @@
+<binding xmlns:odl="urn:customs.ru:Information:AdminCommandED:OrgDBLoad:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:AdminCommandED:OrgDBLoad:4.6.0" default="elements" prefix="odl"/>
+  <mapping abstract="true" type-name="odl:OrgDBLoadType" class="ru.acs.fts.schemas.admin.orgdbload.OrgDBLoadType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="element" name="LoadDateTime" get-method="getLoadDateTime" set-method="setLoadDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <collection get-method="getOrgInfoList" set-method="setOrgInfoList" create-type="java.util.ArrayList">
+      <structure map-as="odl:OrgInfoType" name="OrgInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.orgdbload.OrgDBLoadType" name="OrgDBLoad">
+    <structure map-as="odl:OrgDBLoadType"/>
+  </mapping>
+  <mapping abstract="true" type-name="odl:DocumentGroundConnectionType" class="ru.acs.fts.schemas.admin.orgdbload.DocumentGroundConnectionType">
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="odl:OrgInfoType" class="ru.acs.fts.schemas.admin.orgdbload.OrgInfoType">
+    <value style="element" name="OrgName" get-method="getOrgName" set-method="setOrgName"/>
+    <value style="element" name="OrgMail" get-method="getOrgMail" set-method="setOrgMail" usage="optional"/>
+    <value style="element" name="OGRN" get-method="getOGRN" set-method="setOGRN"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP"/>
+    <value style="element" name="E_MAIL" get-method="getEMAIL" set-method="setEMAIL" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="InfBrokerFlag" get-method="getInfBrokerFlag" set-method="setInfBrokerFlag"/>
+    <collection get-method="getPtpcInfoList" set-method="setPtpcInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="odl:PtpcInfoType" name="PtpcInfo"/>
+    </collection>
+    <collection get-method="getPersonInfoList" set-method="setPersonInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="odl:PersonInfoType" name="PersonInfo"/>
+    </collection>
+    <structure map-as="odl:DocumentGroundConnectionType" get-method="getGroundConnectionOrg" set-method="setGroundConnectionOrg" usage="optional" name="GroundConnectionOrg"/>
+  </mapping>
+  <mapping abstract="true" type-name="odl:PersonInfoType" class="ru.acs.fts.schemas.admin.orgdbload.PersonInfoType">
+    <value style="element" name="PrsnLastName" get-method="getPrsnLastName" set-method="setPrsnLastName"/>
+    <value style="element" name="PrsnName" get-method="getPrsnName" set-method="setPrsnName" usage="optional"/>
+    <value style="element" name="PrsnSecondName" get-method="getPrsnSecondName" set-method="setPrsnSecondName" usage="optional"/>
+    <value style="element" name="ContactPhone" get-method="getContactPhone" set-method="setContactPhone" usage="optional"/>
+    <value style="element" name="E_MAIL" get-method="getEMAIL" set-method="setEMAIL" usage="optional"/>
+    <value style="element" name="PrsnPost" get-method="getPrsnPost" set-method="setPrsnPost" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="odl:PtpcInfoType" class="ru.acs.fts.schemas.admin.orgdbload.PtpcInfoType">
+    <value style="element" name="ParticipantID" get-method="getParticipantID" set-method="setParticipantID" usage="optional"/>
+    <value style="element" name="E_mailFlag" get-method="getEMailFlag" set-method="setEMailFlag" usage="optional"/>
+    <value style="element" name="Protocol" get-method="getProtocol" set-method="setProtocol" usage="optional"/>
+    <value style="element" name="PTPC_Name" get-method="getPTPCName" set-method="setPTPCName"/>
+    <value style="element" name="TransferType" get-method="getTransferType" set-method="setTransferType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="BrokerID" get-method="getBrokerID" set-method="setBrokerID" usage="optional"/>
+    <value style="element" name="IPSID" get-method="getIPSID" set-method="setIPSID" usage="optional"/>
+    <value style="element" name="Address" get-method="getAddress" set-method="setAddress" usage="optional"/>
+    <value style="element" name="SVXSign" get-method="getSVXSign" set-method="setSVXSign" usage="optional"/>
+    <value style="element" name="SVXID" get-method="getSVXID" set-method="setSVXID" usage="optional"/>
+    <structure map-as="odl:DocumentGroundConnectionType" get-method="getGroundConnectionPtpc" set-method="setGroundConnectionPtpc" usage="optional" name="GroundConnectionPtpc"/>
+  </mapping>
+</binding>

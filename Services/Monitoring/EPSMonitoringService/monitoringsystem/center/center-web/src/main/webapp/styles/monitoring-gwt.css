@@ -1,0 +1,29 @@
+.NORMAL_List {
+  color:#74DF00;
+  padding-right: 2pt;
+  align:center;
+}
+
+.INFO_List {
+  color:green; 
+  padding-right: 2pt;
+  align:center;
+}
+ 	
+.ERROR_List {
+  color:red;
+  padding-right: 2pt;
+  align:center;
+}
+	
+.WARNING_List {
+  color: #FFC700;
+  padding-right: 2pt;
+  align:center;
+}
+	
+.UNAVAILABLE_List {
+  color:gray;
+  padding-right: 2pt;
+  align:center;
+}

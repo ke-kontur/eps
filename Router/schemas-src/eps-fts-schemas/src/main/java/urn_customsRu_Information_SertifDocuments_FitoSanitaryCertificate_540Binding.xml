@@ -1,0 +1,64 @@
+<binding xmlns:fsc="urn:customs.ru:Information:SertifDocuments:FitoSanitaryCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:FitoSanitaryCertificate:5.4.0" default="elements" prefix="fsc"/>
+  <mapping abstract="true" type-name="fsc:FitoSanitaryCertificateType" class="ru.acs.fts.schemas.album.fitosanitarycertificate.FitoSanitaryCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CertNumber" get-method="getCertNumber" set-method="setCertNumber"/>
+    <collection get-method="getAddDeclarationList" set-method="setAddDeclarationList" create-type="java.util.ArrayList">
+      <value style="element" name="AddDeclaration" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getOrganizationQuarantineList" set-method="setOrganizationQuarantineList" create-type="java.util.ArrayList">
+      <structure map-as="fsc:OrganizationQuarantineType" name="OrganizationQuarantine"/>
+    </collection>
+    <structure map-as="fsc:DescriptionConsignmentType" get-method="getDescriptionConsignment" set-method="setDescriptionConsignment" name="DescriptionConsignment"/>
+    <structure map-as="fsc:DesinfestationType" get-method="getDesinfestation" set-method="setDesinfestation" usage="optional" name="Desinfestation"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPlaceIssue" set-method="setPlaceIssue" name="PlaceIssue"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.fitosanitarycertificate.FitoSanitaryCertificateType" name="FitoSanitaryCertificate">
+    <structure map-as="fsc:FitoSanitaryCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="fsc:DescriptionConsignmentType" class="ru.acs.fts.schemas.album.fitosanitarycertificate.DescriptionConsignmentType">
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="TransMeans" get-method="getTransMeans" set-method="setTransMeans"/>
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="PlantName" get-method="getPlantName" set-method="setPlantName" usage="optional"/>
+    <value style="element" name="DeclaredPoint" get-method="getDeclaredPoint" set-method="setDeclaredPoint" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getExporter" set-method="setExporter" name="Exporter"/>
+    <structure map-as="fsc:PackagingType" get-method="getPackaging" set-method="setPackaging" usage="optional" name="Packaging"/>
+    <collection get-method="getExciseList" set-method="setExciseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="fsc:ExciseType" name="Excise"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="fsc:DesinfestationType" class="ru.acs.fts.schemas.album.fitosanitarycertificate.DesinfestationType">
+    <value style="element" name="DateDesinfestation" get-method="getDateDesinfestation" set-method="setDateDesinfestation" format="LocalDate.default"/>
+    <value style="element" name="TreatmentMethod" get-method="getTreatmentMethod" set-method="setTreatmentMethod" usage="optional"/>
+    <value style="element" name="Chemical" get-method="getChemical" set-method="setChemical" usage="optional"/>
+    <value style="element" name="Duration" get-method="getDuration" set-method="setDuration" usage="optional"/>
+    <value style="element" name="Temperature" get-method="getTemperature" set-method="setTemperature" usage="optional"/>
+    <value style="element" name="Concentration" get-method="getConcentration" set-method="setConcentration" usage="optional"/>
+    <collection get-method="getAddInfoList" set-method="setAddInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AddInfo" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="fsc:ExciseType" class="ru.acs.fts.schemas.album.fitosanitarycertificate.ExciseType">
+    <value style="element" name="ExciseSerieses" get-method="getExciseSerieses" set-method="setExciseSerieses" usage="optional"/>
+    <collection get-method="getExciseDescriptionList" set-method="setExciseDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="ExciseDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="fsc:OrganizationQuarantineType" class="ru.acs.fts.schemas.album.fitosanitarycertificate.OrganizationQuarantineType">
+    <value style="element" name="CounryName" get-method="getCounryName" set-method="setCounryName" usage="optional"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+  </mapping>
+  <mapping abstract="true" type-name="fsc:PackagingType" class="ru.acs.fts.schemas.album.fitosanitarycertificate.PackagingType">
+    <value style="element" name="PlacesQiantity" get-method="getPlacesQiantity" set-method="setPlacesQiantity"/>
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity" usage="optional"/>
+  </mapping>
+</binding>

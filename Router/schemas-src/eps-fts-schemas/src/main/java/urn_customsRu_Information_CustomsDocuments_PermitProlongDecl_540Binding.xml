@@ -1,0 +1,16 @@
+<binding xmlns:ppd="urn:customs.ru:Information:CustomsDocuments:PermitProlongDecl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PermitProlongDecl:5.4.0" default="elements" prefix="ppd"/>
+  <mapping abstract="true" type-name="ppd:PermitProlongDeclType" class="ru.acs.fts.schemas.album.permitprolongdecl.PermitProlongDeclType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PermitNumber" get-method="getPermitNumber" set-method="setPermitNumber"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="ProlongDeclDate" get-method="getProlongDeclDate" set-method="setProlongDeclDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitprolongdecl.PermitProlongDeclType" name="PermitProlongDecl">
+    <structure map-as="ppd:PermitProlongDeclType"/>
+  </mapping>
+</binding>

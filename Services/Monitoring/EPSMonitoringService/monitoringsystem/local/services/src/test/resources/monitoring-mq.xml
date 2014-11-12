@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+	<queueManager name="RU.FTS.GNIVC.RNTS.APP" port="1420"
+		host="192.168.23.83" channel="SRV.CONN" localManager="false">
+		<queue name="RNTS.SYNC.ERRORS" maxDepth="2" maxInterval="2" />
+		<queue name="RNTS.ERRORS" maxDepth="2" maxInterval="2" />
+	</queueManager>
+	
+	<queueManager name="RU.FTS.CTU.RNTS.APP" port="1414"
+		host="192.168.23.83" channel="SRV.CONN" localManager="false">
+		<queue name="RNTS.SYNC.ERRORS" maxDepth="2" maxInterval="2" />
+		<queue name="RNTS.ERRORS" maxDepth="2" maxInterval="2" />
+	</queueManager>
+<!-- 
+	<bean class="ru.acs.fts.mqmonitoring.QManagerMonitorConfig">
+		<property name="QManagerName" value="RU.FTS.GNIVC.RNTS.APP" />
+		<property name="port" value="1420" />
+		<property name="host" value="192.168.23.83" />
+		<property name="channel" value="SRV.CONN" />
+		<property name="localManager" value="false" />
+		<property name="queueMonitorConfigs">
+			<list>
+				<bean class="ru.acs.fts.mqmonitoring.QueueMonitorConfig">
+					<property name="queueName" value="RNTS.SYNC.ERRORS" />
+					<property name="maxDepth" value="2" />
+					<property name="maxInterval" value="2" />
+				</bean>
+				<bean class="ru.acs.fts.mqmonitoring.QueueMonitorConfig">
+					<property name="queueName" value="RNTS.ERRORS" />
+					<property name="maxDepth" value="2" />
+					<property name="maxInterval" value="2" />
+				</bean>
+
+			</list>
+		</property>
+	</bean>
+	
+	<bean class="ru.acs.fts.mqmonitoring.QManagerMonitorConfig">
+		<property name="QManagerName" value="RU.FTS.CTU.RNTS.APP" />
+		<property name="port" value="1414" />
+		<property name="host" value="192.168.23.83" />
+		<property name="channel" value="SRV.CONN" />
+		<property name="localManager" value="false" />
+		<property name="queueMonitorConfigs">
+			<list>
+				<bean class="ru.acs.fts.mqmonitoring.QueueMonitorConfig">
+					<property name="queueName" value="RNTS.SYNC.ERRORS" />
+					<property name="maxDepth" value="2" />
+					<property name="maxInterval" value="2" />
+				</bean>
+				<bean class="ru.acs.fts.mqmonitoring.QueueMonitorConfig">
+					<property name="queueName" value="RNTS.ERRORS" />
+					<property name="maxDepth" value="2" />
+					<property name="maxInterval" value="2" />
+				</bean>
+
+			</list>
+		</property>
+	</bean>
+ -->
+</monitoring>

@@ -1,0 +1,25 @@
+<binding xmlns:stc="urn:customs.ru:Information:ExchangeDocuments:StopGoodsCancel:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:StopGoodsCancel:5.4.0" default="elements" prefix="stc"/>
+  <mapping abstract="true" type-name="stc:StopGoodsCancelType" class="ru.acs.fts.schemas.album.stopgoodscancel.StopGoodsCancelType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="CancelIssueDate" get-method="getCancelIssueDate" set-method="setCancelIssueDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDeclarationNumber" set-method="setDeclarationNumber" name="DeclarationNumber"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="stc:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.stopgoodscancel.StopGoodsCancelType" name="StopGoodsCancel">
+    <structure map-as="stc:StopGoodsCancelType"/>
+  </mapping>
+  <mapping abstract="true" type-name="stc:GoodsInfoType" class="ru.acs.fts.schemas.album.stopgoodscancel.GoodsInfoType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescriptions" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

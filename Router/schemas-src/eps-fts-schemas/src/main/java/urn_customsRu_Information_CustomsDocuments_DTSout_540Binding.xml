@@ -1,0 +1,43 @@
+<binding xmlns:DTSout="urn:customs.ru:Information:CustomsDocuments:DTSout:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:cat_EDTS_cu="urn:customs.ru:CUESADDTSCommonAggregateTypes:5.4.0" xmlns:cat_EDTS_ru="urn:customs.ru:RUESADDTSCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DTSout:5.4.0" default="elements" prefix="DTSout"/>
+  <mapping abstract="true" type-name="DTSout:DTSoutType" class="ru.acs.fts.schemas.album.dtsout.DTSoutType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsCostMethodCode" get-method="getCustomsCostMethodCode" set-method="setCustomsCostMethodCode"/>
+    <value style="element" name="BaseMethodCode" get-method="getBaseMethodCode" set-method="setBaseMethodCode" usage="optional"/>
+    <value style="element" name="AdditionalSheetNumber" get-method="getAdditionalSheetNumber" set-method="setAdditionalSheetNumber"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <value style="element" name="CurrencyDate" get-method="getCurrencyDate" set-method="setCurrencyDate" format="LocalDate.default"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+    <value style="element" name="FormDTS" get-method="getFormDTS" set-method="setFormDTS"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDTSoutSeller" set-method="setDTSoutSeller" name="DTSoutSeller"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDTSoutBuyer" set-method="setDTSoutBuyer" name="DTSoutBuyer"/>
+    <collection get-method="getDTSInvoiceDocumentList" set-method="setDTSInvoiceDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:DTSPresentedDocumentsType" name="DTSInvoiceDocuments"/>
+    </collection>
+    <structure map-as="cat_EDTS_cu:DTSBuyerSellerDependenceType" get-method="getDTSBuyerSellerDependence" set-method="setDTSBuyerSellerDependence" usage="optional" name="DTSBuyerSellerDependence"/>
+    <structure map-as="cat_EDTS_cu:DTSSellingLimitationType" get-method="getDTSSellingLimitation" set-method="setDTSSellingLimitation" usage="optional" name="DTSSellingLimitation"/>
+    <structure map-as="cat_EDTS_cu:DTSAdditionalPaymentsType" get-method="getDTSAdditionalPayments" set-method="setDTSAdditionalPayments" usage="optional" name="DTSAdditionalPayments"/>
+    <structure map-as="cat_EDTS_cu:ReasonApplyMethodType" get-method="getReasonApplyMethod" set-method="setReasonApplyMethod" usage="optional" name="ReasonApplyMethod"/>
+    <collection get-method="getDTSGoodsCustomsCostList" set-method="setDTSGoodsCustomsCostList" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_ru:DTSGoodsCustomsCostType" name="DTSGoodsCustomsCost"/>
+    </collection>
+    <structure map-as="DTSout:DTSoutFilledPersonType" get-method="getDTSoutFilledPerson" set-method="setDTSoutFilledPerson" name="DTSoutFilledPerson"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDTSoutDeclarant" set-method="setDTSoutDeclarant" name="DTSoutDeclarant"/>
+    <collection get-method="getCostConfirmationDocumentList" set-method="setCostConfirmationDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:CostConfirmationDocumentType" name="CostConfirmationDocument"/>
+    </collection>
+    <collection get-method="getDeliveryTermList" set-method="setDeliveryTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DeliveryTermsRUType" name="DeliveryTerms"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.dtsout.DTSoutType" name="DTSout">
+    <structure map-as="DTSout:DTSoutType"/>
+  </mapping>
+  <mapping abstract="true" type-name="DTSout:DTSoutFilledPersonType" class="ru.acs.fts.schemas.album.dtsout.DTSoutFilledPersonType">
+    <structure map-as="cat_EDTS_cu:DTSFilledPersonType"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+  </mapping>
+</binding>

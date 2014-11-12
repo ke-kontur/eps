@@ -1,0 +1,43 @@
+<binding xmlns:ceru="urn:customs.ru:Information:CustomsDocuments:CustExpertResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CustExpertResult:5.4.0" default="elements" prefix="ceru"/>
+  <mapping abstract="true" type-name="ceru:CustExpertResultType" class="ru.acs.fts.schemas.album.custexpertresult.CustExpertResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsName" get-method="getCustomsName" set-method="setCustomsName"/>
+    <value style="element" name="ControlNumber" get-method="getControlNumber" set-method="setControlNumber" usage="optional"/>
+    <value style="element" name="AdminInfractionNumber" get-method="getAdminInfractionNumber" set-method="setAdminInfractionNumber" usage="optional"/>
+    <value style="element" name="CriminalCaseNumber" get-method="getCriminalCaseNumber" set-method="setCriminalCaseNumber" usage="optional"/>
+    <value style="element" name="OtherCases" get-method="getOtherCases" set-method="setOtherCases" usage="optional"/>
+    <collection get-method="getDecisionList" set-method="setDecisionList" create-type="java.util.ArrayList">
+      <value style="element" name="Decision" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getExpert" set-method="setExpert" name="Expert"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <collection get-method="getRecEconomicEffectList" set-method="setRecEconomicEffectList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ceru:RecEconomicEffectType" name="RecEconomicEffect"/>
+    </collection>
+    <collection get-method="getConventionalEconomicEffectList" set-method="setConventionalEconomicEffectList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ceru:ConventionalEconomicEffectType" name="ConventionalEconomicEffect"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.custexpertresult.CustExpertResultType" name="CustExpertResult">
+    <structure map-as="ceru:CustExpertResultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ceru:ConventionalEconomicEffectType" class="ru.acs.fts.schemas.album.custexpertresult.ConventionalEconomicEffectType">
+    <structure map-as="ceru:SumType"/>
+    <value style="element" name="Section" get-method="getSection" set-method="setSection"/>
+    <value style="element" name="QuantityDrug" get-method="getQuantityDrug" set-method="setQuantityDrug" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ceru:RecEconomicEffectType" class="ru.acs.fts.schemas.album.custexpertresult.RecEconomicEffectType">
+    <structure map-as="ceru:SumType"/>
+    <value style="element" name="EconomicEffect" get-method="getEconomicEffect" set-method="setEconomicEffect"/>
+  </mapping>
+  <mapping abstract="true" type-name="ceru:SumType" class="ru.acs.fts.schemas.album.custexpertresult.SumType">
+    <value style="element" name="SumWords" get-method="getSumWords" set-method="setSumWords" usage="optional"/>
+    <value style="element" name="SumNumber" get-method="getSumNumber" set-method="setSumNumber" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+  </mapping>
+</binding>

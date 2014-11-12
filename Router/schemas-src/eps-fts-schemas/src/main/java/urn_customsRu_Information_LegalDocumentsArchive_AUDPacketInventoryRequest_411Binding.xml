@@ -1,0 +1,12 @@
+<binding xmlns:apinvreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketInventoryRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketInventoryRequest:4.1.1" default="elements" prefix="apinvreq"/>
+  <mapping abstract="true" type-name="apinvreq:AUD_PacketInventoryRequestType" class="ru.acs.fts.schemas.aud.aud_packetinventoryrequest.AUDPacketInventoryRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="AppliedProcessId" get-method="getAppliedProcessId" set-method="setAppliedProcessId" usage="optional"/>
+    <structure map-as="catAUD_ru:AUD_GTDIDType" get-method="getAUDGTDID" set-method="setAUDGTDID" usage="optional" name="AUD_GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_packetinventoryrequest.AUDPacketInventoryRequestType" name="AUD_PacketInventoryRequest">
+    <structure map-as="apinvreq:AUD_PacketInventoryRequestType"/>
+  </mapping>
+</binding>

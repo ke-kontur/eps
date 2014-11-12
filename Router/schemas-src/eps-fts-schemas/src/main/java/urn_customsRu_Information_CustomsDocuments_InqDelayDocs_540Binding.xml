@@ -1,0 +1,23 @@
+<binding xmlns:idd="urn:customs.ru:Information:CustomsDocuments:InqDelayDocs:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InqDelayDocs:5.4.0" default="elements" prefix="idd"/>
+  <mapping abstract="true" type-name="idd:InqDelayDocsType" class="ru.acs.fts.schemas.album.inqdelaydocs.InqDelayDocsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <collection get-method="getDelayDocDescriptionList" set-method="setDelayDocDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="idd:DelayDocDescriptionType" name="DelayDocDescription"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqdelaydocs.InqDelayDocsType" name="InqDelayDocs">
+    <structure map-as="idd:InqDelayDocsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="idd:DelayDocDescriptionType" class="ru.acs.fts.schemas.album.inqdelaydocs.DelayDocDescriptionType">
+    <structure map-as="catESAD_ru:DocumentDescriptionType"/>
+    <value style="element" name="DelayReason" get-method="getDelayReason" set-method="setDelayReason" usage="optional"/>
+    <value style="element" name="DocumentFormSign" get-method="getDocumentFormSign" set-method="setDocumentFormSign" usage="optional"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID" usage="optional"/>
+  </mapping>
+</binding>

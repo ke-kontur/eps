@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="urn:customs.ru:Envelope:Attachments:1.0" elementFormDefault="qualified" version="1.0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:att="urn:customs.ru:Envelope:Attachments:1.0">
+	<xs:annotation>
+		<xs:documentation>Заголовок конверта. Сведения о присоединениях</xs:documentation>
+	</xs:annotation>
+	<xs:element name="Attachments" type="att:AttachmentsType"/>
+	<xs:complexType name="AttachmentsType">
+		<xs:annotation>
+			<xs:documentation>Сведения о присоединениях (используется в случае, если передаются бинарные данные)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Attachment" type="att:AttachmentType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Сведения о присоединении</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AttachmentType">
+		<xs:annotation>
+			<xs:documentation>Сведения о присоединении</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name" type="att:AttachmentNameType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имя присоединенного файла.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ModificationDateTime" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата и время последнего изменения присоединенного файла.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FileReference" type="att:FileReferenceType">
+				<xs:annotation>
+					<xs:documentation>Ссылка на прикрепленный файл</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FileSignature" type="att:FileSignatureType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация о ЭЦП присоединенного файла</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="FileReferenceType">
+		<xs:annotation>
+			<xs:documentation>Ссылка на прикрепленный файл</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="href" type="xs:anyURI" use="required">
+			<xs:annotation>
+				<xs:documentation>URI</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="FileSignatureType">
+		<xs:annotation>
+			<xs:documentation>Информация о ЭЦП присоединенного файла</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="SignatureValue" type="xs:base64Binary">
+				<xs:annotation>
+					<xs:documentation>Значение ЭЦП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="KeyInfo" type="xs:base64Binary">
+				<xs:annotation>
+					<xs:documentation>Ключевая информация для проверки ЭЦП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="Algorithm" type="xs:anyURI" default="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411">
+			<xs:annotation>
+				<xs:documentation>Алгоритм вычисления ЭЦП</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:simpleType name="AttachmentNameType">
+		<xs:annotation>
+			<xs:documentation>Текст. Текстовое описание. До 255 символов</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

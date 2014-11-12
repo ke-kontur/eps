@@ -1,0 +1,139 @@
+<binding xmlns:catpi_ru="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0" default="elements" prefix="catpi_ru"/>
+  <mapping abstract="true" type-name="catpi_ru:AddressType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.AddressType">
+    <value style="element" name="PostalCode" get-method="getPostalCode" set-method="setPostalCode" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="CounryName" get-method="getCounryName" set-method="setCounryName" usage="optional"/>
+    <value style="element" name="Region" get-method="getRegion" set-method="setRegion" usage="optional"/>
+    <value style="element" name="City" get-method="getCity" set-method="setCity"/>
+    <value style="element" name="StreetHouse" get-method="getStreetHouse" set-method="setStreetHouse"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:CountryInformationType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.CountryInformationType">
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="CountryACode" get-method="getCountryACode" set-method="setCountryACode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:DestinationWarehouseType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.DestinationWarehouseType">
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber"/>
+    <value style="element" name="CertificateDate" get-method="getCertificateDate" set-method="setCertificateDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:DriverInformationType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.DriverInformationType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:GoodsMeasureQuantityType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GoodsMeasureQuantityType">
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:GoodsPackagingType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GoodsPackagingType">
+    <value style="element" name="PakageQuantity" get-method="getPakageQuantity" set-method="setPakageQuantity" usage="optional"/>
+    <value style="element" name="CargoCode" get-method="getCargoCode" set-method="setCargoCode"/>
+    <value style="element" name="CargoDescription" get-method="getCargoDescription" set-method="setCargoDescription" usage="optional"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:PackingInformationType" name="PackingInformation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:GoodsType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GoodsType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerNumbers" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <structure map-as="catpi_ru:GoodsMeasureQuantityType" get-method="getGoodsMeasureQuantity" set-method="setGoodsMeasureQuantity" usage="optional" name="GoodsMeasureQuantity"/>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:PresentedDocumentsType" name="PresentedDocuments"/>
+    </collection>
+    <structure map-as="catpi_ru:GoodsPackagingType" get-method="getGoodsPackaging" set-method="setGoodsPackaging" name="GoodsPackaging"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:GuaranteeDocumentType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GuaranteeDocumentType">
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="NotValid4EC" get-method="getNotValid4EC" set-method="setNotValid4EC" usage="optional"/>
+    <collection get-method="getLimitationNonECList" set-method="setLimitationNonECList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:LimitationNonECType" name="LimitationNonEC"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:GuaranteeType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GuaranteeType">
+    <value style="element" name="MeasureCode" get-method="getMeasureCode" set-method="setMeasureCode"/>
+    <collection get-method="getGuaranteeDocumentList" set-method="setGuaranteeDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:GuaranteeDocumentType" name="GuaranteeDocument"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:LimitationNonECType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.LimitationNonECType">
+    <value style="element" name="NotValid4Country" get-method="getNotValid4Country" set-method="setNotValid4Country"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:PI_DestinationPlaceType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PIDestinationPlaceType">
+    <value style="element" name="DestinationRWStationCode" get-method="getDestinationRWStationCode" set-method="setDestinationRWStationCode" usage="optional"/>
+    <value style="element" name="DestinationRWStationName" get-method="getDestinationRWStationName" set-method="setDestinationRWStationName" usage="optional"/>
+    <value style="element" name="DestinantionPlaceName" get-method="getDestinantionPlaceName" set-method="setDestinantionPlaceName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:PI_GoodsType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PIGoodsType">
+    <structure map-as="catpi_ru:PriorGoodsBaseType"/>
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerNumbers" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <structure map-as="catpi_ru:GoodsMeasureQuantityType" get-method="getGoodsMeasureQuantity" set-method="setGoodsMeasureQuantity" usage="optional" name="GoodsMeasureQuantity"/>
+    <collection get-method="getGoodsPackagingList" set-method="setGoodsPackagingList" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:GoodsPackagingType" name="GoodsPackaging"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:PackingInformationType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PackingInformationType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity"/>
+    <value style="element" name="PackingMark" get-method="getPackingMark" set-method="setPackingMark" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:PresentedDocumentsType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PresentedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:PriorGoodsBaseType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PriorGoodsBaseType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:ReloadingInfoType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.ReloadingInfoType">
+    <value style="element" name="ReloadCountryCode" get-method="getReloadCountryCode" set-method="setReloadCountryCode"/>
+    <value style="element" name="ReloadCountryName" get-method="getReloadCountryName" set-method="setReloadCountryName"/>
+    <value style="element" name="ReloadCustomsCode" get-method="getReloadCustomsCode" set-method="setReloadCustomsCode" usage="optional"/>
+    <value style="element" name="ReloadCustomsName" get-method="getReloadCustomsName" set-method="setReloadCustomsName" usage="optional"/>
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+    <collection get-method="getContainerIDList" set-method="setContainerIDList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerID" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getReloadTransportMeanList" set-method="setReloadTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catpi_ru:TransportMeansType" name="ReloadTransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:TIR_IDType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRWhitePageNumber" get-method="getTIRWhitePageNumber" set-method="setTIRWhitePageNumber"/>
+    <value style="element" name="TIRGreenPageNumber" get-method="getTIRGreenPageNumber" set-method="setTIRGreenPageNumber" usage="optional"/>
+    <value style="element" name="TIRHolder" get-method="getTIRHolder" set-method="setTIRHolder"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:TransitRouteType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TransitRouteType">
+    <value style="element" name="TransitPointNumber" get-method="getTransitPointNumber" set-method="setTransitPointNumber"/>
+    <value style="element" name="TransitRoutePlace" get-method="getTransitRoutePlace" set-method="setTransitRoutePlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="catpi_ru:TransportMeansType" class="ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TransportMeansType">
+    <value style="element" name="TransportIdentifier" get-method="getTransportIdentifier" set-method="setTransportIdentifier"/>
+    <value style="element" name="TrailerIdentifier" get-method="getTrailerIdentifier" set-method="setTrailerIdentifier" usage="optional"/>
+    <value style="element" name="SecondTrailerIdentifier" get-method="getSecondTrailerIdentifier" set-method="setSecondTrailerIdentifier" usage="optional"/>
+    <value style="element" name="VINID" get-method="getVINID" set-method="setVINID" usage="optional"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+    <value style="element" name="TransportMeansNationalityCode" get-method="getTransportMeansNationalityCode" set-method="setTransportMeansNationalityCode"/>
+  </mapping>
+</binding>

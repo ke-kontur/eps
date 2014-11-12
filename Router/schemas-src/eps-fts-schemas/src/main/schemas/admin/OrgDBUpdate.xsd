@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="4.6.0.0" elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:AdminCommandED:OrgDBUpdate:4.6.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:odu="urn:customs.ru:Information:AdminCommandED:OrgDBUpdate:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+   <xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd" />
+   <xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd" />
+   <xs:annotation>
+      <xs:documentation>Обновление справочника организаций / точек подключения</xs:documentation>
+   </xs:annotation>
+   <xs:element name="OrgDBUpdate" type="odu:OrgDBUpdateType" />
+   <xs:complexType name="OrgDBUpdateType">
+      <xs:annotation>
+         <xs:documentation>Загрузка справочника организаций / точек подключения</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="IEcat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="CreateDateTime" type="IEclt_ru:DateTimeCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата  и время  создания  выгрузки</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="OrgInfo" type="odu:OrgInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация об организации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" fixed="1090002E" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа.</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DocumentGroundConnectionType">
+      <xs:annotation>
+         <xs:documentation>Основание для подключения</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="DocumentCode" type="IEclt_ru:CodeVariable18Type">
+            <xs:annotation>
+               <xs:documentation>Код типа документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="DocumentNumber" type="IEclt_ru:DocumentNumberType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Номер документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="DocumentDate" type="IEclt_ru:DateCustType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Дата документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="OrgInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация  об организации</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="OrganizationID" type="IEclt_ru:DocumentIDType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор  организации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="OrgName" type="IEclt_ru:NameType">
+            <xs:annotation>
+               <xs:documentation>Наименование организации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="OrgMail" type="IEclt_ru:NameType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Почтовый  адрес  организации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="OGRN" type="IEclt_ru:OGRNIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>ОГРН</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="INN" type="IEclt_ru:INNIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>ИНН</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="KPP" type="IEclt_ru:KPPCodeType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>КПП</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="E_MAIL" type="IEclt_ru:Text50Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Контактныйe-mail</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Comments" type="IEclt_ru:FreeText250Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Комментарий</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="InfBrokerFlag" type="IEclt_ru:Numeric1Type">
+            <xs:annotation>
+               <xs:documentation>Признак информационного брокера</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ChDateTime" type="IEclt_ru:DateTimeCustType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Дата/время последнего изменения записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ParticipantInfo" type="odu:PtpcInfoType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+               <xs:documentation>Информация  о точках  подключения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PersonInfo" type="odu:PersonInfoType" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+               <xs:documentation>Информация  о контактных  лицах</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GroundConnectionOrg" type="odu:DocumentGroundConnectionType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Основание для подключения организации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="PersonInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация  о контактных  лицах</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="PersonID" type="IEclt_ru:DocumentIDType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PrsnLastName" type="IEclt_ru:Text50Type">
+            <xs:annotation>
+               <xs:documentation>Фамилия</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PrsnName" type="IEclt_ru:Text50Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Имя</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PrsnSecondName" type="IEclt_ru:Text50Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Отчество</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ContactPhone" type="IEclt_ru:Text50Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Контактный  телефон</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="E_MAIL" type="IEclt_ru:Text50Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Контактный e-mail</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PrsnPost" type="IEclt_ru:Text50Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Должность</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PersonCloseFlag" type="IEclt_ru:Numeric1Type">
+            <xs:annotation>
+               <xs:documentation>Признак  действия  записи  1 - действующая. 0 - недействующая</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ChDateTime" type="IEclt_ru:DateTimeCustType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Дата/время последнего изменения записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Comments" type="IEclt_ru:FreeText250Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Комментарий</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="PtpcInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация  о точках  подключения</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ParticipantID" type="IEclt_ru:Text100Type">
+            <xs:annotation>
+               <xs:documentation>Идентификатор точки подключеня</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="PTPC_Name" type="IEclt_ru:NameType">
+            <xs:annotation>
+               <xs:documentation>Наименование  точки  подключения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="AccessModeFlag" type="IEclt_ru:Numeric1Type">
+            <xs:annotation>
+               <xs:documentation>Признак  доступа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="FullStateAccessFlag" type="IEclt_ru:LetterIndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак допустимости передачи неполного  комплекта  докуменов</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="TransportAddress" type="IEclt_ru:Text100Type">
+            <xs:annotation>
+               <xs:documentation>Транспортный  адрес</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="TransferType" type="IEclt_ru:Text10Type">
+            <xs:annotation>
+               <xs:documentation>Тип передачи  сообщений (XML/ZIP)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Comments" type="IEclt_ru:FreeText250Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Комментарий</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="StartDate" type="IEclt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата начала действия  учетной  записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="EndDate" type="IEclt_ru:DateCustType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Дата  окончания действия  учетной  записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="BrokerID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Идентификатор информационного брокера</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="IPSID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Идентификатор ИПС ВЭД</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ChDateTime" type="IEclt_ru:DateTimeCustType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Дата/время последнего изменения записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Address" type="IEclt_ru:NameType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Адрес точки подключения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GhangeAccessReason" type="IEclt_ru:FreeText250Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Комментарии при изменении признака доступа учетной записи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Password" type="IEclt_ru:CodeVariable15Type" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Пароль почтового ящика</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="SVXSign" type="IEclt_ru:Numeric1Type">
+            <xs:annotation>
+               <xs:documentation>Признак СВХ.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="SVXID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Идентификатор из справочника свидетельств о включении в реестр владельцев СВХ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GroundConnectionPtpc" type="odu:DocumentGroundConnectionType" minOccurs="0">
+            <xs:annotation>
+               <xs:documentation>Основание для подключения точки </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

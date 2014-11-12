@@ -1,0 +1,124 @@
+<binding xmlns:verc="urn:customs.ru:Information:SertifDocuments:VeterinaryCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:VeterinaryCertificate:5.4.0" default="elements" prefix="verc"/>
+  <mapping abstract="true" type-name="verc:VeterinaryCertificateType" class="ru.acs.fts.schemas.album.veterinarycertificate.VeterinaryCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getSpecialNoteList" set-method="setSpecialNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SpecialNotes" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DateCertf" get-method="getDateCertf" set-method="setDateCertf" format="LocalDate.default"/>
+    <value style="element" name="NumberForm" get-method="getNumberForm" set-method="setNumberForm"/>
+    <value style="element" name="Route" get-method="getRoute" set-method="setRoute" usage="optional"/>
+    <value style="element" name="ProductOrigin" get-method="getProductOrigin" set-method="setProductOrigin" usage="optional"/>
+    <value style="element" name="DateManufactur" get-method="getDateManufactur" set-method="setDateManufactur" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DeemedFit" get-method="getDeemedFit" set-method="setDeemedFit" usage="optional"/>
+    <value style="element" name="CauseRestrictions" get-method="getCauseRestrictions" set-method="setCauseRestrictions" usage="optional"/>
+    <value style="element" name="Examination" get-method="getExamination" set-method="setExamination" usage="optional"/>
+    <value style="element" name="ImportingCountry" get-method="getImportingCountry" set-method="setImportingCountry" usage="optional"/>
+    <value style="element" name="ReasonSending" get-method="getReasonSending" set-method="setReasonSending" usage="optional"/>
+    <value style="element" name="LocationCU" get-method="getLocationCU" set-method="setLocationCU" usage="optional"/>
+    <value style="element" name="TimeLocation" get-method="getTimeLocation" set-method="setTimeLocation" usage="optional"/>
+    <value style="element" name="BorderOffice" get-method="getBorderOffice" set-method="setBorderOffice" usage="optional"/>
+    <value style="element" name="ExportTerrAuthority" get-method="getExportTerrAuthority" set-method="setExportTerrAuthority" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getIssueOrganization" set-method="setIssueOrganization" usage="optional" name="IssueOrganization"/>
+    <collection get-method="getProductInfoList" set-method="setProductInfoList" create-type="java.util.ArrayList">
+      <structure map-as="verc:ProductInfoType" name="ProductInfo"/>
+    </collection>
+    <structure map-as="verc:ManufacturerType" get-method="getManufacturer" set-method="setManufacturer" usage="optional" name="Manufacturer"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getSender" set-method="setSender" usage="optional" name="Sender"/>
+    <structure map-as="verc:LocationType" get-method="getLocation" set-method="setLocation" usage="optional" name="Location"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getReceiver" set-method="setReceiver" usage="optional" name="Receiver"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getShippingDocuments" set-method="setShippingDocuments" usage="optional" name="ShippingDocuments"/>
+    <structure map-as="verc:QuarantineType" get-method="getQuarantine" set-method="setQuarantine" usage="optional" name="Quarantine"/>
+    <collection get-method="getResearchLaboratoryList" set-method="setResearchLaboratoryList" create-type="java.util.ArrayList">
+      <structure map-as="verc:ResearchLaboratoryType" name="ResearchLaboratory"/>
+    </collection>
+    <collection get-method="getImmunizationList" set-method="setImmunizationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="verc:ProcessingType" name="Immunization"/>
+    </collection>
+    <collection get-method="getProcessingParasiteList" set-method="setProcessingParasiteList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="verc:ProcessingType" name="ProcessingParasites"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <collection get-method="getMarkInspectionList" set-method="setMarkInspectionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="verc:MarkInspectionType" name="MarkInspection"/>
+    </collection>
+    <collection get-method="getTransportInfoList" set-method="setTransportInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="verc:TransportInfoType" name="TransportInfo"/>
+    </collection>
+    <structure map-as="verc:WellBeingInfoType" get-method="getWellBeingInfo" set-method="setWellBeingInfo" usage="optional" name="WellBeingInfo"/>
+    <structure map-as="verc:RegistrationInfoType" get-method="getRegistrationInfo" set-method="setRegistrationInfo" name="RegistrationInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.veterinarycertificate.VeterinaryCertificateType" name="VeterinaryCertificate">
+    <structure map-as="verc:VeterinaryCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:DescriptionType" class="ru.acs.fts.schemas.album.veterinarycertificate.DescriptionType">
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:LocationType" class="ru.acs.fts.schemas.album.veterinarycertificate.LocationType">
+    <value style="element" name="PlaceLocation" get-method="getPlaceLocation" set-method="setPlaceLocation" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:ManufacturerType" class="ru.acs.fts.schemas.album.veterinarycertificate.ManufacturerType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="OwnersManufacturer" get-method="getOwnersManufacturer" set-method="setOwnersManufacturer" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:MarkInspectionType" class="ru.acs.fts.schemas.album.veterinarycertificate.MarkInspectionType">
+    <value style="element" name="DateInspection" get-method="getDateInspection" set-method="setDateInspection" format="LocalDate.default"/>
+    <value style="element" name="NamePlace" get-method="getNamePlace" set-method="setNamePlace"/>
+    <structure map-as="verc:DescriptionType" get-method="getViewedProducts" set-method="setViewedProducts" usage="optional" name="ViewedProducts"/>
+    <structure map-as="verc:DescriptionType" get-method="getQuantitySeized" set-method="setQuantitySeized" usage="optional" name="QuantitySeized"/>
+    <structure map-as="verc:DescriptionType" get-method="getQuantityPermitted" set-method="setQuantityPermitted" usage="optional" name="QuantityPermitted"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignatureInspection" set-method="setPersonSignatureInspection" name="PersonSignatureInspection"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:ProcessingType" class="ru.acs.fts.schemas.album.veterinarycertificate.ProcessingType">
+    <value style="element" name="NameProcessing" get-method="getNameProcessing" set-method="setNameProcessing"/>
+    <value style="element" name="DateProcessing" get-method="getDateProcessing" set-method="setDateProcessing" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:ProductInfoType" class="ru.acs.fts.schemas.album.veterinarycertificate.ProductInfoType">
+    <value style="element" name="ProductName" get-method="getProductName" set-method="setProductName"/>
+    <value style="element" name="ProductMark" get-method="getProductMark" set-method="setProductMark" usage="optional"/>
+    <value style="element" name="ProductPacking" get-method="getProductPacking" set-method="setProductPacking" usage="optional"/>
+    <value style="element" name="Sex" get-method="getSex" set-method="setSex" usage="optional"/>
+    <value style="element" name="Breed" get-method="getBreed" set-method="setBreed" usage="optional"/>
+    <value style="element" name="Age" get-method="getAge" set-method="setAge" usage="optional"/>
+    <value style="element" name="IDNumber" get-method="getIDNumber" set-method="setIDNumber" usage="optional"/>
+    <value style="element" name="Brand" get-method="getBrand" set-method="setBrand" usage="optional"/>
+    <value style="element" name="NickName" get-method="getNickName" set-method="setNickName" usage="optional"/>
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getProductQuantity" set-method="setProductQuantity" name="ProductQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:QuarantineType" class="ru.acs.fts.schemas.album.veterinarycertificate.QuarantineType">
+    <value style="element" name="PlaseQuarantine" get-method="getPlaseQuarantine" set-method="setPlaseQuarantine"/>
+    <value style="element" name="NumberDays" get-method="getNumberDays" set-method="setNumberDays"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:RegistrationInfoType" class="ru.acs.fts.schemas.album.veterinarycertificate.RegistrationInfoType">
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TerritorialAuthority" get-method="getTerritorialAuthority" set-method="setTerritorialAuthority"/>
+    <value style="element" name="CompetentAuthority" get-method="getCompetentAuthority" set-method="setCompetentAuthority" usage="optional"/>
+    <value style="element" name="IssueCountry" get-method="getIssueCountry" set-method="setIssueCountry" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:ResearchLaboratoryType" class="ru.acs.fts.schemas.album.veterinarycertificate.ResearchLaboratoryType">
+    <value style="element" name="NameLaboratory" get-method="getNameLaboratory" set-method="setNameLaboratory"/>
+    <value style="element" name="NumberExamination" get-method="getNumberExamination" set-method="setNumberExamination" usage="optional"/>
+    <value style="element" name="DateExamination" get-method="getDateExamination" set-method="setDateExamination" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MethodExamination" get-method="getMethodExamination" set-method="setMethodExamination" usage="optional"/>
+    <value style="element" name="SickName" get-method="getSickName" set-method="setSickName" usage="optional"/>
+    <value style="element" name="ResultExamination" get-method="getResultExamination" set-method="setResultExamination"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:TransportInfoType" class="ru.acs.fts.schemas.album.veterinarycertificate.TransportInfoType">
+    <value style="element" name="TransportName" get-method="getTransportName" set-method="setTransportName" usage="optional"/>
+    <value style="element" name="TransportNumber" get-method="getTransportNumber" set-method="setTransportNumber" usage="optional"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode" usage="optional"/>
+    <value style="element" name="TransportMeansNationalityCode" get-method="getTransportMeansNationalityCode" set-method="setTransportMeansNationalityCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="verc:WellBeingInfoType" class="ru.acs.fts.schemas.album.veterinarycertificate.WellBeingInfoType">
+    <value style="element" name="TermWellBeing" get-method="getTermWellBeing" set-method="setTermWellBeing" usage="optional"/>
+    <value style="element" name="UnitTermWellBeing" get-method="getUnitTermWellBeing" set-method="setUnitTermWellBeing" usage="optional"/>
+    <collection get-method="getDescriptionWellBeingList" set-method="setDescriptionWellBeingList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DescriptionWellBeing" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

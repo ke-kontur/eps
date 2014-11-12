@@ -1,0 +1,59 @@
+<binding xmlns:liqap="urn:customs.ru:Information:CustomsDocuments:LiquidationApplication:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:LiquidationApplication:5.4.0" default="elements" prefix="liqap"/>
+  <mapping abstract="true" type-name="liqap:LiquidationApplicationType" class="ru.acs.fts.schemas.album.liquidationapplication.LiquidationApplicationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="OperationSign" get-method="getOperationSign" set-method="setOperationSign"/>
+    <value style="element" name="LiquidationReasons" get-method="getLiquidationReasons" set-method="setLiquidationReasons"/>
+    <value style="element" name="LiquidationDate" get-method="getLiquidationDate" set-method="setLiquidationDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="liqap:LiquidationParticipantType" get-method="getOEZResident" set-method="setOEZResident" name="OEZ_Resident"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="liqap:LiquidationParticipantType" get-method="getLiquidator" set-method="setLiquidator" name="Liquidator"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLiquidationPlace" set-method="setLiquidationPlace" name="LiquidationPlace"/>
+    <collection get-method="getWasteProductList" set-method="setWasteProductList" create-type="java.util.ArrayList">
+      <structure map-as="liqap:WasteProductsType" name="WasteProducts"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.liquidationapplication.LiquidationApplicationType" name="LiquidationApplication">
+    <structure map-as="liqap:LiquidationApplicationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqap:ConsignmentType" class="ru.acs.fts.schemas.album.liquidationapplication.ConsignmentType">
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="liqap:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="liqap:GoodsType" class="ru.acs.fts.schemas.album.liquidationapplication.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqap:LiquidationParticipantType" class="ru.acs.fts.schemas.album.liquidationapplication.LiquidationParticipantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getOEZResidentCertif" set-method="setOEZResidentCertif" usage="optional" name="OEZ_ResidentCertif"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqap:PackingInformationType" class="ru.acs.fts.schemas.album.liquidationapplication.PackingInformationType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode"/>
+    <value style="element" name="PackingDescription" get-method="getPackingDescription" set-method="setPackingDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="liqap:WasteProductsType" class="ru.acs.fts.schemas.album.liquidationapplication.WasteProductsType">
+    <collection get-method="getWasteDescriptionList" set-method="setWasteDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="WasteDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteCode" get-method="getWasteCode" set-method="setWasteCode"/>
+    <collection get-method="getLiquidationMethodList" set-method="setLiquidationMethodList" create-type="java.util.ArrayList">
+      <value style="element" name="LiquidationMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteSign" get-method="getWasteSign" set-method="setWasteSign"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getWasteQuantity" set-method="setWasteQuantity" name="WasteQuantity"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="liqap:PackingInformationType" name="PackingInformation"/>
+    </collection>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="liqap:ConsignmentType" name="Consignment"/>
+    </collection>
+  </mapping>
+</binding>

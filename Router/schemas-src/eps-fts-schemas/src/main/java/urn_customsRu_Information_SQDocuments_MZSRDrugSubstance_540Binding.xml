@@ -1,0 +1,46 @@
+<binding xmlns:mzsrds="urn:customs.ru:Information:SQDocuments:MZSRDrugSubstance:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MZSRDrugSubstance:5.4.0" default="elements" prefix="mzsrds"/>
+  <mapping abstract="true" type-name="mzsrds:MZSRDrugSubstanceType" class="ru.acs.fts.schemas.album.mzsrdrugsubstance.MZSRDrugSubstanceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="mzsrds:DrugsType" test-method="ifDrugs" get-method="getDrugs" set-method="setDrugs" usage="optional" name="Drugs"/>
+      <structure map-as="mzsrds:SubstanceType" test-method="ifSubstance" get-method="getSubstance" set-method="setSubstance" usage="optional" name="Substance"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mzsrdrugsubstance.MZSRDrugSubstanceType" name="MZSRDrugSubstance">
+    <structure map-as="mzsrds:MZSRDrugSubstanceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mzsrds:DrugsType" class="ru.acs.fts.schemas.album.mzsrdrugsubstance.DrugsType">
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+    <value style="element" name="TradeName" get-method="getTradeName" set-method="setTradeName" usage="optional"/>
+    <value style="element" name="Compound" get-method="getCompound" set-method="setCompound" usage="optional"/>
+    <value style="element" name="Form" get-method="getForm" set-method="setForm" usage="optional"/>
+    <value style="element" name="Doze" get-method="getDoze" set-method="setDoze" usage="optional"/>
+    <value style="element" name="DozeMeasureUnit" get-method="getDozeMeasureUnit" set-method="setDozeMeasureUnit" usage="optional"/>
+    <value style="element" name="Packing" get-method="getPacking" set-method="setPacking" usage="optional"/>
+    <value style="element" name="Group" get-method="getGroup" set-method="setGroup" usage="optional"/>
+    <value style="element" name="DozeNumber" get-method="getDozeNumber" set-method="setDozeNumber" usage="optional"/>
+    <value style="element" name="PackingComplete" get-method="getPackingComplete" set-method="setPackingComplete" usage="optional"/>
+    <value style="element" name="FS_ND" get-method="getFSND" set-method="setFSND" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getULName" set-method="setULName" name="ULName"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getProducer" set-method="setProducer" usage="optional" name="Producer"/>
+    <structure map-as="mzsrds:RegistrationType" get-method="getRegistration" set-method="setRegistration" usage="optional" name="Registration"/>
+  </mapping>
+  <mapping abstract="true" type-name="mzsrds:RegistrationType" class="ru.acs.fts.schemas.album.mzsrdrugsubstance.RegistrationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="RegStatus" get-method="getRegStatus" set-method="setRegStatus" usage="optional"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="mzsrds:SubstanceType" class="ru.acs.fts.schemas.album.mzsrdrugsubstance.SubstanceType">
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+    <value style="element" name="ReestrNumber" get-method="getReestrNumber" set-method="setReestrNumber" usage="optional"/>
+    <value style="element" name="TradeName" get-method="getTradeName" set-method="setTradeName" usage="optional"/>
+    <value style="element" name="Form" get-method="getForm" set-method="setForm" usage="optional"/>
+    <value style="element" name="FS_ND" get-method="getFSND" set-method="setFSND" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getProducer" set-method="setProducer" usage="optional" name="Producer"/>
+    <structure map-as="mzsrds:RegistrationType" get-method="getRegistration" set-method="setRegistration" usage="optional" name="Registration"/>
+  </mapping>
+</binding>

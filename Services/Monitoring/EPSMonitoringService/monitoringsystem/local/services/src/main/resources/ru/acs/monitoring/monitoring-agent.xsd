@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://acs.ru/schema/monitoring-agent"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:beans="http://www.springframework.org/schema/beans"
+	targetNamespace="http://acs.ru/schema/monitoring-agent" elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+	<xsd:import namespace="http://www.springframework.org/schema/beans" />
+
+	<xsd:complexType name="attribute">
+		<xsd:attribute name="name" type="xsd:string" use="optional" />
+		<xsd:attribute name="description" type="xsd:string" use="optional" />
+	</xsd:complexType>
+
+	<xsd:complexType name="localServicesType">
+		<xsd:complexContent>
+			<xsd:extension base="attribute">
+				<xsd:sequence>
+					<xsd:element name="serviceName" type="xsd:string"
+						minOccurs="0" maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="remoteServicesType">
+		<xsd:complexContent>
+			<xsd:extension base="localServicesType">
+				<xsd:attribute name="host" type="xsd:string"/>
+				<xsd:attribute name="userName" type="xsd:string"/>
+				<xsd:attribute name="password" type="xsd:string"/>								
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="services" type="localServicesType"/>
+	
+	<xsd:element name="remoteServices" type="remoteServicesType"/>
+		
+
+	<xsd:element name="system">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">
+					<xsd:attribute name="disabled" type="xsd:boolean"
+						use="optional" />
+					<xsd:attribute name="hardDrivesMonitoringDisabled"
+						type="xsd:boolean" use="optional" />
+					<xsd:attribute name="memoryMonitoringDisabled" type="xsd:boolean"
+						use="optional" />
+				</xsd:extension>
+			</xsd:complexContent>
+
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="hardDrive">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">
+					<xsd:attribute name="driveName" type="xsd:string"
+						default="C" />
+					<xsd:attribute name="errorLevelMB" type="xsd:int"
+						use="optional" />
+					<xsd:attribute name="warningLevelMB" type="xsd:int"
+						use="optional" />
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="signature">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">
+					<xsd:sequence>
+						<xsd:element name="certificateName" type="xsd:string"
+							minOccurs="0" maxOccurs="unbounded" />
+					</xsd:sequence>
+					<xsd:attribute name="serverName" type="xsd:string" />
+					<xsd:attribute name="port" type="xsd:int" use="optional" />
+					<xsd:attribute name="serviceName" type="xsd:string"
+						use="optional" />
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="queueManager">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="queue" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="name" type="xsd:string" />
+						<xsd:attribute name="maxDepth" type="xsd:int" />
+						<xsd:attribute name="maxInterval" type="xsd:int" />
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="name" type="xsd:string" />
+			<xsd:attribute name="port" type="xsd:int" />
+			<xsd:attribute name="host" type="xsd:string" />
+			<xsd:attribute name="channel" type="xsd:string" />
+			<xsd:attribute name="localManager" type="xsd:boolean" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="port">
+		<xsd:complexContent>
+			<xsd:extension base="attribute">
+				<xsd:attribute name="port" type="xsd:int" />
+				<xsd:attribute name="timeout" type="xsd:int" use="optional" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:element name="host">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">
+					<xsd:sequence>
+						<xsd:element name="port" type="port" minOccurs="0"
+							maxOccurs="unbounded" />
+					</xsd:sequence>
+					<xsd:attribute name="address" type="xsd:string" />
+					<xsd:attribute name="timeout" type="xsd:int" use="optional" />
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="eventLogCheck">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">					
+					<xsd:attribute name="logName" type="xsd:string" />
+					<xsd:attribute name="sourceName" type="xsd:string" />
+					<xsd:attribute name="interval" type="xsd:int"/>
+					<xsd:attribute name="maxErrorCount" type="xsd:int"/>					
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:complexType name="dataSource">
+		<xsd:attribute name="address" type="xsd:string" />
+		<xsd:attribute name="port" type="xsd:int"  default="1521"/>
+		<xsd:attribute name="dbname" type="xsd:string" />
+		<xsd:attribute name="username" type="xsd:string" />
+		<xsd:attribute name="password" type="xsd:string" />
+		<xsd:attribute name="type" type="xsd:string" use="optional" default="oracle"/>				
+	</xsd:complexType>
+	
+	<xsd:complexType name="tableSpace">
+		<xsd:attribute name="name" type="xsd:string" />
+		<xsd:attribute name="warningLevel" type="xsd:int" use="optional"/>
+		<xsd:attribute name="errorLevel" type="xsd:int" use="optional"/>						
+	</xsd:complexType>
+
+	<xsd:complexType name="dbContentCheck">
+		<xsd:complexContent>
+			<xsd:extension base="attribute">
+				<xsd:attribute name="sql" type="xsd:string" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+			
+	<xsd:element name="database">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">
+					<xsd:sequence>
+						<xsd:element name="dataSource" type="dataSource"/>
+						<xsd:element name="tableSpace" type="tableSpace" minOccurs="0"
+							maxOccurs="unbounded" />
+						<xsd:element name="contentCheck" type="dbContentCheck" minOccurs="0"
+							maxOccurs="unbounded" />
+					</xsd:sequence>					
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="messageProcessing">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="attribute">
+					<xsd:sequence>
+						<xsd:element name="dataSource" type="dataSource"/>						
+					</xsd:sequence>
+					<xsd:attribute  name="sql" type="xsd:string"/>					
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="monitoring">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+    <xsd:element name="mailbox">
+        <xsd:complexType>
+            <xsd:attribute name="mailboxName" type="xsd:string" />
+            <xsd:attribute name="path" type="xsd:string" />
+            <xsd:attribute name="maxMessagesCount" type="xsd:int" />
+            <xsd:attribute name="delay" type="xsd:int" />
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

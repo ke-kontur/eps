@@ -1,0 +1,33 @@
+<binding xmlns:gui="urn:customs.ru:Information:CustomsDocuments:GuaranteeUnacceptanceNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GuaranteeUnacceptanceNotif:5.4.0" default="elements" prefix="gui"/>
+  <mapping abstract="true" type-name="gui:GuaranteeUnacceptanceNotifType" class="ru.acs.fts.schemas.album.guaranteeunacceptancenotif.GuaranteeUnacceptanceNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTDNumber" get-method="getTDNumber" set-method="setTDNumber" usage="optional" name="TDNumber"/>
+      <structure map-as="gui:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+    </structure>
+    <collection get-method="getGuaranteeUnacceptanceInfoList" set-method="setGuaranteeUnacceptanceInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gui:GuaranteeUnacceptanceInfoType" name="GuaranteeUnacceptanceInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteeunacceptancenotif.GuaranteeUnacceptanceNotifType" name="GuaranteeUnacceptanceNotif">
+    <structure map-as="gui:GuaranteeUnacceptanceNotifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gui:GuaranteeUnacceptanceInfoType" class="ru.acs.fts.schemas.album.guaranteeunacceptancenotif.GuaranteeUnacceptanceInfoType">
+    <value style="element" name="MeasureCode" get-method="getMeasureCode" set-method="setMeasureCode"/>
+    <value style="element" name="GuaranteeDocNumber" get-method="getGuaranteeDocNumber" set-method="setGuaranteeDocNumber"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <structure map-as="gui:ReasonType" name="Reason"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gui:ReasonType" class="ru.acs.fts.schemas.album.guaranteeunacceptancenotif.ReasonType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gui:TIRIDType" class="ru.acs.fts.schemas.album.guaranteeunacceptancenotif.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+</binding>

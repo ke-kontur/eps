@@ -1,0 +1,5 @@
+#include("./MiHeader.vm")
+<big class="${severity}_List">&#9679;</big><b> ${serviceName}</b>. Сервис ID: ${serviceId}. Статус: ${severity}. <a href="${zipName}">Отчет</a>
+<br><br>
+Создано в ${time}				
+#include("./MiFooter.vm")

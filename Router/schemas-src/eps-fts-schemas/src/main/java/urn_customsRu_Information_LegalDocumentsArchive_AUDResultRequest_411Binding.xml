@@ -1,0 +1,11 @@
+<binding xmlns:auresreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_ResultRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_ResultRequest:4.1.1" default="elements" prefix="auresreq"/>
+  <mapping abstract="true" type-name="auresreq:AUD_ResultRequestType" class="ru.acs.fts.schemas.aud.aud_resultrequest.AUDResultRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="RequestDocumentID" get-method="getRequestDocumentID" set-method="setRequestDocumentID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_resultrequest.AUDResultRequestType" name="AUD_ResultRequest">
+    <structure map-as="auresreq:AUD_ResultRequestType"/>
+  </mapping>
+</binding>

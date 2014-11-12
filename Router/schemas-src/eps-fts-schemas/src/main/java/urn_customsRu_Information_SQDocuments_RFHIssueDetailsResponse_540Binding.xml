@@ -1,0 +1,34 @@
+<binding xmlns:rfhidr="urn:customs.ru:Information:SQDocuments:RFHIssueDetailsResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RFHIssueDetailsResponse:5.4.0" default="elements" prefix="rfhidr"/>
+  <mapping abstract="true" type-name="rfhidr:RFHIssueDetailsResponseType" class="ru.acs.fts.schemas.album.rfhissuedetailsresponse.RFHIssueDetailsResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="Sign" get-method="getSign" set-method="setSign"/>
+    <value style="element" name="SpecialTerms" get-method="getSpecialTerms" set-method="setSpecialTerms"/>
+    <value style="element" name="ExportQuota" get-method="getExportQuota" set-method="setExportQuota"/>
+    <value style="element" name="ApplicationNumber" get-method="getApplicationNumber" set-method="setApplicationNumber"/>
+    <value style="element" name="PersonSignedDocument" get-method="getPersonSignedDocument" set-method="setPersonSignedDocument"/>
+    <structure map-as="rfhidr:PermissionType" get-method="getPermission" set-method="setPermission" name="Permission"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getExporter" set-method="setExporter" name="Exporter"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getImporter" set-method="setImporter" name="Importer"/>
+    <structure map-as="rfhidr:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" name="GoodsDescription"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rfhissuedetailsresponse.RFHIssueDetailsResponseType" name="RFHIssueDetailsResponse">
+    <structure map-as="rfhidr:RFHIssueDetailsResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rfhidr:GoodsDescriptionType" class="ru.acs.fts.schemas.album.rfhissuedetailsresponse.GoodsDescriptionType">
+    <collection get-method="getFishNameList" set-method="setFishNameList" create-type="java.util.ArrayList">
+      <value style="element" name="FishName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Samples" get-method="getSamples" set-method="setSamples"/>
+    <value style="element" name="CountryOrigin" get-method="getCountryOrigin" set-method="setCountryOrigin" usage="optional"/>
+    <value style="element" name="CountryOriginName" get-method="getCountryOriginName" set-method="setCountryOriginName"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getAddQuantity" set-method="setAddQuantity" name="AddQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="rfhidr:PermissionType" class="ru.acs.fts.schemas.album.rfhissuedetailsresponse.PermissionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

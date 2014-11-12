@@ -1,0 +1,123 @@
+<binding xmlns:tirc="urn:customs.ru:Information:TransportDocuments:Car:TIR_Carnet:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_cu="urn:customs.ru:Information:TransportDocuments:CUTransportCommonAgregateTypesCust:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Car:TIR_Carnet:5.4.0" default="elements" prefix="tirc"/>
+  <mapping abstract="true" type-name="tirc:TIR_CarnetType" class="ru.acs.fts.schemas.album.tir_carnet.TIRCarnetType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TIRHolderID" get-method="getTIRHolderID" set-method="setTIRHolderID" usage="optional"/>
+    <value style="element" name="TIRCustomstCode" get-method="getTIRCustomstCode" set-method="setTIRCustomstCode" usage="optional"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="ShipSpecifGoodsQuantity" get-method="getShipSpecifGoodsQuantity" set-method="setShipSpecifGoodsQuantity" usage="optional"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="TotalInvoicedCost" get-method="getTotalInvoicedCost" set-method="setTotalInvoicedCost" usage="optional"/>
+    <value style="element" name="TotalPageQuantity" get-method="getTotalPageQuantity" set-method="setTotalPageQuantity" usage="optional"/>
+    <value style="element" name="DestinationCountryName" get-method="getDestinationCountryName" set-method="setDestinationCountryName"/>
+    <value style="element" name="DispatchCountryName" get-method="getDispatchCountryName" set-method="setDispatchCountryName"/>
+    <value style="element" name="DispatchCountryA3Code" get-method="getDispatchCountryA3Code" set-method="setDispatchCountryA3Code" usage="optional"/>
+    <value style="element" name="DestinationCountryA3Code" get-method="getDestinationCountryA3Code" set-method="setDestinationCountryA3Code" usage="optional"/>
+    <structure map-as="tirc:TIRIdentifierType" get-method="getTIRIdentifier" set-method="setTIRIdentifier" name="TIRIdentifier"/>
+    <structure map-as="tirc:TIRCarrierType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="catTrans_cu:TIRForwarderType" get-method="getForwarder" set-method="setForwarder" usage="optional" name="Forwarder"/>
+    <structure map-as="catTrans_ru:TDGuaranteeType" get-method="getGuarantee" set-method="setGuarantee" usage="optional" name="Guarantee"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" create-type="java.util.ArrayList">
+      <structure map-as="tirc:TIRTransportMeansType" name="TransportMeans"/>
+    </collection>
+    <collection get-method="getPrecedingDocumentList" set-method="setPrecedingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tirc:TIRPrecedingDocumentType" name="PrecedingDocument"/>
+    </collection>
+    <collection get-method="getTIRShipmentList" set-method="setTIRShipmentList" create-type="java.util.ArrayList">
+      <structure map-as="tirc:TIR_ShipmentType" name="TIR_Shipment"/>
+    </collection>
+    <structure map-as="tirc:TIRCustomsMarkType" get-method="getDispatchCustomsMark" set-method="setDispatchCustomsMark" usage="optional" name="DispatchCustomsMark"/>
+    <structure map-as="tirc:TIRCustomsMarkType" get-method="getDepartureCustomsMark" set-method="setDepartureCustomsMark" usage="optional" name="DepartureCustomsMark"/>
+    <structure map-as="tirc:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.tir_carnet.TIRCarnetType" name="TIR_Carnet">
+    <structure map-as="tirc:TIR_CarnetType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:GeneralParticipantInfoType" class="ru.acs.fts.schemas.album.tir_carnet.GeneralParticipantInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:MarkType" class="ru.acs.fts.schemas.album.tir_carnet.MarkType">
+    <value style="element" name="MarkSing" get-method="getMarkSing" set-method="setMarkSing"/>
+    <value style="element" name="MarkKind" get-method="getMarkKind" set-method="setMarkKind"/>
+    <value style="element" name="ResultControl" get-method="getResultControl" set-method="setResultControl" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:PersonType" class="ru.acs.fts.schemas.album.tir_carnet.PersonType">
+    <structure map-as="tirc:GeneralParticipantInfoType"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRCarrierType" class="ru.acs.fts.schemas.album.tir_carnet.TIRCarrierType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="tirc:TIRSignatureType" get-method="getTIRSignature" set-method="setTIRSignature" usage="optional" name="TIRSignature"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRCustomsMarkType" class="ru.acs.fts.schemas.album.tir_carnet.TIRCustomsMarkType">
+    <value style="element" name="GoodsAcceptInfo" get-method="getGoodsAcceptInfo" set-method="setGoodsAcceptInfo" usage="optional"/>
+    <value style="element" name="IdentityNoBroken" get-method="getIdentityNoBroken" set-method="setIdentityNoBroken" usage="optional"/>
+    <value style="element" name="TransitTime" get-method="getTransitTime" set-method="setTransitTime" usage="optional"/>
+    <value style="element" name="CustomsDocNum" get-method="getCustomsDocNum" set-method="setCustomsDocNum" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="PackProcFinish" get-method="getPackProcFinish" set-method="setPackProcFinish" usage="optional"/>
+    <structure map-as="tirc:TIRCustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRCustomsPersonType" class="ru.acs.fts.schemas.album.tir_carnet.TIRCustomsPersonType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRGoodsType" class="ru.acs.fts.schemas.album.tir_carnet.TIRGoodsType">
+    <structure map-as="catTrans_ru:TDGoodsBaseType"/>
+    <value style="element" name="TTNNumber" get-method="getTTNNumber" set-method="setTTNNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRIdentifierType" class="ru.acs.fts.schemas.album.tir_carnet.TIRIdentifierType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRWhitePageNumber" get-method="getTIRWhitePageNumber" set-method="setTIRWhitePageNumber" usage="optional"/>
+    <value style="element" name="TIRGreenPageNumber" get-method="getTIRGreenPageNumber" set-method="setTIRGreenPageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRPrecedingDocumentType" class="ru.acs.fts.schemas.album.tir_carnet.TIRPrecedingDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentKind" get-method="getDocumentKind" set-method="setDocumentKind" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRSignatureType" class="ru.acs.fts.schemas.album.tir_carnet.TIRSignatureType">
+    <value style="element" name="SignPlace" get-method="getSignPlace" set-method="setSignPlace"/>
+    <value style="element" name="SignPlaceCountry" get-method="getSignPlaceCountry" set-method="setSignPlaceCountry" usage="optional"/>
+    <value style="element" name="SignDate" get-method="getSignDate" set-method="setSignDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getSignPerson" set-method="setSignPerson" usage="optional" name="SignPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIRTransportMeansType" class="ru.acs.fts.schemas.album.tir_carnet.TIRTransportMeansType">
+    <structure map-as="catTrans_ru:TDTransportMeansType"/>
+    <value style="element" name="TrailerNumber" get-method="getTrailerNumber" set-method="setTrailerNumber" usage="optional"/>
+    <value style="element" name="TrailerNumber2" get-method="getTrailerNumber2" set-method="setTrailerNumber2" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:TIR_ShipmentType" class="ru.acs.fts.schemas.album.tir_carnet.TIRShipmentType">
+    <value style="element" name="GoodsPlaceID" get-method="getGoodsPlaceID" set-method="setGoodsPlaceID" usage="optional"/>
+    <collection get-method="getContainerIDList" set-method="setContainerIDList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerID" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TotalPlacesQuantity" get-method="getTotalPlacesQuantity" set-method="setTotalPlacesQuantity" usage="optional"/>
+    <value style="element" name="DepartureCustomsOffice" get-method="getDepartureCustomsOffice" set-method="setDepartureCustomsOffice"/>
+    <value style="element" name="UnloadMark" get-method="getUnloadMark" set-method="setUnloadMark" usage="optional"/>
+    <structure map-as="tirc:PersonType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="tirc:PersonType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="catTrans_cu:TIRDestinationType" get-method="getDestination" set-method="setDestination" usage="optional" name="Destination"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="tirc:TIRGoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getIdentityMarkList" set-method="setIdentityMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:IdentityMarkType" name="IdentityMark"/>
+    </collection>
+    <structure map-as="tirc:TIRCustomsPersonType" get-method="getIdentityCustPerson" set-method="setIdentityCustPerson" usage="optional" name="IdentityCustPerson"/>
+    <structure map-as="tirc:UnloadCustomSignType" get-method="getUnloadCustoms" set-method="setUnloadCustoms" usage="optional" name="UnloadCustoms"/>
+  </mapping>
+  <mapping abstract="true" type-name="tirc:UnloadCustomSignType" class="ru.acs.fts.schemas.album.tir_carnet.UnloadCustomSignType">
+    <value style="element" name="CustComments" get-method="getCustComments" set-method="setCustComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getPerson" set-method="setPerson" usage="optional" name="Person"/>
+  </mapping>
+</binding>

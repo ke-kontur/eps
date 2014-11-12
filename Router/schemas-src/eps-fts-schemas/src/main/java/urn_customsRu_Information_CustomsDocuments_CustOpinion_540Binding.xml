@@ -1,0 +1,40 @@
+<binding xmlns:cuop="urn:customs.ru:Information:CustomsDocuments:CustOpinion:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CustOpinion:5.4.0" default="elements" prefix="cuop"/>
+  <mapping abstract="true" type-name="cuop:CustOpinionType" class="ru.acs.fts.schemas.album.custopinion.CustOpinionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <value style="element" name="CityName" get-method="getCityName" set-method="setCityName"/>
+    <value style="element" name="DateTimeStart" get-method="getDateTimeStart" set-method="setDateTimeStart"/>
+    <value style="element" name="DateTimeEnd" get-method="getDateTimeEnd" set-method="setDateTimeEnd"/>
+    <value style="element" name="FIOExpert" get-method="getFIOExpert" set-method="setFIOExpert"/>
+    <value style="element" name="Qualification" get-method="getQualification" set-method="setQualification"/>
+    <value style="element" name="ExpertExperience" get-method="getExpertExperience" set-method="setExpertExperience"/>
+    <collection get-method="getQuestionList" set-method="setQuestionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Questions" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getPresentationList" set-method="setPresentationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Presentation" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getInspectionAccountList" set-method="setInspectionAccountList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InspectionAccount" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getExaminationList" set-method="setExaminationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Examination" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSynthesizingPortionList" set-method="setSynthesizingPortionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SynthesizingPortion" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getConclusionList" set-method="setConclusionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Conclusions" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getExpertCertificate" set-method="setExpertCertificate" usage="optional" name="ExpertCertificate"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCommission" set-method="setCommission" usage="optional" name="Commission"/>
+    <collection get-method="getExpertSignatureList" set-method="setExpertSignatureList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="ExpertSignature"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.custopinion.CustOpinionType" name="CustOpinion">
+    <structure map-as="cuop:CustOpinionType"/>
+  </mapping>
+</binding>

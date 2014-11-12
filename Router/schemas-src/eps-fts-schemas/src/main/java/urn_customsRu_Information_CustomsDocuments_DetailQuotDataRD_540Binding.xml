@@ -1,0 +1,75 @@
+<binding xmlns:dqdrd="urn:customs.ru:Information:CustomsDocuments:DetailQuotDataRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DetailQuotDataRD:5.4.0" default="elements" prefix="dqdrd"/>
+  <mapping abstract="true" type-name="dqdrd:DetailQuotaDataRDType" class="ru.acs.fts.schemas.album.detailquotadatard.DetailQuotaDataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ConNumber" get-method="getConNumber" set-method="setConNumber" usage="optional"/>
+    <value style="element" name="ConDateSignature" get-method="getConDateSignature" set-method="setConDateSignature" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="LicenseKind" get-method="getLicenseKind" set-method="setLicenseKind" usage="optional"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode" usage="optional"/>
+    <value style="element" name="QuotaCategoryCode" get-method="getQuotaCategoryCode" set-method="setQuotaCategoryCode" usage="optional"/>
+    <value style="element" name="LicenseTerm" get-method="getLicenseTerm" set-method="setLicenseTerm" format="LocalDate.default"/>
+    <value style="element" name="Movement" get-method="getMovement" set-method="setMovement"/>
+    <value style="element" name="LicenseStatus" get-method="getLicenseStatus" set-method="setLicenseStatus"/>
+    <value style="element" name="LicenseStatusDate" get-method="getLicenseStatusDate" set-method="setLicenseStatusDate" format="LocalDate.default"/>
+    <value style="element" name="DatePlacement" get-method="getDatePlacement" set-method="setDatePlacement" format="LocalDate.default"/>
+    <value style="element" name="LicenseStatusCode" get-method="getLicenseStatusCode" set-method="setLicenseStatusCode"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsOriginalLicense" set-method="setCustomsOriginalLicense" usage="optional" name="CustomsOriginalLicense"/>
+    <collection get-method="getCustomsCopyLicenseList" set-method="setCustomsCopyLicenseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CustomsType" name="CustomsCopyLicense"/>
+    </collection>
+    <collection get-method="getPaperCarrierList" set-method="setPaperCarrierList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="dqdrd:PaperCarrierType" name="PaperCarrier"/>
+    </collection>
+    <structure map-as="dqdrd:OwnersLicenseType" get-method="getOwnersLicense" set-method="setOwnersLicense" name="OwnersLicense"/>
+    <structure map-as="dqdrd:OrganizationInfoType" get-method="getOrganizationInfo" set-method="setOrganizationInfo" name="OrganizationInfo"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="dqdrd:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAgencyIssuedDoc" set-method="setAgencyIssuedDoc" usage="optional" name="AgencyIssuedDoc"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.detailquotadatard.DetailQuotaDataRDType" name="DetailQuotaDataRD">
+    <structure map-as="dqdrd:DetailQuotaDataRDType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dqdrd:GoodsInfoType" class="ru.acs.fts.schemas.album.detailquotadatard.GoodsInfoType">
+    <value style="element" name="GoodsCategoryCode" get-method="getGoodsCategoryCode" set-method="setGoodsCategoryCode" usage="optional"/>
+    <value style="element" name="GoodsTNVED" get-method="getGoodsTNVED" set-method="setGoodsTNVED" usage="optional"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+    <value style="element" name="CommercialName" get-method="getCommercialName" set-method="setCommercialName" usage="optional"/>
+    <value style="element" name="InternationalName" get-method="getInternationalName" set-method="setInternationalName" usage="optional"/>
+    <value style="element" name="ProducerName" get-method="getProducerName" set-method="setProducerName" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <structure map-as="dqdrd:QuantitativeCharactType" get-method="getQuantitativeCharact" set-method="setQuantitativeCharact" name="QuantitativeCharact"/>
+  </mapping>
+  <mapping abstract="true" type-name="dqdrd:OrganizationInfoType" class="ru.acs.fts.schemas.album.detailquotadatard.OrganizationInfoType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="Address" get-method="getAddress" set-method="setAddress" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="dqdrd:OwnersLicenseType" class="ru.acs.fts.schemas.album.detailquotadatard.OwnersLicenseType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="OGRN" get-method="getOGRN" set-method="setOGRN" usage="optional"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <value style="element" name="LegalAddress" get-method="getLegalAddress" set-method="setLegalAddress" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="dqdrd:PaperCarrierType" class="ru.acs.fts.schemas.album.detailquotadatard.PaperCarrierType">
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber" usage="optional"/>
+    <value style="element" name="FormSeries" get-method="getFormSeries" set-method="setFormSeries" usage="optional"/>
+    <value style="element" name="FormPrintDate" get-method="getFormPrintDate" set-method="setFormPrintDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="dqdrd:QuantitativeCharactType" class="ru.acs.fts.schemas.album.detailquotadatard.QuantitativeCharactType">
+    <structure map-as="cat_ru:SupplementaryQuantityType"/>
+    <value style="element" name="RestQuota" get-method="getRestQuota" set-method="setRestQuota" usage="optional"/>
+    <value style="element" name="Packing" get-method="getPacking" set-method="setPacking" usage="optional"/>
+    <value style="element" name="QuantityPacking" get-method="getQuantityPacking" set-method="setQuantityPacking" usage="optional"/>
+    <value style="element" name="RegForm" get-method="getRegForm" set-method="setRegForm" usage="optional"/>
+    <value style="element" name="StatisticalCost" get-method="getStatisticalCost" set-method="setStatisticalCost" usage="optional"/>
+    <value style="element" name="Invoice" get-method="getInvoice" set-method="setInvoice" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+  </mapping>
+</binding>

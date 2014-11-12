@@ -1,0 +1,149 @@
+<binding xmlns:rer="urn:customs.ru:Information:SQDocuments:RealEstateResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RealEstateResponse:5.4.0" default="elements" prefix="rer"/>
+  <mapping abstract="true" type-name="rer:RealEstateResponseType" class="ru.acs.fts.schemas.album.realestateresponse.RealEstateResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="Recipient" get-method="getRecipient" set-method="setRecipient" usage="optional"/>
+    <value style="element" name="ExcerptDate" get-method="getExcerptDate" set-method="setExcerptDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RefusalReasons" get-method="getRefusalReasons" set-method="setRefusalReasons" usage="optional"/>
+    <collection get-method="getExcerptObjectList" set-method="setExcerptObjectList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:ExcerptObjectType" name="ExcerptObject"/>
+    </collection>
+    <collection get-method="getResourceOrgList" set-method="setResourceOrgList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:ResourceOrgType" name="ResourceOrg"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.realestateresponse.RealEstateResponseType" name="RealEstateResponse">
+    <structure map-as="rer:RealEstateResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:AddDescriptionType" class="ru.acs.fts.schemas.album.realestateresponse.AddDescriptionType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="TextDescription" get-method="getTextDescription" set-method="setTextDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:AddressElementType" class="ru.acs.fts.schemas.album.realestateresponse.AddressElementType">
+    <value style="element" name="Type" get-method="getType" set-method="setType" usage="optional"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:AddressType" class="ru.acs.fts.schemas.album.realestateresponse.AddressType">
+    <structure map-as="cat_ru:AddressType"/>
+    <value style="element" name="KLADRCode" get-method="getKLADRCode" set-method="setKLADRCode" usage="optional"/>
+    <value style="element" name="OKATO" get-method="getOKATO" set-method="setOKATO" usage="optional"/>
+    <value style="element" name="UnformalizedDescription" get-method="getUnformalizedDescription" set-method="setUnformalizedDescription" usage="optional"/>
+    <structure map-as="rer:AddressElementType" get-method="getDistrict" set-method="setDistrict" usage="optional" name="District"/>
+    <structure map-as="rer:AddressElementType" get-method="getRuralPlace" set-method="setRuralPlace" usage="optional" name="RuralPlace"/>
+    <structure map-as="rer:AddressElementType" get-method="getUrbanDistrict" set-method="setUrbanDistrict" usage="optional" name="UrbanDistrict"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:EncumbranceType" class="ru.acs.fts.schemas.album.realestateresponse.EncumbranceType">
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum"/>
+    <value style="element" name="ShareText" get-method="getShareText" set-method="setShareText" usage="optional"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Term" get-method="getTerm" set-method="setTerm" usage="optional"/>
+    <value style="element" name="AllShareOwner" get-method="getAllShareOwner" set-method="setAllShareOwner" usage="optional"/>
+    <structure map-as="rer:AddDescriptionType" get-method="getEncumbranceDetails" set-method="setEncumbranceDetails" name="EncumbranceDetails"/>
+    <collection get-method="getOwnerList" set-method="setOwnerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:OwnerType" name="Owner"/>
+    </collection>
+    <collection get-method="getFoundationDocList" set-method="setFoundationDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:FoundationDocType" name="FoundationDoc"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rer:EstateObjectType" class="ru.acs.fts.schemas.album.realestateresponse.EstateObjectType">
+    <value style="element" name="ObjectName" get-method="getObjectName" set-method="setObjectName"/>
+    <value style="element" name="CadastrNumber" get-method="getCadastrNumber" set-method="setCadastrNumber" usage="optional"/>
+    <value style="element" name="ConditionNum" get-method="getConditionNum" set-method="setConditionNum" usage="optional"/>
+    <value style="element" name="InventoryNumber" get-method="getInventoryNumber" set-method="setInventoryNumber" usage="optional"/>
+    <value style="element" name="FloorNumber" get-method="getFloorNumber" set-method="setFloorNumber" usage="optional"/>
+    <collection get-method="getFloorPlanNumList" set-method="setFloorPlanNumList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FloorPlanNum" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getComplexList" set-method="setComplexList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Complex" type="java.lang.String"/>
+    </collection>
+    <structure map-as="rer:AddDescriptionType" get-method="getObjectType" set-method="setObjectType" usage="optional" name="ObjectType"/>
+    <structure map-as="rer:AddDescriptionType" get-method="getAssignation" set-method="setAssignation" usage="optional" name="Assignation"/>
+    <structure map-as="rer:AddDescriptionType" get-method="getGroundCategory" set-method="setGroundCategory" usage="optional" name="GroundCategory"/>
+    <structure map-as="rer:ObjectAreaType" get-method="getObjectArea" set-method="setObjectArea" usage="optional" name="ObjectArea"/>
+    <structure map-as="rer:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <collection get-method="getRightList" set-method="setRightList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:RightType" name="Right"/>
+    </collection>
+    <collection get-method="getShareHoldingList" set-method="setShareHoldingList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:ShareHoldingType" name="ShareHolding"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rer:ExcerptObjectType" class="ru.acs.fts.schemas.album.realestateresponse.ExcerptObjectType">
+    <value style="element" name="RightAssert" get-method="getRightAssert" set-method="setRightAssert"/>
+    <value style="element" name="RightClaim" get-method="getRightClaim" set-method="setRightClaim"/>
+    <structure map-as="rer:EstateObjectType" get-method="getEstateObject" set-method="setEstateObject" name="EstateObject"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:FoundationDocType" class="ru.acs.fts.schemas.album.realestateresponse.FoundationDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocType" get-method="getDocType" set-method="setDocType"/>
+    <value style="element" name="DocSeries" get-method="getDocSeries" set-method="setDocSeries" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:ObjectAreaType" class="ru.acs.fts.schemas.album.realestateresponse.ObjectAreaType">
+    <value style="element" name="AreaValue" get-method="getAreaValue" set-method="setAreaValue" usage="optional"/>
+    <value style="element" name="AreaUnit" get-method="getAreaUnit" set-method="setAreaUnit" usage="optional"/>
+    <value style="element" name="AreaText" get-method="getAreaText" set-method="setAreaText" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:OwnerType" class="ru.acs.fts.schemas.album.realestateresponse.OwnerType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign"/>
+    <value style="element" name="SubjectCode" get-method="getSubjectCode" set-method="setSubjectCode"/>
+    <value style="element" name="BirthDate" get-method="getBirthDate" set-method="setBirthDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BirthPlace" get-method="getBirthPlace" set-method="setBirthPlace" usage="optional"/>
+    <value style="element" name="InsuranceNumber" get-method="getInsuranceNumber" set-method="setInsuranceNumber" usage="optional"/>
+    <value style="element" name="Citizen" get-method="getCitizen" set-method="setCitizen" usage="optional"/>
+    <value style="element" name="Sex" get-method="getSex" set-method="setSex" usage="optional"/>
+    <value style="element" name="CodeOPF" get-method="getCodeOPF" set-method="setCodeOPF" usage="optional"/>
+    <value style="element" name="RegCountry" get-method="getRegCountry" set-method="setRegCountry" usage="optional"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AgencyRegistration" get-method="getAgencyRegistration" set-method="setAgencyRegistration" usage="optional"/>
+    <value style="element" name="Email" get-method="getEmail" set-method="setEmail" usage="optional"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <value style="element" name="CodeOKATO" get-method="getCodeOKATO" set-method="setCodeOKATO" usage="optional"/>
+    <structure map-as="rer:AddressType" get-method="getRegAddress" set-method="setRegAddress" usage="optional" name="RegAddress"/>
+    <structure map-as="rer:AddressType" get-method="getFactLocation" set-method="setFactLocation" usage="optional" name="FactLocation"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:ResourceOrgType" class="ru.acs.fts.schemas.album.realestateresponse.ResourceOrgType">
+    <value style="element" name="OrgCode" get-method="getOrgCode" set-method="setOrgCode" usage="optional"/>
+    <value style="element" name="Region" get-method="getRegion" set-method="setRegion" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rer:RightRegistrationType" class="ru.acs.fts.schemas.album.realestateresponse.RightRegistrationType">
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ShareNominator" get-method="getShareNominator" set-method="setShareNominator" usage="optional"/>
+    <value style="element" name="ShareDenominator" get-method="getShareDenominator" set-method="setShareDenominator" usage="optional"/>
+    <value style="element" name="ShareText" get-method="getShareText" set-method="setShareText" usage="optional"/>
+    <structure map-as="rer:AddDescriptionType" get-method="getRightDescription" set-method="setRightDescription" name="RightDescription"/>
+    <collection get-method="getFoundationDocList" set-method="setFoundationDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:FoundationDocType" name="FoundationDoc"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rer:RightType" class="ru.acs.fts.schemas.album.realestateresponse.RightType">
+    <collection get-method="getOwnerList" set-method="setOwnerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:OwnerType" name="Owner"/>
+    </collection>
+    <structure map-as="rer:RightRegistrationType" get-method="getRightRegistration" set-method="setRightRegistration" usage="optional" name="RightRegistration"/>
+    <collection get-method="getEncumbranceList" set-method="setEncumbranceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:EncumbranceType" name="Encumbrance"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rer:ShareHoldingType" class="ru.acs.fts.schemas.album.realestateresponse.ShareHoldingType">
+    <collection get-method="getShareObjectList" set-method="setShareObjectList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ShareObject" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getOwnerList" set-method="setOwnerList" create-type="java.util.ArrayList">
+      <structure map-as="rer:OwnerType" name="Owner"/>
+    </collection>
+    <collection get-method="getEncumbranceList" set-method="setEncumbranceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rer:EncumbranceType" name="Encumbrance"/>
+    </collection>
+  </mapping>
+</binding>

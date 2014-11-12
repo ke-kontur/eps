@@ -1,0 +1,21 @@
+<binding xmlns:red="urn:customs.ru:Information:CustomsDocuments:RepudDecl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RepudDecl:5.4.0" default="elements" prefix="red"/>
+  <mapping abstract="true" type-name="red:RepudDeclType" class="ru.acs.fts.schemas.album.repuddecl.RepudDeclType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getRepudReasonList" set-method="setRepudReasonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="red:RepudReasonType" name="RepudReason"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.repuddecl.RepudDeclType" name="RepudDecl">
+    <structure map-as="red:RepudDeclType"/>
+  </mapping>
+  <mapping abstract="true" type-name="red:RepudReasonType" class="ru.acs.fts.schemas.album.repuddecl.RepudReasonType">
+    <value style="element" name="ReasonDescription" get-method="getReasonDescription" set-method="setReasonDescription"/>
+  </mapping>
+</binding>

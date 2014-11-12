@@ -1,0 +1,40 @@
+<binding xmlns:cbc="urn:customs.ru:Information:RegistrationDocuments:CustomsBrokerCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:CustomsBrokerCertificate:5.4.0" default="elements" prefix="cbc"/>
+  <mapping abstract="true" type-name="cbc:CustomsBrokerCertificateType" class="ru.acs.fts.schemas.album.customsbrokercertificate.CustomsBrokerCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentReference" set-method="setDocumentReference" name="DocumentReference"/>
+    <structure map-as="cbc:BrokerOrganizationType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="cbc:PaymentGuaranteeType" get-method="getPaymentGuarantee" set-method="setPaymentGuarantee" usage="optional" name="PaymentGuarantee"/>
+    <structure map-as="cbc:FieldRestrictionsType" get-method="getFieldRestrictions" set-method="setFieldRestrictions" usage="optional" name="FieldRestrictions"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.customsbrokercertificate.CustomsBrokerCertificateType" name="CustomsBrokerCertificate">
+    <structure map-as="cbc:CustomsBrokerCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cbc:BranchDescriptionType" class="ru.acs.fts.schemas.album.customsbrokercertificate.BranchDescriptionType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="cbc:BrokerOrganizationType" class="ru.acs.fts.schemas.album.customsbrokercertificate.BrokerOrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <collection get-method="getBranchDescriprionList" set-method="setBranchDescriprionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cbc:BranchDescriptionType" name="BranchDescriprion"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:AddressType" get-method="getFactAddress" set-method="setFactAddress" usage="optional" name="FactAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="cbc:FieldRestrictionsType" class="ru.acs.fts.schemas.album.customsbrokercertificate.FieldRestrictionsType">
+    <value style="element" name="GoodsRestriction" get-method="getGoodsRestriction" set-method="setGoodsRestriction" usage="optional"/>
+    <value style="element" name="TransportRestriction" get-method="getTransportRestriction" set-method="setTransportRestriction" usage="optional"/>
+    <value style="element" name="RegionRestriction" get-method="getRegionRestriction" set-method="setRegionRestriction" usage="optional"/>
+    <value style="element" name="ProcedureRestriction" get-method="getProcedureRestriction" set-method="setProcedureRestriction" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cbc:PaymentGuaranteeType" class="ru.acs.fts.schemas.album.customsbrokercertificate.PaymentGuaranteeType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode" usage="optional"/>
+    <value style="element" name="PaymentMode" get-method="getPaymentMode" set-method="setPaymentMode" usage="optional"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,132 @@
+<binding xmlns:soup="urn:customs.ru:Information:CustomsDocuments:ESADoutP:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ESADoutP:5.4.0" default="elements" prefix="soup"/>
+  <mapping abstract="true" type-name="soup:ESADoutPType" class="ru.acs.fts.schemas.album.esadoutp.ESADoutPType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="TransitDirectionCode" get-method="getTransitDirectionCode" set-method="setTransitDirectionCode" usage="optional"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind" usage="optional"/>
+    <value style="element" name="PI_URN" get-method="getPIURN" set-method="setPIURN" usage="optional"/>
+    <value style="element" name="FormKind" get-method="getFormKind" set-method="setFormKind" usage="optional"/>
+    <structure map-as="soup:ESADGoodsShipmentPType" get-method="getESADGoodsShipmentP" set-method="setESADGoodsShipmentP" name="ESADGoodsShipmentP"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.esadoutp.ESADoutPType" name="ESADoutP">
+    <structure map-as="soup:ESADoutPType"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ConfirmingOrganizationType" class="ru.acs.fts.schemas.album.esadoutp.ConfirmingOrganizationType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="OrganizationSign" get-method="getOrganizationSign" set-method="setOrganizationSign"/>
+    <structure map-as="soup:PersonInfoType" get-method="getSenderName" set-method="setSenderName" usage="optional" name="SenderName"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ContainerInfoType" class="ru.acs.fts.schemas.album.esadoutp.ContainerInfoType">
+    <value style="element" name="ContainerNumber" get-method="getContainerNumber" set-method="setContainerNumber"/>
+    <value style="element" name="ContainerKind" get-method="getContainerKind" set-method="setContainerKind" usage="optional"/>
+    <collection get-method="getSealList" set-method="setSealList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Seals" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ContainerType" class="ru.acs.fts.schemas.album.esadoutp.ContainerType">
+    <value style="element" name="ContainerQuantity" get-method="getContainerQuantity" set-method="setContainerQuantity"/>
+    <collection get-method="getContainerInfoList" set-method="setContainerInfoList" create-type="java.util.ArrayList">
+      <structure map-as="soup:ContainerInfoType" name="ContainerInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:CustomsPaymentsPType" class="ru.acs.fts.schemas.album.esadoutp.CustomsPaymentsPType">
+    <collection get-method="getCustomsPaymentList" set-method="setCustomsPaymentList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ESADout_CUCustomsPaymentType" name="CustomsPayment"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADGoodsItemPType" class="ru.acs.fts.schemas.album.esadoutp.ESADGoodsItemPType">
+    <structure map-as="catESAD_cu:GoodsItemBaseType"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="CountryCodeIndicator" get-method="getCountryCodeIndicator" set-method="setCountryCodeIndicator" usage="optional"/>
+    <value style="element" name="Preferencii" get-method="getPreferencii" set-method="setPreferencii" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="ConformityStatCostIndicator" get-method="getConformityStatCostIndicator" set-method="setConformityStatCostIndicator" usage="optional"/>
+    <value style="element" name="CustomsCostCorrectMethod" get-method="getCustomsCostCorrectMethod" set-method="setCustomsCostCorrectMethod" usage="optional"/>
+    <value style="element" name="InvoiceCostCurCode" get-method="getInvoiceCostCurCode" set-method="setInvoiceCostCurCode" usage="optional"/>
+    <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsGroupDescriptionList" set-method="setGoodsGroupDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupDescriptionType" name="GoodsGroupDescription"/>
+    </collection>
+    <structure map-as="soup:ContainerType" get-method="getContainer" set-method="setContainer" usage="optional" name="Container"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADGoodsShipmentPType" class="ru.acs.fts.schemas.album.esadoutp.ESADGoodsShipmentPType">
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="TotalPackageNumber" get-method="getTotalPackageNumber" set-method="setTotalPackageNumber" usage="optional"/>
+    <value style="element" name="TotalCustCost" get-method="getTotalCustCost" set-method="setTotalCustCost" usage="optional"/>
+    <value style="element" name="CustCostCurrencyCode" get-method="getCustCostCurrencyCode" set-method="setCustCostCurrencyCode" usage="optional"/>
+    <value style="element" name="TotalGrossWeight" get-method="getTotalGrossWeight" set-method="setTotalGrossWeight" usage="optional"/>
+    <value style="element" name="ConsignmentIdentifier" get-method="getConsignmentIdentifier" set-method="setConsignmentIdentifier" usage="optional"/>
+    <value style="element" name="DepartureCustomsCode" get-method="getDepartureCustomsCode" set-method="setDepartureCustomsCode" usage="optional"/>
+    <value style="element" name="BorderCustomsOffice" get-method="getBorderCustomsOffice" set-method="setBorderCustomsOffice" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getESADoutConsignorP" set-method="setESADoutConsignorP" name="ESADoutConsignorP"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getESADoutConsigneeP" set-method="setESADoutConsigneeP" name="ESADoutConsigneeP"/>
+    <structure map-as="soup:ESADoutCarrierPType" get-method="getESADoutCarrierP" set-method="setESADoutCarrierP" name="ESADoutCarrierP"/>
+    <structure map-as="soup:ESADoutDeclarantPType" get-method="getESADoutDeclarantP" set-method="setESADoutDeclarantP" name="ESADoutDeclarantP"/>
+    <structure map-as="catESAD_cu:CUESADMainContractTermsType" get-method="getESADoutMainContractTermsP" set-method="setESADoutMainContractTermsP" name="ESADoutMainContractTermsP"/>
+    <structure map-as="soup:ESADoutConsigmenPType" get-method="getESADoutConsigmenP" set-method="setESADoutConsigmenP" name="ESADoutConsigmenP"/>
+    <collection get-method="getESADoutGoodsPList" set-method="setESADoutGoodsPList" create-type="java.util.ArrayList">
+      <structure map-as="soup:ESADoutGoodsPType" name="ESADoutGoodsP"/>
+    </collection>
+    <structure map-as="soup:CustomsPaymentsPType" get-method="getCustomsPaymentsP" set-method="setCustomsPaymentsP" usage="optional" name="CustomsPaymentsP"/>
+    <collection get-method="getTransportDocumentList" set-method="setTransportDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="soup:TransportDocumentType" name="TransportDocument"/>
+    </collection>
+    <collection get-method="getConfirmingOrganizationList" set-method="setConfirmingOrganizationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="soup:ConfirmingOrganizationType" name="ConfirmingOrganization"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADoutCarrierPType" class="ru.acs.fts.schemas.album.esadoutp.ESADoutCarrierPType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <collection get-method="getESADDriverInformationList" set-method="setESADDriverInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DriverInformationType" name="ESADDriverInformation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADoutConsigmenPType" class="ru.acs.fts.schemas.album.esadoutp.ESADoutConsigmenPType">
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DispatchCountryName" get-method="getDispatchCountryName" set-method="setDispatchCountryName" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryName" get-method="getDestinationCountryName" set-method="setDestinationCountryName" usage="optional"/>
+    <structure map-as="soup:ESADoutTransportPType" get-method="getESADoutTransportP" set-method="setESADoutTransportP" usage="optional" name="ESADoutTransportP"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADoutDeclarantPType" class="ru.acs.fts.schemas.album.esadoutp.ESADoutDeclarantPType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getESADFilledPerson" set-method="setESADFilledPerson" usage="optional" name="ESADFilledPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADoutGoodsPType" class="ru.acs.fts.schemas.album.esadoutp.ESADoutGoodsPType">
+    <structure map-as="soup:ESADGoodsItemPType"/>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getESADGoodsPackaging" set-method="setESADGoodsPackaging" usage="optional" name="ESADGoodsPackaging"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <structure map-as="catESAD_cu:ESADGoodsQuotaType" get-method="getESADGoodsQuota" set-method="setESADGoodsQuota" usage="optional" name="ESADGoodsQuota"/>
+    <structure map-as="catESAD_cu:ESADCustomsProcedureType" get-method="getESADCustomsProcedure" set-method="setESADCustomsProcedure" usage="optional" name="ESADCustomsProcedure"/>
+    <collection get-method="getESADoutPresentedDocumentPList" set-method="setESADoutPresentedDocumentPList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUESADPresentedDocumentsType" name="ESADoutPresentedDocumentP"/>
+    </collection>
+    <collection get-method="getCustomsPaymentCalcPList" set-method="setCustomsPaymentCalcPList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:CUCustomsPaymentCalculationType" name="CustomsPaymentCalcP"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:ESADoutTransportPType" class="ru.acs.fts.schemas.album.esadoutp.ESADoutTransportPType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="soup:TransportMeansType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="soup:PersonInfoType" class="ru.acs.fts.schemas.album.esadoutp.PersonInfoType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:TransportDocumentType" class="ru.acs.fts.schemas.album.esadoutp.TransportDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Holder" get-method="getHolder" set-method="setHolder"/>
+  </mapping>
+  <mapping abstract="true" type-name="soup:TransportMeansType" class="ru.acs.fts.schemas.album.esadoutp.TransportMeansType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode" usage="optional"/>
+  </mapping>
+</binding>

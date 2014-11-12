@@ -1,0 +1,17 @@
+<binding xmlns:remc="urn:customs.ru:Information:CustomsDocuments:RemovalControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RemovalControl:5.4.0" default="elements" prefix="remc"/>
+  <mapping abstract="true" type-name="remc:RemovalControlType" class="ru.acs.fts.schemas.album.removalcontrol.RemovalControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RemDate" get-method="getRemDate" set-method="setRemDate" format="LocalDate.default"/>
+    <value style="element" name="RemTime" get-method="getRemTime" set-method="setRemTime"/>
+    <value style="element" name="CreateDocDate" get-method="getCreateDocDate" set-method="setCreateDocDate" format="LocalDate.default"/>
+    <value style="element" name="CreateDocTime" get-method="getCreateDocTime" set-method="setCreateDocTime"/>
+    <value style="element" name="CoordReqNumber" get-method="getCoordReqNumber" set-method="setCoordReqNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getPerson" set-method="setPerson" usage="optional" name="Person"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTNumber" set-method="setDTNumber" name="DTNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.removalcontrol.RemovalControlType" name="RemovalControl">
+    <structure map-as="remc:RemovalControlType"/>
+  </mapping>
+</binding>

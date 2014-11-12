@@ -1,0 +1,130 @@
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-v4_0_0.xsd" >
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.acs.fts.aud</groupId>
+	<artifactId>management-parent</artifactId>
+	<version>1.11.1</version>
+	<packaging>pom</packaging>
+	<name>AUD Management Parent Project</name>
+
+	<modules>
+		<module>management-model</module>
+		<module>aud-command-dispatcher</module>
+		<module>aud-mgmt-utils</module>
+		<module>aud-management-services-deploy</module>
+		<module>aud-command-executor</module>
+		<module>aud-rest-service-model</module>
+		<module>aud-wmq-router</module>
+		<module>aud-management-wmqrouter-deploy</module>
+		<module>aud-result-dispatcher</module>
+	</modules>
+	
+	<properties>
+		<javax.persistence.api.version>1.0</javax.persistence.api.version>
+		<javax.servlet.api.version>2.5</javax.servlet.api.version>
+		<javax.inject.version>1</javax.inject.version>
+		
+		<org.springframework.version>3.2.4.RELEASE</org.springframework.version>
+		<org.springframework.oxm.version>1.5.10</org.springframework.oxm.version>
+		<org.eclipse.persistence.version>1.2.0</org.eclipse.persistence.version>
+		
+		<cglib.version>2.2</cglib.version>
+		<slf4j.version>1.7.5</slf4j.version>
+		<log4j.version>1.2.15</log4j.version>
+		<junit.version>4.5</junit.version>
+		<joda.time.version>2.3</joda.time.version>
+		
+		<com.oracle.ojdbc6.version>10.2.0</com.oracle.ojdbc6.version>
+		<com.oracle.ojdbc14.version>10.2.0.3.0</com.oracle.ojdbc14.version>
+		<com.ibm.mq.version>7.0.1</com.ibm.mq.version>
+		<com.fasterxml.jackson.version>2.1.1</com.fasterxml.jackson.version>
+		
+		<apache.commons.codec.version>1.7</apache.commons.codec.version>
+		<apache.commons.lang.version>2.3</apache.commons.lang.version>
+		<apache.http.components.version>4.2.5</apache.http.components.version>
+		
+		<java.version>1.6</java.version>
+		
+		<maven.compiler.plugin.version>2.3.2</maven.compiler.plugin.version>
+		<maven.resource.plugin.version>2.4</maven.resource.plugin.version>
+		<maven.eclipse.plugin.version>2.9</maven.eclipse.plugin.version>
+		
+		<work.encoding>UTF-8</work.encoding>
+	</properties>
+	
+	<profiles>
+		<profile>
+			<id>oas</id>
+			<properties>
+				<bindingsPrefix>java:comp/resource/</bindingsPrefix>
+				<profileName>oas</profileName>
+				<jndiFactoryBean>springJNDIPropertyFactory</jndiFactoryBean>
+				
+				<eclipseLinkTargetServer>OC4J</eclipseLinkTargetServer>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>wls</id>
+			<properties>
+				<bindingsPrefix></bindingsPrefix>
+				<profileName>wls</profileName>
+				<jndiFactoryBean>jndiPropertyExtractor</jndiFactoryBean>
+				
+				<eclipseLinkTargetServer>Weblogic_10</eclipseLinkTargetServer>
+			</properties>
+		</profile>
+	</profiles>
+	
+	<repositories>
+        <repository>
+            <id>internal</id>
+            <name>Quorus repository for Maven2</name>
+            <url>http://hudson:8082/repository/internal</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>quorus-repo</id>
+            <name>Quorus repository for Maven2</name>
+            <url>http://hudson:8082/repository/quorus-repo</url>
+            <releases>
+            	<enabled>true</enabled>
+                <!-- <updatePolicy>never</updatePolicy> -->
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <name>Quorus repository for Maven2</name>
+            <url>http://hudson:8082/repository/snapshots</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>nexus-public</id>
+            <name>nexus public repository for Maven2</name>
+            <url>http://repository/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+	
+</project>

@@ -1,0 +1,66 @@
+<binding xmlns:wss="urn:customs.ru:Information:CommercialFinanceDocuments:WoodShipingSpecification:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:WoodShipingSpecification:5.4.0" default="elements" prefix="wss"/>
+  <mapping abstract="true" type-name="wss:WoodShipingSpecificationType" class="ru.acs.fts.schemas.album.woodshipingspecification.WoodShipingSpecificationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SpecificationNumber" get-method="getSpecificationNumber" set-method="setSpecificationNumber"/>
+    <value style="element" name="UnloadingDate" get-method="getUnloadingDate" set-method="setUnloadingDate" format="LocalDate.default"/>
+    <collection get-method="getWagonNumberList" set-method="setWagonNumberList" create-type="java.util.ArrayList">
+      <value style="element" name="WagonNumber" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RailbillNumber" get-method="getRailbillNumber" set-method="setRailbillNumber"/>
+    <value style="element" name="AdditionalMarking" get-method="getAdditionalMarking" set-method="setAdditionalMarking" usage="optional"/>
+    <value style="element" name="TotalQuantity" get-method="getTotalQuantity" set-method="setTotalQuantity"/>
+    <value style="element" name="TotalVolume" get-method="getTotalVolume" set-method="setTotalVolume"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <structure map-as="wss:OrganizationInfoType" get-method="getSender" set-method="setSender" name="Sender"/>
+    <structure map-as="wss:OrganizationInfoType" get-method="getRecipient" set-method="setRecipient" name="Recipient"/>
+    <structure map-as="wss:StandartsInfoType" get-method="getStandartsInfo" set-method="setStandartsInfo" name="StandartsInfo"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="wss:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <collection get-method="getTotalLengthList" set-method="setTotalLengthList" create-type="java.util.ArrayList">
+      <structure map-as="wss:LenghtInfoType" name="TotalLength"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCheckMan" set-method="setCheckMan" usage="optional" name="CheckMan"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getForeman" set-method="setForeman" name="Foreman"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getLoader" set-method="setLoader" name="Loader"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.woodshipingspecification.WoodShipingSpecificationType" name="WoodShipingSpecification">
+    <structure map-as="wss:WoodShipingSpecificationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="wss:GoodsInfoType" class="ru.acs.fts.schemas.album.woodshipingspecification.GoodsInfoType">
+    <value style="element" name="PackNum" get-method="getPackNum" set-method="setPackNum"/>
+    <value style="element" name="Species" get-method="getSpecies" set-method="setSpecies"/>
+    <value style="element" name="Grade" get-method="getGrade" set-method="setGrade"/>
+    <value style="element" name="Depth" get-method="getDepth" set-method="setDepth"/>
+    <value style="element" name="Width" get-method="getWidth" set-method="setWidth"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="Volume" get-method="getVolume" set-method="setVolume"/>
+    <collection get-method="getRequisiteList" set-method="setRequisiteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Requisites" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getDetailList" set-method="setDetailList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Details" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getLengthList" set-method="setLengthList" create-type="java.util.ArrayList">
+      <structure map-as="wss:LenghtInfoType" name="Length"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="wss:LenghtInfoType" class="ru.acs.fts.schemas.album.woodshipingspecification.LenghtInfoType">
+    <value style="element" name="StandartValue" get-method="getStandartValue" set-method="setStandartValue"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="wss:OrganizationInfoType" class="ru.acs.fts.schemas.album.woodshipingspecification.OrganizationInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="wss:StandartsInfoType" class="ru.acs.fts.schemas.album.woodshipingspecification.StandartsInfoType">
+    <value style="element" name="GovermentStandart" get-method="getGovermentStandart" set-method="setGovermentStandart"/>
+    <value style="element" name="WoodSpecies" get-method="getWoodSpecies" set-method="setWoodSpecies" usage="optional"/>
+    <value style="element" name="Wetness" get-method="getWetness" set-method="setWetness" usage="optional"/>
+    <value style="element" name="ConversRate" get-method="getConversRate" set-method="setConversRate" usage="optional"/>
+    <value style="element" name="Tonnage" get-method="getTonnage" set-method="setTonnage"/>
+  </mapping>
+</binding>

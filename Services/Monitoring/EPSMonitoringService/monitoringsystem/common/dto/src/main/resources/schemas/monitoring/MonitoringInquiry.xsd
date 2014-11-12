@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:minf="urn:customs.ru:MonitoringInquiry:1.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.2.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.2.0" targetNamespace="urn:customs.ru:MonitoringInquiry:1.0.0" elementFormDefault="qualified" version="1.0.0.0">
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:4.2.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:4.2.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:element name="MonitoringInquiry" type="minf:MonitoringInquiryType"/>
+	<xs:complexType name="MonitoringInquiryType">
+		<xs:annotation>
+			<xs:documentation>Запрос информации мониторинга</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentIDType" default="9999004E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа. Код документа в Альбоме форматов.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="useCache" type="xs:boolean" default="0">
+					<xs:annotation>
+						<xs:documentation>Атрибут определяющий запрашиваются ли скэшированные данные мониторинга</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

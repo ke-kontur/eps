@@ -1,0 +1,23 @@
+<binding xmlns:jprc="urn:customs.ru:Information:RegistrationDocuments:JuridicalPersonRegistrationCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:JuridicalPersonRegistrationCertificate:5.4.0" default="elements" prefix="jprc"/>
+  <mapping abstract="true" type-name="jprc:JuridicalPersonRegistrationCertificateType" class="ru.acs.fts.schemas.album.juridicalpersonregistrationcertificate.JuridicalPersonRegistrationCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="RegistrationNumberID" get-method="getRegistrationNumberID" set-method="setRegistrationNumberID"/>
+    <value style="element" name="RegistrationOrganization" get-method="getRegistrationOrganization" set-method="setRegistrationOrganization"/>
+    <value style="element" name="JuridicalPersonLongTitle" get-method="getJuridicalPersonLongTitle" set-method="setJuridicalPersonLongTitle"/>
+    <value style="element" name="JuridicalPersonShortcut" get-method="getJuridicalPersonShortcut" set-method="setJuridicalPersonShortcut"/>
+    <value style="element" name="JuridicalPersonFirmName" get-method="getJuridicalPersonFirmName" set-method="setJuridicalPersonFirmName" usage="optional"/>
+    <value style="element" name="FormName" get-method="getFormName" set-method="setFormName"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getRegisteringClerkSignature" set-method="setRegisteringClerkSignature" name="RegisteringClerkSignature"/>
+    <structure map-as="jprc:FormType" get-method="getForm" set-method="setForm" name="Form"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.juridicalpersonregistrationcertificate.JuridicalPersonRegistrationCertificateType" name="JuridicalPersonRegistrationCertificate">
+    <structure map-as="jprc:JuridicalPersonRegistrationCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="jprc:FormType" class="ru.acs.fts.schemas.album.juridicalpersonregistrationcertificate.FormType">
+    <value style="element" name="FormSerial" get-method="getFormSerial" set-method="setFormSerial"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber"/>
+  </mapping>
+</binding>

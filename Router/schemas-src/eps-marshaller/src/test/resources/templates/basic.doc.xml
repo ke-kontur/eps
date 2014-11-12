@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rodp:ReqOpenProc 
+		xmlns:rodp="urn:customs.ru:Information:ExchangeDocuments:ReqOpenProc:5.4.0" 
+		xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" 
+		DocumentModeID="1004057E" >
+		
+	<cat_ru:DocumentID>11f0f445-65f5-4a4c-a173-69bd21bc308e</cat_ru:DocumentID>
+	<rodp:Declarant>
+		<cat_ru:OrganizationName>ACS</cat_ru:OrganizationName>
+	</rodp:Declarant>
+</rodp:ReqOpenProc>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Хранилище для обработки ошибочных ситуаций -->
+	<bean id="failedJobBatchWarehouse" class="ru.acs.fts.eps2.router.processing.EDJobBatchWarehouse">
+		<property name="selectors">
+			<list>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_save_send_00001" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SAVE_SEND_00001" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_send_00001" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_send_00001_mq" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001_MQ_ONLY" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_send_09999" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_send_09999_mq" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999_MQ_ONLY" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_send_00002_00001" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SEND_00002_00001" />
+						</bean>
+					</property>
+				</bean>
+			
+				<!-- 
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="send_CMN_00001_And_Save" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Send_00001_And_Save" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="save_Income" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Save_Income" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="save_Income_And_Send_00001" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Save_Income_And_Send_00001" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="save_Income_And_Send_09999" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Save_Income_And_Send_09999" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="send_00001" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Send_00001" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="send_09999_And_Save" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Send_09999_And_Save" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="send_09999" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Send_09999" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="ead_error" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Ead_Error" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="save_income_and_send_adm00001" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Save_Income_And_Send_ADM00001" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="send_adm00001" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Send_ADM00001" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="send_adm00001_and_save" />
+					<property name="condition">
+						<bean
+							class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="failScenario" value="Send_ADM00001_And_Save" />
+						</bean>
+					</property>
+				</bean>
+				-->
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

@@ -1,0 +1,29 @@
+<binding xmlns:chl="urn:customs.ru:Information:CommercialFinanceDocuments:ChargeOffLetter:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ChargeOffLetter:5.4.0" default="elements" prefix="chl"/>
+  <mapping abstract="true" type-name="chl:ChargeOffLetterType" class="ru.acs.fts.schemas.album.chargeoffletter.ChargeOffLetterType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getLetterTextList" set-method="setLetterTextList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="LetterText" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentReference" set-method="setDocumentReference" name="DocumentReference"/>
+    <structure map-as="cat_ru:OrganizationWBankType" get-method="getBroker" set-method="setBroker" name="Broker"/>
+    <structure map-as="cat_ru:OrganizationWBankType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <collection get-method="getPaymentList" set-method="setPaymentList" create-type="java.util.ArrayList">
+      <structure map-as="chl:PaymentsType" name="Payments"/>
+    </collection>
+    <collection get-method="getSignatureList" set-method="setSignatureList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonBaseType" name="Signatures"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.chargeoffletter.ChargeOffLetterType" name="ChargeOffLetter">
+    <structure map-as="chl:ChargeOffLetterType"/>
+  </mapping>
+  <mapping abstract="true" type-name="chl:PaymentsType" class="ru.acs.fts.schemas.album.chargeoffletter.PaymentsType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="PaymentOrderNumber" get-method="getPaymentOrderNumber" set-method="setPaymentOrderNumber"/>
+    <value style="element" name="PaymentOrderDate" get-method="getPaymentOrderDate" set-method="setPaymentOrderDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

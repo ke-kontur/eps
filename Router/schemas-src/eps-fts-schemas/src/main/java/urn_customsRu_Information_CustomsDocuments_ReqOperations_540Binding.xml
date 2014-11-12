@@ -1,0 +1,44 @@
+<binding xmlns:reqop="urn:customs.ru:Information:CustomsDocuments:ReqOperations:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqOperations:5.4.0" default="elements" prefix="reqop"/>
+  <mapping abstract="true" type-name="reqop:ReqOperationsType" class="ru.acs.fts.schemas.album.reqoperations.ReqOperationsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="reqop:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="reqop:OperationsType" get-method="getTransportation" set-method="setTransportation" name="Transportation"/>
+    <structure map-as="reqop:OperationsType" get-method="getWeighing" set-method="setWeighing" name="Weighing"/>
+    <structure map-as="reqop:OperationsType" get-method="getDifferentDefinitionQuantity" set-method="setDifferentDefinitionQuantity" name="DifferentDefinitionQuantity"/>
+    <structure map-as="reqop:OperationsType" get-method="getLoading" set-method="setLoading" name="Loading"/>
+    <structure map-as="reqop:OperationsType" get-method="getUnloading" set-method="setUnloading" name="Unloading"/>
+    <structure map-as="reqop:OperationsType" get-method="getOverload" set-method="setOverload" name="Overload"/>
+    <structure map-as="reqop:OperationsType" get-method="getCorrectionPackaging" set-method="setCorrectionPackaging" name="CorrectionPackaging"/>
+    <structure map-as="reqop:OperationsType" get-method="getUnpacking" set-method="setUnpacking" name="Unpacking"/>
+    <structure map-as="reqop:OperationsType" get-method="getPacking" set-method="setPacking" name="Packing"/>
+    <structure map-as="reqop:OperationsType" get-method="getRepackaging" set-method="setRepackaging" name="Repackaging"/>
+    <structure map-as="reqop:OperationsType" get-method="getOpeningLocationGoods" set-method="setOpeningLocationGoods" name="OpeningLocationGoods"/>
+    <structure map-as="reqop:OperationsType" get-method="getDivisionConsignment" set-method="setDivisionConsignment" name="DivisionConsignment"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" usage="optional" name="PersonSignature"/>
+    <structure map-as="reqop:DirectionRequirementType" get-method="getDirectionRequirement" set-method="setDirectionRequirement" usage="optional" name="DirectionRequirement"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqoperations.ReqOperationsType" name="ReqOperations">
+    <structure map-as="reqop:ReqOperationsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="reqop:DeclarantType" class="ru.acs.fts.schemas.album.reqoperations.DeclarantType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getRepresentative" set-method="setRepresentative" usage="optional" name="Representative"/>
+  </mapping>
+  <mapping abstract="true" type-name="reqop:DirectionRequirementType" class="ru.acs.fts.schemas.album.reqoperations.DirectionRequirementType">
+    <value style="element" name="MethodDirection" get-method="getMethodDirection" set-method="setMethodDirection"/>
+    <value style="element" name="DateDirection" get-method="getDateDirection" set-method="setDateDirection" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPerson" set-method="setPerson" name="Person"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="reqop:OperationsType" class="ru.acs.fts.schemas.album.reqoperations.OperationsType">
+    <value style="element" name="Value" get-method="getValue" set-method="setValue"/>
+    <value style="element" name="Remark" get-method="getRemark" set-method="setRemark" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean name="OracleDataSource" abstract="true" destroy-method="close"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
+	</bean>
+<!-- 
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД РТУ" />
+		<property name="dataSource">
+		
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/RTU1" />
+				<property name="username" value="RNTS_CONNECT_S" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="testCheck" class="ru.acs.monitoring.services.DBContentCheckSettings">
+		<property name="name" value="БД АСКТТ2 ГНИВЦ" />		
+		<property name="checkingSql" value="select query.state as state, decode( query.state, 'ok', 'all is ok', 'error!!!') as description from (select decode(greatest(TO_NUMBER(To_CHAR(sysdate, 'HH')) , 13), 13, 'ok', 'error') as state from dual) query"/>
+	</bean>
+ 
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД Гнивц" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/GNIVC" />
+				<property name="username" value="RNTS_CONNECT_S" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+		<property name="dbContentChecks">
+	      <list>
+	        <ref local="testCheck" />	        
+	      </list>
+	    </property>
+	</bean>
+
+
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД НСИ" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url" value="jdbc:oracle:thin:@//dev04:1520/RNTSNSI" />
+				<property name="username" value="ACCESS_NSI" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД ГНИВЦ WH" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/GNIVCWH" />
+				<property name="username" value="RNTS_WHUSER" />
+				<property name="password" value="2" />
+			</bean>
+		</property>
+	</bean>
+ 
+	<bean class="ru.acs.monitoring.services.DBSettings">
+		<property name="name" value="БД РТУ WH" />
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/RTU1WH" />
+				<property name="username" value="RNTS_WHUSER" />
+				<property name="password" value="2" />
+			</bean>
+		</property>
+	</bean>
+	 -->
+ </beans>

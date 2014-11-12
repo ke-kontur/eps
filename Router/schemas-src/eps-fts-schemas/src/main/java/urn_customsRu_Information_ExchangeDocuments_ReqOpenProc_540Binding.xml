@@ -1,0 +1,11 @@
+<binding xmlns:rodp="urn:customs.ru:Information:ExchangeDocuments:ReqOpenProc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ReqOpenProc:5.4.0" default="elements" prefix="rodp"/>
+  <mapping abstract="true" type-name="rodp:ReqOpenProcType" class="ru.acs.fts.schemas.album.reqopenproc.ReqOpenProcType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqopenproc.ReqOpenProcType" name="ReqOpenProc">
+    <structure map-as="rodp:ReqOpenProcType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,32 @@
+<binding xmlns:infrg="urn:customs.ru:Information:SQDocuments:InFringer:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:InFringer:5.4.0" default="elements" prefix="infrg"/>
+  <mapping abstract="true" type-name="infrg:InFringerType" class="ru.acs.fts.schemas.album.infringer.InFringerType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <collection get-method="getViolatorsList" set-method="setViolatorsList" create-type="java.util.ArrayList">
+      <structure map-as="infrg:ViolatorsListType" name="ViolatorsList"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.infringer.InFringerType" name="InFringer">
+    <structure map-as="infrg:InFringerType"/>
+  </mapping>
+  <mapping abstract="true" type-name="infrg:DriverType" class="ru.acs.fts.schemas.album.infringer.DriverType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="DriverBirthDate" get-method="getDriverBirthDate" set-method="setDriverBirthDate" format="LocalDate.default"/>
+    <value style="element" name="DriverBirthPlace" get-method="getDriverBirthPlace" set-method="setDriverBirthPlace" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="infrg:ViolatorsListType" class="ru.acs.fts.schemas.album.infringer.ViolatorsListType">
+    <value style="element" name="ViolatorID" get-method="getViolatorID" set-method="setViolatorID"/>
+    <value style="element" name="ResolutionOrgName" get-method="getResolutionOrgName" set-method="setResolutionOrgName" usage="optional"/>
+    <value style="element" name="InspectionDateTime" get-method="getInspectionDateTime" set-method="setInspectionDateTime" usage="optional"/>
+    <value style="element" name="PenaltySum" get-method="getPenaltySum" set-method="setPenaltySum" usage="optional"/>
+    <value style="element" name="IsPaid" get-method="getIsPaid" set-method="setIsPaid"/>
+    <value style="element" name="AutoLawName" get-method="getAutoLawName" set-method="setAutoLawName" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <structure map-as="infrg:DriverType" get-method="getDriverName" set-method="setDriverName" usage="optional" name="DriverName"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getResolution" set-method="setResolution" name="Resolution"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getResolutionEmployee" set-method="setResolutionEmployee" usage="optional" name="ResolutionEmployee"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+  </mapping>
+</binding>

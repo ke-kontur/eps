@@ -1,0 +1,11 @@
+<binding xmlns:EReq="urn:customs.ru:Information:CustomsDocuments:ESADInfoReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ESADInfoReq:5.4.0" default="elements" prefix="EReq"/>
+  <mapping abstract="true" type-name="EReq:ESADInfoReqType" class="ru.acs.fts.schemas.album.esadinforeq.ESADInfoReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="catSCVV:GTDInqType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID" usage="optional"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.esadinforeq.ESADInfoReqType" name="ESADInfoReq">
+    <structure map-as="EReq:ESADInfoReqType"/>
+  </mapping>
+</binding>

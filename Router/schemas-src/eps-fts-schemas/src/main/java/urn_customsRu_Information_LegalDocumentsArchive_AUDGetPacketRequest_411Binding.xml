@@ -1,0 +1,17 @@
+<binding xmlns:aupreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetPacketRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetPacketRequest:4.1.1" default="elements" prefix="aupreq"/>
+  <mapping abstract="true" type-name="aupreq:AUD_GetPacketRequestType" class="ru.acs.fts.schemas.aud.aud_getpacketrequest.AUDGetPacketRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="DocumentVersionsRequirements" get-method="getDocumentVersionsRequirements" set-method="setDocumentVersionsRequirements" usage="optional" format="cltAUD_ru:AUD_DocumentVersionsRequestType"/>
+    <structure ordered="false" choice="true">
+      <value style="element" name="AppliedPacketId" test-method="ifAppliedPacketId" get-method="getAppliedPacketId" set-method="setAppliedPacketId" usage="optional"/>
+      <value style="element" name="ArchivePacketId" test-method="ifArchivePacketId" get-method="getArchivePacketId" set-method="setArchivePacketId" usage="optional"/>
+      <structure map-as="cat_ru:GTDIDType" test-method="ifGTDID" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    </structure>
+    <structure map-as="catAUD_ru:AUD_DocumentDataPresenceInfoType" get-method="getDocumentDataPresenceInfo" set-method="setDocumentDataPresenceInfo" name="DocumentDataPresenceInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_getpacketrequest.AUDGetPacketRequestType" name="AUD_GetPacketRequest">
+    <structure map-as="aupreq:AUD_GetPacketRequestType"/>
+  </mapping>
+</binding>

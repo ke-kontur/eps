@@ -1,0 +1,21 @@
+<binding xmlns:roi="urn:customs.ru:Envelope:RoutingInf:1.0">
+  <namespace uri="urn:customs.ru:Envelope:RoutingInf:1.0" default="elements" prefix="roi"/>
+  <mapping abstract="true" type-name="roi:RoutingInfType" class="ru.acs.fts.schemas.envelope.RoutingInfType">
+    <value style="element" name="EnvelopeID" get-method="getEnvelopeID" set-method="setEnvelopeID"/>
+    <value style="element" name="InitialEnvelopeID" get-method="getInitialEnvelopeID" set-method="setInitialEnvelopeID" usage="optional"/>
+    <value style="element" name="SenderInformation" get-method="getSenderInformation" set-method="setSenderInformation"/>
+    <collection get-method="getReceiverInformationList" set-method="setReceiverInformationList" create-type="java.util.ArrayList">
+      <value style="element" name="ReceiverInformation" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PreparationDateTime" get-method="getPreparationDateTime" set-method="setPreparationDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <value style="element" name="Priority" get-method="getPriority" set-method="setPriority" usage="optional"/>
+    <value style="element" name="Expiration" get-method="getExpiration" set-method="setExpiration" usage="optional"/>
+    <structure map-as="roi:ConfirmationRequestType" get-method="getConfirmationRequest" set-method="setConfirmationRequest" usage="optional" name="ConfirmationRequest"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.envelope.RoutingInfType" name="RoutingInf">
+    <structure map-as="roi:RoutingInfType"/>
+  </mapping>
+  <mapping abstract="true" type-name="roi:ConfirmationRequestType" class="ru.acs.fts.schemas.envelope.ConfirmationRequestType">
+    <value style="element" name="COD" get-method="getCOD" set-method="setCOD" usage="optional"/>
+  </mapping>
+</binding>

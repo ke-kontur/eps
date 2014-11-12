@@ -1,0 +1,47 @@
+<binding xmlns:otd="urn:customs.ru:Information:SertifDocuments:OwnershipTransferDoc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:OwnershipTransferDoc:5.4.0" default="elements" prefix="otd"/>
+  <mapping abstract="true" type-name="otd:OwnershipTransferDocType" class="ru.acs.fts.schemas.album.ownershiptransferdoc.OwnershipTransferDocType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegCertifNum" get-method="getRegCertifNum" set-method="setRegCertifNum"/>
+    <value style="element" name="RegExpiretionDate" get-method="getRegExpiretionDate" set-method="setRegExpiretionDate" format="LocalDate.default"/>
+    <value style="element" name="MovementDirection" get-method="getMovementDirection" set-method="setMovementDirection"/>
+    <collection get-method="getDescriptionList" set-method="setDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Description" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TransportationMethod" get-method="getTransportationMethod" set-method="setTransportationMethod"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getRightHolder" set-method="setRightHolder" name="RightHolder"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getGoodsOwner" set-method="setGoodsOwner" name="GoodsOwner"/>
+    <structure map-as="otd:OwnershipDocInfoType" get-method="getOwnershipDocInfo" set-method="setOwnershipDocInfo" name="OwnershipDocInfo"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="otd:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <structure map-as="otd:OrganizationInfoType" get-method="getSender" set-method="setSender" name="Sender"/>
+    <structure map-as="otd:OrganizationInfoType" get-method="getRecipient" set-method="setRecipient" name="Recipient"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID" usage="optional"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ownershiptransferdoc.OwnershipTransferDocType" name="OwnershipTransferDoc">
+    <structure map-as="otd:OwnershipTransferDocType"/>
+  </mapping>
+  <mapping abstract="true" type-name="otd:GoodsInfoType" class="ru.acs.fts.schemas.album.ownershiptransferdoc.GoodsInfoType">
+    <structure map-as="cat_ru:SupplementaryQuantityType"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsCost" get-method="getGoodsCost" set-method="setGoodsCost"/>
+    <value style="element" name="GoodsCountry" get-method="getGoodsCountry" set-method="setGoodsCountry" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="otd:OrganizationInfoType" class="ru.acs.fts.schemas.album.ownershiptransferdoc.OrganizationInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="otd:OwnershipDocInfoType" class="ru.acs.fts.schemas.album.ownershiptransferdoc.OwnershipDocInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <collection get-method="getObjectNameList" set-method="setObjectNameList" create-type="java.util.ArrayList">
+      <value style="element" name="ObjectName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ContractTerms" get-method="getContractTerms" set-method="setContractTerms" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="OwnershipKind" get-method="getOwnershipKind" set-method="setOwnershipKind"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getLicensee" set-method="setLicensee" usage="optional" name="Licensee"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getLicensor" set-method="setLicensor" usage="optional" name="Licensor"/>
+  </mapping>
+</binding>

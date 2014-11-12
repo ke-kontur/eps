@@ -1,0 +1,40 @@
+<binding xmlns:drd="urn:customs.ru:Information:CustomsDocuments:DateRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DateRD:5.4.0" default="elements" prefix="drd"/>
+  <mapping abstract="true" type-name="drd:DataRDType" class="ru.acs.fts.schemas.album.datard.DataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="drd:QuotaType" test-method="ifQuota" get-method="getQuota" set-method="setQuota" usage="optional" name="Quota"/>
+      <structure map-as="drd:NotQuotaType" test-method="ifNotQuota" get-method="getNotQuota" set-method="setNotQuota" usage="optional" name="NotQuota"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.datard.DataRDType" name="DataRD">
+    <structure map-as="drd:DataRDType"/>
+  </mapping>
+  <mapping abstract="true" type-name="drd:NotQuotaType" class="ru.acs.fts.schemas.album.datard.NotQuotaType">
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber" usage="optional"/>
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="drd:StructuredTextType" name="GoodsName"/>
+    </collection>
+    <structure map-as="drd:StructuredTextType" get-method="getManufacturerName" set-method="setManufacturerName" usage="optional" name="ManufacturerName"/>
+    <structure map-as="drd:StructuredTextType" get-method="getReceiverName" set-method="setReceiverName" usage="optional" name="ReceiverName"/>
+  </mapping>
+  <mapping abstract="true" type-name="drd:QuotaType" class="ru.acs.fts.schemas.album.datard.QuotaType">
+    <value style="element" name="ConNumber" get-method="getConNumber" set-method="setConNumber" usage="optional"/>
+    <value style="element" name="ConDateSignature" get-method="getConDateSignature" set-method="setConDateSignature" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber" usage="optional"/>
+    <value style="element" name="SeriesForm" get-method="getSeriesForm" set-method="setSeriesForm" usage="optional"/>
+    <value style="element" name="OwnersLicense" get-method="getOwnersLicense" set-method="setOwnersLicense" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="GoodsTNVED" get-method="getGoodsTNVED" set-method="setGoodsTNVED" usage="optional"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="drd:StructuredTextType" class="ru.acs.fts.schemas.album.datard.StructuredTextType">
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber"/>
+    <value style="element" name="Text" get-method="getText" set-method="setText"/>
+  </mapping>
+</binding>

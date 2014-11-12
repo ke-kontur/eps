@@ -1,0 +1,83 @@
+<binding xmlns:tmp="urn:customs.ru:Information:CustomsDocuments:TransportMeansPassport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransportMeansPassport:5.4.0" default="elements" prefix="tmp"/>
+  <mapping abstract="true" type-name="tmp:TransportMeansPassportType" class="ru.acs.fts.schemas.album.transportmeanspassport.TransportMeansPassportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CustomsRestriction" get-method="getCustomsRestriction" set-method="setCustomsRestriction" usage="optional"/>
+    <structure map-as="cat_ru:TransportMeansPassportType" get-method="getPTSSerialNumber" set-method="setPTSSerialNumber" name="PTSSerialNumber"/>
+    <structure map-as="catESAD_ru:TransportManufacturerType" get-method="getManufacturer" set-method="setManufacturer" name="Manufacturer"/>
+    <structure map-as="tmp:PTSDataType" get-method="getPTSData" set-method="setPTSData" name="PTSData"/>
+    <structure usage="optional" ordered="false" choice="true">
+      <structure map-as="tmp:FederalDocType" test-method="ifImportCertification" get-method="getImportCertification" set-method="setImportCertification" usage="optional" name="ImportCertification"/>
+      <structure map-as="tmp:CustomsProfitOrderType" test-method="ifCustomsProfitOrder" get-method="getCustomsProfitOrder" set-method="setCustomsProfitOrder" usage="optional" name="CustomsProfitOrder"/>
+      <structure map-as="cat_ru:GTDIDType" test-method="ifGTDID" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    </structure>
+    <structure map-as="cat_ru:AddressType" get-method="getOrganizationlegalAddress" set-method="setOrganizationlegalAddress" usage="optional" name="OrganizationlegalAddress"/>
+    <structure map-as="catESAD_ru:TransportOwnerType" get-method="getTransportMeansOwner" set-method="setTransportMeansOwner" name="TransportMeansOwner"/>
+    <collection get-method="getTSBargainList" set-method="setTSBargainList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tmp:TSBargainType" name="TSBargain"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transportmeanspassport.TransportMeansPassportType" name="TransportMeansPassport">
+    <structure map-as="tmp:TransportMeansPassportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:CertificateRegistrationType" class="ru.acs.fts.schemas.album.transportmeanspassport.CertificateRegistrationType">
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="RegSign" get-method="getRegSign" set-method="setRegSign"/>
+    <value style="element" name="RegData" get-method="getRegData" set-method="setRegData" format="LocalDate.default"/>
+    <value style="element" name="IssuedGIBDD" get-method="getIssuedGIBDD" set-method="setIssuedGIBDD"/>
+    <value style="element" name="RegionCode" get-method="getRegionCode" set-method="setRegionCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:CustomsProfitOrderType" class="ru.acs.fts.schemas.album.transportmeanspassport.CustomsProfitOrderType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:FederalDocType" class="ru.acs.fts.schemas.album.transportmeanspassport.FederalDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:GIBDDRegistrationType" class="ru.acs.fts.schemas.album.transportmeanspassport.GIBDDRegistrationType">
+    <value style="element" name="StrakeOffDate" get-method="getStrakeOffDate" set-method="setStrakeOffDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="tmp:CertificateRegistrationType" get-method="getCertificateRegistration" set-method="setCertificateRegistration" usage="optional" name="CertificateRegistration"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getRegistrationSign" set-method="setRegistrationSign" usage="optional" name="RegistrationSign"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getStrikeOffSign" set-method="setStrikeOffSign" usage="optional" name="StrikeOffSign"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getIssuingDocuments" set-method="setIssuingDocuments" name="IssuingDocuments"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:PTSDataType" class="ru.acs.fts.schemas.album.transportmeanspassport.PTSDataType">
+    <structure map-as="cat_ru:AutomobileBaseType"/>
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind"/>
+    <value style="element" name="TransportCategoryCode" get-method="getTransportCategoryCode" set-method="setTransportCategoryCode" format="clt_ru:TransportCategoryCodeType"/>
+    <value style="element" name="TransportMeansColorCode" get-method="getTransportMeansColorCode" set-method="setTransportMeansColorCode"/>
+    <value style="element" name="EngineModel" get-method="getEngineModel" set-method="setEngineModel"/>
+    <value style="element" name="EnginePowerKvtQuanity" get-method="getEnginePowerKvtQuanity" set-method="setEnginePowerKvtQuanity" usage="optional"/>
+    <value style="element" name="EnginePowerHpQuanity" get-method="getEnginePowerHpQuanity" set-method="setEnginePowerHpQuanity" usage="optional"/>
+    <value style="element" name="MaxWeightQuantity" get-method="getMaxWeightQuantity" set-method="setMaxWeightQuantity"/>
+    <value style="element" name="MinWeightQuantity" get-method="getMinWeightQuantity" set-method="setMinWeightQuantity"/>
+    <value style="element" name="EngineModeCode" get-method="getEngineModeCode" set-method="setEngineModeCode"/>
+    <value style="element" name="Ekoclass" get-method="getEkoclass" set-method="setEkoclass" usage="optional"/>
+    <value style="element" name="SpecialMark" get-method="getSpecialMark" set-method="setSpecialMark" usage="optional"/>
+    <structure map-as="catESAD_ru:ConformanceCertificateType" get-method="getConformanceCertificate" set-method="setConformanceCertificate" usage="optional" name="ConformanceCertificate"/>
+    <collection get-method="getTransportMeansColorList" set-method="setTransportMeansColorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tmp:TransportColorListType" name="TransportMeansColorList"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:TSBargainType" class="ru.acs.fts.schemas.album.transportmeanspassport.TSBargainType">
+    <value style="element" name="SellingDate" get-method="getSellingDate" set-method="setSellingDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="SpecialMark" get-method="getSpecialMark" set-method="setSpecialMark" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocPropertyRights" set-method="setDocPropertyRights" usage="optional" name="DocPropertyRights"/>
+    <structure map-as="catESAD_ru:TransportOwnerType" get-method="getNewTransportOwner" set-method="setNewTransportOwner" name="NewTransportOwner"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPrevOwnerSign" set-method="setPrevOwnerSign" usage="optional" name="PrevOwnerSign"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getNewOwnerSign" set-method="setNewOwnerSign" name="NewOwnerSign"/>
+    <structure map-as="tmp:GIBDDRegistrationType" get-method="getGIBDDRegistration" set-method="setGIBDDRegistration" usage="optional" name="GIBDDRegistration"/>
+  </mapping>
+  <mapping abstract="true" type-name="tmp:TransportColorListType" class="ru.acs.fts.schemas.album.transportmeanspassport.TransportColorListType">
+    <value style="element" name="ColorCode" get-method="getColorCode" set-method="setColorCode"/>
+    <value style="element" name="ColorName" get-method="getColorName" set-method="setColorName"/>
+  </mapping>
+</binding>

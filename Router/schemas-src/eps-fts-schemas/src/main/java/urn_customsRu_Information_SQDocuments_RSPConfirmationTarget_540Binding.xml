@@ -1,0 +1,53 @@
+<binding xmlns:rspctg="urn:customs.ru:Information:SQDocuments:RSPConfirmationTarget:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RSPConfirmationTarget:5.4.0" default="elements" prefix="rspctg"/>
+  <mapping abstract="true" type-name="rspctg:RSPConfirmationTargetType" class="ru.acs.fts.schemas.album.rspconfirmationtarget.RSPConfirmationTargetType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DepartureCountry" get-method="getDepartureCountry" set-method="setDepartureCountry" usage="optional"/>
+    <value style="element" name="OriginCountry" get-method="getOriginCountry" set-method="setOriginCountry" usage="optional"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo" usage="optional"/>
+    <value style="element" name="GoodsValue" get-method="getGoodsValue" set-method="setGoodsValue" usage="optional"/>
+    <value style="element" name="ContractCurrency" get-method="getContractCurrency" set-method="setContractCurrency" usage="optional"/>
+    <value style="element" name="StatisticalGoodsValue" get-method="getStatisticalGoodsValue" set-method="setStatisticalGoodsValue" usage="optional"/>
+    <structure map-as="rspctg:ConfirmationType" get-method="getConfirmation" set-method="setConfirmation" name="Confirmation"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getAgreement" set-method="setAgreement" usage="optional" name="Agreement"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <structure map-as="rspctg:ParticipantType" get-method="getRecipinet" set-method="setRecipinet" usage="optional" name="Recipinet"/>
+    <structure map-as="rspctg:ParticipantType" get-method="getSeller" set-method="setSeller" usage="optional" name="Seller"/>
+    <structure map-as="rspctg:AuthorizedPersonType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rspctg:GoodsDescriptionType" name="GoodsDescription"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rspconfirmationtarget.RSPConfirmationTargetType" name="RSPConfirmationTarget">
+    <structure map-as="rspctg:RSPConfirmationTargetType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rspctg:AuthorizedPersonType" class="ru.acs.fts.schemas.album.rspconfirmationtarget.AuthorizedPersonType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rspctg:ConfirmationType" class="ru.acs.fts.schemas.album.rspconfirmationtarget.ConfirmationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="LastChangeDate" get-method="getLastChangeDate" set-method="setLastChangeDate"/>
+  </mapping>
+  <mapping abstract="true" type-name="rspctg:GoodsDescriptionType" class="ru.acs.fts.schemas.album.rspconfirmationtarget.GoodsDescriptionType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ContractCost" get-method="getContractCost" set-method="setContractCost" usage="optional"/>
+    <value style="element" name="StatisticalCost" get-method="getStatisticalCost" set-method="setStatisticalCost" usage="optional"/>
+    <value style="element" name="ContractCurrency" get-method="getContractCurrency" set-method="setContractCurrency" usage="optional"/>
+    <value style="element" name="GoodNumber" get-method="getGoodNumber" set-method="setGoodNumber" usage="optional"/>
+    <value style="element" name="GoodMark" get-method="getGoodMark" set-method="setGoodMark" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="rspctg:ParticipantType" class="ru.acs.fts.schemas.album.rspconfirmationtarget.ParticipantType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="Address" get-method="getAddress" set-method="setAddress" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+</binding>

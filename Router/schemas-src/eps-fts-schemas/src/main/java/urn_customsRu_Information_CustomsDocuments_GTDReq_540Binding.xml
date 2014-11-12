@@ -1,0 +1,11 @@
+<binding xmlns:GTDReq="urn:customs.ru:Information:CustomsDocuments:GTDReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GTDReq:5.4.0" default="elements" prefix="GTDReq"/>
+  <mapping abstract="true" type-name="GTDReq:GTDReqType" class="ru.acs.fts.schemas.album.gtdreq.GTDReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID" usage="optional"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.gtdreq.GTDReqType" name="GTDReq">
+    <structure map-as="GTDReq:GTDReqType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,24 @@
+<binding xmlns:sqdr="urn:customs.ru:Information:SQDocuments:SQ_DocResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:SQ_DocResponse:5.4.0" default="elements" prefix="sqdr"/>
+  <mapping abstract="true" type-name="sqdr:SQ_DocResponseType" class="ru.acs.fts.schemas.album.sq_docresponse.SQDocResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID"/>
+    <value style="element" name="RequestPositionNumeric" get-method="getRequestPositionNumeric" set-method="setRequestPositionNumeric" usage="optional"/>
+    <collection get-method="getDocResponseList" set-method="setDocResponseList" create-type="java.util.ArrayList">
+      <structure map-as="sqdr:DocResponseType" name="DocResponse"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sq_docresponse.SQDocResponseType" name="SQ_DocResponse">
+    <structure map-as="sqdr:SQ_DocResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sqdr:DocResponseBodyType" class="ru.acs.fts.schemas.album.sq_docresponse.DocResponseBodyType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+  <mapping abstract="true" type-name="sqdr:DocResponseType" class="ru.acs.fts.schemas.album.sq_docresponse.DocResponseType">
+    <value style="element" name="NameAuthority" get-method="getNameAuthority" set-method="setNameAuthority"/>
+    <value style="element" name="SearchResult" get-method="getSearchResult" set-method="setSearchResult"/>
+    <value style="element" name="ResultDescription" get-method="getResultDescription" set-method="setResultDescription" usage="optional"/>
+    <structure map-as="sqdr:DocResponseBodyType" get-method="getDocResponseBody" set-method="setDocResponseBody" usage="optional" name="DocResponseBody"/>
+  </mapping>
+</binding>

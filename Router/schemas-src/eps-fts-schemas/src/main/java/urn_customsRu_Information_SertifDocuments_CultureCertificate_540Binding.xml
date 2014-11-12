@@ -1,0 +1,38 @@
+<binding xmlns:culc="urn:customs.ru:Information:SertifDocuments:CultureCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:CultureCertificate:5.4.0" default="elements" prefix="culc"/>
+  <mapping abstract="true" type-name="culc:CultureCertificateType" class="ru.acs.fts.schemas.album.culturecertificate.CultureCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <value style="element" name="ExportType" get-method="getExportType" set-method="setExportType"/>
+    <value style="element" name="NumSheets" get-method="getNumSheets" set-method="setNumSheets" usage="optional"/>
+    <value style="element" name="NumFoto" get-method="getNumFoto" set-method="setNumFoto" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+    <value style="element" name="Target" get-method="getTarget" set-method="setTarget" usage="optional"/>
+    <value style="element" name="Term" get-method="getTerm" set-method="setTerm" usage="optional"/>
+    <value style="element" name="UnitTime" get-method="getUnitTime" set-method="setUnitTime" usage="optional"/>
+    <value style="element" name="DateIssued" get-method="getDateIssued" set-method="setDateIssued" format="LocalDate.default"/>
+    <value style="element" name="PlaceIssued" get-method="getPlaceIssued" set-method="setPlaceIssued"/>
+    <collection get-method="getCustomsMarkList" set-method="setCustomsMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CustomsMark" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganizationIssued" set-method="setOrganizationIssued" name="OrganizationIssued"/>
+    <structure map-as="culc:DecisionInfType" get-method="getDecisionInf" set-method="setDecisionInf" name="DecisionInf"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPersonIssued" set-method="setPersonIssued" name="PersonIssued"/>
+    <collection get-method="getCulturalValuesList" set-method="setCulturalValuesList" create-type="java.util.ArrayList">
+      <structure map-as="culc:CulturalValuesListType" name="CulturalValuesList"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.culturecertificate.CultureCertificateType" name="CultureCertificate">
+    <structure map-as="culc:CultureCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="culc:CulturalValuesListType" class="ru.acs.fts.schemas.album.culturecertificate.CulturalValuesListType">
+    <value style="element" name="CulturalName" get-method="getCulturalName" set-method="setCulturalName"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" usage="optional" name="Quantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="culc:DecisionInfType" class="ru.acs.fts.schemas.album.culturecertificate.DecisionInfType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="StateStructure" get-method="getStateStructure" set-method="setStateStructure"/>
+  </mapping>
+</binding>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Специальные -->
+	<import resource="errorhandling.xml" />
+	<import resource="emergency-strcontrol.xml" />
+	<import resource="postprocessing.xml" />
+	<import resource="preprocessing.xml" />
+	
+	<!-- Обработка ошибочных ситуаций -->
+	<import resource="failure/send_aud_error.xml" />
+	
+	<!-- АЮД обработка -->
+	<import resource="messages/put_doc_req.xml" />
+	<import resource="messages/generic_message_processing.xml" />
+	<import resource="messages/registry_request.xml" />
+	<import resource="messages/packet_inventory.xml" />
+</beans>

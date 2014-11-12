@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+
+	<!-- oxm:jibx-marshaller id="jibx" target-class="ru.acs.fts.schemas.envelope.EnvelopeType" / -->
+	
+	<bean id="audCommandMapper" class="ru.acs.fts.aud.command.executor.mappers.AudCommandMapper" >
+		<property name="audService" ref="audService" />
+		<property name="edarchService" ref="edarchService" />
+		<property name="edeclService" ref="edeclService" />
+	</bean>
+	
+	<bean id="audWmqRestWsClient" class="ru.acs.fts.aud.command.executor.ws.AudWmqRestWs" >
+		<property name="settingsWrapper" ref="settingsWrapper" />
+	</bean>
+
+	<!-- commands processors -->
+	
+	<bean id="genericProcessor" class="ru.acs.fts.aud.command.executor.processors.GenericProcessor" >
+		<property name="audService" ref="audService" />
+		<property name="edeclService" ref="edeclService" />
+		<property name="audOperator" ref="audOperator" />
+	
+		<property name="audCommandMapper" ref="audCommandMapper" />
+		<property name="audWmqRestWsClient" ref="audWmqRestWsClient" />
+	</bean>
+		
+	<!-- commands dispatcher -->
+	
+	<bean id="commandDispatcher" class="ru.acs.fts.aud.command.executor.CommandDispatcher" init-method="init">
+		<property name="audService" ref="audService" />
+		<property name="commandExecutor" ref="commandExecutor" />
+		<property name="batchSize" value="100" />
+	</bean>
+	
+	<bean id="commandExecutor" class="ru.acs.fts.aud.command.executor.CommandExecutor" >
+		<property name="audService" ref="audService" />
+		<property name="genericProcessor" ref="genericProcessor" />
+	</bean>
+	
+	<!-- registry dispatcher -->
+	
+	<bean id="registryDispatcher" class="ru.acs.fts.aud.command.executor.registry.RegistryDispatcher">
+		<property name="registryExecutor" ref="registryExecutor" />
+	</bean>
+	
+	<bean id="registryExecutor" class="ru.acs.fts.aud.command.executor.registry.RegistryExecutor" >
+		<property name="audService" ref="audService" />
+		<property name="audWmqRestWsClient" ref="audWmqRestWsClient" />
+	</bean>
+
+</beans>

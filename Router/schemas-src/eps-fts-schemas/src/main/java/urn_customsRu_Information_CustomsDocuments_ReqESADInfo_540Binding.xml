@@ -1,0 +1,12 @@
+<binding xmlns:resad="urn:customs.ru:Information:CustomsDocuments:ReqESADInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqESADInfo:5.4.0" default="elements" prefix="resad"/>
+  <mapping abstract="true" type-name="resad:ReqESADInfoType" class="ru.acs.fts.schemas.album.reqesadinfo.ReqESADInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqesadinfo.ReqESADInfoType" name="ReqESADInfo">
+    <structure map-as="resad:ReqESADInfoType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,22 @@
+<binding xmlns:ndc="urn:customs.ru:Information:CustomsDocuments:NotifDiscrepancy:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifDiscrepancy:5.4.0" default="elements" prefix="ndc"/>
+  <mapping abstract="true" type-name="ndc:NotifDiscrepancyType" class="ru.acs.fts.schemas.album.notifdiscrepancy.NotifDiscrepancyType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <collection get-method="getSourceOfInformationList" set-method="setSourceOfInformationList" create-type="java.util.ArrayList">
+      <structure map-as="ndc:SourceOfInformationType" name="SourceOfInformation"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifdiscrepancy.NotifDiscrepancyType" name="NotifDiscrepancy">
+    <structure map-as="ndc:NotifDiscrepancyType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ndc:SourceOfInformationType" class="ru.acs.fts.schemas.album.notifdiscrepancy.SourceOfInformationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+</binding>

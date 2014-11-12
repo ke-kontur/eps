@@ -1,0 +1,28 @@
+<binding xmlns:rwnv="urn:customs.ru:Information:PriorInformation:PI_NotifViolation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:PI_NotifViolation:5.4.0" default="elements" prefix="rwnv"/>
+  <mapping abstract="true" type-name="rwnv:PI_NotifViolationType" class="ru.acs.fts.schemas.album.pi_notifviolation.PINotifViolationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ViolationNumber" get-method="getViolationNumber" set-method="setViolationNumber" usage="optional"/>
+    <value style="element" name="ViolationTime" get-method="getViolationTime" set-method="setViolationTime" usage="optional"/>
+    <value style="element" name="ViolationDate" get-method="getViolationDate" set-method="setViolationDate" format="LocalDate.default"/>
+    <value style="element" name="URN" get-method="getURN" set-method="setURN"/>
+    <collection get-method="getViolationInfoList" set-method="setViolationInfoList" create-type="java.util.ArrayList">
+      <structure map-as="rwnv:ViolationInfoType" name="ViolationInfo"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.pi_notifviolation.PINotifViolationType" name="PI_NotifViolation">
+    <structure map-as="rwnv:PI_NotifViolationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwnv:ViolationInfoType" class="ru.acs.fts.schemas.album.pi_notifviolation.ViolationInfoType">
+    <collection get-method="getViolationTextList" set-method="setViolationTextList" create-type="java.util.ArrayList">
+      <value style="element" name="ViolationText" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="LawArticle" get-method="getLawArticle" set-method="setLawArticle" usage="optional"/>
+    <collection get-method="getViolationDocList" set-method="setViolationDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="ViolationDoc"/>
+    </collection>
+  </mapping>
+</binding>

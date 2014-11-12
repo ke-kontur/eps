@@ -1,0 +1,35 @@
+<binding xmlns:cm="urn:customs.ru:Information:CommercialFinanceDocuments:CashMemorandum:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:CashMemorandum:5.4.0" default="elements" prefix="cm"/>
+  <mapping abstract="true" type-name="cm:CashMemorandumType" class="ru.acs.fts.schemas.album.cashmemorandum.CashMemorandumType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="CreateDateTime" get-method="getCreateDateTime" set-method="setCreateDateTime" usage="optional"/>
+    <value style="element" name="CashDeskNumber" get-method="getCashDeskNumber" set-method="setCashDeskNumber" usage="optional"/>
+    <value style="element" name="CashPayment" get-method="getCashPayment" set-method="setCashPayment"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="Sum" get-method="getSum" set-method="setSum" usage="optional"/>
+    <value style="element" name="Change" get-method="getChange" set-method="setChange" usage="optional"/>
+    <value style="element" name="Customer" get-method="getCustomer" set-method="setCustomer"/>
+    <structure map-as="cm:SellerType" get-method="getSeller" set-method="setSeller" name="Seller"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSellerSignature" set-method="setSellerSignature" usage="optional" name="SellerSignature"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomerSignature" set-method="setCustomerSignature" usage="optional" name="CustomerSignature"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cm:GoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cashmemorandum.CashMemorandumType" name="CashMemorandum">
+    <structure map-as="cm:CashMemorandumType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cm:GoodsType" class="ru.acs.fts.schemas.album.cashmemorandum.GoodsType">
+    <structure map-as="catComFin_ru:SpecificationGoodsType"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="Discount" get-method="getDiscount" set-method="setDiscount" usage="optional"/>
+    <value style="element" name="TaxPercent" get-method="getTaxPercent" set-method="setTaxPercent" usage="optional"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cm:SellerType" class="ru.acs.fts.schemas.album.cashmemorandum.SellerType">
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganisation" set-method="setOrganisation" name="Organisation"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+</binding>

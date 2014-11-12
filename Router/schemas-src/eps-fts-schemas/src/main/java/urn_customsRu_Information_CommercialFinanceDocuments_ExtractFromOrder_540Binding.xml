@@ -1,0 +1,39 @@
+<binding xmlns:efo="urn:customs.ru:Information:CommercialFinanceDocuments:ExtractFromOrder:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ExtractFromOrder:5.4.0" default="elements" prefix="efo"/>
+  <mapping abstract="true" type-name="efo:ExtractFromOrderType" class="ru.acs.fts.schemas.album.extractfromorder.ExtractFromOrderType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="WorkKind" get-method="getWorkKind" set-method="setWorkKind" usage="optional"/>
+    <value style="element" name="TransferReason" get-method="getTransferReason" set-method="setTransferReason" usage="optional"/>
+    <value style="element" name="EmployeeLNP" get-method="getEmployeeLNP" set-method="setEmployeeLNP" usage="optional"/>
+    <collection get-method="getTermsKindWorkList" set-method="setTermsKindWorkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TermsKindWork" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TrialPeriod" get-method="getTrialPeriod" set-method="setTrialPeriod" usage="optional"/>
+    <value style="element" name="OrderEmploymentTransfer" get-method="getOrderEmploymentTransfer" set-method="setOrderEmploymentTransfer"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentReference" set-method="setDocumentReference" name="DocumentReference"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="efo:EmployeeInfoType" get-method="getEmployee" set-method="setEmployee" name="Employee"/>
+    <structure map-as="efo:EmploymentPlaceType" get-method="getLastEmployeePlace" set-method="setLastEmployeePlace" usage="optional" name="LastEmployeePlace"/>
+    <structure map-as="efo:EmploymentPlaceType" get-method="getNewEmployeePlace" set-method="setNewEmployeePlace" name="NewEmployeePlace"/>
+    <collection get-method="getGroundList" set-method="setGroundList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Ground"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.extractfromorder.ExtractFromOrderType" name="ExtractFromOrder">
+    <structure map-as="efo:ExtractFromOrderType"/>
+  </mapping>
+  <mapping abstract="true" type-name="efo:EmployeeInfoType" class="ru.acs.fts.schemas.album.extractfromorder.EmployeeInfoType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="ClockNumber" get-method="getClockNumber" set-method="setClockNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="efo:EmploymentPlaceType" class="ru.acs.fts.schemas.album.extractfromorder.EmploymentPlaceType">
+    <value style="element" name="DepartmentName" get-method="getDepartmentName" set-method="setDepartmentName"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost" usage="optional"/>
+    <value style="element" name="MounthlyWage" get-method="getMounthlyWage" set-method="setMounthlyWage" usage="optional"/>
+    <value style="element" name="ExtraPay" get-method="getExtraPay" set-method="setExtraPay" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,16 @@
+<binding xmlns:doo="urn:customs.ru:Information:CustomsDocuments:DocsObligation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DocsObligation:5.4.0" default="elements" prefix="doo"/>
+  <mapping abstract="true" type-name="doo:DocsObligationType" class="ru.acs.fts.schemas.album.docsobligation.DocsObligationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <collection get-method="getObligDocsDescriptionList" set-method="setObligDocsDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_ru:DocumentDescriptionType" name="ObligDocsDescription"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.docsobligation.DocsObligationType" name="DocsObligation">
+    <structure map-as="doo:DocsObligationType"/>
+  </mapping>
+</binding>

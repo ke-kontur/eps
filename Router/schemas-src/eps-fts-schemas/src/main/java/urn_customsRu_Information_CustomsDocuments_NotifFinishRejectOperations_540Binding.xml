@@ -1,0 +1,21 @@
+<binding xmlns:nfro="urn:customs.ru:Information:CustomsDocuments:NotifFinishRejectOperations:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifFinishRejectOperations:5.4.0" default="elements" prefix="nfro"/>
+  <mapping abstract="true" type-name="nfro:NotifFinishRejectOperationsType" class="ru.acs.fts.schemas.album.notiffinishrejectoperations.NotifFinishRejectOperationsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <collection get-method="getOperationDescriptionList" set-method="setOperationDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="OperationDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <structure map-as="nfro:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustomsOffice" set-method="setCustomsOffice" name="CustomsOffice"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notiffinishrejectoperations.NotifFinishRejectOperationsType" name="NotifFinishRejectOperations">
+    <structure map-as="nfro:NotifFinishRejectOperationsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nfro:DeclarantType" class="ru.acs.fts.schemas.album.notiffinishrejectoperations.DeclarantType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getRepresentative" set-method="setRepresentative" usage="optional" name="Representative"/>
+  </mapping>
+</binding>

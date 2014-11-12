@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd">
+   <!--Подключение к БД-->
+   <bean id="pum" class="org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager">
+        <property name="persistenceXmlLocations">
+            <list>
+                <value>classpath:spring-persistence.xml</value>
+            </list>
+        </property>
+        <property name="defaultDataSource" ref="businessProcessOracleConnection" />
+   </bean>
+   <jee:jndi-lookup id="businessProcessOracleConnection" jndi-name="epsBusinessProcess" />
+   <bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceUnitManager" ref="pum" />
+		<property name="dataSource" ref="businessProcessOracleConnection" />
+        <property name="jpaProperties">
+            <props>
+                <prop key="eclipselink.ddl-generation">create-table</prop>
+                <prop key="javax.persistence.jdbc.driver">oracle.jdbc.OracleDriver</prop>
+                <prop key="eclipselink.weaving">false</prop>
+                <prop key="eclipselink.target-server">${eclipseLinkTargetServer}</prop>
+                <prop key="eclipselink.target-database">org.eclipse.persistence.platform.database.oracle.Oracle10Platform</prop>
+            </props>
+        </property>
+		<property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+                <property name="databasePlatform" value="org.eclipse.persistence.platform.database.OraclePlatform" />
+                <property name="showSql" value="true" />
+            </bean>
+		</property>
+   </bean>
+   <tx:annotation-driven transaction-manager="transactionManager" />
+   <bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager"/>
+   <bean id="jpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" lazy-init="true">
+        <property name="entityManagerFactory" ref="entityManagerFactory" />
+   </bean>
+   
+	<!-- Новые сервисы для работы с БД -->
+	
+	
+	<bean id="customsService" class="ru.acs.fts.eps2.model.services.CustomsService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="ipslistService" class="ru.acs.fts.eps2.model.services.IpslistService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="ipstechService" class="ru.acs.fts.eps2.model.services.IpstechService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="wmqAddressService" class="ru.acs.fts.eps2.model.services.WmqAddressService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="extRtuRoutingService" class="ru.acs.fts.eps2.model.services.ExtRtuRoutingService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="customsOperator" class="ru.acs.fts.eps2.router.persistence.operators.CustomsOperator" >
+		<property name="customsService" ref="customsService" />
+		<property name="udCustListService" ref="udCustListService" />
+		<property name="ipslistService" ref="ipslistService" />
+		<property name="ipsTechService" ref="ipstechService" />
+		<property name="wmqAddressService" ref="wmqAddressService" />
+		<property name="extRtuRoutingService" ref="extRtuRoutingService" />
+	</bean>
+	
+	<bean id="edarchService" class="ru.acs.fts.eps2.model.services.EdarchService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="envelopeService" class="ru.acs.fts.eps2.model.services.EnvelopeService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="envelopeOperator" class="ru.acs.fts.eps2.router.persistence.operators.EnvelopeOperator" >
+		<property name="envelopeMarshaller" ref="unmarshallerEnvelope" />
+		<property name="errListService" ref="errListService" />
+		<property name="envelopeService" ref="envelopeService" />
+	</bean>
+	
+	<bean id="participantService" class="ru.acs.fts.eps2.model.services.ParticipantService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="extGateTransmissionAddress" >
+            <bean class="ru.acs.fts.eps2.model.entities.Edecl_Wmqaddress">
+                <property name="transportServer" ref="extGateTransmitionTransportServer"/>
+                <property name="localManager" ref="extGateTransmitionLocalManager"/>
+                <property name="localQueue" ref="extGateTransmitionLocalQueue"/>
+                <property name="remoteManager" ref="extGateTransmitionRemoteManager"/>
+                <property name="remoteQueue" ref="extGateTransmitionRemoteQueue"/>
+            </bean>
+		</property>
+	</bean>
+		
+	<bean id="procedureService" class="ru.acs.fts.eps2.model.services.ProcedureService" >
+		<property name="exceptionMessageTypes">
+            <list>
+            	<value>CMN.12002</value>
+            	<value>CMN.12003</value>
+            	<value>CMN.12007</value>
+            	<value>CMN.12008</value>
+            	<value>CMN.12009</value>
+            	<value>CMN.12005</value>
+            	<value>CMN.12006</value>
+            	<value>CMN.12038</value>
+            	<value>CMN.12091</value>
+            	<value>CMN.12041</value>
+            </list>
+		</property>
+		<property name="softVersion" ref="currentVersionBean" />
+ 		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="procedureOperator" class="ru.acs.fts.eps2.router.persistence.operators.ProcedureOperator" >
+		<property name="procedureService" ref="procedureService" />
+		<property name="stateTransmissionService" ref="stateTransmissionService" />
+	</bean>
+	
+	<bean id="audService" class="ru.acs.fts.eps2.model.services.AudService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="udCustListService" class="ru.acs.fts.eps2.model.services.UdCustListService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="errListService" class="ru.acs.fts.eps2.model.services.ErrListService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="msgListService" class="ru.acs.fts.eps2.model.services.MsgListService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="albumDocListService" class="ru.acs.fts.eps2.model.services.AlbumDocListService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="g44Service" class="ru.acs.fts.eps2.model.services.G44Service" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="stateTransmissionService" class="ru.acs.fts.eps2.model.services.StateTransmissionService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+		<property name="softVersion" ref="currentVersionBean" />
+	</bean>
+	
+	<bean id="ecopService" class="ru.acs.fts.eps2.model.services.EcopService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="statusListService" class="ru.acs.fts.eps2.model.services.StatusListService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="softVersionService" class="ru.acs.fts.eps2.model.services.SoftVersionService">
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+		<property name="currentSoftVersion" ref="currentVersionBean" />
+	</bean>
+	
+	<bean id="docModeMessageService" class="ru.acs.fts.eps2.model.services.DocModeMessageService">
+		<property name="jpaTemplate" ref="jpaTemplate" />
+		<property name="updateTimeout" value="1" />
+	</bean>
+	
+	<bean id="edarchOperator" class="ru.acs.fts.eps2.router.persistence.operators.EdarchOperator" >
+		<property name="edarchService" ref="edarchService" />
+		<property name="g44Service" ref="g44Service" />
+		<property name="marshaller" ref="unmarshallerEnvelope" />
+	</bean>
+	
+	<bean id="rzdService" class="ru.acs.fts.eps2.model.services.RzdService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="stateModelTypeService" class="ru.acs.fts.eps2.model.services.StateModelTypeService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="alyService" class="ru.acs.fts.eps2.model.services.AlyService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="serviceHolder" class="ru.acs.fts.eps2.router.persistence.EDServiceHolder" >
+		<property name="customsService" ref="customsService" />
+		<property name="edarchService" ref="edarchService" />
+		<property name="envelopeService" ref="envelopeService" />
+		<property name="errListService" ref="errListService" />
+		<property name="msgListService" ref="msgListService" />
+		<property name="albumDocListService" ref="albumDocListService" />
+		<property name="participantService" ref="participantService" />
+		<property name="procedureService" ref="procedureService" />
+		<property name="audService" ref="audService" />
+		<property name="stateTransmissionService" ref="stateTransmissionService" />
+		<property name="udCustListService" ref="udCustListService" />
+		<property name="g44Service" ref="g44Service" />
+		<property name="ecopService" ref="ecopService" />
+		<property name="envelopeOperator" ref="envelopeOperator" />
+		<property name="alyService" ref="alyService"/>
+		
+		<property name="marshaller" ref="unmarshallerEnvelope" />
+		<property name="unmarshaller" ref="unmarshallerEnvelope" />
+		
+		<property name="statusListService" ref="statusListService" />
+		<property name="procedureOperator" ref="procedureOperator" />
+		<property name="softVersionService" ref="softVersionService" />
+		<property name="customsOperator" ref="customsOperator" />
+		<property name="ipslistService" ref="ipslistService" />
+		<property name="ipsTechService" ref="ipstechService" />
+		<property name="wmqAddressService" ref="wmqAddressService" />
+		<property name="extRtuRoutingService" ref="extRtuRoutingService" />
+		<property name="docModeMessageService" ref="docModeMessageService" />
+		<property name="edarchOperator" ref="edarchOperator" />
+		<property name="rzdService" ref="rzdService" />
+		<property name="stateModelTypeService" ref="stateModelTypeService" />
+	</bean>
+	
+</beans>

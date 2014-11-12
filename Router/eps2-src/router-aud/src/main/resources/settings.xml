@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans default-lazy-init="true"
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+       
+	<import resource="sections/wls-related.xml" />
+
+    <!--Текущая версия АПС ЭПС-->
+
+    <bean id="springJNDIPropertyFactory" class="ru.acs.fts.eps2.util.jndi.SpringJNDIPropertyFactory"/>
+
+    <!--Конфигурация АПС ЭПС данной версии-->
+    <bean id="configurator" class="ru.acs.fts.aud.router.processing.AudConfigurator">
+    	<property name="softVersion" value="1.11.1" />
+    	<property name="audServerName" value="ARCHIVE-SERVER" />    	
+    	<property name="transportServerAddress" ref="transportServerAddressBean" />
+    </bean>
+    
+	<!-- JNDI beans -->
+		
+	<bean id="restEventSrvUrl" class="java.lang.String"
+			factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		<constructor-arg>
+			<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+				<property name="jndiName" value="${bindingsPrefix}archiveConfig/Config/RestEventSrvUrl" />
+			</bean>
+		</constructor-arg>
+	</bean>	
+    
+     <bean id="restStructSrvUrl" class="java.lang.String"
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}archiveConfig/Config/RestStructSrvUrl" />
+    		</bean>
+    	</constructor-arg>
+    </bean>    
+    
+    <bean id="restCryptoSrvUrl" class="java.lang.String"
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}archiveConfig/Config/RestCryptoSrvUrl" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+
+    <bean id="transportServerAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}archiveConfig/Config/TransportServerAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+</beans>

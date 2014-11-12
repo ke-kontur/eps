@@ -1,0 +1,56 @@
+<binding xmlns:adm="urn:customs.ru:Information:CustomsDocuments:AssignmentDecisionMaking:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:AssignmentDecisionMaking:5.4.0" default="elements" prefix="adm"/>
+  <mapping abstract="true" type-name="adm:AssignmentDecisionMakingType" class="ru.acs.fts.schemas.album.assignmentdecisionmaking.AssignmentDecisionMakingType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime"/>
+    <collection get-method="getMarkList" set-method="setMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Mark" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getOtherMarkList" set-method="setOtherMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="OtherMark" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MeasureCode" get-method="getMeasureCode" set-method="setMeasureCode" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getRiskTNVEDList" set-method="setRiskTNVEDList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskTNVED"/>
+    </collection>
+    <collection get-method="getRiskCountryList" set-method="setRiskCountryList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskCountry"/>
+    </collection>
+    <collection get-method="getRiskCustomsContrilList" set-method="setRiskCustomsContrilList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskCustomsContril"/>
+    </collection>
+    <collection get-method="getRiskDutyList" set-method="setRiskDutyList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskDuty"/>
+    </collection>
+    <collection get-method="getRiskIntellectualPropertyList" set-method="setRiskIntellectualPropertyList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskIntellectualProperty"/>
+    </collection>
+    <collection get-method="getRiskCustomsCostList" set-method="setRiskCustomsCostList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskCustomsCost"/>
+    </collection>
+    <collection get-method="getRiskCurrencyList" set-method="setRiskCurrencyList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskCurrency"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsChief" set-method="setCustomsChief" name="CustomsChief"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <collection get-method="getRiskRestrictionExpControlList" set-method="setRiskRestrictionExpControlList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskRestrictionExpControl"/>
+    </collection>
+    <collection get-method="getRiskControlFissileRadioactiveMaterialList" set-method="setRiskControlFissileRadioactiveMaterialList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="adm:RiskType" name="RiskControlFissileRadioactiveMaterial"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.assignmentdecisionmaking.AssignmentDecisionMakingType" name="AssignmentDecisionMaking">
+    <structure map-as="adm:AssignmentDecisionMakingType"/>
+  </mapping>
+  <mapping abstract="true" type-name="adm:RiskType" class="ru.acs.fts.schemas.album.assignmentdecisionmaking.RiskType">
+    <value style="element" name="TerrActionCode" get-method="getTerrActionCode" set-method="setTerrActionCode"/>
+    <value style="element" name="CustomsActionCode" get-method="getCustomsActionCode" set-method="setCustomsActionCode"/>
+    <value style="element" name="RiskProfileRegDate" get-method="getRiskProfileRegDate" set-method="setRiskProfileRegDate" format="LocalDate.default"/>
+    <value style="element" name="RiskProfileNumber" get-method="getRiskProfileNumber" set-method="setRiskProfileNumber"/>
+    <value style="element" name="RiskProfileNumberVersion" get-method="getRiskProfileNumberVersion" set-method="setRiskProfileNumberVersion"/>
+  </mapping>
+</binding>

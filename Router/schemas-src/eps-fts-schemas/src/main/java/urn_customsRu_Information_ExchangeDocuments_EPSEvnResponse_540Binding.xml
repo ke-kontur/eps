@@ -1,0 +1,14 @@
+<binding xmlns:eers="urn:customs.ru:Information:ExchangeDocuments:EPS_EvnResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:EPS_EvnResponse:5.4.0" default="elements" prefix="eers"/>
+  <mapping abstract="true" type-name="eers:EPS_EnvResponseType" class="ru.acs.fts.schemas.album.eps_envresponse.EPSEnvResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="eers:EnvelopeDataType" get-method="getEnvData" set-method="setEnvData" name="EnvData"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.eps_envresponse.EPSEnvResponseType" name="EPS_EnvResponse">
+    <structure map-as="eers:EPS_EnvResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="eers:EnvelopeDataType" class="ru.acs.fts.schemas.album.eps_envresponse.EnvelopeDataType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

@@ -1,0 +1,93 @@
+<binding xmlns:ra="urn:customs.ru:Information:CustomsDocuments:ResidentApplication:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ResidentApplication:5.4.0" default="elements" prefix="ra"/>
+  <mapping abstract="true" type-name="ra:ResidentApplicationType" class="ru.acs.fts.schemas.album.residentapplication.ResidentApplicationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ApplicationType" get-method="getApplicationType" set-method="setApplicationType"/>
+    <value style="element" name="CustomsTreatmentYear" get-method="getCustomsTreatmentYear" set-method="setCustomsTreatmentYear"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+    <structure map-as="ra:RegistryNumberType" get-method="getRegistryNumber" set-method="setRegistryNumber" usage="optional" name="RegistryNumber"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPersonSignature" set-method="setCustomsPersonSignature" usage="optional" name="CustomsPersonSignature"/>
+    <structure map-as="ra:ResidentType" get-method="getResident" set-method="setResident" name="Resident"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getResidentPersonSignature" set-method="setResidentPersonSignature" name="ResidentPersonSignature"/>
+    <structure map-as="ra:ActivitiesAgreementType" get-method="getActivitiesAgreement" set-method="setActivitiesAgreement" name="ActivitiesAgreement"/>
+    <structure map-as="ra:FormOneType" get-method="getFormOne" set-method="setFormOne" usage="optional" name="FormOne"/>
+    <structure map-as="ra:FormTwoType" get-method="getFormTwo" set-method="setFormTwo" usage="optional" name="FormTwo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.residentapplication.ResidentApplicationType" name="ResidentApplication">
+    <structure map-as="ra:ResidentApplicationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ra:ActivitiesAgreementType" class="ru.acs.fts.schemas.album.residentapplication.ActivitiesAgreementType">
+    <value style="element" name="AgreementDate" get-method="getAgreementDate" set-method="setAgreementDate" format="LocalDate.default"/>
+    <value style="element" name="AgreementPlace" get-method="getAgreementPlace" set-method="setAgreementPlace"/>
+    <value style="element" name="ActivitiesType" get-method="getActivitiesType" set-method="setActivitiesType"/>
+    <value style="element" name="NumberOfPages" get-method="getNumberOfPages" set-method="setNumberOfPages" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ra:FormOneType" class="ru.acs.fts.schemas.album.residentapplication.FormOneType">
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getResidentPersonSignature" set-method="setResidentPersonSignature" name="ResidentPersonSignature"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getEconZonePersonSignature" set-method="setEconZonePersonSignature" name="EconZonePersonSignature"/>
+    <collection get-method="getOperationList" set-method="setOperationList" create-type="java.util.ArrayList">
+      <structure map-as="ra:OperationType" name="Operation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ra:FormTwoSectionType" class="ru.acs.fts.schemas.album.residentapplication.FormTwoSectionType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <collection get-method="getProductForRecyclingList" set-method="setProductForRecyclingList" create-type="java.util.ArrayList">
+      <structure map-as="ra:ProductType" name="ProductForRecycling"/>
+    </collection>
+    <collection get-method="getProductOfRecyclingList" set-method="setProductOfRecyclingList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ra:ProductOfRecyclingType" name="ProductOfRecycling"/>
+    </collection>
+    <collection get-method="getWasteProductList" set-method="setWasteProductList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ra:ProductOfRecyclingType" name="WasteProduct"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ra:FormTwoType" class="ru.acs.fts.schemas.album.residentapplication.FormTwoType">
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getResidentPersonSignature" set-method="setResidentPersonSignature" name="ResidentPersonSignature"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getEconZonePersonSignature" set-method="setEconZonePersonSignature" name="EconZonePersonSignature"/>
+    <collection get-method="getSectionList" set-method="setSectionList" create-type="java.util.ArrayList">
+      <structure map-as="ra:FormTwoSectionType" name="Section"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ra:OperationType" class="ru.acs.fts.schemas.album.residentapplication.OperationType">
+    <value style="element" name="OperationName" get-method="getOperationName" set-method="setOperationName"/>
+    <value style="element" name="OperationNumber" get-method="getOperationNumber" set-method="setOperationNumber"/>
+    <collection get-method="getProductList" set-method="setProductList" create-type="java.util.ArrayList">
+      <structure map-as="ra:ProductType" name="Product"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ra:ProductOfRecyclingType" class="ru.acs.fts.schemas.album.residentapplication.ProductOfRecyclingType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+    <value style="element" name="CustomsDutyRateSystem" get-method="getCustomsDutyRateSystem" set-method="setCustomsDutyRateSystem"/>
+  </mapping>
+  <mapping abstract="true" type-name="ra:ProductType" class="ru.acs.fts.schemas.album.residentapplication.ProductType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <collection get-method="getNameList" set-method="setNameList" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+    <value style="element" name="QuantityChangesQ1" get-method="getQuantityChangesQ1" set-method="setQuantityChangesQ1" usage="optional"/>
+    <value style="element" name="QuantityChangesQ2" get-method="getQuantityChangesQ2" set-method="setQuantityChangesQ2" usage="optional"/>
+    <value style="element" name="QuantityChangesQ3" get-method="getQuantityChangesQ3" set-method="setQuantityChangesQ3" usage="optional"/>
+    <value style="element" name="QuantityChangesQ4" get-method="getQuantityChangesQ4" set-method="setQuantityChangesQ4" usage="optional"/>
+    <value style="element" name="QuantityTotal" get-method="getQuantityTotal" set-method="setQuantityTotal"/>
+  </mapping>
+  <mapping abstract="true" type-name="ra:RegistryNumberType" class="ru.acs.fts.schemas.album.residentapplication.RegistryNumberType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="RevisionNumber" get-method="getRevisionNumber" set-method="setRevisionNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ra:ResidentType" class="ru.acs.fts.schemas.album.residentapplication.ResidentType">
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganisation" set-method="setOrganisation" name="Organisation"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getLicenseNumber" set-method="setLicenseNumber" usage="optional" name="LicenseNumber"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+</binding>

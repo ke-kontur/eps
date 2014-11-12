@@ -1,0 +1,40 @@
+<binding xmlns:schr="urn:customs.ru:Information:ExchangeDocuments:GoodSearchResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:GoodSearchResponse:5.4.0" default="elements" prefix="schr"/>
+  <mapping abstract="true" type-name="schr:GoodSearchResponseType" class="ru.acs.fts.schemas.album.goodsearchresponse.GoodSearchResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GoodsRegistrationDate" get-method="getGoodsRegistrationDate" set-method="setGoodsRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="ConsignmentNumber" get-method="getConsignmentNumber" set-method="setConsignmentNumber" usage="optional"/>
+    <value style="element" name="DepartureDate" get-method="getDepartureDate" set-method="setDepartureDate" format="LocalDate.default"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="schr:CarriageType" name="Transport"/>
+    </collection>
+    <structure map-as="schr:PlaceType" get-method="getDeparturePlace" set-method="setDeparturePlace" name="DeparturePlace"/>
+    <structure map-as="schr:PlaceType" get-method="getDestinationPlace" set-method="setDestinationPlace" name="DestinationPlace"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsearchresponse.GoodSearchResponseType" name="GoodSearchResponse">
+    <structure map-as="schr:GoodSearchResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="schr:GoodsInfoType" class="ru.acs.fts.schemas.album.goodsearchresponse.GoodsInfoType">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Container" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ETSNG" get-method="getETSNG" set-method="setETSNG" usage="optional"/>
+    <value style="element" name="IssuanceDate" get-method="getIssuanceDate" set-method="setIssuanceDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="schr:PlaceType" get-method="getFactStation" set-method="setFactStation" usage="optional" name="FactStation"/>
+  </mapping>
+  <mapping abstract="true" type-name="schr:PlaceType" class="ru.acs.fts.schemas.album.goodsearchresponse.PlaceType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName" usage="optional"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="schr:CarriageType" class="ru.acs.fts.schemas.album.goodsearchresponse.CarriageType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="ArrivalDate" get-method="getArrivalDate" set-method="setArrivalDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="schr:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+  </mapping>
+</binding>

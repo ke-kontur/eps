@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- JMS-JNDI -->
+
+	<bean id="ErrorRecv" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/mq-connection-send-error-recv" />
+	</bean>
+	
+	<bean id="ErrorEAD" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/mq-connection-send-error-recv" />
+	</bean>
+	
+	<bean id="ErrorDBSave" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/mq-connection-send-error-dbsave" />
+	</bean>
+	
+	<bean id="ErrorAuth" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/mq-connection-send-error-auth" />
+	</bean>
+	
+	<bean id="ErrorStructure" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/mq-connection-send-error-structure" />
+	</bean>
+	
+	<bean id="ErrorFatal" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}dsMqConfig/mq-connection-send-error-fatal" />
+	</bean>
+	
+	<!-- JMS Containers -->
+	
+	<bean id="baseErrorMessageListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer"
+			abstract="true" scope="prototype" >
+		<property name="connectionFactory" ref="jmsConnectionFactory" />
+		<property name="concurrentConsumers" value="1" />
+		<property name="sessionTransacted" value="true" />
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="autoStartup" ref="IsFailedMessagesOnBean" />
+	</bean>
+	
+	<bean id="errorRecvFromMessageListenerContainer" parent="baseErrorMessageListenerContainer" >
+		<property name="messageListener" ref="errorRecvFromMessageListener" />
+		<property name="destination" ref="ErrorRecv" />
+	</bean>	
+	
+	<bean id="errorEadFromMessageListenerContainer" parent="baseErrorMessageListenerContainer">
+		<property name="messageListener" ref="errorEadFromMessageListener" />
+		<property name="destination" ref="ErrorEAD" />
+	</bean>
+	
+	<bean id="errorDBSaveFromMessageListenerContainer" parent="baseErrorMessageListenerContainer">
+		<property name="messageListener" ref="errorDBSaveFromMessageListener" />
+		<property name="destination" ref="ErrorDBSave" />
+	</bean>
+		
+	<bean id="errorAuthFromMessageListenerContainer" parent="baseErrorMessageListenerContainer">
+		<property name="messageListener" ref="errorAuthFromMessageListener" />
+		<property name="destination" ref="ErrorAuth" />
+	</bean>		
+	
+	<bean id="errorStructFromMessageListenerContainer" parent="baseErrorMessageListenerContainer" >
+		<property name="messageListener" ref="errorStructFromMessageListener" />
+		<property name="destination" ref="ErrorStructure" />
+	</bean>	
+	
+	<bean id="errorFatalFromMessageListenerContainer" parent="baseErrorMessageListenerContainer" >
+		<property name="messageListener" ref="errorFatalFromMessageListener" />
+		<property name="destination" ref="ErrorFatal" />
+	</bean>
+	
+	<!-- JMS Listeners -->
+	
+	<bean id="errorRecvFromMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="errorRecvFromDispatcher" />
+	</bean>	
+	
+	<bean id="errorEadFromMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="errorEadFromDispatcher" />
+	</bean>
+	
+	<bean id="errorDBSaveFromMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="errorDBSaveFromDispatcher" />
+	</bean>
+	
+	<bean id="errorAuthFromMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="errorAuthFromDispatcher" />
+	</bean>	
+	
+	<bean id="errorStructFromMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="errorStructFromDispatcher" />
+	</bean>	
+	
+	<bean id="errorFatalFromMessageListener" class="ru.acs.fts.eps2.failedMessages.transport.in.DispatchableMessageListener" >
+		<property name="dispatcher" ref="errorFatalFromDispatcher" />
+	</bean>
+	
+	<!-- Queues -->
+	
+	<bean id="QUEUE_ERROR_AUTH" class="java.lang.String" ><constructor-arg value="1" /></bean>
+	<bean id="QUEUE_ERROR_DBSAVE" class="java.lang.String" ><constructor-arg value="2" /></bean>
+	<bean id="QUEUE_ERROR_FATAL" class="java.lang.String" ><constructor-arg value="3" /></bean>
+	<bean id="QUEUE_ERROR_RECV" class="java.lang.String" ><constructor-arg value="4" /></bean>
+	<bean id="QUEUE_ERROR_EAD" class="java.lang.String" ><constructor-arg value="5" /></bean>
+	<bean id="QUEUE_ERROR_AUD" class="java.lang.String" ><constructor-arg value="6" /></bean>
+	
+	<!-- Dispatchers -->
+	
+	<bean id="baseDispatcher" class="ru.acs.fts.eps2.failedMessages.dispatch.ErrorMessageDispatcher"
+			abstract="true" scope="prototype" >
+		<property name="errorMessagesService" ref="errorMessagesService" />
+	</bean>
+	
+	<bean id="errorRecvFromDispatcher" parent="baseDispatcher" >
+		<property name="queue" ref="QUEUE_ERROR_RECV" />
+	</bean>
+
+	<bean id="errorEadFromDispatcher" parent="baseDispatcher" >
+		<property name="queue" ref="QUEUE_ERROR_EAD" />
+	</bean>
+
+	<bean id="errorDBSaveFromDispatcher" parent="baseDispatcher" >
+		<property name="queue" ref="QUEUE_ERROR_DBSAVE" />
+	</bean>
+	
+	<bean id="errorAuthFromDispatcher" parent="baseDispatcher" >
+		<property name="queue" ref="QUEUE_ERROR_AUTH" />
+	</bean>
+
+	<bean id="errorStructFromDispatcher" parent="baseDispatcher" >
+		<property name="queue" ref="QUEUE_ERROR_EAD" />
+	</bean>
+
+	<bean id="errorFatalFromDispatcher" parent="baseDispatcher" >
+		<property name="queue" ref="QUEUE_ERROR_FATAL" />
+	</bean>
+	
+</beans>

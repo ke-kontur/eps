@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:docnot="urn:customs.ru:Information:DocumentNotification:5.4.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:DocumentNotification:5.4.1" elementFormDefault="qualified" version="5.4.1.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Документ</xs:documentation>
+	</xs:annotation>
+	<xs:element name="DocumentNotification" type="docnot:DocumentNotificationType"/>
+	<xs:complexType name="DocumentNotificationType">
+		<xs:annotation>
+			<xs:documentation>Документ</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090015E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

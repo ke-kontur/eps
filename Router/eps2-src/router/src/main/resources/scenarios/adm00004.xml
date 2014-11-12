@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-2.5.xsd" >
+    
+    <bean id="adm00004" class="ru.acs.fts.eps2.engine.processing.JobBatch">
+        <property name="description" value="Ответ от удаленного РТУ" />
+        <property name="preparedJobs">
+            <list>
+            
+				<!-- Проверяем наличие в базе конверта с таким же EnvelopeID, DocumentID -->                
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+                	<constructor-arg ref="checkSameEnvelopeExists" />
+                	<constructor-arg>
+                		<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+                			<constructor-arg>
+                				<map />
+                			</constructor-arg>
+                		</bean>
+                	</constructor-arg>
+                </bean>            
+                
+                <!-- Сохраняем входящий конверт -->
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                    <constructor-arg ref="saveIncomeEnvelope" />
+                    <constructor-arg>
+                        <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+                            <constructor-arg>
+                                <map>
+                                    <entry key="needFlush" value="true" />
+                                </map>
+                            </constructor-arg>
+                        </bean>
+                    </constructor-arg>
+                </bean>             
+                
+				<!-- CMN.00004 -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="createNotificationMessage" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="envelopeName" value="cmn00004" />
+									<entry key="messageType" value="CMN.00004" />
+									<entry key="receivingSystem" value="DECLARANT" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob" >
+					<constructor-arg ref="signEnvelope" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext" >
+							<constructor-arg>
+								<map>
+									<entry key="envelopeName" value="cmn00004" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>				                
+            	
+				<!-- Business Processing -->
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                    <constructor-arg ref="businessProcessing" />
+                    <constructor-arg>
+                        <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+                            <constructor-arg>
+                                <map>
+                                	<entry key="envelopes" value="envelopes" />
+                                	<entry key="envelopesUnsigned" value="envelopesUnsigned" />
+                                	<entry key="cmn00004" value="cmn00004" />
+                                </map>
+                            </constructor-arg>
+                        </bean>
+                    </constructor-arg>
+                </bean>
+
+                <!-- Подписываем ответы -->
+				<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+					<constructor-arg ref="signEnvelope" />
+					<constructor-arg>
+						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+							<constructor-arg>
+								<map>
+									<entry key="envelopeName" value="envelopesUnsigned" />
+								</map>
+							</constructor-arg>
+						</bean>
+					</constructor-arg>
+				</bean>
+                
+                <!-- Отправляем сообщения -->
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                    <constructor-arg ref="sendMessage" />
+                    <constructor-arg>
+                        <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+                            <constructor-arg>
+                                <map>
+                                    <entry key="envelopeName" value="envelopes" />
+                                </map>
+                            </constructor-arg>
+                        </bean>
+                    </constructor-arg>
+                </bean>            	
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                    <constructor-arg ref="sendMessage" />
+                    <constructor-arg>
+                        <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+                            <constructor-arg>
+                                <map>
+                                    <entry key="envelopeName" value="envelopesUnsigned" />
+                                </map>
+                            </constructor-arg>
+                        </bean>
+                    </constructor-arg>
+                </bean>            	
+                
+                
+                <!-- И сохраняем его в базу -->
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                    <constructor-arg ref="saveObjectToDb" />
+                    <constructor-arg>
+                        <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+                            <constructor-arg>
+                                <map>
+                                    <entry key="objectToSave" value="envelopes" />
+                                    <entry key="needFlush" value="true" />
+                                </map>
+                            </constructor-arg>
+                        </bean>
+                    </constructor-arg>
+                </bean>
+                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                    <constructor-arg ref="saveObjectToDb" />
+                    <constructor-arg>
+                        <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
+                            <constructor-arg>
+                                <map>
+                                    <entry key="objectToSave" value="envelopesUnsigned" />
+                                    <entry key="needFlush" value="true" />
+                                </map>
+                            </constructor-arg>
+                        </bean>
+                    </constructor-arg>
+                </bean>
+                
+            </list>
+        </property>
+    </bean>
+</beans>

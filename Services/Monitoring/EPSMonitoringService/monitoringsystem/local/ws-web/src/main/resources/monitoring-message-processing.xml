@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<!-- 
+	<bean class="ru.acs.monitoring.settings.MessageProcessingSettings">
+		<property name="name" value="АСКТТ РТУ" />
+		<property name="sql" value='select env.messagetype,EK.DESCRIPTION , count(env.messagetype),0 as "FLKERRMESS",0 as "ERRMESS" from envelope_header env join envelope_kind ek on EK.CODE=env.messagetype where env.preparationdatetime >=trunc(sysdate) group by env.messagetype,EK.DESCRIPTION'/>
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/RTU1" />
+				<property name="username" value="RNTS_CONNECT_S" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+	</bean>
+	<bean class="ru.acs.monitoring.settings.MessageProcessingSettings">
+		<property name="name" value="АСКТТ ГНИВЦ" />
+		<property name="sql" value='select env.messagetype,EK.DESCRIPTION , count(env.messagetype),0 as "FLKERRMESS",0 as "ERRMESS" from envelope_header env join envelope_kind ek on EK.CODE=env.messagetype where env.preparationdatetime >=trunc(sysdate) group by env.messagetype,EK.DESCRIPTION'/>
+		<property name="dataSource">
+			<bean parent="OracleDataSource">
+				<property name="url"
+					value="jdbc:oracle:thin:@//192.168.23.155:1521/GNIVC" />
+				<property name="username" value="RNTS_CONNECT_S" />
+				<property name="password" value="1" />
+			</bean>
+		</property>
+	</bean>
+ -->
+ 
+
+ </beans>

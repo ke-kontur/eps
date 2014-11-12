@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCalculationResult:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:gclc_rslt="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCalculationResult:5.4.0" xmlns:grn_cat="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCommonAggregateTypesCust:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCommonAggregateTypesCust:5.4.0" schemaLocation="GuaranteeCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Результат расчета сумм обеспечения уплаты таможенных пошлин, налогов</xs:documentation>
+   </xs:annotation>
+   <xs:element name="GuaranteeCalculationResult" type="gclc_rslt:GuaranteeCalculationResultType"/>
+   <xs:complexType name="GuaranteeCalculationResultType">
+      <xs:annotation>
+         <xs:documentation>Результат расчета сумм обеспечения уплаты таможенных пошлин, налогов</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="DocumentDateTime" type="clt_ru:DateTimeCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата и время формирования электронного документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="TotalAmount" type="grn_cat:TotalAmountType">
+                  <xs:annotation>
+                     <xs:documentation>Общие суммы обеспечения, рассчитанные по запросу</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="TotalDeltaAmount" type="grn_cat:TotalAmountType">
+                  <xs:annotation>
+                     <xs:documentation>Общие суммы обеспечения, рассчитанные по запросу (за вычетом уже уплаченных сумм)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="GoodsAmount" type="gclc_rslt:GoodsAmountType">
+                  <xs:annotation>
+                     <xs:documentation>Результат расчета сумм обеспечения по товару</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1050002E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="GoodsAmountType">
+      <xs:annotation>
+         <xs:documentation>Рассчитанные суммы обеспечения по товару.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="Numeric" type="clt_ru:Count3Type">
+            <xs:annotation>
+               <xs:documentation>Номер товара по порядку</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="TNVEDCode" type="clt_ru:CUGoodsNomenclatuerCodeType">
+            <xs:annotation>
+               <xs:documentation>Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GuaranteeAmount" type="grn_cat:TotalAmountType">
+            <xs:annotation>
+               <xs:documentation>Сумма обеспечения по товару</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

@@ -1,0 +1,20 @@
+<binding xmlns:retrz="urn:customs.ru:Information:CustomsDocuments:ResultASKTT:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ResultASKTT:5.4.0" default="elements" prefix="retrz"/>
+  <mapping abstract="true" type-name="retrz:ResultASKTTType" class="ru.acs.fts.schemas.album.resultasktt.ResultASKTTType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getTDCheckResultList" set-method="setTDCheckResultList" create-type="java.util.ArrayList">
+      <structure map-as="retrz:TDCheckResultType" name="TDCheckResult"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.resultasktt.ResultASKTTType" name="ResultASKTT">
+    <structure map-as="retrz:ResultASKTTType"/>
+  </mapping>
+  <mapping abstract="true" type-name="retrz:TDCheckResultType" class="ru.acs.fts.schemas.album.resultasktt.TDCheckResultType">
+    <value style="element" name="Result" get-method="getResult" set-method="setResult"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+    <value style="element" name="OperatorDeliveryPlace" get-method="getOperatorDeliveryPlace" set-method="setOperatorDeliveryPlace" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getTDNumber" set-method="setTDNumber" usage="optional" name="TDNumber"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getDeliveryPlace" set-method="setDeliveryPlace" usage="optional" name="DeliveryPlace"/>
+  </mapping>
+</binding>

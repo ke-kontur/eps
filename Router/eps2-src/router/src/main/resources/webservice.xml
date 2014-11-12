@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:int="http://www.springframework.org/schema/integration"
+		xmlns:int-http="http://www.springframework.org/schema/integration/http"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/integration 
+							http://www.springframework.org/schema/integration/spring-integration.xsd
+							http://www.springframework.org/schema/integration/http 
+							http://www.springframework.org/schema/integration/http/spring-integration-http.xsd" >
+							
+	<!-- REST Web-сервисы -->
+	
+	<bean id="restEventWebService" class="ru.acs.fts.eps2.engine.restWs.event.EventRestWs" >
+		<property name="restEventSrvUrl" ref="restEventSrvUrl" />
+	</bean>
+	
+	<bean id="restStructCtrlWebService" class="ru.acs.fts.eps2.engine.restWs.struct.StructRestWs" >
+		<property name="restStructSrvUrl" ref="restStructSrvUrl" />
+		<property name="marshaller" ref="unmarshallerEnvelope" />
+		<property name="errors" ref="errors" />
+	</bean>
+	
+	<bean id="restCryptoWebService" class="ru.acs.fts.eps2.engine.restWs.crypto.CryptoRestWs" >
+		<property name="restCryptoSrvUrl" ref="restCryptoSrvUrl" />
+		<property name="marshaller" ref="unmarshallerEnvelope" />
+		<property name="unmarshaller" ref="unmarshallerEnvelope" />
+		<property name="errors" ref="errors" />
+	</bean>
+	
+	<bean id="cryptoHelper" class="ru.acs.fts.eps2.engine.processing.helpers.CryptoHelper" >
+		<property name="cryptoRestWs" ref="restCryptoWebService" />
+		<property name="marshaller" ref="unmarshallerEnvelope" />
+		<property name="unmarshaller" ref="unmarshallerEnvelope" />
+	</bean>
+</beans>

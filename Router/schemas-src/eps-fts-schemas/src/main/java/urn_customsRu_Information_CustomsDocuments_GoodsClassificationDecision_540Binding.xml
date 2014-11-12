@@ -1,0 +1,23 @@
+<binding xmlns:gcd="urn:customs.ru:Information:CustomsDocuments:GoodsClassificationDecision:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsClassificationDecision:5.4.0" default="elements" prefix="gcd"/>
+  <mapping abstract="true" type-name="gcd:GoodsClassificationDecisionType" class="ru.acs.fts.schemas.album.goodsclassificationdecision.GoodsClassificationDecisionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVED" get-method="getGoodsTNVED" set-method="setGoodsTNVED"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="gcd:RegistryNumberType" get-method="getRegistryNumber" set-method="setRegistryNumber" name="RegistryNumber"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsclassificationdecision.GoodsClassificationDecisionType" name="GoodsClassificationDecision">
+    <structure map-as="gcd:GoodsClassificationDecisionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcd:RegistryNumberType" class="ru.acs.fts.schemas.album.goodsclassificationdecision.RegistryNumberType">
+    <value style="element" name="GTDId" get-method="getGTDId" set-method="setGTDId"/>
+    <value style="element" name="GTDPosition" get-method="getGTDPosition" set-method="setGTDPosition"/>
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+  </mapping>
+</binding>

@@ -1,0 +1,34 @@
+<binding xmlns:nofa="urn:customs.ru:Information:TransportDocuments:Railway:NotifFactArrival:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Railway:NotifFactArrival:5.4.0" default="elements" prefix="nofa"/>
+  <mapping abstract="true" type-name="nofa:NotifFactArrivalType" class="ru.acs.fts.schemas.album.notiffactarrival.NotifFactArrivalType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <value style="element" name="URN" get-method="getURN" set-method="setURN" usage="optional"/>
+    <value style="element" name="NotifDate" get-method="getNotifDate" set-method="setNotifDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="nofa:RailwayStationType" get-method="getDestinationStation" set-method="setDestinationStation" name="DestinationStation"/>
+    <structure map-as="nofa:RailwayStationType" get-method="getDepartureStation" set-method="setDepartureStation" name="DepartureStation"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="Transport"/>
+    </collection>
+    <collection get-method="getSealList" set-method="setSealList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="nofa:SealType" name="Seal"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getTD" set-method="setTD" usage="optional" name="TD"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notiffactarrival.NotifFactArrivalType" name="NotifFactArrival">
+    <structure map-as="nofa:NotifFactArrivalType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nofa:RailwayStationType" class="ru.acs.fts.schemas.album.notiffactarrival.RailwayStationType">
+    <value style="element" name="RailwayStationName" get-method="getRailwayStationName" set-method="setRailwayStationName"/>
+    <value style="element" name="RailwayStationCode" get-method="getRailwayStationCode" set-method="setRailwayStationCode"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="nofa:SealType" class="ru.acs.fts.schemas.album.notiffactarrival.SealType">
+    <value style="element" name="IdentNumber" get-method="getIdentNumber" set-method="setIdentNumber"/>
+    <value style="element" name="IdentKind" get-method="getIdentKind" set-method="setIdentKind"/>
+    <value style="element" name="IdentDesc" get-method="getIdentDesc" set-method="setIdentDesc" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+  </mapping>
+</binding>

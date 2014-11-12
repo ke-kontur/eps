@@ -1,0 +1,27 @@
+<binding xmlns:fscnpr="urn:customs.ru:Information:SQDocuments:FsTekConclPermit:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:FsTekConclPermit:5.4.0" default="elements" prefix="fscnpr"/>
+  <mapping abstract="true" type-name="fscnpr:FsTekConclPermitType" class="ru.acs.fts.schemas.album.fstekconclpermit.FsTekConclPermitType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DestinationCountry" get-method="getDestinationCountry" set-method="setDestinationCountry"/>
+    <value style="element" name="TermReturns" get-method="getTermReturns" set-method="setTermReturns" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Conslusions" get-method="getConslusions" set-method="setConslusions" usage="optional"/>
+    <structure map-as="fscnpr:AuthorizationType" get-method="getAuthorization" set-method="setAuthorization" name="Authorization"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getReleaseOrg" set-method="setReleaseOrg" usage="optional" name="ReleaseOrg"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getApplicant" set-method="setApplicant" usage="optional" name="Applicant"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.fstekconclpermit.FsTekConclPermitType" name="FsTekConclPermit">
+    <structure map-as="fscnpr:FsTekConclPermitType"/>
+  </mapping>
+  <mapping abstract="true" type-name="fscnpr:AuthorizationType" class="ru.acs.fts.schemas.album.fstekconclpermit.AuthorizationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+  </mapping>
+</binding>

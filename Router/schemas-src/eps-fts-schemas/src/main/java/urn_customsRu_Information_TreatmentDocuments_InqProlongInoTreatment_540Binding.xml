@@ -1,0 +1,23 @@
+<binding xmlns:ipi="urn:customs.ru:Information:TreatmentDocuments:InqProlongInoTreatment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:InqProlongInoTreatment:5.4.0" default="elements" prefix="ipi"/>
+  <mapping abstract="true" type-name="ipi:InqProlongInoTreatmentType" class="ru.acs.fts.schemas.album.inqprolonginotreatment.InqProlongInoTreatmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="ipi:ChangeDateType" get-method="getChangeDate" set-method="setChangeDate" name="ChangeDate"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <collection get-method="getDocumentBaseList" set-method="setDocumentBaseList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="DocumentBase"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqprolonginotreatment.InqProlongInoTreatmentType" name="InqProlongInoTreatment">
+    <structure map-as="ipi:InqProlongInoTreatmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ipi:ChangeDateType" class="ru.acs.fts.schemas.album.inqprolonginotreatment.ChangeDateType">
+    <value style="element" name="NewDate" get-method="getNewDate" set-method="setNewDate" format="LocalDate.default"/>
+    <collection get-method="getMotivationList" set-method="setMotivationList" create-type="java.util.ArrayList">
+      <value style="element" name="Motivation" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

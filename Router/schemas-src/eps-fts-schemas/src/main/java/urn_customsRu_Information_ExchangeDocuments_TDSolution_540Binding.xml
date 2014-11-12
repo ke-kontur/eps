@@ -1,0 +1,23 @@
+<binding xmlns:tdsol="urn:customs.ru:Information:ExchangeDocuments:TDSolution:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:TDSolution:5.4.0" default="elements" prefix="tdsol"/>
+  <mapping abstract="true" type-name="tdsol:TDSolutionType" class="ru.acs.fts.schemas.album.tdsolution.TDSolutionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TDStatus" get-method="getTDStatus" set-method="setTDStatus"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="TransitOpenDate" get-method="getTransitOpenDate" set-method="setTransitOpenDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TransitDateLimit" get-method="getTransitDateLimit" set-method="setTransitDateLimit" format="LocalDate.default"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID"/>
+    <value style="element" name="TransitFactEndDate" get-method="getTransitFactEndDate" set-method="setTransitFactEndDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getReservationCompleteList" set-method="setReservationCompleteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ReservationComplete" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getTDNumber" set-method="setTDNumber" name="TDNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getDestinationCustoms" set-method="setDestinationCustoms" name="DestinationCustoms"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.tdsolution.TDSolutionType" name="TDSolution">
+    <structure map-as="tdsol:TDSolutionType"/>
+  </mapping>
+</binding>

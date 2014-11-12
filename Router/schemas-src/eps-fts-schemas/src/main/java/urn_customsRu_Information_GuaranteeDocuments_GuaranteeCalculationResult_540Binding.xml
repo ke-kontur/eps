@@ -1,0 +1,21 @@
+<binding xmlns:gclc_rslt="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCalculationResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:grn_cat="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCalculationResult:5.4.0" default="elements" prefix="gclc_rslt"/>
+  <mapping abstract="true" type-name="gclc_rslt:GuaranteeCalculationResultType" class="ru.acs.fts.schemas.album.guaranteecalculationresult.GuaranteeCalculationResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDateTime" get-method="getDocumentDateTime" set-method="setDocumentDateTime"/>
+    <structure map-as="grn_cat:TotalAmountType" get-method="getTotalAmount" set-method="setTotalAmount" name="TotalAmount"/>
+    <structure map-as="grn_cat:TotalAmountType" get-method="getTotalDeltaAmount" set-method="setTotalDeltaAmount" usage="optional" name="TotalDeltaAmount"/>
+    <collection get-method="getGoodsAmountList" set-method="setGoodsAmountList" create-type="java.util.ArrayList">
+      <structure map-as="gclc_rslt:GoodsAmountType" name="GoodsAmount"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteecalculationresult.GuaranteeCalculationResultType" name="GuaranteeCalculationResult">
+    <structure map-as="gclc_rslt:GuaranteeCalculationResultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gclc_rslt:GoodsAmountType" class="ru.acs.fts.schemas.album.guaranteecalculationresult.GoodsAmountType">
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode"/>
+    <structure map-as="grn_cat:TotalAmountType" get-method="getGuaranteeAmount" set-method="setGuaranteeAmount" name="GuaranteeAmount"/>
+  </mapping>
+</binding>

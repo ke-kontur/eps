@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Хранилище для обработки ошибочных ситуаций -->
+	<bean id="failedJobBatchWarehouse" class="ru.acs.fts.aud.router.processing.AudJobBatchWarehouse">
+		<property name="selectors">
+			<list>
+
+				<bean class="ru.acs.fts.aud.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="fs_send_aud_error" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.aud.router.processing.JobBatchSelectorCondition" >
+							<property name="failScenario" ref="FAIL_SCENARIO_SEND_AUD_ERROR" />
+						</bean>
+					</property>
+				</bean>
+				
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

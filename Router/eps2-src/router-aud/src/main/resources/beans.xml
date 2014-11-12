@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd
+							http://www.springframework.org/schema/tx
+        					http://www.springframework.org/schema/tx/spring-tx.xsd" >
+    
+    <import resource="settings.xml" />
+    <import resource="job-beans.xml" />
+    
+	<import resource="business-processes.xml" />
+    <import resource="scenarios/scenarios.xml" />
+    
+    <import resource="sections/error-automata.xml" />
+    
+    <!-- Фоновые задачи -->
+    <import resource="sections/tasks.xml" />
+    
+    <!-- TODO: Разобраться зачем это нужно, поправить если что в электричке тоже -->
+    <bean id="taskExecutor"
+          class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor"
+          scope="singleton">
+        <property name="corePoolSize" value="5" />
+        <property name="maxPoolSize" value="10" />
+        <property name="queueCapacity" value="25" />
+    </bean>
+    
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager"/>
+    
+    <!-- Джобы -->
+    
+	<bean id="audJob" class="ru.acs.fts.aud.router.processing.jobs.AudJob" abstract="true" scope="prototype" >
+    	<property name="serviceHolder" ref="serviceHolder" />
+    	<property name="archiveManager" ref="archiveManager" />
+    </bean>    
+    
+    <bean id="audEmptyJob" class="ru.acs.fts.aud.router.processing.jobs.AudEmptyJob" />    
+    
+	<bean id="saveToAudInnerDb" class="ru.acs.fts.aud.router.processing.jobs.SaveToAudInnerDbJob" >
+		<property name="envelopeManager" ref="audEnvelopeManager" />
+	</bean>      
+    
+    <!-- Задача предварительной обработки (в том числе парсинг сообщения) -->
+    <bean id="audOverallParserJob" class="ru.acs.fts.aud.router.processing.jobs.AudOverallParserJob" parent="audJob" >
+    	<property name="envelopeManager" ref="audEnvelopeManager" />
+    	<property name="unmarshaller" ref="jibx" />
+    	<property name="unmarshallFailedJobBatch" ref="emergencyStrControl" />
+    	<property name="conditionalUnmarshaller" ref="conditionalUnmarshaller" />
+    </bean>    
+    
+    <!-- Задача создания сообщения AUD.ERROR -->
+    <bean id="createAudError" class="ru.acs.fts.aud.router.processing.jobs.CreateAudErrorJob" parent="audJob" />
+    
+    <!-- Задача отправки сообщения -->
+    <bean id="sendAudMessage" class="ru.acs.fts.aud.router.processing.jobs.SendAudMessageJob" parent="audJob" />
+    
+    <!-- Задача подписи конвертов -->
+    <bean id="signAudEnvelope" class="ru.acs.fts.aud.router.processing.jobs.SignAudEnvelopeJob" >
+    	<property name="envelopeMarshaller" ref="jibx" />
+    	<property name="envelopeUnmarshaller" ref="jibx" />
+    </bean>
+    
+    <!-- Задача сохранения протоколов -->
+    <bean id="saveProtocols" class="ru.acs.fts.aud.router.processing.jobs.SaveProtocolsJob" parent="audJob" >
+        <property name="protocolManager" ref="protocolManager" />
+    </bean>
+    
+    <!-- Задача обновлении статистики сервера -->
+    <bean id="updateServerStatistics" class="ru.acs.fts.aud.router.processing.jobs.UpdateServerStatisticsJob" parent="audJob" >
+        <property name="serverStatisticManager" ref="serverStatisticManager" />
+    </bean>
+    
+    <!-- Задача обращения к сервису структурного контроля -->    
+    <bean id="structControlRequest" class="ru.acs.fts.eps2.engine.processing.StructControlRequest" >
+        <property name="envelopeMarshaller" ref="jibx" />
+		<property name="structRestWs" ref="restStructCtrlWebService" />
+    </bean>
+    
+    <!-- Задача сохранения реквестов -->    
+    <bean id="saveRequest" class="ru.acs.fts.aud.router.processing.jobs.SaveRequestJob" parent="audJob" />
+    
+    <!-- Задача проверки содержимого сообщения -->    
+    <bean id="checkMessageContent" class="ru.acs.fts.aud.router.processing.jobs.CheckMessageContentJob" parent="audJob" >
+        <property name="messageKindDocumentCorrespondence" >
+        	<map>
+        		<entry key="AUD.PUT_DOC.REQ" value="ru.acs.fts.schemas.aud.aud_putdocumentrequest.AUDPutDocumentRequestType" />
+        		<entry key="AUD.REGISTRY.REQ" value="ru.acs.fts.schemas.aud.aud_registryrequest.AUDRegistryRequestType" />
+        		<entry key="AUD.PACKET_INVENTORY.REQ" value="ru.acs.fts.schemas.aud.aud_packetinventoryrequest.AUDPacketInventoryRequestType" />
+        	</map>
+        </property>
+    </bean>
+    
+    <!-- Задача проверки подписи -->    
+    <bean id="checkSignature" class="ru.acs.fts.aud.router.processing.jobs.CheckSignatureJob" />
+    
+    <!-- Задача проверки регистрации клиента -->
+    <bean id="checkClient" class="ru.acs.fts.aud.router.processing.jobs.CheckClientJob" parent="audJob" />
+    
+    <!-- Задача создания уведомления -->
+    <bean id="createNotification" class="ru.acs.fts.aud.router.processing.jobs.CreateNotificationJob" parent="audJob" />
+    
+    <!-- Задача проверки документов -->
+    <bean id="verifyDocuments" class="ru.acs.fts.aud.router.processing.jobs.VerifyDocumentsJob" parent="audJob" />
+    
+    <!-- Задача сохранения документов -->
+    <bean id="saveDocuments" class="ru.acs.fts.aud.router.processing.jobs.SaveDocumentsJob" parent="audJob" >
+    	<property name="serverStatisticManager" ref="serverStatisticManager" />
+    </bean>
+    
+	<!-- Задача создания ответного сообщения AUD.PUT_DOC.RES -->
+    <bean id="createPutDocumentResponse" class="ru.acs.fts.aud.router.processing.jobs.CreatePutDocumentResponseJob" parent="audJob" />
+    
+    <!-- Задача создания ответного сообщения AUD.PACKET_INVENTORY.RES -->
+    <bean id="createPacketInventoryResponse" class="ru.acs.fts.aud.router.processing.jobs.CreatePacketInventoryResponseJob" parent="audJob" />
+    
+    <!-- Задача сохранения ответов -->
+    <bean id="saveResponse" class="ru.acs.fts.aud.router.processing.jobs.SaveResponseJob" parent="audJob" />
+    
+    <!-- Задача обработки бизнес-процесса -->
+    <bean id="businessProcessing" class="ru.acs.fts.aud.router.processing.jobs.BusinessProcessingJob" parent="audJob" >
+    	<property name="businessProcesses">
+    		<map>
+    			<entry key="AUD.REGISTRY.REQ" value-ref="registryBusinessProcess" />
+    		</map>
+    	</property>
+    </bean>
+    
+</beans>

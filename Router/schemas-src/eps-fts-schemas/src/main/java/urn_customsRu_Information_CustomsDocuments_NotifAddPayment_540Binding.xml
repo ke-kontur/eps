@@ -1,0 +1,23 @@
+<binding xmlns:nap="urn:customs.ru:Information:CustomsDocuments:NotifAddPayment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifAddPayment:5.4.0" default="elements" prefix="nap"/>
+  <mapping abstract="true" type-name="nap:NotifAddPaymentType" class="ru.acs.fts.schemas.album.notifaddpayment.NotifAddPaymentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <collection get-method="getAddPaymentList" set-method="setAddPaymentList" create-type="java.util.ArrayList">
+      <structure map-as="nap:AddPaymentType" name="AddPayment"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifaddpayment.NotifAddPaymentType" name="NotifAddPayment">
+    <structure map-as="nap:NotifAddPaymentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nap:AddPaymentType" class="ru.acs.fts.schemas.album.notifaddpayment.AddPaymentType">
+    <value style="element" name="Summa" get-method="getSumma" set-method="setSumma"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+</binding>

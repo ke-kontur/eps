@@ -1,0 +1,83 @@
+<binding xmlns:trdecl="urn:customs.ru:Information:CustomsDocuments:TransportDeclaration:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransportDeclaration:5.4.0" default="elements" prefix="trdecl"/>
+  <mapping abstract="true" type-name="trdecl:TransportDeclarationType" class="ru.acs.fts.schemas.album.transportdeclaration.TransportDeclarationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="StoreInfo" get-method="getStoreInfo" set-method="setStoreInfo" usage="optional"/>
+    <value style="element" name="GoodsInfo" get-method="getGoodsInfo" set-method="setGoodsInfo"/>
+    <value style="element" name="Purpose" get-method="getPurpose" set-method="setPurpose"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo" usage="optional"/>
+    <collection get-method="getTSInfoList" set-method="setTSInfoList" create-type="java.util.ArrayList">
+      <structure map-as="trdecl:TSInfoType" name="TSInfo"/>
+    </collection>
+    <structure ordered="false" choice="true">
+      <structure map-as="trdecl:CarrierType" test-method="ifCarrier" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+      <collection test-method="ifDateStampList" get-method="getDateStampList" set-method="setDateStampList" usage="optional" create-type="java.util.ArrayList">
+        <structure map-as="trdecl:DateStampType" name="DateStamp"/>
+      </collection>
+    </structure>
+    <structure map-as="trdecl:RouteType" get-method="getRoute" set-method="setRoute" name="Route"/>
+    <structure map-as="trdecl:CrewInfoType" get-method="getCrewInfo" set-method="setCrewInfo" name="CrewInfo"/>
+    <structure map-as="trdecl:PassengersType" get-method="getPassengers" set-method="setPassengers" name="Passengers"/>
+    <structure map-as="trdecl:OperatingEquipmentType" get-method="getOperatingEquipment" set-method="setOperatingEquipment" name="OperatingEquipment"/>
+    <structure map-as="trdecl:SignerType" get-method="getSigner" set-method="setSigner" name="Signer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transportdeclaration.TransportDeclarationType" name="TransportDeclaration">
+    <structure map-as="trdecl:TransportDeclarationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:CarrierType" class="ru.acs.fts.schemas.album.transportdeclaration.CarrierType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getCarrierAddress" set-method="setCarrierAddress" usage="optional" name="CarrierAddress"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getRepresentative" set-method="setRepresentative" usage="optional" name="Representative"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:CrewInfoType" class="ru.acs.fts.schemas.album.transportdeclaration.CrewInfoType">
+    <value style="element" name="CrewDescription" get-method="getCrewDescription" set-method="setCrewDescription"/>
+    <value style="element" name="TotalMemberCount" get-method="getTotalMemberCount" set-method="setTotalMemberCount" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:CustomsRepresCertificateType" class="ru.acs.fts.schemas.album.transportdeclaration.CustomsRepresCertificateType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:DateStampType" class="ru.acs.fts.schemas.album.transportdeclaration.DateStampType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <structure map-as="trdecl:RWStationType" get-method="getRWStation" set-method="setRWStation" name="RWStation"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getOfficer" set-method="setOfficer" name="Officer"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:OperatingEquipmentType" class="ru.acs.fts.schemas.album.transportdeclaration.OperatingEquipmentType">
+    <value style="element" name="GoodsSign" get-method="getGoodsSign" set-method="setGoodsSign"/>
+    <collection get-method="getEquipmentNameList" set-method="setEquipmentNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="EquipmentName" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getEquipmentDescription" set-method="setEquipmentDescription" usage="optional" name="EquipmentDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:PassengersType" class="ru.acs.fts.schemas.album.transportdeclaration.PassengersType">
+    <value style="element" name="TSMPPassenger" get-method="getTSMPPassenger" set-method="setTSMPPassenger"/>
+    <value style="element" name="MemberCount" get-method="getMemberCount" set-method="setMemberCount" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:RWStationType" class="ru.acs.fts.schemas.album.transportdeclaration.RWStationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName" usage="optional"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:RouteType" class="ru.acs.fts.schemas.album.transportdeclaration.RouteType">
+    <value style="element" name="DestinationCountry" get-method="getDestinationCountry" set-method="setDestinationCountry"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="DestinationPlace" get-method="getDestinationPlace" set-method="setDestinationPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:SignerType" class="ru.acs.fts.schemas.album.transportdeclaration.SignerType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="RepresentativeName" get-method="getRepresentativeName" set-method="setRepresentativeName" usage="optional"/>
+    <structure map-as="trdecl:CustomsRepresCertificateType" get-method="getSertificate" set-method="setSertificate" usage="optional" name="Sertificate"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getServiceContract" set-method="setServiceContract" usage="optional" name="ServiceContract"/>
+  </mapping>
+  <mapping abstract="true" type-name="trdecl:TSInfoType" class="ru.acs.fts.schemas.album.transportdeclaration.TSInfoType">
+    <value style="element" name="Mark" get-method="getMark" set-method="setMark" usage="optional"/>
+    <value style="element" name="Model" get-method="getModel" set-method="setModel" usage="optional"/>
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+    <value style="element" name="VINID" get-method="getVINID" set-method="setVINID" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,43 @@
+<binding xmlns:rcec="urn:customs.ru:Information:SertifDocuments:ResolutionCommissionExportControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:ResolutionCommissionExportControl:5.4.0" default="elements" prefix="rcec"/>
+  <mapping abstract="true" type-name="rcec:ResolutionCommissionExportControlType" class="ru.acs.fts.schemas.album.resolutioncommissionexportcontrol.ResolutionCommissionExportControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <collection get-method="getTermsActionList" set-method="setTermsActionList" create-type="java.util.ArrayList">
+      <value style="element" name="TermsAction" type="java.lang.String"/>
+    </collection>
+    <structure ordered="false" choice="true">
+      <structure map-as="rcec:JuridicalPersonType" test-method="ifJuridicalPerson" get-method="getJuridicalPerson" set-method="setJuridicalPerson" usage="optional" name="JuridicalPerson"/>
+      <structure map-as="rcec:IndividualPersonType" test-method="ifIndividualPerson" get-method="getIndividualPerson" set-method="setIndividualPerson" usage="optional" name="IndividualPerson"/>
+    </structure>
+    <structure map-as="rcec:ApplicationType" get-method="getApplication" set-method="setApplication" name="Application"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getIssueBase" set-method="setIssueBase" name="IssueBase"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.resolutioncommissionexportcontrol.ResolutionCommissionExportControlType" name="ResolutionCommissionExportControl">
+    <structure map-as="rcec:ResolutionCommissionExportControlType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcec:ApplicationType" class="ru.acs.fts.schemas.album.resolutioncommissionexportcontrol.ApplicationType">
+    <value style="element" name="ApplicationNumber" get-method="getApplicationNumber" set-method="setApplicationNumber"/>
+    <value style="element" name="ApplicationDate" get-method="getApplicationDate" set-method="setApplicationDate" format="LocalDate.default"/>
+    <value style="element" name="Action" get-method="getAction" set-method="setAction"/>
+    <collection get-method="getProductDescriptionList" set-method="setProductDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="ProductDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="StateDestination" get-method="getStateDestination" set-method="setStateDestination"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getConformityDocument" set-method="setConformityDocument" name="ConformityDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcec:IndividualPersonType" class="ru.acs.fts.schemas.album.resolutioncommissionexportcontrol.IndividualPersonType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="rcec:JuridicalPersonType" class="ru.acs.fts.schemas.album.resolutioncommissionexportcontrol.JuridicalPersonType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <collection get-method="getAddressList" set-method="setAddressList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:AddressType" name="Address"/>
+    </collection>
+  </mapping>
+</binding>

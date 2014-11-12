@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetRepresentFormDataResponse:4.1.1" version="4.1.1.0" xmlns:aurfdres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetRepresentFormDataResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Ответ на запрос на запрос на получение данных (текста XSLT-преобразования) для формирования представления документа в целях визуализации.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_GetRepresentFormDataResponse" type="aurfdres:AUD_GetRepresentFormDataResponseType"/>
+   <xs:complexType name="AUD_GetRepresentFormDataResponseType">
+      <xs:annotation>
+         <xs:documentation>Ответ на запрос на запрос на получение данных (текста XSLT-преобразования) для формирования представления документа в целях визуализации.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element name="RepresentationFormingData" type="cltAUD_ru:AUD_RepresentationFormDataType">
+                  <xs:annotation>
+                     <xs:documentation>Данные (текст XSLT-преобразования), используемые для формирования представления документа (в целях его визуализации).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010020E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

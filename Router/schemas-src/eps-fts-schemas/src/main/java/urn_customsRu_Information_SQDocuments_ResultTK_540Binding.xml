@@ -1,0 +1,223 @@
+<binding xmlns:rstk="urn:customs.ru:Information:SQDocuments:ResultTK:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:ResultTK:5.4.0" default="elements" prefix="rstk"/>
+  <mapping abstract="true" type-name="rstk:ResultTKType" class="ru.acs.fts.schemas.album.resulttk.ResultTKType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getInspectionList" set-method="setInspectionList" create-type="java.util.ArrayList">
+      <structure map-as="rstk:InspectionType" name="Inspection"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.resulttk.ResultTKType" name="ResultTK">
+    <structure map-as="rstk:ResultTKType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:AccountCodeType" class="ru.acs.fts.schemas.album.resulttk.AccountCodeType">
+    <value style="element" name="AccountCodeID" get-method="getAccountCodeID" set-method="setAccountCodeID" usage="optional"/>
+    <value style="element" name="AccountCodeNumber" get-method="getAccountCodeNumber" set-method="setAccountCodeNumber"/>
+    <value style="element" name="AccountCodeCreateDate" get-method="getAccountCodeCreateDate" set-method="setAccountCodeCreateDate"/>
+    <value style="element" name="InspectionID" get-method="getInspectionID" set-method="setInspectionID" usage="optional"/>
+    <value style="element" name="Information" get-method="getInformation" set-method="setInformation"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getDriver" set-method="setDriver" name="Driver"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAccountCodeEmployee" set-method="setAccountCodeEmployee" name="AccountCodeEmployee"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:BankRequisType" class="ru.acs.fts.schemas.album.resulttk.BankRequisType">
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+    <value style="element" name="CorrespAccount" get-method="getCorrespAccount" set-method="setCorrespAccount" usage="optional"/>
+    <value style="element" name="BankPlace" get-method="getBankPlace" set-method="setBankPlace" usage="optional"/>
+    <value style="element" name="PersonalAccount" get-method="getPersonalAccount" set-method="setPersonalAccount" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:CheckPointType" class="ru.acs.fts.schemas.album.resulttk.CheckPointType">
+    <value style="element" name="CheckPointCode" get-method="getCheckPointCode" set-method="setCheckPointCode"/>
+    <value style="element" name="CheckPointName" get-method="getCheckPointName" set-method="setCheckPointName" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:CheckType" class="ru.acs.fts.schemas.album.resulttk.CheckType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Sum" get-method="getSum" set-method="setSum" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:CheckViolationType" class="ru.acs.fts.schemas.album.resulttk.CheckViolationType">
+    <value style="element" name="RequirementInfo" get-method="getRequirementInfo" set-method="setRequirementInfo" usage="optional"/>
+    <value style="element" name="ViolationName" get-method="getViolationName" set-method="setViolationName" usage="optional"/>
+    <value style="element" name="ControlStatusName" get-method="getControlStatusName" set-method="setControlStatusName" usage="optional"/>
+    <value style="element" name="NotifNumber" get-method="getNotifNumber" set-method="setNotifNumber" usage="optional"/>
+    <value style="element" name="CorrectionDate" get-method="getCorrectionDate" set-method="setCorrectionDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:CountryRegionType" class="ru.acs.fts.schemas.album.resulttk.CountryRegionType">
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="RegionCode" get-method="getRegionCode" set-method="setRegionCode" usage="optional"/>
+    <value style="element" name="PlaceName" get-method="getPlaceName" set-method="setPlaceName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:DocumentalControlType" class="ru.acs.fts.schemas.album.resulttk.DocumentalControlType">
+    <value style="element" name="AccountCode" get-method="getAccountCode" set-method="setAccountCode" usage="optional"/>
+    <value style="element" name="StartDateTime" get-method="getStartDateTime" set-method="setStartDateTime"/>
+    <value style="element" name="NumberUNO" get-method="getNumberUNO" set-method="setNumberUNO" usage="optional"/>
+    <value style="element" name="MassTSFull" get-method="getMassTSFull" set-method="setMassTSFull" usage="optional"/>
+    <value style="element" name="IsRoadPayment" get-method="getIsRoadPayment" set-method="setIsRoadPayment" usage="optional"/>
+    <value style="element" name="DangerClass" get-method="getDangerClass" set-method="setDangerClass" usage="optional"/>
+    <value style="element" name="IsRoadPayed" get-method="getIsRoadPayed" set-method="setIsRoadPayed" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getDocumentalEmployee" set-method="setDocumentalEmployee" usage="optional" name="DocumentalEmployee"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getFirstDriver" set-method="setFirstDriver" name="FirstDriver"/>
+    <collection get-method="getRequirementList" set-method="setRequirementList" create-type="java.util.ArrayList">
+      <structure map-as="rstk:CheckViolationType" name="Requirement"/>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="rstk:UsingPassType" get-method="getPassTG" set-method="setPassTG" usage="optional" name="PassTG"/>
+    <structure map-as="rstk:UsingPassType" get-method="getPassKG" set-method="setPassKG" usage="optional" name="PassKG"/>
+    <structure map-as="rstk:UsingPassType" get-method="getPassOG" set-method="setPassOG" usage="optional" name="PassOG"/>
+    <structure map-as="rstk:UsingPassType" get-method="getPassSPS" set-method="setPassSPS" usage="optional" name="PassSPS"/>
+    <structure map-as="rstk:LicenceCardType" get-method="getPassCard" set-method="setPassCard" usage="optional" name="PassCard"/>
+    <structure map-as="rstk:LicenceCardType" get-method="getLicenceCard" set-method="setLicenceCard" usage="optional" name="LicenceCard"/>
+    <structure map-as="rstk:UsingPassType" get-method="getTransitPermit" set-method="setTransitPermit" name="TransitPermit"/>
+    <structure map-as="rstk:CountryRegionType" get-method="getDispatchLocation" set-method="setDispatchLocation" name="DispatchLocation"/>
+    <structure map-as="rstk:CountryRegionType" get-method="getDestinationLocation" set-method="setDestinationLocation" name="DestinationLocation"/>
+    <structure map-as="rstk:TahogDataType" get-method="getTahogData" set-method="setTahogData" usage="optional" name="TahogData"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:InspectionType" class="ru.acs.fts.schemas.album.resulttk.InspectionType">
+    <value style="element" name="InspectionID" get-method="getInspectionID" set-method="setInspectionID"/>
+    <value style="element" name="InspectionDateTime" get-method="getInspectionDateTime" set-method="setInspectionDateTime"/>
+    <value style="element" name="InstrumentalControlID" get-method="getInstrumentalControlID" set-method="setInstrumentalControlID"/>
+    <value style="element" name="DocumentalControlID" get-method="getDocumentalControlID" set-method="setDocumentalControlID"/>
+    <value style="element" name="ViolationControlID" get-method="getViolationControlID" set-method="setViolationControlID"/>
+    <value style="element" name="BelarusControlID" get-method="getBelarusControlID" set-method="setBelarusControlID" usage="optional"/>
+    <value style="element" name="KazakhControlID" get-method="getKazakhControlID" set-method="setKazakhControlID" usage="optional"/>
+    <value style="element" name="DecisionName" get-method="getDecisionName" set-method="setDecisionName"/>
+    <value style="element" name="EndDateTime" get-method="getEndDateTime" set-method="setEndDateTime"/>
+    <value style="element" name="Information" get-method="getInformation" set-method="setInformation" usage="optional"/>
+    <value style="element" name="IsInstrumental" get-method="getIsInstrumental" set-method="setIsInstrumental"/>
+    <value style="element" name="IsVisual" get-method="getIsVisual" set-method="setIsVisual" usage="optional"/>
+    <value style="element" name="IsDocumental" get-method="getIsDocumental" set-method="setIsDocumental"/>
+    <collection get-method="getViolationList" set-method="setViolationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Violation" type="java.lang.String"/>
+    </collection>
+    <structure map-as="rstk:CheckPointType" get-method="getCheckPoint" set-method="setCheckPoint" name="CheckPoint"/>
+    <structure map-as="rstk:InstrumentalControlType" get-method="getInstrumentalControl" set-method="setInstrumentalControl" usage="optional" name="InstrumentalControl"/>
+    <structure map-as="rstk:VisualControlType" get-method="getVisualControl" set-method="setVisualControl" usage="optional" name="VisualControl"/>
+    <structure map-as="rstk:DocumentalControlType" get-method="getDocumentalControl" set-method="setDocumentalControl" name="DocumentalControl"/>
+    <structure map-as="rstk:RBKZControlType" get-method="getBelarusControl" set-method="setBelarusControl" usage="optional" name="BelarusControl"/>
+    <structure map-as="rstk:RBKZControlType" get-method="getKazakhControl" set-method="setKazakhControl" usage="optional" name="KazakhControl"/>
+    <collection get-method="getNotifDocumentList" set-method="setNotifDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rstk:NotifDocumentType" name="NotifDocument"/>
+    </collection>
+    <structure map-as="rstk:AccountCodeType" get-method="getAccountCode" set-method="setAccountCode" usage="optional" name="AccountCode"/>
+    <structure map-as="rstk:PostPenaltyType" get-method="getPostPenalty" set-method="setPostPenalty" usage="optional" name="PostPenalty"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:InstrumentalControlType" class="ru.acs.fts.schemas.album.resulttk.InstrumentalControlType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="DateTime" get-method="getDateTime" set-method="setDateTime"/>
+    <value style="element" name="PassNumber" get-method="getPassNumber" set-method="setPassNumber" usage="optional"/>
+    <value style="element" name="Course" get-method="getCourse" set-method="setCourse" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getInstrumentalEmployee" set-method="setInstrumentalEmployee" name="InstrumentalEmployee"/>
+    <structure map-as="rstk:WeightType" get-method="getWeight" set-method="setWeight" name="Weight"/>
+    <structure map-as="rstk:SizeType" get-method="getSize" set-method="setSize" name="Size"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getAuto" set-method="setAuto" name="Auto"/>
+    <collection get-method="getViolSmokeNoiseList" set-method="setViolSmokeNoiseList" create-type="java.util.ArrayList">
+      <structure map-as="rstk:CheckViolationType" name="ViolSmokeNoise"/>
+    </collection>
+    <structure map-as="rstk:UsingPassType" get-method="getPassWeight" set-method="setPassWeight" usage="optional" name="PassWeight"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:LicenceCardType" class="ru.acs.fts.schemas.album.resulttk.LicenceCardType">
+    <value style="element" name="PassKind" get-method="getPassKind" set-method="setPassKind" usage="optional"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber" usage="optional"/>
+    <value style="element" name="ControlStatusName" get-method="getControlStatusName" set-method="setControlStatusName" usage="optional"/>
+    <value style="element" name="Duration" get-method="getDuration" set-method="setDuration" usage="optional"/>
+    <value style="element" name="LicenceStatusName" get-method="getLicenceStatusName" set-method="setLicenceStatusName" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getCertificate" set-method="setCertificate" name="Certificate"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:NotifDocumentType" class="ru.acs.fts.schemas.album.resulttk.NotifDocumentType">
+    <value style="element" name="NotifID" get-method="getNotifID" set-method="setNotifID"/>
+    <value style="element" name="NotifNumber" get-method="getNotifNumber" set-method="setNotifNumber"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getDriver" set-method="setDriver" name="Driver"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:PenaltyType" class="ru.acs.fts.schemas.album.resulttk.PenaltyType">
+    <value style="element" name="PenaltyCreateDateTime" get-method="getPenaltyCreateDateTime" set-method="setPenaltyCreateDateTime"/>
+    <value style="element" name="PayDateTime" get-method="getPayDateTime" set-method="setPayDateTime"/>
+    <value style="element" name="Organization" get-method="getOrganization" set-method="setOrganization"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getPayDoc" set-method="setPayDoc" name="PayDoc"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getPayer" set-method="setPayer" name="Payer"/>
+    <structure map-as="rstk:BankRequisType" get-method="getBankRequis" set-method="setBankRequis" name="BankRequis"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:PostPenaltyType" class="ru.acs.fts.schemas.album.resulttk.PostPenaltyType">
+    <value style="element" name="IsPaid" get-method="getIsPaid" set-method="setIsPaid"/>
+    <value style="element" name="ViolatorID" get-method="getViolatorID" set-method="setViolatorID"/>
+    <value style="element" name="PenaltySum" get-method="getPenaltySum" set-method="setPenaltySum"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getResolution" set-method="setResolution" name="Resolution"/>
+    <structure map-as="rstk:PenaltyType" get-method="getPenalty" set-method="setPenalty" usage="optional" name="Penalty"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:RBKZControlType" class="ru.acs.fts.schemas.album.resulttk.RBKZControlType">
+    <value style="element" name="IsTG" get-method="getIsTG" set-method="setIsTG" usage="optional"/>
+    <value style="element" name="IsKG" get-method="getIsKG" set-method="setIsKG" usage="optional"/>
+    <value style="element" name="IsOG" get-method="getIsOG" set-method="setIsOG" usage="optional"/>
+    <value style="element" name="AccountCode" get-method="getAccountCode" set-method="setAccountCode" usage="optional"/>
+    <value style="element" name="PermitSeries" get-method="getPermitSeries" set-method="setPermitSeries" usage="optional"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+    <structure map-as="rstk:UsingPassType" get-method="getTransitPermit" set-method="setTransitPermit" name="TransitPermit"/>
+    <structure map-as="rstk:CheckType" get-method="getRoadCheck" set-method="setRoadCheck" usage="optional" name="RoadCheck"/>
+    <structure map-as="rstk:CheckType" get-method="getPenaltyCheck" set-method="setPenaltyCheck" usage="optional" name="PenaltyCheck"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getResolution" set-method="setResolution" usage="optional" name="Resolution"/>
+    <collection get-method="getSuitabilityList" set-method="setSuitabilityList" create-type="java.util.ArrayList">
+      <structure map-as="rstk:CheckViolationType" name="Suitability"/>
+    </collection>
+    <structure map-as="rstk:UsingPassType" get-method="getPassTG" set-method="setPassTG" usage="optional" name="PassTG"/>
+    <structure map-as="rstk:UsingPassType" get-method="getPassKG" set-method="setPassKG" usage="optional" name="PassKG"/>
+    <structure map-as="rstk:UsingPassType" get-method="getPassOG" set-method="setPassOG" usage="optional" name="PassOG"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:SizeType" class="ru.acs.fts.schemas.album.resulttk.SizeType">
+    <value style="element" name="Height" get-method="getHeight" set-method="setHeight" usage="optional"/>
+    <value style="element" name="Width" get-method="getWidth" set-method="setWidth" usage="optional"/>
+    <value style="element" name="Length" get-method="getLength" set-method="setLength" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:TahogDataType" class="ru.acs.fts.schemas.album.resulttk.TahogDataType">
+    <value style="element" name="ApprovalDateTime" get-method="getApprovalDateTime" set-method="setApprovalDateTime" usage="optional"/>
+    <value style="element" name="TahogInspectDateTime" get-method="getTahogInspectDateTime" set-method="setTahogInspectDateTime" usage="optional"/>
+    <value style="element" name="DriveDuration" get-method="getDriveDuration" set-method="setDriveDuration" usage="optional"/>
+    <value style="element" name="DriveDurationWeek" get-method="getDriveDurationWeek" set-method="setDriveDurationWeek" usage="optional"/>
+    <value style="element" name="RestDuration" get-method="getRestDuration" set-method="setRestDuration" usage="optional"/>
+    <value style="element" name="RestDurationWeek" get-method="getRestDurationWeek" set-method="setRestDurationWeek" usage="optional"/>
+    <value style="element" name="BreakDuration" get-method="getBreakDuration" set-method="setBreakDuration" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:TransportType" class="ru.acs.fts.schemas.album.resulttk.TransportType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <collection get-method="getViolFidelNumbTrailList" set-method="setViolFidelNumbTrailList" create-type="java.util.ArrayList">
+      <structure map-as="rstk:CheckViolationType" name="ViolFidelNumbTrail"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:UsingPassType" class="ru.acs.fts.schemas.album.resulttk.UsingPassType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ControlStatusName" get-method="getControlStatusName" set-method="setControlStatusName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:VisualControlType" class="ru.acs.fts.schemas.album.resulttk.VisualControlType">
+    <value style="element" name="ShipmentType" get-method="getShipmentType" set-method="setShipmentType"/>
+    <value style="element" name="TripKind" get-method="getTripKind" set-method="setTripKind" usage="optional"/>
+    <value style="element" name="IsTG" get-method="getIsTG" set-method="setIsTG" usage="optional"/>
+    <value style="element" name="IsKG" get-method="getIsKG" set-method="setIsKG" usage="optional"/>
+    <value style="element" name="IsOG" get-method="getIsOG" set-method="setIsOG" usage="optional"/>
+    <value style="element" name="IsSPS" get-method="getIsSPS" set-method="setIsSPS" usage="optional"/>
+    <value style="element" name="IsMAP" get-method="getIsMAP" set-method="setIsMAP" usage="optional"/>
+    <value style="element" name="PassengerCount" get-method="getPassengerCount" set-method="setPassengerCount" usage="optional"/>
+    <value style="element" name="IsTransit" get-method="getIsTransit" set-method="setIsTransit"/>
+    <value style="element" name="CargoTypeName" get-method="getCargoTypeName" set-method="setCargoTypeName" usage="optional"/>
+    <collection get-method="getTrailerList" set-method="setTrailerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rstk:TransportType" name="Trailer"/>
+    </collection>
+    <collection get-method="getRequirementList" set-method="setRequirementList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rstk:CheckViolationType" name="Requirement"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rstk:WeightType" class="ru.acs.fts.schemas.album.resulttk.WeightType">
+    <collection get-method="getPinList" set-method="setPinList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Pin" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Total" get-method="getTotal" set-method="setTotal" usage="optional"/>
+    <value style="element" name="PinCount" get-method="getPinCount" set-method="setPinCount" usage="optional"/>
+    <collection get-method="getDistanceList" set-method="setDistanceList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Distance" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Cargo" get-method="getCargo" set-method="setCargo" usage="optional"/>
+  </mapping>
+</binding>

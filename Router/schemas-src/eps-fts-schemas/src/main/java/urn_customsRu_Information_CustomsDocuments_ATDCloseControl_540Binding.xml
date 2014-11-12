@@ -1,0 +1,73 @@
+<binding xmlns:apzk="urn:customs.ru:Information:CustomsDocuments:ATDCloseControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ATDCloseControl:5.4.0" default="elements" prefix="apzk"/>
+  <mapping abstract="true" type-name="apzk:ATDCloseControlType" class="ru.acs.fts.schemas.album.atdclosecontrol.ATDCloseControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CheckDate" get-method="getCheckDate" set-method="setCheckDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CheckTime" get-method="getCheckTime" set-method="setCheckTime" usage="optional"/>
+    <value style="element" name="EndCheckDate" get-method="getEndCheckDate" set-method="setEndCheckDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DBVersion" get-method="getDBVersion" set-method="setDBVersion" usage="optional"/>
+    <value style="element" name="ErrorCount" get-method="getErrorCount" set-method="setErrorCount"/>
+    <value style="element" name="ReasonCode" get-method="getReasonCode" set-method="setReasonCode" usage="optional"/>
+    <value style="element" name="Explanation" get-method="getExplanation" set-method="setExplanation" usage="optional"/>
+    <value style="element" name="ExplanationDate" get-method="getExplanationDate" set-method="setExplanationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ATDGlobalID" get-method="getATDGlobalID" set-method="setATDGlobalID"/>
+    <structure map-as="apzk:DocumentType" get-method="getDocument" set-method="setDocument" name="Document"/>
+    <structure map-as="apzk:PSCheckType" get-method="getPSCheck" set-method="setPSCheck" name="PSCheck"/>
+    <collection get-method="getPZKErrorList" set-method="setPZKErrorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="apzk:PZKErrorsType" name="PZKErrors"/>
+    </collection>
+    <structure map-as="cat_ru:GTDID6Type" get-method="getATDRegNumder" set-method="setATDRegNumder" name="ATDRegNumder"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.atdclosecontrol.ATDCloseControlType" name="ATDCloseControl">
+    <structure map-as="apzk:ATDCloseControlType"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:ATDinTableType" class="ru.acs.fts.schemas.album.atdclosecontrol.ATDinTableType">
+    <value style="element" name="TableName" get-method="getTableName" set-method="setTableName" usage="optional"/>
+    <value style="element" name="AttributeName" get-method="getAttributeName" set-method="setAttributeName" usage="optional"/>
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:CheckNormativeDocumentType" class="ru.acs.fts.schemas.album.atdclosecontrol.CheckNormativeDocumentType">
+    <structure map-as="apzk:NormativeDocumentType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:CloseReasonType" class="ru.acs.fts.schemas.album.atdclosecontrol.CloseReasonType">
+    <value style="element" name="ReasonCode" get-method="getReasonCode" set-method="setReasonCode"/>
+    <value style="element" name="InspectorNotice" get-method="getInspectorNotice" set-method="setInspectorNotice" usage="optional"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="CloseDate" get-method="getCloseDate" set-method="setCloseDate" format="LocalDate.default"/>
+    <structure map-as="apzk:NormativeDocumentType" get-method="getCheckNormativeDocument" set-method="setCheckNormativeDocument" usage="optional" name="CheckNormativeDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:DocumentType" class="ru.acs.fts.schemas.album.atdclosecontrol.DocumentType">
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind" usage="optional"/>
+    <value style="element" name="EDCode" get-method="getEDCode" set-method="setEDCode"/>
+    <value style="element" name="EDRef" get-method="getEDRef" set-method="setEDRef" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:ErrorType" class="ru.acs.fts.schemas.album.atdclosecontrol.ErrorType">
+    <value style="element" name="ErrorCode" get-method="getErrorCode" set-method="setErrorCode"/>
+    <value style="element" name="ErrorLevel" get-method="getErrorLevel" set-method="setErrorLevel"/>
+    <value style="element" name="ErrorText" get-method="getErrorText" set-method="setErrorText"/>
+    <value style="element" name="ErrorDescription" get-method="getErrorDescription" set-method="setErrorDescription" usage="optional"/>
+    <value style="element" name="TrueValue" get-method="getTrueValue" set-method="setTrueValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:NormativeDocumentType" class="ru.acs.fts.schemas.album.atdclosecontrol.NormativeDocumentType">
+    <value style="element" name="DocumentType" get-method="getDocumentType" set-method="setDocumentType" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:PSCheckType" class="ru.acs.fts.schemas.album.atdclosecontrol.PSCheckType">
+    <value style="element" name="PSID" get-method="getPSID" set-method="setPSID"/>
+    <value style="element" name="PSVersion" get-method="getPSVersion" set-method="setPSVersion"/>
+  </mapping>
+  <mapping abstract="true" type-name="apzk:PZKErrorsType" class="ru.acs.fts.schemas.album.atdclosecontrol.PZKErrorsType">
+    <value style="element" name="ATDGoodsNumber" get-method="getATDGoodsNumber" set-method="setATDGoodsNumber"/>
+    <structure map-as="apzk:ATDinTableType" get-method="getATDinTable" set-method="setATDinTable" usage="optional" name="ATDinTable"/>
+    <structure map-as="apzk:ErrorType" get-method="getError" set-method="setError" name="Error"/>
+    <structure map-as="apzk:CheckNormativeDocumentType" get-method="getCheckNormativeDocument" set-method="setCheckNormativeDocument" usage="optional" name="CheckNormativeDocument"/>
+    <collection get-method="getCloseReasonList" set-method="setCloseReasonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="apzk:CloseReasonType" name="CloseReason"/>
+    </collection>
+  </mapping>
+</binding>

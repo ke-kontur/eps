@@ -1,0 +1,11 @@
+<binding xmlns:app="urn:customs.ru:Envelope:ApplicationInf:1.0">
+  <namespace uri="urn:customs.ru:Envelope:ApplicationInf:1.0" default="elements" prefix="app"/>
+  <mapping abstract="true" type-name="app:ApplicationInfType" class="ru.acs.fts.schemas.envelope.ApplicationInfType">
+    <value style="element" name="SoftKind" get-method="getSoftKind" set-method="setSoftKind" usage="optional"/>
+    <value style="element" name="SoftVersion" get-method="getSoftVersion" set-method="setSoftVersion" usage="optional"/>
+    <value style="element" name="MessageKind" get-method="getMessageKind" set-method="setMessageKind" usage="optional"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.envelope.ApplicationInfType" name="ApplicationInf">
+    <structure map-as="app:ApplicationInfType"/>
+  </mapping>
+</binding>

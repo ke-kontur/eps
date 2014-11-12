@@ -1,0 +1,48 @@
+<binding xmlns:gicm="urn:customs.ru:Information:CustomsDocuments:GTDInCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GTDInCustomsMark:5.4.0" default="elements" prefix="gicm"/>
+  <mapping abstract="true" type-name="gicm:GTDInCustomsMarkType" class="ru.acs.fts.schemas.album.gtdincustomsmark.GTDInCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID"/>
+    <collection get-method="getGTDInCommonMarkList" set-method="setGTDInCommonMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gicm:GTDInCommonMarkType" name="GTDInCommonMark"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <structure map-as="gicm:TechMarksType" get-method="getTechMarks" set-method="setTechMarks" usage="optional" name="TechMarks"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.gtdincustomsmark.GTDInCustomsMarkType" name="GTDInCustomsMark">
+    <structure map-as="gicm:GTDInCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gicm:GTDInCommonMarkType" class="ru.acs.fts.schemas.album.gtdincustomsmark.GTDInCommonMarkType">
+    <structure map-as="catESAD_ru:RUESADCommonOfficialMarkType"/>
+    <value style="element" name="StageDescription" get-method="getStageDescription" set-method="setStageDescription" usage="optional"/>
+    <value style="element" name="IdentifierDescription" get-method="getIdentifierDescription" set-method="setIdentifierDescription" usage="optional"/>
+    <value style="element" name="INPI_GUID" get-method="getINPIGUID" set-method="setINPIGUID" usage="optional"/>
+    <value style="element" name="GoodsPresentDate" get-method="getGoodsPresentDate" set-method="setGoodsPresentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="GoodsPresentTime" get-method="getGoodsPresentTime" set-method="setGoodsPresentTime" usage="optional"/>
+    <value style="element" name="PaymentWayCode" get-method="getPaymentWayCode" set-method="setPaymentWayCode" usage="optional"/>
+    <value style="element" name="GuaranteeFoundation" get-method="getGuaranteeFoundation" set-method="setGuaranteeFoundation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gicm:TechMarksType" class="ru.acs.fts.schemas.album.gtdincustomsmark.TechMarksType">
+    <value style="element" name="EXTRNL" get-method="getEXTRNL" set-method="setEXTRNL" usage="optional"/>
+    <value style="element" name="SCHET" get-method="getSCHET" set-method="setSCHET" usage="optional"/>
+    <value style="element" name="STEPCTRL" get-method="getSTEPCTRL" set-method="setSTEPCTRL" usage="optional"/>
+    <value style="element" name="PresenceDTS" get-method="getPresenceDTS" set-method="setPresenceDTS" usage="optional"/>
+    <value style="element" name="PresenceKTS" get-method="getPresenceKTS" set-method="setPresenceKTS" usage="optional"/>
+    <value style="element" name="STAT" get-method="getSTAT" set-method="setSTAT" usage="optional"/>
+    <value style="element" name="FrontierCustomsCode" get-method="getFrontierCustomsCode" set-method="setFrontierCustomsCode" usage="optional"/>
+    <value style="element" name="ElDeclIndicator" get-method="getElDeclIndicator" set-method="setElDeclIndicator" usage="optional"/>
+    <value style="element" name="SDS_SRV" get-method="getSDSSRV" set-method="setSDSSRV" usage="optional"/>
+    <value style="element" name="SDS_NUM" get-method="getSDSNUM" set-method="setSDSNUM" usage="optional"/>
+    <value style="element" name="GDDF" get-method="getGDDF" set-method="setGDDF" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ModificationDate" get-method="getModificationDate" set-method="setModificationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ModificationTime" get-method="getModificationTime" set-method="setModificationTime" usage="optional"/>
+    <value style="element" name="EDOC_GUID" get-method="getEDOCGUID" set-method="setEDOCGUID" usage="optional"/>
+    <value style="element" name="EDOC_ID" get-method="getEDOCID" set-method="setEDOCID" usage="optional"/>
+    <value style="element" name="P_STATUS1" get-method="getPSTATUS1" set-method="setPSTATUS1" usage="optional"/>
+    <value style="element" name="P_STATUS2" get-method="getPSTATUS2" set-method="setPSTATUS2" usage="optional"/>
+  </mapping>
+</binding>

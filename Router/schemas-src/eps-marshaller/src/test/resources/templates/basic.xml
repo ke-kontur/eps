@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2001/06/soap-envelope">
+	<env:Header>
+		<app:ApplicationInf xmlns:app="urn:customs.ru:Envelope:ApplicationInf:1.0">
+			<app:SoftVersion>5.1.0/3.3.0</app:SoftVersion>
+		</app:ApplicationInf>
+		<roi:RoutingInf xmlns:roi="urn:customs.ru:Envelope:RoutingInf:1.0">
+			<roi:EnvelopeID>a2c8a995-8a5a-400f-ba05-ee8dcda9f2b9</roi:EnvelopeID>
+			<roi:SenderInformation>smtp://dmzeps/stand_test</roi:SenderInformation>
+			<roi:ReceiverInformation>smtp://eps.customs.ru/gateway</roi:ReceiverInformation>
+			<roi:PreparationDateTime>2010-03-23T10:50:06+03:00</roi:PreparationDateTime>
+		</roi:RoutingInf>
+		<edhead:EDHeader xmlns:edhead="urn:customs.ru:Envelope:EDHeader:2.0">
+			<edhead:MessageType>ED.11001</edhead:MessageType>
+			<edhead:ParticipantID>1027739046502</edhead:ParticipantID>
+			<edhead:ReceiverCustoms>
+				<edhead:CustomsCode>77745678</edhead:CustomsCode>
+				<edhead:ExchType>19210</edhead:ExchType>
+			</edhead:ReceiverCustoms>
+		</edhead:EDHeader>
+	</env:Header>
+	<env:Body>
+		<rodp:ReqOpenProc 
+				xmlns:rodp="urn:customs.ru:Information:ExchangeDocuments:ReqOpenProc:5.4.0" 
+				xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" 
+				DocumentModeID="1004057E" >
+				
+			<cat_ru:DocumentID>11f0f445-65f5-4a4c-a173-69bd21bc308e</cat_ru:DocumentID>
+			<rodp:Declarant>
+				<cat_ru:OrganizationName>ACS</cat_ru:OrganizationName>
+			</rodp:Declarant>
+		</rodp:ReqOpenProc>
+	</env:Body>
+</env:Envelope>

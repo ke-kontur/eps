@@ -1,0 +1,11 @@
+<binding xmlns:aucsres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_CheckDocumentSignatureResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_CheckDocumentSignatureResponse:4.1.1" default="elements" prefix="aucsres"/>
+  <mapping abstract="true" type-name="aucsres:AUD_CheckDocumentSignatureResponseType" class="ru.acs.fts.schemas.aud.aud_checkdocumentsignatureresponse.AUDCheckDocumentSignatureResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <structure map-as="catAUD_ru:AUD_ResultInfoType" get-method="getResultInfo" set-method="setResultInfo" name="ResultInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_checkdocumentsignatureresponse.AUDCheckDocumentSignatureResponseType" name="AUD_CheckDocumentSignatureResponse">
+    <structure map-as="aucsres:AUD_CheckDocumentSignatureResponseType"/>
+  </mapping>
+</binding>

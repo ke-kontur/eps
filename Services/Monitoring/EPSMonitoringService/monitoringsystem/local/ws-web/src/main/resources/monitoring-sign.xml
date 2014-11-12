@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<!-- 
+	<bean class="ru.acs.monitoring.services.SignatureSettings">
+		<property name="name" value="Сервер ЭЦП VMDIG" />
+		<property name="serverName" value="VMDSIG" />
+		<property name="certificates">
+			<list>
+				<value>july2009</value>
+			</list>
+		</property>
+	</bean>
+	<bean class="ru.acs.monitoring.services.SignatureSettings">
+		<property name="name" value="Сервер ЭЦП VMDIG2" />
+		<property name="serverName" value="VMDSIG2" />
+		<property name="certificates">
+			<list>
+				<value>july2009</value>
+				<value>cert2</value>
+				<value>cert3</value>
+			</list>
+		</property>
+	</bean>
+	<bean class="ru.acs.monitoring.services.SignatureSettings">
+		<property name="name" value="Сервер ЭЦП VMDIG3" />
+		<property name="serverName" value="VMDSIG" />
+		<property name="certificates">
+			<list>
+				<value>july2009</value>
+				<value>cert2</value>
+				<value>cert3</value>
+			</list>
+		</property>
+	</bean>
+-->
+</beans>

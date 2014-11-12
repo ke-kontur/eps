@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+	<messageProcessing name="АСКТТ РТУ"
+		sql='select env.messagetype,EK.DESCRIPTION , count(env.messagetype),0 as "FLKERRMESS",0 as "ERRMESS",1,2,3 from envelope_header env join envelope_kind ek on EK.CODE=env.messagetype where env.preparationdatetime >=trunc(sysdate) group by env.messagetype,EK.DESCRIPTION'>
+		<dataSource address="192.168.23.155" dbname="RTU1"
+			username="RNTS_CONNECT_S" password="1" />
+	</messageProcessing>
+ 
+	<messageProcessing name="АСКТТ ГНИВЦ"
+		sql='select env.messagetype,EK.DESCRIPTION , count(env.messagetype),0 as "FLKERRMESS",0 as "ERRMESS" from envelope_header env join envelope_kind ek on EK.CODE=env.messagetype where env.preparationdatetime >=trunc(sysdate) group by env.messagetype,EK.DESCRIPTION'>
+		<dataSource address="192.168.23.155" dbname="GNIVC"
+			username="RNTS_CONNECT_S" password="1" />
+	</messageProcessing>
+
+</monitoring>

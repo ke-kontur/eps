@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:audinf="urn:customs.ru:Envelope:AUDInf:1.1" targetNamespace="urn:customs.ru:Envelope:AUDInf:1.1" elementFormDefault="qualified" version="1.1.0">
+	<xs:annotation>
+		<xs:documentation>Заголовок конверта. Информация АЮД</xs:documentation>
+	</xs:annotation>
+	<xs:element name="AUDInf" type="audinf:AUDInfType"/>
+	<xs:complexType name="AUDInfType">
+		<xs:annotation>
+			<xs:documentation>Информация АЮД</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ArchiveClientId" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Идентификатор клиента архива.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CustomsCode" type="audinf:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа РФ (по "Классификатору  ТО и их структурных подразделений" ГТК).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="CustomsCodeType">
+		<xs:annotation>
+			<xs:documentation>Код таможенного органа РФ (по "Классификатору  ТО и их структурных подразделений" ГТК). Целое число, 8 символов.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:length value="8"/>
+			<xs:pattern value="\d{8}"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,177 @@
+<binding xmlns:cat_EDTS_cu="urn:customs.ru:CUESADDTSCommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:CUESADDTSCommonAggregateTypes:5.4.0" default="elements" prefix="cat_EDTS_cu"/>
+  <mapping abstract="true" type-name="cat_EDTS_cu:AdditionalDataType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.AdditionalDataType">
+    <value style="element" name="PositionNumber" get-method="getPositionNumber" set-method="setPositionNumber" usage="optional"/>
+    <collection get-method="getAdditionalInformationList" set-method="setAdditionalInformationList" create-type="java.util.ArrayList">
+      <value style="element" name="AdditionalInformation" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:CostConfirmationDocumentType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.CostConfirmationDocumentType">
+    <value style="element" name="PreviousCostAppriaseMethod" get-method="getPreviousCostAppriaseMethod" set-method="setPreviousCostAppriaseMethod" usage="optional"/>
+    <collection get-method="getMethodConditionList" set-method="setMethodConditionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="MethodCondition" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSAdditionalPaymentsType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSAdditionalPaymentsType">
+    <value style="element" name="Column9A" get-method="getColumn9A" set-method="setColumn9A"/>
+    <value style="element" name="Column9B" get-method="getColumn9B" set-method="setColumn9B"/>
+    <collection get-method="getPaymentDescriptionList" set-method="setPaymentDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PaymentDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getPaymentConditionDescriptionList" set-method="setPaymentConditionDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PaymentConditionDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSBuyerSellerDependenceType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSBuyerSellerDependenceType">
+    <value style="element" name="Column7A" get-method="getColumn7A" set-method="setColumn7A"/>
+    <value style="element" name="Column7B" get-method="getColumn7B" set-method="setColumn7B" usage="optional"/>
+    <value style="element" name="Column7C" get-method="getColumn7C" set-method="setColumn7C" usage="optional"/>
+    <collection get-method="getColumn7CDescriptionList" set-method="setColumn7CDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Column7CDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSCurrencyPaymentType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSCurrencyPaymentType">
+    <value style="element" name="PositionsNumber" get-method="getPositionsNumber" set-method="setPositionsNumber"/>
+    <value style="element" name="CurrencyAmount" get-method="getCurrencyAmount" set-method="setCurrencyAmount"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="CurrencyQuantity" get-method="getCurrencyQuantity" set-method="setCurrencyQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSFilledPersonType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSFilledPersonType">
+    <structure map-as="catESAD_cu:ESADFilledPersonType"/>
+    <value style="element" name="FilledDate" get-method="getFilledDate" set-method="setFilledDate" format="LocalDate.default"/>
+    <value style="element" name="RegNumberDoc" get-method="getRegNumberDoc" set-method="setRegNumberDoc" usage="optional"/>
+    <value style="element" name="SecurityLabelCode" get-method="getSecurityLabelCode" set-method="setSecurityLabelCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSMethod1Type" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSMethod1Type">
+    <structure map-as="cat_EDTS_cu:Method1CalculationBasisType" get-method="getMethod1CalculationBasis" set-method="setMethod1CalculationBasis" name="Method1CalculationBasis"/>
+    <structure map-as="cat_EDTS_cu:Method1AdditionalSumType" get-method="getMethod1AdditionalSum" set-method="setMethod1AdditionalSum" usage="optional" name="Method1AdditionalSum"/>
+    <structure map-as="cat_EDTS_cu:Method1DeductionType" get-method="getMethod1Deduction" set-method="setMethod1Deduction" usage="optional" name="Method1Deduction"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSMethod236Type" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSMethod236Type">
+    <structure map-as="cat_EDTS_cu:Method2BasisType" get-method="getMethod2Basis" set-method="setMethod2Basis" name="Method2Basis"/>
+    <structure map-as="cat_EDTS_cu:Method2DealCorrectType" get-method="getMethod2DealCorrect" set-method="setMethod2DealCorrect" name="Method2DealCorrect"/>
+    <structure map-as="cat_EDTS_cu:DTSSupplementaryQuantityType" get-method="getIdenticalGoodsQuantity" set-method="setIdenticalGoodsQuantity" usage="optional" name="IdenticalGoodsQuantity"/>
+    <structure map-as="cat_EDTS_cu:DTSSupplementaryQuantityType" get-method="getDeclaratedGoodsQuantity" set-method="setDeclaratedGoodsQuantity" usage="optional" name="DeclaratedGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSMethod46Type" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSMethod46Type">
+    <structure map-as="cat_EDTS_cu:Method46BasisType" get-method="getMethod46Basis" set-method="setMethod46Basis" name="Method46Basis"/>
+    <structure map-as="cat_EDTS_cu:Method46DeductionType" get-method="getMethod46Deduction" set-method="setMethod46Deduction" usage="optional" name="Method46Deduction"/>
+    <structure map-as="cat_EDTS_cu:DTSSupplementaryQuantityType" get-method="getDeclaratedGoodsQuantity" set-method="setDeclaratedGoodsQuantity" name="DeclaratedGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSMethod56Type" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSMethod56Type">
+    <structure map-as="cat_EDTS_cu:Method56BasisType" get-method="getMethod56Basis" set-method="setMethod56Basis" name="Method56Basis"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSPresentedDocumentsType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSPresentedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+    <value style="element" name="PositionNumber" get-method="getPositionNumber" set-method="setPositionNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSSellingLimitationType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSSellingLimitationType">
+    <value style="element" name="Column8A" get-method="getColumn8A" set-method="setColumn8A"/>
+    <value style="element" name="Column8B" get-method="getColumn8B" set-method="setColumn8B"/>
+    <collection get-method="getLimitationDescriptionList" set-method="setLimitationDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="limitationDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTSSupplementaryQuantityType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSSupplementaryQuantityType">
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:DTS_CUCustomsCostCalculationType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSCUCustomsCostCalculationType">
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_EDTS_cu:DTSMethod1Type" test-method="ifDTSMethod1" get-method="getDTSMethod1" set-method="setDTSMethod1" usage="optional" name="DTSMethod1"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod236Type" test-method="ifDTSMethod236" get-method="getDTSMethod236" set-method="setDTSMethod236" usage="optional" name="DTSMethod236"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod46Type" test-method="ifDTSMethod46" get-method="getDTSMethod46" set-method="setDTSMethod46" usage="optional" name="DTSMethod46"/>
+      <structure map-as="cat_EDTS_cu:DTSMethod56Type" test-method="ifDTSMethod56" get-method="getDTSMethod56" set-method="setDTSMethod56" usage="optional" name="DTSMethod56"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method1AdditionalSumType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method1AdditionalSumType">
+    <value style="element" name="AgentBonus" get-method="getAgentBonus" set-method="setAgentBonus" usage="optional"/>
+    <value style="element" name="PackageExpenses" get-method="getPackageExpenses" set-method="setPackageExpenses" usage="optional"/>
+    <value style="element" name="StoreCost" get-method="getStoreCost" set-method="setStoreCost" usage="optional"/>
+    <value style="element" name="ProductionToolkitCost" get-method="getProductionToolkitCost" set-method="setProductionToolkitCost" usage="optional"/>
+    <value style="element" name="WorkingStockCost" get-method="getWorkingStockCost" set-method="setWorkingStockCost" usage="optional"/>
+    <value style="element" name="DesignPayment" get-method="getDesignPayment" set-method="setDesignPayment" usage="optional"/>
+    <value style="element" name="IntellectualPropertyPayment" get-method="getIntellectualPropertyPayment" set-method="setIntellectualPropertyPayment" usage="optional"/>
+    <value style="element" name="SellerIncome" get-method="getSellerIncome" set-method="setSellerIncome" usage="optional"/>
+    <value style="element" name="BorderTransportCharges" get-method="getBorderTransportCharges" set-method="setBorderTransportCharges" usage="optional"/>
+    <value style="element" name="BorderPlace" get-method="getBorderPlace" set-method="setBorderPlace" usage="optional"/>
+    <value style="element" name="LoadCharges" get-method="getLoadCharges" set-method="setLoadCharges" usage="optional"/>
+    <value style="element" name="InsuranceCharges" get-method="getInsuranceCharges" set-method="setInsuranceCharges" usage="optional"/>
+    <value style="element" name="TotalAdditionalSum" get-method="getTotalAdditionalSum" set-method="setTotalAdditionalSum"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method1CalculationBasisType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method1CalculationBasisType">
+    <value style="element" name="DealCurrencyAmount" get-method="getDealCurrencyAmount" set-method="setDealCurrencyAmount"/>
+    <value style="element" name="DealCurrencyCode" get-method="getDealCurrencyCode" set-method="setDealCurrencyCode"/>
+    <value style="element" name="DealNationalAmount" get-method="getDealNationalAmount" set-method="setDealNationalAmount"/>
+    <value style="element" name="DealCurrencyRate" get-method="getDealCurrencyRate" set-method="setDealCurrencyRate"/>
+    <value style="element" name="CurrencyQuantity" get-method="getCurrencyQuantity" set-method="setCurrencyQuantity" usage="optional"/>
+    <value style="element" name="IndirectNationalPayment" get-method="getIndirectNationalPayment" set-method="setIndirectNationalPayment" usage="optional"/>
+    <value style="element" name="IndirectCurrencyCode" get-method="getIndirectCurrencyCode" set-method="setIndirectCurrencyCode" usage="optional"/>
+    <value style="element" name="IndirectCurrencyRate" get-method="getIndirectCurrencyRate" set-method="setIndirectCurrencyRate" usage="optional"/>
+    <value style="element" name="IndirectCurrencyQuantity" get-method="getIndirectCurrencyQuantity" set-method="setIndirectCurrencyQuantity" usage="optional"/>
+    <value style="element" name="BasisNationalAmount" get-method="getBasisNationalAmount" set-method="setBasisNationalAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method1DeductionType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method1DeductionType">
+    <value style="element" name="BuildingAmount" get-method="getBuildingAmount" set-method="setBuildingAmount" usage="optional"/>
+    <value style="element" name="UnionTransportCharge" get-method="getUnionTransportCharge" set-method="setUnionTransportCharge" usage="optional"/>
+    <value style="element" name="UnionTaxPayment" get-method="getUnionTaxPayment" set-method="setUnionTaxPayment" usage="optional"/>
+    <value style="element" name="TotalDeductionAmount" get-method="getTotalDeductionAmount" set-method="setTotalDeductionAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method2BasisType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method2BasisType">
+    <value style="element" name="IdenticalDealNationalAmount" get-method="getIdenticalDealNationalAmount" set-method="setIdenticalDealNationalAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method2DealCorrectType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method2DealCorrectType">
+    <value style="element" name="MinusQuantityCorrect" get-method="getMinusQuantityCorrect" set-method="setMinusQuantityCorrect" usage="optional"/>
+    <value style="element" name="MinusCommerceCorrect" get-method="getMinusCommerceCorrect" set-method="setMinusCommerceCorrect" usage="optional"/>
+    <value style="element" name="MinusBorderTransportCharges" get-method="getMinusBorderTransportCharges" set-method="setMinusBorderTransportCharges" usage="optional"/>
+    <value style="element" name="MinusBorderPlace" get-method="getMinusBorderPlace" set-method="setMinusBorderPlace" usage="optional"/>
+    <value style="element" name="MinusLoadCharges" get-method="getMinusLoadCharges" set-method="setMinusLoadCharges" usage="optional"/>
+    <value style="element" name="MinusArrivalPlace" get-method="getMinusArrivalPlace" set-method="setMinusArrivalPlace" usage="optional"/>
+    <value style="element" name="MinusInsuranceCharges" get-method="getMinusInsuranceCharges" set-method="setMinusInsuranceCharges" usage="optional"/>
+    <value style="element" name="MinusTotalSum" get-method="getMinusTotalSum" set-method="setMinusTotalSum"/>
+    <value style="element" name="PlusQuantityCorrect" get-method="getPlusQuantityCorrect" set-method="setPlusQuantityCorrect" usage="optional"/>
+    <value style="element" name="PlusCommerceCorrect" get-method="getPlusCommerceCorrect" set-method="setPlusCommerceCorrect" usage="optional"/>
+    <value style="element" name="PlusBorderTransportCharges" get-method="getPlusBorderTransportCharges" set-method="setPlusBorderTransportCharges" usage="optional"/>
+    <value style="element" name="PlusBorderPlace" get-method="getPlusBorderPlace" set-method="setPlusBorderPlace" usage="optional"/>
+    <value style="element" name="PlusLoadCharges" get-method="getPlusLoadCharges" set-method="setPlusLoadCharges" usage="optional"/>
+    <value style="element" name="PlusArrivalPlace" get-method="getPlusArrivalPlace" set-method="setPlusArrivalPlace" usage="optional"/>
+    <value style="element" name="PlusInsuranceCharges" get-method="getPlusInsuranceCharges" set-method="setPlusInsuranceCharges" usage="optional"/>
+    <value style="element" name="PlusTotalSum" get-method="getPlusTotalSum" set-method="setPlusTotalSum"/>
+    <value style="element" name="TotalDealCorrect" get-method="getTotalDealCorrect" set-method="setTotalDealCorrect"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method46BasisType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method46BasisType">
+    <value style="element" name="IdenticalDealNationalPrice" get-method="getIdenticalDealNationalPrice" set-method="setIdenticalDealNationalPrice"/>
+    <value style="element" name="IdenticalDealCode" get-method="getIdenticalDealCode" set-method="setIdenticalDealCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method46DeductionType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method46DeductionType">
+    <value style="element" name="AgentCharge" get-method="getAgentCharge" set-method="setAgentCharge"/>
+    <value style="element" name="UnionTransportCharge" get-method="getUnionTransportCharge" set-method="setUnionTransportCharge"/>
+    <value style="element" name="UnionTaxPayment" get-method="getUnionTaxPayment" set-method="setUnionTaxPayment"/>
+    <value style="element" name="ProcessingAddedCost" get-method="getProcessingAddedCost" set-method="setProcessingAddedCost"/>
+    <value style="element" name="TotalDeductionAmount" get-method="getTotalDeductionAmount" set-method="setTotalDeductionAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:Method56BasisType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method56BasisType">
+    <value style="element" name="ProductionStoreExpense" get-method="getProductionStoreExpense" set-method="setProductionStoreExpense"/>
+    <value style="element" name="PackageExpenses" get-method="getPackageExpenses" set-method="setPackageExpenses" usage="optional"/>
+    <value style="element" name="DesignPaymentProduction" get-method="getDesignPaymentProduction" set-method="setDesignPaymentProduction" usage="optional"/>
+    <value style="element" name="GoodsCost" get-method="getGoodsCost" set-method="setGoodsCost"/>
+    <value style="element" name="StoreCost" get-method="getStoreCost" set-method="setStoreCost" usage="optional"/>
+    <value style="element" name="ProductionToolkitCost" get-method="getProductionToolkitCost" set-method="setProductionToolkitCost" usage="optional"/>
+    <value style="element" name="ConsumablesCost" get-method="getConsumablesCost" set-method="setConsumablesCost" usage="optional"/>
+    <value style="element" name="DesignPayment" get-method="getDesignPayment" set-method="setDesignPayment" usage="optional"/>
+    <value style="element" name="CommerceExpense" get-method="getCommerceExpense" set-method="setCommerceExpense"/>
+    <value style="element" name="BorderTransportCharges" get-method="getBorderTransportCharges" set-method="setBorderTransportCharges"/>
+    <value style="element" name="BorderPlace" get-method="getBorderPlace" set-method="setBorderPlace"/>
+    <value style="element" name="LoadCharges" get-method="getLoadCharges" set-method="setLoadCharges"/>
+    <value style="element" name="ArrivalPlace" get-method="getArrivalPlace" set-method="setArrivalPlace"/>
+    <value style="element" name="InsuranceCharges" get-method="getInsuranceCharges" set-method="setInsuranceCharges"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_EDTS_cu:ReasonApplyMethodType" class="ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.ReasonApplyMethodType">
+    <collection get-method="getReasonDescriptionList" set-method="setReasonDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ReasonDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

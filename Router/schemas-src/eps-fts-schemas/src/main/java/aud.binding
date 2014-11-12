@@ -1,0 +1,38 @@
+<binding xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" name="aud" package="ru.acs.fts.schemas.aud">
+  <format label="cltAUD_ru:AUD_DocumentAttributeValueKindType" type="ru.acs.fts.schemas.aud.audcommonleaftypescust.AUDDocumentAttributeValueKindType" enum-value-method="xmlValue"/>
+  <format label="cltAUD_ru:AUD_DocumentVersionsRequestType" type="ru.acs.fts.schemas.aud.audcommonleaftypescust.AUDDocumentVersionsRequestType" enum-value-method="xmlValue"/>
+  <format label="cltAUD_ru:AUD_FilterOperatorType" type="ru.acs.fts.schemas.aud.audcommonleaftypescust.AUDFilterOperatorType" enum-value-method="xmlValue"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDCommonAggregateTypes_411Binding.xml"/>
+  <include path="urn_customsRu_Envelope_AUDInf_11Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDArcPutDocumentRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDArcPutDocumentResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDCheckDocumentSignatureRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDCheckDocumentSignatureResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDDeactualizeDocumentRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDDeactualizeDocumentResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDDeliveryNotification_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDDocumentKindInfoRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDDocumentKindInfoResponse_421Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDError_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetDocumentFormattedRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetDocumentFormattedResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetDocumentRequest_422Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetDocumentResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetPacketRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetPacketResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetRepresentFormDataRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDGetRepresentFormDataResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDPacketDocListRequest_421Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDPacketDocListResponse_421Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDPacketInventoryRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDPacketInventoryResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDPutDocumentRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDPutDocumentResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDRegistryRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDRegistryResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDResultRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDResultResponse_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDStatusRequest_411Binding.xml"/>
+  <include path="urn_customsRu_Information_LegalDocumentsArchive_AUDStatusResponse_411Binding.xml"/>
+  <include path="urn_customsRu_CommonAggregateTypes_410Binding.xml"/>
+</binding>

@@ -1,0 +1,25 @@
+<binding xmlns:apat="urn:customs.ru:Information:CustomsDocuments:ApplicationAdminTransport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ApplicationAdminTransport:5.4.0" default="elements" prefix="apat"/>
+  <mapping abstract="true" type-name="apat:ApplicationAdminTransportType" class="ru.acs.fts.schemas.album.applicationadmintransport.ApplicationAdminTransportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Aim" get-method="getAim" set-method="setAim"/>
+    <value style="element" name="Volume" get-method="getVolume" set-method="setVolume"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="QuantityStore" get-method="getQuantityStore" set-method="setQuantityStore" usage="optional"/>
+    <collection get-method="getRouteList" set-method="setRouteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Route" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="QuantityOperation" get-method="getQuantityOperation" set-method="setQuantityOperation" usage="optional"/>
+    <value style="element" name="FilingDate" get-method="getFilingDate" set-method="setFilingDate" format="LocalDate.default"/>
+    <value style="element" name="MeasureUnitOperation" get-method="getMeasureUnitOperation" set-method="setMeasureUnitOperation" usage="optional"/>
+    <value style="element" name="MeasureUnitStore" get-method="getMeasureUnitStore" set-method="setMeasureUnitStore" usage="optional"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAdminTransport" set-method="setAdminTransport" name="AdminTransport"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTransportMeans" set-method="setTransportMeans" name="TransportMeans"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getForeignCustomer" set-method="setForeignCustomer" usage="optional" name="ForeignCustomer"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getTranslator" set-method="setTranslator" usage="optional" name="Translator"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.applicationadmintransport.ApplicationAdminTransportType" name="ApplicationAdminTransport">
+    <structure map-as="apat:ApplicationAdminTransportType"/>
+  </mapping>
+</binding>

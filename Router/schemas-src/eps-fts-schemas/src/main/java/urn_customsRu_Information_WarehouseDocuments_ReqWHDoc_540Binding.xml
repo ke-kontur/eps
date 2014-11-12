@@ -1,0 +1,17 @@
+<binding xmlns:rqwhd="urn:customs.ru:Information:WarehouseDocuments:ReqWHDoc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:ReqWHDoc:5.4.0" default="elements" prefix="rqwhd"/>
+  <mapping abstract="true" type-name="rqwhd:ReqWHDocType" class="ru.acs.fts.schemas.album.reqwhdoc.ReqWHDocType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <collection get-method="getRequestedDocList" set-method="setRequestedDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhPresentDocType" name="RequestedDoc"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getSVHPerson" set-method="setSVHPerson" name="SVHPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberConfirmDoc" set-method="setRegNumberConfirmDoc" name="RegNumberConfirmDoc"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqwhdoc.ReqWHDocType" name="ReqWHDoc">
+    <structure map-as="rqwhd:ReqWHDocType"/>
+  </mapping>
+</binding>

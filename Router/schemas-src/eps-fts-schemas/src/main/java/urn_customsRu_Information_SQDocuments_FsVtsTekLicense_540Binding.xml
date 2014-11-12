@@ -1,0 +1,44 @@
+<binding xmlns:vtstek="urn:customs.ru:Information:SQDocuments:FsVtsTekLicense:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:FsVtsTekLicense:5.4.0" default="elements" prefix="vtstek"/>
+  <mapping abstract="true" type-name="vtstek:FsVtsTekLicenseType" class="ru.acs.fts.schemas.album.fsvtsteklicense.FsVtsTekLicenseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="CountryDeparture" get-method="getCountryDeparture" set-method="setCountryDeparture"/>
+    <value style="element" name="CountryOrigin" get-method="getCountryOrigin" set-method="setCountryOrigin" usage="optional"/>
+    <value style="element" name="CountryEndUse" get-method="getCountryEndUse" set-method="setCountryEndUse" usage="optional"/>
+    <value style="element" name="LisenceIssue" get-method="getLisenceIssue" set-method="setLisenceIssue"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo"/>
+    <value style="element" name="ContractCurrency" get-method="getContractCurrency" set-method="setContractCurrency" usage="optional"/>
+    <structure map-as="vtstek:LicenseType" get-method="getLicense" set-method="setLicense" name="License"/>
+    <structure map-as="vtstek:LicenseOwnerType" get-method="getLicenseOwner" set-method="setLicenseOwner" name="LicenseOwner"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContractDetails" set-method="setContractDetails" name="ContractDetails"/>
+    <structure map-as="vtstek:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" name="GoodsDescription"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.fsvtsteklicense.FsVtsTekLicenseType" name="FsVtsTekLicense">
+    <structure map-as="vtstek:FsVtsTekLicenseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="vtstek:GoodsDescriptionType" class="ru.acs.fts.schemas.album.fsvtsteklicense.GoodsDescriptionType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost" usage="optional"/>
+    <value style="element" name="StatisticalCost" get-method="getStatisticalCost" set-method="setStatisticalCost" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" name="SupplementaryQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="vtstek:LicenseOwnerType" class="ru.acs.fts.schemas.album.fsvtsteklicense.LicenseOwnerType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="vtstek:LicenseType" class="ru.acs.fts.schemas.album.fsvtsteklicense.LicenseType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+    <value style="element" name="LastDateChange" get-method="getLastDateChange" set-method="setLastDateChange" usage="optional"/>
+  </mapping>
+</binding>

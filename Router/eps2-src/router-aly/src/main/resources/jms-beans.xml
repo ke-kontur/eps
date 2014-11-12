@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+
+	<!-- Подключаем файл с бинами JNDI для JMS -->
+	<import resource="sections/jms-jndi.xml" />
+
+	<!-- Бин для фабрики соединений -->
+	<bean id="alyJmsSpringConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory" >
+		<property name="targetConnectionFactory" ref="alyJmsConnectionFactory" />
+	</bean>
+
+	<!-- Шаблон для отправки сообщений -->
+	<bean id="alyJmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
+		<property name="sessionTransacted" value="true" />
+		<property name="connectionFactory" ref="alyJmsConnectionFactory" />
+		<property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+	</bean>
+
+	<!-- Messaging Gateway -->
+	
+	<bean id="messagingGateway" class="ru.acs.fts.eps2.engine.transport.gateway.out.MessagingGatewayImpl">
+		<property name="outgoingConnection"  ref="alyJmsTemplate" /> 
+		<property name="predefinedQueues" >
+			<map>
+				<entry key="ERROR.Q" value-ref="alyErrorQueue" />
+			</map>
+		</property>
+	</bean>
+
+	<!-- Диспетчеры сообщений -->
+	
+	<bean id="baseAlyMessageDispatcher" class="ru.acs.fts.eps2.engine.transport.gateway.in.UniversalMessageDispatcher" >
+		<property name="errorRecvQueue" value="ERROR.Q" />
+		<property name="messagingGateway" ref="messagingGateway" />
+		<property name="fatalErrorQueue" value="ERROR.Q" />
+	</bean>
+	
+	<bean id="alyMessageDispatcher" parent="baseAlyMessageDispatcher" >
+		<property name="jobBatchContextFactory" ref="alyJobBatchContextFactory" />
+		<property name="jobExecutor" ref="alyJobExecutor" />
+    </bean>
+
+	<!-- JMS Listener'ы -->
+	<bean id="alyMessageListener" class="ru.acs.fts.eps2.engine.transport.gateway.in.SampleMessageListener">
+		<property name="dispatcher" ref="alyMessageDispatcher" />
+	</bean>
+
+	<!-- JMS контейнеры -->
+	<bean id="baseAlyMessageListenerContainer" abstract="true" 
+			class="org.springframework.jms.listener.DefaultMessageListenerContainer" >
+		
+		<property name="connectionFactory" ref="alyJmsSpringConnectionFactory" />
+		<property name="concurrentConsumers" value="1" />
+		<property name="maxConcurrentConsumers" value="1" />
+		<property name="idleTaskExecutionLimit" value="5" />
+		<property name="sessionTransacted" value="true" />
+		<property name="receiveTimeout" value="2000" />
+		<property name="transactionManager" ref="transactionManager" />
+		
+    </bean>
+    
+    <bean id="alyMessageListenerContainer" parent="baseAlyMessageListenerContainer" >
+		<property name="messageListener" ref="alyMessageListener" />
+		<property name="destination" ref="alyInputQueue" />
+	</bean>
+	
+	<!-- Определение очередей -->
+	<util:map id="queuesMap" map-class="java.util.Hashtable" >
+		<entry key="ERROR_QUEUE" value-ref="alyErrorQueue" />
+		<entry key="OUTPUT_QUEUE" value-ref="alyOutputQueue" />
+		<entry key="INPUT_QUEUE" value-ref="alyInputQueue" />
+	</util:map>
+	
+	<bean id="messageSender" class="ru.acs.fts.aly.router.processing.helpers.MessageSender" >
+		<property name="queues" ref="queuesMap" />
+		<property name="messagingGateway" ref="messagingGateway" />
+		<property name="marshaller" ref="jibx" />
+	</bean>
+
+</beans>

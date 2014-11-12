@@ -1,0 +1,11 @@
+<binding xmlns:ausres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_StatusResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_StatusResponse:4.1.1" default="elements" prefix="ausres"/>
+  <mapping abstract="true" type-name="ausres:AUD_StatusResponseType" class="ru.acs.fts.schemas.aud.aud_statusresponse.AUDStatusResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="TestModeIndicator" get-method="isTestModeIndicator" set-method="setTestModeIndicator"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_statusresponse.AUDStatusResponseType" name="AUD_StatusResponse">
+    <structure map-as="ausres:AUD_StatusResponseType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd							
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm-1.5.xsd" >
+										
+	<oxm:jibx-marshaller id="jibx" target-class="ru.acs.fts.schemas.envelope.EnvelopeType" />						
+							
+	<bean id="messageConstructor" class="ru.acs.fts.aud.wmq.router.constructors.MessageConstructor" >
+		<property name="settingsWrapper" ref="settingsWrapper" />
+		<property name="cryptoRestWs" ref="cryptoRestWs" />
+	</bean>
+	
+	<bean id="cryptoRestWs" class="ru.acs.fts.aud.wmq.router.restWs.crypto.CryptoRestWs" >
+		<property name="settingsWrapper" ref="settingsWrapper" />
+		<property name="marshaller" ref="jibx" />
+		<property name="unmarshaller" ref="jibx" />
+	</bean>
+	
+	<bean id="audResultDispatcherRestWs" class="ru.acs.fts.aud.wmq.router.restWs.resultDispatcher.AudResultDispatcherRestWs" >
+		<property name="settingsWrapper" ref="settingsWrapper" />
+	</bean>
+	
+	<bean id="audMessageSender" class="ru.acs.fts.aud.wmq.router.transport.out.AudMessageSender" >
+		<property name="jmsTemplate" ref="jmsTemplate" />
+		<property name="marshaller" ref="jibx" />
+		<property name="settingsWrapper" ref="settingsWrapper" />
+	</bean>
+	
+	<bean id="audMessageDispatcher" class="ru.acs.fts.aud.wmq.router.processing.AudMessageDispatcher" >
+		<property name="unmarshallingTask" ref="unmarshallingTask" />
+		<property name="acquireAudDocumentTask" ref="acquireAudDocumentTask" />
+		<property name="sendToEpsTask" ref="sendToEpsTask" />
+	</bean>
+	
+	<bean id="audMessageListener" class="ru.acs.fts.aud.wmq.router.transport.in.AudMessageListener" >
+		<property name="audMessageSender" ref="audMessageSender" />
+		<property name="audMessageDispatcher" ref="audMessageDispatcher" />
+	</bean>
+	
+	<!-- Tasks -->
+	
+	<bean id="unmarshallingTask" class="ru.acs.fts.aud.wmq.router.processing.tasks.UnmarshallingTask" >
+		<property name="unmarshaller" ref="jibx" />
+	</bean>
+	
+	<bean id="acquireAudDocumentTask" class="ru.acs.fts.aud.wmq.router.processing.tasks.AcquireAudDocumentTask" >
+		<property name="marshaller" ref="jibx" />
+	</bean>
+	
+	<bean id="sendToEpsTask" class="ru.acs.fts.aud.wmq.router.processing.tasks.SendToEpsTask" >
+		<property name="audResultDispatcherRestWs" ref="audResultDispatcherRestWs" />
+	</bean>
+
+</beans>

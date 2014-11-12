@@ -1,0 +1,73 @@
+<binding xmlns:rde="urn:customs.ru:Information:CustomsDocuments:ResolutionDestinationExamination:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ResolutionDestinationExamination:5.4.0" default="elements" prefix="rde"/>
+  <mapping abstract="true" type-name="rde:ResolutionDestinationExaminationType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.ResolutionDestinationExaminationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NameExamination" get-method="getNameExamination" set-method="setNameExamination"/>
+    <value style="element" name="Country" get-method="getCountry" set-method="setCountry"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getQuestionList" set-method="setQuestionList" create-type="java.util.ArrayList">
+      <value style="element" name="Question" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="KindExamination" get-method="getKindExamination" set-method="setKindExamination"/>
+    <value style="element" name="DateDuties" get-method="getDateDuties" set-method="setDateDuties" format="LocalDate.default"/>
+    <value style="element" name="DateRights" get-method="getDateRights" set-method="setDateRights" format="LocalDate.default"/>
+    <value style="element" name="Changes" get-method="getChanges" set-method="setChanges"/>
+    <structure map-as="rde:CommissionExaminationType" get-method="getCommissionExamination" set-method="setCommissionExamination" name="CommissionExamination"/>
+    <structure map-as="rde:TermRealizationExaminationType" get-method="getTermRealizationExamination" set-method="setTermRealizationExamination" usage="optional" name="TermRealizationExamination"/>
+    <collection get-method="getGoodsAccordanceExhertList" set-method="setGoodsAccordanceExhertList" create-type="java.util.ArrayList">
+      <structure map-as="rde:GoodsAccordanceExhertType" name="GoodsAccordanceExhert"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPerson" set-method="setPerson" name="Person"/>
+    <structure map-as="rde:InfoCustomsPersonType" get-method="getInfoCustomsPerson" set-method="setInfoCustomsPerson" name="InfoCustomsPerson"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getExpertSignature" set-method="setExpertSignature" name="ExpertSignature"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDeclarantSignature" set-method="setDeclarantSignature" usage="optional" name="DeclarantSignature"/>
+    <collection get-method="getRepresentativeSignatureList" set-method="setRepresentativeSignatureList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rde:PersonType" name="RepresentativeSignature"/>
+    </collection>
+    <structure map-as="rde:PersonType" get-method="getPersonSignature" set-method="setPersonSignature" usage="optional" name="PersonSignature"/>
+    <structure map-as="rde:GoodsLocationType" get-method="getGoodsLocation" set-method="setGoodsLocation" usage="optional" name="GoodsLocation"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsChief" set-method="setCustomsChief" name="CustomsChief"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getInfoCustomsPersonDetermineAim" set-method="setInfoCustomsPersonDetermineAim" name="InfoCustomsPersonDetermineAim"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getOtherDocument" set-method="setOtherDocument" usage="optional" name="OtherDocument"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.resolutiondestinationexamination.ResolutionDestinationExaminationType" name="ResolutionDestinationExamination">
+    <structure map-as="rde:ResolutionDestinationExaminationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rde:CommissionExaminationType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.CommissionExaminationType">
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+  </mapping>
+  <mapping abstract="true" type-name="rde:GoodsAccordanceExhertType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.GoodsAccordanceExhertType">
+    <collection get-method="getListSampleList" set-method="setListSampleList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ListSample" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getDocumentList" set-method="setDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Documents"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rde:GoodsLocationType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.GoodsLocationType">
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode" usage="optional"/>
+    <structure map-as="catESAD_ru:GoodsLocationPlaceType" get-method="getGoodsLocationPlace" set-method="setGoodsLocationPlace" name="GoodsLocationPlace"/>
+    <structure map-as="catESAD_ru:WarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" name="WarehousePlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="rde:InfoCustomsPersonType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.InfoCustomsPersonType">
+    <value style="element" name="OfficialTelephone" get-method="getOfficialTelephone" set-method="setOfficialTelephone" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="rde:PersonType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.PersonType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritesDocument" set-method="setAuthoritesDocument" usage="optional" name="AuthoritesDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="rde:TermRealizationExaminationType" class="ru.acs.fts.schemas.album.resolutiondestinationexamination.TermRealizationExaminationType">
+    <value style="element" name="TermDay" get-method="getTermDay" set-method="setTermDay" usage="optional"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

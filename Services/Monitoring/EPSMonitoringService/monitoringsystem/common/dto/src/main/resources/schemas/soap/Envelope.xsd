@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/06/soap-envelope" elementFormDefault="qualified" version="1.0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:env="http://www.w3.org/2001/06/soap-envelope">
+	<xs:annotation>
+		<xs:documentation>Конверт</xs:documentation>
+	</xs:annotation>
+	<xs:element name="Envelope" type="env:EnvelopeType"/>
+	<xs:complexType name="EnvelopeType">
+		<xs:annotation>
+			<xs:documentation>Конверт</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Header" type="env:HeaderType">
+				<xs:annotation>
+					<xs:documentation>Общий заголовок конверта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Body" type="env:BodyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тело конверта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HeaderType">
+		<xs:annotation>
+			<xs:documentation>Общий заголовок конверта</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any processContents="strict" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Заголовки конверта</xs:documentation>
+				</xs:annotation>
+			</xs:any>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="BodyType">
+		<xs:annotation>
+			<xs:documentation>Тело</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any processContents="strict" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Прикладные данные (ЭД)</xs:documentation>
+				</xs:annotation>
+			</xs:any>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

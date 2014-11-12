@@ -1,0 +1,36 @@
+<binding xmlns:rprirs="urn:customs.ru:Information:SQDocuments:RosPrirodSites:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPrirodSites:5.4.0" default="elements" prefix="rprirs"/>
+  <mapping abstract="true" type-name="rprirs:RosPrirodSitesType" class="ru.acs.fts.schemas.album.rosprirodsites.RosPrirodSitesType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocumentId" get-method="getDocumentId" set-method="setDocumentId"/>
+    <value style="element" name="Opeartion" get-method="getOpeartion" set-method="setOpeartion" usage="optional"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber" usage="optional"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="SpecialConditions" get-method="getSpecialConditions" set-method="setSpecialConditions" usage="optional"/>
+    <value style="element" name="BlankNumber" get-method="getBlankNumber" set-method="setBlankNumber" usage="optional"/>
+    <value style="element" name="DateBegin" get-method="getDateBegin" set-method="setDateBegin" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getImporter" set-method="setImporter" usage="optional" name="Importer"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getExporter" set-method="setExporter" usage="optional" name="Exporter"/>
+    <structure map-as="sq_cat:AuthorizedPersonType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+    <collection get-method="getObjectList" set-method="setObjectList" create-type="java.util.ArrayList">
+      <structure map-as="rprirs:ObjectType" name="Object"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rosprirodsites.RosPrirodSitesType" name="RosPrirodSites">
+    <structure map-as="rprirs:RosPrirodSitesType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rprirs:ObjectType" class="ru.acs.fts.schemas.album.rosprirodsites.ObjectType">
+    <collection get-method="getNameList" set-method="setNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="SampleInfo" get-method="getSampleInfo" set-method="setSampleInfo" usage="optional"/>
+    <value style="element" name="AppNumber" get-method="getAppNumber" set-method="setAppNumber" usage="optional"/>
+    <value style="element" name="CountryOrigin" get-method="getCountryOrigin" set-method="setCountryOrigin" usage="optional"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+  </mapping>
+</binding>

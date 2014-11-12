@@ -1,0 +1,123 @@
+<binding xmlns:ats="urn:customs.ru:Information:CustomsDocuments:ActThievingSampling:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActThievingSampling:5.4.0" default="elements" prefix="ats"/>
+  <mapping abstract="true" type-name="ats:ActThievingSamplingType" class="ru.acs.fts.schemas.album.actthievingsampling.ActThievingSamplingType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <collection get-method="getNameObjectList" set-method="setNameObjectList" create-type="java.util.ArrayList">
+      <value style="element" name="NameObject" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DatePresentation" get-method="getDatePresentation" set-method="setDatePresentation" format="LocalDate.default"/>
+    <value style="element" name="DateTakeDuplicateAct" get-method="getDateTakeDuplicateAct" set-method="setDateTakeDuplicateAct" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getApplicationList" set-method="setApplicationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Application" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getTakeSample" set-method="setTakeSample" name="TakeSample"/>
+    <structure map-as="ats:PersonInfoType" get-method="getExpert" set-method="setExpert" usage="optional" name="Expert"/>
+    <collection get-method="getWitnessList" set-method="setWitnessList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ats:PersonInfoType" name="Witness"/>
+    </collection>
+    <collection get-method="getOtherParticipantList" set-method="setOtherParticipantList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ats:PersonInfoType" name="OtherParticipant"/>
+    </collection>
+    <structure map-as="ats:AccessoriesType" get-method="getAccessories" set-method="setAccessories" name="Accessories"/>
+    <structure map-as="ats:TermsThievingSamplingType" get-method="getTermsThievingSampling" set-method="setTermsThievingSampling" name="TermsThievingSampling"/>
+    <collection get-method="getInfoObjectList" set-method="setInfoObjectList" create-type="java.util.ArrayList">
+      <structure map-as="ats:InfoObjectType" name="InfoObject"/>
+    </collection>
+    <structure map-as="ats:PackingType" get-method="getPacking" set-method="setPacking" name="Packing"/>
+    <collection get-method="getObservationList" set-method="setObservationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ats:ObservationType" name="Observation"/>
+    </collection>
+    <structure map-as="ats:PersonSignatureAuthorActType" get-method="getPersonSignatureAuthorAct" set-method="setPersonSignatureAuthorAct" name="PersonSignatureAuthorAct"/>
+    <collection get-method="getPersonPresentList" set-method="setPersonPresentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ats:PersonInfoType" name="PersonPresent"/>
+    </collection>
+    <structure map-as="ats:PersonInfoType" get-method="getSpecialist" set-method="setSpecialist" usage="optional" name="Specialist"/>
+    <collection get-method="getOtherSpecialistList" set-method="setOtherSpecialistList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ats:PersonInfoType" name="OtherSpecialist"/>
+    </collection>
+    <structure map-as="ats:DescriptionSampleType" get-method="getDescriptionSample" set-method="setDescriptionSample" name="DescriptionSample"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCopyReceived" set-method="setCopyReceived" name="CopyReceived"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actthievingsampling.ActThievingSamplingType" name="ActThievingSampling">
+    <structure map-as="ats:ActThievingSamplingType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:AccessoriesOrganizationType" class="ru.acs.fts.schemas.album.actthievingsampling.AccessoriesOrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" usage="optional" name="LegalAddress"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getOrganizationPerson" set-method="setOrganizationPerson" name="OrganizationPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:AccessoriesPersonType" class="ru.acs.fts.schemas.album.actthievingsampling.AccessoriesPersonType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="YearBirth" get-method="getYearBirth" set-method="setYearBirth"/>
+    <value style="element" name="BirthPlace" get-method="getBirthPlace" set-method="setBirthPlace"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:AccessoriesType" class="ru.acs.fts.schemas.album.actthievingsampling.AccessoriesType">
+    <value style="element" name="LocationObject" get-method="getLocationObject" set-method="setLocationObject"/>
+    <value style="element" name="Departure" get-method="getDeparture" set-method="setDeparture"/>
+    <value style="element" name="Arrival" get-method="getArrival" set-method="setArrival"/>
+    <structure map-as="ats:AccessoriesOrganizationType" get-method="getAccessoriesOrganization" set-method="setAccessoriesOrganization" usage="optional" name="AccessoriesOrganization"/>
+    <structure map-as="ats:AccessoriesPersonType" get-method="getAccessoriesPerson" set-method="setAccessoriesPerson" usage="optional" name="AccessoriesPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:AddressThievingSamplingType" class="ru.acs.fts.schemas.album.actthievingsampling.AddressThievingSamplingType">
+    <structure map-as="catESAD_ru:WarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" usage="optional" name="WarehousePlace"/>
+    <structure map-as="catESAD_ru:GoodsLocationPlaceType" get-method="getGoodsLocationPlace" set-method="setGoodsLocationPlace" name="GoodsLocationPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:DescriptionSampleType" class="ru.acs.fts.schemas.album.actthievingsampling.DescriptionSampleType">
+    <value style="element" name="Danger" get-method="getDanger" set-method="setDanger"/>
+    <value style="element" name="Perishable" get-method="getPerishable" set-method="setPerishable"/>
+    <collection get-method="getDangerKindList" set-method="setDangerKindList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DangerKind" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PeriodStorage" get-method="getPeriodStorage" set-method="setPeriodStorage" usage="optional"/>
+    <collection get-method="getStorageConditionList" set-method="setStorageConditionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="StorageConditions" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ats:InfoObjectType" class="ru.acs.fts.schemas.album.actthievingsampling.InfoObjectType">
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <collection get-method="getNameOdjectList" set-method="setNameOdjectList" create-type="java.util.ArrayList">
+      <value style="element" name="NameOdject" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="QuantityWeight" get-method="getQuantityWeight" set-method="setQuantityWeight"/>
+    <value style="element" name="Unit" get-method="getUnit" set-method="setUnit" usage="optional"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:ObservationType" class="ru.acs.fts.schemas.album.actthievingsampling.ObservationType">
+    <value style="element" name="ObservationContents" get-method="getObservationContents" set-method="setObservationContents"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignatureObservation" set-method="setPersonSignatureObservation" name="PersonSignatureObservation"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:PackingType" class="ru.acs.fts.schemas.album.actthievingsampling.PackingType">
+    <value style="element" name="KindPacking" get-method="getKindPacking" set-method="setKindPacking"/>
+    <value style="element" name="NumberSeal" get-method="getNumberSeal" set-method="setNumberSeal" usage="optional"/>
+    <collection get-method="getExplanatoryLabelList" set-method="setExplanatoryLabelList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ExplanatoryLabels" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ats:PersonInfoType" class="ru.acs.fts.schemas.album.actthievingsampling.PersonInfoType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddressWitness" set-method="setAddressWitness" usage="optional" name="AddressWitness"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getPlaceEmployment" set-method="setPlaceEmployment" usage="optional" name="PlaceEmployment"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:PersonSignatureAuthorActType" class="ru.acs.fts.schemas.album.actthievingsampling.PersonSignatureAuthorActType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ats:TermsThievingSamplingType" class="ru.acs.fts.schemas.album.actthievingsampling.TermsThievingSamplingType">
+    <value style="element" name="Weather" get-method="getWeather" set-method="setWeather"/>
+    <value style="element" name="Light" get-method="getLight" set-method="setLight"/>
+    <collection get-method="getArrangementList" set-method="setArrangementList" create-type="java.util.ArrayList">
+      <value style="element" name="Arrangement" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Sample" get-method="getSample" set-method="setSample"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="ats:AddressThievingSamplingType" get-method="getAddressThievingSampling" set-method="setAddressThievingSampling" name="AddressThievingSampling"/>
+  </mapping>
+</binding>

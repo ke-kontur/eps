@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:RepresentativeApplication:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:repapp="urn:customs.ru:Information:CustomsDocuments:RepresentativeApplication:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Заявление таможенного представителя, используемое в качестве пассажирской таможенной декларации</xs:documentation>
+   </xs:annotation>
+   <xs:element name="RepresentativeApplication" type="repapp:RepresentativeApplicationType"/>
+   <xs:complexType name="RepresentativeApplicationType">
+      <xs:annotation>
+         <xs:documentation>Заявление таможенного представителя, используемое в качестве пассажирской таможенной декларации</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="DestinationCountry" type="clt_ru:CountryA2CodeType">
+                  <xs:annotation>
+                     <xs:documentation>Страна назначения. Буквенный код по классификатору стран мира</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="TotalGoodsNumber" type="clt_ru:Count4Type">
+                  <xs:annotation>
+                     <xs:documentation>Всего наименований товаров</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Representative" type="repapp:RepresentativeType">
+                  <xs:annotation>
+                     <xs:documentation>Таможенный представитель</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="Consignment" type="repapp:ConsignmentType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о партии</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1006181E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="ConsigneeType">
+      <xs:annotation>
+         <xs:documentation>Получатель</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element name="ConsigneeSign" type="clt_ru:DigitalIndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак получателя: 0 - по товаросопроводительным документам; 1 - по доверенности</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ConsignmentType">
+      <xs:annotation>
+         <xs:documentation>Сведения о партии</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="CurrencyRate" type="clt_ru:CurrencyRateType">
+            <xs:annotation>
+               <xs:documentation>Курс валюты счета (сделки) к евро</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="CurrencyRubleRate" type="clt_ru:CurrencyRateType">
+            <xs:annotation>
+               <xs:documentation>Курс валюты счета (сделки) к рублю</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Currency" type="clt_ru:CurrencyA3CodeType">
+            <xs:annotation>
+               <xs:documentation>Код валюты счета (сделки)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GrossWeight" type="clt_ru:QuantityBasisType">
+            <xs:annotation>
+               <xs:documentation>Вес товаров, брутто, кг</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsCost" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товаров в валюте счета (сделки)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsCostEuro" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товаров в евро</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsCostRuble" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товаров в рублях</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Consignor" type="cat_ru:CUOrganizationType">
+            <xs:annotation>
+               <xs:documentation>Отправитель</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Consignee" type="repapp:ConsigneeType">
+            <xs:annotation>
+               <xs:documentation>Получатель</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="Goods" type="repapp:GoodsType">
+            <xs:annotation>
+               <xs:documentation>Сведения о товарах</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="WayBill" type="repapp:WayBillType">
+            <xs:annotation>
+               <xs:documentation>Сведения о накладной</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="CustomsDutiesType">
+      <xs:annotation>
+         <xs:documentation>Таможенные платежи, подлежащие уплате</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="Duties" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Таможенные пошлины, налоги</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="Taxes" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Таможенные сборы</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="CurrencyCode" type="clt_ru:CurrencyA3CodeType">
+            <xs:annotation>
+               <xs:documentation>Код валюты таможенного платежа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="GoodsType">
+      <xs:annotation>
+         <xs:documentation>Сведения о товарах</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="GoodsNumeric" type="clt_ru:Count3Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="4" name="GoodsDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Наименование товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsTNVEDCode" type="clt_ru:CUGoodsNomenclatuerCodeType">
+            <xs:annotation>
+               <xs:documentation>Код товара по ТН ВЭД </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GoodsCost" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товара в валюте счета (сделки)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GrossWeight" type="clt_ru:QuantityBasisType">
+            <xs:annotation>
+               <xs:documentation>Вес товара, брутто, кг</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="GoodsCostEuro" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товара в евро</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsCostRuble" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товара в рублях</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="GoodsQuantity" type="cat_ru:SupplementaryQuantityType">
+            <xs:annotation>
+               <xs:documentation>Количество товара в основной (дополнительной) единице измерения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="PresentedDocuments" type="repapp:PresentedDocumentsType">
+            <xs:annotation>
+               <xs:documentation>Сведения о представляемых документах</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="CustomsDuties" type="repapp:CustomsDutiesType">
+            <xs:annotation>
+               <xs:documentation>Таможенные платежи, подлежащие уплате</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="PresentedDocumentsType">
+      <xs:annotation>
+         <xs:documentation>Сведения о представляемых документах</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:DocumentBaseType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="DocumentModeCode" type="clt_ru:CustomsDocumentCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код вида документа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RepresentativeType">
+      <xs:annotation>
+         <xs:documentation>Таможенный представитель</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element name="LicenseNumber" type="clt_ru:DocumentNumberType">
+                  <xs:annotation>
+                     <xs:documentation>Номер лицензии</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="OKPOID" type="clt_ru:OKPOIDType">
+                  <xs:annotation>
+                     <xs:documentation>Код организации по ОКПО</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="WayBillType">
+      <xs:annotation>
+         <xs:documentation>Сведения о накладной</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:DocumentBaseType">
+            <xs:sequence>
+               <xs:element name="WayBillKind" type="clt_ru:Numeric1Type">
+                  <xs:annotation>
+                     <xs:documentation>Тип: 1 - индивидуальная накладная; 2 - общая авианакладная; 3 - транспортная накладная</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

@@ -1,0 +1,11 @@
+<binding xmlns:ns1="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocStatusResponse:5.4.0" default="elements"/>
+  <mapping abstract="true" type-name="ns1:ArchDocStatusResponseType" class="ru.acs.fts.schemas.album.archdocstatusresponse.ArchDocStatusResponseType">
+    <structure map-as="catArch_ru:ArchBaseDocType"/>
+    <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archdocstatusresponse.ArchDocStatusResponseType" name="ArchDocStatusResponse">
+    <structure map-as="ns1:ArchDocStatusResponseType"/>
+  </mapping>
+</binding>

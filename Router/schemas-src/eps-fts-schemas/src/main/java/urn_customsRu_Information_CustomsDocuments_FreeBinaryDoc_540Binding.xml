@@ -1,0 +1,17 @@
+<binding xmlns:fbd="urn:customs.ru:Information:CustomsDocuments:FreeBinaryDoc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:FreeBinaryDoc:5.4.0" default="elements" prefix="fbd"/>
+  <mapping abstract="true" type-name="fbd:FreeBinaryDocType" class="ru.acs.fts.schemas.album.freebinarydoc.FreeBinaryDocType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentInfo" set-method="setDocumentInfo" name="DocumentInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getMainDocumentInfo" set-method="setMainDocumentInfo" usage="optional" name="MainDocumentInfo"/>
+    <structure map-as="fbd:DocBodyType" get-method="getDocumentBody" set-method="setDocumentBody" name="DocumentBody"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.freebinarydoc.FreeBinaryDocType" name="FreeBinaryDoc">
+    <structure map-as="fbd:FreeBinaryDocType"/>
+  </mapping>
+  <mapping abstract="true" type-name="fbd:DocBodyType" class="ru.acs.fts.schemas.album.freebinarydoc.DocBodyType">
+    <value style="element" name="FileName" get-method="getFileName" set-method="setFileName"/>
+    <value style="element" name="FileData" get-method="getFileData" set-method="setFileData"/>
+  </mapping>
+</binding>

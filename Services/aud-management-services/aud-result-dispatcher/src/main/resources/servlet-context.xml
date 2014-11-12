@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xmlns:mvc="http://www.springframework.org/schema/mvc"
+		xmlns:p="http://www.springframework.org/schema/p"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/context 
+							http://www.springframework.org/schema/context/spring-context.xsd
+							http://www.springframework.org/schema/mvc 
+							http://www.springframework.org/schema/mvc/spring-mvc.xsd" >
+
+	<!-- Jackson Json JodaTime ISO 8601 -->
+	
+	<bean id="objectMapper"
+			class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean"
+			p:indentOutput="true" > <!-- p:simpleDateFormat="yyyy-MM-dd'T'HH:mm:ss.SSSZ" -->
+		<property name="dateFormat">
+			<bean class="com.fasterxml.jackson.databind.util.ISO8601DateFormat" />
+		</property>
+	</bean>
+
+	<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean"
+			p:targetObject-ref="objectMapper" p:targetMethod="registerModule">
+		<property name="arguments">
+			<list>
+				<bean class="com.fasterxml.jackson.datatype.joda.JodaModule" />
+			</list>
+		</property>
+	</bean>
+
+	<mvc:annotation-driven >
+		<mvc:message-converters>
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter" />
+			<bean class="org.springframework.http.converter.ResourceHttpMessageConverter" />
+			<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				<property name="objectMapper" ref="objectMapper" />
+        	</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<!-- <mvc:resources mapping="/res/**" location="/resources/" /> -->
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	<context:component-scan base-package="ru.acs.fts.aud.result.dispatcher" />
+		
+</beans>

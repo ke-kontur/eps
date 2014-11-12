@@ -1,0 +1,33 @@
+<binding xmlns:pmpnlt="urn:customs.ru:Information:SQDocuments:PaymentPenaltSheet:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:PaymentPenaltSheet:5.4.0" default="elements" prefix="pmpnlt"/>
+  <mapping abstract="true" type-name="pmpnlt:PaymentPenaltSheetType" class="ru.acs.fts.schemas.album.paymentpenaltsheet.PaymentPenaltSheetType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getPenaltyList" set-method="setPenaltyList" create-type="java.util.ArrayList">
+      <structure map-as="pmpnlt:PenaltyType" name="Penalty"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.paymentpenaltsheet.PaymentPenaltSheetType" name="PaymentPenaltSheet">
+    <structure map-as="pmpnlt:PaymentPenaltSheetType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pmpnlt:BankRequisType" class="ru.acs.fts.schemas.album.paymentpenaltsheet.BankRequisType">
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+    <value style="element" name="CorrespAccount" get-method="getCorrespAccount" set-method="setCorrespAccount" usage="optional"/>
+    <value style="element" name="BankPlace" get-method="getBankPlace" set-method="setBankPlace" usage="optional"/>
+    <value style="element" name="PersonalAccount" get-method="getPersonalAccount" set-method="setPersonalAccount" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pmpnlt:PenaltyType" class="ru.acs.fts.schemas.album.paymentpenaltsheet.PenaltyType">
+    <value style="element" name="ViolatorID" get-method="getViolatorID" set-method="setViolatorID"/>
+    <value style="element" name="PenaltySum" get-method="getPenaltySum" set-method="setPenaltySum"/>
+    <value style="element" name="PenaltyCreateDateTime" get-method="getPenaltyCreateDateTime" set-method="setPenaltyCreateDateTime"/>
+    <value style="element" name="IsPaid" get-method="getIsPaid" set-method="setIsPaid"/>
+    <value style="element" name="PayDateTime" get-method="getPayDateTime" set-method="setPayDateTime" usage="optional"/>
+    <value style="element" name="Organization" get-method="getOrganization" set-method="setOrganization"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getResolution" set-method="setResolution" name="Resolution"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getPayDoc" set-method="setPayDoc" usage="optional" name="PayDoc"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getPayer" set-method="setPayer" usage="optional" name="Payer"/>
+    <structure map-as="pmpnlt:BankRequisType" get-method="getBankRequis" set-method="setBankRequis" usage="optional" name="BankRequis"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+  </mapping>
+</binding>

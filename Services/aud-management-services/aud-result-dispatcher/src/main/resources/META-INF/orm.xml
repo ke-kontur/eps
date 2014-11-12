@@ -1,0 +1,28 @@
+<entity-mappings
+		version="1.0" 
+		xmlns="http://java.sun.com/xml/ns/persistence/orm" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm 
+							http://java.sun.com/xml/ns/persistence/orm_1_0.xsd" >
+	
+	<entity class="ru.acs.fts.aud.management.model.entities.EdarchArchive" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdarchDocument" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAlbumDocList" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudCommand" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudDocInfo" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudIntCommand" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudMessage" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudMsgType" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudProcInfo" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudRegistry" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudRegistryDoc" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudRegistryResult" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclDocument" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclEnvelope" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclNotUniqDocument" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclProcInformation" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclProcState" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclResultInfo" />
+	<entity class="ru.acs.fts.aud.management.model.entities.EdeclAudSettings" />
+	
+</entity-mappings>

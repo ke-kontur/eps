@@ -1,0 +1,43 @@
+<binding xmlns:pit="urn:customs.ru:Information:TreatmentDocuments:PermitInoTreatment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTreat_ru="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:PermitInoTreatment:5.4.0" default="elements" prefix="pit"/>
+  <mapping abstract="true" type-name="pit:PermitInoTreatmentType" class="ru.acs.fts.schemas.album.permitinotreatment.PermitInoTreatmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PermitNumber" get-method="getPermitNumber" set-method="setPermitNumber"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="BasicPermitNumber" get-method="getBasicPermitNumber" set-method="setBasicPermitNumber" usage="optional"/>
+    <value style="element" name="TreatmentProcedureCode" get-method="getTreatmentProcedureCode" set-method="setTreatmentProcedureCode"/>
+    <value style="element" name="PermitPeriodDate" get-method="getPermitPeriodDate" set-method="setPermitPeriodDate" format="LocalDate.default"/>
+    <value style="element" name="TreatmentCountry" get-method="getTreatmentCountry" set-method="setTreatmentCountry"/>
+    <value style="element" name="RegionalCustoms" get-method="getRegionalCustoms" set-method="setRegionalCustoms"/>
+    <structure map-as="pit:PermitHolderType" get-method="getPermitHolder" set-method="setPermitHolder" name="PermitHolder"/>
+    <structure map-as="catTreat_ru:TreatmentType" get-method="getTreatment" set-method="setTreatment" name="Treatment"/>
+    <collection get-method="getBaseTreatmentDocList" set-method="setBaseTreatmentDocList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:BaseTreatmentDocsType" name="BaseTreatmentDocs"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsInWaste" set-method="setCustomsInWaste" usage="optional" name="CustomsInWaste"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsInHells" set-method="setCustomsInHells" usage="optional" name="CustomsInHells"/>
+    <collection get-method="getDocumentIDInfoList" set-method="setDocumentIDInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="DocumentIDInfo"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSignature" set-method="setSignature" usage="optional" name="Signature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitinotreatment.PermitInoTreatmentType" name="PermitInoTreatment">
+    <structure map-as="pit:PermitInoTreatmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pit:ExpandDateLimitType" class="ru.acs.fts.schemas.album.permitinotreatment.ExpandDateLimitType">
+    <value style="element" name="ExpandTime" get-method="getExpandTime" set-method="setExpandTime"/>
+  </mapping>
+  <mapping abstract="true" type-name="pit:PermitHolderType" class="ru.acs.fts.schemas.album.permitinotreatment.PermitHolderType">
+    <structure map-as="catTreat_ru:TreatmentOrganizationType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="pit:TreatmentInfType" class="ru.acs.fts.schemas.album.permitinotreatment.TreatmentInfType">
+    <value style="element" name="Country" get-method="getCountry" set-method="setCountry"/>
+  </mapping>
+</binding>

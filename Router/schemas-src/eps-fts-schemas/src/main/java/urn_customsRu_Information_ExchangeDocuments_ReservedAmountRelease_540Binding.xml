@@ -1,0 +1,23 @@
+<binding xmlns:ramr="urn:customs.ru:Information:ExchangeDocuments:ReservedAmountRelease:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ReservedAmountRelease:5.4.0" default="elements" prefix="ramr"/>
+  <mapping abstract="true" type-name="ramr:ReservedAmountReleaseType" class="ru.acs.fts.schemas.album.reservedamountrelease.ReservedAmountReleaseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReserveDate" get-method="getReserveDate" set-method="setReserveDate" format="LocalDate.default"/>
+    <value style="element" name="ReserveAmount" get-method="getReserveAmount" set-method="setReserveAmount"/>
+    <value style="element" name="ReleaseReserveDate" get-method="getReleaseReserveDate" set-method="setReleaseReserveDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ReleaseReason" get-method="getReleaseReason" set-method="setReleaseReason" usage="optional"/>
+    <value style="element" name="OperationIndicator" get-method="getOperationIndicator" set-method="setOperationIndicator"/>
+    <structure map-as="ramr:AdditionalInfoType" get-method="getAdditionalInfo" set-method="setAdditionalInfo" name="AdditionalInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reservedamountrelease.ReservedAmountReleaseType" name="ReservedAmountRelease">
+    <structure map-as="ramr:ReservedAmountReleaseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ramr:AdditionalInfoType" class="ru.acs.fts.schemas.album.reservedamountrelease.AdditionalInfoType">
+    <value style="element" name="Guarantor" get-method="getGuarantor" set-method="setGuarantor"/>
+    <value style="element" name="ValidityDate" get-method="getValidityDate" set-method="setValidityDate" format="LocalDate.default"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+  </mapping>
+</binding>

@@ -1,0 +1,18 @@
+<binding xmlns:adur="urn:customs.ru:Information:EArchDocuments:ArchDocUpdate:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocUpdate:5.4.0" default="elements" prefix="adur"/>
+  <mapping abstract="true" type-name="adur:ArchDocUpdateType" class="ru.acs.fts.schemas.album.archdocupdate.ArchDocUpdateType">
+    <structure map-as="catArch_ru:ArchBaseType"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID"/>
+    <value style="element" name="ArchDocumentID" get-method="getArchDocumentID" set-method="setArchDocumentID"/>
+    <value style="element" name="DocumentBeginDate" get-method="getDocumentBeginDate" set-method="setDocumentBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentEndDate" get-method="getDocumentEndDate" set-method="setDocumentEndDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="adur:ArcDocType" get-method="getArchDoc" set-method="setArchDoc" name="ArchDoc"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archdocupdate.ArchDocUpdateType" name="ArchDocUpdate">
+    <structure map-as="adur:ArchDocUpdateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="adur:ArcDocType" class="ru.acs.fts.schemas.album.archdocupdate.ArcDocType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

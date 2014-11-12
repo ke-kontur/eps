@@ -1,0 +1,11 @@
+<binding xmlns:aurfdreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetRepresentFormDataRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetRepresentFormDataRequest:4.1.1" default="elements" prefix="aurfdreq"/>
+  <mapping abstract="true" type-name="aurfdreq:AUD_GetRepresentFormDataRequestType" class="ru.acs.fts.schemas.aud.aud_getrepresentformdatarequest.AUDGetRepresentFormDataRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <structure map-as="catAUD_ru:AUD_DocumentKindRepresentationIdInfoType" get-method="getDocumentKindRepresentationIdInfo" set-method="setDocumentKindRepresentationIdInfo" name="DocumentKindRepresentationIdInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_getrepresentformdatarequest.AUDGetRepresentFormDataRequestType" name="AUD_GetRepresentFormDataRequest">
+    <structure map-as="aurfdreq:AUD_GetRepresentFormDataRequestType"/>
+  </mapping>
+</binding>

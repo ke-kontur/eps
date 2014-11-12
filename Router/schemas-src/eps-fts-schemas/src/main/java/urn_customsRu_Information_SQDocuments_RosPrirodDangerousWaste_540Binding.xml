@@ -1,0 +1,31 @@
+<binding xmlns:dngwst="urn:customs.ru:Information:SQDocuments:RosPrirodDangerousWaste:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPrirodDangerousWaste:5.4.0" default="elements" prefix="dngwst"/>
+  <mapping abstract="true" type-name="dngwst:RosPrirodDangerousWasteType" class="ru.acs.fts.schemas.album.rospriroddangerouswaste.RosPrirodDangerousWasteType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocumentId" get-method="getDocumentId" set-method="setDocumentId"/>
+    <value style="element" name="AuthorizedPerson" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional"/>
+    <structure map-as="sq_cat:DocumentType" get-method="getConclusion" set-method="setConclusion" usage="optional" name="Conclusion"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getReceiver" set-method="setReceiver" usage="optional" name="Receiver"/>
+    <collection get-method="getObjectList" set-method="setObjectList" create-type="java.util.ArrayList">
+      <structure map-as="dngwst:ObjectType" name="Object"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rospriroddangerouswaste.RosPrirodDangerousWasteType" name="RosPrirodDangerousWaste">
+    <structure map-as="dngwst:RosPrirodDangerousWasteType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dngwst:ObjectType" class="ru.acs.fts.schemas.album.rospriroddangerouswaste.ObjectType">
+    <collection get-method="getNameList" set-method="setNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED" usage="optional"/>
+    <value style="element" name="FKKO" get-method="getFKKO" set-method="setFKKO" usage="optional"/>
+    <value style="element" name="ExportCountry" get-method="getExportCountry" set-method="setExportCountry" usage="optional"/>
+    <value style="element" name="ImportCountry" get-method="getImportCountry" set-method="setImportCountry" usage="optional"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getCount" set-method="setCount" name="Count"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+  </mapping>
+</binding>

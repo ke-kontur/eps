@@ -1,0 +1,16 @@
+<binding xmlns:TMCout="urn:customs.ru:Information:CustomsDocuments:TransportMeanCardOut:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransportMeanCardOut:5.4.0" default="elements" prefix="TMCout"/>
+  <mapping abstract="true" type-name="TMCout:TransportMeanCardOutType" class="ru.acs.fts.schemas.album.transportmeancardout.TransportMeanCardOutType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <structure map-as="catESAD_ru:TransportOwnerType" get-method="getTransportOwner" set-method="setTransportOwner" name="TransportOwner"/>
+    <structure map-as="catESAD_ru:TransportManufacturerType" get-method="getTransportManufacturer" set-method="setTransportManufacturer" usage="optional" name="TransportManufacturer"/>
+    <structure map-as="catESAD_ru:ESADTransportMeanCardType" get-method="getESADTransportMeanCard" set-method="setESADTransportMeanCard" name="ESADTransportMeanCard"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocument" set-method="setDocument" usage="optional" name="Document"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getCardNumber" set-method="setCardNumber" usage="optional" name="CardNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transportmeancardout.TransportMeanCardOutType" name="TransportMeanCardOut">
+    <structure map-as="TMCout:TransportMeanCardOutType"/>
+  </mapping>
+</binding>

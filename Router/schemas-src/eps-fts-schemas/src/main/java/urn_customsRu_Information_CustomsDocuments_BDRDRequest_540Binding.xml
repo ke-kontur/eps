@@ -1,0 +1,39 @@
+<binding xmlns:bdrd="urn:customs.ru:Information:CustomsDocuments:BDRD_Request:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:BDRD_Request:5.4.0" default="elements" prefix="bdrd"/>
+  <mapping abstract="true" type-name="bdrd:BDRD_RequestType" class="ru.acs.fts.schemas.album.bdrd_request.BDRDRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="bdrd:CustomsDocumentType" get-method="getCustomsDocument" set-method="setCustomsDocument" name="CustomsDocument"/>
+    <collection get-method="getRequestedDataList" set-method="setRequestedDataList" create-type="java.util.ArrayList">
+      <structure map-as="bdrd:RequestedDataType" name="RequestedData"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.bdrd_request.BDRDRequestType" name="BDRD_Request">
+    <structure map-as="bdrd:BDRD_RequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="bdrd:CustomsDocumentType" class="ru.acs.fts.schemas.album.bdrd_request.CustomsDocumentType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="DocKind" get-method="getDocKind" set-method="setDocKind"/>
+  </mapping>
+  <mapping abstract="true" type-name="bdrd:GoodsType" class="ru.acs.fts.schemas.album.bdrd_request.GoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getSupplementaryQuantityList" set-method="setSupplementaryQuantityList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="SupplementaryQuantity"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="bdrd:RequestedDataType" class="ru.acs.fts.schemas.album.bdrd_request.RequestedDataType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID"/>
+    <collection get-method="getGoodInfoList" set-method="setGoodInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="bdrd:GoodsType" name="GoodInfo"/>
+    </collection>
+  </mapping>
+</binding>

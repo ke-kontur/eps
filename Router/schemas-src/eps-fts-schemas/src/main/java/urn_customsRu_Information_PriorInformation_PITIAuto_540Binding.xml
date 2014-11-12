@@ -1,0 +1,32 @@
+<binding xmlns:pita="urn:customs.ru:Information:PriorInformation:PI_TIAuto:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:PI_TIAuto:5.4.0" default="elements" prefix="pita"/>
+  <mapping abstract="true" type-name="pita:PI_TIAutoType" class="ru.acs.fts.schemas.album.pi_tiauto.PITIAutoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="pita:TransportMeanCardType" get-method="getTransportMeanCard" set-method="setTransportMeanCard" name="TransportMeanCard"/>
+    <structure map-as="pita:TransportPersonType" get-method="getTransportDriver" set-method="setTransportDriver" name="TransportDriver"/>
+    <structure map-as="pita:TransportPersonType" get-method="getTransportOwner" set-method="setTransportOwner" name="TransportOwner"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.pi_tiauto.PITIAutoType" name="PI_TIAuto">
+    <structure map-as="pita:PI_TIAutoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pita:IdentityCardInfoType" class="ru.acs.fts.schemas.album.pi_tiauto.IdentityCardInfoType">
+    <structure map-as="cat_ru:IdentityCardType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pita:TransportMeanCardType" class="ru.acs.fts.schemas.album.pi_tiauto.TransportMeanCardType">
+    <structure map-as="cat_ru:AutomobileBaseType"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="TransportMeansTypeCode" get-method="getTransportMeansTypeCode" set-method="setTransportMeansTypeCode" usage="optional"/>
+    <value style="element" name="TransportCategoryCode" get-method="getTransportCategoryCode" set-method="setTransportCategoryCode" usage="optional" format="clt_ru:TransportCategoryCodeType"/>
+    <value style="element" name="StateRegNumber" get-method="getStateRegNumber" set-method="setStateRegNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="pita:TransportPersonType" class="ru.acs.fts.schemas.album.pi_tiauto.TransportPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="BirthDate" get-method="getBirthDate" set-method="setBirthDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="pita:IdentityCardInfoType" get-method="getIdentityCardInfo" set-method="setIdentityCardInfo" name="IdentityCardInfo"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+</binding>

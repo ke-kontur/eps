@@ -1,0 +1,10 @@
+<binding xmlns:addel="urn:customs.ru:Information:EArchDocuments:ArchDocDeleteRequest:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocDeleteRequest:5.4.0" default="elements" prefix="addel"/>
+  <mapping abstract="true" type-name="addel:ArchDocDeleteRequestType" class="ru.acs.fts.schemas.album.archdocdeleterequest.ArchDocDeleteRequestType">
+    <structure map-as="catArch_ru:ArchBaseDocType"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archdocdeleterequest.ArchDocDeleteRequestType" name="ArchDocDeleteRequest">
+    <structure map-as="addel:ArchDocDeleteRequestType"/>
+  </mapping>
+</binding>

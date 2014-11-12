@@ -1,0 +1,42 @@
+<binding xmlns:ktscm="urn:customs.ru:Information:CustomsDocuments:KTSOutCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:KTSOutCustomsMark:5.4.0" default="elements" prefix="ktscm"/>
+  <mapping abstract="true" type-name="ktscm:KTSOutCustomsMarkType" class="ru.acs.fts.schemas.album.ktsoutcustomsmark.KTSOutCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="KTSDocumentID" get-method="getKTSDocumentID" set-method="setKTSDocumentID"/>
+    <collection get-method="getKTSOutCustomsMarkGoodList" set-method="setKTSOutCustomsMarkGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ktscm:KTSOutCustomsMarkGoodsType" name="KTSOutCustomsMarkGoods"/>
+    </collection>
+    <collection get-method="getKTSOutCustomsMarkGeneralList" set-method="setKTSOutCustomsMarkGeneralList" create-type="java.util.ArrayList">
+      <structure map-as="ktscm:KTSOutCustomsMarkGeneralType" name="KTSOutCustomsMarkGeneral"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ktsoutcustomsmark.KTSOutCustomsMarkType" name="KTSOutCustomsMark">
+    <structure map-as="ktscm:KTSOutCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ktscm:KTSOutCustomsMarkGeneralType" class="ru.acs.fts.schemas.album.ktsoutcustomsmark.KTSOutCustomsMarkGeneralType">
+    <value style="element" name="KTS1FormNumber" get-method="getKTS1FormNumber" set-method="setKTS1FormNumber" usage="optional"/>
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <value style="element" name="PaymentEnsuringModeCodeType" get-method="getPaymentEnsuringModeCodeType" set-method="setPaymentEnsuringModeCodeType" usage="optional"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription"/>
+    <structure map-as="ktscm:SubscriptionType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="ktscm:KTSOutCustomsMarkGoodsType" class="ru.acs.fts.schemas.album.ktsoutcustomsmark.KTSOutCustomsMarkGoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <value style="element" name="KTS1FormNumber" get-method="getKTS1FormNumber" set-method="setKTS1FormNumber" usage="optional"/>
+    <value style="element" name="PaymentEnsuringModeCodeType" get-method="getPaymentEnsuringModeCodeType" set-method="setPaymentEnsuringModeCodeType" usage="optional"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription"/>
+    <value style="element" name="KTSFormNumber" get-method="getKTSFormNumber" set-method="setKTSFormNumber" usage="optional"/>
+    <structure map-as="ktscm:SubscriptionType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="ktscm:SubscriptionType" class="ru.acs.fts.schemas.album.ktsoutcustomsmark.SubscriptionType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="MarkDate" get-method="getMarkDate" set-method="setMarkDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MarkTime" get-method="getMarkTime" set-method="setMarkTime" usage="optional"/>
+  </mapping>
+</binding>

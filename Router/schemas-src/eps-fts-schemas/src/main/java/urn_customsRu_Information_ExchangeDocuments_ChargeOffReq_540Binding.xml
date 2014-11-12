@@ -1,0 +1,12 @@
+<binding xmlns:coreq="urn:customs.ru:Information:ExchangeDocuments:ChargeOffReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ChargeOffReq:5.4.0" default="elements" prefix="coreq"/>
+  <mapping abstract="true" type-name="coreq:ChargeOffReqType" class="ru.acs.fts.schemas.album.chargeoffreq.ChargeOffReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.chargeoffreq.ChargeOffReqType" name="ChargeOffReq">
+    <structure map-as="coreq:ChargeOffReqType"/>
+  </mapping>
+</binding>

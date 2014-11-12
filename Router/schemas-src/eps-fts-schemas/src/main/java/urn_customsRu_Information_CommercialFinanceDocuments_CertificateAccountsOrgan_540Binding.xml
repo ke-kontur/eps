@@ -1,0 +1,30 @@
+<binding xmlns:cacc="urn:customs.ru:Information:CommercialFinanceDocuments:CertificateAccountsOrgan:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:CertificateAccountsOrgan:5.4.0" default="elements" prefix="cacc"/>
+  <mapping abstract="true" type-name="cacc:CertificateAccountsOrganType" class="ru.acs.fts.schemas.album.certificateaccountsorgan.CertificateAccountsOrganType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DateIssue" get-method="getDateIssue" set-method="setDateIssue" format="LocalDate.default"/>
+    <structure map-as="cacc:BankInfoType" get-method="getBankInfo" set-method="setBankInfo" name="BankInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRequestTax" set-method="setRequestTax" name="RequestTax"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getTaxInfo" set-method="setTaxInfo" name="TaxInfo"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <collection get-method="getAccountInfoList" set-method="setAccountInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cacc:AccountInfoType" name="AccountInfo"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getBankRepresentative" set-method="setBankRepresentative" name="BankRepresentative"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.certificateaccountsorgan.CertificateAccountsOrganType" name="CertificateAccountsOrgan">
+    <structure map-as="cacc:CertificateAccountsOrganType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cacc:AccountInfoType" class="ru.acs.fts.schemas.album.certificateaccountsorgan.AccountInfoType">
+    <value style="element" name="BankAccount" get-method="getBankAccount" set-method="setBankAccount"/>
+    <value style="element" name="BankAccountDescription" get-method="getBankAccountDescription" set-method="setBankAccountDescription"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="cacc:BankInfoType" class="ru.acs.fts.schemas.album.certificateaccountsorgan.BankInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+  </mapping>
+</binding>

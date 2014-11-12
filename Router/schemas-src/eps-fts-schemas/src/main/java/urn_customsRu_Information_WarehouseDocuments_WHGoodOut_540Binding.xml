@@ -1,0 +1,43 @@
+<binding xmlns:whgou="urn:customs.ru:Information:WarehouseDocuments:WHGoodOut:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:WHGoodOut:5.4.0" default="elements" prefix="whgou"/>
+  <mapping abstract="true" type-name="whgou:WHGoodOutType" class="ru.acs.fts.schemas.album.whgoodout.WHGoodOutType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="ReleaseDate" get-method="getReleaseDate" set-method="setReleaseDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getDeliveryGoodList" set-method="setDeliveryGoodList" create-type="java.util.ArrayList">
+      <structure map-as="whgou:DeliveryGoodsType" name="DeliveryGoods"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getProduceDocuments" set-method="setProduceDocuments" usage="optional" name="ProduceDocuments"/>
+    <structure map-as="whgou:SVHLicenceNumberType" get-method="getSVHLicenceNumber" set-method="setSVHLicenceNumber" name="SVHLicenceNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.whgoodout.WHGoodOutType" name="WHGoodOut">
+    <structure map-as="whgou:WHGoodOutType"/>
+  </mapping>
+  <mapping abstract="true" type-name="whgou:DeliveryGoodsType" class="ru.acs.fts.schemas.album.whgoodout.DeliveryGoodsType">
+    <structure map-as="catWH_ru:ConsigneeType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhTransportType" name="Transport"/>
+    </collection>
+    <collection get-method="getGoodInfoList" set-method="setGoodInfoList" create-type="java.util.ArrayList">
+      <structure map-as="whgou:GoodInfoType" name="GoodInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="whgou:GoodInfoType" class="ru.acs.fts.schemas.album.whgoodout.GoodInfoType">
+    <structure map-as="catWH_ru:WhGoodType"/>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHContainerInformationType" name="Container"/>
+    </collection>
+    <collection get-method="getTransportDocList" set-method="setTransportDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="TransportDoc"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="whgou:SVHLicenceNumberType" class="ru.acs.fts.schemas.album.whgoodout.SVHLicenceNumberType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

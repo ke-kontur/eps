@@ -1,0 +1,23 @@
+<binding xmlns:ois_resp="urn:customs.ru:Information:CustomsDocuments:SEM_OISResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:SEM_OISResponse:5.4.0" default="elements" prefix="ois_resp"/>
+  <mapping abstract="true" type-name="ois_resp:SEM_OISResponseType" class="ru.acs.fts.schemas.album.sem_oisresponse.SEMOISResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ois_resp:ResultOISGoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sem_oisresponse.SEMOISResponseType" name="SEM_OISResponse">
+    <structure map-as="ois_resp:SEM_OISResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ois_resp:ResultOISGoodsType" class="ru.acs.fts.schemas.album.sem_oisresponse.ResultOISGoodsType">
+    <structure map-as="sem_cat:ResultGoodsType"/>
+    <value style="element" name="MessageDoc" get-method="getMessageDoc" set-method="setMessageDoc" usage="optional"/>
+    <value style="element" name="MessageIP" get-method="getMessageIP" set-method="setMessageIP" usage="optional"/>
+    <value style="element" name="MessageTov" get-method="getMessageTov" set-method="setMessageTov" usage="optional"/>
+    <collection get-method="getOISList" set-method="setOISList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:OISsType" name="OISs"/>
+    </collection>
+  </mapping>
+</binding>

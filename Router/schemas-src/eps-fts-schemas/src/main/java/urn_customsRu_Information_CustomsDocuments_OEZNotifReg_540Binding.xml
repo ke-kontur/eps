@@ -1,0 +1,19 @@
+<binding xmlns:oeznr="urn:customs.ru:Information:CustomsDocuments:OEZ_NotifReg:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_NotifReg:5.4.0" default="elements" prefix="oeznr"/>
+  <mapping abstract="true" type-name="oeznr:OEZ_NotifRegType" class="ru.acs.fts.schemas.album.oez_notifreg.OEZNotifRegType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="oeznr:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_notifreg.OEZNotifRegType" name="OEZ_NotifReg">
+    <structure map-as="oeznr:OEZ_NotifRegType"/>
+  </mapping>
+  <mapping abstract="true" type-name="oeznr:RegistrationNumberType" class="ru.acs.fts.schemas.album.oez_notifreg.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+</binding>

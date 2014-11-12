@@ -1,0 +1,20 @@
+<binding xmlns:eaddl="urn:customs.ru:Information:ExchangeDocuments:ExpiredAdditionalList:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ExpiredAdditionalList:5.4.0" default="elements" prefix="eaddl"/>
+  <mapping abstract="true" type-name="eaddl:ExpiredAdditionalListType" class="ru.acs.fts.schemas.album.expiredadditionallist.ExpiredAdditionalListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getExpiredAdditionalInfoList" set-method="setExpiredAdditionalInfoList" create-type="java.util.ArrayList">
+      <structure map-as="eaddl:ExpiredAdditionalInfoType" name="ExpiredAdditionalInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.expiredadditionallist.ExpiredAdditionalListType" name="ExpiredAdditionalList">
+    <structure map-as="eaddl:ExpiredAdditionalListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="eaddl:ExpiredAdditionalInfoType" class="ru.acs.fts.schemas.album.expiredadditionallist.ExpiredAdditionalInfoType">
+    <value style="element" name="Guarantor" get-method="getGuarantor" set-method="setGuarantor"/>
+    <value style="element" name="ValidityDate" get-method="getValidityDate" set-method="setValidityDate" format="LocalDate.default"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+  </mapping>
+</binding>

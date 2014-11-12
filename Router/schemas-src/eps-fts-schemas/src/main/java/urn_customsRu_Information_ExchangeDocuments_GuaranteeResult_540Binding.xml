@@ -1,0 +1,16 @@
+<binding xmlns:grnrslt="urn:customs.ru:Information:ExchangeDocuments:GuaranteeResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:GuaranteeResult:5.4.0" default="elements" prefix="grnrslt"/>
+  <mapping abstract="true" type-name="grnrslt:GuaranteeResultType" class="ru.acs.fts.schemas.album.guaranteeresult.GuaranteeResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
+    <collection get-method="getResultDescriptionList" set-method="setResultDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="ResultDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ResultCategory" get-method="getResultCategory" set-method="setResultCategory" usage="optional"/>
+    <value style="element" name="StatusDescription" get-method="getStatusDescription" set-method="setStatusDescription"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteeresult.GuaranteeResultType" name="GuaranteeResult">
+    <structure map-as="grnrslt:GuaranteeResultType"/>
+  </mapping>
+</binding>

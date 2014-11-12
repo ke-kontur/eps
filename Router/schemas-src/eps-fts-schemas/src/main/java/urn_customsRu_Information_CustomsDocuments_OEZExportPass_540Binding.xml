@@ -1,0 +1,60 @@
+<binding xmlns:expas="urn:customs.ru:Information:CustomsDocuments:OEZ_ExportPass:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_ExportPass:5.4.0" default="elements" prefix="expas"/>
+  <mapping abstract="true" type-name="expas:OEZ_ExportPassType" class="ru.acs.fts.schemas.album.oez_exportpass.OEZExportPassType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="LimitDate" get-method="getLimitDate" set-method="setLimitDate" format="LocalDate.default"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="expas:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="expas:ConsignorType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="expas:TransportMeansType" get-method="getTransportMeans" set-method="setTransportMeans" name="TransportMeans"/>
+    <collection get-method="getGoodsList" set-method="setGoodsList" create-type="java.util.ArrayList">
+      <structure map-as="expas:GoodsListType" name="GoodsList"/>
+    </collection>
+    <collection get-method="getDocumentExpList" set-method="setDocumentExpList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="DocumentExp"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getResident" set-method="setResident" usage="optional" name="Resident"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_exportpass.OEZExportPassType" name="OEZ_ExportPass">
+    <structure map-as="expas:OEZ_ExportPassType"/>
+  </mapping>
+  <mapping abstract="true" type-name="expas:ConsignorType" class="ru.acs.fts.schemas.album.oez_exportpass.ConsignorType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="expas:GoodsListType" class="ru.acs.fts.schemas.album.oez_exportpass.GoodsListType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WeighQuantity" get-method="getWeighQuantity" set-method="setWeighQuantity"/>
+    <value style="element" name="PackagesQuantity" get-method="getPackagesQuantity" set-method="setPackagesQuantity"/>
+    <value style="element" name="PackagingKind" get-method="getPackagingKind" set-method="setPackagingKind"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getGoodsStatuList" set-method="setGoodsStatuList" create-type="java.util.ArrayList">
+      <structure map-as="expas:GoodsStatusType" name="GoodsStatus"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="expas:GoodsStatusType" class="ru.acs.fts.schemas.album.oez_exportpass.GoodsStatusType">
+    <value style="element" name="StatusSymbolicValue" get-method="getStatusSymbolicValue" set-method="setStatusSymbolicValue"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="expas:RegistrationNumberType" class="ru.acs.fts.schemas.album.oez_exportpass.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="expas:TransportMeansType" class="ru.acs.fts.schemas.album.oez_exportpass.TransportMeansType">
+    <value style="element" name="TransportKind" get-method="getTransportKind" set-method="setTransportKind"/>
+    <value style="element" name="TransportMark" get-method="getTransportMark" set-method="setTransportMark" usage="optional"/>
+    <collection get-method="getTransportRegNumberList" set-method="setTransportRegNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TransportRegNumber" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ActiveTransportIdentifier" get-method="getActiveTransportIdentifier" set-method="setActiveTransportIdentifier"/>
+  </mapping>
+</binding>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- GC Task -->
+
+	<bean id="gcTask" class="ru.acs.fts.eps2.engine.tasks.GCTask" />
+
+	<bean id="gcTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="gcTask" />
+		<property name="targetMethod" value="collect" />
+	</bean>
+	
+	<bean id="gcTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="gcTaskScheduled" />
+		<property name="delay" value="300000" /> <!-- 300 seconds -->
+		<property name="period" value="600000" /> <!-- 600 seconds -->
+	</bean>
+	
+	<!-- Heartbeat Task -->
+	
+	<bean id="hbTask" class="ru.acs.fts.eps2.router.tasks.HeartbeatTask" >
+		<property name="useHeartbeat" ref="useHeartbeat" />
+		<property name="heartbeatDescription" ref="heartbeatDescription" />
+		
+		<property name="configurator" ref="configurator" />
+		<property name="manifestProcessors" ref="manifestCompleteProcessors" />
+		<property name="serviceHolder" ref="serviceHolder" />
+        <property name="addressFactory" ref="addressFactory" />
+        <property name="messagingGateway" ref="messagingGateway" />
+        <property name="jobBatchContextFactory" ref="epsJobBatchContextFactory" />
+	</bean>
+	
+	<bean id="hbTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="hbTask" />
+		<property name="targetMethod" value="execute" />
+	</bean>
+	
+	<bean id="hbTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="hbTaskScheduled" />
+		<property name="delay" ref="heartbeatInterval" />
+		<property name="period" ref="heartbeatInterval" />
+	</bean>
+	
+	<!-- Clean Old Processed Envelopes -->
+	
+	<bean id="cleanProcessedEnvelopesTask" class="ru.acs.fts.eps2.engine.tasks.ProcessedEnvelopesClean" >
+		<property name="envelopeManager" ref="envelopeManager" />
+	</bean>
+	
+	<bean id="cpeTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="cleanProcessedEnvelopesTask" />
+		<property name="targetMethod" value="clean" />
+	</bean>
+	
+	<bean id="cpeTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="cpeTaskScheduled" />
+		<property name="delay" value="60000" /> <!-- 60 seconds -->
+		<property name="period" value="600000" /> <!-- 600 seconds -->
+	</bean>
+	
+	<!-- EAD cleanup manifests -->
+	
+	<bean id="cleanEadManifestsTask" class="ru.acs.fts.eps2.router.tasks.EadManifestCleanTask" >
+		<property name="configurator" ref="configurator" />
+		<property name="manifestProcessors" ref="manifestCompleteProcessors" />
+		<property name="serviceHolder" ref="serviceHolder" />
+        <property name="addressFactory" ref="addressFactory" />
+        <property name="messagingGateway" ref="messagingGateway" />
+		<property name="jobBatchContextFactory" ref="epsJobBatchContextFactory" />
+		        
+        <property name="minutesToDelay" value="5" />
+	</bean>
+	
+	<bean id="cemTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="cleanEadManifestsTask" />
+		<property name="targetMethod" value="clean" />
+	</bean>
+	
+	<bean id="cemTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="cemTaskScheduled" />
+		<property name="delay" value="60000" /> <!-- 60 seconds -->
+		<property name="period" value="60000" /> <!-- 600 seconds -->
+	</bean>
+	
+	<!-- Admin Command Tasks -->
+	<bean id="executeAdminCmdTask" class="ru.acs.fts.eps2.router.tasks.AdminCmdTask" >
+		<property name="serviceHolder" ref="serviceHolder" />
+		<property name="configurator" ref="configurator" />
+        <property name="addressFactory" ref="addressFactory" />
+        <property name="messagingGateway" ref="messagingGateway" />
+        <property name="jobBatchContextFactory" ref="epsJobBatchContextFactory" />
+        <property name="timeout" value="30" />
+        <property name="aeoTimeout" value="30" />
+	</bean>
+	
+	<bean id="eacTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="executeAdminCmdTask" />
+		<property name="targetMethod" value="execute" />
+	</bean>
+	
+	<bean id="eacAeoTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="executeAdminCmdTask" />
+		<property name="targetMethod" value="executeAEO" />
+	</bean>
+	
+	<bean id="eacTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="eacTaskScheduled" />
+		<property name="delay" value="60000" />
+		<property name="period" value="21600000" />
+	</bean>
+	
+	<bean id="eacAeoTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="eacAeoTaskScheduled" />
+		<property name="delay" value="60000" /> <!-- 60 seconds -->
+		<property name="period" value="21600000" /> <!-- 1 day -->
+	</bean>
+	
+	<!-- Rzd Polling Task -->
+	
+	<bean id="rzdSendCommandProcessor" class="ru.acs.fts.eps2.router.tasks.RzdSendCommandProcessor">
+		<property name="addressFactory" ref="addressFactory" />
+		<property name="configurator" ref="configurator" />
+		<property name="envelopeOperator" ref="envelopeOperator" />
+		<property name="messagingGateway" ref="messagingGateway" />
+		<property name="serviceHolder" ref="serviceHolder" />
+		<property name="transformer" ref="xsltTransformer" />
+		<property name="jobBatchContextFactory" ref="epsJobBatchContextFactory" />
+	</bean>
+	
+	<bean id="executeRzdPollingTask" class="ru.acs.fts.eps2.router.tasks.RzdPollingTask" >
+		<property name="serviceHolder" ref="serviceHolder" />
+		<property name="processor" ref="rzdSendCommandProcessor" />
+	</bean>
+	
+	<bean id="erpTaskScheduled" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean" >
+		<property name="targetObject" ref="executeRzdPollingTask" />
+		<property name="targetMethod" value="execute" />
+	</bean>
+	
+	<bean id="erpTaskTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask" >
+		<property name="timerTask" ref="erpTaskScheduled" />
+		<property name="delay" value="0" />
+		<property name="period" value="60000" />
+		<property name="fixedRate" value="false" />
+	</bean>
+	
+	<!-- Scheduler -->
+	
+	<bean id="scheduler" class="org.springframework.scheduling.timer.TimerFactoryBean" >
+		<property name="scheduledTimerTasks" >
+			<bean factory-bean="tasks" factory-method="list" />
+		</property>
+			<!-- 
+			<list>
+				<ref bean="gcTaskTimer" />
+				<ref bean="cpeTaskTimer" />
+				<ref bean="cemTaskTimer" />
+				<ref bean="eacTaskTimer" />
+				<ref bean="eacAeoTaskTimer" />
+				<ref bean="erpTaskTimer" />
+				<ref bean="hbTaskTimer" />
+			</list>
+		</property> -->
+	</bean>
+	
+	<bean id="tasks" class="ru.acs.fts.eps2.router.tasks.ConditionalList" >
+		<property name="objects" >
+			<map>
+				<entry key-ref="gcTaskTimer" value="true" />
+				<entry key-ref="cpeTaskTimer" value="true" />
+				<entry key-ref="cemTaskTimer" value-ref="doEadManifestCleanup" />
+				<entry key-ref="eacTaskTimer" value-ref="doAdminPollingBean" />
+				<entry key-ref="eacAeoTaskTimer" value-ref="doAdminPollingBean" />
+				<entry key-ref="erpTaskTimer" value-ref="doRzdPollingBean" />
+				<entry key-ref="hbTaskTimer" value="true" />
+			</map>
+		</property>
+	</bean>
+	
+</beans>

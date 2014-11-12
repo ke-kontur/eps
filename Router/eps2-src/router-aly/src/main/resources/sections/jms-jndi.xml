@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<bean id="alyJmsConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}alyMqConfig/JmsConnectionFactory" />
+	</bean>
+	
+	<bean id="alyErrorQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}alyMqConfig/AlyErrorQueue" />
+	</bean>
+
+	<bean id="alyInputQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}alyMqConfig/AlyInputQueue" />
+	</bean>
+	
+	<bean id="alyOutputQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="${bindingsPrefix}alyMqConfig/AlyOutputQueue" />
+	</bean>
+	
+</beans>

@@ -1,0 +1,40 @@
+<binding xmlns:gode="urn:customs.ru:Information:CustomsDocuments:GoodsDeclaration:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsDeclaration:5.4.0" default="elements" prefix="gode"/>
+  <mapping abstract="true" type-name="gode:GoodsDeclarationType" class="ru.acs.fts.schemas.album.goodsdeclaration.GoodsDeclarationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <structure map-as="gode:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="gode:OrganizationType" get-method="getConsigner" set-method="setConsigner" name="Consigner"/>
+    <collection get-method="getGoodsList" set-method="setGoodsList" create-type="java.util.ArrayList">
+      <structure map-as="gode:GoodsListType" name="GoodsList"/>
+    </collection>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="gode:RailwayStationType" get-method="getDepartureStation" set-method="setDepartureStation" name="DepartureStation"/>
+    <structure map-as="gode:RailwayStationType" get-method="getDestinationStation" set-method="setDestinationStation" name="DestinationStation"/>
+    <structure map-as="gode:RailwayStationType" get-method="getBorderStation" set-method="setBorderStation" usage="optional" name="BorderStation"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsdeclaration.GoodsDeclarationType" name="GoodsDeclaration">
+    <structure map-as="gode:GoodsDeclarationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gode:GoodsListType" class="ru.acs.fts.schemas.album.goodsdeclaration.GoodsListType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <structure map-as="catESAD_cu:ESADGoodsPackagingType" get-method="getGoodsPackaging" set-method="setGoodsPackaging" usage="optional" name="GoodsPackaging"/>
+    <structure map-as="catESAD_cu:ESADContainerType" get-method="getContainer" set-method="setContainer" usage="optional" name="Container"/>
+  </mapping>
+  <mapping abstract="true" type-name="gode:OrganizationType" class="ru.acs.fts.schemas.album.goodsdeclaration.OrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="gode:RailwayStationType" class="ru.acs.fts.schemas.album.goodsdeclaration.RailwayStationType">
+    <value style="element" name="RailwayStationName" get-method="getRailwayStationName" set-method="setRailwayStationName"/>
+    <value style="element" name="RailwayStationCode" get-method="getRailwayStationCode" set-method="setRailwayStationCode"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+</binding>

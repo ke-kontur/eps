@@ -1,0 +1,66 @@
+<binding xmlns:tcp="urn:customs.ru:Information:CustomsDocuments:TransportMeansChassisPassport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransportMeansChassisPassport:5.4.0" default="elements" prefix="tcp"/>
+  <mapping abstract="true" type-name="tcp:TransportMeansChassisPassportType" class="ru.acs.fts.schemas.album.transportmeanschassispassport.TransportMeansChassisPassportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="CustomsRestriction" get-method="getCustomsRestriction" set-method="setCustomsRestriction" usage="optional"/>
+    <value style="element" name="SpecialMark" get-method="getSpecialMark" set-method="setSpecialMark" usage="optional"/>
+    <structure usage="optional" ordered="false" choice="true">
+      <structure map-as="tcp:FederalDocType" test-method="ifImportCertification" get-method="getImportCertification" set-method="setImportCertification" usage="optional" name="ImportCertification"/>
+      <structure map-as="tcp:CustomsProfitOrderType" test-method="ifCustomsProfitOrder" get-method="getCustomsProfitOrder" set-method="setCustomsProfitOrder" usage="optional" name="CustomsProfitOrder"/>
+      <structure map-as="cat_ru:GTDIDType" test-method="ifGTDID" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    </structure>
+    <structure map-as="catESAD_ru:TransportManufacturerType" get-method="getManufacturer" set-method="setManufacturer" name="Manufacturer"/>
+    <structure map-as="tcp:PShTSDataType" get-method="getPShTSData" set-method="setPShTSData" name="PShTSData"/>
+    <structure map-as="catESAD_ru:TransportOwnerType" get-method="getTransportMeansChassisOwner" set-method="setTransportMeansChassisOwner" name="TransportMeansChassisOwner"/>
+    <structure map-as="cat_ru:AddressType" get-method="getOrganizationLegalAddress" set-method="setOrganizationLegalAddress" usage="optional" name="OrganizationLegalAddress"/>
+    <structure map-as="cat_ru:TransportMeansPassportType" get-method="getPShTSSerialNumber" set-method="setPShTSSerialNumber" name="PShTSSerialNumber"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPersonSign" set-method="setPersonSign" usage="optional" name="PersonSign"/>
+    <collection get-method="getChassicBargainList" set-method="setChassicBargainList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tcp:ChassicBargainType" name="ChassicBargain"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transportmeanschassispassport.TransportMeansChassisPassportType" name="TransportMeansChassisPassport">
+    <structure map-as="tcp:TransportMeansChassisPassportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tcp:ChassicBargainType" class="ru.acs.fts.schemas.album.transportmeanschassispassport.ChassicBargainType">
+    <value style="element" name="SellingDate" get-method="getSellingDate" set-method="setSellingDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="catESAD_ru:TransportOwnerType" get-method="getNewChassisOwner" set-method="setNewChassisOwner" name="NewChassisOwner"/>
+    <collection get-method="getDocPropertyRightList" set-method="setDocPropertyRightList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="DocPropertyRights"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPrevOwnerSign" set-method="setPrevOwnerSign" usage="optional" name="PrevOwnerSign"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getNewOwnerSign" set-method="setNewOwnerSign" name="NewOwnerSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="tcp:CustomsProfitOrderType" class="ru.acs.fts.schemas.album.transportmeanschassispassport.CustomsProfitOrderType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries"/>
+  </mapping>
+  <mapping abstract="true" type-name="tcp:FederalDocType" class="ru.acs.fts.schemas.album.transportmeanschassispassport.FederalDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tcp:PShTSDataType" class="ru.acs.fts.schemas.album.transportmeanschassispassport.PShTSDataType">
+    <structure map-as="cat_ru:AutomobileBaseType"/>
+    <value style="element" name="EngineModel" get-method="getEngineModel" set-method="setEngineModel" usage="optional"/>
+    <value style="element" name="EnginePowerKvtQuanity" get-method="getEnginePowerKvtQuanity" set-method="setEnginePowerKvtQuanity" usage="optional"/>
+    <value style="element" name="EnginePowerHpQuanity" get-method="getEnginePowerHpQuanity" set-method="setEnginePowerHpQuanity" usage="optional"/>
+    <value style="element" name="EngineModeCode" get-method="getEngineModeCode" set-method="setEngineModeCode" usage="optional"/>
+    <value style="element" name="ColorCode" get-method="getColorCode" set-method="setColorCode"/>
+    <value style="element" name="ColorName" get-method="getColorName" set-method="setColorName"/>
+    <value style="element" name="Ekoclass" get-method="getEkoclass" set-method="setEkoclass" usage="optional"/>
+    <structure map-as="catESAD_ru:ConformanceCertificateType" get-method="getConformanceCertificate" set-method="setConformanceCertificate" usage="optional" name="ConformanceCertificate"/>
+    <collection get-method="getChassisColorList" set-method="setChassisColorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tcp:TransportColorListType" name="ChassisColorList"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="tcp:TransportColorListType" class="ru.acs.fts.schemas.album.transportmeanschassispassport.TransportColorListType">
+    <value style="element" name="ColorCode" get-method="getColorCode" set-method="setColorCode"/>
+    <value style="element" name="ColorName" get-method="getColorName" set-method="setColorName"/>
+  </mapping>
+</binding>

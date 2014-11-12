@@ -1,0 +1,50 @@
+<binding xmlns:pcnf="urn:customs.ru:Information:CommercialFinanceDocuments:PaymentConfirmation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:PaymentConfirmation:5.4.0" default="elements" prefix="pcnf"/>
+  <mapping abstract="true" type-name="pcnf:PaymentConfirmationType" class="ru.acs.fts.schemas.album.paymentconfirmation.PaymentConfirmationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NameOperator" get-method="getNameOperator" set-method="setNameOperator"/>
+    <value style="element" name="OwnerEquipment" get-method="getOwnerEquipment" set-method="setOwnerEquipment"/>
+    <value style="element" name="DocDate" get-method="getDocDate" set-method="setDocDate" format="LocalDate.default"/>
+    <value style="element" name="DocTime" get-method="getDocTime" set-method="setDocTime"/>
+    <value style="element" name="ReportNumber" get-method="getReportNumber" set-method="setReportNumber"/>
+    <value style="element" name="CheckNumber" get-method="getCheckNumber" set-method="setCheckNumber"/>
+    <value style="element" name="TotalAmount" get-method="getTotalAmount" set-method="setTotalAmount"/>
+    <value style="element" name="Completion" get-method="getCompletion" set-method="setCompletion"/>
+    <structure map-as="pcnf:CustomInfoType" get-method="getCustomsInfo" set-method="setCustomsInfo" name="CustomsInfo"/>
+    <structure map-as="pcnf:TerminalInfoType" get-method="getTerminalInfo" set-method="setTerminalInfo" usage="optional" name="TerminalInfo"/>
+    <structure map-as="pcnf:PaymentType" get-method="getPayment" set-method="setPayment" name="Payment"/>
+    <structure map-as="pcnf:PayerInfoType" get-method="getPayerInfo" set-method="setPayerInfo" name="PayerInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getBasePayment" set-method="setBasePayment" usage="optional" name="BasePayment"/>
+    <collection get-method="getPayingList" set-method="setPayingList" create-type="java.util.ArrayList">
+      <structure map-as="pcnf:PayingType" name="Paying"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.paymentconfirmation.PaymentConfirmationType" name="PaymentConfirmation">
+    <structure map-as="pcnf:PaymentConfirmationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pcnf:CustomInfoType" class="ru.acs.fts.schemas.album.paymentconfirmation.CustomInfoType">
+    <value style="element" name="CustomsName" get-method="getCustomsName" set-method="setCustomsName"/>
+    <value style="element" name="PostName" get-method="getPostName" set-method="setPostName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="pcnf:PayerInfoType" class="ru.acs.fts.schemas.album.paymentconfirmation.PayerInfoType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="pcnf:PayingType" class="ru.acs.fts.schemas.album.paymentconfirmation.PayingType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="CBC" get-method="getCBC" set-method="setCBC"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="pcnf:PaymentType" class="ru.acs.fts.schemas.album.paymentconfirmation.PaymentType">
+    <value style="element" name="PaymentKind" get-method="getPaymentKind" set-method="setPaymentKind"/>
+    <value style="element" name="CardNumber" get-method="getCardNumber" set-method="setCardNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pcnf:TerminalInfoType" class="ru.acs.fts.schemas.album.paymentconfirmation.TerminalInfoType">
+    <value style="element" name="TermenalNumber" get-method="getTermenalNumber" set-method="setTermenalNumber"/>
+    <value style="element" name="PostNumer" get-method="getPostNumer" set-method="setPostNumer"/>
+  </mapping>
+</binding>

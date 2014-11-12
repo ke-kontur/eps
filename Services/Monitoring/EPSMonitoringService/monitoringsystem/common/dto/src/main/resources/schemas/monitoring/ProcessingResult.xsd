@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- edited with XMLSpy v2005 sp2 U (http://www.altova.com) by  () -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:PR="urn:customs.ru:PR:1.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.2.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.2.0" targetNamespace="urn:customs.ru:PR:1.0.0" elementFormDefault="qualified" version="1.0.0.0">
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:4.2.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:4.2.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:element name="ProcessingResult" type="PR:ProcessingResultType"/>
+	<xs:complexType name="ProcessingResultType">
+		<xs:annotation>
+			<xs:documentation>Уведомление о результатах обработки/ошибки. </xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="ProcessingResult" type="PR:ProcessingResultInformationType">
+						<xs:annotation>
+							<xs:documentation>Информация о результате обработки.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentModeIDType" default="9999003E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProcessingResultInformationType">
+		<xs:annotation>
+			<xs:documentation>Информация о результате обработки.</xs:documentation>
+		</xs:annotation>
+	</xs:complexType>
+</xs:schema>

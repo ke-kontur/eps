@@ -1,0 +1,30 @@
+<binding xmlns:ir="urn:customs.ru:Information:SQDocuments:InfoRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:InfoRequest:5.4.0" default="elements" prefix="ir"/>
+  <mapping abstract="true" type-name="ir:InfoRequestType" class="ru.acs.fts.schemas.album.inforequest.InfoRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo" usage="optional"/>
+    <value style="element" name="ApplicationSourceSystemID" get-method="getApplicationSourceSystemID" set-method="setApplicationSourceSystemID" usage="optional"/>
+    <value style="element" name="ApplicationID" get-method="getApplicationID" set-method="setApplicationID" usage="optional"/>
+    <structure map-as="ir:OrganizationType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getRequestOrg" set-method="setRequestOrg" usage="optional" name="RequestOrg"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getRequestPerson" set-method="setRequestPerson" usage="optional" name="RequestPerson"/>
+    <structure map-as="ir:DocumentDetailsType" get-method="getDocumentDetails" set-method="setDocumentDetails" usage="optional" name="DocumentDetails"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inforequest.InfoRequestType" name="InfoRequest">
+    <structure map-as="ir:InfoRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ir:DocumentDetailsType" class="ru.acs.fts.schemas.album.inforequest.DocumentDetailsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getIssueOrg" set-method="setIssueOrg" usage="optional" name="IssueOrg"/>
+  </mapping>
+  <mapping abstract="true" type-name="ir:OrganizationType" class="ru.acs.fts.schemas.album.inforequest.OrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign" usage="optional"/>
+    <value style="element" name="InsuranceNumber" get-method="getInsuranceNumber" set-method="setInsuranceNumber" usage="optional"/>
+    <value style="element" name="BirthDate" get-method="getBirthDate" set-method="setBirthDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AddressSign" get-method="getAddressSign" set-method="setAddressSign" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getBirthPlace" set-method="setBirthPlace" usage="optional" name="BirthPlace"/>
+  </mapping>
+</binding>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<bean id="envelopeManagerSettings" class="ru.acs.fts.eps2.engine.persistence.embedded.EnvelopeManagerSettings" >
+		<property name="delay" value="60000" /> <!-- 1 minute -->
+		<property name="period" value="60000" /> <!-- 1 minute -->
+		<property name="expiration" value="60000" /> <!-- 1 minute -->
+	</bean>
+
+	<!-- 
+		Хранилище информации об обработанных конвертов, известно также как
+		"Внутренняя база данных"
+	--> 
+	<bean id="envelopeDatabase" class="ru.acs.fts.eps2.engine.persistence.embedded.EnvelopeProcessingDatabase" scope="singleton" />	
+
+	<!-- менеджер конвертов -->
+	<bean id="audEnvelopeManager" class="ru.acs.fts.eps2.engine.persistence.embedded.EnvelopeManager" scope="singleton" >
+		<property name="database" ref="envelopeDatabase" />
+		<property name="settings" ref="envelopeManagerSettings" />
+	</bean>
+	
+</beans>

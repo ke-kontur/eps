@@ -1,0 +1,42 @@
+<binding xmlns:rzdmed="urn:customs.ru:Information:SQDocuments:RZNMedizd:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RZNMedizd:5.4.0" default="elements" prefix="rzdmed"/>
+  <mapping abstract="true" type-name="rzdmed:RZNMedizdType" class="ru.acs.fts.schemas.album.rznmedizd.RZNMedizdType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="Application" get-method="getApplication" set-method="setApplication" usage="optional"/>
+    <structure map-as="rzdmed:RegistrationType" get-method="getRegistration" set-method="setRegistration" usage="optional" name="Registration"/>
+    <structure map-as="rzdmed:OrganizationType" get-method="getApplicantOrg" set-method="setApplicantOrg" usage="optional" name="ApplicantOrg"/>
+    <structure map-as="rzdmed:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional" name="GoodsDescription"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rznmedizd.RZNMedizdType" name="RZNMedizd">
+    <structure map-as="rzdmed:RZNMedizdType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rzdmed:GoodsDescriptionType" class="ru.acs.fts.schemas.album.rznmedizd.GoodsDescriptionType">
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsName" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getProducerList" set-method="setProducerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rzdmed:OrganizationType" name="Producer"/>
+    </collection>
+    <structure map-as="rzdmed:ItemType" get-method="getOKP" set-method="setOKP" usage="optional" name="OKP"/>
+    <structure map-as="rzdmed:ItemType" get-method="getCategory" set-method="setCategory" usage="optional" name="Category"/>
+    <structure map-as="rzdmed:SecurityClassType" get-method="get_Class" set-method="set_Class" usage="optional" name="Class"/>
+  </mapping>
+  <mapping abstract="true" type-name="rzdmed:ItemType" class="ru.acs.fts.schemas.album.rznmedizd.ItemType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rzdmed:OrganizationType" class="ru.acs.fts.schemas.album.rznmedizd.OrganizationType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="Id" get-method="getId" set-method="setId" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rzdmed:RegistrationType" class="ru.acs.fts.schemas.album.rznmedizd.RegistrationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="rzdmed:SecurityClassType" class="ru.acs.fts.schemas.album.rznmedizd.SecurityClassType">
+    <value style="element" name="ClassId" get-method="getClassId" set-method="setClassId" usage="optional"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+  </mapping>
+</binding>

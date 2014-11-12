@@ -1,0 +1,19 @@
+<binding xmlns:mvcf="urn:customs.ru:Information:CustomsDocuments:MovementConfirmation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:MovementConfirmation:5.4.0" default="elements" prefix="mvcf"/>
+  <mapping abstract="true" type-name="mvcf:MovementConfirmationType" class="ru.acs.fts.schemas.album.movementconfirmation.MovementConfirmationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="MovementDate" get-method="getMovementDate" set-method="setMovementDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="mvcf:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.movementconfirmation.MovementConfirmationType" name="MovementConfirmation">
+    <structure map-as="mvcf:MovementConfirmationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mvcf:RegistrationNumberType" class="ru.acs.fts.schemas.album.movementconfirmation.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+</binding>

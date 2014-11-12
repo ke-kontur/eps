@@ -1,0 +1,25 @@
+<binding xmlns:ni_res="urn:customs.ru:Information:SEMDocuments:SEM_NIResponse:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SEMDocuments:SEM_NIResponse:5.4.0" default="elements" prefix="ni_res"/>
+  <mapping abstract="true" type-name="ni_res:SEM_NIResponseType" class="ru.acs.fts.schemas.album.sem_niresponse.SEMNIResponseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Message" get-method="getMessage" set-method="setMessage"/>
+    <collection get-method="getResDeclarationList" set-method="setResDeclarationList" create-type="java.util.ArrayList">
+      <structure map-as="ni_res:ResDeclarationsType" name="ResDeclarations"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sem_niresponse.SEMNIResponseType" name="SEM_NIResponse">
+    <structure map-as="ni_res:SEM_NIResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ni_res:GoodsType" class="ru.acs.fts.schemas.album.sem_niresponse.GoodsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="Relevance" get-method="getRelevance" set-method="setRelevance"/>
+    <value style="element" name="RiskDetected" get-method="getRiskDetected" set-method="setRiskDetected"/>
+  </mapping>
+  <mapping abstract="true" type-name="ni_res:ResDeclarationsType" class="ru.acs.fts.schemas.album.sem_niresponse.ResDeclarationsType">
+    <structure map-as="cat_ru:GTDIDType" get-method="getGtdRegNumber" set-method="setGtdRegNumber" name="GtdRegNumber"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="ni_res:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+</binding>

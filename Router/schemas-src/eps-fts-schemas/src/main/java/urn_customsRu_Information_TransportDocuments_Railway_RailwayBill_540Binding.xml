@@ -1,0 +1,135 @@
+<binding xmlns:rwb="urn:customs.ru:Information:TransportDocuments:Railway:RailwayBill:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Railway:RailwayBill:5.4.0" default="elements" prefix="rwb"/>
+  <mapping abstract="true" type-name="rwb:RailwayBillType" class="ru.acs.fts.schemas.album.railwaybill.RailwayBillType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="ConsignorNotice" get-method="getConsignorNotice" set-method="setConsignorNotice" usage="optional"/>
+    <value style="element" name="ConsignorOptionNotice" get-method="getConsignorOptionNotice" set-method="setConsignorOptionNotice" usage="optional"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="DepartureModeDescription" get-method="getDepartureModeDescription" set-method="setDepartureModeDescription" usage="optional"/>
+    <value style="element" name="LoaderModeDescription" get-method="getLoaderModeDescription" set-method="setLoaderModeDescription" usage="optional"/>
+    <value style="element" name="AdditionalSheetQuantity" get-method="getAdditionalSheetQuantity" set-method="setAdditionalSheetQuantity" usage="optional"/>
+    <value style="element" name="CargoValue" get-method="getCargoValue" set-method="setCargoValue" usage="optional"/>
+    <value style="element" name="CustomsNotice" get-method="getCustomsNotice" set-method="setCustomsNotice" usage="optional"/>
+    <value style="element" name="WeightDefinitionModeDescription" get-method="getWeightDefinitionModeDescription" set-method="setWeightDefinitionModeDescription" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistrationDocument" set-method="setRegistrationDocument" name="RegistrationDocument"/>
+    <structure map-as="rwb:RBOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="rwb:RBOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="rwb:StationType" get-method="getDepartureStation" set-method="setDepartureStation" name="DepartureStation"/>
+    <structure map-as="rwb:RailwayType" get-method="getDestinationStation" set-method="setDestinationStation" name="DestinationStation"/>
+    <collection get-method="getBorderStationList" set-method="setBorderStationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rwb:StationType" name="BorderStation"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <collection get-method="getRWBGoodList" set-method="setRWBGoodList" create-type="java.util.ArrayList">
+      <structure map-as="rwb:RWBGoodsType" name="RWBGoods"/>
+    </collection>
+    <structure map-as="rwb:ExchangePalletType" get-method="getExchangePallet" set-method="setExchangePallet" usage="optional" name="ExchangePallet"/>
+    <structure map-as="rwb:WorkToolType" get-method="getWorkTool" set-method="setWorkTool" usage="optional" name="WorkTool"/>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rwb:ContainerType" name="Container"/>
+    </collection>
+    <collection get-method="getConsignorDocumentList" set-method="setConsignorDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rwb:RWDocumentType" name="ConsignorDocument"/>
+    </collection>
+    <collection get-method="getCarriageList" set-method="setCarriageList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rwb:CarriageType" name="Carriage"/>
+    </collection>
+    <collection get-method="getSealList" set-method="setSealList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rwb:SealType" name="Seal"/>
+    </collection>
+    <collection get-method="getPaidRailwayCodeNameList" set-method="setPaidRailwayCodeNameList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rwb:PaidRailwayCodeNameType" name="PaidRailwayCodeName"/>
+    </collection>
+    <structure map-as="rwb:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.railwaybill.RailwayBillType" name="RailwayBill">
+    <structure map-as="rwb:RailwayBillType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:CarriageType" class="ru.acs.fts.schemas.album.railwaybill.CarriageType">
+    <value style="element" name="CarriageID" get-method="getCarriageID" set-method="setCarriageID"/>
+    <value style="element" name="Power" get-method="getPower" set-method="setPower" usage="optional"/>
+    <value style="element" name="AxisQuantity" get-method="getAxisQuantity" set-method="setAxisQuantity" usage="optional"/>
+    <value style="element" name="Tare" get-method="getTare" set-method="setTare" usage="optional"/>
+    <value style="element" name="GoodsWeight" get-method="getGoodsWeight" set-method="setGoodsWeight" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:ContainerType" class="ru.acs.fts.schemas.album.railwaybill.ContainerType">
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+    <value style="element" name="ContainerID" get-method="getContainerID" set-method="setContainerID"/>
+    <value style="element" name="ContainerModeDescription" get-method="getContainerModeDescription" set-method="setContainerModeDescription"/>
+    <value style="element" name="ContainerCapacity" get-method="getContainerCapacity" set-method="setContainerCapacity" usage="optional"/>
+    <value style="element" name="ContainerCapacityUnitQualifierCode" get-method="getContainerCapacityUnitQualifierCode" set-method="setContainerCapacityUnitQualifierCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:DTInfoType" class="ru.acs.fts.schemas.album.railwaybill.DTInfoType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTNumber" set-method="setDTNumber" name="DTNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:ExchangePalletType" class="ru.acs.fts.schemas.album.railwaybill.ExchangePalletType">
+    <value style="element" name="FlatPalletQuantity" get-method="getFlatPalletQuantity" set-method="setFlatPalletQuantity" usage="optional"/>
+    <value style="element" name="BoxPalletQuantity" get-method="getBoxPalletQuantity" set-method="setBoxPalletQuantity" usage="optional"/>
+    <value style="element" name="ExchangeMode" get-method="getExchangeMode" set-method="setExchangeMode"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:InfoPayerType" class="ru.acs.fts.schemas.album.railwaybill.InfoPayerType">
+    <value style="element" name="PayerName" get-method="getPayerName" set-method="setPayerName"/>
+    <value style="element" name="PayerCode" get-method="getPayerCode" set-method="setPayerCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:MarkType" class="ru.acs.fts.schemas.album.railwaybill.MarkType">
+    <value style="element" name="MarkSing" get-method="getMarkSing" set-method="setMarkSing"/>
+    <value style="element" name="MarkKind" get-method="getMarkKind" set-method="setMarkKind"/>
+    <value style="element" name="ResultControl" get-method="getResultControl" set-method="setResultControl" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:PaidRailwayCodeNameType" class="ru.acs.fts.schemas.album.railwaybill.PaidRailwayCodeNameType">
+    <value style="element" name="PaidRailwayCode" get-method="getPaidRailwayCode" set-method="setPaidRailwayCode" usage="optional"/>
+    <value style="element" name="PaidRailwayName" get-method="getPaidRailwayName" set-method="setPaidRailwayName" usage="optional"/>
+    <value style="element" name="PaidRailwayShortName" get-method="getPaidRailwayShortName" set-method="setPaidRailwayShortName" usage="optional"/>
+    <structure map-as="rwb:InfoPayerType" get-method="getInfoPayer" set-method="setInfoPayer" usage="optional" name="InfoPayer"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:RBOrganizationType" class="ru.acs.fts.schemas.album.railwaybill.RBOrganizationType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="RBCode" get-method="getRBCode" set-method="setRBCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:RWBGoodsType" class="ru.acs.fts.schemas.album.railwaybill.RWBGoodsType">
+    <structure map-as="catTrans_ru:TransportGoodsType"/>
+    <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+    <value style="element" name="WorkToolDescription" get-method="getWorkToolDescription" set-method="setWorkToolDescription" usage="optional"/>
+    <value style="element" name="ConductorDescription" get-method="getConductorDescription" set-method="setConductorDescription" usage="optional"/>
+    <value style="element" name="PlaceGoodsQuantity" get-method="getPlaceGoodsQuantity" set-method="setPlaceGoodsQuantity" usage="optional"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="PlacesDescription" get-method="getPlacesDescription" set-method="setPlacesDescription"/>
+    <value style="element" name="HarmonizedRangeGoods" get-method="getHarmonizedRangeGoods" set-method="setHarmonizedRangeGoods" usage="optional"/>
+    <value style="element" name="Packing" get-method="getPacking" set-method="setPacking"/>
+    <value style="element" name="Marking" get-method="getMarking" set-method="setMarking" usage="optional"/>
+    <value style="element" name="CarriageNumber" get-method="getCarriageNumber" set-method="setCarriageNumber" usage="optional"/>
+    <value style="element" name="ContainerNumber" get-method="getContainerNumber" set-method="setContainerNumber" usage="optional"/>
+    <structure map-as="rwb:DTInfoType" get-method="getDTInfo" set-method="setDTInfo" usage="optional" name="DTInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:RWDocumentType" class="ru.acs.fts.schemas.album.railwaybill.RWDocumentType">
+    <structure map-as="catTrans_ru:DocumentType"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ReleaseCustoms" get-method="getReleaseCustoms" set-method="setReleaseCustoms" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:RailwayType" class="ru.acs.fts.schemas.album.railwaybill.RailwayType">
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode" usage="optional"/>
+    <value style="element" name="RailwayAndStationName" get-method="getRailwayAndStationName" set-method="setRailwayAndStationName"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:SealType" class="ru.acs.fts.schemas.album.railwaybill.SealType">
+    <value style="element" name="SealID" get-method="getSealID" set-method="setSealID"/>
+    <value style="element" name="SealQuantity" get-method="getSealQuantity" set-method="setSealQuantity"/>
+    <value style="element" name="IdentKind" get-method="getIdentKind" set-method="setIdentKind" usage="optional"/>
+    <value style="element" name="IdentDesc" get-method="getIdentDesc" set-method="setIdentDesc" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:StationType" class="ru.acs.fts.schemas.album.railwaybill.StationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode" usage="optional"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rwb:WorkToolType" class="ru.acs.fts.schemas.album.railwaybill.WorkToolType">
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+    <value style="element" name="WorkToolID" get-method="getWorkToolID" set-method="setWorkToolID" usage="optional"/>
+    <value style="element" name="ContainerModeDescription" get-method="getContainerModeDescription" set-method="setContainerModeDescription"/>
+  </mapping>
+</binding>

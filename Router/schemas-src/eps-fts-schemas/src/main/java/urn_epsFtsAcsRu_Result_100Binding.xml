@@ -1,0 +1,16 @@
+<binding xmlns:rslt="urn:eps.fts.acs.ru:Result:1.0.0">
+  <namespace uri="urn:eps.fts.acs.ru:Result:1.0.0" default="elements" prefix="rslt"/>
+  <mapping abstract="true" type-name="rslt:ResultType" class="ru.acs.fts.schemas.admin.gate_result2.ResultType">
+    <value style="element" name="DocumentID" get-method="getDocumentID" set-method="setDocumentID"/>
+    <value style="element" name="CreateDate" get-method="getCreateDate" set-method="setCreateDate" format="LocalDate.default"/>
+    <value style="element" name="CreateTime" get-method="getCreateTime" set-method="setCreateTime" format="LocalTime.local"/>
+    <structure name="ResultInformation">
+      <value style="element" name="ResultCode" get-method="getResultInformationResultCode" set-method="setResultInformationResultCode"/>
+      <value style="element" name="ResultDescription" get-method="getResultInformationResultDescription" set-method="setResultInformationResultDescription"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.gate_result2.ResultType" name="Result">
+    <structure map-as="rslt:ResultType"/>
+  </mapping>
+</binding>

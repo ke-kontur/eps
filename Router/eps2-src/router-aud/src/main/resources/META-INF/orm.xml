@@ -1,0 +1,46 @@
+<entity-mappings 
+		xmlns="http://java.sun.com/xml/ns/persistence/orm" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm 
+							http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"
+		version="1.0">
+	
+	<entity class="ru.acs.fts.aud.model.entities.ServiceDocument" />
+	<entity class="ru.acs.fts.aud.model.entities.RetentionControlRegister" />
+	<entity class="ru.acs.fts.aud.model.entities.RetentionControlResult" />
+	<entity class="ru.acs.fts.aud.model.entities.Document" />
+	<entity class="ru.acs.fts.aud.model.entities.DocumentKind" />
+	<entity class="ru.acs.fts.aud.model.entities.DocumentKindVersion" />
+	<entity class="ru.acs.fts.aud.model.entities.Packet" />
+	<entity class="ru.acs.fts.aud.model.entities.SignatureControlRegister" />
+	<entity class="ru.acs.fts.aud.model.entities.SignatureControlResult" />
+	<entity class="ru.acs.fts.aud.model.entities.DestructionRegister" />
+	<entity class="ru.acs.fts.aud.model.entities.DestructionResult" />
+	<entity class="ru.acs.fts.aud.model.entities.ExpertRegister" />
+	<entity class="ru.acs.fts.aud.model.entities.ExpertResult" />
+	<entity class="ru.acs.fts.aud.model.entities.ServerSetting" />
+	<entity class="ru.acs.fts.aud.model.entities.ServerStatistic" />
+	<entity class="ru.acs.fts.aud.model.entities.ArchiveRequest" />
+	<entity class="ru.acs.fts.aud.model.entities.ProtocolItem" />
+	<entity class="ru.acs.fts.aud.model.entities.ProtocolLogLevel" />
+	<entity class="ru.acs.fts.aud.model.entities.ProtocolSource" />
+	<entity class="ru.acs.fts.aud.model.entities.Client" />
+	<entity class="ru.acs.fts.aud.model.entities.ClientPermission" />
+	<entity class="ru.acs.fts.aud.model.entities.Attribute" />
+	<entity class="ru.acs.fts.aud.model.entities.AttributeVersion" />
+	<entity class="ru.acs.fts.aud.model.entities.DocumentRepresentation" />
+	<entity class="ru.acs.fts.aud.model.entities.User" />
+	<entity class="ru.acs.fts.aud.model.entities.Role" />
+	<entity class="ru.acs.fts.aud.model.entities.Permission" />
+	<entity class="ru.acs.fts.aud.model.entities.Schema" />
+	<entity class="ru.acs.fts.aud.model.entities.SchemaDependency" />
+	<entity class="ru.acs.fts.aud.model.entities.BusinessDocumentKind" />
+	<entity class="ru.acs.fts.aud.model.entities.BusinessAttribute" />
+	<entity class="ru.acs.fts.aud.model.entities.MessageKind" />
+	<entity class="ru.acs.fts.aud.model.entities.ErrorMessage" />
+	<entity class="ru.acs.fts.aud.model.entities.AttributeContent" />
+	<entity class="ru.acs.fts.aud.model.entities.ReindexPool" />
+	<entity class="ru.acs.fts.aud.model.entities.PacketGTD" />
+	<entity class="ru.acs.fts.aud.model.entities.ArchiveResponse" />
+			
+</entity-mappings>

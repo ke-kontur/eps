@@ -1,0 +1,33 @@
+<binding xmlns:ncuni="urn:customs.ru:Information:SQDocuments:NoticeCustUnion:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:NoticeCustUnion:5.4.0" default="elements" prefix="ncuni"/>
+  <mapping abstract="true" type-name="ncuni:NoticeCustUnionType" class="ru.acs.fts.schemas.album.noticecustunion.NoticeCustUnionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="UniNotificationID" get-method="getUniNotificationID" set-method="setUniNotificationID"/>
+    <value style="element" name="DestOrganizationName" get-method="getDestOrganizationName" set-method="setDestOrganizationName"/>
+    <value style="element" name="DestRegionCode" get-method="getDestRegionCode" set-method="setDestRegionCode"/>
+    <value style="element" name="InspectionDateTime" get-method="getInspectionDateTime" set-method="setInspectionDateTime"/>
+    <value style="element" name="PassTGNumber" get-method="getPassTGNumber" set-method="setPassTGNumber" usage="optional"/>
+    <value style="element" name="PassKGNumber" get-method="getPassKGNumber" set-method="setPassKGNumber" usage="optional"/>
+    <value style="element" name="PassOGNumber" get-method="getPassOGNumber" set-method="setPassOGNumber" usage="optional"/>
+    <value style="element" name="IsPerformed" get-method="getIsPerformed" set-method="setIsPerformed"/>
+    <value style="element" name="UpdateDate" get-method="getUpdateDate" set-method="setUpdateDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getNotification" set-method="setNotification" name="Notification"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getNotificationOrg" set-method="setNotificationOrg" name="NotificationOrg"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getDriver" set-method="setDriver" name="Driver"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getTransitPermit" set-method="setTransitPermit" name="TransitPermit"/>
+    <collection get-method="getViolationList" set-method="setViolationList" create-type="java.util.ArrayList">
+      <structure map-as="ncuni:ViolationType" name="Violation"/>
+    </collection>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.noticecustunion.NoticeCustUnionType" name="NoticeCustUnion">
+    <structure map-as="ncuni:NoticeCustUnionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ncuni:ViolationType" class="ru.acs.fts.schemas.album.noticecustunion.ViolationType">
+    <value style="element" name="NodeNumber" get-method="getNodeNumber" set-method="setNodeNumber"/>
+    <value style="element" name="ViolationName" get-method="getViolationName" set-method="setViolationName"/>
+    <value style="element" name="ControlStatusName" get-method="getControlStatusName" set-method="setControlStatusName"/>
+  </mapping>
+</binding>

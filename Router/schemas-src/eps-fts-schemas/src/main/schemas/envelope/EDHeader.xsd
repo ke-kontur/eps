@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<xs:schema targetNamespace="urn:customs.ru:Envelope:EDHeader:2.0" elementFormDefault="qualified" version="2.0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edhead="urn:customs.ru:Envelope:EDHeader:2.0">
+	<xs:annotation>
+		<xs:documentation>Заголовок для ЭПС</xs:documentation>
+	</xs:annotation>
+	<xs:element name="EDHeader" type="edhead:EDHeaderType"/>
+	<xs:complexType name="EDHeaderType">
+		<xs:annotation>
+			<xs:documentation>Заголовок для ЭПС</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MessageType" type="edhead:MessageTypeType">
+				<xs:annotation>
+					<xs:documentation>Тип сообщения. (ED.nnnnn, MSG.nnnnn, т.д.)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProccessID" type="edhead:ProcessIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникальный идентификатор процесса.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ParticipantID" type="edhead:ParticipantIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор внешнего участника обмена</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SenderCustoms" type="edhead:SenderCustomsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Таможенный орган  - отправитель  сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReceiverCustoms" type="edhead:ReceiverCustomsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Таможенный орган -  получатель сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CustomsType">
+		<xs:sequence>
+			<xs:element name="CustomsCode" type="edhead:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ExchType" type="edhead:ExchType">
+				<xs:annotation>
+					<xs:documentation>Код информационного обмена.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReceiverCustomsType">
+		<xs:annotation>
+			<xs:documentation>Таможенный орган -  получатель сообщения</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="edhead:CustomsType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SenderCustomsType">
+		<xs:annotation>
+			<xs:documentation>Таможенный орган  - отправитель  сообщения</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="edhead:CustomsType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="CustomsCodeType">
+		<xs:annotation>
+			<xs:documentation>Код. Код таможенного органа РФ. По "Классификатору  ТО и их структурных подразделений" ГТК. 8 символов.  Числовой</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:pattern value="\d{8}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ExchType">
+		<xs:annotation>
+			<xs:documentation>Код вида информационного обмена. Числовой. от 1 до 8 символов</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:pattern value="\d{1,8}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MessageTypeType">
+		<xs:annotation>
+			<xs:documentation>Текст. Текстовое описание. До 10 символов</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ParticipantIDType">
+		<xs:annotation>
+			<xs:documentation>Текст. Текстовое описание. До 255 символов</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ProcessIDType">
+		<xs:annotation>
+			<xs:documentation>Идентификатор. 36 символов (GUID)</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="36"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

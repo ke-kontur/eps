@@ -1,0 +1,57 @@
+<binding xmlns:DTSout_CU="urn:customs.ru:Information:CustomsDocuments:DTSout_CU:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:cat_EDTS_cu="urn:customs.ru:CUESADDTSCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DTSout_CU:5.4.0" default="elements" prefix="DTSout_CU"/>
+  <mapping abstract="true" type-name="DTSout_CU:DTSout_CUType" class="ru.acs.fts.schemas.album.dtsout_cu.DTSoutCUType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="AdditionalSheetNumber" get-method="getAdditionalSheetNumber" set-method="setAdditionalSheetNumber"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <value style="element" name="CurrencyDate" get-method="getCurrencyDate" set-method="setCurrencyDate" format="LocalDate.default"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+    <value style="element" name="ElectronicDocumentSign" get-method="getElectronicDocumentSign" set-method="setElectronicDocumentSign" usage="optional"/>
+    <value style="element" name="CurrencyQuantity" get-method="getCurrencyQuantity" set-method="setCurrencyQuantity" usage="optional"/>
+    <value style="element" name="FormDTS" get-method="getFormDTS" set-method="setFormDTS"/>
+    <value style="element" name="CustomsCostMethodCode" get-method="getCustomsCostMethodCode" set-method="setCustomsCostMethodCode"/>
+    <value style="element" name="BaseMethodCode" get-method="getBaseMethodCode" set-method="setBaseMethodCode" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDTSoutSeller" set-method="setDTSoutSeller" name="DTSoutSeller"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDTSoutBuyer" set-method="setDTSoutBuyer" name="DTSoutBuyer"/>
+    <collection get-method="getDTSInvoiceDocumentList" set-method="setDTSInvoiceDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:DTSPresentedDocumentsType" name="DTSInvoiceDocuments"/>
+    </collection>
+    <structure map-as="cat_EDTS_cu:DTSBuyerSellerDependenceType" get-method="getDTSBuyerSellerDependence" set-method="setDTSBuyerSellerDependence" usage="optional" name="DTSBuyerSellerDependence"/>
+    <structure map-as="cat_EDTS_cu:DTSSellingLimitationType" get-method="getDTSSellingLimitation" set-method="setDTSSellingLimitation" usage="optional" name="DTSSellingLimitation"/>
+    <structure map-as="cat_EDTS_cu:DTSAdditionalPaymentsType" get-method="getDTSAdditionalPayments" set-method="setDTSAdditionalPayments" usage="optional" name="DTSAdditionalPayments"/>
+    <collection get-method="getDTSoutCUGoodsCustomsCostList" set-method="setDTSoutCUGoodsCustomsCostList" create-type="java.util.ArrayList">
+      <structure map-as="DTSout_CU:GoodsCustomsCostType" name="DTSout_CUGoodsCustomsCost"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <structure map-as="cat_EDTS_cu:DTSFilledPersonType" get-method="getDTSoutCUFilledPerson" set-method="setDTSoutCUFilledPerson" name="DTSout_CUFilledPerson"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDTSoutDeclarant" set-method="setDTSoutDeclarant" name="DTSoutDeclarant"/>
+    <collection get-method="getDeliveryTermList" set-method="setDeliveryTermList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DeliveryTermsType" name="DeliveryTerms"/>
+    </collection>
+    <structure map-as="cat_EDTS_cu:ReasonApplyMethodType" get-method="getReasonApplyMethod" set-method="setReasonApplyMethod" usage="optional" name="ReasonApplyMethod"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.dtsout_cu.DTSoutCUType" name="DTSout_CU">
+    <structure map-as="DTSout_CU:DTSout_CUType"/>
+  </mapping>
+  <mapping abstract="true" type-name="DTSout_CU:GoodsCustomsCostType" class="ru.acs.fts.schemas.album.dtsout_cu.GoodsCustomsCostType">
+    <value style="element" name="SheetNumber" get-method="getSheetNumber" set-method="setSheetNumber"/>
+    <value style="element" name="GoodsSerialNumberRB" get-method="getGoodsSerialNumberRB" set-method="setGoodsSerialNumberRB" usage="optional"/>
+    <value style="element" name="SheetGoodsSerialNumber" get-method="getSheetGoodsSerialNumber" set-method="setSheetGoodsSerialNumber" usage="optional"/>
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <value style="element" name="NationalDeclaredCustomsCost" get-method="getNationalDeclaredCustomsCost" set-method="setNationalDeclaredCustomsCost"/>
+    <value style="element" name="DollarDeclaredCustomsCost" get-method="getDollarDeclaredCustomsCost" set-method="setDollarDeclaredCustomsCost"/>
+    <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+    <value style="element" name="MethodNumberCode" get-method="getMethodNumberCode" set-method="setMethodNumberCode" usage="optional"/>
+    <value style="element" name="BaseMethodNumberCode" get-method="getBaseMethodNumberCode" set-method="setBaseMethodNumberCode" usage="optional"/>
+    <collection get-method="getAdditionalDataList" set-method="setAdditionalDataList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:AdditionalDataType" name="AdditionalData"/>
+    </collection>
+    <collection get-method="getDTSCurrencyPaymentList" set-method="setDTSCurrencyPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_EDTS_cu:DTSCurrencyPaymentType" name="DTSCurrencyPayment"/>
+    </collection>
+    <structure map-as="cat_EDTS_cu:DTS_CUCustomsCostCalculationType" get-method="getDTSCUCustomsCostCalculation" set-method="setDTSCUCustomsCostCalculation" usage="optional" name="DTS_CUCustomsCostCalculation"/>
+  </mapping>
+</binding>

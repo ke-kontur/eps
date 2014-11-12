@@ -1,0 +1,17 @@
+<binding xmlns:irg="urn:customs.ru:Information:CustomsDocuments:InqRecallGTD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InqRecallGTD:5.4.0" default="elements" prefix="irg"/>
+  <mapping abstract="true" type-name="irg:InqRecallGTDType" class="ru.acs.fts.schemas.album.inqrecallgtd.InqRecallGTDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <collection get-method="getRecallReasonList" set-method="setRecallReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="RecallReason" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqrecallgtd.InqRecallGTDType" name="InqRecallGTD">
+    <structure map-as="irg:InqRecallGTDType"/>
+  </mapping>
+</binding>

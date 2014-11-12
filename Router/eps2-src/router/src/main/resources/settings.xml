@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="true">
+       
+	<import resource="sections/${profileName}-related.xml" />
+
+    <!--Текущая версия АПС ЭПС-->
+    <bean id="currentVersionBean" class="java.lang.String">
+        <constructor-arg value="${routerVersion}"/>
+    </bean>
+    
+    <bean id="springJNDIPropertyFactory" class="ru.acs.fts.eps2.util.jndi.SpringJNDIPropertyFactory"/>
+
+    <bean id="extGateTransmitionBean"
+          class="ru.acs.fts.eps2.model.entities.Edecl_Wmqaddress"
+          scope="prototype">
+        <property name="transportServer" ref="extGateTransmitionTransportServer"/>
+        <property name="localManager" ref="extGateTransmitionLocalManager"/>
+        <property name="localQueue" ref="extGateTransmitionLocalQueue"/>
+        <property name="remoteManager" ref="extGateTransmitionRemoteManager"/>
+        <property name="remoteQueue" ref="extGateTransmitionRemoteQueue"/>
+    </bean>
+    <bean id="extGateTransmitionTransportServer" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionTransportServer"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="extGateTransmitionLocalManager" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionLocalManager"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="extGateTransmitionLocalQueue" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionLocalQueue"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="extGateTransmitionRemoteManager" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionRemoteManager"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="extGateTransmitionRemoteQueue" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionRemoteQueue"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="rzdPollingTransmitionBean"
+          class="ru.acs.fts.eps2.model.entities.Edecl_Wmqaddress"
+          scope="prototype">
+        <property name="transportServer" ref="rzdPollingTransportServer"/>
+        <property name="localManager" ref="rzdPollingLocalManager"/>
+        <property name="localQueue" ref="rzdPollingLocalQueue"/>
+        <property name="remoteManager" ref="rzdPollingRemoteManager"/>
+        <property name="remoteQueue" ref="rzdPollingRemoteQueue"/>
+    </bean>
+    <bean id="rzdPollingTransportServer" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rzdPollingTransportServer"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="rzdPollingLocalManager" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rzdPollingLocalManager"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="rzdPollingLocalQueue" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rzdPollingLocalQueue"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="rzdPollingRemoteManager" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rzdPollingRemoteManager"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="rzdPollingRemoteQueue" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rzdPollingRemoteQueue"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="extGateSmtpAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateSmtpAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="extGateWmqAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/extGateWmqAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="kastoReceiveAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/kastoReceiveAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="epsReceiveAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/epsReceiveAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="epsReceiveAdminAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/epsReceiveAdminAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="epsSenderAdminExchangeTypeBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/epsSenderAdminExchangeType"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="asktt2CustomsCodeBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/asktt2CustomsCode"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="malakhitCustomsCodeBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/MalakhitCustomsCode"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="asktt2ExchType" class="java.lang.String" 
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/asktt2ExchType" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+    
+    <bean id="malakhitExchType" class="java.lang.String" 
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/MalakhitExchType" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+    
+    <bean id="RTUCodesBean" class="java.lang.String"
+    	  factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean">
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rtuCodes"/>
+    		</bean> 	
+    	</constructor-arg>
+    </bean>
+    
+    <bean id="processNotFullContainerListBean" class="java.lang.String"
+    	  factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean">
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/processNotFullContainerList"/>
+    		</bean> 	
+    	</constructor-arg>
+    </bean>   
+    
+    <bean id="epsCustomsCodeBean" class="java.lang.String"
+    	  factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean">
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/EpsCustomsCode"/>
+    		</bean> 	
+    	</constructor-arg>
+    </bean>
+    
+    <bean id="doRzdPollingBean" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/DoRzdPolling" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="doAdminPollingBean" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/DoAdminPolling" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="useEventServiceBean" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/UseEventService" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+    
+    <!--Конфигурация АПС ЭПС данной версии-->
+    <bean id="configurator" class="ru.acs.fts.eps2.router.processing.EDConfigurator">
+        <property name="softVersion"  ref="currentVersionBean" />
+        <property name="extGateTransmitionAddress" ref="extGateTransmitionBean"/>
+        <property name="extGateSmtpAddress" ref="extGateSmtpAddressBean"/>
+        <property name="extGateWmqAddress" ref="extGateWmqAddressBean"/>
+        <property name="kastoReceiveAddress" ref="kastoReceiveAddressBean"/>
+        <property name="epsReceiveAddress" ref="epsReceiveAddressBean"/>
+        <property name="epsReceiveAdminAddress" ref="epsReceiveAdminAddressBean"/>
+        <property name="epsSenderAdminExchangeType" ref="epsSenderAdminExchangeTypeBean"/>
+        <property name="asktt2CustomsCode" ref="asktt2CustomsCodeBean" />
+        <property name="asktt2ExchType" ref="asktt2ExchType" />
+        <property name="malakhitCustomsCode" ref="malakhitCustomsCodeBean" />
+        <property name="malakhitExchType" ref="malakhitExchType" />
+        <property name="rtuPatternsHolder">
+        	<bean class="ru.acs.fts.eps2.engine.configuration.RtuCodePatternsHolder">
+    			<constructor-arg>
+    				<ref bean="RTUCodesBean"/>
+    			</constructor-arg>
+    		</bean>
+        </property>
+        <property name="processNotFullContainerListHolder">
+        	<bean class="ru.acs.fts.eps2.engine.configuration.ProcessNotFullContainerListHolder">
+    			<constructor-arg>
+    				<ref bean="processNotFullContainerListBean"/>
+    			</constructor-arg>
+    		</bean>
+        </property>
+        <property name="epsCustomsCode" ref="epsCustomsCodeBean" />
+        <property name="rzdPollingTransportServer" ref="rzdPollingTransportServerBean" />
+        <property name="rzdPollingAddress" ref="rzdPollingTransmitionBean" />
+        <property name="rzdPollingParticipantId" ref="rzdPollingParticipantIdBean" />
+        <property name="rzdPollingSenderTransportAddress" ref="rzdPollingSenderTransportAddressBean" />
+        <property name="rzdPollingReceiverTransportAddress" ref="rzdPollingReceiverTransportAddressBean" />
+        <property name="balancerQueueManager" ref="balancerQueueManager" />
+        <property name="balancerHeartbeatQueue" ref="balancerHeartbeatQueue" />
+        <property name="balancerEpsQueue" ref="balancerEpsQueue" />
+        <property name="useEventService" ref="useEventServiceBean" />
+    </bean>
+    
+    <!-- Настройки для РЖД-Поллинга -->
+    <bean id="rzdPollingTransportServerBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/rzdPollingTransportServer"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="rzdPollingSenderTransportAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/RzdPollingSenderTransportAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="rzdPollingReceiverTransportAddressBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/RzdPollingReceiverTransportAddress"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="rzdPollingParticipantIdBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/RzdPollingParticipantId"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <!-- Настройка для CoaCodHeader -->
+    <bean id="ReplyQMgrBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/replyQMgr"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="ReplyQBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/ReplyQ"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="CoaNeedBean" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/CoaNeed" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="CodNeedBean" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/CodNeed" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="CoaCodFullDataBean" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/CoaCodFullData" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+    <!-- Адреса веб-сервисов -->    
+    <bean id="restEventSrvUrl" class="java.lang.String"
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/RestEventSrvUrl" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+    <bean id="restStructSrvUrl" class="java.lang.String"
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/RestStructSrvUrl" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+    <bean id="restCryptoSrvUrl" class="java.lang.String"
+    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+    	<constructor-arg>
+    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/RestCryptoSrvUrl" />
+    		</bean>
+    	</constructor-arg>
+    </bean>
+
+    <!-- Хранилище с Xsl-преобразованиями -->
+    <bean id="xsltStorage" class="ru.acs.fts.eps2.engine.configuration.XsltStorage">
+        <constructor-arg>
+            <map>
+                <entry key="result">
+                    <map>
+                        <entry key="5.0.8/3.0.5" value="/xslt/508/result.xslt"/>
+                        <entry key="5.0.9/3.0.6" value="/xslt/509/result.xslt"/>
+                        
+                        <!-- for testing -->
+                        <entry key="5.0.10/3.0.7" value="/xslt/509/result.xslt" />
+                        <entry key="5.0.11/3.0.8" value="/xslt/509/result.xslt" />
+                    </map>
+                </entry>
+                <entry key="epsEnvResponse">
+                    <map>
+                        <entry key="5.0.8/3.0.5" value="/xslt/508/epsEnvResponse.xslt"/>
+                        <entry key="5.0.9/3.0.6" value="/xslt/509/epsEnvResponse.xslt"/>
+                        
+                        <!-- for testing -->
+                        <entry key="5.0.10/3.0.7" value="/xslt/509/epsEnvResponse.xslt" />
+                        <entry key="5.0.11/3.0.8" value="/xslt/509/epsEnvResponse.xslt" />
+                    </map>
+                </entry>
+                <entry key="rzdPollingTranformation">
+                    <map>
+                        <entry key="5.0.9/3.0.6" value="/xslt/509/ESADInfo509.xslt"/>
+                        <entry key="5.0.10/3.0.7" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.0.11/3.0.8" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.0.12/3.0.9" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.0.13/3.1.0" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.0.14/3.2.0" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.0.15/3.2.1" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.0.16/3.2.2" value="/xslt/509/ESADInfo509.xslt" />
+                        <entry key="5.1.0/3.2.3" value="/xslt/510/ESADInfo510.xslt" />
+                        <entry key="5.4.0/3.2.4" value="/xslt/540/ESADInfo540.xslt" />
+                        <entry key="5.4.1/3.2.5" value="/xslt/540/ESADInfo540.xslt" />
+                    </map>
+                </entry>
+            </map>
+        </constructor-arg>
+    </bean>
+    
+    <!-- Xsl-трансформер -->
+    <bean id="xsltTransformer" class="ru.acs.fts.eps2.engine.util.xslt.XsltTransformer" >
+    	<property name="storage" ref="xsltStorage" />
+    </bean>
+    
+    <!-- Сердцебиение -->
+
+	<bean id="useHeartbeat" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/UseHeartbeat" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="heartbeatInterval" class="java.lang.Long" factory-method="parseLong">
+		<constructor-arg>	
+			<bean class="java.lang.String" 
+					factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+				<constructor-arg>
+					<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+						<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/HeartbeatInterval" />
+					</bean>
+				</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="heartbeatDescription" class="java.lang.String"
+			factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		<constructor-arg>
+			<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+				<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/HeartbeatDescription" />
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="balancerQueueManager" class="java.lang.String" 
+			factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		<constructor-arg>
+			<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+				<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/BalancerQueueManager" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="balancerHeartbeatQueue" class="java.lang.String" 
+			factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		<constructor-arg>
+			<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+				<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/BalancerHeartbeatQueue" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="balancerEpsQueue" class="java.lang.String" 
+			factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		<constructor-arg>
+			<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+				<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/BalancerEpsQueue" />
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="doEadManifestCleanup" class="java.lang.Boolean" factory-method="parseBoolean" >    
+		<constructor-arg>
+		    <bean class="java.lang.String"
+		    		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		    	<constructor-arg>
+		    		<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+		    			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/DoEadManifestCleanup" />
+		    		</bean>
+		    	</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="ensureDestinations" class="java.lang.String"
+			factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+		<constructor-arg>
+			<bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+				<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/EnsureDestinations" />
+			</bean>
+		</constructor-arg>
+	</bean>
+
+</beans>

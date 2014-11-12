@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+	<host name="Тестовый сервер" address="192.168.23.83">
+		<port name="Томкат-сервер" port="9988" />
+	</host>
+	
+<!-- 
+	<bean class="ru.acs.monitoring.services.HostSettings" p:name="Тестовый сервер"
+		p:address="192.168.23.83">
+		<property name="scannedPorts">
+			<list>
+				<bean class="ru.acs.monitoring.services.HostSettings$ScannedPort"
+					p:name="Томкат-сервер" p:port="9988" />
+			</list>
+		</property>
+	</bean>
+ -->
+ </monitoring>

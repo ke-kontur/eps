@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" version="4.1.1.0" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:4.1.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Общие сложные прикладные типы документов АЮД</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="AUD_AppliedDocumentIdType">
+      <xs:annotation>
+         <xs:documentation>Информация о прикладном идентификаторе документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="AppliedDocumentId" type="cltAUD_ru:AUD_AppliedIdType">
+            <xs:annotation>
+               <xs:documentation>Прикладной идентификатор документа. Значение должно быть равно значению 'DocumentID' ("Уникальный идентификатор документа") прикладного документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_AppliedDocumentInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе от прикладной системы.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_AppliedDocumentIdType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="Description" type="clt_ru:FreeText500Type">
+                  <xs:annotation>
+                     <xs:documentation>Описание документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="DocumentKindVersionIdInfoOpt" type="catAUD_ru:AUD_DocumentKindVersionIdInfoOptType">
+                  <xs:annotation>
+                     <xs:documentation>Информация для идентификации версии вида документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_AppliedDocumentInfoWithVersionRefType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе от прикладной системы, с указанием ссылки на прежнюю версию документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_AppliedDocumentInfoType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="PrevVersionArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор документа прежней версии. Указывается в случае, если документ представляет собой новую (следующую) версию уже хранимого документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_AppliedDocumentWithBodyType">
+      <xs:annotation>
+         <xs:documentation>Информация прикладной системы о документе и, возможно, тело документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_AppliedDocumentInfoType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="DocumentBody" type="catAUD_ru:AUD_DocumentBodyType">
+                  <xs:annotation>
+                     <xs:documentation>Тело документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_AppliedPacketInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация прикладной системы о пакете документов.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="AppliedPacketId" type="cltAUD_ru:AUD_AppliedIdType">
+            <xs:annotation>
+               <xs:documentation>Прикладной идентификатор пакета.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="Description" type="clt_ru:FreeText500Type">
+            <xs:annotation>
+               <xs:documentation>Описание пакета.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="AppliedPacketType" type="clt_ru:Code2Type">
+            <xs:annotation>
+               <xs:documentation>Тип размещаемого  пакета 01 - ГТД, 99 - прочие</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="AppliedProcessId" type="clt_ru:DocumentIDType">
+            <xs:annotation>
+               <xs:documentation>Уникальный идентификатор процесса</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="AUD_GTDID" type="catAUD_ru:AUD_GTDIDType">
+            <xs:annotation>
+               <xs:documentation>Регистрационный  номер ГТД заполняется  при   размещении  и предоставлении  пакета,  предназначенного для  хранения ГТД</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_ArchiveClientInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о клиенте архива.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="ArchiveClientId" type="clt_ru:DocumentIDType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор клиента архива.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Description" type="clt_ru:FreeText500Type">
+            <xs:annotation>
+               <xs:documentation>Наименование клиента архива.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_ArchiveDocumentIdWithVersionType">
+      <xs:annotation>
+         <xs:documentation>Информация об архивном идентификаторе документа и номере версии.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный идентификатор документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="DocumentVersionNumber" type="cltAUD_ru:AUD_DocumentVersionNumberType">
+            <xs:annotation>
+               <xs:documentation>Номер версии документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_ArchiveDocumentIdWithVersionsRefType">
+      <xs:annotation>
+         <xs:documentation>Информация о предыдущей и следующей версиях архивного документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="PrevVersionArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный идентификатор документа прежней версии. Указывается в случае, если данный документ заменил собой другой архивный документ, прежней версии.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="NextVersionArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный идентификатор документа следующей версии. Указывается в случае, если данный документ был заменен другим архивным документом, следующей версии.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_ArchiveDocumentInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе архива, без тела документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_ArchivePutInfoType">
+            <xs:sequence>
+               <xs:element name="ArchiveDocumentIdWithVersion" type="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType">
+                  <xs:annotation>
+                     <xs:documentation>Информация об архивном идентификаторе документа и номере версии.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_ArchivePacketInfoType">
+      <xs:annotation>
+         <xs:documentation>Краткая информация о пакете архива (без документов пакета).</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_ArchivePutInfoType">
+            <xs:sequence>
+               <xs:element name="ArchivePacketId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор пакета</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_ArchivePutInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о дате и времени размещения в архиве.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="PutDateTime" type="clt_ru:DateTimeCustType">
+            <xs:annotation>
+               <xs:documentation>Дата и время размещения в архиве.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_AttributeFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра на реквизит документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_UniversalFilterType">
+            <xs:sequence>
+               <xs:element name="AttributeId" type="cltAUD_ru:AUD_DocumentAttributeIdType">
+                  <xs:annotation>
+                     <xs:documentation>Идентификатор реквизита, на который накладывается фильтр.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_BaseEnvelopeType">
+      <xs:annotation>
+         <xs:documentation>Базовый класс для всех технологических документов АЮД.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="DocumentDateTime" type="clt_ru:DateTimeCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата и время создания технологического документа (запроса, ответа). Значение должно быть представлено с указанием смещения (значения локального времени относительно всемирного времени).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="TestDocumentIndicator" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак того, что технологический документ является тестовым.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_BaseFilterParamsType">
+      <xs:sequence>
+         <xs:element name="Operator" type="cltAUD_ru:AUD_FilterOperatorType">
+            <xs:annotation>
+               <xs:documentation>Используемый оператор.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_BooleanFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "boolean" (булевое). Допустимые операторы: empty, not_empty, equal, not_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="FilterValue" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "boolean" (булевое).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DTFilterType">
+      <xs:annotation>
+         <xs:documentation>Регистрационный номер таможенного документа. Применяется для всех документов имеющих структуру номера, совпадающую с со структурой номера ГТД</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="CustomsCode" type="clt_ru:CustomsCodeType">
+            <xs:annotation>
+               <xs:documentation>Код таможенного органа, зарегистрировавшего документ.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GTDNumber" type="clt_ru:GTDIDType">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер документа по журналу регистрации.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="RegistrationDate" type="catAUD_ru:AUD_DateFilterParamsType">
+            <xs:annotation>
+               <xs:documentation>Дата  регистрации документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DateFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "date" (дата). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element maxOccurs="2" minOccurs="0" name="FilterValue" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "date" (дата).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DateTimeFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "datetime" (дата и время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element maxOccurs="2" minOccurs="0" name="FilterValue" type="clt_ru:DateTimeCustType">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "datetime" (дата и время).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DeclinedDocumentInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе архива, в доступе к которому отказано.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный идентификатор документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ResultInfo" type="catAUD_ru:AUD_ResultInfoType">
+            <xs:annotation>
+               <xs:documentation>Информация о причине отказа в доступе.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentAttributeIdInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация об идентификаторе реквизита документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="AttributeId" type="cltAUD_ru:AUD_DocumentAttributeIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор реквизита.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentAttributeInfoAndValueType">
+      <xs:annotation>
+         <xs:documentation>Информация о реквизите документа и значение реквизита.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentAttributeInfoType">
+            <xs:sequence>
+               <xs:choice>
+                  <xs:element name="StringValue" type="clt_ru:FreeText500Type">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "string" (строка).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="TimeValue" type="clt_ru:TimeCustType">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "time" (время).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="DateValue" type="clt_ru:DateCustType">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "date" (дата).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="DateTimeValue" type="clt_ru:DateTimeCustType">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "datetime" (дата и время).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="DurationValue" type="cltAUD_ru:AUD_DurationCategoriesCust">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "duration" (длительность).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="RealNumberValue" type="cltAUD_ru:AUD_RealNumberType">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "real" (вещественное число)</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="IntegerNumberValue" type="cltAUD_ru:AUD_IntegerNumberType">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "integer" (целое число).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="BooleanValue" type="clt_ru:IndicatorType">
+                     <xs:annotation>
+                        <xs:documentation>Значение типа "boolean" (булевое).</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+               </xs:choice>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentAttributeInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о реквизите документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentAttributeIdInfoType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="Description" type="clt_ru:FreeText500Type">
+                  <xs:annotation>
+                     <xs:documentation>Название реквизита (краткое описание).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="ValueKind" type="cltAUD_ru:AUD_DocumentAttributeValueKindType">
+                  <xs:annotation>
+                     <xs:documentation>Тип значения реквизита.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentBodyType">
+      <xs:annotation>
+         <xs:documentation>Тело документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:any namespace="##any" processContents="skip" minOccurs="0" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentDataPresenceInfoType">
+      <xs:annotation>
+         <xs:documentation>Признаки необходимости предоставления отдельных данных, связанных с документом.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="BodyPresenceIndicator" type="clt_ru:IndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак - требуется ли предоставить тело документа: 0 (false) - не требуется; 1 (true) - требуется.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="SignatureEvidencePresenceIndicator" type="clt_ru:IndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак - требуется ли предоставить доказательства подлинности ЭЦП на документ: 0 (false) - не требуется; 1 (true) - требуется.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе архива.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_ArchiveDocumentInfoType">
+            <xs:sequence>
+               <xs:element name="IsActualDocumentIndicator" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак: является ли документ актуальным (true) или нет (false).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ArchiveContainerDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор документа-контейнера, содержащего данный документ. Указывается в случае, если документ был передан в архив на хранение не в виде самостоятельного документа, а в составе документа-контейнера (документа вида 'ED_Container').</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="CustomsCode" type="clt_ru:DocumentIDType">
+                  <xs:annotation>
+                     <xs:documentation>Код таможенного органа, к которому относится документ.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="DocumentSignatureEvidence" type="catAUD_ru:AUD_SignatureEvidenceType">
+                  <xs:annotation>
+                     <xs:documentation>Доказательства подлинности  ЭЦП на документ.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="AppliedDocumentWithBody" type="catAUD_ru:AUD_AppliedDocumentWithBodyType">
+                  <xs:annotation>
+                     <xs:documentation>Информация прикладной системы о документе и, возможно, тело документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentInfoWithAttributesType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе архива, пакете (в состав которого входит документ) и реквизитах документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentInfoWithPacketType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="AUD_DocumentAttributeInfoAndValue" type="catAUD_ru:AUD_DocumentAttributeInfoAndValueType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о реквизите документа и значение реквизита.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentInfoWithPacketSyncType">
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentInfoWithPacketType">
+            <xs:sequence>
+               <xs:element name="DocumenVersionChaintId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор документа прежней версии. Указывается в случае, если документ представляет собой новую (следующую) версию уже хранимого документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="EmbeddedDocumentArchiveInfoSync" type="catAUD_ru:AUD_EmbeddedDocumentArchiveInfoSyncType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о прикладном документе, вложенном в передаваемый на хранение документ-контейнер. Указывается обязательно в том и только в том случае, если передаваемый на хранение в архив документ представляет собой документ-контейнер ('ED_Container'). Указывается для каждого документа, вложенного в документ-контейнер.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentInfoWithPacketType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе архива и пакете (в состав которого входит документ).</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentInfoType">
+            <xs:sequence>
+               <xs:element name="PacketInfo" type="catAUD_ru:AUD_PacketInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о пакете, в состав которого входит документ.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentKindIdInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация для идентификации вида документа.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="AppliedDocumentKindId" type="cltAUD_ru:AUD_AppliedDocumentKindIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentKindInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о виде документов и версиях этого вида.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentKindIdInfoType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="Description" type="clt_ru:FreeText500Type">
+                  <xs:annotation>
+                     <xs:documentation>Описание  вида документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentKindVersionInfo" type="catAUD_ru:AUD_DocumentKindVersionInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о версии вида документов.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentKindRepresentationIdInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация для идентификации вида представления (используемого для визуализации документа).</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentKindVersionIdInfoType">
+            <xs:sequence>
+               <xs:element name="RepresentationKindId" type="cltAUD_ru:AUD_RepresentationKindIdType">
+                  <xs:annotation>
+                     <xs:documentation>Идентификатор вида представления.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentKindVersionIdInfoOptType">
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentKindIdInfoType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="AppliedDocumentKindVersionId" type="cltAUD_ru:AUD_AppliedDocumentKindVersionIdType">
+                  <xs:annotation>
+                     <xs:documentation>Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentKindVersionIdInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация для идентификации версии вида документа.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_DocumentKindIdInfoType">
+            <xs:sequence>
+               <xs:element name="AppliedDocumentKindVersionId" type="cltAUD_ru:AUD_AppliedDocumentKindVersionIdType">
+                  <xs:annotation>
+                     <xs:documentation>Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_DocumentKindVersionInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о версии вида документов, включая перечень способов представления (для визуализации документов) и перечень реквизитов.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="AppliedDocumentKindVersionId" type="cltAUD_ru:AUD_AppliedDocumentKindVersionIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="DocumentAttributeInfo" type="catAUD_ru:AUD_DocumentAttributeInfoType">
+            <xs:annotation>
+               <xs:documentation>Резерв. Информация о реквизите документа.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="RepresentationKindCommonInfo" type="catAUD_ru:AUD_RepresentationKindCommonInfoType">
+            <xs:annotation>
+               <xs:documentation>Информация о виде представления (для визуализации документа).</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_DurationFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "duration" (длительность). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element maxOccurs="2" minOccurs="0" name="FilterValue" type="cltAUD_ru:AUD_DurationCategoriesCust">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "duration" (длительность).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_EmbeddedDocumentArchiveInfoSyncType">
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_AppliedDocumentInfoType">
+            <xs:sequence>
+               <xs:element name="DocumenVersionChaintId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор документа прежней версии. Указывается в случае, если документ представляет собой новую (следующую) версию уже хранимого документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="IsActualDocumentIndicator" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак: является ли документ актуальным (true) или нет (false).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="ArchiveDocumentIdWithVersion" type="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType">
+                  <xs:annotation>
+                     <xs:documentation>Информация об архивном идентификаторе документа и номере версии.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_EmbeddedDocumentArchiveInfoType">
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_AppliedDocumentIdType">
+            <xs:sequence>
+               <xs:element name="ArchiveDocumentIdWithVersion" type="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType">
+                  <xs:annotation>
+                     <xs:documentation>Информация об архивном идентификаторе документа и номере версии.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_GTDIDType">
+      <xs:annotation>
+         <xs:documentation>Регистрационный номер ГТД</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:GTDIDType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="GTDIDState" type="clt_ru:Code2Type">
+                  <xs:annotation>
+                     <xs:documentation>Статус номера ГТД 01 - актуальный, 99 - номер был  изменен</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_IntegerNumberFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "integer" (целое число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element maxOccurs="2" minOccurs="0" name="FilterValue" type="cltAUD_ru:AUD_IntegerNumberType">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "integer" (целое число).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_PacketInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о пакете архива (без информации о документах пакета).</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_ArchivePacketInfoType">
+            <xs:sequence>
+               <xs:element name="AppliedPacketInfo" type="catAUD_ru:AUD_AppliedPacketInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о пакете архива, указанная прикладной системой.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_PacketInfoWithDocumentsType">
+      <xs:annotation>
+         <xs:documentation>Информация о пакете архива и его документах.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_PacketInfoType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" name="DocumentInfo" type="catAUD_ru:AUD_DocumentInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о документе архива.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_RealNumberFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "real" (вещественное число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element maxOccurs="2" minOccurs="0" name="FilterValue" type="cltAUD_ru:AUD_RealNumberType">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "real" (вещественное число).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_RepresentationKindCommonInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о виде представления (для визуализации документа).</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_RepresentationKindIdInfoType">
+            <xs:sequence>
+               <xs:element name="Description" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Описание представления.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_RepresentationKindIdInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация об идентификаторе вида представления (для визуализации документа).</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="RepresentationKindId" type="cltAUD_ru:AUD_RepresentationKindIdType">
+            <xs:annotation>
+               <xs:documentation>Идентификатор вида представления.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_ResultInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о результате обработки.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ResultCode" type="cltAUD_ru:AUD_ResultCodeType">
+            <xs:annotation>
+               <xs:documentation>Код результата обработки.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Description" type="cltAUD_ru:AUD_Text10MBType">
+            <xs:annotation>
+               <xs:documentation>Текстовое описание результата обработки.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_SignatureEvidenceType">
+      <xs:annotation>
+         <xs:documentation>Доказательства подлинности  ЭЦП на документ.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:any namespace="##any" processContents="skip"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AUD_StringFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="FilterValue" type="clt_ru:FreeText500Type">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "string" (строка).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="CaseSensitiveIndicator" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак: 0 (false) - выполнять поиск без учета регистра букв; 1 (true) - выполнять поиск с учетом регистра букв.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_TimeFilterParamsType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра для значения типа "time" (время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseFilterParamsType">
+            <xs:sequence>
+               <xs:element maxOccurs="2" minOccurs="0" name="FilterValue" type="clt_ru:TimeCustType">
+                  <xs:annotation>
+                     <xs:documentation>Значение фильтра для типа "time" (время).</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AUD_UniversalFilterType">
+      <xs:annotation>
+         <xs:documentation>Параметры фильтра (оператор указан в каждом фильтре).</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:choice>
+            <xs:element name="StringFilterParams" type="catAUD_ru:AUD_StringFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="BooleanFilterParams" type="catAUD_ru:AUD_BooleanFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "boolean" (булевое). Допустимые операторы: empty, not_empty, equal, not_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="TimeFilterParams" type="catAUD_ru:AUD_TimeFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "time" (время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="DateFilterParams" type="catAUD_ru:AUD_DateFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "date" (дата). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="DateTimeFilterParams" type="catAUD_ru:AUD_DateTimeFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "datetime" (дата и время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="DurationFilterParams" type="catAUD_ru:AUD_DurationFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "duration" (длительность). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="RealNumberFilterParams" type="catAUD_ru:AUD_RealNumberFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "real" (вещественное число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="IntegerNumberFilterParams" type="catAUD_ru:AUD_IntegerNumberFilterParamsType">
+               <xs:annotation>
+                  <xs:documentation>Параметры фильтра для значения типа "integer" (целое число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:choice>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

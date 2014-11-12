@@ -1,0 +1,32 @@
+<binding xmlns:perq="urn:customs.ru:Information:SertifDocuments:PermitQuarantine:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:PermitQuarantine:5.4.0" default="elements" prefix="perq"/>
+  <mapping abstract="true" type-name="perq:PermitQuarantineType" class="ru.acs.fts.schemas.album.permitquarantine.PermitQuarantineType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NameSubject" get-method="getNameSubject" set-method="setNameSubject"/>
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" format="LocalDate.default"/>
+    <value style="element" name="SenderCountry" get-method="getSenderCountry" set-method="setSenderCountry"/>
+    <collection get-method="getAdditionalRequirementList" set-method="setAdditionalRequirementList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AdditionalRequirements" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ListProhibitedGoods" get-method="getListProhibitedGoods" set-method="setListProhibitedGoods"/>
+    <value style="element" name="NameCheckpoint" get-method="getNameCheckpoint" set-method="setNameCheckpoint"/>
+    <collection get-method="getTransportationRouteList" set-method="setTransportationRouteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TransportationRoute" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getActionCheckpointList" set-method="setActionCheckpointList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ActionCheckpoint" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:GoodsBaseType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDeclarantInfo" set-method="setDeclarantInfo" name="DeclarantInfo"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getIssuePerson" set-method="setIssuePerson" name="IssuePerson"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getApplicationInfo" set-method="setApplicationInfo" usage="optional" name="ApplicationInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitquarantine.PermitQuarantineType" name="PermitQuarantine">
+    <structure map-as="perq:PermitQuarantineType"/>
+  </mapping>
+</binding>

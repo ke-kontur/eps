@@ -1,0 +1,56 @@
+<binding xmlns:do3r="urn:customs.ru:Information:WarehouseDocuments:DO3Report:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:DO3Report:5.4.0" default="elements" prefix="do3r"/>
+  <mapping abstract="true" type-name="do3r:DO3ReportType" class="ru.acs.fts.schemas.album.do3report.DO3ReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReportBegingDate" get-method="getReportBegingDate" set-method="setReportBegingDate" format="LocalDate.default"/>
+    <value style="element" name="ReportEndDate" get-method="getReportEndDate" set-method="setReportEndDate" format="LocalDate.default"/>
+    <value style="element" name="AddSheetsNumber" get-method="getAddSheetsNumber" set-method="setAddSheetsNumber"/>
+    <value style="element" name="ReportNumber" get-method="getReportNumber" set-method="setReportNumber"/>
+    <value style="element" name="ReportDate" get-method="getReportDate" set-method="setReportDate" format="LocalDate.default"/>
+    <value style="element" name="ReportTime" get-method="getReportTime" set-method="setReportTime" usage="optional"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="do3r:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="catWH_ru:WHCustomRegisterDocumentDataType" get-method="getCustomRegistration" set-method="setCustomRegistration" usage="optional" name="CustomRegistration"/>
+    <structure map-as="catWH_ru:WarehouseOwnerType" get-method="getWarehouseOwner" set-method="setWarehouseOwner" name="WarehouseOwner"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.do3report.DO3ReportType" name="DO3Report">
+    <structure map-as="do3r:DO3ReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="do3r:DO3DO1GoodLinkType" class="ru.acs.fts.schemas.album.do3report.DO3DO1GoodLinkType">
+    <value style="element" name="DO1Date" get-method="getDO1Date" set-method="setDO1Date" format="LocalDate.default"/>
+    <value style="element" name="DO1Number" get-method="getDO1Number" set-method="setDO1Number"/>
+    <value style="element" name="DO1GoodNumber" get-method="getDO1GoodNumber" set-method="setDO1GoodNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="do3r:DO3GoodInputType" class="ru.acs.fts.schemas.album.do3report.DO3GoodInputType">
+    <structure map-as="catWH_ru:WhGoodType"/>
+    <value style="element" name="GoodsWHNumber" get-method="getGoodsWHNumber" set-method="setGoodsWHNumber"/>
+    <structure map-as="do3r:DO3KeepingLimitType" get-method="getKeepingLimit" set-method="setKeepingLimit" name="KeepingLimit"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getTransportDocument" set-method="setTransportDocument" name="TransportDocument"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getRecipient" set-method="setRecipient" name="Recipient"/>
+    <structure map-as="do3r:DO3DO1GoodLinkType" get-method="getDO1GoodLink" set-method="setDO1GoodLink" name="DO1GoodLink"/>
+  </mapping>
+  <mapping abstract="true" type-name="do3r:DO3GoodOutputType" class="ru.acs.fts.schemas.album.do3report.DO3GoodOutputType">
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="OutputDate" get-method="getOutputDate" set-method="setOutputDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="OutputTime" get-method="getOutputTime" set-method="setOutputTime" usage="optional"/>
+    <structure map-as="catWH_ru:WHCargoPlaceType" get-method="getCargoPlace" set-method="setCargoPlace" usage="optional" name="CargoPlace"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getBruttoVolQuant" set-method="setBruttoVolQuant" usage="optional" name="BruttoVolQuant"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getMeasureQuantity" set-method="setMeasureQuantity" usage="optional" name="MeasureQuantity"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getOrderCustDoc" set-method="setOrderCustDoc" name="OrderCustDoc"/>
+  </mapping>
+  <mapping abstract="true" type-name="do3r:DO3KeepingLimitType" class="ru.acs.fts.schemas.album.do3report.DO3KeepingLimitType">
+    <value style="element" name="AcceptDate" get-method="getAcceptDate" set-method="setAcceptDate" format="LocalDate.default"/>
+    <value style="element" name="AcceptTime" get-method="getAcceptTime" set-method="setAcceptTime" usage="optional"/>
+    <value style="element" name="StoringDateType" get-method="getStoringDateType" set-method="setStoringDateType" usage="optional"/>
+    <value style="element" name="DeadLineDate" get-method="getDeadLineDate" set-method="setDeadLineDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="do3r:GoodsType" class="ru.acs.fts.schemas.album.do3report.GoodsType">
+    <structure map-as="do3r:DO3GoodInputType" get-method="getInput" set-method="setInput" name="Input"/>
+    <collection get-method="getOutputList" set-method="setOutputList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="do3r:DO3GoodOutputType" name="Output"/>
+    </collection>
+  </mapping>
+</binding>

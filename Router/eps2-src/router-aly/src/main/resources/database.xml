@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xmlns:jee="http://www.springframework.org/schema/jee" 
+		xmlns:p="http://www.springframework.org/schema/p"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/tx
+							http://www.springframework.org/schema/tx/spring-tx.xsd 
+							http://www.springframework.org/schema/jee 
+							http://www.springframework.org/schema/jee/spring-jee.xsd">
+
+	<jee:jndi-lookup id="alyBusinessProcessOracleConnection" jndi-name="alyBusinessProcess" />
+	<jee:jndi-lookup id="epsBusinessProcessOracleConnection" jndi-name="epsBusinessProcess" />
+
+	<bean id="alyPum" class="org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager">
+		<property name="persistenceXmlLocations">
+			<list>
+				<value>classpath:aly-persistence.xml</value>
+			</list>
+		</property>
+		<property name="defaultDataSource" ref="alyBusinessProcessOracleConnection" />
+	</bean>
+
+	<bean id="epsPum" class="org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager">
+		<property name="persistenceXmlLocations">
+			<list>
+				<value>classpath:eps-persistence.xml</value>
+			</list>
+		</property>
+		<property name="defaultDataSource" ref="epsBusinessProcessOracleConnection" />
+	</bean>
+
+	<bean id="alyEntityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceUnitManager" ref="alyPum" />
+		<property name="dataSource" ref="alyBusinessProcessOracleConnection" />
+		<property name="jpaProperties">
+			<props>
+				<prop key="eclipselink.ddl-generation">create-table</prop>
+				<prop key="javax.persistence.jdbc.driver">oracle.jdbc.OracleDriver</prop>
+				<prop key="eclipselink.weaving">false</prop>
+				<prop key="eclipselink.target-server">${eclipseLinkTargetServer}</prop>
+				<prop key="eclipselink.target-database">org.eclipse.persistence.platform.database.oracle.Oracle10Platform
+				</prop>
+			</props>
+		</property>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+				<property name="databasePlatform" value="org.eclipse.persistence.platform.database.OraclePlatform" />
+				<property name="showSql" value="true" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="epsEntityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceUnitManager" ref="epsPum" />
+		<property name="dataSource" ref="epsBusinessProcessOracleConnection" />
+		<property name="jpaProperties">
+			<props>
+				<prop key="eclipselink.ddl-generation">create-table</prop>
+				<prop key="javax.persistence.jdbc.driver">oracle.jdbc.OracleDriver</prop>
+				<prop key="eclipselink.weaving">false</prop>
+				<prop key="eclipselink.target-server">${eclipseLinkTargetServer}</prop>
+				<prop key="eclipselink.target-database">org.eclipse.persistence.platform.database.oracle.Oracle10Platform
+				</prop>
+			</props>
+		</property>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+				<property name="databasePlatform" value="org.eclipse.persistence.platform.database.OraclePlatform" />
+				<property name="showSql" value="true" />
+			</bean>
+		</property>
+	</bean>
+
+   <tx:annotation-driven transaction-manager="transactionManager" />
+   <bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager"/>
+
+	<bean id="alyJpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" lazy-init="true">
+		<property name="entityManagerFactory" ref="alyEntityManagerFactory" />
+	</bean>
+
+	<bean id="epsJpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" lazy-init="true">
+		<property name="entityManagerFactory" ref="epsEntityManagerFactory" />
+	</bean>
+
+	<!-- Aly Services -->
+	
+	<bean id="messageService" class="ru.acs.fts.aly.model.services.MessageService" >
+		<property name="jpaTemplate" ref="alyJpaTemplate" />
+	</bean>
+	
+	<bean id="diffService" class="ru.acs.fts.aly.model.services.DiffService" >
+		<property name="jpaTemplate" ref="alyJpaTemplate" />
+	</bean>
+	
+	<bean id="rzdReportsService" class="ru.acs.fts.aly.model.services.RzdReportsService" >
+		<property name="jpaTemplate" ref="alyJpaTemplate" />
+	</bean>
+	
+	<!-- EPS Services -->
+	
+	<bean id="envelopeService" class="ru.acs.fts.eps2.model.services.EnvelopeService" >
+		<property name="jpaTemplate" ref="epsJpaTemplate" />
+	</bean>
+	
+	<!-- Service Holder -->
+
+	<bean id="serviceHolder" class="ru.acs.fts.aly.router.model.AlyServiceHolder">
+		<property name="messageService" ref="messageService" />
+		<property name="diffService" ref="diffService" />
+		
+		<property name="envelopeService" ref="envelopeService" />
+	</bean>
+
+</beans>

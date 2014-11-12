@@ -1,0 +1,9 @@
+<module>
+	<inherits name="ru.acs.monitoring.app.config.conn.Connections" />
+	<inherits name="com.extjs.gxt.charts.Chart" />
+	<source path="domain" />
+	<source path="client" />
+	<source path="server" />
+	<inherits name="com.extjs.gxt.ui.GXT" />
+	<stylesheet src="/ExtGWT/css/gxt-all.css" />
+</module>

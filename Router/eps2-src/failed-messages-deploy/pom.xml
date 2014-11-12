@@ -1,0 +1,99 @@
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+							http://maven.apache.org/xsd/maven-4.0.0.xsd" >
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ru.acs.fts.eps2</groupId>
+		<artifactId>eps2</artifactId>
+		<version>1.0</version>
+		<relativePath>../parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>failed-messages-deploy</artifactId>
+	<version>1.0</version>
+	<packaging>ear</packaging>
+	<name>EPS2 Failed Messages And Coa/d Receipts Handler Deploy</name>
+	
+    <build>
+        <resources>
+   <resource>
+    <directory>${basedir}</directory>
+    <includes>
+     <include>*</include>
+    </includes>
+   </resource>
+   <resource>
+    <directory>ear-content/META-INF/</directory>
+    <excludes>
+     <exclude>**/application.xml</exclude>
+    </excludes>
+    <includes>
+     <include>**</include>
+    </includes>
+    <targetPath>META-INF/</targetPath>
+   </resource>
+  </resources>
+        <sourceDirectory>ear-content</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>${maven.ear-version}</version>
+                <configuration>
+                    <modules>
+                        <webModule>
+                            <groupId>ru.acs.fts.eps2</groupId>
+                            <artifactId>failed-messages</artifactId>
+                            <contextRoot>/failed-messages-poller</contextRoot>
+                        </webModule>
+                    </modules>
+                    <displayName>FailedMessages Poller</displayName>
+                    <generateApplicationXml>true</generateApplicationXml>
+                    <resourcesDir>target/classes</resourcesDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>ru.acs.fts.eps2</groupId>
+            <artifactId>failed-messages</artifactId>
+            <version>1.0</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+    
+	<profiles>
+		<profile>
+			<id>oas</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/ear-content/META-INF/</directory>
+						<excludes>
+							<exclude>weblogic-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+		
+		<profile>
+			<id>wls</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${project.basedir}/ear-content/META-INF/</directory>
+						<excludes>
+							<exclude>orion-application.xml</exclude>
+						</excludes>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+	</profiles>
+	
+</project>

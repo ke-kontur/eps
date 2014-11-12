@@ -1,0 +1,45 @@
+<binding xmlns:acf="urn:customs.ru:Information:TransportDocuments:Railway:ActCommonForm:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Railway:ActCommonForm:5.4.0" default="elements" prefix="acf"/>
+  <mapping abstract="true" type-name="acf:ActCommonFormType" class="ru.acs.fts.schemas.album.actcommonform.ActCommonFormType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TrainIndex" get-method="getTrainIndex" set-method="setTrainIndex" usage="optional"/>
+    <value style="element" name="TrainNumber" get-method="getTrainNumber" set-method="setTrainNumber"/>
+    <value style="element" name="Span" get-method="getSpan" set-method="setSpan" usage="optional"/>
+    <value style="element" name="ShipmentNumber" get-method="getShipmentNumber" set-method="setShipmentNumber" usage="optional"/>
+    <value style="element" name="ReceiptDate" get-method="getReceiptDate" set-method="setReceiptDate" format="LocalDate.default"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getActInfo" set-method="setActInfo" name="ActInfo"/>
+    <structure map-as="acf:StationType" get-method="getStation" set-method="setStation" name="Station"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="acf:StationType" get-method="getDepartureStation" set-method="setDepartureStation" name="DepartureStation"/>
+    <structure map-as="acf:StationType" get-method="getDispatchStation" set-method="setDispatchStation" name="DispatchStation"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="acf:GoodsInfoType" name="Goods"/>
+    </collection>
+    <collection get-method="getPersonList" set-method="setPersonList" create-type="java.util.ArrayList">
+      <structure map-as="acf:PersonType" name="Person"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getWayCustoms" set-method="setWayCustoms" usage="optional" name="WayCustoms"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getTD" set-method="setTD" name="TD"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actcommonform.ActCommonFormType" name="ActCommonForm">
+    <structure map-as="acf:ActCommonFormType"/>
+  </mapping>
+  <mapping abstract="true" type-name="acf:GoodsInfoType" class="ru.acs.fts.schemas.album.actcommonform.GoodsInfoType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Carriage" get-method="getCarriage" set-method="setCarriage" usage="optional"/>
+    <value style="element" name="Container" get-method="getContainer" set-method="setContainer" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="acf:PersonType" class="ru.acs.fts.schemas.album.actcommonform.PersonType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="acf:StationType" class="ru.acs.fts.schemas.album.actcommonform.StationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode" usage="optional"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+</binding>

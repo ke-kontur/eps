@@ -1,0 +1,31 @@
+<binding xmlns:rdr="urn:customs.ru:Information:CustomsDocuments:RepudDeclRegistration:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RepudDeclRegistration:5.4.0" default="elements" prefix="rdr"/>
+  <mapping abstract="true" type-name="rdr:RepudDeclRegistrationType" class="ru.acs.fts.schemas.album.repuddeclregistration.RepudDeclRegistrationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber" usage="optional"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganization" set-method="setOrganization" usage="optional" name="Organization"/>
+    <collection get-method="getDescriptionReasonList" set-method="setDescriptionReasonList" create-type="java.util.ArrayList">
+      <structure map-as="rdr:DescriptionReasonsType" name="DescriptionReasons"/>
+    </collection>
+    <structure map-as="rdr:CustomsPersonSignatureType" get-method="getCustomsPersonSignature" set-method="setCustomsPersonSignature" name="CustomsPersonSignature"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDeclRegNumber" set-method="setDeclRegNumber" usage="optional" name="DeclRegNumber"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDeclarantRequest" set-method="setDeclarantRequest" usage="optional" name="DeclarantRequest"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.repuddeclregistration.RepudDeclRegistrationType" name="RepudDeclRegistration">
+    <structure map-as="rdr:RepudDeclRegistrationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdr:CustomsPersonSignatureType" class="ru.acs.fts.schemas.album.repuddeclregistration.CustomsPersonSignatureType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdr:DescriptionReasonsType" class="ru.acs.fts.schemas.album.repuddeclregistration.DescriptionReasonsType">
+    <collection get-method="getReasonRefusalList" set-method="setReasonRefusalList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ReasonRefusal" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comment" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

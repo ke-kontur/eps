@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:DateRD:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:drd="urn:customs.ru:Information:CustomsDocuments:DateRD:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Перечень разрешительных документов</xs:documentation>
+   </xs:annotation>
+   <xs:element name="DataRD" type="drd:DataRDType"/>
+   <xs:complexType name="DataRDType">
+      <xs:annotation>
+         <xs:documentation>Перечень разрешительных документов</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="BDRDID" type="clt_ru:DocumentIDType">
+                  <xs:annotation>
+                     <xs:documentation>Уникальный номер по БД РД</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="DocumentCode" type="clt_ru:CustomsDocumentCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код вида документа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="DocumentNumber" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Номер документа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="IssueDate" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата выдачи документа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:choice>
+                  <xs:annotation>
+                     <xs:documentation>Документы</xs:documentation>
+                  </xs:annotation>
+                  <xs:element name="Quota" type="drd:QuotaType">
+                     <xs:annotation>
+                        <xs:documentation>Квотируемые документы</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="NotQuota" type="drd:NotQuotaType">
+                     <xs:annotation>
+                        <xs:documentation>Неквотируемые документы</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+               </xs:choice>
+            </xs:sequence>
+            <xs:attribute fixed="1006122E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="NotQuotaType">
+      <xs:annotation>
+         <xs:documentation>Неквотируемые документы</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="FormNumber" type="clt_ru:Count8Type">
+            <xs:annotation>
+               <xs:documentation>Номер бланка</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="4" minOccurs="0" name="GoodsName" type="drd:StructuredTextType">
+            <xs:annotation>
+               <xs:documentation>Наименование продукции</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ManufacturerName" type="drd:StructuredTextType">
+            <xs:annotation>
+               <xs:documentation>Наименование фирмы изготовителя</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ReceiverName" type="drd:StructuredTextType">
+            <xs:annotation>
+               <xs:documentation>Наименование фирмы получателя</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="QuotaType">
+      <xs:annotation>
+         <xs:documentation>Квотируемые документы</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="ConNumber" type="clt_ru:DocumentNumberType">
+            <xs:annotation>
+               <xs:documentation>Номер контракта</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ConDateSignature" type="clt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата подписания контракта</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="FormNumber" type="clt_ru:Count8Type">
+            <xs:annotation>
+               <xs:documentation>Номер бланка </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="SeriesForm" type="clt_ru:LetterIndicatorType">
+            <xs:annotation>
+               <xs:documentation>Серия бланка </xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="OwnersLicense" type="clt_ru:NameType">
+            <xs:annotation>
+               <xs:documentation>Наименование  владельца лицензии</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="OrganizationName" type="clt_ru:NameType">
+            <xs:annotation>
+               <xs:documentation>Наименование продавца (покупателя)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsTNVED" type="clt_ru:GoodsNomenclatureCodeType">
+            <xs:annotation>
+               <xs:documentation>Код ТНВЭД</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Описание (наименование) товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="StructuredTextType">
+      <xs:annotation>
+         <xs:documentation>Структурированный текст</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="RecordNumber" type="clt_ru:Count5Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер записи в таблице БД</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Text" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Текст</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

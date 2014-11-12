@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:minf="urn:customs.ru:MonitoringInfo:1.0.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.2.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.2.0" targetNamespace="urn:customs.ru:MonitoringInfo:1.0.0" elementFormDefault="qualified" version="1.0.0.0">
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:4.2.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:4.2.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Сведения о работоспособности системы</xs:documentation>
+	</xs:annotation>
+	<xs:element name="MonitoringInfo" type="minf:MonitoringInfo"/>
+	<xs:complexType name="Attribute">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="0"/>
+			<xs:element name="description" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AvailableMonitoringAttribute">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="available" type="xs:boolean"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MonitoringAttribute">
+		<xs:complexContent>
+			<xs:extension base="minf:Attribute">
+				<xs:sequence>
+					<xs:element name="severity" type="minf:Severity" minOccurs="0"/>
+					<xs:element name="updateTime" type="xs:dateTime" minOccurs="0"/>
+					<xs:element name="additionalInfo" type="xs:string" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DbAvailableSizeInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="tablespace" type="xs:string" minOccurs="0"/>
+					<xs:element name="availablePercent" type="xs:double" minOccurs="0"/>
+					<xs:element name="maxSpace" type="xs:double" minOccurs="0"/>
+					<xs:element name="usedSpace" type="xs:double" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DbMonitoringInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="Available" type="minf:AvailableMonitoringAttribute" minOccurs="0"/>
+					<xs:element name="DbFileSize" type="minf:DbAvailableSizeInfo" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="DbContentChecks" type="minf:DbContentChecks" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DbMonitoringInfos">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="DbInfo" type="minf:DbMonitoringInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="TCPPortOpenCheck">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="open" type="xs:boolean"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="HostMonitoringInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="available" type="xs:boolean"/>
+					<xs:element name="portOpenCheck" type="minf:TCPPortOpenCheck" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="HostMonitoringInfos">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="HostInfo" type="minf:HostMonitoringInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="EventLogMonitoringInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="logName" type="xs:string"/>
+					<xs:element name="sourceName" type="xs:string"/>
+					<xs:element name="interval" type="xs:int"/>
+					<xs:element name="maxErrorCount" type="xs:int"/>
+					<xs:element name="errorCount" type="xs:int"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="EventLogMonitoringInfos">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="EventLogCheck" type="minf:EventLogMonitoringInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DbContentCheck">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="correct" type="xs:boolean"/>
+					<xs:element name="incorrectnessDescription" type="xs:string" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DbContentChecks">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="DbContentCheck" type="minf:DbContentCheck" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DiskSpaceInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="diskName" type="xs:string" minOccurs="0"/>
+					<xs:element name="freeSizeMb" type="xs:long"/>
+					<xs:element name="totalSizeMb" type="xs:long"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MemoryInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="freeMemoryMb" type="xs:long"/>
+					<xs:element name="totalMemoryMb" type="xs:long"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MonitoringInfo">
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="systemName" type="xs:string" minOccurs="0"/>
+					<xs:element name="systemId" type="xs:string" minOccurs="0"/>
+					<xs:element name="severity" type="minf:Severity" minOccurs="0"/>
+					<xs:element name="HostInfos" type="minf:HostMonitoringInfos" minOccurs="0"/>
+					<xs:element name="DatabaseInfos" type="minf:DbMonitoringInfos" minOccurs="0"/>
+					<xs:element name="MqMonitoringInfo" type="minf:MqMonitoringInfo" minOccurs="0"/>
+					<xs:element name="SytemServicesInfo" type="minf:ServicesInfo" minOccurs="0"/>
+					<xs:element name="SystemInfo" type="minf:SystemInfo" minOccurs="0"/>
+					<xs:element name="FunctionServicesInfo" type="minf:ServicesInfo" minOccurs="0"/>
+					<xs:element name="SignaturesInfo" type="minf:SignaturesInfo" minOccurs="0"/>
+					<xs:element name="MessagesProcessingInfo" type="minf:MessagesProcessingInfo" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="EventLogInfos" type="minf:EventLogMonitoringInfos" minOccurs="0"/>
+					<xs:element name="Error" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="POP3MonitoringInfo" type="minf:POP3MonitoringInfo" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentIDType" default="9999001E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа. Код документа в Альбоме форматов.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MqMonitoringInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="QueueManagerInfo" type="minf:QueueManagerInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QueueManagerInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="queueManagerName" type="xs:string" minOccurs="0"/>
+					<xs:element name="host" type="xs:string" minOccurs="0"/>
+					<xs:element name="available" type="xs:boolean"/>
+					<xs:element name="QueueStatus" type="minf:QueueStatus" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QueueStatus">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="queueName" type="xs:string" minOccurs="0"/>
+					<xs:element name="available" type="xs:boolean"/>
+					<xs:element name="depth" type="xs:int"/>
+					<xs:element name="exceededDepth" type="xs:boolean"/>
+					<xs:element name="exceededInterval" type="xs:boolean"/>
+					<xs:element name="interval" type="xs:long"/>
+					<xs:element name="Error" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServicesInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="Service" type="minf:ServiceInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SystemInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="MemoryInfo" type="minf:MemoryInfo" minOccurs="0"/>
+					<xs:element name="DiskInfo" type="minf:DiskSpaceInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="host" type="xs:string" minOccurs="0"/>
+					<xs:element name="serviceName" type="xs:string" minOccurs="0"/>
+					<xs:element name="running" type="xs:boolean"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MessagesProcessingInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="MessageProcessingInfo" type="minf:MessageProcessingInfo" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MessageProcessingInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:Attribute">
+				<xs:sequence>
+					<xs:element name="MessageKind" type="xs:string"/>
+					<xs:element name="MessageDescription" type="xs:string" minOccurs="0"/>
+					<xs:element name="SuccessCount" type="xs:long" minOccurs="0"/>
+					<xs:element name="FlkErrCount" type="xs:long" minOccurs="0"/>
+					<xs:element name="ErrCount" type="xs:long" minOccurs="0"/>
+					<xs:element name="NumberField1" type="xs:long" minOccurs="0"/>
+					<xs:element name="NumberField2" type="xs:long" minOccurs="0"/>
+					<xs:element name="NumberField3" type="xs:long" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SignaturesInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="SignatureInfo" type="minf:SignatureInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SignatureInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="host" type="xs:string"/>
+					<xs:element name="serviceName" type="xs:string" minOccurs="0"/>
+					<xs:element name="port" type="xs:long" minOccurs="0"/>
+					<xs:element name="available" type="xs:boolean"/>
+					<xs:element name="CertificateInfo" type="minf:CertificateInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="Error" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="CertificateInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="Error" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="Severity">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="INFO"/>
+			<xs:enumeration value="WARNING"/>
+			<xs:enumeration value="ERROR"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="POP3MonitoringInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="MailboxInfo" type="minf:MailboxInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MailboxInfo">
+		<xs:complexContent>
+			<xs:extension base="minf:MonitoringAttribute">
+				<xs:sequence>
+					<xs:element name="mailboxName" type="xs:string"/>
+					<xs:element name="messagesCount" type="xs:int" minOccurs="0"/>
+					<xs:element name="oldestMessageDateTime" type="xs:dateTime" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

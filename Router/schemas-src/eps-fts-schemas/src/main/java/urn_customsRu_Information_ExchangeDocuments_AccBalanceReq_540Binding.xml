@@ -1,0 +1,21 @@
+<binding xmlns:accbr="urn:customs.ru:Information:ExchangeDocuments:AccBalanceReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:AccBalanceReq:5.4.0" default="elements" prefix="accbr"/>
+  <mapping abstract="true" type-name="accbr:AccBalanceReqType" class="ru.acs.fts.schemas.album.accbalancereq.AccBalanceReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="accbr:PaymentInfoType" get-method="getPaymentInfo" set-method="setPaymentInfo" usage="optional" name="PaymentInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.accbalancereq.AccBalanceReqType" name="AccBalanceReq">
+    <structure map-as="accbr:AccBalanceReqType"/>
+  </mapping>
+  <mapping abstract="true" type-name="accbr:PaymentInfoType" class="ru.acs.fts.schemas.album.accbalancereq.PaymentInfoType">
+    <value style="element" name="ID" get-method="getID" set-method="setID"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount" usage="optional"/>
+  </mapping>
+</binding>

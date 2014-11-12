@@ -1,0 +1,114 @@
+<binding xmlns:ivtin="urn:customs.ru:Information:CustomsDocuments:InventoryIn:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InventoryIn:5.4.0" default="elements" prefix="ivtin"/>
+  <mapping abstract="true" type-name="ivtin:InventoryInType" class="ru.acs.fts.schemas.album.inventoryin.InventoryInType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NumberOfInvent" get-method="getNumberOfInvent" set-method="setNumberOfInvent"/>
+    <value style="element" name="RefPackageDocID" get-method="getRefPackageDocID" set-method="setRefPackageDocID" usage="optional"/>
+    <structure map-as="ivtin:GTDPersonType" get-method="getGTDPerson" set-method="setGTDPerson" name="GTDPerson"/>
+    <collection get-method="getInventoryInstanceList" set-method="setInventoryInstanceList" create-type="java.util.ArrayList">
+      <structure map-as="ivtin:InventoryInstanceType" name="InventoryInstance"/>
+    </collection>
+    <structure map-as="ivtin:InventOfficialMarkType" get-method="getInventOfficialMark" set-method="setInventOfficialMark" usage="optional" name="InventOfficialMark"/>
+    <collection get-method="getRequestList" set-method="setRequestList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ivtin:RequestType" name="Request"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inventoryin.InventoryInType" name="InventoryIn">
+    <structure map-as="ivtin:InventoryInType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:AddControlDescriptionType" class="ru.acs.fts.schemas.album.inventoryin.AddControlDescriptionType">
+    <value style="element" name="AddControlNumber" get-method="getAddControlNumber" set-method="setAddControlNumber"/>
+    <value style="element" name="AddControlDate" get-method="getAddControlDate" set-method="setAddControlDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:CommunicationType" class="ru.acs.fts.schemas.album.inventoryin.CommunicationType">
+    <value style="element" name="CommCode" get-method="getCommCode" set-method="setCommCode"/>
+    <value style="element" name="CommNumber" get-method="getCommNumber" set-method="setCommNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:GTDPersonType" class="ru.acs.fts.schemas.album.inventoryin.GTDPersonType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="BranchOrganizationName" get-method="getBranchOrganizationName" set-method="setBranchOrganizationName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:InventDocumentType" class="ru.acs.fts.schemas.album.inventoryin.InventDocumentType">
+    <value style="element" name="InvDocCode" get-method="getInvDocCode" set-method="setInvDocCode"/>
+    <value style="element" name="InvDocName" get-method="getInvDocName" set-method="setInvDocName"/>
+    <value style="element" name="InvDocNumber" get-method="getInvDocNumber" set-method="setInvDocNumber" usage="optional"/>
+    <value style="element" name="InvDocDate" get-method="getInvDocDate" set-method="setInvDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="InvDocLists" get-method="getInvDocLists" set-method="setInvDocLists" usage="optional"/>
+    <value style="element" name="InvDocCopies" get-method="getInvDocCopies" set-method="setInvDocCopies" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="DocumentFormSign" get-method="getDocumentFormSign" set-method="setDocumentFormSign"/>
+    <value style="element" name="PresentDocumentType" get-method="getPresentDocumentType" set-method="setPresentDocumentType"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber" usage="optional"/>
+    <value style="element" name="SerialNumberSign" get-method="getSerialNumberSign" set-method="setSerialNumberSign" usage="optional"/>
+    <structure map-as="ivtin:RequestDescriptionType" get-method="getRequestDescription" set-method="setRequestDescription" usage="optional" name="RequestDescription"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getPrevGTDNumber" set-method="setPrevGTDNumber" usage="optional" name="PrevGTDNumber"/>
+    <structure map-as="ivtin:AddControlDescriptionType" get-method="getAddControlDescription" set-method="setAddControlDescription" usage="optional" name="AddControlDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:InventOfficialMarkType" class="ru.acs.fts.schemas.album.inventoryin.InventOfficialMarkType">
+    <value style="element" name="GTDAcceptTime" get-method="getGTDAcceptTime" set-method="setGTDAcceptTime" usage="optional"/>
+    <value style="element" name="ExaminationStartDate" get-method="getExaminationStartDate" set-method="setExaminationStartDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ExaminationStartTime" get-method="getExaminationStartTime" set-method="setExaminationStartTime" usage="optional"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+    <value style="element" name="GTDDecisionCode" get-method="getGTDDecisionCode" set-method="setGTDDecisionCode" usage="optional"/>
+    <value style="element" name="GTDDecisionDate" get-method="getGTDDecisionDate" set-method="setGTDDecisionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="GTDDecisionTime" get-method="getGTDDecisionTime" set-method="setGTDDecisionTime" usage="optional"/>
+    <value style="element" name="DecisionReason" get-method="getDecisionReason" set-method="setDecisionReason" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:InventoryInstanceMarkType" class="ru.acs.fts.schemas.album.inventoryin.InventoryInstanceMarkType">
+    <value style="element" name="InventoryInstanceDate" get-method="getInventoryInstanceDate" set-method="setInventoryInstanceDate" format="LocalDate.default"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:InventoryInstancePersonType" class="ru.acs.fts.schemas.album.inventoryin.InventoryInstancePersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" name="IdentityCard"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritesDocument" set-method="setAuthoritesDocument" name="AuthoritesDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:InventoryInstanceType" class="ru.acs.fts.schemas.album.inventoryin.InventoryInstanceType">
+    <value style="element" name="InstanceNumber" get-method="getInstanceNumber" set-method="setInstanceNumber"/>
+    <structure map-as="ivtin:InventoryInstancePersonType" get-method="getInventoryInstancePerson" set-method="setInventoryInstancePerson" name="InventoryInstancePerson"/>
+    <collection get-method="getInventDocumentList" set-method="setInventDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="ivtin:InventDocumentType" name="InventDocument"/>
+    </collection>
+    <structure map-as="ivtin:InventoryInstanceMarkType" get-method="getInventoryInstanceMark" set-method="setInventoryInstanceMark" usage="optional" name="InventoryInstanceMark"/>
+    <collection get-method="getPriorInformationList" set-method="setPriorInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ivtin:PriorInformationType" name="PriorInformation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:PriorInformationType" class="ru.acs.fts.schemas.album.inventoryin.PriorInformationType">
+    <collection get-method="getPriorInformationIDList" set-method="setPriorInformationIDList" create-type="java.util.ArrayList">
+      <value style="element" name="PriorInformationID" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:RequestDescriptionType" class="ru.acs.fts.schemas.album.inventoryin.RequestDescriptionType">
+    <value style="element" name="RequestNumber" get-method="getRequestNumber" set-method="setRequestNumber"/>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:RequestDocumentType" class="ru.acs.fts.schemas.album.inventoryin.RequestDocumentType">
+    <value style="element" name="InvDocCode" get-method="getInvDocCode" set-method="setInvDocCode"/>
+    <value style="element" name="InvDocName" get-method="getInvDocName" set-method="setInvDocName"/>
+    <value style="element" name="RecordNumber" get-method="getRecordNumber" set-method="setRecordNumber" usage="optional"/>
+    <value style="element" name="ReqPurpose" get-method="getReqPurpose" set-method="setReqPurpose" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="RequestorName" get-method="getRequestorName" set-method="setRequestorName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ivtin:RequestType" class="ru.acs.fts.schemas.album.inventoryin.RequestType">
+    <value style="element" name="RequestNumber" get-method="getRequestNumber" set-method="setRequestNumber"/>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" format="LocalDate.default"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="SubmitDate" get-method="getSubmitDate" set-method="setSubmitDate" format="LocalDate.default"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="ReceiveDate" get-method="getReceiveDate" set-method="setReceiveDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <collection get-method="getRequestDocumentList" set-method="setRequestDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="ivtin:RequestDocumentType" name="RequestDocument"/>
+    </collection>
+    <collection get-method="getCommunicationList" set-method="setCommunicationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ivtin:CommunicationType" name="Communication"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+  </mapping>
+</binding>

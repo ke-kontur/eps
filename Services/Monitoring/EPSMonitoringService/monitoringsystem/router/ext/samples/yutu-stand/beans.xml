@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configures the Camel Context-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd
+ http://www.springframework.org/schema/tx
+                        http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                          http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-2.5.xsd ">
+
+    <import resource="beans-config.xml" /> 
+
+    <!-- компонеты камела-->
+    
+    <!-- комонента для чтения и записи сообщений MQ с использованием JMS, с поддержкой транзакций -->
+    <bean id="mq" class="org.apache.camel.component.jms.JmsComponent"> 
+       <property name="configuration" ref="jsmConfig"/>
+    </bean>
+
+    <!-- комонента для чтения сообщений MQ с использованием родного WMQ api, без поддержки транзакций, читает сегментированные сообщения -->
+    <bean id="wmq" class="ru.acs.fst.router.camel.component.MQComponent">
+        <property name="configuration" ref="mqConfig"/>
+    </bean>
+
+
+    <!-- НАстройки сервисов и т.п -->
+
+    <!-- роутер по правилам, с сегментацией при отправке -->
+    <bean id="xmlRulesRouterSegm" class="ru.acs.fst.router.XmlRulesRouter" parent="xmlRulesRouterBase">
+        <property name="sender" ref="mqRemoteSender"/>
+    </bean>
+
+    <!-- роутер по правилам, без сегментации при отправке -->
+    <bean id="xmlRulesRouter" class="ru.acs.fst.router.XmlRulesRouter" parent="xmlRulesRouterBase">
+        <property name="sender" ref="jmsSender"/>
+    </bean>
+
+   <!-- сендер сообщений с флагом сегментации, не транзакционный -->
+   <bean id="mqRemoteSender" class="ru.acs.fst.router.jms.MqRemoteSender">
+       <property name="configuration" ref="mqConfig"/>      
+   </bean>
+
+
+    <bean id="sendDestination" class="com.ibm.mq.jms.MQQueue">
+        <property name="baseQueueName">
+            <value>ROUTER.ERRORS</value> <!-- очередь "по умолчанию" для отсылки -->
+        </property>
+        <property  name="targetClient">
+            <value>1</value>
+        </property>
+<!--    
+    <property name="baseQueueManagerName">
+            <value>RU.FTS.GNIVC.RNTS.APP</value>
+        </property>
+-->
+    </bean>
+
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory">
+            <ref bean="myProxyConnectionFactory"/>
+            <!--
+            <bean class="org.springframework.jms.connection.SingleConnectionFactory">
+                <property name="targetConnectionFactory">
+                    <ref local="myProxyConnectionFactory"/>
+                </property>
+            </bean>
+            -->
+        </property>
+        <property name="defaultDestination">
+            <ref bean="sendDestination"/>
+        </property>
+        <property name="receiveTimeout">
+            <value>30000</value>
+        </property>
+        <property name="sessionTransacted" value="true"/>
+        <property name="sessionAcknowledgeModeName" value="SESSION_TRANSACTED"/>
+    </bean>
+
+
+    <bean id="jmsSender" class="ru.acs.fst.router.jms.JMSSender">
+        <property name="jmsTemplate">
+            <ref bean="jmsTemplate"/>
+        </property>
+    </bean>
+
+ <bean id="jsmConfig" class="org.apache.camel.component.jms.JmsConfiguration">
+       <property name="disableReplyTo" value="true"/>
+        <property name="connectionFactory" ref="myProxyConnectionFactory"/>
+        <property name="cacheLevelName" value="CACHE_NONE"/>
+        <property name="transacted" value="true"/>
+        <!-- setup the transaction manager to use -->
+        <!-- if not provided then Camel will automatic use a JmsTransactionManager, however if you
+               for instance use a JTA transaction manager then you must configure it -->
+        <property name="transactionManager" ref="jmsTransactionManager"/>
+        <property name="concurrentConsumers" value="1"/>
+        <property name="maxConcurrentConsumers" value="1"/>
+ </bean>
+
+
+    <bean id="PROPAGATION_REQUIRED" class="org.apache.camel.spring.spi.SpringTransactionPolicy">
+        <property name="transactionManager" ref="jmsTransactionManager"/>
+        <property name="propagationBehaviorName" value="PROPAGATION_REQUIRED"/>
+    </bean>
+
+    <bean id="PROPAGATION_REQUIRES_NEW" class="org.apache.camel.spring.spi.SpringTransactionPolicy">
+        <property name="transactionManager" ref="jmsTransactionManager"/>
+        <property name="propagationBehaviorName" value="PROPAGATION_REQUIRES_NEW"/>
+    </bean>
+
+
+     <!-- TX manager, JMS TX -->
+     <bean id="jmsTransactionManager" class="org.springframework.jms.connection.JmsTransactionManager">
+          <property name="connectionFactory" ref="myProxyConnectionFactory"/>
+     </bean>
+
+    <!--
+    <bean id="camelTracer" class="org.apache.camel.processor.interceptor.Tracer">
+        <property name="traceExceptions" value="true"/>
+        <property name="traceInterceptors" value="true"/>
+        <property name="logLevel" value="ERROR"/>
+        <property name="logName" value="ru.acs.fts.router"/>
+    </bean>
+    -->
+
+
+</beans>

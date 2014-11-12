@@ -1,0 +1,16 @@
+<binding xmlns:nine="urn:customs.ru:Information:CustomsDocuments:NotifInspectionEnd:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifInspectionEnd:5.4.0" default="elements" prefix="nine"/>
+  <mapping abstract="true" type-name="nine:NotifInspectionEndType" class="ru.acs.fts.schemas.album.notifinspectionend.NotifInspectionEndType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InspectionEndDate" get-method="getInspectionEndDate" set-method="setInspectionEndDate" format="LocalDate.default"/>
+    <value style="element" name="InspectionEndTime" get-method="getInspectionEndTime" set-method="setInspectionEndTime" usage="optional"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifinspectionend.NotifInspectionEndType" name="NotifInspectionEnd">
+    <structure map-as="nine:NotifInspectionEndType"/>
+  </mapping>
+</binding>

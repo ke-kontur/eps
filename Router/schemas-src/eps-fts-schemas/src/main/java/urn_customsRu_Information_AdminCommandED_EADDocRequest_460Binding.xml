@@ -1,0 +1,23 @@
+<binding xmlns:eaddr="urn:customs.ru:Information:AdminCommandED:EAD_DocRequest:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:AdminCommandED:EAD_DocRequest:4.6.0" default="elements" prefix="eaddr"/>
+  <mapping abstract="true" type-name="eaddr:EAD_DocRequestType" class="ru.acs.fts.schemas.admin.ead_docrequest.EADDocRequestType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <collection get-method="getRequestedDocList" set-method="setRequestedDocList" create-type="java.util.ArrayList">
+      <structure map-as="eaddr:RequestedDocType" name="RequestedDoc"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.ead_docrequest.EADDocRequestType" name="EAD_DocRequest">
+    <structure map-as="eaddr:EAD_DocRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="eaddr:RequestedDocType" class="ru.acs.fts.schemas.admin.ead_docrequest.RequestedDocType">
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID" usage="optional"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID"/>
+  </mapping>
+  <mapping abstract="true" type-name="eaddr:ArchiveInformationType" class="ru.acs.fts.schemas.admin.ead_docrequest.ArchiveInformationType">
+    <value style="element" name="ArchDocAlbum" get-method="getArchDocAlbum" set-method="setArchDocAlbum"/>
+    <value style="element" name="ArchDocDate" get-method="getArchDocDate" set-method="setArchDocDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

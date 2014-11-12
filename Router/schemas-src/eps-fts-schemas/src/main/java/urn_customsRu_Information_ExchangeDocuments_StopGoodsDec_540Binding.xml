@@ -1,0 +1,47 @@
+<binding xmlns:std="urn:customs.ru:Information:ExchangeDocuments:StopGoodsDec:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:StopGoodsDec:5.4.0" default="elements" prefix="std"/>
+  <mapping abstract="true" type-name="std:StopGoodsDecType" class="ru.acs.fts.schemas.album.stopgoodsdec.StopGoodsDecType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="DecIssueDate" get-method="getDecIssueDate" set-method="setDecIssueDate" format="LocalDate.default"/>
+    <value style="element" name="DecEndDate" get-method="getDecEndDate" set-method="setDecEndDate" format="LocalDate.default"/>
+    <value style="element" name="GoodsLocation" get-method="getGoodsLocation" set-method="setGoodsLocation" usage="optional"/>
+    <collection get-method="getRightPersonList" set-method="setRightPersonList" create-type="java.util.ArrayList">
+      <structure map-as="std:RightPersonType" name="RightPerson"/>
+    </collection>
+    <structure map-as="std:CustomsInfoType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDeclarationNumber" set-method="setDeclarationNumber" name="DeclarationNumber"/>
+    <collection get-method="getRestrictionGoodsInfoList" set-method="setRestrictionGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="std:RestrictionGoodsInfoType" name="RestrictionGoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.stopgoodsdec.StopGoodsDecType" name="StopGoodsDec">
+    <structure map-as="std:StopGoodsDecType"/>
+  </mapping>
+  <mapping abstract="true" type-name="std:CustomsInfoType" class="ru.acs.fts.schemas.album.stopgoodsdec.CustomsInfoType">
+    <structure map-as="cat_ru:CustomsType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax" usage="optional"/>
+    <value style="element" name="Telex" get-method="getTelex" set-method="setTelex" usage="optional"/>
+    <value style="element" name="Email" get-method="getEmail" set-method="setEmail" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getCustomsAddress" set-method="setCustomsAddress" usage="optional" name="CustomsAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="std:RestrictionGoodsInfoType" class="ru.acs.fts.schemas.album.stopgoodsdec.RestrictionGoodsInfoType">
+    <collection get-method="getCounterfeitSignList" set-method="setCounterfeitSignList" create-type="java.util.ArrayList">
+      <value style="element" name="CounterfeitSigns" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescriptions" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="IntellectualPropertyObject" get-method="getIntellectualPropertyObject" set-method="setIntellectualPropertyObject"/>
+    <collection get-method="getGoodsDocList" set-method="setGoodsDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="GoodsDoc"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="std:RightPersonType" class="ru.acs.fts.schemas.album.stopgoodsdec.RightPersonType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" name="PostalAddress"/>
+  </mapping>
+</binding>

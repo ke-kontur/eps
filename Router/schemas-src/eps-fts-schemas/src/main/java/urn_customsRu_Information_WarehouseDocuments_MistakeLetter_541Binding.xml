@@ -1,0 +1,71 @@
+<binding xmlns:ml="urn:customs.ru:Information:WarehouseDocuments:MistakeLetter:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:MistakeLetter:5.4.1" default="elements" prefix="ml"/>
+  <mapping abstract="true" type-name="ml:MistakeLetterType" class="ru.acs.fts.schemas.album.mistakeletter.MistakeLetterType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="ml:LetterDetailsType" get-method="getLetterDetails" set-method="setLetterDetails" name="LetterDetails"/>
+    <structure map-as="catWH_ru:WareHouseReportLinkDataType" get-method="getDO1Report" set-method="setDO1Report" name="DO1Report"/>
+    <structure map-as="catWH_ru:WarehouseOwnerType" get-method="getWarehouseOwner" set-method="setWarehouseOwner" name="WarehouseOwner"/>
+    <structure map-as="ml:MistakesInfoType" get-method="getMistakesInfo" set-method="setMistakesInfo" name="MistakesInfo"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getWareHousePerson" set-method="setWareHousePerson" name="WareHousePerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mistakeletter.MistakeLetterType" name="MistakeLetter">
+    <structure map-as="ml:MistakeLetterType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:DocDateMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.DocDateMistakeType">
+    <value style="element" name="DateMistakeValue" get-method="getDateMistakeValue" set-method="setDateMistakeValue" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DateValidValue" get-method="getDateValidValue" set-method="setDateValidValue" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:DocModeCodeMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.DocModeCodeMistakeType">
+    <value style="element" name="CodeMistakeValue" get-method="getCodeMistakeValue" set-method="setCodeMistakeValue" usage="optional"/>
+    <value style="element" name="CodeValidValue" get-method="getCodeValidValue" set-method="setCodeValidValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:DocNameMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.DocNameMistakeType">
+    <value style="element" name="NameMistakeValue" get-method="getNameMistakeValue" set-method="setNameMistakeValue" usage="optional"/>
+    <value style="element" name="NameValidValue" get-method="getNameValidValue" set-method="setNameValidValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:DocNumberMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.DocNumberMistakeType">
+    <value style="element" name="NumberMistakeValue" get-method="getNumberMistakeValue" set-method="setNumberMistakeValue" usage="optional"/>
+    <value style="element" name="NumberValidValue" get-method="getNumberValidValue" set-method="setNumberValidValue"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:LetterDetailsType" class="ru.acs.fts.schemas.album.mistakeletter.LetterDetailsType">
+    <value style="element" name="LetterName" get-method="getLetterName" set-method="setLetterName" usage="optional"/>
+    <value style="element" name="LetterNumber" get-method="getLetterNumber" set-method="setLetterNumber"/>
+    <value style="element" name="LetterDate" get-method="getLetterDate" set-method="setLetterDate" format="LocalDate.default"/>
+    <value style="element" name="LetterOrderNumber" get-method="getLetterOrderNumber" set-method="setLetterOrderNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:MistakesDescriptionType" class="ru.acs.fts.schemas.album.mistakeletter.MistakesDescriptionType">
+    <collection get-method="getCustomsDocsMistakeList" set-method="setCustomsDocsMistakeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ml:PresentedDocMistakeType" name="CustomsDocsMistakes"/>
+    </collection>
+    <collection get-method="getCommercialDocsMistakeList" set-method="setCommercialDocsMistakeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ml:PresentedDocMistakeType" name="CommercialDocsMistakes"/>
+    </collection>
+    <collection get-method="getTransportDocsMistakeList" set-method="setTransportDocsMistakeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ml:TransportDocMistakeType" name="TransportDocsMistakes"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ml:MistakesInfoType" class="ru.acs.fts.schemas.album.mistakeletter.MistakesInfoType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="Reasons" type="java.lang.String"/>
+    </collection>
+    <structure map-as="ml:MistakesDescriptionType" get-method="getMistakesDescription" set-method="setMistakesDescription" name="MistakesDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:PresentedDocMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.PresentedDocMistakeType">
+    <value style="element" name="PrDocumentOrderNumber" get-method="getPrDocumentOrderNumber" set-method="setPrDocumentOrderNumber"/>
+    <structure map-as="ml:DocModeCodeMistakeType" get-method="getDocModeCodeMistake" set-method="setDocModeCodeMistake" usage="optional" name="DocModeCodeMistake"/>
+    <structure map-as="ml:DocNameMistakeType" get-method="getDocNameMistake" set-method="setDocNameMistake" usage="optional" name="DocNameMistake"/>
+    <structure map-as="ml:DocNumberMistakeType" get-method="getDocNumberMistake" set-method="setDocNumberMistake" usage="optional" name="DocNumberMistake"/>
+    <structure map-as="ml:DocDateMistakeType" get-method="getDocDateMistake" set-method="setDocDateMistake" usage="optional" name="DocDateMistake"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:TransportDocMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.TransportDocMistakeType">
+    <structure map-as="ml:PresentedDocMistakeType"/>
+    <structure map-as="ml:WaybillRegNumberMistakeType" get-method="getWaybillRegNumberMistake" set-method="setWaybillRegNumberMistake" usage="optional" name="WaybillRegNumberMistake"/>
+  </mapping>
+  <mapping abstract="true" type-name="ml:WaybillRegNumberMistakeType" class="ru.acs.fts.schemas.album.mistakeletter.WaybillRegNumberMistakeType">
+    <structure map-as="catWH_ru:TransportDocRegNumType" get-method="getMistakeValue" set-method="setMistakeValue" usage="optional" name="MistakeValue"/>
+    <structure map-as="catWH_ru:TransportDocRegNumType" get-method="getValidValue" set-method="setValidValue" usage="optional" name="ValidValue"/>
+  </mapping>
+</binding>

@@ -1,0 +1,20 @@
+<binding xmlns:cptt="urn:customs.ru:CustomsCardDoc:CustPayment:5.0.12" xmlns:cat_crd="urn:customs.ru:CardCommonAggregateTypes:5.0.12">
+  <namespace uri="urn:customs.ru:CustomsCardDoc:CustPayment:5.0.12" default="elements" prefix="cptt"/>
+  <mapping abstract="true" type-name="cptt:CustPaymentType" class="ru.acs.fts.schemas.album.custpayment.CustPaymentType">
+    <structure map-as="cat_crd:BaseDocType"/>
+    <value style="element" name="ProcessID" get-method="getProcessID" set-method="setProcessID" usage="optional"/>
+    <collection get-method="getPaymentList" set-method="setPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cptt:PaymentType" name="Payment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.custpayment.CustPaymentType" name="CustPayment">
+    <structure map-as="cptt:CustPaymentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cptt:PaymentType" class="ru.acs.fts.schemas.album.custpayment.PaymentType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+  </mapping>
+</binding>

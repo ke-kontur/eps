@@ -1,0 +1,30 @@
+<binding xmlns:udcl="urn:customs.ru:Informtion:AdminCommandED:UDCustListUpdate:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Informtion:AdminCommandED:UDCustListUpdate:4.6.0" default="elements" prefix="udcl"/>
+  <mapping abstract="true" type-name="udcl:UDCustListUpdateType" class="ru.acs.fts.schemas.admin.udcustlistupdate.UDCustListUpdateType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <value style="element" name="CreateDateTime" get-method="getCreateDateTime" set-method="setCreateDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RecID" get-method="getRecID" set-method="setRecID"/>
+    <structure map-as="udcl:DocumentGroundType" get-method="getDocumentGroundConnect" set-method="setDocumentGroundConnect" name="DocumentGroundConnect"/>
+    <structure map-as="udcl:CustomsType" get-method="getCustomsOut" set-method="setCustomsOut" name="CustomsOut"/>
+    <structure map-as="udcl:CustomsType" get-method="getCustomsIn" set-method="setCustomsIn" name="CustomsIn"/>
+    <structure map-as="udcl:DocumentGroundType" get-method="getDocumentGroundDisconnect" set-method="setDocumentGroundDisconnect" usage="optional" name="DocumentGroundDisconnect"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.udcustlistupdate.UDCustListUpdateType" name="UDCustListUpdate">
+    <structure map-as="udcl:UDCustListUpdateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="udcl:CustomsType" class="ru.acs.fts.schemas.admin.udcustlistupdate.CustomsType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <value style="element" name="OfficeName" get-method="getOfficeName" set-method="setOfficeName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="udcl:DocumentGroundType" class="ru.acs.fts.schemas.admin.udcustlistupdate.DocumentGroundType">
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

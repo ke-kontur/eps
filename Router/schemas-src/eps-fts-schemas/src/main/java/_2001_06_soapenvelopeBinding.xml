@@ -1,0 +1,23 @@
+<binding xmlns:env="http://www.w3.org/2001/06/soap-envelope">
+  <namespace uri="http://www.w3.org/2001/06/soap-envelope" default="elements" prefix="env"/>
+  <mapping abstract="true" type-name="env:EnvelopeType" class="ru.acs.fts.schemas.envelope.EnvelopeType">
+    <structure map-as="env:HeaderType" get-method="getHeader" set-method="setHeader" name="Header"/>
+    <structure map-as="env:BodyType" get-method="getBody" set-method="setBody" usage="optional" name="Body"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.envelope.EnvelopeType" name="Envelope">
+    <structure map-as="env:EnvelopeType"/>
+  </mapping>
+  <mapping abstract="true" type-name="env:HeaderType" class="ru.acs.fts.schemas.envelope.HeaderType">
+    <collection get-method="getAnyList" set-method="setAnyList" create-type="java.util.ArrayList">
+      <structure type="java.lang.Object"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="env:BodyType" class="ru.acs.fts.schemas.envelope.BodyType">
+    <collection get-method="getAnyList" set-method="setAnyList" usage="optional" create-type="java.util.ArrayList">
+      <structure type="java.lang.Object"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="env:E2T" class="ru.acs.fts.schemas.envelope.E2T">
+    <structure map-as="env:EnvelopeType" get-method="getEnvelope" set-method="setEnvelope" name="Envelope"/>
+  </mapping>
+</binding>

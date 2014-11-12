@@ -1,0 +1,16 @@
+<binding xmlns:ngef="urn:customs.ru:Information:ExchangeDocuments:NotifGTDExaminationFinish:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifGTDExaminationFinish:5.4.0" default="elements" prefix="ngef"/>
+  <mapping abstract="true" type-name="ngef:NotifGTDExaminationFinishType" class="ru.acs.fts.schemas.album.notifgtdexaminationfinish.NotifGTDExaminationFinishType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ExamFinishDate" get-method="getExamFinishDate" set-method="setExamFinishDate" format="LocalDate.default"/>
+    <value style="element" name="ExamFinishTime" get-method="getExamFinishTime" set-method="setExamFinishTime"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgtdexaminationfinish.NotifGTDExaminationFinishType" name="NotifGTDExaminationFinish">
+    <structure map-as="ngef:NotifGTDExaminationFinishType"/>
+  </mapping>
+</binding>

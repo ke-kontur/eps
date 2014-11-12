@@ -1,0 +1,34 @@
+<binding xmlns:hmprpl="urn:customs.ru:Information:SQDocuments:HemicalMeansProtectionPlants:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:HemicalMeansProtectionPlants:5.4.0" default="elements" prefix="hmprpl"/>
+  <mapping abstract="true" type-name="hmprpl:HemicalMeansProtectionPlantsType" class="ru.acs.fts.schemas.album.hemicalmeansprotectionplants.HemicalMeansProtectionPlantsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <structure map-as="hmprpl:ConclusionType" get-method="getConclusion" set-method="setConclusion" name="Conclusion"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getForeignTradeContract" set-method="setForeignTradeContract" name="ForeignTradeContract"/>
+    <structure map-as="hmprpl:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" name="GoodsDescription"/>
+    <structure map-as="hmprpl:PersonConclusionType" get-method="getPersonConclusion" set-method="setPersonConclusion" name="PersonConclusion"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.hemicalmeansprotectionplants.HemicalMeansProtectionPlantsType" name="HemicalMeansProtectionPlants">
+    <structure map-as="hmprpl:HemicalMeansProtectionPlantsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="hmprpl:ConclusionType" class="ru.acs.fts.schemas.album.hemicalmeansprotectionplants.ConclusionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ConclusionDeadLine" get-method="getConclusionDeadLine" set-method="setConclusionDeadLine" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="hmprpl:GoodsDescriptionType" class="ru.acs.fts.schemas.album.hemicalmeansprotectionplants.GoodsDescriptionType">
+    <collection get-method="getGoodNameList" set-method="setGoodNameList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED"/>
+    <value style="element" name="DepartureCountry" get-method="getDepartureCountry" set-method="setDepartureCountry"/>
+    <value style="element" name="OriginCountry" get-method="getOriginCountry" set-method="setOriginCountry"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getAddQuantity" set-method="setAddQuantity" name="AddQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="hmprpl:PersonConclusionType" class="ru.acs.fts.schemas.album.hemicalmeansprotectionplants.PersonConclusionType">
+    <structure map-as="sq_cat:AuthorizedPersonType"/>
+    <value style="element" name="StampNumber" get-method="getStampNumber" set-method="setStampNumber" usage="optional"/>
+  </mapping>
+</binding>

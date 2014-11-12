@@ -1,0 +1,27 @@
+<binding xmlns:whgd="urn:customs.ru:Information:WarehouseDocuments:WHGoodsDeadline:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:WHGoodsDeadline:5.4.0" default="elements" prefix="whgd"/>
+  <mapping abstract="true" type-name="whgd:WHGoodsDeadlineType" class="ru.acs.fts.schemas.album.whgoodsdeadline.WHGoodsDeadlineType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="WHSign" get-method="getWHSign" set-method="setWHSign"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="TIRTDNumber" get-method="getTIRTDNumber" set-method="setTIRTDNumber" usage="optional"/>
+    <value style="element" name="PlacementDate" get-method="getPlacementDate" set-method="setPlacementDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="catWH_ru:WhPresentDocType" get-method="getTransportDoc" set-method="setTransportDoc" usage="optional" name="TransportDoc"/>
+    <structure map-as="whgd:OrganizationType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="whgd:OrganizationType" get-method="getReceiver" set-method="setReceiver" name="Receiver"/>
+    <structure map-as="catWH_ru:WarehouseOwnerType" get-method="getWarehouse" set-method="setWarehouse" name="Warehouse"/>
+    <structure map-as="catWH_ru:WHCustomInspectorType" get-method="getCustomInspector" set-method="setCustomInspector" name="CustomInspector"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.whgoodsdeadline.WHGoodsDeadlineType" name="WHGoodsDeadline">
+    <structure map-as="whgd:WHGoodsDeadlineType"/>
+  </mapping>
+  <mapping abstract="true" type-name="whgd:OrganizationType" class="ru.acs.fts.schemas.album.whgoodsdeadline.OrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getDirectorInfo" set-method="setDirectorInfo" usage="optional" name="DirectorInfo"/>
+  </mapping>
+</binding>

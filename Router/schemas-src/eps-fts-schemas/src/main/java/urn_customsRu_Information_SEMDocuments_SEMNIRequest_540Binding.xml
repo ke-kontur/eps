@@ -1,0 +1,17 @@
+<binding xmlns:ni_req="urn:customs.ru:Information:SEMDocuments:SEM_NIRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SEMDocuments:SEM_NIRequest:5.4.0" default="elements" prefix="ni_req"/>
+  <mapping abstract="true" type-name="ni_req:SEM_NIRequestType" class="ru.acs.fts.schemas.album.sem_nirequest.SEMNIRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ConnectionId" get-method="getConnectionId" set-method="setConnectionId"/>
+    <value style="element" name="DateStart" get-method="getDateStart" set-method="setDateStart" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DateStop" get-method="getDateStop" set-method="setDateStop" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getCalculationSettingList" set-method="setCalculationSettingList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:SettingsType" name="CalculationSettings"/>
+    </collection>
+    <structure map-as="sem_cat:RiskProfilesType" get-method="getSURProfile" set-method="setSURProfile" name="SURProfile"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sem_nirequest.SEMNIRequestType" name="SEM_NIRequest">
+    <structure map-as="ni_req:SEM_NIRequestType"/>
+  </mapping>
+</binding>

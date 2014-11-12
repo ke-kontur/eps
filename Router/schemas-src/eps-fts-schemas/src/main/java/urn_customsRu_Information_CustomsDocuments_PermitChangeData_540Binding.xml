@@ -1,0 +1,21 @@
+<binding xmlns:pcd="urn:customs.ru:Information:CustomsDocuments:PermitChangeData:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PermitChangeData:5.4.0" default="elements" prefix="pcd"/>
+  <mapping abstract="true" type-name="pcd:PermitChangeDataType" class="ru.acs.fts.schemas.album.permitchangedata.PermitChangeDataType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTIme" get-method="getSendTIme" set-method="setSendTIme" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <structure map-as="pcd:KDTRegNumberType" get-method="getKDTRegNumber" set-method="setKDTRegNumber" usage="optional" name="KDTRegNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitchangedata.PermitChangeDataType" name="PermitChangeData">
+    <structure map-as="pcd:PermitChangeDataType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pcd:KDTRegNumberType" class="ru.acs.fts.schemas.album.permitchangedata.KDTRegNumberType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+  </mapping>
+</binding>

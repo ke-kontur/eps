@@ -1,0 +1,47 @@
+<schema-set xmlns:xs="http://www.w3.org/2001/XMLSchema" prefer-inline="true">
+	
+	<schema-type 
+		type-name="dateTime" java-class="org.joda.time.DateTime"
+		serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime"
+		deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime" />
+		
+	<schema-type type-name="date" format-name="LocalDate.default" />
+	<schema-type type-name="time" format-name="LocalTime.local" />
+	
+	<schema-set package="ru.acs.fts.schemas.aud.audcommonaggregatetypescust" names="AUDCommonAggregateTypesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.audcommonleaftypescust" names="AUDCommonLeafTypesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.audinf" names="AUDInf.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_arcputdocumentrequest" names="AUD_ArcPutDocumentRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_arcputdocumentresponse" names="AUD_ArcPutDocumentResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_checkdocumentsignaturerequest" names="AUD_CheckDocumentSignatureRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_checkdocumentsignatureresponse" names="AUD_CheckDocumentSignatureResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_deactualizedocumentrequest" names="AUD_DeactualizeDocumentRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_deactualizedocumentresponse" names="AUD_DeactualizeDocumentResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_deliverynotification" names="AUD_DeliveryNotification.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_documentkindinforequest" names="AUD_DocumentKindInfoRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_documentkindinforesponse" names="AUD_DocumentKindInfoResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_error" names="AUD_Error.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getdocumentformattedrequest" names="AUD_GetDocumentFormattedRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getdocumentformattedresponse" names="AUD_GetDocumentFormattedResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getdocumentrequest" names="AUD_GetDocumentRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getdocumentresponse" names="AUD_GetDocumentResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getpacketrequest" names="AUD_GetPacketRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getpacketresponse" names="AUD_GetPacketResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getrepresentformdatarequest" names="AUD_GetRepresentFormDataRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_getrepresentformdataresponse" names="AUD_GetRepresentFormDataResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_packetdoclistrequest" names="AUD_PacketDocListRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_packetdoclistresponse" names="AUD_PacketDocListResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_packetinventoryrequest" names="AUD_PacketInventoryRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_packetinventoryresponse" names="AUD_PacketInventoryResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_putdocumentrequest" names="AUD_PutDocumentRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_putdocumentresponse" names="AUD_PutDocumentResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_registryrequest" names="AUD_RegistryRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_registryresponse" names="AUD_RegistryResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_resultrequest" names="AUD_ResultRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_resultresponse" names="AUD_ResultResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_statusrequest" names="AUD_StatusRequest.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.aud_statusresponse" names="AUD_StatusResponse.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.categoriescust" names="CategoriesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.commonaggregatetypescust" names="CommonAggregateTypesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+	<schema-set package="ru.acs.fts.schemas.aud.commonleaftypescust" names="CommonLeafTypesCust.xsd" show-schema="false" prefer-inline="true" any-handling="mapped" />
+</schema-set>

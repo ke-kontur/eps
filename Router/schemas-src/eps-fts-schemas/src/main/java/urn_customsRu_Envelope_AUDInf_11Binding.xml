@@ -1,0 +1,10 @@
+<binding xmlns:audinf="urn:customs.ru:Envelope:AUDInf:1.1">
+  <namespace uri="urn:customs.ru:Envelope:AUDInf:1.1" default="elements" prefix="audinf"/>
+  <mapping abstract="true" type-name="audinf:AUDInfType" class="ru.acs.fts.schemas.aud.audinf.AUDInfType">
+    <value style="element" name="ArchiveClientId" get-method="getArchiveClientId" set-method="setArchiveClientId"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.audinf.AUDInfType" name="AUDInf">
+    <structure map-as="audinf:AUDInfType"/>
+  </mapping>
+</binding>

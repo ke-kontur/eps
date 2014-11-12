@@ -1,0 +1,20 @@
+<binding xmlns:rdro="urn:customs.ru:Information:ExchangeDocuments:RejectDeclReqOperation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:RejectDeclReqOperation:5.4.0" default="elements" prefix="rdro"/>
+  <mapping abstract="true" type-name="rdro:RejectDeclReqOperationType" class="ru.acs.fts.schemas.album.rejectdeclreqoperation.RejectDeclReqOperationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RejectNumber" get-method="getRejectNumber" set-method="setRejectNumber" usage="optional"/>
+    <value style="element" name="RejectDate" get-method="getRejectDate" set-method="setRejectDate" format="LocalDate.default"/>
+    <value style="element" name="RejectTime" get-method="getRejectTime" set-method="setRejectTime"/>
+    <value style="element" name="ReqNumber" get-method="getReqNumber" set-method="setReqNumber" usage="optional"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" format="LocalDate.default"/>
+    <collection get-method="getRejectReasonList" set-method="setRejectReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="RejectReason" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rejectdeclreqoperation.RejectDeclReqOperationType" name="RejectDeclReqOperation">
+    <structure map-as="rdro:RejectDeclReqOperationType"/>
+  </mapping>
+</binding>

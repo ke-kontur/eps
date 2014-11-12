@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Типы ошибок. Константы Spring -->
+	
+	<!-- Нет ошибки - нормальное состояние обработки -->
+	<bean id="ERROR_TYPE_NORMAL" class="java.lang.String" >
+		<constructor-arg value="NORMAL" />
+	</bean>
+	
+	<!-- Неизвестная ошибка. Мы не располагаем информацией как ее обработать -->
+	<bean id="ERROR_TYPE_UNKNOWN" class="java.lang.String" >
+		<constructor-arg value="UNKNOWN" />
+	</bean>
+	
+	<!-- Ошибка авторизации -->
+	<bean id="ERROR_TYPE_AUTH" class="java.lang.String" >
+		<constructor-arg value="AUTH" />
+	</bean>
+	
+	<!-- Ошибка какой-то из проверок -->
+	<bean id="ERROR_TYPE_CHECK" class="java.lang.String" >
+		<constructor-arg value="CHECK" />
+	</bean>
+	
+	<!-- Ошибка бизнес-обработки -->
+	<bean id="ERROR_TYPE_BUSINESS" class="java.lang.String" >
+		<constructor-arg value="BUSINESS" />
+	</bean>
+	
+	<!-- Отказ транспортной подсистемы (WMQ) -->
+	<bean id="ERROR_TYPE_TRANSPORT" class="java.lang.String" >
+		<constructor-arg value="TRANSPORT" />
+	</bean>
+	
+	<!-- Отказ при работе с Web-сервисами -->
+	<bean id="ERROR_TYPE_WS" class="java.lang.String" >
+		<constructor-arg value="WS" />
+	</bean>
+	
+	<!-- Отказ базы данных -->
+	<bean id="ERROR_TYPE_DATA" class="java.lang.String" >
+		<constructor-arg value="DATA" />
+	</bean>
+	
+	<!-- Ошибка при предварительной проверке (до отправки CMN.00002) -->
+	<bean id="ERROR_TYPE_PRECHECK" class="java.lang.String" >
+		<constructor-arg value="PRECHECK" />
+	</bean>
+	
+	<!-- Сценарии ошибочной обработки -->
+	
+	<!-- Используется нормальный сценарий обработки -->
+	<bean id="FAIL_SCENARIO_NORMAL" class="java.lang.String" >
+		<constructor-arg value="FS_NORMAL" />
+	</bean>
+	
+	<!-- Сохранить входящее сообщение и послать CMN.00001 (ADM.00001, ADM.00007) -->
+	<!-- 
+		Данный сценарий используется только в том случае, если падение произошло до успешного
+		выполнения задачи сохранения входящего конверта в базу, после этого использовать этот
+		сценарий КАТЕГОРИЧЕСКИ запрещается (будет падать 100%) 
+	-->
+	<bean id="FAIL_SCENARIO_SAVE_SEND_00001" class="java.lang.String" >
+		<constructor-arg value="FS_SAVE_SEND_00001" />
+	</bean>
+	
+	<!-- Отправить CMN.00001 (ADM.00001, ADM.00007) -->
+	<bean id="FAIL_SCENARIO_SEND_00001" class="java.lang.String" >
+		<constructor-arg value="FS_SEND_00001" />
+	</bean>
+
+	<!-- Отправить CMN.00001 (ADM.00001, ADM.00007) без сохранения в базу -->
+	<bean id="FAIL_SCENARIO_SEND_00001_MQ_ONLY" class="java.lang.String" >
+		<constructor-arg value="FS_SEND_00001_MQ" />
+	</bean>	
+	
+	<!-- Отправить CMN.09999 -->
+	<bean id="FAIL_SCENARIO_SEND_09999" class="java.lang.String" >
+		<constructor-arg value="FS_SEND_09999" />
+	</bean>
+	
+	<bean id="FAIL_SCENARIO_SEND_09999_MQ_ONLY" class="java.lang.String" >	
+		<constructor-arg value="FS_SEND_09999_MQ" />
+	</bean>
+	
+	<!-- Отправить CMN.00002, CMN.00001 -->
+	<bean id="FAIL_SCENARIO_SEND_00002_00001" class="java.lang.String" >
+		<constructor-arg value="FS_SEND_00002_00001" />
+	</bean>
+	
+	<!-- Прекратить обработку сообщения -->
+	<bean id="FAIL_SCENARIO_KILL" class="java.lang.String" >
+		<constructor-arg value="FS_KILL" />
+	</bean>
+
+	<!-- Автомат ошибочных переходов -->	
+
+	<bean id="transmissionsFSM" class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmissionFSM" >
+		<property name="transmissions" >
+			<list>
+			
+				<!-- Из нормального состояния -->
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_AUTH" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_CHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_BUSINESS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_TRANSPORT" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_WS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_DATA" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00001_MQ_ONLY" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_NORMAL" />
+					<property name="errorType" ref="ERROR_TYPE_PRECHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_00002_00001" />
+				</bean>
+				
+				<!-- Из состояния неизвестной ошибки -->
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_AUTH" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_CHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_BUSINESS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_TRANSPORT" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_WS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="errorType" ref="ERROR_TYPE_DATA" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999_MQ_ONLY" />
+				</bean>
+				
+				<!-- Из состояния ошибки авторизации -->
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_AUTH" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_CHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_BUSINESS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_TRANSPORT" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_WS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_AUTH" />
+					<property name="errorType" ref="ERROR_TYPE_DATA" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999_MQ_ONLY" />
+				</bean>
+				
+				<!-- Переходы из состояния обработки ошибок проверки -->
+
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_AUTH" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_CHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_BUSINESS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_TRANSPORT" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_WS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_CHECK" />
+					<property name="errorType" ref="ERROR_TYPE_DATA" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999_MQ_ONLY" />
+				</bean>
+				
+				<!-- Переходы из состояния обработки ошибок бизнес-обработки -->
+			
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_AUTH" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_CHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_BUSINESS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_TRANSPORT" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_WS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_BUSINESS" />
+					<property name="errorType" ref="ERROR_TYPE_DATA" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999_MQ_ONLY" />
+				</bean>
+				
+				<!-- Переходы из состояния ошибки транспортной подсистемы все Kill -->
+				
+				<!-- Переходы из состояния ошибки работы с Web-сервисами -->
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_UNKNOWN" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_AUTH" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_CHECK" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_BUSINESS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_SEND_09999" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_TRANSPORT" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_WS" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.engine.processing.automata.RunningModeTransmission" >
+					<property name="runningMode" ref="ERROR_TYPE_WS" />
+					<property name="errorType" ref="ERROR_TYPE_DATA" />
+					<property name="failScenario" ref="FAIL_SCENARIO_KILL" />
+				</bean>
+								
+				<!-- Переходы из состояния ошибки базы данных - все Kill -->
+			
+			</list>
+		</property>
+	</bean>
+										
+</beans>

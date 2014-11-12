@@ -1,0 +1,95 @@
+<binding xmlns:rtpp="urn:customs.ru:Information:CustomsDocuments:RevealingTransportPP:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RevealingTransportPP:5.4.0" default="elements" prefix="rtpp"/>
+  <mapping abstract="true" type-name="rtpp:RevealingTransportPPType" class="ru.acs.fts.schemas.album.revealingtransportpp.RevealingTransportPPType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="rtpp:ServiceInfoType" get-method="getServiceInfo" set-method="setServiceInfo" name="ServiceInfo"/>
+    <structure map-as="rtpp:TransportType" get-method="getTransport" set-method="setTransport" name="Transport"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtpp:ConsignmentType" name="Consignment"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.revealingtransportpp.RevealingTransportPPType" name="RevealingTransportPP">
+    <structure map-as="rtpp:RevealingTransportPPType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:CarInformationType" class="ru.acs.fts.schemas.album.revealingtransportpp.CarInformationType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeansBaseList" set-method="setTransportMeansBaseList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeansBase"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:ConsignmentType" class="ru.acs.fts.schemas.album.revealingtransportpp.ConsignmentType">
+    <value style="element" name="LotID" get-method="getLotID" set-method="setLotID"/>
+    <value style="element" name="TTNNumber" get-method="getTTNNumber" set-method="setTTNNumber" usage="optional"/>
+    <value style="element" name="TTNDate" get-method="getTTNDate" set-method="setTTNDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CustomsNumber" get-method="getCustomsNumber" set-method="setCustomsNumber" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <value style="element" name="MeasureUnitQuantity" get-method="getMeasureUnitQuantity" set-method="setMeasureUnitQuantity" usage="optional"/>
+    <value style="element" name="InvoicedAmount" get-method="getInvoicedAmount" set-method="setInvoicedAmount" usage="optional"/>
+    <value style="element" name="InvoicedCurrencyCode3" get-method="getInvoicedCurrencyCode3" set-method="setInvoicedCurrencyCode3" usage="optional"/>
+    <value style="element" name="DispatchCountryCode2" get-method="getDispatchCountryCode2" set-method="setDispatchCountryCode2" usage="optional"/>
+    <value style="element" name="DestinationCountryCode2" get-method="getDestinationCountryCode2" set-method="setDestinationCountryCode2" usage="optional"/>
+    <value style="element" name="TotalPlaces" get-method="getTotalPlaces" set-method="setTotalPlaces" usage="optional"/>
+    <value style="element" name="ConsignmentSerNumber" get-method="getConsignmentSerNumber" set-method="setConsignmentSerNumber"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="PI_RegID" get-method="getPIRegID" set-method="setPIRegID" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="rtpp:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:GoodsType" class="ru.acs.fts.schemas.album.revealingtransportpp.GoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <value style="element" name="InvoicedAmount" get-method="getInvoicedAmount" set-method="setInvoicedAmount" usage="optional"/>
+    <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode" usage="optional"/>
+    <collection get-method="getContainerIdentificatorList" set-method="setContainerIdentificatorList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerIdentificator" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:PackingInformationType" name="PackingInformation"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" usage="optional" name="RegNumberDT"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:MDPInfoType" class="ru.acs.fts.schemas.album.revealingtransportpp.MDPInfoType">
+    <value style="element" name="MDPSeriesNumber" get-method="getMDPSeriesNumber" set-method="setMDPSeriesNumber"/>
+    <value style="element" name="MDPNumber" get-method="getMDPNumber" set-method="setMDPNumber"/>
+    <value style="element" name="MDPHolder" get-method="getMDPHolder" set-method="setMDPHolder" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:ServiceInfoType" class="ru.acs.fts.schemas.album.revealingtransportpp.ServiceInfoType">
+    <value style="element" name="TransportID" get-method="getTransportID" set-method="setTransportID"/>
+    <value style="element" name="CrossDate" get-method="getCrossDate" set-method="setCrossDate" format="LocalDate.default"/>
+    <value style="element" name="CustomsID" get-method="getCustomsID" set-method="setCustomsID"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:TrainInformationType" class="ru.acs.fts.schemas.album.revealingtransportpp.TrainInformationType">
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+    <collection get-method="getWagonNumberList" set-method="setWagonNumberList" create-type="java.util.ArrayList">
+      <value style="element" name="WagonNumber" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rtpp:TransportType" class="ru.acs.fts.schemas.album.revealingtransportpp.TransportType">
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight" usage="optional"/>
+    <value style="element" name="BatchQuantity" get-method="getBatchQuantity" set-method="setBatchQuantity" usage="optional"/>
+    <value style="element" name="FactWeight" get-method="getFactWeight" set-method="setFactWeight" usage="optional"/>
+    <value style="element" name="PI_RegID" get-method="getPIRegID" set-method="setPIRegID" usage="optional"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="rtpp:CarInformationType" test-method="ifCarInformation" get-method="getCarInformation" set-method="setCarInformation" usage="optional" name="CarInformation"/>
+      <structure map-as="rtpp:TrainInformationType" test-method="ifTrainInformation" get-method="getTrainInformation" set-method="setTrainInformation" usage="optional" name="TrainInformation"/>
+    </structure>
+    <structure map-as="cat_ru:OrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <collection get-method="getMDPInfoList" set-method="setMDPInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtpp:MDPInfoType" name="MDPInfo"/>
+    </collection>
+  </mapping>
+</binding>

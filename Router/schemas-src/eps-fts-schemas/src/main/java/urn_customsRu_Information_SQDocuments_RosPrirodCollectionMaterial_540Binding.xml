@@ -1,0 +1,29 @@
+<binding xmlns:colmat="urn:customs.ru:Information:SQDocuments:RosPrirodCollectionMaterial:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosPrirodCollectionMaterial:5.4.0" default="elements" prefix="colmat"/>
+  <mapping abstract="true" type-name="colmat:RosPrirodCollectionMaterialType" class="ru.acs.fts.schemas.album.rosprirodcollectionmaterial.RosPrirodCollectionMaterialType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="DocumentId" get-method="getDocumentId" set-method="setDocumentId"/>
+    <value style="element" name="CountryDestionation" get-method="getCountryDestionation" set-method="setCountryDestionation" usage="optional"/>
+    <value style="element" name="PurposeExport" get-method="getPurposeExport" set-method="setPurposeExport" usage="optional"/>
+    <value style="element" name="RemovalTime" get-method="getRemovalTime" set-method="setRemovalTime" usage="optional"/>
+    <value style="element" name="AuthorizedPerson" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional"/>
+    <structure map-as="sq_cat:ConclusionType" get-method="getConclusion" set-method="setConclusion" usage="optional" name="Conclusion"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getReceiver" set-method="setReceiver" usage="optional" name="Receiver"/>
+    <collection get-method="getItemList" set-method="setItemList" create-type="java.util.ArrayList">
+      <structure map-as="colmat:ItemType" name="Items"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentBase" set-method="setDocumentBase" usage="optional" name="DocumentBase"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rosprirodcollectionmaterial.RosPrirodCollectionMaterialType" name="RosPrirodCollectionMaterial">
+    <structure map-as="colmat:RosPrirodCollectionMaterialType"/>
+  </mapping>
+  <mapping abstract="true" type-name="colmat:ItemType" class="ru.acs.fts.schemas.album.rosprirodcollectionmaterial.ItemType">
+    <collection get-method="getItemDescriptionList" set-method="setItemDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ItemDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+  </mapping>
+</binding>

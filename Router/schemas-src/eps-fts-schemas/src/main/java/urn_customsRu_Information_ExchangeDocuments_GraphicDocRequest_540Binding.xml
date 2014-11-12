@@ -1,0 +1,19 @@
+<binding xmlns:gdr="urn:customs.ru:Information:ExchangeDocuments:GraphicDocRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:GraphicDocRequest:5.4.0" default="elements" prefix="gdr"/>
+  <mapping abstract="true" type-name="gdr:GraphicDocRequestType" class="ru.acs.fts.schemas.album.graphicdocrequest.GraphicDocRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" usage="optional" name="RegNumberDT"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getRequestPerson" set-method="setRequestPerson" usage="optional" name="RequestPerson"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="gdr:DocumentType" name="Document"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.graphicdocrequest.GraphicDocRequestType" name="GraphicDocRequest">
+    <structure map-as="gdr:GraphicDocRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gdr:DocumentType" class="ru.acs.fts.schemas.album.graphicdocrequest.DocumentType">
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+</binding>

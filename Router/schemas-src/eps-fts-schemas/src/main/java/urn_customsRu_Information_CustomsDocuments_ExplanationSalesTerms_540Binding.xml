@@ -1,0 +1,295 @@
+<binding xmlns:est="urn:customs.ru:Information:CustomsDocuments:ExplanationSalesTerms:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ExplanationSalesTerms:5.4.0" default="elements" prefix="est"/>
+  <mapping abstract="true" type-name="est:ExplanationSalesTermsType" class="ru.acs.fts.schemas.album.explanationsalesterms.ExplanationSalesTermsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <structure map-as="est:HistoryCooperationType" get-method="getHistoryCooperation" set-method="setHistoryCooperation" name="HistoryCooperation"/>
+    <structure map-as="est:ChoiceOrderGoodsType" get-method="getChoiceOrderGoods" set-method="setChoiceOrderGoods" name="ChoiceOrderGoods"/>
+    <structure map-as="est:PricingTransactionsType" get-method="getPricingTransactions" set-method="setPricingTransactions" name="PricingTransactions"/>
+    <structure map-as="est:InfoContractDeliveryTermsType" get-method="getInfoContractDeliveryTerms" set-method="setInfoContractDeliveryTerms" name="InfoContractDeliveryTerms"/>
+    <structure map-as="est:SaleGoodsDomesticMarketType" get-method="getSaleGoodsDomesticMarket" set-method="setSaleGoodsDomesticMarket" name="SaleGoodsDomesticMarket"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.explanationsalesterms.ExplanationSalesTermsType" name="ExplanationSalesTerms">
+    <structure map-as="est:ExplanationSalesTermsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:AccountType" class="ru.acs.fts.schemas.album.explanationsalesterms.AccountType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Other" get-method="getOther" set-method="setOther" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:AlignmentPricesType" class="ru.acs.fts.schemas.album.explanationsalesterms.AlignmentPricesType">
+    <value style="element" name="Negotiations" get-method="getNegotiations" set-method="setNegotiations"/>
+    <value style="element" name="Correspondence" get-method="getCorrespondence" set-method="setCorrespondence"/>
+    <value style="element" name="NegotiationsCorrespondence" get-method="getNegotiationsCorrespondence" set-method="setNegotiationsCorrespondence"/>
+    <value style="element" name="NegotiationsComments" get-method="getNegotiationsComments" set-method="setNegotiationsComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:BuyerGoodsType" class="ru.acs.fts.schemas.album.explanationsalesterms.BuyerGoodsType">
+    <value style="element" name="OwnRetailNetwork" get-method="getOwnRetailNetwork" set-method="setOwnRetailNetwork"/>
+    <value style="element" name="SellOne_ThreePersons" get-method="getSellOneThreePersons" set-method="setSellOneThreePersons"/>
+    <value style="element" name="SellDifferentPersons" get-method="getSellDifferentPersons" set-method="setSellDifferentPersons"/>
+    <value style="element" name="OwnUse" get-method="getOwnUse" set-method="setOwnUse"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:BuyerSellerType" class="ru.acs.fts.schemas.album.explanationsalesterms.BuyerSellerType">
+    <value style="element" name="Buyer" get-method="getBuyer" set-method="setBuyer"/>
+    <value style="element" name="Seller" get-method="getSeller" set-method="setSeller"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:ChoiceGoodsType" class="ru.acs.fts.schemas.album.explanationsalesterms.ChoiceGoodsType">
+    <value style="element" name="Sample" get-method="getSample" set-method="setSample"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+    <value style="element" name="Standard" get-method="getStandard" set-method="setStandard"/>
+    <value style="element" name="CommentsStandard" get-method="getCommentsStandard" set-method="setCommentsStandard" usage="optional"/>
+    <value style="element" name="Otherwise" get-method="getOtherwise" set-method="setOtherwise"/>
+    <value style="element" name="OtherwiseComments" get-method="getOtherwiseComments" set-method="setOtherwiseComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:ChoiceOrderGoodsType" class="ru.acs.fts.schemas.album.explanationsalesterms.ChoiceOrderGoodsType">
+    <value style="element" name="DepartmentAnalysis" get-method="getDepartmentAnalysis" set-method="setDepartmentAnalysis"/>
+    <value style="element" name="Analysis" get-method="getAnalysis" set-method="setAnalysis"/>
+    <value style="element" name="Study" get-method="getStudy" set-method="setStudy" usage="optional"/>
+    <value style="element" name="DeliveryGoodsUnderContract" get-method="getDeliveryGoodsUnderContract" set-method="setDeliveryGoodsUnderContract"/>
+    <structure map-as="est:ChoiceGoodsType" get-method="getChoiceGood" set-method="setChoiceGood" name="ChoiceGood"/>
+    <structure map-as="est:OrderGoodsType" get-method="getOrderGoods" set-method="setOrderGoods" name="OrderGoods"/>
+    <structure map-as="est:DeliveryGoodsType" get-method="getDeliveryGoods" set-method="setDeliveryGoods" name="DeliveryGoods"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:ChoiceSellerType" class="ru.acs.fts.schemas.album.explanationsalesterms.ChoiceSellerType">
+    <value style="element" name="Producer" get-method="getProducer" set-method="setProducer"/>
+    <value style="element" name="OfficialRepresentativeProducer" get-method="getOfficialRepresentativeProducer" set-method="setOfficialRepresentativeProducer"/>
+    <value style="element" name="Guarantee" get-method="getGuarantee" set-method="setGuarantee"/>
+    <value style="element" name="ProfitableTerm" get-method="getProfitableTerm" set-method="setProfitableTerm"/>
+    <value style="element" name="CommentsProfitableTerm" get-method="getCommentsProfitableTerm" set-method="setCommentsProfitableTerm" usage="optional"/>
+    <value style="element" name="Otherwise" get-method="getOtherwise" set-method="setOtherwise"/>
+    <value style="element" name="OtherwiseComments" get-method="getOtherwiseComments" set-method="setOtherwiseComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:CostDeliveryType" class="ru.acs.fts.schemas.album.explanationsalesterms.CostDeliveryType">
+    <structure map-as="est:DescriptionCostDeliveryType" get-method="getExactAmount" set-method="setExactAmount" name="ExactAmount"/>
+    <structure map-as="est:DescriptionCostDeliveryType" get-method="getNotKnown" set-method="setNotKnown" name="NotKnown"/>
+    <structure map-as="est:DescriptionCostDeliveryType" get-method="getApproximateCost" set-method="setApproximateCost" name="ApproximateCost"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:DeliveryGoodsType" class="ru.acs.fts.schemas.album.explanationsalesterms.DeliveryGoodsType">
+    <value style="element" name="Retail" get-method="getRetail" set-method="setRetail"/>
+    <value style="element" name="PackingSorting" get-method="getPackingSorting" set-method="setPackingSorting"/>
+    <value style="element" name="ProductionRawMaterial" get-method="getProductionRawMaterial" set-method="setProductionRawMaterial"/>
+    <value style="element" name="MeansProduction" get-method="getMeansProduction" set-method="setMeansProduction"/>
+    <value style="element" name="OwnConsumption" get-method="getOwnConsumption" set-method="setOwnConsumption"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:DescriptionCostDeliveryType" class="ru.acs.fts.schemas.album.explanationsalesterms.DescriptionCostDeliveryType">
+    <value style="element" name="Value" get-method="getValue" set-method="setValue"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:DescriptionKindContractType" class="ru.acs.fts.schemas.album.explanationsalesterms.DescriptionKindContractType">
+    <value style="element" name="DateSettlement" get-method="getDateSettlement" set-method="setDateSettlement" format="LocalDate.default"/>
+    <value style="element" name="ExpiryDate" get-method="getExpiryDate" set-method="setExpiryDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ApplicableLaw" get-method="getApplicableLaw" set-method="setApplicableLaw"/>
+    <value style="element" name="PlaceDetention" get-method="getPlaceDetention" set-method="setPlaceDetention"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:DescriptionKindCooperationType" class="ru.acs.fts.schemas.album.explanationsalesterms.DescriptionKindCooperationType">
+    <value style="element" name="PeriodTime" get-method="getPeriodTime" set-method="setPeriodTime" usage="optional"/>
+    <value style="element" name="Value" get-method="getValue" set-method="setValue"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:DescriptionTermsContractType" class="ru.acs.fts.schemas.album.explanationsalesterms.DescriptionTermsContractType">
+    <value style="element" name="Vaule" get-method="getVaule" set-method="setVaule"/>
+    <value style="element" name="AnswerYES" get-method="getAnswerYES" set-method="setAnswerYES" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:DiscountType" class="ru.acs.fts.schemas.album.explanationsalesterms.DiscountType">
+    <value style="element" name="QuantityGoods" get-method="getQuantityGoods" set-method="setQuantityGoods"/>
+    <value style="element" name="RepaymentTerms" get-method="getRepaymentTerms" set-method="setRepaymentTerms"/>
+    <value style="element" name="Seasonal" get-method="getSeasonal" set-method="setSeasonal"/>
+    <value style="element" name="Other" get-method="getOther" set-method="setOther"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:ExcessCustomsCostType" class="ru.acs.fts.schemas.album.explanationsalesterms.ExcessCustomsCostType">
+    <value style="element" name="Less30percent" get-method="getLess30percent" set-method="setLess30percent"/>
+    <value style="element" name="About30_50percent" get-method="getAbout3050percent" set-method="setAbout3050percent"/>
+    <value style="element" name="About50_100percent" get-method="getAbout50100percent" set-method="setAbout50100percent"/>
+    <value style="element" name="About3Times" get-method="getAbout3Times" set-method="setAbout3Times"/>
+    <value style="element" name="About5Times" get-method="getAbout5Times" set-method="setAbout5Times"/>
+    <value style="element" name="About10Times" get-method="getAbout10Times" set-method="setAbout10Times"/>
+    <value style="element" name="Times10_100" get-method="getTimes10100" set-method="setTimes10100"/>
+    <value style="element" name="More100Times" get-method="getMore100Times" set-method="setMore100Times"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:ExpressPubliclyOfferType" class="ru.acs.fts.schemas.album.explanationsalesterms.ExpressPubliclyOfferType">
+    <value style="element" name="PriceList" get-method="getPriceList" set-method="setPriceList"/>
+    <value style="element" name="PriceListAddressOffice" get-method="getPriceListAddressOffice" set-method="setPriceListAddressOffice" usage="optional"/>
+    <value style="element" name="PublicSourcePrinting" get-method="getPublicSourcePrinting" set-method="setPublicSourcePrinting"/>
+    <value style="element" name="PublicSourcePrintingComments" get-method="getPublicSourcePrintingComments" set-method="setPublicSourcePrintingComments" usage="optional"/>
+    <value style="element" name="Media" get-method="getMedia" set-method="setMedia"/>
+    <value style="element" name="MediaComments" get-method="getMediaComments" set-method="setMediaComments" usage="optional"/>
+    <value style="element" name="Site" get-method="getSite" set-method="setSite"/>
+    <value style="element" name="SiteAddress" get-method="getSiteAddress" set-method="setSiteAddress" usage="optional"/>
+    <value style="element" name="Otherwise" get-method="getOtherwise" set-method="setOtherwise"/>
+    <value style="element" name="OtherwiseComments" get-method="getOtherwiseComments" set-method="setOtherwiseComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:HistoryCooperationType" class="ru.acs.fts.schemas.album.explanationsalesterms.HistoryCooperationType">
+    <value style="element" name="AdditionalContract" get-method="getAdditionalContract" set-method="setAdditionalContract"/>
+    <value style="element" name="CooperationEarly" get-method="getCooperationEarly" set-method="setCooperationEarly"/>
+    <value style="element" name="ConstantPartner" get-method="getConstantPartner" set-method="setConstantPartner" usage="optional"/>
+    <value style="element" name="PutInformationCost" get-method="getPutInformationCost" set-method="setPutInformationCost"/>
+    <value style="element" name="CommentsPutInformationCos" get-method="getCommentsPutInformationCos" set-method="setCommentsPutInformationCos" usage="optional"/>
+    <structure map-as="est:KindCooperationType" get-method="getKindCooperation" set-method="setKindCooperation" usage="optional" name="KindCooperation"/>
+    <structure map-as="est:SearchSellerType" get-method="getSearchSeller" set-method="setSearchSeller" name="SearchSeller"/>
+    <structure map-as="est:ChoiceSellerType" get-method="getChoiceSeller" set-method="setChoiceSeller" name="ChoiceSeller"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:InfoContractDeliveryTermsType" class="ru.acs.fts.schemas.album.explanationsalesterms.InfoContractDeliveryTermsType">
+    <value style="element" name="CostDeliveryIncludedPriceTransactions" get-method="getCostDeliveryIncludedPriceTransactions" set-method="setCostDeliveryIncludedPriceTransactions"/>
+    <value style="element" name="CostDeliverySpecified" get-method="getCostDeliverySpecified" set-method="setCostDeliverySpecified" usage="optional"/>
+    <value style="element" name="Delivery" get-method="getDelivery" set-method="setDelivery" usage="optional"/>
+    <value style="element" name="ConformityCostDeliveryNormaPriceLevel" get-method="getConformityCostDeliveryNormaPriceLevel" set-method="setConformityCostDeliveryNormaPriceLevel"/>
+    <structure map-as="est:AccountType" get-method="getAccount" set-method="setAccount" name="Account"/>
+    <structure map-as="est:KindContractType" get-method="getKindContract" set-method="setKindContract" name="KindContract"/>
+    <structure map-as="est:TermsContractType" get-method="getTermsContract" set-method="setTermsContract" name="TermsContract"/>
+    <structure map-as="est:BuyerSellerType" get-method="getTermsDelivery" set-method="setTermsDelivery" name="TermsDelivery"/>
+    <structure map-as="est:BuyerSellerType" get-method="getTransportRouteDelivery" set-method="setTransportRouteDelivery" name="TransportRouteDelivery"/>
+    <structure map-as="est:TransportInsuranceType" get-method="getTransportInsurance" set-method="setTransportInsurance" name="TransportInsurance"/>
+    <structure map-as="est:CostDeliveryType" get-method="getCostDelivery" set-method="setCostDelivery" usage="optional" name="CostDelivery"/>
+    <structure map-as="est:PercentageDeliveryType" get-method="getPercentageDelivery" set-method="setPercentageDelivery" name="PercentageDelivery"/>
+    <structure map-as="est:RiskLossDamageType" get-method="getRiskLossDamage" set-method="setRiskLossDamage" name="RiskLossDamage"/>
+    <structure map-as="est:PropertyType" get-method="getProperty" set-method="setProperty" name="Property"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:KindContractType" class="ru.acs.fts.schemas.album.explanationsalesterms.KindContractType">
+    <structure ordered="false" choice="true">
+      <structure map-as="est:DescriptionKindContractType" test-method="ifPurchaseSale" get-method="getPurchaseSale" set-method="setPurchaseSale" usage="optional" name="PurchaseSale"/>
+      <structure map-as="est:OtherKindContractType" test-method="ifOther" get-method="getOther" set-method="setOther" usage="optional" name="Other"/>
+      <structure map-as="est:DescriptionKindContractType" test-method="ifLeasingAgreement" get-method="getLeasingAgreement" set-method="setLeasingAgreement" usage="optional" name="LeasingAgreement"/>
+      <structure map-as="est:DescriptionKindContractType" test-method="ifExchange" get-method="getExchange" set-method="setExchange" usage="optional" name="Exchange"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="est:KindCooperationType" class="ru.acs.fts.schemas.album.explanationsalesterms.KindCooperationType">
+    <structure map-as="est:DescriptionKindCooperationType" get-method="getIdenticalGoods" set-method="setIdenticalGoods" name="IdenticalGoods"/>
+    <structure map-as="est:DescriptionKindCooperationType" get-method="getIdemSort" set-method="setIdemSort" name="IdemSort"/>
+    <structure map-as="est:DescriptionKindCooperationType" get-method="getOtherSort" set-method="setOtherSort" name="OtherSort"/>
+    <structure map-as="est:DescriptionKindCooperationType" get-method="getDifferentCooperation" set-method="setDifferentCooperation" name="DifferentCooperation"/>
+    <structure map-as="est:DescriptionKindCooperationType" get-method="getDeliveryGoodsBuyerSeller" set-method="setDeliveryGoodsBuyerSeller" name="DeliveryGoodsBuyerSeller"/>
+    <structure map-as="est:DescriptionKindCooperationType" get-method="getRenderingService" set-method="setRenderingService" name="RenderingService"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:MarketPriceType" class="ru.acs.fts.schemas.album.explanationsalesterms.MarketPriceType">
+    <value style="element" name="Value" get-method="getValue" set-method="setValue"/>
+    <value style="element" name="ValueMarketPrice" get-method="getValueMarketPrice" set-method="setValueMarketPrice" usage="optional"/>
+    <value style="element" name="CurrencyMarketPrice" get-method="getCurrencyMarketPrice" set-method="setCurrencyMarketPrice" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:NonStandardSituationMarketType" class="ru.acs.fts.schemas.album.explanationsalesterms.NonStandardSituationMarketType">
+    <value style="element" name="DopRate" get-method="getDopRate" set-method="setDopRate"/>
+    <value style="element" name="IncreaseRate" get-method="getIncreaseRate" set-method="setIncreaseRate"/>
+    <value style="element" name="GlutMarket" get-method="getGlutMarket" set-method="setGlutMarket"/>
+    <value style="element" name="DeficitMarket" get-method="getDeficitMarket" set-method="setDeficitMarket"/>
+    <value style="element" name="Other" get-method="getOther" set-method="setOther"/>
+    <value style="element" name="CountryType" get-method="getCountryType" set-method="setCountryType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:OrderGoodsType" class="ru.acs.fts.schemas.album.explanationsalesterms.OrderGoodsType">
+    <value style="element" name="Specially" get-method="getSpecially" set-method="setSpecially"/>
+    <value style="element" name="Serially" get-method="getSerially" set-method="setSerially"/>
+    <value style="element" name="SupplyStore" get-method="getSupplyStore" set-method="setSupplyStore"/>
+    <value style="element" name="SupplyStoreComments" get-method="getSupplyStoreComments" set-method="setSupplyStoreComments" usage="optional"/>
+    <value style="element" name="Time-table" get-method="getTimeTable" set-method="setTimeTable"/>
+    <value style="element" name="Exhibition" get-method="getExhibition" set-method="setExhibition"/>
+    <value style="element" name="Second-hand" get-method="getSecondHand" set-method="setSecondHand"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:OtherKindContractType" class="ru.acs.fts.schemas.album.explanationsalesterms.OtherKindContractType">
+    <structure map-as="est:DescriptionKindContractType"/>
+    <value style="element" name="OtherComments" get-method="getOtherComments" set-method="setOtherComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:PercentageDeliveryType" class="ru.acs.fts.schemas.album.explanationsalesterms.PercentageDeliveryType">
+    <value style="element" name="Less3percent" get-method="getLess3percent" set-method="setLess3percent"/>
+    <value style="element" name="About3_5percent" get-method="getAbout35percent" set-method="setAbout35percent"/>
+    <value style="element" name="About5_10percent" get-method="getAbout510percent" set-method="setAbout510percent"/>
+    <value style="element" name="About10_20percent" get-method="getAbout1020percent" set-method="setAbout1020percent"/>
+    <value style="element" name="About20_30percent" get-method="getAbout2030percent" set-method="setAbout2030percent"/>
+    <value style="element" name="About30_50percent" get-method="getAbout3050percent" set-method="setAbout3050percent"/>
+    <value style="element" name="About50_70percent" get-method="getAbout5070percent" set-method="setAbout5070percent"/>
+    <value style="element" name="About70_90percent" get-method="getAbout7090percent" set-method="setAbout7090percent"/>
+    <value style="element" name="More90percent" get-method="getMore90percent" set-method="setMore90percent"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:PositionSellerType" class="ru.acs.fts.schemas.album.explanationsalesterms.PositionSellerType">
+    <value style="element" name="FundsAvailable" get-method="getFundsAvailable" set-method="setFundsAvailable"/>
+    <value style="element" name="GlutWarehouse" get-method="getGlutWarehouse" set-method="setGlutWarehouse"/>
+    <value style="element" name="Bankruptcy" get-method="getBankruptcy" set-method="setBankruptcy"/>
+    <value style="element" name="Other" get-method="getOther" set-method="setOther"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:PricingTransactionsType" class="ru.acs.fts.schemas.album.explanationsalesterms.PricingTransactionsType">
+    <value style="element" name="PriceLeve" get-method="getPriceLeve" set-method="setPriceLeve"/>
+    <value style="element" name="InitialOfferPriceAppropriateLevel" get-method="getInitialOfferPriceAppropriateLevel" set-method="setInitialOfferPriceAppropriateLevel"/>
+    <value style="element" name="PercentageDeviation" get-method="getPercentageDeviation" set-method="setPercentageDeviation" usage="optional"/>
+    <value style="element" name="SalePriceInitialOfferPrice" get-method="getSalePriceInitialOfferPrice" set-method="setSalePriceInitialOfferPrice"/>
+    <value style="element" name="PercentageDifferences" get-method="getPercentageDifferences" set-method="setPercentageDifferences" usage="optional"/>
+    <value style="element" name="OtherReasonsDifferences" get-method="getOtherReasonsDifferences" set-method="setOtherReasonsDifferences" usage="optional"/>
+    <value style="element" name="CommentsOtherReasonsDifferences" get-method="getCommentsOtherReasonsDifferences" set-method="setCommentsOtherReasonsDifferences" usage="optional"/>
+    <value style="element" name="KeepCorrespondence" get-method="getKeepCorrespondence" set-method="setKeepCorrespondence" usage="optional"/>
+    <value style="element" name="GrantCorrespondence" get-method="getGrantCorrespondence" set-method="setGrantCorrespondence" usage="optional"/>
+    <collection get-method="getReasonGrantCorrespondenceList" set-method="setReasonGrantCorrespondenceList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ReasonGrantCorrespondence" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PubliclyOffer" get-method="getPubliclyOffer" set-method="setPubliclyOffer"/>
+    <structure map-as="est:DiscountType" get-method="getDiscount" set-method="setDiscount" usage="optional" name="Discount"/>
+    <structure map-as="est:NonStandardSituationMarketType" get-method="getNonStandardSituationMarket" set-method="setNonStandardSituationMarket" usage="optional" name="NonStandardSituationMarket"/>
+    <structure map-as="est:PositionSellerType" get-method="getPositionSeller" set-method="setPositionSeller" usage="optional" name="PositionSeller"/>
+    <structure map-as="est:SpecialRelationshipType" get-method="getSpecialRelationship" set-method="setSpecialRelationship" usage="optional" name="SpecialRelationship"/>
+    <structure map-as="est:AlignmentPricesType" get-method="getAlignmentPrices" set-method="setAlignmentPrices" usage="optional" name="AlignmentPrices"/>
+    <structure map-as="est:ExpressPubliclyOfferType" get-method="getExpressPubliclyOffer" set-method="setExpressPubliclyOffer" usage="optional" name="ExpressPubliclyOffer"/>
+    <structure map-as="est:ValueFormingPriceType" get-method="getValueFormingPrice" set-method="setValueFormingPrice" name="ValueFormingPrice"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:PropertyType" class="ru.acs.fts.schemas.album.explanationsalesterms.PropertyType">
+    <value style="element" name="DayShipping" get-method="getDayShipping" set-method="setDayShipping"/>
+    <value style="element" name="DayPayment" get-method="getDayPayment" set-method="setDayPayment"/>
+    <value style="element" name="OtherDay" get-method="getOtherDay" set-method="setOtherDay"/>
+    <value style="element" name="CommentsOtherDay" get-method="getCommentsOtherDay" set-method="setCommentsOtherDay" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:RiskLossDamageType" class="ru.acs.fts.schemas.album.explanationsalesterms.RiskLossDamageType">
+    <value style="element" name="Warehouse" get-method="getWarehouse" set-method="setWarehouse"/>
+    <value style="element" name="Disposition" get-method="getDisposition" set-method="setDisposition"/>
+    <value style="element" name="ProcessDelivery" get-method="getProcessDelivery" set-method="setProcessDelivery"/>
+    <value style="element" name="CommentsProcessDelivery" get-method="getCommentsProcessDelivery" set-method="setCommentsProcessDelivery" usage="optional"/>
+    <value style="element" name="PlaceDelivery" get-method="getPlaceDelivery" set-method="setPlaceDelivery"/>
+    <value style="element" name="OtherPlace" get-method="getOtherPlace" set-method="setOtherPlace"/>
+    <collection get-method="getAddressList" set-method="setAddressList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:AddressType" name="Address"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="est:SaleGoodsDomesticMarketType" class="ru.acs.fts.schemas.album.explanationsalesterms.SaleGoodsDomesticMarketType">
+    <value style="element" name="FinalSellingPrice" get-method="getFinalSellingPrice" set-method="setFinalSellingPrice" usage="optional"/>
+    <value style="element" name="UnitSellingPriceGoods" get-method="getUnitSellingPriceGoods" set-method="setUnitSellingPriceGoods" usage="optional"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost"/>
+    <value style="element" name="Profitability" get-method="getProfitability" set-method="setProfitability"/>
+    <structure map-as="est:BuyerGoodsType" get-method="getBuyerGoods" set-method="setBuyerGoods" name="BuyerGoods"/>
+    <structure map-as="est:ExcessCustomsCostType" get-method="getExcessCustomsCost" set-method="setExcessCustomsCost" name="ExcessCustomsCost"/>
+    <structure map-as="est:MarketPriceType" get-method="getMarketPrice" set-method="setMarketPrice" name="MarketPrice"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:SearchSellerType" class="ru.acs.fts.schemas.album.explanationsalesterms.SearchSellerType">
+    <value style="element" name="Middleman" get-method="getMiddleman" set-method="setMiddleman"/>
+    <value style="element" name="Commercial" get-method="getCommercial" set-method="setCommercial"/>
+    <value style="element" name="Exchange" get-method="getExchange" set-method="setExchange"/>
+    <value style="element" name="Otherwise" get-method="getOtherwise" set-method="setOtherwise"/>
+    <value style="element" name="CommentsOtherwise" get-method="getCommentsOtherwise" set-method="setCommentsOtherwise" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:SpecialRelationshipType" class="ru.acs.fts.schemas.album.explanationsalesterms.SpecialRelationshipType">
+    <value style="element" name="Cooperation" get-method="getCooperation" set-method="setCooperation"/>
+    <value style="element" name="Prepayment" get-method="getPrepayment" set-method="setPrepayment"/>
+    <value style="element" name="ExtraDuty" get-method="getExtraDuty" set-method="setExtraDuty"/>
+    <value style="element" name="Other" get-method="getOther" set-method="setOther"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:TermsContractType" class="ru.acs.fts.schemas.album.explanationsalesterms.TermsContractType">
+    <structure map-as="est:DescriptionTermsContractType" get-method="getProvidedDependPurchase" set-method="setProvidedDependPurchase" name="ProvidedDependPurchase"/>
+    <structure map-as="est:DescriptionTermsContractType" get-method="getDeliveryGoodsBuyer" set-method="setDeliveryGoodsBuyer" name="DeliveryGoodsBuyer"/>
+    <structure map-as="est:DescriptionTermsContractType" get-method="getCounterDelivery" set-method="setCounterDelivery" name="CounterDelivery"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:TransportInsuranceType" class="ru.acs.fts.schemas.album.explanationsalesterms.TransportInsuranceType">
+    <value style="element" name="Not" get-method="getNot" set-method="setNot"/>
+    <value style="element" name="Risk" get-method="getRisk" set-method="setRisk"/>
+    <value style="element" name="SimpleAverage" get-method="getSimpleAverage" set-method="setSimpleAverage"/>
+    <value style="element" name="Damage" get-method="getDamage" set-method="setDamage"/>
+    <value style="element" name="OtherTerms" get-method="getOtherTerms" set-method="setOtherTerms"/>
+    <value style="element" name="DescriptionOtherTerms" get-method="getDescriptionOtherTerms" set-method="setDescriptionOtherTerms" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="est:ValueFormingPriceType" class="ru.acs.fts.schemas.album.explanationsalesterms.ValueFormingPriceType">
+    <value style="element" name="ExchangePrice" get-method="getExchangePrice" set-method="setExchangePrice"/>
+    <value style="element" name="PriceOtherProposals" get-method="getPriceOtherProposals" set-method="setPriceOtherProposals"/>
+    <value style="element" name="PriceOtherVendors" get-method="getPriceOtherVendors" set-method="setPriceOtherVendors"/>
+    <value style="element" name="CostPrice" get-method="getCostPrice" set-method="setCostPrice"/>
+    <value style="element" name="SalesDomesticMarket" get-method="getSalesDomesticMarket" set-method="setSalesDomesticMarket"/>
+    <value style="element" name="NotKnown" get-method="getNotKnown" set-method="setNotKnown"/>
+  </mapping>
+</binding>

@@ -1,0 +1,65 @@
+<binding xmlns:gd="urn:customs.ru:Information:TransportDocuments:Sea:GeneralDeclaration:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Sea:GeneralDeclaration:5.4.0" default="elements" prefix="gd"/>
+  <mapping abstract="true" type-name="gd:GeneralDeclarationType" class="ru.acs.fts.schemas.album.generaldeclaration.GeneralDeclarationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getNoticeList" set-method="setNoticeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Notice" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="LanguageCode" get-method="getLanguageCode" set-method="setLanguageCode"/>
+    <value style="element" name="Carrier" get-method="getCarrier" set-method="setCarrier" usage="optional"/>
+    <value style="element" name="ArrivalIndicator" get-method="getArrivalIndicator" set-method="setArrivalIndicator" usage="optional"/>
+    <value style="element" name="VoyageDescription" get-method="getVoyageDescription" set-method="setVoyageDescription"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MembershipNumber" get-method="getMembershipNumber" set-method="setMembershipNumber" usage="optional"/>
+    <value style="element" name="PassengerNumber" get-method="getPassengerNumber" set-method="setPassengerNumber" usage="optional"/>
+    <value style="element" name="DeparturePort" get-method="getDeparturePort" set-method="setDeparturePort"/>
+    <value style="element" name="DestinationPort" get-method="getDestinationPort" set-method="setDestinationPort"/>
+    <value style="element" name="Mooring" get-method="getMooring" set-method="setMooring" usage="optional"/>
+    <structure map-as="gd:VesselRegistrationType" get-method="getVesselRegistration" set-method="setVesselRegistration" name="VesselRegistration"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDocumentSignature" set-method="setDocumentSignature" name="DocumentSignature"/>
+    <structure map-as="gd:AgentType" get-method="getShipAgent" set-method="setShipAgent" name="ShipAgent"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="gd:GDPortType" test-method="ifArrival" get-method="getArrival" set-method="setArrival" usage="optional" name="Arrival"/>
+      <structure map-as="gd:GDPortType" test-method="ifSailing" get-method="getSailing" set-method="setSailing" usage="optional" name="Sailing"/>
+    </structure>
+    <structure map-as="gd:EnclosedDocumentType" get-method="getEnclosedDocument" set-method="setEnclosedDocument" name="EnclosedDocument"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.generaldeclaration.GeneralDeclarationType" name="GeneralDeclaration">
+    <structure map-as="gd:GeneralDeclarationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gd:AgentType" class="ru.acs.fts.schemas.album.generaldeclaration.AgentType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="gd:EnclosedDocumentType" class="ru.acs.fts.schemas.album.generaldeclaration.EnclosedDocumentType">
+    <value style="element" name="ShipStoresDeclarationCopyNumber" get-method="getShipStoresDeclarationCopyNumber" set-method="setShipStoresDeclarationCopyNumber" usage="optional"/>
+    <value style="element" name="SailingCargoDeclarationCopyNumber" get-method="getSailingCargoDeclarationCopyNumber" set-method="setSailingCargoDeclarationCopyNumber" usage="optional"/>
+    <value style="element" name="ArrivalCargoDeclarationCopyNumber" get-method="getArrivalCargoDeclarationCopyNumber" set-method="setArrivalCargoDeclarationCopyNumber" usage="optional"/>
+    <value style="element" name="CrewListCopyNumber" get-method="getCrewListCopyNumber" set-method="setCrewListCopyNumber" usage="optional"/>
+    <value style="element" name="PassengerListCopyNumber" get-method="getPassengerListCopyNumber" set-method="setPassengerListCopyNumber" usage="optional"/>
+    <value style="element" name="BaggageDeclarationCopyNumber" get-method="getBaggageDeclarationCopyNumber" set-method="setBaggageDeclarationCopyNumber" usage="optional"/>
+    <value style="element" name="SeaMedicalDeclarationCopyNumber" get-method="getSeaMedicalDeclarationCopyNumber" set-method="setSeaMedicalDeclarationCopyNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gd:GDPortType" class="ru.acs.fts.schemas.album.generaldeclaration.GDPortType">
+    <value style="element" name="DateTimeInf" get-method="getDateTimeInf" set-method="setDateTimeInf" usage="optional"/>
+    <value style="element" name="PortName" get-method="getPortName" set-method="setPortName"/>
+    <value style="element" name="CountyName" get-method="getCountyName" set-method="setCountyName" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="gd:VesselRegistrationType" class="ru.acs.fts.schemas.album.generaldeclaration.VesselRegistrationType">
+    <structure map-as="catTrans_ru:VesselType"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegistrationID" get-method="getRegistrationID" set-method="setRegistrationID"/>
+    <value style="element" name="RegistrationPort" get-method="getRegistrationPort" set-method="setRegistrationPort"/>
+    <value style="element" name="GrossTonnage" get-method="getGrossTonnage" set-method="setGrossTonnage"/>
+    <value style="element" name="NetTonnage" get-method="getNetTonnage" set-method="setNetTonnage"/>
+    <value style="element" name="IMO" get-method="getIMO" set-method="setIMO" usage="optional"/>
+    <value style="element" name="Flag" get-method="getFlag" set-method="setFlag" usage="optional"/>
+    <value style="element" name="VesselType" get-method="getVesselType1" set-method="setVesselType1"/>
+  </mapping>
+</binding>

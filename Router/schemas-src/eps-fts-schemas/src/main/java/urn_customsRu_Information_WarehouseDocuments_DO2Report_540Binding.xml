@@ -1,0 +1,80 @@
+<binding xmlns:do2r="urn:customs.ru:Information:WarehouseDocuments:DO2Report:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:DO2Report:5.4.0" default="elements" prefix="do2r"/>
+  <mapping abstract="true" type-name="do2r:DO2ReportType" class="ru.acs.fts.schemas.album.do2report.DO2ReportType">
+    <structure map-as="catWH_ru:WareHouseReportType"/>
+    <structure map-as="catWH_ru:WHCarrierType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <collection get-method="getDOTransportList" set-method="setDOTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhTransportType" name="DOTransports"/>
+    </collection>
+    <structure map-as="do2r:DO2GoodsShipmentType" get-method="getGoodsShipment" set-method="setGoodsShipment" name="GoodsShipment"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.do2report.DO2ReportType" name="DO2Report">
+    <structure map-as="do2r:DO2ReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2ConsigneeType" class="ru.acs.fts.schemas.album.do2report.DO2ConsigneeType">
+    <structure map-as="catWH_ru:ConsigneeType"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getConsigneePerson" set-method="setConsigneePerson" usage="optional" name="ConsigneePerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2DO1GoodLinkType" class="ru.acs.fts.schemas.album.do2report.DO2DO1GoodLinkType">
+    <value style="element" name="DO1Date" get-method="getDO1Date" set-method="setDO1Date" format="LocalDate.default"/>
+    <value style="element" name="DO1Number" get-method="getDO1Number" set-method="setDO1Number"/>
+    <structure ordered="false" choice="true">
+      <value style="element" name="DO1GoodNumber" test-method="ifDO1GoodNumber" get-method="getDO1GoodNumber" set-method="setDO1GoodNumber" usage="optional"/>
+      <value style="element" name="MPOIndexNum" test-method="ifMPOIndexNum" get-method="getMPOIndexNum" set-method="setMPOIndexNum" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2GoodCustomDocLinkType" class="ru.acs.fts.schemas.album.do2report.DO2GoodCustomDocLinkType">
+    <value style="element" name="GoodNumber" get-method="getGoodNumber" set-method="setGoodNumber"/>
+    <value style="element" name="CustomDocNumber" get-method="getCustomDocNumber" set-method="setCustomDocNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2GoodInputType" class="ru.acs.fts.schemas.album.do2report.DO2GoodInputType">
+    <structure map-as="catWH_ru:WhGoodType"/>
+    <value style="element" name="MPOCaseNum" get-method="getMPOCaseNum1" set-method="setMPOCaseNum1" usage="optional"/>
+    <value style="element" name="WHNumber" get-method="getWHNumber" set-method="setWHNumber" usage="optional"/>
+    <structure map-as="do2r:DO2DO1GoodLinkType" get-method="getDO1GoodLink" set-method="setDO1GoodLink" name="DO1GoodLink"/>
+    <structure map-as="do2r:DO2KeepingLimitType" get-method="getKeepingLimit" set-method="setKeepingLimit" name="KeepingLimit"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2GoodOutputType" class="ru.acs.fts.schemas.album.do2report.DO2GoodOutputType">
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="OutputDate" get-method="getOutputDate" set-method="setOutputDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="OutputTime" get-method="getOutputTime" set-method="setOutputTime" usage="optional"/>
+    <structure map-as="do2r:DO2ConsigneeType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getMeasureQuantity" set-method="setMeasureQuantity" usage="optional" name="MeasureQuantity"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getBruttoVolQuant" set-method="setBruttoVolQuant" usage="optional" name="BruttoVolQuant"/>
+    <structure map-as="catWH_ru:WHCargoPlaceType" get-method="getCargoPlace" set-method="setCargoPlace" usage="optional" name="CargoPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2GoodResultType" class="ru.acs.fts.schemas.album.do2report.DO2GoodResultType">
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getBruttoVolQuant" set-method="setBruttoVolQuant" usage="optional" name="BruttoVolQuant"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getMeasureQuantity" set-method="setMeasureQuantity" usage="optional" name="MeasureQuantity"/>
+    <structure map-as="catWH_ru:WHCargoPlaceType" get-method="getCargoPlace" set-method="setCargoPlace" usage="optional" name="CargoPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2GoodsShipmentType" class="ru.acs.fts.schemas.album.do2report.DO2GoodsShipmentType">
+    <value style="element" name="MPOSign" get-method="getMPOSign" set-method="setMPOSign"/>
+    <collection get-method="getCustomsDocList" set-method="setCustomsDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhCustomDocumentType" name="CustomsDocs"/>
+    </collection>
+    <collection get-method="getGoodsCustomDocsLinkList" set-method="setGoodsCustomDocsLinkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="do2r:DO2GoodCustomDocLinkType" name="GoodsCustomDocsLinks"/>
+    </collection>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="do2r:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:DO2KeepingLimitType" class="ru.acs.fts.schemas.album.do2report.DO2KeepingLimitType">
+    <value style="element" name="AcceptDate" get-method="getAcceptDate" set-method="setAcceptDate" format="LocalDate.default"/>
+    <value style="element" name="AcceptTime" get-method="getAcceptTime" set-method="setAcceptTime" usage="optional"/>
+    <value style="element" name="StoringDateType" get-method="getStoringDateType" set-method="setStoringDateType" usage="optional"/>
+    <value style="element" name="DeadLineDate" get-method="getDeadLineDate" set-method="setDeadLineDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="do2r:GoodsType" class="ru.acs.fts.schemas.album.do2report.GoodsType">
+    <collection get-method="getInputList" set-method="setInputList" create-type="java.util.ArrayList">
+      <structure map-as="do2r:DO2GoodInputType" name="Input"/>
+    </collection>
+    <structure map-as="do2r:DO2GoodOutputType" get-method="getOutput" set-method="setOutput" usage="optional" name="Output"/>
+    <structure map-as="do2r:DO2GoodResultType" get-method="getResult" set-method="setResult" usage="optional" name="Result"/>
+  </mapping>
+</binding>

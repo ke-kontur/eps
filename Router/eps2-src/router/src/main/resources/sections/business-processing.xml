@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+    
+	<!-- Подгружаем определение бизнес процессов -->
+	<import resource="business-processes.xml" />	
+    
+    <!-- Хранилище бизнес процессов -->
+    <bean id="businessProcessWarehouse" class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessWarehouse" >
+    	<property name="selectors" >
+    		<list>
+    		
+    			<!-- Более частные проверки идут первыми -->
+    			
+				<!-- Более общие - следом -->    		
+    		
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN10003BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.10003</value>
+    								<value>CMN.11128</value>
+    							</list>
+    						</property> 
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN10009BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.10009" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN10010BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.10010" />
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN10062BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.10062" />
+    					</bean>
+    				</property>
+    			</bean>    			
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="OezImportExportDecisionBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.10065</value>
+    								<value>CMN.10069</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11001</value>
+    								<value>CMN.11077</value>
+    								<value>CMN.11097</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11004BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11004" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11011BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11011" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11014BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11014" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11024BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11024" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11025BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11025</value>
+    								<value>CMN.11026</value>
+    								<value>CMN.11048</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+				
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11049BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11049" />
+    					</bean>
+    				</property>
+    			</bean>				
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="GtdRecallPermissionBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11012</value>
+    								<value>CMN.11034</value>
+    								
+    								<value>CMN.11052</value>
+    								<value>CMN.11056</value>
+    								<value>CMN.11060</value>
+    								<value>CMN.11063</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11023BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11023</value>
+    								<value>CMN.11044</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN13001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.13001" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN13002BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.13002" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN13005BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.13005" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ED13003BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ED.13003" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ED11004BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ED.11004" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ED1x001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>ED.10001</value>
+    								<value>ED.11001</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ED10003BusinessProcess" />
+    				<property name="condition">
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ED.10003" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11003BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11003" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11044BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11044" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG13003BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.10003</value>
+	    							<value>MSG.13003</value>
+	    							<value>MSG.15033</value>
+	    						</list>
+    						</property> 
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN0010xBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.00101</value>
+    								<value>CMN.00103</value>
+    								<value>CMN.00105</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00307BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00307" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12092BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.12092" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12094BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.12094" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12095BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								 <value>CMN.12095</value>
+    								 <value>CMN.12101</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12096BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.12096" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12102BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.12102</value>
+    								<value>CMN.12103</value>
+    								<value>CMN.12115</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12112BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.12112</value>
+    								<value>CMN.12114</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN12116BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.12116" />
+    					</bean>
+    				</property>
+    			</bean>    			    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CommitChangeDocumentBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.12004</value>
+    								<value>CMN.12014</value>
+    								<value>CMN.12016</value>
+    								<value>CMN.12041</value>
+    								<value>CMN.12067</value>
+    								<value>CMN.12069</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="tranzitFromPIToDeclSignBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.12002</value>
+									<value>CMN.12003</value>
+									<value>CMN.12005</value>
+									<value>CMN.12006</value>
+									<value>CMN.12008</value>
+									<value>CMN.12009</value>
+									<value>CMN.12043</value>
+									
+									<value>CMN.12104</value>
+									
+									<value>CMN.15006</value>
+									<value>CMN.15007</value>
+									<value>CMN.15009</value>
+									<value>CMN.15013</value>
+									<value>CMN.15015</value>
+									<!-- 
+									<value>CMN.15016</value>
+									<value>CMN.15017</value>
+									<value>CMN.15019</value>
+									 -->
+									<value>CMN.15023</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN15003BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.15003" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="NotifGTDRegistrationBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.15004</value>
+    								<value>CMN.15005</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    		
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00001" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00004CMN13001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00004" />
+    						<property name="initialMessageTypes" >
+    							<list>
+    								<value>CMN.13001</value>
+    								<value>CMN.13002</value>
+    								<value>CMN.13005</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    		
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00004OezDestrBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00004" />
+    						<property name="initialMessageTypes" >
+    							<list>
+    								<value>CMN.10070</value>
+    								<value>CMN.10071</value>
+    								<value>CMN.10075</value>
+    								<value>CMN.10076</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    		
+    			
+    				
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00006MSG11022BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00006" />
+    						<property name="initialMessageTypes" >
+    							<list>
+    								<value>CMN.11012</value>
+    								<value>CMN.11034</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    		
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00006MSG11023BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00006" />
+    						<property name="initialMessageTypes" >
+    							<list>
+    								<value>CMN.11010</value>
+    								<value>CMN.11020</value>
+    								<value>CMN.11033</value>
+    								<value>CMN.11042</value>
+    								<value>CMN.11043</value>
+    								<value>CMN.11093</value>
+    								<value>CMN.11094</value>
+    								<value>CMN.11101</value>
+    								<value>CMN.11117</value>
+    								<value>CMN.11118</value>
+    								<value>CMN.11123</value>
+    								<value>CMN.11124</value>
+    								
+    								<value>MSG.11023</value>
+    								<value>MSG.11035</value>
+    								<value>MSG.11024</value>
+    								<value>MSG.11050</value>
+    								<value>MSG.11051</value>
+    								<value>MSG.11054</value>
+    								<value>MSG.11064</value>
+    								<value>MSG.11065</value>
+    								<value>MSG.11068</value>
+    								<value>MSG.11069</value>
+    								<value>MSG.11070</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean> 	
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00006CMN11006BusinessProcess" />
+					<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00006" />
+    						<property name="initialMessageTypes" >
+    							<list>
+									<value>CMN.11006</value>
+								</list>
+    						</property>
+    					</bean>
+    				</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00006OnCMN11062BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00006" />
+    						<property name="initialMessageTypes" >
+    							<list>
+    								<value>CMN.11062</value>
+    								<value>CMN.11075</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00006MSG11025BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00006" />
+    						<property name="initialMessageTypes" >
+    							<list>
+    								<value>MSG.11025</value>
+    								<value>CMN.11029</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+  				<!-- Бизнес процесс для обработки сообщений ADM.00006 ADM.00007 
+					(в бизнес-процессе определяется отправитель, один бп для обоих - MessageADM00006BusinessProcess)  -->
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00006BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>ADM.00004</value>
+    								<value>ADM.00006</value>
+    								<value>ADM.00007</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00008BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00008" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00009BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00009" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00010BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00010" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00011BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00011" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00012BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00012" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00013BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00013" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00014BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00014" />
+    					</bean>
+    				</property>
+    			</bean>    			    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM00015BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.00015" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM10005BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.10005" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11026BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11026" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM11020BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>ADM.11020</value>
+    								<value>ADM.11059</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+                <bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+                    <property name="businessProcess" ref="CMN11072BusinessProcess" />
+                    <property name="condition" >
+                        <bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+                            <property name="messageType" value="CMN.11072" />
+                        </bean>
+                    </property>
+                </bean>
+                <bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+                    <property name="businessProcess" ref="CMN15020BusinessProcess" />
+                    <property name="condition" >
+                        <bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+                            <property name="messageType" value="CMN.15020" />
+                        </bean>
+                    </property>
+                </bean>         
+                <bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+                    <property name="businessProcess" ref="CMN15021BusinessProcess" />
+                    <property name="condition" >
+                        <bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+                            <property name="messageType" value="CMN.15021" />
+                        </bean>
+                    </property>
+                </bean>      
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11022RemoteEpsBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11022" />
+    					</bean>
+    				</property>
+    			</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="importExportMessagesBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11010</value>
+    								<value>CMN.11020</value>
+    								<value>CMN.11033</value>
+    								<value>CMN.11042</value>
+    								<value>CMN.11043</value>
+    								<value>CMN.11093</value>
+    								<value>CMN.11094</value>
+    								<value>CMN.11101</value>
+    								<value>CMN.11117</value>
+    								<value>CMN.11118</value>
+    								<value>CMN.11123</value>
+    								<value>CMN.11124</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11006BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11006" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="exportImportMsgResponseBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>MSG.11023</value>
+    								<value>MSG.11024</value>
+    								<value>MSG.11035</value>
+    								<value>MSG.11050</value>
+    								<value>MSG.11051</value>
+    								<value>MSG.11054</value>
+    								<value>MSG.11064</value>
+    								<value>MSG.11065</value>
+    								<value>MSG.11068</value>
+    								<value>MSG.11069</value>
+    								<value>MSG.11070</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11062BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11062</value>
+    								<value>CMN.11075</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11029RemoteBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11029" />
+							<property name="sendingSystem" value="EPS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="transitKastoToKastoBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>MSG.11001</value>
+    								<value>MSG.11021</value>
+    								<value>MSG.11028</value>
+    								<value>MSG.11029</value>
+    								<value>MSG.11030</value>
+    								<value>MSG.11032</value>
+    								<value>MSG.11033</value>
+    								<value>MSG.11063</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="emptyBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+									<value>CMN.15016</value>
+									<value>CMN.15017</value>
+									<value>CMN.15019</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    			
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11034BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11034" />
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11020BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11020" />
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11076BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11076" />
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11090BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11090" />
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11085BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+									<value>CMN.11085</value>
+									<value>CMN.11079</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="PVR00001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="PVR.00001" />
+    					</bean>
+    				</property>
+    			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="PVR00002BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="PVR.00002" />
+    					</bean>
+    				</property>
+    			</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00214BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00214" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00004BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.00001</value>
+    								<value>CMN.00004</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="suppliesDtBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11008</value>
+    								<value>CMN.11053</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="suppliesChangedDocsBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11013</value>
+    								<value>CMN.11050</value>
+    								<value>CMN.11054</value>
+    								<value>CMN.11058</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="suppliesIssueDecisionBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11061</value>
+    								<value>CMN.11055</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="suppliesClaimBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11028</value>
+    								<value>CMN.11057</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="suppliesClaimIssueDecisionBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11051</value>
+    								<value>CMN.11059</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00201BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.00201</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00202BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00202" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00203BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00203" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00205BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00205" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00207BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00207" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00208BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00208" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00209BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00209" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00210BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00210" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN00212BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.00212" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="GatewayNotificationBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.00001</value>
+    								<value>MSG.00004</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11092BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11092" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11052BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11052" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11060BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11060" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- Селекторы для которых важен порядок следования -->
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="TranzitInProcRemotenessBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11121</value>
+    							</list>
+    						</property>
+    						<property name="sendingSystem" value="EPS" />
+    						<property name="sendingSystemNegate" value="true" />    						 
+    					</bean>
+    				</property>
+    			</bean>    			
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="TranzitInProcRemotenessRemoteBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11121</value>
+    							</list>
+    						</property>
+    						<property name="sendingSystem" value="EPS" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="RemoteRtuOpenProcBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.11007</value>
+    							</list>
+    						</property>
+    						<property name="sendingSystem" value="EPS" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11025RemoteBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11025" />
+    						<property name="sendingSystem" value="EPS" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+    			<!-- Общие проверки с множественным выбором -->
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="AdditionalCheckDocumentsRequestBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11065</value>
+    								<value>CMN.11066</value>
+    								<value>CMN.11067</value>
+    							</list>
+    						</property>    						 
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="OezDestructionContainerBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.10070</value>
+    								<value>CMN.10071</value>
+    								<value>CMN.10075</value>
+    								<value>CMN.10076</value>
+    							</list>
+    						</property>    						 
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="GoodsArrangementBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.11055</value>
+									<value>MSG.11056</value>
+									<value>MSG.11057</value>
+									
+									<value>MSG.11067</value>
+    							</list>
+    						</property>    						 
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="GoodsArrivalBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.12012</value>
+									<value>MSG.12013</value>
+									<value>MSG.12014</value>
+    							</list>
+    						</property>    						 
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- Простые селекторы с одиночным выбором -->
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ADM15001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ADM.15001" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="ED13005BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ED.13005" />
+    					</bean>
+    				</property>
+    			</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11005BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11005" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11006BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11006" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11007BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11007" />
+    					</bean>
+    				</property>
+    			</bean>    			
+    			
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11009BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11009" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11029BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11029" />
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11111BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11111" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN15024BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.15024" />
+    					</bean>
+    				</property>
+    			</bean>   			
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11007BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11007" />
+    					</bean>
+    				</property>
+    			</bean>    			    			
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11008BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11008" />
+    					</bean>
+    				</property>
+    			</bean>    			
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11025BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11025" />
+    					</bean>
+    				</property>
+    			</bean>    			
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11027BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11027" />
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11058BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11058" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG11066BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11066" />
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG15001BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.15001" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSG15002BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.15002" />
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSGAsktt2AistmBusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.15036</value>
+    								<value>MSG.15037</value>
+    								<value>MSG.15039</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="MSGAistmAsktt2BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.15035</value>
+    								<value>MSG.15038</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11120BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11120" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+    				<property name="businessProcess" ref="CMN11113BusinessProcess" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11113" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    		</list>
+    	</property>
+    </bean>
+	
+</beans>

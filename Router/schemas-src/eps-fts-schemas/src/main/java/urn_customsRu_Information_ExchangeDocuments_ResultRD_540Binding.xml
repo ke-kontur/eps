@@ -1,0 +1,32 @@
+<binding xmlns:rusrd="urn:customs.ru:Information:ExchangeDocuments:ResultRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ResultRD:5.4.0" default="elements" prefix="rusrd"/>
+  <mapping abstract="true" type-name="rusrd:ResultRDType" class="ru.acs.fts.schemas.album.resultrd.ResultRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getResponseList" set-method="setResponseList" create-type="java.util.ArrayList">
+      <structure map-as="rusrd:ResponseType" name="Response"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.resultrd.ResultRDType" name="ResultRD">
+    <structure map-as="rusrd:ResultRDType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rusrd:ItemInfoType" class="ru.acs.fts.schemas.album.resultrd.ItemInfoType">
+    <value style="element" name="RefItem" get-method="getRefItem" set-method="setRefItem"/>
+    <value style="element" name="RecommendValue" get-method="getRecommendValue" set-method="setRecommendValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rusrd:ResponseType" class="ru.acs.fts.schemas.album.resultrd.ResponseType">
+    <value style="element" name="RefDocumentID" get-method="getRefDocumentID" set-method="setRefDocumentID" usage="optional"/>
+    <collection get-method="getResultInformationList" set-method="setResultInformationList" create-type="java.util.ArrayList">
+      <structure map-as="rusrd:ResultInformationType" name="ResultInformation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rusrd:ResultInformationType" class="ru.acs.fts.schemas.album.resultrd.ResultInformationType">
+    <value style="element" name="ResultSource" get-method="getResultSource" set-method="setResultSource" usage="optional"/>
+    <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
+    <collection get-method="getResultDescriptionList" set-method="setResultDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="ResultDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ResultCategory" get-method="getResultCategory" set-method="setResultCategory" usage="optional"/>
+    <structure map-as="rusrd:ItemInfoType" get-method="getItemInfo" set-method="setItemInfo" usage="optional" name="ItemInfo"/>
+  </mapping>
+</binding>

@@ -1,0 +1,41 @@
+<binding xmlns:soa="urn:customs.ru:Information:CommercialFinanceDocuments:StatementOfAccount:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:StatementOfAccount:5.4.0" default="elements" prefix="soa"/>
+  <mapping abstract="true" type-name="soa:StatementOfAccountType" class="ru.acs.fts.schemas.album.statementofaccount.StatementOfAccountType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReservedAmount" get-method="getReservedAmount" set-method="setReservedAmount" usage="optional"/>
+    <value style="element" name="CreditLimitAmount" get-method="getCreditLimitAmount" set-method="setCreditLimitAmount" usage="optional"/>
+    <value style="element" name="CreditAmount" get-method="getCreditAmount" set-method="setCreditAmount" usage="optional"/>
+    <value style="element" name="DebetAmount" get-method="getDebetAmount" set-method="setDebetAmount" usage="optional"/>
+    <value style="element" name="OutBal" get-method="getOutBal" set-method="setOutBal"/>
+    <value style="element" name="EnterBal" get-method="getEnterBal" set-method="setEnterBal" usage="optional"/>
+    <value style="element" name="LastMovementDate" get-method="getLastMovementDate" set-method="setLastMovementDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AbstractKind" get-method="getAbstractKind" set-method="setAbstractKind"/>
+    <value style="element" name="AbstractDate" get-method="getAbstractDate" set-method="setAbstractDate" format="LocalDate.default"/>
+    <structure map-as="soa:DocumentInfoType" get-method="getDocumentInfo" set-method="setDocumentInfo" name="DocumentInfo"/>
+    <structure map-as="catComFin_ru:CustomerType" get-method="getAccountHolder" set-method="setAccountHolder" name="AccountHolder"/>
+    <collection get-method="getTransInfoList" set-method="setTransInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="soa:TransInfoType" name="TransInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.statementofaccount.StatementOfAccountType" name="StatementOfAccount">
+    <structure map-as="soa:StatementOfAccountType"/>
+  </mapping>
+  <mapping abstract="true" type-name="soa:DocumentInfoType" class="ru.acs.fts.schemas.album.statementofaccount.DocumentInfoType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="CreationDate" get-method="getCreationDate" set-method="setCreationDate" format="LocalDate.default"/>
+    <value style="element" name="CreationTime" get-method="getCreationTime" set-method="setCreationTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="soa:TransInfoType" class="ru.acs.fts.schemas.album.statementofaccount.TransInfoType">
+    <value style="element" name="AccDocNo" get-method="getAccDocNo" set-method="setAccDocNo"/>
+    <value style="element" name="TransKind" get-method="getTransKind" set-method="setTransKind"/>
+    <value style="element" name="BICCorr" get-method="getBICCorr" set-method="setBICCorr"/>
+    <value style="element" name="CorrAccBrf" get-method="getCorrAccBrf" set-method="setCorrAccBrf" usage="optional"/>
+    <value style="element" name="PayerPersonalAccount" get-method="getPayerPersonalAccount" set-method="setPayerPersonalAccount" usage="optional"/>
+    <value style="element" name="PayeePersonalAccount" get-method="getPayeePersonalAccount" set-method="setPayeePersonalAccount" usage="optional"/>
+    <value style="element" name="TurnoverKind" get-method="getTurnoverKind" set-method="setTurnoverKind"/>
+    <value style="element" name="DC" get-method="getDC" set-method="setDC"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="TransDate" get-method="getTransDate" set-method="setTransDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

@@ -1,0 +1,27 @@
+<binding xmlns:loa="urn:customs.ru:Information:CommercialFinanceDocuments:LetterOfAttorney:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:LetterOfAttorney:5.4.0" default="elements" prefix="loa"/>
+  <mapping abstract="true" type-name="loa:LetterOfAttorneyType" class="ru.acs.fts.schemas.album.letterofattorney.LetterOfAttorneyType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getSubjectList" set-method="setSubjectList" create-type="java.util.ArrayList">
+      <value style="element" name="Subject" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentReference" set-method="setDocumentReference" name="DocumentReference"/>
+    <structure map-as="loa:OrganizationAttorneyType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritiesDocument" set-method="setAuthoritiesDocument" usage="optional" name="AuthoritiesDocument"/>
+    <structure map-as="loa:EmpoweredPersonType" get-method="getEmpoweredPerson" set-method="setEmpoweredPerson" name="EmpoweredPerson"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.letterofattorney.LetterOfAttorneyType" name="LetterOfAttorney">
+    <structure map-as="loa:LetterOfAttorneyType"/>
+  </mapping>
+  <mapping abstract="true" type-name="loa:EmpoweredPersonType" class="ru.acs.fts.schemas.album.letterofattorney.EmpoweredPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getPassport" set-method="setPassport" name="Passport"/>
+  </mapping>
+  <mapping abstract="true" type-name="loa:OrganizationAttorneyType" class="ru.acs.fts.schemas.album.letterofattorney.OrganizationAttorneyType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getOrganizationPerson" set-method="setOrganizationPerson" usage="optional" name="OrganizationPerson"/>
+  </mapping>
+</binding>

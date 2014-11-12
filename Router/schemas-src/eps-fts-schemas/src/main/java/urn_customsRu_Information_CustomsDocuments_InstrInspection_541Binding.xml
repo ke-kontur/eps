@@ -1,0 +1,161 @@
+<binding xmlns:ii="urn:customs.ru:Information:CustomsDocuments:InstrInspection:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InstrInspection:5.4.1" default="elements" prefix="ii"/>
+  <mapping abstract="true" type-name="ii:InstrInspectionType" class="ru.acs.fts.schemas.album.instrinspection.InstrInspectionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InspectionDate" get-method="getInspectionDate" set-method="setInspectionDate" format="LocalDate.default"/>
+    <value style="element" name="InspectionTime" get-method="getInspectionTime" set-method="setInspectionTime" usage="optional"/>
+    <value style="element" name="BasisExamination" get-method="getBasisExamination" set-method="setBasisExamination" usage="optional"/>
+    <value style="element" name="InspDecisionDate" get-method="getInspDecisionDate" set-method="setInspDecisionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="InspDecisionTime" get-method="getInspDecisionTime" set-method="setInspDecisionTime" usage="optional"/>
+    <value style="element" name="ShortFormSign" get-method="getShortFormSign" set-method="setShortFormSign"/>
+    <structure map-as="ii:InstrInfoType" get-method="getInstrInfo" set-method="setInstrInfo" name="InstrInfo"/>
+    <structure map-as="ii:InspectionObjectType" get-method="getInspectionObject" set-method="setInspectionObject" name="InspectionObject"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getInstrNumber" set-method="setInstrNumber" usage="optional" name="InstrNumber"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTNumber" set-method="setDTNumber" name="DTNumber"/>
+    <collection get-method="getCustomsPersonList" set-method="setCustomsPersonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CustomsPersonType" name="CustomsPersons"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.instrinspection.InstrInspectionType" name="InstrInspection">
+    <structure map-as="ii:InstrInspectionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:ControlPersonType" class="ru.acs.fts.schemas.album.instrinspection.ControlPersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <structure map-as="cat_ru:ContactType" get-method="getContact" set-method="setContact" usage="optional" name="Contact"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:CustomsOfficerType" class="ru.acs.fts.schemas.album.instrinspection.CustomsOfficerType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="PersonPost" get-method="getPersonPost" set-method="setPersonPost"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:FeatureFindingType" class="ru.acs.fts.schemas.album.instrinspection.FeatureFindingType">
+    <value style="element" name="FeatureFindingGoods" get-method="getFeatureFindingGoods" set-method="setFeatureFindingGoods"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <value style="element" name="WTakeSampleFlag" test-method="ifWTakeSampleFlag" get-method="getWTakeSampleFlag" set-method="setWTakeSampleFlag" usage="optional"/>
+      <value style="element" name="NoTakeSampleFlag" test-method="ifNoTakeSampleFlag" get-method="getNoTakeSampleFlag" set-method="setNoTakeSampleFlag" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="ii:IdentUnitType" class="ru.acs.fts.schemas.album.instrinspection.IdentUnitType">
+    <value style="element" name="IdentDescription" get-method="getIdentDescription" set-method="setIdentDescription"/>
+    <value style="element" name="IdentQuantity" get-method="getIdentQuantity" set-method="setIdentQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspDetailsType" class="ru.acs.fts.schemas.album.instrinspection.InspDetailsType">
+    <structure map-as="ii:InspGoalType" get-method="getInspGoal" set-method="setInspGoal" name="InspGoal"/>
+    <structure map-as="ii:InspEffortType" get-method="getInspEffort" set-method="setInspEffort" name="InspEffort"/>
+    <structure map-as="ii:InspLavelType" get-method="getInspLavel" set-method="setInspLavel" name="InspLavel"/>
+    <collection get-method="getUseTSTKList" set-method="setUseTSTKList" create-type="java.util.ArrayList">
+      <structure map-as="ii:UseTSTKType" name="UseTSTK"/>
+    </collection>
+    <structure map-as="ii:UseIdentType" get-method="getUseIdent" set-method="setUseIdent" usage="optional" name="UseIdent"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspDocumentsType" class="ru.acs.fts.schemas.album.instrinspection.InspDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspEffortType" class="ru.acs.fts.schemas.album.instrinspection.InspEffortType">
+    <value style="element" name="EffortPercent" get-method="getEffortPercent" set-method="setEffortPercent"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspGoalType" class="ru.acs.fts.schemas.album.instrinspection.InspGoalType">
+    <value style="element" name="GoodsIdent" get-method="getGoodsIdent" set-method="setGoodsIdent"/>
+    <value style="element" name="SpotCheck" get-method="getSpotCheck" set-method="setSpotCheck"/>
+    <value style="element" name="OtherGoals" get-method="getOtherGoals" set-method="setOtherGoals"/>
+    <collection get-method="getGoalsDescList" set-method="setGoalsDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoalsDesc" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspGoodsType" class="ru.acs.fts.schemas.album.instrinspection.InspGoodsType">
+    <value style="element" name="PakageQuantity" get-method="getPakageQuantity" set-method="setPakageQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspLavelType" class="ru.acs.fts.schemas.album.instrinspection.InspLavelType">
+    <value style="element" name="WithdrWeight" get-method="getWithdrWeight" set-method="setWithdrWeight"/>
+    <value style="element" name="OtherLevel" get-method="getOtherLevel" set-method="setOtherLevel"/>
+    <collection get-method="getLevelDescriptionList" set-method="setLevelDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="LevelDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="ii:ReCountPackType" get-method="getReCountPack" set-method="setReCountPack" name="ReCountPack"/>
+    <structure map-as="ii:ReCountItemType" get-method="getReCountItem" set-method="setReCountItem" name="ReCountItem"/>
+    <structure map-as="ii:FeatureFindingType" get-method="getFeatureFinding" set-method="setFeatureFinding" usage="optional" name="FeatureFinding"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspTransportMeansType" class="ru.acs.fts.schemas.album.instrinspection.InspTransportMeansType">
+    <structure map-as="ii:TransportMeansType" get-method="getTransportMeans" set-method="setTransportMeans" usage="optional" name="TransportMeans"/>
+    <collection get-method="getInspContainerList" set-method="setInspContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:ContainerNumberType" name="InspContainer"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InspectionObjectType" class="ru.acs.fts.schemas.album.instrinspection.InspectionObjectType">
+    <value style="element" name="ObjectType" get-method="getObjectType" set-method="setObjectType" usage="optional"/>
+    <value style="element" name="ConsigCountryCode" get-method="getConsigCountryCode" set-method="setConsigCountryCode" usage="optional"/>
+    <value style="element" name="ConsigCountryName" get-method="getConsigCountryName" set-method="setConsigCountryName" usage="optional"/>
+    <value style="element" name="DeliveryPlace" get-method="getDeliveryPlace" set-method="setDeliveryPlace" usage="optional"/>
+    <value style="element" name="InspCustCode" get-method="getInspCustCode" set-method="setInspCustCode"/>
+    <collection get-method="getInspDescriptionList" set-method="setInspDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InspDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DelivCountryCode" get-method="getDelivCountryCode" set-method="setDelivCountryCode" usage="optional"/>
+    <value style="element" name="DelivCountryName" get-method="getDelivCountryName" set-method="setDelivCountryName" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getPersonInspection" set-method="setPersonInspection" usage="optional" name="PersonInspection"/>
+    <structure map-as="ii:InspTransportMeansType" get-method="getInspTransportMeans" set-method="setInspTransportMeans" usage="optional" name="InspTransportMeans"/>
+    <collection get-method="getInspDocumentList" set-method="setInspDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ii:InspDocumentsType" name="InspDocuments"/>
+    </collection>
+    <structure map-as="ii:InspGoodsType" get-method="getInspGoods" set-method="setInspGoods" name="InspGoods"/>
+    <structure map-as="ii:InspDetailsType" get-method="getInspDetails" set-method="setInspDetails" usage="optional" name="InspDetails"/>
+    <structure map-as="catESAD_ru:InspectionPlaceType" get-method="getInspGoodsLocation" set-method="setInspGoodsLocation" usage="optional" name="InspGoodsLocation"/>
+    <collection get-method="getRiskProfileList" set-method="setRiskProfileList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ii:RiskProfileType" name="RiskProfile"/>
+    </collection>
+    <collection get-method="getPresenceNecessityList" set-method="setPresenceNecessityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ii:PresenceNecessityListType" name="PresenceNecessityList"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ii:InstrInfoType" class="ru.acs.fts.schemas.album.instrinspection.InstrInfoType">
+    <value style="element" name="InstrDate" get-method="getInstrDate" set-method="setInstrDate" format="LocalDate.default"/>
+    <value style="element" name="InstrTime" get-method="getInstrTime" set-method="setInstrTime"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="ii:CustomsOfficerType" get-method="getCustomsOfficer" set-method="setCustomsOfficer" usage="optional" name="CustomsOfficer"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:PresenceNecessityListType" class="ru.acs.fts.schemas.album.instrinspection.PresenceNecessityListType">
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getControlOrganization" set-method="setControlOrganization" usage="optional" name="ControlOrganization"/>
+    <collection get-method="getControlPersonList" set-method="setControlPersonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ii:ControlPersonType" name="ControlPerson"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ii:ReCountItemType" class="ru.acs.fts.schemas.album.instrinspection.ReCountItemType">
+    <value style="element" name="ReCountGoods" get-method="getReCountGoods" set-method="setReCountGoods"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <value style="element" name="SelectPackFlag" test-method="ifSelectPackFlag" get-method="getSelectPackFlag" set-method="setSelectPackFlag" usage="optional"/>
+      <value style="element" name="FullCountFlag" test-method="ifFullCountFlag" get-method="getFullCountFlag" set-method="setFullCountFlag" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="ii:ReCountPackType" class="ru.acs.fts.schemas.album.instrinspection.ReCountPackType">
+    <value style="element" name="ReCount" get-method="getReCount" set-method="setReCount"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <value style="element" name="WSelectOpenFlag" test-method="ifWSelectOpenFlag" get-method="getWSelectOpenFlag" set-method="setWSelectOpenFlag" usage="optional"/>
+      <value style="element" name="WFullOpenFlag" test-method="ifWFullOpenFlag" get-method="getWFullOpenFlag" set-method="setWFullOpenFlag" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="ii:RiskProfileType" class="ru.acs.fts.schemas.album.instrinspection.RiskProfileType">
+    <value style="element" name="RiskProfileKind" get-method="getRiskProfileKind" set-method="setRiskProfileKind"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistryDate" get-method="getRegistryDate" set-method="setRegistryDate" format="LocalDate.default"/>
+    <value style="element" name="SequenceNumber" get-method="getSequenceNumber" set-method="setSequenceNumber"/>
+    <value style="element" name="RiskProfileNumberVersion" get-method="getRiskProfileNumberVersion" set-method="setRiskProfileNumberVersion"/>
+  </mapping>
+  <mapping abstract="true" type-name="ii:TransportMeansType" class="ru.acs.fts.schemas.album.instrinspection.TransportMeansType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMean"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ii:UseIdentType" class="ru.acs.fts.schemas.album.instrinspection.UseIdentType">
+    <collection get-method="getIdentUnitList" set-method="setIdentUnitList" create-type="java.util.ArrayList">
+      <structure map-as="ii:IdentUnitType" name="IdentUnit"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ii:UseTSTKType" class="ru.acs.fts.schemas.album.instrinspection.UseTSTKType">
+    <value style="element" name="TSTKCode" get-method="getTSTKCode" set-method="setTSTKCode"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+</binding>

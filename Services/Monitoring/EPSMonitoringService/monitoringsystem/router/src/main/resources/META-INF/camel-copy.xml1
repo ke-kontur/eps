@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configures the Camel Context-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd
+ http://www.springframework.org/schema/tx
+                        http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                          http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-2.5.xsd ">
+    <!--
+      <camelContext xmlns="http://activemq.apache.org/camel/schema/spring">
+        <package>tutorial</package>
+      </camelContext>
+    -->
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring"
+                  xmlns:soap="http://www.w3.org/2001/06/soap-envelope"
+                  xmlns:rou="urn:customs.ru:Envelope:RoutingInf:1.0"
+                  xmlns:app="urn:customs.ru:Envelope:ApplicationInf:1.0"
+            >
+        <!-- Default JMX connector url: "service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi/camel" -->
+        <jmxAgent id="agent1" createConnector="true"/>
+          <endpoint id="errors" uri="file://c:/temp/?fileName=${date:now:yyyyMMdd-HHmmssSSS}-${property.uid}"/>
+        <route>
+            <from uri="mq:TEST.ROUTER.IN"/>
+            <transacted ref="PROPAGATION_REQUIRES_NEW"/>
+            <!-- <to uri="log:+++ request +++"/>   -->
+            <!--
+            <filter>
+                <xpath>/soap:Envelope/soap:Header/rou:RoutingInf/rou:ReceiverInformation = 'MONITORING-CENTER'</xpath>
+                <to uri="bean:ftsSoapRouter?method=route"/>
+                <to uri="bean:ftsSoapRouter?method=archive"/>
+            </filter>
+            -->
+            <onException>
+                <exception>java.lang.Exception</exception>
+                <handled><constant>true</constant> </handled>
+                <setProperty propertyName="uid">
+                    <ognl>request.headers.jmsmessageid.replace(':','-')</ognl>
+                </setProperty>
+                <to ref="errors"/>
+                <!--<to uri="mq2:TEST.ROUTER.ERROR"/>         -->
+                <rollback markRollbackOnlyLast="true"/>
+            </onException>
+
+            <choice>
+                <when>
+                    <xpath>/soap:Envelope/soap:Header/rou:RoutingInf/rou:ReceiverInformation = 'MONITORING-CENTER'
+                    </xpath>
+                    <to uri="bean:ftsSoapRouter?method=route"/>
+                    <to uri="bean:ftsSoapRouter?method=archive"/>
+                </when>
+                <when>
+                    <xpath>/soap:Envelope/soap:Header/app:ApplicationInf/app:MessageKind = 'PPP.RNTS.002'</xpath>
+                    <to uri="bean:ftsSoapRouterLocal?method=route"/>
+                </when>
+                <when>
+                    <xpath>/soap:Envelope/soap:Header/app:ApplicationInf/app:MessageKind = 'ERROR.MESSAGE'</xpath>
+                    <to uri="bean:ftsSoapRouterLocal?method=route"/>
+                </when>
+
+                <otherwise>
+                    <to uri="bean:validator"/>
+                </otherwise>
+            </choice>
+        </route>
+
+    </camelContext>
+
+
+    <!-- TransactionErrorHandler -->
+
+    <bean id="txErrorHandlerReqNew" class="org.apache.camel.spring.spi.TransactionErrorHandlerBuilder">
+        <property name="springTransactionPolicy" ref="PROPAGATION_REQUIRED"/>
+
+
+        <property name="handledPolicy" ref="RedeliveryErrorProcessor"/>
+    </bean>
+
+
+
+    <bean id="RedeliveryErrorProcessor" class="ru.acs.fst.router.ErrorProcessor">
+
+    </bean>
+
+
+    <!-- setup spring jms TX manager -->
+
+    <bean id="jmsTransactionManager" class="org.springframework.jms.connection.JmsTransactionManager">
+        <property name="connectionFactory" ref="myProxyConnectionFactory"/>
+    </bean>
+
+
+    <!-- here we configure our DeadLetterChannel -->
+    <bean id="myDeadLetterErrorHandler" class="org.apache.camel.builder.DeadLetterChannelBuilder">
+        <!-- exchanges is routed to mock:dead in cased redelivery failed -->
+        <property name="deadLetterUri" value="mq:TEST.ROUTER.ERROR"/>
+        <!-- reference the redelivery policy to use -->
+        <property name="redeliveryPolicy" ref="myRedeliveryPolicyConfig"/>
+    </bean>
+
+    <!-- here we set the redelivery settings -->
+    <bean id="myRedeliveryPolicyConfig" class="org.apache.camel.processor.RedeliveryPolicy">
+        <!-- try redelivery at most 3 times, after that the exchange is dead and its routed to the mock:dead endpoint -->
+        <property name="maximumRedeliveries" value="2"/>
+        <!-- delay 250ms before redelivery -->
+        <property name="redeliverDelay" value="250"/>
+
+    </bean>
+
+
+    <!-- НАстройки сервисов и т.п -->
+
+    <bean id="mq" class="org.apache.camel.component.jms.JmsComponent">
+
+        <property name="connectionFactory" ref="myProxyConnectionFactory"/>
+        <property name="cacheLevelName" value="CACHE_NONE"/>
+         
+        <!-- define the jms consumer/producer as transacted -->
+        <property name="transacted" value="true"/>
+
+        <!-- setup the transaction manager to use -->
+        <!-- if not provided then Camel will automatic use a JmsTransactionManager, however if you
+               for instance use a JTA transaction manager then you must configure it -->
+        <property name="transactionManager" ref="jmsTransactionManager"/>
+
+    </bean>
+    <bean id="mq2" class="org.apache.camel.component.jms.JmsComponent">
+
+        <property name="connectionFactory" ref="myProxyConnectionFactory"/>
+
+
+    </bean>
+    <bean id="myProxyConnectionFactory"
+          class="org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter">
+        <property name="targetConnectionFactory" ref="myConnectionFactory"/>
+        <property name="username" value="fmv"/>
+        <property name="password" value="ptktym7444"/>
+    </bean>
+
+    <bean id="myConnectionFactory" class="com.ibm.mq.jms.MQXAQueueConnectionFactory">
+        <property name="queueManager" value="QMGR1"/>
+        <!--        <property name="hostName" value="127.0.0.1"/>
+     <property name="port" value="1414"/>
+
+     <property name="channel" value="SYSTEM.DEF.SVRCONN"/> -->
+        <property name="transportType" value="0"/>
+
+    </bean>
+
+    <bean id="mqRemoteSender" class="ru.acs.fst.router.MqRemoteSender">
+        <property name="hostName" value="192.168.23.83"/>
+        <property name="port" value="1425"/>
+        <property name="queueManager" value="RU.FTS.GNIVC.RNTS.DPC"/>
+        <property name="channel" value="SYSTEM.DEF.SVRCONN"/>
+        <!-- <property name="mqQueueConnectionFactory"><ref local="myProxyConnectionFactory"/> </property> -->
+    </bean>
+
+    <bean id="ftsSoapRouter" class="ru.acs.fst.router.FtsSoapRouter">
+        <property name="sender" ref="mqRemoteSender"/>
+    </bean>
+
+    <bean id="ftsSoapRouterLocal" class="ru.acs.fst.router.FtsSoapRouter">
+        <property name="sender" ref="jmsSender"/>
+    </bean>
+
+    <bean id="validator" class="ru.acs.fst.router.Validator"/>
+
+
+    <bean id="sendDestination" class="com.ibm.mq.jms.MQQueue">
+        <property name="baseQueueName">
+            <value>TEST.ROUTER.OUT</value>
+        </property>
+    </bean>
+
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory">
+            <ref bean="myProxyConnectionFactory"/>
+            <!--
+            <bean class="org.springframework.jms.connection.SingleConnectionFactory">
+                <property name="targetConnectionFactory">
+                    <ref local="myProxyConnectionFactory"/>
+                </property>
+            </bean>
+            -->
+        </property>
+        <property name="defaultDestination">
+            <ref bean="sendDestination"/>
+        </property>
+        <property name="receiveTimeout">
+            <value>30000</value>
+        </property>
+        <property name="sessionTransacted" value="true"/>
+        <property name="sessionAcknowledgeModeName" value="SESSION_TRANSACTED"/>
+
+    </bean>
+
+
+    <bean id="jmsSender" class="ru.acs.fst.router.JMSSender">
+        <property name="jmsTemplate">
+            <ref bean="jmsTemplate"/>
+        </property>
+
+    </bean>
+
+    <bean id="PROPAGATION_REQUIRED" class="org.apache.camel.spring.spi.SpringTransactionPolicy">
+        <property name="transactionManager" ref="jmsTransactionManager"/>
+        <property name="propagationBehaviorName" value="PROPAGATION_REQUIRED"/>
+    </bean>
+
+    <bean id="PROPAGATION_REQUIRES_NEW" class="org.apache.camel.spring.spi.SpringTransactionPolicy">
+        <property name="transactionManager" ref="jmsTransactionManager"/>
+        <property name="propagationBehaviorName" value="PROPAGATION_REQUIRES_NEW"/>
+
+    </bean>
+       <!--
+    <tx:annotation-driven transaction-manager="jmsTransactionManager" mode="aspectj"/>
+    <context:component-scan base-package="ru.acs.fst.router"/>
+
+    -->
+</beans>

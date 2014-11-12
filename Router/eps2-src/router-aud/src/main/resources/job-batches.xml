@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Хранилище пакетов задач для обработки сообщений из входящей очереди -->
+	<bean id="audJobBatchWarehouse" class="ru.acs.fts.aud.router.processing.AudJobBatchWarehouse">
+		<property name="selectors">
+			<list >
+				
+				<bean class="ru.acs.fts.aud.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="put_doc_req" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.aud.router.processing.JobBatchSelectorCondition" >
+							<property name="messageKind" value="AUD.PUT_DOC.REQ" />
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.aud.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="registry_request" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.aud.router.processing.JobBatchSelectorCondition" >
+							<property name="messageKind" value="AUD.REGISTRY.REQ" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.aud.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="packet_inventory_req" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.aud.router.processing.JobBatchSelectorCondition" >
+							<property name="messageKind" value="AUD.PACKET_INVENTORY.REQ" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.aud.router.processing.JobBatchSelector" >
+					<property name="jobBatch" ref="generic_message_processing" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.aud.router.processing.JobBatchSelectorCondition" >
+							<property name="messageKinds" >
+								<list>
+									<value>AUD.REGISTRY.REQ</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+
+			</list>
+		</property>
+	</bean>
+	
+</beans>

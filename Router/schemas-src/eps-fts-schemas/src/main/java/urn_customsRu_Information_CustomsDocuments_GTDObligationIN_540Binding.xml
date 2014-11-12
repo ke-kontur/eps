@@ -1,0 +1,123 @@
+<binding xmlns:gobin="urn:customs.ru:Information:CustomsDocuments:GTDObligationIN:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GTDObligationIN:5.4.0" default="elements" prefix="gobin"/>
+  <mapping abstract="true" type-name="gobin:GTDObligationINType" class="ru.acs.fts.schemas.album.gtdobligationin.GTDObligationINType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CustMarkSign" get-method="getCustMarkSign" set-method="setCustMarkSign"/>
+    <value style="element" name="DateSign" get-method="getDateSign" set-method="setDateSign" format="LocalDate.default"/>
+    <value style="element" name="GoodsUsagePurpose" get-method="getGoodsUsagePurpose" set-method="setGoodsUsagePurpose" usage="optional"/>
+    <value style="element" name="GoodsDirection" get-method="getGoodsDirection" set-method="setGoodsDirection"/>
+    <value style="element" name="TotalGoodsQuantity" get-method="getTotalGoodsQuantity" set-method="setTotalGoodsQuantity"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="ContainerSign" get-method="getContainerSign" set-method="setContainerSign"/>
+    <value style="element" name="FilledPerson" get-method="getFilledPerson" set-method="setFilledPerson" usage="optional"/>
+    <collection get-method="getSimplificationList" set-method="setSimplificationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Simplification" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="CustomsName" get-method="getCustomsName" set-method="setCustomsName" usage="optional"/>
+    <structure map-as="gobin:CustomsProcedureType" get-method="getESADCustomsProcedure" set-method="setESADCustomsProcedure" name="ESADCustomsProcedure"/>
+    <collection get-method="getObligationGoodList" set-method="setObligationGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gobin:ObligationGoodsType" name="ObligationGoods"/>
+    </collection>
+    <structure map-as="gobin:OrganizationType" get-method="getObligationDeclarant" set-method="setObligationDeclarant" name="ObligationDeclarant"/>
+    <structure map-as="gobin:ConfPaytDocumentsType" get-method="getCustomsMark" set-method="setCustomsMark" usage="optional" name="CustomsMark"/>
+    <structure map-as="gobin:InfoCustomsPayType" get-method="getInfoCustomsPay" set-method="setInfoCustomsPay" usage="optional" name="InfoCustomsPay"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getObligationRegNumber" set-method="setObligationRegNumber" usage="optional" name="ObligationRegNumber"/>
+    <structure map-as="gobin:CountryType" get-method="getTradeCountry" set-method="setTradeCountry" name="TradeCountry"/>
+    <structure map-as="gobin:CountryType" get-method="getDepartureCountry" set-method="setDepartureCountry" name="DepartureCountry"/>
+    <structure map-as="gobin:CountryType" get-method="getOriginCountry" set-method="setOriginCountry" name="OriginCountry"/>
+    <structure map-as="gobin:CountryType" get-method="getDestinationCountry" set-method="setDestinationCountry" name="DestinationCountry"/>
+    <collection get-method="getTransportList" set-method="setTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gobin:TransportInfoType" name="Transport"/>
+    </collection>
+    <structure map-as="gobin:OrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="gobin:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="gobin:CustBrokerType" get-method="getCustBroker" set-method="setCustBroker" usage="optional" name="CustBroker"/>
+    <collection get-method="getServiceMarkList" set-method="setServiceMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gobin:ServiceMarksType" name="ServiceMarks"/>
+    </collection>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gobin:PresentedDocumentsType" name="PresentedDocuments"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.gtdobligationin.GTDObligationINType" name="GTDObligationIN">
+    <structure map-as="gobin:GTDObligationINType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:ConfPaytDocumentsType" class="ru.acs.fts.schemas.album.gtdobligationin.ConfPaytDocumentsType">
+    <value style="element" name="PayDocument" get-method="getPayDocument" set-method="setPayDocument"/>
+    <value style="element" name="NotRequiredPayment" get-method="getNotRequiredPayment" set-method="setNotRequiredPayment"/>
+    <structure map-as="gobin:ObligDecisionType" get-method="getObligDecision" set-method="setObligDecision" usage="optional" name="ObligDecision"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:CountryType" class="ru.acs.fts.schemas.album.gtdobligationin.CountryType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:CustBrokerType" class="ru.acs.fts.schemas.album.gtdobligationin.CustBrokerType">
+    <value style="element" name="AbbreviationCustBrokerName" get-method="getAbbreviationCustBrokerName" set-method="setAbbreviationCustBrokerName" usage="optional"/>
+    <value style="element" name="BrokerReestrNumber" get-method="getBrokerReestrNumber" set-method="setBrokerReestrNumber"/>
+    <value style="element" name="BrokerReestrDate" get-method="getBrokerReestrDate" set-method="setBrokerReestrDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:CustomsProcedureType" class="ru.acs.fts.schemas.album.gtdobligationin.CustomsProcedureType">
+    <value style="element" name="MainCustomsModeCode" get-method="getMainCustomsModeCode" set-method="setMainCustomsModeCode"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:InfoCustomsPayType" class="ru.acs.fts.schemas.album.gtdobligationin.InfoCustomsPayType">
+    <value style="element" name="ExecuteAssure" get-method="getExecuteAssure" set-method="setExecuteAssure"/>
+    <value style="element" name="PaymenSecuring" get-method="getPaymenSecuring" set-method="setPaymenSecuring"/>
+    <value style="element" name="PaymentSum" get-method="getPaymentSum" set-method="setPaymentSum" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:ObligDecisionType" class="ru.acs.fts.schemas.album.gtdobligationin.ObligDecisionType">
+    <value style="element" name="Decision" get-method="getDecision" set-method="setDecision" usage="optional"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode" usage="optional"/>
+    <value style="element" name="Foundation" get-method="getFoundation" set-method="setFoundation" usage="optional"/>
+    <value style="element" name="DecDate" get-method="getDecDate" set-method="setDecDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DecTime" get-method="getDecTime" set-method="setDecTime" usage="optional"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:ObligationGoodsType" class="ru.acs.fts.schemas.album.gtdobligationin.ObligationGoodsType">
+    <structure map-as="catESAD_cu:CUESADGoodsItemType"/>
+    <value style="element" name="MilitaryProductCategoryCode" get-method="getMilitaryProductCategoryCode" set-method="setMilitaryProductCategoryCode" usage="optional"/>
+    <value style="element" name="OriginCountrySign" get-method="getOriginCountrySign" set-method="setOriginCountrySign" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getSupplementaryQuantity12List" set-method="setSupplementaryQuantity12List" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="SupplementaryQuantity12"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:OrganizationType" class="ru.acs.fts.schemas.album.gtdobligationin.OrganizationType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <collection get-method="getSubdivisionInfoList" set-method="setSubdivisionInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUBranchDescriptionType" name="SubdivisionInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:PresentedDocumentsType" class="ru.acs.fts.schemas.album.gtdobligationin.PresentedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="ModeCode" get-method="getModeCode" set-method="setModeCode"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" format="LocalDate.default"/>
+    <value style="element" name="AmountCustomaPay" get-method="getAmountCustomaPay" set-method="setAmountCustomaPay" usage="optional"/>
+    <value style="element" name="AddPaymentCode" get-method="getAddPaymentCode" set-method="setAddPaymentCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:ServiceMarksType" class="ru.acs.fts.schemas.album.gtdobligationin.ServiceMarksType">
+    <structure map-as="catESAD_ru:RUESADCommonOfficialMarkType"/>
+    <value style="element" name="StageDescription" get-method="getStageDescription" set-method="setStageDescription" usage="optional"/>
+    <value style="element" name="IdentifierDescription" get-method="getIdentifierDescription" set-method="setIdentifierDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:TransportInfoType" class="ru.acs.fts.schemas.album.gtdobligationin.TransportInfoType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportSign" get-method="getTransportSign" set-method="setTransportSign"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gobin:TransportType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gobin:TransportType" class="ru.acs.fts.schemas.album.gtdobligationin.TransportType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode" usage="optional"/>
+    <value style="element" name="ContainerSign" get-method="getContainerSign" set-method="setContainerSign"/>
+    <value style="element" name="TraditionalName" get-method="getTraditionalName" set-method="setTraditionalName" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,44 @@
+<binding xmlns:coorr="urn:customs.ru:Information:CustomsDocuments:CoordinationRequests:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CoordinationRequests:5.4.0" default="elements" prefix="coorr"/>
+  <mapping abstract="true" type-name="coorr:CoordinationRequestsType" class="ru.acs.fts.schemas.album.coordinationrequests.CoordinationRequestsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CoordReqDate" get-method="getCoordReqDate" set-method="setCoordReqDate" format="LocalDate.default"/>
+    <value style="element" name="CoordReqTime" get-method="getCoordReqTime" set-method="setCoordReqTime"/>
+    <value style="element" name="Doc_ID" get-method="getDocID" set-method="setDocID"/>
+    <value style="element" name="CoordReqNumber" get-method="getCoordReqNumber" set-method="setCoordReqNumber"/>
+    <value style="element" name="FarINN" get-method="getFarINN" set-method="setFarINN" usage="optional"/>
+    <value style="element" name="FarKPP" get-method="getFarKPP" set-method="setFarKPP" usage="optional"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCreateUserNameFIO" set-method="setCreateUserNameFIO" name="CreateUserNameFIO"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <collection get-method="getMeasureList" set-method="setMeasureList" create-type="java.util.ArrayList">
+      <structure map-as="coorr:MeasureListType" name="MeasureList"/>
+    </collection>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="coorr:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.coordinationrequests.CoordinationRequestsType" name="CoordinationRequests">
+    <structure map-as="coorr:CoordinationRequestsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="coorr:GoodsInfoType" class="ru.acs.fts.schemas.album.coordinationrequests.GoodsInfoType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="coorr:GoodsPRInfoType" class="ru.acs.fts.schemas.album.coordinationrequests.GoodsPRInfoType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="PRRegKind" get-method="getPRRegKind" set-method="setPRRegKind"/>
+    <value style="element" name="PRRegCustomCode" get-method="getPRRegCustomCode" set-method="setPRRegCustomCode"/>
+    <value style="element" name="PRRegDate" get-method="getPRRegDate" set-method="setPRRegDate" format="LocalDate.default"/>
+    <value style="element" name="PRRegNumber" get-method="getPRRegNumber" set-method="setPRRegNumber"/>
+    <value style="element" name="PRVersion" get-method="getPRVersion" set-method="setPRVersion"/>
+    <value style="element" name="PRPointCode" get-method="getPRPointCode" set-method="setPRPointCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="coorr:MeasureListType" class="ru.acs.fts.schemas.album.coordinationrequests.MeasureListType">
+    <value style="element" name="MeasureCode" get-method="getMeasureCode" set-method="setMeasureCode"/>
+    <collection get-method="getGoodsPRInfoList" set-method="setGoodsPRInfoList" create-type="java.util.ArrayList">
+      <structure map-as="coorr:GoodsPRInfoType" name="GoodsPRInfo"/>
+    </collection>
+  </mapping>
+</binding>

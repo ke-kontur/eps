@@ -1,0 +1,16 @@
+<binding xmlns:npc="urn:customs.ru:Information:TreatmentDocuments:NotifProlongDocsConsid:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:NotifProlongDocsConsid:5.4.0" default="elements" prefix="npc"/>
+  <mapping abstract="true" type-name="npc:NotifProlongDocsConsidType" class="ru.acs.fts.schemas.album.notifprolongdocsconsid.NotifProlongDocsConsidType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifprolongdocsconsid.NotifProlongDocsConsidType" name="NotifProlongDocsConsid">
+    <structure map-as="npc:NotifProlongDocsConsidType"/>
+  </mapping>
+</binding>

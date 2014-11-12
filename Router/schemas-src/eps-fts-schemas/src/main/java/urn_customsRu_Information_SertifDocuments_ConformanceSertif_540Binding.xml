@@ -1,0 +1,110 @@
+<binding xmlns:cos="urn:customs.ru:Information:SertifDocuments:ConformanceSertif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:ConformanceSertif:5.4.0" default="elements" prefix="cos"/>
+  <mapping abstract="true" type-name="cos:ConformanceSertifType" class="ru.acs.fts.schemas.album.conformancesertif.ConformanceSertifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getAddSertifInfList" set-method="setAddSertifInfList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AddSertifInf" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DocumentSignature" get-method="getDocumentSignature" set-method="setDocumentSignature"/>
+    <value style="element" name="CertificateSign" get-method="getCertificateSign" set-method="setCertificateSign" usage="optional"/>
+    <structure map-as="cos:SertifOrganizationType" get-method="getSertifOrganization" set-method="setSertifOrganization" name="SertifOrganization"/>
+    <structure map-as="cos:ManufacturerOrgType" get-method="getManufacturerInf" set-method="setManufacturerInf" name="ManufacturerInf"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getSertifRecipient" set-method="setSertifRecipient" usage="optional" name="SertifRecipient"/>
+    <collection get-method="getGroundDocList" set-method="setGroundDocList" create-type="java.util.ArrayList">
+      <structure map-as="cos:GroundDocsType" name="GroundDocs"/>
+    </collection>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cos:GoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getExpertSignatureList" set-method="setExpertSignatureList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="ExpertSignature"/>
+    </collection>
+    <structure map-as="cos:CertifNormDocType" get-method="getCertifNormDoc" set-method="setCertifNormDoc" name="CertifNormDoc"/>
+    <collection get-method="getProlongCertificateList" set-method="setProlongCertificateList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cos:ProlongCertificateType" name="ProlongCertificate"/>
+    </collection>
+    <structure map-as="cos:CertifNormDocType" get-method="getFederalDocs" set-method="setFederalDocs" usage="optional" name="FederalDocs"/>
+    <collection get-method="getAppendList" set-method="setAppendList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cos:AppendsType" name="Append"/>
+    </collection>
+    <structure map-as="cos:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="cos:FormNumberType" get-method="getFormNumber" set-method="setFormNumber" name="FormNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.conformancesertif.ConformanceSertifType" name="ConformanceSertif">
+    <structure map-as="cos:ConformanceSertifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:AppendsType" class="ru.acs.fts.schemas.album.conformancesertif.AppendsType">
+    <value style="element" name="AppendNumber" get-method="getAppendNumber" set-method="setAppendNumber" usage="optional"/>
+    <value style="element" name="AppendFormNumber" get-method="getAppendFormNumber" set-method="setAppendFormNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:CertifNormDocType" class="ru.acs.fts.schemas.album.conformancesertif.CertifNormDocType">
+    <collection get-method="getDocsDescriptionList" set-method="setDocsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="DocsDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cos:CertificateOrgType" class="ru.acs.fts.schemas.album.conformancesertif.CertificateOrgType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:FormNumberType" class="ru.acs.fts.schemas.album.conformancesertif.FormNumberType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:GoodsType" class="ru.acs.fts.schemas.album.conformancesertif.GoodsType">
+    <structure map-as="cos:AppendsType"/>
+    <value style="element" name="ProductCode" get-method="getProductCode" set-method="setProductCode" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="SeriesSign" get-method="getSeriesSign" set-method="setSeriesSign"/>
+    <collection get-method="getNormDocList" set-method="setNormDocList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="NormDocs" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PartySize" get-method="getPartySize" set-method="setPartySize" usage="optional"/>
+    <collection get-method="getSerialNumberList" set-method="setSerialNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SerialNumber" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getShippingDocumentList" set-method="setShippingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="ShippingDocuments"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cos:GroundDocsType" class="ru.acs.fts.schemas.album.conformancesertif.GroundDocsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="OrganizationNumber" get-method="getOrganizationNumber" set-method="setOrganizationNumber" usage="optional"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:AddressType" get-method="getOrganizationAddress" set-method="setOrganizationAddress" usage="optional" name="OrganizationAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:ManufacturerOrgType" class="ru.acs.fts.schemas.album.conformancesertif.ManufacturerOrgType">
+    <structure map-as="catSert_ru:SertifOrgBaseType"/>
+    <collection get-method="getSubdivisionInfoList" set-method="setSubdivisionInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cos:SubdivisionInfoType" name="SubdivisionInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cos:ProlongCertificateType" class="ru.acs.fts.schemas.album.conformancesertif.ProlongCertificateType">
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getProlongSign" set-method="setProlongSign" name="ProlongSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:RegistrationNumberType" class="ru.acs.fts.schemas.album.conformancesertif.RegistrationNumberType">
+    <value style="element" name="SertifNumber" get-method="getSertifNumber" set-method="setSertifNumber"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:SertifOrganizationType" class="ru.acs.fts.schemas.album.conformancesertif.SertifOrganizationType">
+    <structure map-as="catSert_ru:SertifOrgBaseType"/>
+    <value style="element" name="OrganizationNumber" get-method="getOrganizationNumber" set-method="setOrganizationNumber"/>
+    <value style="element" name="FieldOfAction" get-method="getFieldOfAction" set-method="setFieldOfAction" usage="optional"/>
+    <value style="element" name="CertificateDate" get-method="getCertificateDate" set-method="setCertificateDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cos:CertificateOrgType" get-method="getCertificateOrg" set-method="setCertificateOrg" usage="optional" name="CertificateOrg"/>
+  </mapping>
+  <mapping abstract="true" type-name="cos:SubdivisionInfoType" class="ru.acs.fts.schemas.album.conformancesertif.SubdivisionInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+</binding>

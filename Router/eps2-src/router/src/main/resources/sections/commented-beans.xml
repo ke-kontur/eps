@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Из jms-beans.xml -->
+
+    <!--
+	<bean id="jmsFactory" class="org.springframework.jndi.JndiObjectFactoryBean" >
+		<property name="jndiName" value="eps2config/mq-connection-recv" />
+	</bean>
+	-->
+    
+    <!-- 
+	<bean id="jmsConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory" >
+		<property name="targetConnectionFactory" ref="jmsFactory" />
+	</bean>
+	-->
+    
+    <!-- 
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" >
+		<property name="connectionFactory" ref="jmsConnectionFactory" />
+		<property name="sessionTransacted" value="true" />
+		<property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+	</bean>
+    -->
+
+</beans>

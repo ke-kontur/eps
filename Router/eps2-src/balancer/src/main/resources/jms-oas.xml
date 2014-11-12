@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+						
+	<!-- JMS JNDI -->		
+	
+	<!-- Factories -->				
+
+		<!-- 
+		<bean id="jndiJmsFactory" class="org.springframework.jndi.JndiObjectFactoryBean" >
+			<property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-recv" />
+		</bean>
+	
+	    <bean id="jndiJmsFactoryRouter" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/RouterConnectionFactory" />
+	    </bean>
+	    
+	    <bean id="jndiJmsFactoryForeignRouter" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/ForeignRouterConnectionFactory"></property>
+	    </bean>
+	
+	    <bean id="jndiJmsFactoryToErrorQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error" />
+	    </bean>
+	    -->
+    
+    <!-- Error Queues -->
+    
+    	<!-- 
+	    <bean id="jndiErrorRecvQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/mq-connection-send-error-recv" />
+	    </bean>
+	    -->
+	    
+	<!-- Destination Queues -->    
+
+		<!-- 
+	    <bean id="jndiEPS5011DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5011308decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5011CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5011308customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5011EadFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5011308ead" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5011EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5011308eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5011AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5011308admin" />
+	    </bean>
+    
+	    <bean id="jndiEPS5012DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5012309decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5012CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5012309customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5012EadFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5012309ead" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5012EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5012309eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5012AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5012309admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5013DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5013310decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5013CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5013310customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5013EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5013310eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5013AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5013310admin" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5014DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5014320decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5014CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5014320customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5014EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5014320eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5014AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5014320admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5015DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5015321decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5015CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5015321customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5015EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5015321eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5015AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5015321admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5016DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5016322decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5016CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5016322customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5016EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5016322eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5016AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5016322admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5017DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5017330decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5017CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5017330customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5017EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5017330eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5017AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5017330admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5100DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5100330decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5100CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5100330customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5100EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5100330eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5100AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5100330admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5400DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5400324decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5400CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5400324customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5400EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5400324eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5400AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5400324admin" />
+	    </bean>
+
+	    <bean id="jndiEPS5401DeclarantFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325decl" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5401CustomsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325customs" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5401EpsFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325eps" />
+	    </bean>
+	    
+	    <bean id="jndiEPS5401AdminFrom" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	    	<property name="jndiName" value="${bindingsPrefix}eps2config/RouterQueue5401325admin" />
+	    </bean>
+	    -->
+	    
+	<!-- Source Queues -->
+    
+    	<!-- 
+	    <bean id="jndiRecvDeclQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/inputDeclQueue" />
+	    </bean>    
+	    
+	    <bean id="jndiRecvCustomsQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/inputCustomsQueue" />
+	    </bean>    
+							
+	    <bean id="jndiRecvEADQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/inputEADQueue" />
+	    </bean>
+							
+	    <bean id="jndiRecvEPSQueue" class="org.springframework.jndi.JndiObjectFactoryBean" >
+	        <property name="jndiName" value="${bindingsPrefix}eps2config/inputEPSQueue" />
+	    </bean>
+				
+		<bean id="jndiRecvAdminQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+			<property name="jndiName" value="${bindingsPrefix}eps2config/inputAdminQueue" />
+		</bean>
+		-->
+									
+	<!-- JMS Connection Factories -->
+
+	<!-- 
+    <bean id="jmsConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="jndiJmsFactory" />
+    </bean>
+
+    <bean id="jmsConnectionFactoryRouter" class="org.springframework.jms.connection.SingleConnectionFactory" >
+        <property name="targetConnectionFactory" ref="jndiJmsFactoryRouter"/>
+    </bean>
+    
+    <bean id="jmsConnectionFactoryForeignRouter" class="org.springframework.jms.connection.SingleConnectionFactory" >
+    	<property name="targetConnectionFactory" ref="jndiJmsFactoryForeignRouter" />
+    </bean>
+    -->
+    
+    <!-- JMS Templates -->
+    
+    <!-- 
+    <bean id="jmsTemplateRouter" class="org.springframework.jms.core.JmsTemplate" >
+        <property name="connectionFactory" ref="jmsConnectionFactoryRouter" />
+        <property name="sessionTransacted" value="true" />
+        <property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+    </bean>
+    
+    <bean id="jmsTemplateForeignRouter" class="org.springframework.jms.core.JmsTemplate" >
+    	<property name="connectionFactory" ref="jmsConnectionFactoryForeignRouter" />
+    	<property name="sessionTransacted" value="true" />
+    	<property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+    </bean>
+
+    <bean id="jmsTemplateToErrorQueue" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="jndiJmsFactoryToErrorQueue" />
+        <property name="sessionTransacted" value="true" />
+        <property name="sessionAcknowledgeModeName" value="AUTO_ACKNOWLEDGE" />
+    </bean>
+    -->
+    
+    <!-- JMS Message Listener Containers -->
+
+	<!-- 
+    <bean id="baseMessageListenerContainer" 
+    		abstract="true" scope="prototype"
+    		class="org.springframework.jms.listener.DefaultMessageListenerContainer" >
+    		
+        <property name="connectionFactory" ref="jmsConnectionFactory"/>
+        <property name="concurrentConsumers" value="1" />
+        <property name="maxConcurrentConsumers" value="10" />
+        <property name="idleTaskExecutionLimit" value="5" />
+        <property name="receiveTimeout" value="2000" />
+        <property name="sessionTransacted" value="true"/>
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+    
+    <bean id="declMessageListenerContainer" parent="baseMessageListenerContainer">
+        <property name="messageListener" ref="declListener" />
+        <property name="destination" ref="jndiRecvDeclQueue" />
+    </bean>    
+    
+    <bean id="customsMessageListenerContainer" parent="baseMessageListenerContainer">
+        <property name="messageListener" ref="customsListener" />
+        <property name="destination" ref="jndiRecvCustomsQueue" />
+    </bean>    
+    
+    <bean id="eadMessageListenerContainer" parent="baseMessageListenerContainer">
+        <property name="messageListener" ref="eadListener" />
+        <property name="destination" ref="jndiRecvEADQueue" />
+    </bean>    
+
+    <bean id="epsMessageListenerContainer" parent="baseMessageListenerContainer">
+        <property name="messageListener" ref="epsListener" />
+        <property name="destination" ref="jndiRecvEPSQueue" />
+    </bean>
+
+    <bean id="adminMessageListenerContainer" parent="baseMessageListenerContainer">
+        <property name="messageListener" ref="adminListener" />
+        <property name="destination" ref="jndiRecvAdminQueue" />
+    </bean>
+    -->
+    
+    <!-- JMS Queues -->
+
+	<!-- 
+    <bean id="ERROR_QUEUE" class="java.lang.String" >
+		<constructor-arg value="errorRecvQueue" />
+	</bean>
+	-->
+
+	<!-- JMS Listeners -->
+    
+    <!-- 
+    <bean id="declListener" class="ru.acs.fts.eps2.balancer.transport.in.DispatchableMessageListener" >
+    	<property name="dispatcher" ref="declDispatcher" />
+    	<property name="maxRetryCount" value="5" />
+    </bean>
+    
+    <bean id="customsListener" class="ru.acs.fts.eps2.balancer.transport.in.DispatchableMessageListener" >
+    	<property name="dispatcher" ref="customsDispatcher" />
+    	<property name="maxRetryCount" value="5" />
+    </bean>
+
+    <bean id="eadListener" class="ru.acs.fts.eps2.balancer.transport.in.DispatchableMessageListener" >
+    	<property name="dispatcher" ref="eadDispatcher" />
+    	<property name="maxRetryCount" value="5" />
+    </bean>
+
+    <bean id="epsListener" class="ru.acs.fts.eps2.balancer.transport.in.DispatchableMessageListener" >
+    	<property name="dispatcher" ref="epsDispatcher" />
+    	<property name="maxRetryCount" value="5" />
+    </bean>
+
+    <bean id="adminListener" class="ru.acs.fts.eps2.balancer.transport.in.DispatchableMessageListener">
+    	<property name="dispatcher" ref="adminDispatcher" />
+    	<property name="maxRetryCount" value="5" />
+    </bean>
+    -->
+    
+</beans>

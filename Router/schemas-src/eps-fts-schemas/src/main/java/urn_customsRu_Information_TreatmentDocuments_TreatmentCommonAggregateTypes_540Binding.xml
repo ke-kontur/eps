@@ -1,0 +1,178 @@
+<binding xmlns:catTreat_ru="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0" default="elements" prefix="catTreat_ru"/>
+  <mapping abstract="true" type-name="catTreat_ru:BaseTreatmentDocsType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.BaseTreatmentDocsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="CompanyName" get-method="getCompanyName" set-method="setCompanyName"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:DateLimitType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.DateLimitType">
+    <value style="element" name="GeneralTerm" get-method="getGeneralTerm" set-method="setGeneralTerm"/>
+    <structure map-as="catTreat_ru:StartTermType" get-method="getStartTerm" set-method="setStartTerm" usage="optional" name="StartTerm"/>
+    <collection get-method="getExtensionTermList" set-method="setExtensionTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:ExtensionTermType" name="ExtensionTerm"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:ExtensionTermType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.ExtensionTermType">
+    <value style="element" name="TermExtensionAt" get-method="getTermExtensionAt" set-method="setTermExtensionAt"/>
+    <value style="element" name="GeneralTermAfterExtension" get-method="getGeneralTermAfterExtension" set-method="setGeneralTermAfterExtension"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:HeelsType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.HeelsType">
+    <collection get-method="getHeelsInfoList" set-method="setHeelsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="HeelsInfo" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="HeelsOutProcedure" get-method="getHeelsOutProcedure" set-method="setHeelsOutProcedure" usage="optional"/>
+    <collection get-method="getHeelsItemList" set-method="setHeelsItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="HeelsItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:LossType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.LossType">
+    <collection get-method="getLossInfoList" set-method="setLossInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="LossInfo" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getLossItemList" set-method="setLossItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="LossItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:ProcOrganizationType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.ProcOrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax" usage="optional"/>
+    <value style="element" name="Telex" get-method="getTelex" set-method="setTelex" usage="optional"/>
+    <collection get-method="getFactoryPlaceList" set-method="setFactoryPlaceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:AddressType" name="FactoryPlace"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <collection get-method="getContractList" set-method="setContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Contract"/>
+    </collection>
+    <structure map-as="catTreat_ru:TrResultType" get-method="getTrResult" set-method="setTrResult" usage="optional" name="TrResult"/>
+    <structure map-as="catTreat_ru:WasteProductsType" get-method="getWasteProducts" set-method="setWasteProducts" usage="optional" name="WasteProducts"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:StartTermType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.StartTermType">
+    <value style="element" name="StartWith" get-method="getStartWith" set-method="setStartWith" format="LocalDate.default"/>
+    <value style="element" name="TermTo" get-method="getTermTo" set-method="setTermTo" format="LocalDate.default"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:SubstituteType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.SubstituteType">
+    <collection get-method="getSubstituteList" set-method="setSubstituteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Substitute" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSubstituteItemList" set-method="setSubstituteItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="SubstituteItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TrResultType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TrResultType">
+    <collection get-method="getTrResultInfoList" set-method="setTrResultInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TrResultInfo" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getIdentificationMethodList" set-method="setIdentificationMethodList" create-type="java.util.ArrayList">
+      <value style="element" name="IdentificationMethod" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTrResultItemList" set-method="setTrResultItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="TrResultItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatProductsType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatProductsType">
+    <collection get-method="getNameList" set-method="setNameList" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED"/>
+    <value style="element" name="RubCost" get-method="getRubCost" set-method="setRubCost"/>
+    <value style="element" name="QuantityKg" get-method="getQuantityKg" set-method="setQuantityKg" usage="optional"/>
+    <value style="element" name="AddUnit" get-method="getAddUnit" set-method="setAddUnit" usage="optional"/>
+    <value style="element" name="AddQuantity" get-method="getAddQuantity" set-method="setAddQuantity" usage="optional"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <structure map-as="catTreat_ru:TreatmentCurrencyCostType" get-method="getCurrencyCost" set-method="setCurrencyCost" usage="optional" name="CurrencyCost"/>
+    <collection get-method="getContractList" set-method="setContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Contract"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentBankAccountType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentBankAccountType">
+    <value style="element" name="BankAccount" get-method="getBankAccount" set-method="setBankAccount"/>
+    <value style="element" name="BankAccountDescription" get-method="getBankAccountDescription" set-method="setBankAccountDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentBankInformationType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentBankInformationType">
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <value style="element" name="BankOKPO" get-method="getBankOKPO" set-method="setBankOKPO"/>
+    <value style="element" name="BankMFO" get-method="getBankMFO" set-method="setBankMFO" usage="optional"/>
+    <collection get-method="getBankAccountList" set-method="setBankAccountList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatmentBankAccountType" name="BankAccount"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentCurrencyCostType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentCurrencyCostType">
+    <value style="element" name="CurrencyCost" get-method="getCurrencyCost" set-method="setCurrencyCost"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentGoodsType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentGoodsType">
+    <collection get-method="getTreatmentsGoodsInfoList" set-method="setTreatmentsGoodsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TreatmentsGoodsInfo" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTrGoodsItemList" set-method="setTrGoodsItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="TrGoodsItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentOperationsType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOperationsType">
+    <value style="element" name="OperationName" get-method="getOperationName" set-method="setOperationName"/>
+    <collection get-method="getOperationMethodList" set-method="setOperationMethodList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="OperationMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="OperationEndDate" get-method="getOperationEndDate" set-method="setOperationEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentOrganizationType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrganizationType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax" usage="optional"/>
+    <value style="element" name="Telex" get-method="getTelex" set-method="setTelex" usage="optional"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="OKATOCode" get-method="getOKATOCode" set-method="setOKATOCode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getTreatmentOrganizationAddress" set-method="setTreatmentOrganizationAddress" usage="optional" name="TreatmentOrganizationAddress"/>
+    <structure map-as="cat_ru:AddressType" get-method="getFactAddress" set-method="setFactAddress" usage="optional" name="FactAddress"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" usage="optional" name="LegalAddress"/>
+    <collection get-method="getRubBankInformationList" set-method="setRubBankInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatmentBankInformationType" name="RubBankInformation"/>
+    </collection>
+    <collection get-method="getValBankInformationList" set-method="setValBankInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatmentBankInformationType" name="ValBankInformation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:TreatmentType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentType">
+    <collection get-method="getYieldNormList" set-method="setYieldNormList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="YieldNorm" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ProcessingCost" get-method="getProcessingCost" set-method="setProcessingCost" usage="optional"/>
+    <value style="element" name="CostCurrencyCode" get-method="getCostCurrencyCode" set-method="setCostCurrencyCode" usage="optional"/>
+    <collection get-method="getReplaceInfList" set-method="setReplaceInfList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ReplaceInf" type="java.lang.String"/>
+    </collection>
+    <structure map-as="catTreat_ru:DateLimitType" get-method="getDateLimit" set-method="setDateLimit" name="DateLimit"/>
+    <collection get-method="getTreatmentOperationList" set-method="setTreatmentOperationList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatmentOperationsType" name="TreatmentOperations"/>
+    </collection>
+    <structure map-as="catTreat_ru:TreatmentGoodsType" get-method="getTreatmentGoods" set-method="setTreatmentGoods" name="TreatmentGoods"/>
+    <structure map-as="catTreat_ru:TrResultType" get-method="getTrResult" set-method="setTrResult" name="TrResult"/>
+    <structure map-as="catTreat_ru:WasteProductsType" get-method="getWasteProducts" set-method="setWasteProducts" usage="optional" name="WasteProducts"/>
+    <structure map-as="catTreat_ru:LossType" get-method="getLoss" set-method="setLoss" usage="optional" name="Loss"/>
+    <structure map-as="catTreat_ru:HeelsType" get-method="getHeels" set-method="setHeels" usage="optional" name="Heels"/>
+    <structure map-as="catTreat_ru:SubstituteType" get-method="getSubstitute" set-method="setSubstitute" usage="optional" name="Substitute"/>
+    <collection get-method="getProcOrganizationList" set-method="setProcOrganizationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:ProcOrganizationType" name="ProcOrganization"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTreat_ru:WasteProductsType" class="ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.WasteProductsType">
+    <collection get-method="getWasteProductsInfoList" set-method="setWasteProductsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="WasteProductsInfo" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getWasteIdentMethodList" set-method="setWasteIdentMethodList" create-type="java.util.ArrayList">
+      <value style="element" name="WasteIdentMethod" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="WasteOutProcedure" get-method="getWasteOutProcedure" set-method="setWasteOutProcedure" usage="optional"/>
+    <collection get-method="getWasteProductsItemList" set-method="setWasteProductsItemList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="WasteProductsItem"/>
+    </collection>
+  </mapping>
+</binding>

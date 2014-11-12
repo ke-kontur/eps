@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<bean id="miMessageRequester" class="ru.acs.monitoring.services.collect.MIMessageRequester">
+	<property name="sender">
+		<ref local="jmsSender" />
+	</property>
+</bean>
+	<bean id="jmsFactory" class="com.ibm.mq.jms.MQQueueConnectionFactory">
+		<property name="hostName">
+			<value>192.168.23.83</value>
+		</property>
+		<property name="queueManager">
+			<value>RU.FTS.GNIVC.RNTS.DPC</value>
+		</property>
+
+		<property name="channel">
+			<value>SVRCONN</value>
+		</property>
+
+		<property name="port">
+			<value>1425</value>
+		</property>
+		<property name="transportType" value="1" />
+	</bean>
+	
+	<bean id="sendDestination" class="com.ibm.mq.jms.MQQueue">
+		<property name="baseQueueName">
+			<value>MONITORING.IN</value>
+		</property>
+	</bean>
+
+	<bean id="receiveDestination" class="com.ibm.mq.jms.MQQueue">
+		<property name="baseQueueName">
+			<value>MONITORING.OUT</value>
+		</property>
+	</bean>
+
+	
+	
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory">
+			<!-- <ref bean="qcfWMQ" />-->
+			<bean class="org.springframework.jms.connection.SingleConnectionFactory">
+				<property name="targetConnectionFactory">
+					<ref local="jmsFactory" />
+				</property>
+			</bean>
+		</property>
+		<property name="defaultDestination">
+			<ref bean="sendDestination" />
+		</property>
+		<property name="receiveTimeout">
+			<value>30000</value>
+		</property>
+	</bean>
+
+
+	<bean id="jmsSender" class="ru.acs.monitoring.jms.JMSSender">
+		<property name="jmsTemplate">
+			<ref bean="jmsTemplate" />
+		</property>
+		
+	</bean>
+
+
+	
+	<bean id="messageListener" class="ru.acs.monitoring.jms.MessageListener"/>
+	
+	<bean id="jmsContainer"
+		class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+		<property name="connectionFactory">
+			<bean class="org.springframework.jms.connection.SingleConnectionFactory">
+				<property name="targetConnectionFactory">
+					<ref local="jmsFactory" />
+				</property>
+			</bean>
+		</property>
+		<property name="destination" ref="receiveDestination" />
+		<property name="messageListener" ref="messageListener" />
+	</bean>
+
+</beans>

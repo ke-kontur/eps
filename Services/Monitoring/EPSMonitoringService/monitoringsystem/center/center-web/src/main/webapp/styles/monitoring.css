@@ -1,0 +1,26 @@
+/* main elements */
+@import url(displaytag.css);
+
+.INFO_List {
+  color:light-green;
+  font-size: 15pt;
+  padding-right: 2pt;
+}
+ 	
+.ERROR_List {
+  color:red;
+  font-size: 15pt;
+  padding-right: 2pt;
+}
+	
+.WARNING_List {
+  color:yellow;
+  font-size: 15pt;
+  padding-right: 2pt;  
+}
+	
+.UNAVAILABLE_List {
+  color:gray;
+  font-size: 15pt;
+  padding-right: 2pt;
+}

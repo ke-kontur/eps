@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cwhdrr="urn:customs.ru:Information:ConfirmWHDocRegRemote:5.1.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:ConfirmWHDocRegRemote:5.1.0" elementFormDefault="qualified" version="5.1.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Подтверждение регистрации документа (СВХ)</xs:documentation>
+	</xs:annotation>
+	<xs:element name="ConfirmWHDocRegRemote" type="cwhdrr:ConfirmWHDocRegRemoteType"/>
+	<xs:complexType name="ConfirmWHDocRegRemoteType">
+		<xs:annotation>
+			<xs:documentation>Подтверждение регистрации документа (СВХ)</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="EADInfo" type="cwhdrr:EADInfoType" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Информация о документах в архиве декларанта</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="GTDID" type="cwhdrr:GTDIDType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Справочный номер ДТ</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090012E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>Локальные прикладные типы</xs:documentation>
+	</xs:annotation>
+	<xs:complexType name="EADInfoType">
+		<xs:annotation>
+			<xs:documentation>Информация о документах в архиве декларанта</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ArchDeclID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор декларанта а ЭАД</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор архива</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchDocID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор документа в архиве декларанта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchDocStatus" type="IEclt_ru:Text50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Статус документа в архиве.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GTDIDType">
+		<xs:annotation>
+			<xs:documentation>Регистрационный номер таможенного документа. Применяется для всех документов, имеющих структуру номера, совпадающую со структурой номера ДТ</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomsCode" type="IEclt_ru:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа, зарегистрировавшего документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistrationDate" type="IEclt_ru:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата регистрации документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="GTDNumber" type="IEclt_ru:GTDIDType">
+				<xs:annotation>
+					<xs:documentation>Порядковый номер документа по журналу регистрации</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

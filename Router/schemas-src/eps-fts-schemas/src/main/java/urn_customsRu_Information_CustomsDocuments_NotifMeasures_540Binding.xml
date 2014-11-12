@@ -1,0 +1,22 @@
+<binding xmlns:nm="urn:customs.ru:Information:CustomsDocuments:NotifMeasures:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifMeasures:5.4.0" default="elements" prefix="nm"/>
+  <mapping abstract="true" type-name="nm:NotifMeasuresType" class="ru.acs.fts.schemas.album.notifmeasures.NotifMeasuresType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="PI_RegID" get-method="getPIRegID" set-method="setPIRegID" usage="optional"/>
+    <value style="element" name="ProcedureSign" get-method="getProcedureSign" set-method="setProcedureSign" usage="optional"/>
+    <value style="element" name="MeasuresSign" get-method="getMeasuresSign" set-method="setMeasuresSign" usage="optional"/>
+    <value style="element" name="MeasuresApplyDate" get-method="getMeasuresApplyDate" set-method="setMeasuresApplyDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MeasuresApplyTime" get-method="getMeasuresApplyTime" set-method="setMeasuresApplyTime" usage="optional"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" usage="optional" name="RegNumberDT"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifmeasures.NotifMeasuresType" name="NotifMeasures">
+    <structure map-as="nm:NotifMeasuresType"/>
+  </mapping>
+</binding>

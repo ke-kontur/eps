@@ -1,0 +1,251 @@
+<binding xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" default="elements" prefix="catAUD_ru"/>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_AppliedDocumentIdType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedDocumentIdType">
+    <value style="element" name="AppliedDocumentId" get-method="getAppliedDocumentId" set-method="setAppliedDocumentId" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_AppliedDocumentInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedDocumentInfoType">
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentIdType"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <structure map-as="catAUD_ru:AUD_DocumentKindVersionIdInfoOptType" get-method="getDocumentKindVersionIdInfoOpt" set-method="setDocumentKindVersionIdInfoOpt" name="DocumentKindVersionIdInfoOpt"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_AppliedDocumentInfoWithVersionRefType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedDocumentInfoWithVersionRefType">
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentInfoType"/>
+    <value style="element" name="PrevVersionArchiveDocumentId" get-method="getPrevVersionArchiveDocumentId" set-method="setPrevVersionArchiveDocumentId" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_AppliedDocumentWithBodyType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedDocumentWithBodyType">
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentInfoType"/>
+    <structure map-as="catAUD_ru:AUD_DocumentBodyType" get-method="getDocumentBody" set-method="setDocumentBody" usage="optional" name="DocumentBody"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_AppliedPacketInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedPacketInfoType">
+    <value style="element" name="AppliedPacketId" get-method="getAppliedPacketId" set-method="setAppliedPacketId" usage="optional"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <value style="element" name="AppliedPacketType" get-method="getAppliedPacketType" set-method="setAppliedPacketType"/>
+    <value style="element" name="AppliedProcessId" get-method="getAppliedProcessId" set-method="setAppliedProcessId"/>
+    <collection get-method="getAUDGTDIDList" set-method="setAUDGTDIDList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_GTDIDType" name="AUD_GTDID"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ArchiveClientInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchiveClientInfoType">
+    <value style="element" name="ArchiveClientId" get-method="getArchiveClientId" set-method="setArchiveClientId" usage="optional"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchiveDocumentIdWithVersionType">
+    <value style="element" name="ArchiveDocumentId" get-method="getArchiveDocumentId" set-method="setArchiveDocumentId"/>
+    <value style="element" name="DocumentVersionNumber" get-method="getDocumentVersionNumber" set-method="setDocumentVersionNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ArchiveDocumentIdWithVersionsRefType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchiveDocumentIdWithVersionsRefType">
+    <value style="element" name="PrevVersionArchiveDocumentId" get-method="getPrevVersionArchiveDocumentId" set-method="setPrevVersionArchiveDocumentId" usage="optional"/>
+    <value style="element" name="NextVersionArchiveDocumentId" get-method="getNextVersionArchiveDocumentId" set-method="setNextVersionArchiveDocumentId" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ArchiveDocumentInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchiveDocumentInfoType">
+    <structure map-as="catAUD_ru:AUD_ArchivePutInfoType"/>
+    <structure map-as="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType" get-method="getArchiveDocumentIdWithVersion" set-method="setArchiveDocumentIdWithVersion" name="ArchiveDocumentIdWithVersion"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ArchivePacketInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchivePacketInfoType">
+    <structure map-as="catAUD_ru:AUD_ArchivePutInfoType"/>
+    <value style="element" name="ArchivePacketId" get-method="getArchivePacketId" set-method="setArchivePacketId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ArchivePutInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchivePutInfoType">
+    <value style="element" name="PutDateTime" get-method="getPutDateTime" set-method="setPutDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_AttributeFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAttributeFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_UniversalFilterType"/>
+    <value style="element" name="AttributeId" get-method="getAttributeId" set-method="setAttributeId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_BaseEnvelopeType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDateTime" get-method="getDocumentDateTime" set-method="setDocumentDateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    <value style="element" name="TestDocumentIndicator" get-method="isTestDocumentIndicator" set-method="setTestDocumentIndicator"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_BaseFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseFilterParamsType">
+    <value style="element" name="Operator" get-method="getOperator" set-method="setOperator" format="cltAUD_ru:AUD_FilterOperatorType"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_BooleanFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBooleanFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <value style="element" name="FilterValue" get-method="getFilterValue" set-method="setFilterValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DTFilterType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDTFilterType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="GTDNumber" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional"/>
+    <structure map-as="catAUD_ru:AUD_DateFilterParamsType" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" name="RegistrationDate"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DateFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDateFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <collection get-method="getFilterValueList" set-method="setFilterValueList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FilterValue" type="org.joda.time.LocalDate" format="LocalDate.default"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DateTimeFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDateTimeFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <collection get-method="getFilterValueList" set-method="setFilterValueList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FilterValue" type="org.joda.time.DateTime" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DeclinedDocumentInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDeclinedDocumentInfoType">
+    <value style="element" name="ArchiveDocumentId" get-method="getArchiveDocumentId" set-method="setArchiveDocumentId"/>
+    <structure map-as="catAUD_ru:AUD_ResultInfoType" get-method="getResultInfo" set-method="setResultInfo" name="ResultInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentAttributeIdInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentAttributeIdInfoType">
+    <value style="element" name="AttributeId" get-method="getAttributeId" set-method="setAttributeId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentAttributeInfoAndValueType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentAttributeInfoAndValueType">
+    <structure map-as="catAUD_ru:AUD_DocumentAttributeInfoType"/>
+    <structure ordered="false" choice="true">
+      <value style="element" name="StringValue" test-method="ifStringValue" get-method="getStringValue" set-method="setStringValue" usage="optional"/>
+      <value style="element" name="TimeValue" test-method="ifTimeValue" get-method="getTimeValue" set-method="setTimeValue" usage="optional" format="LocalTime.local"/>
+      <value style="element" name="DateValue" test-method="ifDateValue" get-method="getDateValue" set-method="setDateValue" usage="optional" format="LocalDate.default"/>
+      <value style="element" name="DateTimeValue" test-method="ifDateTimeValue" get-method="getDateTimeValue" set-method="setDateTimeValue" usage="optional" serializer="org.jibx.runtime.JodaConvert.serializeZonedDateTime" deserializer="org.jibx.runtime.JodaConvert.deserializeZonedDateTime"/>
+      <value style="element" name="DurationValue" test-method="ifDurationValue" get-method="getDurationValue" set-method="setDurationValue" usage="optional"/>
+      <value style="element" name="RealNumberValue" test-method="ifRealNumberValue" get-method="getRealNumberValue" set-method="setRealNumberValue" usage="optional"/>
+      <value style="element" name="IntegerNumberValue" test-method="ifIntegerNumberValue" get-method="getIntegerNumberValue" set-method="setIntegerNumberValue" usage="optional"/>
+      <value style="element" name="BooleanValue" test-method="ifBooleanValue" get-method="isBooleanValue" set-method="setBooleanValue" usage="optional"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentAttributeInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentAttributeInfoType">
+    <structure map-as="catAUD_ru:AUD_DocumentAttributeIdInfoType"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <value style="element" name="ValueKind" get-method="getValueKind" set-method="setValueKind" format="cltAUD_ru:AUD_DocumentAttributeValueKindType"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentBodyType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentBodyType">
+    <structure get-method="getAny" set-method="setAny" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentDataPresenceInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentDataPresenceInfoType">
+    <value style="element" name="BodyPresenceIndicator" get-method="isBodyPresenceIndicator" set-method="setBodyPresenceIndicator"/>
+    <value style="element" name="SignatureEvidencePresenceIndicator" get-method="isSignatureEvidencePresenceIndicator" set-method="setSignatureEvidencePresenceIndicator"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentInfoType">
+    <structure map-as="catAUD_ru:AUD_ArchiveDocumentInfoType"/>
+    <value style="element" name="IsActualDocumentIndicator" get-method="isIsActualDocumentIndicator" set-method="setIsActualDocumentIndicator"/>
+    <value style="element" name="ArchiveContainerDocumentId" get-method="getArchiveContainerDocumentId" set-method="setArchiveContainerDocumentId" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <structure map-as="catAUD_ru:AUD_SignatureEvidenceType" get-method="getDocumentSignatureEvidence" set-method="setDocumentSignatureEvidence" usage="optional" name="DocumentSignatureEvidence"/>
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentWithBodyType" get-method="getAppliedDocumentWithBody" set-method="setAppliedDocumentWithBody" name="AppliedDocumentWithBody"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentInfoWithAttributesType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentInfoWithAttributesType">
+    <structure map-as="catAUD_ru:AUD_DocumentInfoWithPacketType"/>
+    <collection get-method="getAUDDocumentAttributeInfoAndValueList" set-method="setAUDDocumentAttributeInfoAndValueList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentAttributeInfoAndValueType" name="AUD_DocumentAttributeInfoAndValue"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentInfoWithPacketSyncType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentInfoWithPacketSyncType">
+    <structure map-as="catAUD_ru:AUD_DocumentInfoWithPacketType"/>
+    <value style="element" name="DocumenVersionChaintId" get-method="getDocumenVersionChaintId" set-method="setDocumenVersionChaintId"/>
+    <collection get-method="getEmbeddedDocumentArchiveInfoSyncList" set-method="setEmbeddedDocumentArchiveInfoSyncList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_EmbeddedDocumentArchiveInfoSyncType" name="EmbeddedDocumentArchiveInfoSync"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentInfoWithPacketType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentInfoWithPacketType">
+    <structure map-as="catAUD_ru:AUD_DocumentInfoType"/>
+    <structure map-as="catAUD_ru:AUD_PacketInfoType" get-method="getPacketInfo" set-method="setPacketInfo" name="PacketInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentKindIdInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentKindIdInfoType">
+    <value style="element" name="AppliedDocumentKindId" get-method="getAppliedDocumentKindId" set-method="setAppliedDocumentKindId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentKindInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentKindInfoType">
+    <structure map-as="catAUD_ru:AUD_DocumentKindIdInfoType"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <collection get-method="getDocumentKindVersionInfoList" set-method="setDocumentKindVersionInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentKindVersionInfoType" name="DocumentKindVersionInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentKindRepresentationIdInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentKindRepresentationIdInfoType">
+    <structure map-as="catAUD_ru:AUD_DocumentKindVersionIdInfoType"/>
+    <value style="element" name="RepresentationKindId" get-method="getRepresentationKindId" set-method="setRepresentationKindId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentKindVersionIdInfoOptType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentKindVersionIdInfoOptType">
+    <structure map-as="catAUD_ru:AUD_DocumentKindIdInfoType"/>
+    <value style="element" name="AppliedDocumentKindVersionId" get-method="getAppliedDocumentKindVersionId" set-method="setAppliedDocumentKindVersionId" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentKindVersionIdInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentKindVersionIdInfoType">
+    <structure map-as="catAUD_ru:AUD_DocumentKindIdInfoType"/>
+    <value style="element" name="AppliedDocumentKindVersionId" get-method="getAppliedDocumentKindVersionId" set-method="setAppliedDocumentKindVersionId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DocumentKindVersionInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentKindVersionInfoType">
+    <value style="element" name="AppliedDocumentKindVersionId" get-method="getAppliedDocumentKindVersionId" set-method="setAppliedDocumentKindVersionId"/>
+    <collection get-method="getDocumentAttributeInfoList" set-method="setDocumentAttributeInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentAttributeInfoType" name="DocumentAttributeInfo"/>
+    </collection>
+    <collection get-method="getRepresentationKindCommonInfoList" set-method="setRepresentationKindCommonInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_RepresentationKindCommonInfoType" name="RepresentationKindCommonInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_DurationFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDurationFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <collection get-method="getFilterValueList" set-method="setFilterValueList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FilterValue" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_EmbeddedDocumentArchiveInfoSyncType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDEmbeddedDocumentArchiveInfoSyncType">
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentInfoType"/>
+    <value style="element" name="DocumenVersionChaintId" get-method="getDocumenVersionChaintId" set-method="setDocumenVersionChaintId"/>
+    <value style="element" name="IsActualDocumentIndicator" get-method="isIsActualDocumentIndicator" set-method="setIsActualDocumentIndicator"/>
+    <structure map-as="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType" get-method="getArchiveDocumentIdWithVersion" set-method="setArchiveDocumentIdWithVersion" name="ArchiveDocumentIdWithVersion"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_EmbeddedDocumentArchiveInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDEmbeddedDocumentArchiveInfoType">
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentIdType"/>
+    <structure map-as="catAUD_ru:AUD_ArchiveDocumentIdWithVersionType" get-method="getArchiveDocumentIdWithVersion" set-method="setArchiveDocumentIdWithVersion" name="ArchiveDocumentIdWithVersion"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_GTDIDType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDGTDIDType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="GTDIDState" get-method="getGTDIDState" set-method="setGTDIDState" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_IntegerNumberFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDIntegerNumberFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <collection get-method="getFilterValueList" set-method="setFilterValueList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FilterValue" type="java.math.BigInteger"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_PacketInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDPacketInfoType">
+    <structure map-as="catAUD_ru:AUD_ArchivePacketInfoType"/>
+    <structure map-as="catAUD_ru:AUD_AppliedPacketInfoType" get-method="getAppliedPacketInfo" set-method="setAppliedPacketInfo" name="AppliedPacketInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_PacketInfoWithDocumentsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDPacketInfoWithDocumentsType">
+    <structure map-as="catAUD_ru:AUD_PacketInfoType"/>
+    <collection get-method="getDocumentInfoList" set-method="setDocumentInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentInfoType" name="DocumentInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_RealNumberFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDRealNumberFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <collection get-method="getFilterValueList" set-method="setFilterValueList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FilterValue" type="java.math.BigDecimal"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_RepresentationKindCommonInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDRepresentationKindCommonInfoType">
+    <structure map-as="catAUD_ru:AUD_RepresentationKindIdInfoType"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_RepresentationKindIdInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDRepresentationKindIdInfoType">
+    <value style="element" name="RepresentationKindId" get-method="getRepresentationKindId" set-method="setRepresentationKindId"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_ResultInfoType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDResultInfoType">
+    <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_SignatureEvidenceType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDSignatureEvidenceType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_StringFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDStringFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <value style="element" name="FilterValue" get-method="getFilterValue" set-method="setFilterValue" usage="optional"/>
+    <value style="element" name="CaseSensitiveIndicator" get-method="isCaseSensitiveIndicator" set-method="setCaseSensitiveIndicator"/>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_TimeFilterParamsType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDTimeFilterParamsType">
+    <structure map-as="catAUD_ru:AUD_BaseFilterParamsType"/>
+    <collection get-method="getFilterValueList" set-method="setFilterValueList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FilterValue" type="org.joda.time.LocalTime" format="LocalTime.local"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catAUD_ru:AUD_UniversalFilterType" class="ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDUniversalFilterType">
+    <structure ordered="false" choice="true">
+      <structure map-as="catAUD_ru:AUD_StringFilterParamsType" test-method="ifStringFilterParams" get-method="getStringFilterParams" set-method="setStringFilterParams" usage="optional" name="StringFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_BooleanFilterParamsType" test-method="ifBooleanFilterParams" get-method="getBooleanFilterParams" set-method="setBooleanFilterParams" usage="optional" name="BooleanFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_TimeFilterParamsType" test-method="ifTimeFilterParams" get-method="getTimeFilterParams" set-method="setTimeFilterParams" usage="optional" name="TimeFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_DateFilterParamsType" test-method="ifDateFilterParams" get-method="getDateFilterParams" set-method="setDateFilterParams" usage="optional" name="DateFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_DateTimeFilterParamsType" test-method="ifDateTimeFilterParams" get-method="getDateTimeFilterParams" set-method="setDateTimeFilterParams" usage="optional" name="DateTimeFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_DurationFilterParamsType" test-method="ifDurationFilterParams" get-method="getDurationFilterParams" set-method="setDurationFilterParams" usage="optional" name="DurationFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_RealNumberFilterParamsType" test-method="ifRealNumberFilterParams" get-method="getRealNumberFilterParams" set-method="setRealNumberFilterParams" usage="optional" name="RealNumberFilterParams"/>
+      <structure map-as="catAUD_ru:AUD_IntegerNumberFilterParamsType" test-method="ifIntegerNumberFilterParams" get-method="getIntegerNumberFilterParams" set-method="setIntegerNumberFilterParams" usage="optional" name="IntegerNumberFilterParams"/>
+    </structure>
+  </mapping>
+</binding>

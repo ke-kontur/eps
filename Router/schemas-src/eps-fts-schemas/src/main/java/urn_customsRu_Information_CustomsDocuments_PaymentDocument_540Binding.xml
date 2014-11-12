@@ -1,0 +1,116 @@
+<binding xmlns:paydo="urn:customs.ru:Information:CustomsDocuments:PaymentDocument:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PaymentDocument:5.4.0" default="elements" prefix="paydo"/>
+  <mapping abstract="true" type-name="paydo:PaymentDocumentType" class="ru.acs.fts.schemas.album.paymentdocument.PaymentDocumentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PDKind" get-method="getPDKind" set-method="setPDKind"/>
+    <value style="element" name="PDParticular" get-method="getPDParticular" set-method="setPDParticular"/>
+    <value style="element" name="NumberPD" get-method="getNumberPD" set-method="setNumberPD"/>
+    <structure map-as="paydo:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <collection get-method="getPayerInfoList" set-method="setPayerInfoList" create-type="java.util.ArrayList">
+      <structure map-as="paydo:PayerInfoType" name="PayerInfo"/>
+    </collection>
+    <collection get-method="getPrecedingDocumentList" set-method="setPrecedingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="paydo:PrecedingDocumentType" name="PrecedingDocument"/>
+    </collection>
+    <collection get-method="getPayableAmountList" set-method="setPayableAmountList" create-type="java.util.ArrayList">
+      <structure map-as="paydo:PayableAmountType" name="PayableAmount"/>
+    </collection>
+    <collection get-method="getPaidList" set-method="setPaidList" create-type="java.util.ArrayList">
+      <structure map-as="paydo:PaidType" name="Paid"/>
+    </collection>
+    <collection get-method="getExcessPaymentAmountList" set-method="setExcessPaymentAmountList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="paydo:ExcessPaymentAmountType" name="ExcessPaymentAmount"/>
+    </collection>
+    <collection get-method="getOutstandingBalanceList" set-method="setOutstandingBalanceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="paydo:OutstandingBalancesType" name="OutstandingBalances"/>
+    </collection>
+    <structure map-as="paydo:FledgingType" get-method="getFledging" set-method="setFledging" name="Fledging"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getReceiptPD" set-method="setReceiptPD" usage="optional" name="ReceiptPD"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.paymentdocument.PaymentDocumentType" name="PaymentDocument">
+    <structure map-as="paydo:PaymentDocumentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:AccountType" class="ru.acs.fts.schemas.album.paymentdocument.AccountType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:ExcessPaymentAmountType" class="ru.acs.fts.schemas.album.paymentdocument.ExcessPaymentAmountType">
+    <value style="element" name="BCC" get-method="getBCC" set-method="setBCC"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="DateDrawdown" get-method="getDateDrawdown" set-method="setDateDrawdown" format="LocalDate.default"/>
+    <value style="element" name="DeregistrationSign" get-method="getDeregistrationSign" set-method="setDeregistrationSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:FledgingType" class="ru.acs.fts.schemas.album.paymentdocument.FledgingType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+    <value style="element" name="CompletionSign" get-method="getCompletionSign" set-method="setCompletionSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:OutstandingBalancesType" class="ru.acs.fts.schemas.album.paymentdocument.OutstandingBalancesType">
+    <value style="element" name="BCC" get-method="getBCC" set-method="setBCC"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="DeptAmount" get-method="getDeptAmount" set-method="setDeptAmount" usage="optional"/>
+    <value style="element" name="Overpayment" get-method="getOverpayment" set-method="setOverpayment" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:PaidType" class="ru.acs.fts.schemas.album.paymentdocument.PaidType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="BCC" get-method="getBCC" set-method="setBCC"/>
+    <value style="element" name="PaymentDocumentType" get-method="getPaymentDocumentType" set-method="setPaymentDocumentType"/>
+    <value style="element" name="TotalAmount" get-method="getTotalAmount" set-method="setTotalAmount"/>
+    <value style="element" name="WriteOffs" get-method="getWriteOffs" set-method="setWriteOffs" usage="optional"/>
+    <value style="element" name="DatewWiting" get-method="getDatewWiting" set-method="setDatewWiting" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="KindAccrual" get-method="getKindAccrual" set-method="setKindAccrual" usage="optional"/>
+    <value style="element" name="PaymentCurrCode" get-method="getPaymentCurrCode" set-method="setPaymentCurrCode" usage="optional"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <collection get-method="getAgreementList" set-method="setAgreementList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Agreement"/>
+    </collection>
+    <structure map-as="paydo:PayerOrgDataType" get-method="getPayerOrgData" set-method="setPayerOrgData" name="PayerOrgData"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:PayableAmountType" class="ru.acs.fts.schemas.album.paymentdocument.PayableAmountType">
+    <value style="element" name="BCC" get-method="getBCC" set-method="setBCC"/>
+    <value style="element" name="DateAccrual" get-method="getDateAccrual" set-method="setDateAccrual" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="KindAccrual" get-method="getKindAccrual" set-method="setKindAccrual" usage="optional"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:PayerInfoType" class="ru.acs.fts.schemas.album.paymentdocument.PayerInfoType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="Classification" get-method="getClassification" set-method="setClassification"/>
+    <value style="element" name="ResidenceStatus" get-method="getResidenceStatus" set-method="setResidenceStatus"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <value style="element" name="OGRNID" get-method="getOGRNID" set-method="setOGRNID" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="paydo:AccountType" get-method="getAccount" set-method="setAccount" name="Account"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:PayerOrgDataType" class="ru.acs.fts.schemas.album.paymentdocument.PayerOrgDataType">
+    <value style="element" name="PayerITN" get-method="getPayerITN" set-method="setPayerITN" usage="optional"/>
+    <value style="element" name="PayerINN" get-method="getPayerINN" set-method="setPayerINN" usage="optional"/>
+    <value style="element" name="PayerKPP" get-method="getPayerKPP" set-method="setPayerKPP" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:PaymentType" class="ru.acs.fts.schemas.album.paymentdocument.PaymentType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="AmountRUB" get-method="getAmountRUB" set-method="setAmountRUB"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:PrecedingDocumentType" class="ru.acs.fts.schemas.album.paymentdocument.PrecedingDocumentType">
+    <value style="element" name="BCC" get-method="getBCC" set-method="setBCC"/>
+    <structure map-as="paydo:RegistrationNumberType" get-method="getPrecedingRegistrationNumber" set-method="setPrecedingRegistrationNumber" name="PrecedingRegistrationNumber"/>
+    <collection get-method="getPaymentList" set-method="setPaymentList" create-type="java.util.ArrayList">
+      <structure map-as="paydo:PaymentType" name="Payment"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="paydo:RegistrationNumberType" class="ru.acs.fts.schemas.album.paymentdocument.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+</binding>

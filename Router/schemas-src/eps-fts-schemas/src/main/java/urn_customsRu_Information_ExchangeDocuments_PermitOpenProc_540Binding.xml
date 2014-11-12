@@ -1,0 +1,11 @@
+<binding xmlns:podp="urn:customs.ru:Information:ExchangeDocuments:PermitOpenProc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:PermitOpenProc:5.4.0" default="elements" prefix="podp"/>
+  <mapping abstract="true" type-name="podp:PermitOpenProcType" class="ru.acs.fts.schemas.album.permitopenproc.PermitOpenProcType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ProcedureID" get-method="getProcedureID" set-method="setProcedureID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permitopenproc.PermitOpenProcType" name="PermitOpenProc">
+    <structure map-as="podp:PermitOpenProcType"/>
+  </mapping>
+</binding>

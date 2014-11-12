@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListResponse:4.2.1" version="4.2.1.0" xmlns:aplres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListResponse:4.2.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:4.1.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Список документов пакета</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_PacketDocListResponse" type="aplres:AUD_PacketDocListResponseType"/>
+   <xs:complexType name="AUD_PacketDocListResponseType">
+      <xs:annotation>
+         <xs:documentation>Список документов, размещенных  в пакете</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element name="PacketAppliedID" type="cltAUD_ru:AUD_AppliedIdType">
+                  <xs:annotation>
+                     <xs:documentation>Прикладной  идентификатор пакета</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="ArchivePacketID" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный  идентификатор пакета</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="ArchiveDocInfo" type="aplres:ArchiveDocInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о документе архива</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010034E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="ArchiveDocInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о документе архива</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ArchiveDocID" type="cltAUD_ru:AUD_UniqueIdType">
+            <xs:annotation>
+               <xs:documentation>Архивный  идентификатор документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="AppliedDocID" type="cltAUD_ru:AUD_AppliedIdType">
+            <xs:annotation>
+               <xs:documentation>Прикладной идентификатор документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="DocDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Описаное документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="CreateDateTime" type="clt_ru:DateTimeCustType">
+            <xs:annotation>
+               <xs:documentation>Дата время размещения документа в архиве</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="DocVersion" type="cltAUD_ru:AUD_DocumentVersionNumberType">
+            <xs:annotation>
+               <xs:documentation>Номер версии документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

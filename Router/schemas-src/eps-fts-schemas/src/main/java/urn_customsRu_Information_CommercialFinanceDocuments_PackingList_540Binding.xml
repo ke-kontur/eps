@@ -1,0 +1,70 @@
+<binding xmlns:pl="urn:customs.ru:Information:CommercialFinanceDocuments:PackingList:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:PackingList:5.4.0" default="elements" prefix="pl"/>
+  <mapping abstract="true" type-name="pl:PackingListType" class="ru.acs.fts.schemas.album.packinglist.PackingListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="pl:PackingListDeliveryTermsType" get-method="getDeliveryTerms" set-method="setDeliveryTerms" usage="optional" name="DeliveryTerms"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="pl:GoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:TransportMeansType" name="TransportMeans"/>
+    </collection>
+    <collection get-method="getTotalPlacesQuantityList" set-method="setTotalPlacesQuantityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pl:PlacesQuantityType" name="TotalPlacesQuantity"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.packinglist.PackingListType" name="PackingList">
+    <structure map-as="pl:PackingListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pl:GoodsType" class="ru.acs.fts.schemas.album.packinglist.GoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="PlaceGoodsQuantity" get-method="getPlaceGoodsQuantity" set-method="setPlaceGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+    <value style="element" name="GoodsVolume" get-method="getGoodsVolume" set-method="setGoodsVolume" usage="optional"/>
+    <value style="element" name="VolumeUnitQualifierName" get-method="getVolumeUnitQualifierName" set-method="setVolumeUnitQualifierName" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="GoodMarking" get-method="getGoodMarking" set-method="setGoodMarking" usage="optional"/>
+    <collection get-method="getPlacesQuantityList" set-method="setPlacesQuantityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pl:PlacesGoodsQuantityType" name="PlacesQuantity"/>
+    </collection>
+    <collection get-method="getPackingInfoList" set-method="setPackingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pl:PackingInfoType" name="PackingInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pl:PackingInfoType" class="ru.acs.fts.schemas.album.packinglist.PackingInfoType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode" usage="optional"/>
+    <value style="element" name="PakingQuantity" get-method="getPakingQuantity" set-method="setPakingQuantity"/>
+    <value style="element" name="PackingDescription" get-method="getPackingDescription" set-method="setPackingDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pl:PackingListDeliveryTermsType" class="ru.acs.fts.schemas.album.packinglist.PackingListDeliveryTermsType">
+    <collection get-method="getDeliveryPlaceList" set-method="setDeliveryPlaceList" create-type="java.util.ArrayList">
+      <value style="element" name="DeliveryPlace" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DeliveryTermsNumericCode" get-method="getDeliveryTermsNumericCode" set-method="setDeliveryTermsNumericCode" usage="optional"/>
+    <value style="element" name="DeliveryTermsStringCode" get-method="getDeliveryTermsStringCode" set-method="setDeliveryTermsStringCode"/>
+    <value style="element" name="TermsDescription" get-method="getTermsDescription" set-method="setTermsDescription" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getInvoice" set-method="setInvoice" usage="optional" name="Invoice"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistration" set-method="setRegistration" usage="optional" name="Registration"/>
+  </mapping>
+  <mapping abstract="true" type-name="pl:PlacesGoodsQuantityType" class="ru.acs.fts.schemas.album.packinglist.PlacesGoodsQuantityType">
+    <structure map-as="pl:PlacesQuantityType"/>
+    <value style="element" name="PlacesPartQuantity" get-method="getPlacesPartQuantity" set-method="setPlacesPartQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pl:PlacesQuantityType" class="ru.acs.fts.schemas.album.packinglist.PlacesQuantityType">
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="PlacesDescription" get-method="getPlacesDescription" set-method="setPlacesDescription" usage="optional"/>
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,31 @@
+<%@ include file="/WEB-INF/jsp/includes.jsp" %>
+<%@ include file="/WEB-INF/jsp/header.jsp" %>
+
+<h2>Monitoring info:</h2>
+
+<table>
+  <tr>
+  <thead>
+
+    <th>Name</th>
+    <th>SytemID</th>
+    <th>Severity</th>
+    <th>Date</th>
+    <th>Error</th>
+
+    <th>Info</th>
+  </thead>
+  </tr>
+  <c:forEach var="info" items="${monitoringInfList}">
+    <tr>
+      <td>${info.systemName}</td>
+      <td>${info.systemId}</td>
+      <td>${info.severity}</td>
+      <td>${info.updateDate}</td>
+      <td>${info.error}</td>
+      <td><a href="<c:url value="/moninfo.do?id=${info.id}"/>">XML</td>
+    </tr>
+  </c:forEach>
+</table>
+
+<%@ include file="/WEB-INF/jsp/footer.jsp" %>

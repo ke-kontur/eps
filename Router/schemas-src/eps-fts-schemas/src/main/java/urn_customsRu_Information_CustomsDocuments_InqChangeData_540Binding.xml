@@ -1,0 +1,14 @@
+<binding xmlns:icd="urn:customs.ru:Information:CustomsDocuments:InqChangeData:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InqChangeData:5.4.0" default="elements" prefix="icd"/>
+  <mapping abstract="true" type-name="icd:InqChangeDataType" class="ru.acs.fts.schemas.album.inqchangedata.InqChangeDataType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqchangedata.InqChangeDataType" name="InqChangeData">
+    <structure map-as="icd:InqChangeDataType"/>
+  </mapping>
+</binding>

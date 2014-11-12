@@ -1,0 +1,41 @@
+<binding xmlns:audreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetDocumentRequest:4.2.2" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetDocumentRequest:4.2.2" default="elements" prefix="audreq"/>
+  <mapping abstract="true" type-name="audreq:AUD_GetDocumentRequestType" class="ru.acs.fts.schemas.aud.aud_getdocumentrequest.AUDGetDocumentRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="audreq:DocumentFilterType" test-method="ifDocumentFilter" get-method="getDocumentFilter" set-method="setDocumentFilter" usage="optional" name="DocumentFilter"/>
+      <structure map-as="audreq:DocumentArchiveIdRequestParamsType" test-method="ifDocumentArchiveIdRequestParams" get-method="getDocumentArchiveIdRequestParams" set-method="setDocumentArchiveIdRequestParams" usage="optional" name="DocumentArchiveIdRequestParams"/>
+    </structure>
+    <structure map-as="catAUD_ru:AUD_DocumentDataPresenceInfoType" get-method="getDocumentDataPresenceInfo" set-method="setDocumentDataPresenceInfo" name="DocumentDataPresenceInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_getdocumentrequest.AUDGetDocumentRequestType" name="AUD_GetDocumentRequest">
+    <structure map-as="audreq:AUD_GetDocumentRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="audreq:DocumentArchiveIdRequestParamsType" class="ru.acs.fts.schemas.aud.aud_getdocumentrequest.DocumentArchiveIdRequestParamsType">
+    <value style="element" name="ArchiveDocumentId" get-method="getArchiveDocumentId" set-method="setArchiveDocumentId"/>
+    <value style="element" name="DocumentVersionsRequirements" get-method="getDocumentVersionsRequirements" set-method="setDocumentVersionsRequirements" usage="optional" format="cltAUD_ru:AUD_DocumentVersionsRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="audreq:DocumentAttributesFilterType" class="ru.acs.fts.schemas.aud.aud_getdocumentrequest.DocumentAttributesFilterType">
+    <value style="element" name="AppliedDocumentKindId" get-method="getAppliedDocumentKindId" set-method="setAppliedDocumentKindId"/>
+    <value style="element" name="AppliedDocumentKindVersionId" get-method="getAppliedDocumentKindVersionId" set-method="setAppliedDocumentKindVersionId" usage="optional"/>
+    <collection get-method="getAttributeFilterParamList" set-method="setAttributeFilterParamList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_AttributeFilterParamsType" name="AttributeFilterParams"/>
+    </collection>
+    <structure map-as="catAUD_ru:AUD_DTFilterType" get-method="getAppliedGTDID" set-method="setAppliedGTDID" usage="optional" name="AppliedGTDID"/>
+    <structure map-as="catAUD_ru:AUD_StringFilterParamsType" get-method="getAppliedPacketID" set-method="setAppliedPacketID" usage="optional" name="AppliedPacketID"/>
+  </mapping>
+  <mapping abstract="true" type-name="audreq:DocumentFilterType" class="ru.acs.fts.schemas.aud.aud_getdocumentrequest.DocumentFilterType">
+    <structure map-as="audreq:DocumentAttributesFilterType" get-method="getDocumentAttributesFilter" set-method="setDocumentAttributesFilter" usage="optional" name="DocumentAttributesFilter"/>
+    <collection get-method="getDocumentContentsFilterList" set-method="setDocumentContentsFilterList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_StringFilterParamsType" name="DocumentContentsFilter"/>
+    </collection>
+    <collection get-method="getDocumentDescriptionFilterList" set-method="setDocumentDescriptionFilterList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_StringFilterParamsType" name="DocumentDescriptionFilter"/>
+    </collection>
+    <collection get-method="getDocumentPutDateTimeFilterList" set-method="setDocumentPutDateTimeFilterList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DateTimeFilterParamsType" name="DocumentPutDateTimeFilter"/>
+    </collection>
+    <structure map-as="catAUD_ru:AUD_StringFilterParamsType" get-method="getAppliedDocumentId" set-method="setAppliedDocumentId" usage="optional" name="AppliedDocumentId"/>
+  </mapping>
+</binding>

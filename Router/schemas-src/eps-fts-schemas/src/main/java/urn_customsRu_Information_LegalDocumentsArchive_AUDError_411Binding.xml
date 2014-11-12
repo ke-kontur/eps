@@ -1,0 +1,22 @@
+<binding xmlns:auerr="urn:customs.ru:Information:LegalDocumentsArchive:AUD_Error:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_Error:4.1.1" default="elements" prefix="auerr"/>
+  <mapping abstract="true" type-name="auerr:AUD_ErrorType" class="ru.acs.fts.schemas.aud.aud_error.AUDErrorType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <collection get-method="getResultInfoList" set-method="setResultInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_ResultInfoType" name="ResultInfo"/>
+    </collection>
+    <collection get-method="getEmbeddedDocumentResultInfoList" set-method="setEmbeddedDocumentResultInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="auerr:EmbeddedDocumentResultInfoType" name="EmbeddedDocumentResultInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_error.AUDErrorType" name="AUD_Error">
+    <structure map-as="auerr:AUD_ErrorType"/>
+  </mapping>
+  <mapping abstract="true" type-name="auerr:EmbeddedDocumentResultInfoType" class="ru.acs.fts.schemas.aud.aud_error.EmbeddedDocumentResultInfoType">
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentIdType"/>
+    <collection get-method="getResultInfoList" set-method="setResultInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_ResultInfoType" name="ResultInfo"/>
+    </collection>
+  </mapping>
+</binding>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:psc="urn:customs.ru:Information:AdminCommandED:PTDScanCmd:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" version="4.6.0" elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:AdminCommandED:PTDScanCmd:4.6.0">
+   <xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Команды на поиск просроченных ПТД</xs:documentation>
+   </xs:annotation>
+   <xs:element name="PTDScanCmd" type="psc:PTDScanCmdType"/>
+   <xs:complexType name="PTDScanCmdType">
+      <xs:annotation>
+         <xs:documentation>Команды на поиск просроченных ПТД</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="IEcat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="IntervalDay" type="IEclt_ru:Quantity3Type">
+                  <xs:annotation>
+                     <xs:documentation>Интервал в днях</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" fixed="1090001E" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа.</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

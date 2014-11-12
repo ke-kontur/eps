@@ -1,0 +1,1 @@
+mvn gwt:debug -Dgwt.noserver=true -DrunTarget=http://localhost:8084/monitoring-center/

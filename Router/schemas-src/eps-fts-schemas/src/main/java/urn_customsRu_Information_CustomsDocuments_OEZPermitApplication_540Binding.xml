@@ -1,0 +1,14 @@
+<binding xmlns:prmap="urn:customs.ru:Information:CustomsDocuments:OEZ_PermitApplication:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_PermitApplication:5.4.0" default="elements" prefix="prmap"/>
+  <mapping abstract="true" type-name="prmap:OEZ_PermitApplicationType" class="ru.acs.fts.schemas.album.oez_permitapplication.OEZPermitApplicationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ApplicationDetails" get-method="getApplicationDetails" set-method="setApplicationDetails"/>
+    <value style="element" name="PlanDate" get-method="getPlanDate" set-method="setPlanDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_permitapplication.OEZPermitApplicationType" name="OEZ_PermitApplication">
+    <structure map-as="prmap:OEZ_PermitApplicationType"/>
+  </mapping>
+</binding>

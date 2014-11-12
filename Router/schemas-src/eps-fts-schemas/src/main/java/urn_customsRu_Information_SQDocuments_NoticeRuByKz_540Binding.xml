@@ -1,0 +1,58 @@
+<binding xmlns:ntcrbk="urn:customs.ru:Information:SQDocuments:NoticeRuByKz:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:NoticeRuByKz:5.4.0" default="elements" prefix="ntcrbk"/>
+  <mapping abstract="true" type-name="ntcrbk:NoticeRuByKzType" class="ru.acs.fts.schemas.album.noticerubykz.NoticeRuByKzType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getNotificationList" set-method="setNotificationList" create-type="java.util.ArrayList">
+      <structure map-as="ntcrbk:NotificationType" name="Notification"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.noticerubykz.NoticeRuByKzType" name="NoticeRuByKz">
+    <structure map-as="ntcrbk:NoticeRuByKzType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntcrbk:CarrierType" class="ru.acs.fts.schemas.album.noticerubykz.CarrierType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntcrbk:ControlPlaceType" class="ru.acs.fts.schemas.album.noticerubykz.ControlPlaceType">
+    <value style="element" name="OrgName" get-method="getOrgName" set-method="setOrgName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+    <value style="element" name="OrgDescription" get-method="getOrgDescription" set-method="setOrgDescription"/>
+    <value style="element" name="RegionCode" get-method="getRegionCode" set-method="setRegionCode"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntcrbk:DriverType" class="ru.acs.fts.schemas.album.noticerubykz.DriverType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntcrbk:NotificationInfoType" class="ru.acs.fts.schemas.album.noticerubykz.NotificationInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="CreateTime" get-method="getCreateTime" set-method="setCreateTime" usage="optional"/>
+    <value style="element" name="ModificationDate" get-method="getModificationDate" set-method="setModificationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="IDreestr" get-method="getIDreestr" set-method="setIDreestr"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntcrbk:NotificationType" class="ru.acs.fts.schemas.album.noticerubykz.NotificationType">
+    <value style="element" name="InspectionDate" get-method="getInspectionDate" set-method="setInspectionDate"/>
+    <structure ordered="false" choice="true">
+      <value style="element" name="BelarusControlID" test-method="ifBelarusControlID" get-method="getBelarusControlID" set-method="setBelarusControlID" usage="optional"/>
+      <value style="element" name="KazakhControlID" test-method="ifKazakhControlID" get-method="getKazakhControlID" set-method="setKazakhControlID" usage="optional"/>
+      <value style="element" name="DocumentalControlID" test-method="ifDocumentalControlID" get-method="getDocumentalControlID" set-method="setDocumentalControlID" usage="optional"/>
+    </structure>
+    <structure map-as="ntcrbk:NotificationInfoType" get-method="getNotificationInfo" set-method="setNotificationInfo" name="NotificationInfo"/>
+    <structure map-as="ntcrbk:DriverType" get-method="getDriver" set-method="setDriver" name="Driver"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getNotificationEmployee" set-method="setNotificationEmployee" name="NotificationEmployee"/>
+    <structure map-as="ntcrbk:ControlPlaceType" get-method="getNotificationOrg" set-method="setNotificationOrg" name="NotificationOrg"/>
+    <structure map-as="ntcrbk:ControlPlaceType" get-method="getDestOrg" set-method="setDestOrg" name="DestOrg"/>
+    <structure map-as="cat_ru:TransportMeansBaseType" get-method="getTSInfo" set-method="setTSInfo" name="TSInfo"/>
+    <structure map-as="ntcrbk:CarrierType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <collection get-method="getViolationList" set-method="setViolationList" create-type="java.util.ArrayList">
+      <structure map-as="ntcrbk:ViolationType" name="Violation"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ntcrbk:ViolationType" class="ru.acs.fts.schemas.album.noticerubykz.ViolationType">
+    <value style="element" name="NodeNumber" get-method="getNodeNumber" set-method="setNodeNumber"/>
+    <value style="element" name="ViolationName" get-method="getViolationName" set-method="setViolationName"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+  </mapping>
+</binding>

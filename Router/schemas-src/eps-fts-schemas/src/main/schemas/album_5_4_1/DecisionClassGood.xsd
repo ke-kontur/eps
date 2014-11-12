@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:DecisionClassGood:5.4.1" version="5.4.1.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:dcg="urn:customs.ru:Information:CustomsDocuments:DecisionClassGood:5.4.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" schemaLocation="CUESADCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Решение о классификации товара в соответствии с ТН ВЭД</xs:documentation>
+   </xs:annotation>
+   <xs:element name="DecisionClassGood" type="dcg:DecisionClassGoodType"/>
+   <xs:complexType name="DecisionClassGoodType">
+      <xs:annotation>
+         <xs:documentation>Решение о классификации товара в соответствии с ТН ВЭД</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="TNVEDCode" type="clt_ru:CUGoodsNomenclatuerCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код товара по ТН ВЭД ТС</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="Mark" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Служебные отметки</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ClassDecisionChanges" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Сведение об отмене (изменении) решения о классификации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="DepartmentalControl" type="clt_ru:FreeText500Type">
+                  <xs:annotation>
+                     <xs:documentation>Сведения по ведомственному контролю</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="InterpretationRules" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Обоснование принятия решения. Правила интерпретации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Customs" type="cat_ru:CustomsType">
+                  <xs:annotation>
+                     <xs:documentation>Наименование таможенного органа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Declarant" type="dcg:DeclarantType">
+                  <xs:annotation>
+                     <xs:documentation>Декларант</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="RegistrationNumber" type="dcg:RegistrationNumberType">
+                  <xs:annotation>
+                     <xs:documentation>Регистрационный номер</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Goods" type="dcg:GoodsType">
+                  <xs:annotation>
+                     <xs:documentation>Товар</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="PersonSignature" type="cat_ru:PersonSignatureType">
+                  <xs:annotation>
+                     <xs:documentation>Подпись должностного лица таможенного органа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="RegNumberDT" type="cat_ru:GTDIDType">
+                  <xs:annotation>
+                     <xs:documentation>Регистрационный номер ДТ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ExpertDecision" type="dcg:ExpertDecisionType">
+                  <xs:annotation>
+                     <xs:documentation>Обоснование принятия решения. Заключение экспертной организации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1006155E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="DeclarantType">
+      <xs:annotation>
+         <xs:documentation>Декларант</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:OrganizationType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="BranchDescription" type="cat_ru:CUBranchDescriptionType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения об обособленном подразделении</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="IdentityCard" type="cat_ru:IdentityCardType">
+                  <xs:annotation>
+                     <xs:documentation>Документ, удостоверяющий личность</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ExpertDecisionType">
+      <xs:annotation>
+         <xs:documentation>Обоснование принятия решения. Заключение экспертной организации</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:DocumentBaseType">
+            <xs:sequence>
+               <xs:element name="ExpertOrganization" type="clt_ru:NameType">
+                  <xs:annotation>
+                     <xs:documentation>Наименование экспертной организации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GoodsType">
+      <xs:annotation>
+         <xs:documentation>Товар</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element maxOccurs="unbounded" name="GoodDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Наименование товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="IsPartialGood" type="clt_ru:IndicatorType">
+            <xs:annotation>
+               <xs:documentation>Признак принятия решения в отношении части товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="AdditionalInformation" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Дополнительная информация для идентификации товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="GoodsInformation" type="catESAD_cu:GoodsGroupInformationType">
+            <xs:annotation>
+               <xs:documentation>Характеристика товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="Numeric_TNVEDCode" type="dcg:Numeric_TNVEDCodeType">
+            <xs:annotation>
+               <xs:documentation>Сведения о номере товара по ДТ и заявленном коде товара по ТН ВЭД ТС</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Numeric_TNVEDCodeType">
+      <xs:annotation>
+         <xs:documentation>Сведения о номере товара по ДТ и заявленном коде товара по ТН ВЭД ТС</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="TNVEDCode" type="clt_ru:CUGoodsNomenclatuerCodeType">
+            <xs:annotation>
+               <xs:documentation>Код товара по ТН ВЭД ТС, заявленный в ДТ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsNumeric" type="clt_ru:Count3Type">
+            <xs:annotation>
+               <xs:documentation>Номер товара по ДТ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="RegistrationNumberType">
+      <xs:annotation>
+         <xs:documentation>Регистрационный номер</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="CustomsCode" type="clt_ru:CustomsCodeType">
+            <xs:annotation>
+               <xs:documentation>Код таможенного органа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="SerialNumber" type="clt_ru:Code6Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый исходящий номер</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Date" type="clt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата принятия решения</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

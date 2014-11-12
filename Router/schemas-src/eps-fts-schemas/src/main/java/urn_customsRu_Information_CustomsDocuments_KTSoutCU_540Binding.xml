@@ -1,0 +1,68 @@
+<binding xmlns:KTSout_CU="urn:customs.ru:Information:CustomsDocuments:KTSout_CU:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catEKTS_cu="urn:customs.ru:CUEKTSCommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:KTSout_CU:5.4.0" default="elements" prefix="KTSout_CU"/>
+  <mapping abstract="true" type-name="KTSout_CU:KTSout_CUType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSoutCUType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DTDocumentID" get-method="getDTDocumentID" set-method="setDTDocumentID" usage="optional"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind" usage="optional"/>
+    <value style="element" name="SubsoilSign" get-method="getSubsoilSign" set-method="setSubsoilSign" usage="optional"/>
+    <value style="element" name="KTSNumber" get-method="getKTSNumber" set-method="setKTSNumber"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="ElectronicDocumentSign" get-method="getElectronicDocumentSign" set-method="setElectronicDocumentSign" usage="optional"/>
+    <value style="element" name="Adjustment" get-method="getAdjustment" set-method="setAdjustment"/>
+    <value style="element" name="RegNumberDoc" get-method="getRegNumberDoc" set-method="setRegNumberDoc" usage="optional"/>
+    <value style="element" name="ExecutionDate" get-method="getExecutionDate" set-method="setExecutionDate" format="LocalDate.default"/>
+    <value style="element" name="SecurityLabelCode" get-method="getSecurityLabelCode" set-method="setSecurityLabelCode" usage="optional"/>
+    <structure map-as="KTSout_CU:KTSout_CUGoodsShipmentType" get-method="getKTSoutCUGoodsShipment" set-method="setKTSoutCUGoodsShipment" name="KTSout_CUGoodsShipment"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTNumber" set-method="setDTNumber" usage="optional" name="DTNumber"/>
+    <collection get-method="getKTSoutPaymentsReCalcList" set-method="setKTSoutPaymentsReCalcList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catEKTS_cu:KTSPaymentsReCalcType" name="KTSoutPaymentsReCalc"/>
+    </collection>
+    <structure map-as="KTSout_CU:KTSCUConsignorType" get-method="getKTSCUConsignor" set-method="setKTSCUConsignor" usage="optional" name="KTSCUConsignor"/>
+    <structure map-as="KTSout_CU:KTSCUConsigneeType" get-method="getKTSCUConsignee" set-method="setKTSCUConsignee" usage="optional" name="KTSCUConsignee"/>
+    <structure map-as="KTSout_CU:KTSCUDeclarantType" get-method="getKTSCUDeclarant" set-method="setKTSCUDeclarant" usage="optional" name="KTSCUDeclarant"/>
+    <structure map-as="catESAD_cu:ESADFilledPersonType" get-method="getFilledPerson" set-method="setFilledPerson" name="FilledPerson"/>
+    <structure map-as="catESAD_cu:CUESADCustomsRepresentativeType" get-method="getCustomsRepresentative" set-method="setCustomsRepresentative" usage="optional" name="CustomsRepresentative"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ktsout_cu.KTSoutCUType" name="KTSout_CU">
+    <structure map-as="KTSout_CU:KTSout_CUType"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSout_CU:KTSCUConsigneeType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSCUConsigneeType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSout_CU:KTSCUConsignorType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSCUConsignorType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ContractorIndicator" get-method="getContractorIndicator" set-method="setContractorIndicator" usage="optional"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSout_CU:KTSCUDeclarantType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSCUDeclarantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSout_CU:KTSoutPresentedDocumentsType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSoutPresentedDocumentsType">
+    <structure map-as="catESAD_cu:CUESADPresentedDocumentsType"/>
+    <value style="element" name="RegNumberDocument" get-method="getRegNumberDocument" set-method="setRegNumberDocument" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="KTSout_CU:KTSout_CUGoodsItemType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSoutCUGoodsItemType">
+    <structure map-as="catEKTS_cu:KTSGoodsItemType"/>
+    <collection get-method="getKTSoutPresentedDocumentList" set-method="setKTSoutPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="KTSout_CU:KTSoutPresentedDocumentsType" name="KTSoutPresentedDocuments"/>
+    </collection>
+    <collection get-method="getKTSCustomsPaymentCalculationList" set-method="setKTSCustomsPaymentCalculationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catEKTS_cu:CUKTSCustomsPaymentCalculationType" name="KTSCustomsPaymentCalculation"/>
+    </collection>
+    <structure map-as="catESAD_cu:ESADCustomsProcedureType" get-method="getCustomsProcedure" set-method="setCustomsProcedure" usage="optional" name="CustomsProcedure"/>
+    <collection get-method="getGoodsAutomobileList" set-method="setGoodsAutomobileList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:AutomobileType" name="GoodsAutomobile"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="KTSout_CU:KTSout_CUGoodsShipmentType" class="ru.acs.fts.schemas.album.ktsout_cu.KTSoutCUGoodsShipmentType">
+    <structure map-as="catEKTS_cu:KTSGoodsShipmentType"/>
+    <structure map-as="catEKTS_cu:KTSContractTermsType" get-method="getKTSContractTerms" set-method="setKTSContractTerms" name="KTSContractTerms"/>
+    <collection get-method="getKTSoutGoodsItemList" set-method="setKTSoutGoodsItemList" create-type="java.util.ArrayList">
+      <structure map-as="KTSout_CU:KTSout_CUGoodsItemType" name="KTSoutGoodsItem"/>
+    </collection>
+  </mapping>
+</binding>

@@ -1,0 +1,18 @@
+<binding xmlns:expex="urn:customs.ru:Information:CustomsDocuments:OEZ_ExportPassExpired:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_ExportPassExpired:5.4.0" default="elements" prefix="expex"/>
+  <mapping abstract="true" type-name="expex:OEZ_ExportPassExpiredType" class="ru.acs.fts.schemas.album.oez_exportpassexpired.OEZExportPassExpiredType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DateEnd" get-method="getDateEnd" set-method="setDateEnd" format="LocalDate.default"/>
+    <structure map-as="expex:PassRegNumberType" get-method="getPassRegNumber" set-method="setPassRegNumber" name="PassRegNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_exportpassexpired.OEZExportPassExpiredType" name="OEZ_ExportPassExpired">
+    <structure map-as="expex:OEZ_ExportPassExpiredType"/>
+  </mapping>
+  <mapping abstract="true" type-name="expex:PassRegNumberType" class="ru.acs.fts.schemas.album.oez_exportpassexpired.PassRegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+  </mapping>
+</binding>

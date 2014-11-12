@@ -1,0 +1,16 @@
+<binding xmlns:adoc="urn:customs.ru:Information:EArchDocuments:ArchDocResponse:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchDocResponse:5.4.0" default="elements" prefix="adoc"/>
+  <mapping abstract="true" type-name="adoc:ArchDocResponseType" class="ru.acs.fts.schemas.album.archdocresponse.ArchDocResponseType">
+    <structure map-as="catArch_ru:ArchBaseType"/>
+    <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID"/>
+    <structure map-as="adoc:ArchDocumentType" get-method="getArchDocument" set-method="setArchDocument" name="ArchDocument"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archdocresponse.ArchDocResponseType" name="ArchDocResponse">
+    <structure map-as="adoc:ArchDocResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="adoc:ArchDocumentType" class="ru.acs.fts.schemas.album.archdocresponse.ArchDocumentType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

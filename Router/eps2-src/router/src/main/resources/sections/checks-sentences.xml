@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:ch="http://fts.acs.ru/eps2/ed-compound-checks"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://fts.acs.ru/eps2/ed-compound-checks
+							http://fts.acs.ru/eps2/ed-compound-checks/ed-compound-checks.xsd" >
+
+	<!-- 
+		Сложная проверка на комплектность контейнера
+		сообщений: CMN.11010, CMN.11033, CMN.11042, CMN.11043, CMN.11093, CMN.11094, CMN.11101 
+		из-за некоторых особенностей перенесена в бизнес обработку
+		
+		см. бизнес-процесс ImportExportBusinessProcess
+		
+		Генерирует ошибку: 03.00014.01
+	-->
+	
+	<!-- НЕ ИСПОЛЬЗУЕТСЯ -->
+	<ch:checksSentence id="gtdRecallCheckSentence" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:value>CMN.11012</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" >
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E>  <!-- ESADout_CU -->
+						<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+						<id1006014E>1</id1006014E>  <!-- PermitRecallGTD -->
+						<id1006079E>-1</id1006079E> <!-- DTSOutCustomsMark -->
+						<id1006112E>-1</id1006112E> <!-- DTSout_CU  --> 
+						<id1006044E>-1</id1006044E> <!-- DTSout -->
+						<id1006113E>-1</id1006113E> <!-- KTSout_CU -->
+						<id1006095E>-1</id1006095E> <!-- KTSOutCustomsMark -->
+						<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+						<id1006089E>-3</id1006089E> <!-- GoodsComponentList -->
+						
+						<!-- count(DTSOutCustomsMark) == count(DTSout_CU) + count(DTSout) -->
+						<id1006079E>id1006112E+id1006044E</id1006079E>
+						<!-- count(KTSout_CU) == count(KTSOutCustomsMark)  --> 
+						<id1006113E>id1006095E</id1006113E>
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:value>CMN.11034</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+						<id1006014E>1</id1006014E> <!-- PermitRecallGTD -->
+						<id1006079E>-1</id1006079E> <!-- DTSOutCustomsMark -->
+						<id1006044E>-1</id1006044E> <!-- DTSout -->
+						<id1006113E>-1</id1006113E> <!-- KTSout_CU -->
+						<id1006095E>-1</id1006095E> <!-- KTSoutCustomsMark -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>CMN.11052</ch:value>
+							<ch:value>CMN.11060</ch:value>
+						</ch:values>						
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+						<id1006078E>1</id1006078E> <!-- GTDoutCustomsMark -->
+						<id1006014E>1</id1006014E> <!-- PermitRecallGTD -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>CMN.11056</ch:value>
+							<ch:value>CMN.11063</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006078E>1</id1006078E> <!-- GTDoutCustomsMark -->
+						<id1006014E>1</id1006014E> <!-- PermitRecallGTD -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11023CheckSentence" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ИМ</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>40</ch:value>
+					<ch:value>51</ch:value>
+					<ch:value>53</ch:value>
+					<ch:value>60</ch:value>
+					<ch:value>70</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+					<ch:value>90</ch:value>
+					<ch:value>91</ch:value>
+					<ch:value>96</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="OR" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11044CheckSentence" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ИМ</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>40</ch:value>
+					<ch:value>51</ch:value>
+					<ch:value>53</ch:value>
+					<ch:value>60</ch:value>
+					<ch:value>70</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+					<ch:value>90</ch:value>
+					<ch:value>91</ch:value>
+					<ch:value>96</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Используется в checkCompleteness -->
+	<ch:checksSentence id="cmn11023CheckSentence2" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>nullx</ch:value>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" >
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006112E>-2</id1006112E> <!-- DTSout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>1</ch:value>
+							<ch:value>true</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Используется в checkCompleteness -->
+	<ch:checksSentence id="cmn11044CheckSentence2" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>nullx</ch:value>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" >
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006112E>-2</id1006112E> <!-- DTSout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>1</ch:value>
+							<ch:value>true</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+		
+	<ch:checksSentence id="checkInitialEnvelopeId" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='RoutingInf']/*[local-name()='InitialEnvelopeID']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="notifTDRegistrationRefDocumentId" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='NotifGTDRegistration']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="repudDeclRegistrationRefDocumentId" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='RepudDeclRegistration']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="notifGTDRegistrationRefDocumentId" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='NotifGTDRegistration']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<ch:checksSentence id="cmn12100CheckSentence" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='TDTSCustomsMark']/*[local-name()='CancellationInfo']/*[local-name()='Date']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<ch:checksSentence id="cmn12096CheckSentence" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='TDTSCustomsMark']/*[local-name()='TDTSRegNumber']/*[local-name()='CustomsCode']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12095CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006159E>1</id1006159E> <!-- TransportDeclaration -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<ch:checksSentence id="cmn15003CheckSentence1" >
+		<ch:clause op="">
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ТТ</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn15003CheckSentence2" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12094CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003405E>1</id1003405E> <!-- NotifFactArrival -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<ch:checksSentence id="cmn11024CheckSentence1" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ЭК</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>10</ch:value>
+					<ch:value>21</ch:value>
+					<ch:value>23</ch:value>
+					<ch:value>31</ch:value>
+					<ch:value>96</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="OR" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11024CheckSentence2" >
+		<ch:clause op="">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+							<ch:values>
+								<ch:value>0</ch:value>
+								<ch:value>false</ch:value>
+								<ch:value>nullx</ch:value>
+							</ch:values>
+						</ch:xPathCheck>
+					</ch:clause>	
+				<ch:clause op="AND">
+					<ch:checksBlock>
+						<ch:clause op="">
+							<ch:containerCheck>
+								<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+								<id1006003E>1</id1006003E> <!-- Inventory -->
+								<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+								<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+								<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+								<id1006112E>-3</id1006112E> <!-- DTSout_CU -->
+							</ch:containerCheck>
+						</ch:clause>
+						<ch:clause op="OR">
+							<ch:containerCheck>
+								<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+								<id1006003E>1</id1006003E> <!-- Inventory -->
+								<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+								<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+								<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+								<id1006044E>-3</id1006044E> <!-- DTSout -->
+							</ch:containerCheck>
+						</ch:clause>
+					</ch:checksBlock>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>1</ch:value>
+					<ch:value>true</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11024CheckSentence3" >		
+		<ch:clause op="">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+							<ch:values>
+								<ch:value>1</ch:value>
+								<ch:value>true</ch:value>
+							</ch:values>
+						</ch:xPathCheck>
+					</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>	
+			</ch:checksBlock>						
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- cmn.11025 -->
+	<ch:checksSentence id="cmn11025CheckSentence1" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ИМ</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>40</ch:value>
+					<ch:value>51</ch:value>
+					<ch:value>53</ch:value>
+					<ch:value>60</ch:value>
+					<ch:value>70</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+					<ch:value>90</ch:value>
+					<ch:value>91</ch:value>
+					<ch:value>96</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="OR" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11025CheckSentence2" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006112E>-2</id1006112E> <!-- DTSout_CU -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>1</ch:value>
+					<ch:value>true</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11025CheckSentence3" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+							<ch:values>
+								<ch:value>1</ch:value>
+								<ch:value>true</ch:value>
+							</ch:values>
+						</ch:xPathCheck>
+					</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>	
+			</ch:checksBlock>						
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- cmn.11026 -->
+	<ch:checksSentence id="cmn11026CheckSentence1" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ЭК</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>10</ch:value>
+					<ch:value>21</ch:value>
+					<ch:value>23</ch:value>
+					<ch:value>31</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+					<ch:value>96</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="OR" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11026CheckSentence2" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:checksBlock>
+						<ch:clause op="">
+							<ch:containerCheck>
+								<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+								<id1006003E>1</id1006003E> <!-- Inventory -->
+								<id1006044E>-2</id1006044E> <!-- DTSout -->
+								<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+								<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+								<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+								<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+							</ch:containerCheck>
+						</ch:clause>
+					</ch:checksBlock>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>1</ch:value>
+					<ch:value>true</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11026CheckSentence3" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+							<ch:values>
+								<ch:value>1</ch:value>
+								<ch:value>true</ch:value>
+							</ch:values>
+						</ch:xPathCheck>
+					</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>	
+			</ch:checksBlock>						
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- cmn.11048 -->
+	<ch:checksSentence id="cmn11048CheckSentence1" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ИМ</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>40</ch:value>
+					<ch:value>51</ch:value>
+					<ch:value>53</ch:value>
+					<ch:value>60</ch:value>
+					<ch:value>70</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+					<ch:value>90</ch:value>
+					<ch:value>91</ch:value>
+					<ch:value>96</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+		
+	<ch:checksSentence id="cmn11048CheckSentence2" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+						<id1006112E>-1</id1006112E> <!-- DTSout_CU -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>1</ch:value>
+					<ch:value>true</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11048CheckSentence3" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+							<ch:values>
+								<ch:value>1</ch:value>
+								<ch:value>true</ch:value>
+							</ch:values>
+						</ch:xPathCheck>
+					</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>	
+			</ch:checksBlock>						
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- cmn.11049 -->
+	<ch:checksSentence id="cmn11049CheckSentence1" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+				<ch:value>ИМ</ch:value>
+			</ch:xPathCheck>			
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUGoods']/*[local-name()='ESADCustomsProcedure']/*[local-name()='MainCustomsModeCode']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>40</ch:value>
+					<ch:value>51</ch:value>
+					<ch:value>53</ch:value>
+					<ch:value>60</ch:value>
+					<ch:value>70</ch:value>
+					<ch:value>78</ch:value>
+					<ch:value>80</ch:value>
+					<ch:value>90</ch:value>
+					<ch:value>91</ch:value>
+					<ch:value>96</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='DeclarationKind']/text()</ch:xPathVariable>
+						<ch:value>ПТД</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>	
+	
+	<ch:checksSentence id="cmn11049CheckSentence2" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1008002E>1</id1008002E> <!-- NotifGoodsArrive -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+						<id1006112E>-1</id1006112E> <!-- DTSout_CU -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+				<ch:values>
+					<ch:value>1</ch:value>
+					<ch:value>true</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="cmn11049CheckSentence3" >
+		<ch:clause op="">
+			<ch:rulesCheck>
+				<ch:ruleName>processNotFullContainer</ch:ruleName>
+			</ch:rulesCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+							<ch:values>
+								<ch:value>1</ch:value>
+								<ch:value>true</ch:value>
+							</ch:values>
+						</ch:xPathCheck>
+					</ch:clause>
+				<ch:clause op="AND">
+					<ch:containerCheck>
+						<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+						<id1006003E>1</id1006003E> <!-- Inventory -->
+						<id1008002E>1</id1008002E> <!-- NotifGoodsArrive -->
+						<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+						<id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
+						<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+						<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+					</ch:containerCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='FullSetIndicator']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>0</ch:value>
+							<ch:value>false</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>	
+			</ch:checksBlock>						
+		</ch:clause>
+	</ch:checksSentence>	
+
+	<ch:checksSentence id="msg15001CheckSentence" >
+		<ch:clause op="" negation="true" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='InstrInspection']/*[local-name()='InstrInfo']/*[local-name()='Customs']/*[local-name()='Code']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="msg11034CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006136E>1</id1006136E> <!-- GTDInCustomsMarks -->
+				<id1006134E>-1</id1006134E> <!-- CoordinationRequests -->
+				<id1006133E>-1</id1006133E> <!-- CorrectionDecision -->
+				<id1006091E>-1</id1006091E> <!-- RevealedRisks -->
+				<id1006132E>-1</id1006132E> <!-- RemovalControl -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- UNUSED -->
+<!-- 	<ch:checksSentence id="msg11020CheckSentence" > -->
+<!-- 		<ch:clause op="" > -->
+<!-- 			<ch:containerCheck> -->
+<!-- 				<id1006107E>1</id1006107E> ESADout_CU -->
+<!-- 				<id1006003E>1</id1006003E> Inventory -->
+<!-- 				<id1004051E>1</id1004051E> NotifGTDRegistration -->
+<!-- 				<id1006113E>-1</id1006113E> KTSout_CU				 -->
+<!-- 			</ch:containerCheck> -->
+<!-- 		</ch:clause> -->
+<!-- 	</ch:checksSentence> -->
+	
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<ch:checksSentence id="cmn12102CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1003311E>1</id1003311E> <!-- GoodsOperationRequest -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<ch:checksSentence id="cmn12112CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1003314E>1</id1003314E> <!-- UploadedGoodsDepartRequest -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn11076CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1006015E>1</id1006015E> <!-- GTDObligation -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10006CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1007012E>1</id1007012E> <!-- InqCustProcessing -->
+				<id1007013E>1</id1007013E> <!-- CustProcessingInvent -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10012CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1007004E>1</id1007004E> <!-- InqInoTreatment -->
+				<id1007013E>1</id1007013E> <!-- CustProcessingInvent -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10052CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006145E>1</id1006145E> <!-- OEZ_NotifReg -->
+				<id1006141E>1</id1006141E> <!-- OEZ_ImportNotif -->
+			</ch:containerCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:containerCheck>
+				<id1006145E>1</id1006145E> <!-- OEZ_NotifReg -->
+				<id1006144E>1</id1006144E> <!-- OEZ_ExportNotif -->
+			</ch:containerCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:containerCheck>
+				<id1006145E>1</id1006145E> <!-- OEZ_NotifReg -->
+				<id1006186E>1</id1006186E> <!-- LiquidationApplication -->						
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<ch:checksSentence id="suppliesDTCheckSentence_Full" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="suppliesDTCheckSentence_ESADout_CU" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>CMN.11008</ch:value>
+							<ch:value>CMN.11013</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+						<ch:value>ИМ</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<!-- Ждите лета 2014
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsModeCode']/text()</ch:xPathVariable>
+						<ch:value>00</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				-->
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>CMN.11053</ch:value>
+							<ch:value>CMN.11054</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsProcedure']/text()</ch:xPathVariable>
+						<ch:value>ЭК</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<!-- Ждите лета 2014
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='CustomsModeCode']/text()</ch:xPathVariable>
+						<ch:value>00</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				-->
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="suppliesDTCheckSentence_RefDocument" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+				<ch:value>nullx</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="suppliesChangedDocsCheckSentence_RefDocument" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='Inventory']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" negation="true">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<ch:checksSentence id="suppliesIssueDecisionCheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDoutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<ch:checksSentence id="suppliesClaimCheckSentence_Full" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="suppliesClaimCheckSentence_ApplicationStore" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>CMN.11028</ch:value>
+							<ch:value>CMN.11050</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ApplicationStore']/*[local-name()='MoveDirection']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>ИМ</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ApplicationStore']/*[local-name()='CustomsModeCode']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>00</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="OR" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>CMN.11057</ch:value>
+							<ch:value>CMN.11058</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ApplicationStore']/*[local-name()='MoveDirection']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>ЭК</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ApplicationStore']/*[local-name()='CustomsModeCode']/text()</ch:xPathVariable>
+						<ch:values>
+							<ch:value>00</ch:value>
+							<ch:value>nullx</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<ch:checksSentence id="suppliesClaimIssueDecisionCheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+				<id1006078E>1</id1006078E> <!-- GTDoutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="suppliesClaimChangedDocsCheckSentence_RefDocument" >
+		<ch:clause op="" >
+			<ch:checksBlock>
+				<ch:clause op="" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ApplicationStore']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" negation="true" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='Inventory']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="AND" negation="true">
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='ED_Container']/*[local-name()='RefDocumentID']/text()</ch:xPathVariable>
+						<ch:value>nullx</ch:value>
+					</ch:xPathCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<ch:checksSentence id="rzdSendCommandsCheck" >
+		<ch:clause op="" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='EDHeader']/*[local-name()='MessageType']</ch:xPathVariable>
+				<ch:values>
+					<ch:value>CMN.11033</ch:value>
+				</ch:values>
+			</ch:xPathCheck>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:checksBlock>
+				<ch:clause op="" >
+					<ch:xPathCheck>
+						<ch:xPathVariable>//*[local-name()='GTDOutCustomsMark']/*[local-name()='GTDOutResolution']/*[local-name()='DecisionCode']</ch:xPathVariable>
+						<ch:values>
+							<ch:value>10</ch:value>
+							<ch:value>20</ch:value>
+						</ch:values>
+					</ch:xPathCheck>
+				</ch:clause>
+				<ch:clause op="OR" >
+					<ch:checksBlock>
+						<ch:clause op="" >
+							<ch:xPathCheck>
+								<ch:xPathVariable>//*[local-name()='GTDOutCustomsMark']/*[local-name()='GTDOutResolution']/*[local-name()='DecisionCode']</ch:xPathVariable>
+								<ch:length>2</ch:length>
+							</ch:xPathCheck>
+						</ch:clause>
+						<ch:clause op="AND" >
+							<ch:xPathCheck>
+								<ch:xPathVariable>//*[local-name()='GTDOutCustomsMark']/*[local-name()='GTDOutGoodsResolution']/*[local-name()='GTDOutGoodsResult']/*[local-name()='DecisionCode']</ch:xPathVariable>
+								<ch:values>
+									<ch:value>10</ch:value>
+									<ch:value>20</ch:value>
+								</ch:values>
+								<ch:valuesSearchOne>true</ch:valuesSearchOne>
+							</ch:xPathCheck>
+						</ch:clause>
+					</ch:checksBlock>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+		<ch:clause op="AND" >
+			<ch:xPathCheck>
+				<ch:xPathVariable>//*[local-name()='ESADout_CU']/*[local-name()='ESADout_CUGoodsShipment']/*[local-name()='ESADout_CUConsigment']/*[local-name()='ESADout_CUBorderTransport']/*[local-name()='TransportModeCode']</ch:xPathVariable>
+				<ch:value>20</ch:value>
+			</ch:xPathCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn11096CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006181E>1</id1006181E> <!-- RepresentativeApplication -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+			
+	<!-- Не перенесен в completenessCheck умышленно -->
+	<!-- 1006137E -->
+	<ch:checksSentence id="msg11027CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006137E>-2</id1006137E> <!-- NotifInspectionReqGoods -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- Container Completeness General Checks -->
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10063CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006141E>1</id1006141E> <!-- OEZ_ImportNotif -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10064CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006141E>1</id1006141E> <!-- OEZ_ImportNotif -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10067CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006144E>1</id1006144E> <!-- OEZ_ExportNotif -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10068CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006144E>1</id1006144E> <!-- OEZ_ExportNotif -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10070CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006186E>1</id1006186E> <!-- LiquidationApplication -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10071CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006186E>1</id1006186E> <!-- LiquidationApplication -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10075CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006188E>1</id1006188E> <!-- LiquidationAct -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn10076CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1006188E>1</id1006188E> <!-- LiquidationAct -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn11005CompletenessCheck" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006137E>-2</id1006137E> <!-- NotifInspectionReqGoods -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn11007CompletenessCheck" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006033E>-1</id1006033E> <!-- ActInspection -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+				<id1006022E>-3</id1006022E> <!-- ActThievingSampling -->
+				<id1006139E>-3</id1006139E> <!-- ActCustomsObservation -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn11065CompletenessCheck" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1004087E>1</id1004087E> <!-- NotifAddControl -->
+				<id1006024E>1</id1006024E> <!-- CalculationAmountPayment -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn11066_67CompletenessCheck" >
+		<ch:clause op="">
+			<ch:containerCheck>
+				<id1004087E>1</id1004087E> <!-- NotifAddControl -->
+				<id1006024E>-3</id1006024E> <!-- CalculationAmountPayment -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12117CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003302E>1</id1003302E> <!-- GeneralDeclarationAirTransport -->
+				<id1003303E>1</id1003303E> <!-- CargoManifest -->
+				<id1003301E>-2</id1003301E> <!-- AirWaybill -->
+				<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+				<id1003304E>-1</id1003304E> <!-- PassengerManifest -->
+				<id1003006E>-1</id1003006E> <!-- PostalManifest -->
+				<id1002003E>-1</id1002003E> <!-- CommercialInvoice -->
+				<id1002007E>-1</id1002007E> <!-- Invoice -->
+				<id1006088E>-1</id1006088E> <!-- FreeDoc -->
+				<id1003001E>-1</id1003001E> <!-- ProhibitedGoods -->
+				<id1003004E>-1</id1003004E> <!-- HouseManifest -->
+				<id1006110E>-3</id1006110E> <!-- FreeBinaryDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn13020CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1008028E>1</id1008028E> <!-- CommercialAct -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12076CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003302E>1</id1003302E> <!-- GeneralDeclarationAirTransport -->
+				<id1003303E>1</id1003303E> <!-- CargoManifest  -->
+				<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+				<id1003301E>-2</id1003301E> <!-- AirWaybill -->
+				<id1003304E>-3</id1003304E> <!-- PassengerManifest -->
+				<id1003006E>-3</id1003006E> <!-- PostalManifest -->
+				<id1002003E>-3</id1002003E> <!-- CommercialInvoice -->
+				<id1002007E>-3</id1002007E> <!-- Invoice -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+				<id1003001E>-3</id1003001E> <!-- ProhibitedGoods -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12078CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003201E>1</id1003201E> <!-- GeneralDeclaration -->
+				<id1003205E>1</id1003205E> <!-- CrewList -->
+				<id1003202E>-2</id1003202E> <!-- BillofLading -->
+				<id1003209E>-3</id1003209E> <!-- ArrivalDepartCargoDecl -->
+				<id1006029E>-3</id1006029E> <!-- ApplicationStore -->
+				<id1003307E>-3</id1003307E> <!-- DeclarationCrew -->
+				<id1003304E>-3</id1003304E> <!-- PassengerManifest -->
+				<id1003006E>-3</id1003006E> <!-- PostalManifest -->
+				<id1002007E>-3</id1002007E> <!-- Invoice -->
+				<id1002003E>-3</id1002003E> <!-- CommercialInvoice -->
+				<id1003001E>-3</id1003001E> <!-- ProhibitedGoods -->
+				<id1006110E>-3</id1006110E> <!-- FreeBinaryDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12079CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003401E>-1</id1003401E> <!-- RailwayBill -->
+				<id1003402E>1</id1003402E> <!-- TransmissionList -->
+				<id1006029E>-3</id1006029E> <!-- ApplicationStore -->
+				<id1003006E>-3</id1003006E> <!-- PostalManifest -->
+				<id1006152E>-3</id1006152E> <!-- GoodsDeclaration -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12080CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003405E>1</id1003405E> <!-- NotifFactArrival -->
+				<id1003401E>-1</id1003401E> <!-- RailwayBill -->
+				<id1003402E>-3</id1003402E> <!-- TransmissionList -->
+				<id1006029E>-3</id1006029E> <!-- ApplicationStore -->
+				<id1003006E>-3</id1003006E> <!-- PostalManifest -->
+				<id1006152E>-3</id1006152E> <!-- GoodsDeclaration -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn12087CheckSentence" > <!-- TODO -->
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1003302E>1</id1003302E> <!-- GeneralDeclarationAirTransport -->
+				<id1003303E>1</id1003303E> <!-- CargoManifest  -->
+				<id1003301E>-2</id1003301E> <!-- AirWaybill -->
+				<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+				<id1003304E>-3</id1003304E> <!-- PassengerManifest -->
+				<id1003006E>-3</id1003006E> <!-- PostalManifest -->
+				<id1002003E>-3</id1002003E> <!-- CommercialInvoice -->
+				<id1002007E>-3</id1002007E> <!-- Invoice -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+				<id1003001E>-3</id1003001E> <!-- ProhibitedGoods -->
+				<id1003004E>-1</id1003004E> <!-- HouseManifest -->
+				<id1006110E>-3</id1006110E> <!-- FreeBinaryDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="ed13003CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1008016E>1</id1008016E> <!-- ReqWHDoc -->
+				<id1002004E>-3</id1002004E> <!-- Contract -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<ch:checksSentence id="cmn13009CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1008001E>1</id1008001E> <!-- DO1Report -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- CMN.11012 -->
+	<ch:checksSentence id="cmn11012CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E>  <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006014E>1</id1006014E>  <!-- PermitRecallGTD -->
+				<id1006079E>-1</id1006079E> <!-- DTSOutCustomsMark -->
+				<id1006112E>-1</id1006112E> <!-- DTSout_CU  --> 
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList -->
+				
+				<!-- count(DTSOutCustomsMark) == count(DTSout_CU) + count(DTSout) -->
+				<id1006079E>id1006112E+id1006044E</id1006079E>
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<!-- CMN.11013 -->
+	<ch:checksSentence id="cmn11013CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<!-- CMN.11054 -->
+	<ch:checksSentence id="cmn11054CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- CMN.11034 -->
+	<ch:checksSentence id="cmn11034CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+				<id1006014E>1</id1006014E> <!-- PermitRecallGTD -->
+				<id1006079E>-1</id1006079E> <!-- DTSOutCustomsMark -->
+				<id1006044E>-1</id1006044E> <!-- DTSout -->
+				<id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- CMN.11052, CMN.11060 -->
+	<ch:checksSentence id="cmn11052CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006029E>1</id1006029E> <!-- ApplicationStore -->
+				<id1006078E>1</id1006078E> <!-- GTDoutCustomsMark -->
+				<id1006014E>1</id1006014E> <!-- PermitRecallGTD -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- CMN.11056, CMN.11063 -->
+	<ch:checksSentence id="cmn11056CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDoutCustomsMark -->
+				<id1006014E>1</id1006014E> <!-- PermitRecallGTD -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+
+	<!-- completenessCheck -->
+	<!-- CMN.11128 -->
+	<ch:checksSentence id="cmn11128CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1004056E>1</id1004056E> <!-- RejectReqOperation -->
+				<id1006103E>-3</id1006103E> <!-- RepudDeclRegistration -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11007 -->
+	<ch:checksSentence id="msg11007CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006093E>1</id1006093E> <!-- InstrInspection -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11008 -->
+	<ch:checksSentence id="msg11008CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006033E>-1</id1006033E> <!-- ActInspection -->
+				<id1006022E>-3</id1006022E> <!-- ActThievingSampling -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+				<id1006139E>-3</id1006139E> <!-- ActCustomsObservation -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11020 -->
+	<ch:checksSentence id="msg11020CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+				<id1004051E>1</id1004051E> <!-- NotifGTDRegistration -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11021 -->
+	<ch:checksSentence id="msg11021CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006046E>1</id1006046E> <!-- GoodsCheckReport -->
+				<id1006033E>-3</id1006033E> <!-- ActInspection  -->
+				<id1006022E>-3</id1006022E> <!-- ActThievingSampling -->
+				<id1006088E>-3</id1006088E> <!-- FreeDoc -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11022 -->
+	<ch:checksSentence id="msg11022CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006014E>1</id1006014E>  <!-- PermitRecallGTD -->
+				<id1006112E>-3</id1006112E> <!-- DTSout_CU --> 
+				<id1006044E>-3</id1006044E> <!-- DTSout -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11023 -->
+	<ch:checksSentence id="msg11023CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E>  <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006112E>-1</id1006112E> <!-- DTSout_CU --> 
+				<id1006044E>-1</id1006044E> <!-- DTSout -->
+				<id1006079E>-1</id1006079E> <!-- DTSOutCustomsMark -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11028 -->
+	<ch:checksSentence id="msg11028CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E>  <!-- ESADout_CU -->
+				<id1006003E>1</id1006003E> <!-- Inventory -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11035 -->
+	<ch:checksSentence id="msg11035CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006044E>-3</id1006044E> <!-- DTSout -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11050 -->
+	<ch:checksSentence id="msg11050CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+				<id1006111E>-3</id1006111E> <!-- KDTout_CU -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006044E>-3</id1006044E> <!-- DTSout -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11051 -->
+	<ch:checksSentence id="msg11051CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+				<id1006112E>-3</id1006112E> <!-- DTSout_CU --> 
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11054 -->
+	<ch:checksSentence id="msg11054CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006112E>-3</id1006112E> <!-- DTSout_CU  -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+
+	<!-- completenessCheck -->
+	<!-- MSG.11064 -->
+	<ch:checksSentence id="msg11064CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006044E>-3</id1006044E> <!-- DTSout -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+
+	<!-- completenessCheck -->
+	<!-- MSG.11065 -->
+	<ch:checksSentence id="msg11065CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006112E>-3</id1006112E> <!-- DTSout_CU  -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>	
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11068 -->
+	<ch:checksSentence id="msg11068CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006044E>-3</id1006044E> <!-- DTSout -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11069 -->
+	<ch:checksSentence id="msg11069CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+				<id1006113E>-3</id1006113E> <!-- KTSout_CU -->
+				<id1006095E>-3</id1006095E> <!-- KTSOutCustomsMark -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+				<id1006112E>-3</id1006112E> <!-- DTSout_CU --> 
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11070 -->
+	<ch:checksSentence id="msg11070CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006107E>1</id1006107E> <!-- ESADout_CU -->
+				<id1006078E>1</id1006078E> <!-- GTDOutCustomsMark -->
+				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
+				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
+				<id1006044E>-3</id1006044E> <!-- DTSout -->
+				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11030 -->
+	<ch:checksSentence id="msg11030CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006129E>1</id1006129E> <!-- GoodsArriveReport -->
+				<id1006190E>1</id1006190E> <!-- PreviousRequestInfo -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- completenessCheck -->
+	<!-- MSG.11056 -->
+	<ch:checksSentence id="msg11056CheckSentence" >
+		<ch:clause op="" >
+			<ch:containerCheck>
+				<id1006129E>-3</id1006129E> <!-- GoodsArriveReport -->
+				<id1006190E>1</id1006190E> <!-- PreviousRequestInfo -->
+			</ch:containerCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	<!-- 
+	<ch:checksSentence id="remoteAllowStatusesCheck" >
+		<ch:clause op="">
+			<ch:statusCheck>
+				<ch:statusExp>UD_Decl_.*</ch:statusExp>
+			</ch:statusCheck>
+		</ch:clause>
+		<ch:clause op="OR" negation="true">
+			<ch:statusCheck>
+				<ch:statusExp>UD_PTD_Decl_Registration</ch:statusExp>
+				<ch:statusExp>UD_PTD_Decl_Examination</ch:statusExp>
+				<ch:statusExp>UD_PTD_Decl_ExaminationEnd</ch:statusExp>
+			</ch:statusCheck>
+		</ch:clause>
+		<ch:clause op="OR">
+			<ch:checksBlock>
+				<ch:clause op="">
+					<ch:statusCheck>
+						<ch:statusExp>UD_Exp_PermitOut_ProcEnd</ch:statusExp>
+						<ch:statusExp>UD_Exp_Insp.*</ch:statusExp>
+					</ch:statusCheck>
+				</ch:clause>
+				<ch:clause op="AND" negation="true">
+					<ch:statusCheck>
+						<ch:statusExp>UD_Exp_Insp_Goods_Provided</ch:statusExp>
+						<ch:statusExp>UD_Exp_Insp_ReqGoods</ch:statusExp>
+					</ch:statusCheck>
+				</ch:clause>
+			</ch:checksBlock>
+		</ch:clause>
+	</ch:checksSentence>
+	-->
+	<ch:checksSentence id="remoteAllowStatusesCheck" >
+		<ch:clause op="" >
+			<ch:statusCheck>
+				<!-- CMN.11012 -->
+				<ch:statusExp>UD_Decl_Registrated</ch:statusExp>
+				<ch:statusExp>UD_Decl_Examination</ch:statusExp>
+				<ch:statusExp>UD_Goods_Ch_Finish</ch:statusExp>
+				<ch:statusExp>UD_PTD_NotifConsigment</ch:statusExp>
+				<ch:statusExp>UD_PTD_Decl_Arrive_Req</ch:statusExp>
+				
+				<!-- CMN.11034 -->
+				<ch:statusExp>UD_Exp_Insp_Req_Goods</ch:statusExp>
+				<ch:statusExp>UD_Exp_Insp_GoodProv_InspEnd</ch:statusExp>
+				<ch:statusExp>UD_Exp_Insp_Goods_Provided</ch:statusExp>
+				<ch:statusExp>UD_Exp_PermitOut_ProcEnd</ch:statusExp>
+			</ch:statusCheck>
+		</ch:clause>
+		<ch:clause op="AND" negation="true" >
+			<ch:statusCheck>
+				<!-- CMN.11012 -->
+				<ch:statusExp>PTD_ExaminationEnd</ch:statusExp>
+				<ch:statusExp>PTD_Examination</ch:statusExp>
+				<ch:statusExp>PTD_Registrated</ch:statusExp>
+				<ch:statusExp>Decl_Examination</ch:statusExp>
+				<ch:statusExp>Decl_Registrated</ch:statusExp>
+				
+				<!-- CMN.11034 -->
+				<ch:statusExp>Exp_Examination</ch:statusExp>
+				<ch:statusExp>Exp_Registrated</ch:statusExp>
+				<ch:statusExp>Exp_PermitOut_ProcEnd</ch:statusExp>
+				<ch:statusExp>UD_Exp_Registrated</ch:statusExp>
+			</ch:statusCheck>
+		</ch:clause>
+	</ch:checksSentence>
+	
+	
+</beans>

@@ -1,0 +1,15 @@
+<binding xmlns:apdreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListRequest:4.2.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListRequest:4.2.1" default="elements" prefix="apdreq"/>
+  <mapping abstract="true" type-name="apdreq:AUD_PacketDocListRequestType" class="ru.acs.fts.schemas.aud.aud_packetdoclistrequest.AUDPacketDocListRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifPacketDTNum" get-method="getPacketDTNum" set-method="setPacketDTNum" usage="optional" name="PacketDTNum"/>
+      <value style="element" name="PacketAppliedID" test-method="ifPacketAppliedID" get-method="getPacketAppliedID" set-method="setPacketAppliedID" usage="optional"/>
+      <value style="element" name="ArchivePacketID" test-method="ifArchivePacketID" get-method="getArchivePacketID" set-method="setArchivePacketID" usage="optional"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_packetdoclistrequest.AUDPacketDocListRequestType" name="AUD_PacketDocListRequest">
+    <structure map-as="apdreq:AUD_PacketDocListRequestType"/>
+  </mapping>
+</binding>

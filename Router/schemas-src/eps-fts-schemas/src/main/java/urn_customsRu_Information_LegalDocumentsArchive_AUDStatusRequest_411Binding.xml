@@ -1,0 +1,10 @@
+<binding xmlns:ausreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_StatusRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_StatusRequest:4.1.1" default="elements" prefix="ausreq"/>
+  <mapping abstract="true" type-name="ausreq:AUD_StatusRequestType" class="ru.acs.fts.schemas.aud.aud_statusrequest.AUDStatusRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_statusrequest.AUDStatusRequestType" name="AUD_StatusRequest">
+    <structure map-as="ausreq:AUD_StatusRequestType"/>
+  </mapping>
+</binding>

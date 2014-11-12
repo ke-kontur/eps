@@ -1,0 +1,21 @@
+<binding xmlns:ipd="urn:customs.ru:Information:CustomsDocuments:InqProlongDecl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InqProlongDecl:5.4.0" default="elements" prefix="ipd"/>
+  <mapping abstract="true" type-name="ipd:InqProlongDeclType" class="ru.acs.fts.schemas.album.inqprolongdecl.InqProlongDeclType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="SuggDate" get-method="getSuggDate" set-method="setSuggDate" format="LocalDate.default"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <structure map-as="ipd:ReasonType" name="Reason"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqprolongdecl.InqProlongDeclType" name="InqProlongDecl">
+    <structure map-as="ipd:InqProlongDeclType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ipd:ReasonType" class="ru.acs.fts.schemas.album.inqprolongdecl.ReasonType">
+    <value style="element" name="ReasonDescription" get-method="getReasonDescription" set-method="setReasonDescription"/>
+  </mapping>
+</binding>

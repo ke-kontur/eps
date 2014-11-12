@@ -1,0 +1,186 @@
+<binding xmlns:oezr="urn:customs.ru:Information:CustomsDocuments:OEZ_Report:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_Report:5.4.0" default="elements" prefix="oezr"/>
+  <mapping abstract="true" type-name="oezr:OEZ_ReportType" class="ru.acs.fts.schemas.album.oez_report.OEZReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReportDate" get-method="getReportDate" set-method="setReportDate" format="LocalDate.default"/>
+    <collection get-method="getFormNumList" set-method="setFormNumList" create-type="java.util.ArrayList">
+      <value style="element" name="FormNum" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="oezr:CompanyType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="oezr:ReportingPeriodType" get-method="getReportingPeriod" set-method="setReportingPeriod" name="ReportingPeriod"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getResidentPersonSignature" set-method="setResidentPersonSignature" name="ResidentPersonSignature"/>
+    <structure map-as="oezr:Table1Type" get-method="getTable1" set-method="setTable1" usage="optional" name="Table1"/>
+    <structure map-as="oezr:Table2Type" get-method="getTable2" set-method="setTable2" usage="optional" name="Table2"/>
+    <structure map-as="oezr:Table3Type" get-method="getTable3" set-method="setTable3" usage="optional" name="Table3"/>
+    <structure map-as="oezr:Table4Type" get-method="getTable4" set-method="setTable4" usage="optional" name="Table4"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegistryNumber" set-method="setRegistryNumber" usage="optional" name="RegistryNumber"/>
+    <collection get-method="getDeclarationNumForReportList" set-method="setDeclarationNumForReportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:GTDIDType" name="DeclarationNumForReport"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_report.OEZReportType" name="OEZ_Report">
+    <structure map-as="oezr:OEZ_ReportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:CompanyType" class="ru.acs.fts.schemas.album.oez_report.CompanyType">
+    <value style="element" name="ResidentLicenseNumber" get-method="getResidentLicenseNumber" set-method="setResidentLicenseNumber" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganisation" set-method="setOrganisation" name="Organisation"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:CustomsModeQuantityType" class="ru.acs.fts.schemas.album.oez_report.CustomsModeQuantityType">
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDeclarationNumber" set-method="setDeclarationNumber" name="DeclarationNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:CustomsProcedurePlacedType" class="ru.acs.fts.schemas.album.oez_report.CustomsProcedurePlacedType">
+    <structure map-as="oezr:CustomsModeQuantityType"/>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:GoodsBaseType" class="ru.acs.fts.schemas.album.oez_report.GoodsBaseType">
+    <structure map-as="oezr:GoodsWithoutStatusBaseType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:GoodsUsageType" class="ru.acs.fts.schemas.album.oez_report.GoodsUsageType">
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getConfirmUsageDoc" set-method="setConfirmUsageDoc" name="ConfirmUsageDoc"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:GoodsWithoutStatusBaseType" class="ru.acs.fts.schemas.album.oez_report.GoodsWithoutStatusBaseType">
+    <collection get-method="getNameList" set-method="setNameList" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVED" get-method="getTNVED" set-method="setTNVED"/>
+    <value style="element" name="MeasureUnitQualifier" get-method="getMeasureUnitQualifier" set-method="setMeasureUnitQualifier"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:QuantityPutType" class="ru.acs.fts.schemas.album.oez_report.QuantityPutType">
+    <value style="element" name="QuantityAtTheBeginning" get-method="getQuantityAtTheBeginning" set-method="setQuantityAtTheBeginning" usage="optional"/>
+    <value style="element" name="QuantityInTheEnd" get-method="getQuantityInTheEnd" set-method="setQuantityInTheEnd" usage="optional"/>
+    <value style="element" name="QuantityTotal" get-method="getQuantityTotal" set-method="setQuantityTotal"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:ReportingPeriodType" class="ru.acs.fts.schemas.album.oez_report.ReportingPeriodType">
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:StatusDisguiseGoodsType" class="ru.acs.fts.schemas.album.oez_report.StatusDisguiseGoodsType">
+    <value style="element" name="OEZClosedQuantity" get-method="getOEZClosedQuantity" set-method="setOEZClosedQuantity" usage="optional"/>
+    <value style="element" name="LostGoodsQuantity" get-method="getLostGoodsQuantity" set-method="setLostGoodsQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table1GoodsType" class="ru.acs.fts.schemas.album.oez_report.Table1GoodsType">
+    <structure map-as="oezr:GoodsBaseType"/>
+    <structure map-as="oezr:QuantityPutType" get-method="getPut" set-method="setPut" usage="optional" name="Put"/>
+    <structure map-as="oezr:Table1QuantityUsedType" get-method="getUsed" set-method="setUsed" usage="optional" name="Used"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table1QuantityUsedType" class="ru.acs.fts.schemas.album.oez_report.Table1QuantityUsedType">
+    <value style="element" name="QuantityConformUsageGoods" get-method="getQuantityConformUsageGoods" set-method="setQuantityConformUsageGoods" usage="optional"/>
+    <value style="element" name="QuantityOEZConsumed" get-method="getQuantityOEZConsumed" set-method="setQuantityOEZConsumed" usage="optional"/>
+    <value style="element" name="RecyclingGoodsQuantity" get-method="getRecyclingGoodsQuantity" set-method="setRecyclingGoodsQuantity" usage="optional"/>
+    <value style="element" name="ResidentsGoodsQuantity" get-method="getResidentsGoodsQuantity" set-method="setResidentsGoodsQuantity" usage="optional"/>
+    <collection get-method="getCustomsTreatmentModeChangedList" set-method="setCustomsTreatmentModeChangedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:CustomsModeQuantityType" name="CustomsTreatmentModeChanged"/>
+    </collection>
+    <collection get-method="getOEZDestructedGoodList" set-method="setOEZDestructedGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:GoodsUsageType" name="OEZDestructedGoods"/>
+    </collection>
+    <collection get-method="getOtherGoodsUsageList" set-method="setOtherGoodsUsageList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:GoodsUsageType" name="OtherGoodsUsage"/>
+    </collection>
+    <collection get-method="getStatusDisguiseGoodList" set-method="setStatusDisguiseGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:StatusDisguiseGoodsType" name="StatusDisguiseGoods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table1Type" class="ru.acs.fts.schemas.album.oez_report.Table1Type">
+    <collection get-method="getTable1GoodList" set-method="setTable1GoodList" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table1GoodsType" name="Table1Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table2CustomsDocumentType" class="ru.acs.fts.schemas.album.oez_report.Table2CustomsDocumentType">
+    <structure ordered="false" choice="true">
+      <collection test-method="ifAlienationDocumentList" get-method="getAlienationDocumentList" set-method="setAlienationDocumentList" usage="optional" create-type="java.util.ArrayList">
+        <structure map-as="cat_ru:DocumentBaseType" name="AlienationDocument"/>
+      </collection>
+      <collection test-method="ifGTDNumberList" get-method="getGTDNumberList" set-method="setGTDNumberList" usage="optional" create-type="java.util.ArrayList">
+        <structure map-as="cat_ru:GTDIDType" name="GTDNumber"/>
+      </collection>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table2GoodsFlowType" class="ru.acs.fts.schemas.album.oez_report.Table2GoodsFlowType">
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="Account" get-method="getAccount" set-method="setAccount"/>
+    <value style="element" name="SubAccount" get-method="getSubAccount" set-method="setSubAccount"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table2GoodsType" class="ru.acs.fts.schemas.album.oez_report.Table2GoodsType">
+    <structure map-as="oezr:GoodsWithoutStatusBaseType"/>
+    <value style="element" name="ResidentsGoodsQuantity" get-method="getResidentsGoodsQuantity" set-method="setResidentsGoodsQuantity" usage="optional"/>
+    <structure map-as="oezr:Table2CustomsDocumentType" get-method="getCustomsDocument" set-method="setCustomsDocument" name="CustomsDocument"/>
+    <collection get-method="getInList" set-method="setInList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table2GoodsFlowType" name="In"/>
+    </collection>
+    <collection get-method="getUsedList" set-method="setUsedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table2GoodsFlowType" name="Used"/>
+    </collection>
+    <collection get-method="getOutList" set-method="setOutList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table2GoodsFlowType" name="Out"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table2Type" class="ru.acs.fts.schemas.album.oez_report.Table2Type">
+    <collection get-method="getTable2GoodList" set-method="setTable2GoodList" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table2GoodsType" name="Table2Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table3Section1GoodsType" class="ru.acs.fts.schemas.album.oez_report.Table3Section1GoodsType">
+    <structure map-as="oezr:GoodsBaseType"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <collection get-method="getOEZGoodsNameList" set-method="setOEZGoodsNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="OEZGoodsName" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getNoteList" set-method="setNoteList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Note" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="NonProcessingGoodsTail" get-method="getNonProcessingGoodsTail" set-method="setNonProcessingGoodsTail" usage="optional"/>
+    <structure map-as="oezr:Table2CustomsDocumentType" get-method="getCustomsDocument" set-method="setCustomsDocument" name="CustomsDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table3Section1Type" class="ru.acs.fts.schemas.album.oez_report.Table3Section1Type">
+    <collection get-method="getTable3Section1GoodList" set-method="setTable3Section1GoodList" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table3Section1GoodsType" name="Table3Section1Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table3Section2GoodsType" class="ru.acs.fts.schemas.album.oez_report.Table3Section2GoodsType">
+    <structure map-as="oezr:GoodsWithoutStatusBaseType"/>
+    <value style="element" name="GoodsSign" get-method="getGoodsSign" set-method="setGoodsSign"/>
+    <value style="element" name="STZGoodsProduct" get-method="getSTZGoodsProduct" set-method="setSTZGoodsProduct" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="ResidentsGoodsQuantity" get-method="getResidentsGoodsQuantity" set-method="setResidentsGoodsQuantity" usage="optional"/>
+    <structure map-as="oezr:Table3Section2WasteProductsUsageType" get-method="getWasteProductsUsage" set-method="setWasteProductsUsage" usage="optional" name="WasteProductsUsage"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table3Section2Type" class="ru.acs.fts.schemas.album.oez_report.Table3Section2Type">
+    <collection get-method="getTable3Section2GoodList" set-method="setTable3Section2GoodList" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table3Section2GoodsType" name="Table3Section2Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table3Section2WasteProductsUsageType" class="ru.acs.fts.schemas.album.oez_report.Table3Section2WasteProductsUsageType">
+    <value style="element" name="QuantityTotal" get-method="getQuantityTotal" set-method="setQuantityTotal"/>
+    <collection get-method="getCustomsProcedurePlacedList" set-method="setCustomsProcedurePlacedList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:CustomsProcedurePlacedType" name="CustomsProcedurePlaced"/>
+    </collection>
+    <collection get-method="getOtherGoodsUsingList" set-method="setOtherGoodsUsingList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="oezr:GoodsUsageType" name="OtherGoodsUsing"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table3Type" class="ru.acs.fts.schemas.album.oez_report.Table3Type">
+    <structure map-as="oezr:Table3Section1Type" get-method="getTable3Section1" set-method="setTable3Section1" usage="optional" name="Table3Section1"/>
+    <structure map-as="oezr:Table3Section2Type" get-method="getTable3Section2" set-method="setTable3Section2" usage="optional" name="Table3Section2"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table4GoodsType" class="ru.acs.fts.schemas.album.oez_report.Table4GoodsType">
+    <structure map-as="oezr:GoodsWithoutStatusBaseType"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezr:Table4Type" class="ru.acs.fts.schemas.album.oez_report.Table4Type">
+    <collection get-method="getTable4GoodList" set-method="setTable4GoodList" create-type="java.util.ArrayList">
+      <structure map-as="oezr:Table4GoodsType" name="Table4Goods"/>
+    </collection>
+  </mapping>
+</binding>

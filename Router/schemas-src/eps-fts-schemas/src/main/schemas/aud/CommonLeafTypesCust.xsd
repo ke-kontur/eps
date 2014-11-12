@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="4.1.0.0" elementFormDefault="qualified" targetNamespace="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:CategoryCust="urn:customs.ru:Categories:3.0.0">
+   <xs:import namespace="urn:customs.ru:Categories:3.0.0" schemaLocation="CategoriesCust.xsd" />
+   <xs:annotation>
+      <xs:documentation>Общие простые прикладные типы.</xs:documentation>
+   </xs:annotation>
+   <xs:simpleType name="Code2Type">
+      <xs:annotation>
+         <xs:documentation>Код. Символьная строка (буквы, цифры, знаки) используемая для краткого (и/или независимого от языка) представления или замены определенных значений или текстовых свойств. 2 символа</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:CodeCategoriesCust">
+         <xs:length value="2" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CustomsCodeType">
+      <xs:annotation>
+         <xs:documentation>Код таможенного органа. 8 символов.  Числовой.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:CodeCategoriesCust">
+         <xs:pattern value="\d{8}" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="DateCustType">
+      <xs:annotation>
+         <xs:documentation>ДатаВремя. Дата в формате YYYY-MM-DD. По стандарту  формат ISO 8601.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:DateCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="DateTimeCustType">
+      <xs:annotation>
+         <xs:documentation>ДатаВремя. Дата и время в формате YYYY-MM-DDThh :mm :ss. По стандарту  ISO 8601.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:DateTimeCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="DocumentIDType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор. Текстовая строка. До 36 символов. </xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="36" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="DocumentModeIDType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор. Идентификатор вида документа (код документа по Альбому форматов). До 30 символов. Текстовый.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="30" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="FreeText250Type">
+      <xs:annotation>
+         <xs:documentation>Текстовая строка. До 250 символов.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:TextCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="250" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="FreeText500Type">
+      <xs:annotation>
+         <xs:documentation>Текстовая строка. До 500 символов.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:TextCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="500" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="GTDIDType">
+      <xs:annotation>
+         <xs:documentation>Идентификатор. Номер ГТД. От 1 до 8 символов. </xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+         <xs:minLength value="1" />
+         <xs:maxLength value="8" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="IndicatorType">
+      <xs:annotation>
+         <xs:documentation>Индикатор. Список двух взаимно исключающих булевых значений истина/ложь, вкл/выкл. и т.д.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:IndicatorCategoriesCust" />
+   </xs:simpleType>
+   <xs:simpleType name="TimeCustType">
+      <xs:annotation>
+         <xs:documentation>Время. Время в формате hh :mm :ss. По стандарту  ISO 8601.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="CategoryCust:TimeCategoriesCust" />
+   </xs:simpleType>
+</xs:schema>

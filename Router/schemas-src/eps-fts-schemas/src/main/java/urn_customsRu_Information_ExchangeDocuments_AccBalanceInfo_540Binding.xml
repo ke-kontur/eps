@@ -1,0 +1,26 @@
+<binding xmlns:accbi="urn:customs.ru:Information:ExchangeDocuments:AccBalanceInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catExch_ru="urn:customs.ru:Information:ExchangeDocuments:ExchangeCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:AccBalanceInfo:5.4.0" default="elements" prefix="accbi"/>
+  <mapping abstract="true" type-name="accbi:AccBalanceInfoType" class="ru.acs.fts.schemas.album.accbalanceinfo.AccBalanceInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <value style="element" name="ResponseStatus" get-method="getResponseStatus" set-method="setResponseStatus"/>
+    <collection get-method="getPaymentOrderList" set-method="setPaymentOrderList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="accbi:PaymentOrderType" name="PaymentOrder"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.accbalanceinfo.AccBalanceInfoType" name="AccBalanceInfo">
+    <structure map-as="accbi:AccBalanceInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="accbi:PaymentOrderType" class="ru.acs.fts.schemas.album.accbalanceinfo.PaymentOrderType">
+    <value style="element" name="PaymentID" get-method="getPaymentID" set-method="setPaymentID"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="Balance" get-method="getBalance" set-method="setBalance"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode" usage="optional"/>
+    <value style="element" name="ReceiptDate" get-method="getReceiptDate" set-method="setReceiptDate" format="LocalDate.default"/>
+    <structure map-as="catExch_ru:PaymentIndicationType" get-method="getPaymentIndication" set-method="setPaymentIndication" name="PaymentIndication"/>
+  </mapping>
+</binding>

@@ -1,0 +1,14 @@
+<binding xmlns:adrgn="urn:customs.ru:Information:ExchangeDocuments:AdditionalRegistrationNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:AdditionalRegistrationNotif:5.4.0" default="elements" prefix="adrgn"/>
+  <mapping abstract="true" type-name="adrgn:AdditionalRegistrationNotifType" class="ru.acs.fts.schemas.album.additionalregistrationnotif.AdditionalRegistrationNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.additionalregistrationnotif.AdditionalRegistrationNotifType" name="AdditionalRegistrationNotif">
+    <structure map-as="adrgn:AdditionalRegistrationNotifType"/>
+  </mapping>
+</binding>

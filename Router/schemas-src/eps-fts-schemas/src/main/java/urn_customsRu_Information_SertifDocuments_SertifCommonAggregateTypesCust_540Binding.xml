@@ -1,0 +1,11 @@
+<binding xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0" default="elements" prefix="catSert_ru"/>
+  <mapping abstract="true" type-name="catSert_ru:SertifOrgBaseType" class="ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="Fax" get-method="getFax" set-method="setFax" usage="optional"/>
+    <value style="element" name="Email" get-method="getEmail" set-method="setEmail" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" usage="optional" name="LegalAddress"/>
+    <structure map-as="cat_ru:AddressType" get-method="getFactAddress" set-method="setFactAddress" usage="optional" name="FactAddress"/>
+  </mapping>
+</binding>

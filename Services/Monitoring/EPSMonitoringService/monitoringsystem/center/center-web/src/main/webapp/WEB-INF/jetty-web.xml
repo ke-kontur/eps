@@ -1,0 +1,11 @@
+<Configure class="org.mortbay.jetty.webapp.WebAppContext">
+<New id="monitoringDataSource" class="org.mortbay.jetty.plus.naming.Resource">
+  <Arg>java:comp/env/jdbc/monitoringDataSource</Arg>
+  <Arg>
+    <New class="org.apache.derby.jdbc.EmbeddedDataSource">
+      <Set name="DatabaseName">c:\MonitoringSystem\CSM\db\monitoringdb</Set>
+      <Set name="createDatabase">create</Set>
+    </New>
+  </Arg>
+</New>
+</Configure>

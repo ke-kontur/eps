@@ -1,0 +1,59 @@
+<binding xmlns:ccp="urn:customs.ru:Information:CustomsDocuments:CalculationAmountPayment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CalculationAmountPayment:5.4.0" default="elements" prefix="ccp"/>
+  <mapping abstract="true" type-name="ccp:CalculationAmountPaymentType" class="ru.acs.fts.schemas.album.calculationamountpayment.CalculationAmountPaymentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NumberSheet" get-method="getNumberSheet" set-method="setNumberSheet"/>
+    <value style="element" name="Total" get-method="getTotal" set-method="setTotal"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <collection get-method="getDescriptionGoodList" set-method="setDescriptionGoodList" create-type="java.util.ArrayList">
+      <structure map-as="ccp:DescriptionGoodsType" name="DescriptionGoods"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPersonSignature" set-method="setCustomsPersonSignature" name="CustomsPersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.calculationamountpayment.CalculationAmountPaymentType" name="CalculationAmountPayment">
+    <structure map-as="ccp:CalculationAmountPaymentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ccp:AmountDuesCalculationType" class="ru.acs.fts.schemas.album.calculationamountpayment.AmountDuesCalculationType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="AmountDues" get-method="getAmountDues" set-method="setAmountDues"/>
+  </mapping>
+  <mapping abstract="true" type-name="ccp:CalculationType" class="ru.acs.fts.schemas.album.calculationamountpayment.CalculationType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="TaxBase" get-method="getTaxBase" set-method="setTaxBase"/>
+    <value style="element" name="TaxBaseCurrencyCode" get-method="getTaxBaseCurrencyCode" set-method="setTaxBaseCurrencyCode" usage="optional"/>
+    <value style="element" name="Rate" get-method="getRate" set-method="setRate"/>
+    <value style="element" name="RateTypeCode" get-method="getRateTypeCode" set-method="setRateTypeCode" usage="optional"/>
+    <value style="element" name="RateCurrencyCode" get-method="getRateCurrencyCode" set-method="setRateCurrencyCode" usage="optional"/>
+    <value style="element" name="WeightingFactor" get-method="getWeightingFactor" set-method="setWeightingFactor" usage="optional"/>
+    <value style="element" name="RateTNVEDQualifierCode" get-method="getRateTNVEDQualifierCode" set-method="setRateTNVEDQualifierCode" usage="optional"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="ccp:DescriptionGoodsType" class="ru.acs.fts.schemas.album.calculationamountpayment.DescriptionGoodsType">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost" usage="optional"/>
+    <value style="element" name="OriginCountryName" get-method="getOriginCountryName" set-method="setOriginCountryName" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <value style="element" name="AllQuantityGoods" get-method="getAllQuantityGoods" set-method="setAllQuantityGoods"/>
+    <value style="element" name="SourceInformation" get-method="getSourceInformation" set-method="setSourceInformation"/>
+    <value style="element" name="ReasonCalculationPayment" get-method="getReasonCalculationPayment" set-method="setReasonCalculationPayment"/>
+    <value style="element" name="TotalCustomsPayment" get-method="getTotalCustomsPayment" set-method="setTotalCustomsPayment"/>
+    <value style="element" name="TotalCustomsDues" get-method="getTotalCustomsDues" set-method="setTotalCustomsDues"/>
+    <value style="element" name="TotalPaymentGoods" get-method="getTotalPaymentGoods" set-method="setTotalPaymentGoods"/>
+    <collection get-method="getCalculationList" set-method="setCalculationList" create-type="java.util.ArrayList">
+      <structure map-as="ccp:CalculationType" name="Calculation"/>
+    </collection>
+    <collection get-method="getGoodsGroupDescriptionList" set-method="setGoodsGroupDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupDescriptionType" name="GoodsGroupDescription"/>
+    </collection>
+    <collection get-method="getAmountDuesCalculationList" set-method="setAmountDuesCalculationList" create-type="java.util.ArrayList">
+      <structure map-as="ccp:AmountDuesCalculationType" name="AmountDuesCalculation"/>
+    </collection>
+  </mapping>
+</binding>

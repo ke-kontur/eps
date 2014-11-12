@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" antiResourceLocking="false" path="/monitoring-center" privileged="true">
+     <Resource name="jdbc/monitoringDataSource"
+              type="javax.sql.DataSource"  auth="Container"
+              description="Derby database for JPetStoreApp"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="" password="" 
+              driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+              url="jdbc:derby:c:\MonitoringSystem\CSM\db\monitoringdb;create=true"/>
+</Context>

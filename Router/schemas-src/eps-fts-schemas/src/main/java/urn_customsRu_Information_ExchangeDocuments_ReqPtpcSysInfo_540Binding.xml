@@ -1,0 +1,12 @@
+<binding xmlns:rpsys="urn:customs.ru:Information:ExchangeDocuments:ReqPtpcSysInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ReqPtpcSysInfo:5.4.0" default="elements" prefix="rpsys"/>
+  <mapping abstract="true" type-name="rpsys:ReqPtpcSysInfoType" class="ru.acs.fts.schemas.album.reqptpcsysinfo.ReqPtpcSysInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber" usage="optional"/>
+    <structure map-as="cat_ru:RFOrganizationFeaturesType" get-method="getOrganizationFeatures" set-method="setOrganizationFeatures" usage="optional" name="OrganizationFeatures"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqptpcsysinfo.ReqPtpcSysInfoType" name="ReqPtpcSysInfo">
+    <structure map-as="rpsys:ReqPtpcSysInfoType"/>
+  </mapping>
+</binding>

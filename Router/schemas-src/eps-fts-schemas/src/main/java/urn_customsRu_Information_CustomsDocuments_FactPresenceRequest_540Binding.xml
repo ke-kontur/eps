@@ -1,0 +1,48 @@
+<binding xmlns:fpr="urn:customs.ru:Information:CustomsDocuments:FactPresenceRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:FactPresenceRequest:5.4.0" default="elements" prefix="fpr"/>
+  <mapping abstract="true" type-name="fpr:FactPresenceRequestType" class="ru.acs.fts.schemas.album.factpresencerequest.FactPresenceRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DepartureCountryCode" get-method="getDepartureCountryCode" set-method="setDepartureCountryCode" usage="optional"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ReqTime" get-method="getReqTime" set-method="setReqTime" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getGoodsLocationCustoms" set-method="setGoodsLocationCustoms" usage="optional" name="GoodsLocationCustoms"/>
+    <collection get-method="getMarkList" set-method="setMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="fpr:MarkType" name="Marks"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <collection get-method="getTransportMeanArriveList" set-method="setTransportMeanArriveList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="fpr:TransportMeanArriveType" name="TransportMeanArrive"/>
+    </collection>
+    <collection get-method="getChoiceList" set-method="setChoiceList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.factpresencerequest.FactPresenceRequestType$Choice" ordered="false" choice="true">
+        <structure map-as="cat_ru:DocumentBaseType" test-method="ifTransportDoc" get-method="getTransportDoc" set-method="setTransportDoc" usage="optional" name="TransportDoc"/>
+        <structure map-as="cat_ru:GTDIDType" test-method="ifTDNumber" get-method="getTDNumber" set-method="setTDNumber" usage="optional" name="TDNumber"/>
+        <structure map-as="fpr:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+      </structure>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.factpresencerequest.FactPresenceRequestType" name="FactPresenceRequest">
+    <structure map-as="fpr:FactPresenceRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="fpr:MarkType" class="ru.acs.fts.schemas.album.factpresencerequest.MarkType">
+    <value style="element" name="MarkSign" get-method="getMarkSign" set-method="setMarkSign"/>
+    <value style="element" name="MarkKind" get-method="getMarkKind" set-method="setMarkKind"/>
+    <value style="element" name="ResultControl" get-method="getResultControl" set-method="setResultControl" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="fpr:TIRIDType" class="ru.acs.fts.schemas.album.factpresencerequest.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="fpr:TransportMeanArriveType" class="ru.acs.fts.schemas.album.factpresencerequest.TransportMeanArriveType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="TransportMeanArriveFlag" get-method="getTransportMeanArriveFlag" set-method="setTransportMeanArriveFlag" usage="optional"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+  </mapping>
+</binding>

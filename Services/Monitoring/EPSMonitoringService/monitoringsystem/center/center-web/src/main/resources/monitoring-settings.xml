@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean class="ru.acs.monitoring.domain.CommonSettings">
+		<property name="systemName" value="Тестовый мониторинг-центр'"/>		
+		<!--  <property name="systemId" value="IP" />  -->
+		<property name="routingSenderInfo" value="MONITORING-CENTER"/>
+		<property name="routingDefaultReceiverInfo" value="MONITORING-AGENT"/>
+		<property name="monitoringInfoMessageKind" value="MONITORING.INFO"/>
+		<property name="monitoringInqMessageKind" value="MONITORING.INQ"/>
+		<property name="requestWaitTime" value="2"/>
+		<property name="webServiceTimeout" value="130"/>
+	</bean>
+</beans>

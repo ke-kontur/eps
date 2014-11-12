@@ -1,0 +1,32 @@
+<binding xmlns:hta="urn:customs.ru:Information:SQDocuments:HumanitarianTechAid:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:HumanitarianTechAid:5.4.0" default="elements" prefix="hta"/>
+  <mapping abstract="true" type-name="hta:HumanitarianTechAidType" class="ru.acs.fts.schemas.album.humanitariantechaid.HumanitarianTechAidType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="Donor" get-method="getDonor" set-method="setDonor"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="Sum" get-method="getSum" set-method="setSum" usage="optional"/>
+    <value style="element" name="AidProjectReestrInfo" get-method="getAidProjectReestrInfo" set-method="setAidProjectReestrInfo" usage="optional"/>
+    <structure map-as="sq_cat:DocumentType" get-method="getConfirmationInfo" set-method="setConfirmationInfo" name="ConfirmationInfo"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="hta:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getRecipient" set-method="setRecipient" name="Recipient"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getSupplier" set-method="setSupplier" usage="optional" name="Supplier"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.humanitariantechaid.HumanitarianTechAidType" name="HumanitarianTechAid">
+    <structure map-as="hta:HumanitarianTechAidType"/>
+  </mapping>
+  <mapping abstract="true" type-name="hta:GoodsType" class="ru.acs.fts.schemas.album.humanitariantechaid.GoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" name="GoodsQuantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getWeightQuantity" set-method="setWeightQuantity" usage="optional" name="WeightQuantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getWeightSupQuantity" set-method="setWeightSupQuantity" usage="optional" name="WeightSupQuantity"/>
+  </mapping>
+</binding>

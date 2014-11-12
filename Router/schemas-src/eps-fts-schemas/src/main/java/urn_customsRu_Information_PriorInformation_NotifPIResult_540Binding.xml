@@ -1,0 +1,37 @@
+<binding xmlns:npir="urn:customs.ru:Information:PriorInformation:Notif_PIResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catpi_ru="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:Notif_PIResult:5.4.0" default="elements" prefix="npir"/>
+  <mapping abstract="true" type-name="npir:Notif_PIResultType" class="ru.acs.fts.schemas.album.notif_piresult.NotifPIResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="npir:ResponseType" get-method="getResponse" set-method="setResponse" name="Response"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notif_piresult.NotifPIResultType" name="Notif_PIResult">
+    <structure map-as="npir:Notif_PIResultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="npir:PI_DocResultType" class="ru.acs.fts.schemas.album.notif_piresult.PIDocResultType">
+    <value style="element" name="PI_RegID" get-method="getPIRegID" set-method="setPIRegID"/>
+    <value style="element" name="PI_Status" get-method="getPIStatus" set-method="setPIStatus"/>
+    <value style="element" name="PI_RegDateTime" get-method="getPIRegDateTime" set-method="setPIRegDateTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="npir:ResponseType" class="ru.acs.fts.schemas.album.notif_piresult.ResponseType">
+    <collection get-method="getResultInformationList" set-method="setResultInformationList" create-type="java.util.ArrayList">
+      <structure map-as="npir:ResultInformationType" name="ResultInformation"/>
+    </collection>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="npir:PI_DocResultType" test-method="ifPIDocResult" get-method="getPIDocResult" set-method="setPIDocResult" usage="optional" name="PI_DocResult"/>
+      <structure map-as="npir:TIR_DocResultType" test-method="ifTIRResult" get-method="getTIRResult" set-method="setTIRResult" usage="optional" name="TIR_Result"/>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="npir:ResultInformationType" class="ru.acs.fts.schemas.album.notif_piresult.ResultInformationType">
+    <value style="element" name="ResultCode" get-method="getResultCode" set-method="setResultCode"/>
+    <value style="element" name="ReferenceID" get-method="getReferenceID" set-method="setReferenceID" usage="optional"/>
+    <collection get-method="getResultDescriptionList" set-method="setResultDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="ResultDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ResultCategory" get-method="getResultCategory" set-method="setResultCategory" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="npir:TIR_DocResultType" class="ru.acs.fts.schemas.album.notif_piresult.TIRDocResultType">
+    <structure map-as="catpi_ru:TIR_IDType"/>
+    <value style="element" name="PI_Status" get-method="getPIStatus" set-method="setPIStatus"/>
+  </mapping>
+</binding>

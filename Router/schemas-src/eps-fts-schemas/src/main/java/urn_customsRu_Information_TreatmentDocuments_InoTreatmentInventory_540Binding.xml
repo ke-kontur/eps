@@ -1,0 +1,24 @@
+<binding xmlns:iti="urn:customs.ru:Information:TreatmentDocuments:InoTreatmentInventory:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:InoTreatmentInventory:5.4.0" default="elements" prefix="iti"/>
+  <mapping abstract="true" type-name="iti:InoTreatmentInventoryType" class="ru.acs.fts.schemas.album.inotreatmentinventory.InoTreatmentInventoryType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <collection get-method="getInventDocumentList" set-method="setInventDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="iti:InventDocumentType" name="InventDocument"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inotreatmentinventory.InoTreatmentInventoryType" name="InoTreatmentInventory">
+    <structure map-as="iti:InoTreatmentInventoryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="iti:InventDocumentType" class="ru.acs.fts.schemas.album.inotreatmentinventory.InventDocumentType">
+    <value style="element" name="InvDocCode" get-method="getInvDocCode" set-method="setInvDocCode" usage="optional"/>
+    <value style="element" name="InvDocName" get-method="getInvDocName" set-method="setInvDocName"/>
+    <value style="element" name="InvDocNumber" get-method="getInvDocNumber" set-method="setInvDocNumber"/>
+    <value style="element" name="InvDocPresentation" get-method="getInvDocPresentation" set-method="setInvDocPresentation" usage="optional"/>
+    <value style="element" name="InvDocLists" get-method="getInvDocLists" set-method="setInvDocLists" usage="optional"/>
+    <value style="element" name="InvDocCopies" get-method="getInvDocCopies" set-method="setInvDocCopies" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="DocDate" get-method="getDocDate" set-method="setDocDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

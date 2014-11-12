@@ -1,0 +1,23 @@
+<binding xmlns:audmres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_DocumentKindInfoResponse:4.2.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_DocumentKindInfoResponse:4.2.1" default="elements" prefix="audmres"/>
+  <mapping abstract="true" type-name="audmres:AUD_DocumentKindInfoResponseType" class="ru.acs.fts.schemas.aud.aud_documentkindinforesponse.AUDDocumentKindInfoResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <collection get-method="getDocumentKindInfoList" set-method="setDocumentKindInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="audmres:KindInfoLocalType" name="DocumentKindInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_documentkindinforesponse.AUDDocumentKindInfoResponseType" name="AUD_DocumentKindInfoResponse">
+    <structure map-as="audmres:AUD_DocumentKindInfoResponseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="audmres:KindInfoLocalType" class="ru.acs.fts.schemas.aud.aud_documentkindinforesponse.KindInfoLocalType">
+    <value style="element" name="AppliedDocumentKindId" get-method="getAppliedDocumentKindId" set-method="setAppliedDocumentKindId"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <collection get-method="getDocumentKindVersionInfoList" set-method="setDocumentKindVersionInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentKindVersionInfoType" name="DocumentKindVersionInfo"/>
+    </collection>
+    <collection get-method="getDocumentCommonAttributeList" set-method="setDocumentCommonAttributeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_DocumentAttributeInfoType" name="DocumentCommonAttribute"/>
+    </collection>
+  </mapping>
+</binding>

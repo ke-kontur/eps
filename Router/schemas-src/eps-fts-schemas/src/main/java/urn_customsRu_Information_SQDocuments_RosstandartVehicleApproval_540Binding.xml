@@ -1,0 +1,18 @@
+<binding xmlns:rstvha="urn:customs.ru:Information:SQDocuments:RosstandartVehicleApproval:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosstandartVehicleApproval:5.4.0" default="elements" prefix="rstvha"/>
+  <mapping abstract="true" type-name="rstvha:RosstandartVehicleApprovalType" class="ru.acs.fts.schemas.album.rosstandartvehicleapproval.RosstandartVehicleApprovalType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TCtypeApprovalsAddition" get-method="getTCtypeApprovalsAddition" set-method="setTCtypeApprovalsAddition" usage="optional"/>
+    <value style="element" name="TCtypeResult" get-method="getTCtypeResult" set-method="setTCtypeResult"/>
+    <structure map-as="rstvha:TransportMeanType" get-method="getTransportMean" set-method="setTransportMean" name="TransportMean"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getApproval" set-method="setApproval" name="Approval"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rosstandartvehicleapproval.RosstandartVehicleApprovalType" name="RosstandartVehicleApproval">
+    <structure map-as="rstvha:RosstandartVehicleApprovalType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rstvha:TransportMeanType" class="ru.acs.fts.schemas.album.rosstandartvehicleapproval.TransportMeanType">
+    <structure map-as="cat_ru:TransportMeansBaseType"/>
+    <value style="element" name="EcoClass" get-method="getEcoClass" set-method="setEcoClass"/>
+  </mapping>
+</binding>

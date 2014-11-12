@@ -1,0 +1,22 @@
+<binding xmlns:inccp="urn:customs.ru:Information:TreatmentDocuments:InqCustProcessing:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTreat_ru="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:InqCustProcessing:5.4.0" default="elements" prefix="inccp"/>
+  <mapping abstract="true" type-name="inccp:InqCustProcessingType" class="ru.acs.fts.schemas.album.inqcustprocessing.InqCustProcessingType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TreatmentProcedureCode" get-method="getTreatmentProcedureCode" set-method="setTreatmentProcedureCode"/>
+    <structure map-as="catTreat_ru:TreatmentOrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="catTreat_ru:TreatmentOrganizationType" get-method="getContractHolder" set-method="setContractHolder" usage="optional" name="ContractHolder"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getContractList" set-method="setContractList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:BaseTreatmentDocsType" name="Contract"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getGoodsInCustoms" set-method="setGoodsInCustoms" usage="optional" name="GoodsInCustoms"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getGoodsOutCustoms" set-method="setGoodsOutCustoms" usage="optional" name="GoodsOutCustoms"/>
+    <structure map-as="catTreat_ru:TreatmentType" get-method="getTreatment" set-method="setTreatment" name="Treatment"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getInqDoc" set-method="setInqDoc" name="InqDoc"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqcustprocessing.InqCustProcessingType" name="InqCustProcessing">
+    <structure map-as="inccp:InqCustProcessingType"/>
+  </mapping>
+</binding>

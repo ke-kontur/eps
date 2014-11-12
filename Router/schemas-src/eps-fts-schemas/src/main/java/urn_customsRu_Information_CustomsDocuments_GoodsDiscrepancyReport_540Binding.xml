@@ -1,0 +1,15 @@
+<binding xmlns:DisRep="urn:customs.ru:Information:CustomsDocuments:GoodsDiscrepancyReport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsDiscrepancyReport:5.4.0" default="elements" prefix="DisRep"/>
+  <mapping abstract="true" type-name="DisRep:GoodsDiscrepancyReportType" class="ru.acs.fts.schemas.album.goodsdiscrepancyreport.GoodsDiscrepancyReportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DiscrepancyIndicator" get-method="getDiscrepancyIndicator" set-method="setDiscrepancyIndicator"/>
+    <value style="element" name="ProcessNumber" get-method="getProcessNumber" set-method="setProcessNumber"/>
+    <collection get-method="getShipmentDiscrepancyInfoList" set-method="setShipmentDiscrepancyInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:ShipmentDiscrepancyInfoType" name="ShipmentDiscrepancyInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID" usage="optional"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsdiscrepancyreport.GoodsDiscrepancyReportType" name="GoodsDiscrepancyReport">
+    <structure map-as="DisRep:GoodsDiscrepancyReportType"/>
+  </mapping>
+</binding>

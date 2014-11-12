@@ -1,0 +1,32 @@
+<binding xmlns:dgprcf="urn:customs.ru:Information:SQDocuments:DrugPurpConfirmPerm:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:DrugPurpConfirmPerm:5.4.0" default="elements" prefix="dgprcf"/>
+  <mapping abstract="true" type-name="dgprcf:DrugPurpConfirmPermType" class="ru.acs.fts.schemas.album.drugpurpconfirmperm.DrugPurpConfirmPermType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Purpose" get-method="getPurpose" set-method="setPurpose"/>
+    <value style="element" name="SheetsCount" get-method="getSheetsCount" set-method="setSheetsCount"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getApplicantOrg" set-method="setApplicantOrg" name="ApplicantOrg"/>
+    <structure map-as="dgprcf:PermissionType" get-method="getPermission" set-method="setPermission" name="Permission"/>
+    <structure map-as="dgprcf:ItemDescriptionType" get-method="getItemDescription" set-method="setItemDescription" name="ItemDescription"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.drugpurpconfirmperm.DrugPurpConfirmPermType" name="DrugPurpConfirmPerm">
+    <structure map-as="dgprcf:DrugPurpConfirmPermType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dgprcf:ItemDescriptionType" class="ru.acs.fts.schemas.album.drugpurpconfirmperm.ItemDescriptionType">
+    <collection get-method="getNameList" set-method="setNameList" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ExpitarionDate" get-method="getExpitarionDate" set-method="setExpitarionDate" format="LocalDate.default"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getProducer" set-method="setProducer" name="Producer"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getCount" set-method="setCount" name="Count"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getGosRegistration" set-method="setGosRegistration" name="GosRegistration"/>
+  </mapping>
+  <mapping abstract="true" type-name="dgprcf:PermissionType" class="ru.acs.fts.schemas.album.drugpurpconfirmperm.PermissionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="IssuePeriod" get-method="getIssuePeriod" set-method="setIssuePeriod"/>
+  </mapping>
+</binding>

@@ -1,0 +1,39 @@
+<binding xmlns:scdfmc="urn:customs.ru:Information:SQDocuments:ScienceEduMinConfirm:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:ScienceEduMinConfirm:5.4.0" default="elements" prefix="scdfmc"/>
+  <mapping abstract="true" type-name="scdfmc:ScienceEduMinConfirmType" class="ru.acs.fts.schemas.album.scienceeduminconfirm.ScienceEduMinConfirmType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentAttachment" get-method="getDocumentAttachment" set-method="setDocumentAttachment" usage="optional"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo" usage="optional"/>
+    <structure map-as="scdfmc:ConfirmationInfoType" get-method="getConfirmationInfo" set-method="setConfirmationInfo" name="ConfirmationInfo"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <structure map-as="scdfmc:ParticipantType" get-method="getConfirmationPerson" set-method="setConfirmationPerson" usage="optional" name="ConfirmationPerson"/>
+    <structure map-as="scdfmc:ParticipantType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="scdfmc:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.scienceeduminconfirm.ScienceEduMinConfirmType" name="ScienceEduMinConfirm">
+    <structure map-as="scdfmc:ScienceEduMinConfirmType"/>
+  </mapping>
+  <mapping abstract="true" type-name="scdfmc:ConfirmationInfoType" class="ru.acs.fts.schemas.album.scienceeduminconfirm.ConfirmationInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ModificationDateTime" get-method="getModificationDateTime" set-method="setModificationDateTime" usage="optional"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="scdfmc:GoodsType" class="ru.acs.fts.schemas.album.scienceeduminconfirm.GoodsType">
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional"/>
+    <value style="element" name="OriginCountry" get-method="getOriginCountry" set-method="setOriginCountry" usage="optional"/>
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+    <value style="element" name="ManufacturerCountry" get-method="getManufacturerCountry" set-method="setManufacturerCountry" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional" name="GoodsQuantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="scdfmc:ParticipantType" class="ru.acs.fts.schemas.album.scienceeduminconfirm.ParticipantType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="ParticipantSign" get-method="getParticipantSign" set-method="setParticipantSign"/>
+    <value style="element" name="Address" get-method="getAddress1" set-method="setAddress1" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,58 @@
+<binding xmlns:nga="urn:customs.ru:Information:WarehouseDocuments:NotifGoodsArrive:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:NotifGoodsArrive:5.4.0" default="elements" prefix="nga"/>
+  <mapping abstract="true" type-name="nga:NotifGoodsArriveType" class="ru.acs.fts.schemas.album.notifgoodsarrive.NotifGoodsArriveType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NotifDate" get-method="getNotifDate" set-method="setNotifDate" format="LocalDate.default"/>
+    <value style="element" name="NotifTime" get-method="getNotifTime" set-method="setNotifTime" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="catWH_ru:WHOrganizationBaseType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="catWH_ru:GoodsLoadingPlaceType" get-method="getGoodsLoadingPlace" set-method="setGoodsLoadingPlace" usage="optional" name="GoodsLoadingPlace"/>
+    <structure map-as="nga:ArriveShipmentType" get-method="getArriveShipment" set-method="setArriveShipment" name="ArriveShipment"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgoodsarrive.NotifGoodsArriveType" name="NotifGoodsArrive">
+    <structure map-as="nga:NotifGoodsArriveType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nga:ArriveGoodsType" class="ru.acs.fts.schemas.album.notifgoodsarrive.ArriveGoodsType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode" usage="optional"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getVolume" set-method="setVolume" usage="optional" name="Volume"/>
+    <collection get-method="getSupplementaryQuantityList" set-method="setSupplementaryQuantityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHSuppQuantityType" name="SupplementaryQuantity"/>
+    </collection>
+    <structure map-as="nga:ArrivePackingInformationType" get-method="getArrivePackingInformation" set-method="setArrivePackingInformation" usage="optional" name="ArrivePackingInformation"/>
+  </mapping>
+  <mapping abstract="true" type-name="nga:ArrivePackingInformationType" class="ru.acs.fts.schemas.album.notifgoodsarrive.ArrivePackingInformationType">
+    <value style="element" name="PakageQuantity" get-method="getPakageQuantity" set-method="setPakageQuantity" usage="optional"/>
+    <value style="element" name="PakageTypeCode" get-method="getPakageTypeCode" set-method="setPakageTypeCode" usage="optional"/>
+    <value style="element" name="PakagePartQuantity" get-method="getPakagePartQuantity" set-method="setPakagePartQuantity" usage="optional"/>
+    <collection get-method="getPackingInformationList" set-method="setPackingInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHPackingInformationType" name="PackingInformation"/>
+    </collection>
+    <collection get-method="getCargoList" set-method="setCargoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHPackingInformationType" name="Cargo"/>
+    </collection>
+    <collection get-method="getPalleteList" set-method="setPalleteList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHPalleteInformationType" name="Pallete"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="nga:ArriveShipmentType" class="ru.acs.fts.schemas.album.notifgoodsarrive.ArriveShipmentType">
+    <collection get-method="getArriveTransportMeanList" set-method="setArriveTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhTransportType" name="ArriveTransportMeans"/>
+    </collection>
+    <collection get-method="getArriveGoodList" set-method="setArriveGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="nga:ArriveGoodsType" name="ArriveGoods"/>
+    </collection>
+    <collection get-method="getContainerInformationList" set-method="setContainerInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHContainerInformationType" name="ContainerInformation"/>
+    </collection>
+    <collection get-method="getArriveTransportDocList" set-method="setArriveTransportDocList" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WhPresentDocType" name="ArriveTransportDoc"/>
+    </collection>
+    <collection get-method="getArriveCustomsDocList" set-method="setArriveCustomsDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:ArriveCustomsDocType" name="ArriveCustomsDoc"/>
+    </collection>
+  </mapping>
+</binding>

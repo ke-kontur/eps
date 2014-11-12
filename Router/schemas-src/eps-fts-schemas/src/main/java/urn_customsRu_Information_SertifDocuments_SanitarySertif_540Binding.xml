@@ -1,0 +1,58 @@
+<binding xmlns:sas="urn:customs.ru:Information:SertifDocuments:SanitarySertif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:SanitarySertif:5.4.0" default="elements" prefix="sas"/>
+  <mapping abstract="true" type-name="sas:SanitarySertifType" class="ru.acs.fts.schemas.album.sanitarysertif.SanitarySertifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SertifNumber" get-method="getSertifNumber" set-method="setSertifNumber"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber"/>
+    <value style="element" name="TypeOfSetif" get-method="getTypeOfSetif" set-method="setTypeOfSetif"/>
+    <structure map-as="sas:SertifOrganizationType" get-method="getSertifOrganization" set-method="setSertifOrganization" name="SertifOrganization"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getNormDocsOrganization" set-method="setNormDocsOrganization" usage="optional" name="NormDocsOrganization"/>
+    <collection get-method="getManufacturerInfList" set-method="setManufacturerInfList" create-type="java.util.ArrayList">
+      <structure map-as="catSert_ru:SertifOrgBaseType" name="ManufacturerInf"/>
+    </collection>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getSertifRecipient" set-method="setSertifRecipient" name="SertifRecipient"/>
+    <structure map-as="sas:GoodsType" get-method="getGoods" set-method="setGoods" name="Goods"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDocumentSignature" set-method="setDocumentSignature" name="DocumentSignature"/>
+    <collection get-method="getContractList" set-method="setContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Contract"/>
+    </collection>
+    <structure map-as="sas:SertifSupplementType" get-method="getSertifSupplement" set-method="setSertifSupplement" usage="optional" name="SertifSupplement"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sanitarysertif.SanitarySertifType" name="SanitarySertif">
+    <structure map-as="sas:SanitarySertifType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sas:GoodsType" class="ru.acs.fts.schemas.album.sanitarysertif.GoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RuUseInf" get-method="getRuUseInf" set-method="setRuUseInf" usage="optional"/>
+    <collection get-method="getNormTechDocList" set-method="setNormTechDocList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="NormTechDocs" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getInvestigProtocolList" set-method="setInvestigProtocolList" create-type="java.util.ArrayList">
+      <value style="element" name="InvestigProtocols" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsEntry" get-method="getGoodsEntry" set-method="setGoodsEntry" usage="optional"/>
+    <collection get-method="getSanitaryCharachterList" set-method="setSanitaryCharachterList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SanitaryCharachter" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="FieldOfUse" get-method="getFieldOfUse" set-method="setFieldOfUse" usage="optional"/>
+    <value style="element" name="ReqConditions" get-method="getReqConditions" set-method="setReqConditions" usage="optional"/>
+    <value style="element" name="LabelInf" get-method="getLabelInf" set-method="setLabelInf" usage="optional"/>
+    <collection get-method="getSanitaryRegulationList" set-method="setSanitaryRegulationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SanitaryRegulations" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sas:SertifOrganizationType" class="ru.acs.fts.schemas.album.sanitarysertif.SertifOrganizationType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="sas:SertifSupplementType" class="ru.acs.fts.schemas.album.sanitarysertif.SertifSupplementType">
+    <collection get-method="getSupplementTextList" set-method="setSupplementTextList" create-type="java.util.ArrayList">
+      <value style="element" name="SupplementText" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

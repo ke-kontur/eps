@@ -1,0 +1,10 @@
+<binding xmlns:audnotif="urn:customs.ru:Information:LegalDocumentsArchive:AUD_DeliveryNotification:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_DeliveryNotification:4.1.1" default="elements" prefix="audnotif"/>
+  <mapping abstract="true" type-name="audnotif:AUD_DeliveryNotificationType" class="ru.acs.fts.schemas.aud.aud_deliverynotification.AUDDeliveryNotificationType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_deliverynotification.AUDDeliveryNotificationType" name="AUD_DeliveryNotification">
+    <structure map-as="audnotif:AUD_DeliveryNotificationType"/>
+  </mapping>
+</binding>

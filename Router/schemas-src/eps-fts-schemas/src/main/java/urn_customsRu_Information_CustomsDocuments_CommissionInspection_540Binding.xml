@@ -1,0 +1,107 @@
+<binding xmlns:insp="urn:customs.ru:Information:CustomsDocuments:CommissionInspection:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_ru="urn:customs.ru:RUCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CommissionInspection:5.4.0" default="elements" prefix="insp"/>
+  <mapping abstract="true" type-name="insp:CommissionInspectionType" class="ru.acs.fts.schemas.album.commissioninspection.CommissionInspectionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DateInspection" get-method="getDateInspection" set-method="setDateInspection" format="LocalDate.default"/>
+    <value style="element" name="TimeInspection" get-method="getTimeInspection" set-method="setTimeInspection"/>
+    <value style="element" name="DateCompile" get-method="getDateCompile" set-method="setDateCompile" format="LocalDate.default"/>
+    <value style="element" name="TimeDeliveryInspection" get-method="getTimeDeliveryInspection" set-method="setTimeDeliveryInspection"/>
+    <value style="element" name="TimeReceiptAct" get-method="getTimeReceiptAct" set-method="setTimeReceiptAct" usage="optional"/>
+    <value style="element" name="DateReceiptAct" get-method="getDateReceiptAct" set-method="setDateReceiptAct" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="BasisExamination" get-method="getBasisExamination" set-method="setBasisExamination" usage="optional"/>
+    <value style="element" name="ObjectType" get-method="getObjectType" set-method="setObjectType" usage="optional"/>
+    <structure map-as="cat_ru:GTDID6Type" get-method="getCommissionInspectionID" set-method="setCommissionInspectionID" name="CommissionInspectionID"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getCustomsPersonList" set-method="setCustomsPersonList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CustomsPersonType" name="CustomsPerson"/>
+    </collection>
+    <structure map-as="insp:TransportMeanType" get-method="getInfoTransport" set-method="setInfoTransport" name="InfoTransport"/>
+    <structure map-as="insp:PersonInspectionType" get-method="getPersonInspection" set-method="setPersonInspection" name="PersonInspection"/>
+    <structure map-as="insp:AimInspectionType" get-method="getAimInspection" set-method="setAimInspection" name="AimInspection"/>
+    <structure map-as="insp:VolumeInspectionType" get-method="getVolumeInspection" set-method="setVolumeInspection" name="VolumeInspection"/>
+    <structure map-as="insp:DegreeInspectionType" get-method="getDegreeInspection" set-method="setDegreeInspection" name="DegreeInspection"/>
+    <collection get-method="getIdentityMeanList" set-method="setIdentityMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="insp:IdentityMeansType" name="IdentityMeans"/>
+    </collection>
+    <structure map-as="insp:GoodsLocationType" get-method="getGoodsLocation" set-method="setGoodsLocation" name="GoodsLocation"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="insp:DocumentType" name="Document"/>
+    </collection>
+    <structure map-as="insp:DestinationType" get-method="getDestination" set-method="setDestination" name="Destination"/>
+    <structure map-as="insp:InfoGoodsType" get-method="getInfoGoods" set-method="setInfoGoods" name="InfoGoods"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsChief" set-method="setCustomsChief" usage="optional" name="CustomsChief"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPresonDecision" set-method="setCustomsPresonDecision" usage="optional" name="CustomsPresonDecision"/>
+    <collection get-method="getApplicationTSTKList" set-method="setApplicationTSTKList" create-type="java.util.ArrayList">
+      <structure map-as="insp:ApplicationTSTKType" name="ApplicationTSTK"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.commissioninspection.CommissionInspectionType" name="CommissionInspection">
+    <structure map-as="insp:CommissionInspectionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:AimInspectionType" class="ru.acs.fts.schemas.album.commissioninspection.AimInspectionType">
+    <value style="element" name="IdentifierGood" get-method="getIdentifierGood" set-method="setIdentifierGood" usage="optional"/>
+    <value style="element" name="ChooseControl" get-method="getChooseControl" set-method="setChooseControl" usage="optional"/>
+    <value style="element" name="Others" get-method="getOthers" set-method="setOthers" usage="optional"/>
+    <value style="element" name="OtherComments" get-method="getOtherComments" set-method="setOtherComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:ApplicationTSTKType" class="ru.acs.fts.schemas.album.commissioninspection.ApplicationTSTKType">
+    <value style="element" name="TSTKCode" get-method="getTSTKCode" set-method="setTSTKCode"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:CIWarehousePlaceType" class="ru.acs.fts.schemas.album.commissioninspection.CIWarehousePlaceType">
+    <structure map-as="catESAD_ru:WarehousePlaceType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:DegreeInspectionType" class="ru.acs.fts.schemas.album.commissioninspection.DegreeInspectionType">
+    <value style="element" name="Weighing" get-method="getWeighing" set-method="setWeighing"/>
+    <value style="element" name="ConvertingFreightPlace" get-method="getConvertingFreightPlace" set-method="setConvertingFreightPlace"/>
+    <value style="element" name="ChooseOpening" get-method="getChooseOpening" set-method="setChooseOpening"/>
+    <value style="element" name="OpeningAllFreightPlace" get-method="getOpeningAllFreightPlace" set-method="setOpeningAllFreightPlace"/>
+    <value style="element" name="ConvertingQuantityObjects" get-method="getConvertingQuantityObjects" set-method="setConvertingQuantityObjects"/>
+    <value style="element" name="Choose" get-method="getChoose" set-method="setChoose"/>
+    <value style="element" name="All" get-method="getAll" set-method="setAll"/>
+    <value style="element" name="MeasurementDeterminationBehaviourGoods" get-method="getMeasurementDeterminationBehaviourGoods" set-method="setMeasurementDeterminationBehaviourGoods"/>
+    <value style="element" name="WithoutThievingSampling" get-method="getWithoutThievingSampling" set-method="setWithoutThievingSampling"/>
+    <value style="element" name="WithThievingSampling" get-method="getWithThievingSampling" set-method="setWithThievingSampling"/>
+    <value style="element" name="Others" get-method="getOthers" set-method="setOthers"/>
+    <value style="element" name="OtherComments" get-method="getOtherComments" set-method="setOtherComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:DestinationType" class="ru.acs.fts.schemas.album.commissioninspection.DestinationType">
+    <value style="element" name="ImportExport" get-method="getImportExport" set-method="setImportExport"/>
+    <value style="element" name="NameCountry" get-method="getNameCountry" set-method="setNameCountry"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:DocumentType" class="ru.acs.fts.schemas.album.commissioninspection.DocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:GoodsLocationType" class="ru.acs.fts.schemas.album.commissioninspection.GoodsLocationType">
+    <structure map-as="insp:CIWarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" usage="optional" name="WarehousePlace"/>
+    <structure map-as="catESAD_ru:GoodsLocationPlaceType" get-method="getGoodsLocationPlace" set-method="setGoodsLocationPlace" usage="optional" name="GoodsLocationPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:IdentityMeansType" class="ru.acs.fts.schemas.album.commissioninspection.IdentityMeansType">
+    <value style="element" name="Kind" get-method="getKind" set-method="setKind"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:InfoGoodsType" class="ru.acs.fts.schemas.album.commissioninspection.InfoGoodsType">
+    <value style="element" name="NameDepartureCountry" get-method="getNameDepartureCountry" set-method="setNameDepartureCountry"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:PersonInspectionType" class="ru.acs.fts.schemas.album.commissioninspection.PersonInspectionType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="insp:TransportMeanType" class="ru.acs.fts.schemas.album.commissioninspection.TransportMeanType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="TransportMeans"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="insp:VolumeInspectionType" class="ru.acs.fts.schemas.album.commissioninspection.VolumeInspectionType">
+    <value style="element" name="Percent10" get-method="getPercent10" set-method="setPercent10"/>
+    <value style="element" name="Percent50" get-method="getPercent50" set-method="setPercent50"/>
+    <value style="element" name="Percent100" get-method="getPercent100" set-method="setPercent100"/>
+  </mapping>
+</binding>

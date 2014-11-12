@@ -1,0 +1,92 @@
+<binding xmlns:catSCVV="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:cltSCVV="urn:customs.ru:SCVVCommonLeafTypesCust:5.0.7">
+  <namespace uri="urn:customs.ru:SCVVCommonAggregateTypesCust:5.4.0" default="elements" prefix="catSCVV"/>
+  <mapping abstract="true" type-name="catSCVV:GTDExportInfoType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.GTDExportInfoType">
+    <collection get-method="getShipmentFactInfoList" set-method="setShipmentFactInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:SCVVShipmentFactInfoType" name="ShipmentFactInfo"/>
+    </collection>
+    <structure map-as="catSCVV:GTDInqType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:GTDInqType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.GTDInqType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <collection get-method="getGoodsNumericList" set-method="setGoodsNumericList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsNumeric" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:GoodsDiscrepancyInfoType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.GoodsDiscrepancyInfoType">
+    <value style="element" name="GoodsDiscrepancyIndicator" get-method="getGoodsDiscrepancyIndicator" set-method="setGoodsDiscrepancyIndicator"/>
+    <structure map-as="catSCVV:SCVVGoodsType" get-method="getPlanFactGoodsInfo" set-method="setPlanFactGoodsInfo" name="PlanFactGoodsInfo"/>
+    <structure map-as="catSCVV:SCVVGoodsType" get-method="getBalance" set-method="setBalance" usage="optional" name="Balance"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVConsigmentDecisionType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVConsigmentDecisionType">
+    <value style="element" name="StateShipment" get-method="getStateShipment" set-method="setStateShipment" format="cltSCVV:StateShipmentType"/>
+    <collection get-method="getCauseList" set-method="setCauseList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Cause" type="java.lang.String"/>
+    </collection>
+    <structure map-as="catSCVV:SCVVConsignmentType" get-method="getShipmentFactInfo" set-method="setShipmentFactInfo" name="ShipmentFactInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVConsignmentType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVConsignmentType">
+    <structure map-as="catSCVV:SCVVShipmentFactInfoType"/>
+    <structure map-as="catSCVV:GTDInqType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVGoodsDecisionType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVGoodsDecisionType">
+    <structure map-as="catSCVV:SCVVGoodsType"/>
+    <value style="element" name="GoodsDiscrepancyIndicator" get-method="getGoodsDiscrepancyIndicator" set-method="setGoodsDiscrepancyIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVGoodsType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVGoodsType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount" usage="optional"/>
+    <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVPresentedDocumentType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVPresentedDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVShipmentFactInfoType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVShipmentFactInfoType">
+    <value style="element" name="ExportDate" get-method="getExportDate" set-method="setExportDate" format="LocalDate.default"/>
+    <collection get-method="getAddInfoList" set-method="setAddInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AddInfo" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+    <value style="element" name="TotalGoodsWeight" get-method="getTotalGoodsWeight" set-method="setTotalGoodsWeight" usage="optional"/>
+    <value style="element" name="BorderPointCode" get-method="getBorderPointCode" set-method="setBorderPointCode" usage="optional"/>
+    <value style="element" name="CustomsNumber" get-method="getCustomsNumber" set-method="setCustomsNumber"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:SCVVPresentedDocumentType" name="PresentedDocument"/>
+    </collection>
+    <collection get-method="getGoodsFactInfoList" set-method="setGoodsFactInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:SCVVGoodsType" name="GoodsFactInfo"/>
+    </collection>
+    <collection get-method="getDepartureTransportList" set-method="setDepartureTransportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:SCVVTransportMeansType" name="DepartureTransport"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:SCVVTransportMeansType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVTransportMeansType">
+    <value style="element" name="TransportIdentifier" get-method="getTransportIdentifier" set-method="setTransportIdentifier" usage="optional"/>
+    <value style="element" name="TrailerIdentifier" get-method="getTrailerIdentifier" set-method="setTrailerIdentifier" usage="optional"/>
+    <value style="element" name="SecondTrailerIdentifier" get-method="getSecondTrailerIdentifier" set-method="setSecondTrailerIdentifier" usage="optional"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+    <value style="element" name="TransportMeansNationalityCode" get-method="getTransportMeansNationalityCode" set-method="setTransportMeansNationalityCode" usage="optional"/>
+    <value style="element" name="TransportTraditionalName" get-method="getTransportTraditionalName" set-method="setTransportTraditionalName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:ShipmentBaseInfoType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.ShipmentBaseInfoType">
+    <value style="element" name="CustomsNumber" get-method="getCustomsNumber" set-method="setCustomsNumber"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+  </mapping>
+  <mapping abstract="true" type-name="catSCVV:ShipmentDiscrepancyInfoType" class="ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.ShipmentDiscrepancyInfoType">
+    <value style="element" name="ShipmentDiscrepancyCode" get-method="getShipmentDiscrepancyCode" set-method="setShipmentDiscrepancyCode"/>
+    <value style="element" name="CustomsNumber" get-method="getCustomsNumber" set-method="setCustomsNumber"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+    <collection get-method="getGoodsDiscrepancyInfoList" set-method="setGoodsDiscrepancyInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:GoodsDiscrepancyInfoType" name="GoodsDiscrepancyInfo"/>
+    </collection>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catSCVV:SCVVPresentedDocumentType" name="PresentedDocument"/>
+    </collection>
+  </mapping>
+</binding>

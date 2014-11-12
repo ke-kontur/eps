@@ -1,0 +1,16 @@
+<binding xmlns:cwqres="urn:customs.ru:Information:WarehouseDocuments:CWQueryResult:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CWQueryResult:5.4.0" default="elements" prefix="cwqres"/>
+  <mapping abstract="true" type-name="cwqres:CWQueryResultType" class="ru.acs.fts.schemas.album.cwqueryresult.CWQueryResultType">
+    <structure map-as="catWH_ru:CWDocType"/>
+    <collection get-method="getResultBodyList" set-method="setResultBodyList" create-type="java.util.ArrayList">
+      <structure map-as="cwqres:ResultBodyType" name="ResultBody"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cwqueryresult.CWQueryResultType" name="CWQueryResult">
+    <structure map-as="cwqres:CWQueryResultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwqres:ResultBodyType" class="ru.acs.fts.schemas.album.cwqueryresult.ResultBodyType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

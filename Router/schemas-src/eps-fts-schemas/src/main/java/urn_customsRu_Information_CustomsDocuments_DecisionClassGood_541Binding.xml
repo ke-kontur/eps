@@ -1,0 +1,57 @@
+<binding xmlns:dcg="urn:customs.ru:Information:CustomsDocuments:DecisionClassGood:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DecisionClassGood:5.4.1" default="elements" prefix="dcg"/>
+  <mapping abstract="true" type-name="dcg:DecisionClassGoodType" class="ru.acs.fts.schemas.album.decisionclassgood.DecisionClassGoodType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode" usage="optional"/>
+    <collection get-method="getMarkList" set-method="setMarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Mark" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ClassDecisionChanges" get-method="getClassDecisionChanges" set-method="setClassDecisionChanges" usage="optional"/>
+    <collection get-method="getDepartmentalControlList" set-method="setDepartmentalControlList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DepartmentalControl" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="InterpretationRules" get-method="getInterpretationRules" set-method="setInterpretationRules" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="dcg:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="dcg:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="dcg:GoodsType" get-method="getGoods" set-method="setGoods" name="Goods"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <structure map-as="dcg:ExpertDecisionType" get-method="getExpertDecision" set-method="setExpertDecision" usage="optional" name="ExpertDecision"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.decisionclassgood.DecisionClassGoodType" name="DecisionClassGood">
+    <structure map-as="dcg:DecisionClassGoodType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcg:DeclarantType" class="ru.acs.fts.schemas.album.decisionclassgood.DeclarantType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:CUBranchDescriptionType" get-method="getBranchDescription" set-method="setBranchDescription" usage="optional" name="BranchDescription"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcg:ExpertDecisionType" class="ru.acs.fts.schemas.album.decisionclassgood.ExpertDecisionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ExpertOrganization" get-method="getExpertOrganization" set-method="setExpertOrganization"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcg:GoodsType" class="ru.acs.fts.schemas.album.decisionclassgood.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="IsPartialGood" get-method="getIsPartialGood" set-method="setIsPartialGood"/>
+    <value style="element" name="AdditionalInformation" get-method="getAdditionalInformation" set-method="setAdditionalInformation" usage="optional"/>
+    <collection get-method="getGoodsInformationList" set-method="setGoodsInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catESAD_cu:GoodsGroupInformationType" name="GoodsInformation"/>
+    </collection>
+    <collection get-method="getNumericTNVEDCodeList" set-method="setNumericTNVEDCodeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="dcg:Numeric_TNVEDCodeType" name="Numeric_TNVEDCode"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="dcg:Numeric_TNVEDCodeType" class="ru.acs.fts.schemas.album.decisionclassgood.NumericTNVEDCodeType">
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode" usage="optional"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcg:RegistrationNumberType" class="ru.acs.fts.schemas.album.decisionclassgood.RegistrationNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

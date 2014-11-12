@@ -1,0 +1,27 @@
+<binding xmlns:p_inv="urn:customs.ru:Information:CommercialFinanceDocuments:ProformInvoice:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ProformInvoice:5.4.0" default="elements" prefix="p_inv"/>
+  <mapping abstract="true" type-name="p_inv:ProformInvoiceType" class="ru.acs.fts.schemas.album.proforminvoice.ProformInvoiceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <collection get-method="getInvoiceGoodList" set-method="setInvoiceGoodList" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:RussianInvoiceGoodsType" name="InvoiceGoods"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="catComFin_ru:InvoiceParticipantType" get-method="getBuyer" set-method="setBuyer" usage="optional" name="Buyer"/>
+    <structure map-as="catComFin_ru:InvoiceParticipantType" get-method="getSeler" set-method="setSeler" usage="optional" name="Seler"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSignature" set-method="setSignature" name="Signature"/>
+    <structure map-as="catComFin_ru:ShortCompanyDescType" get-method="getCarier" set-method="setCarier" usage="optional" name="Carier"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure map-as="cat_ru:DeliveryTermsRUType" get-method="getDeliveryTerms" set-method="setDeliveryTerms" usage="optional" name="DeliveryTerms"/>
+    <structure map-as="catComFin_ru:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.proforminvoice.ProformInvoiceType" name="ProformInvoice">
+    <structure map-as="p_inv:ProformInvoiceType"/>
+  </mapping>
+</binding>

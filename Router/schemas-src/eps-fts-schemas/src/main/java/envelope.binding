@@ -1,0 +1,9 @@
+<binding name="envelope" package="ru.acs.fts.schemas.envelope">
+  <include path="urn_customsRu_Envelope_ApplicationInf_10Binding.xml"/>
+  <include path="urn_customsRu_Envelope_Attachments_10Binding.xml"/>
+  <include path="urn_customsRu_CompressedBody_10Binding.xml"/>
+  <include path="_2000_09_xmldsigBinding.xml"/>
+  <include path="urn_customsRu_Envelope_EDHeader_20Binding.xml"/>
+  <include path="_2001_06_soapenvelopeBinding.xml"/>
+  <include path="urn_customsRu_Envelope_RoutingInf_10Binding.xml"/>
+</binding>

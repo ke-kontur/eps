@@ -1,0 +1,21 @@
+<binding xmlns:rrqo="urn:customs.ru:Information:ExchangeDocuments:RejectReqOperation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:RejectReqOperation:5.4.0" default="elements" prefix="rrqo"/>
+  <mapping abstract="true" type-name="rrqo:RejectReqOperationType" class="ru.acs.fts.schemas.album.rejectreqoperation.RejectReqOperationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RejectNumber" get-method="getRejectNumber" set-method="setRejectNumber" usage="optional"/>
+    <value style="element" name="RejectDate" get-method="getRejectDate" set-method="setRejectDate" format="LocalDate.default"/>
+    <value style="element" name="RejectTime" get-method="getRejectTime" set-method="setRejectTime"/>
+    <value style="element" name="ReqNumber" get-method="getReqNumber" set-method="setReqNumber" usage="optional"/>
+    <value style="element" name="ReqDate" get-method="getReqDate" set-method="setReqDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getRejectReasonList" set-method="setRejectReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="RejectReason" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.rejectreqoperation.RejectReqOperationType" name="RejectReqOperation">
+    <structure map-as="rrqo:RejectReqOperationType"/>
+  </mapping>
+</binding>

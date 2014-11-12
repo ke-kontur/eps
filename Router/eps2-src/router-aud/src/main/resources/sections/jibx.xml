@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm-1.5.xsd" >
+
+	<!-- Новый маршаллер на jibx -->
+	<oxm:jibx-marshaller id="jibx" target-class="ru.acs.fts.schemas.envelope.EnvelopeType" />
+
+	<bean id="marshallingHelper" class="ru.acs.fts.eps2.engine.processing.helpers.MarshallingHelper" >
+		<property name="marshaller" ref="jibx" />
+		<property name="unmarshaller" ref="jibx" />
+	</bean>
+
+	<bean id="conditionalUnmarshaller" class="ru.acs.fts.aud.router.processing.marshalling.ConditionalUnmarshaller" >
+		<property name="unmarshaller" ref="jibx" />
+	</bean>
+
+</beans>

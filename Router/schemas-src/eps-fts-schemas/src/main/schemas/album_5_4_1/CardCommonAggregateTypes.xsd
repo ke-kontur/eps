@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cat_crd="urn:customs.ru:CardCommonAggregateTypes:5.0.12" xmlns:clt_crd="urn:customs.ru:CardCommonLeafTypes:5.0.12" targetNamespace="urn:customs.ru:CardCommonAggregateTypes:5.0.12" elementFormDefault="qualified" version="5.0.12.0">
+	<xs:import namespace="urn:customs.ru:CardCommonLeafTypes:5.0.12" schemaLocation="CardCommonLeafTypes.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Общие сложные прикладные типы. </xs:documentation>
+	</xs:annotation>
+	<xs:complexType name="BaseDocType">
+		<xs:annotation>
+			<xs:documentation>Базовый тип для электронного документа.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DocumentID" type="clt_crd:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Уникальный идентификатор документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RefDocumentID" type="clt_crd:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникальный идентификатор исходного документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CustomsPersonType">
+		<xs:annotation>
+			<xs:documentation>Должностное лицо таможенного органа</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PersonName" type="clt_crd:NameType">
+				<xs:annotation>
+					<xs:documentation>ФИО должностного лица таможенного органа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LNP" type="clt_crd:LNPIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЛНП должностного лица таможенного органа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CustomsTypeType">
+		<xs:annotation>
+			<xs:documentation>Код и наименование таможенного органа</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code" type="clt_crd:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OfficeName" type="clt_crd:CustomsOfficeNameType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование таможенного органа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DocumentBaseType">
+		<xs:annotation>
+			<xs:documentation>Базовый класс для указания документов. Наименование, номер, дата.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PrDocumentNumber" type="clt_crd:DocumentNumberType">
+				<xs:annotation>
+					<xs:documentation>Номер документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PrDocumentDate" type="clt_crd:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GTDIDType">
+		<xs:annotation>
+			<xs:documentation>Регистрационный номер таможенного документа. Применяется для всех документов имеющих структуру номера, совпадающую с со структурой номера ДТ.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomsCode" type="clt_crd:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа, зарегистрировавшего документ.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistrationDate" type="clt_crd:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата регистрации документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="GTDNumber" type="clt_crd:GTDIDType">
+				<xs:annotation>
+					<xs:documentation>Порядковый номер документа по журналу регистрации.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IdentityCardType">
+		<xs:annotation>
+			<xs:documentation>Документ, удостоверяющий личность</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="IdentityCardCode" type="clt_crd:IdentityCardCodeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код вида документа, удостоверяющего личность. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentityCardSeries" type="clt_crd:IdentityCardSeriesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Серия документа, удостоверяющего личность.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentityCardNumber" type="clt_crd:IdentityCardNumberType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер документа, удостоверяющего личность</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentityCardDate" type="clt_crd:DateCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата выдачи документа, удостоверяющего личность.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OrganizationBaseType">
+		<xs:annotation>
+			<xs:documentation>Реквизиты организации. Базовый класс.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_crd:RFOrganizationFeaturesType">
+				<xs:sequence>
+					<xs:element name="OrganizationName" type="clt_crd:NameType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Наименование организации</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="PaymentDocumentType">
+		<xs:annotation>
+			<xs:documentation>Платёжный документ</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PaymentModeCode" type="clt_crd:CustomsPaymentCodeType">
+				<xs:annotation>
+					<xs:documentation>Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentDocumentNumber" type="clt_crd:DocumentNumberType">
+				<xs:annotation>
+					<xs:documentation>Номер платежного документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentDocumentDate" type="clt_crd:DateCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата платежного документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalAmount" type="clt_crd:AmountType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Общая сумма по платежному документу</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WrittenoffAmount" type="clt_crd:AmountType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Списываемая сумма по платежному документу</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentCurrencyCode" type="clt_crd:CurrencyN3CodeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цифровой код валюты суммы платежа / обеспечения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WrittenoffAmountCurrencyCode" type="clt_crd:CurrencyN3CodeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код валюты списываемой суммы по платежному документу</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReturnSign" type="clt_crd:DigitalIndicatorType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Признак возврата денежных средств</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="INNID" type="clt_crd:INNIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Индивидуальный номер налогоплательщика плательщика</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="KPPCode" type="clt_crd:KPPCodeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код причины постановки на налоговый учет плательщика</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RFOrganizationFeaturesType">
+		<xs:annotation>
+			<xs:documentation>Сведения об организации. Особенности Российской Федерации</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="INN" type="clt_crd:INNIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ИНН - Индивидуальный номер налогоплательщика.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="KPP" type="clt_crd:KPPCodeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>КПП - Код причины постановки на учет.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

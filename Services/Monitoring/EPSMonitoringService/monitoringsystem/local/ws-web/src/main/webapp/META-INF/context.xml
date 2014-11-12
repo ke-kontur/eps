@@ -1,0 +1,2 @@
+<Context path="/monitoring" privileged="true" antiResourceLocking="false" antiJARLocking="true">
+</Context>

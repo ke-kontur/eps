@@ -1,0 +1,19 @@
+<binding xmlns:ipr="urn:customs.ru:Information:TreatmentDocuments:InqChangeInoProd:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTreat_ru="urn:customs.ru:Information:TreatmentDocuments:TreatmentCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:InqChangeInoProd:5.4.0" default="elements" prefix="ipr"/>
+  <mapping abstract="true" type-name="ipr:InqChangeInoProdType" class="ru.acs.fts.schemas.album.inqchangeinoprod.InqChangeInoProdType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <collection get-method="getInoProdactList" set-method="setInoProdactList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="InoProdacts"/>
+    </collection>
+    <collection get-method="getTreatProductList" set-method="setTreatProductList" create-type="java.util.ArrayList">
+      <structure map-as="catTreat_ru:TreatProductsType" name="TreatProducts"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inqchangeinoprod.InqChangeInoProdType" name="InqChangeInoProd">
+    <structure map-as="ipr:InqChangeInoProdType"/>
+  </mapping>
+</binding>

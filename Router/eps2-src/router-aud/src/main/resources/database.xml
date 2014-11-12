@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xmlns:jee="http://www.springframework.org/schema/jee" 
+		xmlns:p="http://www.springframework.org/schema/p"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/tx
+							http://www.springframework.org/schema/tx/spring-tx.xsd 
+							http://www.springframework.org/schema/jee 
+							http://www.springframework.org/schema/jee/spring-jee.xsd" >
+	
+	<import resource="message-sources.xml" />	
+	
+	<!--Подключение к БД-->
+	<bean id="pum" class="org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager">
+		<property name="persistenceXmlLocations">
+		    <list>
+		    	<value>classpath:spring-persistence.xml</value>
+		    </list>
+		</property>
+		<property name="defaultDataSource" ref="businessProcessOracleConnection" />
+	</bean>
+		
+	<!-- Возможно, понадобится поменять -->
+	<jee:jndi-lookup id="businessProcessOracleConnection" jndi-name="audBusinessProcess" />
+	
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceUnitManager" ref="pum" />
+		<property name="dataSource" ref="businessProcessOracleConnection" />
+        <property name="jpaProperties">
+            <props>
+                <prop key="eclipselink.ddl-generation">create-table</prop>
+                <prop key="javax.persistence.jdbc.driver">oracle.jdbc.OracleDriver</prop>
+                <prop key="eclipselink.weaving">false</prop>
+                <prop key="eclipselink.target-server">${eclipseLinkTargetServer}</prop>
+                <prop key="eclipselink.target-database">org.eclipse.persistence.platform.database.oracle.Oracle10Platform</prop>
+            </props>
+        </property>
+		<property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+                <property name="databasePlatform" value="org.eclipse.persistence.platform.database.OraclePlatform" />
+                <property name="showSql" value="true" />
+            </bean>
+		</property>
+   </bean>
+	
+	<bean id="jpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" lazy-init="true">
+        <property name="entityManagerFactory" ref="entityManagerFactory" />
+   </bean>
+   
+   <!-- Сервисы -->
+		
+	<bean id="protocolLogLevelService" class="ru.acs.fts.aud.model.persistence.cached.ProtocolLogLevelService" >
+		<property name="updateTimeout" value="1" />
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="protocolSourceService" class="ru.acs.fts.aud.model.persistence.cached.ProtocolSourceService" >
+		<property name="updateTimeout" value="1" />
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean> 
+	
+	<bean id="protocolService" class="ru.acs.fts.aud.model.persistence.ProtocolService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean> 	
+	
+	<bean id="clientService" class="ru.acs.fts.aud.model.persistence.ClientService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="serverStatisticService" class="ru.acs.fts.aud.model.persistence.ServerStatisticsService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="archiveService" class="ru.acs.fts.aud.model.persistence.ArchiveService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="serverSettingsService" class="ru.acs.fts.aud.model.persistence.ServerSettingsService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="businessDocumentKindService" class="ru.acs.fts.aud.model.persistence.cached.BusinessDocumentKindService" >
+		<property name="updateTimeout" value="1" />
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>  
+
+	<!-- агрегатор -->
+	
+	<bean id="serviceHolder" class="ru.acs.fts.aud.router.model.AudServiceHolder" >
+		<property name="protocolLogLevelService" ref="protocolLogLevelService" />
+		<property name="protocolService" ref="protocolService" />
+		<property name="protocolSourceService" ref="protocolSourceService" />
+		<property name="clientService" ref="clientService" />
+		<property name="serverStatisticsService" ref="serverStatisticService" />
+		<property name="archiveService" ref="archiveService" />
+		<property name="businessDocumentKindService" ref="businessDocumentKindService" />
+	</bean>
+	
+	<!-- Менеджеры -->
+	
+	<bean id="baseManager" class="ru.acs.fts.aud.router.model.managers.BaseManager" >
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="protocolManager" class="ru.acs.fts.aud.router.model.managers.ProtocolManager" 
+			parent="baseManager" />
+	
+	<bean id="serverStatisticManager" class="ru.acs.fts.aud.router.model.managers.ServerStatisticManager" 
+			parent="baseManager" scope="singleton" >
+		<property name="serverStatisticsService" ref="serverStatisticService" />
+	</bean>
+			
+	<bean id="archiveManager" class="ru.acs.fts.aud.router.model.managers.ArchiveManager" 
+			parent="baseManager" >
+		<property name="serverSettingManager" ref="serverSettingManager" />
+	   	<property name="conditionalUnmarshaller" ref="conditionalUnmarshaller" />
+	</bean>
+			
+	<bean id="serverSettingManager" class="ru.acs.fts.aud.router.model.managers.ServerSettingManager" >
+		<property name="serverSettingService" ref="serverSettingsService" />
+	</bean>			
+		
+	<!-- Helpers -->
+	<bean id="protocolCreator" class="ru.acs.fts.aud.router.processing.helpers.ProtocolCreator" >
+		<property name="protocolManager" ref="protocolManager" />
+	</bean>
+		
+</beans>

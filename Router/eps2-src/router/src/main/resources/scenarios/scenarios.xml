@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- По сообщениям -->
+	
+	<!-- ADM.XXXXX -->
+	<import resource="adm00001.xml" />
+	<import resource="adm00001_cmn13001.xml" />
+	<import resource="adm00001_oez_destr.xml" />
+	<import resource="adm00004.xml" />
+	<import resource="adm00004_oez_destr.xml" />
+	<import resource="adm00004_generic.xml" />
+	<import resource="adm00006.xml" />
+	<import resource="adm00006_cmn11006.xml" />
+	<import resource="adm00006_msg11022.xml" />
+	<import resource="adm00006_msg11023.xml" />
+	<import resource="adm00006_cmn11062.xml" />
+	<import resource="adm00006_msg11025.xml" />
+	<import resource="adm00007.xml" />
+	<import resource="adm00008.xml" />
+	<import resource="adm00009.xml" />
+	<import resource="adm00010.xml" />
+	<import resource="adm10005.xml" />
+	<import resource="adm11020.xml" />
+	<import resource="adm15001.xml"/>
+	<import resource="adm15002.xml"/>
+	<import resource="adm15005.xml"/>
+	<import resource="adm15006.xml"/>
+	<import resource="adm15007.xml"/>
+	<import resource="adm_asktt2_aistm.xml" />
+	<import resource="adm_aistm_asktt2.xml" />
+	
+	<!-- CMN.XXXXX -->
+    <import resource="cmn00001.xml"/> <!-- TODO: Странный сценарий и нигде не используется !!! -->
+    <import resource="cmn00004.xml" />
+    <import resource="cmn00101.xml"/> <!-- ok -->
+    <import resource="cmn00103.xml"/> <!-- ok -->
+    <import resource="cmn00105.xml"/> <!-- ok -->
+    <import resource="cmn00201.xml"/> <!-- ok -->
+    <import resource="cmn00214.xml"/>
+    <import resource="cmn00307.xml"/> <!-- ok -->
+    <import resource="cmn10009.xml" />
+    <import resource="cmn10010.xml" />
+    <import resource="cmn10062.xml" />
+    <import resource="cmn11001.xml"/>
+    <import resource="cmn11004.xml"/>
+    <import resource="cmn11005.xml"/>
+    <import resource="cmn11006.xml"/>
+    <import resource="cmn11006_remote.xml" />
+    <import resource="cmn11007.xml" />
+    <import resource="cmn10003.xml"/>
+    <import resource="cmn11011.xml"/>
+    <import resource="cmn11014.xml"/>
+    <import resource="cmn11023.xml"/>
+    <import resource="cmn11024.xml"/>
+    <import resource="cmn11025.xml"/>
+    <import resource="cmn11026.xml"/>
+    <import resource="cmn11029.xml"/>
+    <import resource="cmn11044.xml"/>
+    <import resource="cmn11049.xml"/>
+    <import resource="cmn11062.xml"/>
+    <import resource="cmn11062_local.xml"/>
+    <import resource="cmn11062_remote_out.xml"/>
+    <import resource="cmn11062_asktt2.xml"/>
+    <import resource="cmn11062_remote_in.xml"/>
+    <import resource="cmn11048.xml"/>
+    <import resource="cmn11070.xml"/>
+    <import resource="cmn11076.xml"/>
+    <import resource="cmn11084.xml"/>
+    <import resource="cmn11085.xml"/>
+    <import resource="cmn11088.xml"/>
+    <import resource="cmn11080.xml"/>
+    <import resource="cmn11090.xml"/>
+    <import resource="cmn11092.xml"/>
+    <import resource="cmn11096.xml"/>
+    <import resource="cmn11097.xml"/>
+    <import resource="cmn11103.xml"/>
+    <import resource="cmn11111.xml"/>
+    <import resource="cmn12042.xml"/>
+    <import resource="cmn12092.xml"/>
+    <import resource="cmn12094.xml"/>
+    <import resource="cmn12095.xml"/>
+    <import resource="cmn12096.xml"/>
+    <import resource="cmn12097.xml"/>
+    <import resource="cmn12100.xml"/>
+    <import resource="cmn12102.xml"/>
+    <import resource="cmn12112.xml"/>
+    <import resource="cmn12116.xml"/>
+    <import resource="cmn13001.xml"/> <!-- ok -->
+    <import resource="cmn13002.xml"/> <!-- ok -->
+    <import resource="cmn13005.xml"/> <!-- ok -->
+    <import resource="cmn15003.xml"/>
+    <import resource="cmn15004.xml"/>
+    <import resource="cmn15005.xml"/>
+    <import resource="cmn15006_07.xml"/>
+    <import resource="cmn15014.xml"/>
+    <import resource="cmn15016.xml"/>
+    <import resource="cmn15017.xml"/>
+    <import resource="cmn15020.xml"/>
+    <import resource="cmn15021.xml"/>
+    <import resource="cmn15023.xml"/>
+    <import resource="cmn15024.xml"/>
+    
+    <!-- ED.XXXXX -->
+    <import resource="ed10001.xml"/> <!-- ok -->
+    <import resource="ed10003.xml"/>
+    <import resource="ed11001.xml"/> <!-- ok -->
+    <import resource="ed11004.xml"/>
+    <import resource="ed11001_remote.xml"/> 
+    <import resource="ed13003.xml"/> <!-- ok -->
+    <import resource="ed13005.xml" />
+    
+    <!-- MSG.XXXXX -->
+    <import resource="msg13003.xml"/> <!-- ok -->
+    <import resource="msg13006.xml"/> <!-- ok -->
+    <import resource="msg11003.xml"/>
+    <import resource="msg11006.xml" />
+    <import resource="msg11007.xml" />
+    <import resource="msg11007_remote.xml" />
+    <import resource="msg11008_remote.xml" />
+    <import resource="msg11020.xml" />
+    <import resource="msg11020_remote.xml" />
+    <import resource="msg11022_remote.xml" />
+    <import resource="msg11027.xml" />
+    <import resource="msg11029_remote.xml" />
+    <import resource="msg11034.xml" />
+    <import resource="msg11036.xml" />
+    <import resource="msg11043.xml" />
+    <import resource="msg11025.xml" />    
+    <import resource="msg11025_remote.xml" />
+    <import resource="msg11026.xml" />
+    <import resource="msg11026_remote_in.xml" />
+    <import resource="msg11044.xml" />
+    <import resource="msg11052.xml" />
+    <import resource="msg11060.xml" />
+    <import resource="msg11066.xml" />
+    <import resource="msg11066_remote.xml" />
+    <import resource="msg13007_remote_in.xml" />
+    <import resource="msg15001.xml"/>
+    <import resource="msg15002.xml"/>
+    <import resource="msg15033.xml" />
+    <import resource="transitKastoToKasto.xml" />
+    <import resource="msg_asktt2_aistm.xml" />
+    <import resource="msg_aistm_asktt2.xml" />
+	
+	<!-- OCP.10XXX -->
+	
+	<import resource="ocp10004.xml" />
+	
+	<!-- PVR.XXXXX -->
+	<import resource="pvr00001.xml" />
+	<import resource="pvr00002.xml" />
+    
+    <!-- По типу -->
+
+	<!-- Разное -->
+	<import resource="empty.xml" />
+    <import resource="notifications.xml"/> <!-- ok -->
+    <import resource="commitChangeDocument.xml"/> <!-- tocheck -->
+    <import resource="admcmd.xml"/> <!-- ok -->
+    <import resource="preprocessing.xml" />
+    <import resource="postprocessing.xml" />
+    <import resource="gtdRecall.xml"/> <!-- Отзыв ДТ -->
+    <import resource="suppliesDT.xml"/> <!-- Припасы. Декларирование в форме ДТ -->
+    <import resource="suppliesChangedDocs.xml"/> <!-- Припасы. Декларирование в форме ДТ (комплект измененных документов) -->
+    <import resource="suppliesIssueDecision.xml"/> <!-- Припасы. Декларирование в форме ДТ (решение о выпуске) -->
+    <import resource="suppliesClaim.xml"/>
+    <import resource="suppliesClaimIssueDecision.xml"/>
+    <import resource="suppliesClaimChangedDocs.xml"/>
+    <import resource="gatewayNotification.xml" />
+    <import resource="msgSaveOnly.xml" /> <!-- Просто сохраняем сообщения от таможни с переводом статуса -->
+    <import resource="exportImportMsgResponse.xml" />
+    <import resource="importExportDecision.xml" />
+    <import resource="goodsArrangement.xml" />
+    <import resource="goodsArrangementInProc.xml" />
+    <import resource="goodsArrangementFromPI.xml" />
+    <import resource="goodsArrangement_remote.xml" />
+    <import resource="goodsArrangementInProc_remote.xml" />
+    <import resource="goodsArrangementFromPI_remote.xml" />
+    <import resource="recvProcessSave.xml" />
+    
+    <!-- Вспомогательные батчи -->
+    <import resource="sendCMN00002.xml" />
+    <import resource="sendCMN00004.xml" />
+    <import resource="sendADM00004.xml" />
+    
+    <!-- Транзит -->
+    <import resource="tranzitInProc.xml"/>
+    <import resource="tranzitInProcContainer.xml" />
+    <import resource="tranzitInProcContainerToPIClearSign.xml" />
+    <import resource="tranzitInProcWithBusinessProcess.xml" />
+    <import resource="tranzitOutOfProc.xml"/> <!-- semi ok, tocheck -->
+    <import resource="tranzitToKastoOutOfProc.xml"/> <!-- semi ok, tocheck -->
+    <import resource="transitOutProcFromPIOurSign.xml"/> <!-- semi ok, tocheck -->
+    <import resource="transitOutProcToPIClearSign.xml"/> <!-- tocheck -->
+    <import resource="transitInProcToPIClearSign.xml"/>
+    <import resource="tranzitFromPIToDeclSign.xml"/>
+    <import resource="tranzitFromPIToDeclSignInitial.xml"/>
+    <import resource="transitBusinessProcess.xml"/>
+    <import resource="tranzitInProcAsktt2.xml" />
+    <import resource="tranzitOutOfProcAsktt2.xml" />
+    <import resource="tranzitOutOfProcAsktt2Customs.xml" />
+    <import resource="tranzitOutOfProcContainer.xml" />
+    <import resource="tranzitInProcIEIDRDID.xml" />
+    <import resource="tranzitInProcContainerWithBusinessProcess.xml" />
+    <import resource="tranzitInProcRemotenessBusinessProcess.xml" />
+    <import resource="tranzitInProcRemotenessRemoteBusinessProcess.xml" />
+    <import resource="tranzitInProcFromMalakhit.xml" />
+    <import resource="oez_destruction_container.xml" />
+    
+    <!-- Обработка ошибок --> 
+    <import resource="errorProcessing/errorhandling.xml" />
+    <import resource="errorProcessing/emergency_strcontrol.xml" />
+    <import resource="errorProcessing/Send_CMN_00001_And_Save.xml"/> <!-- ok -->
+    <import resource="errorProcessing/Save_Income_And_Send_00001.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Save_Income_And_Send_09999.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Save_Income.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Send_00001.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Ead_Error.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Send_09999.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Send_09999_And_Save.xml"/> <!-- ok -->
+    <import resource="errorProcessing/Send_Adm00001_And_Save.xml"/> <!-- ok -->
+    <import resource="errorProcessing/Save_Income_And_Send_Adm00001.xml"/> <!-- ok -->
+	<import resource="errorProcessing/Send_Adm00001.xml"/> <!-- ok -->
+	
+	<!-- Сценарии обработки ошибочных ситуаций -->
+	<import resource="failScenarios/fs_save_send_00001.xml" />
+	<import resource="failScenarios/fs_send_00001.xml" />
+	<import resource="failScenarios/fs_send_00001_mq.xml" />
+	<import resource="failScenarios/fs_send_09999.xml" />
+	<import resource="failScenarios/fs_send_09999_mq.xml" />
+	<import resource="failScenarios/fs_send_00002_00001.xml" />
+
+</beans>

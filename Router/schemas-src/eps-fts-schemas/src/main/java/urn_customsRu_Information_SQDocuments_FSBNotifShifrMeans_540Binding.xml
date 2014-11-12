@@ -1,0 +1,21 @@
+<binding xmlns:shfrnf="urn:customs.ru:Information:SQDocuments:FSBNotifShifrMeans:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:FSBNotifShifrMeans:5.4.0" default="elements" prefix="shfrnf"/>
+  <mapping abstract="true" type-name="shfrnf:FSBNotifShifrMeansType" class="ru.acs.fts.schemas.album.fsbnotifshifrmeans.FSBNotifShifrMeansType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="NotificationDuration" get-method="getNotificationDuration" set-method="setNotificationDuration"/>
+    <value style="element" name="NotificationDate" get-method="getNotificationDate" set-method="setNotificationDate" format="LocalDate.default"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getManufacturer" set-method="setManufacturer" name="Manufacturer"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getApplicantDetails" set-method="setApplicantDetails" name="ApplicantDetails"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" name="AuthorizedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.fsbnotifshifrmeans.FSBNotifShifrMeansType" name="FSBNotifShifrMeans">
+    <structure map-as="shfrnf:FSBNotifShifrMeansType"/>
+  </mapping>
+</binding>

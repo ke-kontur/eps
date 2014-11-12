@@ -1,0 +1,32 @@
+<binding xmlns:pdres="urn:customs.ru:Information:CustomsDocuments:PresentedDocInfoRes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PresentedDocInfoRes:5.4.0" default="elements" prefix="pdres"/>
+  <mapping abstract="true" type-name="pdres:PresentedDocInfoResType" class="ru.acs.fts.schemas.album.presenteddocinfores.PresentedDocInfoResType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getPresentedDocList" set-method="setPresentedDocList" create-type="java.util.ArrayList">
+      <structure map-as="pdres:PresentedDocType" name="PresentedDoc"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.presenteddocinfores.PresentedDocInfoResType" name="PresentedDocInfoRes">
+    <structure map-as="pdres:PresentedDocInfoResType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pdres:PresentedDocType" class="ru.acs.fts.schemas.album.presenteddocinfores.PresentedDocType">
+    <value style="element" name="TransitStatus" get-method="getTransitStatus" set-method="setTransitStatus" usage="optional"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="pdres:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTDNumber" get-method="getTDNumber" set-method="setTDNumber" usage="optional" name="TDNumber"/>
+    </structure>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pdres:PresentedDocumentType" name="PresentedDocument"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="pdres:PresentedDocumentType" class="ru.acs.fts.schemas.album.presenteddocinfores.PresentedDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentKind" get-method="getDocumentKind" set-method="setDocumentKind"/>
+  </mapping>
+  <mapping abstract="true" type-name="pdres:TIRIDType" class="ru.acs.fts.schemas.album.presenteddocinfores.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+</binding>

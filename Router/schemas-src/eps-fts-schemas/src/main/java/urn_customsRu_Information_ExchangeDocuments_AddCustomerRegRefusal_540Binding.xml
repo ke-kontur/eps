@@ -1,0 +1,24 @@
+<binding xmlns:addcrr="urn:customs.ru:Information:ExchangeDocuments:AddCustomerRegRefusal:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:AddCustomerRegRefusal:5.4.0" default="elements" prefix="addcrr"/>
+  <mapping abstract="true" type-name="addcrr:AddCustomerRegRefusalType" class="ru.acs.fts.schemas.album.addcustomerregrefusal.AddCustomerRegRefusalType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RefusalDate" get-method="getRefusalDate" set-method="setRefusalDate" format="LocalDate.default"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getDestinationCustoms" set-method="setDestinationCustoms" usage="optional" name="DestinationCustoms"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getRefuseReasonList" set-method="setRefuseReasonList" create-type="java.util.ArrayList">
+      <structure map-as="addcrr:RefuseReasonType" name="RefuseReason"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.addcustomerregrefusal.AddCustomerRegRefusalType" name="AddCustomerRegRefusal">
+    <structure map-as="addcrr:AddCustomerRegRefusalType"/>
+  </mapping>
+  <mapping abstract="true" type-name="addcrr:RefuseReasonType" class="ru.acs.fts.schemas.album.addcustomerregrefusal.RefuseReasonType">
+    <value style="element" name="RefusalReasonCode" get-method="getRefusalReasonCode" set-method="setRefusalReasonCode"/>
+    <collection get-method="getRefusalReasonDescriptionList" set-method="setRefusalReasonDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="RefusalReasonDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

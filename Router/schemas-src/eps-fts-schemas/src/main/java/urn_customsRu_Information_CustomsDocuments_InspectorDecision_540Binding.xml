@@ -1,0 +1,28 @@
+<binding xmlns:ispd="urn:customs.ru:Information:CustomsDocuments:InspectorDecision:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InspectorDecision:5.4.0" default="elements" prefix="ispd"/>
+  <mapping abstract="true" type-name="ispd:InspectorDecisionType" class="ru.acs.fts.schemas.album.inspectordecision.InspectorDecisionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getDecisionDescriptionList" set-method="setDecisionDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="ispd:DecisionDescriptionType" name="DecisionDescription"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inspectordecision.InspectorDecisionType" name="InspectorDecision">
+    <structure map-as="ispd:InspectorDecisionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ispd:DecisionDescriptionType" class="ru.acs.fts.schemas.album.inspectordecision.DecisionDescriptionType">
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" format="LocalDate.default"/>
+    <value style="element" name="DecisionTime" get-method="getDecisionTime" set-method="setDecisionTime" usage="optional"/>
+    <collection get-method="getDecisionTextList" set-method="setDecisionTextList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DecisionText" type="java.lang.String"/>
+    </collection>
+    <structure map-as="ispd:DocumentInfoType" get-method="getDocumentInfo" set-method="setDocumentInfo" usage="optional" name="DocumentInfo"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getGoodsCustoms" set-method="setGoodsCustoms" usage="optional" name="GoodsCustoms"/>
+  </mapping>
+  <mapping abstract="true" type-name="ispd:DocumentInfoType" class="ru.acs.fts.schemas.album.inspectordecision.DocumentInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

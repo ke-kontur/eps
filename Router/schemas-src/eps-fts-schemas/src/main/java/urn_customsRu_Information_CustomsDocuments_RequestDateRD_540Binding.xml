@@ -1,0 +1,20 @@
+<binding xmlns:rdrd="urn:customs.ru:Information:CustomsDocuments:RequestDateRD:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RequestDateRD:5.4.0" default="elements" prefix="rdrd"/>
+  <mapping abstract="true" type-name="rdrd:RequestDataRDType" class="ru.acs.fts.schemas.album.requestdatard.RequestDataRDType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber" usage="optional"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode"/>
+    <value style="element" name="DocType" get-method="getDocType" set-method="setDocType"/>
+    <value style="element" name="DocDate" get-method="getDocDate" set-method="setDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber" usage="optional"/>
+    <structure map-as="rdrd:ContractType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.requestdatard.RequestDataRDType" name="RequestDataRD">
+    <structure map-as="rdrd:RequestDataRDType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdrd:ContractType" class="ru.acs.fts.schemas.album.requestdatard.ContractType">
+    <value style="element" name="ConNumber" get-method="getConNumber" set-method="setConNumber" usage="optional"/>
+    <value style="element" name="ConDateSignature" get-method="getConDateSignature" set-method="setConDateSignature" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

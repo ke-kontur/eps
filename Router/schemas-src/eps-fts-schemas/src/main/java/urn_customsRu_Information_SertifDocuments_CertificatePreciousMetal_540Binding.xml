@@ -1,0 +1,42 @@
+<binding xmlns:cepm="urn:customs.ru:Information:SertifDocuments:CertificatePreciousMetal:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:CertificatePreciousMetal:5.4.0" default="elements" prefix="cepm"/>
+  <mapping abstract="true" type-name="cepm:CertificatePreciousMetalType" class="ru.acs.fts.schemas.album.certificatepreciousmetal.CertificatePreciousMetalType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" format="LocalDate.default"/>
+    <value style="element" name="NamePreciousMetal" get-method="getNamePreciousMetal" set-method="setNamePreciousMetal"/>
+    <value style="element" name="ContentPercent" get-method="getContentPercent" set-method="setContentPercent"/>
+    <value style="element" name="RecalculatedContent" get-method="getRecalculatedContent" set-method="setRecalculatedContent"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDeclarantInfo" set-method="setDeclarantInfo" name="DeclarantInfo"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="cepm:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <collection get-method="getExperimentAccordanceDocumentList" set-method="setExperimentAccordanceDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="ExperimentAccordanceDocuments"/>
+    </collection>
+    <structure map-as="cepm:LaboratoryType" get-method="getLaboratory" set-method="setLaboratory" usage="optional" name="Laboratory"/>
+    <collection get-method="getTestReportList" set-method="setTestReportList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="TestReport"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getIssueOrganization" set-method="setIssueOrganization" name="IssueOrganization"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getIssuePersonSignature" set-method="setIssuePersonSignature" name="IssuePersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.certificatepreciousmetal.CertificatePreciousMetalType" name="CertificatePreciousMetal">
+    <structure map-as="cepm:CertificatePreciousMetalType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cepm:GoodsInfoType" class="ru.acs.fts.schemas.album.certificatepreciousmetal.GoodsInfoType">
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsKind" get-method="getGoodsKind" set-method="setGoodsKind" usage="optional"/>
+    <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GoodsOKP" get-method="getGoodsOKP" set-method="setGoodsOKP" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cepm:LaboratoryType" class="ru.acs.fts.schemas.album.certificatepreciousmetal.LaboratoryType">
+    <value style="element" name="NameLaboratory" get-method="getNameLaboratory" set-method="setNameLaboratory"/>
+    <value style="element" name="RegistrationNumberAIL" get-method="getRegistrationNumberAIL" set-method="setRegistrationNumberAIL"/>
+  </mapping>
+</binding>

@@ -1,0 +1,22 @@
+<binding xmlns:ncn="urn:customs.ru:Information:ExchangeDocuments:NotifConsult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifConsult:5.4.0" default="elements" prefix="ncn"/>
+  <mapping abstract="true" type-name="ncn:NotifConsultType" class="ru.acs.fts.schemas.album.notifconsult.NotifConsultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <collection get-method="getCustomsSubUnitList" set-method="setCustomsSubUnitList" create-type="java.util.ArrayList">
+      <structure map-as="ncn:CustomsSubUnitType" name="CustomsSubUnit"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifconsult.NotifConsultType" name="NotifConsult">
+    <structure map-as="ncn:NotifConsultType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ncn:CustomsSubUnitType" class="ru.acs.fts.schemas.album.notifconsult.CustomsSubUnitType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Action" get-method="getAction" set-method="setAction"/>
+  </mapping>
+</binding>

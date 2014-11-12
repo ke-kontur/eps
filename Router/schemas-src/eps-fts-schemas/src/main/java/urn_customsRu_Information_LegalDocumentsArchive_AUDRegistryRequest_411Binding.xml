@@ -1,0 +1,13 @@
+<binding xmlns:aurr="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_RegistryRequest:4.1.1" default="elements" prefix="aurr"/>
+  <mapping abstract="true" type-name="aurr:AUD_RegistryRequestType" class="ru.acs.fts.schemas.aud.aud_registryrequest.AUDRegistryRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="DateBegin" get-method="getDateBegin" set-method="setDateBegin" format="LocalDate.default"/>
+    <value style="element" name="DateStop" get-method="getDateStop" set-method="setDateStop" format="LocalDate.default"/>
+    <value style="element" name="DateIndicatior" get-method="getDateIndicatior" set-method="setDateIndicatior"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_registryrequest.AUDRegistryRequestType" name="AUD_RegistryRequest">
+    <structure map-as="aurr:AUD_RegistryRequestType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+	<eventLogCheck name="Проверка содержимого журнала #1"
+		logName="System" sourceName="W32Time" interval="90" maxErrorCount="0" />
+	<eventLogCheck name="Проверка содержимого журнала #2"
+		logName="System" sourceName="W32Time" interval="90" maxErrorCount="9" />
+	<!--
+		<bean class="ru.acs.monitoring.services.EventLogCheckSettings">
+		<property name="name" value="Проверка содержимого журнала #1" />
+		<property name="logName" value="System" /> <property name="sourceName"
+		value="W32Time" /> <property name="interval" value="90" /> <property
+		name="maxErrorCount" value="0" /> </bean> <bean
+		class="ru.acs.monitoring.services.EventLogCheckSettings"> <property
+		name="name" value="Проверка содержимого журнала #2" /> <property
+		name="logName" value="System" /> <property name="sourceName"
+		value="W32Time" /> <property name="interval" value="90" /> <property
+		name="maxErrorCount" value="9" /> </bean>
+	-->
+
+</monitoring>

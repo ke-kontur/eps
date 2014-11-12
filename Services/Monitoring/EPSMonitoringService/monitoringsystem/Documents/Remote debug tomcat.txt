@@ -1,0 +1,11 @@
+﻿Удаленная отладка Apache Tomcat, запущенного как windows service:
+
+1) В настройках JVM (панель настроек Tomcat) перед опциями -D указать (каждая опция в новой строке):
+	-Xdebug
+	-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=<port>
+
+2) Перезапустить службу Tomcat
+
+3) Убедиться, что все работает (из командной строки):
+	netstat -a
+Должен появиться указанный порт <port> в состоянии LISTENING

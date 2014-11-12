@@ -1,0 +1,238 @@
+<binding xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0" default="elements" prefix="catComFin_ru"/>
+  <mapping abstract="true" type-name="catComFin_ru:AdditionalGoodsDescriptionType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.AdditionalGoodsDescriptionType">
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+    <value style="element" name="TradeMark" get-method="getTradeMark" set-method="setTradeMark" usage="optional"/>
+    <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+    <value style="element" name="GoodsModel" get-method="getGoodsModel" set-method="setGoodsModel" usage="optional"/>
+    <value style="element" name="GoodsStandart" get-method="getGoodsStandart" set-method="setGoodsStandart" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:BankMarkType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.BankMarkType">
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getRecipSign" set-method="setRecipSign" usage="optional" name="RecipSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:BankType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.BankType">
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <value style="element" name="BIC" get-method="getBIC" set-method="setBIC" usage="optional"/>
+    <value style="element" name="CorrespAccount" get-method="getCorrespAccount" set-method="setCorrespAccount" usage="optional"/>
+    <value style="element" name="BankPlace" get-method="getBankPlace" set-method="setBankPlace" usage="optional"/>
+    <value style="element" name="PersonalAccount" get-method="getPersonalAccount" set-method="setPersonalAccount" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ContractDeliveryTermsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ContractDeliveryTermsType">
+    <collection get-method="getDeliveryPlaceList" set-method="setDeliveryPlaceList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DeliveryPlace" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DeliveryTermsNumericCode" get-method="getDeliveryTermsNumericCode" set-method="setDeliveryTermsNumericCode" usage="optional"/>
+    <value style="element" name="DeliveryTermsStringCode" get-method="getDeliveryTermsStringCode" set-method="setDeliveryTermsStringCode"/>
+    <collection get-method="getTermsDescriptionList" set-method="setTermsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TermsDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getInvoiceSaleTermList" set-method="setInvoiceSaleTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:InvoiceSaleTermsType" name="InvoiceSaleTerms"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ContractDescriptionType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ContractDescriptionType">
+    <structure map-as="catComFin_ru:ImportContractTermsType"/>
+    <collection get-method="getExchangeClauseList" set-method="setExchangeClauseList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ExchangeClause" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getContractSubjectList" set-method="setContractSubjectList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContractSubject" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ContractTime" get-method="getContractTime" set-method="setContractTime" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AdditionalContractTime" get-method="getAdditionalContractTime" set-method="setAdditionalContractTime" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getOtherTermList" set-method="setOtherTermList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="OtherTerms" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getContractTextList" set-method="setContractTextList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContractText" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DiscountPercentage" get-method="getDiscountPercentage" set-method="setDiscountPercentage" usage="optional"/>
+    <value style="element" name="PaymentPeriod" get-method="getPaymentPeriod" set-method="setPaymentPeriod" usage="optional"/>
+    <value style="element" name="DealSign" get-method="getDealSign" set-method="setDealSign"/>
+    <value style="element" name="PrepaySign" get-method="getPrepaySign" set-method="setPrepaySign" usage="optional"/>
+    <value style="element" name="StockCategorySign" get-method="getStockCategorySign" set-method="setStockCategorySign"/>
+    <value style="element" name="BuyerLimitationSign" get-method="getBuyerLimitationSign" set-method="setBuyerLimitationSign"/>
+    <value style="element" name="InsuranceSign" get-method="getInsuranceSign" set-method="setInsuranceSign"/>
+    <collection get-method="getChangeContractList" set-method="setChangeContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="ChangeContract"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ContractRegistrationType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ContractRegistrationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ContractPlace" get-method="getContractPlace" set-method="setContractPlace" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ContractSpecificationType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ContractSpecificationType">
+    <value style="element" name="ID" get-method="getID" set-method="setID"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <collection get-method="getSpecificationGoodsExtendedList" set-method="setSpecificationGoodsExtendedList" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:SpecificationGoodsExtendedType" name="SpecificationGoodsExtended"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:CustomerType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.CustomerType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <structure map-as="catComFin_ru:BankType" get-method="getBank" set-method="setBank" name="Bank"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:DepartmentalInfoType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.DepartmentalInfoType">
+    <value style="element" name="DrawerStatus" get-method="getDrawerStatus" set-method="setDrawerStatus" usage="optional"/>
+    <value style="element" name="CBC" get-method="getCBC" set-method="setCBC" usage="optional"/>
+    <value style="element" name="OKATO" get-method="getOKATO" set-method="setOKATO" usage="optional"/>
+    <value style="element" name="PaymentReason" get-method="getPaymentReason" set-method="setPaymentReason" usage="optional"/>
+    <value style="element" name="TaxPeriod" get-method="getTaxPeriod" set-method="setTaxPeriod" usage="optional"/>
+    <value style="element" name="DocNo" get-method="getDocNo" set-method="setDocNo" usage="optional"/>
+    <value style="element" name="DocDate" get-method="getDocDate" set-method="setDocDate" usage="optional"/>
+    <value style="element" name="TaxPaymentKind" get-method="getTaxPaymentKind" set-method="setTaxPaymentKind" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ForeignPersonType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ForeignPersonType">
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:GoodsPlaceType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.GoodsPlaceType">
+    <value style="element" name="PlaceKind" get-method="getPlaceKind" set-method="setPlaceKind"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity"/>
+    <value style="element" name="PlaceWeightQuantity" get-method="getPlaceWeightQuantity" set-method="setPlaceWeightQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:GoodsWeightType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.GoodsWeightType">
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ImportContractTermsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ImportContractTermsType">
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount" usage="optional"/>
+    <value style="element" name="Discount" get-method="getDiscount" set-method="setDiscount" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode" usage="optional"/>
+    <collection get-method="getDueDateCodeList" set-method="setDueDateCodeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="DueDateCode" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="LastDate" get-method="getLastDate" set-method="setLastDate" format="LocalDate.default"/>
+    <collection get-method="getPaymentCurrencyCodeList" set-method="setPaymentCurrencyCodeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PaymentCurrencyCode" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:InvoiceGoodsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.InvoiceGoodsType">
+    <value style="element" name="GoodMarking" get-method="getGoodMarking" set-method="setGoodMarking" usage="optional"/>
+    <value style="element" name="GoodsCode" get-method="getGoodsCode" set-method="setGoodsCode" usage="optional"/>
+    <value style="element" name="SupplementaryQualifierName" get-method="getSupplementaryQualifierName" set-method="setSupplementaryQualifierName" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <value style="element" name="Price" get-method="getPrice" set-method="setPrice"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="Discount" get-method="getDiscount" set-method="setDiscount" usage="optional"/>
+    <value style="element" name="DiscountPercentage" get-method="getDiscountPercentage" set-method="setDiscountPercentage" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="ServiceCharges" get-method="getServiceCharges" set-method="setServiceCharges" usage="optional"/>
+    <value style="element" name="TransportCharges" get-method="getTransportCharges" set-method="setTransportCharges" usage="optional"/>
+    <collection get-method="getOtherChargeList" set-method="setOtherChargeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:OtherChargesType" name="OtherCharges"/>
+    </collection>
+    <structure map-as="catComFin_ru:AdditionalGoodsDescriptionType" get-method="getAdditionalGoodsDescription" set-method="setAdditionalGoodsDescription" usage="optional" name="AdditionalGoodsDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:InvoiceParticipantType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.InvoiceParticipantType">
+    <value style="element" name="CompanyID" get-method="getCompanyID" set-method="setCompanyID" usage="optional"/>
+    <value style="element" name="KPPCode" get-method="getKPPCode" set-method="setKPPCode" usage="optional"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:InvoiceSaleTermsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.InvoiceSaleTermsType">
+    <value style="element" name="SaleTermsCode" get-method="getSaleTermsCode" set-method="setSaleTermsCode" usage="optional"/>
+    <value style="element" name="SaleTermsDescription" get-method="getSaleTermsDescription" set-method="setSaleTermsDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:MarkType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.MarkType">
+    <value style="element" name="MarkSing" get-method="getMarkSing" set-method="setMarkSing"/>
+    <value style="element" name="MarkKind" get-method="getMarkKind" set-method="setMarkKind"/>
+    <value style="element" name="ResultControl" get-method="getResultControl" set-method="setResultControl" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:OtherChargesType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.OtherChargesType">
+    <value style="element" name="ChargeType" get-method="getChargeType" set-method="setChargeType" usage="optional"/>
+    <value style="element" name="ChargeAmount" get-method="getChargeAmount" set-method="setChargeAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:PartPaymentType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.PartPaymentType">
+    <value style="element" name="PartPaymentNum" get-method="getPartPaymentNum" set-method="setPartPaymentNum"/>
+    <value style="element" name="PartPaymentPP" get-method="getPartPaymentPP" set-method="setPartPaymentPP"/>
+    <value style="element" name="PartPaymentPPDate" get-method="getPartPaymentPPDate" set-method="setPartPaymentPPDate" format="LocalDate.default"/>
+    <value style="element" name="PartPaymentSumm" get-method="getPartPaymentSumm" set-method="setPartPaymentSumm"/>
+    <value style="element" name="Remainder" get-method="getRemainder" set-method="setRemainder"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPartPaymentSign" set-method="setPartPaymentSign" usage="optional" name="PartPaymentSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:PayCustomerType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.PayCustomerType">
+    <structure map-as="catComFin_ru:CustomerType"/>
+    <value style="element" name="AddInformation" get-method="getAddInformation" set-method="setAddInformation" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:PaymentRequisitionsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.PaymentRequisitionsType">
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="BankName" get-method="getBankName" set-method="setBankName"/>
+    <value style="element" name="BICID" get-method="getBICID" set-method="setBICID" usage="optional"/>
+    <value style="element" name="SWIFTID" get-method="getSWIFTID" set-method="setSWIFTID" usage="optional"/>
+    <value style="element" name="AccountNumeric" get-method="getAccountNumeric" set-method="setAccountNumeric" usage="optional"/>
+    <collection get-method="getCurrentCurrencyAccountList" set-method="setCurrentCurrencyAccountList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CurrentCurrencyAccount" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTransitCurrencyAccountList" set-method="setTransitCurrencyAccountList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TransitCurrencyAccount" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSpecialTransitCurrencyAccountList" set-method="setSpecialTransitCurrencyAccountList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SpecialTransitCurrencyAccount" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RoubleCurrencyAccount" get-method="getRoubleCurrencyAccount" set-method="setRoubleCurrencyAccount" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getBankPostalAddress" set-method="setBankPostalAddress" usage="optional" name="BankPostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:RussianInvoiceGoodsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.RussianInvoiceGoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodMarking" get-method="getGoodMarking" set-method="setGoodMarking" usage="optional"/>
+    <value style="element" name="GoodsCode" get-method="getGoodsCode" set-method="setGoodsCode" usage="optional"/>
+    <value style="element" name="SupplementaryQualifierName" get-method="getSupplementaryQualifierName" set-method="setSupplementaryQualifierName" usage="optional"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="GoodsPrice" get-method="getGoodsPrice" set-method="setGoodsPrice"/>
+    <value style="element" name="GoodsCost" get-method="getGoodsCost" set-method="setGoodsCost"/>
+    <value style="element" name="Exise" get-method="getExise" set-method="setExise" usage="optional"/>
+    <value style="element" name="TaxRate" get-method="getTaxRate" set-method="setTaxRate" usage="optional"/>
+    <value style="element" name="TaxSum" get-method="getTaxSum" set-method="setTaxSum" usage="optional"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="OriginA3CountryCode" get-method="getOriginA3CountryCode" set-method="setOriginA3CountryCode" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <structure map-as="catComFin_ru:AdditionalGoodsDescriptionType" get-method="getAdditionalGoodsDescription" set-method="setAdditionalGoodsDescription" usage="optional" name="AdditionalGoodsDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:ShortCompanyDescType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ShortCompanyDescType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:SpecificationGoodsExtendedType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.SpecificationGoodsExtendedType">
+    <structure map-as="catComFin_ru:SpecificationGoodsType"/>
+    <structure map-as="catComFin_ru:AdditionalGoodsDescriptionType" get-method="getAdditionalGoodsDescription" set-method="setAdditionalGoodsDescription" usage="optional" name="AdditionalGoodsDescription"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:SpecificationGoodsType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.SpecificationGoodsType">
+    <value style="element" name="GoodMarking" get-method="getGoodMarking" set-method="setGoodMarking" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierCode" get-method="getMeasureUnitQualifierCode" set-method="setMeasureUnitQualifierCode" usage="optional"/>
+    <value style="element" name="MeasureUnitQualifierName" get-method="getMeasureUnitQualifierName" set-method="setMeasureUnitQualifierName" usage="optional"/>
+    <value style="element" name="Price" get-method="getPrice" set-method="setPrice" usage="optional"/>
+    <value style="element" name="GCost" get-method="getGCost" set-method="setGCost" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <structure map-as="catComFin_ru:GoodsPlaceType" get-method="getGoodsPlace" set-method="setGoodsPlace" usage="optional" name="GoodsPlace"/>
+    <structure map-as="catComFin_ru:GoodsWeightType" get-method="getGoodsWeight" set-method="setGoodsWeight" usage="optional" name="GoodsWeight"/>
+  </mapping>
+  <mapping abstract="true" type-name="catComFin_ru:TransportMeansType" class="ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.TransportMeansType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="ModeCode" get-method="getModeCode" set-method="setModeCode"/>
+    <value style="element" name="NationalityCode" get-method="getNationalityCode" set-method="setNationalityCode" usage="optional"/>
+    <value style="element" name="MoverIndicator" get-method="getMoverIndicator" set-method="setMoverIndicator" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minf:MonitoringInquiry DocumentModeID="9999004E" xsi:schemaLocation="urn:customs.ru:MonitoringInquiry:1.0.0 MonitoringInquiry.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.2.0" xmlns:minf="urn:customs.ru:MonitoringInquiry:1.0.0">
+	<cat_ru:DocumentID>123456</cat_ru:DocumentID>
+</minf:MonitoringInquiry>

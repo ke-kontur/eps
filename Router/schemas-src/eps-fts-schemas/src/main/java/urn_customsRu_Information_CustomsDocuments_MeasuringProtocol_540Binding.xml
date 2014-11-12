@@ -1,0 +1,137 @@
+<binding xmlns:mp="urn:customs.ru:Information:CustomsDocuments:MeasuringProtocol:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:MeasuringProtocol:5.4.0" default="elements" prefix="mp"/>
+  <mapping abstract="true" type-name="mp:MeasuringProtocolType" class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringProtocolType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="MeasuringDate" get-method="getMeasuringDate" set-method="setMeasuringDate" format="LocalDate.default"/>
+    <value style="element" name="WoodSortiment" get-method="getWoodSortiment" set-method="setWoodSortiment"/>
+    <value style="element" name="WoodKind" get-method="getWoodKind" set-method="setWoodKind"/>
+    <value style="element" name="LogPileQuantity" get-method="getLogPileQuantity" set-method="setLogPileQuantity"/>
+    <value style="element" name="NominalLength" get-method="getNominalLength" set-method="setNominalLength" usage="optional"/>
+    <value style="element" name="Temperature" get-method="getTemperature" set-method="setTemperature"/>
+    <structure map-as="cat_ru:AddressType" get-method="getMeasuringPlace" set-method="setMeasuringPlace" name="MeasuringPlace"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getSeller" set-method="setSeller" name="Seller"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getBuyer" set-method="setBuyer" name="Buyer"/>
+    <structure map-as="cat_ru:AddressType" get-method="getDeparturePlace" set-method="setDeparturePlace" name="DeparturePlace"/>
+    <structure map-as="cat_ru:AddressType" get-method="getDestinationPlace" set-method="setDestinationPlace" name="DestinationPlace"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <collection get-method="getTransportWayBillInfoList" set-method="setTransportWayBillInfoList" create-type="java.util.ArrayList">
+      <structure map-as="mp:TransportWayBillInfoType" name="TransportWayBillInfo"/>
+    </collection>
+    <collection get-method="getLogMeasuringInfoList" set-method="setLogMeasuringInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="mp:LogMeasuringInfoType" name="LogMeasuringInfo"/>
+    </collection>
+    <collection get-method="getMeasuringEquipmentList" set-method="setMeasuringEquipmentList" create-type="java.util.ArrayList">
+      <structure map-as="mp:MeasuringEquipmentType" name="MeasuringEquipment"/>
+    </collection>
+    <collection get-method="getMeasuringPersonList" set-method="setMeasuringPersonList" create-type="java.util.ArrayList">
+      <structure map-as="mp:MeasuringPersonType" name="MeasuringPerson"/>
+    </collection>
+    <collection get-method="getMeasuringResultList" set-method="setMeasuringResultList" create-type="java.util.ArrayList">
+      <structure map-as="mp:MeasuringResultsType" name="MeasuringResults"/>
+    </collection>
+    <collection get-method="getMeasuringTransportLogList" set-method="setMeasuringTransportLogList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="mp:MeasuringTransportLogsType" name="MeasuringTransportLogs"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringProtocolType" name="MeasuringProtocol">
+    <structure map-as="mp:MeasuringProtocolType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:LogFactLengthType" class="ru.acs.fts.schemas.album.measuringprotocol.LogFactLengthType">
+    <value style="element" name="LogNumber" get-method="getLogNumber" set-method="setLogNumber"/>
+    <value style="element" name="FactLength" get-method="getFactLength" set-method="setFactLength"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:LogMeasuringInfoType" class="ru.acs.fts.schemas.album.measuringprotocol.LogMeasuringInfoType">
+    <value style="element" name="LogSerialNumber" get-method="getLogSerialNumber" set-method="setLogSerialNumber"/>
+    <value style="element" name="FactLength" get-method="getFactLength" set-method="setFactLength"/>
+    <value style="element" name="FactVolume" get-method="getFactVolume" set-method="setFactVolume"/>
+    <value style="element" name="NominalVolume" get-method="getNominalVolume" set-method="setNominalVolume" usage="optional"/>
+    <value style="element" name="NominalVolume2" get-method="getNominalVolume2" set-method="setNominalVolume2" usage="optional"/>
+    <value style="element" name="LogRise" get-method="getLogRise" set-method="setLogRise" usage="optional"/>
+    <collection get-method="getMeasuringDetailList" set-method="setMeasuringDetailList" create-type="java.util.ArrayList">
+      <structure map-as="mp:MeasuringDetailsType" name="MeasuringDetails"/>
+    </collection>
+    <structure map-as="mp:TabularValuesType" get-method="getTabularValues" set-method="setTabularValues" usage="optional" name="TabularValues"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:MeasuringDetailsType" class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringDetailsType">
+    <value style="element" name="BarkSign" get-method="getBarkSign" set-method="setBarkSign"/>
+    <value style="element" name="MeasureSign" get-method="getMeasureSign" set-method="setMeasureSign"/>
+    <value style="element" name="FirstMeasureValue" get-method="getFirstMeasureValue" set-method="setFirstMeasureValue"/>
+    <value style="element" name="SecondMeasureValue" get-method="getSecondMeasureValue" set-method="setSecondMeasureValue"/>
+    <value style="element" name="AverageValue" get-method="getAverageValue" set-method="setAverageValue"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:MeasuringEquipmentType" class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringEquipmentType">
+    <value style="element" name="EquipmentName" get-method="getEquipmentName" set-method="setEquipmentName"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+    <structure map-as="mp:VerificationType" get-method="getVerification" set-method="setVerification" name="Verification"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:MeasuringPersonType" class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringPersonType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="PersonSign" get-method="getPersonSign" set-method="setPersonSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:MeasuringResultsType" class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringResultsType">
+    <value style="element" name="BarkSign" get-method="getBarkSign" set-method="setBarkSign"/>
+    <value style="element" name="MeasureValue" get-method="getMeasureValue" set-method="setMeasureValue" usage="optional"/>
+    <value style="element" name="AbsoluteError" get-method="getAbsoluteError" set-method="setAbsoluteError" usage="optional"/>
+    <value style="element" name="ResultMeasureValue" get-method="getResultMeasureValue" set-method="setResultMeasureValue" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:MeasuringTransportLogsType" class="ru.acs.fts.schemas.album.measuringprotocol.MeasuringTransportLogsType">
+    <value style="element" name="TransportType" get-method="getTransportType" set-method="setTransportType"/>
+    <value style="element" name="TransportIdentifier" get-method="getTransportIdentifier" set-method="setTransportIdentifier"/>
+    <collection get-method="getPileMeasuringInfoList" set-method="setPileMeasuringInfoList" create-type="java.util.ArrayList">
+      <structure map-as="mp:PileMeasuringInfoType" name="PileMeasuringInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="mp:PileMeasuringInfoType" class="ru.acs.fts.schemas.album.measuringprotocol.PileMeasuringInfoType">
+    <value style="element" name="PileSerialNumber" get-method="getPileSerialNumber" set-method="setPileSerialNumber"/>
+    <value style="element" name="NominalLength" get-method="getNominalLength" set-method="setNominalLength" usage="optional"/>
+    <value style="element" name="MeasuredLogsQuantity" get-method="getMeasuredLogsQuantity" set-method="setMeasuredLogsQuantity"/>
+    <value style="element" name="LengthDifference" get-method="getLengthDifference" set-method="setLengthDifference"/>
+    <value style="element" name="FactLength" get-method="getFactLength" set-method="setFactLength"/>
+    <value style="element" name="SideHeight1" get-method="getSideHeight1" set-method="setSideHeight1"/>
+    <value style="element" name="SideHeight2" get-method="getSideHeight2" set-method="setSideHeight2"/>
+    <value style="element" name="PileHeight" get-method="getPileHeight" set-method="setPileHeight"/>
+    <value style="element" name="LowerLayerHeight" get-method="getLowerLayerHeight" set-method="setLowerLayerHeight" usage="optional"/>
+    <value style="element" name="RubbishLayerHeight" get-method="getRubbishLayerHeight" set-method="setRubbishLayerHeight" usage="optional"/>
+    <value style="element" name="InnerLayer" get-method="getInnerLayer" set-method="setInnerLayer" usage="optional"/>
+    <value style="element" name="PileHeightCalculated" get-method="getPileHeightCalculated" set-method="setPileHeightCalculated" usage="optional"/>
+    <value style="element" name="PileWidth" get-method="getPileWidth" set-method="setPileWidth"/>
+    <value style="element" name="BarkNominalVolume" get-method="getBarkNominalVolume" set-method="setBarkNominalVolume"/>
+    <value style="element" name="FactlVolumeVL" get-method="getFactlVolumeVL" set-method="setFactlVolumeVL"/>
+    <value style="element" name="WidthSpan" get-method="getWidthSpan" set-method="setWidthSpan"/>
+    <value style="element" name="LoadingForm" get-method="getLoadingForm" set-method="setLoadingForm" usage="optional"/>
+    <value style="element" name="WoodCoefficient" get-method="getWoodCoefficient" set-method="setWoodCoefficient"/>
+    <value style="element" name="BarkCoefficient" get-method="getBarkCoefficient" set-method="setBarkCoefficient"/>
+    <value style="element" name="NominalVolume" get-method="getNominalVolume" set-method="setNominalVolume"/>
+    <value style="element" name="FactlVolumeVKL" get-method="getFactlVolumeVKL" set-method="setFactlVolumeVKL"/>
+    <collection get-method="getLogFactLengthList" set-method="setLogFactLengthList" create-type="java.util.ArrayList">
+      <structure map-as="mp:LogFactLengthType" name="LogFactLength"/>
+    </collection>
+    <collection get-method="getPileMeasuringResultList" set-method="setPileMeasuringResultList" create-type="java.util.ArrayList">
+      <structure map-as="mp:MeasuringResultsType" name="PileMeasuringResults"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="mp:TabularValuesType" class="ru.acs.fts.schemas.album.measuringprotocol.TabularValuesType">
+    <value style="element" name="VolumeCoefficient" get-method="getVolumeCoefficient" set-method="setVolumeCoefficient"/>
+    <value style="element" name="TabularLength" get-method="getTabularLength" set-method="setTabularLength"/>
+    <value style="element" name="TabularVolume1" get-method="getTabularVolume1" set-method="setTabularVolume1" usage="optional"/>
+    <value style="element" name="TabularDiameter" get-method="getTabularDiameter" set-method="setTabularDiameter"/>
+    <value style="element" name="TabularVolume4" get-method="getTabularVolume4" set-method="setTabularVolume4" usage="optional"/>
+    <value style="element" name="LengthRatio" get-method="getLengthRatio" set-method="setLengthRatio"/>
+  </mapping>
+  <mapping abstract="true" type-name="mp:TransportWayBillInfoType" class="ru.acs.fts.schemas.album.measuringprotocol.TransportWayBillInfoType">
+    <value style="element" name="WayBillNumber" get-method="getWayBillNumber" set-method="setWayBillNumber"/>
+    <collection get-method="getTransportList" set-method="setTransportList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="Transport"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="mp:VerificationType" class="ru.acs.fts.schemas.album.measuringprotocol.VerificationType">
+    <value style="element" name="VerificationDate" get-method="getVerificationDate" set-method="setVerificationDate" format="LocalDate.default"/>
+    <value style="element" name="VerificationOrg" get-method="getVerificationOrg" set-method="setVerificationOrg"/>
+    <value style="element" name="VerificationCertificate" get-method="getVerificationCertificate" set-method="setVerificationCertificate" usage="optional"/>
+  </mapping>
+</binding>

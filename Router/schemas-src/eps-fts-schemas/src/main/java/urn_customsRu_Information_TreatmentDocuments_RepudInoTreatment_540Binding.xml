@@ -1,0 +1,22 @@
+<binding xmlns:rdt="urn:customs.ru:Information:TreatmentDocuments:RepudInoTreatment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:RepudInoTreatment:5.4.0" default="elements" prefix="rdt"/>
+  <mapping abstract="true" type-name="rdt:RepudInoTreatmentType" class="ru.acs.fts.schemas.album.repudinotreatment.RepudInoTreatmentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber" usage="optional"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getRepudReasonList" set-method="setRepudReasonList" create-type="java.util.ArrayList">
+      <structure map-as="rdt:RepudReasonType" name="RepudReason"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.repudinotreatment.RepudInoTreatmentType" name="RepudInoTreatment">
+    <structure map-as="rdt:RepudInoTreatmentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rdt:RepudReasonType" class="ru.acs.fts.schemas.album.repudinotreatment.RepudReasonType">
+    <value style="element" name="ReasonDescription" get-method="getReasonDescription" set-method="setReasonDescription"/>
+  </mapping>
+</binding>

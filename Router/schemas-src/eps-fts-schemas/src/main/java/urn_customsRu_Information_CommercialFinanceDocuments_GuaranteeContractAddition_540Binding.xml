@@ -1,0 +1,33 @@
+<binding xmlns:gcadd="urn:customs.ru:Information:CommercialFinanceDocuments:GuaranteeContractAddition:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:GuaranteeContractAddition:5.4.0" default="elements" prefix="gcadd"/>
+  <mapping abstract="true" type-name="gcadd:GuaranteeContractAdditionType" class="ru.acs.fts.schemas.album.guaranteecontractaddition.GuaranteeContractAdditionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DutyAmount" get-method="getDutyAmount" set-method="setDutyAmount"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="ValidityDate" get-method="getValidityDate" set-method="setValidityDate" format="LocalDate.default"/>
+    <structure map-as="gcadd:OrganizationInfoType" get-method="getGuarantor" set-method="setGuarantor" name="Guarantor"/>
+    <structure map-as="gcadd:OrganizationInfoType" get-method="getPaymentProvider" set-method="setPaymentProvider" usage="optional" name="PaymentProvider"/>
+    <structure map-as="gcadd:OrganizationInfoType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="gcadd:DocumentInfoType" get-method="getTransportDocument" set-method="setTransportDocument" usage="optional" name="TransportDocument"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getGuaranteeDocument" set-method="setGuaranteeDocument" name="GuaranteeDocument"/>
+    <collection get-method="getCommercialDocumentList" set-method="setCommercialDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gcadd:DocumentInfoType" name="CommercialDocument"/>
+    </collection>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getArrivalCustoms" set-method="setArrivalCustoms" usage="optional" name="ArrivalCustoms"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getDepatureCustoms" set-method="setDepatureCustoms" usage="optional" name="DepatureCustoms"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" usage="optional" name="RegNumberDT"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteecontractaddition.GuaranteeContractAdditionType" name="GuaranteeContractAddition">
+    <structure map-as="gcadd:GuaranteeContractAdditionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcadd:DocumentInfoType" class="ru.acs.fts.schemas.album.guaranteecontractaddition.DocumentInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentCode" get-method="getDocumentCode" set-method="setDocumentCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcadd:OrganizationInfoType" class="ru.acs.fts.schemas.album.guaranteecontractaddition.OrganizationInfoType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+</binding>

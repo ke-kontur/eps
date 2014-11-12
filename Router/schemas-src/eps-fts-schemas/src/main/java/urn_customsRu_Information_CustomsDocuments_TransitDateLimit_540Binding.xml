@@ -1,0 +1,25 @@
+<binding xmlns:tdl="urn:customs.ru:Information:CustomsDocuments:TransitDateLimit:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TransitDateLimit:5.4.0" default="elements" prefix="tdl"/>
+  <mapping abstract="true" type-name="tdl:TransitDateLimitType" class="ru.acs.fts.schemas.album.transitdatelimit.TransitDateLimitType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <value style="element" name="DocDate" get-method="getDocDate" set-method="setDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocTime" get-method="getDocTime" set-method="setDocTime" usage="optional"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason" usage="optional"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTD" get-method="getTD" set-method="setTD" usage="optional" name="TD"/>
+      <structure map-as="tdl:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+    </structure>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transitdatelimit.TransitDateLimitType" name="TransitDateLimit">
+    <structure map-as="tdl:TransitDateLimitType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tdl:TIRIDType" class="ru.acs.fts.schemas.album.transitdatelimit.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+</binding>

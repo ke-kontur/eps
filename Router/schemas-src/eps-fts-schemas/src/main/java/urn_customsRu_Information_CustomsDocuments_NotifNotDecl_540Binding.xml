@@ -1,0 +1,16 @@
+<binding xmlns:nnt="urn:customs.ru:Information:CustomsDocuments:NotifNotDecl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifNotDecl:5.4.0" default="elements" prefix="nnt"/>
+  <mapping abstract="true" type-name="nnt:NotifNotDeclType" class="ru.acs.fts.schemas.album.notifnotdecl.NotifNotDeclType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifnotdecl.NotifNotDeclType" name="NotifNotDecl">
+    <structure map-as="nnt:NotifNotDeclType"/>
+  </mapping>
+</binding>

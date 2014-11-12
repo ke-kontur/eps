@@ -1,0 +1,48 @@
+<binding xmlns:rskrad="urn:customs.ru:Information:SQDocuments:RosKomRadio:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:sq_cat="urn:customs.ru:Information:SQDocuments:SQCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RosKomRadio:5.4.0" default="elements" prefix="rskrad"/>
+  <mapping abstract="true" type-name="rskrad:RosKomRadioType" class="ru.acs.fts.schemas.album.roskomradio.RosKomRadioType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="OutDate" get-method="getOutDate" set-method="setOutDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ImportObjective" get-method="getImportObjective" set-method="setImportObjective" usage="optional"/>
+    <value style="element" name="RequesterName" get-method="getRequesterName" set-method="setRequesterName" usage="optional"/>
+    <value style="element" name="PermissionOrganName" get-method="getPermissionOrganName" set-method="setPermissionOrganName" usage="optional"/>
+    <structure map-as="rskrad:DocInfoType" get-method="getDocumentInfo" set-method="setDocumentInfo" name="DocumentInfo"/>
+    <structure map-as="rskrad:OwnerType" get-method="getOwner" set-method="setOwner" usage="optional" name="Owner"/>
+    <collection get-method="getResItemList" set-method="setResItemList" create-type="java.util.ArrayList">
+      <structure map-as="rskrad:ResItemType" name="ResItem"/>
+    </collection>
+    <collection get-method="getContractList" set-method="setContractList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Contract"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional" name="OrganizationName"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSigner" set-method="setSigner" name="Signer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.roskomradio.RosKomRadioType" name="RosKomRadio">
+    <structure map-as="rskrad:RosKomRadioType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rskrad:DocInfoType" class="ru.acs.fts.schemas.album.roskomradio.DocInfoType">
+    <structure map-as="sq_cat:DocumentType"/>
+    <value style="element" name="DocId" get-method="getDocId" set-method="setDocId" usage="optional"/>
+    <value style="element" name="DocType" get-method="getDocType" set-method="setDocType" usage="optional"/>
+    <value style="element" name="ChangeDate" get-method="getChangeDate" set-method="setChangeDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rskrad:OwnerType" class="ru.acs.fts.schemas.album.roskomradio.OwnerType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="OwnerId" get-method="getOwnerId" set-method="setOwnerId" usage="optional"/>
+    <value style="element" name="OwnerVersionId" get-method="getOwnerVersionId" set-method="setOwnerVersionId" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rskrad:ResItemType" class="ru.acs.fts.schemas.album.roskomradio.ResItemType">
+    <value style="element" name="ResType" get-method="getResType" set-method="setResType" usage="optional"/>
+    <value style="element" name="Numeric" get-method="getNumeric" set-method="setNumeric"/>
+    <value style="element" name="Model" get-method="getModel" set-method="setModel" usage="optional"/>
+    <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+    <collection get-method="getCountryList" set-method="setCountryList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Country" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+  </mapping>
+</binding>

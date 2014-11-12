@@ -1,0 +1,67 @@
+<entity-mappings 
+		xmlns="http://java.sun.com/xml/ns/persistence/orm" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm 
+							http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"
+		version="1.0">
+		
+	<entity class="ru.acs.fts.aly.model.entities.AlyMessage" />
+	<entity class="ru.acs.fts.aly.model.entities.AlyXmlData" />
+	<entity class="ru.acs.fts.aly.model.entities.AlyEsadDiff" />
+	<entity class="ru.acs.fts.aly.model.entities.AlyEsadRepl" />
+	<entity class="ru.acs.fts.aly.model.entities.AlyRzdReports" />
+	<entity class="ru.acs.fts.aly.model.entities.AlyRzdReportsMaking" />
+	
+   <entity class="ru.acs.fts.eps2.model.entities.AudInternalCommand" />
+   <entity class="ru.acs.fts.eps2.model.entities.AlyInternalCommand" />
+   <entity class="ru.acs.fts.eps2.model.entities.AudMessageType" />
+   <entity class="ru.acs.fts.eps2.model.entities.AlyMessageType" />
+   <entity class="ru.acs.fts.eps2.model.entities.Edarch_Archive"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edarch_Reqinfo"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edarch_Archive_Docs"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edarch_Archive_Docs_WithContent"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edarch_Read_Access"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Album_Doclist"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Customs"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Docmodeid_Msgtype"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Documenttype"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Errlist"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Error_Msg"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_G44_Docmodid"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Ipslist"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Ips_Tech"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Messages"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Msg_Doc"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Notuniq_Msg_Doc"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Participant"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Proc_Information"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Procstate"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Rcd"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Reqdoc_Info"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Result"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Softversion"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_State_Transmissions"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Statuslist"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Statemodel_Type"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Substatus_State"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Techlist"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Udcustlist"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edecl_Wmqaddress"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edmac_Organization"/>
+   <entity class="ru.acs.fts.eps2.model.entities.Edmac_Person"/>
+   <entity class="ru.acs.fts.eps2.model.entities.M_Edecl_Procinf"/>
+   <entity class="ru.acs.fts.eps2.model.entities.ExtRtuRouting" />
+   <entity class="ru.acs.fts.eps2.model.entities.ExtEadManifest" />
+   <entity class="ru.acs.fts.eps2.model.entities.Ecop" />
+   <entity class="ru.acs.fts.eps2.model.entities.Ecop1" />
+   <entity class="ru.acs.fts.eps2.model.entities.Ecop2" />
+   <entity class="ru.acs.fts.eps2.model.entities.Ecop3" />
+   <entity class="ru.acs.fts.eps2.model.entities.Ecop4" />
+   <entity class="ru.acs.fts.eps2.model.entities.RzdSendCommands" />
+   <entity class="ru.acs.fts.eps2.model.entities.EdeclMsgList" />
+   <entity class="ru.acs.fts.eps2.model.entities.EdeclAlbumDocList" />
+   <entity class="ru.acs.fts.eps2.model.entities.ProcParticipantAccess" />
+   <entity class="ru.acs.fts.eps2.model.entities.MessageLineage" />
+	
+				
+</entity-mappings>

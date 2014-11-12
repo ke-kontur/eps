@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <bean class="ru.acs.monitoring.settings.POP3MonitoringSettings">
+        <property name="mailboxName" value="mainBox" />
+        <property name="pathToMailbox" value="c://some/path/to/mailbox" />
+        <property name="maxMessagesCountInMailbox" value="30" />
+    </bean>
+</beans>
+-->
+<monitoring xmlns="http://acs.ru/schema/monitoring-agent"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://acs.ru/schema/monitoring-agent
+       http://acs.ru/schema/monitoring/monitoring-agent.xsd">
+
+    <mailbox mailboxName="main" path="C://path/to/mailbox" maxMessagesCount="100" delay="600000"/>
+
+</monitoring>

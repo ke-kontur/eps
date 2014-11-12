@@ -1,0 +1,17 @@
+<binding xmlns:ment="urn:customs.ru:Information:CommercialFinanceDocuments:ReceiptPayment:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:ReceiptPayment:5.4.0" default="elements" prefix="ment"/>
+  <mapping abstract="true" type-name="ment:ReceiptPaymentType" class="ru.acs.fts.schemas.album.receiptpayment.ReceiptPaymentType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CheckNumber" get-method="getCheckNumber" set-method="setCheckNumber"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="ment:PaymentDocumentType" name="PaymentDocument"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.receiptpayment.ReceiptPaymentType" name="ReceiptPayment">
+    <structure map-as="ment:ReceiptPaymentType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ment:PaymentDocumentType" class="ru.acs.fts.schemas.album.receiptpayment.PaymentDocumentType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

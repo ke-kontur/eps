@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by pdp (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:idtr="urn:customs.ru:Information:AdminCommandED:INT_DTRequest:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:AdminCommandED:INT_DTRequest:4.6.0" elementFormDefault="qualified" version="4.6.0.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Запрос документов из электронного архива декларанта</xs:documentation>
+	</xs:annotation>
+	<xs:element name="INT_DTRequest" type="idtr:INT_DTRequestType"/>
+	<xs:complexType name="INT_DTRequestType">
+		<xs:annotation>
+			<xs:documentation>Запрос предварительной декларации на товары</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="SoftVersionID" type="IEclt_ru:DocumentIDType"/>
+					<xs:element name="DT" type="idtr:GTDIDType"/>
+					<xs:element name="RequestCustomsCode" type="IEclt_ru:CustomsCodeType"/>
+					<xs:element name="CustomsPerson" type="idtr:CustomsPersonType"/>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090010E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="GTDIDType">
+		<xs:annotation>
+			<xs:documentation>Регистрационный номер таможенного документа.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomsCode" type="IEclt_ru:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа, зарегистрировавшего документ.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistrationDate" type="IEclt_ru:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата регистрации документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="GTDNumber" type="IEclt_ru:GTDIDType">
+				<xs:annotation>
+					<xs:documentation>Порядковый номер документа по журналу регистрации.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CustomsPersonType">
+		<xs:annotation>
+			<xs:documentation>Лицо, запросившее ДТ</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PersonName" type="IEclt_ru:NameType">
+				<xs:annotation>
+					<xs:documentation>ФИО лица, запросившего ДТ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LNP" type="IEclt_ru:Text50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЛНП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

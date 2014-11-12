@@ -1,0 +1,17 @@
+<binding xmlns:ngt="urn:customs.ru:Information:ExchangeDocuments:NotifGoodsTimeOut:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifGoodsTimeOut:5.4.0" default="elements" prefix="ngt"/>
+  <mapping abstract="true" type-name="ngt:NotifGoodsTimeOutType" class="ru.acs.fts.schemas.album.notifgoodstimeout.NotifGoodsTimeOutType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="StateChDate" get-method="getStateChDate" set-method="setStateChDate" format="LocalDate.default"/>
+    <value style="element" name="StateChTime" get-method="getStateChTime" set-method="setStateChTime"/>
+    <value style="element" name="ProcessID" get-method="getProcessID" set-method="setProcessID"/>
+    <value style="element" name="ProcState" get-method="getProcState" set-method="setProcState"/>
+    <value style="element" name="StateDescription" get-method="getStateDescription" set-method="setStateDescription" usage="optional"/>
+    <value style="element" name="PrevProcState" get-method="getPrevProcState" set-method="setPrevProcState"/>
+    <value style="element" name="PrevStateDescription" get-method="getPrevStateDescription" set-method="setPrevStateDescription" usage="optional"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgoodstimeout.NotifGoodsTimeOutType" name="NotifGoodsTimeOut">
+    <structure map-as="ngt:NotifGoodsTimeOutType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,36 @@
+<binding xmlns:docm="urn:customs.ru:Information:CustomsDocuments:DTSOutCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:cat_EDTS_ru="urn:customs.ru:RUESADDTSCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DTSOutCustomsMark:5.4.0" default="elements" prefix="docm"/>
+  <mapping abstract="true" type-name="docm:DTSOutCustomsMarkType" class="ru.acs.fts.schemas.album.dtsoutcustomsmark.DTSOutCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DTSDocumentID" get-method="getDTSDocumentID" set-method="setDTSDocumentID"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID"/>
+    <structure map-as="docm:DTSOuDecisionType" get-method="getDTSOutCostDecision" set-method="setDTSOutCostDecision" name="DTSOutCostDecision"/>
+    <structure map-as="docm:DTSOuDecisionType" get-method="getDTSOutRecallDecision" set-method="setDTSOutRecallDecision" usage="optional" name="DTSOutRecallDecision"/>
+    <collection get-method="getDTSOutMarkList" set-method="setDTSOutMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="docm:DTSOutMarksType" name="DTSOutMarks"/>
+    </collection>
+    <collection get-method="getDTSOutGoodsMarkList" set-method="setDTSOutGoodsMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="docm:DTSOutGoodsResultType" name="DTSOutGoodsMark"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.dtsoutcustomsmark.DTSOutCustomsMarkType" name="DTSOutCustomsMark">
+    <structure map-as="docm:DTSOutCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="docm:DTSOuDecisionType" class="ru.acs.fts.schemas.album.dtsoutcustomsmark.DTSOuDecisionType">
+    <structure map-as="cat_EDTS_ru:CustomsCostDecisionType"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="docm:DTSOutGoodsResultType" class="ru.acs.fts.schemas.album.dtsoutcustomsmark.DTSOutGoodsResultType">
+    <value style="element" name="GTDGoodsNumber" get-method="getGTDGoodsNumber" set-method="setGTDGoodsNumber"/>
+    <structure map-as="docm:DTSOuDecisionType" get-method="getDTSGoodsCostDecision" set-method="setDTSGoodsCostDecision" usage="optional" name="DTSGoodsCostDecision"/>
+    <structure map-as="docm:DTSOuDecisionType" get-method="getDTSGoodsRecallDecision" set-method="setDTSGoodsRecallDecision" usage="optional" name="DTSGoodsRecallDecision"/>
+  </mapping>
+  <mapping abstract="true" type-name="docm:DTSOutMarksType" class="ru.acs.fts.schemas.album.dtsoutcustomsmark.DTSOutMarksType">
+    <structure map-as="cat_EDTS_ru:DTSOfficialMarkType"/>
+    <value style="element" name="IdentifierDescription" get-method="getIdentifierDescription" set-method="setIdentifierDescription" usage="optional"/>
+  </mapping>
+</binding>

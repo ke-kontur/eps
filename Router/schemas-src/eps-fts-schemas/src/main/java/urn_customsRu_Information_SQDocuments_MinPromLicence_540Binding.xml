@@ -1,0 +1,75 @@
+<binding xmlns:minprl="urn:customs.ru:Information:SQDocuments:MinPromLicence:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MinPromLicence:5.4.0" default="elements" prefix="minprl"/>
+  <mapping abstract="true" type-name="minprl:MinPromLicenceType" class="ru.acs.fts.schemas.album.minpromlicence.MinPromLicenceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="IsCanceled" get-method="getIsCanceled" set-method="setIsCanceled" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="NomenclatureCode" get-method="getNomenclatureCode" set-method="setNomenclatureCode"/>
+    <value style="element" name="NomenclatureDescription" get-method="getNomenclatureDescription" set-method="setNomenclatureDescription"/>
+    <value style="element" name="AddInfo" get-method="getAddInfo" set-method="setAddInfo" usage="optional"/>
+    <value style="element" name="AddendumTotalPages" get-method="getAddendumTotalPages" set-method="setAddendumTotalPages" usage="optional"/>
+    <structure map-as="minprl:LicenceInfoType" get-method="getLicense" set-method="setLicense" name="License"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <structure map-as="minprl:DealerType" get-method="getDealer" set-method="setDealer" name="Dealer"/>
+    <structure map-as="minprl:CountryType" get-method="getCountry7Info" set-method="setCountry7Info" name="Country7Info"/>
+    <structure map-as="minprl:CountryType" get-method="getOriginCountry" set-method="setOriginCountry" name="OriginCountry"/>
+    <structure map-as="minprl:CostType" get-method="getCost" set-method="setCost" name="Cost"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantity" set-method="setQuantity" name="Quantity"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getAddQuantity" set-method="setAddQuantity" name="AddQuantity"/>
+    <structure map-as="minprl:BlankType" get-method="getBlank" set-method="setBlank" name="Blank"/>
+    <collection get-method="getAddendumList" set-method="setAddendumList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="minprl:LicAddendumItemType" name="Addendum"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.minpromlicence.MinPromLicenceType" name="MinPromLicence">
+    <structure map-as="minprl:MinPromLicenceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:BlankType" class="ru.acs.fts.schemas.album.minpromlicence.BlankType">
+    <value style="element" name="BlankSer" get-method="getBlankSer" set-method="setBlankSer"/>
+    <value style="element" name="BlankNum" get-method="getBlankNum" set-method="setBlankNum"/>
+    <value style="element" name="BlankType" get-method="getBlankType" set-method="setBlankType"/>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:CostType" class="ru.acs.fts.schemas.album.minpromlicence.CostType">
+    <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode"/>
+    <value style="element" name="ContractCurrencyName" get-method="getContractCurrencyName" set-method="setContractCurrencyName"/>
+    <value style="element" name="CurrencyCost" get-method="getCurrencyCost" set-method="setCurrencyCost" usage="optional"/>
+    <value style="element" name="StatCost" get-method="getStatCost" set-method="setStatCost" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:CountryType" class="ru.acs.fts.schemas.album.minpromlicence.CountryType">
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+    <value style="element" name="CountryAlpha2" get-method="getCountryAlpha2" set-method="setCountryAlpha2" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:DealerType" class="ru.acs.fts.schemas.album.minpromlicence.DealerType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getDealerAddress" set-method="setDealerAddress" name="DealerAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:DocumentType" class="ru.acs.fts.schemas.album.minpromlicence.DocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:LicAddendumItemType" class="ru.acs.fts.schemas.album.minpromlicence.LicAddendumItemType">
+    <value style="element" name="PositionNumber" get-method="getPositionNumber" set-method="setPositionNumber"/>
+    <collection get-method="getCommodityNameList" set-method="setCommodityNameList" create-type="java.util.ArrayList">
+      <value style="element" name="CommodityName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost"/>
+    <value style="element" name="PageNumber" get-method="getPageNumber" set-method="setPageNumber" usage="optional"/>
+    <collection get-method="getLicAddendumMeasureItemList" set-method="setLicAddendumMeasureItemList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:SupplementaryQuantityType" name="LicAddendumMeasureItem"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="minprl:LicenceInfoType" class="ru.acs.fts.schemas.album.minpromlicence.LicenceInfoType">
+    <value style="element" name="DateTo" get-method="getDateTo" set-method="setDateTo" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="LicType" get-method="getLicType" set-method="setLicType"/>
+    <value style="element" name="LicOperation" get-method="getLicOperation" set-method="setLicOperation"/>
+    <value style="element" name="DepartmentShortName" get-method="getDepartmentShortName" set-method="setDepartmentShortName" usage="optional"/>
+    <value style="element" name="DepartmentCode" get-method="getDepartmentCode" set-method="setDepartmentCode" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getLicence" set-method="setLicence" name="Licence"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getHolder" set-method="setHolder" name="Holder"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="minprl:DocumentType" name="Reason"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getSignPerson" set-method="setSignPerson" name="SignPerson"/>
+  </mapping>
+</binding>

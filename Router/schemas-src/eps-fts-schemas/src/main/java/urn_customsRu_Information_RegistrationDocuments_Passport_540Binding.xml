@@ -1,0 +1,25 @@
+<binding xmlns:pass="urn:customs.ru:Information:RegistrationDocuments:Passport:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:RegistrationDocuments:Passport:5.4.0" default="elements" prefix="pass"/>
+  <mapping abstract="true" type-name="pass:PassportType" class="ru.acs.fts.schemas.album.passport.PassportType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CardSeries" get-method="getCardSeries" set-method="setCardSeries"/>
+    <value style="element" name="CardNumber" get-method="getCardNumber" set-method="setCardNumber"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="CardDate" get-method="getCardDate" set-method="setCardDate" format="LocalDate.default"/>
+    <value style="element" name="OrgCode" get-method="getOrgCode" set-method="setOrgCode" usage="optional"/>
+    <structure map-as="pass:PersonInfoType" get-method="getPersonInfo" set-method="setPersonInfo" name="PersonInfo"/>
+    <structure map-as="cat_ru:AddressType" get-method="getResidencePlace" set-method="setResidencePlace" usage="optional" name="ResidencePlace"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.passport.PassportType" name="Passport">
+    <structure map-as="pass:PassportType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pass:PersonInfoType" class="ru.acs.fts.schemas.album.passport.PersonInfoType">
+    <value style="element" name="PersonSurname" get-method="getPersonSurname" set-method="setPersonSurname"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="PersonMiddleName" get-method="getPersonMiddleName" set-method="setPersonMiddleName" usage="optional"/>
+    <value style="element" name="Sex" get-method="getSex" set-method="setSex"/>
+    <value style="element" name="Birthday" get-method="getBirthday" set-method="setBirthday" format="LocalDate.default"/>
+    <value style="element" name="Birthplace" get-method="getBirthplace" set-method="setBirthplace" usage="optional"/>
+  </mapping>
+</binding>

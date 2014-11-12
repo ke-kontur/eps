@@ -1,0 +1,59 @@
+<binding xmlns:radde="urn:customs.ru:Information:ExchangeDocuments:NotifAddControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifAddControl:5.4.0" default="elements" prefix="radde"/>
+  <mapping abstract="true" type-name="radde:NotifAddControlType" class="ru.acs.fts.schemas.album.notifaddcontrol.NotifAddControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ResolDate" get-method="getResolDate" set-method="setResolDate" format="LocalDate.default"/>
+    <value style="element" name="OfficeName" get-method="getOfficeName" set-method="setOfficeName"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <collection get-method="getViolationList" set-method="setViolationList" create-type="java.util.ArrayList">
+      <value style="element" name="Violations" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DateOut" get-method="getDateOut" set-method="setDateOut" format="LocalDate.default"/>
+    <value style="element" name="DeclName" get-method="getDeclName" set-method="setDeclName"/>
+    <collection get-method="getFoundInfoList" set-method="setFoundInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="FoundInfo" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCauseDocumentList" set-method="setCauseDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CauseDocuments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ArtCauseDoc" get-method="getArtCauseDoc" set-method="setArtCauseDoc" usage="optional"/>
+    <value style="element" name="ArtControl" get-method="getArtControl" set-method="setArtControl" usage="optional"/>
+    <collection get-method="getActionOutList" set-method="setActionOutList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ActionOut" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="NotifType" get-method="getNotifType" set-method="setNotifType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <collection get-method="getCustomsCostInfList" set-method="setCustomsCostInfList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="radde:CustomsCostInfType" name="CustomsCostInf"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="radde:SignatureInfType" get-method="getReceivingResolution" set-method="setReceivingResolution" usage="optional" name="ReceivingResolution"/>
+    <structure map-as="radde:SignatureInfType" get-method="getSendResolution" set-method="setSendResolution" name="SendResolution"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifaddcontrol.NotifAddControlType" name="NotifAddControl">
+    <structure map-as="radde:NotifAddControlType"/>
+  </mapping>
+  <mapping abstract="true" type-name="radde:CustomsCostInfType" class="ru.acs.fts.schemas.album.notifaddcontrol.CustomsCostInfType">
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <collection get-method="getCustCostInfList" set-method="setCustCostInfList" create-type="java.util.ArrayList">
+      <value style="element" name="CustCostInf" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comment" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getReqDocumentList" set-method="setReqDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="radde:ReqDocumentType" name="ReqDocuments"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="radde:ReqDocumentType" class="ru.acs.fts.schemas.album.notifaddcontrol.ReqDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="RequestPositionID" get-method="getRequestPositionID" set-method="setRequestPositionID" usage="optional"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="radde:SignatureInfType" class="ru.acs.fts.schemas.album.notifaddcontrol.SignatureInfType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

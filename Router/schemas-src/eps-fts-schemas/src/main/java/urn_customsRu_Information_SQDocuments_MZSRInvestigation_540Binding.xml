@@ -1,0 +1,36 @@
+<binding xmlns:invbmp="urn:customs.ru:Information:SQDocuments:MZSRInvestigation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:MZSRInvestigation:5.4.0" default="elements" prefix="invbmp"/>
+  <mapping abstract="true" type-name="invbmp:MZSRInvestigationType" class="ru.acs.fts.schemas.album.mzsrinvestigation.MZSRInvestigationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Purpose" get-method="getPurpose" set-method="setPurpose"/>
+    <value style="element" name="SheetsCount" get-method="getSheetsCount" set-method="setSheetsCount" usage="optional"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getApplicantOrg" set-method="setApplicantOrg" name="ApplicantOrg"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getImporter" set-method="setImporter" usage="optional" name="Importer"/>
+    <structure map-as="invbmp:PermissionType" get-method="getPermission" set-method="setPermission" name="Permission"/>
+    <structure map-as="invbmp:ItemDescriptionType" get-method="getItemDescription" set-method="setItemDescription" name="ItemDescription"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mzsrinvestigation.MZSRInvestigationType" name="MZSRInvestigation">
+    <structure map-as="invbmp:MZSRInvestigationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="invbmp:ItemDescriptionType" class="ru.acs.fts.schemas.album.mzsrinvestigation.ItemDescriptionType">
+    <collection get-method="getNameList" set-method="setNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Name" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="InternationalName" get-method="getInternationalName" set-method="setInternationalName" usage="optional"/>
+    <value style="element" name="Info" get-method="getInfo" set-method="setInfo" usage="optional"/>
+    <value style="element" name="ExpitarionDate" get-method="getExpitarionDate" set-method="setExpitarionDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getProducer" set-method="setProducer" usage="optional" name="Producer"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getCount" set-method="setCount" usage="optional" name="Count"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getGosRegistration" set-method="setGosRegistration" usage="optional" name="GosRegistration"/>
+  </mapping>
+  <mapping abstract="true" type-name="invbmp:PermissionType" class="ru.acs.fts.schemas.album.mzsrinvestigation.PermissionType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="IssuePeriod" get-method="getIssuePeriod" set-method="setIssuePeriod"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

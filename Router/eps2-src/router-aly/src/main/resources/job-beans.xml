@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+    <import resource="job-batches.xml" /> 
+    <import resource="sections/failed-jobs.xml" />    
+    <import resource="database.xml" />
+    <import resource="settings.xml" /> 
+
+	<!-- Job batch context factories -->
+	<bean id="alyJobBatchContextFactory" class="ru.acs.fts.aly.router.processing.AlyJobBatchContextFactory" >
+		<property name="configurator" ref="configurator" />
+		<property name="serviceHolder" ref="serviceHolder" />
+	</bean>
+	
+	<bean id="errors" class="ru.acs.fts.aly.router.errors.AlyErrors" />
+
+	<bean id="cryptoHelper" class="ru.acs.fts.eps2.engine.processing.helpers.CryptoHelper" >
+		<property name="cryptoRestWs" ref="restCryptoWebService" />
+		<property name="marshaller" ref="jibx" />
+		<property name="unmarshaller" ref="jibx" />
+	</bean>
+
+	<!-- JobExecutor'ы для обработки сообщений -->	
+	<bean id="alyBaseJobExecutor" class="ru.acs.fts.eps2.engine.processing.JobExecutor2" 
+			abstract="true" scope="prototype" >
+			
+		<property name="failedJobBatchesWarehouse" ref="failedJobBatchWarehouse" />
+			
+		<property name="preProcessingJobBatch" ref="preProcessingJobBatch" />
+		<property name="postProcessingJobBatch" ref="postProcessingJobBatch" />
+		<property name="exceptionalJobBatch" ref="errorHandlingJobBatch" />
+		
+		<property name="transmissionFSM" ref="transmissionsFSM" />
+		<property name="executionLog" >
+			<bean class="ru.acs.fts.eps2.engine.processing.JobExecutionLog" >
+				<property name="restEventFactory" ref="restEventFactory" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="alyJobExecutor" parent="alyBaseJobExecutor">
+		<property name="jobBatchesWarehouse" ref="alyJobBatchWarehouse" />
+	</bean>
+
+	<!-- Web Services -->
+
+	<bean id="restEventFactory" class="ru.acs.fts.aly.router.processing.inspection.RESTEventFactory" >
+		<property name="eventRestWs" ref="restEventWebService" />
+	</bean>
+	
+	<bean id="restEventWebService" class="ru.acs.fts.eps2.engine.restWs.event.EventRestWs" >
+		<property name="restEventSrvUrl" ref="restEventSrvUrl" />
+	</bean>
+	
+	<bean id="restCryptoWebService" class="ru.acs.fts.eps2.engine.restWs.crypto.CryptoRestWs" >
+		<property name="restCryptoSrvUrl" ref="restCryptoSrvUrl" />
+		<property name="marshaller" ref="jibx" />
+		<property name="unmarshaller" ref="jibx" />
+		<property name="errors" ref="errors" />
+	</bean>
+
+</beans>

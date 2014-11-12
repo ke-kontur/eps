@@ -1,0 +1,15 @@
+<binding xmlns:dupDT="urn:customs.ru:Information:ExchangeDocuments:DuplicationDT:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:DuplicationDT:5.4.0" default="elements" prefix="dupDT"/>
+  <mapping abstract="true" type-name="dupDT:DuplicationDTType" class="ru.acs.fts.schemas.album.duplicationdt.DuplicationDTType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ProcedureID" get-method="getProcedureID" set-method="setProcedureID"/>
+    <value style="element" name="DeclarationID" get-method="getDeclarationID" set-method="setDeclarationID"/>
+    <value style="element" name="DubleDateTime" get-method="getDubleDateTime" set-method="setDubleDateTime" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTRegNumber" set-method="setDTRegNumber" name="DTRegNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.duplicationdt.DuplicationDTType" name="DuplicationDT">
+    <structure map-as="dupDT:DuplicationDTType"/>
+  </mapping>
+</binding>

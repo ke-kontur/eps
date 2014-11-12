@@ -1,0 +1,49 @@
+<binding xmlns:acex="urn:customs.ru:Information:CustomsDocuments:ActExpertise:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActExpertise:5.4.0" default="elements" prefix="acex"/>
+  <mapping abstract="true" type-name="acex:ActExpertiseType" class="ru.acs.fts.schemas.album.actexpertise.ActExpertiseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NameCommission" get-method="getNameCommission" set-method="setNameCommission"/>
+    <value style="element" name="Authority" get-method="getAuthority" set-method="setAuthority"/>
+    <collection get-method="getProductionList" set-method="setProductionList" create-type="java.util.ArrayList">
+      <value style="element" name="Production" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getQuestionList" set-method="setQuestionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Questions" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MethodExpertise" get-method="getMethodExpertise" set-method="setMethodExpertise"/>
+    <value style="element" name="Article" get-method="getArticle" set-method="setArticle"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getChiefInspection" set-method="setChiefInspection" name="ChiefInspection"/>
+    <collection get-method="getListCommissionList" set-method="setListCommissionList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonBaseType" name="ListCommission"/>
+    </collection>
+    <structure map-as="acex:DocumentType" get-method="getResolution" set-method="setResolution" name="Resolution"/>
+    <structure map-as="acex:DocumentType" get-method="getReceipt" set-method="setReceipt" usage="optional" name="Receipt"/>
+    <collection get-method="getResultsExaminationList" set-method="setResultsExaminationList" create-type="java.util.ArrayList">
+      <structure map-as="acex:ResultsExaminationType" name="ResultsExamination"/>
+    </collection>
+    <collection get-method="getCommissionSignatureList" set-method="setCommissionSignatureList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="CommissionSignature"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actexpertise.ActExpertiseType" name="ActExpertise">
+    <structure map-as="acex:ActExpertiseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="acex:DocumentType" class="ru.acs.fts.schemas.album.actexpertise.DocumentType">
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="DocumentDate" get-method="getDocumentDate" set-method="setDocumentDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="acex:ResultsExaminationType" class="ru.acs.fts.schemas.album.actexpertise.ResultsExaminationType">
+    <collection get-method="getNameProductionList" set-method="setNameProductionList" create-type="java.util.ArrayList">
+      <value style="element" name="NameProduction" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="WeighQuantity" get-method="getWeighQuantity" set-method="setWeighQuantity"/>
+    <collection get-method="getNameMetalList" set-method="setNameMetalList" create-type="java.util.ArrayList">
+      <value style="element" name="NameMetal" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getSampleList" set-method="setSampleList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Sample" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

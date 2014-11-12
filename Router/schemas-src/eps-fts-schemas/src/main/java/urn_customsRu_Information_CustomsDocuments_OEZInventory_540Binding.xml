@@ -1,0 +1,34 @@
+<binding xmlns:oezin="urn:customs.ru:Information:CustomsDocuments:OEZ_Inventory:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:OEZ_Inventory:5.4.0" default="elements" prefix="oezin"/>
+  <mapping abstract="true" type-name="oezin:OEZ_InventoryType" class="ru.acs.fts.schemas.album.oez_inventory.OEZInventoryType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InventoryInstanceDate" get-method="getInventoryInstanceDate" set-method="setInventoryInstanceDate" format="LocalDate.default"/>
+    <collection get-method="getInventDocumentList" set-method="setInventDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="oezin:InventDocumentType" name="InventDocument"/>
+    </collection>
+    <structure map-as="oezin:InventoryInstancePersonType" get-method="getInventoryInstancePerson" set-method="setInventoryInstancePerson" name="InventoryInstancePerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_inventory.OEZInventoryType" name="OEZ_Inventory">
+    <structure map-as="oezin:OEZ_InventoryType"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezin:InventDocumentType" class="ru.acs.fts.schemas.album.oez_inventory.InventDocumentType">
+    <value style="element" name="InvDocCode" get-method="getInvDocCode" set-method="setInvDocCode"/>
+    <value style="element" name="InvDocName" get-method="getInvDocName" set-method="setInvDocName"/>
+    <value style="element" name="InvDocNumber" get-method="getInvDocNumber" set-method="setInvDocNumber" usage="optional"/>
+    <value style="element" name="InvDocDate" get-method="getInvDocDate" set-method="setInvDocDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="InvDocLists" get-method="getInvDocLists" set-method="setInvDocLists" usage="optional"/>
+    <value style="element" name="InvDocCopies" get-method="getInvDocCopies" set-method="setInvDocCopies" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="InventDocumentID" get-method="getInventDocumentID" set-method="setInventDocumentID" usage="optional"/>
+    <value style="element" name="InventLineID" get-method="getInventLineID" set-method="setInventLineID" usage="optional"/>
+    <value style="element" name="PaperDocumentSign" get-method="getPaperDocumentSign" set-method="setPaperDocumentSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="oezin:InventoryInstancePersonType" class="ru.acs.fts.schemas.album.oez_inventory.InventoryInstancePersonType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:AuthoritesDocumentType" get-method="getAuthoritesDocument" set-method="setAuthoritesDocument" usage="optional" name="AuthoritesDocument"/>
+  </mapping>
+</binding>

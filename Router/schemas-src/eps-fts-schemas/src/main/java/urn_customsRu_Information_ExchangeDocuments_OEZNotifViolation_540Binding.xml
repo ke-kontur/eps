@@ -1,0 +1,39 @@
+<binding xmlns:nvl="urn:customs.ru:Information:ExchangeDocuments:OEZ_NotifViolation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:OEZ_NotifViolation:5.4.0" default="elements" prefix="nvl"/>
+  <mapping abstract="true" type-name="nvl:OEZ_NotifViolationType" class="ru.acs.fts.schemas.album.oez_notifviolation.OEZNotifViolationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" format="LocalDate.default"/>
+    <collection get-method="getMotiveProhibitionList" set-method="setMotiveProhibitionList" create-type="java.util.ArrayList">
+      <value style="element" name="MotiveProhibition" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getNecessityActivityList" set-method="setNecessityActivityList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="NecessityActivity" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getListDocumentInformationList" set-method="setListDocumentInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="nvl:ListDocumentInformationType" name="ListDocumentInformation"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getDeclarantOEZ" set-method="setDeclarantOEZ" name="Declarant_OEZ"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="nvl:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.oez_notifviolation.OEZNotifViolationType" name="OEZ_NotifViolation">
+    <structure map-as="nvl:OEZ_NotifViolationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nvl:GoodsInfoType" class="ru.acs.fts.schemas.album.oez_notifviolation.GoodsInfoType">
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="nvl:ListDocumentInformationType" class="ru.acs.fts.schemas.album.oez_notifviolation.ListDocumentInformationType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <collection get-method="getAddInformationList" set-method="setAddInformationList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="AddInformation" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

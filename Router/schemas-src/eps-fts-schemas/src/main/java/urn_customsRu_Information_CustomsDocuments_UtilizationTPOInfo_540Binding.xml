@@ -1,0 +1,18 @@
+<binding xmlns:uttp="urn:customs.ru:Information:CustomsDocuments:UtilizationTPOInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:UtilizationTPOInfo:5.4.0" default="elements" prefix="uttp"/>
+  <mapping abstract="true" type-name="uttp:UtilizationTPOInfoType" class="ru.acs.fts.schemas.album.utilizationtpoinfo.UtilizationTPOInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CodeReasonFreePayment" get-method="getCodeReasonFreePayment" set-method="setCodeReasonFreePayment"/>
+    <structure map-as="uttp:TPOIDType" get-method="getTPOID" set-method="setTPOID" usage="optional" name="TPOID"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getCardNumber" set-method="setCardNumber" name="CardNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.utilizationtpoinfo.UtilizationTPOInfoType" name="UtilizationTPOInfo">
+    <structure map-as="uttp:UtilizationTPOInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="uttp:TPOIDType" class="ru.acs.fts.schemas.album.utilizationtpoinfo.TPOIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="OrderNumber" get-method="getOrderNumber" set-method="setOrderNumber"/>
+  </mapping>
+</binding>

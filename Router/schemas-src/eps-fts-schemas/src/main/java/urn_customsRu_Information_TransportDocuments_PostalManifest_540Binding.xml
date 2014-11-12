@@ -1,0 +1,101 @@
+<binding xmlns:pomf="urn:customs.ru:Information:TransportDocuments:PostalManifest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:PostalManifest:5.4.0" default="elements" prefix="pomf"/>
+  <mapping abstract="true" type-name="pomf:PostalManifestType" class="ru.acs.fts.schemas.album.postalmanifest.PostalManifestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ManifestDate" get-method="getManifestDate" set-method="setManifestDate" format="LocalDate.default"/>
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber" usage="optional"/>
+    <value style="element" name="PrioritySign" get-method="getPrioritySign" set-method="setPrioritySign"/>
+    <value style="element" name="OperatorContainerOwner" get-method="getOperatorContainerOwner" set-method="setOperatorContainerOwner" usage="optional"/>
+    <value style="element" name="FormSign" get-method="getFormSign" set-method="setFormSign"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDesignatedOperator" set-method="setDesignatedOperator" usage="optional" name="DesignatedOperator"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDestinationAgency" set-method="setDestinationAgency" usage="optional" name="DestinationAgency"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getFeedBillAgency" set-method="setFeedBillAgency" usage="optional" name="FeedBillAgency"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="pomf:AirTransportType" test-method="ifAirTransport" get-method="getAirTransport" set-method="setAirTransport" usage="optional" name="AirTransport"/>
+      <structure map-as="pomf:SeaTransportType" test-method="ifSeaTransport" get-method="getSeaTransport" set-method="setSeaTransport" usage="optional" name="SeaTransport"/>
+      <structure map-as="pomf:RW_TransportType" test-method="ifRWTransport" get-method="getRWTransport" set-method="setRWTransport" usage="optional" name="RW_Transport"/>
+      <structure map-as="pomf:RW_TransportType" test-method="ifAutoTransport" get-method="getAutoTransport" set-method="setAutoTransport" usage="optional" name="AutoTransport"/>
+    </structure>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pomf:ContainerType" name="Container"/>
+    </collection>
+    <collection get-method="getDespatchInfoList" set-method="setDespatchInfoList" create-type="java.util.ArrayList">
+      <structure map-as="pomf:DespatchInfoType" name="DespatchInfo"/>
+    </collection>
+    <structure map-as="pomf:ReplacementBillInfoType" get-method="getReplacementBillInfo" set-method="setReplacementBillInfo" usage="optional" name="ReplacementBillInfo"/>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getTotalEmptyContainers" set-method="setTotalEmptyContainers" name="TotalEmptyContainers"/>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getTotalWrittenCorr" set-method="setTotalWrittenCorr" usage="optional" name="TotalWrittenCorr"/>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getTotalUncapacityParcels" set-method="setTotalUncapacityParcels" usage="optional" name="TotalUncapacityParcels"/>
+    <structure map-as="pomf:ReturnedContainersKindType" get-method="getReturnedContainersKind" set-method="setReturnedContainersKind" usage="optional" name="ReturnedContainersKind"/>
+    <collection get-method="getReloadInfoList" set-method="setReloadInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="pomf:ReloadInfoType" name="ReloadInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.postalmanifest.PostalManifestType" name="PostalManifest">
+    <structure map-as="pomf:PostalManifestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:AirTransportType" class="ru.acs.fts.schemas.album.postalmanifest.AirTransportType">
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="FlightNumber" get-method="getFlightNumber" set-method="setFlightNumber"/>
+    <value style="element" name="DirectOverloadAirport" get-method="getDirectOverloadAirport" set-method="setDirectOverloadAirport"/>
+    <value style="element" name="UnloadAirport" get-method="getUnloadAirport" set-method="setUnloadAirport"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:ContainerType" class="ru.acs.fts.schemas.album.postalmanifest.ContainerType">
+    <value style="element" name="ContainerNumber" get-method="getContainerNumber" set-method="setContainerNumber"/>
+    <value style="element" name="StampNumber" get-method="getStampNumber" set-method="setStampNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:DespatchInfoType" class="ru.acs.fts.schemas.album.postalmanifest.DespatchInfoType">
+    <value style="element" name="DespatchNumber" get-method="getDespatchNumber" set-method="setDespatchNumber"/>
+    <value style="element" name="FilingAgency" get-method="getFilingAgency" set-method="setFilingAgency"/>
+    <value style="element" name="DestinationAgency" get-method="getDestinationAgency" set-method="setDestinationAgency"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getEmptyContainers" set-method="setEmptyContainers" usage="optional" name="EmptyContainers"/>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getWrittenCorrespondence" set-method="setWrittenCorrespondence" usage="optional" name="WrittenCorrespondence"/>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getUncapacityParcels" set-method="setUncapacityParcels" usage="optional" name="UncapacityParcels"/>
+    <structure map-as="pomf:DespatchMeasuresType" get-method="getEMS" set-method="setEMS" usage="optional" name="EMS"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:DespatchMeasuresType" class="ru.acs.fts.schemas.album.postalmanifest.DespatchMeasuresType">
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight" usage="optional"/>
+    <value style="element" name="FactWeight" get-method="getFactWeight" set-method="setFactWeight" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:RW_TransportType" class="ru.acs.fts.schemas.album.postalmanifest.RWTransportType">
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime" usage="optional"/>
+    <value style="element" name="TransportNumber" get-method="getTransportNumber" set-method="setTransportNumber"/>
+    <value style="element" name="Direction" get-method="getDirection" set-method="setDirection"/>
+    <value style="element" name="SealID" get-method="getSealID" set-method="setSealID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:ReloadInfoType" class="ru.acs.fts.schemas.album.postalmanifest.ReloadInfoType">
+    <value style="element" name="OperationDescription" get-method="getOperationDescription" set-method="setOperationDescription" usage="optional"/>
+    <structure map-as="pomf:ReloadPlaceType" get-method="getReloadPlace" set-method="setReloadPlace" usage="optional" name="ReloadPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:ReloadPlaceType" class="ru.acs.fts.schemas.album.postalmanifest.ReloadPlaceType">
+    <structure map-as="cat_ru:CustomsType"/>
+    <value style="element" name="ReloadPlaceDescription" get-method="getReloadPlaceDescription" set-method="setReloadPlaceDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:ReplacementBillInfoType" class="ru.acs.fts.schemas.album.postalmanifest.ReplacementBillInfoType">
+    <value style="element" name="FormingAircompany" get-method="getFormingAircompany" set-method="setFormingAircompany" usage="optional"/>
+    <value style="element" name="SubmitAirport" get-method="getSubmitAirport" set-method="setSubmitAirport" usage="optional"/>
+    <collection get-method="getRemarkList" set-method="setRemarkList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Remarks" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="OperatorSupplyCountry" get-method="getOperatorSupplyCountry" set-method="setOperatorSupplyCountry" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:ReturnedContainersKindType" class="ru.acs.fts.schemas.album.postalmanifest.ReturnedContainersKindType">
+    <value style="element" name="PriorityAviaKind" get-method="getPriorityAviaKind" set-method="setPriorityAviaKind" usage="optional"/>
+    <value style="element" name="UnpriorityLandKind" get-method="getUnpriorityLandKind" set-method="setUnpriorityLandKind" usage="optional"/>
+    <value style="element" name="ParcelKind" get-method="getParcelKind" set-method="setParcelKind" usage="optional"/>
+    <value style="element" name="EMSKind" get-method="getEMSKind" set-method="setEMSKind" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pomf:SeaTransportType" class="ru.acs.fts.schemas.album.postalmanifest.SeaTransportType">
+    <value style="element" name="ShipName" get-method="getShipName" set-method="setShipName"/>
+    <value style="element" name="UnloadingPort" get-method="getUnloadingPort" set-method="setUnloadingPort"/>
+    <value style="element" name="Company" get-method="getCompany" set-method="setCompany" usage="optional"/>
+  </mapping>
+</binding>

@@ -1,0 +1,15 @@
+<binding xmlns:rpd="urn:customs.ru:Information:CustomsDocuments:ReqPaperDocs:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ReqPaperDocs:5.4.0" default="elements" prefix="rpd"/>
+  <mapping abstract="true" type-name="rpd:ReqPaperDocsType" class="ru.acs.fts.schemas.album.reqpaperdocs.ReqPaperDocsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqpaperdocs.ReqPaperDocsType" name="ReqPaperDocs">
+    <structure map-as="rpd:ReqPaperDocsType"/>
+  </mapping>
+</binding>

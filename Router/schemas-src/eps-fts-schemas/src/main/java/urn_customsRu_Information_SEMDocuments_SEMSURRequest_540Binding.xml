@@ -1,0 +1,32 @@
+<binding xmlns:sur_req="urn:customs.ru:Information:SEMDocuments:SEM_SURRequest:5.4.0" xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SEMDocuments:SEM_SURRequest:5.4.0" default="elements" prefix="sur_req"/>
+  <mapping abstract="true" type-name="sur_req:SEM_SURRequestType" class="ru.acs.fts.schemas.album.sem_surrequest.SEMSURRequestType">
+    <structure map-as="sem_cat:BaseServiceRequestType"/>
+    <collection get-method="getPresentedDocumentModeList" set-method="setPresentedDocumentModeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PresentedDocumentMode" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="sur_req:GoodsDescriptionType" name="Goods"/>
+    </collection>
+    <structure map-as="sur_req:PlaceAndDateType" get-method="getPlaceAndDate" set-method="setPlaceAndDate" usage="optional" name="PlaceAndDate"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.sem_surrequest.SEMSURRequestType" name="SEM_SURRequest">
+    <structure map-as="sur_req:SEM_SURRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sur_req:GoodsDescriptionType" class="ru.acs.fts.schemas.album.sem_surrequest.GoodsDescriptionType">
+    <structure map-as="sem_cat:GoodsType"/>
+    <collection get-method="getRiskProfileList" set-method="setRiskProfileList" create-type="java.util.ArrayList">
+      <structure map-as="sem_cat:RiskProfilesType" name="RiskProfiles"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="sur_req:PlaceAndDateType" class="ru.acs.fts.schemas.album.sem_surrequest.PlaceAndDateType">
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode"/>
+    <value style="element" name="CertificateNumber" get-method="getCertificateNumber" set-method="setCertificateNumber"/>
+    <value style="element" name="IssueCertificateDate" get-method="getIssueCertificateDate" set-method="setIssueCertificateDate" format="LocalDate.default"/>
+    <value style="element" name="AgreemenNumber" get-method="getAgreemenNumber" set-method="setAgreemenNumber" usage="optional"/>
+    <value style="element" name="ConclusionAgreemenDate" get-method="getConclusionAgreemenDate" set-method="setConclusionAgreemenDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="INNID" get-method="getINNID" set-method="setINNID" usage="optional"/>
+    <value style="element" name="KPPCode" get-method="getKPPCode" set-method="setKPPCode" usage="optional"/>
+  </mapping>
+</binding>

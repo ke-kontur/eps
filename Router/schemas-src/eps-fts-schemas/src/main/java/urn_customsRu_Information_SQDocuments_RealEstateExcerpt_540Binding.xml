@@ -1,0 +1,151 @@
+<binding xmlns:ree="urn:customs.ru:Information:SQDocuments:RealEstateExcerpt:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:RealEstateExcerpt:5.4.0" default="elements" prefix="ree"/>
+  <mapping abstract="true" type-name="ree:RealEstateExcerptType" class="ru.acs.fts.schemas.album.realestateexcerpt.RealEstateExcerptType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ApplicationSourceSystemID" get-method="getApplicationSourceSystemID" set-method="setApplicationSourceSystemID" usage="optional"/>
+    <value style="element" name="ApplicationID" get-method="getApplicationID" set-method="setApplicationID" usage="optional"/>
+    <collection get-method="getRequestDataList" set-method="setRequestDataList" create-type="java.util.ArrayList">
+      <structure map-as="ree:RequestDataType" name="RequestData"/>
+    </collection>
+    <structure map-as="ree:RequestPersonType" get-method="getRequestPerson" set-method="setRequestPerson" name="RequestPerson"/>
+    <structure map-as="ree:PaymentType" get-method="getPayment" set-method="setPayment" name="Payment"/>
+    <structure map-as="ree:DeliveryType" get-method="getDelivery" set-method="setDelivery" name="Delivery"/>
+    <collection get-method="getAppliedDocumentList" set-method="setAppliedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ree:PresentedDocsType" name="AppliedDocuments"/>
+    </collection>
+    <structure map-as="ree:MunicipalServiceType" get-method="getMunicipalService" set-method="setMunicipalService" usage="optional" name="MunicipalService"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.realestateexcerpt.RealEstateExcerptType" name="RealEstateExcerpt">
+    <structure map-as="ree:RealEstateExcerptType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:AddressElementType" class="ru.acs.fts.schemas.album.realestateexcerpt.AddressElementType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:AddressType" class="ru.acs.fts.schemas.album.realestateexcerpt.AddressType">
+    <structure map-as="cat_ru:AddressType"/>
+    <value style="element" name="KLADRCode" get-method="getKLADRCode" set-method="setKLADRCode" usage="optional"/>
+    <value style="element" name="OKATO" get-method="getOKATO" set-method="setOKATO" usage="optional"/>
+    <value style="element" name="UnformalizedDescription" get-method="getUnformalizedDescription" set-method="setUnformalizedDescription" usage="optional"/>
+    <structure map-as="ree:AddressElementType" get-method="getDistrict" set-method="setDistrict" usage="optional" name="District"/>
+    <structure map-as="ree:AddressElementType" get-method="getUrbanDistrict" set-method="setUrbanDistrict" usage="optional" name="UrbanDistrict"/>
+    <structure map-as="ree:AddressElementType" get-method="getRuralPlace" set-method="setRuralPlace" usage="optional" name="RuralPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:DeliveryType" class="ru.acs.fts.schemas.album.realestateexcerpt.DeliveryType">
+    <value style="element" name="WebService" get-method="getWebService" set-method="setWebService"/>
+    <value style="element" name="InterDepartmentRequest" get-method="getInterDepartmentRequest" set-method="setInterDepartmentRequest"/>
+    <value style="element" name="NameOKU" get-method="getNameOKU" set-method="setNameOKU" usage="optional"/>
+    <value style="element" name="PostAddress" get-method="getPostAddress" set-method="setPostAddress" usage="optional"/>
+    <value style="element" name="EmailAddress" get-method="getEmailAddress" set-method="setEmailAddress" usage="optional"/>
+    <value style="element" name="LinkEmail" get-method="getLinkEmail" set-method="setLinkEmail" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:DocRequestType" class="ru.acs.fts.schemas.album.realestateexcerpt.DocRequestType">
+    <value style="element" name="ReqSign" get-method="getReqSign" set-method="setReqSign"/>
+    <value style="element" name="DescribeContract" get-method="getDescribeContract" set-method="setDescribeContract" usage="optional"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityDoc" set-method="setIdentityDoc" name="IdentityDoc"/>
+    <collection get-method="getObjectList" set-method="setObjectList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ree:EstateObjectType" name="Object"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentDetails" set-method="setDocumentDetails" usage="optional" name="DocumentDetails"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:EstateObjectType" class="ru.acs.fts.schemas.album.realestateexcerpt.EstateObjectType">
+    <value style="element" name="ObjectSign" get-method="getObjectSign" set-method="setObjectSign"/>
+    <value style="element" name="EstateObjectSign" get-method="getEstateObjectSign" set-method="setEstateObjectSign" usage="optional"/>
+    <value style="element" name="HousingSign" get-method="getHousingSign" set-method="setHousingSign" usage="optional"/>
+    <value style="element" name="IsRoom" get-method="getIsRoom" set-method="setIsRoom" usage="optional"/>
+    <value style="element" name="AreaValue" get-method="getAreaValue" set-method="setAreaValue" usage="optional"/>
+    <value style="element" name="AreaUnit" get-method="getAreaUnit" set-method="setAreaUnit" usage="optional"/>
+    <value style="element" name="ObjectDescription" get-method="getObjectDescription" set-method="setObjectDescription" usage="optional"/>
+    <value style="element" name="CadastrNumber" get-method="getCadastrNumber" set-method="setCadastrNumber" usage="optional"/>
+    <value style="element" name="AdditionalInfo" get-method="getAdditionalInfo" set-method="setAdditionalInfo" usage="optional"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+    <value style="element" name="ConditionCadastrNum" get-method="getConditionCadastrNum" set-method="setConditionCadastrNum" usage="optional"/>
+    <structure map-as="ree:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:MunicipalServiceType" class="ru.acs.fts.schemas.album.realestateexcerpt.MunicipalServiceType">
+    <value style="element" name="BaseRequest" get-method="getBaseRequest" set-method="setBaseRequest" usage="optional"/>
+    <value style="element" name="NormativeAct" get-method="getNormativeAct" set-method="setNormativeAct" usage="optional"/>
+    <value style="element" name="Post" get-method="getPost" set-method="setPost" usage="optional"/>
+    <value style="element" name="AnswerDate" get-method="getAnswerDate" set-method="setAnswerDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ServiceName" get-method="getServiceName" set-method="setServiceName" usage="optional"/>
+    <value style="element" name="ServiceCode" get-method="getServiceCode" set-method="setServiceCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:OwnerType" class="ru.acs.fts.schemas.album.realestateexcerpt.OwnerType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign"/>
+    <value style="element" name="BirthDate" get-method="getBirthDate" set-method="setBirthDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="InsuranceNumber" get-method="getInsuranceNumber" set-method="setInsuranceNumber" usage="optional"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getPreviousNameList" set-method="setPreviousNameList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PreviousName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GovernanceCode" get-method="getGovernanceCode" set-method="setGovernanceCode" usage="optional"/>
+    <value style="element" name="RegCountry" get-method="getRegCountry" set-method="setRegCountry" usage="optional"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <value style="element" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+    <value style="element" name="ContactInfo" get-method="getContactInfo" set-method="setContactInfo" usage="optional"/>
+    <value style="element" name="EgrpID" get-method="getEgrpID" set-method="setEgrpID" usage="optional"/>
+    <value style="element" name="AgentKind" get-method="getAgentKind" set-method="setAgentKind"/>
+    <structure map-as="ree:AddressType" get-method="getFactAddress" set-method="setFactAddress" usage="optional" name="FactAddress"/>
+    <collection get-method="getPreviousIdentityDocList" set-method="setPreviousIdentityDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:IdentityCardType" name="PreviousIdentityDocs"/>
+    </collection>
+    <collection get-method="getPresentedDocList" set-method="setPresentedDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ree:PresentedDocsType" name="PresentedDocs"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ree:PaymentType" class="ru.acs.fts.schemas.album.realestateexcerpt.PaymentType">
+    <value style="element" name="FreeServiceSign" get-method="getFreeServiceSign" set-method="setFreeServiceSign"/>
+    <collection get-method="getReasonsDocumentList" set-method="setReasonsDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ree:PresentedDocsType" name="ReasonsDocuments"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ree:PresentedDocsType" class="ru.acs.fts.schemas.album.realestateexcerpt.PresentedDocsType">
+    <structure map-as="cat_ru:IdentityCardType"/>
+    <value style="element" name="Register" get-method="getRegister" set-method="setRegister" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote" usage="optional"/>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ImageFile" get-method="getImageFile" set-method="setImageFile" usage="optional"/>
+    <value style="element" name="ImageReference" get-method="getImageReference" set-method="setImageReference" usage="optional"/>
+    <value style="element" name="RegDate" get-method="getRegDate" set-method="setRegDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegNum" get-method="getRegNum" set-method="setRegNum" usage="optional"/>
+    <value style="element" name="AppendFileType" get-method="getAppendFileType" set-method="setAppendFileType" usage="optional"/>
+    <value style="element" name="AppendFileName" get-method="getAppendFileName" set-method="setAppendFileName" usage="optional"/>
+    <collection get-method="getQuantityList" set-method="setQuantityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ree:QuantityType" name="Quantity"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ree:QuantityType" class="ru.acs.fts.schemas.album.realestateexcerpt.QuantityType">
+    <value style="element" name="OriginalSign" get-method="getOriginalSign" set-method="setOriginalSign" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+    <value style="element" name="SheetQuantity" get-method="getSheetQuantity" set-method="setSheetQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:RequestDataType" class="ru.acs.fts.schemas.album.realestateexcerpt.RequestDataType">
+    <value style="element" name="RequestSign" get-method="getRequestSign" set-method="setRequestSign"/>
+    <structure map-as="ree:EstateObjectType" get-method="getEstateObject" set-method="setEstateObject" usage="optional" name="EstateObject"/>
+    <structure map-as="ree:OwnerType" get-method="getOwner" set-method="setOwner" usage="optional" name="Owner"/>
+    <structure map-as="ree:TerritoryType" get-method="getTerritory" set-method="setTerritory" usage="optional" name="Territory"/>
+    <structure map-as="ree:RequestPeriodType" get-method="getRequestPeriod" set-method="setRequestPeriod" usage="optional" name="RequestPeriod"/>
+    <collection get-method="getDocRequestList" set-method="setDocRequestList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ree:DocRequestType" name="DocRequest"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ree:RequestPeriodType" class="ru.acs.fts.schemas.album.realestateexcerpt.RequestPeriodType">
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:RequestPersonType" class="ru.acs.fts.schemas.album.realestateexcerpt.RequestPersonType">
+    <structure map-as="ree:OwnerType"/>
+    <value style="element" name="PersonKind" get-method="getPersonKind" set-method="setPersonKind"/>
+    <value style="element" name="IdentificationSign" get-method="getIdentificationSign" set-method="setIdentificationSign"/>
+    <structure map-as="ree:OwnerType" get-method="getAgent" set-method="setAgent" usage="optional" name="Agent"/>
+  </mapping>
+  <mapping abstract="true" type-name="ree:TerritoryType" class="ru.acs.fts.schemas.album.realestateexcerpt.TerritoryType">
+    <value style="element" name="IsRussiaTerritory" get-method="getIsRussiaTerritory" set-method="setIsRussiaTerritory"/>
+    <collection get-method="getRegionCodeList" set-method="setRegionCodeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="RegionCode" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

@@ -1,0 +1,16 @@
+<module rename-to="app">
+
+    <!-- webconsole -->
+    <inherits name="ru.acs.fts.webconsole.app.App" />
+    <inherits name="ru.acs.fts.webconsole.monitoring.common.Common" />
+    <inherits name="ru.acs.fts.webconsole.security.Security" />
+
+    <!-- components -->
+    <inherits name="ru.acs.monitoring.app.log.Log" />
+    <inherits name="ru.acs.monitoring.app.config.conn.Connections" />
+    <inherits name="ru.acs.monitoring.app.monitoring.conn.Monitoring" />
+    <inherits name="ru.acs.monitoring.app.monitoring.messproc.MessageProcessing" />
+    <inherits name="ru.acs.monitoring.app.monitoring.messproc.MessageProcessing" />
+
+    <entry-point class="ru.acs.monitoring.app.client.MonitoringApp" />
+</module>

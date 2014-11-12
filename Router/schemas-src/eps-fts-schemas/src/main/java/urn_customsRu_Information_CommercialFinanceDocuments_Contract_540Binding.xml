@@ -1,0 +1,22 @@
+<binding xmlns:con="urn:customs.ru:Information:CommercialFinanceDocuments:Contract:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:Contract:5.4.0" default="elements" prefix="con"/>
+  <mapping abstract="true" type-name="con:ContractType" class="ru.acs.fts.schemas.album.contract.ContractType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SupplementationSign" get-method="getSupplementationSign" set-method="setSupplementationSign"/>
+    <structure map-as="catComFin_ru:ContractDescriptionType" get-method="getContractTerms" set-method="setContractTerms" name="ContractTerms"/>
+    <structure map-as="cat_ru:OrganizationWBankType" get-method="getForeignPerson" set-method="setForeignPerson" name="ForeignPerson"/>
+    <structure map-as="cat_ru:OrganizationWBankType" get-method="getRussianPerson" set-method="setRussianPerson" name="RussianPerson"/>
+    <collection get-method="getContractDeliveryTermList" set-method="setContractDeliveryTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:ContractDeliveryTermsType" name="ContractDeliveryTerms"/>
+    </collection>
+    <collection get-method="getContractSpecificationList" set-method="setContractSpecificationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:ContractSpecificationType" name="ContractSpecification"/>
+    </collection>
+    <structure map-as="catComFin_ru:ContractRegistrationType" get-method="getContractRegistration" set-method="setContractRegistration" name="ContractRegistration"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getContractSignedPerson" set-method="setContractSignedPerson" name="ContractSignedPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.contract.ContractType" name="Contract">
+    <structure map-as="con:ContractType"/>
+  </mapping>
+</binding>

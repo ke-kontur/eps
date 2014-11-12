@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by pdp (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:idtrs="urn:customs.ru:Information:AdminCommandED:INT_DTResponse:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:AdminCommandED:INT_DTResponse:4.6.0" elementFormDefault="qualified" version="4.6.0.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Результат поиска ДТ</xs:documentation>
+	</xs:annotation>
+	<xs:element name="INT_DTResponse" type="idtrs:INT_DTResponseType"/>
+	<xs:complexType name="INT_DTResponseType">
+		<xs:annotation>
+			<xs:documentation>Результат поиска ДТ</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="ResultCode" type="IEclt_ru:CodeVariable15Type"/>
+					<xs:element name="ResultDescription" type="IEclt_ru:FreeText250Type"/>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090011E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="GTDIDType">
+		<xs:annotation>
+			<xs:documentation>Регистрационный номер таможенного документа.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomsCode" type="IEclt_ru:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа, зарегистрировавшего документ.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistrationDate" type="IEclt_ru:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата регистрации документа.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="GTDNumber" type="IEclt_ru:GTDIDType">
+				<xs:annotation>
+					<xs:documentation>Порядковый номер документа по журналу регистрации.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

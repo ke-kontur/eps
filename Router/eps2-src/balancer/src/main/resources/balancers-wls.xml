@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Balancers -->
+	    
+    <bean id="declarantBalancer" class="ru.acs.fts.eps2.balancer.processing.Balancer" >
+		<property name="description" value="От Декларанта" />
+		<property name="messageSender" ref="messageSender" />
+		<property name="useHeartbeat" value="true" />
+		<property name="heartbeatNotifier" ref="heartbeatNotifier" />
+		<!-- property name="listenerContainer" ref="declMessageListenerContainer" / -->
+		<property name="routes">
+			<map>
+				<entry key="5.0.12/3.0.9">
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+							<property name="destination" ref="jndiEPS5012DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5012.DECLARANT.FROM" />
+						</bean>
+						<!-- 
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+							<property name="destination" ref="jndiEPS5012DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateForeignRouter" />
+							<property name="description" value="WLS(remote):EPS5012.DECLARANT.FROM" />
+						</bean>
+						-->
+					</list>
+				</entry>
+				<entry key="5.0.13/3.1.0">
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+							<property name="destination" ref="jndiEPS5013DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5013.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.14/3.2.0">
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+							<property name="destination" ref="jndiEPS5014DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5014.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.15/3.2.1" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5015DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5015.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.16/3.2.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5016DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5016.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.17/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5017DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5017.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.1.0/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5100DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5100.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.0/3.2.4" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5400DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5400.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.1/3.2.5" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5401DeclarantFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5401.DECLARANT.FROM" />
+						</bean>
+					</list>
+				</entry>
+			</map>
+		</property>
+    </bean>
+    
+    <bean id="customsBalancer" class="ru.acs.fts.eps2.balancer.processing.Balancer" >
+    	<property name="description" value="От таможни" />
+    	<property name="messageSender" ref="messageSender" />
+    	<property name="useHeartbeat" value="true" />
+    	<property name="heartbeatNotifier" ref="heartbeatNotifier" />
+    	<!-- property name="listenerContainer" ref="customsMessageListenerContainer" / -->
+    	<property name="routes" >
+    		<map>
+    			<entry key="5.0.12/3.0.9" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5012CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5012.CUSTOMS.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    			<entry key="5.0.13/3.1.0" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5013CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5013.CUSTOMS.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    			<entry key="5.0.14/3.2.0" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5014CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5014.CUSTOMS.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+				<entry key="5.0.15/3.2.1" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5015CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5015.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.16/3.2.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5016CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5016.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.17/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5017CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5017.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.1.0/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5100CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5100.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.0/3.2.4" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5400CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5400.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.1/3.2.5" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5401CustomsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5401.CUSTOMS.FROM" />
+						</bean>
+					</list>
+				</entry>
+    		</map>
+    	</property>
+    </bean>	
+    
+    <bean id="eadBalancer" class="ru.acs.fts.eps2.balancer.processing.Balancer" >
+    	<property name="description" value="От ЭАД" />
+    	<property name="messageSender" ref="messageSender" />
+    	<property name="useHeartbeat" value="true" />
+    	<property name="heartbeatNotifier" ref="heartbeatNotifier" />
+    	<property name="routes" >
+    		<map>
+    			<entry key="5.0.12/3.0.9" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5012EadFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5012.EAD.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    		</map>
+    	</property>
+    </bean>
+    
+    <bean id="epsBalancer" class="ru.acs.fts.eps2.balancer.processing.Balancer" >
+    	<property name="description" value="От других АПС ЭПС" />
+    	<property name="messageSender" ref="messageSender" />
+    	<property name="useHeartbeat" value="false" />
+    	<property name="heartbeatNotifier" ref="heartbeatNotifier" />
+    	<property name="routes" >
+    		<map>
+    			<entry key="5.0.12/3.0.9" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5012EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5012.EPS.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    			<entry key="5.0.13/3.1.0" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5013EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5013.EPS.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    			<entry key="5.0.14/3.2.0" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5014EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5014.EPS.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+				<entry key="5.0.15/3.2.1" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5015EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5015.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.16/3.2.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5016EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5016.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.17/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5017EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5017.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.1.0/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5100EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5100.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.0/3.2.4" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5400EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5400.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.1/3.2.5" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5401EpsFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5401.EPS.FROM" />
+						</bean>
+					</list>
+				</entry>
+    		</map>
+    	</property>
+    </bean>
+    
+    <bean id="adminBalancer" class="ru.acs.fts.eps2.balancer.processing.Balancer" >
+    	<property name="description" value="От Админки" />
+    	<property name="messageSender" ref="messageSender" />
+    	<property name="useHeartbeat" value="true" />
+    	<property name="heartbeatNotifier" ref="heartbeatNotifier" />
+    	<!-- property name="listenerContainer" ref="adminMessageListenerContainer" / -->
+    	<property name="routes" >
+    		<map>
+    			<entry key="5.0.12/3.0.9" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5012AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5012.ADMIN.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    			<entry key="5.0.13/3.1.0" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5013AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5013.ADMIN.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+    			<entry key="5.0.14/3.2.0" >
+    				<list>
+    					<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination" >
+    						<property name="destination" ref="jndiEPS5014AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5014.ADMIN.FROM" />
+    					</bean>
+    				</list>
+    			</entry>
+				<entry key="5.0.15/3.2.1" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5015AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5015.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.16/3.2.2" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5016AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5016.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.0.17/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5017AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5017.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.1.0/3.3.0" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5100AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5100.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.0/3.2.4" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5400AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5400.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+				<entry key="5.4.1/3.2.5" >
+					<list>
+						<bean class="ru.acs.fts.eps2.balancer.processing.EpsDestination">
+							<property name="destination" ref="jndiEPS5401AdminFrom" />
+							<property name="jmsTemplate" ref="jmsTemplateRouter" />
+							<property name="description" value="WLS(local):EPS5401.ADMIN.FROM" />
+						</bean>
+					</list>
+				</entry>
+    		</map>
+    	</property>
+    </bean>
+    
+	<!-- Heartbeat Notifier -->
+	
+	<bean id="heartbeatNotifier" class="ru.acs.fts.eps2.balancer.processing.HeartbeatNotifier">
+		<property name="balancers">
+			<list>
+				<ref bean="declarantBalancer" />
+				<ref bean="customsBalancer" />
+				<ref bean="eadBalancer" />
+				<ref bean="epsBalancer" />
+				<ref bean="adminBalancer" />
+			</list>
+		</property>
+	</bean>
+
+</beans>

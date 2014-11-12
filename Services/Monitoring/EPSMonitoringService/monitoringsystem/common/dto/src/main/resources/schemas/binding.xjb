@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="1.0"
+    xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:com.fnf="http://www.fnf.com/xes">
+
+    <jxb:globalBindings>
+    	<xjc:simple />
+
+        <!-- работа с датой/временем через свой адаптер -->
+        <jxb:javaType name="ru.acs.fts.dto.adapters.XmlDateTimeAdapter" xmlType="xs:date"
+            parseMethod="ru.acs.fts.dto.adapters.XmlDateTimeAdapter.parseDate"
+            printMethod="ru.acs.fts.dto.adapters.XmlDateTimeAdapter.printDate" />
+
+        <jxb:javaType name="ru.acs.fts.dto.adapters.XmlDateTimeAdapter" xmlType="xs:time"
+            parseMethod="ru.acs.fts.dto.adapters.XmlDateTimeAdapter.parseDate"
+            printMethod="ru.acs.fts.dto.adapters.XmlDateTimeAdapter.printDate" />
+
+        <jxb:javaType name="ru.acs.fts.dto.adapters.XmlDateTimeAdapter" xmlType="xs:dateTime"
+            parseMethod="ru.acs.fts.dto.adapters.XmlDateTimeAdapter.parseDate"
+            printMethod="ru.acs.fts.dto.adapters.XmlDateTimeAdapter.printDate" />
+        
+	</jxb:globalBindings>
+
+    <!-- Конверт -->
+    <jxb:bindings schemaLocation="soap\ApplicationInf.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.soap" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>
+
+    <jxb:bindings schemaLocation="soap\Attachments.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.soap" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>
+
+    <jxb:bindings schemaLocation="soap\Envelope.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.soap" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>
+
+    <jxb:bindings schemaLocation="soap\RoutingInf.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.soap" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>    
+
+
+
+	<jxb:bindings schemaLocation="monitoring\CategoriesCust.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+    <jxb:bindings schemaLocation="monitoring\CommonAggregateTypesCust.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+    <jxb:bindings schemaLocation="monitoring\CommonLeafTypesCust.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+
+    <jxb:bindings schemaLocation="monitoring\MonitoringInfo.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.monitoring" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>    
+
+    <jxb:bindings schemaLocation="monitoring\ProcessingResult.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.documents" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>    
+    <jxb:bindings schemaLocation="monitoring\MonitoringTestDoc.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.documents" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>    
+    <jxb:bindings schemaLocation="monitoring\MonitoringInquiry.xsd" node="/xs:schema">
+		<jxb:schemaBindings>
+			<jxb:package name="ru.acs.fts.dto.documents" />
+		</jxb:schemaBindings>
+        <!--<xs:any processContents="lax" maxOccurs="unbounded" minOccurs="0" />-->
+	</jxb:bindings>    
+</jxb:bindings>    

@@ -1,0 +1,32 @@
+<binding xmlns:cipr="urn:customs.ru:Information:CustomsDocuments:CurrentImportProlong:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:CurrentImportProlong:5.4.0" default="elements" prefix="cipr"/>
+  <mapping abstract="true" type-name="cipr:CurrentImportProlongType" class="ru.acs.fts.schemas.album.currentimportprolong.CurrentImportProlongType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="InitialPeriod" get-method="getInitialPeriod" set-method="setInitialPeriod" format="LocalDate.default"/>
+    <value style="element" name="DateProlong" get-method="getDateProlong" set-method="setDateProlong" format="LocalDate.default"/>
+    <value style="element" name="Reason" get-method="getReason" set-method="setReason" usage="optional"/>
+    <structure map-as="cipr:ETDTSNumberType" get-method="getTDTSNumber" set-method="setTDTSNumber" name="TDTSNumber"/>
+    <collection get-method="getTransportList" set-method="setTransportList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:TransportMeansBaseType" name="Transport"/>
+    </collection>
+    <structure map-as="cipr:PlaceType" get-method="getPlace" set-method="setPlace" name="Place"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.currentimportprolong.CurrentImportProlongType" name="CurrentImportProlong">
+    <structure map-as="cipr:CurrentImportProlongType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cipr:ETDTSNumberType" class="ru.acs.fts.schemas.album.currentimportprolong.ETDTSNumberType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="cipr:PlaceType" class="ru.acs.fts.schemas.album.currentimportprolong.PlaceType">
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:AddressType" get-method="getFactTSAddress" set-method="setFactTSAddress" usage="optional" name="FactTSAddress"/>
+    <structure map-as="cipr:RWstationType" get-method="getRWstation" set-method="setRWstation" usage="optional" name="RWstation"/>
+  </mapping>
+  <mapping abstract="true" type-name="cipr:RWstationType" class="ru.acs.fts.schemas.album.currentimportprolong.RWstationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName" usage="optional"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+</binding>

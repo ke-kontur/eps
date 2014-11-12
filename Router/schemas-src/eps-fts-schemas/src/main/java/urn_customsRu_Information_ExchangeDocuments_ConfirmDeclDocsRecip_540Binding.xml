@@ -1,0 +1,39 @@
+<binding xmlns:cddr="urn:customs.ru:Information:ExchangeDocuments:ConfirmDeclDocsRecip:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catExch_ru="urn:customs.ru:Information:ExchangeDocuments:ExchangeCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:ConfirmDeclDocsRecip:5.4.0" default="elements" prefix="cddr"/>
+  <mapping abstract="true" type-name="cddr:ConfirmDeclDocsRecipType" class="ru.acs.fts.schemas.album.confirmdecldocsrecip.ConfirmDeclDocsRecipType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="SendTime" get-method="getSendTime" set-method="setSendTime"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <collection get-method="getRecipDocumentList" set-method="setRecipDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="catExch_ru:RecipDocumentType" name="RecipDocument"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="catExch_ru:DeclPersonType" get-method="getDeclPerson" set-method="setDeclPerson" name="DeclPerson"/>
+    <structure map-as="cddr:DeclDecisionType" get-method="getDeclDecision" set-method="setDeclDecision" usage="optional" name="DeclDecision"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.confirmdecldocsrecip.ConfirmDeclDocsRecipType" name="ConfirmDeclDocsRecip">
+    <structure map-as="cddr:ConfirmDeclDocsRecipType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cddr:DeclDecisionType" class="ru.acs.fts.schemas.album.confirmdecldocsrecip.DeclDecisionType">
+    <value style="element" name="DeclAgree" get-method="getDeclAgree" set-method="setDeclAgree"/>
+    <value style="element" name="DeclDate" get-method="getDeclDate" set-method="setDeclDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DeclTime" get-method="getDeclTime" set-method="setDeclTime" usage="optional"/>
+    <structure map-as="cddr:InspectionPlaceType" get-method="getInspectionPlace" set-method="setInspectionPlace" usage="optional" name="InspectionPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="cddr:InspectionPlaceType" class="ru.acs.fts.schemas.album.confirmdecldocsrecip.InspectionPlaceType">
+    <structure map-as="cat_ru:CUCustomsType"/>
+    <value style="element" name="InformationTypeCode" get-method="getInformationTypeCode" set-method="setInformationTypeCode"/>
+    <value style="element" name="InspPlaceName" get-method="getInspPlaceName" set-method="setInspPlaceName"/>
+    <collection get-method="getInspPlaceDescList" set-method="setInspPlaceDescList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InspPlaceDesc" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cddr:WarehousePlaceType" get-method="getWarehousePlace" set-method="setWarehousePlace" usage="optional" name="WarehousePlace"/>
+    <structure map-as="cat_ru:AddressType" get-method="getInspAddress" set-method="setInspAddress" usage="optional" name="InspAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="cddr:WarehousePlaceType" class="ru.acs.fts.schemas.album.confirmdecldocsrecip.WarehousePlaceType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+  </mapping>
+</binding>

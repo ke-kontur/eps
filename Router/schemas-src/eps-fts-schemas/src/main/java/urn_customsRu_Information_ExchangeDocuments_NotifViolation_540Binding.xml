@@ -1,0 +1,65 @@
+<binding xmlns:ntvi="urn:customs.ru:Information:ExchangeDocuments:NotifViolation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifViolation:5.4.0" default="elements" prefix="ntvi"/>
+  <mapping abstract="true" type-name="ntvi:NotifViolationType" class="ru.acs.fts.schemas.album.notifviolation.NotifViolationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ViolationNimber" get-method="getViolationNimber" set-method="setViolationNimber" usage="optional"/>
+    <value style="element" name="ViolationTime" get-method="getViolationTime" set-method="setViolationTime" usage="optional"/>
+    <value style="element" name="ViolationDate" get-method="getViolationDate" set-method="setViolationDate" format="LocalDate.default"/>
+    <value style="element" name="NotifLawArticle" get-method="getNotifLawArticle" set-method="setNotifLawArticle" usage="optional"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="NotificationRequest" get-method="getNotificationRequest" set-method="setNotificationRequest"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getViolationInfoList" set-method="setViolationInfoList" create-type="java.util.ArrayList">
+      <structure map-as="ntvi:ViolationInfoType" name="ViolationInfo"/>
+    </collection>
+    <collection get-method="getInstructionList" set-method="setInstructionList" create-type="java.util.ArrayList">
+      <structure map-as="ntvi:InstructionType" name="Instruction"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getApplicant" set-method="setApplicant" name="Applicant"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNUmber" set-method="setGTDNUmber" usage="optional" name="GTDNUmber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifviolation.NotifViolationType" name="NotifViolation">
+    <structure map-as="ntvi:NotifViolationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntvi:CorrectReqType" class="ru.acs.fts.schemas.album.notifviolation.CorrectReqType">
+    <collection get-method="getCorrectDescriptionList" set-method="setCorrectDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="CorrectDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="CorrectDateLimit" get-method="getCorrectDateLimit" set-method="setCorrectDateLimit" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntvi:DocumentReqType" class="ru.acs.fts.schemas.album.notifviolation.DocumentReqType">
+    <collection get-method="getDocsDescriptionList" set-method="setDocsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="DocsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DocDateLimit" get-method="getDocDateLimit" set-method="setDocDateLimit" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntvi:InstructionType" class="ru.acs.fts.schemas.album.notifviolation.InstructionType">
+    <collection get-method="getInstrDescriptionList" set-method="setInstrDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="InstrDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" usage="optional"/>
+    <collection get-method="getCorrectReqList" set-method="setCorrectReqList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ntvi:CorrectReqType" name="CorrectReq"/>
+    </collection>
+    <collection get-method="getDocumentReqList" set-method="setDocumentReqList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ntvi:DocumentReqType" name="DocumentReq"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ntvi:ViolationDocType" class="ru.acs.fts.schemas.album.notifviolation.ViolationDocType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ntvi:ViolationInfoType" class="ru.acs.fts.schemas.album.notifviolation.ViolationInfoType">
+    <collection get-method="getViolationTextList" set-method="setViolationTextList" create-type="java.util.ArrayList">
+      <value style="element" name="ViolationText" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="LawArticle" get-method="getLawArticle" set-method="setLawArticle" usage="optional"/>
+    <collection get-method="getViolationDocList" set-method="setViolationDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ntvi:ViolationDocType" name="ViolationDoc"/>
+    </collection>
+  </mapping>
+</binding>

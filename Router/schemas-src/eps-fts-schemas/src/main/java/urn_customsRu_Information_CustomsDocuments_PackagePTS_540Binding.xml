@@ -1,0 +1,37 @@
+<binding xmlns:ppts="urn:customs.ru:Information:CustomsDocuments:PackagePTS:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PackagePTS:5.4.0" default="elements" prefix="ppts"/>
+  <mapping abstract="true" type-name="ppts:PackagePTSType" class="ru.acs.fts.schemas.album.packagepts.PackagePTSType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SystemId" get-method="getSystemId" set-method="setSystemId"/>
+    <value style="element" name="Version" get-method="getVersion" set-method="setVersion"/>
+    <collection get-method="getFormList" set-method="setFormList" create-type="java.util.ArrayList">
+      <structure map-as="ppts:FormType" name="Form"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.packagepts.PackagePTSType" name="PackagePTS">
+    <structure map-as="ppts:PackagePTSType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ppts:FormType" class="ru.acs.fts.schemas.album.packagepts.FormType">
+    <value style="element" name="FormType" get-method="getFormType" set-method="setFormType"/>
+    <value style="element" name="LNPCustomsCode" get-method="getLNPCustomsCode" set-method="setLNPCustomsCode"/>
+    <value style="element" name="FormNumber" get-method="getFormNumber" set-method="setFormNumber"/>
+    <value style="element" name="DateState" get-method="getDateState" set-method="setDateState"/>
+    <value style="element" name="ModificationDate" get-method="getModificationDate" set-method="setModificationDate"/>
+    <value style="element" name="UnloadDate" get-method="getUnloadDate" set-method="setUnloadDate"/>
+    <value style="element" name="GUID" get-method="getGUID" set-method="setGUID"/>
+    <value style="element" name="OldFormNumber" get-method="getOldFormNumber" set-method="setOldFormNumber" usage="optional"/>
+    <value style="element" name="OldFormState" get-method="getOldFormState" set-method="setOldFormState" usage="optional"/>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="ppts:TPOIDType" test-method="ifTPONumber" get-method="getTPONumber" set-method="setTPONumber" usage="optional" name="TPONumber"/>
+      <structure map-as="cat_ru:GTDIDType" test-method="ifGTDID" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    </structure>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+  </mapping>
+  <mapping abstract="true" type-name="ppts:TPOIDType" class="ru.acs.fts.schemas.album.packagepts.TPOIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="TPONumber" get-method="getTPONumber" set-method="setTPONumber"/>
+  </mapping>
+</binding>

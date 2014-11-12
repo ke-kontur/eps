@@ -1,0 +1,15 @@
+<binding xmlns:rcerni="urn:customs.ru:Information:ExchangeDocuments:RegCertificateNumInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:RegCertificateNumInfo:5.4.0" default="elements" prefix="rcerni"/>
+  <mapping abstract="true" type-name="rcerni:RegCertificateNumInfoType" class="ru.acs.fts.schemas.album.regcertificatenuminfo.RegCertificateNumInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <structure map-as="cat_ru:GTDID5Type" get-method="getCertificateNumber" set-method="setCertificateNumber" name="CertificateNumber"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.regcertificatenuminfo.RegCertificateNumInfoType" name="RegCertificateNumInfo">
+    <structure map-as="rcerni:RegCertificateNumInfoType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,44 @@
+<binding xmlns:gref="urn:customs.ru:Information:CustomsDocuments:GTDReference:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GTDReference:5.4.0" default="elements" prefix="gref"/>
+  <mapping abstract="true" type-name="gref:GTDReferenceType" class="ru.acs.fts.schemas.album.gtdreference.GTDReferenceType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="gref:GoodsInformationType" get-method="getGoodsInformation" set-method="setGoodsInformation" name="GoodsInformation"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" name="GTDNumber"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getRussianContractPart" set-method="setRussianContractPart" name="RussianContractPart"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getContractor" set-method="setContractor" name="Contractor"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getRecipient" set-method="setRecipient" usage="optional" name="Recipient"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getGoodsOwner" set-method="setGoodsOwner" usage="optional" name="GoodsOwner"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getDestinationCustoms" set-method="setDestinationCustoms" name="DestinationCustoms"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getFloatingCustoms" set-method="setFloatingCustoms" name="FloatingCustoms"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getFillingPerson" set-method="setFillingPerson" name="FillingPerson"/>
+    <collection get-method="getBSideDealInfoList" set-method="setBSideDealInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gref:BSideDealInfoType" name="BSideDealInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.gtdreference.GTDReferenceType" name="GTDReference">
+    <structure map-as="gref:GTDReferenceType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gref:BSideDealInfoType" class="ru.acs.fts.schemas.album.gtdreference.BSideDealInfoType">
+    <structure map-as="gref:OrgDealInfoType" get-method="getSeller" set-method="setSeller" name="Seller"/>
+    <structure map-as="gref:OrgDealInfoType" get-method="getBuyer" set-method="setBuyer" name="Buyer"/>
+  </mapping>
+  <mapping abstract="true" type-name="gref:GoodsInformationType" class="ru.acs.fts.schemas.album.gtdreference.GoodsInformationType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MarkIndicator" get-method="getMarkIndicator" set-method="setMarkIndicator"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getSellPermitionDoc" set-method="setSellPermitionDoc" usage="optional" name="SellPermitionDoc"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getManufacturer" set-method="setManufacturer" usage="optional" name="Manufacturer"/>
+    <collection get-method="getNormDocList" set-method="setNormDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="NormDocs"/>
+    </collection>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" name="Contract"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsPackingInfo" set-method="setGoodsPackingInfo" name="GoodsPackingInfo"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getIndividualPackingInfo" set-method="setIndividualPackingInfo" name="IndividualPackingInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="gref:OrgDealInfoType" class="ru.acs.fts.schemas.album.gtdreference.OrgDealInfoType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDirectorSignature" set-method="setDirectorSignature" name="DirectorSignature"/>
+  </mapping>
+</binding>

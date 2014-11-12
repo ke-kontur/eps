@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by administrator (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sur="urn:customs.ru:Information:StatusUpdateRequest:5.1.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:StatusUpdateRequest:5.1.0" elementFormDefault="qualified" version="5.1.0.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Запрос сведений о состояниях (статусах) процедуры</xs:documentation>
+	</xs:annotation>
+	<xs:element name="StatusUpdateRequest" type="sur:StatusUpdateRequestType"/>
+	<xs:complexType name="StatusUpdateRequestType">
+		<xs:annotation>
+			<xs:documentation>Запрос сведений о состояниях (статусах) процедуры</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="StateTransmissions" type="sur:StateTransmissionsType" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Список статусных переходов</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Statuses" type="sur:StatusesType" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Список статусов </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090014E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>Локальные прикладные типы</xs:documentation>
+	</xs:annotation>
+	<xs:simpleType name="EventEnumeration">
+		<xs:annotation>
+			<xs:documentation>Событие</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="NO_EVENT"/>
+			<xs:enumeration value="DIFF_RTU_EVENT"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="StateTransmissionsType">
+		<xs:annotation>
+			<xs:documentation>Список статусных переходов</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="InitialStateCode" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Исходный статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SoftVersion" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Версия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TargetStateCode" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Целевой статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageType" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Сообщение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StateModel" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Статусная модель </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Event" type="sur:EventEnumeration">
+				<xs:annotation>
+					<xs:documentation>Событие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="StatusesType">
+		<xs:annotation>
+			<xs:documentation>Список статусов </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="StateCode" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Код статуса</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StatusDescription" type="IEclt_ru:FreeText250Type">
+				<xs:annotation>
+					<xs:documentation>Описание статуса</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

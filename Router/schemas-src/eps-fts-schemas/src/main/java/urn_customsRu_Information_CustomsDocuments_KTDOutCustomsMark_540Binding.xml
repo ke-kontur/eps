@@ -1,0 +1,43 @@
+<binding xmlns:kocm="urn:customs.ru:Information:CustomsDocuments:KTDOutCustomsMark:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:KTDOutCustomsMark:5.4.0" default="elements" prefix="kocm"/>
+  <mapping abstract="true" type-name="kocm:KDTOutCustomsMarkType" class="ru.acs.fts.schemas.album.kdtoutcustomsmark.KDTOutCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID"/>
+    <value style="element" name="KTDNumber" get-method="getKTDNumber" set-method="setKTDNumber"/>
+    <collection get-method="getKDTOutCommonMarkList" set-method="setKDTOutCommonMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="kocm:KDTOutCommonMarkType" name="KDTOutCommonMark"/>
+    </collection>
+    <collection get-method="getKDTOutGoodsResolutionList" set-method="setKDTOutGoodsResolutionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="kocm:KDTOutGoodsResolutionType" name="KDTOutGoodsResolution"/>
+    </collection>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.kdtoutcustomsmark.KDTOutCustomsMarkType" name="KDTOutCustomsMark">
+    <structure map-as="kocm:KDTOutCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="kocm:KDTOutCommonMarkType" class="ru.acs.fts.schemas.album.kdtoutcustomsmark.KDTOutCommonMarkType">
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <value style="element" name="StageMarkIdentifier" get-method="getStageMarkIdentifier" set-method="setStageMarkIdentifier"/>
+    <value style="element" name="NoteMarkIdentifier" get-method="getNoteMarkIdentifier" set-method="setNoteMarkIdentifier"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+  </mapping>
+  <mapping abstract="true" type-name="kocm:KDTOutGoodsResolutionType" class="ru.acs.fts.schemas.album.kdtoutcustomsmark.KDTOutGoodsResolutionType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <value style="element" name="StageMarkIdentifier" get-method="getStageMarkIdentifier" set-method="setStageMarkIdentifier"/>
+    <value style="element" name="NoteMarkIdentifier" get-method="getNoteMarkIdentifier" set-method="setNoteMarkIdentifier"/>
+    <value style="element" name="MarkDescription" get-method="getMarkDescription" set-method="setMarkDescription"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeInf" get-method="getTimeInf" set-method="setTimeInf" usage="optional"/>
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+  </mapping>
+</binding>

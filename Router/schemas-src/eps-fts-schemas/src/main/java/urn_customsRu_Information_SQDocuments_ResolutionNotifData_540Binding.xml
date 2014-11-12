@@ -1,0 +1,12 @@
+<binding xmlns:rsnfdt="urn:customs.ru:Information:SQDocuments:ResolutionNotifData:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:ResolutionNotifData:5.4.0" default="elements" prefix="rsnfdt"/>
+  <mapping abstract="true" type-name="rsnfdt:ResolutionNotifDataType" class="ru.acs.fts.schemas.album.resolutionnotifdata.ResolutionNotifDataType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RequestId" get-method="getRequestId" set-method="setRequestId"/>
+    <value style="element" name="Action" get-method="getAction" set-method="setAction"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.resolutionnotifdata.ResolutionNotifDataType" name="ResolutionNotifData">
+    <structure map-as="rsnfdt:ResolutionNotifDataType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,43 @@
+<binding xmlns:dresrq="urn:customs.ru:Information:SQDocuments:DocReestrReq:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:DocReestrReq:5.4.0" default="elements" prefix="dresrq"/>
+  <mapping abstract="true" type-name="dresrq:DocReestrReqType" class="ru.acs.fts.schemas.album.docreestrreq.DocReestrReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getPermissionInfoList" set-method="setPermissionInfoList" create-type="java.util.ArrayList">
+      <structure map-as="dresrq:PermissionInfoType" name="PermissionInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.docreestrreq.DocReestrReqType" name="DocReestrReq">
+    <structure map-as="dresrq:DocReestrReqType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dresrq:CarrierType" class="ru.acs.fts.schemas.album.docreestrreq.CarrierType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="IsForeign" get-method="getIsForeign" set-method="setIsForeign" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="dresrq:PermissionInfoType" class="ru.acs.fts.schemas.album.docreestrreq.PermissionInfoType">
+    <value style="element" name="MinNumber" get-method="getMinNumber" set-method="setMinNumber"/>
+    <value style="element" name="MaxNumber" get-method="getMaxNumber" set-method="setMaxNumber"/>
+    <value style="element" name="Count" get-method="getCount" set-method="setCount"/>
+    <value style="element" name="Country" get-method="getCountry" set-method="setCountry"/>
+    <value style="element" name="Information" get-method="getInformation" set-method="setInformation"/>
+    <value style="element" name="RestrictCondition" get-method="getRestrictCondition" set-method="setRestrictCondition" usage="optional"/>
+    <value style="element" name="ShipmentKind" get-method="getShipmentKind" set-method="setShipmentKind" usage="optional"/>
+    <value style="element" name="CountryRestriction" get-method="getCountryRestriction" set-method="setCountryRestriction" usage="optional"/>
+    <value style="element" name="TransitTransportation" get-method="getTransitTransportation" set-method="setTransitTransportation" usage="optional"/>
+    <value style="element" name="IsTransit" get-method="getIsTransit" set-method="setIsTransit" usage="optional"/>
+    <value style="element" name="TSRoute" get-method="getTSRoute" set-method="setTSRoute" usage="optional"/>
+    <structure map-as="dresrq:PermitDocumentType" get-method="getPermitDocument" set-method="setPermitDocument" name="PermitDocument"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getAPP" set-method="setAPP" usage="optional" name="APP"/>
+    <collection get-method="getCarrierList" set-method="setCarrierList" create-type="java.util.ArrayList">
+      <structure map-as="dresrq:CarrierType" name="Carrier"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="dresrq:PermitDocumentType" class="ru.acs.fts.schemas.album.docreestrreq.PermitDocumentType">
+    <value style="element" name="TransitPermitKind" get-method="getTransitPermitKind" set-method="setTransitPermitKind"/>
+    <value style="element" name="PermitNumber" get-method="getPermitNumber" set-method="setPermitNumber" usage="optional"/>
+    <value style="element" name="IssueDateTime" get-method="getIssueDateTime" set-method="setIssueDateTime"/>
+    <value style="element" name="Duration" get-method="getDuration" set-method="setDuration"/>
+    <value style="element" name="StopCancelDate" get-method="getStopCancelDate" set-method="setStopCancelDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus"/>
+  </mapping>
+</binding>

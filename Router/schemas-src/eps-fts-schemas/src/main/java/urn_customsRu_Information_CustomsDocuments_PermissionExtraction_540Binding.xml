@@ -1,0 +1,34 @@
+<binding xmlns:pex="urn:customs.ru:Information:CustomsDocuments:PermissionExtraction:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PermissionExtraction:5.4.0" default="elements" prefix="pex"/>
+  <mapping abstract="true" type-name="pex:PermissionExtractionType" class="ru.acs.fts.schemas.album.permissionextraction.PermissionExtractionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegNumber" get-method="getRegNumber" set-method="setRegNumber"/>
+    <value style="element" name="GroundsIssuing" get-method="getGroundsIssuing" set-method="setGroundsIssuing"/>
+    <value style="element" name="DateIssued" get-method="getDateIssued" set-method="setDateIssued" format="LocalDate.default"/>
+    <value style="element" name="NameManagement" get-method="getNameManagement" set-method="setNameManagement"/>
+    <value style="element" name="KindFishing" get-method="getKindFishing" set-method="setKindFishing"/>
+    <structure map-as="pex:UserInfoType" get-method="getUserInfo" set-method="setUserInfo" name="UserInfo"/>
+    <collection get-method="getConditionsExtractionList" set-method="setConditionsExtractionList" create-type="java.util.ArrayList">
+      <structure map-as="pex:ConditionsExtractionType" name="ConditionsExtraction"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPersonResponsibleProduction" set-method="setPersonResponsibleProduction" name="PersonResponsibleProduction"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPersonResponsiblePerforming" set-method="setPersonResponsiblePerforming" usage="optional" name="PersonResponsiblePerforming"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.permissionextraction.PermissionExtractionType" name="PermissionExtraction">
+    <structure map-as="pex:PermissionExtractionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="pex:ConditionsExtractionType" class="ru.acs.fts.schemas.album.permissionextraction.ConditionsExtractionType">
+    <value style="element" name="MiningRegion" get-method="getMiningRegion" set-method="setMiningRegion"/>
+    <value style="element" name="TypeResources" get-method="getTypeResources" set-method="setTypeResources"/>
+    <value style="element" name="ProductionQuota" get-method="getProductionQuota" set-method="setProductionQuota"/>
+    <value style="element" name="ProductionMethod" get-method="getProductionMethod" set-method="setProductionMethod"/>
+    <value style="element" name="TermExtraction" get-method="getTermExtraction" set-method="setTermExtraction"/>
+    <value style="element" name="MeasurementUnitTime" get-method="getMeasurementUnitTime" set-method="setMeasurementUnitTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="pex:UserInfoType" class="ru.acs.fts.schemas.album.permissionextraction.UserInfoType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+</binding>

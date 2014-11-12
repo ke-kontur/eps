@@ -1,0 +1,95 @@
+<binding xmlns:tpo="urn:customs.ru:Information:CustomsDocuments:TPO:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:TPO:5.4.0" default="elements" prefix="tpo"/>
+  <mapping abstract="true" type-name="tpo:TPOType" class="ru.acs.fts.schemas.album.tpo.TPOType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="AdditionalSheetNumber" get-method="getAdditionalSheetNumber" set-method="setAdditionalSheetNumber" usage="optional"/>
+    <value style="element" name="TotalWeight" get-method="getTotalWeight" set-method="setTotalWeight"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="DollarTotalCost" get-method="getDollarTotalCost" set-method="setDollarTotalCost"/>
+    <value style="element" name="EuroTotalCost" get-method="getEuroTotalCost" set-method="setEuroTotalCost"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="AmountLetter" get-method="getAmountLetter" set-method="setAmountLetter"/>
+    <structure map-as="tpo:TPOTypeCodeType" get-method="getTPOTypeCode" set-method="setTPOTypeCode" name="TPOTypeCode"/>
+    <structure map-as="tpo:TPORegNumberType" get-method="getTPORegNumber" set-method="setTPORegNumber" name="TPORegNumber"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getPayer" set-method="setPayer" name="Payer"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="tpo:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getReceiverPerson" set-method="setReceiverPerson" usage="optional" name="ReceiverPerson"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="tpo:PaymentCurrencyType" get-method="getPaymentCurrency" set-method="setPaymentCurrency" name="PaymentCurrency"/>
+    <collection get-method="getPresentedDocumentList" set-method="setPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tpo:PresentedDocumentType" name="PresentedDocument"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.tpo.TPOType" name="TPO">
+    <structure map-as="tpo:TPOType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:AutomobileInfoType" class="ru.acs.fts.schemas.album.tpo.AutomobileInfoType">
+    <value style="element" name="Model" get-method="getModel" set-method="setModel" usage="optional"/>
+    <value style="element" name="Mark" get-method="getMark" set-method="setMark" usage="optional"/>
+    <value style="element" name="OfftakeYear" get-method="getOfftakeYear" set-method="setOfftakeYear" usage="optional"/>
+    <value style="element" name="EngineVolumeQuanity" get-method="getEngineVolumeQuanity" set-method="setEngineVolumeQuanity" usage="optional"/>
+    <value style="element" name="VINID" get-method="getVINID" set-method="setVINID" usage="optional"/>
+    <value style="element" name="EnginePower" get-method="getEnginePower" set-method="setEnginePower" usage="optional"/>
+    <value style="element" name="MarkCode" get-method="getMarkCode" set-method="setMarkCode" usage="optional"/>
+    <value style="element" name="EnginePowerKVt" get-method="getEnginePowerKVt" set-method="setEnginePowerKVt" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:GoodsType" class="ru.acs.fts.schemas.album.tpo.GoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <value style="element" name="GoodsWeight" get-method="getGoodsWeight" set-method="setGoodsWeight"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost"/>
+    <value style="element" name="DollarCost" get-method="getDollarCost" set-method="setDollarCost"/>
+    <value style="element" name="EuroCost" get-method="getEuroCost" set-method="setEuroCost"/>
+    <value style="element" name="AdditionalInformation" get-method="getAdditionalInformation" set-method="setAdditionalInformation" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryQuantity" set-method="setSupplementaryQuantity" usage="optional" name="SupplementaryQuantity"/>
+    <collection get-method="getPaymentInfoList" set-method="setPaymentInfoList" create-type="java.util.ArrayList">
+      <structure map-as="tpo:PaymentInfoType" name="PaymentInfo"/>
+    </collection>
+    <collection get-method="getAutomobileInfoList" set-method="setAutomobileInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tpo:AutomobileInfoType" name="AutomobileInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:PaymentCurrencyType" class="ru.acs.fts.schemas.album.tpo.PaymentCurrencyType">
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="CurrencyDollarRate" get-method="getCurrencyDollarRate" set-method="setCurrencyDollarRate"/>
+    <value style="element" name="CurrencyEuroRate" get-method="getCurrencyEuroRate" set-method="setCurrencyEuroRate"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:PaymentDetailsType" class="ru.acs.fts.schemas.album.tpo.PaymentDetailsType">
+    <value style="element" name="FactPaidAmount" get-method="getFactPaidAmount" set-method="setFactPaidAmount"/>
+    <value style="element" name="PaymentMethodCode" get-method="getPaymentMethodCode" set-method="setPaymentMethodCode" usage="optional"/>
+    <structure map-as="tpo:PresentedDocumentType" get-method="getPaymentDocument" set-method="setPaymentDocument" usage="optional" name="PaymentDocument"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:PaymentInfoType" class="ru.acs.fts.schemas.album.tpo.PaymentInfoType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentName" get-method="getPaymentName" set-method="setPaymentName"/>
+    <value style="element" name="TaxBase" get-method="getTaxBase" set-method="setTaxBase"/>
+    <value style="element" name="Rate" get-method="getRate" set-method="setRate"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="TaxBaseQualifierCode" get-method="getTaxBaseQualifierCode" set-method="setTaxBaseQualifierCode" usage="optional"/>
+    <value style="element" name="RateQualifierCode" get-method="getRateQualifierCode" set-method="setRateQualifierCode" usage="optional"/>
+    <collection get-method="getPaymentDetailList" set-method="setPaymentDetailList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tpo:PaymentDetailsType" name="PaymentDetails"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:PresentedDocumentType" class="ru.acs.fts.schemas.album.tpo.PresentedDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:TPORegNumberType" class="ru.acs.fts.schemas.album.tpo.TPORegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="tpo:TPOTypeCodeType" class="ru.acs.fts.schemas.album.tpo.TPOTypeCodeType">
+    <value style="element" name="MovementPurpose" get-method="getMovementPurpose" set-method="setMovementPurpose"/>
+    <value style="element" name="MovementWay" get-method="getMovementWay" set-method="setMovementWay"/>
+    <value style="element" name="TransportKindCode" get-method="getTransportKindCode" set-method="setTransportKindCode"/>
+  </mapping>
+</binding>

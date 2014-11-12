@@ -1,0 +1,58 @@
+<binding xmlns:aqfsc="urn:customs.ru:Information:CustomsDocuments:ActQuarantineFitoSanControl:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ActQuarantineFitoSanControl:5.4.0" default="elements" prefix="aqfsc"/>
+  <mapping abstract="true" type-name="aqfsc:ActQuarantineFitoSanControlType" class="ru.acs.fts.schemas.album.actquarantinefitosancontrol.ActQuarantineFitoSanControlType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NameSubject" get-method="getNameSubject" set-method="setNameSubject"/>
+    <value style="element" name="NameManagement" get-method="getNameManagement" set-method="setNameManagement"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber"/>
+    <value style="element" name="NumberIKR" get-method="getNumberIKR" set-method="setNumberIKR" usage="optional"/>
+    <collection get-method="getResultScreeningList" set-method="setResultScreeningList" create-type="java.util.ArrayList">
+      <value style="element" name="ResultScreening" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ConfiscationSamples" get-method="getConfiscationSamples" set-method="setConfiscationSamples"/>
+    <value style="element" name="ReturnDestructionSamples" get-method="getReturnDestructionSamples" set-method="setReturnDestructionSamples"/>
+    <collection get-method="getPrescriptionList" set-method="setPrescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Prescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAuthorizedOfficial" set-method="setAuthorizedOfficial" name="AuthorizedOfficial"/>
+    <collection get-method="getDescriptionConsignmentList" set-method="setDescriptionConsignmentList" create-type="java.util.ArrayList">
+      <structure map-as="aqfsc:DescriptionConsignmentType" name="DescriptionConsignment"/>
+    </collection>
+    <structure map-as="aqfsc:FitoSanitaryCertificateInfoType" get-method="getFitoSanitaryCertificateInfo" set-method="setFitoSanitaryCertificateInfo" name="FitoSanitaryCertificateInfo"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getOwner" set-method="setOwner" name="Owner"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.actquarantinefitosancontrol.ActQuarantineFitoSanControlType" name="ActQuarantineFitoSanControl">
+    <structure map-as="aqfsc:ActQuarantineFitoSanControlType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aqfsc:ArrivalOriginInfoType" class="ru.acs.fts.schemas.album.actquarantinefitosancontrol.ArrivalOriginInfoType">
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName"/>
+    <value style="element" name="RegionName" get-method="getRegionName" set-method="setRegionName"/>
+  </mapping>
+  <mapping abstract="true" type-name="aqfsc:DescriptionConsignmentType" class="ru.acs.fts.schemas.album.actquarantinefitosancontrol.DescriptionConsignmentType">
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription"/>
+    <value style="element" name="QuantityPlace" get-method="getQuantityPlace" set-method="setQuantityPlace"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+    <value style="element" name="GoodsWeightQuantity" get-method="getGoodsWeightQuantity" set-method="setGoodsWeightQuantity"/>
+    <structure map-as="aqfsc:ArrivalOriginInfoType" get-method="getArrival" set-method="setArrival" name="Arrival"/>
+    <structure map-as="aqfsc:ArrivalOriginInfoType" get-method="getOrigin" set-method="setOrigin" name="Origin"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLocationPlace" set-method="setLocationPlace" usage="optional" name="LocationPlace"/>
+    <structure map-as="aqfsc:DesinfestationType" get-method="getDesinfestationInfo" set-method="setDesinfestationInfo" usage="optional" name="DesinfestationInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="aqfsc:DesinfestationType" class="ru.acs.fts.schemas.album.actquarantinefitosancontrol.DesinfestationType">
+    <value style="element" name="DateDesinfestation" get-method="getDateDesinfestation" set-method="setDateDesinfestation" format="LocalDate.default"/>
+    <value style="element" name="TreatmentMethod" get-method="getTreatmentMethod" set-method="setTreatmentMethod" usage="optional"/>
+    <value style="element" name="Chemical" get-method="getChemical" set-method="setChemical" usage="optional"/>
+    <value style="element" name="Duration" get-method="getDuration" set-method="setDuration" usage="optional"/>
+    <value style="element" name="Temperature" get-method="getTemperature" set-method="setTemperature" usage="optional"/>
+    <value style="element" name="Concentration" get-method="getConcentration" set-method="setConcentration" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="aqfsc:FitoSanitaryCertificateInfoType" class="ru.acs.fts.schemas.album.actquarantinefitosancontrol.FitoSanitaryCertificateInfoType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="IssueOrganization" get-method="getIssueOrganization" set-method="setIssueOrganization"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getSender" set-method="setSender" name="Sender"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getReceiver" set-method="setReceiver" name="Receiver"/>
+    <structure map-as="aqfsc:DesinfestationType" get-method="getDesinfestation" set-method="setDesinfestation" name="Desinfestation"/>
+  </mapping>
+</binding>

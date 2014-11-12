@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by administrator (EMBRACE) -->
+<xs:schema xmlns:inexres="urn:customs.ru:Information:IntExchResult:5.4.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:IntExchResult:5.4.1" elementFormDefault="qualified" version="5.4.1.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Результат обработки сообщения / выполнения операции</xs:documentation>
+	</xs:annotation>
+	<xs:element name="IntExchResult" type="inexres:IntExchResultType"/>
+	<xs:complexType name="IntExchResultType">
+		<xs:annotation>
+			<xs:documentation>Результат обработки сообщения / выполнения операции</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="Response" type="inexres:ResponseType" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Результат выполнения операции</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090016E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>Локальные прикладные типы</xs:documentation>
+	</xs:annotation>
+	<xs:complexType name="DocumentResultType">
+		<xs:annotation>
+			<xs:documentation>Результат обработки документа</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ResultCode" type="IEclt_ru:Text50Type">
+				<xs:annotation>
+					<xs:documentation>Код обработки сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор документа - результата обработки.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EADInfoType">
+		<xs:annotation>
+			<xs:documentation>Информация о документах в архиве декларанта</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ArchDeclID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор декларанта а ЭАД</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchID" type="IEclt_ru:DocumentNumberType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор архива</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchDocID" type="IEclt_ru:DocumentNumberType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор документа в архиве декларанта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchDocStatus" type="IEclt_ru:Text50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Статус документа в архиве.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EventListType">
+		<xs:annotation>
+			<xs:documentation>Информация о событиях / сообщениях</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MessageCode" type="IEclt_ru:Text50Type">
+				<xs:annotation>
+					<xs:documentation>Код сообщения согласно спецификации обмена.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageDescription" type="IEclt_ru:FreeText250Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание сообщения (справочник сообщений).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProcState" type="IEclt_ru:Text50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Статус процесса после обработки сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RecvDateTime" type="IEclt_ru:DateTimeCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата и время приема сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SendDateTime" type="IEclt_ru:DateTimeCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата/время отправки сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentCode" type="IEclt_ru:DocumentModeIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код вида документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentDescription" type="IEclt_ru:FreeText250Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание вида документа (справочник)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор обработанного сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MsgInitialEnvelopeID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ссылочный идентификатор сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MsgPreparationDateTime" type="IEclt_ru:DateTimeCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата/время  создания сообщения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MsgDocumentID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MsgRefDocumentID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ссылочный идентификатор документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentResult" type="inexres:DocumentResultType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Результат обработки документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ItemInfoType">
+		<xs:annotation>
+			<xs:documentation>Описание элемента документа, в котором допущена ошибка</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RefItem" type="IEclt_ru:Text50Type">
+				<xs:annotation>
+					<xs:documentation>Ссылка на элемент с ошибкой.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RecommendValue" type="IEclt_ru:FreeText250Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Рекомендуемое значение.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProcInformationType">
+		<xs:annotation>
+			<xs:documentation>Информация о процессе для которого запрашивается статус/история</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ProcState" type="IEclt_ru:Text50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Текущий статус процесса</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProcessID" type="IEclt_ru:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Идентификатор процесса, для которого запрашивается статус / история</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StateDescription" type="IEclt_ru:FreeText250Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание статусного состояния</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EventList" type="inexres:EventListType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Информация о событиях / сообщениях</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResponseType">
+		<xs:annotation>
+			<xs:documentation>Элемент, содержащий результат выполнения операции (положительный или отрицательный)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RefDocumentID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор документа, в котором была допущена ошибка.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CreateDate" type="IEclt_ru:DateCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата создания документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CreateTime" type="IEclt_ru:TimeCustType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Время создания документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultInformation" type="inexres:ResultInformationType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Код возврата при обработке сообщения, результат выполнения операции (запрос к ЭАД, запрос статуса/истории процесса)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResultInformationType">
+		<xs:annotation>
+			<xs:documentation>Информация  о  результате обработки документа</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ResultSource" type="IEclt_ru:Text10Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Источник ошибки. Код подсистемы, вернувшей ошибку.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultCode" type="IEclt_ru:Text50Type">
+				<xs:annotation>
+					<xs:documentation>Код ошибки.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultDescription" type="IEclt_ru:FreeText250Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Текстовое описание ошибки.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultCategory" type="IEclt_ru:Text50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Степень критичности ошибки. Код или мнемоническое описание.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RefLineID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор строки запроса к электронному архиву</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ItemInfo" type="inexres:ItemInfoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ссылка на элемент с ошибкой</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EADInfo" type="inexres:EADInfoType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Информация о документах в архиве декларанта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProcInformation" type="inexres:ProcInformationType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация о процессе, для которого запрашивается статус/история</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

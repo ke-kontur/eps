@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	XML-схема электронно-цифровой подписи представленной в виде XML-документа.
+-->
+<xs:schema xmlns:fts="http://www.w3.org/2000/09/xmldsig#" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3.org/2000/09/xmldsig#" elementFormDefault="qualified" version="1.1">
+	<xs:element name="Signature" type="fts:SignatureType"/>
+	<xs:complexType name="SignatureType">
+		<xs:annotation>
+			<xs:documentation>
+				Электронно-цифровая подпись.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="SignedInfo" type="fts:SignedInfoType"/>
+			<xs:element name="SignatureValue" type="fts:SignatureValueType"/>
+			<xs:element name="KeyInfo" type="fts:KeyInfoType"/>
+			<xs:element name="Object" type="fts:ObjectType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SignedInfoType">
+		<xs:annotation>
+			<xs:documentation>
+				Информация о подписываемом объекте.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CanonicalizationMethod" type="fts:CanonicalizationMethodType"/>
+			<xs:element name="SignatureMethod" type="fts:SignatureMethodType"/>
+			<xs:element name="Reference" type="fts:ReferenceType" minOccurs="2" maxOccurs="2"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CanonicalizationMethodType">
+		<xs:annotation>
+			<xs:documentation>
+				Информация о методе преобразования документа перед наложением
+				электронно-цифровой подписи
+			</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Algorithm" type="xs:anyURI" use="required" fixed="urn:xml-dsig:transformation:v1.1"/>
+	</xs:complexType>
+	<xs:complexType name="SignatureMethodType">
+		<xs:annotation>
+			<xs:documentation>
+				Информация о криптографическом алгоритме, с помощью которого 
+				была подготовленна цифровая подпись
+			</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Algorithm" type="xs:anyURI" use="required" fixed="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411"/>
+	</xs:complexType>
+	<xs:complexType name="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>
+				Информация о заверяемых подписью объектах
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Transforms" type="fts:TransformsType"/>
+			<xs:element name="DigestMethod" type="fts:DigestMethodType"/>
+			<xs:element name="DigestValue" type="fts:DigestValueType"/>
+		</xs:sequence>
+		<xs:attribute name="URI" type="xs:anyURI" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TransformsType">
+		<xs:annotation>
+			<xs:documentation>
+				Список трансформаций, которые необходимо применить к
+				подписываемому объекту, перед наложением подписи.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Transform" type="fts:TransformType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TransformType">
+		<xs:annotation>
+			<xs:documentation>
+				Одно из последовательно выполняемых преобразований над 
+				подписываемым объектом
+			</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Algorithm" type="xs:anyURI" use="required" fixed="urn:xml-dsig:transformation:v1.1"/>
+	</xs:complexType>
+	<xs:complexType name="DigestMethodType">
+		<xs:annotation>
+			<xs:documentation>
+				Информация о методе вычисления хеш-суммы.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Algorithm" type="xs:anyURI" use="required" fixed="http://www.w3.org/2001/04/xmldsig-more#gostr3411"/>
+	</xs:complexType>
+	<xs:simpleType name="DigestValueType">
+		<xs:annotation>
+			<xs:documentation>
+				Значение вычисленной хеш-суммы
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:base64Binary"/>
+	</xs:simpleType>
+	<xs:simpleType name="SignatureValueType">
+		<xs:annotation>
+			<xs:documentation>
+				Содержит значение ЭЦП
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:base64Binary">
+			<xs:minLength value="573"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="KeyInfoType">
+		<xs:annotation>
+			<xs:documentation>
+				Содержит X.509-сертификат, с помощью которого получили 
+				ЭЦП документа
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="X509Data" type="fts:X509DataType"/>
+		</xs:sequence>
+		<xs:attribute name="Id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="X509DataType">
+		<xs:annotation>
+			<xs:documentation>
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="X509Certificate" type="fts:X509CertificateType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="X509CertificateType">
+		<xs:annotation>
+			<xs:documentation>
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:base64Binary"/>
+	</xs:simpleType>
+	<xs:complexType name="ObjectType">
+		<xs:annotation>
+			<xs:documentation>
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="skip" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="Id" type="xs:ID" use="required"/>
+	</xs:complexType>
+</xs:schema>

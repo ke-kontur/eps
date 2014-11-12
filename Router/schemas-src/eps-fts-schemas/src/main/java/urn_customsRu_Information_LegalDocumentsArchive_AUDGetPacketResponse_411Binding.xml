@@ -1,0 +1,13 @@
+<binding xmlns:aupres="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetPacketResponse:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_GetPacketResponse:4.1.1" default="elements" prefix="aupres"/>
+  <mapping abstract="true" type-name="aupres:AUD_GetPacketResponseType" class="ru.acs.fts.schemas.aud.aud_getpacketresponse.AUDGetPacketResponseType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <collection get-method="getPacketInfoWithDocumentList" set-method="setPacketInfoWithDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_PacketInfoWithDocumentsType" name="PacketInfoWithDocuments"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_getpacketresponse.AUDGetPacketResponseType" name="AUD_GetPacketResponse">
+    <structure map-as="aupres:AUD_GetPacketResponseType"/>
+  </mapping>
+</binding>

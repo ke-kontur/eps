@@ -1,0 +1,18 @@
+<binding xmlns:aadr="urn:customs.ru:Information:EArchDocuments:ArchAddDocRequest:5.4.0" xmlns:catArch_ru="urn:customs.ru:Information:ElectronicArchiveDocumentsDocuments:ElectronicArchiveCommonAggregateTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:EArchDocuments:ArchAddDocRequest:5.4.0" default="elements" prefix="aadr"/>
+  <mapping abstract="true" type-name="aadr:ArchAddDocRequestType" class="ru.acs.fts.schemas.album.archadddocrequest.ArchAddDocRequestType">
+    <structure map-as="catArch_ru:ArchBaseType"/>
+    <value style="element" name="DocumentBeginDate" get-method="getDocumentBeginDate" set-method="setDocumentBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocumentEndDate" get-method="getDocumentEndDate" set-method="setDocumentEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode"/>
+    <structure map-as="aadr:ArchDocType" get-method="getArchDoc" set-method="setArchDoc" name="ArchDoc"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocBaseInfo" set-method="setDocBaseInfo" usage="optional" name="DocBaseInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.archadddocrequest.ArchAddDocRequestType" name="ArchAddDocRequest">
+    <structure map-as="aadr:ArchAddDocRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aadr:ArchDocType" class="ru.acs.fts.schemas.album.archadddocrequest.ArchDocType">
+    <structure get-method="getAny" set-method="setAny"/>
+  </mapping>
+</binding>

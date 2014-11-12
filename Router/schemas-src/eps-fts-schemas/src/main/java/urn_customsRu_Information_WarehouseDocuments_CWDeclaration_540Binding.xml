@@ -1,0 +1,37 @@
+<binding xmlns:cwd="urn:customs.ru:Information:WarehouseDocuments:CWDeclaration:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CWDeclaration:5.4.0" default="elements" prefix="cwd"/>
+  <mapping abstract="true" type-name="cwd:CWDeclarationType" class="ru.acs.fts.schemas.album.cwdeclaration.CWDeclarationType">
+    <structure map-as="catWH_ru:CWDocType"/>
+    <structure map-as="cwd:DeclarationHeaderType" get-method="getHeader" set-method="setHeader" name="Header"/>
+    <collection get-method="getCommodityList" set-method="setCommodityList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cwd:CommodityType" name="Commodity"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cwdeclaration.CWDeclarationType" name="CWDeclaration">
+    <structure map-as="cwd:CWDeclarationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwd:CommodityType" class="ru.acs.fts.schemas.album.cwdeclaration.CommodityType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="GoodsNumberInStorageQuitance" get-method="getGoodsNumberInStorageQuitance" set-method="setGoodsNumberInStorageQuitance" usage="optional"/>
+    <value style="element" name="GoodsNumberInGTD" get-method="getGoodsNumberInGTD" set-method="setGoodsNumberInGTD" usage="optional"/>
+    <value style="element" name="IndividualCharacteristics" get-method="getIndividualCharacteristics" set-method="setIndividualCharacteristics" usage="optional"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsValue" set-method="setGoodsValue" usage="optional" name="GoodsValue"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwd:DeclarationHeaderType" class="ru.acs.fts.schemas.album.cwdeclaration.DeclarationHeaderType">
+    <value style="element" name="OwnerName" get-method="getOwnerName" set-method="setOwnerName"/>
+    <value style="element" name="OwnerNameFull" get-method="getOwnerNameFull" set-method="setOwnerNameFull" usage="optional"/>
+    <value style="element" name="CustomName" get-method="getCustomName" set-method="setCustomName"/>
+    <value style="element" name="OrderNumberOfEdition" get-method="getOrderNumberOfEdition" set-method="setOrderNumberOfEdition"/>
+    <value style="element" name="PeriodStart" get-method="getPeriodStart" set-method="setPeriodStart" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="PeriodFinish" get-method="getPeriodFinish" set-method="setPeriodFinish" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Materials" get-method="getMaterials" set-method="setMaterials" usage="optional"/>
+    <value style="element" name="TechnicalFacilities" get-method="getTechnicalFacilities" set-method="setTechnicalFacilities" usage="optional"/>
+    <value style="element" name="OperationName" get-method="getOperationName" set-method="setOperationName" usage="optional"/>
+    <value style="element" name="OperationID" get-method="getOperationID" set-method="setOperationID"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getDeclarationNumber" set-method="setDeclarationNumber" name="DeclarationNumber"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getStorageQuitanceNumber" set-method="setStorageQuitanceNumber" usage="optional" name="StorageQuitanceNumber"/>
+    <structure map-as="catWH_ru:AISTSDocumentIDType" get-method="getFormularNumber" set-method="setFormularNumber" usage="optional" name="FormularNumber"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDNumber" set-method="setGTDNumber" usage="optional" name="GTDNumber"/>
+  </mapping>
+</binding>

@@ -1,0 +1,90 @@
+
+package ru.acs.fts.schemas.album.esadin;
+
+import java.util.ArrayList;
+import java.util.List;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
+
+/** 
+ * ДТ и ТД. Внутренний формат. Транспортные средства на границе.
+ */
+public class ESADinBorderTransportType extends CUTransportMeansType
+{
+    private String transportMeansQuantity;
+    private String methodTransport;
+    private String nameObject;
+    private List<TransportMeansBaseType> transportMeanList = new ArrayList<TransportMeansBaseType>();
+
+    /** 
+     * Get the 'TransportMeansQuantity' element value. Количество транспортных средств
+     * 
+     * @return value
+     */
+    public String getTransportMeansQuantity() {
+        return transportMeansQuantity;
+    }
+
+    /** 
+     * Set the 'TransportMeansQuantity' element value. Количество транспортных средств
+     * 
+     * @param transportMeansQuantity
+     */
+    public void setTransportMeansQuantity(String transportMeansQuantity) {
+        this.transportMeansQuantity = transportMeansQuantity;
+    }
+
+    /** 
+     * Get the 'MethodTransport' element value. Способ транспортировки товаров при перемещении по линиям электропередачи или трубопроводным транспортом : 1- газопровод, 2 -нефтепровод, 3- нефтепродуктопровод, 4- линия электропередачи
+     * 
+     * @return value
+     */
+    public String getMethodTransport() {
+        return methodTransport;
+    }
+
+    /** 
+     * Set the 'MethodTransport' element value. Способ транспортировки товаров при перемещении по линиям электропередачи или трубопроводным транспортом : 1- газопровод, 2 -нефтепровод, 3- нефтепродуктопровод, 4- линия электропередачи
+     * 
+     * @param methodTransport
+     */
+    public void setMethodTransport(String methodTransport) {
+        this.methodTransport = methodTransport;
+    }
+
+    /** 
+     * Get the 'NameObject' element value. Наименование объекта, на котором установлены приборы учета товаров, перемещаемых по линиям электропередачи или трубопроводным транспортом
+     * 
+     * @return value
+     */
+    public String getNameObject() {
+        return nameObject;
+    }
+
+    /** 
+     * Set the 'NameObject' element value. Наименование объекта, на котором установлены приборы учета товаров, перемещаемых по линиям электропередачи или трубопроводным транспортом
+     * 
+     * @param nameObject
+     */
+    public void setNameObject(String nameObject) {
+        this.nameObject = nameObject;
+    }
+
+    /** 
+     * Get the list of 'TransportMeans' element items. Описание транспортного средства
+     * 
+     * @return list
+     */
+    public List<TransportMeansBaseType> getTransportMeanList() {
+        return transportMeanList;
+    }
+
+    /** 
+     * Set the list of 'TransportMeans' element items. Описание транспортного средства
+     * 
+     * @param list
+     */
+    public void setTransportMeanList(List<TransportMeansBaseType> list) {
+        transportMeanList = list;
+    }
+}

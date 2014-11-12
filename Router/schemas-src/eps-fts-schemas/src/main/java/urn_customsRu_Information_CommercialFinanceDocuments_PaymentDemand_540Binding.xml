@@ -1,0 +1,41 @@
+<binding xmlns:pde="urn:customs.ru:Information:CommercialFinanceDocuments:PaymentDemand:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CommercialFinanceDocuments:PaymentDemand:5.4.0" default="elements" prefix="pde"/>
+  <mapping abstract="true" type-name="pde:PaymentDemandType" class="ru.acs.fts.schemas.album.paymentdemand.PaymentDemandType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount"/>
+    <value style="element" name="TransactionKind" get-method="getTransactionKind" set-method="setTransactionKind"/>
+    <value style="element" name="ReceiptDateCollectBank" get-method="getReceiptDateCollectBank" set-method="setReceiptDateCollectBank" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ReceiptDate" get-method="getReceiptDate" set-method="setReceiptDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ChargeOffDate" get-method="getChargeOffDate" set-method="setChargeOffDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MaturiryDate" get-method="getMaturiryDate" set-method="setMaturiryDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AcceptanceAmount" get-method="getAcceptanceAmount" set-method="setAcceptanceAmount" usage="optional"/>
+    <value style="element" name="DocDispatchDate" get-method="getDocDispatchDate" set-method="setDocDispatchDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="AcceptanceTerm" get-method="getAcceptanceTerm" set-method="setAcceptanceTerm" usage="optional"/>
+    <value style="element" name="PaymentCondition" get-method="getPaymentCondition" set-method="setPaymentCondition"/>
+    <value style="element" name="Priority" get-method="getPriority" set-method="setPriority"/>
+    <value style="element" name="Purpose" get-method="getPurpose" set-method="setPurpose"/>
+    <value style="element" name="ValueSpelledOut" get-method="getValueSpelledOut" set-method="setValueSpelledOut"/>
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="FinCardDate" get-method="getFinCardDate" set-method="setFinCardDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocumentReference" set-method="setDocumentReference" name="DocumentReference"/>
+    <structure map-as="catComFin_ru:PayCustomerType" get-method="getPayer" set-method="setPayer" name="Payer"/>
+    <structure map-as="catComFin_ru:PayCustomerType" get-method="getPayee" set-method="setPayee" name="Payee"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getPaymentConditionRef" set-method="setPaymentConditionRef" usage="optional" name="PaymentConditionRef"/>
+    <collection get-method="getDocumentSignList" set-method="setDocumentSignList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="DocumentSign"/>
+    </collection>
+    <collection get-method="getRecipBankMarkList" set-method="setRecipBankMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:BankMarkType" name="RecipBankMark"/>
+    </collection>
+    <collection get-method="getPayBankMarkList" set-method="setPayBankMarkList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:BankMarkType" name="PayBankMark"/>
+    </collection>
+    <collection get-method="getPartPaymentList" set-method="setPartPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catComFin_ru:PartPaymentType" name="PartPayment"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.paymentdemand.PaymentDemandType" name="PaymentDemand">
+    <structure map-as="pde:PaymentDemandType"/>
+  </mapping>
+</binding>

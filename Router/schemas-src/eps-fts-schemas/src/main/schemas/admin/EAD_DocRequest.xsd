@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by pdp (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eaddr="urn:customs.ru:Information:AdminCommandED:EAD_DocRequest:4.6.0" xmlns:IEclt_ru="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" targetNamespace="urn:customs.ru:Information:AdminCommandED:EAD_DocRequest:4.6.0" elementFormDefault="qualified" version="4.6.0.0">
+	<xs:import namespace="urn:customs.ru:IntExchCommonLeafTypesCust:4.6.0" schemaLocation="IntExchCommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0" schemaLocation="IntExchCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Запрос документов из электронного архива декларанта</xs:documentation>
+	</xs:annotation>
+	<xs:element name="EAD_DocRequest" type="eaddr:EAD_DocRequestType"/>
+	<xs:complexType name="EAD_DocRequestType">
+		<xs:annotation>
+			<xs:documentation>Запрос документов из электронного архива декларанта</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="IEcat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="RequestedDoc" type="eaddr:RequestedDocType" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Запрашиваемый документ</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="IEclt_ru:DocumentModeIDType" use="required" fixed="1090008E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="RequestedDocType">
+		<xs:annotation>
+			<xs:documentation>Запрашиваемый документ</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ArchDeclID" type="IEclt_ru:DocumentIDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникальный идентификатор декларанта в Электронном Архиве Декларанта.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchID" type="IEclt_ru:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Идентификатор электронного архива декларанта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchDocID" type="IEclt_ru:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Идентификатор документа в электронном архиве декларанта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RequestPositionID" type="IEclt_ru:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Идетнификатор позиции в запросе</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArchiveInformationType">
+		<xs:annotation>
+			<xs:documentation>Информация из архива</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ArchDocAlbum" type="IEclt_ru:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Номер версии альбома форматов</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArchDocDate" type="IEclt_ru:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата помещения документа в электронный архив декларанта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

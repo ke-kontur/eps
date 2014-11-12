@@ -1,0 +1,24 @@
+<binding xmlns:arcn="urn:customs.ru:Information:TransportDocuments:Railway:ArrivalConfirmation:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Railway:ArrivalConfirmation:5.4.0" default="elements" prefix="arcn"/>
+  <mapping abstract="true" type-name="arcn:ArrivalConfirmationType" class="ru.acs.fts.schemas.album.arrivalconfirmation.ArrivalConfirmationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NotifDate" get-method="getNotifDate" set-method="setNotifDate" format="LocalDate.default"/>
+    <value style="element" name="NotifTime" get-method="getNotifTime" set-method="setNotifTime" usage="optional"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getConfirmation" set-method="setConfirmation" name="Confirmation"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifTD" get-method="getTD" set-method="setTD" usage="optional" name="TD"/>
+      <structure map-as="arcn:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.arrivalconfirmation.ArrivalConfirmationType" name="ArrivalConfirmation">
+    <structure map-as="arcn:ArrivalConfirmationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="arcn:TIRIDType" class="ru.acs.fts.schemas.album.arrivalconfirmation.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+</binding>

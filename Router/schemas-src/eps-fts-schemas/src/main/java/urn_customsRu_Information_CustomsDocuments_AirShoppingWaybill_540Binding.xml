@@ -1,0 +1,94 @@
+<binding xmlns:asw="urn:customs.ru:Information:CustomsDocuments:AirShoppingWaybill:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:AirShoppingWaybill:5.4.0" default="elements" prefix="asw"/>
+  <mapping abstract="true" type-name="asw:AirShoppingWaybillType" class="ru.acs.fts.schemas.album.airshoppingwaybill.AirShoppingWaybillType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegNumberWaybill" get-method="getRegNumberWaybill" set-method="setRegNumberWaybill"/>
+    <collection get-method="getRateListCurrencyList" set-method="setRateListCurrencyList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="asw:RateListCurrencyType" name="RateListCurrency"/>
+    </collection>
+    <collection get-method="getContainerInfoList" set-method="setContainerInfoList" create-type="java.util.ArrayList">
+      <structure map-as="asw:ContainerInfoType" name="ContainerInfo"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="asw:GoodsMovementType" get-method="getGoodsMovement" set-method="setGoodsMovement" name="GoodsMovement"/>
+    <structure map-as="asw:PersonScheduledNumberType" get-method="getPerson" set-method="setPerson" name="Person"/>
+    <structure map-as="asw:GoodsInfoType" get-method="getGoodsInfo" set-method="setGoodsInfo" name="GoodsInfo"/>
+    <structure map-as="asw:CommentsType" get-method="getComments" set-method="setComments" usage="optional" name="Comments"/>
+    <structure map-as="asw:CheckingItemFightingDamageType" get-method="getCheckingItemFightingDamage" set-method="setCheckingItemFightingDamage" name="CheckingItemFightingDamage"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.airshoppingwaybill.AirShoppingWaybillType" name="AirShoppingWaybill">
+    <structure map-as="asw:AirShoppingWaybillType"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:CheckingItemFightingDamageType" class="ru.acs.fts.schemas.album.airshoppingwaybill.CheckingItemFightingDamageType">
+    <structure map-as="cat_ru:PersonBaseType" get-method="getBoardConductorDeparting" set-method="setBoardConductorDeparting" usage="optional" name="BoardConductorDeparting"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getTransOrganizationDeparting" set-method="setTransOrganizationDeparting" usage="optional" name="TransOrganizationDeparting"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getTransOrganizationArrival" set-method="setTransOrganizationArrival" usage="optional" name="TransOrganizationArrival"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getBoardConductorArrival" set-method="setBoardConductorArrival" usage="optional" name="BoardConductorArrival"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:CommentsType" class="ru.acs.fts.schemas.album.airshoppingwaybill.CommentsType">
+    <collection get-method="getNoticeList" set-method="setNoticeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Notice" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="asw:ContainerInfoType" class="ru.acs.fts.schemas.album.airshoppingwaybill.ContainerInfoType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="NumberLock" get-method="getNumberLock" set-method="setNumberLock" usage="optional"/>
+    <value style="element" name="NumberSeal" get-method="getNumberSeal" set-method="setNumberSeal" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:FreeGoodsType" class="ru.acs.fts.schemas.album.airshoppingwaybill.FreeGoodsType">
+    <collection get-method="getNameFreeGoodList" set-method="setNameFreeGoodList" create-type="java.util.ArrayList">
+      <value style="element" name="NameFreeGoods" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="PLUCodeFreeGoods" get-method="getPLUCodeFreeGoods" set-method="setPLUCodeFreeGoods"/>
+    <value style="element" name="NumberFreeGoods" get-method="getNumberFreeGoods" set-method="setNumberFreeGoods"/>
+    <value style="element" name="NumberReturnFreeGoods" get-method="getNumberReturnFreeGoods" set-method="setNumberReturnFreeGoods" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:GoodsInfoType" class="ru.acs.fts.schemas.album.airshoppingwaybill.GoodsInfoType">
+    <collection get-method="getGeneralCommentList" set-method="setGeneralCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GeneralComments" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getFreeGoodList" set-method="setFreeGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="asw:FreeGoodsType" name="FreeGoods"/>
+    </collection>
+    <structure map-as="asw:SoldGoodsType" get-method="getSoldGoods" set-method="setSoldGoods" usage="optional" name="SoldGoods"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:GoodsListType" class="ru.acs.fts.schemas.album.airshoppingwaybill.GoodsListType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="NumberSentGoods" get-method="getNumberSentGoods" set-method="setNumberSentGoods"/>
+    <value style="element" name="NumberReturnGoods" get-method="getNumberReturnGoods" set-method="setNumberReturnGoods" usage="optional"/>
+    <value style="element" name="NumberSoldGoods" get-method="getNumberSoldGoods" set-method="setNumberSoldGoods" usage="optional"/>
+    <value style="element" name="PriceUnit" get-method="getPriceUnit" set-method="setPriceUnit"/>
+    <value style="element" name="PriceGoods" get-method="getPriceGoods" set-method="setPriceGoods" usage="optional"/>
+    <value style="element" name="PLUCode" get-method="getPLUCode" set-method="setPLUCode"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="asw:GoodsMovementType" class="ru.acs.fts.schemas.album.airshoppingwaybill.GoodsMovementType">
+    <structure map-as="catTrans_ru:FlightInfoType"/>
+    <value style="element" name="ReturnFlightNumber" get-method="getReturnFlightNumber" set-method="setReturnFlightNumber" usage="optional"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDestinationAirport" set-method="setDestinationAirport" usage="optional" name="DestinationAirport"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:PersonScheduledNumberType" class="ru.acs.fts.schemas.album.airshoppingwaybill.PersonScheduledNumberType">
+    <structure map-as="cat_ru:PersonSignatureType"/>
+    <value style="element" name="ScheduledNumber" get-method="getScheduledNumber" set-method="setScheduledNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:RateListCurrencyType" class="ru.acs.fts.schemas.album.airshoppingwaybill.RateListCurrencyType">
+    <value style="element" name="CurrencyName" get-method="getCurrencyName" set-method="setCurrencyName"/>
+    <value style="element" name="Currency" get-method="getCurrency" set-method="setCurrency"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate"/>
+  </mapping>
+  <mapping abstract="true" type-name="asw:SoldGoodsType" class="ru.acs.fts.schemas.album.airshoppingwaybill.SoldGoodsType">
+    <value style="element" name="AllUnitGoods" get-method="getAllUnitGoods" set-method="setAllUnitGoods"/>
+    <value style="element" name="TotalCostGoods" get-method="getTotalCostGoods" set-method="setTotalCostGoods"/>
+    <value style="element" name="TotalCostSoldGoods" get-method="getTotalCostSoldGoods" set-method="setTotalCostSoldGoods" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <collection get-method="getGoodsList" set-method="setGoodsList" create-type="java.util.ArrayList">
+      <structure map-as="asw:GoodsListType" name="GoodsList"/>
+    </collection>
+  </mapping>
+</binding>

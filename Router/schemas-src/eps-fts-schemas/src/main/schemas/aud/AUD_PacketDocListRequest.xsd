@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListRequest:4.2.1" version="4.2.1.0" xmlns:apdreq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PacketDocListRequest:4.2.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.1.0" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:4.1.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос списка документов пакета</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_PacketDocListRequest" type="apdreq:AUD_PacketDocListRequestType"/>
+   <xs:complexType name="AUD_PacketDocListRequestType">
+      <xs:annotation>
+         <xs:documentation>Запрос списка документов пакета</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:choice>
+                  <xs:element name="PacketDTNum" type="cat_ru:GTDIDType">
+                     <xs:annotation>
+                        <xs:documentation>Регистрационный  номер ДТ</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="PacketAppliedID" type="cltAUD_ru:AUD_AppliedIdType">
+                     <xs:annotation>
+                        <xs:documentation>Прикладной идентификатор пакета</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+                  <xs:element name="ArchivePacketID" type="cltAUD_ru:AUD_UniqueIdType">
+                     <xs:annotation>
+                        <xs:documentation>Архивный  идентификатор пакета</xs:documentation>
+                     </xs:annotation>
+                  </xs:element>
+               </xs:choice>
+            </xs:sequence>
+            <xs:attribute fixed="1010033E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

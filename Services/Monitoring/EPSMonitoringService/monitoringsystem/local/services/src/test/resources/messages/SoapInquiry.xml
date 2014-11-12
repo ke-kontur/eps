@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://www.w3.org/2001/06/soap-envelope">
+	<Header>
+		<ns1:RoutingInf xmlns:ns1="urn:customs.ru:Envelope:RoutingInf:1.0">
+			<ns1:EnvelopeID>E9F1D616-23F0-DDF6-8798-C382554DD33B</ns1:EnvelopeID>
+			<ns1:SenderInformation>GateASKTT</ns1:SenderInformation>
+			<ns1:ReceiverInformation>MONITORING-SYSTEM</ns1:ReceiverInformation>
+			<ns1:PreparationDateTime>2009-03-02T11:50:04</ns1:PreparationDateTime>
+		</ns1:RoutingInf>
+		<ns2:ApplicationInf xmlns:ns2="urn:customs.ru:Envelope:ApplicationInf:1.0">
+			<ns2:SoftKind>GateASKTT</ns2:SoftKind>
+			<ns2:SoftVersion>1.0</ns2:SoftVersion>
+			<ns2:MessageKind>RNTS.113.001</ns2:MessageKind>
+		</ns2:ApplicationInf>
+	</Header>
+	<Body>
+<minf:MonitoringInquiry DocumentModeID="9999004E" xsi:schemaLocation="urn:customs.ru:MonitoringInquiry:1.0.0 MonitoringInquiry.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:4.2.0" xmlns:minf="urn:customs.ru:MonitoringInquiry:1.0.0">
+	<cat_ru:DocumentID>123456</cat_ru:DocumentID>
+</minf:MonitoringInquiry>
+	</Body>
+</Envelope>

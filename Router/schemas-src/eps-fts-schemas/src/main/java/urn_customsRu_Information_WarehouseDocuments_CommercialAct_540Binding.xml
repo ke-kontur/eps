@@ -1,0 +1,95 @@
+<binding xmlns:ca="urn:customs.ru:Information:WarehouseDocuments:CommercialAct:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonAggregateTypesCust:5.4.0" xmlns:cltWH_ru="urn:customs.ru:Information:WarehouseDocuments:WarehouseCommonLeafTypesCust:5.0.5">
+  <namespace uri="urn:customs.ru:Information:WarehouseDocuments:CommercialAct:5.4.0" default="elements" prefix="ca"/>
+  <mapping abstract="true" type-name="ca:CommercialActType" class="ru.acs.fts.schemas.album.commercialact.CommercialActType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="catWH_ru:WareHouseReportLinkDataType" get-method="getDO1ReportLinkData" set-method="setDO1ReportLinkData" name="DO1ReportLinkData"/>
+    <structure map-as="ca:ActDetailsType" get-method="getActDetails" set-method="setActDetails" name="ActDetails"/>
+    <structure map-as="catWH_ru:WarehouseOwnerType" get-method="getWarehouseOwner" set-method="setWarehouseOwner" name="WarehouseOwner"/>
+    <structure map-as="ca:DiscrepancyInfoType" get-method="getDiscrepancyInfo" set-method="setDiscrepancyInfo" name="DiscrepancyInfo"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getWareHousePerson" set-method="setWareHousePerson" name="WareHousePerson"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCarrierPerson" set-method="setCarrierPerson" usage="optional" name="CarrierPerson"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getRecipientPerson" set-method="setRecipientPerson" usage="optional" name="RecipientPerson"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.commercialact.CommercialActType" name="CommercialAct">
+    <structure map-as="ca:CommercialActType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:ActDetailsType" class="ru.acs.fts.schemas.album.commercialact.ActDetailsType">
+    <value style="element" name="ActName" get-method="getActName" set-method="setActName" usage="optional"/>
+    <value style="element" name="ActNumber" get-method="getActNumber" set-method="setActNumber"/>
+    <value style="element" name="ActDate" get-method="getActDate" set-method="setActDate" format="LocalDate.default"/>
+    <value style="element" name="ActOrderNumber" get-method="getActOrderNumber" set-method="setActOrderNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:ActGoodsType" class="ru.acs.fts.schemas.album.commercialact.ActGoodsType">
+    <value style="element" name="DO1GoodNumber" get-method="getDO1GoodNumber" set-method="setDO1GoodNumber"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:BruttoVolQuantType" class="ru.acs.fts.schemas.album.commercialact.BruttoVolQuantType">
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getBruttoVolQuantByDocs" set-method="setBruttoVolQuantByDocs" name="BruttoVolQuantByDocs"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getBruttoVolQuantByFact" set-method="setBruttoVolQuantByFact" name="BruttoVolQuantByFact"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:DiscrepancyDetailsType" class="ru.acs.fts.schemas.album.commercialact.DiscrepancyDetailsType">
+    <value style="element" name="RecipientFlag" get-method="getRecipientFlag" set-method="setRecipientFlag" usage="optional"/>
+    <value style="element" name="CarrierFlag" get-method="getCarrierFlag" set-method="setCarrierFlag" usage="optional"/>
+    <value style="element" name="LeaksFlag" get-method="getLeaksFlag" set-method="setLeaksFlag" usage="optional"/>
+    <collection get-method="getLeaksDescriptionList" set-method="setLeaksDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="LeaksDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ca:DiscrepancyInfoType" class="ru.acs.fts.schemas.album.commercialact.DiscrepancyInfoType">
+    <value style="element" name="Stage" get-method="getStage" set-method="setStage" format="cltWH_ru:GoodMismatchStageType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="Reasons" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TotalPackageNumber" get-method="getTotalPackageNumber" set-method="setTotalPackageNumber" usage="optional"/>
+    <structure map-as="ca:DiscrepancyDetailsType" get-method="getDiscrepancyDetails" set-method="setDiscrepancyDetails" usage="optional" name="DiscrepancyDetails"/>
+    <collection get-method="getMissingGoodList" set-method="setMissingGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ca:ActGoodsType" name="MissingGoods"/>
+    </collection>
+    <collection get-method="getDiscrepantGoodList" set-method="setDiscrepantGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="ca:DiscrepantGoodsType" name="DiscrepantGoods"/>
+    </collection>
+    <collection get-method="getExtraGoodList" set-method="setExtraGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catWH_ru:WHShipmentInfoType" name="ExtraGoods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ca:DiscrepantGoodsType" class="ru.acs.fts.schemas.album.commercialact.DiscrepantGoodsType">
+    <structure map-as="ca:ActGoodsType"/>
+    <structure map-as="ca:GoodsTNVEDCodeType" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional" name="GoodsTNVEDCode"/>
+    <structure map-as="ca:GoodsDescriptionType" get-method="getGoodsDescription" set-method="setGoodsDescription" usage="optional" name="GoodsDescription"/>
+    <structure map-as="ca:InvoiceCostType" get-method="getInvoiceCost" set-method="setInvoiceCost" usage="optional" name="InvoiceCost"/>
+    <structure map-as="ca:PlaceNumberType" get-method="getPlaceNumber" set-method="setPlaceNumber" usage="optional" name="PlaceNumber"/>
+    <structure map-as="ca:GoodsQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional" name="GoodsQuantity"/>
+    <structure map-as="ca:BruttoVolQuantType" get-method="getBruttoVolQuant" set-method="setBruttoVolQuant" usage="optional" name="BruttoVolQuant"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:GoodsDescriptionType" class="ru.acs.fts.schemas.album.commercialact.GoodsDescriptionType">
+    <collection get-method="getGoodsDescriptionByDocList" set-method="setGoodsDescriptionByDocList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescriptionByDocs" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getGoodsDescriptionByFactList" set-method="setGoodsDescriptionByFactList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescriptionByFact" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="ca:GoodsQuantityType" class="ru.acs.fts.schemas.album.commercialact.GoodsQuantityType">
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsQuantityByDocs" set-method="setGoodsQuantityByDocs" name="GoodsQuantityByDocs"/>
+    <structure map-as="catWH_ru:WHSuppQuantityType" get-method="getGoodsQuantityByFact" set-method="setGoodsQuantityByFact" name="GoodsQuantityByFact"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:GoodsTNVEDCodeType" class="ru.acs.fts.schemas.album.commercialact.GoodsTNVEDCodeType">
+    <value style="element" name="TNVEDCodeByDocs" get-method="getTNVEDCodeByDocs" set-method="setTNVEDCodeByDocs"/>
+    <value style="element" name="TNVEDCodeByFact" get-method="getTNVEDCodeByFact" set-method="setTNVEDCodeByFact"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:InvoiceCostDataType" class="ru.acs.fts.schemas.album.commercialact.InvoiceCostDataType">
+    <value style="element" name="CostAmount" get-method="getCostAmount" set-method="setCostAmount"/>
+    <value style="element" name="CostCurrencyCode" get-method="getCostCurrencyCode" set-method="setCostCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:InvoiceCostType" class="ru.acs.fts.schemas.album.commercialact.InvoiceCostType">
+    <structure map-as="ca:InvoiceCostDataType" get-method="getInvoiceCostByDocs" set-method="setInvoiceCostByDocs" name="InvoiceCostByDocs"/>
+    <structure map-as="ca:InvoiceCostDataType" get-method="getInvoiceCostByFact" set-method="setInvoiceCostByFact" name="InvoiceCostByFact"/>
+  </mapping>
+  <mapping abstract="true" type-name="ca:PlaceNumberType" class="ru.acs.fts.schemas.album.commercialact.PlaceNumberType">
+    <value style="element" name="PlaceNumberByDocs" get-method="getPlaceNumberByDocs" set-method="setPlaceNumberByDocs"/>
+    <value style="element" name="PlaceNumberByFact" get-method="getPlaceNumberByFact" set-method="setPlaceNumberByFact"/>
+  </mapping>
+</binding>

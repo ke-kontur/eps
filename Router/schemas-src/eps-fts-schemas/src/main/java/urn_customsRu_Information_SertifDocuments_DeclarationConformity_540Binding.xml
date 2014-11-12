@@ -1,0 +1,100 @@
+<binding xmlns:declc="urn:customs.ru:Information:SertifDocuments:DeclarationConformity:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:DeclarationConformity:5.4.0" default="elements" prefix="declc"/>
+  <mapping abstract="true" type-name="declc:DeclarationConformityType" class="ru.acs.fts.schemas.album.declarationconformity.DeclarationConformityType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="BDRDID" get-method="getBDRDID" set-method="setBDRDID" usage="optional"/>
+    <value style="element" name="SchemaDeclaration" get-method="getSchemaDeclaration" set-method="setSchemaDeclaration"/>
+    <collection get-method="getOtherInfoList" set-method="setOtherInfoList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="OtherInfo" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="StartDate" get-method="getStartDate" set-method="setStartDate" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <collection get-method="getDeclNormDocList" set-method="setDeclNormDocList" create-type="java.util.ArrayList">
+      <value style="element" name="DeclNormDoc" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DeclarationSign" get-method="getDeclarationSign" set-method="setDeclarationSign" usage="optional"/>
+    <structure map-as="declc:RegistrationNumberType" get-method="getRegistrationNumber" set-method="setRegistrationNumber" name="RegistrationNumber"/>
+    <structure map-as="declc:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="declc:GoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getDocumentList" set-method="setDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Document"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDeclarantSignature" set-method="setDeclarantSignature" name="DeclarantSignature"/>
+    <structure map-as="declc:RegisterType" get-method="getRegister" set-method="setRegister" usage="optional" name="Register"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getRegisterSignature" set-method="setRegisterSignature" name="RegisterSignature"/>
+    <collection get-method="getAppendList" set-method="setAppendList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="declc:AppendsType" name="Append"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.declarationconformity.DeclarationConformityType" name="DeclarationConformity">
+    <structure map-as="declc:DeclarationConformityType"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:AppendsType" class="ru.acs.fts.schemas.album.declarationconformity.AppendsType">
+    <value style="element" name="AppendNumber" get-method="getAppendNumber" set-method="setAppendNumber" usage="optional"/>
+    <value style="element" name="AppendFormNumber" get-method="getAppendFormNumber" set-method="setAppendFormNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:DeclarantType" class="ru.acs.fts.schemas.album.declarationconformity.DeclarantType">
+    <structure map-as="cat_ru:OrganizationBackAddrType"/>
+    <value style="element" name="OrgRegistryDate" get-method="getOrgRegistryDate" set-method="setOrgRegistryDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getChief" set-method="setChief" usage="optional" name="Chief"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrgRegAuthority" set-method="setOrgRegAuthority" usage="optional" name="OrgRegAuthority"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:DocumentType" class="ru.acs.fts.schemas.album.declarationconformity.DocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ModeCode" get-method="getModeCode" set-method="setModeCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:GoodsInformationType" class="ru.acs.fts.schemas.album.declarationconformity.GoodsInformationType">
+    <value style="element" name="TradeMark" get-method="getTradeMark" set-method="setTradeMark" usage="optional"/>
+    <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+    <value style="element" name="GoodsMarking" get-method="getGoodsMarking" set-method="setGoodsMarking" usage="optional"/>
+    <value style="element" name="GoodsStandard" get-method="getGoodsStandard" set-method="setGoodsStandard" usage="optional"/>
+    <value style="element" name="GoodsSort" get-method="getGoodsSort" set-method="setGoodsSort" usage="optional"/>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+    <value style="element" name="GoodsKind" get-method="getGoodsKind" set-method="setGoodsKind" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:GoodsType" class="ru.acs.fts.schemas.album.declarationconformity.GoodsType">
+    <structure map-as="declc:AppendsType"/>
+    <value style="element" name="ProductCode" get-method="getProductCode" set-method="setProductCode" usage="optional"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="SeriesSign" get-method="getSeriesSign" set-method="setSeriesSign"/>
+    <value style="element" name="NormDocs" get-method="getNormDocs" set-method="setNormDocs"/>
+    <collection get-method="getManufacturerList" set-method="setManufacturerList" create-type="java.util.ArrayList">
+      <structure map-as="declc:ManufacturerType" name="Manufacturer"/>
+    </collection>
+    <collection get-method="getGoodsInformationList" set-method="setGoodsInformationList" create-type="java.util.ArrayList">
+      <structure map-as="declc:GoodsInformationType" name="GoodsInformation"/>
+    </collection>
+    <structure map-as="declc:TypeDeclarationType" get-method="getTypeDeclaration" set-method="setTypeDeclaration" usage="optional" name="TypeDeclaration"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getContract" set-method="setContract" usage="optional" name="Contract"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:ManufacturerType" class="ru.acs.fts.schemas.album.declarationconformity.ManufacturerType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <collection get-method="getBranchList" set-method="setBranchList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:CUBranchDescriptionType" name="Branch"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="declc:RegisterType" class="ru.acs.fts.schemas.album.declarationconformity.RegisterType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="RegistrationAuthority" get-method="getRegistrationAuthority" set-method="setRegistrationAuthority" usage="optional"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:RegistrationNumberType" class="ru.acs.fts.schemas.album.declarationconformity.RegistrationNumberType">
+    <value style="element" name="SerialNumber" get-method="getSerialNumber" set-method="setSerialNumber"/>
+    <value style="element" name="CustomsCountryCode" get-method="getCustomsCountryCode" set-method="setCustomsCountryCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="declc:TypeDeclarationType" class="ru.acs.fts.schemas.album.declarationconformity.TypeDeclarationType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber" usage="optional"/>
+    <value style="element" name="Size" get-method="getSize" set-method="setSize" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+    <collection get-method="getShippingDocumentList" set-method="setShippingDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="ShippingDocuments"/>
+    </collection>
+  </mapping>
+</binding>

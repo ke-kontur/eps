@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:ESADoutP:5.4.0" version="5.4.0.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:cltESAD_cu="urn:customs.ru:CUESADCommonLeafTypes:5.4.0" xmlns:cltESAD_ru="urn:customs.ru:RUCommonLeafTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:soup="urn:customs.ru:Information:CustomsDocuments:ESADoutP:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:RUCommonLeafTypes:5.4.0" schemaLocation="RUESADCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CUESADCommonLeafTypes:5.4.0" schemaLocation="CUESADCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" schemaLocation="CUESADCommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Предварительное уведомление о декларировании  товаров</xs:documentation>
+   </xs:annotation>
+   <xs:element name="ESADoutP" type="soup:ESADoutPType"/>
+   <xs:complexType name="ESADoutPType">
+      <xs:annotation>
+         <xs:documentation>Предварительное уведомление о декларировании товаров</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="CustomsProcedure" type="cltESAD_ru:CustomsProcedureType">
+                  <xs:annotation>
+                     <xs:documentation>Таможенная процедура. ИМ, ЭК. ВТТ, МТТ. Левый подраздел гр.1 ДТ.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="CustomsModeCode" type="clt_ru:Numeric1Type">
+                  <xs:annotation>
+                     <xs:documentation>Код таможенного режима.  гр. 1. средний подраздел ДТ. Первый символ кода гр. 37.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="TransitDirectionCode" type="clt_ru:TransitDirectionCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Направление перемещения при транзите.  ИМ, ЭК, ПР. Гр. 1 ДТ. правый подраздел. </xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="DeclarationKind" type="cltESAD_cu:CustomsDeclarationKindType">
+                  <xs:annotation>
+                     <xs:documentation>Вид таможенной декларации по Классификатору видов таможенных деклараций.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="PI_URN" type="clt_ru:DocumentIDType">
+                  <xs:annotation>
+                     <xs:documentation>Уникальный идентификатор предварительной информации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="FormKind" type="clt_ru:Code3Type">
+                  <xs:annotation>
+                     <xs:documentation>Тип формы</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="ESADGoodsShipmentP" type="soup:ESADGoodsShipmentPType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о товарной партии.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1006808E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы.</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="ConfirmingOrganizationType">
+      <xs:annotation>
+         <xs:documentation>Удостоверяющий</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="Date" type="clt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата отправления информации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="OrganizationName" type="clt_ru:NameType">
+            <xs:annotation>
+               <xs:documentation>Наименование организации, осуществляющей отправку информации</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="OrganizationSign" type="clt_ru:Numeric1Type">
+            <xs:annotation>
+               <xs:documentation>Удостоверяющий: 0 - с Турецкой стороны; 1 - от экспортера товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="SenderName" type="soup:PersonInfoType">
+            <xs:annotation>
+               <xs:documentation>ФИО лица, осуществившего отправку</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ContainerInfoType">
+      <xs:annotation>
+         <xs:documentation>Информация о номере контейнера</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ContainerNumber" type="clt_ru:CodeVariable20Type">
+            <xs:annotation>
+               <xs:documentation>Номер контейнера</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ContainerKind" type="clt_ru:PackageCodeType">
+            <xs:annotation>
+               <xs:documentation>Тип контейнера</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="Seals" type="clt_ru:CodeVariable20Type">
+            <xs:annotation>
+               <xs:documentation>Сведения о номере пломбы</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ContainerType">
+      <xs:annotation>
+         <xs:documentation>Информация о контейнерах</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="ContainerQuantity" type="clt_ru:Quantity8Type">
+            <xs:annotation>
+               <xs:documentation>Количество контейнеров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="ContainerInfo" type="soup:ContainerInfoType">
+            <xs:annotation>
+               <xs:documentation>Информация о номере контейнера</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="CustomsPaymentCalcPType">
+      <xs:annotation>
+         <xs:documentation>Расчет таможенных платежей</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catESAD_cu:CUCustomsPaymentCalculationType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="CustomsPaymentsPType">
+      <xs:annotation>
+         <xs:documentation>Таможенные платежи к уплате</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element maxOccurs="unbounded" name="CustomsPayment" type="catESAD_cu:ESADout_CUCustomsPaymentType">
+            <xs:annotation>
+               <xs:documentation>Таможенные платежи</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ESADGoodsItemPType">
+      <xs:annotation>
+         <xs:documentation>Информация о товаре</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catESAD_cu:GoodsItemBaseType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="GoodsTNVEDCode" type="clt_ru:GoodsNomenclatureCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код товара по ТН ВЭД ТС</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="OriginCountryCode" type="clt_ru:CountryA2CodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код страны происхождения по общероссийскому классификатору стран мира / буквенный код страны происхождения по классификатору экономических союзов и сообществ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="OriginCountryName" type="clt_ru:CountryNameType">
+                  <xs:annotation>
+                     <xs:documentation>Краткое наименование страны происхождения / экономического союза.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="CountryCodeIndicator" type="clt_ru:DigitalIndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак кода страны происхождения. 1 - классификатор OKSMT 2- Классификатор союзов и сообществ EK_EU. В остальных случаях не заполняется.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="Preferencii" type="cltESAD_ru:PreferenceType">
+                  <xs:annotation>
+                     <xs:documentation>Преференции, особенности уплаты платежей</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="DestinationCountryCode" type="clt_ru:CountryA2CodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код страны назначения по общероссийскому классификатору стран мира. </xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ConformityStatCostIndicator" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак приведения статистической стоимости  к установленной базе цен</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="CustomsCostCorrectMethod" type="cltESAD_cu:CustomsCostAppraiseMethodType">
+                  <xs:annotation>
+                     <xs:documentation>Номер метода определения таможенной стоимости. Заполняется в соответствии с классификатором методов определения таможенной стоимости.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="InvoiceCostCurCode" type="clt_ru:CurrencyA3CodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код валюты фактурной стоимости</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="GoodsAddTNVEDCode" type="clt_ru:GoodsNomenclatuerAddCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код  товара по классификатору  дополнительной таможенной информации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="GoodsGroupDescription" type="catESAD_cu:GoodsGroupDescriptionType">
+                  <xs:annotation>
+                     <xs:documentation>Описание группы товаров одного наименования с отличающимися от других групп характеристиками</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="Container" type="soup:ContainerType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о контейнерах</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADGoodsShipmentPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о товарной партии.</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="OriginCountryName" type="clt_ru:CountryNameType">
+            <xs:annotation>
+               <xs:documentation>Страна происхождения товара. Наименование / разные / неизвестна.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="TotalPackageNumber" type="clt_ru:PakageNumberType">
+            <xs:annotation>
+               <xs:documentation>Общее количество грузовых мест.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="TotalCustCost" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Сведения о стоимости/общая таможенная стоимость</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="CustCostCurrencyCode" type="clt_ru:CurrencyN3CodeType">
+            <xs:annotation>
+               <xs:documentation>Цифровой код валюты таможенной стоимости.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="TotalGrossWeight" type="clt_ru:QuantityBasisType">
+            <xs:annotation>
+               <xs:documentation>Общий вес товара брутто (кг)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ConsignmentIdentifier" type="clt_ru:DocumentNumberType">
+            <xs:annotation>
+               <xs:documentation>Уникальный номер перевозки</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="DepartureCustomsCode" type="clt_ru:CodeVariable10Type">
+            <xs:annotation>
+               <xs:documentation>Код таможенного органа отправления</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="BorderCustomsOffice" type="clt_ru:CodeVariable10Type">
+            <xs:annotation>
+               <xs:documentation>Код таможенного органа вывоза</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ESADoutConsignorP" type="soup:ESADoutConsignorPType">
+            <xs:annotation>
+               <xs:documentation>Сведения об отправителе товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ESADoutConsigneeP" type="soup:ESADoutConsigneePType">
+            <xs:annotation>
+               <xs:documentation>Сведения о получателе товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ESADoutCarrierP" type="soup:ESADoutCarrierPType">
+            <xs:annotation>
+               <xs:documentation>Сведения о перевозчике товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ESADoutDeclarantP" type="soup:ESADoutDeclarantPType">
+            <xs:annotation>
+               <xs:documentation>Сведения о декларанте товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ESADoutMainContractTermsP" type="soup:ESADoutMainContractTermsPType">
+            <xs:annotation>
+               <xs:documentation>Сведения об условиях сделки</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="ESADoutConsigmenP" type="soup:ESADoutConsigmenPType">
+            <xs:annotation>
+               <xs:documentation>Сведения о перевозке товаров</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" name="ESADoutGoodsP" type="soup:ESADoutGoodsPType">
+            <xs:annotation>
+               <xs:documentation>Сведения о товаре</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="CustomsPaymentsP" type="soup:CustomsPaymentsPType">
+            <xs:annotation>
+               <xs:documentation>Таможенные платежи к уплате</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="TransportDocument" type="soup:TransportDocumentType">
+            <xs:annotation>
+               <xs:documentation>Информация о транспортных документах</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="ConfirmingOrganization" type="soup:ConfirmingOrganizationType">
+            <xs:annotation>
+               <xs:documentation>Удостоверяющий</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ESADoutCarrierPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о перевозчике товаров</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="ESADDriverInformation" type="cat_ru:DriverInformationType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о водителях транспортных средств</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutConsigmenPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о перевозке товаров</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element minOccurs="0" name="DispatchCountryCode" type="clt_ru:CountryA2CodeType">
+            <xs:annotation>
+               <xs:documentation>Страна отправления. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="DispatchCountryName" type="clt_ru:CountryNameType">
+            <xs:annotation>
+               <xs:documentation>Страна отправления. Наименование.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="DestinationCountryCode" type="clt_ru:CountryA2CodeType">
+            <xs:annotation>
+               <xs:documentation>Страна назначения. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="DestinationCountryName" type="clt_ru:CountryNameType">
+            <xs:annotation>
+               <xs:documentation>Страна назначения. Наименование.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="ESADoutTransportP" type="soup:ESADoutTransportPType">
+            <xs:annotation>
+               <xs:documentation>Сведения о транспортных средствах</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ESADoutConsigneePType">
+      <xs:annotation>
+         <xs:documentation>Сведения о получателе товаров</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutConsignorPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о получателе товаров</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutDeclarantPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о декларанте товаров</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="ESADFilledPerson" type="catESAD_cu:ESADFilledPersonType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о лице, заполнившем уведомление</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutGoodsPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о товарах</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="soup:ESADGoodsItemPType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="ESADGoodsPackaging" type="catESAD_cu:ESADGoodsPackagingType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о грузовых местах, поддонах и упаковке товаров.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="SupplementaryQuantity" type="cat_ru:SupplementaryQuantityType">
+                  <xs:annotation>
+                     <xs:documentation>Количество в дополнительной единице измерения</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ESADGoodsQuota" type="catESAD_cu:ESADGoodsQuotaType">
+                  <xs:annotation>
+                     <xs:documentation>Квота.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ESADCustomsProcedure" type="catESAD_cu:ESADCustomsProcedureType">
+                  <xs:annotation>
+                     <xs:documentation>Процедура.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="ESADoutPresentedDocumentP" type="soup:ESADoutPresentedDocumentPType">
+                  <xs:annotation>
+                     <xs:documentation>Предоставляемые документы</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="CustomsPaymentCalcP" type="soup:CustomsPaymentCalcPType">
+                  <xs:annotation>
+                     <xs:documentation>Расчет таможенных платежей</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutMainContractTermsPType">
+      <xs:annotation>
+         <xs:documentation>Сведения об условиях сделки</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catESAD_cu:CUESADMainContractTermsType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutPresentedDocumentPType">
+      <xs:annotation>
+         <xs:documentation>Предоставляемые документы</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catESAD_cu:CUESADPresentedDocumentsType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ESADoutTransportPType">
+      <xs:annotation>
+         <xs:documentation>Сведения о транспортных средствах</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUTransportMeansType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="TransportMeans" type="soup:TransportMeansType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о транспортных средствах</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="PersonInfoType">
+      <xs:annotation>
+         <xs:documentation>Сведения о лице, осуществившем отправку</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="PersonName" type="clt_ru:NameType">
+            <xs:annotation>
+               <xs:documentation>ФИО лица, осуществившего отправку</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="PersonPost" type="clt_ru:PostType">
+            <xs:annotation>
+               <xs:documentation>Должность</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="TransportDocumentType">
+      <xs:annotation>
+         <xs:documentation>Информация о транспортных документах</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:DocumentBaseType">
+            <xs:sequence>
+               <xs:element name="Holder" type="clt_ru:NameType">
+                  <xs:annotation>
+                     <xs:documentation>Держатель накладной</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="TransportMeansType">
+      <xs:annotation>
+         <xs:documentation>Описание транспортного средства</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:TransportMeansBaseType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="TransportModeCode" type="clt_ru:TransportModeCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

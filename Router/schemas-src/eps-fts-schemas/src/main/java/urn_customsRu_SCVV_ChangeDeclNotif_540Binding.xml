@@ -1,0 +1,13 @@
+<binding xmlns:ChDecl="urn:customs.ru:SCVV:ChangeDeclNotif:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:SCVV:ChangeDeclNotif:5.4.0" default="elements" prefix="ChDecl"/>
+  <mapping abstract="true" type-name="ChDecl:ChangeDeclNotifType" class="ru.acs.fts.schemas.album.changedeclnotif.ChangeDeclNotifType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ChangeDeclType" get-method="getChangeDeclType" set-method="setChangeDeclType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTID" set-method="setDTID" name="DTID"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getNewDTID" set-method="setNewDTID" usage="optional" name="NewDTID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.changedeclnotif.ChangeDeclNotifType" name="ChangeDeclNotif">
+    <structure map-as="ChDecl:ChangeDeclNotifType"/>
+  </mapping>
+</binding>

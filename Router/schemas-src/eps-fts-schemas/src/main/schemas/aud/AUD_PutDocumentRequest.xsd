@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PutDocumentRequest:4.1.1" version="4.1.1.0" xmlns:auareq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PutDocumentRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" xmlns:cltAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:4.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonLeafTypes:4.1.0" schemaLocation="AUDCommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1" schemaLocation="AUDCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:4.1.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос на размещение документов на хранение.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AUD_PutDocumentRequest" type="auareq:AUD_PutDocumentRequestType"/>
+   <xs:complexType name="AUD_PutDocumentRequestType">
+      <xs:annotation>
+         <xs:documentation>Запрос на размещение документов на хранение.</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="catAUD_ru:AUD_BaseEnvelopeType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="PrevVersionArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор документа прежней версии. Указывается в случае, если размещаемый на хранение документ представляет собой новую (следующую) версию уже хранимого документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="RefArchivePacketId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Архивный идентификатор пакета документов. Указывается в случае, если требуется выполнить изменение уже существующего в архиве пакета (изменение его атрибутов или состава), а не создать в архиве новый пакет документов.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="CustomsCode" type="clt_ru:CustomsCodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код таможенного органа, к которому относится документ. Указывается в случае, если источником запроса является клиент архива типа "Оператор архива" и требуется, чтобы размещаемый на хранение документ относился к определенному таможенному органу.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="RefExtArchivePacketId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Ссылочный архивный идентификатор пакета документов. Указывается в случае, если документ ранее был размещен в другом пакете  документов</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="RefExtArchiveDocumentId" type="cltAUD_ru:AUD_UniqueIdType">
+                  <xs:annotation>
+                     <xs:documentation>Ссылочный архивный идентификатор документа. Указывается в случае, если документ ранее был размещен в другом пакете  документов</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="AppliedDocumentWithBody" type="catAUD_ru:AUD_AppliedDocumentWithBodyType">
+                  <xs:annotation>
+                     <xs:documentation>Передаваемый на хранение прикладной документ: информация о документе и тело документа.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="AppliedPacketInfo" type="catAUD_ru:AUD_AppliedPacketInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Информация прикладной системы о пакете документов.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="EmbeddedDocumentAppliedInfo" type="catAUD_ru:AUD_AppliedDocumentInfoWithVersionRefType">
+                  <xs:annotation>
+                     <xs:documentation>Информация о прикладном документе, вложенном в передаваемый на хранение документ-контейнер. Указывается обязательно в том и только в том случае, если передаваемый на хранение в архив документ представляет собой документ-контейнер ('ED_Container'). Указывается для каждого документа, вложенного в документ-контейнер.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1010003E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида технологического документа (запроса, ответа)</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

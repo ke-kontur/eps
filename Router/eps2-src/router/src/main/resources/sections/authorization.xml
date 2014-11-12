@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+	<!-- Подгружаем бины авторизаторов -->
+	<import resource="local-authorization.xml" />
+	
+    <!-- Хранилище авторизаторов -->
+    <bean id="authorizationWarehouse" class="ru.acs.fts.eps2.router.processing.auth.AuthorizationWarehouse" >
+    	<property name="authorizers" >
+    		<map>
+    			<entry key="FROM_KASTO_TO_DECL" value-ref="fromKastoToDecl" />
+    			<entry key="FROM_KASTO_TO_DECL_NOT_IN_PROCESS" value-ref="fromKastoToDeclNotInProcess" />
+    			<entry key="FROM_KASTO_TO_DECL_WITHOUT_CODE" value-ref="fromKastoToDeclWithoutCode" />
+    			<entry key="FROM_KASTO_TO_KASTO" value-ref="fromKastoToKasto" />
+    			<entry key="FROM_KASTO_TO_KASTO_NOT_IN_PROCESS" value-ref="fromKastoToKastoNotInProc" />
+    			<entry key="FROM_KASTO_TO_KASTO_WITHOUT_CODE" value-ref="fromCustomsToCustomsWithoutCode" />
+    			<entry key="FROM_KASTO_ONLY" value-ref="fromKastoOnly" />
+    			<entry key="FROM_KASTO_ONLY_NOT_IN_PROC" value-ref="fromKastoOnlyNotInProc" />
+    			<entry key="FROM_KASTO_ONLY_NOT_IN_PROC_WITHOUT_CODE" value-ref="fromKastoOnlyNotInProcWithoutCode" />
+    			<entry key="FROM_KASTO_TO_KASTO_WITHOUT_CODE_ASKTT2" value-ref="fromCustomsToCustomsWithoutCodeAsktt2" />
+    			<entry key="FROM_DECL_TO_KASTO" value-ref="fromDeclToKasto" />
+    			<entry key="FROM_DECL_TO_KASTO_NOT_IN_PROCESS" value-ref="fromDeclToKastoNotInProcess" /> 
+    			<entry key="FROM_DECL_TO_KASTO_WITHOUT_CODE" value-ref="fromDeclToKastoWithoutCode" />
+    			<entry key="FROM_DECL_TO_EPS_WITHOUT_CODE" value-ref="fromDeclToEpsWithoutCode" />
+    			<entry key="FROM_DECL_ONLY" value-ref="fromDeclOnly" />
+    			<entry key="FROM_EPS_TO_KASTO" value-ref="fromEpsToKasto" />
+    			<entry key="FROM_EPS_TO_KASTO_NOT_IN_PROCESS" value-ref="fromEpsToCustomsNotInProcess" />
+    			<entry key="OPEN_PROC" value-ref="openProc" />
+    			<entry key="RZD_OPEN_PROC" value-ref="rzdOpenProc" />
+    			<entry key="FROM_KASTO_TO_EPS" value-ref="fromKastoToEps" />
+    			<entry key="FROM_KASTO_TO_EPS_NOT_IN_PROCESS" value-ref="fromKastoToEpsNotInProcess" />
+    			<entry key="TO_EAD" value-ref="toEadAuth" />
+    			<entry key="FROM_DECL_TO_KASTO_CHECK_PROCESS" value-ref="fromDeclToCustomsCheckProcess" />
+    			<entry key="FROM_EPS_TO_DECL_WITHOUT_CODE" value-ref="fromEpsToDeclWithoutCode" />
+    			<entry key="FROM_EPS_TO_KASTO_WITHOUT_SENDER" value-ref="fromEpsToCustomsWithoutSender" />
+    		</map>
+    	</property>
+    	
+    	<property name="authorizationSelectors" >
+    		<list>
+    		
+    			<!-- Более частные проверки идут первыми -->
+
+				<!-- ED.11001 -->
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="RZD_OPEN_PROC" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ED.11001" />
+    						<property name="exchType" ref="asktt2ExchType" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="OPEN_PROC" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="ED.11001" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.10003</value>
+    								<value>CMN.11005</value>
+    								
+    								<value>MSG.11006</value>
+    							</list>
+    						</property>
+    						<property name="receivingCustomsType" value="ASKTT2" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- CMN.11006 -->
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_EPS_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11006" />
+    						<property name="procUdFlag" value="4" />
+    			    		<property name="remotenessType" value="REMOTE_EPS" />
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_KASTO_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11006" />
+    						<property name="procUdFlag" value="4" />
+    					</bean>
+    				</property>
+    			</bean>
+    			    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_EPS_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11121</value>
+    								
+    								<value>MSG.11026</value>
+    								<value>MSG.11027</value>
+    								<value>MSG.11066</value>
+    							</list>
+    						</property>
+    						<property name="remotenessType" value="REMOTE_EPS" /> 
+    						<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.10006</value>
+    								<value>CMN.10012</value>
+    								<value>CMN.10050</value>
+    								<value>CMN.10056</value>
+    								<value>CMN.10057</value>
+    								<value>CMN.10058</value>
+    								<value>CMN.10060</value>
+    								<value>CMN.10062</value>
+    								<value>CMN.10063</value>
+    								<value>CMN.10064</value>
+    								<value>CMN.10066</value>
+    								<value>CMN.10067</value>
+    								<value>CMN.10068</value>
+    								<value>CMN.10070</value>
+    								<value>CMN.10071</value>
+    								<value>CMN.10075</value>
+    								<value>CMN.10076</value>
+    								<value>CMN.10080</value>
+    								<value>CMN.10081</value>
+    							
+    								<value>CMN.11006</value>
+									<value>CMN.11017</value>
+    								<value>CMN.11047</value>
+									<value>CMN.11070</value>
+									<value>CMN.11074</value>
+    								<value>CMN.11104</value>
+    								<value>CMN.11108</value>
+    								<value>CMN.11110</value>
+    								
+    								<value>CMN.12102</value>
+    								<value>CMN.12103</value>
+    								<value>CMN.12112</value>
+    								<value>CMN.12114</value>
+    								<value>CMN.12115</value>
+    								<value>CMN.12117</value>
+								
+									<value>CMN.13009</value>
+									<value>CMN.13020</value>
+									<value>CMN.13015</value>
+									<value>CMN.13023</value>
+									<value>CMN.13024</value>
+									
+									<!-- Транзит от декларанта без ссылочной связанности -->
+									<value>CMN.11018</value> 
+									<value>CMN.11032</value>
+									<value>CMN.11069</value>
+									
+									<value>ED.13005</value>
+    								<!-- Продление срока выпуска товаров -->
+									<value>CMN.11112</value>
+									<value>CMN.11119</value>
+									<value>CMN.11121</value>
+									<value>CMN.11126</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>    			
+    			    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_EPS" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11010</value>
+    								<value>CMN.11020</value>
+    								<value>CMN.11033</value>
+    								<value>CMN.11042</value>
+    								<value>CMN.11043</value>
+    								<value>CMN.11093</value>
+    								<value>CMN.11094</value>
+    								<value>CMN.11101</value>
+    								<value>CMN.11117</value>
+    								<value>CMN.11118</value>
+    								<value>CMN.11123</value>
+    								<value>CMN.11124</value>
+    								
+    								<value>MSG.11007</value>
+    								<value>MSG.11008</value>
+    								<value>MSG.11020</value>
+    								<value>MSG.11025</value>
+    								<value>MSG.11026</value>
+    								<value>MSG.11027</value>
+    								<value>MSG.11066</value>
+    							</list>
+    						</property>
+    						<property name="remotenessType" value="REMOTE_EPS" />
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.11010</value>
+    								<value>CMN.11020</value>
+    								<value>CMN.11033</value>
+    								<value>CMN.11042</value>
+    								<value>CMN.11043</value>
+    								<value>CMN.11093</value>
+    								<value>CMN.11094</value>
+    								<value>CMN.11101</value>
+    								<value>CMN.11117</value>
+    								<value>CMN.11118</value>
+    								<value>CMN.11123</value>
+    								<value>CMN.11124</value>
+    								
+    								<value>MSG.11007</value>
+    								<value>MSG.11008</value>
+    								<value>MSG.11020</value>
+    								<value>MSG.11025</value>
+    								<value>MSG.11026</value>
+    								<value>MSG.11027</value>
+    								<value>MSG.11066</value>
+    							</list>
+    						</property>
+    						<property name="remotenessType" value="LOCAL_EPS" />
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes">
+    							<list>
+    								<value>CMN.10003</value>
+    								<value>CMN.10007</value>
+    								<value>CMN.10008</value>
+    								<value>CMN.10011</value>
+    								<value>CMN.10013</value>
+    								<value>CMN.10014</value>
+    								<value>CMN.10052</value>
+    								<value>CMN.10053</value>
+    								<value>CMN.10054</value>
+    								<value>CMN.10055</value>
+    								<value>CMN.10059</value>
+    								<value>CMN.10061</value>
+    								<value>CMN.10065</value>
+    								<value>CMN.10069</value>
+    								<value>CMN.10072</value>
+    								<value>CMN.10073</value>
+    								<value>CMN.10074</value>
+    								<value>CMN.10077</value>
+    								<value>CMN.10078</value>
+    								<value>CMN.10079</value>
+    								<value>CMN.10082</value>
+    								<value>CMN.11005</value>
+									<value>CMN.11007</value>
+    								<value>CMN.11010</value>
+    								<value>CMN.11020</value>
+    								<value>CMN.11033</value>
+    								<value>CMN.11042</value>
+    								<value>CMN.11043</value>
+    								<value>CMN.11062</value>
+    								<value>CMN.11072</value>
+    								<value>CMN.11073</value>
+    								<value>CMN.11075</value>
+    								<value>CMN.11093</value>
+    								<value>CMN.11094</value>
+    								<value>CMN.11095</value>
+    								<value>CMN.11097</value>
+    								<value>CMN.11099</value>
+                                    <value>CMN.11100</value>
+    								<value>CMN.11101</value>
+    								<value>CMN.11102</value>
+                                    <value>CMN.11105</value>
+                                    <value>CMN.11106</value>
+                                    <value>CMN.11107</value>
+                                    <value>CMN.11109</value>
+    								<value>CMN.11111</value>
+    								<value>CMN.11113</value>
+    								<value>CMN.11114</value>
+    								<value>CMN.11115</value>
+    								<value>CMN.11116</value>
+    								<value>CMN.11117</value>
+    								<value>CMN.11118</value>
+    								<value>CMN.11120</value>
+    								<value>CMN.11123</value>
+    								<value>CMN.11124</value>
+    								<value>CMN.11125</value>
+    								<value>CMN.11128</value>
+<!--     							<value>CMN.11098</value> -->
+<!--     							<value>CMN.11103</value> -->
+    								<value>CMN.12116</value>
+    								<value>CMN.12118</value>
+
+    								<value>MSG.11044</value>
+    								<value>MSG.11060</value>
+
+    								<!-- Транзит из ТО без ссылочной связанности -->
+									<value>CMN.11002</value> 
+									<value>CMN.11009</value> 
+									<value>CMN.11015</value>
+									<value>CMN.11016</value>
+									<value>CMN.11022</value>
+									<value>CMN.11029</value>
+									<value>CMN.11031</value>
+									<value>CMN.11064</value>
+									<value>CMN.11065</value>
+									<value>CMN.11066</value>
+                                    <value>CMN.11067</value>
+									<value>CMN.11068</value>
+									<value>CMN.11071</value>
+									<value>CMN.11078</value>
+									<value>CMN.11083</value>
+									<value>CMN.11089</value>
+									
+									<value>CMN.12071</value>
+									<value>CMN.12072</value>
+									<value>CMN.12074</value>
+									<value>CMN.12075</value>
+									<value>CMN.12081</value>
+									<value>CMN.12084</value>
+									<value>CMN.12085</value>
+									<value>CMN.12089</value>
+									<value>CMN.12090</value> 
+									<value>CMN.12093</value> 
+									<value>CMN.12099</value>
+									<value>CMN.12104</value>
+									<value>CMN.12105</value> 
+									<value>CMN.12107</value>
+									<value>CMN.12110</value>
+									<value>CMN.12113</value>
+									
+									<value>CMN.13016</value> 
+									<value>CMN.13017</value> 
+									<value>CMN.13018</value> 
+									<value>CMN.13021</value> 
+									<value>CMN.13022</value> 
+									<value>CMN.13025</value>
+    								<value>CMN.11129</value>
+    								<value>CMN.11130</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			
+    			<!-- MSG.11027 -->
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<!-- Возможно, стоит поменять FROM_KASTO_TO_KASTO на FROM_KASTO_TO_EPS -->
+<!--     				<property name="authorization" value="FROM_KASTO_TO_KASTO" /> -->
+					<property name="authorization" value="FROM_EPS_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11027" />
+    						<property name="remotenessType" value="REMOTE_EPS" />
+    						<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_EPS_TO_KASTO_NOT_IN_PROCESS" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11029" />
+							<property name="remotenessType" value="REMOTE_EPS" />
+							<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_EPS_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.11001</value>
+    								<value>MSG.11021</value>
+    								<value>MSG.11028</value>
+    								<value>MSG.11030</value>
+    								<value>MSG.11032</value>
+    								<value>MSG.11033</value>
+    								<value>MSG.11063</value>
+    								
+    								<value>MSG.13007</value>
+    							</list>
+    						</property>
+    						<property name="remotenessType" value="REMOTE_EPS" /> 
+    						<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>MSG.11001</value>
+    								<value>MSG.11021</value>
+    								<value>MSG.11027</value>
+    								<value>MSG.11028</value>
+    								<value>MSG.11029</value>
+    								<value>MSG.11030</value>
+    								<value>MSG.11032</value>
+    								<value>MSG.11033</value>
+    								<value>MSG.11063</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL_NOT_IN_PROCESS" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.13005" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- FROM_KASTO_TO_DECL_NOT_IN_PROCESS -->
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL_NOT_IN_PROCESS" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.12002</value>
+									<value>CMN.12003</value>
+									<value>CMN.12005</value>
+									<value>CMN.12006</value>
+									<value>CMN.12008</value>
+									<value>CMN.12009</value>
+									<value>CMN.12043</value>
+									
+									<value>CMN.13004</value>
+									<value>CMN.13007</value>
+									<value>CMN.13010</value>
+									<value>CMN.13013</value>
+									<value>CMN.13014</value>
+									<value>CMN.13019</value>
+									<value>CMN.13026</value>
+									
+									<value>OCP.10004</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- FROM_DECL_TO_KASTO_NOT_IN_PROCESS -->
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_KASTO_NOT_IN_PROCESS" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.13001</value>
+    								<value>CMN.13006</value>
+									<value>CMN.13008</value>
+									<value>CMN.13011</value>
+									<value>CMN.13012</value>
+									
+									<value>OCP.10003</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- FROM_EPS_TO_KASTO -->
+    			<!-- 
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_EPS_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" value="CMN.11092" />
+    						<property name="remotenessType" value="LOCAL_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    						<property name="procUdFlag" value="2" />
+    					</bean>
+    				</property>
+    			</bean>
+    			 -->
+    			
+    			<!-- FROM_DECL_TO_EPS_WITHOUT_CODE -->
+    			<!-- 
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_EPS_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11092" />
+    						<property name="procUdFlag" value="2" />
+    						<property name="remotenessType" value="REMOTE_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			-->
+    			
+    			<!-- 
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_EPS_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11092" />
+    						<property name="procUdFlag" value="2" />
+    						<property name="remotenessType" value="LOCAL_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    						<property name="hasInitialEnvelopeId" value="true" />
+    					</bean>
+    				</property>
+    			</bean>
+    			-->
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_KASTO_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11092" />
+    						<property name="procUdFlag" value="2" />
+    						<property name="remotenessType" value="LOCAL_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<!-- FROM_DECL_TO_KASTO -->
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_DECL_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="CMN.11092" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11006" />
+    						<property name="receivingCustomsType" value="MALAKHIT" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL_WITHOUT_CODE" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageTypes" >
+    							<list>
+    								<value>CMN.11103</value>
+    								<value>CMN.11098</value>
+    								
+    								<value>CMN.15025</value>
+    								<value>CMN.15026</value>
+    							</list>
+    						</property>
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_DECL" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11006" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11052" />
+    						<property name="procUdFlag" value="1" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_KASTO_TO_EPS" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11052" />
+    						<property name="procUdFlag" value="2" />
+    						<property name="remotenessType" value="LOCAL_EPS" /> 
+    						<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			
+    			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+    				<property name="authorization" value="FROM_EPS_TO_KASTO" />
+    				<property name="condition" >
+    					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+    						<property name="messageType" value="MSG.11052" />
+    						<property name="procUdFlag" value="2" />
+    						<property name="remotenessType" value="LOCAL_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+    					</bean>
+    				</property>
+    			</bean>
+    			    			
+    			<!-- FROM_KASTO_ONLY -->
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_KASTO_ONLY" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.10005</value>
+									<value>MSG.10006</value>
+									
+									<value>MSG.11058</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>    			
+				
+				<!-- FROM_KASTO_ONLY_NOT_IN_PROC_WITHOUT_CODE -->
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_KASTO_ONLY_NOT_IN_PROC_WITHOUT_CODE" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.15036</value>
+									<value>MSG.15037</value>
+									<value>MSG.15039</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>    		
+    			
+    			<!-- FROM_KASTO_TO_EPS_NOT_IN_PROCESS -->
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_KASTO_TO_EPS_NOT_IN_PROCESS" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.11055</value>
+									<value>MSG.11056</value>
+									<value>MSG.11067</value>
+
+									<value>MSG.12012</value>
+									<value>MSG.12013</value>
+									<value>MSG.12014</value>
+								</list>
+							</property>
+							<property name="remotenessType" value="REMOTE_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_KASTO_TO_KASTO_NOT_IN_PROCESS" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.11055</value>
+									<value>MSG.11056</value>
+									<value>MSG.11067</value>
+								</list>
+							</property>
+							<property name="remotenessType" value="LOCAL_EPS" />
+    						<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_EPS_TO_KASTO_NOT_IN_PROCESS" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.11055</value>
+									<value>MSG.11056</value>
+									<value>MSG.11057</value>
+									<value>MSG.11067</value>
+									<value>MSG.12012</value>
+									<value>MSG.12013</value>
+									<value>MSG.12014</value>
+								</list>
+							</property>
+							<property name="remotenessType" value="REMOTE_EPS" /> 
+    						<property name="remotenessCheckType" value="SENDER_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+				
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" >
+					<property name="authorization" value="FROM_KASTO_TO_KASTO_NOT_IN_PROCESS" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.12012</value>
+									<value>MSG.12013</value>
+									<value>MSG.12014</value>
+								</list>
+							</property>
+							<property name="remotenessType" value="LOCAL_EPS" /> 
+    						<property name="remotenessCheckType" value="RCVR_CUSTOMS" />
+						</bean>
+					</property>
+				</bean>
+				
+    			
+    			<!-- Перекочевавшие правила авторизации из authRules.xml -->
+    			
+    			<!-- FROM_KASTO_ONLY -->
+<!--     			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" > -->
+<!--     				<property name="authorization" value="FROM_KASTO_ONLY" /> -->
+<!--     				<property name="condition" > -->
+<!--     					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" > -->
+<!--     						<property name="messageTypes" > -->
+<!--     							<list> -->
+    								
+    								<!-- Админские команды -->
+    								<!-- Закомментировано с умыслом. -->
+    								<!-- При отсутствии оного - раскомментировать. -->
+<!--     								<value>ADM.10002</value> -->
+<!-- 									<value>ADM.10003</value> -->
+<!-- 									<value>ADM.10004</value> -->
+<!--     							</list> -->
+<!--     						</property> -->
+<!--     					</bean> -->
+<!--     				</property> -->
+<!--     			</bean> -->
+    			
+    			<!-- NONE -->
+<!--     			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" > -->
+<!--     				<property name="authorization" value="NONE" /> -->
+<!--     				<property name="condition" > -->
+<!--     					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" > -->
+<!--     						<property name="messageTypes" > -->
+<!--     							<list> -->
+    								<!-- Сообщения-уведомления -->
+<!--     								<value>CMN.00001</value> -->
+<!--     								<value>CMN.00002</value> -->
+<!--     								<value>CMN.00003</value> -->
+<!--     								<value>CMN.00004</value> -->
+
+									<!-- Сообщения EAD -->
+<!-- 									<value>CMN.00204</value> -->
+<!-- 									<value>CMN.00206</value> -->
+<!-- 									<value>CMN.00211</value> -->
+<!-- 									<value>CMN.00213</value> -->
+<!--     							</list> -->
+<!--     						</property> -->
+<!--     					</bean> -->
+<!--     				</property> -->
+<!--     			</bean> -->
+    			
+    			<!-- FROM_DECL_TO_KASTO_NOT_IN_PROCESS -->
+<!--     			<bean class="ru.acs.fts.eps2.router.processing.selectors.AuthorizationSelector" > -->
+<!--     				<property name="authorization" value="FROM_DECL_TO_KASTO_NOT_IN_PROCESS" /> -->
+<!--     				<property name="condition" > -->
+<!--     					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" > -->
+<!--     						<property name="messageTypes" > -->
+<!--     							<list> -->
+    								<!-- Сообщения EAD -->
+<!--     								<value>CMN.00201</value> -->
+<!-- 									<value>CMN.00202</value> -->
+<!-- 									<value>CMN.00203</value> -->
+<!-- 									<value>CMN.00205</value> -->
+<!-- 									<value>CMN.00207</value> -->
+<!-- 									<value>CMN.00208</value> -->
+<!-- 									<value>CMN.00209</value> -->
+<!-- 									<value>CMN.00210</value> -->
+<!-- 									<value>CMN.00212</value> -->
+<!--     							</list> -->
+<!--     						</property> -->
+<!--     					</bean> -->
+<!--     				</property> -->
+<!--     			</bean> -->
+    		</list>
+    	</property>
+    </bean>
+	
+</beans>

@@ -1,0 +1,20 @@
+<binding xmlns:auareq="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PutDocumentRequest:4.1.1" xmlns:catAUD_ru="urn:customs.ru:Information:LegalDocumentsArchive:AUDCommonAggregateTypes:4.1.1">
+  <namespace uri="urn:customs.ru:Information:LegalDocumentsArchive:AUD_PutDocumentRequest:4.1.1" default="elements" prefix="auareq"/>
+  <mapping abstract="true" type-name="auareq:AUD_PutDocumentRequestType" class="ru.acs.fts.schemas.aud.aud_putdocumentrequest.AUDPutDocumentRequestType">
+    <structure map-as="catAUD_ru:AUD_BaseEnvelopeType"/>
+    <value style="element" name="PrevVersionArchiveDocumentId" get-method="getPrevVersionArchiveDocumentId" set-method="setPrevVersionArchiveDocumentId" usage="optional"/>
+    <value style="element" name="RefArchivePacketId" get-method="getRefArchivePacketId" set-method="setRefArchivePacketId" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="RefExtArchivePacketId" get-method="getRefExtArchivePacketId" set-method="setRefExtArchivePacketId" usage="optional"/>
+    <value style="element" name="RefExtArchiveDocumentId" get-method="getRefExtArchiveDocumentId" set-method="setRefExtArchiveDocumentId" usage="optional"/>
+    <structure map-as="catAUD_ru:AUD_AppliedDocumentWithBodyType" get-method="getAppliedDocumentWithBody" set-method="setAppliedDocumentWithBody" name="AppliedDocumentWithBody"/>
+    <structure map-as="catAUD_ru:AUD_AppliedPacketInfoType" get-method="getAppliedPacketInfo" set-method="setAppliedPacketInfo" name="AppliedPacketInfo"/>
+    <collection get-method="getEmbeddedDocumentAppliedInfoList" set-method="setEmbeddedDocumentAppliedInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catAUD_ru:AUD_AppliedDocumentInfoWithVersionRefType" name="EmbeddedDocumentAppliedInfo"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.aud.aud_putdocumentrequest.AUDPutDocumentRequestType" name="AUD_PutDocumentRequest">
+    <structure map-as="auareq:AUD_PutDocumentRequestType"/>
+  </mapping>
+</binding>

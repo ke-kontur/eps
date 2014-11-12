@@ -1,0 +1,62 @@
+<binding xmlns:aacd="urn:customs.ru:Information:CustomsDocuments:ApplicationAcceptClassDecision:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:ApplicationAcceptClassDecision:5.4.0" default="elements" prefix="aacd"/>
+  <mapping abstract="true" type-name="aacd:ApplicationAcceptClassDecisionType" class="ru.acs.fts.schemas.album.applicationacceptclassdecision.ApplicationAcceptClassDecisionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DecisionSign" get-method="getDecisionSign" set-method="setDecisionSign"/>
+    <value style="element" name="NumberApplication" get-method="getNumberApplication" set-method="setNumberApplication" usage="optional"/>
+    <value style="element" name="DateApplication" get-method="getDateApplication" set-method="setDateApplication" usage="optional" format="LocalDate.default"/>
+    <structure map-as="aacd:DeclarantType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <collection get-method="getGoodInfoList" set-method="setGoodInfoList" create-type="java.util.ArrayList">
+      <structure map-as="aacd:GoodInfoType" name="GoodInfo"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getPersonSignature" set-method="setPersonSignature" name="PersonSignature"/>
+    <collection get-method="getAttachedDocumentList" set-method="setAttachedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="aacd:AttachedDocumentsType" name="AttachedDocuments"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.applicationacceptclassdecision.ApplicationAcceptClassDecisionType" name="ApplicationAcceptClassDecision">
+    <structure map-as="aacd:ApplicationAcceptClassDecisionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aacd:AttachedDocumentsType" class="ru.acs.fts.schemas.album.applicationacceptclassdecision.AttachedDocumentsType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="DocForm" get-method="getDocForm" set-method="setDocForm" usage="optional"/>
+    <value style="element" name="PresentationDate" get-method="getPresentationDate" set-method="setPresentationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="SheetsNumber" get-method="getSheetsNumber" set-method="setSheetsNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="aacd:ComponentType" class="ru.acs.fts.schemas.album.applicationacceptclassdecision.ComponentType">
+    <value style="element" name="NumberComponent" get-method="getNumberComponent" set-method="setNumberComponent"/>
+    <collection get-method="getNameComponentList" set-method="setNameComponentList" create-type="java.util.ArrayList">
+      <value style="element" name="NameComponent" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TNVEDCode" get-method="getTNVEDCode" set-method="setTNVEDCode"/>
+    <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+    <structure map-as="catESAD_cu:GoodsGroupInformationType" get-method="getGoodsInformation" set-method="setGoodsInformation" usage="optional" name="GoodsInformation"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsExport" set-method="setCustomsExport" usage="optional" name="CustomsExport"/>
+  </mapping>
+  <mapping abstract="true" type-name="aacd:DeclarantType" class="ru.acs.fts.schemas.album.applicationacceptclassdecision.DeclarantType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:AddressType" get-method="getLegalAddress" set-method="setLegalAddress" usage="optional" name="LegalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="aacd:GoodInfoType" class="ru.acs.fts.schemas.album.applicationacceptclassdecision.GoodInfoType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getTechnicalDescriptionList" set-method="setTechnicalDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TechnicalDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MethodInstal" get-method="getMethodInstal" set-method="setMethodInstal" usage="optional"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="EndDate" get-method="getEndDate" set-method="setEndDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="CustomsModeCode" get-method="getCustomsModeCode" set-method="setCustomsModeCode" usage="optional"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getAddressFactInstal" set-method="setAddressFactInstal" usage="optional" name="AddressFactInstal"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsControls" set-method="setCustomsControls" usage="optional" name="CustomsControls"/>
+    <collection get-method="getComponentList" set-method="setComponentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="aacd:ComponentType" name="Component"/>
+    </collection>
+  </mapping>
+</binding>

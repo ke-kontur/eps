@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:SEMDocuments:SEM_SURResponse:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:sem_cat="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0" xmlns:sem_clt="urn:customs.ru:Information:SEMDocuments:SEMCommonLeafTypes:5.0.10" xmlns:sur_res="urn:customs.ru:Information:SEMDocuments:SEM_SURResponse:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:SEMDocuments:SEMCommonAggregateTypes:5.4.0" schemaLocation="SEMCommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:Information:SEMDocuments:SEMCommonLeafTypes:5.0.10" schemaLocation="SEMCommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Сервис СУР - выходные данные</xs:documentation>
+   </xs:annotation>
+   <xs:element name="SEM_SURResponse" type="sur_res:SEM_SURResponseType"/>
+   <xs:complexType name="SEM_SURResponseType">
+      <xs:annotation>
+         <xs:documentation>Ответ сервиса СУР</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="GtdRegNumber" type="cat_ru:GTDIDType">
+                  <xs:annotation>
+                     <xs:documentation>Номер декларации</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="RiskProfileRegNumber" type="sur_res:RiskProfileType">
+                  <xs:annotation>
+                     <xs:documentation>ИД профиля риска</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1030006E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="DTFieldDescriptionMarkUpType">
+      <xs:annotation>
+         <xs:documentation>Размеченное текстовое содержимое графы ДТ</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="DTFieldName" type="clt_ru:CodeVariable6Type">
+            <xs:annotation>
+               <xs:documentation>Номер графы ДТ</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="Markup" type="sem_cat:MarkUpType">
+            <xs:annotation>
+               <xs:documentation>Текстовое описание</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="GoodsType">
+      <xs:annotation>
+         <xs:documentation>Сведения о товарах и неформализованных индикаторах профиля риска</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="sem_cat:ResultGoodsType">
+            <xs:sequence>
+               <xs:element name="ProfileIndex" type="clt_ru:Text3MB">
+                  <xs:annotation>
+                     <xs:documentation>Системный идентификатор профиля риска</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Relevance" type="clt_ru:QuantityBasisType">
+                  <xs:annotation>
+                     <xs:documentation>Числовое значение, характеризующее степень соответствия неформализованных индикаторов описанию товара (оценка достоверности)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="RiskDetected" type="clt_ru:IndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак найденного соответствия описания товара неформализованным индикаторам профиля риска</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Threshold" type="clt_ru:QuantityBasisType">
+                  <xs:annotation>
+                     <xs:documentation>Пороговое значение степени соответствия  неформализованных индикаторов описанию товара</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="DTFieldDescriptionMarkUp" type="sur_res:DTFieldDescriptionMarkUpType">
+                  <xs:annotation>
+                     <xs:documentation>Размеченные текстовые описания граф ДТ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskProfileDescriptionMarkUp" type="sur_res:RiskProfileDescriptionMarkUpType">
+                  <xs:annotation>
+                     <xs:documentation>Размеченные текстовые описания неформализованных индикаторов  профиля риска</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RiskProfileDescriptionMarkUpType">
+      <xs:annotation>
+         <xs:documentation>Размеченное текстовое описание неформализованных индикаторов профиля риска</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="Code" type="clt_ru:Code4Type">
+            <xs:annotation>
+               <xs:documentation>Код неформализованного индикатора</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element maxOccurs="unbounded" minOccurs="0" name="Markup" type="sem_cat:MarkUpType">
+            <xs:annotation>
+               <xs:documentation>Текстовое описание</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="RiskProfileType">
+      <xs:annotation>
+         <xs:documentation>Профиль риска</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="sem_cat:RiskProfileRegNumberType">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" name="Goods" type="sur_res:GoodsType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о товарах и неформализованных индикаторах профиля риска, для которых выявлены соответствия</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

@@ -1,0 +1,32 @@
+<binding xmlns:isptrr="urn:customs.ru:Information:SQDocuments:InspectionReqRes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:InspectionReqRes:5.4.0" default="elements" prefix="isptrr"/>
+  <mapping abstract="true" type-name="isptrr:InspectionReqResType" class="ru.acs.fts.schemas.album.inspectionreqres.InspectionReqResType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="ConversationID" get-method="getConversationID" set-method="setConversationID" usage="optional"/>
+    <structure map-as="isptrr:InspectionDecisionType" get-method="getInspectionDecision" set-method="setInspectionDecision" name="InspectionDecision"/>
+    <collection get-method="getViolationList" set-method="setViolationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="isptrr:ViolationType" name="Violation"/>
+    </collection>
+    <collection get-method="getRequirementList" set-method="setRequirementList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="isptrr:RequirementType" name="Requirement"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.inspectionreqres.InspectionReqResType" name="InspectionReqRes">
+    <structure map-as="isptrr:InspectionReqResType"/>
+  </mapping>
+  <mapping abstract="true" type-name="isptrr:InspectionDecisionType" class="ru.acs.fts.schemas.album.inspectionreqres.InspectionDecisionType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Decision" get-method="getDecision" set-method="setDecision" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="isptrr:RequirementType" class="ru.acs.fts.schemas.album.inspectionreqres.RequirementType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getDocument" set-method="setDocument" usage="optional" name="Document"/>
+  </mapping>
+  <mapping abstract="true" type-name="isptrr:ViolationType" class="ru.acs.fts.schemas.album.inspectionreqres.ViolationType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription"/>
+  </mapping>
+</binding>

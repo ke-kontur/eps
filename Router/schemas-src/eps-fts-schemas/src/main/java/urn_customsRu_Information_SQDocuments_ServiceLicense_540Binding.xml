@@ -1,0 +1,49 @@
+<binding xmlns:sl="urn:customs.ru:Information:SQDocuments:ServiceLicense:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SQDocuments:ServiceLicense:5.4.0" default="elements" prefix="sl"/>
+  <mapping abstract="true" type-name="sl:ServiceLicenseType" class="ru.acs.fts.schemas.album.servicelicense.ServiceLicenseType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="DecisionNum" get-method="getDecisionNum" set-method="setDecisionNum" usage="optional"/>
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="sl:AuthorityOrgType" get-method="getAuthorityOrg" set-method="setAuthorityOrg" usage="optional" name="AuthorityOrg"/>
+    <structure map-as="sl:LicenseType" get-method="getLicense" set-method="setLicense" name="License"/>
+    <structure map-as="sl:LicenseeType" get-method="getLicensee" set-method="setLicensee" usage="optional" name="Licensee"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getAuthorizedPerson" set-method="setAuthorizedPerson" usage="optional" name="AuthorizedPerson"/>
+    <collection get-method="getServiceDescriptionList" set-method="setServiceDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="sl:ServiceDescriptionType" name="ServiceDescription"/>
+    </collection>
+    <collection get-method="getServicePlaceList" set-method="setServicePlaceList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:AddressType" name="ServicePlace"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.servicelicense.ServiceLicenseType" name="ServiceLicense">
+    <structure map-as="sl:ServiceLicenseType"/>
+  </mapping>
+  <mapping abstract="true" type-name="sl:AuthorityOrgType" class="ru.acs.fts.schemas.album.servicelicense.AuthorityOrgType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="AuthorityOrgCode" get-method="getAuthorityOrgCode" set-method="setAuthorityOrgCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="sl:LicenseType" class="ru.acs.fts.schemas.album.servicelicense.LicenseType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocReestrNum" get-method="getDocReestrNum" set-method="setDocReestrNum" usage="optional"/>
+    <value style="element" name="OriginalIssueDate" get-method="getOriginalIssueDate" set-method="setOriginalIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="LicenseSeries" get-method="getLicenseSeries" set-method="setLicenseSeries" usage="optional"/>
+    <value style="element" name="LicensedServiceName" get-method="getLicensedServiceName" set-method="setLicensedServiceName" usage="optional"/>
+    <value style="element" name="LicensedServiceCode" get-method="getLicensedServiceCode" set-method="setLicensedServiceCode" usage="optional"/>
+    <value style="element" name="ProlongDate" get-method="getProlongDate" set-method="setProlongDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Append" get-method="getAppend" set-method="setAppend" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="sl:LicenseeType" class="ru.acs.fts.schemas.album.servicelicense.LicenseeType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="OrgSign" get-method="getOrgSign" set-method="setOrgSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="sl:ServiceDescriptionType" class="ru.acs.fts.schemas.album.servicelicense.ServiceDescriptionType">
+    <value style="element" name="ServiceName" get-method="getServiceName" set-method="setServiceName" usage="optional"/>
+    <value style="element" name="ServiceCode" get-method="getServiceCode" set-method="setServiceCode" usage="optional"/>
+    <value style="element" name="AerotechnicsName" get-method="getAerotechnicsName" set-method="setAerotechnicsName" usage="optional"/>
+    <value style="element" name="AerotechnicsTypeCode" get-method="getAerotechnicsTypeCode" set-method="setAerotechnicsTypeCode" usage="optional"/>
+  </mapping>
+</binding>

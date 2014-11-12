@@ -1,0 +1,25 @@
+<binding xmlns:cwhdrr="urn:customs.ru:Information:ConfirmWHDocRegRemote:5.1.0" xmlns:IEcat_ru="urn:customs.ru:IntExchCommonAggregateTypesCust:4.6.0">
+  <namespace uri="urn:customs.ru:Information:ConfirmWHDocRegRemote:5.1.0" default="elements" prefix="cwhdrr"/>
+  <mapping abstract="true" type-name="cwhdrr:ConfirmWHDocRegRemoteType" class="ru.acs.fts.schemas.admin.confirmwhdocregremote.ConfirmWHDocRegRemoteType">
+    <structure map-as="IEcat_ru:BaseDocType"/>
+    <collection get-method="getEADInfoList" set-method="setEADInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cwhdrr:EADInfoType" name="EADInfo"/>
+    </collection>
+    <structure map-as="cwhdrr:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.admin.confirmwhdocregremote.ConfirmWHDocRegRemoteType" name="ConfirmWHDocRegRemote">
+    <structure map-as="cwhdrr:ConfirmWHDocRegRemoteType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwhdrr:EADInfoType" class="ru.acs.fts.schemas.admin.confirmwhdocregremote.EADInfoType">
+    <value style="element" name="ArchDeclID" get-method="getArchDeclID" set-method="setArchDeclID" usage="optional"/>
+    <value style="element" name="ArchID" get-method="getArchID" set-method="setArchID" usage="optional"/>
+    <value style="element" name="ArchDocID" get-method="getArchDocID" set-method="setArchDocID" usage="optional"/>
+    <value style="element" name="ArchDocStatus" get-method="getArchDocStatus" set-method="setArchDocStatus" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cwhdrr:GTDIDType" class="ru.acs.fts.schemas.admin.confirmwhdocregremote.GTDIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="GTDNumber" get-method="getGTDNumber" set-method="setGTDNumber"/>
+  </mapping>
+</binding>

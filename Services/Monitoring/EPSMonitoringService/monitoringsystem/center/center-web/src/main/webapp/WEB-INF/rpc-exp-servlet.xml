@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+ <import resource="beans.xml" />
+	<bean class="org.gwtwidgets.server.spring.GWTHandler" />
+
+	<bean id="rpcMessageProcessingService"
+		class="ru.acs.monitoring.app.monitoring.messproc.serverimpl.MessageProccessingServiceImpl" />
+	<bean id="rpcConnectionsService"
+		class="ru.acs.monitoring.app.config.conn.ConnectionsServiceImpl" />
+	<bean id="rpcMonitoringService"
+		class="ru.acs.monitoring.app.monitoring.conn.MonitoringServiceImpl" />
+
+		
+</beans>

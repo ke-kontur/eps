@@ -1,0 +1,52 @@
+<binding xmlns:qcer="urn:customs.ru:Information:SertifDocuments:QuarantineCertificate:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catSert_ru="urn:customs.ru:Information:SertifDocuments:SertifCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:SertifDocuments:QuarantineCertificate:5.4.0" default="elements" prefix="qcer"/>
+  <mapping abstract="true" type-name="qcer:QuarantineCertificateType" class="ru.acs.fts.schemas.album.quarantinecertificate.QuarantineCertificateType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" format="LocalDate.default"/>
+    <collection get-method="getStatusGoodsInfoList" set-method="setStatusGoodsInfoList" create-type="java.util.ArrayList">
+      <value style="element" name="StatusGoodsInfo" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RegionManagement" get-method="getRegionManagement" set-method="setRegionManagement"/>
+    <collection get-method="getAdditionalActivityList" set-method="setAdditionalActivityList" create-type="java.util.ArrayList">
+      <value style="element" name="AdditionalActivities" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="UnloadingPlace" get-method="getUnloadingPlace" set-method="setUnloadingPlace" usage="optional"/>
+    <value style="element" name="UnloadingRegion" get-method="getUnloadingRegion" set-method="setUnloadingRegion" usage="optional"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getSubjectInfo" set-method="setSubjectInfo" name="SubjectInfo"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getDeclarantInfo" set-method="setDeclarantInfo" name="DeclarantInfo"/>
+    <structure map-as="catSert_ru:SertifOrgBaseType" get-method="getReceiverInfo" set-method="setReceiverInfo" name="ReceiverInfo"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="qcer:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="qcer:AddressSearchType" get-method="getAddressSearch" set-method="setAddressSearch" name="AddressSearch"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getInspectorSignature" set-method="setInspectorSignature" name="InspectorSignature"/>
+    <collection get-method="getAuthorityCertificateList" set-method="setAuthorityCertificateList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="AuthorityCertificate"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.quarantinecertificate.QuarantineCertificateType" name="QuarantineCertificate">
+    <structure map-as="qcer:QuarantineCertificateType"/>
+  </mapping>
+  <mapping abstract="true" type-name="qcer:AddressSearchType" class="ru.acs.fts.schemas.album.quarantinecertificate.AddressSearchType">
+    <structure map-as="cat_ru:AddressType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="qcer:GoodsType" class="ru.acs.fts.schemas.album.quarantinecertificate.GoodsType">
+    <collection get-method="getGoodsNameList" set-method="setGoodsNameList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsName" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="TotalWeigh" get-method="getTotalWeigh" set-method="setTotalWeigh"/>
+    <value style="element" name="MeasureUnitWeigh" get-method="getMeasureUnitWeigh" set-method="setMeasureUnitWeigh"/>
+    <value style="element" name="PackagesQuantity" get-method="getPackagesQuantity" set-method="setPackagesQuantity"/>
+    <value style="element" name="Mark" get-method="getMark" set-method="setMark" usage="optional"/>
+    <value style="element" name="MethodTransportation" get-method="getMethodTransportation" set-method="setMethodTransportation"/>
+    <value style="element" name="SenderStation" get-method="getSenderStation" set-method="setSenderStation"/>
+    <value style="element" name="RecipientStation" get-method="getRecipientStation" set-method="setRecipientStation"/>
+    <value style="element" name="Volume" get-method="getVolume" set-method="setVolume" usage="optional"/>
+    <value style="element" name="MeasureUnitVolume" get-method="getMeasureUnitVolume" set-method="setMeasureUnitVolume" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getOrigin" set-method="setOrigin" usage="optional" name="Origin"/>
+  </mapping>
+</binding>

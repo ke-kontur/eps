@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+		xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://fts.acs.ru/eps2/compound-checks"
+		xmlns:tns="http://fts.acs.ru/eps2/compound-checks"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		xmlns:beans="http://www.springframework.org/schema/beans"
+		elementFormDefault="qualified" >
+		
+	<xsd:import namespace="http://www.springframework.org/schema/beans" />
+	
+	<!-- elements -->
+	
+	<xsd:element name="xPathCheck" type="tns:XPathCheckType" />
+	<xsd:element name="containerCheck" type="tns:ContainerCheckType" />
+	<xsd:element name="clause" type="tns:ChecksBlockClauseType" />
+	<xsd:element name="checksBlock" type="tns:ChecksBlockType" />
+	<xsd:element name="checksSentence" type="tns:ChecksBlockType" />
+	<xsd:element name="rulesCheck" type="tns:RulesCheckType" />
+	<xsd:element name="statusCheck" type="tns:StatusCheckType" />
+
+	<!-- types -->
+	
+	<xsd:complexType name="XPathCheckType" >
+		<xsd:complexContent>
+			<xsd:extension base="beans:identifiedType" >
+				<xsd:sequence>
+					<xsd:element name="xPathVariable" type="tns:XPathVariableType" minOccurs="1" />
+					<xsd:element name="value" type="tns:XPathCheckValueType" minOccurs="0" />
+					<xsd:element name="length" type="tns:XPathCheckLengthType" minOccurs="0" />
+					<xsd:element name="values" type="tns:XPathCheckValuesType" minOccurs="0" />
+					<xsd:element name="valuesSearchOne" type="tns:XPathCheckValuesSearchOne" minOccurs="0" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="ContainerCheckType" >
+		<xsd:complexContent>
+			<xsd:extension base="beans:identifiedType" >
+				<xsd:sequence>
+					<xsd:any minOccurs="0" maxOccurs="unbounded" processContents="skip" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="ChecksBlockClauseType" >
+		<xsd:complexContent>
+			<xsd:extension base="beans:identifiedType" >
+				<xsd:sequence>
+					<xsd:any minOccurs="1" maxOccurs="1" />
+				</xsd:sequence>
+				<xsd:attribute name="op" use="required" type="xsd:string" />
+				<xsd:attribute name="negation" type="xsd:boolean" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="ChecksBlockType" >
+		<xsd:complexContent>
+			<xsd:extension base="beans:identifiedType" >
+				<xsd:sequence>
+					<xsd:element name="clause" type="tns:ChecksBlockClauseType" minOccurs="1" maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:simpleType name="XPathVariableType" >
+		<xsd:annotation>
+			<xsd:documentation>XPath выражение для вычленения нужного значения</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string" />
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="XPathCheckValueType" >
+		<xsd:annotation>
+			<xsd:documentation>Единственное возможное значение для параметра</xsd:documentation>			
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string" />
+	</xsd:simpleType>
+	
+	<xsd:complexType name="XPathCheckValuesType" >
+		<xsd:annotation>
+			<xsd:documentation>Список возможных значений для параметра</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="value" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:simpleType name="XPathCheckLengthType" >
+		<xsd:annotation>
+			<xsd:documentation>Требуемая длина строки для параметра</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer" />
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="XPathCheckValuesSearchOne" >
+		<xsd:annotation>
+			<xsd:documentation>xPath может дать несколько узлов, требовать только один на совпадение</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:boolean" />
+	</xsd:simpleType>
+
+	<xsd:complexType name="RulesCheckType" >
+		<xsd:complexContent>
+			<xsd:extension base="beans:identifiedType" >
+				<xsd:sequence>
+					<xsd:element name="ruleName" type="tns:RuleType" minOccurs="1" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:simpleType name="RuleType" >
+		<xsd:annotation>
+			<xsd:documentation>Название параметра в Rules.xml</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string" />
+	</xsd:simpleType>
+	
+	<xsd:complexType name="StatusCheckType">
+		<xsd:complexContent>
+			<xsd:extension base="beans:identifiedType" >
+				<xsd:sequence>
+					<xsd:element name="statusExp" type="tns:StatusExpType" minOccurs="0" />
+					<xsd:element name="statusExps" type="tns:StatusExpsType" minOccurs="0" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="StatusExpsType" >
+		<xsd:annotation>
+			<xsd:documentation>Список возможных значений для параметра</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="statusExp" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:simpleType name="StatusExpType" >
+		<xsd:annotation>
+			<xsd:documentation>Единственное возможное значение для параметра</xsd:documentation>			
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string" />
+	</xsd:simpleType>
+	
+</schema>

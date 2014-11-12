@@ -1,0 +1,12 @@
+<binding xmlns:ncdp="urn:customs.ru:Information:ExchangeDocuments:NotifCloseProc:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifCloseProc:5.4.0" default="elements" prefix="ncdp"/>
+  <mapping abstract="true" type-name="ncdp:NotifCloseProcType" class="ru.acs.fts.schemas.album.notifcloseproc.NotifCloseProcType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="CloseProcedureID" get-method="getCloseProcedureID" set-method="setCloseProcedureID"/>
+    <value style="element" name="CloseDateTime" get-method="getCloseDateTime" set-method="setCloseDateTime"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifcloseproc.NotifCloseProcType" name="NotifCloseProc">
+    <structure map-as="ncdp:NotifCloseProcType"/>
+  </mapping>
+</binding>

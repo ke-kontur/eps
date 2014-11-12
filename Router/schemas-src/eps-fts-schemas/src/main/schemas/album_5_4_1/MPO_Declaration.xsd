@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:MPO_Declaration:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:mpod="urn:customs.ru:Information:CustomsDocuments:MPO_Declaration:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Таможенная декларация товаров, пересылаемых в МПО</xs:documentation>
+   </xs:annotation>
+   <xs:element name="MPO_Declaration" type="mpod:MPO_DeclarationType"/>
+   <xs:complexType name="MPO_DeclarationType">
+      <xs:annotation>
+         <xs:documentation>Таможенная декларация товаров, пересылаемых в МПО</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="FeedBillAgency" type="clt_ru:NameType">
+                  <xs:annotation>
+                     <xs:documentation>Учреждение  подачи</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="FeedBillDate" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата подачи</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="MPO_Number" type="clt_ru:Code13Type">
+                  <xs:annotation>
+                     <xs:documentation>Номер МПО</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="ConsignmentCategory" type="clt_ru:CodeVariable3Type">
+                  <xs:annotation>
+                     <xs:documentation>Категория отправления в соответствии с классификатором</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="Explication" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Пояснение</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="PostalFees" type="clt_ru:AmountType">
+                  <xs:annotation>
+                     <xs:documentation>Сумма почтовых сборов/расходов</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="TotalCost" type="clt_ru:AmountType">
+                  <xs:annotation>
+                     <xs:documentation>Общая стоимость товаров</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="CurrencyCode" type="clt_ru:CurrencyA3CodeType">
+                  <xs:annotation>
+                     <xs:documentation>Код валюты</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="TotalGrossWeight" type="clt_ru:QuantityBasisType">
+                  <xs:annotation>
+                     <xs:documentation>Общий вес товара, брутто (кг)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="MPOFactWeight" type="clt_ru:QuantityBasisType">
+                  <xs:annotation>
+                     <xs:documentation>Фактический вес МПО (кг)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="Comment" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Примечания</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="DesignatedOperator" type="clt_ru:NameType">
+                  <xs:annotation>
+                     <xs:documentation>Назначенный оператор</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Consignee" type="cat_ru:CUOrganizationType">
+                  <xs:annotation>
+                     <xs:documentation>Получатель</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="Importer" type="mpod:ImporterType">
+                  <xs:annotation>
+                     <xs:documentation>Импортер</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Consignor" type="mpod:ConsignorType">
+                  <xs:annotation>
+                     <xs:documentation>Отправитель</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="9" minOccurs="0" name="DocumentInfo" type="mpod:DocumentInfoType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о документе</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" name="Goods" type="mpod:GoodsType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения о товарах</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1006177E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="ConsignorType">
+      <xs:annotation>
+         <xs:documentation>Сведения об отправителе</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="IssueDate" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата подписания</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DocumentInfoType">
+      <xs:annotation>
+         <xs:documentation>Сведения о документе</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:DocumentBaseType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="DocumentCode" type="clt_ru:CodeVariable3Type">
+                  <xs:annotation>
+                     <xs:documentation>Код документа (EDIFACT и UPU)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GoodsType">
+      <xs:annotation>
+         <xs:documentation>Сведения о товарах</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element maxOccurs="4" name="GoodDescription" type="clt_ru:FreeText250Type">
+            <xs:annotation>
+               <xs:documentation>Наименование товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="NetWeight" type="clt_ru:QuantityBasisType">
+            <xs:annotation>
+               <xs:documentation>Вес товара, нетто (кг)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="TNVEDCode" type="clt_ru:CUGoodsNomenclatuerCodeType">
+            <xs:annotation>
+               <xs:documentation>Код товара по ТН ВЭД</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="Cost" type="clt_ru:AmountType">
+            <xs:annotation>
+               <xs:documentation>Стоимость товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="CurrencyCode" type="clt_ru:CurrencyA3CodeType">
+            <xs:annotation>
+               <xs:documentation>Код валюты</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="OriginCountryCode" type="clt_ru:CountryA2CodeType">
+            <xs:annotation>
+               <xs:documentation>Код страны происхождения по классификатору стран мира</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0" name="GoodsQuantity" type="cat_ru:SupplementaryQuantityType">
+            <xs:annotation>
+               <xs:documentation>Количество товара</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="ImporterType">
+      <xs:annotation>
+         <xs:documentation>Импортер</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:OrganizationType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="ImporterIndex" type="clt_ru:Text50Type">
+                  <xs:annotation>
+                     <xs:documentation>Индекс импортера</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="VAT_Number" type="clt_ru:CodeVariable18Type">
+                  <xs:annotation>
+                     <xs:documentation>Номер НДС</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

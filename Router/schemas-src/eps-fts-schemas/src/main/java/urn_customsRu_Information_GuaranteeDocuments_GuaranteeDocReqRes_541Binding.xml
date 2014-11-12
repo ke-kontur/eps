@@ -1,0 +1,25 @@
+<binding xmlns:grd_inf="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeDocReqRes:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:grn_cat="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeDocReqRes:5.4.1" default="elements" prefix="grd_inf"/>
+  <mapping abstract="true" type-name="grd_inf:GuaranteeDocReqResType" class="ru.acs.fts.schemas.album.guaranteedocreqres.GuaranteeDocReqResType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDateTime" get-method="getDocumentDateTime" set-method="setDocumentDateTime"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <structure map-as="grd_inf:DocumentInfoType" get-method="getDocumentInfo" set-method="setDocumentInfo" name="DocumentInfo"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGuaranteeUseDocument" set-method="setGuaranteeUseDocument" usage="optional" name="GuaranteeUseDocument"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCustomsRepresentative" set-method="setCustomsRepresentative" usage="optional" name="CustomsRepresentative"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteedocreqres.GuaranteeDocReqResType" name="GuaranteeDocReqRes">
+    <structure map-as="grd_inf:GuaranteeDocReqResType"/>
+  </mapping>
+  <mapping abstract="true" type-name="grd_inf:DocumentInfoType" class="ru.acs.fts.schemas.album.guaranteedocreqres.DocumentInfoType">
+    <structure map-as="grn_cat:CustomsGuaranteeDocType"/>
+    <value style="element" name="Status" get-method="getStatus" set-method="setStatus" usage="optional"/>
+    <value style="element" name="ExpirationDate" get-method="getExpirationDate" set-method="setExpirationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="GuaranteeType" get-method="getGuaranteeType" set-method="setGuaranteeType" usage="optional"/>
+    <structure map-as="grn_cat:AmountType" get-method="getAmount" set-method="setAmount" usage="optional" name="Amount"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getLiableTrader" set-method="setLiableTrader" usage="optional" name="LiableTrader"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getRegistrationCustoms" set-method="setRegistrationCustoms" usage="optional" name="RegistrationCustoms"/>
+  </mapping>
+</binding>

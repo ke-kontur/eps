@@ -1,0 +1,24 @@
+<binding xmlns:arc="urn:customs.ru:Information:CustomsDocuments:AnsResolutionCustoms:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:AnsResolutionCustoms:5.4.0" default="elements" prefix="arc"/>
+  <mapping abstract="true" type-name="arc:AnsResolutionCustomsType" class="ru.acs.fts.schemas.album.ansresolutioncustoms.AnsResolutionCustomsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RefinedStructure" get-method="getRefinedStructure" set-method="setRefinedStructure"/>
+    <value style="element" name="DesignateTS" get-method="getDesignateTS" set-method="setDesignateTS"/>
+    <collection get-method="getReasonList" set-method="setReasonList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Reason" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Consultation" get-method="getConsultation" set-method="setConsultation"/>
+    <value style="element" name="ExpectedConsultationDate" get-method="getExpectedConsultationDate" set-method="setExpectedConsultationDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getAnsDeclarantSignature" set-method="setAnsDeclarantSignature" name="AnsDeclarantSignature"/>
+    <structure map-as="arc:AnsDeclarantType" get-method="getAnsDeclarant" set-method="setAnsDeclarant" name="AnsDeclarant"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ansresolutioncustoms.AnsResolutionCustomsType" name="AnsResolutionCustoms">
+    <structure map-as="arc:AnsResolutionCustomsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="arc:AnsDeclarantType" class="ru.acs.fts.schemas.album.ansresolutioncustoms.AnsDeclarantType">
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getInfoAnsDeclarant" set-method="setInfoAnsDeclarant" name="InfoAnsDeclarant"/>
+  </mapping>
+</binding>

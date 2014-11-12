@@ -1,0 +1,33 @@
+<binding xmlns:rin="urn:customs.ru:Information:TreatmentDocuments:ReqInoTreatmentDocs:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TreatmentDocuments:ReqInoTreatmentDocs:5.4.0" default="elements" prefix="rin"/>
+  <mapping abstract="true" type-name="rin:ReqInoTreatmentDocsType" class="ru.acs.fts.schemas.album.reqinotreatmentdocs.ReqInoTreatmentDocsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SendDate" get-method="getSendDate" set-method="setSendDate" format="LocalDate.default"/>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" format="LocalDate.default"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getRequestedDocList" set-method="setRequestedDocList" create-type="java.util.ArrayList">
+      <structure map-as="rin:RequestedDocType" name="RequestedDoc"/>
+    </collection>
+    <collection get-method="getCommunicationList" set-method="setCommunicationList" create-type="java.util.ArrayList">
+      <structure map-as="rin:CommunicationType" name="Communication"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqinotreatmentdocs.ReqInoTreatmentDocsType" name="ReqInoTreatmentDocs">
+    <structure map-as="rin:ReqInoTreatmentDocsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rin:CommunicationType" class="ru.acs.fts.schemas.album.reqinotreatmentdocs.CommunicationType">
+    <value style="element" name="CommCode" get-method="getCommCode" set-method="setCommCode"/>
+    <value style="element" name="CommNumberAddress" get-method="getCommNumberAddress" set-method="setCommNumberAddress" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rin:RequestedDocType" class="ru.acs.fts.schemas.album.reqinotreatmentdocs.RequestedDocType">
+    <value style="element" name="Position" get-method="getPosition" set-method="setPosition"/>
+    <value style="element" name="DocCode" get-method="getDocCode" set-method="setDocCode" usage="optional"/>
+    <value style="element" name="DocName" get-method="getDocName" set-method="setDocName" usage="optional"/>
+    <value style="element" name="ReqPurpose" get-method="getReqPurpose" set-method="setReqPurpose" usage="optional"/>
+    <value style="element" name="Note" get-method="getNote" set-method="setNote"/>
+    <value style="element" name="RequestorName" get-method="getRequestorName" set-method="setRequestorName"/>
+  </mapping>
+</binding>

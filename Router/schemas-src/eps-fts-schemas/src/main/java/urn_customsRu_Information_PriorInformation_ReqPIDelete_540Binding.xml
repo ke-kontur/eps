@@ -1,0 +1,14 @@
+<binding xmlns:rpid="urn:customs.ru:Information:PriorInformation:ReqPI_Delete:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catpi_ru="urn:customs.ru:Information:PriorInformation:PriorCommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:ReqPI_Delete:5.4.0" default="elements" prefix="rpid"/>
+  <mapping abstract="true" type-name="rpid:ReqPI_DeleteType" class="ru.acs.fts.schemas.album.reqpi_delete.ReqPIDeleteType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="catpi_ru:TIR_IDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIR_ID"/>
+      <value style="element" name="PI_RegID" test-method="ifPIRegID" get-method="getPIRegID" set-method="setPIRegID" usage="optional"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.reqpi_delete.ReqPIDeleteType" name="ReqPI_Delete">
+    <structure map-as="rpid:ReqPI_DeleteType"/>
+  </mapping>
+</binding>
