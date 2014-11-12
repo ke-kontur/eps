@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о записях, внесенных в ЕГРЮЛ
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃСЏС…, РІРЅРµСЃРµРЅРЅС‹С… РІ Р•Р“Р Р®Р›
  */
 public class RecordDescriptionType extends ReferenceInfoType
 {
@@ -17,7 +17,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'RecordSign' element value. Признак того, что запись действующая
+     * Get the 'RecordSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РїРёСЃСЊ РґРµР№СЃС‚РІСѓСЋС‰Р°СЏ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RecordSign' element value. Признак того, что запись действующая
+     * Set the 'RecordSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РїРёСЃСЊ РґРµР№СЃС‚РІСѓСЋС‰Р°СЏ
      * 
      * @param recordSign
      */
@@ -35,7 +35,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'InputDate' element value. Дата внесения сведений о выданном свидетельстве в ЕГРЮЛ / Дата внесения сведений в ЕГРЮЛ о признании записи недействительной
+     * Get the 'InputDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃРІРµРґРµРЅРёР№ Рѕ РІС‹РґР°РЅРЅРѕРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ РІ Р•Р“Р Р®Р› / Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃРІРµРґРµРЅРёР№ РІ Р•Р“Р Р®Р› Рѕ РїСЂРёР·РЅР°РЅРёРё Р·Р°РїРёСЃРё РЅРµРґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕР№
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'InputDate' element value. Дата внесения сведений о выданном свидетельстве в ЕГРЮЛ / Дата внесения сведений в ЕГРЮЛ о признании записи недействительной
+     * Set the 'InputDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃРІРµРґРµРЅРёР№ Рѕ РІС‹РґР°РЅРЅРѕРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ РІ Р•Р“Р Р®Р› / Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃРІРµРґРµРЅРёР№ РІ Р•Р“Р Р®Р› Рѕ РїСЂРёР·РЅР°РЅРёРё Р·Р°РїРёСЃРё РЅРµРґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕР№
      * 
      * @param inputDate
      */
@@ -53,7 +53,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RecordRegNum' element value. Государственный регистрационный номер записи, на основании которой внесены сведения о выданном свидетельстве / Государственный регистрационный номер записи, на основании которой внесены сведения о признании данной записи недействительной
+     * Get the 'RecordRegNum' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ РІРЅРµСЃРµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РІС‹РґР°РЅРЅРѕРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ / Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ РІРЅРµСЃРµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР·РЅР°РЅРёРё РґР°РЅРЅРѕР№ Р·Р°РїРёСЃРё РЅРµРґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕР№
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RecordRegNum' element value. Государственный регистрационный номер записи, на основании которой внесены сведения о выданном свидетельстве / Государственный регистрационный номер записи, на основании которой внесены сведения о признании данной записи недействительной
+     * Set the 'RecordRegNum' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ РІРЅРµСЃРµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РІС‹РґР°РЅРЅРѕРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ / Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ РІРЅРµСЃРµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР·РЅР°РЅРёРё РґР°РЅРЅРѕР№ Р·Р°РїРёСЃРё РЅРµРґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕР№
      * 
      * @param recordRegNum
      */
@@ -71,7 +71,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'BlankSeries' element value. Серия бланка свидетельства
+     * Get the 'BlankSeries' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР° СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'BlankSeries' element value. Серия бланка свидетельства
+     * Set the 'BlankSeries' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР° СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @param blankSeries
      */
@@ -89,7 +89,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'BlankNum' element value. Номер бланка свидетельства
+     * Get the 'BlankNum' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'BlankNum' element value. Номер бланка свидетельства
+     * Set the 'BlankNum' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @param blankNum
      */
@@ -107,7 +107,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. Сведения о регистрирующем органе
+     * Get the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. Сведения о регистрирующем органе
+     * Set the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј РѕСЂРіР°РЅРµ
      * 
      * @param regOrgan
      */
@@ -125,7 +125,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class RecordDescriptionType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */

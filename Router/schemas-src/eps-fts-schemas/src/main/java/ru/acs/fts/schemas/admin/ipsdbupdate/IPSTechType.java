@@ -6,7 +6,7 @@ import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения  о технологиях, поддерживаемых ИПС
+ * РЎРІРµРґРµРЅРёСЏ  Рѕ С‚РµС…РЅРѕР»РѕРіРёСЏС…, РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹С… РРџРЎ
  */
 public class IPSTechType
 {
@@ -22,7 +22,7 @@ public class IPSTechType
     private DateTime chDateTime;
 
     /** 
-     * Get the 'TechID' element value. Идентификатор технологии
+     * Get the 'TechID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµС…РЅРѕР»РѕРіРёРё
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'TechID' element value. Идентификатор технологии
+     * Set the 'TechID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµС…РЅРѕР»РѕРіРёРё
      * 
      * @param techID
      */
@@ -40,7 +40,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'StartDate' element value. Дата начала действия 
+     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ 
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'StartDate' element value. Дата начала действия 
+     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ 
      * 
      * @param startDate
      */
@@ -58,7 +58,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата  окончания действия  
+     * Get the 'EndDate' element value. Р”Р°С‚Р°  РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ  
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата  окончания действия  
+     * Set the 'EndDate' element value. Р”Р°С‚Р°  РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ  
      * 
      * @param endDate
      */
@@ -76,7 +76,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарий
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарий
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comments
      */
@@ -94,7 +94,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'IPS_CertNumber' element value. Номер сертификата ИПС ВЭД
+     * Get the 'IPS_CertNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р° РРџРЎ Р’Р­Р”
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'IPS_CertNumber' element value. Номер сертификата ИПС ВЭД
+     * Set the 'IPS_CertNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р° РРџРЎ Р’Р­Р”
      * 
      * @param IPSCertNumber
      */
@@ -112,7 +112,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'IPS_CertDate' element value. Дата сертификата  ИПС ВЭД
+     * Get the 'IPS_CertDate' element value. Р”Р°С‚Р° СЃРµСЂС‚РёС„РёРєР°С‚Р°  РРџРЎ Р’Р­Р”
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'IPS_CertDate' element value. Дата сертификата  ИПС ВЭД
+     * Set the 'IPS_CertDate' element value. Р”Р°С‚Р° СЃРµСЂС‚РёС„РёРєР°С‚Р°  РРџРЎ Р’Р­Р”
      * 
      * @param IPSCertDate
      */
@@ -130,7 +130,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'CreateDate' element value. Дата создания записи
+     * Get the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'CreateDate' element value. Дата создания записи
+     * Set the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @param createDate
      */
@@ -148,7 +148,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'CloseFlag' element value. Признак аннулирования записи. 1- аннулирована, 0 - не аннулирована.
+     * Get the 'CloseFlag' element value. РџСЂРёР·РЅР°Рє Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ Р·Р°РїРёСЃРё. 1- Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР°, 0 - РЅРµ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР°.
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'CloseFlag' element value. Признак аннулирования записи. 1- аннулирована, 0 - не аннулирована.
+     * Set the 'CloseFlag' element value. РџСЂРёР·РЅР°Рє Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ Р·Р°РїРёСЃРё. 1- Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР°, 0 - РЅРµ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР°.
      * 
      * @param closeFlag
      */
@@ -166,7 +166,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'Record_ID' element value. Идентификатор записи
+     * Get the 'Record_ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'Record_ID' element value. Идентификатор записи
+     * Set the 'Record_ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё
      * 
      * @param recordID
      */
@@ -184,7 +184,7 @@ public class IPSTechType
     }
 
     /** 
-     * Get the 'ChDateTime' element value. Дата/время последнего изменения записи
+     * Get the 'ChDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class IPSTechType
     }
 
     /** 
-     * Set the 'ChDateTime' element value. Дата/время последнего изменения записи
+     * Set the 'ChDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @param chDateTime
      */

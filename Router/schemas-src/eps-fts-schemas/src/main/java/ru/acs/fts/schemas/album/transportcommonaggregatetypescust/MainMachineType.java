@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * Сведения о главных машинах судна
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіР»Р°РІРЅС‹С… РјР°С€РёРЅР°С… СЃСѓРґРЅР°
  */
 public class MainMachineType
 {
@@ -11,7 +11,7 @@ public class MainMachineType
     private String power;
 
     /** 
-     * Get the 'Type' element value. Тип машины
+     * Get the 'Type' element value. РўРёРї РјР°С€РёРЅС‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MainMachineType
     }
 
     /** 
-     * Set the 'Type' element value. Тип машины
+     * Set the 'Type' element value. РўРёРї РјР°С€РёРЅС‹
      * 
      * @param type
      */
@@ -29,7 +29,7 @@ public class MainMachineType
     }
 
     /** 
-     * Get the 'Quantity' element value. Число
+     * Get the 'Quantity' element value. Р§РёСЃР»Рѕ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MainMachineType
     }
 
     /** 
-     * Set the 'Quantity' element value. Число
+     * Set the 'Quantity' element value. Р§РёСЃР»Рѕ
      * 
      * @param quantity
      */
@@ -47,7 +47,7 @@ public class MainMachineType
     }
 
     /** 
-     * Get the 'Power' element value. Общая мощность
+     * Get the 'Power' element value. РћР±С‰Р°СЏ РјРѕС‰РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MainMachineType
     }
 
     /** 
-     * Set the 'Power' element value. Общая мощность
+     * Set the 'Power' element value. РћР±С‰Р°СЏ РјРѕС‰РЅРѕСЃС‚СЊ
      * 
      * @param power
      */

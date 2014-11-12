@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Обращение об изменении, дополнении сведений, заявленных в таможенной декларации
+ * РћР±СЂР°С‰РµРЅРёРµ РѕР± РёР·РјРµРЅРµРЅРёРё, РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
  */
 public class InqChangeDataType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class InqChangeDataType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -36,7 +36,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -54,7 +54,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Сведения о заявителе
+     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Сведения о заявителе
+     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param applicant
      */
@@ -72,7 +72,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Справочный номер ДТ
+     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Справочный номер ДТ
+     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -90,7 +90,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class InqChangeDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

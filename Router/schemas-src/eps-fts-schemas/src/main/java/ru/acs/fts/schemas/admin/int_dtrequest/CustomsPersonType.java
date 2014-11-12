@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.int_dtrequest;
 
 /** 
- * Лицо, запросившее ДТ
+ * Р›РёС†Рѕ, Р·Р°РїСЂРѕСЃРёРІС€РµРµ Р”Рў
  */
 public class CustomsPersonType
 {
@@ -10,7 +10,7 @@ public class CustomsPersonType
     private String LNP;
 
     /** 
-     * Get the 'PersonName' element value. ФИО лица, запросившего ДТ
+     * Get the 'PersonName' element value. Р¤РРћ Р»РёС†Р°, Р·Р°РїСЂРѕСЃРёРІС€РµРіРѕ Р”Рў
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustomsPersonType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО лица, запросившего ДТ
+     * Set the 'PersonName' element value. Р¤РРћ Р»РёС†Р°, Р·Р°РїСЂРѕСЃРёРІС€РµРіРѕ Р”Рў
      * 
      * @param personName
      */
@@ -28,7 +28,7 @@ public class CustomsPersonType
     }
 
     /** 
-     * Get the 'LNP' element value. ЛНП
+     * Get the 'LNP' element value. Р›РќРџ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsPersonType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП
+     * Set the 'LNP' element value. Р›РќРџ
      * 
      * @param LNP
      */

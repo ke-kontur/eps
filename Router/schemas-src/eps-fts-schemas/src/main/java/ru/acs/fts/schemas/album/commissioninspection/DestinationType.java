@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * Место назначения
+ * РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
  */
 public class DestinationType
 {
@@ -10,7 +10,7 @@ public class DestinationType
     private String nameCountry;
 
     /** 
-     * Get the 'ImportExport' element value. Если значение поля "true" - "ввоз - населенный пункт",  "false" - "вывоз - стана назначения"
+     * Get the 'ImportExport' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ "true" - "РІРІРѕР· - РЅР°СЃРµР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚",  "false" - "РІС‹РІРѕР· - СЃС‚Р°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ"
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'ImportExport' element value. Если значение поля "true" - "ввоз - населенный пункт",  "false" - "вывоз - стана назначения"
+     * Set the 'ImportExport' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ "true" - "РІРІРѕР· - РЅР°СЃРµР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚",  "false" - "РІС‹РІРѕР· - СЃС‚Р°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ"
      * 
      * @param importExport
      */
@@ -28,7 +28,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'NameCountry' element value. Название населенного пункта/страны назначения
+     * Get the 'NameCountry' element value. РќР°Р·РІР°РЅРёРµ РЅР°СЃРµР»РµРЅРЅРѕРіРѕ РїСѓРЅРєС‚Р°/СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'NameCountry' element value. Название населенного пункта/страны назначения
+     * Set the 'NameCountry' element value. РќР°Р·РІР°РЅРёРµ РЅР°СЃРµР»РµРЅРЅРѕРіРѕ РїСѓРЅРєС‚Р°/СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param nameCountry
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос сведений из Единого государственного реестра прав на недвижимое имущество и сделок с ним
+ * Р—Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ РёР· Р•РґРёРЅРѕРіРѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР° РїСЂР°РІ РЅР° РЅРµРґРІРёР¶РёРјРѕРµ РёРјСѓС‰РµСЃС‚РІРѕ Рё СЃРґРµР»РѕРє СЃ РЅРёРј
  */
 public class RealEstateExcerptType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class RealEstateExcerptType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ApplicationSourceSystemID' element value. Идентификатор заявления на ЕПГУ
+     * Get the 'ApplicationSourceSystemID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° Р•РџР“РЈ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationSourceSystemID' element value. Идентификатор заявления на ЕПГУ
+     * Set the 'ApplicationSourceSystemID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° Р•РџР“РЈ
      * 
      * @param applicationSourceSystemID
      */
@@ -39,7 +39,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationID' element value. Идентификатор заявки в АПС "Электронные Госуслуги-2"
+     * Get the 'ApplicationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІРєРё РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ Р“РѕСЃСѓСЃР»СѓРіРё-2"
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationID' element value. Идентификатор заявки в АПС "Электронные Госуслуги-2"
+     * Set the 'ApplicationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІРєРё РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ Р“РѕСЃСѓСЃР»СѓРіРё-2"
      * 
      * @param applicationID
      */
@@ -57,7 +57,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RequestData' element items. Запрашиваемые сведения
+     * Get the list of 'RequestData' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestData' element items. Запрашиваемые сведения
+     * Set the list of 'RequestData' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestPerson' element value. Сведения об организации запрашивающей сведения
+     * Get the 'RequestPerson' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РїСЂР°С€РёРІР°СЋС‰РµР№ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestPerson' element value. Сведения об организации запрашивающей сведения
+     * Set the 'RequestPerson' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РїСЂР°С€РёРІР°СЋС‰РµР№ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param requestPerson
      */
@@ -93,7 +93,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payment' element value. Оплата
+     * Get the 'Payment' element value. РћРїР»Р°С‚Р°
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payment' element value. Оплата
+     * Set the 'Payment' element value. РћРїР»Р°С‚Р°
      * 
      * @param payment
      */
@@ -111,7 +111,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the 'Delivery' element value. Способ обмена информацией
+     * Get the 'Delivery' element value. РЎРїРѕСЃРѕР± РѕР±РјРµРЅР° РёРЅС„РѕСЂРјР°С†РёРµР№
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'Delivery' element value. Способ обмена информацией
+     * Set the 'Delivery' element value. РЎРїРѕСЃРѕР± РѕР±РјРµРЅР° РёРЅС„РѕСЂРјР°С†РёРµР№
      * 
      * @param delivery
      */
@@ -129,7 +129,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AppliedDocuments' element items. Сведения о приложенных документах
+     * Get the list of 'AppliedDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @return list
      */
@@ -138,7 +138,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AppliedDocuments' element items. Сведения о приложенных документах
+     * Set the list of 'AppliedDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @param list
      */
@@ -147,7 +147,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the 'MunicipalService' element value. Государственная или муниципальная услуга
+     * Get the 'MunicipalService' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅР°СЏ РёР»Рё РјСѓРЅРёС†РёРїР°Р»СЊРЅР°СЏ СѓСЃР»СѓРіР°
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'MunicipalService' element value. Государственная или муниципальная услуга
+     * Set the 'MunicipalService' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅР°СЏ РёР»Рё РјСѓРЅРёС†РёРїР°Р»СЊРЅР°СЏ СѓСЃР»СѓРіР°
      * 
      * @param municipalService
      */
@@ -165,7 +165,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class RealEstateExcerptType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

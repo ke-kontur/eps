@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * Таблица 2. Товары, переданные в производство и фактически израсходованные, либо товары, которые выбыли
+ * РўР°Р±Р»РёС†Р° 2. РўРѕРІР°СЂС‹, РїРµСЂРµРґР°РЅРЅС‹Рµ РІ РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ Рё С„Р°РєС‚РёС‡РµСЃРєРё РёР·СЂР°СЃС…РѕРґРѕРІР°РЅРЅС‹Рµ, Р»РёР±Рѕ С‚РѕРІР°СЂС‹, РєРѕС‚РѕСЂС‹Рµ РІС‹Р±С‹Р»Рё
  */
 public class Table2GoodsFlowType
 {
@@ -12,7 +12,7 @@ public class Table2GoodsFlowType
     private String subAccount;
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */
@@ -30,7 +30,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Get the 'Amount' element value. Стоимость в тысячах рублей
+     * Get the 'Amount' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ С‚С‹СЃСЏС‡Р°С… СЂСѓР±Р»РµР№
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Set the 'Amount' element value. Стоимость в тысячах рублей
+     * Set the 'Amount' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ С‚С‹СЃСЏС‡Р°С… СЂСѓР±Р»РµР№
      * 
      * @param amount
      */
@@ -48,7 +48,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Get the 'Account' element value. Номер счёта
+     * Get the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Set the 'Account' element value. Номер счёта
+     * Set the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р°
      * 
      * @param account
      */
@@ -66,7 +66,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Get the 'SubAccount' element value. Номер субсчёта
+     * Get the 'SubAccount' element value. РќРѕРјРµСЂ СЃСѓР±СЃС‡С‘С‚Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class Table2GoodsFlowType
     }
 
     /** 
-     * Set the 'SubAccount' element value. Номер субсчёта
+     * Set the 'SubAccount' element value. РќРѕРјРµСЂ СЃСѓР±СЃС‡С‘С‚Р°
      * 
      * @param subAccount
      */

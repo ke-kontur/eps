@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Объект интеллектуальной собственности
+ * РћР±СЉРµРєС‚ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
  */
 public class OISsType
 {
@@ -17,7 +17,7 @@ public class OISsType
     private List<MarkUpType> tradeMarkMarkedList = new ArrayList<MarkUpType>();
 
     /** 
-     * Get the 'OISID' element value. Системный идентификатор ОИС
+     * Get the 'OISID' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РћРРЎ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class OISsType
     }
 
     /** 
-     * Set the 'OISID' element value. Системный идентификатор ОИС
+     * Set the 'OISID' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РћРРЎ
      * 
      * @param OISID
      */
@@ -35,7 +35,7 @@ public class OISsType
     }
 
     /** 
-     * Get the 'Relevance' element value. Степень соответствия ОИС описанию товара (оценка достоверности). Минимальное значение 1, максимальное значение не ограничено (релевантность 0 приведет к отсутствию товара в списке)
+     * Get the 'Relevance' element value. РЎС‚РµРїРµРЅСЊ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РћРРЎ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР° (РѕС†РµРЅРєР° РґРѕСЃС‚РѕРІРµСЂРЅРѕСЃС‚Рё). РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ 1, РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РЅРµ РѕРіСЂР°РЅРёС‡РµРЅРѕ (СЂРµР»РµРІР°РЅС‚РЅРѕСЃС‚СЊ 0 РїСЂРёРІРµРґРµС‚ Рє РѕС‚СЃСѓС‚СЃС‚РІРёСЋ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class OISsType
     }
 
     /** 
-     * Set the 'Relevance' element value. Степень соответствия ОИС описанию товара (оценка достоверности). Минимальное значение 1, максимальное значение не ограничено (релевантность 0 приведет к отсутствию товара в списке)
+     * Set the 'Relevance' element value. РЎС‚РµРїРµРЅСЊ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РћРРЎ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР° (РѕС†РµРЅРєР° РґРѕСЃС‚РѕРІРµСЂРЅРѕСЃС‚Рё). РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ 1, РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РЅРµ РѕРіСЂР°РЅРёС‡РµРЅРѕ (СЂРµР»РµРІР°РЅС‚РЅРѕСЃС‚СЊ 0 РїСЂРёРІРµРґРµС‚ Рє РѕС‚СЃСѓС‚СЃС‚РІРёСЋ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ)
      * 
      * @param relevance
      */
@@ -53,7 +53,7 @@ public class OISsType
     }
 
     /** 
-     * Get the 'MessageR' element value. Сообщение о совпадении/несовпадении сведений, заявленных в 8, 9,14 гр. с данными из Реестра
+     * Get the 'MessageR' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЃРѕРІРїР°РґРµРЅРёРё/РЅРµСЃРѕРІРїР°РґРµРЅРёРё СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ 8, 9,14 РіСЂ. СЃ РґР°РЅРЅС‹РјРё РёР· Р РµРµСЃС‚СЂР°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class OISsType
     }
 
     /** 
-     * Set the 'MessageR' element value. Сообщение о совпадении/несовпадении сведений, заявленных в 8, 9,14 гр. с данными из Реестра
+     * Set the 'MessageR' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЃРѕРІРїР°РґРµРЅРёРё/РЅРµСЃРѕРІРїР°РґРµРЅРёРё СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ 8, 9,14 РіСЂ. СЃ РґР°РЅРЅС‹РјРё РёР· Р РµРµСЃС‚СЂР°
      * 
      * @param messageR
      */
@@ -71,7 +71,7 @@ public class OISsType
     }
 
     /** 
-     * Get the list of 'BrandOwner' element items. Правообладатель (собственник). Размеченный текст
+     * Get the list of 'BrandOwner' element items. РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ (СЃРѕР±СЃС‚РІРµРЅРЅРёРє). Р Р°Р·РјРµС‡РµРЅРЅС‹Р№ С‚РµРєСЃС‚
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class OISsType
     }
 
     /** 
-     * Set the list of 'BrandOwner' element items. Правообладатель (собственник). Размеченный текст
+     * Set the list of 'BrandOwner' element items. РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ (СЃРѕР±СЃС‚РІРµРЅРЅРёРє). Р Р°Р·РјРµС‡РµРЅРЅС‹Р№ С‚РµРєСЃС‚
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class OISsType
     }
 
     /** 
-     * Get the list of 'OISDescriptionMarked' element items. Размеченное текстовое описание ОИС
+     * Get the list of 'OISDescriptionMarked' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РћРРЎ
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class OISsType
     }
 
     /** 
-     * Set the list of 'OISDescriptionMarked' element items. Размеченное текстовое описание ОИС
+     * Set the list of 'OISDescriptionMarked' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РћРРЎ
      * 
      * @param list
      */
@@ -107,7 +107,7 @@ public class OISsType
     }
 
     /** 
-     * Get the list of 'TradeMarkMarked' element items. Выделение по ТМ для ОИС (размеченный текст)
+     * Get the list of 'TradeMarkMarked' element items. Р’С‹РґРµР»РµРЅРёРµ РїРѕ РўРњ РґР»СЏ РћРРЎ (СЂР°Р·РјРµС‡РµРЅРЅС‹Р№ С‚РµРєСЃС‚)
      * 
      * @return list
      */
@@ -116,7 +116,7 @@ public class OISsType
     }
 
     /** 
-     * Set the list of 'TradeMarkMarked' element items. Выделение по ТМ для ОИС (размеченный текст)
+     * Set the list of 'TradeMarkMarked' element items. Р’С‹РґРµР»РµРЅРёРµ РїРѕ РўРњ РґР»СЏ РћРРЎ (СЂР°Р·РјРµС‡РµРЅРЅС‹Р№ С‚РµРєСЃС‚)
      * 
      * @param list
      */

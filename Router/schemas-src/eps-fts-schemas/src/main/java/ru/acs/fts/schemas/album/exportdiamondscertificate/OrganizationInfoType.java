@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.exportdiamondscertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о предприятии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРїСЂРёСЏС‚РёРё
  */
 public class OrganizationInfoType extends OrganizationBaseType
 {
@@ -13,7 +13,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     private String countryCodeA;
 
     /** 
-     * Get the 'CountryName' element value. Наименование страны
+     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CountryName' element value. Наименование страны
+     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @param countryName
      */
@@ -31,7 +31,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'CountryCodeN' element value. Цифровой код страны
+     * Get the 'CountryCodeN' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CountryCodeN' element value. Цифровой код страны
+     * Set the 'CountryCodeN' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCodeN
      */
@@ -49,7 +49,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'CountryCodeA' element value. Буквенный код страны
+     * Get the 'CountryCodeA' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CountryCodeA' element value. Буквенный код страны
+     * Set the 'CountryCodeA' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCodeA
      */

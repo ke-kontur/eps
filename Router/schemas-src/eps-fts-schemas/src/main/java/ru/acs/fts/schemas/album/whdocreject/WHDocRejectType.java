@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Отказ в предоставлении электронных документов владельцу СВХ
+ * РћС‚РєР°Р· РІ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ РІР»Р°РґРµР»СЊС†Сѓ РЎР’РҐ
  */
 public class WHDocRejectType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class WHDocRejectType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления отказа
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ РѕС‚РєР°Р·Р°
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления отказа
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ РѕС‚РєР°Р·Р°
      * 
      * @param sendDate
      */
@@ -40,7 +40,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления отказа
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ РѕС‚РєР°Р·Р°
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления отказа
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ РѕС‚РєР°Р·Р°
      * 
      * @param sendTime
      */
@@ -58,7 +58,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ReasonReject' element items. Причина отказа
+     * Get the list of 'ReasonReject' element items. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р°
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ReasonReject' element items. Причина отказа
+     * Set the list of 'ReasonReject' element items. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р°
      * 
      * @param list
      */
@@ -76,7 +76,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -94,7 +94,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенного органа
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенного органа
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -112,7 +112,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -130,7 +130,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class WHDocRejectType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

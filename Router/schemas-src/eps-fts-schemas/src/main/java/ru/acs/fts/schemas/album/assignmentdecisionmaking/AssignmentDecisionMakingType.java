@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Направления для принятие решений
+ * РќР°РїСЂР°РІР»РµРЅРёСЏ РґР»СЏ РїСЂРёРЅСЏС‚РёРµ СЂРµС€РµРЅРёР№
  */
 public class AssignmentDecisionMakingType extends BaseDocType
 {
@@ -33,7 +33,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Дата 
+     * Get the 'Date' element value. Р”Р°С‚Р° 
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Дата 
+     * Set the 'Date' element value. Р”Р°С‚Р° 
      * 
      * @param date
      */
@@ -51,7 +51,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Time' element value. Время
+     * Get the 'Time' element value. Р’СЂРµРјСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Time' element value. Время
+     * Set the 'Time' element value. Р’СЂРµРјСЏ
      * 
      * @param time
      */
@@ -69,7 +69,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Mark' element items. Отметки уполномоченных должностных лиц о принятии решения (решений)
+     * Get the list of 'Mark' element items. РћС‚РјРµС‚РєРё СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹С… РґРѕР»Р¶РЅРѕСЃС‚РЅС‹С… Р»РёС† Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ (СЂРµС€РµРЅРёР№)
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Mark' element items. Отметки уполномоченных должностных лиц о принятии решения (решений)
+     * Set the list of 'Mark' element items. РћС‚РјРµС‚РєРё СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹С… РґРѕР»Р¶РЅРѕСЃС‚РЅС‹С… Р»РёС† Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ (СЂРµС€РµРЅРёР№)
      * 
      * @param list
      */
@@ -87,7 +87,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OtherMark' element items. Иные служебные отметки
+     * Get the list of 'OtherMark' element items. РРЅС‹Рµ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @return list
      */
@@ -96,7 +96,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OtherMark' element items. Иные служебные отметки
+     * Set the list of 'OtherMark' element items. РРЅС‹Рµ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @param list
      */
@@ -105,7 +105,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasureCode' element value. Код меры
+     * Get the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasureCode' element value. Код меры
+     * Set the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹
      * 
      * @param measureCode
      */
@@ -123,7 +123,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -141,7 +141,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskTNVED' element items. Номер профиля риска по классификации товаров с соответствии с ТН ВЭД России
+     * Get the list of 'RiskTNVED' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ СЃ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” Р РѕСЃСЃРёРё
      * 
      * @return list
      */
@@ -150,7 +150,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskTNVED' element items. Номер профиля риска по классификации товаров с соответствии с ТН ВЭД России
+     * Set the list of 'RiskTNVED' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ СЃ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” Р РѕСЃСЃРёРё
      * 
      * @param list
      */
@@ -159,7 +159,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskCountry' element items. Номер профиля риска по стране происхождения
+     * Get the list of 'RiskCountry' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ СЃС‚СЂР°РЅРµ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return list
      */
@@ -168,7 +168,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskCountry' element items. Номер профиля риска по стране происхождения
+     * Set the list of 'RiskCountry' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ СЃС‚СЂР°РЅРµ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param list
      */
@@ -177,7 +177,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskCustomsContril' element items. Номер профиля риска по организации таможенного контроля
+     * Get the list of 'RiskCustomsContril' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ РѕСЂРіР°РЅРёР·Р°С†РёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return list
      */
@@ -186,7 +186,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskCustomsContril' element items. Номер профиля риска по организации таможенного контроля
+     * Set the list of 'RiskCustomsContril' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ РѕСЂРіР°РЅРёР·Р°С†РёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param list
      */
@@ -195,7 +195,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskDuty' element items. Номер профиля риска по таможенным пошлинам, налогам, а также обеспечению уплаты таможенных платежей
+     * Get the list of 'RiskDuty' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїРѕС€Р»РёРЅР°Рј, РЅР°Р»РѕРіР°Рј, Р° С‚Р°РєР¶Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЋ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -204,7 +204,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskDuty' element items. Номер профиля риска по таможенным пошлинам, налогам, а также обеспечению уплаты таможенных платежей
+     * Set the list of 'RiskDuty' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїРѕС€Р»РёРЅР°Рј, РЅР°Р»РѕРіР°Рј, Р° С‚Р°РєР¶Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЋ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */
@@ -213,7 +213,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskIntellectualProperty' element items. Номер профиля риска по запретам, ограничениям и защите интеллектуальной собственности
+     * Get the list of 'RiskIntellectualProperty' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ Р·Р°РїСЂРµС‚Р°Рј, РѕРіСЂР°РЅРёС‡РµРЅРёСЏРј Рё Р·Р°С‰РёС‚Рµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @return list
      */
@@ -222,7 +222,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskIntellectualProperty' element items. Номер профиля риска по запретам, ограничениям и защите интеллектуальной собственности
+     * Set the list of 'RiskIntellectualProperty' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ Р·Р°РїСЂРµС‚Р°Рј, РѕРіСЂР°РЅРёС‡РµРЅРёСЏРј Рё Р·Р°С‰РёС‚Рµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @param list
      */
@@ -231,7 +231,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskCustomsCost' element items. Номер профиля риска по таможенной стоимости
+     * Get the list of 'RiskCustomsCost' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return list
      */
@@ -240,7 +240,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskCustomsCost' element items. Номер профиля риска по таможенной стоимости
+     * Set the list of 'RiskCustomsCost' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param list
      */
@@ -249,7 +249,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskCurrency' element items. Номер профиля риска по валюте контроля
+     * Get the list of 'RiskCurrency' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ РІР°Р»СЋС‚Рµ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return list
      */
@@ -258,7 +258,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskCurrency' element items. Номер профиля риска по валюте контроля
+     * Set the list of 'RiskCurrency' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РїРѕ РІР°Р»СЋС‚Рµ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param list
      */
@@ -267,7 +267,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsChief' element value. Начальник таможенного органа
+     * Get the 'CustomsChief' element value. РќР°С‡Р°Р»СЊРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -276,7 +276,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsChief' element value. Начальник таможенного органа
+     * Set the 'CustomsChief' element value. РќР°С‡Р°Р»СЊРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsChief
      */
@@ -285,7 +285,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер  ДТ.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў.
      * 
      * @return value
      */
@@ -294,7 +294,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер  ДТ.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў.
      * 
      * @param GTDID
      */
@@ -303,7 +303,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskRestrictionExpControl' element items. Номер риска по торговым ограничениям и экспортному контролю
+     * Get the list of 'RiskRestrictionExpControl' element items. РќРѕРјРµСЂ СЂРёСЃРєР° РїРѕ С‚РѕСЂРіРѕРІС‹Рј РѕРіСЂР°РЅРёС‡РµРЅРёСЏРј Рё СЌРєСЃРїРѕСЂС‚РЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ
      * 
      * @return list
      */
@@ -312,7 +312,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskRestrictionExpControl' element items. Номер риска по торговым ограничениям и экспортному контролю
+     * Set the list of 'RiskRestrictionExpControl' element items. РќРѕРјРµСЂ СЂРёСЃРєР° РїРѕ С‚РѕСЂРіРѕРІС‹Рј РѕРіСЂР°РЅРёС‡РµРЅРёСЏРј Рё СЌРєСЃРїРѕСЂС‚РЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ
      * 
      * @param list
      */
@@ -321,7 +321,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskControlFissileRadioactiveMaterial' element items. Номер риска по контролю делящихся и радиоактивных материалов
+     * Get the list of 'RiskControlFissileRadioactiveMaterial' element items. РќРѕРјРµСЂ СЂРёСЃРєР° РїРѕ РєРѕРЅС‚СЂРѕР»СЋ РґРµР»СЏС‰РёС…СЃСЏ Рё СЂР°РґРёРѕР°РєС‚РёРІРЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @return list
      */
@@ -330,7 +330,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskControlFissileRadioactiveMaterial' element items. Номер риска по контролю делящихся и радиоактивных материалов
+     * Set the list of 'RiskControlFissileRadioactiveMaterial' element items. РќРѕРјРµСЂ СЂРёСЃРєР° РїРѕ РєРѕРЅС‚СЂРѕР»СЋ РґРµР»СЏС‰РёС…СЃСЏ Рё СЂР°РґРёРѕР°РєС‚РёРІРЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @param list
      */
@@ -339,7 +339,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -348,7 +348,7 @@ public class AssignmentDecisionMakingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

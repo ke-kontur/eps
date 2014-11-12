@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Производственные потери
+ * РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё
  */
 public class LossType
 {
@@ -13,7 +13,7 @@ public class LossType
     private List<TreatProductsType> lossItemList = new ArrayList<TreatProductsType>();
 
     /** 
-     * Get the list of 'LossInfo' element items. Дополнительная информация к графе "Производственные потери"
+     * Get the list of 'LossInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рє РіСЂР°С„Рµ "РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё"
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class LossType
     }
 
     /** 
-     * Set the list of 'LossInfo' element items. Дополнительная информация к графе "Производственные потери"
+     * Set the list of 'LossInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рє РіСЂР°С„Рµ "РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё"
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class LossType
     }
 
     /** 
-     * Get the list of 'LossItem' element items. Производственные потери - описание товара
+     * Get the list of 'LossItem' element items. РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё - РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class LossType
     }
 
     /** 
-     * Set the list of 'LossItem' element items. Производственные потери - описание товара
+     * Set the list of 'LossItem' element items. РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё - РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymentconfirmation;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Сведения о таможни
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РЅРё
  */
 public class CustomInfoType
 {
@@ -13,7 +13,7 @@ public class CustomInfoType
     private AddressType address;
 
     /** 
-     * Get the 'CustomsName' element value. Наименование таможни
+     * Get the 'CustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РЅРё
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CustomInfoType
     }
 
     /** 
-     * Set the 'CustomsName' element value. Наименование таможни
+     * Set the 'CustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РЅРё
      * 
      * @param customsName
      */
@@ -31,7 +31,7 @@ public class CustomInfoType
     }
 
     /** 
-     * Get the 'PostName' element value. Наименование поста
+     * Get the 'PostName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CustomInfoType
     }
 
     /** 
-     * Set the 'PostName' element value. Наименование поста
+     * Set the 'PostName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃС‚Р°
      * 
      * @param postName
      */
@@ -49,7 +49,7 @@ public class CustomInfoType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес таможни
+     * Get the 'Address' element value. РђРґСЂРµСЃ С‚Р°РјРѕР¶РЅРё
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CustomInfoType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес таможни
+     * Set the 'Address' element value. РђРґСЂРµСЃ С‚Р°РјРѕР¶РЅРё
      * 
      * @param address
      */

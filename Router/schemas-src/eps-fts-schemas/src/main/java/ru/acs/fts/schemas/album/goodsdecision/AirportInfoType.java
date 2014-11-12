@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodsdecision;
 
 /** 
- * Сведение об аэропорте
+ * РЎРІРµРґРµРЅРёРµ РѕР± Р°СЌСЂРѕРїРѕСЂС‚Рµ
  */
 public class AirportInfoType
 {
@@ -10,7 +10,7 @@ public class AirportInfoType
     private String IATACode;
 
     /** 
-     * Get the 'AirportName' element value. Название аэропорта
+     * Get the 'AirportName' element value. РќР°Р·РІР°РЅРёРµ Р°СЌСЂРѕРїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AirportInfoType
     }
 
     /** 
-     * Set the 'AirportName' element value. Название аэропорта
+     * Set the 'AirportName' element value. РќР°Р·РІР°РЅРёРµ Р°СЌСЂРѕРїРѕСЂС‚Р°
      * 
      * @param airportName
      */
@@ -28,7 +28,7 @@ public class AirportInfoType
     }
 
     /** 
-     * Get the 'IATACode' element value. Код ИАТА
+     * Get the 'IATACode' element value. РљРѕРґ РРђРўРђ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AirportInfoType
     }
 
     /** 
-     * Set the 'IATACode' element value. Код ИАТА
+     * Set the 'IATACode' element value. РљРѕРґ РРђРўРђ
      * 
      * @param IATACode
      */

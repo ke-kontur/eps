@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GoodsPackagingType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType
 {
@@ -20,7 +20,7 @@ public class GoodsType
     private GoodsPackagingType goodsPackingInfo;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара 
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° 
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара 
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° 
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodMarking' element value. Артикул (код товара, номер по каталогу производителя) 
+     * Get the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» (РєРѕРґ С‚РѕРІР°СЂР°, РЅРѕРјРµСЂ РїРѕ РєР°С‚Р°Р»РѕРіСѓ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ) 
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodMarking' element value. Артикул (код товара, номер по каталогу производителя) 
+     * Set the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» (РєРѕРґ С‚РѕРІР°СЂР°, РЅРѕРјРµСЂ РїРѕ РєР°С‚Р°Р»РѕРіСѓ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ) 
      * 
      * @param goodMarking
      */
@@ -56,7 +56,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -74,7 +74,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -92,7 +92,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeightQuantity
      */
@@ -110,7 +110,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'TotalCost' element value. Стоимость товаров в соответствии с коммерческими документами
+     * Get the 'TotalCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕРјРјРµСЂС‡РµСЃРєРёРјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'TotalCost' element value. Стоимость товаров в соответствии с коммерческими документами
+     * Set the 'TotalCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕРјРјРµСЂС‡РµСЃРєРёРјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
      * 
      * @param totalCost
      */
@@ -128,7 +128,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'Documents' element items. Документы
+     * Get the list of 'Documents' element items. Р”РѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'Documents' element items. Документы
+     * Set the list of 'Documents' element items. Р”РѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsPackingInfo' element value. Сведения о грузовых местах/упаковке товаров
+     * Get the 'GoodsPackingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…/СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsPackingInfo' element value. Сведения о грузовых местах/упаковке товаров
+     * Set the 'GoodsPackingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…/СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsPackingInfo
      */

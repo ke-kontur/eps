@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * Подробности расчета таможенной стоимости по ДТС-1 методу 1; ДТС-2 метод 6 на основе метода 1
+ * РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ Р”РўРЎ-1 РјРµС‚РѕРґСѓ 1; Р”РўРЎ-2 РјРµС‚РѕРґ 6 РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° 1
  */
 public class DTSMethod1Type
 {
@@ -11,7 +11,7 @@ public class DTSMethod1Type
     private Method1DeductionType method1Deduction;
 
     /** 
-     * Get the 'Method1CalculationBasis' element value. Основа расчета таможенной стоимости по методу 1. Гр. А (11, 12)
+     * Get the 'Method1CalculationBasis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1. Р“СЂ. Рђ (11, 12)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSMethod1Type
     }
 
     /** 
-     * Set the 'Method1CalculationBasis' element value. Основа расчета таможенной стоимости по методу 1. Гр. А (11, 12)
+     * Set the 'Method1CalculationBasis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1. Р“СЂ. Рђ (11, 12)
      * 
      * @param method1CalculationBasis
      */
@@ -30,7 +30,7 @@ public class DTSMethod1Type
     }
 
     /** 
-     * Get the 'Method1AdditionalSum' element value. Дополнительные начисления. Гр. Б (13-20)
+     * Get the 'Method1AdditionalSum' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ. Р“СЂ. Р‘ (13-20)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DTSMethod1Type
     }
 
     /** 
-     * Set the 'Method1AdditionalSum' element value. Дополнительные начисления. Гр. Б (13-20)
+     * Set the 'Method1AdditionalSum' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ. Р“СЂ. Р‘ (13-20)
      * 
      * @param method1AdditionalSum
      */
@@ -49,7 +49,7 @@ public class DTSMethod1Type
     }
 
     /** 
-     * Get the 'Method1Deduction' element value. Вычеты: расходы в национальной валюте, которые включены в А. (гр. В 21-24)
+     * Get the 'Method1Deduction' element value. Р’С‹С‡РµС‚С‹: СЂР°СЃС…РѕРґС‹ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ, РєРѕС‚РѕСЂС‹Рµ РІРєР»СЋС‡РµРЅС‹ РІ Рђ. (РіСЂ. Р’ 21-24)
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DTSMethod1Type
     }
 
     /** 
-     * Set the 'Method1Deduction' element value. Вычеты: расходы в национальной валюте, которые включены в А. (гр. В 21-24)
+     * Set the 'Method1Deduction' element value. Р’С‹С‡РµС‚С‹: СЂР°СЃС…РѕРґС‹ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ, РєРѕС‚РѕСЂС‹Рµ РІРєР»СЋС‡РµРЅС‹ РІ Рђ. (РіСЂ. Р’ 21-24)
      * 
      * @param method1Deduction
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Таблица сверки
+ * РўР°Р±Р»РёС†Р° СЃРІРµСЂРєРё
  */
 public class GoodsCheckTableType
 {
@@ -18,7 +18,7 @@ public class GoodsCheckTableType
     private FactValueDocumentType trueValueRefDocument;
 
     /** 
-     * Get the 'GTDValue' element value. Значение в ДТ
+     * Get the 'GTDValue' element value. Р—РЅР°С‡РµРЅРёРµ РІ Р”Рў
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the 'GTDValue' element value. Значение в ДТ
+     * Set the 'GTDValue' element value. Р—РЅР°С‡РµРЅРёРµ РІ Р”Рў
      * 
      * @param GTDValue
      */
@@ -36,7 +36,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Get the 'GTDValueFlag' element value. Признак совпадения/несовпадения значения в ДТ с предоставленными документами: 0 - совпало, 1 – не совпало
+     * Get the 'GTDValueFlag' element value. РџСЂРёР·РЅР°Рє СЃРѕРІРїР°РґРµРЅРёСЏ/РЅРµСЃРѕРІРїР°РґРµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ РІ Р”Рў СЃ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё: 0 - СЃРѕРІРїР°Р»Рѕ, 1 вЂ“ РЅРµ СЃРѕРІРїР°Р»Рѕ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the 'GTDValueFlag' element value. Признак совпадения/несовпадения значения в ДТ с предоставленными документами: 0 - совпало, 1 – не совпало
+     * Set the 'GTDValueFlag' element value. РџСЂРёР·РЅР°Рє СЃРѕРІРїР°РґРµРЅРёСЏ/РЅРµСЃРѕРІРїР°РґРµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ РІ Р”Рў СЃ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё: 0 - СЃРѕРІРїР°Р»Рѕ, 1 вЂ“ РЅРµ СЃРѕРІРїР°Р»Рѕ
      * 
      * @param GTDValueFlag
      */
@@ -54,7 +54,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Get the 'TrueValue' element value. Значение фактическое (в соответствии с товаросопроводительными документами или документами, оформленными в результате таможенного контроля (акт досмотра и т.д.)
+     * Get the 'TrueValue' element value. Р—РЅР°С‡РµРЅРёРµ С„Р°РєС‚РёС‡РµСЃРєРѕРµ (РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё РёР»Рё РґРѕРєСѓРјРµРЅС‚Р°РјРё, РѕС„РѕСЂРјР»РµРЅРЅС‹РјРё РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (Р°РєС‚ РґРѕСЃРјРѕС‚СЂР° Рё С‚.Рґ.)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the 'TrueValue' element value. Значение фактическое (в соответствии с товаросопроводительными документами или документами, оформленными в результате таможенного контроля (акт досмотра и т.д.)
+     * Set the 'TrueValue' element value. Р—РЅР°С‡РµРЅРёРµ С„Р°РєС‚РёС‡РµСЃРєРѕРµ (РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё РёР»Рё РґРѕРєСѓРјРµРЅС‚Р°РјРё, РѕС„РѕСЂРјР»РµРЅРЅС‹РјРё РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (Р°РєС‚ РґРѕСЃРјРѕС‚СЂР° Рё С‚.Рґ.)
      * 
      * @param trueValue
      */
@@ -72,7 +72,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Get the list of 'GTDValueNote' element items. Значение в ДТ примечание
+     * Get the list of 'GTDValueNote' element items. Р—РЅР°С‡РµРЅРёРµ РІ Р”Рў РїСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the list of 'GTDValueNote' element items. Значение в ДТ примечание
+     * Set the list of 'GTDValueNote' element items. Р—РЅР°С‡РµРЅРёРµ РІ Р”Рў РїСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Get the 'CheckElementLocation' element value. Идентификация атрибута сверки (номера графы ДТ)
+     * Get the 'CheckElementLocation' element value. РРґРµРЅС‚РёС„РёРєР°С†РёСЏ Р°С‚СЂРёР±СѓС‚Р° СЃРІРµСЂРєРё (РЅРѕРјРµСЂР° РіСЂР°С„С‹ Р”Рў)
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the 'CheckElementLocation' element value. Идентификация атрибута сверки (номера графы ДТ)
+     * Set the 'CheckElementLocation' element value. РРґРµРЅС‚РёС„РёРєР°С†РёСЏ Р°С‚СЂРёР±СѓС‚Р° СЃРІРµСЂРєРё (РЅРѕРјРµСЂР° РіСЂР°С„С‹ Р”Рў)
      * 
      * @param checkElementLocation
      */
@@ -108,7 +108,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Get the 'TrueValueRefDocumentDT' element value. Описание документа, содержащего значение из ДТ 
+     * Get the 'TrueValueRefDocumentDT' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ Р·РЅР°С‡РµРЅРёРµ РёР· Р”Рў 
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the 'TrueValueRefDocumentDT' element value. Описание документа, содержащего значение из ДТ 
+     * Set the 'TrueValueRefDocumentDT' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ Р·РЅР°С‡РµРЅРёРµ РёР· Р”Рў 
      * 
      * @param trueValueRefDocumentDT
      */
@@ -127,7 +127,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Get the 'TrueValueRefDocument' element value. Описание документа, содержащего фактическое значение
+     * Get the 'TrueValueRefDocument' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ С„Р°РєС‚РёС‡РµСЃРєРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class GoodsCheckTableType
     }
 
     /** 
-     * Set the 'TrueValueRefDocument' element value. Описание документа, содержащего фактическое значение
+     * Set the 'TrueValueRefDocument' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ С„Р°РєС‚РёС‡РµСЃРєРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param trueValueRefDocument
      */

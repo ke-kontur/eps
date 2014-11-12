@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Информация о полученных документах.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
  */
 public class RecipDocumentType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class RecipDocumentType extends DocumentBaseType
     private String recipTime;
 
     /** 
-     * Get the 'RecipDocumentID' element value. Уникальный идентификатор полученного документа
+     * Get the 'RecipDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР»СѓС‡РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecipDocumentID' element value. Уникальный идентификатор полученного документа
+     * Set the 'RecipDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР»СѓС‡РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param recipDocumentID
      */
@@ -33,7 +33,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecipDocDate' element value. Дата создания полученного документа.
+     * Get the 'RecipDocDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РїРѕР»СѓС‡РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecipDocDate' element value. Дата создания полученного документа.
+     * Set the 'RecipDocDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РїРѕР»СѓС‡РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param recipDocDate
      */
@@ -51,7 +51,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecipDate' element value. Дата получения документа.
+     * Get the 'RecipDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecipDate' element value. Дата получения документа.
+     * Set the 'RecipDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param recipDate
      */
@@ -69,7 +69,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecipTime' element value. Время получения документа.
+     * Get the 'RecipTime' element value. Р’СЂРµРјСЏ РїРѕР»СѓС‡РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RecipDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecipTime' element value. Время получения документа.
+     * Set the 'RecipTime' element value. Р’СЂРµРјСЏ РїРѕР»СѓС‡РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param recipTime
      */

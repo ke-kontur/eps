@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.paymentconfirmation;
 
 /** 
- * Оплата
+ * РћРїР»Р°С‚Р°
  */
 public class PaymentType
 {
@@ -10,7 +10,7 @@ public class PaymentType
     private String cardNumber;
 
     /** 
-     * Get the 'PaymentKind' element value. Вид оплаты: 1 - карта, 0 - наличные
+     * Get the 'PaymentKind' element value. Р’РёРґ РѕРїР»Р°С‚С‹: 1 - РєР°СЂС‚Р°, 0 - РЅР°Р»РёС‡РЅС‹Рµ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'PaymentKind' element value. Вид оплаты: 1 - карта, 0 - наличные
+     * Set the 'PaymentKind' element value. Р’РёРґ РѕРїР»Р°С‚С‹: 1 - РєР°СЂС‚Р°, 0 - РЅР°Р»РёС‡РЅС‹Рµ
      * 
      * @param paymentKind
      */
@@ -28,7 +28,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'CardNumber' element value. Номер карты
+     * Get the 'CardNumber' element value. РќРѕРјРµСЂ РєР°СЂС‚С‹
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CardNumber' element value. Номер карты
+     * Set the 'CardNumber' element value. РќРѕРјРµСЂ РєР°СЂС‚С‹
      * 
      * @param cardNumber
      */

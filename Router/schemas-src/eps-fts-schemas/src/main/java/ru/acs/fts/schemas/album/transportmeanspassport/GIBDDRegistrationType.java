@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения об учете ТС в ГИБДД
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РўРЎ РІ Р“РР‘Р”Р”
  */
 public class GIBDDRegistrationType
 {
@@ -16,7 +16,7 @@ public class GIBDDRegistrationType
     private PersonBaseType issuingDocuments;
 
     /** 
-     * Get the 'StrakeOffDate' element value. Дата снятия с учета
+     * Get the 'StrakeOffDate' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Set the 'StrakeOffDate' element value. Дата снятия с учета
+     * Set the 'StrakeOffDate' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р°
      * 
      * @param strakeOffDate
      */
@@ -34,7 +34,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Get the 'CertificateRegistration' element value. Свидетельство о регистрации ТС
+     * Get the 'CertificateRegistration' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Set the 'CertificateRegistration' element value. Свидетельство о регистрации ТС
+     * Set the 'CertificateRegistration' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
      * 
      * @param certificateRegistration
      */
@@ -53,7 +53,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Get the 'RegistrationSign' element value. Подпись при  регистрации ТС
+     * Get the 'RegistrationSign' element value. РџРѕРґРїРёСЃСЊ РїСЂРё  СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Set the 'RegistrationSign' element value. Подпись при  регистрации ТС
+     * Set the 'RegistrationSign' element value. РџРѕРґРїРёСЃСЊ РїСЂРё  СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
      * 
      * @param registrationSign
      */
@@ -71,7 +71,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Get the 'StrikeOffSign' element value. Подпись лица при снятии с учета
+     * Get the 'StrikeOffSign' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р° РїСЂРё СЃРЅСЏС‚РёРё СЃ СѓС‡РµС‚Р°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Set the 'StrikeOffSign' element value. Подпись лица при снятии с учета
+     * Set the 'StrikeOffSign' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р° РїСЂРё СЃРЅСЏС‚РёРё СЃ СѓС‡РµС‚Р°
      * 
      * @param strikeOffSign
      */
@@ -89,7 +89,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Get the 'IssuingDocuments' element value. Подпись лица, выдавшего ПТС.
+     * Get the 'IssuingDocuments' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РІС‹РґР°РІС€РµРіРѕ РџРўРЎ.
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class GIBDDRegistrationType
     }
 
     /** 
-     * Set the 'IssuingDocuments' element value. Подпись лица, выдавшего ПТС.
+     * Set the 'IssuingDocuments' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РІС‹РґР°РІС€РµРіРѕ РџРўРЎ.
      * 
      * @param issuingDocuments
      */

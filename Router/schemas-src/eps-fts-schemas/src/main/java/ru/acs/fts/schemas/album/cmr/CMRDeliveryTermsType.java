@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание условий поставки 
+ * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё 
  */
 public class CMRDeliveryTermsType
 {
@@ -14,7 +14,7 @@ public class CMRDeliveryTermsType
     private String termsDescription;
 
     /** 
-     * Get the list of 'DeliveryPlace' element items. Наименование пункта поставки
+     * Get the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Set the list of 'DeliveryPlace' element items. Наименование пункта поставки
+     * Set the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
+     * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
+     * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
      * 
      * @param deliveryTermsStringCode
      */
@@ -50,7 +50,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Get the 'TermsDescription' element value. Описание, комментарии по условиям поставки
+     * Get the 'TermsDescription' element value. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Set the 'TermsDescription' element value. Описание, комментарии по условиям поставки
+     * Set the 'TermsDescription' element value. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
      * 
      * @param termsDescription
      */

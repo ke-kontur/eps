@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.loadptsresult;
 
 /** 
- * Результат загрузки / обработки пакета 
+ * Р РµР·СѓР»СЊС‚Р°С‚ Р·Р°РіСЂСѓР·РєРё / РѕР±СЂР°Р±РѕС‚РєРё РїР°РєРµС‚Р° 
  */
 public class ProtocolProcessingPacketType
 {
@@ -10,7 +10,7 @@ public class ProtocolProcessingPacketType
     private String addInformation;
 
     /** 
-     * Get the 'MSG_Code' element value. Код сообщения (ошибки)
+     * Get the 'MSG_Code' element value. РљРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ (РѕС€РёР±РєРё)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ProtocolProcessingPacketType
     }
 
     /** 
-     * Set the 'MSG_Code' element value. Код сообщения (ошибки)
+     * Set the 'MSG_Code' element value. РљРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ (РѕС€РёР±РєРё)
      * 
      * @param MSGCode
      */
@@ -28,7 +28,7 @@ public class ProtocolProcessingPacketType
     }
 
     /** 
-     * Get the 'AddInformation' element value. Дополнительная информация об ошибке (COMMENT)
+     * Get the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС€РёР±РєРµ (COMMENT)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ProtocolProcessingPacketType
     }
 
     /** 
-     * Set the 'AddInformation' element value. Дополнительная информация об ошибке (COMMENT)
+     * Set the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС€РёР±РєРµ (COMMENT)
      * 
      * @param addInformation
      */

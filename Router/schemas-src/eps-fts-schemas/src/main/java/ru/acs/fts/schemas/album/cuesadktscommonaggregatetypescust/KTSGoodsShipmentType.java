@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust;
 
 /** 
- * КТС. Общие сведения о товарной партии
+ * РљРўРЎ. РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class KTSGoodsShipmentType
 {
@@ -13,7 +13,7 @@ public class KTSGoodsShipmentType
     private String debtReturnSumm;
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. Общее количество товаров КТС. гр. 5
+     * Get the 'TotalGoodsNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РљРўРЎ. РіСЂ. 5
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. Общее количество товаров КТС. гр. 5
+     * Set the 'TotalGoodsNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РљРўРЎ. РіСЂ. 5
      * 
      * @param totalGoodsNumber
      */
@@ -31,7 +31,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalSheetNumber' element value. Общее количество комплектов КТС-1 и КТС-2. гр 3
+     * Get the 'TotalSheetNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРїР»РµРєС‚РѕРІ РљРўРЎ-1 Рё РљРўРЎ-2. РіСЂ 3
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalSheetNumber' element value. Общее количество комплектов КТС-1 и КТС-2. гр 3
+     * Set the 'TotalSheetNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРїР»РµРєС‚РѕРІ РљРўРЎ-1 Рё РљРўРЎ-2. РіСЂ 3
      * 
      * @param totalSheetNumber
      */
@@ -49,7 +49,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalCustomsAmount' element value. Сведения о стоимости/общая таможенная стоимость.гр 12 левый подраздел
+     * Get the 'TotalCustomsAmount' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ.РіСЂ 12 Р»РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalCustomsAmount' element value. Сведения о стоимости/общая таможенная стоимость.гр 12 левый подраздел
+     * Set the 'TotalCustomsAmount' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ.РіСЂ 12 Р»РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
      * 
      * @param totalCustomsAmount
      */
@@ -67,7 +67,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Get the 'PreviousTotalCustomsAmount' element value. Предыдущее значение  общей таможенной стоимости
+     * Get the 'PreviousTotalCustomsAmount' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ  РѕР±С‰РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'PreviousTotalCustomsAmount' element value. Предыдущее значение  общей таможенной стоимости
+     * Set the 'PreviousTotalCustomsAmount' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ  РѕР±С‰РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param previousTotalCustomsAmount
      */
@@ -85,7 +85,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Get the 'DebtReturnSumm' element value. Общая сумма, подлежащая возврату (взысканию)
+     * Get the 'DebtReturnSumm' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°, РїРѕРґР»РµР¶Р°С‰Р°СЏ РІРѕР·РІСЂР°С‚Сѓ (РІР·С‹СЃРєР°РЅРёСЋ)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'DebtReturnSumm' element value. Общая сумма, подлежащая возврату (взысканию)
+     * Set the 'DebtReturnSumm' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°, РїРѕРґР»РµР¶Р°С‰Р°СЏ РІРѕР·РІСЂР°С‚Сѓ (РІР·С‹СЃРєР°РЅРёСЋ)
      * 
      * @param debtReturnSumm
      */

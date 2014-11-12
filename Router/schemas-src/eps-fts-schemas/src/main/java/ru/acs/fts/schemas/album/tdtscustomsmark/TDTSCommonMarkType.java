@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Служебные отметки ТДТС
+ * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РўР”РўРЎ
  */
 public class TDTSCommonMarkType
 {
@@ -19,7 +19,7 @@ public class TDTSCommonMarkType
     private CustomsPersonType customsPerson;
 
     /** 
-     * Get the 'GRNumber' element value. Обозначение графы: A, B, C
+     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹: A, B, C
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'GRNumber' element value. Обозначение графы: A, B, C
+     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹: A, B, C
      * 
      * @param GRNumber
      */
@@ -37,7 +37,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Get the 'Date' element value. Дата регистрации ТДТС/совершения таможенной операции
+     * Get the 'Date' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РўР”РўРЎ/СЃРѕРІРµСЂС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'Date' element value. Дата регистрации ТДТС/совершения таможенной операции
+     * Set the 'Date' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РўР”РўРЎ/СЃРѕРІРµСЂС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РѕРїРµСЂР°С†РёРё
      * 
      * @param date
      */
@@ -55,7 +55,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Get the 'ControlMark' element value. Отметка о форме таможенного контроля
+     * Get the 'ControlMark' element value. РћС‚РјРµС‚РєР° Рѕ С„РѕСЂРјРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'ControlMark' element value. Отметка о форме таможенного контроля
+     * Set the 'ControlMark' element value. РћС‚РјРµС‚РєР° Рѕ С„РѕСЂРјРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param controlMark
      */
@@ -73,7 +73,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Get the 'SpecialMark' element value. Особые отметки
+     * Get the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'SpecialMark' element value. Особые отметки
+     * Set the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @param specialMark
      */
@@ -91,7 +91,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Get the 'Deadline' element value. Срок временного ввоза ТСМП
+     * Get the 'Deadline' element value. РЎСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р° РўРЎРњРџ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'Deadline' element value. Срок временного ввоза ТСМП
+     * Set the 'Deadline' element value. РЎСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р° РўРЎРњРџ
      * 
      * @param deadline
      */
@@ -109,7 +109,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -127,7 +127,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Инспектор таможенного органа
+     * Get the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class TDTSCommonMarkType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Инспектор таможенного органа
+     * Set the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */

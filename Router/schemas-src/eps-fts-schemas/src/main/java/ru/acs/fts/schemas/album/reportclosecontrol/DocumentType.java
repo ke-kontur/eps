@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.reportclosecontrol;
 
 /** 
- * Проверенный электронный таможенный документ
+ * РџСЂРѕРІРµСЂРµРЅРЅС‹Р№ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class DocumentType
 {
@@ -12,7 +12,7 @@ public class DocumentType
     private String EDRef;
 
     /** 
-     * Get the 'Kind' element value. Способ указания проверяемого документа
+     * Get the 'Kind' element value. РЎРїРѕСЃРѕР± СѓРєР°Р·Р°РЅРёСЏ РїСЂРѕРІРµСЂСЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Kind' element value. Способ указания проверяемого документа
+     * Set the 'Kind' element value. РЎРїРѕСЃРѕР± СѓРєР°Р·Р°РЅРёСЏ РїСЂРѕРІРµСЂСЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param kind
      */
@@ -30,7 +30,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'EDCode' element value. Код типа электронного таможенного документа (1-ДТ)
+     * Get the 'EDCode' element value. РљРѕРґ С‚РёРїР° СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (1-Р”Рў)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'EDCode' element value. Код типа электронного таможенного документа (1-ДТ)
+     * Set the 'EDCode' element value. РљРѕРґ С‚РёРїР° СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (1-Р”Рў)
      * 
      * @param EDCode
      */
@@ -48,7 +48,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'EDType' element value. Тип электронного таможенного документа
+     * Get the 'EDType' element value. РўРёРї СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'EDType' element value. Тип электронного таможенного документа
+     * Set the 'EDType' element value. РўРёРї СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param EDType
      */
@@ -66,7 +66,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'EDRef' element value. Ссылка на документ: GUID | валовый номер | таможенный номер
+     * Get the 'EDRef' element value. РЎСЃС‹Р»РєР° РЅР° РґРѕРєСѓРјРµРЅС‚: GUID | РІР°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ | С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'EDRef' element value. Ссылка на документ: GUID | валовый номер | таможенный номер
+     * Set the 'EDRef' element value. РЎСЃС‹Р»РєР° РЅР° РґРѕРєСѓРјРµРЅС‚: GUID | РІР°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ | С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param EDRef
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust;
 
 /** 
- * Место назначения/доставки в МДП
+ * РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ/РґРѕСЃС‚Р°РІРєРё РІ РњР”Рџ
  */
 public class TIRDestinationType extends TDDestinationBaseType
 {
     private String destinationPlaceName;
 
     /** 
-     * Get the 'DestinationPlaceName' element value. Наименование места назначения
+     * Get the 'DestinationPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class TIRDestinationType extends TDDestinationBaseType
     }
 
     /** 
-     * Set the 'DestinationPlaceName' element value. Наименование места назначения
+     * Set the 'DestinationPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationPlaceName
      */

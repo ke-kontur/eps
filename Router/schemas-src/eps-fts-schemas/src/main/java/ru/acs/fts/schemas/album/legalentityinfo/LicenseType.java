@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о лицензии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё
  */
 public class LicenseType extends DocumentBaseType
 {
@@ -23,7 +23,7 @@ public class LicenseType extends DocumentBaseType
     private SuspensionType suspension;
 
     /** 
-     * Get the 'BeginDate' element value. Дата начала действия документа
+     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Дата начала действия документа
+     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param beginDate
      */
@@ -41,7 +41,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Дата окончания действия документа
+     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Дата окончания действия документа
+     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param expirationDate
      */
@@ -59,7 +59,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicenseSeries' element value. Серия документа
+     * Get the 'LicenseSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicenseSeries' element value. Серия документа
+     * Set the 'LicenseSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param licenseSeries
      */
@@ -77,7 +77,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicenseKind' element value. Вид лицензии
+     * Get the 'LicenseKind' element value. Р’РёРґ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicenseKind' element value. Вид лицензии
+     * Set the 'LicenseKind' element value. Р’РёРґ Р»РёС†РµРЅР·РёРё
      * 
      * @param licenseKind
      */
@@ -95,7 +95,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicensedServiceName' element value. Наименование лицензируемого вида деятельности
+     * Get the 'LicensedServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicensedServiceName' element value. Наименование лицензируемого вида деятельности
+     * Set the 'LicensedServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @param licensedServiceName
      */
@@ -113,7 +113,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */
@@ -131,7 +131,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the list of 'LicensedServicePlace' element items. Сведения об месте осуществления лицензируемого вида деятельности
+     * Get the list of 'LicensedServicePlace' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РјРµСЃС‚Рµ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the list of 'LicensedServicePlace' element items. Сведения об месте осуществления лицензируемого вида деятельности
+     * Set the list of 'LicensedServicePlace' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РјРµСЃС‚Рµ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicenseOrg' element value. Наименование лицензирующего органа, выдавшего или переоформившего лицензию
+     * Get the 'LicenseOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РёР»Рё РїРµСЂРµРѕС„РѕСЂРјРёРІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicenseOrg' element value. Наименование лицензирующего органа, выдавшего или переоформившего лицензию
+     * Set the 'LicenseOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РёР»Рё РїРµСЂРµРѕС„РѕСЂРјРёРІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
      * 
      * @param licenseOrg
      */
@@ -167,7 +167,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Suspension' element value. Сведения о приостановлении действия лицензии
+     * Get the 'Suspension' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРё РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Suspension' element value. Сведения о приостановлении действия лицензии
+     * Set the 'Suspension' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРё РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @param suspension
      */

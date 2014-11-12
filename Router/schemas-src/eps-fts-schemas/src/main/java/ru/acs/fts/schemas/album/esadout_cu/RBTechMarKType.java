@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.esadout_cu;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Технические отметки для РБ
+ * РўРµС…РЅРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё РґР»СЏ Р Р‘
  */
 public class RBTechMarKType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class RBTechMarKType extends DocumentBaseType
     private String sumPayment;
 
     /** 
-     * Get the 'DelcKind' element value. Вид корректировки в соответствии с классификатором видов корректировок
+     * Get the 'DelcKind' element value. Р’РёРґ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RBTechMarKType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DelcKind' element value. Вид корректировки в соответствии с классификатором видов корректировок
+     * Set the 'DelcKind' element value. Р’РёРґ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє
      * 
      * @param delcKind
      */
@@ -30,7 +30,7 @@ public class RBTechMarKType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SumPayment' element value. Сумма подлежащая к уплате обеспечения. ТД
+     * Get the 'SumPayment' element value. РЎСѓРјРјР° РїРѕРґР»РµР¶Р°С‰Р°СЏ Рє СѓРїР»Р°С‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ. РўР”
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RBTechMarKType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SumPayment' element value. Сумма подлежащая к уплате обеспечения. ТД
+     * Set the 'SumPayment' element value. РЎСѓРјРјР° РїРѕРґР»РµР¶Р°С‰Р°СЏ Рє СѓРїР»Р°С‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ. РўР”
      * 
      * @param sumPayment
      */

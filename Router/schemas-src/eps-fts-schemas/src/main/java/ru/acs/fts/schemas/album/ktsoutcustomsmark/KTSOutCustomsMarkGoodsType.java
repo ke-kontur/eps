@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktsoutcustomsmark;
 import org.joda.time.LocalDate;
 
 /** 
- * КТС-служебные отметки по товарам
+ * РљРўРЎ-СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
  */
 public class KTSOutCustomsMarkGoodsType
 {
@@ -18,7 +18,7 @@ public class KTSOutCustomsMarkGoodsType
     private SubscriptionType customsPerson;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по документу / списку / номер товара по ДТ ( для КТС, ДТС)
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ / СЃРїРёСЃРєСѓ / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў ( РґР»СЏ РљРўРЎ, Р”РўРЎ)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по документу / списку / номер товара по ДТ ( для КТС, ДТС)
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ / СЃРїРёСЃРєСѓ / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў ( РґР»СЏ РљРўРЎ, Р”РўРЎ)
      * 
      * @param goodsNumeric
      */
@@ -36,7 +36,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'KTS1FormNumber' element value. Номер бланка формы КТС-1
+     * Get the 'KTS1FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° С„РѕСЂРјС‹ РљРўРЎ-1
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'KTS1FormNumber' element value. Номер бланка формы КТС-1
+     * Set the 'KTS1FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° С„РѕСЂРјС‹ РљРўРЎ-1
      * 
      * @param KTS1FormNumber
      */
@@ -54,7 +54,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Get the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Set the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @param paymentEnsuringModeCodeType
      */
@@ -73,7 +73,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. Номер документа
+     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Номер документа
+     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentNumber
      */
@@ -91,7 +91,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Дата документа
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата документа
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDate
      */
@@ -109,7 +109,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. Служебная запись
+     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. Служебная запись
+     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @param markDescription
      */
@@ -127,7 +127,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'KTSFormNumber' element value. Номер бланка основного листа предшествующей формы КТС, содержащей (на основном либо дополнительных листах) сведения по товару
+     * Get the 'KTSFormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° РѕСЃРЅРѕРІРЅРѕРіРѕ Р»РёСЃС‚Р° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ С„РѕСЂРјС‹ РљРўРЎ, СЃРѕРґРµСЂР¶Р°С‰РµР№ (РЅР° РѕСЃРЅРѕРІРЅРѕРј Р»РёР±Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚Р°С…) СЃРІРµРґРµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'KTSFormNumber' element value. Номер бланка основного листа предшествующей формы КТС, содержащей (на основном либо дополнительных листах) сведения по товару
+     * Set the 'KTSFormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° РѕСЃРЅРѕРІРЅРѕРіРѕ Р»РёСЃС‚Р° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ С„РѕСЂРјС‹ РљРўРЎ, СЃРѕРґРµСЂР¶Р°С‰РµР№ (РЅР° РѕСЃРЅРѕРІРЅРѕРј Р»РёР±Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚Р°С…) СЃРІРµРґРµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
      * 
      * @param KTSFormNumber
      */
@@ -145,7 +145,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class KTSOutCustomsMarkGoodsType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
      * 
      * @param customsPerson
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.archdoclistrequest;
 import ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseType;
 
 /** 
- * Запрос на получение списка документов в архиве
+ * Р—Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РґРѕРєСѓРјРµРЅС‚РѕРІ РІ Р°СЂС…РёРІРµ
  */
 public class ArchDocListRequestType extends ArchBaseType
 {
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ArchDocListRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

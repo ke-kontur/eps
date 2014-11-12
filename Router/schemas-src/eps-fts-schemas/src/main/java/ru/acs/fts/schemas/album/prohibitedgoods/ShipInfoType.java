@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.prohibitedgoods;
 
 /** 
- * Сведения о морском/воздушном судне
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РјРѕСЂСЃРєРѕРј/РІРѕР·РґСѓС€РЅРѕРј СЃСѓРґРЅРµ
  */
 public class ShipInfoType
 {
@@ -11,7 +11,7 @@ public class ShipInfoType
     private String depaturePort;
 
     /** 
-     * Get the 'ShipName' element value. Наименование морского/воздушного судна
+     * Get the 'ShipName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРѕСЂСЃРєРѕРіРѕ/РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Set the 'ShipName' element value. Наименование морского/воздушного судна
+     * Set the 'ShipName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРѕСЂСЃРєРѕРіРѕ/РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param shipName
      */
@@ -29,7 +29,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Get the 'ShipFlag' element value. Код страны принадлежности морского/воздушного судна
+     * Get the 'ShipFlag' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё РјРѕСЂСЃРєРѕРіРѕ/РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Set the 'ShipFlag' element value. Код страны принадлежности морского/воздушного судна
+     * Set the 'ShipFlag' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё РјРѕСЂСЃРєРѕРіРѕ/РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param shipFlag
      */
@@ -47,7 +47,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Get the 'DepaturePort' element value. Порт/аэропорт отправления
+     * Get the 'DepaturePort' element value. РџРѕСЂС‚/Р°СЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Set the 'DepaturePort' element value. Порт/аэропорт отправления
+     * Set the 'DepaturePort' element value. РџРѕСЂС‚/Р°СЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param depaturePort
      */

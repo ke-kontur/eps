@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GoodsType;
 
 /** 
- * Информация о перевозимых товарах
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
  */
 public class GoodsInformationType
 {
@@ -19,7 +19,7 @@ public class GoodsInformationType
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'TotalGoodsNameQuantity' element value. Всего наименований товаров
+     * Get the 'TotalGoodsNameQuantity' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'TotalGoodsNameQuantity' element value. Всего наименований товаров
+     * Set the 'TotalGoodsNameQuantity' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @param totalGoodsNameQuantity
      */
@@ -37,7 +37,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'ShipSpecifQuantity' element value. Количество отгрузочных спецификаций
+     * Get the 'ShipSpecifQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'ShipSpecifQuantity' element value. Количество отгрузочных спецификаций
+     * Set the 'ShipSpecifQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @param shipSpecifQuantity
      */
@@ -55,7 +55,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
+     * Get the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
+     * Set the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
      * 
      * @param shipSpecifGoodsQuantity
      */
@@ -73,7 +73,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'TotalInvoicedCost' element value. Общая фактурная стоимость
+     * Get the 'TotalInvoicedCost' element value. РћР±С‰Р°СЏ С„Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'TotalInvoicedCost' element value. Общая фактурная стоимость
+     * Set the 'TotalInvoicedCost' element value. РћР±С‰Р°СЏ С„Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param totalInvoicedCost
      */
@@ -91,7 +91,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код валюты
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код валюты
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -109,7 +109,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @param currencyRate
      */
@@ -127,7 +127,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */

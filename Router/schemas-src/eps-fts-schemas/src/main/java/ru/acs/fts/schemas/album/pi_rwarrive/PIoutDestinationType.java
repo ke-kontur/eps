@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.DestinationWarehou
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PIDestinationPlaceType;
 
 /** 
- * Пункт назначения товаров
+ * РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
  */
 public class PIoutDestinationType extends PIDestinationPlaceType
 {
@@ -16,7 +16,7 @@ public class PIoutDestinationType extends PIDestinationPlaceType
     private AddressType address;
 
     /** 
-     * Get the 'DestinationWarehouse' element value. СВХ места назначения
+     * Get the 'DestinationWarehouse' element value. РЎР’РҐ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PIoutDestinationType extends PIDestinationPlaceType
     }
 
     /** 
-     * Set the 'DestinationWarehouse' element value. СВХ места назначения
+     * Set the 'DestinationWarehouse' element value. РЎР’РҐ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationWarehouse
      */
@@ -35,7 +35,7 @@ public class PIoutDestinationType extends PIDestinationPlaceType
     }
 
     /** 
-     * Get the 'DestinationCustoms' element value. Таможенный орган назначения
+     * Get the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class PIoutDestinationType extends PIDestinationPlaceType
     }
 
     /** 
-     * Set the 'DestinationCustoms' element value. Таможенный орган назначения
+     * Set the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCustoms
      */
@@ -53,7 +53,7 @@ public class PIoutDestinationType extends PIDestinationPlaceType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class PIoutDestinationType extends PIDestinationPlaceType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */

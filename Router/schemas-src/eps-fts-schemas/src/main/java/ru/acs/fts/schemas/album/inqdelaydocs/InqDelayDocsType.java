@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Обращение о разрешении представления документов в определенный срок
+ * РћР±СЂР°С‰РµРЅРёРµ Рѕ СЂР°Р·СЂРµС€РµРЅРёРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЃСЂРѕРє
  */
 public class InqDelayDocsType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class InqDelayDocsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -39,7 +39,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -57,7 +57,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Сведения о заявителе
+     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Сведения о заявителе
+     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param applicant
      */
@@ -75,7 +75,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DelayDocDescription' element items. Описание документов, которые предполагается представить в определенный срок
+     * Get the list of 'DelayDocDescription' element items. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РІ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЃСЂРѕРє
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DelayDocDescription' element items. Описание документов, которые предполагается представить в определенный срок
+     * Set the list of 'DelayDocDescription' element items. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РІ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЃСЂРѕРє
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Справочный номер ДТ
+     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Справочный номер ДТ
+     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -111,7 +111,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class InqDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

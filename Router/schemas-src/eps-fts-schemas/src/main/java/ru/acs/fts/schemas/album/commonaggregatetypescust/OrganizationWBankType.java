@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения об организации, включая банковские счета
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РІРєР»СЋС‡Р°СЏ Р±Р°РЅРєРѕРІСЃРєРёРµ СЃС‡РµС‚Р°
  */
 public class OrganizationWBankType extends OrganizationType
 {
     private List<BankInformationType> bankInformationList = new ArrayList<BankInformationType>();
 
     /** 
-     * Get the list of 'BankInformation' element items. Информация о банковских счетах.
+     * Get the list of 'BankInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… СЃС‡РµС‚Р°С….
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class OrganizationWBankType extends OrganizationType
     }
 
     /** 
-     * Set the list of 'BankInformation' element items. Информация о банковских счетах.
+     * Set the list of 'BankInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… СЃС‡РµС‚Р°С….
      * 
      * @param list
      */

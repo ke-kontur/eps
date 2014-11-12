@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Предварительная информация о партии товаров
+ * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ
  */
 public class PIConsignmentType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class PIConsignmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DepartureCountry' element value. Страна отправления
+     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. Страна отправления
+     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureCountry
      */
@@ -39,7 +39,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountry
      */
@@ -57,7 +57,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Информация об отправителе товара
+     * Get the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Информация об отправителе товара
+     * Set the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂР°
      * 
      * @param consignor
      */
@@ -75,7 +75,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Информация о получателе
+     * Get the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Информация о получателе
+     * Set the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @param consignee
      */
@@ -93,7 +93,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств
+     * Get the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств
+     * Set the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param borderCustoms
      */
@@ -111,7 +111,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class PIConsignmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

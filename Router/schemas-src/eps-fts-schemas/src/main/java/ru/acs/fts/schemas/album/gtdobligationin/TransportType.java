@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdobligationin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Транспортное средство
+ * РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
  */
 public class TransportType extends TransportMeansBaseType
 {
@@ -13,7 +13,7 @@ public class TransportType extends TransportMeansBaseType
     private String traditionalName;
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспортного средства
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспортного средства
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportModeCode
      */
@@ -31,7 +31,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Get the 'ContainerSign' element value. Признак контейнерных перевозок: 1 - если перевозка товаров (хотя бы одного из них) через там. границу производится (производилась) в контейнере; 0 - в иных случаях (в том числе, если сведения о перевозке неизвестны)
+     * Get the 'ContainerSign' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє: 1 - РµСЃР»Рё РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ (С…РѕС‚СЏ Р±С‹ РѕРґРЅРѕРіРѕ РёР· РЅРёС…) С‡РµСЂРµР· С‚Р°Рј. РіСЂР°РЅРёС†Сѓ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ (РїСЂРѕРёР·РІРѕРґРёР»Р°СЃСЊ) РІ РєРѕРЅС‚РµР№РЅРµСЂРµ; 0 - РІ РёРЅС‹С… СЃР»СѓС‡Р°СЏС… (РІ С‚РѕРј С‡РёСЃР»Рµ, РµСЃР»Рё СЃРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РЅРµРёР·РІРµСЃС‚РЅС‹)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'ContainerSign' element value. Признак контейнерных перевозок: 1 - если перевозка товаров (хотя бы одного из них) через там. границу производится (производилась) в контейнере; 0 - в иных случаях (в том числе, если сведения о перевозке неизвестны)
+     * Set the 'ContainerSign' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє: 1 - РµСЃР»Рё РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ (С…РѕС‚СЏ Р±С‹ РѕРґРЅРѕРіРѕ РёР· РЅРёС…) С‡РµСЂРµР· С‚Р°Рј. РіСЂР°РЅРёС†Сѓ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ (РїСЂРѕРёР·РІРѕРґРёР»Р°СЃСЊ) РІ РєРѕРЅС‚РµР№РЅРµСЂРµ; 0 - РІ РёРЅС‹С… СЃР»СѓС‡Р°СЏС… (РІ С‚РѕРј С‡РёСЃР»Рµ, РµСЃР»Рё СЃРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РЅРµРёР·РІРµСЃС‚РЅС‹)
      * 
      * @param containerSign
      */
@@ -49,7 +49,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TraditionalName' element value. Традиционное наименование транспортного средства
+     * Get the 'TraditionalName' element value. РўСЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TraditionalName' element value. Традиционное наименование транспортного средства
+     * Set the 'TraditionalName' element value. РўСЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param traditionalName
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commissioninspection;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.GoodsLocationPlaceType;
 
 /** 
- * Местонахождение товаров.
+ * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ.
  */
 public class GoodsLocationType
 {
@@ -12,7 +12,7 @@ public class GoodsLocationType
     private GoodsLocationPlaceType goodsLocationPlace;
 
     /** 
-     * Get the 'WarehousePlace' element value. Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
+     * Get the 'WarehousePlace' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'WarehousePlace' element value. Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
+     * Set the 'WarehousePlace' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
      * 
      * @param warehousePlace
      */
@@ -30,7 +30,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
+     * Get the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
+     * Set the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
      * 
      * @param goodsLocationPlace
      */

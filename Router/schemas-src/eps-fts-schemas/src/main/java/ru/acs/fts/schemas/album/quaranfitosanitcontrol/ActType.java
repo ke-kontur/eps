@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.quaranfitosanitcontrol;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Выданный акт
+ * Р’С‹РґР°РЅРЅС‹Р№ Р°РєС‚
  */
 public class ActType extends DocumentBaseType
 {
     private String blankNum;
 
     /** 
-     * Get the 'BlankNum' element value. Номер бланка, выданного акта
+     * Get the 'BlankNum' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°, РІС‹РґР°РЅРЅРѕРіРѕ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ActType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'BlankNum' element value. Номер бланка, выданного акта
+     * Set the 'BlankNum' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°, РІС‹РґР°РЅРЅРѕРіРѕ Р°РєС‚Р°
      * 
      * @param blankNum
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Паспорт сделки (ПС) - документ валютного контроля,  предназначенный для осуществления контроля за вывозимыми с территории Российской Федерации товарами
+ * РџР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё (РџРЎ) - РґРѕРєСѓРјРµРЅС‚ РІР°Р»СЋС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ,  РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹Р№ РґР»СЏ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ Р·Р° РІС‹РІРѕР·РёРјС‹РјРё СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё С‚РѕРІР°СЂР°РјРё
  */
 public class DealPassportType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class DealPassportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BankName' element value. Наименование банка
+     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankName' element value. Наименование банка
+     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @param bankName
      */
@@ -46,7 +46,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DPNumber' element value. Номер паспорта сделки
+     * Get the 'DPNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DPNumber' element value. Номер паспорта сделки
+     * Set the 'DPNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё
      * 
      * @param DPNumber
      */
@@ -64,7 +64,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'AnotherBankDPNumber' element value. Номер паспорта сделки, оформленного в другом банке
+     * Get the 'AnotherBankDPNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё, РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РІ РґСЂСѓРіРѕРј Р±Р°РЅРєРµ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'AnotherBankDPNumber' element value. Номер паспорта сделки, оформленного в другом банке
+     * Set the 'AnotherBankDPNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё, РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РІ РґСЂСѓРіРѕРј Р±Р°РЅРєРµ
      * 
      * @param anotherBankDPNumber
      */
@@ -82,7 +82,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DPoldNumber' element value. Номер паспорта сделки, оформленного до 18.06.2004
+     * Get the 'DPoldNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё, РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РґРѕ 18.06.2004
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DPoldNumber' element value. Номер паспорта сделки, оформленного до 18.06.2004
+     * Set the 'DPoldNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё, РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РґРѕ 18.06.2004
      * 
      * @param DPoldNumber
      */
@@ -100,7 +100,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Resident' element value. Сведения о резиденте
+     * Get the 'Resident' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Resident' element value. Сведения о резиденте
+     * Set the 'Resident' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ
      * 
      * @param resident
      */
@@ -118,7 +118,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignContractor' element value. Реквизиты иностранного контрагента
+     * Get the 'ForeignContractor' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignContractor' element value. Реквизиты иностранного контрагента
+     * Set the 'ForeignContractor' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @param foreignContractor
      */
@@ -136,7 +136,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractTerms' element value. Общие сведения о контракте
+     * Get the 'ContractTerms' element value. РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractTerms' element value. Общие сведения о контракте
+     * Set the 'ContractTerms' element value. РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @param contractTerms
      */
@@ -154,7 +154,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AddContractTerms' element items. Сведения об изменениях/дополнениях к контракту
+     * Get the list of 'AddContractTerms' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµРЅРµРЅРёСЏС…/РґРѕРїРѕР»РЅРµРЅРёСЏС… Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return list
      */
@@ -163,7 +163,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AddContractTerms' element items. Сведения об изменениях/дополнениях к контракту
+     * Set the list of 'AddContractTerms' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµРЅРµРЅРёСЏС…/РґРѕРїРѕР»РЅРµРЅРёСЏС… Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param list
      */
@@ -172,7 +172,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Permissions' element items. Информация о разрешениях
+     * Get the list of 'Permissions' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РµРЅРёСЏС…
      * 
      * @return list
      */
@@ -181,7 +181,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Permissions' element items. Информация о разрешениях
+     * Set the list of 'Permissions' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РµРЅРёСЏС…
      * 
      * @param list
      */
@@ -190,7 +190,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'BankSignature' element value. Подпись со стороны банка
+     * Get the 'BankSignature' element value. РџРѕРґРїРёСЃСЊ СЃРѕ СЃС‚РѕСЂРѕРЅС‹ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankSignature' element value. Подпись со стороны банка
+     * Set the 'BankSignature' element value. РџРѕРґРїРёСЃСЊ СЃРѕ СЃС‚РѕСЂРѕРЅС‹ Р±Р°РЅРєР°
      * 
      * @param bankSignature
      */
@@ -208,7 +208,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResidentSignature' element value. Подпись резидента
+     * Get the 'ResidentSignature' element value. РџРѕРґРїРёСЃСЊ СЂРµР·РёРґРµРЅС‚Р°
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResidentSignature' element value. Подпись резидента
+     * Set the 'ResidentSignature' element value. РџРѕРґРїРёСЃСЊ СЂРµР·РёРґРµРЅС‚Р°
      * 
      * @param residentSignature
      */
@@ -226,7 +226,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DPEnd' element value. Информация о закрытии ПС
+     * Get the 'DPEnd' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РєСЂС‹С‚РёРё РџРЎ
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DPEnd' element value. Информация о закрытии ПС
+     * Set the 'DPEnd' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РєСЂС‹С‚РёРё РџРЎ
      * 
      * @param DPEnd
      */
@@ -244,7 +244,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DPReMade' element value. Информация о переоформлении ПС
+     * Get the 'DPReMade' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё РџРЎ
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DPReMade' element value. Информация о переоформлении ПС
+     * Set the 'DPReMade' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё РџРЎ
      * 
      * @param DPReMade
      */
@@ -262,7 +262,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecialInformation' element value. Специальные сведения о контракте
+     * Get the 'SpecialInformation' element value. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecialInformation' element value. Специальные сведения о контракте
+     * Set the 'SpecialInformation' element value. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @param specialInformation
      */
@@ -280,7 +280,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -289,7 +289,7 @@ public class DealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

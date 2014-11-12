@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Доверенность
+ * Р”РѕРІРµСЂРµРЅРЅРѕСЃС‚СЊ
  */
 public class LetterOfAttorneyType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class LetterOfAttorneyType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Subject' element items. Предмет доверенности (текст доверенности)
+     * Get the list of 'Subject' element items. РџСЂРµРґРјРµС‚ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё (С‚РµРєСЃС‚ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё)
      * 
      * @return list
      */
@@ -33,7 +33,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Subject' element items. Предмет доверенности (текст доверенности)
+     * Set the list of 'Subject' element items. РџСЂРµРґРјРµС‚ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё (С‚РµРєСЃС‚ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё)
      * 
      * @param list
      */
@@ -42,7 +42,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата окончания действия доверенности
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата окончания действия доверенности
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё
      * 
      * @param endDate
      */
@@ -60,7 +60,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentReference' element value. Реквизиты документа
+     * Get the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentReference' element value. Реквизиты документа
+     * Set the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentReference
      */
@@ -78,7 +78,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. Сведения об организации
+     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. Сведения об организации
+     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param organization
      */
@@ -96,7 +96,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthoritiesDocument' element value. Документ, подтверждающий полномочия должностного лица организации-доверителя
+     * Get the 'AuthoritiesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё-РґРѕРІРµСЂРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthoritiesDocument' element value. Документ, подтверждающий полномочия должностного лица организации-доверителя
+     * Set the 'AuthoritiesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё-РґРѕРІРµСЂРёС‚РµР»СЏ
      * 
      * @param authoritiesDocument
      */
@@ -115,7 +115,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'EmpoweredPerson' element value. Доверенное лицо
+     * Get the 'EmpoweredPerson' element value. Р”РѕРІРµСЂРµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'EmpoweredPerson' element value. Доверенное лицо
+     * Set the 'EmpoweredPerson' element value. Р”РѕРІРµСЂРµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @param empoweredPerson
      */
@@ -133,7 +133,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись должностного лица организации-доверителя
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё-РґРѕРІРµСЂРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись должностного лица организации-доверителя
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё-РґРѕРІРµСЂРёС‚РµР»СЏ
      * 
      * @param personSignature
      */
@@ -151,7 +151,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class LetterOfAttorneyType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

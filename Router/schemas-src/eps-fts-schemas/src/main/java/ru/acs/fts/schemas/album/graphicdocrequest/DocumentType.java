@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.graphicdocrequest;
 
 /** 
- * Документ
+ * Р”РѕРєСѓРјРµРЅС‚
  */
 public class DocumentType
 {
@@ -10,7 +10,7 @@ public class DocumentType
     private String comments;
 
     /** 
-     * Get the 'RequestPositionID' element value. Идентификатор позиции в запросе. Используется в АПС "Электронное представление сведений"
+     * Get the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ СЃРІРµРґРµРЅРёР№"
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. Идентификатор позиции в запросе. Используется в АПС "Электронное представление сведений"
+     * Set the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ СЃРІРµРґРµРЅРёР№"
      * 
      * @param requestPositionID
      */
@@ -28,7 +28,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'Comments' element value. Примечание
+     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Comments' element value. Примечание
+     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param comments
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Ошибки
+ * РћС€РёР±РєРё
  */
 public class PZKErrorsType
 {
@@ -16,7 +16,7 @@ public class PZKErrorsType
     private List<CloseReasonType> closeReasonList = new ArrayList<CloseReasonType>();
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. Номер товара по ДТ
+     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. Номер товара по ДТ
+     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param GTDGoodsNumber
      */
@@ -34,7 +34,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Get the 'GTDinTable' element value. Информация в таблице внутреннего формата электронной копии ДТ (формат DBF)
+     * Get the 'GTDinTable' element value. РРЅС„РѕСЂРјР°С†РёСЏ РІ С‚Р°Р±Р»РёС†Рµ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў (С„РѕСЂРјР°С‚ DBF)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Set the 'GTDinTable' element value. Информация в таблице внутреннего формата электронной копии ДТ (формат DBF)
+     * Set the 'GTDinTable' element value. РРЅС„РѕСЂРјР°С†РёСЏ РІ С‚Р°Р±Р»РёС†Рµ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў (С„РѕСЂРјР°С‚ DBF)
      * 
      * @param GTDinTable
      */
@@ -52,7 +52,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Get the 'Error' element value. Ошибка ПЗК
+     * Get the 'Error' element value. РћС€РёР±РєР° РџР—Рљ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Set the 'Error' element value. Ошибка ПЗК
+     * Set the 'Error' element value. РћС€РёР±РєР° РџР—Рљ
      * 
      * @param error
      */
@@ -70,7 +70,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Get the 'CheckNormativeDoc' element value. Нормативный документ, в соответствии с которым выполняется контроль
+     * Get the 'CheckNormativeDoc' element value. РќРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Set the 'CheckNormativeDoc' element value. Нормативный документ, в соответствии с которым выполняется контроль
+     * Set the 'CheckNormativeDoc' element value. РќРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @param checkNormativeDoc
      */
@@ -89,7 +89,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Get the list of 'CloseReason' element items. Причина закрытия
+     * Get the list of 'CloseReason' element items. РџСЂРёС‡РёРЅР° Р·Р°РєСЂС‹С‚РёСЏ
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class PZKErrorsType
     }
 
     /** 
-     * Set the list of 'CloseReason' element items. Причина закрытия
+     * Set the list of 'CloseReason' element items. РџСЂРёС‡РёРЅР° Р·Р°РєСЂС‹С‚РёСЏ
      * 
      * @param list
      */

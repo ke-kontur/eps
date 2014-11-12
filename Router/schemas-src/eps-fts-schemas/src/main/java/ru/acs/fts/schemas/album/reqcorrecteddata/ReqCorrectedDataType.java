@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Требование на корректировку сведений, заявленных в декларации на товары.
+ * РўСЂРµР±РѕРІР°РЅРёРµ РЅР° РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєСѓ СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹.
  */
 public class ReqCorrectedDataType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ReqCorrectedDataType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RequestDate' element value. Дата требования на корректировку.
+     * Get the 'RequestDate' element value. Р”Р°С‚Р° С‚СЂРµР±РѕРІР°РЅРёСЏ РЅР° РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєСѓ.
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Дата требования на корректировку.
+     * Set the 'RequestDate' element value. Р”Р°С‚Р° С‚СЂРµР±РѕРІР°РЅРёСЏ РЅР° РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєСѓ.
      * 
      * @param requestDate
      */
@@ -43,7 +43,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestNumber' element value. Номер запроса
+     * Get the 'RequestNumber' element value. РќРѕРјРµСЂ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestNumber' element value. Номер запроса
+     * Set the 'RequestNumber' element value. РќРѕРјРµСЂ Р·Р°РїСЂРѕСЃР°
      * 
      * @param requestNumber
      */
@@ -61,7 +61,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'TKPunkt' element value. Номер статьи Таможенного Кодекса TC, в соответствии с которой направляется документ
+     * Get the 'TKPunkt' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РљРѕРґРµРєСЃР° TC, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂРѕР№ РЅР°РїСЂР°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'TKPunkt' element value. Номер статьи Таможенного Кодекса TC, в соответствии с которой направляется документ
+     * Set the 'TKPunkt' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РљРѕРґРµРєСЃР° TC, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂРѕР№ РЅР°РїСЂР°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param TKPunkt
      */
@@ -79,7 +79,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Лицо,  декларирующее товары. Наименование / ФИО (для физических лиц)
+     * Get the 'Declarant' element value. Р›РёС†Рѕ,  РґРµРєР»Р°СЂРёСЂСѓСЋС‰РµРµ С‚РѕРІР°СЂС‹. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / Р¤РРћ (РґР»СЏ С„РёР·РёС‡РµСЃРєРёС… Р»РёС†)
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Лицо,  декларирующее товары. Наименование / ФИО (для физических лиц)
+     * Set the 'Declarant' element value. Р›РёС†Рѕ,  РґРµРєР»Р°СЂРёСЂСѓСЋС‰РµРµ С‚РѕРІР°СЂС‹. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / Р¤РРћ (РґР»СЏ С„РёР·РёС‡РµСЃРєРёС… Р»РёС†)
      * 
      * @param declarant
      */
@@ -97,7 +97,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'Uncertainty' element value. Выявленные несоответствия
+     * Get the 'Uncertainty' element value. Р’С‹СЏРІР»РµРЅРЅС‹Рµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'Uncertainty' element value. Выявленные несоответствия
+     * Set the 'Uncertainty' element value. Р’С‹СЏРІР»РµРЅРЅС‹Рµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
      * 
      * @param uncertainty
      */
@@ -115,7 +115,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'Instruction' element value. Действия,  необходимые для устранения несоответствий
+     * Get the 'Instruction' element value. Р”РµР№СЃС‚РІРёСЏ,  РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'Instruction' element value. Действия,  необходимые для устранения несоответствий
+     * Set the 'Instruction' element value. Р”РµР№СЃС‚РІРёСЏ,  РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№
      * 
      * @param instruction
      */
@@ -133,7 +133,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа.
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа.
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
      * 
      * @param customs
      */
@@ -151,7 +151,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -169,7 +169,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Регистрационный номер ДТ
+     * Get the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Регистрационный номер ДТ
+     * Set the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -187,7 +187,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ReqCorrectedDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

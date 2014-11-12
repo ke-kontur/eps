@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.shippingmanifest;
 import org.joda.time.LocalDate;
 
 /** 
- * Показания одометра автомобиля и дата точки маршрута
+ * РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° Р°РІС‚РѕРјРѕР±РёР»СЏ Рё РґР°С‚Р° С‚РѕС‡РєРё РјР°СЂС€СЂСѓС‚Р°
  */
 public class CheckPointType
 {
@@ -13,7 +13,7 @@ public class CheckPointType
     private String time;
 
     /** 
-     * Get the 'Odometr' element value. Показания одометра (полные км пробега)
+     * Get the 'Odometr' element value. РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° (РїРѕР»РЅС‹Рµ РєРј РїСЂРѕР±РµРіР°)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CheckPointType
     }
 
     /** 
-     * Set the 'Odometr' element value. Показания одометра (полные км пробега)
+     * Set the 'Odometr' element value. РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° (РїРѕР»РЅС‹Рµ РєРј РїСЂРѕР±РµРіР°)
      * 
      * @param odometr
      */
@@ -31,7 +31,7 @@ public class CheckPointType
     }
 
     /** 
-     * Get the 'Date' element value. Дата
+     * Get the 'Date' element value. Р”Р°С‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CheckPointType
     }
 
     /** 
-     * Set the 'Date' element value. Дата
+     * Set the 'Date' element value. Р”Р°С‚Р°
      * 
      * @param date
      */
@@ -49,7 +49,7 @@ public class CheckPointType
     }
 
     /** 
-     * Get the 'Time' element value. Время
+     * Get the 'Time' element value. Р’СЂРµРјСЏ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CheckPointType
     }
 
     /** 
-     * Set the 'Time' element value. Время
+     * Set the 'Time' element value. Р’СЂРµРјСЏ
      * 
      * @param time
      */

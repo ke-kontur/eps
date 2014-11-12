@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Продаваемые товары
+ * РџСЂРѕРґР°РІР°РµРјС‹Рµ С‚РѕРІР°СЂС‹
  */
 public class SoldGoodsType
 {
@@ -16,7 +16,7 @@ public class SoldGoodsType
     private List<GoodsListType> goodsList = new ArrayList<GoodsListType>();
 
     /** 
-     * Get the 'AllUnitGoods' element value. Всего единиц товара
+     * Get the 'AllUnitGoods' element value. Р’СЃРµРіРѕ РµРґРёРЅРёС† С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Set the 'AllUnitGoods' element value. Всего единиц товара
+     * Set the 'AllUnitGoods' element value. Р’СЃРµРіРѕ РµРґРёРЅРёС† С‚РѕРІР°СЂР°
      * 
      * @param allUnitGoods
      */
@@ -34,7 +34,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Get the 'TotalCostGoods' element value. Общая стоимость продаваемых товаров
+     * Get the 'TotalCostGoods' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕРґР°РІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Set the 'TotalCostGoods' element value. Общая стоимость продаваемых товаров
+     * Set the 'TotalCostGoods' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕРґР°РІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @param totalCostGoods
      */
@@ -52,7 +52,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Get the 'TotalCostSoldGoods' element value. Сумма проданного товара
+     * Get the 'TotalCostSoldGoods' element value. РЎСѓРјРјР° РїСЂРѕРґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Set the 'TotalCostSoldGoods' element value. Сумма проданного товара
+     * Set the 'TotalCostSoldGoods' element value. РЎСѓРјРјР° РїСЂРѕРґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @param totalCostSoldGoods
      */
@@ -70,7 +70,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -88,7 +88,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsList' element items. Список товаров
+     * Get the list of 'GoodsList' element items. РЎРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class SoldGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsList' element items. Список товаров
+     * Set the list of 'GoodsList' element items. РЎРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */

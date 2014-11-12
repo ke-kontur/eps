@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о документе архива, пакете (в состав которого входит документ) и реквизитах документа.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, РїР°РєРµС‚Рµ (РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚) Рё СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°.
  */
 public class AUDDocumentInfoWithAttributesType
         extends
@@ -14,7 +14,7 @@ public class AUDDocumentInfoWithAttributesType
     private List<AUDDocumentAttributeInfoAndValueType> AUDDocumentAttributeInfoAndValueList = new ArrayList<AUDDocumentAttributeInfoAndValueType>();
 
     /** 
-     * Get the list of 'AUD_DocumentAttributeInfoAndValue' element items. Информация о реквизите документа и значение реквизита.
+     * Get the list of 'AUD_DocumentAttributeInfoAndValue' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р° Рё Р·РЅР°С‡РµРЅРёРµ СЂРµРєРІРёР·РёС‚Р°.
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class AUDDocumentInfoWithAttributesType
     }
 
     /** 
-     * Set the list of 'AUD_DocumentAttributeInfoAndValue' element items. Информация о реквизите документа и значение реквизита.
+     * Set the list of 'AUD_DocumentAttributeInfoAndValue' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р° Рё Р·РЅР°С‡РµРЅРёРµ СЂРµРєРІРёР·РёС‚Р°.
      * 
      * @param list
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Регистрация
+ * Р РµРіРёСЃС‚СЂР°С†РёСЏ
  */
 public class RegistrationType
 {
@@ -17,7 +17,7 @@ public class RegistrationType
     private List<ProductListType> productList = new ArrayList<ProductListType>();
 
     /** 
-     * Get the 'StartDate' element value. Дата начала периода
+     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'StartDate' element value. Дата начала периода
+     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР°
      * 
      * @param startDate
      */
@@ -35,7 +35,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата окончания периода
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата окончания периода
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР°
      * 
      * @param endDate
      */
@@ -53,7 +53,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'Action' element value. В счет квот добычи (вылова) водных биоресурсов для осуществления: 1- промышленного рыболовства; 2- прибрежного рыболовства; 3-рыболовства в научно-исследовательских и контрольных целях в соответствии с разрешениями.
+     * Get the 'Action' element value. Р’ СЃС‡РµС‚ РєРІРѕС‚ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ РґР»СЏ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ: 1- РїСЂРѕРјС‹С€Р»РµРЅРЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°; 2- РїСЂРёР±СЂРµР¶РЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°; 3-СЂС‹Р±РѕР»РѕРІСЃС‚РІР° РІ РЅР°СѓС‡РЅРѕ-РёСЃСЃР»РµРґРѕРІР°С‚РµР»СЊСЃРєРёС… Рё РєРѕРЅС‚СЂРѕР»СЊРЅС‹С… С†РµР»СЏС… РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЂР°Р·СЂРµС€РµРЅРёСЏРјРё.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'Action' element value. В счет квот добычи (вылова) водных биоресурсов для осуществления: 1- промышленного рыболовства; 2- прибрежного рыболовства; 3-рыболовства в научно-исследовательских и контрольных целях в соответствии с разрешениями.
+     * Set the 'Action' element value. Р’ СЃС‡РµС‚ РєРІРѕС‚ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ РґР»СЏ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ: 1- РїСЂРѕРјС‹С€Р»РµРЅРЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°; 2- РїСЂРёР±СЂРµР¶РЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°; 3-СЂС‹Р±РѕР»РѕРІСЃС‚РІР° РІ РЅР°СѓС‡РЅРѕ-РёСЃСЃР»РµРґРѕРІР°С‚РµР»СЊСЃРєРёС… Рё РєРѕРЅС‚СЂРѕР»СЊРЅС‹С… С†РµР»СЏС… РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЂР°Р·СЂРµС€РµРЅРёСЏРјРё.
      * 
      * @param action
      */
@@ -71,7 +71,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the list of 'Resolution' element items. Разрешение
+     * Get the list of 'Resolution' element items. Р Р°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the list of 'Resolution' element items. Разрешение
+     * Set the list of 'Resolution' element items. Р Р°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the list of 'ProductList' element items. Лист зарегистрированной продукции
+     * Get the list of 'ProductList' element items. Р›РёСЃС‚ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the list of 'ProductList' element items. Лист зарегистрированной продукции
+     * Set the list of 'ProductList' element items. Р›РёСЃС‚ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.oilproductionconfirmation;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о поставке
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РІРєРµ
  */
 public class ConsignmentInfoType
 {
@@ -14,7 +14,7 @@ public class ConsignmentInfoType
     private SupplementaryQuantityType oilQuantity;
 
     /** 
-     * Get the 'OilDescription' element value. Физико-химические характеристики нефти сырой
+     * Get the 'OilDescription' element value. Р¤РёР·РёРєРѕ-С…РёРјРёС‡РµСЃРєРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё РЅРµС„С‚Рё СЃС‹СЂРѕР№
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Set the 'OilDescription' element value. Физико-химические характеристики нефти сырой
+     * Set the 'OilDescription' element value. Р¤РёР·РёРєРѕ-С…РёРјРёС‡РµСЃРєРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё РЅРµС„С‚Рё СЃС‹СЂРѕР№
      * 
      * @param oilDescription
      */
@@ -32,7 +32,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Get the 'ProductionYear' element value. Год добычи нефти
+     * Get the 'ProductionYear' element value. Р“РѕРґ РґРѕР±С‹С‡Рё РЅРµС„С‚Рё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Set the 'ProductionYear' element value. Год добычи нефти
+     * Set the 'ProductionYear' element value. Р“РѕРґ РґРѕР±С‹С‡Рё РЅРµС„С‚Рё
      * 
      * @param productionYear
      */
@@ -50,7 +50,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Get the 'OilField' element value. Наименование месторождения
+     * Get the 'OilField' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚РѕСЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Set the 'OilField' element value. Наименование месторождения
+     * Set the 'OilField' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚РѕСЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param oilField
      */
@@ -68,7 +68,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Get the 'OilQuantity' element value. Объем поставки
+     * Get the 'OilQuantity' element value. РћР±СЉРµРј РїРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ConsignmentInfoType
     }
 
     /** 
-     * Set the 'OilQuantity' element value. Объем поставки
+     * Set the 'OilQuantity' element value. РћР±СЉРµРј РїРѕСЃС‚Р°РІРєРё
      * 
      * @param oilQuantity
      */

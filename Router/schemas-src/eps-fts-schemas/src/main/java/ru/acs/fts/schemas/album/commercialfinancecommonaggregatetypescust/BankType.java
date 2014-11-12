@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Реквизиты банка
+ * Р РµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР°
  */
 public class BankType
 {
@@ -13,7 +13,7 @@ public class BankType
     private String personalAccount;
 
     /** 
-     * Get the 'BankName' element value. Наименование банка
+     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class BankType
     }
 
     /** 
-     * Set the 'BankName' element value. Наименование банка
+     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @param bankName
      */
@@ -31,7 +31,7 @@ public class BankType
     }
 
     /** 
-     * Get the 'BIC' element value. БИК
+     * Get the 'BIC' element value. Р‘РРљ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class BankType
     }
 
     /** 
-     * Set the 'BIC' element value. БИК
+     * Set the 'BIC' element value. Р‘РРљ
      * 
      * @param BIC
      */
@@ -49,7 +49,7 @@ public class BankType
     }
 
     /** 
-     * Get the 'CorrespAccount' element value. Номер корреспондентского счета (субсчета)
+     * Get the 'CorrespAccount' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° (СЃСѓР±СЃС‡РµС‚Р°)
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class BankType
     }
 
     /** 
-     * Set the 'CorrespAccount' element value. Номер корреспондентского счета (субсчета)
+     * Set the 'CorrespAccount' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° (СЃСѓР±СЃС‡РµС‚Р°)
      * 
      * @param correspAccount
      */
@@ -67,7 +67,7 @@ public class BankType
     }
 
     /** 
-     * Get the 'BankPlace' element value. Местонахождение банка
+     * Get the 'BankPlace' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class BankType
     }
 
     /** 
-     * Set the 'BankPlace' element value. Местонахождение банка
+     * Set the 'BankPlace' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ Р±Р°РЅРєР°
      * 
      * @param bankPlace
      */
@@ -85,7 +85,7 @@ public class BankType
     }
 
     /** 
-     * Get the 'PersonalAccount' element value. Лицевой счет клиента
+     * Get the 'PersonalAccount' element value. Р›РёС†РµРІРѕР№ СЃС‡РµС‚ РєР»РёРµРЅС‚Р°
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class BankType
     }
 
     /** 
-     * Set the 'PersonalAccount' element value. Лицевой счет клиента
+     * Set the 'PersonalAccount' element value. Р›РёС†РµРІРѕР№ СЃС‡РµС‚ РєР»РёРµРЅС‚Р°
      * 
      * @param personalAccount
      */

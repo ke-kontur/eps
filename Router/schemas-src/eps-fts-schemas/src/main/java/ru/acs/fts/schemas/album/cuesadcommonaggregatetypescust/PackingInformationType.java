@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения об упаковке товаров. Код, Количество
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ. РљРѕРґ, РљРѕР»РёС‡РµСЃС‚РІРѕ
  */
 public class PackingInformationType
 {
@@ -10,7 +10,7 @@ public class PackingInformationType
     private String pakingQuantity;
 
     /** 
-     * Get the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов
+     * Get the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Set the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов
+     * Set the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @param packingCode
      */
@@ -28,7 +28,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Get the 'PakingQuantity' element value. Количество упаковок
+     * Get the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Set the 'PakingQuantity' element value. Количество упаковок
+     * Set the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє
      * 
      * @param pakingQuantity
      */

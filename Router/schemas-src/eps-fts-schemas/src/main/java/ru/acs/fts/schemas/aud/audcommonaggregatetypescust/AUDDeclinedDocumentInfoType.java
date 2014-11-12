@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Информация о документе архива, в доступе к которому отказано.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, РІ РґРѕСЃС‚СѓРїРµ Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РєР°Р·Р°РЅРѕ.
  */
 public class AUDDeclinedDocumentInfoType
 {
@@ -10,7 +10,7 @@ public class AUDDeclinedDocumentInfoType
     private AUDResultInfoType resultInfo;
 
     /** 
-     * Get the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
+     * Get the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDDeclinedDocumentInfoType
     }
 
     /** 
-     * Set the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
+     * Set the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param archiveDocumentId
      */
@@ -28,7 +28,7 @@ public class AUDDeclinedDocumentInfoType
     }
 
     /** 
-     * Get the 'ResultInfo' element value. Информация о причине отказа в доступе.
+     * Get the 'ResultInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёС‡РёРЅРµ РѕС‚РєР°Р·Р° РІ РґРѕСЃС‚СѓРїРµ.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDDeclinedDocumentInfoType
     }
 
     /** 
-     * Set the 'ResultInfo' element value. Информация о причине отказа в доступе.
+     * Set the 'ResultInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёС‡РёРЅРµ РѕС‚РєР°Р·Р° РІ РґРѕСЃС‚СѓРїРµ.
      * 
      * @param resultInfo
      */

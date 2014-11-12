@@ -30,6 +30,15 @@
 						</bean>
 					</property>
 				</bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="cmn11142" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageType" value="CMN.11142" />
+                        </bean>
+                    </property>
+                </bean>
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="cmn11024" />
 					<property name="condition">
@@ -39,6 +48,24 @@
 						</bean>
 					</property>
 				</bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="cmn11141" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageType" value="CMN.11141" />
+                        </bean>
+                    </property>
+                </bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="cmn11143" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageType" value="CMN.11143" />
+                        </bean>
+                    </property>
+                </bean>
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="cmn11025" />
 					<property name="condition">
@@ -48,6 +75,15 @@
 						</bean>
 					</property>
 				</bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="cmn11140" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageType" value="CMN.11140" />
+                        </bean>
+                    </property>
+                </bean>
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="cmn11026" />
 					<property name="condition">
@@ -75,6 +111,15 @@
 						</bean>
 					</property>
 				</bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="cmn11153" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageType" value="CMN.11153" />
+                        </bean>
+                    </property>
+                </bean>
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="cmn11049" />
 					<property name="condition">
@@ -294,15 +339,16 @@
                             		<value>CMN.11104</value>
                             		<value>CMN.11110</value>
 
+                                    <value>CMN.11144</value>
+
 									<!-- Транзит от декларанта без ссылочной связанности -->
 									<value>CMN.11018</value> <!-- FROM_DECL_TO_KASTO -->
 									<value>CMN.11032</value>
 									<value>CMN.11069</value>
 									<!-- Продление срока выпуска товаров -->
 									<value>CMN.11112</value>
-									<value>CMN.11119</value>
 									<value>CMN.11126</value>
-									
+
 									<value>CMN.13009</value>
 									<value>CMN.13015</value>
                             		<value>CMN.13023</value>
@@ -312,6 +358,19 @@
 						</bean>
 					</property>
 				</bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="tranzitInProc11119" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes">
+                                <list>
+                                    <value>CMN.11119</value>
+                                </list>
+                            </property>
+                        </bean>
+                    </property>
+                </bean>
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="tranzitOutOfProc" />
 					<property name="condition">
@@ -558,6 +617,8 @@
                             	<list>
                             		<value>CMN.11013</value>
                             		<value>CMN.11054</value>
+                                    <value>CMN.11154</value>
+                                    <value>CMN.11155</value>
                             	</list>
                             </property>
                         </bean>
@@ -592,6 +653,20 @@
                     </property>
                 </bean>
                 <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="suppliesClaimChangedDocs11146" />
+                    <property name="condition">
+                        <bean
+                                class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes">
+                                <list>
+                                    <value>CMN.11146</value>
+                                </list>
+                            </property>
+                        </bean>
+                    </property>
+                </bean>
+
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
                     <property name="jobBatch" ref="gatewayNotification" />
                     <property name="condition">
                         <bean
@@ -609,7 +684,27 @@
                     <property name="jobBatch" ref="cmn11096" />
                     <property name="condition">
                         <bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
-                            <property name="messageType" value="CMN.11096" />
+                            <property name="messageTypes">
+                                <list>
+                                    <value>CMN.11096</value>
+                                    <value>CMN.11149</value>
+                                    <value>CMN.11151</value>
+                                </list>
+                            </property>
+                            <!--<property name="messageType" value="CMN.11096" />-->
+                        </bean>
+                    </property>
+                </bean>
+                <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+                    <property name="jobBatch" ref="cmn11139" />
+                    <property name="condition">
+                        <bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+                            <property name="messageTypes">
+                                <list>
+                                    <value>CMN.11139</value>
+                                </list>
+                            </property>
+                            <!--<property name="messageType" value="CMN.11096" />-->
                         </bean>
                     </property>
                 </bean>

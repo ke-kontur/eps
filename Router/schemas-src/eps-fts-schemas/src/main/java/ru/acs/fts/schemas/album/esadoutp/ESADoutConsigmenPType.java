@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.esadoutp;
 
 /** 
- * Сведения о перевозке товаров
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ
  */
 public class ESADoutConsigmenPType
 {
@@ -13,7 +13,7 @@ public class ESADoutConsigmenPType
     private ESADoutTransportPType ESADoutTransportP;
 
     /** 
-     * Get the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.
+     * Get the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.
+     * Set the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ.
      * 
      * @param dispatchCountryCode
      */
@@ -31,7 +31,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Get the 'DispatchCountryName' element value. Страна отправления. Наименование.
+     * Get the 'DispatchCountryName' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. РќР°РёРјРµРЅРѕРІР°РЅРёРµ.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Set the 'DispatchCountryName' element value. Страна отправления. Наименование.
+     * Set the 'DispatchCountryName' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. РќР°РёРјРµРЅРѕРІР°РЅРёРµ.
      * 
      * @param dispatchCountryName
      */
@@ -49,7 +49,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.
+     * Get the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.
+     * Set the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ.
      * 
      * @param destinationCountryCode
      */
@@ -67,7 +67,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Get the 'DestinationCountryName' element value. Страна назначения. Наименование.
+     * Get the 'DestinationCountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. РќР°РёРјРµРЅРѕРІР°РЅРёРµ.
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Set the 'DestinationCountryName' element value. Страна назначения. Наименование.
+     * Set the 'DestinationCountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. РќР°РёРјРµРЅРѕРІР°РЅРёРµ.
      * 
      * @param destinationCountryName
      */
@@ -85,7 +85,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Get the 'ESADoutTransportP' element value. Сведения о транспортных средствах
+     * Get the 'ESADoutTransportP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ESADoutConsigmenPType
     }
 
     /** 
-     * Set the 'ESADoutTransportP' element value. Сведения о транспортных средствах
+     * Set the 'ESADoutTransportP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
      * 
      * @param ESADoutTransportP
      */

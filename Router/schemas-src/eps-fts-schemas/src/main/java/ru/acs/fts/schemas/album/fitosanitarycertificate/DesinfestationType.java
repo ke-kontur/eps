@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Обеззараживание
+ * РћР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРµ
  */
 public class DesinfestationType
 {
@@ -19,7 +19,7 @@ public class DesinfestationType
     private List<String> addInfoList = new ArrayList<String>();
 
     /** 
-     * Get the 'DateDesinfestation' element value. Дата обеззараживания
+     * Get the 'DateDesinfestation' element value. Р”Р°С‚Р° РѕР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the 'DateDesinfestation' element value. Дата обеззараживания
+     * Set the 'DateDesinfestation' element value. Р”Р°С‚Р° РѕР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёСЏ
      * 
      * @param dateDesinfestation
      */
@@ -37,7 +37,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Get the 'TreatmentMethod' element value. Способ обработки
+     * Get the 'TreatmentMethod' element value. РЎРїРѕСЃРѕР± РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the 'TreatmentMethod' element value. Способ обработки
+     * Set the 'TreatmentMethod' element value. РЎРїРѕСЃРѕР± РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @param treatmentMethod
      */
@@ -55,7 +55,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Get the 'Chemical' element value. Химикат (действующее вещество)
+     * Get the 'Chemical' element value. РҐРёРјРёРєР°С‚ (РґРµР№СЃС‚РІСѓСЋС‰РµРµ РІРµС‰РµСЃС‚РІРѕ)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the 'Chemical' element value. Химикат (действующее вещество)
+     * Set the 'Chemical' element value. РҐРёРјРёРєР°С‚ (РґРµР№СЃС‚РІСѓСЋС‰РµРµ РІРµС‰РµСЃС‚РІРѕ)
      * 
      * @param chemical
      */
@@ -73,7 +73,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Get the 'Duration' element value. Экспозиция
+     * Get the 'Duration' element value. Р­РєСЃРїРѕР·РёС†РёСЏ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the 'Duration' element value. Экспозиция
+     * Set the 'Duration' element value. Р­РєСЃРїРѕР·РёС†РёСЏ
      * 
      * @param duration
      */
@@ -91,7 +91,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Get the 'Temperature' element value. Температура
+     * Get the 'Temperature' element value. РўРµРјРїРµСЂР°С‚СѓСЂР°
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the 'Temperature' element value. Температура
+     * Set the 'Temperature' element value. РўРµРјРїРµСЂР°С‚СѓСЂР°
      * 
      * @param temperature
      */
@@ -109,7 +109,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Get the 'Concentration' element value. Концентрация
+     * Get the 'Concentration' element value. РљРѕРЅС†РµРЅС‚СЂР°С†РёСЏ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the 'Concentration' element value. Концентрация
+     * Set the 'Concentration' element value. РљРѕРЅС†РµРЅС‚СЂР°С†РёСЏ
      * 
      * @param concentration
      */
@@ -127,7 +127,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Get the list of 'AddInfo' element items. Дополнительная информация
+     * Get the list of 'AddInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class DesinfestationType
     }
 
     /** 
-     * Set the list of 'AddInfo' element items. Дополнительная информация
+     * Set the list of 'AddInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param list
      */

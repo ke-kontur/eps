@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Габариты
+ * Р“Р°Р±Р°СЂРёС‚С‹
  */
 public class DimensionsType
 {
@@ -12,7 +12,7 @@ public class DimensionsType
     private String height;
 
     /** 
-     * Get the 'DimensionsCode' element value. Код единицы измерения 
+     * Get the 'DimensionsCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'DimensionsCode' element value. Код единицы измерения 
+     * Set the 'DimensionsCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ 
      * 
      * @param dimensionsCode
      */
@@ -30,7 +30,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'Lenght' element value. Длина
+     * Get the 'Lenght' element value. Р”Р»РёРЅР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'Lenght' element value. Длина
+     * Set the 'Lenght' element value. Р”Р»РёРЅР°
      * 
      * @param lenght
      */
@@ -48,7 +48,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'Wight' element value. Ширина
+     * Get the 'Wight' element value. РЁРёСЂРёРЅР°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'Wight' element value. Ширина
+     * Set the 'Wight' element value. РЁРёСЂРёРЅР°
      * 
      * @param wight
      */
@@ -66,7 +66,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'Height' element value. Высота
+     * Get the 'Height' element value. Р’С‹СЃРѕС‚Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'Height' element value. Высота
+     * Set the 'Height' element value. Р’С‹СЃРѕС‚Р°
      * 
      * @param height
      */

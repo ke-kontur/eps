@@ -14,7 +14,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Счет проформа
+ * РЎС‡РµС‚ РїСЂРѕС„РѕСЂРјР°
  */
 public class ProformInvoiceType extends BaseDocType
 {
@@ -36,7 +36,7 @@ public class ProformInvoiceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CurrencyCode' element value. Код иностранной валюты счета-проформы. Указывается, если суммы, указываемые в счете-фактуре, выражены в иностранной валюте.
+     * Get the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃСѓРјРјС‹, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃС‡РµС‚Рµ-С„Р°РєС‚СѓСЂРµ, РІС‹СЂР°Р¶РµРЅС‹ РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код иностранной валюты счета-проформы. Указывается, если суммы, указываемые в счете-фактуре, выражены в иностранной валюте.
+     * Set the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃСѓРјРјС‹, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃС‡РµС‚Рµ-С„Р°РєС‚СѓСЂРµ, РІС‹СЂР°Р¶РµРЅС‹ РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ.
      * 
      * @param currencyCode
      */
@@ -54,7 +54,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Установленный курс иностранной валюты счета-проформы на дату счета-проформы. Указывается, если счет-проформа в иностранной валюте, курс  которой не равен курсы ЦБ.
+     * Get the 'CurrencyRate' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РєСѓСЂСЃ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹ РЅР° РґР°С‚Сѓ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃС‡РµС‚-РїСЂРѕС„РѕСЂРјР° РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ, РєСѓСЂСЃ  РєРѕС‚РѕСЂРѕР№ РЅРµ СЂР°РІРµРЅ РєСѓСЂСЃС‹ Р¦Р‘.
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Установленный курс иностранной валюты счета-проформы на дату счета-проформы. Указывается, если счет-проформа в иностранной валюте, курс  которой не равен курсы ЦБ.
+     * Set the 'CurrencyRate' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РєСѓСЂСЃ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹ РЅР° РґР°С‚Сѓ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃС‡РµС‚-РїСЂРѕС„РѕСЂРјР° РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ, РєСѓСЂСЃ  РєРѕС‚РѕСЂРѕР№ РЅРµ СЂР°РІРµРЅ РєСѓСЂСЃС‹ Р¦Р‘.
      * 
      * @param currencyRate
      */
@@ -72,7 +72,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. Количество мест товара
+     * Get the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. Количество мест товара
+     * Set the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
      * 
      * @param placesQuantity
      */
@@ -90,7 +90,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -108,7 +108,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeightQuantity
      */
@@ -126,7 +126,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Грузоотправитель и его адрес
+     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Грузоотправитель и его адрес
+     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @param consignor
      */
@@ -144,7 +144,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InvoiceGoods' element items. Сведения о товарах счета-проформы
+     * Get the list of 'InvoiceGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹
      * 
      * @return list
      */
@@ -153,7 +153,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InvoiceGoods' element items. Сведения о товарах счета-проформы
+     * Set the list of 'InvoiceGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹
      * 
      * @param list
      */
@@ -162,7 +162,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель и его адрес
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель и его адрес
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @param consignee
      */
@@ -180,7 +180,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Buyer' element value. Сведения о покупателе
+     * Get the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -189,7 +189,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Buyer' element value. Сведения о покупателе
+     * Set the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ
      * 
      * @param buyer
      */
@@ -198,7 +198,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Seler' element value. Сведения о продавце
+     * Get the 'Seler' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @return value
      */
@@ -207,7 +207,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Seler' element value. Сведения о продавце
+     * Set the 'Seler' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @param seler
      */
@@ -216,7 +216,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Signature' element value. Подпись
+     * Get the 'Signature' element value. РџРѕРґРїРёСЃСЊ
      * 
      * @return value
      */
@@ -225,7 +225,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Signature' element value. Подпись
+     * Set the 'Signature' element value. РџРѕРґРїРёСЃСЊ
      * 
      * @param signature
      */
@@ -234,7 +234,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carier' element value. Перевозчик
+     * Get the 'Carier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -243,7 +243,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carier' element value. Перевозчик
+     * Set the 'Carier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carier
      */
@@ -252,7 +252,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Регистрационные данные счета-проформы.
+     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹.
      * 
      * @return value
      */
@@ -261,7 +261,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Регистрационные данные счета-проформы.
+     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‡РµС‚Р°-РїСЂРѕС„РѕСЂРјС‹.
      * 
      * @param registration
      */
@@ -270,7 +270,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeliveryTerms' element value. Условия поставки
+     * Get the 'DeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -279,7 +279,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeliveryTerms' element value. Условия поставки
+     * Set the 'DeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё
      * 
      * @param deliveryTerms
      */
@@ -288,7 +288,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @return value
      */
@@ -297,7 +297,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @param mark
      */
@@ -306,7 +306,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -315,7 +315,7 @@ public class ProformInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

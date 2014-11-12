@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.postalmanifest;
 
 /** 
- * Сведения об используемых контейнерах
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РєРѕРЅС‚РµР№РЅРµСЂР°С…
  */
 public class ContainerType
 {
@@ -10,7 +10,7 @@ public class ContainerType
     private String stampNumber;
 
     /** 
-     * Get the 'ContainerNumber' element value. Номер контейнера
+     * Get the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerNumber' element value. Номер контейнера
+     * Set the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerNumber
      */
@@ -28,7 +28,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the 'StampNumber' element value. Номер печати
+     * Get the 'StampNumber' element value. РќРѕРјРµСЂ РїРµС‡Р°С‚Рё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'StampNumber' element value. Номер печати
+     * Set the 'StampNumber' element value. РќРѕРјРµСЂ РїРµС‡Р°С‚Рё
      * 
      * @param stampNumber
      */

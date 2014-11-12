@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cmr;
 import org.joda.time.LocalDate;
 
 /** 
- * Информация о регистрации CMR (гр.21)
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё CMR (РіСЂ.21)
  */
 public class RegistrationDocumentType
 {
@@ -13,7 +13,7 @@ public class RegistrationDocumentType
     private String place;
 
     /** 
-     * Get the 'Date' element value. Дата cоставления накладной
+     * Get the 'Date' element value. Р”Р°С‚Р° cРѕСЃС‚Р°РІР»РµРЅРёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Set the 'Date' element value. Дата cоставления накладной
+     * Set the 'Date' element value. Р”Р°С‚Р° cРѕСЃС‚Р°РІР»РµРЅРёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param date
      */
@@ -31,7 +31,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Get the 'RegID' element value. Номер накладной
+     * Get the 'RegID' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Set the 'RegID' element value. Номер накладной
+     * Set the 'RegID' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param regID
      */
@@ -49,7 +49,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Get the 'Place' element value. Место составления накладной
+     * Get the 'Place' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Set the 'Place' element value. Место составления накладной
+     * Set the 'Place' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param place
      */

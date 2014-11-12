@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Запрос о розыске недоставленных товаров
+ * Р—Р°РїСЂРѕСЃ Рѕ СЂРѕР·С‹СЃРєРµ РЅРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ
  */
 public class GoodSearchRequestType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class GoodSearchRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GoodsRegistrationDate' element value. Дата оформления товарной партии в таможне
+     * Get the 'GoodsRegistrationDate' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РІ С‚Р°РјРѕР¶РЅРµ
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsRegistrationDate' element value. Дата оформления товарной партии в таможне
+     * Set the 'GoodsRegistrationDate' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РІ С‚Р°РјРѕР¶РЅРµ
      * 
      * @param goodsRegistrationDate
      */
@@ -43,7 +43,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsignmentNumber' element value. Номер товарно-транспортной накладной
+     * Get the 'ConsignmentNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsignmentNumber' element value. Номер товарно-транспортной накладной
+     * Set the 'ConsignmentNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param consignmentNumber
      */
@@ -61,7 +61,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TD' element value. Номер транзитной декларации
+     * Get the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TD' element value. Номер транзитной декларации
+     * Set the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param TD
      */
@@ -79,7 +79,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transport' element items. Сведения о транспортном средстве
+     * Get the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
      * 
      * @return list
      */
@@ -88,7 +88,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transport' element items. Сведения о транспортном средстве
+     * Set the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
      * 
      * @param list
      */
@@ -97,7 +97,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган регистрации документа
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган регистрации документа
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param customs
      */
@@ -115,7 +115,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Сведения о должностном лице таможенного органа
+     * Get the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Сведения о должностном лице таможенного органа
+     * Set the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -133,7 +133,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePlace' element value. Место отправления
+     * Get the 'DeparturePlace' element value. РњРµСЃС‚Рѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePlace' element value. Место отправления
+     * Set the 'DeparturePlace' element value. РњРµСЃС‚Рѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departurePlace
      */
@@ -151,7 +151,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationPlace' element value. Место назначения
+     * Get the 'DestinationPlace' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationPlace' element value. Место назначения
+     * Set the 'DestinationPlace' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationPlace
      */
@@ -169,7 +169,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class GoodSearchRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

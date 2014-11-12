@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.reportclosecontrol;
 
 /** 
- * Описание ошибки.
+ * РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё.
  */
 public class ErrorType
 {
@@ -13,7 +13,7 @@ public class ErrorType
     private String trueValue;
 
     /** 
-     * Get the 'ErrorCode' element value. Код ошибки
+     * Get the 'ErrorCode' element value. РљРѕРґ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrorCode' element value. Код ошибки
+     * Set the 'ErrorCode' element value. РљРѕРґ РѕС€РёР±РєРё
      * 
      * @param errorCode
      */
@@ -31,7 +31,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrorLevel' element value. Уровень ошибки (1-критическая ошибка, 2-ошибка, 3-рекомендация)
+     * Get the 'ErrorLevel' element value. РЈСЂРѕРІРµРЅСЊ РѕС€РёР±РєРё (1-РєСЂРёС‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°, 2-РѕС€РёР±РєР°, 3-СЂРµРєРѕРјРµРЅРґР°С†РёСЏ)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrorLevel' element value. Уровень ошибки (1-критическая ошибка, 2-ошибка, 3-рекомендация)
+     * Set the 'ErrorLevel' element value. РЈСЂРѕРІРµРЅСЊ РѕС€РёР±РєРё (1-РєСЂРёС‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°, 2-РѕС€РёР±РєР°, 3-СЂРµРєРѕРјРµРЅРґР°С†РёСЏ)
      * 
      * @param errorLevel
      */
@@ -49,7 +49,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrorText' element value. Текст сообщения об ошибке
+     * Get the 'ErrorText' element value. РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ РѕР± РѕС€РёР±РєРµ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrorText' element value. Текст сообщения об ошибке
+     * Set the 'ErrorText' element value. РўРµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ РѕР± РѕС€РёР±РєРµ
      * 
      * @param errorText
      */
@@ -67,7 +67,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrorDescription' element value. Описание ошибки
+     * Get the 'ErrorDescription' element value. РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrorDescription' element value. Описание ошибки
+     * Set the 'ErrorDescription' element value. РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
      * 
      * @param errorDescription
      */
@@ -85,7 +85,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'TrueValue' element value. Правильное значение
+     * Get the 'TrueValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'TrueValue' element value. Правильное значение
+     * Set the 'TrueValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param trueValue
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 
 /** 
- * Заголовок документа
+ * Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class HeaderType
 {
@@ -14,7 +14,7 @@ public class HeaderType
     private AWBNumberType masterWaybillNumber;
 
     /** 
-     * Get the 'OriginLocation' element value. Место происхождения
+     * Get the 'OriginLocation' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'OriginLocation' element value. Место происхождения
+     * Set the 'OriginLocation' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originLocation
      */
@@ -32,7 +32,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'DestinationLocation' element value. Место назначения
+     * Get the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'DestinationLocation' element value. Место назначения
+     * Set the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationLocation
      */
@@ -50,7 +50,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'MasterWaybillNumber' element value. Серийный номер главной накладной
+     * Get the 'MasterWaybillNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РіР»Р°РІРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'MasterWaybillNumber' element value. Серийный номер главной накладной
+     * Set the 'MasterWaybillNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РіР»Р°РІРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param masterWaybillNumber
      */

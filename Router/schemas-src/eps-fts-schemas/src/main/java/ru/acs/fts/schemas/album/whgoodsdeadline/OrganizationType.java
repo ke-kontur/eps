@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Реквизиты организации
+ * Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
  */
 public class OrganizationType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class OrganizationType extends OrganizationBaseType
     private PersonBaseType directorInfo;
 
     /** 
-     * Get the 'Address' element value. Адрес организации / физического лица
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации / физического лица
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param address
      */
@@ -32,7 +32,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'DirectorInfo' element value. Сведения о руководителе
+     * Get the 'DirectorInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'DirectorInfo' element value. Сведения о руководителе
+     * Set the 'DirectorInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»Рµ
      * 
      * @param directorInfo
      */

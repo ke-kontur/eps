@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.paymentdocument;
 
 /** 
- * Сведения о плательщике по платежному документу
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
  */
 public class PayerOrgDataType
 {
@@ -11,7 +11,7 @@ public class PayerOrgDataType
     private String payerKPP;
 
     /** 
-     * Get the 'PayerITN' element value. ИТН плательщика по платежному документу
+     * Get the 'PayerITN' element value. РРўРќ РїР»Р°С‚РµР»СЊС‰РёРєР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PayerOrgDataType
     }
 
     /** 
-     * Set the 'PayerITN' element value. ИТН плательщика по платежному документу
+     * Set the 'PayerITN' element value. РРўРќ РїР»Р°С‚РµР»СЊС‰РёРєР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param payerITN
      */
@@ -29,7 +29,7 @@ public class PayerOrgDataType
     }
 
     /** 
-     * Get the 'PayerINN' element value. ИНН плательщика по платежному документу
+     * Get the 'PayerINN' element value. РРќРќ РїР»Р°С‚РµР»СЊС‰РёРєР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PayerOrgDataType
     }
 
     /** 
-     * Set the 'PayerINN' element value. ИНН плательщика по платежному документу
+     * Set the 'PayerINN' element value. РРќРќ РїР»Р°С‚РµР»СЊС‰РёРєР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param payerINN
      */
@@ -47,7 +47,7 @@ public class PayerOrgDataType
     }
 
     /** 
-     * Get the 'PayerKPP' element value. КПП плательщика по платежному документу
+     * Get the 'PayerKPP' element value. РљРџРџ РїР»Р°С‚РµР»СЊС‰РёРєР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PayerOrgDataType
     }
 
     /** 
-     * Set the 'PayerKPP' element value. КПП плательщика по платежному документу
+     * Set the 'PayerKPP' element value. РљРџРџ РїР»Р°С‚РµР»СЊС‰РёРєР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param payerKPP
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Регистрация в базе данных
+ * Р РµРіРёСЃС‚СЂР°С†РёСЏ РІ Р±Р°Р·Рµ РґР°РЅРЅС‹С…
  */
 public class RegistrationDatabaseType
 {
@@ -15,7 +15,7 @@ public class RegistrationDatabaseType
     private PersonSignatureType personSignature;
 
     /** 
-     * Get the 'TransferMethod' element value. Способ передачи
+     * Get the 'TransferMethod' element value. РЎРїРѕСЃРѕР± РїРµСЂРµРґР°С‡Рё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Set the 'TransferMethod' element value. Способ передачи
+     * Set the 'TransferMethod' element value. РЎРїРѕСЃРѕР± РїРµСЂРµРґР°С‡Рё
      * 
      * @param transferMethod
      */
@@ -33,7 +33,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Get the 'DateTransfer' element value. Дата передачи
+     * Get the 'DateTransfer' element value. Р”Р°С‚Р° РїРµСЂРµРґР°С‡Рё
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Set the 'DateTransfer' element value. Дата передачи
+     * Set the 'DateTransfer' element value. Р”Р°С‚Р° РїРµСЂРµРґР°С‡Рё
      * 
      * @param dateTransfer
      */
@@ -51,7 +51,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Get the 'TimeTransfer' element value. Время передачи
+     * Get the 'TimeTransfer' element value. Р’СЂРµРјСЏ РїРµСЂРµРґР°С‡Рё
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Set the 'TimeTransfer' element value. Время передачи
+     * Set the 'TimeTransfer' element value. Р’СЂРµРјСЏ РїРµСЂРµРґР°С‡Рё
      * 
      * @param timeTransfer
      */
@@ -69,7 +69,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RegistrationDatabaseType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
      * 
      * @param personSignature
      */

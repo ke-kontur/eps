@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsDescriptionType
 {
@@ -18,7 +18,7 @@ public class GoodsDescriptionType
     private SupplementaryQuantityType supplementaryQuantity;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товара
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товара
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -54,7 +54,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'CustomsCost' element value. Стоимость товара
+     * Get the 'CustomsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'CustomsCost' element value. Стоимость товара
+     * Set the 'CustomsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param customsCost
      */
@@ -72,7 +72,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'StatisticalCost' element value. Статистическая стоимость товара
+     * Get the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'StatisticalCost' element value. Статистическая стоимость товара
+     * Set the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param statisticalCost
      */
@@ -90,7 +90,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество товара
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество товара
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param quantity
      */
@@ -108,7 +108,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param supplementaryQuantity
      */

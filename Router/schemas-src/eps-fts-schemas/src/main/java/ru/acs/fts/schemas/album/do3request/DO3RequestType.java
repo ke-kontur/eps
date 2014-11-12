@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseCertificateType;
 
 /** 
- * Требование о предоставлении отчетности по форме ДО-3
+ * РўСЂРµР±РѕРІР°РЅРёРµ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РѕС‚С‡РµС‚РЅРѕСЃС‚Рё РїРѕ С„РѕСЂРјРµ Р”Рћ-3
  */
 public class DO3RequestType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class DO3RequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления требования
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления требования
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param sendDate
      */
@@ -43,7 +43,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления требования
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления требования
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param sendTime
      */
@@ -61,7 +61,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -79,7 +79,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Период представления отчета с
+     * Get the 'BeginDate' element value. РџРµСЂРёРѕРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р° СЃ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Период представления отчета с
+     * Set the 'BeginDate' element value. РџРµСЂРёРѕРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р° СЃ
      * 
      * @param beginDate
      */
@@ -97,7 +97,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Период представления отчета по
+     * Get the 'EndDate' element value. РџРµСЂРёРѕРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р° РїРѕ
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Период представления отчета по
+     * Set the 'EndDate' element value. РџРµСЂРёРѕРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р° РїРѕ
      * 
      * @param endDate
      */
@@ -115,7 +115,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -133,7 +133,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -151,7 +151,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Permits' element items. Разрешительный документ
+     * Get the list of 'Permits' element items. Р Р°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -160,7 +160,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Permits' element items. Разрешительный документ
+     * Set the list of 'Permits' element items. Р Р°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -169,7 +169,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class DO3RequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

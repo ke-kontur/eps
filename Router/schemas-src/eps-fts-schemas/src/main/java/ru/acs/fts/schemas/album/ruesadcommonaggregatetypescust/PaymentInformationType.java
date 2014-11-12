@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о платежах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Р°С…
  */
 public class PaymentInformationType
 {
@@ -14,7 +14,7 @@ public class PaymentInformationType
     private String comments;
 
     /** 
-     * Get the 'DateInf' element value. Дата платежа
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата платежа
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶Р°
      * 
      * @param dateInf
      */
@@ -32,7 +32,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'Summa' element value. Сумма платежа
+     * Get the 'Summa' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'Summa' element value. Сумма платежа
+     * Set the 'Summa' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param summa
      */
@@ -50,7 +50,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'Currency' element value. Код валюты платежа
+     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'Currency' element value. Код валюты платежа
+     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param currency
      */
@@ -68,7 +68,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Платежи за использование интеллектуальной собственности и условия передачи части дохода продавцу. гр.9
+ * РџР»Р°С‚РµР¶Рё Р·Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё Рё СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё С‡Р°СЃС‚Рё РґРѕС…РѕРґР° РїСЂРѕРґР°РІС†Сѓ. РіСЂ.9
  */
 public class DTSAdditionalPaymentsType
 {
@@ -15,7 +15,7 @@ public class DTSAdditionalPaymentsType
     private List<String> paymentConditionDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'Column9A' element value. Графа 9а
+     * Get the 'Column9A' element value. Р“СЂР°С„Р° 9Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Set the 'Column9A' element value. Графа 9а
+     * Set the 'Column9A' element value. Р“СЂР°С„Р° 9Р°
      * 
      * @param column9A
      */
@@ -33,7 +33,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Get the 'Column9B' element value. Графа 9б
+     * Get the 'Column9B' element value. Р“СЂР°С„Р° 9Р±
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Set the 'Column9B' element value. Графа 9б
+     * Set the 'Column9B' element value. Р“СЂР°С„Р° 9Р±
      * 
      * @param column9B
      */
@@ -51,7 +51,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Get the list of 'PaymentDescription' element items. Подробности платежей за использование интеллектуальной собственности. гр.9а
+     * Get the list of 'PaymentDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РїР»Р°С‚РµР¶РµР№ Р·Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё. РіСЂ.9Р°
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Set the list of 'PaymentDescription' element items. Подробности платежей за использование интеллектуальной собственности. гр.9а
+     * Set the list of 'PaymentDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РїР»Р°С‚РµР¶РµР№ Р·Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё. РіСЂ.9Р°
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Get the list of 'PaymentConditionDescription' element items. Подробности условий передачи части дохода прямо или косвенно продавцу. гр.9б
+     * Get the list of 'PaymentConditionDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СѓСЃР»РѕРІРёР№ РїРµСЂРµРґР°С‡Рё С‡Р°СЃС‚Рё РґРѕС…РѕРґР° РїСЂСЏРјРѕ РёР»Рё РєРѕСЃРІРµРЅРЅРѕ РїСЂРѕРґР°РІС†Сѓ. РіСЂ.9Р±
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class DTSAdditionalPaymentsType
     }
 
     /** 
-     * Set the list of 'PaymentConditionDescription' element items. Подробности условий передачи части дохода прямо или косвенно продавцу. гр.9б
+     * Set the list of 'PaymentConditionDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СѓСЃР»РѕРІРёР№ РїРµСЂРµРґР°С‡Рё С‡Р°СЃС‚Рё РґРѕС…РѕРґР° РїСЂСЏРјРѕ РёР»Рё РєРѕСЃРІРµРЅРЅРѕ РїСЂРѕРґР°РІС†Сѓ. РіСЂ.9Р±
      * 
      * @param list
      */

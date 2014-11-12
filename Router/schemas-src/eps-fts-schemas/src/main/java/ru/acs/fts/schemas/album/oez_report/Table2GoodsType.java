@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Таблица 2. Товар, помещённый под таможенный режим свободной таможенной зоны, который участвует в производстве продукции (содействует производственному процессу) и полностью или частично потребляется в процессе использования
+ * РўР°Р±Р»РёС†Р° 2. РўРѕРІР°СЂ, РїРѕРјРµС‰С‘РЅРЅС‹Р№ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹, РєРѕС‚РѕСЂС‹Р№ СѓС‡Р°СЃС‚РІСѓРµС‚ РІ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ РїСЂРѕРґСѓРєС†РёРё (СЃРѕРґРµР№СЃС‚РІСѓРµС‚ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅРѕРјСѓ РїСЂРѕС†РµСЃСЃСѓ) Рё РїРѕР»РЅРѕСЃС‚СЊСЋ РёР»Рё С‡Р°СЃС‚РёС‡РЅРѕ РїРѕС‚СЂРµР±Р»СЏРµС‚СЃСЏ РІ РїСЂРѕС†РµСЃСЃРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
  */
 public class Table2GoodsType extends GoodsWithoutStatusBaseType
 {
@@ -16,7 +16,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     private List<Table2GoodsFlowType> outList = new ArrayList<Table2GoodsFlowType>();
 
     /** 
-     * Get the 'ResidentsGoodsQuantity' element value. Товары находящиеся у резидента ОЭЗ в отношении которых осуществляется хранение(складирование) на территории ОЭЗ
+     * Get the 'ResidentsGoodsQuantity' element value. РўРѕРІР°СЂС‹ РЅР°С…РѕРґСЏС‰РёРµСЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С…СЂР°РЅРµРЅРёРµ(СЃРєР»Р°РґРёСЂРѕРІР°РЅРёРµ) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'ResidentsGoodsQuantity' element value. Товары находящиеся у резидента ОЭЗ в отношении которых осуществляется хранение(складирование) на территории ОЭЗ
+     * Set the 'ResidentsGoodsQuantity' element value. РўРѕРІР°СЂС‹ РЅР°С…РѕРґСЏС‰РёРµСЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С…СЂР°РЅРµРЅРёРµ(СЃРєР»Р°РґРёСЂРѕРІР°РЅРёРµ) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
      * 
      * @param residentsGoodsQuantity
      */
@@ -34,7 +34,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'CustomsDocument' element value. Таможенный документ. Номер ДТ. Также реквизиты таможенного документа, на основании которого осуществляется таможенное оформление, когда в отношении таких товаров произошло отчуждение
+     * Get the 'CustomsDocument' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РќРѕРјРµСЂ Р”Рў. РўР°РєР¶Рµ СЂРµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РѕС„РѕСЂРјР»РµРЅРёРµ, РєРѕРіРґР° РІ РѕС‚РЅРѕС€РµРЅРёРё С‚Р°РєРёС… С‚РѕРІР°СЂРѕРІ РїСЂРѕРёР·РѕС€Р»Рѕ РѕС‚С‡СѓР¶РґРµРЅРёРµ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'CustomsDocument' element value. Таможенный документ. Номер ДТ. Также реквизиты таможенного документа, на основании которого осуществляется таможенное оформление, когда в отношении таких товаров произошло отчуждение
+     * Set the 'CustomsDocument' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РќРѕРјРµСЂ Р”Рў. РўР°РєР¶Рµ СЂРµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РѕС„РѕСЂРјР»РµРЅРёРµ, РєРѕРіРґР° РІ РѕС‚РЅРѕС€РµРЅРёРё С‚Р°РєРёС… С‚РѕРІР°СЂРѕРІ РїСЂРѕРёР·РѕС€Р»Рѕ РѕС‚С‡СѓР¶РґРµРЅРёРµ
      * 
      * @param customsDocument
      */
@@ -52,7 +52,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the list of 'In' element items. Товары, поступившие в организацию
+     * Get the list of 'In' element items. РўРѕРІР°СЂС‹, РїРѕСЃС‚СѓРїРёРІС€РёРµ РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the list of 'In' element items. Товары, поступившие в организацию
+     * Set the list of 'In' element items. РўРѕРІР°СЂС‹, РїРѕСЃС‚СѓРїРёРІС€РёРµ РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the list of 'Used' element items. Товары, переданные в производство и фактически израсходованные
+     * Get the list of 'Used' element items. РўРѕРІР°СЂС‹, РїРµСЂРµРґР°РЅРЅС‹Рµ РІ РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ Рё С„Р°РєС‚РёС‡РµСЃРєРё РёР·СЂР°СЃС…РѕРґРѕРІР°РЅРЅС‹Рµ
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the list of 'Used' element items. Товары, переданные в производство и фактически израсходованные
+     * Set the list of 'Used' element items. РўРѕРІР°СЂС‹, РїРµСЂРµРґР°РЅРЅС‹Рµ РІ РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ Рё С„Р°РєС‚РёС‡РµСЃРєРё РёР·СЂР°СЃС…РѕРґРѕРІР°РЅРЅС‹Рµ
      * 
      * @param list
      */
@@ -88,7 +88,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the list of 'Out' element items. Товары, которые выбыли (проданы, списаны)
+     * Get the list of 'Out' element items. РўРѕРІР°СЂС‹, РєРѕС‚РѕСЂС‹Рµ РІС‹Р±С‹Р»Рё (РїСЂРѕРґР°РЅС‹, СЃРїРёСЃР°РЅС‹)
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class Table2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the list of 'Out' element items. Товары, которые выбыли (проданы, списаны)
+     * Set the list of 'Out' element items. РўРѕРІР°СЂС‹, РєРѕС‚РѕСЂС‹Рµ РІС‹Р±С‹Р»Рё (РїСЂРѕРґР°РЅС‹, СЃРїРёСЃР°РЅС‹)
      * 
      * @param list
      */

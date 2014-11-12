@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Опасный отход, на транзит которого выдано разрешение
+ * РћРїР°СЃРЅС‹Р№ РѕС‚С…РѕРґ, РЅР° С‚СЂР°РЅР·РёС‚ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
  */
 public class ObjectType
 {
@@ -21,7 +21,7 @@ public class ObjectType
     private DocumentBaseType contract;
 
     /** 
-     * Get the list of 'Name' element items. Наименование отходов
+     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС‚С…РѕРґРѕРІ
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the list of 'Name' element items. Наименование отходов
+     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС‚С…РѕРґРѕРІ
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'TNVED' element value. Код ТН ВЭД ТС
+     * Get the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'TNVED' element value. Код ТН ВЭД ТС
+     * Set the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVED
      */
@@ -57,7 +57,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'FKKO' element value. Код ФККО
+     * Get the 'FKKO' element value. РљРѕРґ Р¤РљРљРћ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'FKKO' element value. Код ФККО
+     * Set the 'FKKO' element value. РљРѕРґ Р¤РљРљРћ
      * 
      * @param FKKO
      */
@@ -75,7 +75,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'ExportCountry' element value. Государство-экспорт
+     * Get the 'ExportCountry' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ-СЌРєСЃРїРѕСЂС‚
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'ExportCountry' element value. Государство-экспорт
+     * Set the 'ExportCountry' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ-СЌРєСЃРїРѕСЂС‚
      * 
      * @param exportCountry
      */
@@ -93,7 +93,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'ImportCountry' element value. Государство-импорт
+     * Get the 'ImportCountry' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ-РёРјРїРѕСЂС‚
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'ImportCountry' element value. Государство-импорт
+     * Set the 'ImportCountry' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ-РёРјРїРѕСЂС‚
      * 
      * @param importCountry
      */
@@ -111,7 +111,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Numeric' element value. Номер позиции
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер позиции
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
      * 
      * @param numeric
      */
@@ -129,7 +129,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Count' element value. Количество
+     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Count' element value. Количество
+     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param count
      */
@@ -147,7 +147,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Contract' element value. Реквизиты контракта
+     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Contract' element value. Реквизиты контракта
+     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contract
      */

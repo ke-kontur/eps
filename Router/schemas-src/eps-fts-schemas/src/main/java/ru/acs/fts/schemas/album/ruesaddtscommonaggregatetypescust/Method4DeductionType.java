@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * Вычеты сумм, которые вошли в раздел А гр. Б (12-17)
+ * Р’С‹С‡РµС‚С‹ СЃСѓРјРј, РєРѕС‚РѕСЂС‹Рµ РІРѕС€Р»Рё РІ СЂР°Р·РґРµР» Рђ РіСЂ. Р‘ (12-17)
  */
 public class Method4DeductionType
 {
@@ -14,7 +14,7 @@ public class Method4DeductionType
     private String totalDeductionAmount;
 
     /** 
-     * Get the 'ExtraCharge' element value. Прибыль, комиссионные, торговые и иные подобные наценки (12)
+     * Get the 'ExtraCharge' element value. РџСЂРёР±С‹Р»СЊ, РєРѕРјРёСЃСЃРёРѕРЅРЅС‹Рµ, С‚РѕСЂРіРѕРІС‹Рµ Рё РёРЅС‹Рµ РїРѕРґРѕР±РЅС‹Рµ РЅР°С†РµРЅРєРё (12)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Set the 'ExtraCharge' element value. Прибыль, комиссионные, торговые и иные подобные наценки (12)
+     * Set the 'ExtraCharge' element value. РџСЂРёР±С‹Р»СЊ, РєРѕРјРёСЃСЃРёРѕРЅРЅС‹Рµ, С‚РѕСЂРіРѕРІС‹Рµ Рё РёРЅС‹Рµ РїРѕРґРѕР±РЅС‹Рµ РЅР°С†РµРЅРєРё (12)
      * 
      * @param extraCharge
      */
@@ -32,7 +32,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Get the 'RussiansTaxPayment' element value. Ввозные таможенные пошлины, налоги, сборы и иные платежи в пользу государства, подлежащие уплате в Российской Федерации. 13.
+     * Get the 'RussiansTaxPayment' element value. Р’РІРѕР·РЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё, СЃР±РѕСЂС‹ Рё РёРЅС‹Рµ РїР»Р°С‚РµР¶Рё РІ РїРѕР»СЊР·Сѓ РіРѕСЃСѓРґР°СЂСЃС‚РІР°, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 13.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Set the 'RussiansTaxPayment' element value. Ввозные таможенные пошлины, налоги, сборы и иные платежи в пользу государства, подлежащие уплате в Российской Федерации. 13.
+     * Set the 'RussiansTaxPayment' element value. Р’РІРѕР·РЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё, СЃР±РѕСЂС‹ Рё РёРЅС‹Рµ РїР»Р°С‚РµР¶Рё РІ РїРѕР»СЊР·Сѓ РіРѕСЃСѓРґР°СЂСЃС‚РІР°, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 13.
      * 
      * @param russiansTaxPayment
      */
@@ -50,7 +50,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Get the 'RussianTransportCharge' element value. Расходы по транспортировке и иные накладные расходы после ввоза товаров в Российскую Федерацию. 14
+     * Get the 'RussianTransportCharge' element value. Р Р°СЃС…РѕРґС‹ РїРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ Рё РёРЅС‹Рµ РЅР°РєР»Р°РґРЅС‹Рµ СЂР°СЃС…РѕРґС‹ РїРѕСЃР»Рµ РІРІРѕР·Р° С‚РѕРІР°СЂРѕРІ РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ. 14
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Set the 'RussianTransportCharge' element value. Расходы по транспортировке и иные накладные расходы после ввоза товаров в Российскую Федерацию. 14
+     * Set the 'RussianTransportCharge' element value. Р Р°СЃС…РѕРґС‹ РїРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ Рё РёРЅС‹Рµ РЅР°РєР»Р°РґРЅС‹Рµ СЂР°СЃС…РѕРґС‹ РїРѕСЃР»Рµ РІРІРѕР·Р° С‚РѕРІР°СЂРѕРІ РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ. 14
      * 
      * @param russianTransportCharge
      */
@@ -68,7 +68,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Get the 'RussianProcessingCost' element value. Стоимость переработки товаров в Российской Федерации. 15
+     * Get the 'RussianProcessingCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 15
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Set the 'RussianProcessingCost' element value. Стоимость переработки товаров в Российской Федерации. 15
+     * Set the 'RussianProcessingCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 15
      * 
      * @param russianProcessingCost
      */
@@ -86,7 +86,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Get the 'RussianAnyCarge' element value. Прочие расходы, включенные в цену продажи в Российской Федерации. 16
+     * Get the 'RussianAnyCarge' element value. РџСЂРѕС‡РёРµ СЂР°СЃС…РѕРґС‹, РІРєР»СЋС‡РµРЅРЅС‹Рµ РІ С†РµРЅСѓ РїСЂРѕРґР°Р¶Рё РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 16
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Set the 'RussianAnyCarge' element value. Прочие расходы, включенные в цену продажи в Российской Федерации. 16
+     * Set the 'RussianAnyCarge' element value. РџСЂРѕС‡РёРµ СЂР°СЃС…РѕРґС‹, РІРєР»СЋС‡РµРЅРЅС‹Рµ РІ С†РµРЅСѓ РїСЂРѕРґР°Р¶Рё РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 16
      * 
      * @param russianAnyCarge
      */
@@ -104,7 +104,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Get the 'TotalDeductionAmount' element value. Итого сумма вычетов. 17
+     * Get the 'TotalDeductionAmount' element value. РС‚РѕРіРѕ СЃСѓРјРјР° РІС‹С‡РµС‚РѕРІ. 17
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class Method4DeductionType
     }
 
     /** 
-     * Set the 'TotalDeductionAmount' element value. Итого сумма вычетов. 17
+     * Set the 'TotalDeductionAmount' element value. РС‚РѕРіРѕ СЃСѓРјРјР° РІС‹С‡РµС‚РѕРІ. 17
      * 
      * @param totalDeductionAmount
      */

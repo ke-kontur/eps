@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AutomobileBaseType;
 
 /** 
- * Сведения об автомобилях. Гр. 31
+ * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
  */
 public class AutomobileType extends AutomobileBaseType
 {
@@ -14,7 +14,7 @@ public class AutomobileType extends AutomobileBaseType
     private String passedKilometerQuantity;
 
     /** 
-     * Get the 'IdentityCardNumber' element value. Номер удостоверения
+     * Get the 'IdentityCardNumber' element value. РќРѕРјРµСЂ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'IdentityCardNumber' element value. Номер удостоверения
+     * Set the 'IdentityCardNumber' element value. РќРѕРјРµСЂ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ
      * 
      * @param identityCardNumber
      */
@@ -32,7 +32,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'CarCost' element value. Стоимость транспортного средства
+     * Get the 'CarCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'CarCost' element value. Стоимость транспортного средства
+     * Set the 'CarCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param carCost
      */
@@ -50,7 +50,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'PowerWeightQuanity' element value. Примечание: грузоподъемность/мощность
+     * Get the 'PowerWeightQuanity' element value. РџСЂРёРјРµС‡Р°РЅРёРµ: РіСЂСѓР·РѕРїРѕРґСЉРµРјРЅРѕСЃС‚СЊ/РјРѕС‰РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'PowerWeightQuanity' element value. Примечание: грузоподъемность/мощность
+     * Set the 'PowerWeightQuanity' element value. РџСЂРёРјРµС‡Р°РЅРёРµ: РіСЂСѓР·РѕРїРѕРґСЉРµРјРЅРѕСЃС‚СЊ/РјРѕС‰РЅРѕСЃС‚СЊ
      * 
      * @param powerWeightQuanity
      */
@@ -68,7 +68,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'PassedKilometerQuantity' element value. Пробег
+     * Get the 'PassedKilometerQuantity' element value. РџСЂРѕР±РµРі
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class AutomobileType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'PassedKilometerQuantity' element value. Пробег
+     * Set the 'PassedKilometerQuantity' element value. РџСЂРѕР±РµРі
      * 
      * @param passedKilometerQuantity
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Партия товаров, на которой были выявлены риски
+ * РџР°СЂС‚РёСЏ С‚РѕРІР°СЂРѕРІ, РЅР° РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
  */
 public class ConsignmentType
 {
@@ -14,7 +14,7 @@ public class ConsignmentType
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'Sequence' element value. Порядковый номер накладной из сообщения с информацией о транзитных товарах
+     * Get the 'Sequence' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№ РёР· СЃРѕРѕР±С‰РµРЅРёСЏ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ Рѕ С‚СЂР°РЅР·РёС‚РЅС‹С… С‚РѕРІР°СЂР°С…
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Sequence' element value. Порядковый номер накладной из сообщения с информацией о транзитных товарах
+     * Set the 'Sequence' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№ РёР· СЃРѕРѕР±С‰РµРЅРёСЏ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ Рѕ С‚СЂР°РЅР·РёС‚РЅС‹С… С‚РѕРІР°СЂР°С…
      * 
      * @param sequence
      */
@@ -32,7 +32,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'ProfileRef' element items. Ссылки на ПР/СПР, которые сработали на партию товара в целом
+     * Get the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РїР°СЂС‚РёСЋ С‚РѕРІР°СЂР° РІ С†РµР»РѕРј
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'ProfileRef' element items. Ссылки на ПР/СПР, которые сработали на партию товара в целом
+     * Set the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РїР°СЂС‚РёСЋ С‚РѕРІР°СЂР° РІ С†РµР»РѕРј
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Товар, на котором были выявлены риски
+     * Get the list of 'Goods' element items. РўРѕРІР°СЂ, РЅР° РєРѕС‚РѕСЂРѕРј Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Товар, на котором были выявлены риски
+     * Set the list of 'Goods' element items. РўРѕРІР°СЂ, РЅР° РєРѕС‚РѕСЂРѕРј Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
      * 
      * @param list
      */

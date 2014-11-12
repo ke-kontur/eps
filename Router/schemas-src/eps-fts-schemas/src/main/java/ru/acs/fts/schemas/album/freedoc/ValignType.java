@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.freedoc;
 
 /** 
- * Стили выравнивания по вертикали
+ * РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
  */
 public enum ValignType {
     BOTTOM("Bottom"), MIDDLE("Middle"), TOP("Top");

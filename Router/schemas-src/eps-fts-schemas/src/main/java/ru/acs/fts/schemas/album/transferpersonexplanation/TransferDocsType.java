@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документы, на основании которых перемещается товар
+ * Р”РѕРєСѓРјРµРЅС‚С‹, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїРµСЂРµРјРµС‰Р°РµС‚СЃСЏ С‚РѕРІР°СЂ
  */
 public class TransferDocsType
 {
     private List<DocumentBaseType> presentDocList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'PresentDoc' element items. Сведения о документе
+     * Get the list of 'PresentDoc' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class TransferDocsType
     }
 
     /** 
-     * Set the list of 'PresentDoc' element items. Сведения о документе
+     * Set the list of 'PresentDoc' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param list
      */

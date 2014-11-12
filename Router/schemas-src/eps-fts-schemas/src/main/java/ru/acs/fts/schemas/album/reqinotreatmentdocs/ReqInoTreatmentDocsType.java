@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Требование на предоставление электронного документа, указанного в описи, прилагаемой к заявлению на переработку товаров вне таможенной территории
+ * РўСЂРµР±РѕРІР°РЅРёРµ РЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, СѓРєР°Р·Р°РЅРЅРѕРіРѕ РІ РѕРїРёСЃРё, РїСЂРёР»Р°РіР°РµРјРѕР№ Рє Р·Р°СЏРІР»РµРЅРёСЋ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class ReqInoTreatmentDocsType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -41,7 +41,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestDate' element value. Дата формирования запроса
+     * Get the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Дата формирования запроса
+     * Set the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param requestDate
      */
@@ -59,7 +59,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Срок предоставления документов
+     * Get the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок предоставления документов
+     * Set the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param dateLimit
      */
@@ -77,7 +77,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -95,7 +95,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -113,7 +113,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RequestedDoc' element items. Запрашиваемый документ
+     * Get the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -122,7 +122,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestedDoc' element items. Запрашиваемый документ
+     * Set the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -131,7 +131,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Communication' element items. Средство связи
+     * Get the list of 'Communication' element items. РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Communication' element items. Средство связи
+     * Set the list of 'Communication' element items. РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ReqInoTreatmentDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

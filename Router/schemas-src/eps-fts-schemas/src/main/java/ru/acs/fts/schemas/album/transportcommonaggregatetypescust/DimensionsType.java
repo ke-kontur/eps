@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * Габаритные размеры судна
+ * Р“Р°Р±Р°СЂРёС‚РЅС‹Рµ СЂР°Р·РјРµСЂС‹ СЃСѓРґРЅР°
  */
 public class DimensionsType
 {
@@ -13,7 +13,7 @@ public class DimensionsType
     private String maximumHeight;
 
     /** 
-     * Get the 'Lenght' element value. Длина
+     * Get the 'Lenght' element value. Р”Р»РёРЅР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'Lenght' element value. Длина
+     * Set the 'Lenght' element value. Р”Р»РёРЅР°
      * 
      * @param lenght
      */
@@ -31,7 +31,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'Wight' element value. Ширина
+     * Get the 'Wight' element value. РЁРёСЂРёРЅР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'Wight' element value. Ширина
+     * Set the 'Wight' element value. РЁРёСЂРёРЅР°
      * 
      * @param wight
      */
@@ -49,7 +49,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'FullyLoaded' element value. Осадка в полном грузу
+     * Get the 'FullyLoaded' element value. РћСЃР°РґРєР° РІ РїРѕР»РЅРѕРј РіСЂСѓР·Сѓ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'FullyLoaded' element value. Осадка в полном грузу
+     * Set the 'FullyLoaded' element value. РћСЃР°РґРєР° РІ РїРѕР»РЅРѕРј РіСЂСѓР·Сѓ
      * 
      * @param fullyLoaded
      */
@@ -67,7 +67,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'Empty' element value. Осада порожнем
+     * Get the 'Empty' element value. РћСЃР°РґР° РїРѕСЂРѕР¶РЅРµРј
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'Empty' element value. Осада порожнем
+     * Set the 'Empty' element value. РћСЃР°РґР° РїРѕСЂРѕР¶РЅРµРј
      * 
      * @param empty
      */
@@ -85,7 +85,7 @@ public class DimensionsType
     }
 
     /** 
-     * Get the 'MaximumHeight' element value. Наибольшая высота с надстройками (от осадки порожнем)
+     * Get the 'MaximumHeight' element value. РќР°РёР±РѕР»СЊС€Р°СЏ РІС‹СЃРѕС‚Р° СЃ РЅР°РґСЃС‚СЂРѕР№РєР°РјРё (РѕС‚ РѕСЃР°РґРєРё РїРѕСЂРѕР¶РЅРµРј)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DimensionsType
     }
 
     /** 
-     * Set the 'MaximumHeight' element value. Наибольшая высота с надстройками (от осадки порожнем)
+     * Set the 'MaximumHeight' element value. РќР°РёР±РѕР»СЊС€Р°СЏ РІС‹СЃРѕС‚Р° СЃ РЅР°РґСЃС‚СЂРѕР№РєР°РјРё (РѕС‚ РѕСЃР°РґРєРё РїРѕСЂРѕР¶РЅРµРј)
      * 
      * @param maximumHeight
      */

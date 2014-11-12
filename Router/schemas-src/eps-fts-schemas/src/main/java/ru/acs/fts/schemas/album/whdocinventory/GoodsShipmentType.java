@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhGoodType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportDocType;
 
 /** 
- * Комплексный тип для описания товаро-транспортной накладной (товарной партии), представляемой при помещении товаров на временное хранение
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№ (С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё), РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕР№ РїСЂРё РїРѕРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
  */
 public class GoodsShipmentType extends WhTransportDocType
 {
@@ -16,7 +16,7 @@ public class GoodsShipmentType extends WhTransportDocType
     private List<WHContainerInformationType> containerList = new ArrayList<WHContainerInformationType>();
 
     /** 
-     * Get the list of 'Goods' element items. Описание товаров согласно накладной и товароспроводительным документам
+     * Get the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ СЃРѕРіР»Р°СЃРЅРѕ РЅР°РєР»Р°РґРЅРѕР№ Рё С‚РѕРІР°СЂРѕСЃРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class GoodsShipmentType extends WhTransportDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Описание товаров согласно накладной и товароспроводительным документам
+     * Set the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ СЃРѕРіР»Р°СЃРЅРѕ РЅР°РєР»Р°РґРЅРѕР№ Рё С‚РѕРІР°СЂРѕСЃРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class GoodsShipmentType extends WhTransportDocType
     }
 
     /** 
-     * Get the list of 'Containers' element items. Описание контейнеров согласно накладной и товароспроводительным документам
+     * Get the list of 'Containers' element items. РћРїРёСЃР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ СЃРѕРіР»Р°СЃРЅРѕ РЅР°РєР»Р°РґРЅРѕР№ Рё С‚РѕРІР°СЂРѕСЃРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsShipmentType extends WhTransportDocType
     }
 
     /** 
-     * Set the list of 'Containers' element items. Описание контейнеров согласно накладной и товароспроводительным документам
+     * Set the list of 'Containers' element items. РћРїРёСЃР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ СЃРѕРіР»Р°СЃРЅРѕ РЅР°РєР»Р°РґРЅРѕР№ Рё С‚РѕРІР°СЂРѕСЃРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param list
      */

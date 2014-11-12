@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.tir_carnet;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Отправитель/получатель товаров в книжке МДП
+ * РћС‚РїСЂР°РІРёС‚РµР»СЊ/РїРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂРѕРІ РІ РєРЅРёР¶РєРµ РњР”Рџ
  */
 public class PersonType extends GeneralParticipantInfoType
 {
@@ -12,7 +12,7 @@ public class PersonType extends GeneralParticipantInfoType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'ITN' element value. ИТН
+     * Get the 'ITN' element value. РРўРќ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PersonType extends GeneralParticipantInfoType
     }
 
     /** 
-     * Set the 'ITN' element value. ИТН
+     * Set the 'ITN' element value. РРўРќ
      * 
      * @param ITN
      */
@@ -30,7 +30,7 @@ public class PersonType extends GeneralParticipantInfoType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PersonType extends GeneralParticipantInfoType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

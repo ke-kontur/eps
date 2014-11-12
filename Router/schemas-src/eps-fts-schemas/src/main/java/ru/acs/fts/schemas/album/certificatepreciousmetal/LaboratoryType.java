@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.certificatepreciousmetal;
 
 /** 
- * Лаборатория
+ * Р›Р°Р±РѕСЂР°С‚РѕСЂРёСЏ
  */
 public class LaboratoryType
 {
@@ -10,7 +10,7 @@ public class LaboratoryType
     private String registrationNumberAIL;
 
     /** 
-     * Get the 'NameLaboratory' element value. Наименование лаборатории
+     * Get the 'NameLaboratory' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class LaboratoryType
     }
 
     /** 
-     * Set the 'NameLaboratory' element value. Наименование лаборатории
+     * Set the 'NameLaboratory' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
      * 
      * @param nameLaboratory
      */
@@ -28,7 +28,7 @@ public class LaboratoryType
     }
 
     /** 
-     * Get the 'RegistrationNumberAIL' element value. Регистрационный номер АИЛ в Госреестре
+     * Get the 'RegistrationNumberAIL' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РђРР› РІ Р“РѕСЃСЂРµРµСЃС‚СЂРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class LaboratoryType
     }
 
     /** 
-     * Set the 'RegistrationNumberAIL' element value. Регистрационный номер АИЛ в Госреестре
+     * Set the 'RegistrationNumberAIL' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РђРР› РІ Р“РѕСЃСЂРµРµСЃС‚СЂРµ
      * 
      * @param registrationNumberAIL
      */

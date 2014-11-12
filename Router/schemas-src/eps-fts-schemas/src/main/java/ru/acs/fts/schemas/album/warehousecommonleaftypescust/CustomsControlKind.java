@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonleaftypescust;
 
 /** 
- * Вид меры таможенного контроля, применяемой к товарам на временном хранении
+ * Р’РёРґ РјРµСЂС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ, РїСЂРёРјРµРЅСЏРµРјРѕР№ Рє С‚РѕРІР°СЂР°Рј РЅР° РІСЂРµРјРµРЅРЅРѕРј С…СЂР°РЅРµРЅРёРё
  */
 public enum CustomsControlKind {
     CC_GOOD_KEEPING_LIMIT("cc_GoodKeepingLimit"), CC_INFO("cc_Info"), CC_SUSPEND_FREE_MODE(

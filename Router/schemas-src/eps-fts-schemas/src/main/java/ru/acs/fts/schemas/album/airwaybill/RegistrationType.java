@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 
 /** 
- * Сведения о составлении накладной 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РЅР°РєР»Р°РґРЅРѕР№ 
  */
 public class RegistrationType extends AWBNumberType
 {
@@ -13,7 +13,7 @@ public class RegistrationType extends AWBNumberType
     private String place;
 
     /** 
-     * Get the 'Date' element value. Дата составления документа
+     * Get the 'Date' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistrationType extends AWBNumberType
     }
 
     /** 
-     * Set the 'Date' element value. Дата составления документа
+     * Set the 'Date' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param date
      */
@@ -31,7 +31,7 @@ public class RegistrationType extends AWBNumberType
     }
 
     /** 
-     * Get the 'Place' element value. Место составления документа
+     * Get the 'Place' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistrationType extends AWBNumberType
     }
 
     /** 
-     * Set the 'Place' element value. Место составления документа
+     * Set the 'Place' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param place
      */

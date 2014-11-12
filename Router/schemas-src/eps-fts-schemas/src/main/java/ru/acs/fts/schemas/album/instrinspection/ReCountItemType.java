@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * Пересчет количества предметов в грузовых местах
+ * РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
  */
 public class ReCountItemType
 {
@@ -10,7 +10,7 @@ public class ReCountItemType
     private Choice choice;
 
     /** 
-     * Get the 'ReCountGoods' element value. Пересчет количества предметов в грузовых  местах
+     * Get the 'ReCountGoods' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ReCountItemType
     }
 
     /** 
-     * Set the 'ReCountGoods' element value. Пересчет количества предметов в грузовых  местах
+     * Set the 'ReCountGoods' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
      * 
      * @param reCountGoods
      */
@@ -78,7 +78,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Get the 'SelectPackFlag' element value. Пересчет выборочно
+         * Get the 'SelectPackFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІС‹Р±РѕСЂРѕС‡РЅРѕ
          * 
          * @return value
          */
@@ -87,7 +87,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Set the 'SelectPackFlag' element value. Пересчет выборочно
+         * Set the 'SelectPackFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІС‹Р±РѕСЂРѕС‡РЅРѕ
          * 
          * @param selectPackFlag
          */
@@ -106,7 +106,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Get the 'FullCountFlag' element value. Пересчет во всех грузовых местах
+         * Get the 'FullCountFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІРѕ РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
          * 
          * @return value
          */
@@ -115,7 +115,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Set the 'FullCountFlag' element value. Пересчет во всех грузовых местах
+         * Set the 'FullCountFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІРѕ РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
          * 
          * @param fullCountFlag
          */

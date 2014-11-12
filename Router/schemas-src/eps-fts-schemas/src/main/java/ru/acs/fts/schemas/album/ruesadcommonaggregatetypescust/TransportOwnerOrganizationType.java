@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Владелец ТС - юридическое лицо.
+ * Р’Р»Р°РґРµР»РµС† РўРЎ - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
  */
 public class TransportOwnerOrganizationType extends OrganizationBaseType
 {
@@ -13,7 +13,7 @@ public class TransportOwnerOrganizationType extends OrganizationBaseType
     private AddressType address;
 
     /** 
-     * Get the 'OKPO' element value. Код ОКПО владельца.
+     * Get the 'OKPO' element value. РљРѕРґ РћРљРџРћ РІР»Р°РґРµР»СЊС†Р°.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TransportOwnerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKPO' element value. Код ОКПО владельца.
+     * Set the 'OKPO' element value. РљРѕРґ РћРљРџРћ РІР»Р°РґРµР»СЊС†Р°.
      * 
      * @param OKPO
      */
@@ -31,7 +31,7 @@ public class TransportOwnerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес организации.
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TransportOwnerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации.
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
      * 
      * @param address
      */

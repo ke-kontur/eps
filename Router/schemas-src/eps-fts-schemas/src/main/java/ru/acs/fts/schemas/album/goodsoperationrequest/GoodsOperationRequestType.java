@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Запрос перевозчика в таможенный орган на совершение операций с грузом
+ * Р—Р°РїСЂРѕСЃ РїРµСЂРµРІРѕР·С‡РёРєР° РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР° СЃРѕРІРµСЂС€РµРЅРёРµ РѕРїРµСЂР°С†РёР№ СЃ РіСЂСѓР·РѕРј
  */
 public class GoodsOperationRequestType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class GoodsOperationRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'WayBillOperation' element items. Сведения об операциях с грузом по накладной
+     * Get the list of 'WayBillOperation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїРµСЂР°С†РёСЏС… СЃ РіСЂСѓР·РѕРј РїРѕ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'WayBillOperation' element items. Сведения об операциях с грузом по накладной
+     * Set the list of 'WayBillOperation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїРµСЂР°С†РёСЏС… СЃ РіСЂСѓР·РѕРј РїРѕ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. Таможенный орган, в регионе деятельности которого находится воздушный пункт пропуска
+     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РІРѕР·РґСѓС€РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. Таможенный орган, в регионе деятельности которого находится воздушный пункт пропуска
+     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РІРѕР·РґСѓС€РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param customsOffice
      */
@@ -54,7 +54,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -72,7 +72,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsOperationRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

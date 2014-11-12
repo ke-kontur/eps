@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust;
 
 /** 
- * Сведения о счете
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‡РµС‚Рµ
  */
 public class TreatmentBankAccountType
 {
@@ -10,7 +10,7 @@ public class TreatmentBankAccountType
     private String bankAccountDescription;
 
     /** 
-     * Get the 'BankAccount' element value. Номер банковского счета
+     * Get the 'BankAccount' element value. РќРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class TreatmentBankAccountType
     }
 
     /** 
-     * Set the 'BankAccount' element value. Номер банковского счета
+     * Set the 'BankAccount' element value. РќРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡РµС‚Р°
      * 
      * @param bankAccount
      */
@@ -28,7 +28,7 @@ public class TreatmentBankAccountType
     }
 
     /** 
-     * Get the 'BankAccountDescription' element value. Описание типа счета: расчетный, валютный,...
+     * Get the 'BankAccountDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° СЃС‡РµС‚Р°: СЂР°СЃС‡РµС‚РЅС‹Р№, РІР°Р»СЋС‚РЅС‹Р№,...
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TreatmentBankAccountType
     }
 
     /** 
-     * Set the 'BankAccountDescription' element value. Описание типа счета: расчетный, валютный,...
+     * Set the 'BankAccountDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° СЃС‡РµС‚Р°: СЂР°СЃС‡РµС‚РЅС‹Р№, РІР°Р»СЋС‚РЅС‹Р№,...
      * 
      * @param bankAccountDescription
      */

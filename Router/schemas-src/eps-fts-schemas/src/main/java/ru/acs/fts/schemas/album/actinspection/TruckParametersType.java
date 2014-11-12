@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Параметры, присущие тягачам и грузовикам
+ * РџР°СЂР°РјРµС‚СЂС‹, РїСЂРёСЃСѓС‰РёРµ С‚СЏРіР°С‡Р°Рј Рё РіСЂСѓР·РѕРІРёРєР°Рј
  */
 public class TruckParametersType
 {
@@ -12,7 +12,7 @@ public class TruckParametersType
     private String skatnost;
 
     /** 
-     * Get the 'DriveCapstanNumber' element value. Число ведущих осей
+     * Get the 'DriveCapstanNumber' element value. Р§РёСЃР»Рѕ РІРµРґСѓС‰РёС… РѕСЃРµР№
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Set the 'DriveCapstanNumber' element value. Число ведущих осей
+     * Set the 'DriveCapstanNumber' element value. Р§РёСЃР»Рѕ РІРµРґСѓС‰РёС… РѕСЃРµР№
      * 
      * @param driveCapstanNumber
      */
@@ -30,7 +30,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Get the 'Compositing' element value. Компоновка: "1" - кабина за двигателем (капотная), "2" - кабина над двигателем (бескапотная)
+     * Get the 'Compositing' element value. РљРѕРјРїРѕРЅРѕРІРєР°: "1" - РєР°Р±РёРЅР° Р·Р° РґРІРёРіР°С‚РµР»РµРј (РєР°РїРѕС‚РЅР°СЏ), "2" - РєР°Р±РёРЅР° РЅР°Рґ РґРІРёРіР°С‚РµР»РµРј (Р±РµСЃРєР°РїРѕС‚РЅР°СЏ)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Set the 'Compositing' element value. Компоновка: "1" - кабина за двигателем (капотная), "2" - кабина над двигателем (бескапотная)
+     * Set the 'Compositing' element value. РљРѕРјРїРѕРЅРѕРІРєР°: "1" - РєР°Р±РёРЅР° Р·Р° РґРІРёРіР°С‚РµР»РµРј (РєР°РїРѕС‚РЅР°СЏ), "2" - РєР°Р±РёРЅР° РЅР°Рґ РґРІРёРіР°С‚РµР»РµРј (Р±РµСЃРєР°РїРѕС‚РЅР°СЏ)
      * 
      * @param compositing
      */
@@ -48,7 +48,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Get the 'SleepPlaceNumber' element value. Количество спальных мест ("0" - в случае отсутствия спальных мест)
+     * Get the 'SleepPlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРїР°Р»СЊРЅС‹С… РјРµСЃС‚ ("0" - РІ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ СЃРїР°Р»СЊРЅС‹С… РјРµСЃС‚)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Set the 'SleepPlaceNumber' element value. Количество спальных мест ("0" - в случае отсутствия спальных мест)
+     * Set the 'SleepPlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРїР°Р»СЊРЅС‹С… РјРµСЃС‚ ("0" - РІ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ СЃРїР°Р»СЊРЅС‹С… РјРµСЃС‚)
      * 
      * @param sleepPlaceNumber
      */
@@ -66,7 +66,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Get the 'Skatnost' element value. Колеса задних осей: "1" - односкатные, "2" - двускатные
+     * Get the 'Skatnost' element value. РљРѕР»РµСЃР° Р·Р°РґРЅРёС… РѕСЃРµР№: "1" - РѕРґРЅРѕСЃРєР°С‚РЅС‹Рµ, "2" - РґРІСѓСЃРєР°С‚РЅС‹Рµ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class TruckParametersType
     }
 
     /** 
-     * Set the 'Skatnost' element value. Колеса задних осей: "1" - односкатные, "2" - двускатные
+     * Set the 'Skatnost' element value. РљРѕР»РµСЃР° Р·Р°РґРЅРёС… РѕСЃРµР№: "1" - РѕРґРЅРѕСЃРєР°С‚РЅС‹Рµ, "2" - РґРІСѓСЃРєР°С‚РЅС‹Рµ
      * 
      * @param skatnost
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodscheckreport;
 
 /** 
- * Сведения о штампах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С€С‚Р°РјРїР°С…
  */
 public class MarksType
 {
@@ -10,7 +10,7 @@ public class MarksType
     private String value;
 
     /** 
-     * Get the 'NameMarks' element value. Наименование штампа
+     * Get the 'NameMarks' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С€С‚Р°РјРїР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class MarksType
     }
 
     /** 
-     * Set the 'NameMarks' element value. Наименование штампа
+     * Set the 'NameMarks' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С€С‚Р°РјРїР°
      * 
      * @param nameMarks
      */
@@ -28,7 +28,7 @@ public class MarksType
     }
 
     /** 
-     * Get the 'Value' element value. Присутствие штампа. 0- отсутствует, 1 - есть
+     * Get the 'Value' element value. РџСЂРёСЃСѓС‚СЃС‚РІРёРµ С€С‚Р°РјРїР°. 0- РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚, 1 - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class MarksType
     }
 
     /** 
-     * Set the 'Value' element value. Присутствие штампа. 0- отсутствует, 1 - есть
+     * Set the 'Value' element value. РџСЂРёСЃСѓС‚СЃС‚РІРёРµ С€С‚Р°РјРїР°. 0- РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚, 1 - РµСЃС‚СЊ
      * 
      * @param value
      */

@@ -5,13 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Заявление на припасы
+ * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїСЂРёРїР°СЃС‹
  */
 public class ApplicationStoreType extends BaseDocType
 {
@@ -20,8 +21,8 @@ public class ApplicationStoreType extends BaseDocType
     private String customsModeCode;
     private String goalAction;
     private String ethnicityFlag;
-    private OrganizationBaseType declarant;
-    private OrganizationBaseType carrier;
+    private CUOrganizationType declarant;
+    private CarrierType carrier;
     private TransportInformType transportInfom;
     private StoreInfromType storeInform;
     private PersonBaseType person;
@@ -33,7 +34,7 @@ public class ApplicationStoreType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDate' element value. Дата составления документа
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +43,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата составления документа
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDate
      */
@@ -51,7 +52,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'MoveDirection' element value. Направление перемещения
+     * Get the 'MoveDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -60,7 +61,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'MoveDirection' element value. Направление перемещения
+     * Set the 'MoveDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ
      * 
      * @param moveDirection
      */
@@ -69,7 +70,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код таможенного режима
+     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
      * 
      * @return value
      */
@@ -78,7 +79,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код таможенного режима
+     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
      * 
      * @param customsModeCode
      */
@@ -87,7 +88,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoalAction' element value. Цель перемещения припасов: "1" - ввоз, "2" - вывоз, "3" - выгрузка, "4" - передача.
+     * Get the 'GoalAction' element value. Р¦РµР»СЊ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ: "1" - РІРІРѕР·, "2" - РІС‹РІРѕР·, "3" - РІС‹РіСЂСѓР·РєР°, "4" - РїРµСЂРµРґР°С‡Р°.
      * 
      * @return value
      */
@@ -96,7 +97,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoalAction' element value. Цель перемещения припасов: "1" - ввоз, "2" - вывоз, "3" - выгрузка, "4" - передача.
+     * Set the 'GoalAction' element value. Р¦РµР»СЊ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ: "1" - РІРІРѕР·, "2" - РІС‹РІРѕР·, "3" - РІС‹РіСЂСѓР·РєР°, "4" - РїРµСЂРµРґР°С‡Р°.
      * 
      * @param goalAction
      */
@@ -105,7 +106,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'EthnicityFlag' element value. Национальная принадлежность припасов: 0 - иностранное; 1 - российское
+     * Get the 'EthnicityFlag' element value. РќР°С†РёРѕРЅР°Р»СЊРЅР°СЏ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ РїСЂРёРїР°СЃРѕРІ: 0 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ; 1 - СЂРѕСЃСЃРёР№СЃРєРѕРµ
      * 
      * @return value
      */
@@ -114,7 +115,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'EthnicityFlag' element value. Национальная принадлежность припасов: 0 - иностранное; 1 - российское
+     * Set the 'EthnicityFlag' element value. РќР°С†РёРѕРЅР°Р»СЊРЅР°СЏ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ РїСЂРёРїР°СЃРѕРІ: 0 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ; 1 - СЂРѕСЃСЃРёР№СЃРєРѕРµ
      * 
      * @param ethnicityFlag
      */
@@ -123,43 +124,43 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о декларанте
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @return value
      */
-    public OrganizationBaseType getDeclarant() {
+    public CUOrganizationType getDeclarant() {
         return declarant;
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о декларанте
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @param declarant
      */
-    public void setDeclarant(OrganizationBaseType declarant) {
+    public void setDeclarant(CUOrganizationType declarant) {
         this.declarant = declarant;
     }
 
     /** 
-     * Get the 'Carrier' element value. Сведения о перевозчике
+     * Get the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @return value
      */
-    public OrganizationBaseType getCarrier() {
+    public CarrierType getCarrier() {
         return carrier;
     }
 
     /** 
-     * Set the 'Carrier' element value. Сведения о перевозчике
+     * Set the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @param carrier
      */
-    public void setCarrier(OrganizationBaseType carrier) {
+    public void setCarrier(CarrierType carrier) {
         this.carrier = carrier;
     }
 
     /** 
-     * Get the 'TransportInfom' element value. Сведения о транспорте
+     * Get the 'TransportInfom' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @return value
      */
@@ -168,7 +169,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportInfom' element value. Сведения о транспорте
+     * Set the 'TransportInfom' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @param transportInfom
      */
@@ -177,7 +178,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'StoreInform' element value. Сведения о припасах
+     * Get the 'StoreInform' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРїР°СЃР°С…
      * 
      * @return value
      */
@@ -186,7 +187,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'StoreInform' element value. Сведения о припасах
+     * Set the 'StoreInform' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРїР°СЃР°С…
      * 
      * @param storeInform
      */
@@ -195,7 +196,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Подпись лица составившего заявление.
+     * Get the 'Person' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р° СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р·Р°СЏРІР»РµРЅРёРµ.
      * 
      * @return value
      */
@@ -204,7 +205,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Подпись лица составившего заявление.
+     * Set the 'Person' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р° СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р·Р°СЏРІР»РµРЅРёРµ.
      * 
      * @param person
      */
@@ -213,7 +214,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -222,7 +223,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -231,7 +232,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PresentedDoc' element items. Дополнительные документы
+     * Get the list of 'PresentedDoc' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -240,7 +241,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PresentedDoc' element items. Дополнительные документы
+     * Set the list of 'PresentedDoc' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -249,7 +250,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsigneeInfo' element value. Сведения о лице, которому передаются припасы
+     * Get the 'ConsigneeInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РїРµСЂРµРґР°СЋС‚СЃСЏ РїСЂРёРїР°СЃС‹
      * 
      * @return value
      */
@@ -258,7 +259,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsigneeInfo' element value. Сведения о лице, которому передаются припасы
+     * Set the 'ConsigneeInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РїРµСЂРµРґР°СЋС‚СЃСЏ РїСЂРёРїР°СЃС‹
      * 
      * @param consigneeInfo
      */
@@ -267,7 +268,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер таможенной декларации
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -276,7 +277,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер таможенной декларации
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param GTDID
      */
@@ -285,7 +286,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumer' element value. Регистрационный номер заявления
+     * Get the 'RegNumer' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -294,7 +295,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumer' element value. Регистрационный номер заявления
+     * Set the 'RegNumer' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param regNumer
      */
@@ -303,7 +304,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -312,7 +313,7 @@ public class ApplicationStoreType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

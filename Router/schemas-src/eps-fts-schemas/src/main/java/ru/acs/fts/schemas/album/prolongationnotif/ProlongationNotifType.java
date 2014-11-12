@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о продлении срока выпуска товаров
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
  */
 public class ProlongationNotifType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class ProlongationNotifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NotifDate' element value. Дата уведомления
+     * Get the 'NotifDate' element value. Р”Р°С‚Р° СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifDate' element value. Дата уведомления
+     * Set the 'NotifDate' element value. Р”Р°С‚Р° СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param notifDate
      */
@@ -41,7 +41,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifTime' element value. Время уведомления
+     * Get the 'NotifTime' element value. Р’СЂРµРјСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifTime' element value. Время уведомления
+     * Set the 'NotifTime' element value. Р’СЂРµРјСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param notifTime
      */
@@ -59,7 +59,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProlongDate' element value. Дата, до которой продлевается срок
+     * Get the 'ProlongDate' element value. Р”Р°С‚Р°, РґРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРґР»РµРІР°РµС‚СЃСЏ СЃСЂРѕРє
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProlongDate' element value. Дата, до которой продлевается срок
+     * Set the 'ProlongDate' element value. Р”Р°С‚Р°, РґРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРґР»РµРІР°РµС‚СЃСЏ СЃСЂРѕРє
      * 
      * @param prolongDate
      */
@@ -77,7 +77,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reasons' element value. Основание продления срока
+     * Get the 'Reasons' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reasons' element value. Основание продления срока
+     * Set the 'Reasons' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР°
      * 
      * @param reasons
      */
@@ -95,7 +95,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -113,7 +113,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDT' element value. Регистрационный номер ДТ
+     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Регистрационный номер ДТ
+     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param regNumberDT
      */
@@ -131,7 +131,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -149,7 +149,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -167,7 +167,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class ProlongationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.notifaddpayment;
 
 /** 
- * Дополнительный платеж
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїР»Р°С‚РµР¶
  */
 public class AddPaymentType
 {
@@ -11,7 +11,7 @@ public class AddPaymentType
     private String comments;
 
     /** 
-     * Get the 'Summa' element value. Сумма платежа
+     * Get the 'Summa' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AddPaymentType
     }
 
     /** 
-     * Set the 'Summa' element value. Сумма платежа
+     * Set the 'Summa' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param summa
      */
@@ -29,7 +29,7 @@ public class AddPaymentType
     }
 
     /** 
-     * Get the 'Currency' element value. Код валюты платежа
+     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class AddPaymentType
     }
 
     /** 
-     * Set the 'Currency' element value. Код валюты платежа
+     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param currency
      */
@@ -47,7 +47,7 @@ public class AddPaymentType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class AddPaymentType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения о компоненте функционального блока
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїРѕРЅРµРЅС‚Рµ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРіРѕ Р±Р»РѕРєР°
  */
 public class MechUnitPartType extends ComponentDescriptionType
 {
     private String partDescription;
 
     /** 
-     * Get the 'PartDescription' element value. Наименование компоненты
+     * Get the 'PartDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚С‹
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class MechUnitPartType extends ComponentDescriptionType
     }
 
     /** 
-     * Set the 'PartDescription' element value. Наименование компоненты
+     * Set the 'PartDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚С‹
      * 
      * @param partDescription
      */

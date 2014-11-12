@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 import ru.acs.fts.schemas.aud.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Регистрационный номер ГТД
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р“РўР”
  */
 public class AUDGTDIDType extends GTDIDType
 {
     private String GTDIDState;
 
     /** 
-     * Get the 'GTDIDState' element value. Статус номера ГТД 01 - актуальный, 99 - номер был  изменен
+     * Get the 'GTDIDState' element value. РЎС‚Р°С‚СѓСЃ РЅРѕРјРµСЂР° Р“РўР” 01 - Р°РєС‚СѓР°Р»СЊРЅС‹Р№, 99 - РЅРѕРјРµСЂ Р±С‹Р»  РёР·РјРµРЅРµРЅ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AUDGTDIDType extends GTDIDType
     }
 
     /** 
-     * Set the 'GTDIDState' element value. Статус номера ГТД 01 - актуальный, 99 - номер был  изменен
+     * Set the 'GTDIDState' element value. РЎС‚Р°С‚СѓСЃ РЅРѕРјРµСЂР° Р“РўР” 01 - Р°РєС‚СѓР°Р»СЊРЅС‹Р№, 99 - РЅРѕРјРµСЂ Р±С‹Р»  РёР·РјРµРЅРµРЅ
      * 
      * @param GTDIDState
      */

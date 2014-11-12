@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.rznmedizd;
 
 /** 
- * Класс безопасности
+ * РљР»Р°СЃСЃ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё
  */
 public class SecurityClassType
 {
@@ -10,7 +10,7 @@ public class SecurityClassType
     private String name;
 
     /** 
-     * Get the 'ClassId' element value. Внутренний идентификатор класса
+     * Get the 'ClassId' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР»Р°СЃСЃР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class SecurityClassType
     }
 
     /** 
-     * Set the 'ClassId' element value. Внутренний идентификатор класса
+     * Set the 'ClassId' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР»Р°СЃСЃР°
      * 
      * @param classId
      */
@@ -28,7 +28,7 @@ public class SecurityClassType
     }
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class SecurityClassType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */

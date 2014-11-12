@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Лист отказа в регистрации таможенного документа
+ * Р›РёСЃС‚ РѕС‚РєР°Р·Р° РІ СЂРµРіРёСЃС‚СЂР°С†РёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class RepudDeclRegistrationType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegNumber' element value. Регистрационный номер листа отказа в регистрации ДТ
+     * Get the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р° РѕС‚РєР°Р·Р° РІ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. Регистрационный номер листа отказа в регистрации ДТ
+     * Set the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р° РѕС‚РєР°Р·Р° РІ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
      * 
      * @param regNumber
      */
@@ -41,7 +41,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSign' element value. Признак документа: 0 - отказ в регистрации КДТ; 1 - иное
+     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РѕС‚РєР°Р· РІ СЂРµРіРёСЃС‚СЂР°С†РёРё РљР”Рў; 1 - РёРЅРѕРµ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. Признак документа: 0 - отказ в регистрации КДТ; 1 - иное
+     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РѕС‚РєР°Р· РІ СЂРµРіРёСЃС‚СЂР°С†РёРё РљР”Рў; 1 - РёРЅРѕРµ
      * 
      * @param documentSign
      */
@@ -59,7 +59,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. Наименование декларанта или таможенного представителя
+     * Get the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. Наименование декларанта или таможенного представителя
+     * Set the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @param organization
      */
@@ -77,7 +77,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DescriptionReasons' element items. Описание причины отказа
+     * Get the list of 'DescriptionReasons' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
      * 
      * @return list
      */
@@ -86,7 +86,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DescriptionReasons' element items. Описание причины отказа
+     * Set the list of 'DescriptionReasons' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
      * 
      * @param list
      */
@@ -95,7 +95,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPersonSignature' element value. Подпись должностного лица
+     * Get the 'CustomsPersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPersonSignature' element value. Подпись должностного лица
+     * Set the 'CustomsPersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param customsPersonSignature
      */
@@ -114,7 +114,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclRegNumber' element value. Регистрационный номер таможенной декларации
+     * Get the 'DeclRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclRegNumber' element value. Регистрационный номер таможенной декларации
+     * Set the 'DeclRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param declRegNumber
      */
@@ -132,7 +132,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantRequest' element value. Обращение декларанта о внесении изменений (дополнений) в таможенную декларацию
+     * Get the 'DeclarantRequest' element value. РћР±СЂР°С‰РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) РІ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РґРµРєР»Р°СЂР°С†РёСЋ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantRequest' element value. Обращение декларанта о внесении изменений (дополнений) в таможенную декларацию
+     * Set the 'DeclarantRequest' element value. РћР±СЂР°С‰РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) РІ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РґРµРєР»Р°СЂР°С†РёСЋ
      * 
      * @param declarantRequest
      */
@@ -150,7 +150,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class RepudDeclRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

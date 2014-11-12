@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.arrivaldepartcargodecl;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Реквизиты коносамента на груз (товар), подлежащий выгрузке в порту прихода
+ * Р РµРєРІРёР·РёС‚С‹ РєРѕРЅРѕСЃР°РјРµРЅС‚Р° РЅР° РіСЂСѓР· (С‚РѕРІР°СЂ), РїРѕРґР»РµР¶Р°С‰РёР№ РІС‹РіСЂСѓР·РєРµ РІ РїРѕСЂС‚Сѓ РїСЂРёС…РѕРґР°
  */
 public class BillofLadingType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class BillofLadingType extends DocumentBaseType
     private String departureGoodsPort;
 
     /** 
-     * Get the 'DebarkationPort' element value. Название порта выгрузки грузов (товаров), оставшихся на борту судна
+     * Get the 'DebarkationPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РІС‹РіСЂСѓР·РєРё РіСЂСѓР·РѕРІ (С‚РѕРІР°СЂРѕРІ), РѕСЃС‚Р°РІС€РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class BillofLadingType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DebarkationPort' element value. Название порта выгрузки грузов (товаров), оставшихся на борту судна
+     * Set the 'DebarkationPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РІС‹РіСЂСѓР·РєРё РіСЂСѓР·РѕРІ (С‚РѕРІР°СЂРѕРІ), РѕСЃС‚Р°РІС€РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ СЃСѓРґРЅР°
      * 
      * @param debarkationPort
      */
@@ -30,7 +30,7 @@ public class BillofLadingType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DepartureGoodsPort' element value. Название первоначальных портов отправления грузов (товаров), перевозимых по коносаментам
+     * Get the 'DepartureGoodsPort' element value. РќР°Р·РІР°РЅРёРµ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹С… РїРѕСЂС‚РѕРІ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РіСЂСѓР·РѕРІ (С‚РѕРІР°СЂРѕРІ), РїРµСЂРµРІРѕР·РёРјС‹С… РїРѕ РєРѕРЅРѕСЃР°РјРµРЅС‚Р°Рј
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class BillofLadingType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DepartureGoodsPort' element value. Название первоначальных портов отправления грузов (товаров), перевозимых по коносаментам
+     * Set the 'DepartureGoodsPort' element value. РќР°Р·РІР°РЅРёРµ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹С… РїРѕСЂС‚РѕРІ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РіСЂСѓР·РѕРІ (С‚РѕРІР°СЂРѕРІ), РїРµСЂРµРІРѕР·РёРјС‹С… РїРѕ РєРѕРЅРѕСЃР°РјРµРЅС‚Р°Рј
      * 
      * @param departureGoodsPort
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cwquitance;
 
 /** 
- * Ошибки
+ * РћС€РёР±РєРё
  */
 public class ErrorsType
 {
@@ -11,7 +11,7 @@ public class ErrorsType
     private String errorText;
 
     /** 
-     * Get the 'CommandErrorText' element value. Общее описание возникшей ошибки
+     * Get the 'CommandErrorText' element value. РћР±С‰РµРµ РѕРїРёСЃР°РЅРёРµ РІРѕР·РЅРёРєС€РµР№ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ErrorsType
     }
 
     /** 
-     * Set the 'CommandErrorText' element value. Общее описание возникшей ошибки
+     * Set the 'CommandErrorText' element value. РћР±С‰РµРµ РѕРїРёСЃР°РЅРёРµ РІРѕР·РЅРёРєС€РµР№ РѕС€РёР±РєРё
      * 
      * @param commandErrorText
      */
@@ -29,7 +29,7 @@ public class ErrorsType
     }
 
     /** 
-     * Get the 'CommandErrorCode' element value. Код ошибки
+     * Get the 'CommandErrorCode' element value. РљРѕРґ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ErrorsType
     }
 
     /** 
-     * Set the 'CommandErrorCode' element value. Код ошибки
+     * Set the 'CommandErrorCode' element value. РљРѕРґ РѕС€РёР±РєРё
      * 
      * @param commandErrorCode
      */
@@ -47,7 +47,7 @@ public class ErrorsType
     }
 
     /** 
-     * Get the 'ErrorText' element value. Текст ошибки
+     * Get the 'ErrorText' element value. РўРµРєСЃС‚ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ErrorsType
     }
 
     /** 
-     * Set the 'ErrorText' element value. Текст ошибки
+     * Set the 'ErrorText' element value. РўРµРєСЃС‚ РѕС€РёР±РєРё
      * 
      * @param errorText
      */

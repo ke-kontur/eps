@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.classdecisionchange;
 
 /** 
- * Описание изменений
+ * РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРёР№
  */
 public class ChangesDescriptionType
 {
@@ -11,7 +11,7 @@ public class ChangesDescriptionType
     private String newValue;
 
     /** 
-     * Get the 'GRNumber' element value. Номер графы
+     * Get the 'GRNumber' element value. РќРѕРјРµСЂ РіСЂР°С„С‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the 'GRNumber' element value. Номер графы
+     * Set the 'GRNumber' element value. РќРѕРјРµСЂ РіСЂР°С„С‹
      * 
      * @param GRNumber
      */
@@ -29,7 +29,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Get the 'PreviousValue' element value. Старое значение
+     * Get the 'PreviousValue' element value. РЎС‚Р°СЂРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the 'PreviousValue' element value. Старое значение
+     * Set the 'PreviousValue' element value. РЎС‚Р°СЂРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param previousValue
      */
@@ -47,7 +47,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Get the 'NewValue' element value. Новое значение
+     * Get the 'NewValue' element value. РќРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the 'NewValue' element value. Новое значение
+     * Set the 'NewValue' element value. РќРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param newValue
      */

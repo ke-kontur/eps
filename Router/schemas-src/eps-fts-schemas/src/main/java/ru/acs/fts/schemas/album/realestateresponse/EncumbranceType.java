@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Ограничение права
+ * РћРіСЂР°РЅРёС‡РµРЅРёРµ РїСЂР°РІР°
  */
 public class EncumbranceType
 {
@@ -22,7 +22,7 @@ public class EncumbranceType
     private List<FoundationDocType> foundationDocList = new ArrayList<FoundationDocType>();
 
     /** 
-     * Get the 'RegDate' element value. Дата государственной регистрации
+     * Get the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'RegDate' element value. Дата государственной регистрации
+     * Set the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regDate
      */
@@ -40,7 +40,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'RegNum' element value. Номер государственной регистрации 
+     * Get the 'RegNum' element value. РќРѕРјРµСЂ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'RegNum' element value. Номер государственной регистрации 
+     * Set the 'RegNum' element value. РќРѕРјРµСЂ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
      * 
      * @param regNum
      */
@@ -58,7 +58,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'ShareText' element value. Предмет ограничения
+     * Get the 'ShareText' element value. РџСЂРµРґРјРµС‚ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'ShareText' element value. Предмет ограничения
+     * Set the 'ShareText' element value. РџСЂРµРґРјРµС‚ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ
      * 
      * @param shareText
      */
@@ -76,7 +76,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'StartDate' element value. Дата начала действия
+     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'StartDate' element value. Дата начала действия
+     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
      * 
      * @param startDate
      */
@@ -94,7 +94,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата прекращения действия
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата прекращения действия
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ
      * 
      * @param endDate
      */
@@ -112,7 +112,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'Term' element value. Продолжительность
+     * Get the 'Term' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'Term' element value. Продолжительность
+     * Set the 'Term' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ
      * 
      * @param term
      */
@@ -130,7 +130,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'AllShareOwner' element value. Участники  долевого строительства по договорам участия в долевом строительстве
+     * Get the 'AllShareOwner' element value. РЈС‡Р°СЃС‚РЅРёРєРё  РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР° РїРѕ РґРѕРіРѕРІРѕСЂР°Рј СѓС‡Р°СЃС‚РёСЏ РІ РґРѕР»РµРІРѕРј СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРµ
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'AllShareOwner' element value. Участники  долевого строительства по договорам участия в долевом строительстве
+     * Set the 'AllShareOwner' element value. РЈС‡Р°СЃС‚РЅРёРєРё  РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР° РїРѕ РґРѕРіРѕРІРѕСЂР°Рј СѓС‡Р°СЃС‚РёСЏ РІ РґРѕР»РµРІРѕРј СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРµ
      * 
      * @param allShareOwner
      */
@@ -148,7 +148,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the 'EncumbranceDetails' element value. Описание ограничения права
+     * Get the 'EncumbranceDetails' element value. РћРїРёСЃР°РЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїСЂР°РІР°
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the 'EncumbranceDetails' element value. Описание ограничения права
+     * Set the 'EncumbranceDetails' element value. РћРїРёСЃР°РЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїСЂР°РІР°
      * 
      * @param encumbranceDetails
      */
@@ -166,7 +166,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the list of 'Owner' element items. Лица, в пользу которых ограничиваются права
+     * Get the list of 'Owner' element items. Р›РёС†Р°, РІ РїРѕР»СЊР·Сѓ РєРѕС‚РѕСЂС‹С… РѕРіСЂР°РЅРёС‡РёРІР°СЋС‚СЃСЏ РїСЂР°РІР°
      * 
      * @return list
      */
@@ -175,7 +175,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the list of 'Owner' element items. Лица, в пользу которых ограничиваются права
+     * Set the list of 'Owner' element items. Р›РёС†Р°, РІ РїРѕР»СЊР·Сѓ РєРѕС‚РѕСЂС‹С… РѕРіСЂР°РЅРёС‡РёРІР°СЋС‚СЃСЏ РїСЂР°РІР°
      * 
      * @param list
      */
@@ -184,7 +184,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Get the list of 'FoundationDoc' element items. Документы - основания регистрации ограничения
+     * Get the list of 'FoundationDoc' element items. Р”РѕРєСѓРјРµРЅС‚С‹ - РѕСЃРЅРѕРІР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕРіСЂР°РЅРёС‡РµРЅРёСЏ
      * 
      * @return list
      */
@@ -193,7 +193,7 @@ public class EncumbranceType
     }
 
     /** 
-     * Set the list of 'FoundationDoc' element items. Документы - основания регистрации ограничения
+     * Set the list of 'FoundationDoc' element items. Р”РѕРєСѓРјРµРЅС‚С‹ - РѕСЃРЅРѕРІР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕРіСЂР°РЅРёС‡РµРЅРёСЏ
      * 
      * @param list
      */

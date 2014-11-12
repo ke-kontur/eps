@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 
 /** 
- * Авиагрузовая накладная 
+ * РђРІРёР°РіСЂСѓР·РѕРІР°СЏ РЅР°РєР»Р°РґРЅР°СЏ 
  */
 public class AirWaybillType extends BaseDocType
 {
@@ -39,7 +39,7 @@ public class AirWaybillType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'AgreedValuation' element value. Декларируемая стоимость  для перевозки. При NVD -  не заполняется
+     * Get the 'AgreedValuation' element value. Р”РµРєР»Р°СЂРёСЂСѓРµРјР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ  РґР»СЏ РїРµСЂРµРІРѕР·РєРё. РџСЂРё NVD -  РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'AgreedValuation' element value. Декларируемая стоимость  для перевозки. При NVD -  не заполняется
+     * Set the 'AgreedValuation' element value. Р”РµРєР»Р°СЂРёСЂСѓРµРјР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ  РґР»СЏ РїРµСЂРµРІРѕР·РєРё. РџСЂРё NVD -  РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
      * 
      * @param agreedValuation
      */
@@ -57,7 +57,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'AgreedValuationCurrencyCode' element value. Код валюты, принятой в стране отправления
+     * Get the 'AgreedValuationCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹, РїСЂРёРЅСЏС‚РѕР№ РІ СЃС‚СЂР°РЅРµ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'AgreedValuationCurrencyCode' element value. Код валюты, принятой в стране отправления
+     * Set the 'AgreedValuationCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹, РїСЂРёРЅСЏС‚РѕР№ РІ СЃС‚СЂР°РЅРµ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param agreedValuationCurrencyCode
      */
@@ -76,7 +76,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalCost' element value. Объявленная стоимость товара для таможни. В случае NCV элемент не заполняется
+     * Get the 'TotalCost' element value. РћР±СЉСЏРІР»РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РґР»СЏ С‚Р°РјРѕР¶РЅРё. Р’ СЃР»СѓС‡Р°Рµ NCV СЌР»РµРјРµРЅС‚ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalCost' element value. Объявленная стоимость товара для таможни. В случае NCV элемент не заполняется
+     * Set the 'TotalCost' element value. РћР±СЉСЏРІР»РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РґР»СЏ С‚Р°РјРѕР¶РЅРё. Р’ СЃР»СѓС‡Р°Рµ NCV СЌР»РµРјРµРЅС‚ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
      * 
      * @param totalCost
      */
@@ -94,7 +94,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'NCVIndicator' element value. Индикатор незаявления стоимости (NCV): 1 - если не заявлена стоимость, 0 - стоимость заявлена в элементе TotalCost
+     * Get the 'NCVIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РЅРµР·Р°СЏРІР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё (NCV): 1 - РµСЃР»Рё РЅРµ Р·Р°СЏРІР»РµРЅР° СЃС‚РѕРёРјРѕСЃС‚СЊ, 0 - СЃС‚РѕРёРјРѕСЃС‚СЊ Р·Р°СЏРІР»РµРЅР° РІ СЌР»РµРјРµРЅС‚Рµ TotalCost
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'NCVIndicator' element value. Индикатор незаявления стоимости (NCV): 1 - если не заявлена стоимость, 0 - стоимость заявлена в элементе TotalCost
+     * Set the 'NCVIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РЅРµР·Р°СЏРІР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё (NCV): 1 - РµСЃР»Рё РЅРµ Р·Р°СЏРІР»РµРЅР° СЃС‚РѕРёРјРѕСЃС‚СЊ, 0 - СЃС‚РѕРёРјРѕСЃС‚СЊ Р·Р°СЏРІР»РµРЅР° РІ СЌР»РµРјРµРЅС‚Рµ TotalCost
      * 
      * @param NCVIndicator
      */
@@ -112,7 +112,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsuranceCost' element value. Стоимость страховки . При  XXX элемент не заполняется.
+     * Get the 'InsuranceCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃС‚СЂР°С…РѕРІРєРё . РџСЂРё  XXX СЌР»РµРјРµРЅС‚ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsuranceCost' element value. Стоимость страховки . При  XXX элемент не заполняется.
+     * Set the 'InsuranceCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃС‚СЂР°С…РѕРІРєРё . РџСЂРё  XXX СЌР»РµРјРµРЅС‚ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
      * 
      * @param insuranceCost
      */
@@ -130,7 +130,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'XXXIndicator' element value. Индикатор незаявления стоимости страховки (XXX): 1 -  если не заявлена страховка, 0 - страховка заявлена в  элементе InsuranceCost
+     * Get the 'XXXIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РЅРµР·Р°СЏРІР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё СЃС‚СЂР°С…РѕРІРєРё (XXX): 1 -  РµСЃР»Рё РЅРµ Р·Р°СЏРІР»РµРЅР° СЃС‚СЂР°С…РѕРІРєР°, 0 - СЃС‚СЂР°С…РѕРІРєР° Р·Р°СЏРІР»РµРЅР° РІ  СЌР»РµРјРµРЅС‚Рµ InsuranceCost
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'XXXIndicator' element value. Индикатор незаявления стоимости страховки (XXX): 1 -  если не заявлена страховка, 0 - страховка заявлена в  элементе InsuranceCost
+     * Set the 'XXXIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РЅРµР·Р°СЏРІР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё СЃС‚СЂР°С…РѕРІРєРё (XXX): 1 -  РµСЃР»Рё РЅРµ Р·Р°СЏРІР»РµРЅР° СЃС‚СЂР°С…РѕРІРєР°, 0 - СЃС‚СЂР°С…РѕРІРєР° Р·Р°СЏРІР»РµРЅР° РІ  СЌР»РµРјРµРЅС‚Рµ InsuranceCost
      * 
      * @param XXXIndicator
      */
@@ -148,7 +148,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'SCI' element value. Таможенный статус груза  (Код SCI)
+     * Get the 'SCI' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃС‚Р°С‚СѓСЃ РіСЂСѓР·Р°  (РљРѕРґ SCI)
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'SCI' element value. Таможенный статус груза  (Код SCI)
+     * Set the 'SCI' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃС‚Р°С‚СѓСЃ РіСЂСѓР·Р°  (РљРѕРґ SCI)
      * 
      * @param SCI
      */
@@ -166,7 +166,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'NVDIndicator' element value. Индикатор незаявления стоимости для перевозки (NVD): 1 - если стоимость  товара не заявлена, 0 - стоимость для перевозки заявлена в элементе AgreedValuation
+     * Get the 'NVDIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РЅРµР·Р°СЏРІР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё РґР»СЏ РїРµСЂРµРІРѕР·РєРё (NVD): 1 - РµСЃР»Рё СЃС‚РѕРёРјРѕСЃС‚СЊ  С‚РѕРІР°СЂР° РЅРµ Р·Р°СЏРІР»РµРЅР°, 0 - СЃС‚РѕРёРјРѕСЃС‚СЊ РґР»СЏ РїРµСЂРµРІРѕР·РєРё Р·Р°СЏРІР»РµРЅР° РІ СЌР»РµРјРµРЅС‚Рµ AgreedValuation
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'NVDIndicator' element value. Индикатор незаявления стоимости для перевозки (NVD): 1 - если стоимость  товара не заявлена, 0 - стоимость для перевозки заявлена в элементе AgreedValuation
+     * Set the 'NVDIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РЅРµР·Р°СЏРІР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё РґР»СЏ РїРµСЂРµРІРѕР·РєРё (NVD): 1 - РµСЃР»Рё СЃС‚РѕРёРјРѕСЃС‚СЊ  С‚РѕРІР°СЂР° РЅРµ Р·Р°СЏРІР»РµРЅР°, 0 - СЃС‚РѕРёРјРѕСЃС‚СЊ РґР»СЏ РїРµСЂРµРІРѕР·РєРё Р·Р°СЏРІР»РµРЅР° РІ СЌР»РµРјРµРЅС‚Рµ AgreedValuation
      * 
      * @param NVDIndicator
      */
@@ -184,7 +184,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePoint' element value. Информация об аэропорте отправления или городе, если
+     * Get the 'DeparturePoint' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЌСЂРѕРїРѕСЂС‚Рµ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РёР»Рё РіРѕСЂРѕРґРµ, РµСЃР»Рё
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePoint' element value. Информация об аэропорте отправления или городе, если
+     * Set the 'DeparturePoint' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЌСЂРѕРїРѕСЂС‚Рµ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РёР»Рё РіРѕСЂРѕРґРµ, РµСЃР»Рё
      * 
      * @param departurePoint
      */
@@ -202,7 +202,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationPoint' element value. Информация об аэропорте назначения или городе, если
+     * Get the 'DestinationPoint' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЌСЂРѕРїРѕСЂС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё РіРѕСЂРѕРґРµ, РµСЃР»Рё
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationPoint' element value. Информация об аэропорте назначения или городе, если
+     * Set the 'DestinationPoint' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЌСЂРѕРїРѕСЂС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё РіРѕСЂРѕРґРµ, РµСЃР»Рё
      * 
      * @param destinationPoint
      */
@@ -220,7 +220,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Сведения о составлении накладной 
+     * Get the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РЅР°РєР»Р°РґРЅРѕР№ 
      * 
      * @return value
      */
@@ -229,7 +229,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Сведения о составлении накладной 
+     * Set the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РЅР°РєР»Р°РґРЅРѕР№ 
      * 
      * @param registration
      */
@@ -238,7 +238,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Реквизиты грузоотправителя
+     * Get the 'Consignor' element value. Р РµРєРІРёР·РёС‚С‹ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -247,7 +247,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Реквизиты грузоотправителя
+     * Set the 'Consignor' element value. Р РµРєРІРёР·РёС‚С‹ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @param consignor
      */
@@ -256,7 +256,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Реквизиты грузополучателя
+     * Get the 'Consignee' element value. Р РµРєРІРёР·РёС‚С‹ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -265,7 +265,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Реквизиты грузополучателя
+     * Set the 'Consignee' element value. Р РµРєРІРёР·РёС‚С‹ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param consignee
      */
@@ -274,7 +274,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssuingCarrierAgent' element value. Реквизиты агента выдающего перевозчика
+     * Get the 'IssuingCarrierAgent' element value. Р РµРєРІРёР·РёС‚С‹ Р°РіРµРЅС‚Р° РІС‹РґР°СЋС‰РµРіРѕ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -283,7 +283,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssuingCarrierAgent' element value. Реквизиты агента выдающего перевозчика
+     * Set the 'IssuingCarrierAgent' element value. Р РµРєРІРёР·РёС‚С‹ Р°РіРµРЅС‚Р° РІС‹РґР°СЋС‰РµРіРѕ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param issuingCarrierAgent
      */
@@ -292,7 +292,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Payment' element items. Информация о платежах 
+     * Get the list of 'Payment' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР¶Р°С… 
      * 
      * @return list
      */
@@ -301,7 +301,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Payment' element items. Информация о платежах 
+     * Set the list of 'Payment' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР¶Р°С… 
      * 
      * @param list
      */
@@ -310,7 +310,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsMovement' element items. Описание перемещения груза
+     * Get the list of 'GoodsMovement' element items. РћРїРёСЃР°РЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -319,7 +319,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsMovement' element items. Описание перемещения груза
+     * Set the list of 'GoodsMovement' element items. РћРїРёСЃР°РЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -328,7 +328,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'HandlingInfo' element items. Информация по обработке груза
+     * Get the list of 'HandlingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -337,7 +337,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'HandlingInfo' element items. Информация по обработке груза
+     * Set the list of 'HandlingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -346,7 +346,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueInfo' element value. Авиакомпания, выписавшая накладную
+     * Get the 'IssueInfo' element value. РђРІРёР°РєРѕРјРїР°РЅРёСЏ, РІС‹РїРёСЃР°РІС€Р°СЏ РЅР°РєР»Р°РґРЅСѓСЋ
      * 
      * @return value
      */
@@ -355,7 +355,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueInfo' element value. Авиакомпания, выписавшая накладную
+     * Set the 'IssueInfo' element value. РђРІРёР°РєРѕРјРїР°РЅРёСЏ, РІС‹РїРёСЃР°РІС€Р°СЏ РЅР°РєР»Р°РґРЅСѓСЋ
      * 
      * @param issueInfo
      */
@@ -364,7 +364,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'AWBGoodsInfo' element value. Информация о грузе и тарифах
+     * Get the 'AWBGoodsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіСЂСѓР·Рµ Рё С‚Р°СЂРёС„Р°С…
      * 
      * @return value
      */
@@ -373,7 +373,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'AWBGoodsInfo' element value. Информация о грузе и тарифах
+     * Set the 'AWBGoodsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіСЂСѓР·Рµ Рё С‚Р°СЂРёС„Р°С…
      * 
      * @param AWBGoodsInfo
      */
@@ -382,7 +382,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentInfo' element value. Информация по платежам
+     * Get the 'PaymentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РїР»Р°С‚РµР¶Р°Рј
      * 
      * @return value
      */
@@ -391,7 +391,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentInfo' element value. Информация по платежам
+     * Set the 'PaymentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РїР»Р°С‚РµР¶Р°Рј
      * 
      * @param paymentInfo
      */
@@ -400,7 +400,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsignorSign' element value. Подпись грузоотправителя
+     * Get the 'ConsignorSign' element value. РџРѕРґРїРёСЃСЊ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -409,7 +409,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsignorSign' element value. Подпись грузоотправителя
+     * Set the 'ConsignorSign' element value. РџРѕРґРїРёСЃСЊ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @param consignorSign
      */
@@ -418,7 +418,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierSign' element value. Подпись перевозчика
+     * Get the 'CarrierSign' element value. РџРѕРґРїРёСЃСЊ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -427,7 +427,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierSign' element value. Подпись перевозчика
+     * Set the 'CarrierSign' element value. РџРѕРґРїРёСЃСЊ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierSign
      */
@@ -436,7 +436,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @return value
      */
@@ -445,7 +445,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @param mark
      */
@@ -454,7 +454,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -463,7 +463,7 @@ public class AirWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

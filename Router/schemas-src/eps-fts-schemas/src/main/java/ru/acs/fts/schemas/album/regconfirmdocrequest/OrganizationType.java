@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.regconfirmdocrequest;
 
 /** 
- * Сведения об организации/физ. лице (юр. лицо/ИП)
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё/С„РёР·. Р»РёС†Рµ (СЋСЂ. Р»РёС†Рѕ/РРџ)
  */
 public class OrganizationType
         extends
@@ -11,7 +11,7 @@ public class OrganizationType
     private String orgSign;
 
     /** 
-     * Get the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
+     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class OrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
+     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
      * 
      * @param orgSign
      */

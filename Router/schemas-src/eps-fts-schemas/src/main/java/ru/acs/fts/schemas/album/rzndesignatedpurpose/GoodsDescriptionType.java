@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class GoodsDescriptionType
 {
@@ -18,7 +18,7 @@ public class GoodsDescriptionType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the list of 'GoodsName' element items. Наименование изделия
+     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РґРµР»РёСЏ
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. Наименование изделия
+     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РґРµР»РёСЏ
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. Страна происхождения
+     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. Страна происхождения
+     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountry
      */
@@ -54,7 +54,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. Производитель
+     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. Производитель
+     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
      * 
      * @param manufacturer
      */
@@ -72,7 +72,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodsPurpose' element value. Целевое назначение товара
+     * Get the 'GoodsPurpose' element value. Р¦РµР»РµРІРѕРµ РЅР°Р·РЅР°С‡РµРЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsPurpose' element value. Целевое назначение товара
+     * Set the 'GoodsPurpose' element value. Р¦РµР»РµРІРѕРµ РЅР°Р·РЅР°С‡РµРЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param goodsPurpose
      */
@@ -90,7 +90,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'ModelMark' element value. Модель (марка) товара
+     * Get the 'ModelMark' element value. РњРѕРґРµР»СЊ (РјР°СЂРєР°) С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'ModelMark' element value. Модель (марка) товара
+     * Set the 'ModelMark' element value. РњРѕРґРµР»СЊ (РјР°СЂРєР°) С‚РѕРІР°СЂР°
      * 
      * @param modelMark
      */
@@ -108,7 +108,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество товара
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество товара
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param quantity
      */

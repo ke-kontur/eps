@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Уведомление о прибытии и целостности/нарушении пломб
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё Рё С†РµР»РѕСЃС‚РЅРѕСЃС‚Рё/РЅР°СЂСѓС€РµРЅРёРё РїР»РѕРјР±
  */
 public class NotifArrivalIntegritySealType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Дата создания уведомления
+     * Get the 'Date' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Дата создания уведомления
+     * Set the 'Date' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param date
      */
@@ -39,7 +39,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'Time' element value. Время создания уведомления
+     * Get the 'Time' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'Time' element value. Время создания уведомления
+     * Set the 'Time' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param time
      */
@@ -57,7 +57,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'AcceptDate' element value. Дата прибытия товаров
+     * Get the 'AcceptDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'AcceptDate' element value. Дата прибытия товаров
+     * Set the 'AcceptDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param acceptDate
      */
@@ -75,7 +75,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'AcceptTime' element value. Время прибытия товаров
+     * Get the 'AcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'AcceptTime' element value. Время прибытия товаров
+     * Set the 'AcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param acceptTime
      */
@@ -93,7 +93,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'ModificationSign' element value. Признак того, что средства идентификации нарушены
+     * Get the 'ModificationSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё РЅР°СЂСѓС€РµРЅС‹
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'ModificationSign' element value. Признак того, что средства идентификации нарушены
+     * Set the 'ModificationSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё РЅР°СЂСѓС€РµРЅС‹
      * 
      * @param modificationSign
      */
@@ -111,7 +111,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'EconomicOperator' element value. Уполномоченный экономический оператор
+     * Get the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'EconomicOperator' element value. Уполномоченный экономический оператор
+     * Set the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
      * 
      * @param economicOperator
      */
@@ -129,7 +129,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'IdentifModification' element value. Нарушение средств идентификации
+     * Get the 'IdentifModification' element value. РќР°СЂСѓС€РµРЅРёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'IdentifModification' element value. Нарушение средств идентификации
+     * Set the 'IdentifModification' element value. РќР°СЂСѓС€РµРЅРёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param identifModification
      */
@@ -148,7 +148,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -166,7 +166,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class NotifArrivalIntegritySealType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

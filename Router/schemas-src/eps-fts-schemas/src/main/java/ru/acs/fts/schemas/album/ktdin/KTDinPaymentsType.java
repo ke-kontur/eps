@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUDelayPaymentsType;
 
 /** 
- * Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В.
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’.
  */
 public class KTDinPaymentsType
 {
@@ -14,7 +14,7 @@ public class KTDinPaymentsType
     private List<KDTSectionBCustomsPaymentType> KDTinCustomsPaymentList = new ArrayList<KDTSectionBCustomsPaymentType>();
 
     /** 
-     * Get the 'CUDelayPayments' element value. Отсрочка платежей гр.48
+     * Get the 'CUDelayPayments' element value. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KTDinPaymentsType
     }
 
     /** 
-     * Set the 'CUDelayPayments' element value. Отсрочка платежей гр.48
+     * Set the 'CUDelayPayments' element value. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
      * 
      * @param CUDelayPayments
      */
@@ -32,7 +32,7 @@ public class KTDinPaymentsType
     }
 
     /** 
-     * Get the list of 'KDTinCustomsPayment' element items. Уплата таможенных платежей. Гр. В
+     * Get the list of 'KDTinCustomsPayment' element items. РЈРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ. Р’
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class KTDinPaymentsType
     }
 
     /** 
-     * Set the list of 'KDTinCustomsPayment' element items. Уплата таможенных платежей. Гр. В
+     * Set the list of 'KDTinCustomsPayment' element items. РЈРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ. Р’
      * 
      * @param list
      */

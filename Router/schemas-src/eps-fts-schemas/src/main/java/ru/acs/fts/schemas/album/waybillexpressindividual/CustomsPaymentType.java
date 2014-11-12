@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.waybillexpressindividual;
 
 /** 
- * Таможенные платежи
+ * РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
  */
 public class CustomsPaymentType
 {
@@ -11,7 +11,7 @@ public class CustomsPaymentType
     private String paymentAmount;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @param paymentModeCode
      */
@@ -29,7 +29,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'TaxBase' element value. Основа начисления
+     * Get the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'TaxBase' element value. Основа начисления
+     * Set the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @param taxBase
      */
@@ -47,7 +47,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentAmount
      */

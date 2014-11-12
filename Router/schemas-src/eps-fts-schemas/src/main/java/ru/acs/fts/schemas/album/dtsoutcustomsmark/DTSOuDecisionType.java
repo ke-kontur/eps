@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.dtsoutcustomsmark;
 import ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust.CustomsCostDecisionType;
 
 /** 
- * Принятие решения по таможенной стоимости
+ * РџСЂРёРЅСЏС‚РёРµ СЂРµС€РµРЅРёСЏ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
  */
 public class DTSOuDecisionType extends CustomsCostDecisionType
 {
     private String personName;
 
     /** 
-     * Get the 'PersonName' element value. ФИО должностного лица
+     * Get the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSOuDecisionType extends CustomsCostDecisionType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО должностного лица
+     * Set the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param personName
      */

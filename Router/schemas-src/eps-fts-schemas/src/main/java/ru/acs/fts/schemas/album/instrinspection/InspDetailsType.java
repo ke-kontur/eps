@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения об особенностях досмотра
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЏС… РґРѕСЃРјРѕС‚СЂР°
  */
 public class InspDetailsType
 {
@@ -16,7 +16,7 @@ public class InspDetailsType
     private UseIdentType useIdent;
 
     /** 
-     * Get the 'InspGoal' element value. Цель досмотра
+     * Get the 'InspGoal' element value. Р¦РµР»СЊ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Set the 'InspGoal' element value. Цель досмотра
+     * Set the 'InspGoal' element value. Р¦РµР»СЊ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspGoal
      */
@@ -34,7 +34,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Get the 'InspEffort' element value. Объем досмотра
+     * Get the 'InspEffort' element value. РћР±СЉРµРј РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Set the 'InspEffort' element value. Объем досмотра
+     * Set the 'InspEffort' element value. РћР±СЉРµРј РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspEffort
      */
@@ -52,7 +52,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Get the 'InspLavel' element value. Степень досмотра
+     * Get the 'InspLavel' element value. РЎС‚РµРїРµРЅСЊ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Set the 'InspLavel' element value. Степень досмотра
+     * Set the 'InspLavel' element value. РЎС‚РµРїРµРЅСЊ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspLavel
      */
@@ -70,7 +70,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Get the list of 'UseTSTK' element items. Применение ТСТК
+     * Get the list of 'UseTSTK' element items. РџСЂРёРјРµРЅРµРЅРёРµ РўРЎРўРљ
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Set the list of 'UseTSTK' element items. Применение ТСТК
+     * Set the list of 'UseTSTK' element items. РџСЂРёРјРµРЅРµРЅРёРµ РўРЎРўРљ
      * 
      * @param list
      */
@@ -88,7 +88,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Get the 'UseIdent' element value. Применение средств идентификации
+     * Get the 'UseIdent' element value. РџСЂРёРјРµРЅРµРЅРёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class InspDetailsType
     }
 
     /** 
-     * Set the 'UseIdent' element value. Применение средств идентификации
+     * Set the 'UseIdent' element value. РџСЂРёРјРµРЅРµРЅРёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param useIdent
      */

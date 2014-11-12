@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.guaranteeusage;
 
 /** 
- * Причина изменения статусного состояния документа обеспечения
+ * РџСЂРёС‡РёРЅР° РёР·РјРµРЅРµРЅРёСЏ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class ReasonType
 {
@@ -11,7 +11,7 @@ public class ReasonType
     private String decisionCode;
 
     /** 
-     * Get the 'Name' element value. Наименование причины
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёС‡РёРЅС‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ReasonType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование причины
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёС‡РёРЅС‹
      * 
      * @param name
      */
@@ -29,7 +29,7 @@ public class ReasonType
     }
 
     /** 
-     * Get the 'Comment' element value. Комментарий
+     * Get the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ReasonType
     }
 
     /** 
-     * Set the 'Comment' element value. Комментарий
+     * Set the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comment
      */
@@ -47,7 +47,7 @@ public class ReasonType
     }
 
     /** 
-     * Get the 'DecisionCode' element value. Код решения в соответствии с классификатором решений, принимаемых таможенными органами
+     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№, РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ReasonType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. Код решения в соответствии с классификатором решений, принимаемых таможенными органами
+     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№, РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё
      * 
      * @param decisionCode
      */

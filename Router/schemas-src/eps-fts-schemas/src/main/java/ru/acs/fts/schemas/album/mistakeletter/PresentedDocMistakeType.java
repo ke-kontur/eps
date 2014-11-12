@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mistakeletter;
 
 /** 
- * Комплексный тип для описания выявленной ошибки в реквизитах представленного документа
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РІС‹СЏРІР»РµРЅРЅРѕР№ РѕС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class PresentedDocMistakeType
 {
@@ -13,7 +13,7 @@ public class PresentedDocMistakeType
     private DocDateMistakeType docDateMistake;
 
     /** 
-     * Get the 'PrDocumentOrderNumber' element value. Порядковый номер документа в соответствующем списке документов отчета о принятии по форме ДО-1
+     * Get the 'PrDocumentOrderNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРј СЃРїРёСЃРєРµ РґРѕРєСѓРјРµРЅС‚РѕРІ РѕС‚С‡РµС‚Р° Рѕ РїСЂРёРЅСЏС‚РёРё РїРѕ С„РѕСЂРјРµ Р”Рћ-1
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Set the 'PrDocumentOrderNumber' element value. Порядковый номер документа в соответствующем списке документов отчета о принятии по форме ДО-1
+     * Set the 'PrDocumentOrderNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРј СЃРїРёСЃРєРµ РґРѕРєСѓРјРµРЅС‚РѕРІ РѕС‚С‡РµС‚Р° Рѕ РїСЂРёРЅСЏС‚РёРё РїРѕ С„РѕСЂРјРµ Р”Рћ-1
      * 
      * @param prDocumentOrderNumber
      */
@@ -31,7 +31,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Get the 'DocModeCodeMistake' element value. Ошибка в коде вида документа
+     * Get the 'DocModeCodeMistake' element value. РћС€РёР±РєР° РІ РєРѕРґРµ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Set the 'DocModeCodeMistake' element value. Ошибка в коде вида документа
+     * Set the 'DocModeCodeMistake' element value. РћС€РёР±РєР° РІ РєРѕРґРµ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docModeCodeMistake
      */
@@ -49,7 +49,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Get the 'DocNameMistake' element value. Ошибка в наименовании документа
+     * Get the 'DocNameMistake' element value. РћС€РёР±РєР° РІ РЅР°РёРјРµРЅРѕРІР°РЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Set the 'DocNameMistake' element value. Ошибка в наименовании документа
+     * Set the 'DocNameMistake' element value. РћС€РёР±РєР° РІ РЅР°РёРјРµРЅРѕРІР°РЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docNameMistake
      */
@@ -67,7 +67,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Get the 'DocNumberMistake' element value. Ошибка в номере документа
+     * Get the 'DocNumberMistake' element value. РћС€РёР±РєР° РІ РЅРѕРјРµСЂРµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Set the 'DocNumberMistake' element value. Ошибка в номере документа
+     * Set the 'DocNumberMistake' element value. РћС€РёР±РєР° РІ РЅРѕРјРµСЂРµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docNumberMistake
      */
@@ -85,7 +85,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Get the 'DocDateMistake' element value. Ошибка в дате документа
+     * Get the 'DocDateMistake' element value. РћС€РёР±РєР° РІ РґР°С‚Рµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class PresentedDocMistakeType
     }
 
     /** 
-     * Set the 'DocDateMistake' element value. Ошибка в дате документа
+     * Set the 'DocDateMistake' element value. РћС€РёР±РєР° РІ РґР°С‚Рµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docDateMistake
      */

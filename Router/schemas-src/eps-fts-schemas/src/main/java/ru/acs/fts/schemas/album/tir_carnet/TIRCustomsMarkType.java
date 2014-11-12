@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.tir_carnet;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Отметки таможни
+ * РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
  */
 public class TIRCustomsMarkType
 {
@@ -18,7 +18,7 @@ public class TIRCustomsMarkType
     private CustomsType customs;
 
     /** 
-     * Get the 'GoodsAcceptInfo' element value. Свидетельство о принятии груза к оформлению (таможня отправления или таможня при въезде)/  Свидетельство о прекращении операции МДП (таможня места назначения или таможня при выезде)
+     * Get the 'GoodsAcceptInfo' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїСЂРёРЅСЏС‚РёРё РіСЂСѓР·Р° Рє РѕС„РѕСЂРјР»РµРЅРёСЋ (С‚Р°РјРѕР¶РЅСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РёР»Рё С‚Р°РјРѕР¶РЅСЏ РїСЂРё РІСЉРµР·РґРµ)/  РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїСЂРµРєСЂР°С‰РµРЅРёРё РѕРїРµСЂР°С†РёРё РњР”Рџ (С‚Р°РјРѕР¶РЅСЏ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё С‚Р°РјРѕР¶РЅСЏ РїСЂРё РІС‹РµР·РґРµ)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'GoodsAcceptInfo' element value. Свидетельство о принятии груза к оформлению (таможня отправления или таможня при въезде)/  Свидетельство о прекращении операции МДП (таможня места назначения или таможня при выезде)
+     * Set the 'GoodsAcceptInfo' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїСЂРёРЅСЏС‚РёРё РіСЂСѓР·Р° Рє РѕС„РѕСЂРјР»РµРЅРёСЋ (С‚Р°РјРѕР¶РЅСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РёР»Рё С‚Р°РјРѕР¶РЅСЏ РїСЂРё РІСЉРµР·РґРµ)/  РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїСЂРµРєСЂР°С‰РµРЅРёРё РѕРїРµСЂР°С†РёРё РњР”Рџ (С‚Р°РјРѕР¶РЅСЏ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё С‚Р°РјРѕР¶РЅСЏ РїСЂРё РІС‹РµР·РґРµ)
      * 
      * @param goodsAcceptInfo
      */
@@ -36,7 +36,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'IdentityNoBroken' element value. Наложенные печати,  пломбы или опознавательные знаки признаны не поврежденными
+     * Get the 'IdentityNoBroken' element value. РќР°Р»РѕР¶РµРЅРЅС‹Рµ РїРµС‡Р°С‚Рё,  РїР»РѕРјР±С‹ РёР»Рё РѕРїРѕР·РЅР°РІР°С‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё РїСЂРёР·РЅР°РЅС‹ РЅРµ РїРѕРІСЂРµР¶РґРµРЅРЅС‹РјРё
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'IdentityNoBroken' element value. Наложенные печати,  пломбы или опознавательные знаки признаны не поврежденными
+     * Set the 'IdentityNoBroken' element value. РќР°Р»РѕР¶РµРЅРЅС‹Рµ РїРµС‡Р°С‚Рё,  РїР»РѕРјР±С‹ РёР»Рё РѕРїРѕР·РЅР°РІР°С‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё РїСЂРёР·РЅР°РЅС‹ РЅРµ РїРѕРІСЂРµР¶РґРµРЅРЅС‹РјРё
      * 
      * @param identityNoBroken
      */
@@ -54,7 +54,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'TransitTime' element value. Продолжительность транзитной перевозки
+     * Get the 'TransitTime' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'TransitTime' element value. Продолжительность транзитной перевозки
+     * Set the 'TransitTime' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @param transitTime
      */
@@ -72,7 +72,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'CustomsDocNum' element value. Номер таможенного документа
+     * Get the 'CustomsDocNum' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'CustomsDocNum' element value. Номер таможенного документа
+     * Set the 'CustomsDocNum' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param customsDocNum
      */
@@ -90,7 +90,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'Comments' element value. Разное
+     * Get the 'Comments' element value. Р Р°Р·РЅРѕРµ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'Comments' element value. Разное
+     * Set the 'Comments' element value. Р Р°Р·РЅРѕРµ
      * 
      * @param comments
      */
@@ -108,7 +108,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'PackProcFinish' element value. Число грузовых мест в отношении которых  удостоверено прекращение операции МДП
+     * Get the 'PackProcFinish' element value. Р§РёСЃР»Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С…  СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРѕ РїСЂРµРєСЂР°С‰РµРЅРёРµ РѕРїРµСЂР°С†РёРё РњР”Рџ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'PackProcFinish' element value. Число грузовых мест в отношении которых  удостоверено прекращение операции МДП
+     * Set the 'PackProcFinish' element value. Р§РёСЃР»Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С…  СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРѕ РїСЂРµРєСЂР°С‰РµРЅРёРµ РѕРїРµСЂР°С†РёРё РњР”Рџ
      * 
      * @param packProcFinish
      */
@@ -126,7 +126,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Подпись и печать должностного лица  таможенного органа
+     * Get the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ Рё РїРµС‡Р°С‚СЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Подпись и печать должностного лица  таможенного органа
+     * Set the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ Рё РїРµС‡Р°С‚СЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -144,7 +144,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Get the 'Customs' element value. Зарегистрировано таможней (какой
+     * Get the 'Customs' element value. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ С‚Р°РјРѕР¶РЅРµР№ (РєР°РєРѕР№
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class TIRCustomsMarkType
     }
 
     /** 
-     * Set the 'Customs' element value. Зарегистрировано таможней (какой
+     * Set the 'Customs' element value. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ С‚Р°РјРѕР¶РЅРµР№ (РєР°РєРѕР№
      * 
      * @param customs
      */

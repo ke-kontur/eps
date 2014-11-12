@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Расчет  стоимости.
+ * Р Р°СЃС‡РµС‚  СЃС‚РѕРёРјРѕСЃС‚Рё.
  */
 public class Method6CalculationType
 {
     private List<String> calcilationDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'CalcilationDescription' element items. Описание расчета.
+     * Get the list of 'CalcilationDescription' element items. РћРїРёСЃР°РЅРёРµ СЂР°СЃС‡РµС‚Р°.
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class Method6CalculationType
     }
 
     /** 
-     * Set the list of 'CalcilationDescription' element items. Описание расчета.
+     * Set the list of 'CalcilationDescription' element items. РћРїРёСЃР°РЅРёРµ СЂР°СЃС‡РµС‚Р°.
      * 
      * @param list
      */

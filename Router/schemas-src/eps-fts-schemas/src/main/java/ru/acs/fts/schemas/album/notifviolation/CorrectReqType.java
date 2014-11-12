@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание сведений, которые необходимо скорректировать для устранения нарушений или соблюдения условий выпуска
+ * РћРїРёСЃР°РЅРёРµ СЃРІРµРґРµРЅРёР№, РєРѕС‚РѕСЂС‹Рµ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°С‚СЊ РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅР°СЂСѓС€РµРЅРёР№ РёР»Рё СЃРѕР±Р»СЋРґРµРЅРёСЏ СѓСЃР»РѕРІРёР№ РІС‹РїСѓСЃРєР°
  */
 public class CorrectReqType
 {
@@ -13,7 +13,7 @@ public class CorrectReqType
     private String correctDateLimit;
 
     /** 
-     * Get the list of 'CorrectDescription' element items. Описание сведений, которые необходимо скорректировать
+     * Get the list of 'CorrectDescription' element items. РћРїРёСЃР°РЅРёРµ СЃРІРµРґРµРЅРёР№, РєРѕС‚РѕСЂС‹Рµ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°С‚СЊ
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class CorrectReqType
     }
 
     /** 
-     * Set the list of 'CorrectDescription' element items. Описание сведений, которые необходимо скорректировать
+     * Set the list of 'CorrectDescription' element items. РћРїРёСЃР°РЅРёРµ СЃРІРµРґРµРЅРёР№, РєРѕС‚РѕСЂС‹Рµ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°С‚СЊ
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class CorrectReqType
     }
 
     /** 
-     * Get the 'CorrectDateLimit' element value. Срок до которого необходимо скорректировать сведения
+     * Get the 'CorrectDateLimit' element value. РЎСЂРѕРє РґРѕ РєРѕС‚РѕСЂРѕРіРѕ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°С‚СЊ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CorrectReqType
     }
 
     /** 
-     * Set the 'CorrectDateLimit' element value. Срок до которого необходимо скорректировать сведения
+     * Set the 'CorrectDateLimit' element value. РЎСЂРѕРє РґРѕ РєРѕС‚РѕСЂРѕРіРѕ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°С‚СЊ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param correctDateLimit
      */

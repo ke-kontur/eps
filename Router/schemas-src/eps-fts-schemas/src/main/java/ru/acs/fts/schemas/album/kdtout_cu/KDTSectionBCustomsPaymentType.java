@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADoutCUCustomsPaymentType;
 
 /** 
- * Уплата таможенных платежей. Гр. В
+ * РЈРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ. Р’
  */
 public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
 {
@@ -16,7 +16,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     private List<PaymentDocumentType> paymentDocumentList = new ArrayList<PaymentDocumentType>();
 
     /** 
-     * Get the 'PaymentPrevious' element value. Предыдущая сумма платежа
+     * Get the 'PaymentPrevious' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentPrevious' element value. Предыдущая сумма платежа
+     * Set the 'PaymentPrevious' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentPrevious
      */
@@ -34,7 +34,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the 'RateCurrencyCodePrevious' element value. Цифровой код валюты предыдущей суммы платежа
+     * Get the 'RateCurrencyCodePrevious' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РїСЂРµРґС‹РґСѓС‰РµР№ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'RateCurrencyCodePrevious' element value. Цифровой код валюты предыдущей суммы платежа
+     * Set the 'RateCurrencyCodePrevious' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РїСЂРµРґС‹РґСѓС‰РµР№ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param rateCurrencyCodePrevious
      */
@@ -52,7 +52,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the 'ChangeAmount' element value. Изменение
+     * Get the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'ChangeAmount' element value. Изменение
+     * Set the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ
      * 
      * @param changeAmount
      */
@@ -70,7 +70,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the list of 'PaymentDocument' element items. Платежный документ
+     * Get the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class KDTSectionBCustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. Платежный документ
+     * Set the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */

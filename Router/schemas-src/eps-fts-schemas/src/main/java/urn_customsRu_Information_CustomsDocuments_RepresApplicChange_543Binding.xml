@@ -1,0 +1,31 @@
+<binding xmlns:rapc="urn:customs.ru:Information:CustomsDocuments:RepresApplicChange:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RepresApplicChange:5.4.3" default="elements" prefix="rapc"/>
+  <mapping abstract="true" type-name="rapc:RepresApplicChangeType" class="ru.acs.fts.schemas.album.RepresApplicChangeType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="rapc:RepresentativeType" get-method="getRepresentative" set-method="setRepresentative" name="Representative"/>
+    <value style="element" name="ChangeType" get-method="getChangeType" set-method="setChangeType"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getApplicationRegNumber" set-method="setApplicationRegNumber" name="ApplicationRegNumber"/>
+    <structure map-as="rapc:ConsignmentType" get-method="getConsignment" set-method="setConsignment" name="Consignment"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.RepresApplicChangeType" name="RepresApplicChange">
+    <structure map-as="rapc:RepresApplicChangeType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rapc:ConsignmentType" class="ru.acs.fts.schemas.album.ConsignmentType">
+    <value style="element" name="ListNumeric" get-method="getListNumeric" set-method="setListNumeric"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getIndividualWayBill" set-method="setIndividualWayBill" name="IndividualWayBill"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GrNumber" get-method="getGrNumber" set-method="setGrNumber"/>
+    <value style="element" name="GrDescription" get-method="getGrDescription" set-method="setGrDescription"/>
+    <value style="element" name="PreviousData" get-method="getPreviousData" set-method="setPreviousData" usage="optional"/>
+    <value style="element" name="CorrectData" get-method="getCorrectData" set-method="setCorrectData"/>
+  </mapping>
+  <mapping abstract="true" type-name="rapc:RepresentativeType" class="ru.acs.fts.schemas.album.RepresentativeType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="LicenseNumber" get-method="getLicenseNumber" set-method="setLicenseNumber"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+  </mapping>
+</binding>

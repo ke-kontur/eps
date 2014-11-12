@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Квитанция
+ * РљРІРёС‚Р°РЅС†РёСЏ
  */
 public class QuitanceType
 {
@@ -13,7 +13,7 @@ public class QuitanceType
     private List<CommonDocumentType> correctDocumentList = new ArrayList<CommonDocumentType>();
 
     /** 
-     * Get the 'DocumentModeID' element value. Идентификатор вида документа
+     * Get the 'DocumentModeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class QuitanceType
     }
 
     /** 
-     * Set the 'DocumentModeID' element value. Идентификатор вида документа
+     * Set the 'DocumentModeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */
@@ -31,7 +31,7 @@ public class QuitanceType
     }
 
     /** 
-     * Get the list of 'CorrectDocument' element items. Подтверждаемый документ
+     * Get the list of 'CorrectDocument' element items. РџРѕРґС‚РІРµСЂР¶РґР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class QuitanceType
     }
 
     /** 
-     * Set the list of 'CorrectDocument' element items. Подтверждаемый документ
+     * Set the list of 'CorrectDocument' element items. РџРѕРґС‚РІРµСЂР¶РґР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */

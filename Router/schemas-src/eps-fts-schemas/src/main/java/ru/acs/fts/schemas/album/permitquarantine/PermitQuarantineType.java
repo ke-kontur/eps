@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Импортное Карантинное Разрешение
+ * РРјРїРѕСЂС‚РЅРѕРµ РљР°СЂР°РЅС‚РёРЅРЅРѕРµ Р Р°Р·СЂРµС€РµРЅРёРµ
  */
 public class PermitQuarantineType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class PermitQuarantineType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameSubject' element value. Наименование субъекта
+     * Get the 'NameSubject' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameSubject' element value. Наименование субъекта
+     * Set the 'NameSubject' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @param nameSubject
      */
@@ -50,7 +50,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Регистрационный номер
+     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Регистрационный номер
+     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param registrationNumber
      */
@@ -68,7 +68,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата выдачи
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата выдачи
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
      * 
      * @param issueDate
      */
@@ -86,7 +86,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Дата окончания действия сертификата
+     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Дата окончания действия сертификата
+     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param expirationDate
      */
@@ -104,7 +104,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'SenderCountry' element value. Наименование страны- отправитель
+     * Get the 'SenderCountry' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹- РѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'SenderCountry' element value. Наименование страны- отправитель
+     * Set the 'SenderCountry' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹- РѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param senderCountry
      */
@@ -122,7 +122,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AdditionalRequirements' element items. Дополнительные требования
+     * Get the list of 'AdditionalRequirements' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return list
      */
@@ -131,7 +131,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AdditionalRequirements' element items. Дополнительные требования
+     * Set the list of 'AdditionalRequirements' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param list
      */
@@ -140,7 +140,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'ListProhibitedGoods' element value. Перечень запрещенных товаров
+     * Get the 'ListProhibitedGoods' element value. РџРµСЂРµС‡РµРЅСЊ Р·Р°РїСЂРµС‰РµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'ListProhibitedGoods' element value. Перечень запрещенных товаров
+     * Set the 'ListProhibitedGoods' element value. РџРµСЂРµС‡РµРЅСЊ Р·Р°РїСЂРµС‰РµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @param listProhibitedGoods
      */
@@ -158,7 +158,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'NameCheckpoint' element value. Наименование пунктов пропуска, через которые осуществляется ввоз продукции
+     * Get the 'NameCheckpoint' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚РѕРІ РїСЂРѕРїСѓСЃРєР°, С‡РµСЂРµР· РєРѕС‚РѕСЂС‹Рµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІРІРѕР· РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameCheckpoint' element value. Наименование пунктов пропуска, через которые осуществляется ввоз продукции
+     * Set the 'NameCheckpoint' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚РѕРІ РїСЂРѕРїСѓСЃРєР°, С‡РµСЂРµР· РєРѕС‚РѕСЂС‹Рµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІРІРѕР· РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param nameCheckpoint
      */
@@ -176,7 +176,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportationRoute' element items. Маршрут перевозки до места назначения
+     * Get the list of 'TransportationRoute' element items. РњР°СЂС€СЂСѓС‚ РїРµСЂРµРІРѕР·РєРё РґРѕ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return list
      */
@@ -185,7 +185,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportationRoute' element items. Маршрут перевозки до места назначения
+     * Set the list of 'TransportationRoute' element items. РњР°СЂС€СЂСѓС‚ РїРµСЂРµРІРѕР·РєРё РґРѕ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param list
      */
@@ -194,7 +194,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ActionCheckpoint' element items. Карантинные фитосанитарные мероприятия, которые должны быть проведены в пунктах пропуска через государственную границу РФ и по месту назначения
+     * Get the list of 'ActionCheckpoint' element items. РљР°СЂР°РЅС‚РёРЅРЅС‹Рµ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Рµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ, РєРѕС‚РѕСЂС‹Рµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РїСЂРѕРІРµРґРµРЅС‹ РІ РїСѓРЅРєС‚Р°С… РїСЂРѕРїСѓСЃРєР° С‡РµСЂРµР· РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤ Рё РїРѕ РјРµСЃС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return list
      */
@@ -203,7 +203,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ActionCheckpoint' element items. Карантинные фитосанитарные мероприятия, которые должны быть проведены в пунктах пропуска через государственную границу РФ и по месту назначения
+     * Set the list of 'ActionCheckpoint' element items. РљР°СЂР°РЅС‚РёРЅРЅС‹Рµ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Рµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ, РєРѕС‚РѕСЂС‹Рµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РїСЂРѕРІРµРґРµРЅС‹ РІ РїСѓРЅРєС‚Р°С… РїСЂРѕРїСѓСЃРєР° С‡РµСЂРµР· РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤ Рё РїРѕ РјРµСЃС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param list
      */
@@ -212,7 +212,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Описания товара.
+     * Get the list of 'Goods' element items. РћРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°.
      * 
      * @return list
      */
@@ -221,7 +221,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Описания товара.
+     * Set the list of 'Goods' element items. РћРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°.
      * 
      * @param list
      */
@@ -230,7 +230,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantInfo' element value. Сведения о лице, которому выдается разрешение
+     * Get the 'DeclarantInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -239,7 +239,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantInfo' element value. Сведения о лице, которому выдается разрешение
+     * Set the 'DeclarantInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param declarantInfo
      */
@@ -248,7 +248,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssuePerson' element value. Подпись лица, подписавшего разрешение
+     * Get the 'IssuePerson' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РїРѕРґРїРёСЃР°РІС€РµРіРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -257,7 +257,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssuePerson' element value. Подпись лица, подписавшего разрешение
+     * Set the 'IssuePerson' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РїРѕРґРїРёСЃР°РІС€РµРіРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param issuePerson
      */
@@ -266,7 +266,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationInfo' element value. Сведения о заявке, на основании которой было выдано разрешение
+     * Get the 'ApplicationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРєРµ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationInfo' element value. Сведения о заявке, на основании которой было выдано разрешение
+     * Set the 'ApplicationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРєРµ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param applicationInfo
      */
@@ -284,7 +284,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class PermitQuarantineType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

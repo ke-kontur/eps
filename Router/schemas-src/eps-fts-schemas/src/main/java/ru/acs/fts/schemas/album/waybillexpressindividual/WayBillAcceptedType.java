@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.waybillexpressindividual;
 
 /** 
- * Накладная была принята: дата, время и имя принявшего лица
+ * РќР°РєР»Р°РґРЅР°СЏ Р±С‹Р»Р° РїСЂРёРЅСЏС‚Р°: РґР°С‚Р°, РІСЂРµРјСЏ Рё РёРјСЏ РїСЂРёРЅСЏРІС€РµРіРѕ Р»РёС†Р°
  */
 public class WayBillAcceptedType
 {
@@ -10,7 +10,7 @@ public class WayBillAcceptedType
     private String personName;
 
     /** 
-     * Get the 'DateTime' element value. Дата и время принятия накладной
+     * Get the 'DateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class WayBillAcceptedType
     }
 
     /** 
-     * Set the 'DateTime' element value. Дата и время принятия накладной
+     * Set the 'DateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param dateTime
      */
@@ -28,7 +28,7 @@ public class WayBillAcceptedType
     }
 
     /** 
-     * Get the 'PersonName' element value. Имя лица, принявшего накладную
+     * Get the 'PersonName' element value. РРјСЏ Р»РёС†Р°, РїСЂРёРЅСЏРІС€РµРіРѕ РЅР°РєР»Р°РґРЅСѓСЋ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WayBillAcceptedType
     }
 
     /** 
-     * Set the 'PersonName' element value. Имя лица, принявшего накладную
+     * Set the 'PersonName' element value. РРјСЏ Р»РёС†Р°, РїСЂРёРЅСЏРІС€РµРіРѕ РЅР°РєР»Р°РґРЅСѓСЋ
      * 
      * @param personName
      */

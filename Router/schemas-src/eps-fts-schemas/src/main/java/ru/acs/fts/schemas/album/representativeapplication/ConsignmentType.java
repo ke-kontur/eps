@@ -4,12 +4,16 @@ package ru.acs.fts.schemas.album.representativeapplication;
 import java.util.ArrayList;
 import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * �������� � ������
+ * Сведения о партии
  */
 public class ConsignmentType
 {
+    private String listNumeric;
+    private String prevListNumeric;
+    private DocumentBaseType individualWayBill;
     private String currencyRate;
     private String currencyRubleRate;
     private String currency;
@@ -17,13 +21,70 @@ public class ConsignmentType
     private String goodsCost;
     private String goodsCostEuro;
     private String goodsCostRuble;
+    private String reservationID;
     private CUOrganizationType consignor;
     private ConsigneeType consignee;
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
+    private CustomsDutiesType customsDuties;
+    private String indicatorChange;
     private List<WayBillType> wayBillList = new ArrayList<WayBillType>();
 
     /** 
-     * Get the 'CurrencyRate' element value. ���� ������ ����� (������) � ����
+     * Get the 'ListNumeric' element value. Номер партии товаров по порядку в текущем реестре
+     * 
+     * @return value
+     */
+    public String getListNumeric() {
+        return listNumeric;
+    }
+
+    /** 
+     * Set the 'ListNumeric' element value. Номер партии товаров по порядку в текущем реестре
+     * 
+     * @param listNumeric
+     */
+    public void setListNumeric(String listNumeric) {
+        this.listNumeric = listNumeric;
+    }
+
+    /** 
+     * Get the 'PrevListNumeric' element value. Номер партии товаров в предшествующем реестре
+     * 
+     * @return value
+     */
+    public String getPrevListNumeric() {
+        return prevListNumeric;
+    }
+
+    /** 
+     * Set the 'PrevListNumeric' element value. Номер партии товаров в предшествующем реестре
+     * 
+     * @param prevListNumeric
+     */
+    public void setPrevListNumeric(String prevListNumeric) {
+        this.prevListNumeric = prevListNumeric;
+    }
+
+    /** 
+     * Get the 'IndividualWayBill' element value. Индивидуальная накладная
+     * 
+     * @return value
+     */
+    public DocumentBaseType getIndividualWayBill() {
+        return individualWayBill;
+    }
+
+    /** 
+     * Set the 'IndividualWayBill' element value. Индивидуальная накладная
+     * 
+     * @param individualWayBill
+     */
+    public void setIndividualWayBill(DocumentBaseType individualWayBill) {
+        this.individualWayBill = individualWayBill;
+    }
+
+    /** 
+     * Get the 'CurrencyRate' element value. Курс валюты счета (сделки) к евро
      * 
      * @return value
      */
@@ -32,7 +93,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. ���� ������ ����� (������) � ����
+     * Set the 'CurrencyRate' element value. Курс валюты счета (сделки) к евро
      * 
      * @param currencyRate
      */
@@ -41,7 +102,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'CurrencyRubleRate' element value. ���� ������ ����� (������) � �����
+     * Get the 'CurrencyRubleRate' element value. Курс валюты счета (сделки) к рублю
      * 
      * @return value
      */
@@ -50,7 +111,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CurrencyRubleRate' element value. ���� ������ ����� (������) � �����
+     * Set the 'CurrencyRubleRate' element value. Курс валюты счета (сделки) к рублю
      * 
      * @param currencyRubleRate
      */
@@ -59,7 +120,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Currency' element value. ��� ������ ����� (������)
+     * Get the 'Currency' element value. Код валюты счета (сделки)
      * 
      * @return value
      */
@@ -68,7 +129,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Currency' element value. ��� ������ ����� (������)
+     * Set the 'Currency' element value. Код валюты счета (сделки)
      * 
      * @param currency
      */
@@ -77,7 +138,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. ��� �������, ������, ��
+     * Get the 'GrossWeight' element value. Вес товаров, брутто, кг
      * 
      * @return value
      */
@@ -86,7 +147,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. ��� �������, ������, ��
+     * Set the 'GrossWeight' element value. Вес товаров, брутто, кг
      * 
      * @param grossWeight
      */
@@ -95,7 +156,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. ��������� ������� � ������ ����� (������)
+     * Get the 'GoodsCost' element value. Стоимость товаров в валюте счета (сделки)
      * 
      * @return value
      */
@@ -104,7 +165,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. ��������� ������� � ������ ����� (������)
+     * Set the 'GoodsCost' element value. Стоимость товаров в валюте счета (сделки)
      * 
      * @param goodsCost
      */
@@ -113,7 +174,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsCostEuro' element value. ��������� ������� � ����
+     * Get the 'GoodsCostEuro' element value. Стоимость товаров в евро
      * 
      * @return value
      */
@@ -122,7 +183,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsCostEuro' element value. ��������� ������� � ����
+     * Set the 'GoodsCostEuro' element value. Стоимость товаров в евро
      * 
      * @param goodsCostEuro
      */
@@ -131,7 +192,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsCostRuble' element value. ��������� ������� � ������
+     * Get the 'GoodsCostRuble' element value. Стоимость товаров в рублях
      * 
      * @return value
      */
@@ -140,7 +201,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsCostRuble' element value. ��������� ������� � ������
+     * Set the 'GoodsCostRuble' element value. Стоимость товаров в рублях
      * 
      * @param goodsCostRuble
      */
@@ -149,7 +210,25 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignor' element value. �����������
+     * Get the 'ReservationID' element value. Идентификатор резервирования денежных средств для целей уплаты таможенных платежей
+     * 
+     * @return value
+     */
+    public String getReservationID() {
+        return reservationID;
+    }
+
+    /** 
+     * Set the 'ReservationID' element value. Идентификатор резервирования денежных средств для целей уплаты таможенных платежей
+     * 
+     * @param reservationID
+     */
+    public void setReservationID(String reservationID) {
+        this.reservationID = reservationID;
+    }
+
+    /** 
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -158,7 +237,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignor' element value. �����������
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -167,7 +246,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignee' element value. ����������
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -176,7 +255,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignee' element value. ����������
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -185,7 +264,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. �������� � �������
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -194,7 +273,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. �������� � �������
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -203,7 +282,43 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'WayBill' element items. �������� � ���������
+     * Get the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
+     * 
+     * @return value
+     */
+    public CustomsDutiesType getCustomsDuties() {
+        return customsDuties;
+    }
+
+    /** 
+     * Set the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
+     * 
+     * @param customsDuties
+     */
+    public void setCustomsDuties(CustomsDutiesType customsDuties) {
+        this.customsDuties = customsDuties;
+    }
+
+    /** 
+     * Get the 'IndicatorChange' element value. Признак корректированного товара
+     * 
+     * @return value
+     */
+    public String getIndicatorChange() {
+        return indicatorChange;
+    }
+
+    /** 
+     * Set the 'IndicatorChange' element value. Признак корректированного товара
+     * 
+     * @param indicatorChange
+     */
+    public void setIndicatorChange(String indicatorChange) {
+        this.indicatorChange = indicatorChange;
+    }
+
+    /** 
+     * Get the list of 'WayBill' element items. Сведения об общих накладных
      * 
      * @return list
      */
@@ -212,7 +327,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'WayBill' element items. �������� � ���������
+     * Set the list of 'WayBill' element items. Сведения об общих накладных
      * 
      * @param list
      */

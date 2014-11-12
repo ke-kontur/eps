@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.do2reportin;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhGoodType;
 
 /** 
- * Комплексный тип для описания товара в графе приход по отчету ДО2. Количественные сведения (вес, стоимость, доп.единицы) указываются по отчету ДО1 с учетом выдачи по предшествующим отчетам ДО2
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РІ РіСЂР°С„Рµ РїСЂРёС…РѕРґ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ2. РљРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ (РІРµСЃ, СЃС‚РѕРёРјРѕСЃС‚СЊ, РґРѕРї.РµРґРёРЅРёС†С‹) СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ1 СЃ СѓС‡РµС‚РѕРј РІС‹РґР°С‡Рё РїРѕ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРј РѕС‚С‡РµС‚Р°Рј Р”Рћ2
  */
 public class DO2GoodInputType extends WhGoodType
 {
@@ -14,7 +14,7 @@ public class DO2GoodInputType extends WhGoodType
     private DO2KeepingLimitType keepingLimit;
 
     /** 
-     * Get the 'MPOCaseNumber' element value. Номер емкости, в которой находится МПО
+     * Get the 'MPOCaseNumber' element value. РќРѕРјРµСЂ РµРјРєРѕСЃС‚Рё, РІ РєРѕС‚РѕСЂРѕР№ РЅР°С…РѕРґРёС‚СЃСЏ РњРџРћ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'MPOCaseNumber' element value. Номер емкости, в которой находится МПО
+     * Set the 'MPOCaseNumber' element value. РќРѕРјРµСЂ РµРјРєРѕСЃС‚Рё, РІ РєРѕС‚РѕСЂРѕР№ РЅР°С…РѕРґРёС‚СЃСЏ РњРџРћ
      * 
      * @param MPOCaseNumber
      */
@@ -32,7 +32,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'WHNumber' element value. Складской номер товара
+     * Get the 'WHNumber' element value. РЎРєР»Р°РґСЃРєРѕР№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'WHNumber' element value. Складской номер товара
+     * Set the 'WHNumber' element value. РЎРєР»Р°РґСЃРєРѕР№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param WHNumber
      */
@@ -50,7 +50,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'DO1GoodLink' element value. Указание на товар отчета ДО1, который выдается
+     * Get the 'DO1GoodLink' element value. РЈРєР°Р·Р°РЅРёРµ РЅР° С‚РѕРІР°СЂ РѕС‚С‡РµС‚Р° Р”Рћ1, РєРѕС‚РѕСЂС‹Р№ РІС‹РґР°РµС‚СЃСЏ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'DO1GoodLink' element value. Указание на товар отчета ДО1, который выдается
+     * Set the 'DO1GoodLink' element value. РЈРєР°Р·Р°РЅРёРµ РЅР° С‚РѕРІР°СЂ РѕС‚С‡РµС‚Р° Р”Рћ1, РєРѕС‚РѕСЂС‹Р№ РІС‹РґР°РµС‚СЃСЏ
      * 
      * @param DO1GoodLink
      */
@@ -68,7 +68,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'KeepingLimit' element value. Сведения о сроке хранения товара
+     * Get the 'KeepingLimit' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DO2GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'KeepingLimit' element value. Сведения о сроке хранения товара
+     * Set the 'KeepingLimit' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param keepingLimit
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseType;
 
 /** 
- * Запрос на помещение документа в архив
+ * Р—Р°РїСЂРѕСЃ РЅР° РїРѕРјРµС‰РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІ
  */
 public class ArchAddDocRequestType extends ArchBaseType
 {
@@ -18,7 +18,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentBeginDate' element value. Дата начала действия документа
+     * Get the 'DocumentBeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentBeginDate' element value. Дата начала действия документа
+     * Set the 'DocumentBeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentBeginDate
      */
@@ -36,7 +36,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocumentEndDate' element value. Дата окончания действия документа
+     * Get the 'DocumentEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentEndDate' element value. Дата окончания действия документа
+     * Set the 'DocumentEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentEndDate
      */
@@ -54,7 +54,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocCode' element value. Код вида запрашиваемого документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
+     * Get the 'DocCode' element value. РљРѕРґ РІРёРґР° Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocCode' element value. Код вида запрашиваемого документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
+     * Set the 'DocCode' element value. РљРѕРґ РІРёРґР° Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
      * 
      * @param docCode
      */
@@ -72,7 +72,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Get the 'ArchDoc' element value. Документ, помещаемый в архив
+     * Get the 'ArchDoc' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРјРµС‰Р°РµРјС‹Р№ РІ Р°СЂС…РёРІ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDoc' element value. Документ, помещаемый в архив
+     * Set the 'ArchDoc' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРјРµС‰Р°РµРјС‹Р№ РІ Р°СЂС…РёРІ
      * 
      * @param archDoc
      */
@@ -90,7 +90,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocBaseInfo' element value. Базовые сведения о документе
+     * Get the 'DocBaseInfo' element value. Р‘Р°Р·РѕРІС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocBaseInfo' element value. Базовые сведения о документе
+     * Set the 'DocBaseInfo' element value. Р‘Р°Р·РѕРІС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param docBaseInfo
      */
@@ -108,7 +108,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ArchAddDocRequestType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

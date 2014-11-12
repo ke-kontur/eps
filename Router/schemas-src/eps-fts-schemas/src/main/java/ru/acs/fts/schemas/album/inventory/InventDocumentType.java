@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Документ из описи.
+ * Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё.
  */
 public class InventDocumentType
 {
@@ -30,7 +30,7 @@ public class InventDocumentType
     private AddControlDescriptionType addControlDescription;
 
     /** 
-     * Get the 'InvDocCode' element value. Код вида представляемого документа. Заполняется согласно Классификатору видов документов, используемых при заявлении сведений в графе 44 ДТ. 
+     * Get the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44 Р”Рў. 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocCode' element value. Код вида представляемого документа. Заполняется согласно Классификатору видов документов, используемых при заявлении сведений в графе 44 ДТ. 
+     * Set the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44 Р”Рў. 
      * 
      * @param invDocCode
      */
@@ -48,7 +48,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocName' element value. Вид документа
+     * Get the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocName' element value. Вид документа
+     * Set the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocName
      */
@@ -66,7 +66,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocNumber' element value. Номер документа
+     * Get the 'InvDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocNumber' element value. Номер документа
+     * Set the 'InvDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocNumber
      */
@@ -84,7 +84,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocDate' element value. Дата документа
+     * Get the 'InvDocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocDate' element value. Дата документа
+     * Set the 'InvDocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocDate
      */
@@ -102,7 +102,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocLists' element value. Количество листов в документе
+     * Get the 'InvDocLists' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocLists' element value. Количество листов в документе
+     * Set the 'InvDocLists' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param invDocLists
      */
@@ -120,7 +120,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocCopies' element value. Количество экземпляров
+     * Get the 'InvDocCopies' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЌРєР·РµРјРїР»СЏСЂРѕРІ
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocCopies' element value. Количество экземпляров
+     * Set the 'InvDocCopies' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЌРєР·РµРјРїР»СЏСЂРѕРІ
      * 
      * @param invDocCopies
      */
@@ -138,7 +138,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'Note' element value. Примечание
+     * Get the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'Note' element value. Примечание
+     * Set the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param note
      */
@@ -156,7 +156,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор электронного архива декларанта
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор электронного архива декларанта
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archID
      */
@@ -174,7 +174,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Идентификатор документа в электронном архиве декларанта
+     * Get the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Идентификатор документа в электронном архиве декларанта
+     * Set the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archDocID
      */
@@ -192,7 +192,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InventDocumentID' element value. Уникальный идентификатор документа, представленного в описи. Заполняется при использовании в системах электронного декларирования в случае наличия на момент составления описи указанного документа в электронном виде.
+     * Get the 'InventDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕРїРёСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ РЅР° РјРѕРјРµРЅС‚ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё СѓРєР°Р·Р°РЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РІРёРґРµ.
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InventDocumentID' element value. Уникальный идентификатор документа, представленного в описи. Заполняется при использовании в системах электронного декларирования в случае наличия на момент составления описи указанного документа в электронном виде.
+     * Set the 'InventDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕРїРёСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ РЅР° РјРѕРјРµРЅС‚ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё СѓРєР°Р·Р°РЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РІРёРґРµ.
      * 
      * @param inventDocumentID
      */
@@ -210,7 +210,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InventLineID' element value. Уникальный идентификатор строки в описи. GUID. Обязателен для заполнения при использовании в системах электронного декларирования.
+     * Get the 'InventLineID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё РІ РѕРїРёСЃРё. GUID. РћР±СЏР·Р°С‚РµР»РµРЅ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InventLineID' element value. Уникальный идентификатор строки в описи. GUID. Обязателен для заполнения при использовании в системах электронного декларирования.
+     * Set the 'InventLineID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё РІ РѕРїРёСЃРё. GUID. РћР±СЏР·Р°С‚РµР»РµРЅ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @param inventLineID
      */
@@ -228,7 +228,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'DocumentFormSign' element value. Признак формы представления документа. 0 - в электронной форме, 1 - в виде бумажного документа
+     * Get the 'DocumentFormSign' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјС‹ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°. 0 - РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјРµ, 1 - РІ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'DocumentFormSign' element value. Признак формы представления документа. 0 - в электронной форме, 1 - в виде бумажного документа
+     * Set the 'DocumentFormSign' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјС‹ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°. 0 - РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјРµ, 1 - РІ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentFormSign
      */
@@ -246,7 +246,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'Reason' element value. Причины, по которым невозможно предоставить документ
+     * Get the 'Reason' element value. РџСЂРёС‡РёРЅС‹, РїРѕ РєРѕС‚РѕСЂС‹Рј РЅРµРІРѕР·РјРѕР¶РЅРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'Reason' element value. Причины, по которым невозможно предоставить документ
+     * Set the 'Reason' element value. РџСЂРёС‡РёРЅС‹, РїРѕ РєРѕС‚РѕСЂС‹Рј РЅРµРІРѕР·РјРѕР¶РЅРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param reason
      */
@@ -264,7 +264,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый номер ЭПДТ в последовательности ЭПДТ, подаваемых на одну ЭВДТ
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р­РџР”Рў РІ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё Р­РџР”Рў, РїРѕРґР°РІР°РµРјС‹С… РЅР° РѕРґРЅСѓ Р­Р’Р”Рў
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый номер ЭПДТ в последовательности ЭПДТ, подаваемых на одну ЭВДТ
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р­РџР”Рў РІ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё Р­РџР”Рў, РїРѕРґР°РІР°РµРјС‹С… РЅР° РѕРґРЅСѓ Р­Р’Р”Рў
      * 
      * @param serialNumber
      */
@@ -282,7 +282,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'SerialNumberSign' element value. Признак того, что данный документ (ЭПДТ) является последним в последовательности
+     * Get the 'SerialNumberSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РґР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ (Р­РџР”Рў) СЏРІР»СЏРµС‚СЃСЏ РїРѕСЃР»РµРґРЅРёРј РІ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -291,7 +291,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'SerialNumberSign' element value. Признак того, что данный документ (ЭПДТ) является последним в последовательности
+     * Set the 'SerialNumberSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РґР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ (Р­РџР”Рў) СЏРІР»СЏРµС‚СЃСЏ РїРѕСЃР»РµРґРЅРёРј РІ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @param serialNumberSign
      */
@@ -300,7 +300,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'RequestDescription' element value. Описание запроса, по которому предоставляется документ
+     * Get the 'RequestDescription' element value. РћРїРёСЃР°РЅРёРµ Р·Р°РїСЂРѕСЃР°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -309,7 +309,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'RequestDescription' element value. Описание запроса, по которому предоставляется документ
+     * Set the 'RequestDescription' element value. РћРїРёСЃР°РЅРёРµ Р·Р°РїСЂРѕСЃР°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param requestDescription
      */
@@ -318,7 +318,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'GoodsPresentDate' element value. Дата представления товарной партии
+     * Get the 'GoodsPresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -327,7 +327,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'GoodsPresentDate' element value. Дата представления товарной партии
+     * Set the 'GoodsPresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @param goodsPresentDate
      */
@@ -336,7 +336,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'PrevGTDNumber' element value. Номер предшествующей ДТ, к которой ранее был приложен документ.
+     * Get the 'PrevGTDNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ СЂР°РЅРµРµ Р±С‹Р» РїСЂРёР»РѕР¶РµРЅ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -345,7 +345,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'PrevGTDNumber' element value. Номер предшествующей ДТ, к которой ранее был приложен документ.
+     * Set the 'PrevGTDNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ СЂР°РЅРµРµ Р±С‹Р» РїСЂРёР»РѕР¶РµРЅ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param prevGTDNumber
      */
@@ -354,7 +354,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'AddControlDescription' element value. Описание решения о проведении дополнительной проверки, по которому предоставляется документ.
+     * Get the 'AddControlDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -363,7 +363,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'AddControlDescription' element value. Описание решения о проведении дополнительной проверки, по которому предоставляется документ.
+     * Set the 'AddControlDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param addControlDescription
      */

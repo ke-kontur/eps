@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mistakeletter;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.TransportDocRegNumType;
 
 /** 
- * Ошибка в регистрационном номере накладной
+ * РћС€РёР±РєР° РІ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РЅР°РєР»Р°РґРЅРѕР№
  */
 public class WaybillRegNumberMistakeType
 {
@@ -12,7 +12,7 @@ public class WaybillRegNumberMistakeType
     private TransportDocRegNumType validValue;
 
     /** 
-     * Get the 'MistakeValue' element value. Ошибочное значение, указанное в отчете по форме ДО-1
+     * Get the 'MistakeValue' element value. РћС€РёР±РѕС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ, СѓРєР°Р·Р°РЅРЅРѕРµ РІ РѕС‚С‡РµС‚Рµ РїРѕ С„РѕСЂРјРµ Р”Рћ-1
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class WaybillRegNumberMistakeType
     }
 
     /** 
-     * Set the 'MistakeValue' element value. Ошибочное значение, указанное в отчете по форме ДО-1
+     * Set the 'MistakeValue' element value. РћС€РёР±РѕС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ, СѓРєР°Р·Р°РЅРЅРѕРµ РІ РѕС‚С‡РµС‚Рµ РїРѕ С„РѕСЂРјРµ Р”Рћ-1
      * 
      * @param mistakeValue
      */
@@ -30,7 +30,7 @@ public class WaybillRegNumberMistakeType
     }
 
     /** 
-     * Get the 'ValidValue' element value. Правильное значение. Если не указано, то считается, что регистрационный номер должен был отсутсвовать вовсе
+     * Get the 'ValidValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р•СЃР»Рё РЅРµ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕС‚СЃСѓС‚СЃРІРѕРІР°С‚СЊ РІРѕРІСЃРµ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class WaybillRegNumberMistakeType
     }
 
     /** 
-     * Set the 'ValidValue' element value. Правильное значение. Если не указано, то считается, что регистрационный номер должен был отсутсвовать вовсе
+     * Set the 'ValidValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р•СЃР»Рё РЅРµ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕС‚СЃСѓС‚СЃРІРѕРІР°С‚СЊ РІРѕРІСЃРµ
      * 
      * @param validValue
      */

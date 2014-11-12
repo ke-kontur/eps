@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.preliminaryorigincountry;
 
 /** 
- * Регистрационный номер
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
  */
 public class RegistrationNumberType
 {
@@ -11,7 +11,7 @@ public class RegistrationNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'IndexManagement' element value. Индекс Управления
+     * Get the 'IndexManagement' element value. РРЅРґРµРєСЃ РЈРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'IndexManagement' element value. Индекс Управления
+     * Set the 'IndexManagement' element value. РРЅРґРµРєСЃ РЈРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param indexManagement
      */
@@ -29,7 +29,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'CaseNumber' element value. Номер дела по номенклатуре дел Управления
+     * Get the 'CaseNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РїРѕ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ РґРµР» РЈРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CaseNumber' element value. Номер дела по номенклатуре дел Управления
+     * Set the 'CaseNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РїРѕ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ РґРµР» РЈРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param caseNumber
      */
@@ -47,7 +47,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый исходящий номер предварительного решения в Управлении
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РІ РЈРїСЂР°РІР»РµРЅРёРё
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый исходящий номер предварительного решения в Управлении
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РІ РЈРїСЂР°РІР»РµРЅРёРё
      * 
      * @param serialNumber
      */

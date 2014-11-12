@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.semcommonaggregatetypescust.BaseServiceRequestTy
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.GoodsType;
 
 /** 
- * Запрос по наличию категорий товаров включенных во внутрисистемный список товаров, запрещенных или ограниченных к перемещению через таможенную границу РФ
+ * Р—Р°РїСЂРѕСЃ РїРѕ РЅР°Р»РёС‡РёСЋ РєР°С‚РµРіРѕСЂРёР№ С‚РѕРІР°СЂРѕРІ РІРєР»СЋС‡РµРЅРЅС‹С… РІРѕ РІРЅСѓС‚СЂРёСЃРёСЃС‚РµРјРЅС‹Р№ СЃРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ, Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤
  */
 public class SEMKTRequestType extends BaseServiceRequestType
 {
@@ -15,7 +15,7 @@ public class SEMKTRequestType extends BaseServiceRequestType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Goods' element items. Информация о товарах
+     * Get the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class SEMKTRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Информация о товарах
+     * Set the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class SEMKTRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SEMKTRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

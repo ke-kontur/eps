@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документы и сведения, представляемые в уполномоченный таможенный орган
+ * Р”РѕРєСѓРјРµРЅС‚С‹ Рё СЃРІРµРґРµРЅРёСЏ, РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РІ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
  */
 public class ListDocumentInformationType extends DocumentBaseType
 {
     private List<String> addInformationList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'AddInformation' element items. Сведения
+     * Get the list of 'AddInformation' element items. РЎРІРµРґРµРЅРёСЏ
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ListDocumentInformationType extends DocumentBaseType
     }
 
     /** 
-     * Set the list of 'AddInformation' element items. Сведения
+     * Set the list of 'AddInformation' element items. РЎРІРµРґРµРЅРёСЏ
      * 
      * @param list
      */

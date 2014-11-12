@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о новых контейнерах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІС‹С… РєРѕРЅС‚РµР№РЅРµСЂР°С…
  */
 public class ESADReloadContainerType
 {
     private List<String> containerNumberList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'ContainerNumber' element items. Номер нового контейнера
+     * Get the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РЅРѕРІРѕРіРѕ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class ESADReloadContainerType
     }
 
     /** 
-     * Set the list of 'ContainerNumber' element items. Номер нового контейнера
+     * Set the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РЅРѕРІРѕРіРѕ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param list
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.DocumentType;
 
 /** 
- * Автодорожная накладная
+ * РђРІС‚РѕРґРѕСЂРѕР¶РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
  */
 public class CMRType extends BaseDocType
 {
@@ -41,7 +41,7 @@ public class CMRType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LanguageCode' element value. Код языка документа
+     * Get the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCode' element value. Код языка документа
+     * Set the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param languageCode
      */
@@ -59,7 +59,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierNotice' element value. Оговорки и замечания перевозчика (гр.18)
+     * Get the 'CarrierNotice' element value. РћРіРѕРІРѕСЂРєРё Рё Р·Р°РјРµС‡Р°РЅРёСЏ РїРµСЂРµРІРѕР·С‡РёРєР° (РіСЂ.18)
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierNotice' element value. Оговорки и замечания перевозчика (гр.18)
+     * Set the 'CarrierNotice' element value. РћРіРѕРІРѕСЂРєРё Рё Р·Р°РјРµС‡Р°РЅРёСЏ РїРµСЂРµРІРѕР·С‡РёРєР° (РіСЂ.18)
      * 
      * @param carrierNotice
      */
@@ -77,7 +77,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Общее количество упакованного груза 
+     * Get the 'GoodsQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІР°РЅРЅРѕРіРѕ РіСЂСѓР·Р° 
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Общее количество упакованного груза 
+     * Set the 'GoodsQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІР°РЅРЅРѕРіРѕ РіСЂСѓР·Р° 
      * 
      * @param goodsQuantity
      */
@@ -95,7 +95,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. Объявленная стоимость груза
+     * Get the 'GoodsCost' element value. РћР±СЉСЏРІР»РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. Объявленная стоимость груза
+     * Set the 'GoodsCost' element value. РћР±СЉСЏРІР»РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РіСЂСѓР·Р°
      * 
      * @param goodsCost
      */
@@ -113,7 +113,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'StampSign' element value. Признак присутствия штампа
+     * Get the 'StampSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёСЃСѓС‚СЃС‚РІРёСЏ С€С‚Р°РјРїР°
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'StampSign' element value. Признак присутствия штампа
+     * Set the 'StampSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёСЃСѓС‚СЃС‚РІРёСЏ С€С‚Р°РјРїР°
      * 
      * @param stampSign
      */
@@ -131,7 +131,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationDocument' element value. Сведения о составлении накладной
+     * Get the 'RegistrationDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDocument' element value. Сведения о составлении накладной
+     * Set the 'RegistrationDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param registrationDocument
      */
@@ -150,7 +150,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Сведения о грузоотправителе (гр.1)
+     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ (РіСЂ.1)
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Сведения о грузоотправителе (гр.1)
+     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ (РіСЂ.1)
      * 
      * @param consignor
      */
@@ -168,7 +168,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Сведения о грузополучателе (гр.2)
+     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ (РіСЂ.2)
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Сведения о грузополучателе (гр.2)
+     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ (РіСЂ.2)
      * 
      * @param consignee
      */
@@ -186,7 +186,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Сведения о перевозчике (гр.16)
+     * Get the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ (РіСЂ.16)
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Сведения о перевозчике (гр.16)
+     * Set the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ (РіСЂ.16)
      * 
      * @param carrier
      */
@@ -204,7 +204,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeliveryPlace' element value. Резерв. Место доставки.
+     * Get the 'DeliveryPlace' element value. Р РµР·РµСЂРІ. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё.
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeliveryPlace' element value. Резерв. Место доставки.
+     * Set the 'DeliveryPlace' element value. Р РµР·РµСЂРІ. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё.
      * 
      * @param deliveryPlace
      */
@@ -222,7 +222,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'NextCarrier' element value. Сведения о последующем перевозчике (гр.17)
+     * Get the 'NextCarrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃР»РµРґСѓСЋС‰РµРј РїРµСЂРµРІРѕР·С‡РёРєРµ (РіСЂ.17)
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'NextCarrier' element value. Сведения о последующем перевозчике (гр.17)
+     * Set the 'NextCarrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃР»РµРґСѓСЋС‰РµРј РїРµСЂРµРІРѕР·С‡РёРєРµ (РіСЂ.17)
      * 
      * @param nextCarrier
      */
@@ -240,7 +240,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'EnclosedDocument' element items. Описание прилагаемых документов к накладной CMR (гр.5)
+     * Get the list of 'EnclosedDocument' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рє РЅР°РєР»Р°РґРЅРѕР№ CMR (РіСЂ.5)
      * 
      * @return list
      */
@@ -249,7 +249,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'EnclosedDocument' element items. Описание прилагаемых документов к накладной CMR (гр.5)
+     * Set the list of 'EnclosedDocument' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рє РЅР°РєР»Р°РґРЅРѕР№ CMR (РіСЂ.5)
      * 
      * @param list
      */
@@ -258,7 +258,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CMRGoods' element items. Сведения о товарах (гр.6,7,9,10,11,12)
+     * Get the list of 'CMRGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… (РіСЂ.6,7,9,10,11,12)
      * 
      * @return list
      */
@@ -267,7 +267,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CMRGoods' element items. Сведения о товарах (гр.6,7,9,10,11,12)
+     * Set the list of 'CMRGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… (РіСЂ.6,7,9,10,11,12)
      * 
      * @param list
      */
@@ -276,7 +276,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsigneeCustoms' element value. Сведения о таможенном органе получателя 
+     * Get the 'ConsigneeCustoms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ 
      * 
      * @return value
      */
@@ -285,7 +285,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsigneeCustoms' element value. Сведения о таможенном органе получателя 
+     * Set the 'ConsigneeCustoms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ 
      * 
      * @param consigneeCustoms
      */
@@ -294,7 +294,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeliveryTerms' element value. Описание условий поставки CMR 
+     * Get the 'DeliveryTerms' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё CMR 
      * 
      * @return value
      */
@@ -303,7 +303,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeliveryTerms' element value. Описание условий поставки CMR 
+     * Set the 'DeliveryTerms' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё CMR 
      * 
      * @param deliveryTerms
      */
@@ -312,7 +312,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'CMRTransport' element value. Условия транспортировки (гр.14,15,20,25,26)
+     * Get the 'CMRTransport' element value. РЈСЃР»РѕРІРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё (РіСЂ.14,15,20,25,26)
      * 
      * @return value
      */
@@ -321,7 +321,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'CMRTransport' element value. Условия транспортировки (гр.14,15,20,25,26)
+     * Set the 'CMRTransport' element value. РЈСЃР»РѕРІРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё (РіСЂ.14,15,20,25,26)
      * 
      * @param CMRTransport
      */
@@ -330,7 +330,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'TakingCargo' element value. Информация о принятии груза к перевозке
+     * Get the 'TakingCargo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёРЅСЏС‚РёРё РіСЂСѓР·Р° Рє РїРµСЂРµРІРѕР·РєРµ
      * 
      * @return value
      */
@@ -339,7 +339,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'TakingCargo' element value. Информация о принятии груза к перевозке
+     * Set the 'TakingCargo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёРЅСЏС‚РёРё РіСЂСѓР·Р° Рє РїРµСЂРµРІРѕР·РєРµ
      * 
      * @param takingCargo
      */
@@ -373,7 +373,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'CMRGoodsWeight' element value. Общий вес (гр. 11)
+     * Get the 'CMRGoodsWeight' element value. РћР±С‰РёР№ РІРµСЃ (РіСЂ. 11)
      * 
      * @return value
      */
@@ -382,7 +382,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'CMRGoodsWeight' element value. Общий вес (гр. 11)
+     * Set the 'CMRGoodsWeight' element value. РћР±С‰РёР№ РІРµСЃ (РіСЂ. 11)
      * 
      * @param CMRGoodsWeight
      */
@@ -401,7 +401,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'CMR_SupplementaryQuantity' element value. Количества груза, выраженное в дополнительных единицах измерения.
+     * Get the 'CMR_SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІР° РіСЂСѓР·Р°, РІС‹СЂР°Р¶РµРЅРЅРѕРµ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @return value
      */
@@ -410,7 +410,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'CMR_SupplementaryQuantity' element value. Количества груза, выраженное в дополнительных единицах измерения.
+     * Set the 'CMR_SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІР° РіСЂСѓР·Р°, РІС‹СЂР°Р¶РµРЅРЅРѕРµ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @param CMRSupplementaryQuantity
      */
@@ -421,7 +421,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'CMRTransportCost' element value. Информация о расходах, связанных с перевозкой груза (используется для заполнения графы 19).
+     * Get the 'CMRTransportCost' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°СЃС…РѕРґР°С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РїРµСЂРµРІРѕР·РєРѕР№ РіСЂСѓР·Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РіСЂР°С„С‹ 19).
      * 
      * @return value
      */
@@ -430,7 +430,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'CMRTransportCost' element value. Информация о расходах, связанных с перевозкой груза (используется для заполнения графы 19).
+     * Set the 'CMRTransportCost' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°СЃС…РѕРґР°С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РїРµСЂРµРІРѕР·РєРѕР№ РіСЂСѓР·Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РіСЂР°С„С‹ 19).
      * 
      * @param CMRTransportCost
      */
@@ -439,7 +439,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @return value
      */
@@ -448,7 +448,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @param mark
      */
@@ -457,7 +457,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -466,7 +466,7 @@ public class CMRType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

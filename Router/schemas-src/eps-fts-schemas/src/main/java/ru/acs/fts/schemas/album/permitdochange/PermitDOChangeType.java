@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHDocumentRegisterNumberType;
 
 /** 
- * Принятие дополнительных документов к отчетности СВХ
+ * РџСЂРёРЅСЏС‚РёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рє РѕС‚С‡РµС‚РЅРѕСЃС‚Рё РЎР’РҐ
  */
 public class PermitDOChangeType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class PermitDOChangeType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -44,7 +44,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -62,7 +62,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -80,7 +80,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -98,7 +98,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -141,7 +141,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DORegisterNumber' element value. Регистрационный номер отчета ДО1/ДО2/ДО3 
+     * Get the 'DORegisterNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡РµС‚Р° Р”Рћ1/Р”Рћ2/Р”Рћ3 
      * 
      * @return value
      */
@@ -150,7 +150,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DORegisterNumber' element value. Регистрационный номер отчета ДО1/ДО2/ДО3 
+     * Set the 'DORegisterNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡РµС‚Р° Р”Рћ1/Р”Рћ2/Р”Рћ3 
      * 
      * @param DORegisterNumber
      */
@@ -170,7 +170,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentRegNumber' element value. Регистрационный номер документа
+     * Get the 'DocumentRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentRegNumber' element value. Регистрационный номер документа
+     * Set the 'DocumentRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentRegNumber
      */
@@ -189,7 +189,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class PermitDOChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

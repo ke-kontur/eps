@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class ItemDetailsType
 {
@@ -24,7 +24,7 @@ public class ItemDetailsType
     private HouseWBOrgType consignee;
 
     /** 
-     * Get the 'HouseWaybillNumber' element value. Серийный номер домашней накладной
+     * Get the 'HouseWaybillNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РґРѕРјР°С€РЅРµР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'HouseWaybillNumber' element value. Серийный номер домашней накладной
+     * Set the 'HouseWaybillNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РґРѕРјР°С€РЅРµР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param houseWaybillNumber
      */
@@ -42,7 +42,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'LineItemNumber' element value. Порядковый номер товара по списку
+     * Get the 'LineItemNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'LineItemNumber' element value. Порядковый номер товара по списку
+     * Set the 'LineItemNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
      * 
      * @param lineItemNumber
      */
@@ -60,7 +60,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'ItemDescription' element value. Описание товара
+     * Get the 'ItemDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'ItemDescription' element value. Описание товара
+     * Set the 'ItemDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param itemDescription
      */
@@ -78,7 +78,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'ItemName' element value. Краткое наименование товара
+     * Get the 'ItemName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'ItemName' element value. Краткое наименование товара
+     * Set the 'ItemName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param itemName
      */
@@ -96,7 +96,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'NumberOfPieces' element value. Количество
+     * Get the 'NumberOfPieces' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'NumberOfPieces' element value. Количество
+     * Set the 'NumberOfPieces' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param numberOfPieces
      */
@@ -114,7 +114,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'OriginLocation' element value. Место происхождения
+     * Get the 'OriginLocation' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'OriginLocation' element value. Место происхождения
+     * Set the 'OriginLocation' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originLocation
      */
@@ -132,7 +132,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'DestinationLocation' element value. Место назначения
+     * Get the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'DestinationLocation' element value. Место назначения
+     * Set the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationLocation
      */
@@ -150,7 +150,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Сведения о весе товара
+     * Get the 'GrossWeight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРµСЃРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Сведения о весе товара
+     * Set the 'GrossWeight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРµСЃРµ С‚РѕРІР°СЂР°
      * 
      * @param grossWeight
      */
@@ -168,7 +168,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the list of 'SpecialHandlingCode' element items. SPH Инструкция
+     * Get the list of 'SpecialHandlingCode' element items. SPH РРЅСЃС‚СЂСѓРєС†РёСЏ
      * 
      * @return list
      */
@@ -177,7 +177,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the list of 'SpecialHandlingCode' element items. SPH Инструкция
+     * Set the list of 'SpecialHandlingCode' element items. SPH РРЅСЃС‚СЂСѓРєС†РёСЏ
      * 
      * @param list
      */
@@ -186,7 +186,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'Consignor' element value. Грузоотправитель
+     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'Consignor' element value. Грузоотправитель
+     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param consignor
      */
@@ -204,7 +204,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class ItemDetailsType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */

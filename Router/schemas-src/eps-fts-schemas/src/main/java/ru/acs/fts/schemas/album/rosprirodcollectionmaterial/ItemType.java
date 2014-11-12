@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Список предметов и их количество
+ * РЎРїРёСЃРѕРє РїСЂРµРґРјРµС‚РѕРІ Рё РёС… РєРѕР»РёС‡РµСЃС‚РІРѕ
  */
 public class ItemType
 {
@@ -14,7 +14,7 @@ public class ItemType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the list of 'ItemDescription' element items. Наименование
+     * Get the list of 'ItemDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ItemType
     }
 
     /** 
-     * Set the list of 'ItemDescription' element items. Наименование
+     * Set the list of 'ItemDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ItemType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ItemType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */

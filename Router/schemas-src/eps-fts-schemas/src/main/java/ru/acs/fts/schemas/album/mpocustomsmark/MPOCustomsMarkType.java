@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Решение по МПО
+ * Р РµС€РµРЅРёРµ РїРѕ РњРџРћ
  */
 public class MPOCustomsMarkType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class MPOCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DecisionDate' element value. Дата решения 
+     * Get the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Дата решения 
+     * Set the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ 
      * 
      * @param decisionDate
      */
@@ -40,7 +40,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionTime' element value. Время решения 
+     * Get the 'DecisionTime' element value. Р’СЂРµРјСЏ СЂРµС€РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionTime' element value. Время решения 
+     * Set the 'DecisionTime' element value. Р’СЂРµРјСЏ СЂРµС€РµРЅРёСЏ 
      * 
      * @param decisionTime
      */
@@ -58,7 +58,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Decision' element value. Решение: 1 - выпуск запрещен; 2 - выпуск разрешен; 3 - выпуск разрешен с обязательной уплатой таможенных платежей; 4 - иное
+     * Get the 'Decision' element value. Р РµС€РµРЅРёРµ: 1 - РІС‹РїСѓСЃРє Р·Р°РїСЂРµС‰РµРЅ; 2 - РІС‹РїСѓСЃРє СЂР°Р·СЂРµС€РµРЅ; 3 - РІС‹РїСѓСЃРє СЂР°Р·СЂРµС€РµРЅ СЃ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕР№ СѓРїР»Р°С‚РѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№; 4 - РёРЅРѕРµ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'Decision' element value. Решение: 1 - выпуск запрещен; 2 - выпуск разрешен; 3 - выпуск разрешен с обязательной уплатой таможенных платежей; 4 - иное
+     * Set the 'Decision' element value. Р РµС€РµРЅРёРµ: 1 - РІС‹РїСѓСЃРє Р·Р°РїСЂРµС‰РµРЅ; 2 - РІС‹РїСѓСЃРє СЂР°Р·СЂРµС€РµРЅ; 3 - РІС‹РїСѓСЃРє СЂР°Р·СЂРµС€РµРЅ СЃ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕР№ СѓРїР»Р°С‚РѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№; 4 - РёРЅРѕРµ
      * 
      * @param decision
      */
@@ -76,7 +76,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionDescription' element value. Описание принятого решения
+     * Get the 'DecisionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDescription' element value. Описание принятого решения
+     * Set the 'DecisionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionDescription
      */
@@ -94,7 +94,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -112,7 +112,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPO_Registration' element value. Сведения о регистрационном номере МПО
+     * Get the 'MPO_Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РњРџРћ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPO_Registration' element value. Сведения о регистрационном номере МПО
+     * Set the 'MPO_Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РњРџРћ
      * 
      * @param MPORegistration
      */
@@ -130,7 +130,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -148,7 +148,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -166,7 +166,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class MPOCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Комплексный тип для описания грузополучателя
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ
  */
 public class ConsigneeType extends OrganizationBaseType
 {
@@ -13,7 +13,7 @@ public class ConsigneeType extends OrganizationBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'Address' element value. Адрес получателя
+     * Get the 'Address' element value. РђРґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес получателя
+     * Set the 'Address' element value. РђРґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param address
      */
@@ -31,7 +31,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность получателя. Заполняется в случае, если получатель - физ. лицо
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ РїРѕР»СѓС‡Р°С‚РµР»СЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїРѕР»СѓС‡Р°С‚РµР»СЊ - С„РёР·. Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность получателя. Заполняется в случае, если получатель - физ. лицо
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ РїРѕР»СѓС‡Р°С‚РµР»СЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїРѕР»СѓС‡Р°С‚РµР»СЊ - С„РёР·. Р»РёС†Рѕ
      * 
      * @param identityCard
      */

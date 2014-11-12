@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.inffromactinspection;
 
 /** 
- * Краткая информация об участнике ВЭД
+ * РљСЂР°С‚РєР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”
  */
 public class VEDParticipantShortInfType
 {
@@ -10,7 +10,7 @@ public class VEDParticipantShortInfType
     private String KPPCode;
 
     /** 
-     * Get the 'INNID' element value. Индивидуальный номер налогоплательщика 
+     * Get the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class VEDParticipantShortInfType
     }
 
     /** 
-     * Set the 'INNID' element value. Индивидуальный номер налогоплательщика 
+     * Set the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
      * 
      * @param INNID
      */
@@ -28,7 +28,7 @@ public class VEDParticipantShortInfType
     }
 
     /** 
-     * Get the 'KPPCode' element value. Код причины постановки на налоговый учет
+     * Get the 'KPPCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class VEDParticipantShortInfType
     }
 
     /** 
-     * Set the 'KPPCode' element value. Код причины постановки на налоговый учет
+     * Set the 'KPPCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚
      * 
      * @param KPPCode
      */

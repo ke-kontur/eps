@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Квота
+ * РљРІРѕС‚Р°
  */
 public class ESADGoodsQuotaType
 {
@@ -15,7 +15,7 @@ public class ESADGoodsQuotaType
     private SupplementaryQuantityType supplementaryGoodsQuantity;
 
     /** 
-     * Get the list of 'ESADProductQuantityQuota' element items. Сведения об остатке квоты, выраженные в количестве продукта. Заполняется в случае, если квота указывается в единицах измерения
+     * Get the list of 'ESADProductQuantityQuota' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃС‚Р°С‚РєРµ РєРІРѕС‚С‹, РІС‹СЂР°Р¶РµРЅРЅС‹Рµ РІ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРѕРґСѓРєС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РєРІРѕС‚Р° СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class ESADGoodsQuotaType
     }
 
     /** 
-     * Set the list of 'ESADProductQuantityQuota' element items. Сведения об остатке квоты, выраженные в количестве продукта. Заполняется в случае, если квота указывается в единицах измерения
+     * Set the list of 'ESADProductQuantityQuota' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃС‚Р°С‚РєРµ РєРІРѕС‚С‹, РІС‹СЂР°Р¶РµРЅРЅС‹Рµ РІ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРѕРґСѓРєС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РєРІРѕС‚Р° СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class ESADGoodsQuotaType
     }
 
     /** 
-     * Get the 'ESADCurrencyQuota' element value. Сведения об остатке квоты в стоимостном выражении. Заполняется в случае, если квота установлена в стоимостном выражении
+     * Get the 'ESADCurrencyQuota' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃС‚Р°С‚РєРµ РєРІРѕС‚С‹ РІ СЃС‚РѕРёРјРѕСЃС‚РЅРѕРј РІС‹СЂР°Р¶РµРЅРёРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РєРІРѕС‚Р° СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РІ СЃС‚РѕРёРјРѕСЃС‚РЅРѕРј РІС‹СЂР°Р¶РµРЅРёРё
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ESADGoodsQuotaType
     }
 
     /** 
-     * Set the 'ESADCurrencyQuota' element value. Сведения об остатке квоты в стоимостном выражении. Заполняется в случае, если квота установлена в стоимостном выражении
+     * Set the 'ESADCurrencyQuota' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃС‚Р°С‚РєРµ РєРІРѕС‚С‹ РІ СЃС‚РѕРёРјРѕСЃС‚РЅРѕРј РІС‹СЂР°Р¶РµРЅРёРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РєРІРѕС‚Р° СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РІ СЃС‚РѕРёРјРѕСЃС‚РЅРѕРј РІС‹СЂР°Р¶РµРЅРёРё
      * 
      * @param ESADCurrencyQuota
      */
@@ -52,7 +52,7 @@ public class ESADGoodsQuotaType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. Количество декларируемого товара в единице измерения, необходимое для списания квоты. Для РК
+     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РЅРµРѕР±С…РѕРґРёРјРѕРµ РґР»СЏ СЃРїРёСЃР°РЅРёСЏ РєРІРѕС‚С‹. Р”Р»СЏ Р Рљ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ESADGoodsQuotaType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. Количество декларируемого товара в единице измерения, необходимое для списания квоты. Для РК
+     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РЅРµРѕР±С…РѕРґРёРјРѕРµ РґР»СЏ СЃРїРёСЃР°РЅРёСЏ РєРІРѕС‚С‹. Р”Р»СЏ Р Рљ
      * 
      * @param supplementaryGoodsQuantity
      */

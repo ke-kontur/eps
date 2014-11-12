@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method2BasisType;
 
 /** 
- * Подробности расчета таможенной стоимости по методу 2,3,6
+ * РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6
  */
 public class DTS4Method236Type
 {
@@ -15,7 +15,7 @@ public class DTS4Method236Type
     private SupplementaryQuantityType identicalGoodsQuantity;
 
     /** 
-     * Get the 'Method2Basis' element value. Основа расчета таможенной стоимости по методу 2,3,6.
+     * Get the 'Method2Basis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Set the 'Method2Basis' element value. Основа расчета таможенной стоимости по методу 2,3,6.
+     * Set the 'Method2Basis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6.
      * 
      * @param method2Basis
      */
@@ -33,7 +33,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Get the 'Method2DealCorrect' element value. Корректировка стоимости  сделки.
+     * Get the 'Method2DealCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° СЃС‚РѕРёРјРѕСЃС‚Рё  СЃРґРµР»РєРё.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Set the 'Method2DealCorrect' element value. Корректировка стоимости  сделки.
+     * Set the 'Method2DealCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° СЃС‚РѕРёРјРѕСЃС‚Рё  СЃРґРµР»РєРё.
      * 
      * @param method2DealCorrect
      */
@@ -52,7 +52,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Get the 'DeclaratedGoodsQuantity' element value. Количество декларируемых (оцениваемых) товаров. 16б
+     * Get the 'DeclaratedGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹С… (РѕС†РµРЅРёРІР°РµРјС‹С…) С‚РѕРІР°СЂРѕРІ. 16Р±
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Set the 'DeclaratedGoodsQuantity' element value. Количество декларируемых (оцениваемых) товаров. 16б
+     * Set the 'DeclaratedGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹С… (РѕС†РµРЅРёРІР°РµРјС‹С…) С‚РѕРІР°СЂРѕРІ. 16Р±
      * 
      * @param declaratedGoodsQuantity
      */
@@ -71,7 +71,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Get the 'IdenticalGoodsQuantity' element value. Количество идентичных/однородных товаров.16а
+     * Get the 'IdenticalGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРґРµРЅС‚РёС‡РЅС‹С…/РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ.16Р°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class DTS4Method236Type
     }
 
     /** 
-     * Set the 'IdenticalGoodsQuantity' element value. Количество идентичных/однородных товаров.16а
+     * Set the 'IdenticalGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРґРµРЅС‚РёС‡РЅС‹С…/РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ.16Р°
      * 
      * @param identicalGoodsQuantity
      */

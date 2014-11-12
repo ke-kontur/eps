@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о пакете архива и его документах.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР° Рё РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°С….
  */
 public class AUDPacketInfoWithDocumentsType extends AUDPacketInfoType
 {
     private List<AUDDocumentInfoType> documentInfoList = new ArrayList<AUDDocumentInfoType>();
 
     /** 
-     * Get the list of 'DocumentInfo' element items. Информация о документе архива.
+     * Get the list of 'DocumentInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°.
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class AUDPacketInfoWithDocumentsType extends AUDPacketInfoType
     }
 
     /** 
-     * Set the list of 'DocumentInfo' element items. Информация о документе архива.
+     * Set the list of 'DocumentInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°.
      * 
      * @param list
      */

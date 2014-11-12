@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.indulgencestatement;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о государственной регистрации юридического лица
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class JuridicalPersonRegistrationType
 {
@@ -15,7 +15,7 @@ public class JuridicalPersonRegistrationType
     private String certificateSeriesCode;
 
     /** 
-     * Get the 'RegistrationOrganization' element value. Наименование регистрирующего органа
+     * Get the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Set the 'RegistrationOrganization' element value. Наименование регистрирующего органа
+     * Set the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param registrationOrganization
      */
@@ -33,7 +33,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата регистрации
+     * Get the 'DateInf' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата регистрации
+     * Set the 'DateInf' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param dateInf
      */
@@ -51,7 +51,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Get the 'Place' element value. Место регистрации
+     * Get the 'Place' element value. РњРµСЃС‚Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Set the 'Place' element value. Место регистрации
+     * Set the 'Place' element value. РњРµСЃС‚Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param place
      */
@@ -69,7 +69,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. Номер свидетельства о государственной регистрации 
+     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. Номер свидетельства о государственной регистрации 
+     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
      * 
      * @param certificateNumber
      */
@@ -87,7 +87,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Get the 'CertificateSeriesCode' element value. Серия свидетельства о государственной регистрации 
+     * Get the 'CertificateSeriesCode' element value. РЎРµСЂРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class JuridicalPersonRegistrationType
     }
 
     /** 
-     * Set the 'CertificateSeriesCode' element value. Серия свидетельства о государственной регистрации 
+     * Set the 'CertificateSeriesCode' element value. РЎРµСЂРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
      * 
      * @param certificateSeriesCode
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportmeanschassispassport;
 
 /** 
- * Список цветов ТС, шасси ТС. Заполняется названиями основных  цветов,  если цвет - многоцветный.
+ * РЎРїРёСЃРѕРє С†РІРµС‚РѕРІ РўРЎ, С€Р°СЃСЃРё РўРЎ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РЅР°Р·РІР°РЅРёСЏРјРё РѕСЃРЅРѕРІРЅС‹С…  С†РІРµС‚РѕРІ,  РµСЃР»Рё С†РІРµС‚ - РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№.
  */
 public class TransportColorListType
 {
@@ -10,7 +10,7 @@ public class TransportColorListType
     private String colorName;
 
     /** 
-     * Get the 'ColorCode' element value. Код цвета кабины, кузова
+     * Get the 'ColorCode' element value. РљРѕРґ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class TransportColorListType
     }
 
     /** 
-     * Set the 'ColorCode' element value. Код цвета кабины, кузова
+     * Set the 'ColorCode' element value. РљРѕРґ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
      * 
      * @param colorCode
      */
@@ -28,7 +28,7 @@ public class TransportColorListType
     }
 
     /** 
-     * Get the 'ColorName' element value. Наименование цвета кабины, кузова
+     * Get the 'ColorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TransportColorListType
     }
 
     /** 
-     * Set the 'ColorName' element value. Наименование цвета кабины, кузова
+     * Set the 'ColorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
      * 
      * @param colorName
      */

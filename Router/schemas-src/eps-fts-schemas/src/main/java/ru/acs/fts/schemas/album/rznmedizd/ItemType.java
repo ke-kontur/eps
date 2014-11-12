@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.rznmedizd;
 
 /** 
- * Код ОКП / Категория ИМН
+ * РљРѕРґ РћРљРџ / РљР°С‚РµРіРѕСЂРёСЏ РРњРќ
  */
 public class ItemType
 {
@@ -10,7 +10,7 @@ public class ItemType
     private String description;
 
     /** 
-     * Get the 'Code' element value. Код
+     * Get the 'Code' element value. РљРѕРґ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ItemType
     }
 
     /** 
-     * Set the 'Code' element value. Код
+     * Set the 'Code' element value. РљРѕРґ
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class ItemType
     }
 
     /** 
-     * Get the 'Description' element value. Расшифровка кода
+     * Get the 'Description' element value. Р Р°СЃС€РёС„СЂРѕРІРєР° РєРѕРґР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ItemType
     }
 
     /** 
-     * Set the 'Description' element value. Расшифровка кода
+     * Set the 'Description' element value. Р Р°СЃС€РёС„СЂРѕРІРєР° РєРѕРґР°
      * 
      * @param description
      */

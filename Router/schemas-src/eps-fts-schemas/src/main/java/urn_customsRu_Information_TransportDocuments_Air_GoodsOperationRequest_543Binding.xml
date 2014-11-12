@@ -1,0 +1,21 @@
+<binding xmlns:gor="urn:customs.ru:Information:TransportDocuments:Air:GoodsOperationRequest:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Air:GoodsOperationRequest:5.4.3" default="elements" prefix="gor"/>
+  <mapping abstract="true" type-name="gor:GoodsOperationRequestType" class="ru.acs.fts.schemas.album.goodsoperationrequest.GoodsOperationRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getWayBillOperationList" set-method="setWayBillOperationList" create-type="java.util.ArrayList">
+      <structure map-as="gor:WayBillOperationType" name="WayBillOperation"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsOffice" set-method="setCustomsOffice" name="CustomsOffice"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodsoperationrequest.GoodsOperationRequestType" name="GoodsOperationRequest">
+    <structure map-as="gor:GoodsOperationRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gor:WayBillOperationType" class="ru.acs.fts.schemas.album.goodsoperationrequest.WayBillOperationType">
+    <value style="element" name="Operation" get-method="getOperation" set-method="setOperation"/>
+    <value style="element" name="Reasons" get-method="getReasons" set-method="setReasons" usage="optional"/>
+    <structure map-as="catTrans_ru:FlightInfoType" get-method="getNewFlightInfo" set-method="setNewFlightInfo" usage="optional" name="NewFlightInfo"/>
+    <structure map-as="catTrans_ru:AWBNumberType" get-method="getWayBillNumber" set-method="setWayBillNumber" name="WayBillNumber"/>
+  </mapping>
+</binding>

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения из реестра нарушителей
+ * РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№
  */
 public class InFringerType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class InFringerType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. Признак документа (0 - Сведения из реестра нарушителей; 1 - Сведения из реестра нарушителей - отметка об оплате штрафа)
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° (0 - РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№; 1 - РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№ - РѕС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InFringerType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа (0 - Сведения из реестра нарушителей; 1 - Сведения из реестра нарушителей - отметка об оплате штрафа)
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° (0 - РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№; 1 - РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№ - РѕС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°)
      * 
      * @param docSign
      */
@@ -33,7 +33,7 @@ public class InFringerType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ViolatorsList' element items. Список сведений из реестра нарушителей
+     * Get the list of 'ViolatorsList' element items. РЎРїРёСЃРѕРє СЃРІРµРґРµРЅРёР№ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class InFringerType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ViolatorsList' element items. Список сведений из реестра нарушителей
+     * Set the list of 'ViolatorsList' element items. РЎРїРёСЃРѕРє СЃРІРµРґРµРЅРёР№ РёР· СЂРµРµСЃС‚СЂР° РЅР°СЂСѓС€РёС‚РµР»РµР№
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class InFringerType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class InFringerType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

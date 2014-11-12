@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Информация об изготовителе/индивидуальном предпринимателе
+ * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ
  */
 public class ManufacturerType extends CUOrganizationType
 {
     private List<SubdivisionInfoType> subdivisionInfoList = new ArrayList<SubdivisionInfoType>();
 
     /** 
-     * Get the list of 'SubdivisionInfo' element items. Сведения о подразделениях предприятия
+     * Get the list of 'SubdivisionInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏС… РїСЂРµРґРїСЂРёСЏС‚РёСЏ
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ManufacturerType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'SubdivisionInfo' element items. Сведения о подразделениях предприятия
+     * Set the list of 'SubdivisionInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏС… РїСЂРµРґРїСЂРёСЏС‚РёСЏ
      * 
      * @param list
      */

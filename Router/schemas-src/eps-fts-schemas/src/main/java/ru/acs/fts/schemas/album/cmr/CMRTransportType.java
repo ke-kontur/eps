@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cmr;
 
 /** 
- * Условия транспортировки (гр.14,15,20,25,26)
+ * РЈСЃР»РѕРІРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё (РіСЂ.14,15,20,25,26)
  */
 public class CMRTransportType
 {
@@ -11,7 +11,7 @@ public class CMRTransportType
     private String trailerStateSignID;
 
     /** 
-     * Get the 'SpecialConditionsText' element value. Особые согласованные условия
+     * Get the 'SpecialConditionsText' element value. РћСЃРѕР±С‹Рµ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅС‹Рµ СѓСЃР»РѕРІРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CMRTransportType
     }
 
     /** 
-     * Set the 'SpecialConditionsText' element value. Особые согласованные условия
+     * Set the 'SpecialConditionsText' element value. РћСЃРѕР±С‹Рµ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅС‹Рµ СѓСЃР»РѕРІРёСЏ
      * 
      * @param specialConditionsText
      */
@@ -29,7 +29,7 @@ public class CMRTransportType
     }
 
     /** 
-     * Get the 'PrimeMoverStateSignID' element value. Регистрационный номер тягача
+     * Get the 'PrimeMoverStateSignID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚СЏРіР°С‡Р°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CMRTransportType
     }
 
     /** 
-     * Set the 'PrimeMoverStateSignID' element value. Регистрационный номер тягача
+     * Set the 'PrimeMoverStateSignID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚СЏРіР°С‡Р°
      * 
      * @param primeMoverStateSignID
      */
@@ -47,7 +47,7 @@ public class CMRTransportType
     }
 
     /** 
-     * Get the 'TrailerStateSignID' element value. Регистрационный номер прицепа
+     * Get the 'TrailerStateSignID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРёС†РµРїР°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CMRTransportType
     }
 
     /** 
-     * Set the 'TrailerStateSignID' element value. Регистрационный номер прицепа
+     * Set the 'TrailerStateSignID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРёС†РµРїР°
      * 
      * @param trailerStateSignID
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о продукции
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
  */
 public class GoodsType
 {
@@ -18,7 +18,7 @@ public class GoodsType
     private String usageArea;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Общее описание продукции
+     * Get the list of 'GoodsDescription' element items. РћР±С‰РµРµ РѕРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Общее описание продукции
+     * Set the list of 'GoodsDescription' element items. РћР±С‰РµРµ РѕРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'NormTechDocs' element items. Нормативная и технологическая документация в соответствии с которой произведена продукция (ГОСТы, ТУ и прочее)
+     * Get the list of 'NormTechDocs' element items. РќРѕСЂРјР°С‚РёРІРЅР°СЏ Рё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєР°СЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРµРґРµРЅР° РїСЂРѕРґСѓРєС†РёСЏ (Р“РћРЎРўС‹, РўРЈ Рё РїСЂРѕС‡РµРµ)
      * 
      * @return list
      */
@@ -45,7 +45,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'NormTechDocs' element items. Нормативная и технологическая документация в соответствии с которой произведена продукция (ГОСТы, ТУ и прочее)
+     * Set the list of 'NormTechDocs' element items. РќРѕСЂРјР°С‚РёРІРЅР°СЏ Рё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєР°СЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРµРґРµРЅР° РїСЂРѕРґСѓРєС†РёСЏ (Р“РћРЎРўС‹, РўРЈ Рё РїСЂРѕС‡РµРµ)
      * 
      * @param list
      */
@@ -54,7 +54,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'InvestigProtocols' element items. Протоколы исследований
+     * Get the list of 'InvestigProtocols' element items. РџСЂРѕС‚РѕРєРѕР»С‹ РёСЃСЃР»РµРґРѕРІР°РЅРёР№
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'InvestigProtocols' element items. Протоколы исследований
+     * Set the list of 'InvestigProtocols' element items. РџСЂРѕС‚РѕРєРѕР»С‹ РёСЃСЃР»РµРґРѕРІР°РЅРёР№
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'SanitaryCharachter' element items. Гигиеническая характеристика продукции
+     * Get the list of 'SanitaryCharachter' element items. Р“РёРіРёРµРЅРёС‡РµСЃРєР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'SanitaryCharachter' element items. Гигиеническая характеристика продукции
+     * Set the list of 'SanitaryCharachter' element items. Р“РёРіРёРµРЅРёС‡РµСЃРєР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'LabelInf' element value. Информация, наносимая на этикетку
+     * Get the 'LabelInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РЅР°РЅРѕСЃРёРјР°СЏ РЅР° СЌС‚РёРєРµС‚РєСѓ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'LabelInf' element value. Информация, наносимая на этикетку
+     * Set the 'LabelInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РЅР°РЅРѕСЃРёРјР°СЏ РЅР° СЌС‚РёРєРµС‚РєСѓ
      * 
      * @param labelInf
      */
@@ -108,7 +108,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'SanitaryRegulations' element items. Описание санитарных  правил, которым соответствует продукция
+     * Get the list of 'SanitaryRegulations' element items. РћРїРёСЃР°РЅРёРµ СЃР°РЅРёС‚Р°СЂРЅС‹С…  РїСЂР°РІРёР», РєРѕС‚РѕСЂС‹Рј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂРѕРґСѓРєС†РёСЏ
      * 
      * @return list
      */
@@ -117,7 +117,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'SanitaryRegulations' element items. Описание санитарных  правил, которым соответствует продукция
+     * Set the list of 'SanitaryRegulations' element items. РћРїРёСЃР°РЅРёРµ СЃР°РЅРёС‚Р°СЂРЅС‹С…  РїСЂР°РІРёР», РєРѕС‚РѕСЂС‹Рј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂРѕРґСѓРєС†РёСЏ
      * 
      * @param list
      */
@@ -126,7 +126,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'UsageArea' element value. Область применения
+     * Get the 'UsageArea' element value. РћР±Р»Р°СЃС‚СЊ РїСЂРёРјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'UsageArea' element value. Область применения
+     * Set the 'UsageArea' element value. РћР±Р»Р°СЃС‚СЊ РїСЂРёРјРµРЅРµРЅРёСЏ
      * 
      * @param usageArea
      */

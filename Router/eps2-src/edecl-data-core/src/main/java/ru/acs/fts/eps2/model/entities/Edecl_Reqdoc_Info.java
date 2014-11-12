@@ -12,6 +12,8 @@ public class Edecl_Reqdoc_Info implements Serializable
 	
 	public static final int FLAG_ALLOWED_AFTER_ISSUE = 0x00000001;
 
+    public static final int FLAG_ALLOWED_GRAPHIC = 0x00000010;
+
 	public Edecl_Reqdoc_Info( )
 	{
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация прикладной системы о пакете документов.
+ * РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјС‹ Рѕ РїР°РєРµС‚Рµ РґРѕРєСѓРјРµРЅС‚РѕРІ.
  */
 public class AUDAppliedPacketInfoType
 {
@@ -16,7 +16,7 @@ public class AUDAppliedPacketInfoType
     private List<AUDGTDIDType> AUDGTDIDList = new ArrayList<AUDGTDIDType>();
 
     /** 
-     * Get the 'AppliedPacketId' element value. Прикладной идентификатор пакета.
+     * Get the 'AppliedPacketId' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Set the 'AppliedPacketId' element value. Прикладной идентификатор пакета.
+     * Set the 'AppliedPacketId' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°.
      * 
      * @param appliedPacketId
      */
@@ -34,7 +34,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Get the 'Description' element value. Описание пакета.
+     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ РїР°РєРµС‚Р°.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Set the 'Description' element value. Описание пакета.
+     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ РїР°РєРµС‚Р°.
      * 
      * @param description
      */
@@ -52,7 +52,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Get the 'AppliedPacketType' element value. Тип размещаемого  пакета 01 - ГТД, 99 - прочие
+     * Get the 'AppliedPacketType' element value. РўРёРї СЂР°Р·РјРµС‰Р°РµРјРѕРіРѕ  РїР°РєРµС‚Р° 01 - Р“РўР”, 99 - РїСЂРѕС‡РёРµ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Set the 'AppliedPacketType' element value. Тип размещаемого  пакета 01 - ГТД, 99 - прочие
+     * Set the 'AppliedPacketType' element value. РўРёРї СЂР°Р·РјРµС‰Р°РµРјРѕРіРѕ  РїР°РєРµС‚Р° 01 - Р“РўР”, 99 - РїСЂРѕС‡РёРµ
      * 
      * @param appliedPacketType
      */
@@ -70,7 +70,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Get the 'AppliedProcessId' element value. Уникальный идентификатор процесса
+     * Get the 'AppliedProcessId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Set the 'AppliedProcessId' element value. Уникальный идентификатор процесса
+     * Set the 'AppliedProcessId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°
      * 
      * @param appliedProcessId
      */
@@ -88,7 +88,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Get the list of 'AUD_GTDID' element items. Регистрационный  номер ГТД заполняется  при   размещении  и предоставлении  пакета,  предназначенного для  хранения ГТД
+     * Get the list of 'AUD_GTDID' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ Р“РўР” Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ  РїСЂРё   СЂР°Р·РјРµС‰РµРЅРёРё  Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё  РїР°РєРµС‚Р°,  РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅРѕРіРѕ РґР»СЏ  С…СЂР°РЅРµРЅРёСЏ Р“РўР”
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class AUDAppliedPacketInfoType
     }
 
     /** 
-     * Set the list of 'AUD_GTDID' element items. Регистрационный  номер ГТД заполняется  при   размещении  и предоставлении  пакета,  предназначенного для  хранения ГТД
+     * Set the list of 'AUD_GTDID' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ Р“РўР” Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ  РїСЂРё   СЂР°Р·РјРµС‰РµРЅРёРё  Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё  РїР°РєРµС‚Р°,  РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅРѕРіРѕ РґР»СЏ  С…СЂР°РЅРµРЅРёСЏ Р“РўР”
      * 
      * @param list
      */

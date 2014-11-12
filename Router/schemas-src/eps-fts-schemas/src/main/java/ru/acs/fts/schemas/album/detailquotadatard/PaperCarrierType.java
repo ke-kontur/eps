@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.detailquotadatard;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о бумажных носителях
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р±СѓРјР°Р¶РЅС‹С… РЅРѕСЃРёС‚РµР»СЏС…
  */
 public class PaperCarrierType
 {
@@ -13,7 +13,7 @@ public class PaperCarrierType
     private LocalDate formPrintDate;
 
     /** 
-     * Get the 'FormNumber' element value. Номер бланка
+     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PaperCarrierType
     }
 
     /** 
-     * Set the 'FormNumber' element value. Номер бланка
+     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @param formNumber
      */
@@ -31,7 +31,7 @@ public class PaperCarrierType
     }
 
     /** 
-     * Get the 'FormSeries' element value. Серия бланка
+     * Get the 'FormSeries' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PaperCarrierType
     }
 
     /** 
-     * Set the 'FormSeries' element value. Серия бланка
+     * Set the 'FormSeries' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
      * 
      * @param formSeries
      */
@@ -49,7 +49,7 @@ public class PaperCarrierType
     }
 
     /** 
-     * Get the 'FormPrintDate' element value. Дата печати банка
+     * Get the 'FormPrintDate' element value. Р”Р°С‚Р° РїРµС‡Р°С‚Рё Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PaperCarrierType
     }
 
     /** 
-     * Set the 'FormPrintDate' element value. Дата печати банка
+     * Set the 'FormPrintDate' element value. Р”Р°С‚Р° РїРµС‡Р°С‚Рё Р±Р°РЅРєР°
      * 
      * @param formPrintDate
      */

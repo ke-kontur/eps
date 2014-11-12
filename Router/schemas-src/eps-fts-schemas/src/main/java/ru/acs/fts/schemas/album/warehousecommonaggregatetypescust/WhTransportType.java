@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания транспортного средства
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class WhTransportType
 {
@@ -11,7 +11,7 @@ public class WhTransportType
     private Choice choice;
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WhTransportType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param transportModeCode
      */
@@ -29,7 +29,7 @@ public class WhTransportType
     }
 
     /** 
-     * Get the 'TransportIdentifier' element value. Номер ТС (для морского транспорта указывается наименование судна, для авиа - номер борта, для железной дороги - номер вагона и т.д.)
+     * Get the 'TransportIdentifier' element value. РќРѕРјРµСЂ РўРЎ (РґР»СЏ РјРѕСЂСЃРєРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р° СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°, РґР»СЏ Р°РІРёР° - РЅРѕРјРµСЂ Р±РѕСЂС‚Р°, РґР»СЏ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё - РЅРѕРјРµСЂ РІР°РіРѕРЅР° Рё С‚.Рґ.)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class WhTransportType
     }
 
     /** 
-     * Set the 'TransportIdentifier' element value. Номер ТС (для морского транспорта указывается наименование судна, для авиа - номер борта, для железной дороги - номер вагона и т.д.)
+     * Set the 'TransportIdentifier' element value. РќРѕРјРµСЂ РўРЎ (РґР»СЏ РјРѕСЂСЃРєРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р° СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°, РґР»СЏ Р°РІРёР° - РЅРѕРјРµСЂ Р±РѕСЂС‚Р°, РґР»СЏ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё - РЅРѕРјРµСЂ РІР°РіРѕРЅР° Рё С‚.Рґ.)
      * 
      * @param transportIdentifier
      */
@@ -101,7 +101,7 @@ public class WhTransportType
         }
 
         /** 
-         * Get the 'Avia' element value. Подробности для авиа
+         * Get the 'Avia' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ Р°РІРёР°
          * 
          * @return value
          */
@@ -110,7 +110,7 @@ public class WhTransportType
         }
 
         /** 
-         * Set the 'Avia' element value. Подробности для авиа
+         * Set the 'Avia' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ Р°РІРёР°
          * 
          * @param avia
          */
@@ -129,7 +129,7 @@ public class WhTransportType
         }
 
         /** 
-         * Get the 'Avto' element value. Подробности для авто
+         * Get the 'Avto' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ Р°РІС‚Рѕ
          * 
          * @return value
          */
@@ -138,7 +138,7 @@ public class WhTransportType
         }
 
         /** 
-         * Set the 'Avto' element value. Подробности для авто
+         * Set the 'Avto' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ Р°РІС‚Рѕ
          * 
          * @param avto
          */
@@ -157,7 +157,7 @@ public class WhTransportType
         }
 
         /** 
-         * Get the 'RailRoad' element value. Подробности для ж/д
+         * Get the 'RailRoad' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ Р¶/Рґ
          * 
          * @return value
          */
@@ -166,7 +166,7 @@ public class WhTransportType
         }
 
         /** 
-         * Set the 'RailRoad' element value. Подробности для ж/д
+         * Set the 'RailRoad' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ Р¶/Рґ
          * 
          * @param railRoad
          */
@@ -185,7 +185,7 @@ public class WhTransportType
         }
 
         /** 
-         * Get the 'Sea' element value. Подробности для моря/реки
+         * Get the 'Sea' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ РјРѕСЂСЏ/СЂРµРєРё
          * 
          * @return value
          */
@@ -194,7 +194,7 @@ public class WhTransportType
         }
 
         /** 
-         * Set the 'Sea' element value. Подробности для моря/реки
+         * Set the 'Sea' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РґР»СЏ РјРѕСЂСЏ/СЂРµРєРё
          * 
          * @param sea
          */

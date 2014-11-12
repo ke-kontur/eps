@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.gtdobligationin;
 
 /** 
- * Таможенная процедура
+ * РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°
  */
 public class CustomsProcedureType
 {
@@ -10,7 +10,7 @@ public class CustomsProcedureType
     private String declarationKind;
 
     /** 
-     * Get the 'MainCustomsModeCode' element value. Код заявляемой таможенной процедуры в соответствии с классификатором видов таможенных  процедур.
+     * Get the 'MainCustomsModeCode' element value. РљРѕРґ Р·Р°СЏРІР»СЏРµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїСЂРѕС†РµРґСѓСЂ.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustomsProcedureType
     }
 
     /** 
-     * Set the 'MainCustomsModeCode' element value. Код заявляемой таможенной процедуры в соответствии с классификатором видов таможенных  процедур.
+     * Set the 'MainCustomsModeCode' element value. РљРѕРґ Р·Р°СЏРІР»СЏРµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїСЂРѕС†РµРґСѓСЂ.
      * 
      * @param mainCustomsModeCode
      */
@@ -28,7 +28,7 @@ public class CustomsProcedureType
     }
 
     /** 
-     * Get the 'DeclarationKind' element value. Код особенности декларирования товаров по Классификатору особенностей таможенного декларирования товаров.
+     * Get the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsProcedureType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. Код особенности декларирования товаров по Классификатору особенностей таможенного декларирования товаров.
+     * Set the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param declarationKind
      */

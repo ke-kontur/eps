@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType;
 
 /** 
- * Сведения о декларанте товаров
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
  */
 public class ESADoutDeclarantPType extends CUOrganizationType
 {
     private ESADFilledPersonType ESADFilledPerson;
 
     /** 
-     * Get the 'ESADFilledPerson' element value. Сведения о лице, заполнившем уведомление
+     * Get the 'ESADFilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ESADoutDeclarantPType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ESADFilledPerson' element value. Сведения о лице, заполнившем уведомление
+     * Set the 'ESADFilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param ESADFilledPerson
      */

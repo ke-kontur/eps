@@ -280,7 +280,7 @@ public class MessageCMN11025BusinessProcess extends BusinessProcess
 
 			String docRef = cdoc.getRefDocumentID( );
 			
-			if ( DocumentModeIDs.KDT_OUT_CU.equals( cdoc.getDocumentModeID( ) ) )
+			if ( DocumentModeIDs.KDT_OUT_CU.equals( cdoc.getDocumentModeID( ) ) || DocumentModeIDs.DECL_CHANGE_REQUEST.equals(cdoc.getDocumentModeID()))
 				continue;
 
 			/**

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о рейсе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
  */
 public class FlightInfoType
 {
@@ -16,7 +16,7 @@ public class FlightInfoType
     private AirportType departureAirport;
 
     /** 
-     * Get the 'FlightNumber' element value. Номер рейса
+     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. Номер рейса
+     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @param flightNumber
      */
@@ -34,7 +34,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'FlightDate' element value. Дата рейса
+     * Get the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'FlightDate' element value. Дата рейса
+     * Set the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
      * 
      * @param flightDate
      */
@@ -52,7 +52,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'Mark' element value. Тип воздушного судна
+     * Get the 'Mark' element value. РўРёРї РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'Mark' element value. Тип воздушного судна
+     * Set the 'Mark' element value. РўРёРї РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param mark
      */
@@ -70,7 +70,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'AirPlaneRegNum' element value. Бортовой номер воздушного судна
+     * Get the 'AirPlaneRegNum' element value. Р‘РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'AirPlaneRegNum' element value. Бортовой номер воздушного судна
+     * Set the 'AirPlaneRegNum' element value. Р‘РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param airPlaneRegNum
      */
@@ -88,7 +88,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'FlightTime' element value. Время вылета рейса
+     * Get the 'FlightTime' element value. Р’СЂРµРјСЏ РІС‹Р»РµС‚Р° СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'FlightTime' element value. Время вылета рейса
+     * Set the 'FlightTime' element value. Р’СЂРµРјСЏ РІС‹Р»РµС‚Р° СЂРµР№СЃР°
      * 
      * @param flightTime
      */
@@ -106,7 +106,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'DepartureAirport' element value. Аэропорт отправления
+     * Get the 'DepartureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'DepartureAirport' element value. Аэропорт отправления
+     * Set the 'DepartureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureAirport
      */

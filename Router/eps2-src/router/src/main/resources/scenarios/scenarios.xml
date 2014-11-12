@@ -80,6 +80,16 @@
     <import resource="cmn11097.xml"/>
     <import resource="cmn11103.xml"/>
     <import resource="cmn11111.xml"/>
+    <import resource="cmn11122.xml"/>
+    <import resource="cmn11138.xml"/>
+    <import resource="cmn11139.xml"/>
+    <import resource="cmn11140.xml"/>
+    <import resource="cmn11141.xml"/>
+    <import resource="cmn11142.xml"/>
+    <import resource="cmn11143.xml"/>
+    <import resource="cmn11145.xml"/>
+    <import resource="cmn11146.xml"/>
+    <import resource="cmn11153.xml"/>
     <import resource="cmn12042.xml"/>
     <import resource="cmn12092.xml"/>
     <import resource="cmn12094.xml"/>
@@ -171,10 +181,12 @@
     <import resource="suppliesClaim.xml"/>
     <import resource="suppliesClaimIssueDecision.xml"/>
     <import resource="suppliesClaimChangedDocs.xml"/>
+    <import resource="suppliesClaimChangedDocs11146.xml"/>
     <import resource="gatewayNotification.xml" />
     <import resource="msgSaveOnly.xml" /> <!-- Просто сохраняем сообщения от таможни с переводом статуса -->
     <import resource="exportImportMsgResponse.xml" />
     <import resource="importExportDecision.xml" />
+    <import resource="importExportDecision11156.xml" />
     <import resource="goodsArrangement.xml" />
     <import resource="goodsArrangementInProc.xml" />
     <import resource="goodsArrangementFromPI.xml" />
@@ -190,6 +202,7 @@
     
     <!-- Транзит -->
     <import resource="tranzitInProc.xml"/>
+    <import resource="tranzitInProc11119.xml"/>
     <import resource="tranzitInProcContainer.xml" />
     <import resource="tranzitInProcContainerToPIClearSign.xml" />
     <import resource="tranzitInProcWithBusinessProcess.xml" />
@@ -210,6 +223,8 @@
     <import resource="tranzitInProcRemotenessBusinessProcess.xml" />
     <import resource="tranzitInProcRemotenessRemoteBusinessProcess.xml" />
     <import resource="tranzitInProcFromMalakhit.xml" />
+    <import resource="tranzitInProcFromMalakhit11150.xml" />
+    <import resource="tranzitInProcFromOrder.xml" />
     <import resource="oez_destruction_container.xml" />
     
     <!-- Обработка ошибок --> 

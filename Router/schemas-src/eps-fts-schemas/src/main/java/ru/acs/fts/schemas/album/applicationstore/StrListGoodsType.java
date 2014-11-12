@@ -1,8 +1,12 @@
 
 package ru.acs.fts.schemas.album.applicationstore;
 
+import java.util.ArrayList;
+import java.util.List;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
+
 /** 
- * Строка списка товаров
+ * РЎС‚СЂРѕРєР° СЃРїРёСЃРєР° С‚РѕРІР°СЂРѕРІ
  */
 public class StrListGoodsType
 {
@@ -16,9 +20,12 @@ public class StrListGoodsType
     private String goodsNomenclatureCode;
     private String customsCostGoods;
     private String norm;
+    private String additionalInfo;
+    private SupplementaryQuantityType supplementaryQuantity;
+    private List<SupplementaryQuantityType> supplementaryQuantity1List = new ArrayList<SupplementaryQuantityType>();
 
     /** 
-     * Get the 'NameGoods' element value. Наименование припасов
+     * Get the 'NameGoods' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёРїР°СЃРѕРІ
      * 
      * @return value
      */
@@ -27,7 +34,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'NameGoods' element value. Наименование припасов
+     * Set the 'NameGoods' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёРїР°СЃРѕРІ
      * 
      * @param nameGoods
      */
@@ -36,7 +43,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'NumberGoods' element value. Количество припасов
+     * Get the 'NumberGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ
      * 
      * @return value
      */
@@ -45,7 +52,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'NumberGoods' element value. Количество припасов
+     * Set the 'NumberGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ
      * 
      * @param numberGoods
      */
@@ -54,7 +61,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'PriceUnit' element value. Стоимость за единицу товара
+     * Get the 'PriceUnit' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ Р·Р° РµРґРёРЅРёС†Сѓ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -63,7 +70,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'PriceUnit' element value. Стоимость за единицу товара
+     * Set the 'PriceUnit' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ Р·Р° РµРґРёРЅРёС†Сѓ С‚РѕРІР°СЂР°
      * 
      * @param priceUnit
      */
@@ -72,7 +79,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'TotalCostGoods' element value. Стоимость товара.
+     * Get the 'TotalCostGoods' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°.
      * 
      * @return value
      */
@@ -81,7 +88,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'TotalCostGoods' element value. Стоимость товара.
+     * Set the 'TotalCostGoods' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°.
      * 
      * @param totalCostGoods
      */
@@ -90,7 +97,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'Currency' element value. Валюта 
+     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р° 
      * 
      * @return value
      */
@@ -99,7 +106,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'Currency' element value. Валюта 
+     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р° 
      * 
      * @param currency
      */
@@ -108,7 +115,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'UnitName' element value. Наименование единицы измерения
+     * Get the 'UnitName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -117,7 +124,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'UnitName' element value. Наименование единицы измерения
+     * Set the 'UnitName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param unitName
      */
@@ -126,7 +133,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'UnitCode' element value. Код единицы измерения
+     * Get the 'UnitCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -135,7 +142,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'UnitCode' element value. Код единицы измерения
+     * Set the 'UnitCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param unitCode
      */
@@ -144,7 +151,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'GoodsNomenclatureCode' element value. Код ТН ВЭД ТС
+     * Get the 'GoodsNomenclatureCode' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -153,7 +160,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'GoodsNomenclatureCode' element value. Код ТН ВЭД ТС
+     * Set the 'GoodsNomenclatureCode' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsNomenclatureCode
      */
@@ -162,7 +169,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'CustomsCostGoods' element value. Таможенная стоимость товара
+     * Get the 'CustomsCostGoods' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -171,7 +178,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'CustomsCostGoods' element value. Таможенная стоимость товара
+     * Set the 'CustomsCostGoods' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param customsCostGoods
      */
@@ -180,7 +187,7 @@ public class StrListGoodsType
     }
 
     /** 
-     * Get the 'Norm' element value. Норма припасов
+     * Get the 'Norm' element value. РќРѕСЂРјР° РїСЂРёРїР°СЃРѕРІ
      * 
      * @return value
      */
@@ -189,11 +196,67 @@ public class StrListGoodsType
     }
 
     /** 
-     * Set the 'Norm' element value. Норма припасов
+     * Set the 'Norm' element value. РќРѕСЂРјР° РїСЂРёРїР°СЃРѕРІ
      * 
      * @param norm
      */
     public void setNorm(String norm) {
         this.norm = norm;
+    }
+
+    /** 
+     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * 
+     * @return value
+     */
+    public String getAdditionalInfo() {
+        return additionalInfo;
+    }
+
+    /** 
+     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * 
+     * @param additionalInfo
+     */
+    public void setAdditionalInfo(String additionalInfo) {
+        this.additionalInfo = additionalInfo;
+    }
+
+    /** 
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * 
+     * @return value
+     */
+    public SupplementaryQuantityType getSupplementaryQuantity() {
+        return supplementaryQuantity;
+    }
+
+    /** 
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * 
+     * @param supplementaryQuantity
+     */
+    public void setSupplementaryQuantity(
+            SupplementaryQuantityType supplementaryQuantity) {
+        this.supplementaryQuantity = supplementaryQuantity;
+    }
+
+    /** 
+     * Get the list of 'SupplementaryQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№
+     * 
+     * @return list
+     */
+    public List<SupplementaryQuantityType> getSupplementaryQuantity1List() {
+        return supplementaryQuantity1List;
+    }
+
+    /** 
+     * Set the list of 'SupplementaryQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№
+     * 
+     * @param list
+     */
+    public void setSupplementaryQuantity1List(
+            List<SupplementaryQuantityType> list) {
+        supplementaryQuantity1List = list;
     }
 }

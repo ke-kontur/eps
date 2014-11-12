@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о владельце/водителе транспортного средства
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ/РІРѕРґРёС‚РµР»Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class TransportPersonType extends PersonBaseType
 {
@@ -15,7 +15,7 @@ public class TransportPersonType extends PersonBaseType
     private AddressType address;
 
     /** 
-     * Get the 'BirthDate' element value. Дата рождения
+     * Get the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TransportPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'BirthDate' element value. Дата рождения
+     * Set the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthDate
      */
@@ -33,7 +33,7 @@ public class TransportPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'IdentityCardInfo' element value. Сведения документа, удостоверяющего личность
+     * Get the 'IdentityCardInfo' element value. РЎРІРµРґРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TransportPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IdentityCardInfo' element value. Сведения документа, удостоверяющего личность
+     * Set the 'IdentityCardInfo' element value. РЎРІРµРґРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCardInfo
      */
@@ -51,7 +51,7 @@ public class TransportPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TransportPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */

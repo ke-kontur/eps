@@ -125,7 +125,7 @@
 								<map>
 									<entry key="messageTypes" >
 										<map>
-											<entry key="CMN.11010" value="MSG.11023" />
+                                            <entry key="CMN.11010" value="MSG.11023" />
 											<entry key="CMN.11020" value="MSG.11069" />
 											<entry key="CMN.11033" value="MSG.11023" />
 											<entry key="CMN.11042" value="MSG.11035" />
@@ -195,7 +195,8 @@
 											<entry key="CMN.11118" value="CMN.11118" />
 											<entry key="CMN.11123" value="CMN.11123" />
 											<entry key="CMN.11124" value="CMN.11124" />
-										</map>
+
+                                        </map>
 									</entry>
 									<entry key="envelopeName" value="cmnTransit" />
 								</map>

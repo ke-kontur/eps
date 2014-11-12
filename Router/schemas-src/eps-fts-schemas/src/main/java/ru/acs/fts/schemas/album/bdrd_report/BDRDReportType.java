@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Отчет по результатам сопоставления сведений из РД и ДТ
+ * РћС‚С‡РµС‚ РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј СЃРѕРїРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРІРµРґРµРЅРёР№ РёР· Р Р” Рё Р”Рў
  */
 public class BDRDReportType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class BDRDReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RequestPositionID' element value. Позиция РД в запросе
+     * Get the 'RequestPositionID' element value. РџРѕР·РёС†РёСЏ Р Р” РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class BDRDReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. Позиция РД в запросе
+     * Set the 'RequestPositionID' element value. РџРѕР·РёС†РёСЏ Р Р” РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @param requestPositionID
      */
@@ -33,7 +33,7 @@ public class BDRDReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CheckResult' element items. Результаты сверки сведений
+     * Get the list of 'CheckResult' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ СЃРІРµСЂРєРё СЃРІРµРґРµРЅРёР№
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class BDRDReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CheckResult' element items. Результаты сверки сведений
+     * Set the list of 'CheckResult' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ СЃРІРµСЂРєРё СЃРІРµРґРµРЅРёР№
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class BDRDReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class BDRDReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

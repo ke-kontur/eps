@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о сертифицируемой продукции
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРµСЂС‚РёС„РёС†РёСЂСѓРµРјРѕР№ РїСЂРѕРґСѓРєС†РёРё
  */
 public class GoodsType
 {
@@ -21,7 +21,7 @@ public class GoodsType
     private List<String> sanitaryRegulationList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Общее описание продукции
+     * Get the list of 'GoodsDescription' element items. РћР±С‰РµРµ РѕРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Общее описание продукции
+     * Set the list of 'GoodsDescription' element items. РћР±С‰РµРµ РѕРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'RuUseInf' element value. Информация об использовании на территории РФ
+     * Get the 'RuUseInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'RuUseInf' element value. Информация об использовании на территории РФ
+     * Set the 'RuUseInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
      * 
      * @param ruUseInf
      */
@@ -57,7 +57,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'NormTechDocs' element items. Нормативная и технологическая документация в соответствии с которой произведена продукция (ГОСТы, ТУ и прочее)
+     * Get the list of 'NormTechDocs' element items. РќРѕСЂРјР°С‚РёРІРЅР°СЏ Рё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєР°СЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРµРґРµРЅР° РїСЂРѕРґСѓРєС†РёСЏ (Р“РћРЎРўС‹, РўРЈ Рё РїСЂРѕС‡РµРµ)
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'NormTechDocs' element items. Нормативная и технологическая документация в соответствии с которой произведена продукция (ГОСТы, ТУ и прочее)
+     * Set the list of 'NormTechDocs' element items. РќРѕСЂРјР°С‚РёРІРЅР°СЏ Рё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєР°СЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРµРґРµРЅР° РїСЂРѕРґСѓРєС†РёСЏ (Р“РћРЎРўС‹, РўРЈ Рё РїСЂРѕС‡РµРµ)
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'InvestigProtocols' element items. Протоколы исследований
+     * Get the list of 'InvestigProtocols' element items. РџСЂРѕС‚РѕРєРѕР»С‹ РёСЃСЃР»РµРґРѕРІР°РЅРёР№
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'InvestigProtocols' element items. Протоколы исследований
+     * Set the list of 'InvestigProtocols' element items. РџСЂРѕС‚РѕРєРѕР»С‹ РёСЃСЃР»РµРґРѕРІР°РЅРёР№
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsEntry' element value. Реквизиты импортной продукции
+     * Get the 'GoodsEntry' element value. Р РµРєРІРёР·РёС‚С‹ РёРјРїРѕСЂС‚РЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsEntry' element value. Реквизиты импортной продукции
+     * Set the 'GoodsEntry' element value. Р РµРєРІРёР·РёС‚С‹ РёРјРїРѕСЂС‚РЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param goodsEntry
      */
@@ -111,7 +111,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'SanitaryCharachter' element items. Гигиеническая характеристика продукции
+     * Get the list of 'SanitaryCharachter' element items. Р“РёРіРёРµРЅРёС‡РµСЃРєР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'SanitaryCharachter' element items. Гигиеническая характеристика продукции
+     * Set the list of 'SanitaryCharachter' element items. Р“РёРіРёРµРЅРёС‡РµСЃРєР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'FieldOfUse' element value. Область применения
+     * Get the 'FieldOfUse' element value. РћР±Р»Р°СЃС‚СЊ РїСЂРёРјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'FieldOfUse' element value. Область применения
+     * Set the 'FieldOfUse' element value. РћР±Р»Р°СЃС‚СЊ РїСЂРёРјРµРЅРµРЅРёСЏ
      * 
      * @param fieldOfUse
      */
@@ -147,7 +147,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'ReqConditions' element value. Необходимые условия использования, хранения, транспортировки и меры безопасности
+     * Get the 'ReqConditions' element value. РќРµРѕР±С…РѕРґРёРјС‹Рµ СѓСЃР»РѕРІРёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ, С…СЂР°РЅРµРЅРёСЏ, С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё Рё РјРµСЂС‹ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'ReqConditions' element value. Необходимые условия использования, хранения, транспортировки и меры безопасности
+     * Set the 'ReqConditions' element value. РќРµРѕР±С…РѕРґРёРјС‹Рµ СѓСЃР»РѕРІРёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ, С…СЂР°РЅРµРЅРёСЏ, С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё Рё РјРµСЂС‹ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё
      * 
      * @param reqConditions
      */
@@ -165,7 +165,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'LabelInf' element value. Информация, наносимая на этикетку
+     * Get the 'LabelInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РЅР°РЅРѕСЃРёРјР°СЏ РЅР° СЌС‚РёРєРµС‚РєСѓ
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'LabelInf' element value. Информация, наносимая на этикетку
+     * Set the 'LabelInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РЅР°РЅРѕСЃРёРјР°СЏ РЅР° СЌС‚РёРєРµС‚РєСѓ
      * 
      * @param labelInf
      */
@@ -183,7 +183,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'SanitaryRegulations' element items. Описание санитарных  правил, которым соответствует продукция
+     * Get the list of 'SanitaryRegulations' element items. РћРїРёСЃР°РЅРёРµ СЃР°РЅРёС‚Р°СЂРЅС‹С…  РїСЂР°РІРёР», РєРѕС‚РѕСЂС‹Рј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂРѕРґСѓРєС†РёСЏ
      * 
      * @return list
      */
@@ -192,7 +192,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'SanitaryRegulations' element items. Описание санитарных  правил, которым соответствует продукция
+     * Set the list of 'SanitaryRegulations' element items. РћРїРёСЃР°РЅРёРµ СЃР°РЅРёС‚Р°СЂРЅС‹С…  РїСЂР°РІРёР», РєРѕС‚РѕСЂС‹Рј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂРѕРґСѓРєС†РёСЏ
      * 
      * @param list
      */

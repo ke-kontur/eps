@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DeliveryTermsType;
 
 /** 
- * Сведения об условиях сделки. Гр. 11, 20, 22, 23, 24
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓСЃР»РѕРІРёСЏС… СЃРґРµР»РєРё. Р“СЂ. 11, 20, 22, 23, 24
  */
 public class CUESADMainContractTermsType extends ContractCostType
 {
@@ -15,7 +15,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     private DeliveryTermsType CUESADDeliveryTerms;
 
     /** 
-     * Get the 'TradeCountryCode' element value. Буквенный код торгующей страны по классификатору стран мира. Гр.11, 1-й подраздел ДТ
+     * Get the 'TradeCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. Р“СЂ.11, 1-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'TradeCountryCode' element value. Буквенный код торгующей страны по классификатору стран мира. Гр.11, 1-й подраздел ДТ
+     * Set the 'TradeCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. Р“СЂ.11, 1-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
      * 
      * @param tradeCountryCode
      */
@@ -33,7 +33,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'RBCountryCode' element value. Код административно-территориального деления страны в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.11, 2-й подраздел ДТ
+     * Get the 'RBCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.11, 2-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'RBCountryCode' element value. Код административно-территориального деления страны в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.11, 2-й подраздел ДТ
+     * Set the 'RBCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.11, 2-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
      * 
      * @param RBCountryCode
      */
@@ -51,7 +51,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'DealFeatureCode' element value. Код особенности сделки (договора). В соответствии с классификатором особенности внешнеэкономической сделки, используемым в государствах - членах Таможенного союза. Гр. 24 ДТ
+     * Get the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ. 24 Р”Рў
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'DealFeatureCode' element value. Код особенности сделки (договора). В соответствии с классификатором особенности внешнеэкономической сделки, используемым в государствах - членах Таможенного союза. Гр. 24 ДТ
+     * Set the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ. 24 Р”Рў
      * 
      * @param dealFeatureCode
      */
@@ -69,7 +69,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами в соответствии с классификатором характера сделки, используемым в государствах - членах Таможенного союза. Гр.24 ДТ
+     * Get the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ.24 Р”Рў
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами в соответствии с классификатором характера сделки, используемым в государствах - членах Таможенного союза. Гр.24 ДТ
+     * Set the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ.24 Р”Рў
      * 
      * @param dealNatureCode
      */
@@ -87,7 +87,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'CUESADDeliveryTerms' element value. Условия поставки товаров. Гр. 20 ДТ
+     * Get the 'CUESADDeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р“СЂ. 20 Р”Рў
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class CUESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'CUESADDeliveryTerms' element value. Условия поставки товаров. Гр. 20 ДТ
+     * Set the 'CUESADDeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р“СЂ. 20 Р”Рў
      * 
      * @param CUESADDeliveryTerms
      */

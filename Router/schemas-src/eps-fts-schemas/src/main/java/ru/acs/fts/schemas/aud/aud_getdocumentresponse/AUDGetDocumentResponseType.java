@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentInfoWithAttributesType;
 
 /** 
- * Ответ на запрос на поиск и извлечение документа (документов) архива.
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РїРѕРёСЃРє Рё РёР·РІР»РµС‡РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РґРѕРєСѓРјРµРЅС‚РѕРІ) Р°СЂС…РёРІР°.
  */
 public class AUDGetDocumentResponseType extends AUDBaseEnvelopeType
 {
@@ -15,7 +15,7 @@ public class AUDGetDocumentResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the list of 'DocumentInfoWithAttributes' element items. Информация о документе архива, пакете (в состав которого входит документ) и реквизитах документа.
+     * Get the list of 'DocumentInfoWithAttributes' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, РїР°РєРµС‚Рµ (РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚) Рё СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class AUDGetDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'DocumentInfoWithAttributes' element items. Информация о документе архива, пакете (в состав которого входит документ) и реквизитах документа.
+     * Set the list of 'DocumentInfoWithAttributes' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, РїР°РєРµС‚Рµ (РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚) Рё СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class AUDGetDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AUDGetDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

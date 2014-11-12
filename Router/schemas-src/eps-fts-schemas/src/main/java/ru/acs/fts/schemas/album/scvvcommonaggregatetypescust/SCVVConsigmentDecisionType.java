@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.scvvcommonleaftypescust.StateShipmentType;
 
 /** 
- * Сведения о решении о вывозе товарной партии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµС€РµРЅРёРё Рѕ РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class SCVVConsigmentDecisionType
 {
@@ -15,7 +15,7 @@ public class SCVVConsigmentDecisionType
     private SCVVConsignmentType shipmentFactInfo;
 
     /** 
-     * Get the 'StateShipment' element value. Статус вывоза после принятия решения.
+     * Get the 'StateShipment' element value. РЎС‚Р°С‚СѓСЃ РІС‹РІРѕР·Р° РїРѕСЃР»Рµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SCVVConsigmentDecisionType
     }
 
     /** 
-     * Set the 'StateShipment' element value. Статус вывоза после принятия решения.
+     * Set the 'StateShipment' element value. РЎС‚Р°С‚СѓСЃ РІС‹РІРѕР·Р° РїРѕСЃР»Рµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ.
      * 
      * @param stateShipment
      */
@@ -33,7 +33,7 @@ public class SCVVConsigmentDecisionType
     }
 
     /** 
-     * Get the list of 'Cause' element items. Описание причин принятого решения
+     * Get the list of 'Cause' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class SCVVConsigmentDecisionType
     }
 
     /** 
-     * Set the list of 'Cause' element items. Описание причин принятого решения
+     * Set the list of 'Cause' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class SCVVConsigmentDecisionType
     }
 
     /** 
-     * Get the 'ShipmentFactInfo' element value. Информация о фактическом вывозе по товарной партии (в случае принятия решения о разрешении фактического вывоза товаров)
+     * Get the 'ShipmentFactInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё (РІ СЃР»СѓС‡Р°Рµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ СЂР°Р·СЂРµС€РµРЅРёРё С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ)
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SCVVConsigmentDecisionType
     }
 
     /** 
-     * Set the 'ShipmentFactInfo' element value. Информация о фактическом вывозе по товарной партии (в случае принятия решения о разрешении фактического вывоза товаров)
+     * Set the 'ShipmentFactInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё (РІ СЃР»СѓС‡Р°Рµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ СЂР°Р·СЂРµС€РµРЅРёРё С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ)
      * 
      * @param shipmentFactInfo
      */

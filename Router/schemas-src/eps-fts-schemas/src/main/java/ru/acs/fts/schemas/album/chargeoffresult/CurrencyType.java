@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.chargeoffresult;
 
 /** 
- * Список валют.
+ * РЎРїРёСЃРѕРє РІР°Р»СЋС‚.
  */
 public class CurrencyType
 {
@@ -10,7 +10,7 @@ public class CurrencyType
     private String amount;
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CurrencyType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -28,7 +28,7 @@ public class CurrencyType
     }
 
     /** 
-     * Get the 'Amount' element value. Сумма нехватки средств в валюте
+     * Get the 'Amount' element value. РЎСѓРјРјР° РЅРµС…РІР°С‚РєРё СЃСЂРµРґСЃС‚РІ РІ РІР°Р»СЋС‚Рµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CurrencyType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма нехватки средств в валюте
+     * Set the 'Amount' element value. РЎСѓРјРјР° РЅРµС…РІР°С‚РєРё СЃСЂРµРґСЃС‚РІ РІ РІР°Р»СЋС‚Рµ
      * 
      * @param amount
      */

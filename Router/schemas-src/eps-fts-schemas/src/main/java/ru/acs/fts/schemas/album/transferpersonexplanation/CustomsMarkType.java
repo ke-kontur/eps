@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Отметки таможни
+ * РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
  */
 public class CustomsMarkType extends CustomsPersonType
 {
@@ -13,7 +13,7 @@ public class CustomsMarkType extends CustomsPersonType
     private LocalDate receiveDate;
 
     /** 
-     * Get the 'PersonPost' element value. Должность.
+     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CustomsMarkType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Должность.
+     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ.
      * 
      * @param personPost
      */
@@ -31,7 +31,7 @@ public class CustomsMarkType extends CustomsPersonType
     }
 
     /** 
-     * Get the 'ReceiveDate' element value. Дата получения пояснений
+     * Get the 'ReceiveDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РїРѕСЏСЃРЅРµРЅРёР№
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CustomsMarkType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'ReceiveDate' element value. Дата получения пояснений
+     * Set the 'ReceiveDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РїРѕСЏСЃРЅРµРЅРёР№
      * 
      * @param receiveDate
      */

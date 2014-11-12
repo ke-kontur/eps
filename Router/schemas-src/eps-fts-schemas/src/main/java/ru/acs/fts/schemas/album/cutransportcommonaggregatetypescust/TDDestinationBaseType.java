@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Базовый тип для описания места назначения/доставки
+ * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ/РґРѕСЃС‚Р°РІРєРё
  */
 public class TDDestinationBaseType
 {
@@ -13,7 +13,7 @@ public class TDDestinationBaseType
     private AddressType address;
 
     /** 
-     * Get the 'DestinationCustomsCode' element value. Код таможни назначения
+     * Get the 'DestinationCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РЅРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TDDestinationBaseType
     }
 
     /** 
-     * Set the 'DestinationCustomsCode' element value. Код таможни назначения
+     * Set the 'DestinationCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РЅРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCustomsCode
      */
@@ -31,7 +31,7 @@ public class TDDestinationBaseType
     }
 
     /** 
-     * Get the 'DeliveryCustomsPostCode' element value. Код поста места доставки
+     * Get the 'DeliveryCustomsPostCode' element value. РљРѕРґ РїРѕСЃС‚Р° РјРµСЃС‚Р° РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TDDestinationBaseType
     }
 
     /** 
-     * Set the 'DeliveryCustomsPostCode' element value. Код поста места доставки
+     * Set the 'DeliveryCustomsPostCode' element value. РљРѕРґ РїРѕСЃС‚Р° РјРµСЃС‚Р° РґРѕСЃС‚Р°РІРєРё
      * 
      * @param deliveryCustomsPostCode
      */
@@ -49,7 +49,7 @@ public class TDDestinationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TDDestinationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */

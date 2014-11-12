@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.envelope;
 
 /** 
- * Информация о ЭЦП присоединенного файла
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р­Р¦Рџ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -22,7 +22,7 @@ public class FileSignatureType
     private String algorithm;
 
     /** 
-     * Get the 'SignatureValue' element value. Значение ЭЦП
+     * Get the 'SignatureValue' element value. Р—РЅР°С‡РµРЅРёРµ Р­Р¦Рџ
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class FileSignatureType
     }
 
     /** 
-     * Set the 'SignatureValue' element value. Значение ЭЦП
+     * Set the 'SignatureValue' element value. Р—РЅР°С‡РµРЅРёРµ Р­Р¦Рџ
      * 
      * @param signatureValue
      */
@@ -40,7 +40,7 @@ public class FileSignatureType
     }
 
     /** 
-     * Get the 'KeyInfo' element value. Ключевая информация для проверки ЭЦП
+     * Get the 'KeyInfo' element value. РљР»СЋС‡РµРІР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РїСЂРѕРІРµСЂРєРё Р­Р¦Рџ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class FileSignatureType
     }
 
     /** 
-     * Set the 'KeyInfo' element value. Ключевая информация для проверки ЭЦП
+     * Set the 'KeyInfo' element value. РљР»СЋС‡РµРІР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РїСЂРѕРІРµСЂРєРё Р­Р¦Рџ
      * 
      * @param keyInfo
      */
@@ -58,7 +58,7 @@ public class FileSignatureType
     }
 
     /** 
-     * Get the 'Algorithm' attribute value. Алгоритм вычисления ЭЦП
+     * Get the 'Algorithm' attribute value. РђР»РіРѕСЂРёС‚Рј РІС‹С‡РёСЃР»РµРЅРёСЏ Р­Р¦Рџ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class FileSignatureType
     }
 
     /** 
-     * Set the 'Algorithm' attribute value. Алгоритм вычисления ЭЦП
+     * Set the 'Algorithm' attribute value. РђР»РіРѕСЂРёС‚Рј РІС‹С‡РёСЃР»РµРЅРёСЏ Р­Р¦Рџ
      * 
      * @param algorithm
      */

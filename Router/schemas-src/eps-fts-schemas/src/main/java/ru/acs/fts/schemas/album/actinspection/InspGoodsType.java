@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * АТД - сведения о товарe
+ * РђРўР” - СЃРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂe
  */
 public class InspGoodsType extends GoodsBaseType
 {
@@ -29,7 +29,7 @@ public class InspGoodsType extends GoodsBaseType
     private List<InspPackageType> packageInfoList = new ArrayList<InspPackageType>();
 
     /** 
-     * Get the 'CountryCode' element value. Двузначный буквенный альфа-2 код страны изготовления (производства) товара по общероссийскому классификатору стран мира (согласно маркировке)
+     * Get the 'CountryCode' element value. Р”РІСѓР·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ Р°Р»СЊС„Р°-2 РєРѕРґ СЃС‚СЂР°РЅС‹ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ (РїСЂРѕРёР·РІРѕРґСЃС‚РІР°) С‚РѕРІР°СЂР° РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° (СЃРѕРіР»Р°СЃРЅРѕ РјР°СЂРєРёСЂРѕРІРєРµ)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Двузначный буквенный альфа-2 код страны изготовления (производства) товара по общероссийскому классификатору стран мира (согласно маркировке)
+     * Set the 'CountryCode' element value. Р”РІСѓР·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ Р°Р»СЊС„Р°-2 РєРѕРґ СЃС‚СЂР°РЅС‹ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ (РїСЂРѕРёР·РІРѕРґСЃС‚РІР°) С‚РѕРІР°СЂР° РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° (СЃРѕРіР»Р°СЃРЅРѕ РјР°СЂРєРёСЂРѕРІРєРµ)
      * 
      * @param countryCode
      */
@@ -47,7 +47,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CountryName' element value. Краткое наименование страны изготовления (производства) товара по общероссийскому классификатору стран мира (согласно маркировке)
+     * Get the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ (РїСЂРѕРёР·РІРѕРґСЃС‚РІР°) С‚РѕРІР°СЂР° РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° (СЃРѕРіР»Р°СЃРЅРѕ РјР°СЂРєРёСЂРѕРІРєРµ)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CountryName' element value. Краткое наименование страны изготовления (производства) товара по общероссийскому классификатору стран мира (согласно маркировке)
+     * Set the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ (РїСЂРѕРёР·РІРѕРґСЃС‚РІР°) С‚РѕРІР°СЂР° РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° (СЃРѕРіР»Р°СЃРЅРѕ РјР°СЂРєРёСЂРѕРІРєРµ)
      * 
      * @param countryName
      */
@@ -65,7 +65,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CountrySrcFlag' element value. Код источника информации о стране изготовления: 1 - маркировка на товаре 2- маркировка на упаковке  3 -сведения из документов 4- другие источники
+     * Get the 'CountrySrcFlag' element value. РљРѕРґ РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЃС‚СЂР°РЅРµ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ: 1 - РјР°СЂРєРёСЂРѕРІРєР° РЅР° С‚РѕРІР°СЂРµ 2- РјР°СЂРєРёСЂРѕРІРєР° РЅР° СѓРїР°РєРѕРІРєРµ  3 -СЃРІРµРґРµРЅРёСЏ РёР· РґРѕРєСѓРјРµРЅС‚РѕРІ 4- РґСЂСѓРіРёРµ РёСЃС‚РѕС‡РЅРёРєРё
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CountrySrcFlag' element value. Код источника информации о стране изготовления: 1 - маркировка на товаре 2- маркировка на упаковке  3 -сведения из документов 4- другие источники
+     * Set the 'CountrySrcFlag' element value. РљРѕРґ РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЃС‚СЂР°РЅРµ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ: 1 - РјР°СЂРєРёСЂРѕРІРєР° РЅР° С‚РѕРІР°СЂРµ 2- РјР°СЂРєРёСЂРѕРІРєР° РЅР° СѓРїР°РєРѕРІРєРµ  3 -СЃРІРµРґРµРЅРёСЏ РёР· РґРѕРєСѓРјРµРЅС‚РѕРІ 4- РґСЂСѓРіРёРµ РёСЃС‚РѕС‡РЅРёРєРё
      * 
      * @param countrySrcFlag
      */
@@ -83,7 +83,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'CountrySrcDesc' element items. Описание источника информации о стране изготовления. Заполняется  при CountrySrcFlag =  4- другие источники
+     * Get the list of 'CountrySrcDesc' element items. РћРїРёСЃР°РЅРёРµ РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЃС‚СЂР°РЅРµ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ  РїСЂРё CountrySrcFlag =  4- РґСЂСѓРіРёРµ РёСЃС‚РѕС‡РЅРёРєРё
      * 
      * @return list
      */
@@ -92,7 +92,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'CountrySrcDesc' element items. Описание источника информации о стране изготовления. Заполняется  при CountrySrcFlag =  4- другие источники
+     * Set the list of 'CountrySrcDesc' element items. РћРїРёСЃР°РЅРёРµ РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЃС‚СЂР°РЅРµ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ  РїСЂРё CountrySrcFlag =  4- РґСЂСѓРіРёРµ РёСЃС‚РѕС‡РЅРёРєРё
      * 
      * @param list
      */
@@ -101,7 +101,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'DocBruttoWeight' element value. Вес брутто товаров по документам (кг.)
+     * Get the 'DocBruttoWeight' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј (РєРі.)
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'DocBruttoWeight' element value. Вес брутто товаров по документам (кг.)
+     * Set the 'DocBruttoWeight' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј (РєРі.)
      * 
      * @param docBruttoWeight
      */
@@ -119,7 +119,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsDamageFlag' element value. Признак повреждения товара
+     * Get the 'GoodsDamageFlag' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsDamageFlag' element value. Признак повреждения товара
+     * Set the 'GoodsDamageFlag' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param goodsDamageFlag
      */
@@ -137,7 +137,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'DamageDesc' element items. Описание повреждения товаров и упаковки
+     * Get the list of 'DamageDesc' element items. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ Рё СѓРїР°РєРѕРІРєРё
      * 
      * @return list
      */
@@ -146,7 +146,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'DamageDesc' element items. Описание повреждения товаров и упаковки
+     * Set the list of 'DamageDesc' element items. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ Рё СѓРїР°РєРѕРІРєРё
      * 
      * @param list
      */
@@ -155,7 +155,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsViolationFlag' element value. Признак выявленных несоответствий относительно имеющихся у инспектора документов: 1 - по весу нетто; 2 -по количеству товаров, в единицах измерения, отличных от кг; 3 - по описанию; 4 - по иным признакам
+     * Get the 'GoodsViolationFlag' element value. РџСЂРёР·РЅР°Рє РІС‹СЏРІР»РµРЅРЅС‹С… РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РёРјРµСЋС‰РёС…СЃСЏ Сѓ РёРЅСЃРїРµРєС‚РѕСЂР° РґРѕРєСѓРјРµРЅС‚РѕРІ: 1 - РїРѕ РІРµСЃСѓ РЅРµС‚С‚Рѕ; 2 -РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ С‚РѕРІР°СЂРѕРІ, РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅС‹С… РѕС‚ РєРі; 3 - РїРѕ РѕРїРёСЃР°РЅРёСЋ; 4 - РїРѕ РёРЅС‹Рј РїСЂРёР·РЅР°РєР°Рј
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsViolationFlag' element value. Признак выявленных несоответствий относительно имеющихся у инспектора документов: 1 - по весу нетто; 2 -по количеству товаров, в единицах измерения, отличных от кг; 3 - по описанию; 4 - по иным признакам
+     * Set the 'GoodsViolationFlag' element value. РџСЂРёР·РЅР°Рє РІС‹СЏРІР»РµРЅРЅС‹С… РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РёРјРµСЋС‰РёС…СЃСЏ Сѓ РёРЅСЃРїРµРєС‚РѕСЂР° РґРѕРєСѓРјРµРЅС‚РѕРІ: 1 - РїРѕ РІРµСЃСѓ РЅРµС‚С‚Рѕ; 2 -РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ С‚РѕРІР°СЂРѕРІ, РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅС‹С… РѕС‚ РєРі; 3 - РїРѕ РѕРїРёСЃР°РЅРёСЋ; 4 - РїРѕ РёРЅС‹Рј РїСЂРёР·РЅР°РєР°Рј
      * 
      * @param goodsViolationFlag
      */
@@ -173,7 +173,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'GoodsViolationDesc' element items. Описание иных  признаков несоответствия. Заполняется при GoodsViolationFlag = 4 - по иным признакам
+     * Get the list of 'GoodsViolationDesc' element items. РћРїРёСЃР°РЅРёРµ РёРЅС‹С…  РїСЂРёР·РЅР°РєРѕРІ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё GoodsViolationFlag = 4 - РїРѕ РёРЅС‹Рј РїСЂРёР·РЅР°РєР°Рј
      * 
      * @return list
      */
@@ -182,7 +182,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'GoodsViolationDesc' element items. Описание иных  признаков несоответствия. Заполняется при GoodsViolationFlag = 4 - по иным признакам
+     * Set the list of 'GoodsViolationDesc' element items. РћРїРёСЃР°РЅРёРµ РёРЅС‹С…  РїСЂРёР·РЅР°РєРѕРІ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё GoodsViolationFlag = 4 - РїРѕ РёРЅС‹Рј РїСЂРёР·РЅР°РєР°Рј
      * 
      * @param list
      */
@@ -191,7 +191,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsTestFlag' element value. Признак взятия проб и образцов: 0 - пробы и образцы товара не отбирались; 1- пробы и образцы товара отбирались
+     * Get the 'GoodsTestFlag' element value. РџСЂРёР·РЅР°Рє РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ: 0 - РїСЂРѕР±С‹ Рё РѕР±СЂР°Р·С†С‹ С‚РѕРІР°СЂР° РЅРµ РѕС‚Р±РёСЂР°Р»РёСЃСЊ; 1- РїСЂРѕР±С‹ Рё РѕР±СЂР°Р·С†С‹ С‚РѕРІР°СЂР° РѕС‚Р±РёСЂР°Р»РёСЃСЊ
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsTestFlag' element value. Признак взятия проб и образцов: 0 - пробы и образцы товара не отбирались; 1- пробы и образцы товара отбирались
+     * Set the 'GoodsTestFlag' element value. РџСЂРёР·РЅР°Рє РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ: 0 - РїСЂРѕР±С‹ Рё РѕР±СЂР°Р·С†С‹ С‚РѕРІР°СЂР° РЅРµ РѕС‚Р±РёСЂР°Р»РёСЃСЊ; 1- РїСЂРѕР±С‹ Рё РѕР±СЂР°Р·С†С‹ С‚РѕРІР°СЂР° РѕС‚Р±РёСЂР°Р»РёСЃСЊ
      * 
      * @param goodsTestFlag
      */
@@ -209,7 +209,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsNumericDT' element value. Номер товара по ДТ
+     * Get the 'GoodsNumericDT' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumericDT' element value. Номер товара по ДТ
+     * Set the 'GoodsNumericDT' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param goodsNumericDT
      */
@@ -227,7 +227,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. Количество товаров в  единице измерения, отличной от кг
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ  РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РєРі
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. Количество товаров в  единице измерения, отличной от кг
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ  РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РєРі
      * 
      * @param supplementaryQuantity
      */
@@ -246,7 +246,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'CargoInfo' element items. Сведения о виде груза
+     * Get the list of 'CargoInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІРёРґРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -255,7 +255,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'CargoInfo' element items. Сведения о виде груза
+     * Set the list of 'CargoInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІРёРґРµ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -264,7 +264,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'PlaceInfo' element items. Сведения о таре (потребительской / индивидуальной)
+     * Get the list of 'PlaceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°СЂРµ (РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ / РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№)
      * 
      * @return list
      */
@@ -273,7 +273,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'PlaceInfo' element items. Сведения о таре (потребительской / индивидуальной)
+     * Set the list of 'PlaceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°СЂРµ (РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ / РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№)
      * 
      * @param list
      */
@@ -282,7 +282,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'PalleteInfo' element items. Сведения о поддонах / палетах
+     * Get the list of 'PalleteInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРґРѕРЅР°С… / РїР°Р»РµС‚Р°С…
      * 
      * @return list
      */
@@ -291,7 +291,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'PalleteInfo' element items. Сведения о поддонах / палетах
+     * Set the list of 'PalleteInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРґРѕРЅР°С… / РїР°Р»РµС‚Р°С…
      * 
      * @param list
      */
@@ -300,7 +300,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'PackageInfo' element items. Cведения об упаковкe
+     * Get the list of 'PackageInfo' element items. CРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєe
      * 
      * @return list
      */
@@ -309,7 +309,7 @@ public class InspGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'PackageInfo' element items. Cведения об упаковкe
+     * Set the list of 'PackageInfo' element items. CРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєe
      * 
      * @param list
      */

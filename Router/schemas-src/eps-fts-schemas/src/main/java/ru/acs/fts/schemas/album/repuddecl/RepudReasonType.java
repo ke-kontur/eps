@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.repuddecl;
 
 /** 
- * Причины отказа
+ * РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
  */
 public class RepudReasonType
 {
     private String reasonDescription;
 
     /** 
-     * Get the 'ReasonDescription' element value. Описание причины отказа
+     * Get the 'ReasonDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class RepudReasonType
     }
 
     /** 
-     * Set the 'ReasonDescription' element value. Описание причины отказа
+     * Set the 'ReasonDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
      * 
      * @param reasonDescription
      */

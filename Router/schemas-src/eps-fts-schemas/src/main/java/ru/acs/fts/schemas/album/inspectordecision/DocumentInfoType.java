@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.inspectordecision;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о документе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
  */
 public class DocumentInfoType extends DocumentBaseType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. Код вида документа в соответствии с классификатором
+     * Get the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. Код вида документа в соответствии с классификатором
+     * Set the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј
      * 
      * @param documentModeCode
      */

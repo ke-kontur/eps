@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Строка таблицы
+ * РЎС‚СЂРѕРєР° С‚Р°Р±Р»РёС†С‹
  */
 public class TableRowType
 {
@@ -64,7 +64,7 @@ public class TableRowType
         }
 
         /** 
-         * Get the list of 'TableCell' element items. Ячейка таблицы
+         * Get the list of 'TableCell' element items. РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
          * 
          * @return list
          */
@@ -73,7 +73,7 @@ public class TableRowType
         }
 
         /** 
-         * Set the list of 'TableCell' element items. Ячейка таблицы
+         * Set the list of 'TableCell' element items. РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
          * 
          * @param list
          */
@@ -92,7 +92,7 @@ public class TableRowType
         }
 
         /** 
-         * Get the list of 'EntryCell' element items. Ячейка с вложенной таблицей
+         * Get the list of 'EntryCell' element items. РЇС‡РµР№РєР° СЃ РІР»РѕР¶РµРЅРЅРѕР№ С‚Р°Р±Р»РёС†РµР№
          * 
          * @return list
          */
@@ -101,7 +101,7 @@ public class TableRowType
         }
 
         /** 
-         * Set the list of 'EntryCell' element items. Ячейка с вложенной таблицей
+         * Set the list of 'EntryCell' element items. РЇС‡РµР№РєР° СЃ РІР»РѕР¶РµРЅРЅРѕР№ С‚Р°Р±Р»РёС†РµР№
          * 
          * @param list
          */
@@ -120,7 +120,7 @@ public class TableRowType
         }
 
         /** 
-         * Get the 'GoodNum' element value. Номер товара в ДТ
+         * Get the 'GoodNum' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў
          * 
          * @return value
          */
@@ -129,7 +129,7 @@ public class TableRowType
         }
 
         /** 
-         * Set the 'GoodNum' element value. Номер товара в ДТ
+         * Set the 'GoodNum' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў
          * 
          * @param goodNum
          */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.kdtoutcustomsmark;
 import org.joda.time.LocalDate;
 
 /** 
- * Общие служебные отметки КДТ
+ * РћР±С‰РёРµ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РљР”Рў
  */
 public class KDTOutCommonMarkType
 {
@@ -18,7 +18,7 @@ public class KDTOutCommonMarkType
     private String LNP;
 
     /** 
-     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы)
+     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы)
+     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
      * 
      * @param GRNumber
      */
@@ -36,7 +36,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
+     * Get the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
+     * Set the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
      * 
      * @param stageMarkIdentifier
      */
@@ -54,7 +54,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
+     * Get the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
+     * Set the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
      * 
      * @param noteMarkIdentifier
      */
@@ -72,7 +72,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. Служебная запись
+     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. Служебная запись
+     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @param markDescription
      */
@@ -90,7 +90,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата проставления отметки
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата проставления отметки
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё
      * 
      * @param dateInf
      */
@@ -108,7 +108,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Время
+     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Время
+     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ
      * 
      * @param timeInf
      */
@@ -126,7 +126,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'PersonName' element value. ФИО инспектора, заверившего запись
+     * Get the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО инспектора, заверившего запись
+     * Set the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @param personName
      */
@@ -144,7 +144,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
+     * Get the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class KDTOutCommonMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
+     * Set the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @param LNP
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.measuringprotocol;
 
 /** 
- * Фактическая длина измеренного бревна
+ * Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР° РёР·РјРµСЂРµРЅРЅРѕРіРѕ Р±СЂРµРІРЅР°
  */
 public class LogFactLengthType
 {
@@ -10,7 +10,7 @@ public class LogFactLengthType
     private String factLength;
 
     /** 
-     * Get the 'LogNumber' element value. Номер бревна
+     * Get the 'LogNumber' element value. РќРѕРјРµСЂ Р±СЂРµРІРЅР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class LogFactLengthType
     }
 
     /** 
-     * Set the 'LogNumber' element value. Номер бревна
+     * Set the 'LogNumber' element value. РќРѕРјРµСЂ Р±СЂРµРІРЅР°
      * 
      * @param logNumber
      */
@@ -28,7 +28,7 @@ public class LogFactLengthType
     }
 
     /** 
-     * Get the 'FactLength' element value. Измеренная фактическая длина, м
+     * Get the 'FactLength' element value. РР·РјРµСЂРµРЅРЅР°СЏ С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР°, Рј
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class LogFactLengthType
     }
 
     /** 
-     * Set the 'FactLength' element value. Измеренная фактическая длина, м
+     * Set the 'FactLength' element value. РР·РјРµСЂРµРЅРЅР°СЏ С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР°, Рј
      * 
      * @param factLength
      */

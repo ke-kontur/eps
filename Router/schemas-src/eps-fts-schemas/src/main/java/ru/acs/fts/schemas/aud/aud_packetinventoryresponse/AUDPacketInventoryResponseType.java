@@ -7,7 +7,7 @@ import org.joda.time.DateTime;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Опись документов по пакету, которые храняться в АЮД
+ * РћРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕ РїР°РєРµС‚Сѓ, РєРѕС‚РѕСЂС‹Рµ С…СЂР°РЅСЏС‚СЊСЃСЏ РІ РђР®Р”
  */
 public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
 {
@@ -19,7 +19,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'AppliedProcessId' element value. Уникальный идентификатор процесса (архивный идентификатор пакета)
+     * Get the 'AppliedProcessId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР° (Р°СЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°)
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'AppliedProcessId' element value. Уникальный идентификатор процесса (архивный идентификатор пакета)
+     * Set the 'AppliedProcessId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР° (Р°СЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°)
      * 
      * @param appliedProcessId
      */
@@ -37,7 +37,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the list of 'AppliedPacketId' element items. Прикладной идентификатор пакета
+     * Get the list of 'AppliedPacketId' element items. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
      * 
      * @return list
      */
@@ -46,7 +46,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'AppliedPacketId' element items. Прикладной идентификатор пакета
+     * Set the list of 'AppliedPacketId' element items. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
      * 
      * @param list
      */
@@ -55,7 +55,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'PacketType' element value. Тип размещаемого пакета: 01 - ГТД, 99 - прочие
+     * Get the 'PacketType' element value. РўРёРї СЂР°Р·РјРµС‰Р°РµРјРѕРіРѕ РїР°РєРµС‚Р°: 01 - Р“РўР”, 99 - РїСЂРѕС‡РёРµ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'PacketType' element value. Тип размещаемого пакета: 01 - ГТД, 99 - прочие
+     * Set the 'PacketType' element value. РўРёРї СЂР°Р·РјРµС‰Р°РµРјРѕРіРѕ РїР°РєРµС‚Р°: 01 - Р“РўР”, 99 - РїСЂРѕС‡РёРµ
      * 
      * @param packetType
      */
@@ -73,7 +73,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'Issued' element value. Дата и время составления ответа
+     * Get the 'Issued' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РІРµС‚Р°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'Issued' element value. Дата и время составления ответа
+     * Set the 'Issued' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РІРµС‚Р°
      * 
      * @param issued
      */
@@ -91,7 +91,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the list of 'DocumentInventoryItem' element items. Сведения о документе из описи
+     * Get the list of 'DocumentInventoryItem' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РёР· РѕРїРёСЃРё
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'DocumentInventoryItem' element items. Сведения о документе из описи
+     * Set the list of 'DocumentInventoryItem' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РёР· РѕРїРёСЃРё
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class AUDPacketInventoryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

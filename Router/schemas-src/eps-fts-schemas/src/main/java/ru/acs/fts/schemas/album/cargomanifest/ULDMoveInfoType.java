@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.RoutigInfoType;
 
 /** 
- * Сведения о перемещении контейнера
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРјРµС‰РµРЅРёРё РєРѕРЅС‚РµР№РЅРµСЂР°
  */
 public class ULDMoveInfoType
 {
@@ -32,7 +32,7 @@ public class ULDMoveInfoType
     }
 
     /** 
-     * Get the list of 'ULDRoutingInfo' element items. Информация о маршруте контейнера
+     * Get the list of 'ULDRoutingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ULDMoveInfoType
     }
 
     /** 
-     * Set the list of 'ULDRoutingInfo' element items. Информация о маршруте контейнера
+     * Set the list of 'ULDRoutingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param list
      */

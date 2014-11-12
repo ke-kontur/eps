@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actinspectionin;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PackingInformationType;
 
 /** 
- * АТД - сведения об упаковках
+ * РђРўР” - СЃРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
  */
 public class InspPackageType extends PackingInformationType
 {
@@ -14,7 +14,7 @@ public class InspPackageType extends PackingInformationType
     private String recordNumber;
 
     /** 
-     * Get the 'PackageDescription' element value. Описание упаковки и расфасовки товара
+     * Get the 'PackageDescription' element value. РћРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё Рё СЂР°СЃС„Р°СЃРѕРІРєРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the 'PackageDescription' element value. Описание упаковки и расфасовки товара
+     * Set the 'PackageDescription' element value. РћРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё Рё СЂР°СЃС„Р°СЃРѕРІРєРё С‚РѕРІР°СЂР°
      * 
      * @param packageDescription
      */
@@ -32,7 +32,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Get the 'PackDestructFlag' element value. Признак наличия повреждений товаров и упаковки 0 - повреждений нет 1 - повреждения есть
+     * Get the 'PackDestructFlag' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Рё СѓРїР°РєРѕРІРєРё 0 - РїРѕРІСЂРµР¶РґРµРЅРёР№ РЅРµС‚ 1 - РїРѕРІСЂРµР¶РґРµРЅРёСЏ РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the 'PackDestructFlag' element value. Признак наличия повреждений товаров и упаковки 0 - повреждений нет 1 - повреждения есть
+     * Set the 'PackDestructFlag' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Рё СѓРїР°РєРѕРІРєРё 0 - РїРѕРІСЂРµР¶РґРµРЅРёР№ РЅРµС‚ 1 - РїРѕРІСЂРµР¶РґРµРЅРёСЏ РµСЃС‚СЊ
      * 
      * @param packDestructFlag
      */
@@ -50,7 +50,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Get the 'PackDestructDesc' element value. Описание повреждений упаковки
+     * Get the 'PackDestructDesc' element value. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёР№ СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the 'PackDestructDesc' element value. Описание повреждений упаковки
+     * Set the 'PackDestructDesc' element value. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёР№ СѓРїР°РєРѕРІРєРё
      * 
      * @param packDestructDesc
      */
@@ -68,7 +68,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @param recordNumber
      */

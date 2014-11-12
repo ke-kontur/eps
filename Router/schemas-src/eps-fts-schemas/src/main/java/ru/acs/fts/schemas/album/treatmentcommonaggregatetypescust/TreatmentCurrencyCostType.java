@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust;
 
 /** 
- * Сведения о стоимости в валюте
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ
  */
 public class TreatmentCurrencyCostType
 {
@@ -11,7 +11,7 @@ public class TreatmentCurrencyCostType
     private String currencyRate;
 
     /** 
-     * Get the 'CurrencyCost' element value. Стоимость  товара в валюте
+     * Get the 'CurrencyCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ  С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TreatmentCurrencyCostType
     }
 
     /** 
-     * Set the 'CurrencyCost' element value. Стоимость  товара в валюте
+     * Set the 'CurrencyCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ  С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ
      * 
      * @param currencyCost
      */
@@ -29,7 +29,7 @@ public class TreatmentCurrencyCostType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код валюты
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TreatmentCurrencyCostType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код валюты
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -47,7 +47,7 @@ public class TreatmentCurrencyCostType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TreatmentCurrencyCostType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @param currencyRate
      */

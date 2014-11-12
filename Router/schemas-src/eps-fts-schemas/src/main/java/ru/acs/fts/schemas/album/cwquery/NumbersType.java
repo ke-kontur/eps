@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Номера запрашиваемых документов
+ * РќРѕРјРµСЂР° Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
  */
 public class NumbersType
 {
     private List<String> documentNumberList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'DocumentNumbers' element items. Номер запрашиваемого документа
+     * Get the list of 'DocumentNumbers' element items. РќРѕРјРµСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class NumbersType
     }
 
     /** 
-     * Set the list of 'DocumentNumbers' element items. Номер запрашиваемого документа
+     * Set the list of 'DocumentNumbers' element items. РќРѕРјРµСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param list
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Таможенные документы
+ * РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class ArriveCustomsDocType extends DocumentBaseType
 {
     private String documentCode;
 
     /** 
-     * Get the 'DocumentCode' element value. Код таможенного документа
+     * Get the 'DocumentCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ArriveCustomsDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. Код таможенного документа
+     * Set the 'DocumentCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentCode
      */

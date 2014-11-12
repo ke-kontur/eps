@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Регистрационный номер таможенного документа. Применяется для всех документов имеющих структуру номера, совпадающую с со структурой номера ГТД
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. РџСЂРёРјРµРЅСЏРµС‚СЃСЏ РґР»СЏ РІСЃРµС… РґРѕРєСѓРјРµРЅС‚РѕРІ РёРјРµСЋС‰РёС… СЃС‚СЂСѓРєС‚СѓСЂСѓ РЅРѕРјРµСЂР°, СЃРѕРІРїР°РґР°СЋС‰СѓСЋ СЃ СЃРѕ СЃС‚СЂСѓРєС‚СѓСЂРѕР№ РЅРѕРјРµСЂР° Р“РўР”
  */
 public class AUDDTFilterType
 {
@@ -11,7 +11,7 @@ public class AUDDTFilterType
     private AUDDateFilterParamsType registrationDate;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AUDDTFilterType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param customsCode
      */
@@ -29,7 +29,7 @@ public class AUDDTFilterType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Порядковый номер документа по журналу регистрации.
+     * Get the 'GTDNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class AUDDTFilterType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Порядковый номер документа по журналу регистрации.
+     * Set the 'GTDNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё.
      * 
      * @param GTDNumber
      */
@@ -47,7 +47,7 @@ public class AUDDTFilterType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата  регистрации документа
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р°  СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class AUDDTFilterType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата  регистрации документа
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р°  СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param registrationDate
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airwaybill;
 
 /** 
- * Другие сборы
+ * Р”СЂСѓРіРёРµ СЃР±РѕСЂС‹
  */
 public class OtherChargesType
 {
@@ -11,7 +11,7 @@ public class OtherChargesType
     private String otherChargeAmount;
 
     /** 
-     * Get the 'OtherChargeCode' element value. Код  прочих  сборов
+     * Get the 'OtherChargeCode' element value. РљРѕРґ  РїСЂРѕС‡РёС…  СЃР±РѕСЂРѕРІ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Set the 'OtherChargeCode' element value. Код  прочих  сборов
+     * Set the 'OtherChargeCode' element value. РљРѕРґ  РїСЂРѕС‡РёС…  СЃР±РѕСЂРѕРІ
      * 
      * @param otherChargeCode
      */
@@ -29,7 +29,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Get the 'EntitlementCode' element value. Дополнительный код
+     * Get the 'EntitlementCode' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РєРѕРґ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Set the 'EntitlementCode' element value. Дополнительный код
+     * Set the 'EntitlementCode' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РєРѕРґ
      * 
      * @param entitlementCode
      */
@@ -47,7 +47,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Get the 'OtherChargeAmount' element value. Сумма
+     * Get the 'OtherChargeAmount' element value. РЎСѓРјРјР°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Set the 'OtherChargeAmount' element value. Сумма
+     * Set the 'OtherChargeAmount' element value. РЎСѓРјРјР°
      * 
      * @param otherChargeAmount
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о товаре
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class PIGoodsType extends PriorGoodsBaseType
 {
@@ -18,7 +18,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     private List<GoodsPackagingType> goodsPackagingList = new ArrayList<GoodsPackagingType>();
 
     /** 
-     * Get the list of 'ContainerNumbers' element items. Номера контейнеров
+     * Get the list of 'ContainerNumbers' element items. РќРѕРјРµСЂР° РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the list of 'ContainerNumbers' element items. Номера контейнеров
+     * Set the list of 'ContainerNumbers' element items. РќРѕРјРµСЂР° РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Буквенный код страны происхождения товара.
+     * Get the 'OriginCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Буквенный код страны происхождения товара.
+     * Set the 'OriginCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
      * 
      * @param originCountryCode
      */
@@ -54,7 +54,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Фактурная стоимость
+     * Get the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Фактурная стоимость
+     * Set the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param invoicedCost
      */
@@ -72,7 +72,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код валюты
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код валюты
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -90,7 +90,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @param currencyRate
      */
@@ -108,7 +108,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsMeasureQuantity' element value. Количество товара в дополнительных единицах измерения
+     * Get the 'GoodsMeasureQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsMeasureQuantity' element value. Количество товара в дополнительных единицах измерения
+     * Set the 'GoodsMeasureQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsMeasureQuantity
      */
@@ -127,7 +127,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Get the list of 'GoodsPackaging' element items. Сведения о грузовых местах, и упаковке товаров
+     * Get the list of 'GoodsPackaging' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class PIGoodsType extends PriorGoodsBaseType
     }
 
     /** 
-     * Set the list of 'GoodsPackaging' element items. Сведения о грузовых местах, и упаковке товаров
+     * Set the list of 'GoodsPackaging' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.tpo;
 
 /** 
- * Валюта платежа
+ * Р’Р°Р»СЋС‚Р° РїР»Р°С‚РµР¶Р°
  */
 public class PaymentCurrencyType
 {
@@ -12,7 +12,7 @@ public class PaymentCurrencyType
     private String currencyRate;
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты платежа
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты платежа
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param currencyCode
      */
@@ -30,7 +30,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Get the 'CurrencyDollarRate' element value. Курс доллара США к валюте государства - члена ТС
+     * Get the 'CurrencyDollarRate' element value. РљСѓСЂСЃ РґРѕР»Р»Р°СЂР° РЎРЁРђ Рє РІР°Р»СЋС‚Рµ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўРЎ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Set the 'CurrencyDollarRate' element value. Курс доллара США к валюте государства - члена ТС
+     * Set the 'CurrencyDollarRate' element value. РљСѓСЂСЃ РґРѕР»Р»Р°СЂР° РЎРЁРђ Рє РІР°Р»СЋС‚Рµ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўРЎ
      * 
      * @param currencyDollarRate
      */
@@ -48,7 +48,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Get the 'CurrencyEuroRate' element value. Курс евро к валюте государства - члена ТС
+     * Get the 'CurrencyEuroRate' element value. РљСѓСЂСЃ РµРІСЂРѕ Рє РІР°Р»СЋС‚Рµ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўРЎ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Set the 'CurrencyEuroRate' element value. Курс евро к валюте государства - члена ТС
+     * Set the 'CurrencyEuroRate' element value. РљСѓСЂСЃ РµРІСЂРѕ Рє РІР°Р»СЋС‚Рµ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўРЎ
      * 
      * @param currencyEuroRate
      */
@@ -66,7 +66,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты платежа к валюте государства - члена ТС
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° Рє РІР°Р»СЋС‚Рµ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўРЎ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PaymentCurrencyType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты платежа к валюте государства - члена ТС
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° Рє РІР°Р»СЋС‚Рµ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўРЎ
      * 
      * @param currencyRate
      */

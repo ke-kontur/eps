@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Предварительное уведомление о прибытии товаров, перевозимых воздушным транспортом.
+ * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІРѕР·РґСѓС€РЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј.
  */
 public class PIAirArriveType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class PIAirArriveType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'MPOSign' element value. Признак оформления МПО
+     * Get the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РњРџРћ
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPOSign' element value. Признак оформления МПО
+     * Set the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РњРџРћ
      * 
      * @param MPOSign
      */
@@ -44,7 +44,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProhobitedGoodsIndicator' element value. Признак наличия товаров, ввоз которых запрещен или ограничен
+     * Get the 'ProhobitedGoodsIndicator' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ С‚РѕРІР°СЂРѕРІ, РІРІРѕР· РєРѕС‚РѕСЂС‹С… Р·Р°РїСЂРµС‰РµРЅ РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProhobitedGoodsIndicator' element value. Признак наличия товаров, ввоз которых запрещен или ограничен
+     * Set the 'ProhobitedGoodsIndicator' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ С‚РѕРІР°СЂРѕРІ, РІРІРѕР· РєРѕС‚РѕСЂС‹С… Р·Р°РїСЂРµС‰РµРЅ РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅ
      * 
      * @param prohobitedGoodsIndicator
      */
@@ -62,7 +62,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumberCrewMembers' element value. Количество членов экипажа
+     * Get the 'NumberCrewMembers' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberCrewMembers' element value. Количество членов экипажа
+     * Set the 'NumberCrewMembers' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @param numberCrewMembers
      */
@@ -80,7 +80,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @param PIURN
      */
@@ -98,7 +98,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportMeans' element value. Сведения о транспортном средстве
+     * Get the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMeans' element value. Сведения о транспортном средстве
+     * Set the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
      * 
      * @param transportMeans
      */
@@ -116,7 +116,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AirCrewInfo' element items. Сведения об экипаже воздушного судна
+     * Get the list of 'AirCrewInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєРёРїР°Р¶Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AirCrewInfo' element items. Сведения об экипаже воздушного судна
+     * Set the list of 'AirCrewInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєРёРїР°Р¶Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param list
      */
@@ -134,7 +134,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'AirCarrierInfo' element value. Сведения об авиаперевозчике
+     * Get the 'AirCarrierInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'AirCarrierInfo' element value. Сведения об авиаперевозчике
+     * Set the 'AirCarrierInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @param airCarrierInfo
      */
@@ -152,7 +152,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'RoutingInfo' element value. Сведения о маршруте воздушного судна
+     * Get the 'RoutingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'RoutingInfo' element value. Сведения о маршруте воздушного судна
+     * Set the 'RoutingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param routingInfo
      */
@@ -170,7 +170,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'StoresInfo' element value. Сведения о перевозимых припасах
+     * Get the 'StoresInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… РїСЂРёРїР°СЃР°С…
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'StoresInfo' element value. Сведения о перевозимых припасах
+     * Set the 'StoresInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… РїСЂРёРїР°СЃР°С…
      * 
      * @param storesInfo
      */
@@ -188,7 +188,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SparePartsInfo' element items. Сведения о перевозимых частях и оборудовании, предназначенных для ремонта и эксплуатации воздушного судна
+     * Get the list of 'SparePartsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‡Р°СЃС‚СЏС… Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёРё, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ СЂРµРјРѕРЅС‚Р° Рё СЌРєСЃРїР»СѓР°С‚Р°С†РёРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SparePartsInfo' element items. Сведения о перевозимых частях и оборудовании, предназначенных для ремонта и эксплуатации воздушного судна
+     * Set the list of 'SparePartsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‡Р°СЃС‚СЏС… Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёРё, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ СЂРµРјРѕРЅС‚Р° Рё СЌРєСЃРїР»СѓР°С‚Р°С†РёРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassengerList' element value. Сведения о пассажирах
+     * Get the 'PassengerList' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂР°С…
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassengerList' element value. Сведения о пассажирах
+     * Set the 'PassengerList' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂР°С…
      * 
      * @param passengerList
      */
@@ -224,7 +224,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CargoManifest' element items. Описание товарных партий
+     * Get the list of 'CargoManifest' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№
      * 
      * @return list
      */
@@ -233,7 +233,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CargoManifest' element items. Описание товарных партий
+     * Set the list of 'CargoManifest' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№
      * 
      * @param list
      */
@@ -242,7 +242,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class PIAirArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

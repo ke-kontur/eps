@@ -7,7 +7,7 @@ import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
 /** 
- * Справочник ИПС
+ * РЎРїСЂР°РІРѕС‡РЅРёРє РРџРЎ
  */
 public class IPSListType
 {
@@ -20,7 +20,7 @@ public class IPSListType
     private List<IPSTechType> IPSTechInfoList = new ArrayList<IPSTechType>();
 
     /** 
-     * Get the 'IPSID' element value. Идентификатор ИПС ВЭД
+     * Get the 'IPSID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РРџРЎ Р’Р­Р”
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the 'IPSID' element value. Идентификатор ИПС ВЭД
+     * Set the 'IPSID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РРџРЎ Р’Р­Р”
      * 
      * @param IPSID
      */
@@ -38,7 +38,7 @@ public class IPSListType
     }
 
     /** 
-     * Get the 'IPSDescription' element value. Наименование ИПС ВЭД
+     * Get the 'IPSDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РРџРЎ Р’Р­Р”
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the 'IPSDescription' element value. Наименование ИПС ВЭД
+     * Set the 'IPSDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РРџРЎ Р’Р­Р”
      * 
      * @param IPSDescription
      */
@@ -56,7 +56,7 @@ public class IPSListType
     }
 
     /** 
-     * Get the 'IPS_ProgrammerOrg' element value. Наименование  организации-разработчика
+     * Get the 'IPS_ProgrammerOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РѕСЂРіР°РЅРёР·Р°С†РёРё-СЂР°Р·СЂР°Р±РѕС‚С‡РёРєР°
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the 'IPS_ProgrammerOrg' element value. Наименование  организации-разработчика
+     * Set the 'IPS_ProgrammerOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РѕСЂРіР°РЅРёР·Р°С†РёРё-СЂР°Р·СЂР°Р±РѕС‚С‡РёРєР°
      * 
      * @param IPSProgrammerOrg
      */
@@ -74,7 +74,7 @@ public class IPSListType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарий
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарий
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comments
      */
@@ -92,7 +92,7 @@ public class IPSListType
     }
 
     /** 
-     * Get the 'CreateDate' element value. Дата создания записи
+     * Get the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the 'CreateDate' element value. Дата создания записи
+     * Set the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @param createDate
      */
@@ -110,7 +110,7 @@ public class IPSListType
     }
 
     /** 
-     * Get the 'ChDateTime' element value. Дата/время последнего изменения записи
+     * Get the 'ChDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the 'ChDateTime' element value. Дата/время последнего изменения записи
+     * Set the 'ChDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ Р·Р°РїРёСЃРё
      * 
      * @param chDateTime
      */
@@ -128,7 +128,7 @@ public class IPSListType
     }
 
     /** 
-     * Get the list of 'IPSTechInfo' element items. Информафия  о поддерживаемых  технологиях
+     * Get the list of 'IPSTechInfo' element items. РРЅС„РѕСЂРјР°С„РёСЏ  Рѕ РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹С…  С‚РµС…РЅРѕР»РѕРіРёСЏС…
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class IPSListType
     }
 
     /** 
-     * Set the list of 'IPSTechInfo' element items. Информафия  о поддерживаемых  технологиях
+     * Set the list of 'IPSTechInfo' element items. РРЅС„РѕСЂРјР°С„РёСЏ  Рѕ РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹С…  С‚РµС…РЅРѕР»РѕРіРёСЏС…
      * 
      * @param list
      */

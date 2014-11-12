@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Срок переработки
+ * РЎСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
  */
 public class DateLimitType
 {
@@ -14,7 +14,7 @@ public class DateLimitType
     private List<ExtensionTermType> extensionTermList = new ArrayList<ExtensionTermType>();
 
     /** 
-     * Get the 'GeneralTerm' element value. Общий срок
+     * Get the 'GeneralTerm' element value. РћР±С‰РёР№ СЃСЂРѕРє
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DateLimitType
     }
 
     /** 
-     * Set the 'GeneralTerm' element value. Общий срок
+     * Set the 'GeneralTerm' element value. РћР±С‰РёР№ СЃСЂРѕРє
      * 
      * @param generalTerm
      */
@@ -32,7 +32,7 @@ public class DateLimitType
     }
 
     /** 
-     * Get the 'StartTerm' element value. Начало срока переработки
+     * Get the 'StartTerm' element value. РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DateLimitType
     }
 
     /** 
-     * Set the 'StartTerm' element value. Начало срока переработки
+     * Set the 'StartTerm' element value. РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param startTerm
      */
@@ -50,7 +50,7 @@ public class DateLimitType
     }
 
     /** 
-     * Get the list of 'ExtensionTerm' element items. Продление срока переработки
+     * Get the list of 'ExtensionTerm' element items. РџСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class DateLimitType
     }
 
     /** 
-     * Set the list of 'ExtensionTerm' element items. Продление срока переработки
+     * Set the list of 'ExtensionTerm' element items. РџСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */

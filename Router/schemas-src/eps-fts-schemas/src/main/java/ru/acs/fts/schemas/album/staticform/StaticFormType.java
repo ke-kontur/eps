@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Статистическая форма учета перемещения товара
+ * РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ С„РѕСЂРјР° СѓС‡РµС‚Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
  */
 public class StaticFormType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class StaticFormType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsProcedure' element value. Направление перемещения: ИМ/ЭК
+     * Get the 'CustomsProcedure' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ: РРњ/Р­Рљ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. Направление перемещения: ИМ/ЭК
+     * Set the 'CustomsProcedure' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ: РРњ/Р­Рљ
      * 
      * @param customsProcedure
      */
@@ -46,7 +46,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспортного средства на границе в соответствии с классификатором.
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј.
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспортного средства на границе в соответствии с классификатором.
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј.
      * 
      * @param transportModeCode
      */
@@ -64,7 +64,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportingDate' element value. Отчетный месяц перемещения товаров
+     * Get the 'ReportingDate' element value. РћС‚С‡РµС‚РЅС‹Р№ РјРµСЃСЏС† РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportingDate' element value. Отчетный месяц перемещения товаров
+     * Set the 'ReportingDate' element value. РћС‚С‡РµС‚РЅС‹Р№ РјРµСЃСЏС† РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param reportingDate
      */
@@ -82,7 +82,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'NSF' element value. Системный номер статистической формы
+     * Get the 'NSF' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РЅРѕРјРµСЂ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ С„РѕСЂРјС‹
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'NSF' element value. Системный номер статистической формы
+     * Set the 'NSF' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РЅРѕРјРµСЂ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ С„РѕСЂРјС‹
      * 
      * @param NSF
      */
@@ -100,7 +100,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Сведения об отправителе
+     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Сведения об отправителе
+     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @param consignor
      */
@@ -118,7 +118,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Сведения о получателе
+     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Сведения о получателе
+     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @param consignee
      */
@@ -136,7 +136,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'FinancialAdjustingResponsiblePerson' element value. Лицо ответственное за финансовое урегулирование.
+     * Get the 'FinancialAdjustingResponsiblePerson' element value. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'FinancialAdjustingResponsiblePerson' element value. Лицо ответственное за финансовое урегулирование.
+     * Set the 'FinancialAdjustingResponsiblePerson' element value. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
      * 
      * @param financialAdjustingResponsiblePerson
      */
@@ -155,7 +155,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'TradeCountry' element value. Торгующая страна
+     * Get the 'TradeCountry' element value. РўРѕСЂРіСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅР°
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'TradeCountry' element value. Торгующая страна
+     * Set the 'TradeCountry' element value. РўРѕСЂРіСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅР°
      * 
      * @param tradeCountry
      */
@@ -173,7 +173,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DispatchCountry' element value. Страна отправления
+     * Get the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DispatchCountry' element value. Страна отправления
+     * Set the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param dispatchCountry
      */
@@ -191,7 +191,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountry
      */
@@ -209,7 +209,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Documents' element items. Документы
+     * Get the list of 'Documents' element items. Р”РѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -218,7 +218,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Documents' element items. Документы
+     * Set the list of 'Documents' element items. Р”РѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -227,7 +227,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о товарах
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -236,7 +236,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о товарах
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -245,7 +245,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProvidePerson' element value. Сведения о лице, ответственное за предоставление статистической формы (лицо, уполномоченное предоставлять статистическую форму от имени юридического лица)
+     * Get the 'ProvidePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ С„РѕСЂРјС‹ (Р»РёС†Рѕ, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РїСЂРµРґРѕСЃС‚Р°РІР»СЏС‚СЊ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєСѓСЋ С„РѕСЂРјСѓ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°)
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProvidePerson' element value. Сведения о лице, ответственное за предоставление статистической формы (лицо, уполномоченное предоставлять статистическую форму от имени юридического лица)
+     * Set the 'ProvidePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ С„РѕСЂРјС‹ (Р»РёС†Рѕ, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РїСЂРµРґРѕСЃС‚Р°РІР»СЏС‚СЊ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєСѓСЋ С„РѕСЂРјСѓ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°)
      * 
      * @param providePerson
      */
@@ -263,7 +263,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class StaticFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

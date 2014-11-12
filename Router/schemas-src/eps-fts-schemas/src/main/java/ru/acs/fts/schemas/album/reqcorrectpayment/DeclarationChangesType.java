@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание необходимых изменений (дополнений) ДТ
+ * РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) Р”Рў
  */
 public class DeclarationChangesType
 {
@@ -14,7 +14,7 @@ public class DeclarationChangesType
     private List<String> modifiedDataList = new ArrayList<String>();
 
     /** 
-     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы)
+     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы)
+     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
      * 
      * @param GRNumber
      */
@@ -32,7 +32,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Get the list of 'PreviousData' element items. Ранее указанные сведения
+     * Get the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Set the list of 'PreviousData' element items. Ранее указанные сведения
+     * Set the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Get the list of 'ModifiedData' element items. Скорректированные сведения
+     * Get the list of 'ModifiedData' element items. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Set the list of 'ModifiedData' element items. Скорректированные сведения
+     * Set the list of 'ModifiedData' element items. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param list
      */

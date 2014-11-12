@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.statusupdaterequest;
 
 /** 
- * Список статусных переходов
+ * РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРЅС‹С… РїРµСЂРµС…РѕРґРѕРІ
  */
 public class StateTransmissionsType
 {
@@ -14,7 +14,7 @@ public class StateTransmissionsType
     private EventEnumeration event;
 
     /** 
-     * Get the 'InitialStateCode' element value. Исходный статус
+     * Get the 'InitialStateCode' element value. РСЃС…РѕРґРЅС‹Р№ СЃС‚Р°С‚СѓСЃ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Set the 'InitialStateCode' element value. Исходный статус
+     * Set the 'InitialStateCode' element value. РСЃС…РѕРґРЅС‹Р№ СЃС‚Р°С‚СѓСЃ
      * 
      * @param initialStateCode
      */
@@ -32,7 +32,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Get the 'SoftVersion' element value. Версия
+     * Get the 'SoftVersion' element value. Р’РµСЂСЃРёСЏ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Set the 'SoftVersion' element value. Версия
+     * Set the 'SoftVersion' element value. Р’РµСЂСЃРёСЏ
      * 
      * @param softVersion
      */
@@ -50,7 +50,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Get the 'TargetStateCode' element value. Целевой статус
+     * Get the 'TargetStateCode' element value. Р¦РµР»РµРІРѕР№ СЃС‚Р°С‚СѓСЃ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Set the 'TargetStateCode' element value. Целевой статус
+     * Set the 'TargetStateCode' element value. Р¦РµР»РµРІРѕР№ СЃС‚Р°С‚СѓСЃ
      * 
      * @param targetStateCode
      */
@@ -68,7 +68,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Get the 'MessageType' element value. Сообщение
+     * Get the 'MessageType' element value. РЎРѕРѕР±С‰РµРЅРёРµ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Set the 'MessageType' element value. Сообщение
+     * Set the 'MessageType' element value. РЎРѕРѕР±С‰РµРЅРёРµ
      * 
      * @param messageType
      */
@@ -86,7 +86,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Get the 'StateModel' element value. Статусная модель 
+     * Get the 'StateModel' element value. РЎС‚Р°С‚СѓСЃРЅР°СЏ РјРѕРґРµР»СЊ 
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Set the 'StateModel' element value. Статусная модель 
+     * Set the 'StateModel' element value. РЎС‚Р°С‚СѓСЃРЅР°СЏ РјРѕРґРµР»СЊ 
      * 
      * @param stateModel
      */
@@ -104,7 +104,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Get the 'Event' element value. Событие
+     * Get the 'Event' element value. РЎРѕР±С‹С‚РёРµ
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class StateTransmissionsType
     }
 
     /** 
-     * Set the 'Event' element value. Событие
+     * Set the 'Event' element value. РЎРѕР±С‹С‚РёРµ
      * 
      * @param event
      */

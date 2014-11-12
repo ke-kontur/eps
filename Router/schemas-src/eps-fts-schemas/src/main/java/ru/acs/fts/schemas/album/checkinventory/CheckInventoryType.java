@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.checkinventory;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос на сверку описи в ЭАД
+ * Р—Р°РїСЂРѕСЃ РЅР° СЃРІРµСЂРєСѓ РѕРїРёСЃРё РІ Р­РђР”
  */
 public class CheckInventoryType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class CheckInventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InventoryID' element value. Идентификатор описи документов
+     * Get the 'InventoryID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryID' element value. Идентификатор описи документов
+     * Set the 'InventoryID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param inventoryID
      */
@@ -31,7 +31,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'InventoryInstance' element value. Экземпляр описи
+     * Get the 'InventoryInstance' element value. Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryInstance' element value. Экземпляр описи
+     * Set the 'InventoryInstance' element value. Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё
      * 
      * @param inventoryInstance
      */
@@ -49,7 +49,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

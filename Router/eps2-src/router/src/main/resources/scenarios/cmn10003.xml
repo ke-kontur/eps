@@ -141,10 +141,18 @@
 											<entry key="CMN.11013" value="GTD_EDITING" />
 											<entry key="CMN.11025" value="GTD_EDITING" />
 											<entry key="CMN.11026" value="GTD_EDITING" />
-											<entry key="CMN.11048" value="GTD_EDITING" />
+                                            <entry key="CMN.11048" value="GTD_EDITING" />
 											<entry key="CMN.11050" value="GTD_EDITING" />
+                                            <entry key="CMN.11046" value="GTD_EDITING" />
 											<entry key="CMN.11054" value="GTD_EDITING" />
-											<entry key="CMN.11058" value="GTD_EDITING" />
+                                            <entry key="CMN.11058" value="GTD_EDITING" />
+                                            <entry key="CMN.11140" value="GTD_EDITING" />
+                                            <entry key="CMN.11141" value="GTD_EDITING" />
+                                            <entry key="CMN.11146" value="GTD_EDITING" />
+                                            <entry key="CMN.11153" value="GTD_EDITING" />
+                                            <entry key="CMN.11154" value="GTD_EDITING" />
+                                            <entry key="CMN.11155" value="GTD_EDITING" />
+                                            <entry key="CMN.11157" value="GTD_EDITING" />
 											<entry key="CMN.15021" value="GTD_RECALLING" />
 										</map> 
 									</entry>

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Данные транспортного контроля/инспекции
+ * Р”Р°РЅРЅС‹Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ/РёРЅСЃРїРµРєС†РёРё
  */
 public class InspectionType
 {
@@ -34,7 +34,7 @@ public class InspectionType
     private PostPenaltyType postPenalty;
 
     /** 
-     * Get the 'InspectionID' element value. Идентификатор инспекции/транспортного контроля
+     * Get the 'InspectionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёРЅСЃРїРµРєС†РёРё/С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'InspectionID' element value. Идентификатор инспекции/транспортного контроля
+     * Set the 'InspectionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёРЅСЃРїРµРєС†РёРё/С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param inspectionID
      */
@@ -52,7 +52,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'InspectionDateTime' element value. Дата/время инспекции
+     * Get the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РёРЅСЃРїРµРєС†РёРё
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'InspectionDateTime' element value. Дата/время инспекции
+     * Set the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РёРЅСЃРїРµРєС†РёРё
      * 
      * @param inspectionDateTime
      */
@@ -70,7 +70,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'InstrumentalControlID' element value. Идентификатор инструментального контроля
+     * Get the 'InstrumentalControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'InstrumentalControlID' element value. Идентификатор инструментального контроля
+     * Set the 'InstrumentalControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param instrumentalControlID
      */
@@ -88,7 +88,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'DocumentalControlID' element value. Идентификатор документального контроля
+     * Get the 'DocumentalControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'DocumentalControlID' element value. Идентификатор документального контроля
+     * Set the 'DocumentalControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param documentalControlID
      */
@@ -106,7 +106,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'ViolationControlID' element value. Идентификатор листа контроля
+     * Get the 'ViolationControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'ViolationControlID' element value. Идентификатор листа контроля
+     * Set the 'ViolationControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param violationControlID
      */
@@ -124,7 +124,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'BelarusControlID' element value. Идентификатор белорусского контроля
+     * Get the 'BelarusControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±РµР»РѕСЂСѓСЃСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'BelarusControlID' element value. Идентификатор белорусского контроля
+     * Set the 'BelarusControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±РµР»РѕСЂСѓСЃСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param belarusControlID
      */
@@ -142,7 +142,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'KazakhControlID' element value. Идентификатор казахстанского контроля
+     * Get the 'KazakhControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР°Р·Р°С…СЃС‚Р°РЅСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'KazakhControlID' element value. Идентификатор казахстанского контроля
+     * Set the 'KazakhControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР°Р·Р°С…СЃС‚Р°РЅСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param kazakhControlID
      */
@@ -160,7 +160,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'DecisionName' element value. Решение, принятое по результатам контроля
+     * Get the 'DecisionName' element value. Р РµС€РµРЅРёРµ, РїСЂРёРЅСЏС‚РѕРµ РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'DecisionName' element value. Решение, принятое по результатам контроля
+     * Set the 'DecisionName' element value. Р РµС€РµРЅРёРµ, РїСЂРёРЅСЏС‚РѕРµ РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param decisionName
      */
@@ -178,7 +178,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'EndDateTime' element value. Дата/время окончания транспортного контроля
+     * Get the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'EndDateTime' element value. Дата/время окончания транспортного контроля
+     * Set the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param endDateTime
      */
@@ -196,7 +196,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'Information' element value. Примечание инспектора транспортного контроля
+     * Get the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РёРЅСЃРїРµРєС‚РѕСЂР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'Information' element value. Примечание инспектора транспортного контроля
+     * Set the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РёРЅСЃРїРµРєС‚РѕСЂР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param information
      */
@@ -214,7 +214,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'IsInstrumental' element value. Признак инструментального контроля
+     * Get the 'IsInstrumental' element value. РџСЂРёР·РЅР°Рє РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'IsInstrumental' element value. Признак инструментального контроля
+     * Set the 'IsInstrumental' element value. РџСЂРёР·РЅР°Рє РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param isInstrumental
      */
@@ -232,7 +232,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'IsVisual' element value. Признак визуального контроля
+     * Get the 'IsVisual' element value. РџСЂРёР·РЅР°Рє РІРёР·СѓР°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'IsVisual' element value. Признак визуального контроля
+     * Set the 'IsVisual' element value. РџСЂРёР·РЅР°Рє РІРёР·СѓР°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param isVisual
      */
@@ -250,7 +250,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'IsDocumental' element value. Признак документального контроля
+     * Get the 'IsDocumental' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'IsDocumental' element value. Признак документального контроля
+     * Set the 'IsDocumental' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param isDocumental
      */
@@ -268,7 +268,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the list of 'Violation' element items. Выявленные в контроле нарушения
+     * Get the list of 'Violation' element items. Р’С‹СЏРІР»РµРЅРЅС‹Рµ РІ РєРѕРЅС‚СЂРѕР»Рµ РЅР°СЂСѓС€РµРЅРёСЏ
      * 
      * @return list
      */
@@ -277,7 +277,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the list of 'Violation' element items. Выявленные в контроле нарушения
+     * Set the list of 'Violation' element items. Р’С‹СЏРІР»РµРЅРЅС‹Рµ РІ РєРѕРЅС‚СЂРѕР»Рµ РЅР°СЂСѓС€РµРЅРёСЏ
      * 
      * @param list
      */
@@ -286,7 +286,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'CheckPoint' element value. Пост (пункт пропуска), где осуществлялся транспортный контроль
+     * Get the 'CheckPoint' element value. РџРѕСЃС‚ (РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РіРґРµ РѕСЃСѓС‰РµСЃС‚РІР»СЏР»СЃСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'CheckPoint' element value. Пост (пункт пропуска), где осуществлялся транспортный контроль
+     * Set the 'CheckPoint' element value. РџРѕСЃС‚ (РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РіРґРµ РѕСЃСѓС‰РµСЃС‚РІР»СЏР»СЃСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @param checkPoint
      */
@@ -304,7 +304,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'InstrumentalControl' element value. Сведения из инструментального контроля
+     * Get the 'InstrumentalControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'InstrumentalControl' element value. Сведения из инструментального контроля
+     * Set the 'InstrumentalControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param instrumentalControl
      */
@@ -323,7 +323,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'VisualControl' element value. Сведения из визуального контроля
+     * Get the 'VisualControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· РІРёР·СѓР°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'VisualControl' element value. Сведения из визуального контроля
+     * Set the 'VisualControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· РІРёР·СѓР°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param visualControl
      */
@@ -341,7 +341,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'DocumentalControl' element value. Сведения из документального контроля
+     * Get the 'DocumentalControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'DocumentalControl' element value. Сведения из документального контроля
+     * Set the 'DocumentalControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param documentalControl
      */
@@ -359,7 +359,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'BelarusControl' element value. Сведения из листа транспортного контроля Республики Беларусь
+     * Get the 'BelarusControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· Р»РёСЃС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'BelarusControl' element value. Сведения из листа транспортного контроля Республики Беларусь
+     * Set the 'BelarusControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· Р»РёСЃС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
      * 
      * @param belarusControl
      */
@@ -377,7 +377,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'KazakhControl' element value. Сведения из листа транспортного контроля Республики Казахстан
+     * Get the 'KazakhControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· Р»РёСЃС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
      * 
      * @return value
      */
@@ -386,7 +386,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'KazakhControl' element value. Сведения из листа транспортного контроля Республики Казахстан
+     * Set the 'KazakhControl' element value. РЎРІРµРґРµРЅРёСЏ РёР· Р»РёСЃС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
      * 
      * @param kazakhControl
      */
@@ -395,7 +395,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the list of 'NotifDocument' element items. Сведения из уведомления
+     * Get the list of 'NotifDocument' element items. РЎРІРµРґРµРЅРёСЏ РёР· СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return list
      */
@@ -404,7 +404,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the list of 'NotifDocument' element items. Сведения из уведомления
+     * Set the list of 'NotifDocument' element items. РЎРІРµРґРµРЅРёСЏ РёР· СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param list
      */
@@ -413,7 +413,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'AccountCode' element value. Учетный талон
+     * Get the 'AccountCode' element value. РЈС‡РµС‚РЅС‹Р№ С‚Р°Р»РѕРЅ
      * 
      * @return value
      */
@@ -422,7 +422,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'AccountCode' element value. Учетный талон
+     * Set the 'AccountCode' element value. РЈС‡РµС‚РЅС‹Р№ С‚Р°Р»РѕРЅ
      * 
      * @param accountCode
      */
@@ -431,7 +431,7 @@ public class InspectionType
     }
 
     /** 
-     * Get the 'PostPenalty' element value. Сведения об оплате штрафа с ПК
+     * Get the 'PostPenalty' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р° СЃ РџРљ
      * 
      * @return value
      */
@@ -440,7 +440,7 @@ public class InspectionType
     }
 
     /** 
-     * Set the 'PostPenalty' element value. Сведения об оплате штрафа с ПК
+     * Set the 'PostPenalty' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р° СЃ РџРљ
      * 
      * @param postPenalty
      */

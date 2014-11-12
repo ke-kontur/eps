@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.indulgencestatement;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о платежах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Р°С…
  */
 public class PaymentType
 {
@@ -15,7 +15,7 @@ public class PaymentType
     private String securityText;
 
     /** 
-     * Get the 'CustomsPaymentModeCode' element value. Вид платежа
+     * Get the 'CustomsPaymentModeCode' element value. Р’РёРґ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CustomsPaymentModeCode' element value. Вид платежа
+     * Set the 'CustomsPaymentModeCode' element value. Р’РёРґ РїР»Р°С‚РµР¶Р°
      * 
      * @param customsPaymentModeCode
      */
@@ -33,7 +33,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата, до которой запрашивается отсрочка
+     * Get the 'DateInf' element value. Р”Р°С‚Р°, РґРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕС‚СЃСЂРѕС‡РєР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата, до которой запрашивается отсрочка
+     * Set the 'DateInf' element value. Р”Р°С‚Р°, РґРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕС‚СЃСЂРѕС‡РєР°
      * 
      * @param dateInf
      */
@@ -51,7 +51,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'Amount' element value. Сумма, по которой запрашивается отсрочка (в валюте цены по контракту)
+     * Get the 'Amount' element value. РЎСѓРјРјР°, РїРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕС‚СЃСЂРѕС‡РєР° (РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ)
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма, по которой запрашивается отсрочка (в валюте цены по контракту)
+     * Set the 'Amount' element value. РЎСѓРјРјР°, РїРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕС‚СЃСЂРѕС‡РєР° (РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ)
      * 
      * @param amount
      */
@@ -69,7 +69,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты платежа
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты платежа
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param currencyCode
      */
@@ -87,7 +87,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'SecurityText' element value. Форма обеспечения уплаты таможенных платежей по предоставленным отсрочкам
+     * Get the 'SecurityText' element value. Р¤РѕСЂРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РїРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рј РѕС‚СЃСЂРѕС‡РєР°Рј
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'SecurityText' element value. Форма обеспечения уплаты таможенных платежей по предоставленным отсрочкам
+     * Set the 'SecurityText' element value. Р¤РѕСЂРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РїРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рј РѕС‚СЃСЂРѕС‡РєР°Рј
      * 
      * @param securityText
      */

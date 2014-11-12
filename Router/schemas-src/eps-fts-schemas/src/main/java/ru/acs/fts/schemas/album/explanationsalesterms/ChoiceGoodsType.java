@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Выбор товара
+ * Р’С‹Р±РѕСЂ С‚РѕРІР°СЂР°
  */
 public class ChoiceGoodsType
 {
@@ -14,7 +14,7 @@ public class ChoiceGoodsType
     private String otherwiseComments;
 
     /** 
-     * Get the 'Sample' element value. Признак выбора товара по образцу
+     * Get the 'Sample' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° С‚РѕРІР°СЂР° РїРѕ РѕР±СЂР°Р·С†Сѓ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Set the 'Sample' element value. Признак выбора товара по образцу
+     * Set the 'Sample' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° С‚РѕРІР°СЂР° РїРѕ РѕР±СЂР°Р·С†Сѓ
      * 
      * @param sample
      */
@@ -32,7 +32,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Get the 'Description' element value. Признак выбора товара по описанию
+     * Get the 'Description' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° С‚РѕРІР°СЂР° РїРѕ РѕРїРёСЃР°РЅРёСЋ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Set the 'Description' element value. Признак выбора товара по описанию
+     * Set the 'Description' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° С‚РѕРІР°СЂР° РїРѕ РѕРїРёСЃР°РЅРёСЋ
      * 
      * @param description
      */
@@ -50,7 +50,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Get the 'Standard' element value. Признак выбора товара в соответствии с действующими стандартами
+     * Get the 'Standard' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РґРµР№СЃС‚РІСѓСЋС‰РёРјРё СЃС‚Р°РЅРґР°СЂС‚Р°РјРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Set the 'Standard' element value. Признак выбора товара в соответствии с действующими стандартами
+     * Set the 'Standard' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РґРµР№СЃС‚РІСѓСЋС‰РёРјРё СЃС‚Р°РЅРґР°СЂС‚Р°РјРё
      * 
      * @param standard
      */
@@ -68,7 +68,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Get the 'CommentsStandard' element value. В соответствии с действующими стандартами (указать стандарт, кем принят, регламентирующие его соблюдение документы)
+     * Get the 'CommentsStandard' element value. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РґРµР№СЃС‚РІСѓСЋС‰РёРјРё СЃС‚Р°РЅРґР°СЂС‚Р°РјРё (СѓРєР°Р·Р°С‚СЊ СЃС‚Р°РЅРґР°СЂС‚, РєРµРј РїСЂРёРЅСЏС‚, СЂРµРіР»Р°РјРµРЅС‚РёСЂСѓСЋС‰РёРµ РµРіРѕ СЃРѕР±Р»СЋРґРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚С‹)
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Set the 'CommentsStandard' element value. В соответствии с действующими стандартами (указать стандарт, кем принят, регламентирующие его соблюдение документы)
+     * Set the 'CommentsStandard' element value. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РґРµР№СЃС‚РІСѓСЋС‰РёРјРё СЃС‚Р°РЅРґР°СЂС‚Р°РјРё (СѓРєР°Р·Р°С‚СЊ СЃС‚Р°РЅРґР°СЂС‚, РєРµРј РїСЂРёРЅСЏС‚, СЂРµРіР»Р°РјРµРЅС‚РёСЂСѓСЋС‰РёРµ РµРіРѕ СЃРѕР±Р»СЋРґРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚С‹)
      * 
      * @param commentsStandard
      */
@@ -86,7 +86,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Get the 'Otherwise' element value. Иные образом
+     * Get the 'Otherwise' element value. РРЅС‹Рµ РѕР±СЂР°Р·РѕРј
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Set the 'Otherwise' element value. Иные образом
+     * Set the 'Otherwise' element value. РРЅС‹Рµ РѕР±СЂР°Р·РѕРј
      * 
      * @param otherwise
      */
@@ -104,7 +104,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Get the 'OtherwiseComments' element value. Иные образом (указать способ)
+     * Get the 'OtherwiseComments' element value. РРЅС‹Рµ РѕР±СЂР°Р·РѕРј (СѓРєР°Р·Р°С‚СЊ СЃРїРѕСЃРѕР±)
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ChoiceGoodsType
     }
 
     /** 
-     * Set the 'OtherwiseComments' element value. Иные образом (указать способ)
+     * Set the 'OtherwiseComments' element value. РРЅС‹Рµ РѕР±СЂР°Р·РѕРј (СѓРєР°Р·Р°С‚СЊ СЃРїРѕСЃРѕР±)
      * 
      * @param otherwiseComments
      */

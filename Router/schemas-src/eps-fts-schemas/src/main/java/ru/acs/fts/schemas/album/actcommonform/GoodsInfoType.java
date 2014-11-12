@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Перечень грузов
+ * РџРµСЂРµС‡РµРЅСЊ РіСЂСѓР·РѕРІ
  */
 public class GoodsInfoType
 {
@@ -14,7 +14,7 @@ public class GoodsInfoType
     private String container;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование груза
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование груза
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Carriage' element value. Номер вагона
+     * Get the 'Carriage' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Carriage' element value. Номер вагона
+     * Set the 'Carriage' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @param carriage
      */
@@ -50,7 +50,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Container' element value. Номер контейнера
+     * Get the 'Container' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Container' element value. Номер контейнера
+     * Set the 'Container' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param container
      */

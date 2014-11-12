@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о продукции
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
  */
 public class GoodsType extends AppendsType
 {
@@ -20,7 +20,7 @@ public class GoodsType extends AppendsType
     private List<DocumentBaseType> shippingDocumentList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'ProductCode' element value. Код продукции по ОК005 - Общероссийскому классификатору продукции
+     * Get the 'ProductCode' element value. РљРѕРґ РїСЂРѕРґСѓРєС†РёРё РїРѕ РћРљ005 - РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the 'ProductCode' element value. Код продукции по ОК005 - Общероссийскому классификатору продукции
+     * Set the 'ProductCode' element value. РљРѕРґ РїСЂРѕРґСѓРєС†РёРё РїРѕ РћРљ005 - РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param productCode
      */
@@ -38,7 +38,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -56,7 +56,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товара текстовое (наименование, тип, вид, марка продукции, обозначение стандарта, технических условий или иного документа, по которому она выпускается (для импортной продукции ссылка на документ необязательна. Для партии и единичного изделия приводят номер и размер партии или номер изделия, номер и дату выдачи накладной, договора (контракта), документа о качестве и т.п.)
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ, С‚РёРї, РІРёРґ, РјР°СЂРєР° РїСЂРѕРґСѓРєС†РёРё, РѕР±РѕР·РЅР°С‡РµРЅРёРµ СЃС‚Р°РЅРґР°СЂС‚Р°, С‚РµС…РЅРёС‡РµСЃРєРёС… СѓСЃР»РѕРІРёР№ РёР»Рё РёРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РѕРЅР° РІС‹РїСѓСЃРєР°РµС‚СЃСЏ (РґР»СЏ РёРјРїРѕСЂС‚РЅРѕР№ РїСЂРѕРґСѓРєС†РёРё СЃСЃС‹Р»РєР° РЅР° РґРѕРєСѓРјРµРЅС‚ РЅРµРѕР±СЏР·Р°С‚РµР»СЊРЅР°. Р”Р»СЏ РїР°СЂС‚РёРё Рё РµРґРёРЅРёС‡РЅРѕРіРѕ РёР·РґРµР»РёСЏ РїСЂРёРІРѕРґСЏС‚ РЅРѕРјРµСЂ Рё СЂР°Р·РјРµСЂ РїР°СЂС‚РёРё РёР»Рё РЅРѕРјРµСЂ РёР·РґРµР»РёСЏ, РЅРѕРјРµСЂ Рё РґР°С‚Сѓ РІС‹РґР°С‡Рё РЅР°РєР»Р°РґРЅРѕР№, РґРѕРіРѕРІРѕСЂР° (РєРѕРЅС‚СЂР°РєС‚Р°), РґРѕРєСѓРјРµРЅС‚Р° Рѕ РєР°С‡РµСЃС‚РІРµ Рё С‚.Рї.)
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товара текстовое (наименование, тип, вид, марка продукции, обозначение стандарта, технических условий или иного документа, по которому она выпускается (для импортной продукции ссылка на документ необязательна. Для партии и единичного изделия приводят номер и размер партии или номер изделия, номер и дату выдачи накладной, договора (контракта), документа о качестве и т.п.)
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ, С‚РёРї, РІРёРґ, РјР°СЂРєР° РїСЂРѕРґСѓРєС†РёРё, РѕР±РѕР·РЅР°С‡РµРЅРёРµ СЃС‚Р°РЅРґР°СЂС‚Р°, С‚РµС…РЅРёС‡РµСЃРєРёС… СѓСЃР»РѕРІРёР№ РёР»Рё РёРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РѕРЅР° РІС‹РїСѓСЃРєР°РµС‚СЃСЏ (РґР»СЏ РёРјРїРѕСЂС‚РЅРѕР№ РїСЂРѕРґСѓРєС†РёРё СЃСЃС‹Р»РєР° РЅР° РґРѕРєСѓРјРµРЅС‚ РЅРµРѕР±СЏР·Р°С‚РµР»СЊРЅР°. Р”Р»СЏ РїР°СЂС‚РёРё Рё РµРґРёРЅРёС‡РЅРѕРіРѕ РёР·РґРµР»РёСЏ РїСЂРёРІРѕРґСЏС‚ РЅРѕРјРµСЂ Рё СЂР°Р·РјРµСЂ РїР°СЂС‚РёРё РёР»Рё РЅРѕРјРµСЂ РёР·РґРµР»РёСЏ, РЅРѕРјРµСЂ Рё РґР°С‚Сѓ РІС‹РґР°С‡Рё РЅР°РєР»Р°РґРЅРѕР№, РґРѕРіРѕРІРѕСЂР° (РєРѕРЅС‚СЂР°РєС‚Р°), РґРѕРєСѓРјРµРЅС‚Р° Рѕ РєР°С‡РµСЃС‚РІРµ Рё С‚.Рї.)
      * 
      * @param list
      */
@@ -74,7 +74,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the 'SeriesSign' element value. Признак: 1 - "единичное изделие", 2 - "партия", 3 - "серийный выпуск"
+     * Get the 'SeriesSign' element value. РџСЂРёР·РЅР°Рє: 1 - "РµРґРёРЅРёС‡РЅРѕРµ РёР·РґРµР»РёРµ", 2 - "РїР°СЂС‚РёСЏ", 3 - "СЃРµСЂРёР№РЅС‹Р№ РІС‹РїСѓСЃРє"
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the 'SeriesSign' element value. Признак: 1 - "единичное изделие", 2 - "партия", 3 - "серийный выпуск"
+     * Set the 'SeriesSign' element value. РџСЂРёР·РЅР°Рє: 1 - "РµРґРёРЅРёС‡РЅРѕРµ РёР·РґРµР»РёРµ", 2 - "РїР°СЂС‚РёСЏ", 3 - "СЃРµСЂРёР№РЅС‹Р№ РІС‹РїСѓСЃРє"
      * 
      * @param seriesSign
      */
@@ -92,7 +92,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the list of 'NormDocs' element items. Обозначение документов, на основании которых произведена продукция
+     * Get the list of 'NormDocs' element items. РћР±РѕР·РЅР°С‡РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїСЂРѕРёР·РІРµРґРµРЅР° РїСЂРѕРґСѓРєС†РёСЏ
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the list of 'NormDocs' element items. Обозначение документов, на основании которых произведена продукция
+     * Set the list of 'NormDocs' element items. РћР±РѕР·РЅР°С‡РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїСЂРѕРёР·РІРµРґРµРЅР° РїСЂРѕРґСѓРєС†РёСЏ
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the 'PartySize' element value. Размер партии
+     * Get the 'PartySize' element value. Р Р°Р·РјРµСЂ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the 'PartySize' element value. Размер партии
+     * Set the 'PartySize' element value. Р Р°Р·РјРµСЂ РїР°СЂС‚РёРё
      * 
      * @param partySize
      */
@@ -128,7 +128,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the list of 'SerialNumber' element items. Заводской номер изделия
+     * Get the list of 'SerialNumber' element items. Р—Р°РІРѕРґСЃРєРѕР№ РЅРѕРјРµСЂ РёР·РґРµР»РёСЏ
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the list of 'SerialNumber' element items. Заводской номер изделия
+     * Set the list of 'SerialNumber' element items. Р—Р°РІРѕРґСЃРєРѕР№ РЅРѕРјРµСЂ РёР·РґРµР»РёСЏ
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Get the list of 'ShippingDocuments' element items. Товаросопроводительные документы
+     * Get the list of 'ShippingDocuments' element items. РўРѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -155,7 +155,7 @@ public class GoodsType extends AppendsType
     }
 
     /** 
-     * Set the list of 'ShippingDocuments' element items. Товаросопроводительные документы
+     * Set the list of 'ShippingDocuments' element items. РўРѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */

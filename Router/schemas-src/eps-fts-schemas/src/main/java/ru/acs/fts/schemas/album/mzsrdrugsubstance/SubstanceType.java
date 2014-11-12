@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mzsrdrugsubstance;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * В отношении фармацевтических субстанций
+ * Р’ РѕС‚РЅРѕС€РµРЅРёРё С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРёС… СЃСѓР±СЃС‚Р°РЅС†РёР№
  */
 public class SubstanceType
 {
@@ -17,7 +17,7 @@ public class SubstanceType
     private RegistrationType registration;
 
     /** 
-     * Get the 'Name' element value. Наименование фармацевтической субстанции (международное непатентованное или химическое и торговое наименования)
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРѕР№ СЃСѓР±СЃС‚Р°РЅС†РёРё (РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРµ РЅРµРїР°С‚РµРЅС‚РѕРІР°РЅРЅРѕРµ РёР»Рё С…РёРјРёС‡РµСЃРєРѕРµ Рё С‚РѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование фармацевтической субстанции (международное непатентованное или химическое и торговое наименования)
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРѕР№ СЃСѓР±СЃС‚Р°РЅС†РёРё (РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРµ РЅРµРїР°С‚РµРЅС‚РѕРІР°РЅРЅРѕРµ РёР»Рё С…РёРјРёС‡РµСЃРєРѕРµ Рё С‚РѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ)
      * 
      * @param name
      */
@@ -35,7 +35,7 @@ public class SubstanceType
     }
 
     /** 
-     * Get the 'ReestrNumber' element value. Номер реестровой записи
+     * Get the 'ReestrNumber' element value. РќРѕРјРµСЂ СЂРµРµСЃС‚СЂРѕРІРѕР№ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'ReestrNumber' element value. Номер реестровой записи
+     * Set the 'ReestrNumber' element value. РќРѕРјРµСЂ СЂРµРµСЃС‚СЂРѕРІРѕР№ Р·Р°РїРёСЃРё
      * 
      * @param reestrNumber
      */
@@ -53,7 +53,7 @@ public class SubstanceType
     }
 
     /** 
-     * Get the 'TradeName' element value. Торговое наименование
+     * Get the 'TradeName' element value. РўРѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'TradeName' element value. Торговое наименование
+     * Set the 'TradeName' element value. РўРѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param tradeName
      */
@@ -71,7 +71,7 @@ public class SubstanceType
     }
 
     /** 
-     * Get the 'Form' element value. Лекарственная форма
+     * Get the 'Form' element value. Р›РµРєР°СЂСЃС‚РІРµРЅРЅР°СЏ С„РѕСЂРјР°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'Form' element value. Лекарственная форма
+     * Set the 'Form' element value. Р›РµРєР°СЂСЃС‚РІРµРЅРЅР°СЏ С„РѕСЂРјР°
      * 
      * @param form
      */
@@ -89,7 +89,7 @@ public class SubstanceType
     }
 
     /** 
-     * Get the 'FS_ND' element value. ФС/НД
+     * Get the 'FS_ND' element value. Р¤РЎ/РќР”
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'FS_ND' element value. ФС/НД
+     * Set the 'FS_ND' element value. Р¤РЎ/РќР”
      * 
      * @param FSND
      */
@@ -107,7 +107,7 @@ public class SubstanceType
     }
 
     /** 
-     * Get the 'Producer' element value. Производитель фармацевтической субстанции
+     * Get the 'Producer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРѕР№ СЃСѓР±СЃС‚Р°РЅС†РёРё
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'Producer' element value. Производитель фармацевтической субстанции
+     * Set the 'Producer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРѕР№ СЃСѓР±СЃС‚Р°РЅС†РёРё
      * 
      * @param producer
      */
@@ -125,7 +125,7 @@ public class SubstanceType
     }
 
     /** 
-     * Get the 'Registration' element value. Сведения о регистрации
+     * Get the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class SubstanceType
     }
 
     /** 
-     * Set the 'Registration' element value. Сведения о регистрации
+     * Set the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param registration
      */

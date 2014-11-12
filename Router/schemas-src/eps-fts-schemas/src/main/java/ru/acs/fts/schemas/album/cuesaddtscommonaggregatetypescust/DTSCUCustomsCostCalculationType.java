@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * Расчет таможенной стоимости
+ * Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
  */
 public class DTSCUCustomsCostCalculationType
 {
@@ -42,7 +42,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod1' element value. Подробности расчета таможенной стоимости по ДТС-1 методу 1; ДТС-2 метод 6 на основе метода 1
+     * Get the 'DTSMethod1' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ Р”РўРЎ-1 РјРµС‚РѕРґСѓ 1; Р”РўРЎ-2 РјРµС‚РѕРґ 6 РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° 1
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod1' element value. Подробности расчета таможенной стоимости по ДТС-1 методу 1; ДТС-2 метод 6 на основе метода 1
+     * Set the 'DTSMethod1' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ Р”РўРЎ-1 РјРµС‚РѕРґСѓ 1; Р”РўРЎ-2 РјРµС‚РѕРґ 6 РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° 1
      * 
      * @param DTSMethod1
      */
@@ -70,7 +70,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod236' element value. Подробности расчета таможенной стоимости по методу  стоимости сделки с идентичными товарами и резервного на их основе
+     * Get the 'DTSMethod236' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ  СЃС‚РѕРёРјРѕСЃС‚Рё СЃРґРµР»РєРё СЃ РёРґРµРЅС‚РёС‡РЅС‹РјРё С‚РѕРІР°СЂР°РјРё Рё СЂРµР·РµСЂРІРЅРѕРіРѕ РЅР° РёС… РѕСЃРЅРѕРІРµ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod236' element value. Подробности расчета таможенной стоимости по методу  стоимости сделки с идентичными товарами и резервного на их основе
+     * Set the 'DTSMethod236' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ  СЃС‚РѕРёРјРѕСЃС‚Рё СЃРґРµР»РєРё СЃ РёРґРµРЅС‚РёС‡РЅС‹РјРё С‚РѕРІР°СЂР°РјРё Рё СЂРµР·РµСЂРІРЅРѕРіРѕ РЅР° РёС… РѕСЃРЅРѕРІРµ
      * 
      * @param DTSMethod236
      */
@@ -98,7 +98,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod46' element value. Резервный метод на основе метода вычитания (4,6)
+     * Get the 'DTSMethod46' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° РІС‹С‡РёС‚Р°РЅРёСЏ (4,6)
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod46' element value. Резервный метод на основе метода вычитания (4,6)
+     * Set the 'DTSMethod46' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° РІС‹С‡РёС‚Р°РЅРёСЏ (4,6)
      * 
      * @param DTSMethod46
      */
@@ -126,7 +126,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod56' element value. Резервный метод на основе метода таможенной стоимости (5,6)
+     * Get the 'DTSMethod56' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё (5,6)
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class DTSCUCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod56' element value. Резервный метод на основе метода таможенной стоимости (5,6)
+     * Set the 'DTSMethod56' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё (5,6)
      * 
      * @param DTSMethod56
      */

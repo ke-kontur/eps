@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.kdtoutcustomsmark;
 import org.joda.time.LocalDate;
 
 /** 
- * Служебные отметки по товарам
+ * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
  */
 public class KDTOutGoodsResolutionType
 {
@@ -19,7 +19,7 @@ public class KDTOutGoodsResolutionType
     private String LNP;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по КДТ
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РљР”Рў
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по КДТ
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РљР”Рў
      * 
      * @param goodsNumeric
      */
@@ -37,7 +37,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы)
+     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы)
+     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
      * 
      * @param GRNumber
      */
@@ -55,7 +55,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
+     * Get the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
+     * Set the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
      * 
      * @param stageMarkIdentifier
      */
@@ -73,7 +73,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
+     * Get the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
+     * Set the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
      * 
      * @param noteMarkIdentifier
      */
@@ -91,7 +91,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. Служебная запись
+     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. Служебная запись
+     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @param markDescription
      */
@@ -109,7 +109,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата проставления отметки
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата проставления отметки
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё
      * 
      * @param dateInf
      */
@@ -127,7 +127,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Время
+     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Время
+     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ
      * 
      * @param timeInf
      */
@@ -145,7 +145,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'PersonName' element value. ФИО инспектора, заверившего запись
+     * Get the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО инспектора, заверившего запись
+     * Set the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @param personName
      */
@@ -163,7 +163,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
+     * Get the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class KDTOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
+     * Set the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @param LNP
      */

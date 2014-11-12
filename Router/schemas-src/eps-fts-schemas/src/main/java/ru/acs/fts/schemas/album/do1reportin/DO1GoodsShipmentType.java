@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhCustomDocume
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhPresentDocType;
 
 /** 
- * Сведения о товарной партии, помещаемой на хранение
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё, РїРѕРјРµС‰Р°РµРјРѕР№ РЅР° С…СЂР°РЅРµРЅРёРµ
  */
 public class DO1GoodsShipmentType
 {
@@ -22,7 +22,7 @@ public class DO1GoodsShipmentType
     private DO1CostTypeType overallCost;
 
     /** 
-     * Get the 'TotalPackageNumber' element value. Общее количество грузовых мест
+     * Get the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalPackageNumber' element value. Общее количество грузовых мест
+     * Set the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param totalPackageNumber
      */
@@ -40,7 +40,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Get the 'MPOSign' element value. Признак оформления международных постовых отправлений
+     * Get the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕСЃС‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёР№
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the 'MPOSign' element value. Признак оформления международных постовых отправлений
+     * Set the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕСЃС‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёР№
      * 
      * @param MPOSign
      */
@@ -58,7 +58,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'TransportDocs' element items. Транспортные  документы -  партии товаров, помещаемых на ВХ
+     * Get the list of 'TransportDocs' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ  РґРѕРєСѓРјРµРЅС‚С‹ -  РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РЅР° Р’РҐ
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'TransportDocs' element items. Транспортные  документы -  партии товаров, помещаемых на ВХ
+     * Set the list of 'TransportDocs' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ  РґРѕРєСѓРјРµРЅС‚С‹ -  РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РЅР° Р’РҐ
      * 
      * @param list
      */
@@ -76,7 +76,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'CustomsDocs' element items. Таможенные документы
+     * Get the list of 'CustomsDocs' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -85,7 +85,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'CustomsDocs' element items. Таможенные документы
+     * Set the list of 'CustomsDocs' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -94,7 +94,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'CommerceDocs' element items. Коммерческие документы
+     * Get the list of 'CommerceDocs' element items. РљРѕРјРјРµСЂС‡РµСЃРєРёРµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -103,7 +103,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'CommerceDocs' element items. Коммерческие документы
+     * Set the list of 'CommerceDocs' element items. РљРѕРјРјРµСЂС‡РµСЃРєРёРµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -112,7 +112,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Get the 'PresentedDocuments' element value. Регистрационный номер представления документов для помещения товаров на ВХ
+     * Get the 'PresentedDocuments' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґР»СЏ РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° Р’РҐ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the 'PresentedDocuments' element value. Регистрационный номер представления документов для помещения товаров на ВХ
+     * Set the 'PresentedDocuments' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґР»СЏ РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° Р’РҐ
      * 
      * @param presentedDocuments
      */
@@ -130,7 +130,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Get the 'OverallCost' element value. Сведения об общей стоимости товаров
+     * Get the 'OverallCost' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class DO1GoodsShipmentType
     }
 
     /** 
-     * Set the 'OverallCost' element value. Сведения об общей стоимости товаров
+     * Set the 'OverallCost' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
      * 
      * @param overallCost
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.CWDocType;
 
 /** 
- * Складская квитанция
+ * РЎРєР»Р°РґСЃРєР°СЏ РєРІРёС‚Р°РЅС†РёСЏ
  */
 public class CWStorageQuitanceType extends CWDocType
 {
@@ -33,7 +33,7 @@ public class CWStorageQuitanceType extends CWDocType
     }
 
     /** 
-     * Get the list of 'Commodity' element items. Информация о товаре
+     * Get the list of 'Commodity' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class CWStorageQuitanceType extends CWDocType
     }
 
     /** 
-     * Set the list of 'Commodity' element items. Информация о товаре
+     * Set the list of 'Commodity' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class CWStorageQuitanceType extends CWDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CWStorageQuitanceType extends CWDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

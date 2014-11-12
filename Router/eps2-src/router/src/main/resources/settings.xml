@@ -188,6 +188,33 @@
         </constructor-arg>
     </bean>
 
+    <bean id="orderCustomsCodeBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/OrderCustomsCode"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="payment1CustomsCodeBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/Payment1CustomsCode"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="payment2CustomsCodeBean" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue">
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean">
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/Payment2CustomsCode"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
     <bean id="asktt2ExchType" class="java.lang.String" 
     		factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
     	<constructor-arg>
@@ -204,6 +231,33 @@
     			<property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/MalakhitExchType" />
     		</bean>
     	</constructor-arg>
+    </bean>
+
+    <bean id="orderExchType" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/OrderExchType" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="payment1ExchType" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/Payment1ExchType" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="payment2ExchType" class="java.lang.String"
+          factory-bean="${jndiFactoryBean}" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="${bindingsPrefix}eps2jconfig/Config/Payment2ExchType" />
+            </bean>
+        </constructor-arg>
     </bean>
     
     <bean id="RTUCodesBean" class="java.lang.String"
@@ -286,6 +340,14 @@
         <property name="asktt2ExchType" ref="asktt2ExchType" />
         <property name="malakhitCustomsCode" ref="malakhitCustomsCodeBean" />
         <property name="malakhitExchType" ref="malakhitExchType" />
+
+        <property name="orderCustomsCode" ref="orderCustomsCodeBean" />
+        <property name="orderExchType" ref="orderExchType" />
+
+        <property name="payment1CustomsCode" ref="payment1CustomsCodeBean" />
+        <property name="payment1ExchType" ref="payment1ExchType" />
+        <property name="payment2CustomsCode" ref="payment2CustomsCodeBean" />
+        <property name="payment2ExchType" ref="payment2ExchType" />
         <property name="rtuPatternsHolder">
         	<bean class="ru.acs.fts.eps2.engine.configuration.RtuCodePatternsHolder">
     			<constructor-arg>
@@ -470,6 +532,7 @@
                         <entry key="5.1.0/3.2.3" value="/xslt/510/ESADInfo510.xslt" />
                         <entry key="5.4.0/3.2.4" value="/xslt/540/ESADInfo540.xslt" />
                         <entry key="5.4.1/3.2.5" value="/xslt/540/ESADInfo540.xslt" />
+                        <entry key="5.4.3/3.3.1" value="/xslt/540/ESADInfo540.xslt" />
                     </map>
                 </entry>
             </map>

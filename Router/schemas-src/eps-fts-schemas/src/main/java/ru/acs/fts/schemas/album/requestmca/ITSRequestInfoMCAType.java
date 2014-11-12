@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.requestmca;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Информация о значениях стоимости, количества и веса при запросе информации
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·РЅР°С‡РµРЅРёСЏС… СЃС‚РѕРёРјРѕСЃС‚Рё, РєРѕР»РёС‡РµСЃС‚РІР° Рё РІРµСЃР° РїСЂРё Р·Р°РїСЂРѕСЃРµ РёРЅС„РѕСЂРјР°С†РёРё
  */
 public class ITSRequestInfoMCAType
 {
@@ -14,7 +14,7 @@ public class ITSRequestInfoMCAType
     private SupplementaryQuantityType goodsQuantity;
 
     /** 
-     * Get the 'NetWeight' element value. Вес нетто
+     * Get the 'NetWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Set the 'NetWeight' element value. Вес нетто
+     * Set the 'NetWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ
      * 
      * @param netWeight
      */
@@ -32,7 +32,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Вес брутто
+     * Get the 'GrossWeight' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Вес брутто
+     * Set the 'GrossWeight' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ
      * 
      * @param grossWeight
      */
@@ -50,7 +50,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Get the 'CustomsCostRUB' element value. Таможенная стоимость (в рублях)
+     * Get the 'CustomsCostRUB' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (РІ СЂСѓР±Р»СЏС…)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Set the 'CustomsCostRUB' element value. Таможенная стоимость (в рублях)
+     * Set the 'CustomsCostRUB' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (РІ СЂСѓР±Р»СЏС…)
      * 
      * @param customsCostRUB
      */
@@ -68,7 +68,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество в ДЕИ
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ Р”Р•Р
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ITSRequestInfoMCAType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество в ДЕИ
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ Р”Р•Р
      * 
      * @param goodsQuantity
      */

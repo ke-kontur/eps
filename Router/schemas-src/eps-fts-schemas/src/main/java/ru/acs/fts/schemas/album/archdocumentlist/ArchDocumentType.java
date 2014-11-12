@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Информация о документе
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
  */
 public class ArchDocumentType extends DocumentBaseType
 {
@@ -18,7 +18,7 @@ public class ArchDocumentType extends DocumentBaseType
     private String archDocDate;
 
     /** 
-     * Get the 'ArchDocID' element value. Архивный идентификатор документа
+     * Get the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Архивный идентификатор документа
+     * Set the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocID
      */
@@ -36,7 +36,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ArchDocumentID' element value. Уникальный идентификатор документа
+     * Get the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ArchDocumentID' element value. Уникальный идентификатор документа
+     * Set the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocumentID
      */
@@ -54,7 +54,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ArchDocStatus' element value. Статус документа в архиве
+     * Get the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ArchDocStatus' element value. Статус документа в архиве
+     * Set the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @param archDocStatus
      */
@@ -72,7 +72,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentCode' element value. Идентификатор вида документа по альбому форматов
+     * Get the 'DocumentCode' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р°Р»СЊР±РѕРјСѓ С„РѕСЂРјР°С‚РѕРІ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. Идентификатор вида документа по альбому форматов
+     * Set the 'DocumentCode' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р°Р»СЊР±РѕРјСѓ С„РѕСЂРјР°С‚РѕРІ
      * 
      * @param documentCode
      */
@@ -90,7 +90,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocBeginDate' element value. Дата начала действия документа
+     * Get the 'DocBeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocBeginDate' element value. Дата начала действия документа
+     * Set the 'DocBeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docBeginDate
      */
@@ -108,7 +108,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocEndDate' element value. Дата окончания действия документа
+     * Get the 'DocEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocEndDate' element value. Дата окончания действия документа
+     * Set the 'DocEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docEndDate
      */
@@ -126,7 +126,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ArchDocDate' element value. Дата/время помещения документа в архив ( последнего изменения документа)
+     * Get the 'ArchDocDate' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕРјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІ ( РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°)
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ArchDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ArchDocDate' element value. Дата/время помещения документа в архив ( последнего изменения документа)
+     * Set the 'ArchDocDate' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕРјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІ ( РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°)
      * 
      * @param archDocDate
      */

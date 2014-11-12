@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения о получателе товаров
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
  */
 public class KTSCUConsigneeType extends CUOrganizationType
 {
@@ -13,7 +13,7 @@ public class KTSCUConsigneeType extends CUOrganizationType
     private CUBranchDescriptionType branchDescription;
 
     /** 
-     * Get the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ
+     * Get the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class KTSCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ
+     * Set the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў
      * 
      * @param contractorIndicator
      */
@@ -31,7 +31,7 @@ public class KTSCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении.
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class KTSCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении.
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
      * 
      * @param branchDescription
      */

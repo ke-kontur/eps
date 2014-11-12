@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Данные об организации, участвующей в сделке
+ * Р”Р°РЅРЅС‹Рµ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, СѓС‡Р°СЃС‚РІСѓСЋС‰РµР№ РІ СЃРґРµР»РєРµ
  */
 public class OrgDealInfoType extends CUOrganizationType
 {
     private PersonSignatureType directorSignature;
 
     /** 
-     * Get the 'DirectorSignature' element value. Подпись руководителя и дата сделки
+     * Get the 'DirectorSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ Рё РґР°С‚Р° СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OrgDealInfoType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'DirectorSignature' element value. Подпись руководителя и дата сделки
+     * Set the 'DirectorSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ Рё РґР°С‚Р° СЃРґРµР»РєРё
      * 
      * @param directorSignature
      */

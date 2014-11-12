@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class GoodsDescriptionType
 {
@@ -18,7 +18,7 @@ public class GoodsDescriptionType
     private SupplementaryQuantityType addQuantity;
 
     /** 
-     * Get the list of 'GoodName' element items. Наименование товара
+     * Get the list of 'GoodName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodName' element items. Наименование товара
+     * Set the list of 'GoodName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'TNVED' element value. Код ТН ВЭД ТС
+     * Get the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'TNVED' element value. Код ТН ВЭД ТС
+     * Set the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVED
      */
@@ -54,7 +54,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. Страна отправления
+     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. Страна отправления
+     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureCountry
      */
@@ -72,7 +72,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. Страна происхождения
+     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. Страна происхождения
+     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountry
      */
@@ -90,7 +90,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */
@@ -108,7 +108,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'AddQuantity' element value. Количество в дополнительной единице измерения
+     * Get the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'AddQuantity' element value. Количество в дополнительной единице измерения
+     * Set the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param addQuantity
      */

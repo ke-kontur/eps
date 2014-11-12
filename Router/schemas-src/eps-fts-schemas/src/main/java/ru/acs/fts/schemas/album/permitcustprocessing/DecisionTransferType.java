@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.permitcustprocessing;
 import org.joda.time.LocalDate;
 
 /** 
- * Решение о передаче  разрешения на переработку товаров.
+ * Р РµС€РµРЅРёРµ Рѕ РїРµСЂРµРґР°С‡Рµ  СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ.
  */
 public class DecisionTransferType
 {
@@ -12,7 +12,7 @@ public class DecisionTransferType
     private LocalDate dateDecision;
 
     /** 
-     * Get the 'NumberDecision' element value. Номер решения о передаче
+     * Get the 'NumberDecision' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Рѕ РїРµСЂРµРґР°С‡Рµ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DecisionTransferType
     }
 
     /** 
-     * Set the 'NumberDecision' element value. Номер решения о передаче
+     * Set the 'NumberDecision' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Рѕ РїРµСЂРµРґР°С‡Рµ
      * 
      * @param numberDecision
      */
@@ -30,7 +30,7 @@ public class DecisionTransferType
     }
 
     /** 
-     * Get the 'DateDecision' element value. Дата
+     * Get the 'DateDecision' element value. Р”Р°С‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DecisionTransferType
     }
 
     /** 
-     * Set the 'DateDecision' element value. Дата
+     * Set the 'DateDecision' element value. Р”Р°С‚Р°
      * 
      * @param dateDecision
      */

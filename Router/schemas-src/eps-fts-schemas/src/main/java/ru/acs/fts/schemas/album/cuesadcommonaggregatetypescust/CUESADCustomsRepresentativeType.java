@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.RFOrganizationFeaturesT
 import ru.acs.fts.schemas.album.commonaggregatetypescust.RKOrganizationFeaturesType;
 
 /** 
- * Таможенный представитель
+ * РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
  */
 public class CUESADCustomsRepresentativeType
 {
@@ -16,7 +16,7 @@ public class CUESADCustomsRepresentativeType
     private Choice choice;
 
     /** 
-     * Get the 'ContractRepresDecl' element value. Договор таможенного представителя с декларантом
+     * Get the 'ContractRepresDecl' element value. Р”РѕРіРѕРІРѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CUESADCustomsRepresentativeType
     }
 
     /** 
-     * Set the 'ContractRepresDecl' element value. Договор таможенного представителя с декларантом
+     * Set the 'ContractRepresDecl' element value. Р”РѕРіРѕРІРѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј
      * 
      * @param contractRepresDecl
      */
@@ -34,7 +34,7 @@ public class CUESADCustomsRepresentativeType
     }
 
     /** 
-     * Get the 'CustomsRepresCertificate' element value. Документ, свидетельствующий о включении лица  в Реестр таможенных представителей
+     * Get the 'CustomsRepresCertificate' element value. Р”РѕРєСѓРјРµРЅС‚, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РёР№ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р°  РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CUESADCustomsRepresentativeType
     }
 
     /** 
-     * Set the 'CustomsRepresCertificate' element value. Документ, свидетельствующий о включении лица  в Реестр таможенных представителей
+     * Set the 'CustomsRepresCertificate' element value. Р”РѕРєСѓРјРµРЅС‚, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РёР№ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р°  РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @param customsRepresCertificate
      */
@@ -105,7 +105,7 @@ public class CUESADCustomsRepresentativeType
         }
 
         /** 
-         * Get the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
+         * Get the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
          * 
          * @return value
          */
@@ -114,7 +114,7 @@ public class CUESADCustomsRepresentativeType
         }
 
         /** 
-         * Set the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
+         * Set the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
          * 
          * @param RFOrganizationFeatures
          */
@@ -134,7 +134,7 @@ public class CUESADCustomsRepresentativeType
         }
 
         /** 
-         * Get the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
+         * Get the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
          * 
          * @return value
          */
@@ -143,7 +143,7 @@ public class CUESADCustomsRepresentativeType
         }
 
         /** 
-         * Set the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
+         * Set the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
          * 
          * @param RKOrganizationFeatures
          */
@@ -163,7 +163,7 @@ public class CUESADCustomsRepresentativeType
         }
 
         /** 
-         * Get the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
+         * Get the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
          * 
          * @return value
          */
@@ -172,7 +172,7 @@ public class CUESADCustomsRepresentativeType
         }
 
         /** 
-         * Set the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
+         * Set the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
          * 
          * @param RBOrganizationFeatures
          */

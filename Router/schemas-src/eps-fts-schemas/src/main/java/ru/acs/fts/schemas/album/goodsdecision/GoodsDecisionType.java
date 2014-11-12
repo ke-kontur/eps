@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Предварительное/окончательное решение в отношении товаров при перевозке морским/воздушным/ЖД транспортном
+ * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ/РѕРєРѕРЅС‡Р°С‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ РїСЂРё РїРµСЂРµРІРѕР·РєРµ РјРѕСЂСЃРєРёРј/РІРѕР·РґСѓС€РЅС‹Рј/Р–Р” С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј
  */
 public class GoodsDecisionType extends BaseDocType
 {
@@ -33,7 +33,7 @@ public class GoodsDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @param PIURN
      */
@@ -51,7 +51,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionKind' element value. Тип решения. 1- предварительное 2 - окончательное
+     * Get the 'DecisionKind' element value. РўРёРї СЂРµС€РµРЅРёСЏ. 1- РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ 2 - РѕРєРѕРЅС‡Р°С‚РµР»СЊРЅРѕРµ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionKind' element value. Тип решения. 1- предварительное 2 - окончательное
+     * Set the 'DecisionKind' element value. РўРёРї СЂРµС€РµРЅРёСЏ. 1- РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ 2 - РѕРєРѕРЅС‡Р°С‚РµР»СЊРЅРѕРµ
      * 
      * @param decisionKind
      */
@@ -69,7 +69,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportKind' element value. Тип транспорта. 1 - воздушный, 2 - водный, 3- ЖД
+     * Get the 'TransportKind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚Р°. 1 - РІРѕР·РґСѓС€РЅС‹Р№, 2 - РІРѕРґРЅС‹Р№, 3- Р–Р”
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportKind' element value. Тип транспорта. 1 - воздушный, 2 - водный, 3- ЖД
+     * Set the 'TransportKind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚Р°. 1 - РІРѕР·РґСѓС€РЅС‹Р№, 2 - РІРѕРґРЅС‹Р№, 3- Р–Р”
      * 
      * @param transportKind
      */
@@ -87,7 +87,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'EstimatedArrival' element value. Расчетные дата и время прибытия в порт
+     * Get the 'EstimatedArrival' element value. Р Р°СЃС‡РµС‚РЅС‹Рµ РґР°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ РІ РїРѕСЂС‚
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'EstimatedArrival' element value. Расчетные дата и время прибытия в порт
+     * Set the 'EstimatedArrival' element value. Р Р°СЃС‡РµС‚РЅС‹Рµ РґР°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ РІ РїРѕСЂС‚
      * 
      * @param estimatedArrival
      */
@@ -105,7 +105,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionDate' element value. Дата принятия решения
+     * Get the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Дата принятия решения
+     * Set the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionDate
      */
@@ -123,7 +123,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionTime' element value. Время принятия решения
+     * Get the 'DecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionTime' element value. Время принятия решения
+     * Set the 'DecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionTime
      */
@@ -141,7 +141,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOperationPlace' element value. Место совершения таможенных операций
+     * Get the 'CustomsOperationPlace' element value. РњРµСЃС‚Рѕ СЃРѕРІРµСЂС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№
      * 
      * @return value
      */
@@ -150,7 +150,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOperationPlace' element value. Место совершения таможенных операций
+     * Set the 'CustomsOperationPlace' element value. РњРµСЃС‚Рѕ СЃРѕРІРµСЂС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№
      * 
      * @param customsOperationPlace
      */
@@ -159,7 +159,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного поста
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
      * 
      * @return value
      */
@@ -168,7 +168,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного поста
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
      * 
      * @param customsCode
      */
@@ -177,7 +177,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TSControlDecision' element value. Принятое решение по ТС
+     * Get the 'TSControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ РўРЎ
      * 
      * @return value
      */
@@ -186,7 +186,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TSControlDecision' element value. Принятое решение по ТС
+     * Set the 'TSControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ РўРЎ
      * 
      * @param TSControlDecision
      */
@@ -195,7 +195,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо, принимающее решение
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїСЂРёРЅРёРјР°СЋС‰РµРµ СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -204,7 +204,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо, принимающее решение
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїСЂРёРЅРёРјР°СЋС‰РµРµ СЂРµС€РµРЅРёРµ
      * 
      * @param customsPerson
      */
@@ -213,7 +213,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignments' element items. Сведения о товарных партиях
+     * Get the list of 'Consignments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёСЏС…
      * 
      * @return list
      */
@@ -222,7 +222,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignments' element items. Сведения о товарных партиях
+     * Set the list of 'Consignments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёСЏС…
      * 
      * @param list
      */
@@ -256,7 +256,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'FlightInfo' element value. Сведения о рейсе
+     * Get the 'FlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @return value
      */
@@ -265,7 +265,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'FlightInfo' element value. Сведения о рейсе
+     * Set the 'FlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @param flightInfo
      */
@@ -284,7 +284,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Railway' element value. Сведения о железной дороге
+     * Get the 'Railway' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРµ
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Railway' element value. Сведения о железной дороге
+     * Set the 'Railway' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРµ
      * 
      * @param railway
      */
@@ -312,7 +312,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipInfo' element value. Сведения о судне
+     * Get the 'ShipInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРЅРµ
      * 
      * @return value
      */
@@ -321,7 +321,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipInfo' element value. Сведения о судне
+     * Set the 'ShipInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРЅРµ
      * 
      * @param shipInfo
      */
@@ -331,7 +331,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -340,7 +340,7 @@ public class GoodsDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

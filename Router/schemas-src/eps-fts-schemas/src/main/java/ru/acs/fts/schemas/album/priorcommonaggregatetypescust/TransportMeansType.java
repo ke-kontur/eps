@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * Транспортное средство.
+ * РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ.
  */
 public class TransportMeansType
 {
@@ -14,7 +14,7 @@ public class TransportMeansType
     private String transportMeansNationalityCode;
 
     /** 
-     * Get the 'TransportIdentifier' element value. Идентификатор (номер) основного транспортного средства / название судна/номер авиарейса, бортовой номер/ номер ж.д. вагона.
+     * Get the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РѕСЃРЅРѕРІРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° / РЅР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°/РЅРѕРјРµСЂ Р°РІРёР°СЂРµР№СЃР°, Р±РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ/ РЅРѕРјРµСЂ Р¶.Рґ. РІР°РіРѕРЅР°.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportIdentifier' element value. Идентификатор (номер) основного транспортного средства / название судна/номер авиарейса, бортовой номер/ номер ж.д. вагона.
+     * Set the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РѕСЃРЅРѕРІРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° / РЅР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°/РЅРѕРјРµСЂ Р°РІРёР°СЂРµР№СЃР°, Р±РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ/ РЅРѕРјРµСЂ Р¶.Рґ. РІР°РіРѕРЅР°.
      * 
      * @param transportIdentifier
      */
@@ -32,7 +32,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'TrailerIdentifier' element value. Идентификатор (номер) прицепного транспортного средства.
+     * Get the 'TrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TrailerIdentifier' element value. Идентификатор (номер) прицепного транспортного средства.
+     * Set the 'TrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
      * 
      * @param trailerIdentifier
      */
@@ -50,7 +50,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'SecondTrailerIdentifier' element value. Идентификатор (номер) второго прицепного транспортного средства
+     * Get the 'SecondTrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'SecondTrailerIdentifier' element value. Идентификатор (номер) второго прицепного транспортного средства
+     * Set the 'SecondTrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param secondTrailerIdentifier
      */
@@ -68,7 +68,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'VINID' element value. Идентификационный номер транспортного средства (VIN)
+     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (VIN)
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'VINID' element value. Идентификационный номер транспортного средства (VIN)
+     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (VIN)
      * 
      * @param VINID
      */
@@ -86,7 +86,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров.
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров.
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ.
      * 
      * @param transportModeCode
      */
@@ -104,7 +104,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'TransportMeansNationalityCode' element value. Буквенный код страны принадлежности транспортного средства по общероссийскому классификатору стран мира..
+     * Get the 'TransportMeansNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°..
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportMeansNationalityCode' element value. Буквенный код страны принадлежности транспортного средства по общероссийскому классификатору стран мира..
+     * Set the 'TransportMeansNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°..
      * 
      * @param transportMeansNationalityCode
      */

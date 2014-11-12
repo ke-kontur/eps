@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Подтверждение о получении перечня запрошенных документов
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ РїРѕР»СѓС‡РµРЅРёРё РїРµСЂРµС‡РЅСЏ Р·Р°РїСЂРѕС€РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
  */
 public class WHDocInvConfirmType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class WHDocInvConfirmType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления подтверждения
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления подтверждения
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -41,7 +41,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления подтверждения
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления подтверждения
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -59,7 +59,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecDate' element value. Дата получения перечня
+     * Get the 'RecDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РїРµСЂРµС‡РЅСЏ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecDate' element value. Дата получения перечня
+     * Set the 'RecDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РїРµСЂРµС‡РЅСЏ
      * 
      * @param recDate
      */
@@ -77,7 +77,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecTime' element value. Время получения перечня
+     * Get the 'RecTime' element value. Р’СЂРµРјСЏ РїРѕР»СѓС‡РµРЅРёСЏ РїРµСЂРµС‡РЅСЏ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecTime' element value. Время получения перечня
+     * Set the 'RecTime' element value. Р’СЂРµРјСЏ РїРѕР»СѓС‡РµРЅРёСЏ РїРµСЂРµС‡РЅСЏ
      * 
      * @param recTime
      */
@@ -95,7 +95,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Документ из описи
+     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Документ из описи
+     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Лицо, получившее перечень запрошенных документов
+     * Get the 'Person' element value. Р›РёС†Рѕ, РїРѕР»СѓС‡РёРІС€РµРµ РїРµСЂРµС‡РµРЅСЊ Р·Р°РїСЂРѕС€РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Лицо, получившее перечень запрошенных документов
+     * Set the 'Person' element value. Р›РёС†Рѕ, РїРѕР»СѓС‡РёРІС€РµРµ РїРµСЂРµС‡РµРЅСЊ Р·Р°РїСЂРѕС€РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param person
      */
@@ -131,7 +131,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -149,7 +149,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class WHDocInvConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

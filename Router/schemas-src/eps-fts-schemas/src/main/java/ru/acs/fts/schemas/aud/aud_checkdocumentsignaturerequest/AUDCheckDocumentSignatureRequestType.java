@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_checkdocumentsignaturerequest;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Запрос на проверку ЭЦП на документ.
+ * Р—Р°РїСЂРѕСЃ РЅР° РїСЂРѕРІРµСЂРєСѓ Р­Р¦Рџ РЅР° РґРѕРєСѓРјРµРЅС‚.
  */
 public class AUDCheckDocumentSignatureRequestType extends AUDBaseEnvelopeType
 {
@@ -12,7 +12,7 @@ public class AUDCheckDocumentSignatureRequestType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
+     * Get the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDCheckDocumentSignatureRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
+     * Set the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param archiveDocumentId
      */
@@ -30,7 +30,7 @@ public class AUDCheckDocumentSignatureRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDCheckDocumentSignatureRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

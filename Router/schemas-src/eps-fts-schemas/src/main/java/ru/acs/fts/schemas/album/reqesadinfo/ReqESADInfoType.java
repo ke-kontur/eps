@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Запрос ДТ
+ * Р—Р°РїСЂРѕСЃ Р”Рў
  */
 public class ReqESADInfoType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class ReqESADInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ReqESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -33,7 +33,7 @@ public class ReqESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Номер, запрашиваемой ДТ
+     * Get the 'GTDID' element value. РќРѕРјРµСЂ, Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ Р”Рў
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ReqESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Номер, запрашиваемой ДТ
+     * Set the 'GTDID' element value. РќРѕРјРµСЂ, Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ Р”Рў
      * 
      * @param GTDID
      */
@@ -51,7 +51,7 @@ public class ReqESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ReqESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

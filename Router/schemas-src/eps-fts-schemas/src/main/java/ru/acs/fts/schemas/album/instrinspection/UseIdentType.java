@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Применение средств идентификации
+ * РџСЂРёРјРµРЅРµРЅРёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
  */
 public class UseIdentType
 {
     private List<IdentUnitType> identUnitList = new ArrayList<IdentUnitType>();
 
     /** 
-     * Get the list of 'IdentUnit' element items. Средство идентификации
+     * Get the list of 'IdentUnit' element items. РЎСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class UseIdentType
     }
 
     /** 
-     * Set the list of 'IdentUnit' element items. Средство идентификации
+     * Set the list of 'IdentUnit' element items. РЎСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param list
      */

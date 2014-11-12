@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Когда осуществляется переход риска утраты/порчи товара на покупателя
+ * РљРѕРіРґР° РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµС…РѕРґ СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ
  */
 public class RiskLossDamageType
 {
@@ -19,7 +19,7 @@ public class RiskLossDamageType
     private List<AddressType> addressList = new ArrayList<AddressType>();
 
     /** 
-     * Get the 'Warehouse' element value. Признак перехода риска утраты/порчи товара на покупателя на складе отправителя
+     * Get the 'Warehouse' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РЅР° СЃРєР»Р°РґРµ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the 'Warehouse' element value. Признак перехода риска утраты/порчи товара на покупателя на складе отправителя
+     * Set the 'Warehouse' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РЅР° СЃРєР»Р°РґРµ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @param warehouse
      */
@@ -37,7 +37,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Get the 'Disposition' element value. Признак перехода риска утраты/порчи товара на покупателя после передачи лицу, осуществляющему
+     * Get the 'Disposition' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РїРѕСЃР»Рµ РїРµСЂРµРґР°С‡Рё Р»РёС†Сѓ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРјСѓ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the 'Disposition' element value. Признак перехода риска утраты/порчи товара на покупателя после передачи лицу, осуществляющему
+     * Set the 'Disposition' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РїРѕСЃР»Рµ РїРµСЂРµРґР°С‡Рё Р»РёС†Сѓ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРјСѓ
      * 
      * @param disposition
      */
@@ -55,7 +55,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Get the 'ProcessDelivery' element value. Признак перехода риска утраты/порчи товара на покупателя в процессе доставки
+     * Get the 'ProcessDelivery' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РІ РїСЂРѕС†РµСЃСЃРµ РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the 'ProcessDelivery' element value. Признак перехода риска утраты/порчи товара на покупателя в процессе доставки
+     * Set the 'ProcessDelivery' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РІ РїСЂРѕС†РµСЃСЃРµ РґРѕСЃС‚Р°РІРєРё
      * 
      * @param processDelivery
      */
@@ -73,7 +73,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Get the 'CommentsProcessDelivery' element value. В процессе доставки (подробности)
+     * Get the 'CommentsProcessDelivery' element value. Р’ РїСЂРѕС†РµСЃСЃРµ РґРѕСЃС‚Р°РІРєРё (РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the 'CommentsProcessDelivery' element value. В процессе доставки (подробности)
+     * Set the 'CommentsProcessDelivery' element value. Р’ РїСЂРѕС†РµСЃСЃРµ РґРѕСЃС‚Р°РІРєРё (РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
      * 
      * @param commentsProcessDelivery
      */
@@ -91,7 +91,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Get the 'PlaceDelivery' element value. Признак перехода риска утраты/порчи товара на покупателя в месте доставки
+     * Get the 'PlaceDelivery' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РІ РјРµСЃС‚Рµ РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the 'PlaceDelivery' element value. Признак перехода риска утраты/порчи товара на покупателя в месте доставки
+     * Set the 'PlaceDelivery' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РІ РјРµСЃС‚Рµ РґРѕСЃС‚Р°РІРєРё
      * 
      * @param placeDelivery
      */
@@ -109,7 +109,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Get the 'OtherPlace' element value. Признак перехода риска утраты/порчи товара на покупателя в ином месте
+     * Get the 'OtherPlace' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РІ РёРЅРѕРј РјРµСЃС‚Рµ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the 'OtherPlace' element value. Признак перехода риска утраты/порчи товара на покупателя в ином месте
+     * Set the 'OtherPlace' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ РІ РёРЅРѕРј РјРµСЃС‚Рµ
      * 
      * @param otherPlace
      */
@@ -127,7 +127,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Get the list of 'Address' element items. Адрес 
+     * Get the list of 'Address' element items. РђРґСЂРµСЃ 
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class RiskLossDamageType
     }
 
     /** 
-     * Set the list of 'Address' element items. Адрес 
+     * Set the list of 'Address' element items. РђРґСЂРµСЃ 
      * 
      * @param list
      */

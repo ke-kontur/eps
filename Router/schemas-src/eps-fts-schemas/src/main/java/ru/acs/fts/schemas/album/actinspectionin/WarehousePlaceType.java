@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.actinspectionin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
+ * РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
  */
 public class WarehousePlaceType extends DocumentBaseType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
+     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WarehousePlaceType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
+     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @param documentModeCode
      */

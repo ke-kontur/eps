@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Уведомление о ввозе товаров на территорию ОЭЗ/ПОЭЗ и въезде средства транспорта/Разрешение на ввоз товаров на территорию ПОЭЗ
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р—/РџРћР­Р— Рё РІСЉРµР·РґРµ СЃСЂРµРґСЃС‚РІР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°/Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РІРІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РџРћР­Р—
  */
 public class OEZImportNotifType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class OEZImportNotifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ImportDate' element value. Дата ввоза товаров
+     * Get the 'ImportDate' element value. Р”Р°С‚Р° РІРІРѕР·Р° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ImportDate' element value. Дата ввоза товаров
+     * Set the 'ImportDate' element value. Р”Р°С‚Р° РІРІРѕР·Р° С‚РѕРІР°СЂРѕРІ
      * 
      * @param importDate
      */
@@ -41,7 +41,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddInformation' element value. Дополнительная информация
+     * Get the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddInformation' element value. Дополнительная информация
+     * Set the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param addInformation
      */
@@ -59,7 +59,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 1 - уведомление о ввозе товаров на территорию ОЭЗ и въезде средства транспорта; 2 - уведомление о ввозе товаров на территорию ПОЭЗ; 3 - разрешение на ввоз товаров на территорию ПОЭЗ
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— Рё РІСЉРµР·РґРµ СЃСЂРµРґСЃС‚РІР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РџРћР­Р—; 3 - СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РІРІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РџРћР­Р—
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 1 - уведомление о ввозе товаров на территорию ОЭЗ и въезде средства транспорта; 2 - уведомление о ввозе товаров на территорию ПОЭЗ; 3 - разрешение на ввоз товаров на территорию ПОЭЗ
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— Рё РІСЉРµР·РґРµ СЃСЂРµРґСЃС‚РІР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РџРћР­Р—; 3 - СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РІРІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РџРћР­Р—
      * 
      * @param docSign
      */
@@ -77,7 +77,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -95,7 +95,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Резидент/нерезидент
+     * Get the 'Consignee' element value. Р РµР·РёРґРµРЅС‚/РЅРµСЂРµР·РёРґРµРЅС‚
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Резидент/нерезидент
+     * Set the 'Consignee' element value. Р РµР·РёРґРµРЅС‚/РЅРµСЂРµР·РёРґРµРЅС‚
      * 
      * @param consignee
      */
@@ -113,7 +113,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Регистрационный номер разрешения
+     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Регистрационный номер разрешения
+     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param registrationNumber
      */
@@ -131,7 +131,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportMeans' element value. Описания транспортного средства 
+     * Get the 'TransportMeans' element value. РћРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° 
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMeans' element value. Описания транспортного средства 
+     * Set the 'TransportMeans' element value. РћРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° 
      * 
      * @param transportMeans
      */
@@ -149,7 +149,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о товаре
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -158,7 +158,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о товаре
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -167,7 +167,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class OEZImportNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Сведения об организации.  Юридический и фактический адрес
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё.  Р®СЂРёРґРёС‡РµСЃРєРёР№ Рё С„Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
  */
 public class OrganizationBackAddrType extends OrganizationType
 {
     private AddressType factAddress;
 
     /** 
-     * Get the 'FactAddress' element value. Фактический адрес организации
+     * Get the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class OrganizationBackAddrType extends OrganizationType
     }
 
     /** 
-     * Set the 'FactAddress' element value. Фактический адрес организации
+     * Set the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param factAddress
      */

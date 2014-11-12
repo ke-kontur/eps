@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.exportdiamondscertificate;
 
 /** 
- * Сведения об экспортируемых алмазах
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… Р°Р»РјР°Р·Р°С…
  */
 public class DiamondsInfoType
 {
@@ -13,7 +13,7 @@ public class DiamondsInfoType
     private String numeric;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -31,7 +31,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Get the 'TotalDiamodsCost' element value. Стоимость алмазов 
+     * Get the 'TotalDiamodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ Р°Р»РјР°Р·РѕРІ 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Set the 'TotalDiamodsCost' element value. Стоимость алмазов 
+     * Set the 'TotalDiamodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ Р°Р»РјР°Р·РѕРІ 
      * 
      * @param totalDiamodsCost
      */
@@ -49,7 +49,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Get the 'TotalDiamondsWeight' element value. Общая масса алмазов
+     * Get the 'TotalDiamondsWeight' element value. РћР±С‰Р°СЏ РјР°СЃСЃР° Р°Р»РјР°Р·РѕРІ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Set the 'TotalDiamondsWeight' element value. Общая масса алмазов
+     * Set the 'TotalDiamondsWeight' element value. РћР±С‰Р°СЏ РјР°СЃСЃР° Р°Р»РјР°Р·РѕРІ
      * 
      * @param totalDiamondsWeight
      */
@@ -67,7 +67,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Get the 'PlaceNumber' element value. Количество грузовых мест, входящих в состав вывозимой партии
+     * Get the 'PlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, РІС…РѕРґСЏС‰РёС… РІ СЃРѕСЃС‚Р°РІ РІС‹РІРѕР·РёРјРѕР№ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Set the 'PlaceNumber' element value. Количество грузовых мест, входящих в состав вывозимой партии
+     * Set the 'PlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, РІС…РѕРґСЏС‰РёС… РІ СЃРѕСЃС‚Р°РІ РІС‹РІРѕР·РёРјРѕР№ РїР°СЂС‚РёРё
      * 
      * @param placeNumber
      */
@@ -85,7 +85,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Get the 'Numeric' element value. Номер позиции
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DiamondsInfoType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер позиции
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
      * 
      * @param numeric
      */

@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Лицо,обладающего полномочиями в отношении товаров и (или) транспортных средств.
+ * Р›РёС†Рѕ,РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
  */
 public class PersonInspectionType extends OrganizationBaseType
 {
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PersonInspectionType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Описание документа
+ * РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocumentType extends DocumentBaseType
 {
     private String modeCode;
 
     /** 
-     * Get the 'ModeCode' element value. Вид документа
+     * Get the 'ModeCode' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ModeCode' element value. Вид документа
+     * Set the 'ModeCode' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param modeCode
      */

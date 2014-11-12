@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Разрешение на ввоз на территорию РФ (вывоз с территории РФ, транзита через территорию РФ) гражданского и служебного оружия и патронов к нему, выданное юридическому лицу
+ * Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РІРІРѕР· РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р Р¤ (РІС‹РІРѕР· СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤, С‚СЂР°РЅР·РёС‚Р° С‡РµСЂРµР· С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р Р¤) РіСЂР°Р¶РґР°РЅСЃРєРѕРіРѕ Рё СЃР»СѓР¶РµР±РЅРѕРіРѕ РѕСЂСѓР¶РёСЏ Рё РїР°С‚СЂРѕРЅРѕРІ Рє РЅРµРјСѓ, РІС‹РґР°РЅРЅРѕРµ СЋСЂРёРґРёС‡РµСЃРєРѕРјСѓ Р»РёС†Сѓ
  */
 public class MVDTransitWeaponType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class MVDTransitWeaponType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. Аннулированный документ
+     * Get the 'IsCanceled' element value. РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. Аннулированный документ
+     * Set the 'IsCanceled' element value. РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param isCanceled
      */
@@ -41,7 +41,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -59,7 +59,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. Страна отправления
+     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. Страна отправления
+     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureCountry
      */
@@ -77,7 +77,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountry
      */
@@ -95,7 +95,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'Permission' element value. Разрешение
+     * Get the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'Permission' element value. Разрешение
+     * Set the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param permission
      */
@@ -113,7 +113,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. Юридическое лицо
+     * Get the 'Organization' element value. Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. Юридическое лицо
+     * Set the 'Organization' element value. Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @param organization
      */
@@ -131,7 +131,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'WeaponDescription' element value. Описание оружия (патронов)
+     * Get the 'WeaponDescription' element value. РћРїРёСЃР°РЅРёРµ РѕСЂСѓР¶РёСЏ (РїР°С‚СЂРѕРЅРѕРІ)
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'WeaponDescription' element value. Описание оружия (патронов)
+     * Set the 'WeaponDescription' element value. РћРїРёСЃР°РЅРёРµ РѕСЂСѓР¶РёСЏ (РїР°С‚СЂРѕРЅРѕРІ)
      * 
      * @param weaponDescription
      */
@@ -149,7 +149,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'BaseDocument' element value. Основание
+     * Get the 'BaseDocument' element value. РћСЃРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'BaseDocument' element value. Основание
+     * Set the 'BaseDocument' element value. РћСЃРЅРѕРІР°РЅРёРµ
      * 
      * @param baseDocument
      */
@@ -167,7 +167,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'Signer' element value. Должностное лицо, подписавшее разрешение
+     * Get the 'Signer' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'Signer' element value. Должностное лицо, подписавшее разрешение
+     * Set the 'Signer' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param signer
      */
@@ -185,7 +185,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class MVDTransitWeaponType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

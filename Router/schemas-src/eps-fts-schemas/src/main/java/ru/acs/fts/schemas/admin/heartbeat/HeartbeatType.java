@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.admin.heartbeat;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Сердцебиение
+ * РЎРµСЂРґС†РµР±РёРµРЅРёРµ
  */
 public class HeartbeatType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class HeartbeatType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class HeartbeatType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

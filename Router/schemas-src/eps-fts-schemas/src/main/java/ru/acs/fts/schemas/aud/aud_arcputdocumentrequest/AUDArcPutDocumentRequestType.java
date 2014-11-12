@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentInfoWithPacketSyncType;
 
 /** 
- * Запрос на размещение документа на хранение в архиве верхнего уровня.
+ * Р—Р°РїСЂРѕСЃ РЅР° СЂР°Р·РјРµС‰РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РЅР° С…СЂР°РЅРµРЅРёРµ РІ Р°СЂС…РёРІРµ РІРµСЂС…РЅРµРіРѕ СѓСЂРѕРІРЅСЏ.
  */
 public class AUDArcPutDocumentRequestType extends AUDBaseEnvelopeType
 {
@@ -13,7 +13,7 @@ public class AUDArcPutDocumentRequestType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentInfoWithPacketSync' element value. Информация о документе архива и пакете (в состав которого входит документ).
+     * Get the 'DocumentInfoWithPacketSync' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР° Рё РїР°РєРµС‚Рµ (РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚).
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AUDArcPutDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentInfoWithPacketSync' element value. Информация о документе архива и пакете (в состав которого входит документ).
+     * Set the 'DocumentInfoWithPacketSync' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР° Рё РїР°РєРµС‚Рµ (РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚).
      * 
      * @param documentInfoWithPacketSync
      */
@@ -32,7 +32,7 @@ public class AUDArcPutDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AUDArcPutDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

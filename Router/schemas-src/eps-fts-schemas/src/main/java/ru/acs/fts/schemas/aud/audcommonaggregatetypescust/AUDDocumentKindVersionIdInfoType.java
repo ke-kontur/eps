@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Информация для идентификации версии вида документа.
+ * РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
  */
 public class AUDDocumentKindVersionIdInfoType extends AUDDocumentKindIdInfoType
 {
     private String appliedDocumentKindVersionId;
 
     /** 
-     * Get the 'AppliedDocumentKindVersionId' element value. Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).
+     * Get the 'AppliedDocumentKindVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјРµРЅ XML РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (РєРѕСЂРЅРµРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDDocumentKindVersionIdInfoType extends AUDDocumentKindIdInfoType
     }
 
     /** 
-     * Set the 'AppliedDocumentKindVersionId' element value. Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).
+     * Set the 'AppliedDocumentKindVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјРµРЅ XML РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (РєРѕСЂРЅРµРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @param appliedDocumentKindVersionId
      */

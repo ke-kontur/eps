@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.legalentityinfo;
 
 /** 
- * Доля в уставном капитале
+ * Р”РѕР»СЏ РІ СѓСЃС‚Р°РІРЅРѕРј РєР°РїРёС‚Р°Р»Рµ
  */
 public class ShareType
 {
@@ -15,7 +15,7 @@ public class ShareType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'Numerator' element value. Размер доли в простых дробях. Числитель
+     * Get the 'Numerator' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РїСЂРѕСЃС‚С‹С… РґСЂРѕР±СЏС…. Р§РёСЃР»РёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'Numerator' element value. Размер доли в простых дробях. Числитель
+     * Set the 'Numerator' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РїСЂРѕСЃС‚С‹С… РґСЂРѕР±СЏС…. Р§РёСЃР»РёС‚РµР»СЊ
      * 
      * @param numerator
      */
@@ -33,7 +33,7 @@ public class ShareType
     }
 
     /** 
-     * Get the 'Denumerator' element value. Размер доли в простых дробях. Знаменатель
+     * Get the 'Denumerator' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РїСЂРѕСЃС‚С‹С… РґСЂРѕР±СЏС…. Р—РЅР°РјРµРЅР°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'Denumerator' element value. Размер доли в простых дробях. Знаменатель
+     * Set the 'Denumerator' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РїСЂРѕСЃС‚С‹С… РґСЂРѕР±СЏС…. Р—РЅР°РјРµРЅР°С‚РµР»СЊ
      * 
      * @param denumerator
      */
@@ -51,7 +51,7 @@ public class ShareType
     }
 
     /** 
-     * Get the 'Percent' element value. Размер доли в процентах, %
+     * Get the 'Percent' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РїСЂРѕС†РµРЅС‚Р°С…, %
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'Percent' element value. Размер доли в процентах, %
+     * Set the 'Percent' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РїСЂРѕС†РµРЅС‚Р°С…, %
      * 
      * @param percent
      */
@@ -69,7 +69,7 @@ public class ShareType
     }
 
     /** 
-     * Get the 'DecimalFraction' element value. Размер доли в десятичных дробях
+     * Get the 'DecimalFraction' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РґРµСЃСЏС‚РёС‡РЅС‹С… РґСЂРѕР±СЏС…
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'DecimalFraction' element value. Размер доли в десятичных дробях
+     * Set the 'DecimalFraction' element value. Р Р°Р·РјРµСЂ РґРѕР»Рё РІ РґРµСЃСЏС‚РёС‡РЅС‹С… РґСЂРѕР±СЏС…
      * 
      * @param decimalFraction
      */
@@ -87,7 +87,7 @@ public class ShareType
     }
 
     /** 
-     * Get the 'NominalCost' element value. Номинальная стоимость в рублях
+     * Get the 'NominalCost' element value. РќРѕРјРёРЅР°Р»СЊРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ СЂСѓР±Р»СЏС…
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'NominalCost' element value. Номинальная стоимость в рублях
+     * Set the 'NominalCost' element value. РќРѕРјРёРЅР°Р»СЊРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ СЂСѓР±Р»СЏС…
      * 
      * @param nominalCost
      */
@@ -105,7 +105,7 @@ public class ShareType
     }
 
     /** 
-     * Get the 'PledgeSign' element value. Признак нахождения доли в залоге или в ином обременении
+     * Get the 'PledgeSign' element value. РџСЂРёР·РЅР°Рє РЅР°С…РѕР¶РґРµРЅРёСЏ РґРѕР»Рё РІ Р·Р°Р»РѕРіРµ РёР»Рё РІ РёРЅРѕРј РѕР±СЂРµРјРµРЅРµРЅРёРё
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'PledgeSign' element value. Признак нахождения доли в залоге или в ином обременении
+     * Set the 'PledgeSign' element value. РџСЂРёР·РЅР°Рє РЅР°С…РѕР¶РґРµРЅРёСЏ РґРѕР»Рё РІ Р·Р°Р»РѕРіРµ РёР»Рё РІ РёРЅРѕРј РѕР±СЂРµРјРµРЅРµРЅРёРё
      * 
      * @param pledgeSign
      */
@@ -123,7 +123,7 @@ public class ShareType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class ShareType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */

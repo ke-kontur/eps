@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Паспорт бартерной сделки - документ контроля и учета бартерных сделок, совершаемых российскими лицами в соответствии с заключенными внешнеэкономическими договорами
+ * РџР°СЃРїРѕСЂС‚ Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё - РґРѕРєСѓРјРµРЅС‚ РєРѕРЅС‚СЂРѕР»СЏ Рё СѓС‡РµС‚Р° Р±Р°СЂС‚РµСЂРЅС‹С… СЃРґРµР»РѕРє, СЃРѕРІРµСЂС€Р°РµРјС‹С… СЂРѕСЃСЃРёР№СЃРєРёРјРё Р»РёС†Р°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р·Р°РєР»СЋС‡РµРЅРЅС‹РјРё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРёРјРё РґРѕРіРѕРІРѕСЂР°РјРё
  */
 public class BarterTransactionPasportType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class BarterTransactionPasportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'MFER' element value. Реквизиты Управления уполномоченного МВЭС России
+     * Get the 'MFER' element value. Р РµРєРІРёР·РёС‚С‹ РЈРїСЂР°РІР»РµРЅРёСЏ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РњР’Р­РЎ Р РѕСЃСЃРёРё
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'MFER' element value. Реквизиты Управления уполномоченного МВЭС России
+     * Set the 'MFER' element value. Р РµРєРІРёР·РёС‚С‹ РЈРїСЂР°РІР»РµРЅРёСЏ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РњР’Р­РЎ Р РѕСЃСЃРёРё
      * 
      * @param MFER
      */
@@ -43,7 +43,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'RussianCompany' element value. Реквизиты российской стороны контракта
+     * Get the 'RussianCompany' element value. Р РµРєРІРёР·РёС‚С‹ СЂРѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'RussianCompany' element value. Реквизиты российской стороны контракта
+     * Set the 'RussianCompany' element value. Р РµРєРІРёР·РёС‚С‹ СЂРѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param russianCompany
      */
@@ -61,7 +61,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractTerms' element value. Реквизиты и условия договора
+     * Get the 'ContractTerms' element value. Р РµРєРІРёР·РёС‚С‹ Рё СѓСЃР»РѕРІРёСЏ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractTerms' element value. Реквизиты и условия договора
+     * Set the 'ContractTerms' element value. Р РµРєРІРёР·РёС‚С‹ Рё СѓСЃР»РѕРІРёСЏ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param contractTerms
      */
@@ -79,7 +79,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PermitPayment' element value. Реквизиты и условия разрешение МВЭС России на отсрочку платежа
+     * Get the 'PermitPayment' element value. Р РµРєРІРёР·РёС‚С‹ Рё СѓСЃР»РѕРІРёСЏ СЂР°Р·СЂРµС€РµРЅРёРµ РњР’Р­РЎ Р РѕСЃСЃРёРё РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermitPayment' element value. Реквизиты и условия разрешение МВЭС России на отсрочку платежа
+     * Set the 'PermitPayment' element value. Р РµРєРІРёР·РёС‚С‹ Рё СѓСЃР»РѕРІРёСЏ СЂР°Р·СЂРµС€РµРЅРёРµ РњР’Р­РЎ Р РѕСЃСЃРёРё РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°
      * 
      * @param permitPayment
      */
@@ -97,7 +97,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'MFERSignature' element value. Подпись от Управления уполномоченного МВЭС России
+     * Get the 'MFERSignature' element value. РџРѕРґРїРёСЃСЊ РѕС‚ РЈРїСЂР°РІР»РµРЅРёСЏ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РњР’Р­РЎ Р РѕСЃСЃРёРё
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'MFERSignature' element value. Подпись от Управления уполномоченного МВЭС России
+     * Set the 'MFERSignature' element value. РџРѕРґРїРёСЃСЊ РѕС‚ РЈРїСЂР°РІР»РµРЅРёСЏ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РњР’Р­РЎ Р РѕСЃСЃРёРё
      * 
      * @param MFERSignature
      */
@@ -115,7 +115,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'RussianCompanySignature' element value. Подпись от российского лица
+     * Get the 'RussianCompanySignature' element value. РџРѕРґРїРёСЃСЊ РѕС‚ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'RussianCompanySignature' element value. Подпись от российского лица
+     * Set the 'RussianCompanySignature' element value. РџРѕРґРїРёСЃСЊ РѕС‚ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param russianCompanySignature
      */
@@ -134,7 +134,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecialComments' element value. Особые отметки
+     * Get the 'SpecialComments' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecialComments' element value. Особые отметки
+     * Set the 'SpecialComments' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @param specialComments
      */
@@ -152,7 +152,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Enclosure' element items. Приложение к Паспорту бартерной сделки 
+     * Get the list of 'Enclosure' element items. РџСЂРёР»РѕР¶РµРЅРёРµ Рє РџР°СЃРїРѕСЂС‚Сѓ Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё 
      * 
      * @return list
      */
@@ -161,7 +161,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Enclosure' element items. Приложение к Паспорту бартерной сделки 
+     * Set the list of 'Enclosure' element items. РџСЂРёР»РѕР¶РµРЅРёРµ Рє РџР°СЃРїРѕСЂС‚Сѓ Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё 
      * 
      * @param list
      */
@@ -170,7 +170,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Регистрационные данные Паспорта бартерной сделки    
+     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РџР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё    
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Регистрационные данные Паспорта бартерной сделки    
+     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РџР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё    
      * 
      * @param registration
      */
@@ -188,7 +188,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignContractor' element value. Реквизиты иностранного контрагента
+     * Get the 'ForeignContractor' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignContractor' element value. Реквизиты иностранного контрагента
+     * Set the 'ForeignContractor' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @param foreignContractor
      */
@@ -206,7 +206,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class BarterTransactionPasportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

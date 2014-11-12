@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Таблица
+ * РўР°Р±Р»РёС†Р°
  */
 public class TableType
 {
@@ -18,7 +18,7 @@ public class TableType
     private List<TableRowType> tableFootRowList = new ArrayList<TableRowType>();
 
     /** 
-     * Get the 'Cols' element value. Число колонок в таблице
+     * Get the 'Cols' element value. Р§РёСЃР»Рѕ РєРѕР»РѕРЅРѕРє РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'Cols' element value. Число колонок в таблице
+     * Set the 'Cols' element value. Р§РёСЃР»Рѕ РєРѕР»РѕРЅРѕРє РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @param cols
      */
@@ -36,7 +36,7 @@ public class TableType
     }
 
     /** 
-     * Get the 'TableName' element value. Наименование таблицы
+     * Get the 'TableName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'TableName' element value. Наименование таблицы
+     * Set the 'TableName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
      * 
      * @param tableName
      */
@@ -54,7 +54,7 @@ public class TableType
     }
 
     /** 
-     * Get the 'ShortTableName' element value. Краткое наименование таблицы
+     * Get the 'ShortTableName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'ShortTableName' element value. Краткое наименование таблицы
+     * Set the 'ShortTableName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
      * 
      * @param shortTableName
      */
@@ -72,7 +72,7 @@ public class TableType
     }
 
     /** 
-     * Get the list of 'ColumnSpec' element items. Описание колонок
+     * Get the list of 'ColumnSpec' element items. РћРїРёСЃР°РЅРёРµ РєРѕР»РѕРЅРѕРє
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class TableType
     }
 
     /** 
-     * Set the list of 'ColumnSpec' element items. Описание колонок
+     * Set the list of 'ColumnSpec' element items. РћРїРёСЃР°РЅРёРµ РєРѕР»РѕРЅРѕРє
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class TableType
     }
 
     /** 
-     * Get the list of 'TableBodyRow' element items. Тело таблицы. Строка
+     * Get the list of 'TableBodyRow' element items. РўРµР»Рѕ С‚Р°Р±Р»РёС†С‹. РЎС‚СЂРѕРєР°
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class TableType
     }
 
     /** 
-     * Set the list of 'TableBodyRow' element items. Тело таблицы. Строка
+     * Set the list of 'TableBodyRow' element items. РўРµР»Рѕ С‚Р°Р±Р»РёС†С‹. РЎС‚СЂРѕРєР°
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class TableType
     }
 
     /** 
-     * Get the list of 'TableHeadRow' element items. Заголовок таблицы. Строка
+     * Get the list of 'TableHeadRow' element items. Р—Р°РіРѕР»РѕРІРѕРє С‚Р°Р±Р»РёС†С‹. РЎС‚СЂРѕРєР°
      * 
      * @return list
      */
@@ -117,7 +117,7 @@ public class TableType
     }
 
     /** 
-     * Set the list of 'TableHeadRow' element items. Заголовок таблицы. Строка
+     * Set the list of 'TableHeadRow' element items. Р—Р°РіРѕР»РѕРІРѕРє С‚Р°Р±Р»РёС†С‹. РЎС‚СЂРѕРєР°
      * 
      * @param list
      */
@@ -126,7 +126,7 @@ public class TableType
     }
 
     /** 
-     * Get the list of 'TableFootRow' element items. Подвал таблицы. Строка
+     * Get the list of 'TableFootRow' element items. РџРѕРґРІР°Р» С‚Р°Р±Р»РёС†С‹. РЎС‚СЂРѕРєР°
      * 
      * @return list
      */
@@ -135,7 +135,7 @@ public class TableType
     }
 
     /** 
-     * Set the list of 'TableFootRow' element items. Подвал таблицы. Строка
+     * Set the list of 'TableFootRow' element items. РџРѕРґРІР°Р» С‚Р°Р±Р»РёС†С‹. РЎС‚СЂРѕРєР°
      * 
      * @param list
      */

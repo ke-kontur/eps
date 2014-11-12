@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AutomobileBaseType;
 import ru.acs.fts.schemas.album.commonleaftypescust.TransportCategoryCodeType;
 
 /** 
- * Сведения о транспортном средстве 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ 
  */
 public class CDITransportMeansType extends AutomobileBaseType
 {
@@ -20,7 +20,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     private String kind;
 
     /** 
-     * Get the 'TransportStateSignID' element value. Государственный знак транспортного средства
+     * Get the 'TransportStateSignID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ Р·РЅР°Рє С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportStateSignID' element value. Государственный знак транспортного средства
+     * Set the 'TransportStateSignID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ Р·РЅР°Рє С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportStateSignID
      */
@@ -38,7 +38,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportMeansColorCode' element value. Код цвета транспортного средства
+     * Get the 'TransportMeansColorCode' element value. РљРѕРґ С†РІРµС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportMeansColorCode' element value. Код цвета транспортного средства
+     * Set the 'TransportMeansColorCode' element value. РљРѕРґ С†РІРµС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportMeansColorCode
      */
@@ -56,7 +56,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
+     * Get the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
+     * Set the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
      * 
      * @param enginePowerKvtQuanity
      */
@@ -74,7 +74,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
+     * Get the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
+     * Set the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
      * 
      * @param enginePowerHpQuanity
      */
@@ -92,7 +92,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MaxWeightQuantity' element value. Разрешенная максимальная масса ТС в кг
+     * Get the 'MaxWeightQuantity' element value. Р Р°Р·СЂРµС€РµРЅРЅР°СЏ РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјР°СЃСЃР° РўРЎ РІ РєРі
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MaxWeightQuantity' element value. Разрешенная максимальная масса ТС в кг
+     * Set the 'MaxWeightQuantity' element value. Р Р°Р·СЂРµС€РµРЅРЅР°СЏ РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјР°СЃСЃР° РўРЎ РІ РєРі
      * 
      * @param maxWeightQuantity
      */
@@ -110,7 +110,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MinWeightQuantity' element value. Масса без нагрузки в кг
+     * Get the 'MinWeightQuantity' element value. РњР°СЃСЃР° Р±РµР· РЅР°РіСЂСѓР·РєРё РІ РєРі
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MinWeightQuantity' element value. Масса без нагрузки в кг
+     * Set the 'MinWeightQuantity' element value. РњР°СЃСЃР° Р±РµР· РЅР°РіСЂСѓР·РєРё РІ РєРі
      * 
      * @param minWeightQuantity
      */
@@ -128,7 +128,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportCategoryCode' element value. Категория транспортного средства
+     * Get the 'TransportCategoryCode' element value. РљР°С‚РµРіРѕСЂРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportCategoryCode' element value. Категория транспортного средства
+     * Set the 'TransportCategoryCode' element value. РљР°С‚РµРіРѕСЂРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportCategoryCode
      */
@@ -147,7 +147,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineModel' element value. Модель двигателя
+     * Get the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModel' element value. Модель двигателя
+     * Set the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
      * 
      * @param engineModel
      */
@@ -165,7 +165,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Kind' element value. Тип ТС
+     * Get the 'Kind' element value. РўРёРї РўРЎ
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class CDITransportMeansType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Kind' element value. Тип ТС
+     * Set the 'Kind' element value. РўРёРї РўРЎ
      * 
      * @param kind
      */

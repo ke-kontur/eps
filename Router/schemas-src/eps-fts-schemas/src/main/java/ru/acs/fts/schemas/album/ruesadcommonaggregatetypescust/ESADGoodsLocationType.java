@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Местонахождение товаров. Гр. 30. 
+ * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30. 
  */
 public class ESADGoodsLocationType
 {
@@ -16,7 +16,7 @@ public class ESADGoodsLocationType
     private StTransportType stTransport;
 
     /** 
-     * Get the 'InformationTypeCode' element value. Код информации.
+     * Get the 'InformationTypeCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. Код информации.
+     * Set the 'InformationTypeCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё.
      * 
      * @param informationTypeCode
      */
@@ -59,7 +59,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров. Сведения о таможенном складе, СВХ.
+     * Get the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј СЃРєР»Р°РґРµ, РЎР’РҐ.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров. Сведения о таможенном складе, СВХ.
+     * Set the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј СЃРєР»Р°РґРµ, РЎР’РҐ.
      * 
      * @param goodsLocationWarehouse
      */
@@ -88,7 +88,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
+     * Get the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
+     * Set the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
      * 
      * @param goodsLocationPlace
      */
@@ -116,7 +116,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Get the 'StTransport' element value. Наименование стационарного вида транспорта: ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА
+     * Get the 'StTransport' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С†РёРѕРЅР°СЂРЅРѕРіРѕ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°: РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class ESADGoodsLocationType
     }
 
     /** 
-     * Set the 'StTransport' element value. Наименование стационарного вида транспорта: ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА
+     * Set the 'StTransport' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С†РёРѕРЅР°СЂРЅРѕРіРѕ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°: РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ
      * 
      * @param stTransport
      */

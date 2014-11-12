@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Параметры фильтра на реквизит документа.
+ * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЂРµРєРІРёР·РёС‚ РґРѕРєСѓРјРµРЅС‚Р°.
  */
 public class AUDAttributeFilterParamsType extends AUDUniversalFilterType
 {
     private String attributeId;
 
     /** 
-     * Get the 'AttributeId' element value. Идентификатор реквизита, на который накладывается фильтр.
+     * Get the 'AttributeId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµРєРІРёР·РёС‚Р°, РЅР° РєРѕС‚РѕСЂС‹Р№ РЅР°РєР»Р°РґС‹РІР°РµС‚СЃСЏ С„РёР»СЊС‚СЂ.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDAttributeFilterParamsType extends AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'AttributeId' element value. Идентификатор реквизита, на который накладывается фильтр.
+     * Set the 'AttributeId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµРєРІРёР·РёС‚Р°, РЅР° РєРѕС‚РѕСЂС‹Р№ РЅР°РєР»Р°РґС‹РІР°РµС‚СЃСЏ С„РёР»СЊС‚СЂ.
      * 
      * @param attributeId
      */

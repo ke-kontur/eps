@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Результат обработки документа
+ * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class ResponseType
 {
@@ -13,7 +13,7 @@ public class ResponseType
     private Choice choice;
 
     /** 
-     * Get the list of 'ResultInformation' element items. Информация о результате обработки
+     * Get the list of 'ResultInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the list of 'ResultInformation' element items. Информация о результате обработки
+     * Set the list of 'ResultInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -81,7 +81,7 @@ public class ResponseType
         }
 
         /** 
-         * Get the 'PI_DocResult' element value. Информация об обработке документа
+         * Get the 'PI_DocResult' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕР±СЂР°Р±РѕС‚РєРµ РґРѕРєСѓРјРµРЅС‚Р°
          * 
          * @return value
          */
@@ -90,7 +90,7 @@ public class ResponseType
         }
 
         /** 
-         * Set the 'PI_DocResult' element value. Информация об обработке документа
+         * Set the 'PI_DocResult' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕР±СЂР°Р±РѕС‚РєРµ РґРѕРєСѓРјРµРЅС‚Р°
          * 
          * @param PIDocResult
          */
@@ -109,7 +109,7 @@ public class ResponseType
         }
 
         /** 
-         * Get the 'TIR_Result' element value. Информация по книжке МДП
+         * Get the 'TIR_Result' element value. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРЅРёР¶РєРµ РњР”Рџ
          * 
          * @return value
          */
@@ -118,7 +118,7 @@ public class ResponseType
         }
 
         /** 
-         * Set the 'TIR_Result' element value. Информация по книжке МДП
+         * Set the 'TIR_Result' element value. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРЅРёР¶РєРµ РњР”Рџ
          * 
          * @param TIRResult
          */

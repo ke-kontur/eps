@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Информация о наличии ранее поступивших запросов от таможенных органов о размещении товаров на СВХ
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… Р·Р°РїСЂРѕСЃРѕРІ РѕС‚ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ Рѕ СЂР°Р·РјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РЎР’РҐ
  */
 public class PreviousRequestInfoType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class PreviousRequestInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PreviousRequestSign' element value. Признак наличия предыдущих запросов о размещении товаров на СВХ
+     * Get the 'PreviousRequestSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРґС‹РґСѓС‰РёС… Р·Р°РїСЂРѕСЃРѕРІ Рѕ СЂР°Р·РјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РЎР’РҐ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class PreviousRequestInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'PreviousRequestSign' element value. Признак наличия предыдущих запросов о размещении товаров на СВХ
+     * Set the 'PreviousRequestSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРґС‹РґСѓС‰РёС… Р·Р°РїСЂРѕСЃРѕРІ Рѕ СЂР°Р·РјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РЎР’РҐ
      * 
      * @param previousRequestSign
      */
@@ -33,7 +33,7 @@ public class PreviousRequestInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PreviousRequests' element items. Сведения о ранее поступивших запросах
+     * Get the list of 'PreviousRequests' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… Р·Р°РїСЂРѕСЃР°С…
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class PreviousRequestInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PreviousRequests' element items. Сведения о ранее поступивших запросах
+     * Set the list of 'PreviousRequests' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… Р·Р°РїСЂРѕСЃР°С…
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class PreviousRequestInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class PreviousRequestInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

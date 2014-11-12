@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.archdocresponse;
 import ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseType;
 
 /** 
- * Электронный документ из архива декларанта
+ * Р­Р»РµРєС‚СЂРѕРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ РёР· Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
  */
 public class ArchDocResponseType extends ArchBaseType
 {
@@ -14,7 +14,7 @@ public class ArchDocResponseType extends ArchBaseType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchDocStatus' element value. Статус документа в архиве
+     * Get the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocStatus' element value. Статус документа в архиве
+     * Set the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @param archDocStatus
      */
@@ -32,7 +32,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Архивный идентификатор документа
+     * Get the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Архивный идентификатор документа
+     * Set the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocID
      */
@@ -50,7 +50,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Get the 'ArchDocument' element value. Документ из архива
+     * Get the 'ArchDocument' element value. Р”РѕРєСѓРјРµРЅС‚ РёР· Р°СЂС…РёРІР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocument' element value. Документ из архива
+     * Set the 'ArchDocument' element value. Р”РѕРєСѓРјРµРЅС‚ РёР· Р°СЂС…РёРІР°
      * 
      * @param archDocument
      */
@@ -68,7 +68,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ArchDocResponseType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

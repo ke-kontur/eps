@@ -61,6 +61,9 @@
     <!-- Регистрационный номер электронной декларации CMN.11001 -->
     <bean id="CMN11001BusinessProcess" parent="businessProcessBase"
     		class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11001BusinessProcess" />
+
+    <bean id="CMN11138BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11138BusinessProcess" />
     		
     <!-- Подтверждение получения должностным лицом таможенного органа электронных документов CMN.11004 -->
     <bean id="CMN11004BusinessProcess" parent="businessProcessBase"
@@ -72,6 +75,9 @@
     		
     <bean id="CMN11014BusinessProcess" parent="businessProcessBase"
     		class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11014BusinessProcess" />
+
+    <bean id="CMN11147BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11147BusinessProcess" />
 
     <bean id="CMN11024BusinessProcess" parent="businessProcessBase"
     		class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11024BusinessProcess" />
@@ -344,8 +350,15 @@
 		
 	<bean id="transitKastoToDeclNoRefBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.TransitKastoToDeclNoRefBusinessProcess" />
-	<bean id="importExportMessagesBusinessProcess" parent="businessProcessBase"
+
+    <bean id="importExportMessagesBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.ImportExportMessagesBusinessProcess" />
+
+    <bean id="CMN11157BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11157BusinessProcess" />
+
+    <bean id="CMN11122BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11122BusinessProcess" />
 			
 	<bean id="exportImportMsgResponseBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.ExportImportMsgResponseBusinessProcess" />
@@ -397,6 +410,9 @@
 			
 	<bean id="suppliesChangedDocsBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.SuppliesChangedDocsBusinessProcess" />
+
+    <bean id="suppliesChangedDocsBusinessProcess11146" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.SuppliesChangedDocsBusinessProcess11146" />
 			
 	<bean id="suppliesIssueDecisionBusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.SuppliesIssueDecision" />
@@ -457,6 +473,9 @@
 
 	<bean id="CMN11113BusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11113BusinessProcess" />
+
+    <bean id="CMN11119BusinessProcess" parent="businessProcessBase"
+          class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11119BusinessProcess" />
 
 	<bean id="MSG11058BusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG11058BusinessProcess" />

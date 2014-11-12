@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Сведения о договоре и условиях поставки
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ Рё СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё
  */
 public class InfoContractDeliveryTermsType
 {
@@ -22,7 +22,7 @@ public class InfoContractDeliveryTermsType
     private PropertyType property;
 
     /** 
-     * Get the 'CostDeliveryIncludedPriceTransactions' element value. Признак того, что стоимость доставки до места назначения включена в цену сделки
+     * Get the 'CostDeliveryIncludedPriceTransactions' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РґРѕ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРєР»СЋС‡РµРЅР° РІ С†РµРЅСѓ СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'CostDeliveryIncludedPriceTransactions' element value. Признак того, что стоимость доставки до места назначения включена в цену сделки
+     * Set the 'CostDeliveryIncludedPriceTransactions' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РґРѕ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРєР»СЋС‡РµРЅР° РІ С†РµРЅСѓ СЃРґРµР»РєРё
      * 
      * @param costDeliveryIncludedPriceTransactions
      */
@@ -41,7 +41,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'CostDeliverySpecified' element value. Признак того, что стоимость доставки оговаривалась при согласовании цены сделки
+     * Get the 'CostDeliverySpecified' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РѕРіРѕРІР°СЂРёРІР°Р»Р°СЃСЊ РїСЂРё СЃРѕРіР»Р°СЃРѕРІР°РЅРёРё С†РµРЅС‹ СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'CostDeliverySpecified' element value. Признак того, что стоимость доставки оговаривалась при согласовании цены сделки
+     * Set the 'CostDeliverySpecified' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РѕРіРѕРІР°СЂРёРІР°Р»Р°СЃСЊ РїСЂРё СЃРѕРіР»Р°СЃРѕРІР°РЅРёРё С†РµРЅС‹ СЃРґРµР»РєРё
      * 
      * @param costDeliverySpecified
      */
@@ -59,7 +59,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'Delivery' element value. Признак того, что покупатель изучал конъюнктуру рынка услуг по доставке товара из страны отправления до места назначения
+     * Get the 'Delivery' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРєСѓРїР°С‚РµР»СЊ РёР·СѓС‡Р°Р» РєРѕРЅСЉСЋРЅРєС‚СѓСЂСѓ СЂС‹РЅРєР° СѓСЃР»СѓРі РїРѕ РґРѕСЃС‚Р°РІРєРµ С‚РѕРІР°СЂР° РёР· СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РґРѕ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'Delivery' element value. Признак того, что покупатель изучал конъюнктуру рынка услуг по доставке товара из страны отправления до места назначения
+     * Set the 'Delivery' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРєСѓРїР°С‚РµР»СЊ РёР·СѓС‡Р°Р» РєРѕРЅСЉСЋРЅРєС‚СѓСЂСѓ СЂС‹РЅРєР° СѓСЃР»СѓРі РїРѕ РґРѕСЃС‚Р°РІРєРµ С‚РѕРІР°СЂР° РёР· СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РґРѕ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param delivery
      */
@@ -77,7 +77,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'ConformityCostDeliveryNormaPriceLevel' element value. Признак того, что стоимость доставки оцениваемых товаров соответствует обычному уровню цен, сложившихся на рынке транспортных услуг в отношении товаров того же класса или вида
+     * Get the 'ConformityCostDeliveryNormaPriceLevel' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РѕР±С‹С‡РЅРѕРјСѓ СѓСЂРѕРІРЅСЋ С†РµРЅ, СЃР»РѕР¶РёРІС€РёС…СЃСЏ РЅР° СЂС‹РЅРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СѓСЃР»СѓРі РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'ConformityCostDeliveryNormaPriceLevel' element value. Признак того, что стоимость доставки оцениваемых товаров соответствует обычному уровню цен, сложившихся на рынке транспортных услуг в отношении товаров того же класса или вида
+     * Set the 'ConformityCostDeliveryNormaPriceLevel' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РѕР±С‹С‡РЅРѕРјСѓ СѓСЂРѕРІРЅСЋ С†РµРЅ, СЃР»РѕР¶РёРІС€РёС…СЃСЏ РЅР° СЂС‹РЅРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СѓСЃР»СѓРі РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°
      * 
      * @param conformityCostDeliveryNormaPriceLevel
      */
@@ -96,7 +96,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'Account' element value. Какой по счету является партия товара,ввозимого по рассматриваемому контракту
+     * Get the 'Account' element value. РљР°РєРѕР№ РїРѕ СЃС‡РµС‚Сѓ СЏРІР»СЏРµС‚СЃСЏ РїР°СЂС‚РёСЏ С‚РѕРІР°СЂР°,РІРІРѕР·РёРјРѕРіРѕ РїРѕ СЂР°СЃСЃРјР°С‚СЂРёРІР°РµРјРѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'Account' element value. Какой по счету является партия товара,ввозимого по рассматриваемому контракту
+     * Set the 'Account' element value. РљР°РєРѕР№ РїРѕ СЃС‡РµС‚Сѓ СЏРІР»СЏРµС‚СЃСЏ РїР°СЂС‚РёСЏ С‚РѕРІР°СЂР°,РІРІРѕР·РёРјРѕРіРѕ РїРѕ СЂР°СЃСЃРјР°С‚СЂРёРІР°РµРјРѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param account
      */
@@ -114,7 +114,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'KindContract' element value. Вид договора
+     * Get the 'KindContract' element value. Р’РёРґ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'KindContract' element value. Вид договора
+     * Set the 'KindContract' element value. Р’РёРґ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param kindContract
      */
@@ -132,7 +132,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'TermsContract' element value. Условия контракта
+     * Get the 'TermsContract' element value. РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'TermsContract' element value. Условия контракта
+     * Set the 'TermsContract' element value. РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param termsContract
      */
@@ -150,7 +150,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'TermsDelivery' element value. Кем были предложены предусмотренные контрактом условия поставки.
+     * Get the 'TermsDelivery' element value. РљРµРј Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹Рµ РєРѕРЅС‚СЂР°РєС‚РѕРј СѓСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'TermsDelivery' element value. Кем были предложены предусмотренные контрактом условия поставки.
+     * Set the 'TermsDelivery' element value. РљРµРј Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹Рµ РєРѕРЅС‚СЂР°РєС‚РѕРј СѓСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @param termsDelivery
      */
@@ -168,7 +168,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'TransportRouteDelivery' element value. Кто осуществлял выбор вида транспорта и маршрута доставки
+     * Get the 'TransportRouteDelivery' element value. РљС‚Рѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏР» РІС‹Р±РѕСЂ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё РјР°СЂС€СЂСѓС‚Р° РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'TransportRouteDelivery' element value. Кто осуществлял выбор вида транспорта и маршрута доставки
+     * Set the 'TransportRouteDelivery' element value. РљС‚Рѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏР» РІС‹Р±РѕСЂ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё РјР°СЂС€СЂСѓС‚Р° РґРѕСЃС‚Р°РІРєРё
      * 
      * @param transportRouteDelivery
      */
@@ -186,7 +186,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'TransportInsurance' element value. Заключается ли договор транспортного страхования в отношении товаров, поставляемых по контракту
+     * Get the 'TransportInsurance' element value. Р—Р°РєР»СЋС‡Р°РµС‚СЃСЏ Р»Рё РґРѕРіРѕРІРѕСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, РїРѕСЃС‚Р°РІР»СЏРµРјС‹С… РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'TransportInsurance' element value. Заключается ли договор транспортного страхования в отношении товаров, поставляемых по контракту
+     * Set the 'TransportInsurance' element value. Р—Р°РєР»СЋС‡Р°РµС‚СЃСЏ Р»Рё РґРѕРіРѕРІРѕСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, РїРѕСЃС‚Р°РІР»СЏРµРјС‹С… РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param transportInsurance
      */
@@ -204,7 +204,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'CostDelivery' element value. Известна ли Покупателю стоимость доставки.
+     * Get the 'CostDelivery' element value. РР·РІРµСЃС‚РЅР° Р»Рё РџРѕРєСѓРїР°С‚РµР»СЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё.
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'CostDelivery' element value. Известна ли Покупателю стоимость доставки.
+     * Set the 'CostDelivery' element value. РР·РІРµСЃС‚РЅР° Р»Рё РџРѕРєСѓРїР°С‚РµР»СЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё.
      * 
      * @param costDelivery
      */
@@ -222,7 +222,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'PercentageDelivery' element value. Какую часть цены сделки составляет стоимость доставки
+     * Get the 'PercentageDelivery' element value. РљР°РєСѓСЋ С‡Р°СЃС‚СЊ С†РµРЅС‹ СЃРґРµР»РєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'PercentageDelivery' element value. Какую часть цены сделки составляет стоимость доставки
+     * Set the 'PercentageDelivery' element value. РљР°РєСѓСЋ С‡Р°СЃС‚СЊ С†РµРЅС‹ СЃРґРµР»РєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @param percentageDelivery
      */
@@ -240,7 +240,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'RiskLossDamage' element value. Когда осуществляется переход риска утраты/порчи товара на покупателя
+     * Get the 'RiskLossDamage' element value. РљРѕРіРґР° РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµС…РѕРґ СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -249,7 +249,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'RiskLossDamage' element value. Когда осуществляется переход риска утраты/порчи товара на покупателя
+     * Set the 'RiskLossDamage' element value. РљРѕРіРґР° РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµС…РѕРґ СЂРёСЃРєР° СѓС‚СЂР°С‚С‹/РїРѕСЂС‡Рё С‚РѕРІР°СЂР° РЅР° РїРѕРєСѓРїР°С‚РµР»СЏ
      * 
      * @param riskLossDamage
      */
@@ -258,7 +258,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'Property' element value. Переход права собственности от Продавца к Покупателю
+     * Get the 'Property' element value. РџРµСЂРµС…РѕРґ РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РџСЂРѕРґР°РІС†Р° Рє РџРѕРєСѓРїР°С‚РµР»СЋ
      * 
      * @return value
      */
@@ -267,7 +267,7 @@ public class InfoContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'Property' element value. Переход права собственности от Продавца к Покупателю
+     * Set the 'Property' element value. РџРµСЂРµС…РѕРґ РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РџСЂРѕРґР°РІС†Р° Рє РџРѕРєСѓРїР°С‚РµР»СЋ
      * 
      * @param property
      */

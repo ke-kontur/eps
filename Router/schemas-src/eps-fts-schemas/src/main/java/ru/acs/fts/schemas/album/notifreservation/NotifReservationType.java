@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о резервировании/о невозможности резервирования суммы обеспечения
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРё/Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class NotifReservationType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class NotifReservationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Дата и время формирования электронного документа
+     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Дата и время формирования электронного документа
+     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDateTime
      */
@@ -44,7 +44,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 0 - уведомление об успешном резервировании; 1 - уведомление о частичном резервировании; 2 - уведомление о невозможности резервирования
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± СѓСЃРїРµС€РЅРѕРј СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРё; 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРё; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 0 - уведомление об успешном резервировании; 1 - уведомление о частичном резервировании; 2 - уведомление о невозможности резервирования
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± СѓСЃРїРµС€РЅРѕРј СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРё; 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРё; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ
      * 
      * @param docSign
      */
@@ -62,7 +62,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReservedAmount' element value. Зарезервированная сумма обеспечения уплаты таможенных пошлин, налогов
+     * Get the 'ReservedAmount' element value. Р—Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅР°СЏ СЃСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReservedAmount' element value. Зарезервированная сумма обеспечения уплаты таможенных пошлин, налогов
+     * Set the 'ReservedAmount' element value. Р—Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅР°СЏ СЃСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @param reservedAmount
      */
@@ -80,7 +80,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequiredAmount' element value. Сумма обеспечения, которая не может быть зарезервирована из-за отсутствия неиспользованного (свободного) остатка
+     * Get the 'RequiredAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ, РєРѕС‚РѕСЂР°СЏ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅР° РёР·-Р·Р° РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РЅРµРёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРіРѕ (СЃРІРѕР±РѕРґРЅРѕРіРѕ) РѕСЃС‚Р°С‚РєР°
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequiredAmount' element value. Сумма обеспечения, которая не может быть зарезервирована из-за отсутствия неиспользованного (свободного) остатка
+     * Set the 'RequiredAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ, РєРѕС‚РѕСЂР°СЏ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅР° РёР·-Р·Р° РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РЅРµРёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРіРѕ (СЃРІРѕР±РѕРґРЅРѕРіРѕ) РѕСЃС‚Р°С‚РєР°
      * 
      * @param requiredAmount
      */
@@ -98,7 +98,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код валюты
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код валюты
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -116,7 +116,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comment' element items. Примечание
+     * Get the list of 'Comment' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comment' element items. Примечание
+     * Set the list of 'Comment' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param list
      */
@@ -134,7 +134,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -152,7 +152,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclRegNumber' element value. Регистрационный номер таможенной декларации
+     * Get the 'DeclRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclRegNumber' element value. Регистрационный номер таможенной декларации
+     * Set the 'DeclRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param declRegNumber
      */
@@ -170,7 +170,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -188,7 +188,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reasons' element items. Описание обстоятельств, послуживших причиной невозможности резервирования суммы обеспечения
+     * Get the list of 'Reasons' element items. РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РїРѕСЃР»СѓР¶РёРІС€РёС… РїСЂРёС‡РёРЅРѕР№ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reasons' element items. Описание обстоятельств, послуживших причиной невозможности резервирования суммы обеспечения
+     * Set the list of 'Reasons' element items. РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РїРѕСЃР»СѓР¶РёРІС€РёС… РїСЂРёС‡РёРЅРѕР№ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class NotifReservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

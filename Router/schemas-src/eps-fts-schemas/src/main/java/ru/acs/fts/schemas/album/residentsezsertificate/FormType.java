@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.residentsezsertificate;
 
 /** 
- * Серия и номер бланка
+ * РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
  */
 public class FormType
 {
@@ -10,7 +10,7 @@ public class FormType
     private String formNumber;
 
     /** 
-     * Get the 'FormSerial' element value. Серия бланка
+     * Get the 'FormSerial' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'FormSerial' element value. Серия бланка
+     * Set the 'FormSerial' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
      * 
      * @param formSerial
      */
@@ -28,7 +28,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'FormNumber' element value. Номер бланка
+     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'FormNumber' element value. Номер бланка
+     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @param formNumber
      */

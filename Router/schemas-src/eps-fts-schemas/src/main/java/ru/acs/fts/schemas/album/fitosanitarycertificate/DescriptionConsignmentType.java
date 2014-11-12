@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * Описание груза
+ * РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
  */
 public class DescriptionConsignmentType
 {
@@ -23,7 +23,7 @@ public class DescriptionConsignmentType
     private List<ExciseType> exciseList = new ArrayList<ExciseType>();
 
     /** 
-     * Get the 'OriginCountryName' element value. Место происхождения
+     * Get the 'OriginCountryName' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Место происхождения
+     * Set the 'OriginCountryName' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryName
      */
@@ -41,7 +41,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'TransMeans' element value. Заявленный способ транспортировки
+     * Get the 'TransMeans' element value. Р—Р°СЏРІР»РµРЅРЅС‹Р№ СЃРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'TransMeans' element value. Заявленный способ транспортировки
+     * Set the 'TransMeans' element value. Р—Р°СЏРІР»РµРЅРЅС‹Р№ СЃРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё
      * 
      * @param transMeans
      */
@@ -59,7 +59,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the list of 'GoodsName' element items. Наименование продукции
+     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -68,7 +68,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. Наименование продукции
+     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */
@@ -77,7 +77,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество продукции
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество продукции
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param goodsQuantity
      */
@@ -95,7 +95,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'PlantName' element value. Ботаническое название растений
+     * Get the 'PlantName' element value. Р‘РѕС‚Р°РЅРёС‡РµСЃРєРѕРµ РЅР°Р·РІР°РЅРёРµ СЂР°СЃС‚РµРЅРёР№
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'PlantName' element value. Ботаническое название растений
+     * Set the 'PlantName' element value. Р‘РѕС‚Р°РЅРёС‡РµСЃРєРѕРµ РЅР°Р·РІР°РЅРёРµ СЂР°СЃС‚РµРЅРёР№
      * 
      * @param plantName
      */
@@ -113,7 +113,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'DeclaredPoint' element value. Заявленный пункт ввоза
+     * Get the 'DeclaredPoint' element value. Р—Р°СЏРІР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚ РІРІРѕР·Р°
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'DeclaredPoint' element value. Заявленный пункт ввоза
+     * Set the 'DeclaredPoint' element value. Р—Р°СЏРІР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚ РІРІРѕР·Р°
      * 
      * @param declaredPoint
      */
@@ -131,7 +131,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. Наименование единицы измерения. 
+     * Get the 'MeasureUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ. 
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. Наименование единицы измерения. 
+     * Set the 'MeasureUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ. 
      * 
      * @param measureUnitQualifierName
      */
@@ -149,7 +149,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'Consignee' element value. Получатель
+     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'Consignee' element value. Получатель
+     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -167,7 +167,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'Exporter' element value. Отправитель
+     * Get the 'Exporter' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'Exporter' element value. Отправитель
+     * Set the 'Exporter' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param exporter
      */
@@ -185,7 +185,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'Packaging' element value. Сведения о количестве мест и описание упаковки
+     * Get the 'Packaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РјРµСЃС‚ Рё РѕРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'Packaging' element value. Сведения о количестве мест и описание упаковки
+     * Set the 'Packaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РјРµСЃС‚ Рё РѕРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё
      * 
      * @param packaging
      */
@@ -203,7 +203,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the list of 'Excise' element items. Отличительные знаки (маркировка)
+     * Get the list of 'Excise' element items. РћС‚Р»РёС‡РёС‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё (РјР°СЂРєРёСЂРѕРІРєР°)
      * 
      * @return list
      */
@@ -212,7 +212,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the list of 'Excise' element items. Отличительные знаки (маркировка)
+     * Set the list of 'Excise' element items. РћС‚Р»РёС‡РёС‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё (РјР°СЂРєРёСЂРѕРІРєР°)
      * 
      * @param list
      */

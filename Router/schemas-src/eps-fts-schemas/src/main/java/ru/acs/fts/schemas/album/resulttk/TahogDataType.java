@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.resulttk;
 
 /** 
- * Данные цифрового тахографа
+ * Р”Р°РЅРЅС‹Рµ С†РёС„СЂРѕРІРѕРіРѕ С‚Р°С…РѕРіСЂР°С„Р°
  */
 public class TahogDataType
 {
@@ -15,7 +15,7 @@ public class TahogDataType
     private String breakDuration;
 
     /** 
-     * Get the 'ApprovalDateTime' element value. Дата/время официального утверждения
+     * Get the 'ApprovalDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕС„РёС†РёР°Р»СЊРЅРѕРіРѕ СѓС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'ApprovalDateTime' element value. Дата/время официального утверждения
+     * Set the 'ApprovalDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕС„РёС†РёР°Р»СЊРЅРѕРіРѕ СѓС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param approvalDateTime
      */
@@ -33,7 +33,7 @@ public class TahogDataType
     }
 
     /** 
-     * Get the 'TahogInspectDateTime' element value. Дата/время последней инспекции
+     * Get the 'TahogInspectDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµР№ РёРЅСЃРїРµРєС†РёРё
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'TahogInspectDateTime' element value. Дата/время последней инспекции
+     * Set the 'TahogInspectDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµР№ РёРЅСЃРїРµРєС†РёРё
      * 
      * @param tahogInspectDateTime
      */
@@ -51,7 +51,7 @@ public class TahogDataType
     }
 
     /** 
-     * Get the 'DriveDuration' element value. Продолжительность управления ТС за предыдущий период
+     * Get the 'DriveDuration' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ СѓРїСЂР°РІР»РµРЅРёСЏ РўРЎ Р·Р° РїСЂРµРґС‹РґСѓС‰РёР№ РїРµСЂРёРѕРґ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'DriveDuration' element value. Продолжительность управления ТС за предыдущий период
+     * Set the 'DriveDuration' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ СѓРїСЂР°РІР»РµРЅРёСЏ РўРЎ Р·Р° РїСЂРµРґС‹РґСѓС‰РёР№ РїРµСЂРёРѕРґ
      * 
      * @param driveDuration
      */
@@ -69,7 +69,7 @@ public class TahogDataType
     }
 
     /** 
-     * Get the 'DriveDurationWeek' element value. Продолжительность управления ТС за предыдущую неделю
+     * Get the 'DriveDurationWeek' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ СѓРїСЂР°РІР»РµРЅРёСЏ РўРЎ Р·Р° РїСЂРµРґС‹РґСѓС‰СѓСЋ РЅРµРґРµР»СЋ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'DriveDurationWeek' element value. Продолжительность управления ТС за предыдущую неделю
+     * Set the 'DriveDurationWeek' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ СѓРїСЂР°РІР»РµРЅРёСЏ РўРЎ Р·Р° РїСЂРµРґС‹РґСѓС‰СѓСЋ РЅРµРґРµР»СЋ
      * 
      * @param driveDurationWeek
      */
@@ -87,7 +87,7 @@ public class TahogDataType
     }
 
     /** 
-     * Get the 'RestDuration' element value. Продолжительность отдыха за предыдущие сутки
+     * Get the 'RestDuration' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РѕС‚РґС‹С…Р° Р·Р° РїСЂРµРґС‹РґСѓС‰РёРµ СЃСѓС‚РєРё
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'RestDuration' element value. Продолжительность отдыха за предыдущие сутки
+     * Set the 'RestDuration' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РѕС‚РґС‹С…Р° Р·Р° РїСЂРµРґС‹РґСѓС‰РёРµ СЃСѓС‚РєРё
      * 
      * @param restDuration
      */
@@ -105,7 +105,7 @@ public class TahogDataType
     }
 
     /** 
-     * Get the 'RestDurationWeek' element value. Продолжительность отдыха за предыдущую неделю
+     * Get the 'RestDurationWeek' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РѕС‚РґС‹С…Р° Р·Р° РїСЂРµРґС‹РґСѓС‰СѓСЋ РЅРµРґРµР»СЋ
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'RestDurationWeek' element value. Продолжительность отдыха за предыдущую неделю
+     * Set the 'RestDurationWeek' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РѕС‚РґС‹С…Р° Р·Р° РїСЂРµРґС‹РґСѓС‰СѓСЋ РЅРµРґРµР»СЋ
      * 
      * @param restDurationWeek
      */
@@ -123,7 +123,7 @@ public class TahogDataType
     }
 
     /** 
-     * Get the 'BreakDuration' element value. Продолжительность перерывов в течение смены
+     * Get the 'BreakDuration' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РїРµСЂРµСЂС‹РІРѕРІ РІ С‚РµС‡РµРЅРёРµ СЃРјРµРЅС‹
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class TahogDataType
     }
 
     /** 
-     * Set the 'BreakDuration' element value. Продолжительность перерывов в течение смены
+     * Set the 'BreakDuration' element value. РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РїРµСЂРµСЂС‹РІРѕРІ РІ С‚РµС‡РµРЅРёРµ СЃРјРµРЅС‹
      * 
      * @param breakDuration
      */

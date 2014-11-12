@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Решение на выезд средства транспорта с территории ОЭЗ/Разрешение на вывоз товаров с территории ПОЭЗ
+ * Р РµС€РµРЅРёРµ РЅР° РІС‹РµР·Рґ СЃСЂРµРґСЃС‚РІР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—/Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РџРћР­Р—
  */
 public class OEZExportPassType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class OEZExportPassType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LimitDate' element value. Срок действия пропуска 
+     * Get the 'LimitDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РїСЂРѕРїСѓСЃРєР° 
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'LimitDate' element value. Срок действия пропуска 
+     * Set the 'LimitDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РїСЂРѕРїСѓСЃРєР° 
      * 
      * @param limitDate
      */
@@ -44,7 +44,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 0 - Решение на выезд средства транспорта с территории ОЭЗ; 1 - Разрешение на вывоз товаров с территории ПОЭЗ
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р РµС€РµРЅРёРµ РЅР° РІС‹РµР·Рґ СЃСЂРµРґСЃС‚РІР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—; 1 - Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РџРћР­Р—
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 0 - Решение на выезд средства транспорта с территории ОЭЗ; 1 - Разрешение на вывоз товаров с территории ПОЭЗ
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р РµС€РµРЅРёРµ РЅР° РІС‹РµР·Рґ СЃСЂРµРґСЃС‚РІР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—; 1 - Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РџРћР­Р—
      * 
      * @param docSign
      */
@@ -62,7 +62,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Регистрационный номер разрешения
+     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Регистрационный номер разрешения
+     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param registrationNumber
      */
@@ -80,7 +80,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Отправитель
+     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Отправитель
+     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param consignor
      */
@@ -98,7 +98,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportMeans' element value. Описания транспортного средства 
+     * Get the 'TransportMeans' element value. РћРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° 
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMeans' element value. Описания транспортного средства 
+     * Set the 'TransportMeans' element value. РћРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° 
      * 
      * @param transportMeans
      */
@@ -116,7 +116,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsList' element items. Перечень товаров
+     * Get the list of 'GoodsList' element items. РџРµСЂРµС‡РµРЅСЊ С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsList' element items. Перечень товаров
+     * Set the list of 'GoodsList' element items. РџРµСЂРµС‡РµРЅСЊ С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -134,7 +134,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentExp' element items. Документы на основание, которых разрешен выезд
+     * Get the list of 'DocumentExp' element items. Р”РѕРєСѓРјРµРЅС‚С‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРµ, РєРѕС‚РѕСЂС‹С… СЂР°Р·СЂРµС€РµРЅ РІС‹РµР·Рґ
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentExp' element items. Документы на основание, которых разрешен выезд
+     * Set the list of 'DocumentExp' element items. Р”РѕРєСѓРјРµРЅС‚С‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРµ, РєРѕС‚РѕСЂС‹С… СЂР°Р·СЂРµС€РµРЅ РІС‹РµР·Рґ
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -170,7 +170,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'Resident' element value. Резидент (ПОЭЗ)
+     * Get the 'Resident' element value. Р РµР·РёРґРµРЅС‚ (РџРћР­Р—)
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'Resident' element value. Резидент (ПОЭЗ)
+     * Set the 'Resident' element value. Р РµР·РёРґРµРЅС‚ (РџРћР­Р—)
      * 
      * @param resident
      */
@@ -188,7 +188,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class OEZExportPassType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

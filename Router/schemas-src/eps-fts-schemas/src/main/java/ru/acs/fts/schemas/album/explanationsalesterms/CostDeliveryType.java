@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Известна ли Покупателю стоимость доставки.
+ * РР·РІРµСЃС‚РЅР° Р»Рё РџРѕРєСѓРїР°С‚РµР»СЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё.
  */
 public class CostDeliveryType
 {
@@ -11,7 +11,7 @@ public class CostDeliveryType
     private DescriptionCostDeliveryType approximateCost;
 
     /** 
-     * Get the 'ExactAmount' element value. Известна точная стоимость доставки
+     * Get the 'ExactAmount' element value. РР·РІРµСЃС‚РЅР° С‚РѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CostDeliveryType
     }
 
     /** 
-     * Set the 'ExactAmount' element value. Известна точная стоимость доставки
+     * Set the 'ExactAmount' element value. РР·РІРµСЃС‚РЅР° С‚РѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @param exactAmount
      */
@@ -29,7 +29,7 @@ public class CostDeliveryType
     }
 
     /** 
-     * Get the 'NotKnown' element value. Не известна стоимость доставки
+     * Get the 'NotKnown' element value. РќРµ РёР·РІРµСЃС‚РЅР° СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CostDeliveryType
     }
 
     /** 
-     * Set the 'NotKnown' element value. Не известна стоимость доставки
+     * Set the 'NotKnown' element value. РќРµ РёР·РІРµСЃС‚РЅР° СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @param notKnown
      */
@@ -47,7 +47,7 @@ public class CostDeliveryType
     }
 
     /** 
-     * Get the 'ApproximateCost' element value. Известна примерная стоимость доставки
+     * Get the 'ApproximateCost' element value. РР·РІРµСЃС‚РЅР° РїСЂРёРјРµСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CostDeliveryType
     }
 
     /** 
-     * Set the 'ApproximateCost' element value. Известна примерная стоимость доставки
+     * Set the 'ApproximateCost' element value. РР·РІРµСЃС‚РЅР° РїСЂРёРјРµСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
      * 
      * @param approximateCost
      */

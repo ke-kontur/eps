@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.arrivalconfirmation;
 
 /** 
- * Номер книжки МДП
+ * РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
  */
 public class TIRIDType
 {
@@ -11,7 +11,7 @@ public class TIRIDType
     private String TIRPageNumber;
 
     /** 
-     * Get the 'TIRID' element value. Номер книжки МДП.
+     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TIRIDType
     }
 
     /** 
-     * Set the 'TIRID' element value. Номер книжки МДП.
+     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ.
      * 
      * @param TIRID
      */
@@ -29,7 +29,7 @@ public class TIRIDType
     }
 
     /** 
-     * Get the 'TIRSeries' element value. Серия книжки МДП.
+     * Get the 'TIRSeries' element value. РЎРµСЂРёСЏ РєРЅРёР¶РєРё РњР”Рџ.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TIRIDType
     }
 
     /** 
-     * Set the 'TIRSeries' element value. Серия книжки МДП.
+     * Set the 'TIRSeries' element value. РЎРµСЂРёСЏ РєРЅРёР¶РєРё РњР”Рџ.
      * 
      * @param TIRSeries
      */
@@ -47,7 +47,7 @@ public class TIRIDType
     }
 
     /** 
-     * Get the 'TIRPageNumber' element value. Номер листа книжки МДП.
+     * Get the 'TIRPageNumber' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TIRIDType
     }
 
     /** 
-     * Set the 'TIRPageNumber' element value. Номер листа книжки МДП.
+     * Set the 'TIRPageNumber' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ.
      * 
      * @param TIRPageNumber
      */

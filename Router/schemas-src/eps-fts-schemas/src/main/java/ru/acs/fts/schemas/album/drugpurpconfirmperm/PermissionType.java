@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.drugpurpconfirmperm;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Разрешение
+ * Р Р°Р·СЂРµС€РµРЅРёРµ
  */
 public class PermissionType extends DocumentBaseType
 {
     private String issuePeriod;
 
     /** 
-     * Get the 'IssuePeriod' element value. Период действия разрешения
+     * Get the 'IssuePeriod' element value. РџРµСЂРёРѕРґ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'IssuePeriod' element value. Период действия разрешения
+     * Set the 'IssuePeriod' element value. РџРµСЂРёРѕРґ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param issuePeriod
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Сведения о транспортном средстве и ТТН
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ Рё РўРўРќ
  */
 public class TransportWayBillInfoType
 {
@@ -14,7 +14,7 @@ public class TransportWayBillInfoType
     private List<TransportMeansBaseType> transportList = new ArrayList<TransportMeansBaseType>();
 
     /** 
-     * Get the 'WayBillNumber' element value. Номер транспортной накладной
+     * Get the 'WayBillNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportWayBillInfoType
     }
 
     /** 
-     * Set the 'WayBillNumber' element value. Номер транспортной накладной
+     * Set the 'WayBillNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param wayBillNumber
      */
@@ -32,7 +32,7 @@ public class TransportWayBillInfoType
     }
 
     /** 
-     * Get the list of 'Transport' element items. Транспортное средство
+     * Get the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class TransportWayBillInfoType
     }
 
     /** 
-     * Set the list of 'Transport' element items. Транспортное средство
+     * Set the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param list
      */

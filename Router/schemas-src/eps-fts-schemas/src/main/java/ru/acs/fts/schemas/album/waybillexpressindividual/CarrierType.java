@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.waybillexpressindividual;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Наименование и реквизиты перевозчика 
+ * РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё СЂРµРєРІРёР·РёС‚С‹ РїРµСЂРµРІРѕР·С‡РёРєР° 
  */
 public class CarrierType
 {
@@ -17,7 +17,7 @@ public class CarrierType
     private AddressType factAddress;
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование экспресс перевозчика 
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЌРєСЃРїСЂРµСЃСЃ РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование экспресс перевозчика 
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЌРєСЃРїСЂРµСЃСЃ РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @param organizationName
      */
@@ -35,7 +35,7 @@ public class CarrierType
     }
 
     /** 
-     * Get the 'CustomsBrokerCertificate' element value. № свидетельства о включении в Реестр таможенных представителей (брокеров)
+     * Get the 'CustomsBrokerCertificate' element value. в„– СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'CustomsBrokerCertificate' element value. № свидетельства о включении в Реестр таможенных представителей (брокеров)
+     * Set the 'CustomsBrokerCertificate' element value. в„– СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ)
      * 
      * @param customsBrokerCertificate
      */
@@ -53,7 +53,7 @@ public class CarrierType
     }
 
     /** 
-     * Get the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
+     * Get the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
+     * Set the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
      * 
      * @param INN
      */
@@ -71,7 +71,7 @@ public class CarrierType
     }
 
     /** 
-     * Get the 'OKPOID' element value. Код организации по ОКПО
+     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'OKPOID' element value. Код организации по ОКПО
+     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
      * 
      * @param OKPOID
      */
@@ -89,7 +89,7 @@ public class CarrierType
     }
 
     /** 
-     * Get the 'Note' element value. Дополнительные сведения 
+     * Get the 'Note' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ 
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'Note' element value. Дополнительные сведения 
+     * Set the 'Note' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ 
      * 
      * @param note
      */
@@ -107,7 +107,7 @@ public class CarrierType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Юридический адрес 
+     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ 
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Юридический адрес 
+     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ 
      * 
      * @param legalAddress
      */
@@ -125,7 +125,7 @@ public class CarrierType
     }
 
     /** 
-     * Get the 'FactAddress' element value. Фактический адрес
+     * Get the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class CarrierType
     }
 
     /** 
-     * Set the 'FactAddress' element value. Фактический адрес
+     * Set the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @param factAddress
      */

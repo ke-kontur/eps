@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Описание выявленных нарушений и несоответствий.
+ * РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
  */
 public class ViolationInfoType
 {
@@ -15,7 +15,7 @@ public class ViolationInfoType
     private List<DocumentBaseType> violationDocList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'ViolationText' element items. Описание выявленных нарушений и несоответствий.
+     * Get the list of 'ViolationText' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class ViolationInfoType
     }
 
     /** 
-     * Set the list of 'ViolationText' element items. Описание выявленных нарушений и несоответствий.
+     * Set the list of 'ViolationText' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class ViolationInfoType
     }
 
     /** 
-     * Get the 'LawArticle' element value. Статья ТК РФ, Номера нормативных актов и пунктов в них, нарушенных при заявлении сведений.
+     * Get the 'LawArticle' element value. РЎС‚Р°С‚СЊСЏ РўРљ Р Р¤, РќРѕРјРµСЂР° РЅРѕСЂРјР°С‚РёРІРЅС‹С… Р°РєС‚РѕРІ Рё РїСѓРЅРєС‚РѕРІ РІ РЅРёС…, РЅР°СЂСѓС€РµРЅРЅС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ViolationInfoType
     }
 
     /** 
-     * Set the 'LawArticle' element value. Статья ТК РФ, Номера нормативных актов и пунктов в них, нарушенных при заявлении сведений.
+     * Set the 'LawArticle' element value. РЎС‚Р°С‚СЊСЏ РўРљ Р Р¤, РќРѕРјРµСЂР° РЅРѕСЂРјР°С‚РёРІРЅС‹С… Р°РєС‚РѕРІ Рё РїСѓРЅРєС‚РѕРІ РІ РЅРёС…, РЅР°СЂСѓС€РµРЅРЅС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№.
      * 
      * @param lawArticle
      */
@@ -51,7 +51,7 @@ public class ViolationInfoType
     }
 
     /** 
-     * Get the list of 'ViolationDoc' element items. Документ, источник информации о выявленном нарушении. (протокол, акт досмотра и т.п.)
+     * Get the list of 'ViolationDoc' element items. Р”РѕРєСѓРјРµРЅС‚, РёСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё Рѕ РІС‹СЏРІР»РµРЅРЅРѕРј РЅР°СЂСѓС€РµРЅРёРё. (РїСЂРѕС‚РѕРєРѕР», Р°РєС‚ РґРѕСЃРјРѕС‚СЂР° Рё С‚.Рї.)
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class ViolationInfoType
     }
 
     /** 
-     * Set the list of 'ViolationDoc' element items. Документ, источник информации о выявленном нарушении. (протокол, акт досмотра и т.п.)
+     * Set the list of 'ViolationDoc' element items. Р”РѕРєСѓРјРµРЅС‚, РёСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё Рѕ РІС‹СЏРІР»РµРЅРЅРѕРј РЅР°СЂСѓС€РµРЅРёРё. (РїСЂРѕС‚РѕРєРѕР», Р°РєС‚ РґРѕСЃРјРѕС‚СЂР° Рё С‚.Рї.)
      * 
      * @param list
      */

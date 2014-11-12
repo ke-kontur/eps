@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.BaseDocType;
 
 /** 
- * Сведения о суммах денежных средств, подлежащих уплате по декларации на товары
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРјРјР°С… РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ, РїРѕРґР»РµР¶Р°С‰РёС… СѓРїР»Р°С‚Рµ РїРѕ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
  */
 public class CustPaymentType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class CustPaymentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProcessID' element value. Уникальный идентификатор процедуры ЭД (GUID)
+     * Get the 'ProcessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹ Р­Р” (GUID)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CustPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessID' element value. Уникальный идентификатор процедуры ЭД (GUID)
+     * Set the 'ProcessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹ Р­Р” (GUID)
      * 
      * @param processID
      */
@@ -33,7 +33,7 @@ public class CustPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Payment' element items. Сведения о платеже
+     * Get the list of 'Payment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class CustPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Payment' element items. Сведения о платеже
+     * Set the list of 'Payment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class CustPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CustPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

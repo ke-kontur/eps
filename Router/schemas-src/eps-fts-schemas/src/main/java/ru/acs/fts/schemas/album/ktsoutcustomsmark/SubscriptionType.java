@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Сведения о подписи/внесении служебной отметки
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРїРёСЃРё/РІРЅРµСЃРµРЅРёРё СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
  */
 public class SubscriptionType extends CustomsPersonType
 {
@@ -13,7 +13,7 @@ public class SubscriptionType extends CustomsPersonType
     private String markTime;
 
     /** 
-     * Get the 'MarkDate' element value. Дата подписи/ внесения служебной отметки
+     * Get the 'MarkDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃРё/ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class SubscriptionType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'MarkDate' element value. Дата подписи/ внесения служебной отметки
+     * Set the 'MarkDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃРё/ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @param markDate
      */
@@ -31,7 +31,7 @@ public class SubscriptionType extends CustomsPersonType
     }
 
     /** 
-     * Get the 'MarkTime' element value. Время подписи/ внесения служебной отметки
+     * Get the 'MarkTime' element value. Р’СЂРµРјСЏ РїРѕРґРїРёСЃРё/ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class SubscriptionType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'MarkTime' element value. Время подписи/ внесения служебной отметки
+     * Set the 'MarkTime' element value. Р’СЂРµРјСЏ РїРѕРґРїРёСЃРё/ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @param markTime
      */

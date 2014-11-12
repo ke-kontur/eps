@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.RiskProfileRegNumberType;
 
 /** 
- * Профиль риска
+ * РџСЂРѕС„РёР»СЊ СЂРёСЃРєР°
  */
 public class RiskProfileType extends RiskProfileRegNumberType
 {
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах и неформализованных индикаторах профиля риска, для которых выявлены соответствия
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… Рё РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂР°С… РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°, РґР»СЏ РєРѕС‚РѕСЂС‹С… РІС‹СЏРІР»РµРЅС‹ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class RiskProfileType extends RiskProfileRegNumberType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах и неформализованных индикаторах профиля риска, для которых выявлены соответствия
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… Рё РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂР°С… РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°, РґР»СЏ РєРѕС‚РѕСЂС‹С… РІС‹СЏРІР»РµРЅС‹ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
      * 
      * @param list
      */

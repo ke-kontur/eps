@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Описание и дополнительные характеристики товаров из спецификации к контракту
+ * РћРїРёСЃР°РЅРёРµ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
  */
 public class SpecificationGoodsExtendedType extends SpecificationGoodsType
 {
     private AdditionalGoodsDescriptionType additionalGoodsDescription;
 
     /** 
-     * Get the 'AdditionalGoodsDescription' element value. Дополнительные характеристики товаров
+     * Get the 'AdditionalGoodsDescription' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class SpecificationGoodsExtendedType extends SpecificationGoodsType
     }
 
     /** 
-     * Set the 'AdditionalGoodsDescription' element value. Дополнительные характеристики товаров
+     * Set the 'AdditionalGoodsDescription' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param additionalGoodsDescription
      */

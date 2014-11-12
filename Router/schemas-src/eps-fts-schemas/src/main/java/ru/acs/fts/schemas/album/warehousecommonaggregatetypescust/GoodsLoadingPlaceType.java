@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Местонахождение товаров
+ * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
  */
 public class GoodsLoadingPlaceType
 {
@@ -14,7 +14,7 @@ public class GoodsLoadingPlaceType
     private OtherLoadingPlaceType otherLoadingPlace;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, в зоне деятельности которого находятся товары
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsLoadingPlaceType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, в зоне деятельности которого находятся товары
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @param customsCode
      */
@@ -57,7 +57,7 @@ public class GoodsLoadingPlaceType
     }
 
     /** 
-     * Get the 'Warehouse' element value. Сведения о  СВХ на котором находятся товары
+     * Get the 'Warehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  РЎР’РҐ РЅР° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class GoodsLoadingPlaceType
     }
 
     /** 
-     * Set the 'Warehouse' element value. Сведения о  СВХ на котором находятся товары
+     * Set the 'Warehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  РЎР’РҐ РЅР° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @param warehouse
      */
@@ -85,7 +85,7 @@ public class GoodsLoadingPlaceType
     }
 
     /** 
-     * Get the 'OtherLoadingPlace' element value. Иное место нахождения товаров
+     * Get the 'OtherLoadingPlace' element value. РРЅРѕРµ РјРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class GoodsLoadingPlaceType
     }
 
     /** 
-     * Set the 'OtherLoadingPlace' element value. Иное место нахождения товаров
+     * Set the 'OtherLoadingPlace' element value. РРЅРѕРµ РјРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param otherLoadingPlace
      */

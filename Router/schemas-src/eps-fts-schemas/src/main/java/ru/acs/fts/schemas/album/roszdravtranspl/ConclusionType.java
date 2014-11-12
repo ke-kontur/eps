@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.DocumentType;
 
 /** 
- * Сведения о заключениях на ввоз костного мозга и гемопоэтических стволовых клеток с целью проведения неродственной трансплантации
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏС… РЅР° РІРІРѕР· РєРѕСЃС‚РЅРѕРіРѕ РјРѕР·РіР° Рё РіРµРјРѕРїРѕСЌС‚РёС‡РµСЃРєРёС… СЃС‚РІРѕР»РѕРІС‹С… РєР»РµС‚РѕРє СЃ С†РµР»СЊСЋ РїСЂРѕРІРµРґРµРЅРёСЏ РЅРµСЂРѕРґСЃС‚РІРµРЅРЅРѕР№ С‚СЂР°РЅСЃРїР»Р°РЅС‚Р°С†РёРё
  */
 public class ConclusionType
 {
@@ -21,7 +21,7 @@ public class ConclusionType
     private SupplementaryQuantityType quantityGoods;
 
     /** 
-     * Get the list of 'DescriptionGoods' element items. Описание товара
+     * Get the list of 'DescriptionGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the list of 'DescriptionGoods' element items. Описание товара
+     * Set the list of 'DescriptionGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class ConclusionType
     }
 
     /** 
-     * Get the 'Country' element value. Страна происхождения
+     * Get the 'Country' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the 'Country' element value. Страна происхождения
+     * Set the 'Country' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param country
      */
@@ -57,7 +57,7 @@ public class ConclusionType
     }
 
     /** 
-     * Get the 'ConclusionDescription' element value. Сведения о заключении
+     * Get the 'ConclusionDescription' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the 'ConclusionDescription' element value. Сведения о заключении
+     * Set the 'ConclusionDescription' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
      * 
      * @param conclusionDescription
      */
@@ -75,7 +75,7 @@ public class ConclusionType
     }
 
     /** 
-     * Get the 'Owner' element value. Сведения о держателе заключения
+     * Get the 'Owner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµСЂР¶Р°С‚РµР»Рµ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the 'Owner' element value. Сведения о держателе заключения
+     * Set the 'Owner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµСЂР¶Р°С‚РµР»Рµ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @param owner
      */
@@ -93,7 +93,7 @@ public class ConclusionType
     }
 
     /** 
-     * Get the 'Recipient' element value. Сведения о грузополучателе
+     * Get the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the 'Recipient' element value. Сведения о грузополучателе
+     * Set the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @param recipient
      */
@@ -111,7 +111,7 @@ public class ConclusionType
     }
 
     /** 
-     * Get the 'ContractDescription' element value. Описание договора
+     * Get the 'ContractDescription' element value. РћРїРёСЃР°РЅРёРµ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the 'ContractDescription' element value. Описание договора
+     * Set the 'ContractDescription' element value. РћРїРёСЃР°РЅРёРµ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param contractDescription
      */
@@ -129,7 +129,7 @@ public class ConclusionType
     }
 
     /** 
-     * Get the 'QuantityGoods' element value. Количество товара
+     * Get the 'QuantityGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ConclusionType
     }
 
     /** 
-     * Set the 'QuantityGoods' element value. Количество товара
+     * Set the 'QuantityGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param quantityGoods
      */

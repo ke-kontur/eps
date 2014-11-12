@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupInformationType;
 
 /** 
- * Перечень компонентов
+ * РџРµСЂРµС‡РµРЅСЊ РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
  */
 public class ComponentType
 {
@@ -19,7 +19,7 @@ public class ComponentType
     private CustomsType customsExport;
 
     /** 
-     * Get the 'NumberComponent' element value. Номер компонента/Номер части компонента
+     * Get the 'NumberComponent' element value. РќРѕРјРµСЂ РєРѕРјРїРѕРЅРµРЅС‚Р°/РќРѕРјРµСЂ С‡Р°СЃС‚Рё РєРѕРјРїРѕРЅРµРЅС‚Р°
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ComponentType
     }
 
     /** 
-     * Set the 'NumberComponent' element value. Номер компонента/Номер части компонента
+     * Set the 'NumberComponent' element value. РќРѕРјРµСЂ РєРѕРјРїРѕРЅРµРЅС‚Р°/РќРѕРјРµСЂ С‡Р°СЃС‚Рё РєРѕРјРїРѕРЅРµРЅС‚Р°
      * 
      * @param numberComponent
      */
@@ -37,7 +37,7 @@ public class ComponentType
     }
 
     /** 
-     * Get the list of 'NameComponent' element items. Наименование компонента
+     * Get the list of 'NameComponent' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚Р°
      * 
      * @return list
      */
@@ -46,7 +46,7 @@ public class ComponentType
     }
 
     /** 
-     * Set the list of 'NameComponent' element items. Наименование компонента
+     * Set the list of 'NameComponent' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚Р°
      * 
      * @param list
      */
@@ -55,7 +55,7 @@ public class ComponentType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. Классификационный код по ТН ВЭД ТС
+     * Get the 'TNVEDCode' element value. РљР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ComponentType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. Классификационный код по ТН ВЭД ТС
+     * Set the 'TNVEDCode' element value. РљР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVEDCode
      */
@@ -73,7 +73,7 @@ public class ComponentType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес нетто компонента, кг
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ РЅРµС‚С‚Рѕ РєРѕРјРїРѕРЅРµРЅС‚Р°, РєРі
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ComponentType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес нетто компонента, кг
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ РЅРµС‚С‚Рѕ РєРѕРјРїРѕРЅРµРЅС‚Р°, РєРі
      * 
      * @param netWeightQuantity
      */
@@ -91,7 +91,7 @@ public class ComponentType
     }
 
     /** 
-     * Get the 'GoodsInformation' element value. Характеристики товаров
+     * Get the 'GoodsInformation' element value. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ComponentType
     }
 
     /** 
-     * Set the 'GoodsInformation' element value. Характеристики товаров
+     * Set the 'GoodsInformation' element value. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsInformation
      */
@@ -109,7 +109,7 @@ public class ComponentType
     }
 
     /** 
-     * Get the 'CustomsExport' element value. Таможенный орган вывоза
+     * Get the 'CustomsExport' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ComponentType
     }
 
     /** 
-     * Set the 'CustomsExport' element value. Таможенный орган вывоза
+     * Set the 'CustomsExport' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІС‹РІРѕР·Р°
      * 
      * @param customsExport
      */

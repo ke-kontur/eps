@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Список сработавших оперативных ориентировок
+ * РЎРїРёСЃРѕРє СЃСЂР°Р±РѕС‚Р°РІС€РёС… РѕРїРµСЂР°С‚РёРІРЅС‹С… РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє
  */
 public class DirectionsListType
 {
@@ -15,7 +15,7 @@ public class DirectionsListType
     private ContactInfoType contactInfo;
 
     /** 
-     * Get the 'DirectionKind' element value. Код типа оперативной ориентировки: 1 - информационная, 2- скрытая, 3 -блокирующая
+     * Get the 'DirectionKind' element value. РљРѕРґ С‚РёРїР° РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё: 1 - РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅР°СЏ, 2- СЃРєСЂС‹С‚Р°СЏ, 3 -Р±Р»РѕРєРёСЂСѓСЋС‰Р°СЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Set the 'DirectionKind' element value. Код типа оперативной ориентировки: 1 - информационная, 2- скрытая, 3 -блокирующая
+     * Set the 'DirectionKind' element value. РљРѕРґ С‚РёРїР° РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё: 1 - РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅР°СЏ, 2- СЃРєСЂС‹С‚Р°СЏ, 3 -Р±Р»РѕРєРёСЂСѓСЋС‰Р°СЏ
      * 
      * @param directionKind
      */
@@ -33,7 +33,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Get the list of 'InformationText' element items. Информационное сообщение для должностного лица пункта пропуска
+     * Get the list of 'InformationText' element items. РРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ РґР»СЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Set the list of 'InformationText' element items. Информационное сообщение для должностного лица пункта пропуска
+     * Set the list of 'InformationText' element items. РРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ РґР»СЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Get the 'DirectionRegNumber' element value. Регистрационный номер оперативной ориентировки
+     * Get the 'DirectionRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Set the 'DirectionRegNumber' element value. Регистрационный номер оперативной ориентировки
+     * Set the 'DirectionRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
      * 
      * @param directionRegNumber
      */
@@ -69,7 +69,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Get the 'ContactInfo' element value. Информация о владельце оперативной ориентировки
+     * Get the 'ContactInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class DirectionsListType
     }
 
     /** 
-     * Set the 'ContactInfo' element value. Информация о владельце оперативной ориентировки
+     * Set the 'ContactInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
      * 
      * @param contactInfo
      */

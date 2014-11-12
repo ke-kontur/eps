@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.realestateresponse;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документы - основания регистрации права
+ * Р”РѕРєСѓРјРµРЅС‚С‹ - РѕСЃРЅРѕРІР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂР°РІР°
  */
 public class FoundationDocType extends DocumentBaseType
 {
@@ -13,7 +13,7 @@ public class FoundationDocType extends DocumentBaseType
     private String organizationName;
 
     /** 
-     * Get the 'DocType' element value. Тип документа
+     * Get the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocType' element value. Тип документа
+     * Set the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docType
      */
@@ -31,7 +31,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocSeries' element value. Серия документа
+     * Get the 'DocSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocSeries' element value. Серия документа
+     * Set the 'DocSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docSeries
      */
@@ -49,7 +49,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование организации, выдавшей документ
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование организации, выдавшей документ
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param organizationName
      */

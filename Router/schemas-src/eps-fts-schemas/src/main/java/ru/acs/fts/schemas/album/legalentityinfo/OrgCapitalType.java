@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о размере указанного в учредительных документах коммерческой организации уставного капитала (складочного капитала, уставного фонда, паевого фонда)
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·РјРµСЂРµ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РІ СѓС‡СЂРµРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… РєРѕРјРјРµСЂС‡РµСЃРєРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° (СЃРєР»Р°РґРѕС‡РЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°, СѓСЃС‚Р°РІРЅРѕРіРѕ С„РѕРЅРґР°, РїР°РµРІРѕРіРѕ С„РѕРЅРґР°)
  */
 public class OrgCapitalType
 {
@@ -16,7 +16,7 @@ public class OrgCapitalType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'OrgCapitalAmount' element value. Размер уставного капитала / Величина, на которую уменьшается уставный капитал
+     * Get the 'OrgCapitalAmount' element value. Р Р°Р·РјРµСЂ СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° / Р’РµР»РёС‡РёРЅР°, РЅР° РєРѕС‚РѕСЂСѓСЋ СѓРјРµРЅСЊС€Р°РµС‚СЃСЏ СѓСЃС‚Р°РІРЅС‹Р№ РєР°РїРёС‚Р°Р»
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Set the 'OrgCapitalAmount' element value. Размер уставного капитала / Величина, на которую уменьшается уставный капитал
+     * Set the 'OrgCapitalAmount' element value. Р Р°Р·РјРµСЂ СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° / Р’РµР»РёС‡РёРЅР°, РЅР° РєРѕС‚РѕСЂСѓСЋ СѓРјРµРЅСЊС€Р°РµС‚СЃСЏ СѓСЃС‚Р°РІРЅС‹Р№ РєР°РїРёС‚Р°Р»
      * 
      * @param orgCapitalAmount
      */
@@ -34,7 +34,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Get the 'OrgCapitalName' element value. Наименование вида капитала
+     * Get the 'OrgCapitalName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІРёРґР° РєР°РїРёС‚Р°Р»Р°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Set the 'OrgCapitalName' element value. Наименование вида капитала
+     * Set the 'OrgCapitalName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІРёРґР° РєР°РїРёС‚Р°Р»Р°
      * 
      * @param orgCapitalName
      */
@@ -52,7 +52,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Get the 'ReduceWay' element value. Способ уменьшения уставного капитала общества: 0 - путем уменьшения номинальной стоимости акций; 1 - путем сокращения общего количества акций
+     * Get the 'ReduceWay' element value. РЎРїРѕСЃРѕР± СѓРјРµРЅСЊС€РµРЅРёСЏ СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° РѕР±С‰РµСЃС‚РІР°: 0 - РїСѓС‚РµРј СѓРјРµРЅСЊС€РµРЅРёСЏ РЅРѕРјРёРЅР°Р»СЊРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Р°РєС†РёР№; 1 - РїСѓС‚РµРј СЃРѕРєСЂР°С‰РµРЅРёСЏ РѕР±С‰РµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° Р°РєС†РёР№
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Set the 'ReduceWay' element value. Способ уменьшения уставного капитала общества: 0 - путем уменьшения номинальной стоимости акций; 1 - путем сокращения общего количества акций
+     * Set the 'ReduceWay' element value. РЎРїРѕСЃРѕР± СѓРјРµРЅСЊС€РµРЅРёСЏ СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° РѕР±С‰РµСЃС‚РІР°: 0 - РїСѓС‚РµРј СѓРјРµРЅСЊС€РµРЅРёСЏ РЅРѕРјРёРЅР°Р»СЊРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Р°РєС†РёР№; 1 - РїСѓС‚РµРј СЃРѕРєСЂР°С‰РµРЅРёСЏ РѕР±С‰РµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° Р°РєС†РёР№
      * 
      * @param reduceWay
      */
@@ -70,7 +70,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -88,7 +88,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Get the 'DecisionDate' element value. Дата принятия решения об уменьшении уставного капитала
+     * Get the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РѕР± СѓРјРµРЅСЊС€РµРЅРёРё СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Дата принятия решения об уменьшении уставного капитала
+     * Set the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РѕР± СѓРјРµРЅСЊС€РµРЅРёРё СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°
      * 
      * @param decisionDate
      */
@@ -106,7 +106,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class OrgCapitalType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */

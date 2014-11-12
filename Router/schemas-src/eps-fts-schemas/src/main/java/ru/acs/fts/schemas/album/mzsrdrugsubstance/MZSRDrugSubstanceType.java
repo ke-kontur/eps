@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mzsrdrugsubstance;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения из государственного реестра лекарственных средств
+ * РЎРІРµРґРµРЅРёСЏ РёР· РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
  */
 public class MZSRDrugSubstanceType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -36,7 +36,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 0 - предоставление данных для лекарственного препарата; 1 - предоставление данных для субстанции
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґР°РЅРЅС‹С… РґР»СЏ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°; 1 - РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґР°РЅРЅС‹С… РґР»СЏ СЃСѓР±СЃС‚Р°РЅС†РёРё
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 0 - предоставление данных для лекарственного препарата; 1 - предоставление данных для субстанции
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґР°РЅРЅС‹С… РґР»СЏ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°; 1 - РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґР°РЅРЅС‹С… РґР»СЏ СЃСѓР±СЃС‚Р°РЅС†РёРё
      * 
      * @param docSign
      */
@@ -79,7 +79,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Drugs' element value. В отношении лекарственных препаратов
+     * Get the 'Drugs' element value. Р’ РѕС‚РЅРѕС€РµРЅРёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… РїСЂРµРїР°СЂР°С‚РѕРІ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Drugs' element value. В отношении лекарственных препаратов
+     * Set the 'Drugs' element value. Р’ РѕС‚РЅРѕС€РµРЅРёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… РїСЂРµРїР°СЂР°С‚РѕРІ
      * 
      * @param drugs
      */
@@ -107,7 +107,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Substance' element value. В отношении фармацевтических субстанций
+     * Get the 'Substance' element value. Р’ РѕС‚РЅРѕС€РµРЅРёРё С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРёС… СЃСѓР±СЃС‚Р°РЅС†РёР№
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Substance' element value. В отношении фармацевтических субстанций
+     * Set the 'Substance' element value. Р’ РѕС‚РЅРѕС€РµРЅРёРё С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРёС… СЃСѓР±СЃС‚Р°РЅС†РёР№
      * 
      * @param substance
      */
@@ -126,7 +126,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class MZSRDrugSubstanceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

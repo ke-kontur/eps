@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * Сведения о перевозке товаров. Гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29  -ДТ/ Гр. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- ТД
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29  -Р”Рў/ Р“СЂ. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- РўР”
  */
 public class CUConsigmentType
 {
@@ -20,7 +20,7 @@ public class CUConsigmentType
     private List<CUCustomsType> borderCustomsOfficeList = new ArrayList<CUCustomsType>();
 
     /** 
-     * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок. Гр.19 
+     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє. Р“СЂ.19 
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок. Гр.19 
+     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє. Р“СЂ.19 
      * 
      * @param containerIndicator
      */
@@ -38,7 +38,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по  классификатору стран мира .гр 15, подраздел a 
+     * Get the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° .РіСЂ 15, РїРѕРґСЂР°Р·РґРµР» a 
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по  классификатору стран мира .гр 15, подраздел a 
+     * Set the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° .РіСЂ 15, РїРѕРґСЂР°Р·РґРµР» a 
      * 
      * @param dispatchCountryCode
      */
@@ -56,7 +56,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the 'RBDispatchCountryCode' element value. Код административно-территориального деления страны отправления в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.15,  подраздел b
+     * Get the 'RBDispatchCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.15,  РїРѕРґСЂР°Р·РґРµР» b
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'RBDispatchCountryCode' element value. Код административно-территориального деления страны отправления в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.15,  подраздел b
+     * Set the 'RBDispatchCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.15,  РїРѕРґСЂР°Р·РґРµР» b
      * 
      * @param RBDispatchCountryCode
      */
@@ -74,7 +74,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the 'DispatchCountryName' element value. Страна отправления. Краткое название Гр.15
+     * Get the 'DispatchCountryName' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ Р“СЂ.15
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'DispatchCountryName' element value. Страна отправления. Краткое название Гр.15
+     * Set the 'DispatchCountryName' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ Р“СЂ.15
      * 
      * @param dispatchCountryName
      */
@@ -92,7 +92,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по классификатору стран мира / 00 (неизвестна). Гр 17, подраздел a
+     * Get the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°). Р“СЂ 17, РїРѕРґСЂР°Р·РґРµР» a
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по классификатору стран мира / 00 (неизвестна). Гр 17, подраздел a
+     * Set the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°). Р“СЂ 17, РїРѕРґСЂР°Р·РґРµР» a
      * 
      * @param destinationCountryCode
      */
@@ -110,7 +110,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the 'DestinationCountryName' element value. Страна назначения. Гр.17 Название/ НЕИЗВЕСТНА
+     * Get the 'DestinationCountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р“СЂ.17 РќР°Р·РІР°РЅРёРµ/ РќР•РР—Р’Р•РЎРўРќРђ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'DestinationCountryName' element value. Страна назначения. Гр.17 Название/ НЕИЗВЕСТНА
+     * Set the 'DestinationCountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р“СЂ.17 РќР°Р·РІР°РЅРёРµ/ РќР•РР—Р’Р•РЎРўРќРђ
      * 
      * @param destinationCountryName
      */
@@ -128,7 +128,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the 'RBDestinationCountryCode' element value. Код административно-территориального деления страны назначения в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.17,  подраздел b
+     * Get the 'RBDestinationCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.17,  РїРѕРґСЂР°Р·РґРµР» b
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the 'RBDestinationCountryCode' element value. Код административно-территориального деления страны назначения в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.17,  подраздел b
+     * Set the 'RBDestinationCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.17,  РїРѕРґСЂР°Р·РґРµР» b
      * 
      * @param RBDestinationCountryCode
      */
@@ -146,7 +146,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Get the list of 'BorderCustomsOffice' element items. Таможенный орган въезда/выезда. Гр.29
+     * Get the list of 'BorderCustomsOffice' element items. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІСЉРµР·РґР°/РІС‹РµР·РґР°. Р“СЂ.29
      * 
      * @return list
      */
@@ -155,7 +155,7 @@ public class CUConsigmentType
     }
 
     /** 
-     * Set the list of 'BorderCustomsOffice' element items. Таможенный орган въезда/выезда. Гр.29
+     * Set the list of 'BorderCustomsOffice' element items. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІСЉРµР·РґР°/РІС‹РµР·РґР°. Р“СЂ.29
      * 
      * @param list
      */

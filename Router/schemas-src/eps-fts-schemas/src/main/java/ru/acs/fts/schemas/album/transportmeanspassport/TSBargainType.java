@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.TransportOwnerType;
 
 /** 
- * Сведения о сделках с транспортным средством
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С… СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рј СЃСЂРµРґСЃС‚РІРѕРј
  */
 public class TSBargainType
 {
@@ -20,7 +20,7 @@ public class TSBargainType
     private GIBDDRegistrationType GIBDDRegistration;
 
     /** 
-     * Get the 'SellingDate' element value. Дата продажи
+     * Get the 'SellingDate' element value. Р”Р°С‚Р° РїСЂРѕРґР°Р¶Рё
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'SellingDate' element value. Дата продажи
+     * Set the 'SellingDate' element value. Р”Р°С‚Р° РїСЂРѕРґР°Р¶Рё
      * 
      * @param sellingDate
      */
@@ -38,7 +38,7 @@ public class TSBargainType
     }
 
     /** 
-     * Get the 'SpecialMark' element value. Особые отметки
+     * Get the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'SpecialMark' element value. Особые отметки
+     * Set the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @param specialMark
      */
@@ -56,7 +56,7 @@ public class TSBargainType
     }
 
     /** 
-     * Get the 'DocPropertyRights' element value. Документы на право собственности
+     * Get the 'DocPropertyRights' element value. Р”РѕРєСѓРјРµРЅС‚С‹ РЅР° РїСЂР°РІРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'DocPropertyRights' element value. Документы на право собственности
+     * Set the 'DocPropertyRights' element value. Р”РѕРєСѓРјРµРЅС‚С‹ РЅР° РїСЂР°РІРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @param docPropertyRights
      */
@@ -74,7 +74,7 @@ public class TSBargainType
     }
 
     /** 
-     * Get the 'NewTransportOwner' element value. Сведения о новом собственнике ТС
+     * Get the 'NewTransportOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ РўРЎ
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'NewTransportOwner' element value. Сведения о новом собственнике ТС
+     * Set the 'NewTransportOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ РўРЎ
      * 
      * @param newTransportOwner
      */
@@ -92,7 +92,7 @@ public class TSBargainType
     }
 
     /** 
-     * Get the 'PrevOwnerSign' element value. Подпись прежнего собственника
+     * Get the 'PrevOwnerSign' element value. РџРѕРґРїРёСЃСЊ РїСЂРµР¶РЅРµРіРѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'PrevOwnerSign' element value. Подпись прежнего собственника
+     * Set the 'PrevOwnerSign' element value. РџРѕРґРїРёСЃСЊ РїСЂРµР¶РЅРµРіРѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
      * 
      * @param prevOwnerSign
      */
@@ -110,7 +110,7 @@ public class TSBargainType
     }
 
     /** 
-     * Get the 'NewOwnerSign' element value. Подпись настоящего собственника
+     * Get the 'NewOwnerSign' element value. РџРѕРґРїРёСЃСЊ РЅР°СЃС‚РѕСЏС‰РµРіРѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'NewOwnerSign' element value. Подпись настоящего собственника
+     * Set the 'NewOwnerSign' element value. РџРѕРґРїРёСЃСЊ РЅР°СЃС‚РѕСЏС‰РµРіРѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
      * 
      * @param newOwnerSign
      */
@@ -128,7 +128,7 @@ public class TSBargainType
     }
 
     /** 
-     * Get the 'GIBDDRegistration' element value. Сведения об учете ТС в ГИБДД
+     * Get the 'GIBDDRegistration' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РўРЎ РІ Р“РР‘Р”Р”
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class TSBargainType
     }
 
     /** 
-     * Set the 'GIBDDRegistration' element value. Сведения об учете ТС в ГИБДД
+     * Set the 'GIBDDRegistration' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РўРЎ РІ Р“РР‘Р”Р”
      * 
      * @param GIBDDRegistration
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление об изменении ДТ
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёР·РјРµРЅРµРЅРёРё Р”Рў
  */
 public class ChangeDeclNotifType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class ChangeDeclNotifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ChangeDeclType' element value. Характер внесенных изменений
+     * Get the 'ChangeDeclType' element value. РҐР°СЂР°РєС‚РµСЂ РІРЅРµСЃРµРЅРЅС‹С… РёР·РјРµРЅРµРЅРёР№
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChangeDeclType' element value. Характер внесенных изменений
+     * Set the 'ChangeDeclType' element value. РҐР°СЂР°РєС‚РµСЂ РІРЅРµСЃРµРЅРЅС‹С… РёР·РјРµРЅРµРЅРёР№
      * 
      * @param changeDeclType
      */
@@ -33,7 +33,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTID' element value. Регистрационный номер ДТ.
+     * Get the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTID' element value. Регистрационный номер ДТ.
+     * Set the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param DTID
      */
@@ -51,7 +51,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'NewDTID' element value. Исправленный регистрационный номер ДТ.
+     * Get the 'NewDTID' element value. РСЃРїСЂР°РІР»РµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'NewDTID' element value. Исправленный регистрационный номер ДТ.
+     * Set the 'NewDTID' element value. РСЃРїСЂР°РІР»РµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param newDTID
      */
@@ -69,7 +69,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ChangeDeclNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

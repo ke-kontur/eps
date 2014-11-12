@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.CWDocType;
 
 /** 
- * Запрос на получение новых документов
+ * Р—Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РЅРѕРІС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
  */
 public class CWQueryType extends CWDocType
 {
@@ -14,7 +14,7 @@ public class CWQueryType extends CWDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Document' element items. Информация о запрашиваемых документах 
+     * Get the list of 'Document' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… 
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class CWQueryType extends CWDocType
     }
 
     /** 
-     * Set the list of 'Document' element items. Информация о запрашиваемых документах 
+     * Set the list of 'Document' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… 
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class CWQueryType extends CWDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CWQueryType extends CWDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Неквотируемые документы
+ * РќРµРєРІРѕС‚РёСЂСѓРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class NotQuotaType
 {
@@ -15,7 +15,7 @@ public class NotQuotaType
     private StructuredTextType receiverName;
 
     /** 
-     * Get the 'FormNumber' element value. Номер бланка
+     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Set the 'FormNumber' element value. Номер бланка
+     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @param formNumber
      */
@@ -33,7 +33,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Get the list of 'GoodsName' element items. Наименование продукции
+     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. Наименование продукции
+     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Get the 'ManufacturerName' element value. Наименование фирмы изготовителя
+     * Get the 'ManufacturerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёСЂРјС‹ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Set the 'ManufacturerName' element value. Наименование фирмы изготовителя
+     * Set the 'ManufacturerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёСЂРјС‹ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ
      * 
      * @param manufacturerName
      */
@@ -69,7 +69,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Get the 'ReceiverName' element value. Наименование фирмы получателя
+     * Get the 'ReceiverName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёСЂРјС‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class NotQuotaType
     }
 
     /** 
-     * Set the 'ReceiverName' element value. Наименование фирмы получателя
+     * Set the 'ReceiverName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёСЂРјС‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param receiverName
      */

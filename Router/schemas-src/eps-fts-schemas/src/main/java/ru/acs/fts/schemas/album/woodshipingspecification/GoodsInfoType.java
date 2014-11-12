@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsInfoType
 {
@@ -21,7 +21,7 @@ public class GoodsInfoType
     private List<LenghtInfoType> lengthList = new ArrayList<LenghtInfoType>();
 
     /** 
-     * Get the 'PackNum' element value. Номер пакета
+     * Get the 'PackNum' element value. РќРѕРјРµСЂ РїР°РєРµС‚Р°
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'PackNum' element value. Номер пакета
+     * Set the 'PackNum' element value. РќРѕРјРµСЂ РїР°РєРµС‚Р°
      * 
      * @param packNum
      */
@@ -39,7 +39,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Species' element value. Порода
+     * Get the 'Species' element value. РџРѕСЂРѕРґР°
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Species' element value. Порода
+     * Set the 'Species' element value. РџРѕСЂРѕРґР°
      * 
      * @param species
      */
@@ -57,7 +57,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Grade' element value. Сорт
+     * Get the 'Grade' element value. РЎРѕСЂС‚
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Grade' element value. Сорт
+     * Set the 'Grade' element value. РЎРѕСЂС‚
      * 
      * @param grade
      */
@@ -75,7 +75,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Depth' element value. Толщина
+     * Get the 'Depth' element value. РўРѕР»С‰РёРЅР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Depth' element value. Толщина
+     * Set the 'Depth' element value. РўРѕР»С‰РёРЅР°
      * 
      * @param depth
      */
@@ -93,7 +93,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Width' element value. Ширина
+     * Get the 'Width' element value. РЁРёСЂРёРЅР°
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Width' element value. Ширина
+     * Set the 'Width' element value. РЁРёСЂРёРЅР°
      * 
      * @param width
      */
@@ -111,7 +111,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество в натуральных единицах (шт.)
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… (С€С‚.)
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество в натуральных единицах (шт.)
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… (С€С‚.)
      * 
      * @param quantity
      */
@@ -129,7 +129,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'Volume' element value. Объем в куб. метрах
+     * Get the 'Volume' element value. РћР±СЉРµРј РІ РєСѓР±. РјРµС‚СЂР°С…
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Volume' element value. Объем в куб. метрах
+     * Set the 'Volume' element value. РћР±СЉРµРј РІ РєСѓР±. РјРµС‚СЂР°С…
      * 
      * @param volume
      */
@@ -147,7 +147,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'Requisites' element items. Реквизиты
+     * Get the list of 'Requisites' element items. Р РµРєРІРёР·РёС‚С‹
      * 
      * @return list
      */
@@ -156,7 +156,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'Requisites' element items. Реквизиты
+     * Set the list of 'Requisites' element items. Р РµРєРІРёР·РёС‚С‹
      * 
      * @param list
      */
@@ -165,7 +165,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'Details' element items. Дополнительные сведения о распределении по сортам, под длинам
+     * Get the list of 'Details' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРё РїРѕ СЃРѕСЂС‚Р°Рј, РїРѕРґ РґР»РёРЅР°Рј
      * 
      * @return list
      */
@@ -174,7 +174,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'Details' element items. Дополнительные сведения о распределении по сортам, под длинам
+     * Set the list of 'Details' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРё РїРѕ СЃРѕСЂС‚Р°Рј, РїРѕРґ РґР»РёРЅР°Рј
      * 
      * @param list
      */
@@ -183,7 +183,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'Length' element items. Длина
+     * Get the list of 'Length' element items. Р”Р»РёРЅР°
      * 
      * @return list
      */
@@ -192,7 +192,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'Length' element items. Длина
+     * Set the list of 'Length' element items. Р”Р»РёРЅР°
      * 
      * @param list
      */

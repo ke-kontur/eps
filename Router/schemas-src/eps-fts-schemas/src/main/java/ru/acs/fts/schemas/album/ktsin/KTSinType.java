@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonT
 import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSPaymentsReCalcType;
 
 /** 
- * Корректировка таможенной стоимости и таможенных платежей. Внутренний формат
+ * РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚
  */
 public class KTSinType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class KTSinType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении КТС отдельно от ДТ.
+     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РљРўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении КТС отдельно от ДТ.
+     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РљРўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @param GTDDocumentID
      */
@@ -52,7 +52,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTSPresentDate' element value. Дата представления документов декларантом, срок корректировки.
+     * Get the 'KTSPresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚РѕРј, СЃСЂРѕРє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTSPresentDate' element value. Дата представления документов декларантом, срок корректировки.
+     * Set the 'KTSPresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚РѕРј, СЃСЂРѕРє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё.
      * 
      * @param KTSPresentDate
      */
@@ -70,7 +70,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionCode' element value. Код решения об аннулировании или отзыве КТС
+     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РёР»Рё РѕС‚Р·С‹РІРµ РљРўРЎ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. Код решения об аннулировании или отзыве КТС
+     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РёР»Рё РѕС‚Р·С‹РІРµ РљРўРЎ
      * 
      * @param decisionCode
      */
@@ -88,7 +88,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeadLineDate' element value. Дата истечения срока предоставления дополнительных документов и сведений в соответствии с запросом таможенного органа.
+     * Get the 'DeadLineDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р·Р°РїСЂРѕСЃРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeadLineDate' element value. Дата истечения срока предоставления дополнительных документов и сведений в соответствии с запросом таможенного органа.
+     * Set the 'DeadLineDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р·Р°РїСЂРѕСЃРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
      * 
      * @param deadLineDate
      */
@@ -106,7 +106,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTSNumber' element value. Номер КТС по порядку
+     * Get the 'KTSNumber' element value. РќРѕРјРµСЂ РљРўРЎ РїРѕ РїРѕСЂСЏРґРєСѓ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTSNumber' element value. Номер КТС по порядку
+     * Set the 'KTSNumber' element value. РќРѕРјРµСЂ РљРўРЎ РїРѕ РїРѕСЂСЏРґРєСѓ
      * 
      * @param KTSNumber
      */
@@ -124,7 +124,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'Adjustment' element value. Тип корректировки. 1- тип корректировки совпадает для всех товаров, 0 - не совпадает
+     * Get the 'Adjustment' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё. 1- С‚РёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё СЃРѕРІРїР°РґР°РµС‚ РґР»СЏ РІСЃРµС… С‚РѕРІР°СЂРѕРІ, 0 - РЅРµ СЃРѕРІРїР°РґР°РµС‚
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'Adjustment' element value. Тип корректировки. 1- тип корректировки совпадает для всех товаров, 0 - не совпадает
+     * Set the 'Adjustment' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё. 1- С‚РёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё СЃРѕРІРїР°РґР°РµС‚ РґР»СЏ РІСЃРµС… С‚РѕРІР°СЂРѕРІ, 0 - РЅРµ СЃРѕРІРїР°РґР°РµС‚
      * 
      * @param adjustment
      */
@@ -142,7 +142,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationKind' element value. Код особенности декларирования товаров по Классификатору особенностей таможенного декларирования товаров. Гр.7 
+     * Get the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ. Р“СЂ.7 
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. Код особенности декларирования товаров по Классификатору особенностей таможенного декларирования товаров. Гр.7 
+     * Set the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ. Р“СЂ.7 
      * 
      * @param declarationKind
      */
@@ -160,7 +160,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код национальной валюты в соответствии с Классификатором валют.
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚.
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код национальной валюты в соответствии с Классификатором валют.
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚.
      * 
      * @param currencyCode
      */
@@ -178,7 +178,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'ElectronicDocumentSign' element value. Признак использования КТС в форме электронного документа. ЭД.
+     * Get the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљРўРЎ РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р­Р”.
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'ElectronicDocumentSign' element value. Признак использования КТС в форме электронного документа. ЭД.
+     * Set the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљРўРЎ РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р­Р”.
      * 
      * @param electronicDocumentSign
      */
@@ -196,7 +196,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionDate' element value. Дата составления (представления)
+     * Get the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionDate' element value. Дата составления (представления)
+     * Set the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
      * 
      * @param executionDate
      */
@@ -214,7 +214,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTSinGoodsShipment' element value. КТС. Внутренний формат. Сведения о товарной партии.
+     * Get the 'KTSinGoodsShipment' element value. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTSinGoodsShipment' element value. КТС. Внутренний формат. Сведения о товарной партии.
+     * Set the 'KTSinGoodsShipment' element value. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
      * 
      * @param KTSinGoodsShipment
      */
@@ -232,7 +232,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTSinFilledPerson' element value. КТС. Внутренний формат. Сведения о лице, заполнившем КТС.
+     * Get the 'KTSinFilledPerson' element value. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљРўРЎ.
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTSinFilledPerson' element value. КТС. Внутренний формат. Сведения о лице, заполнившем КТС.
+     * Set the 'KTSinFilledPerson' element value. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљРўРЎ.
      * 
      * @param KTSinFilledPerson
      */
@@ -250,7 +250,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTSinTechMarks' element value. КТС. Внутренний формат. Технологические отметки.
+     * Get the 'KTSinTechMarks' element value. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTSinTechMarks' element value. КТС. Внутренний формат. Технологические отметки.
+     * Set the 'KTSinTechMarks' element value. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
      * 
      * @param KTSinTechMarks
      */
@@ -268,7 +268,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'KTSPaymentsReCalc' element items. Перерасчет платежей
+     * Get the list of 'KTSPaymentsReCalc' element items. РџРµСЂРµСЂР°СЃС‡РµС‚ РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -277,7 +277,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'KTSPaymentsReCalc' element items. Перерасчет платежей
+     * Set the list of 'KTSPaymentsReCalc' element items. РџРµСЂРµСЂР°СЃС‡РµС‚ РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */
@@ -286,7 +286,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Регистрационный номер ДТ. Используется для привязки к ДТ при представлении КТС отдельно от ДТ.
+     * Get the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РљРўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Регистрационный номер ДТ. Используется для привязки к ДТ при представлении КТС отдельно от ДТ.
+     * Set the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РљРўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @param GTDNumber
      */
@@ -304,7 +304,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsRepresentative' element value. Таможенный представитель
+     * Get the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsRepresentative' element value. Таможенный представитель
+     * Set the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
      * 
      * @param customsRepresentative
      */
@@ -323,7 +323,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class KTSinType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

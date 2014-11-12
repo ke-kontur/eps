@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Реквизиты гарантии.
+ * Р РµРєРІРёР·РёС‚С‹ РіР°СЂР°РЅС‚РёРё.
  */
 public class GuaranteeReferenceType
 {
@@ -16,7 +16,7 @@ public class GuaranteeReferenceType
     private List<LimitationNonECType> limitationNonECList = new ArrayList<LimitationNonECType>();
 
     /** 
-     * Get the 'GRN' element value. Регистрационный номер гарантии (GRN) заполняется в случае использования гарантии NCTS.
+     * Get the 'GRN' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё (GRN) Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Set the 'GRN' element value. Регистрационный номер гарантии (GRN) заполняется в случае использования гарантии NCTS.
+     * Set the 'GRN' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё (GRN) Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS.
      * 
      * @param GRN
      */
@@ -34,7 +34,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Get the 'OtherGuaranteeNumber' element value. Номер гарантийного сертификата.
+     * Get the 'OtherGuaranteeNumber' element value. РќРѕРјРµСЂ РіР°СЂР°РЅС‚РёР№РЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р°.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Set the 'OtherGuaranteeNumber' element value. Номер гарантийного сертификата.
+     * Set the 'OtherGuaranteeNumber' element value. РќРѕРјРµСЂ РіР°СЂР°РЅС‚РёР№РЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р°.
      * 
      * @param otherGuaranteeNumber
      */
@@ -52,7 +52,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Get the 'AccessCode' element value. Код доступа для GRN заполняется в случае использования гарантии NCTS.
+     * Get the 'AccessCode' element value. РљРѕРґ РґРѕСЃС‚СѓРїР° РґР»СЏ GRN Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Set the 'AccessCode' element value. Код доступа для GRN заполняется в случае использования гарантии NCTS.
+     * Set the 'AccessCode' element value. РљРѕРґ РґРѕСЃС‚СѓРїР° РґР»СЏ GRN Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS.
      * 
      * @param accessCode
      */
@@ -70,7 +70,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Get the 'NotValid4EC' element value. Признак ограничения для стран ЕС заполняется в случае использования гарантии NCTS. 0 - нет ограничений 1 - есть ограничения
+     * Get the 'NotValid4EC' element value. РџСЂРёР·РЅР°Рє РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РґР»СЏ СЃС‚СЂР°РЅ Р•РЎ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS. 0 - РЅРµС‚ РѕРіСЂР°РЅРёС‡РµРЅРёР№ 1 - РµСЃС‚СЊ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Set the 'NotValid4EC' element value. Признак ограничения для стран ЕС заполняется в случае использования гарантии NCTS. 0 - нет ограничений 1 - есть ограничения
+     * Set the 'NotValid4EC' element value. РџСЂРёР·РЅР°Рє РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РґР»СЏ СЃС‚СЂР°РЅ Р•РЎ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS. 0 - РЅРµС‚ РѕРіСЂР°РЅРёС‡РµРЅРёР№ 1 - РµСЃС‚СЊ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ
      * 
      * @param notValid4EC
      */
@@ -88,7 +88,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Get the list of 'LimitationNonEC' element items. Ограничение действия гарантии вне ЕС.
+     * Get the list of 'LimitationNonEC' element items. РћРіСЂР°РЅРёС‡РµРЅРёРµ РґРµР№СЃС‚РІРёСЏ РіР°СЂР°РЅС‚РёРё РІРЅРµ Р•РЎ.
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class GuaranteeReferenceType
     }
 
     /** 
-     * Set the list of 'LimitationNonEC' element items. Ограничение действия гарантии вне ЕС.
+     * Set the list of 'LimitationNonEC' element items. РћРіСЂР°РЅРёС‡РµРЅРёРµ РґРµР№СЃС‚РІРёСЏ РіР°СЂР°РЅС‚РёРё РІРЅРµ Р•РЎ.
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.revealingtransportpp;
 import org.joda.time.LocalDate;
 
 /** 
- * Служебная информация
+ * РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
  */
 public class ServiceInfoType
 {
@@ -14,7 +14,7 @@ public class ServiceInfoType
     private String customsProcedure;
 
     /** 
-     * Get the 'TransportID' element value. Идентификатор сообщения о  прибытии/убытии
+     * Get the 'TransportID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ  РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'TransportID' element value. Идентификатор сообщения о  прибытии/убытии
+     * Set the 'TransportID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ  РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
      * 
      * @param transportID
      */
@@ -32,7 +32,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'CrossDate' element value. Дата подачи документов (для СВР ПП)/Дата формирования запроса на выявление рисков (для АИСТ-М)
+     * Get the 'CrossDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё РґРѕРєСѓРјРµРЅС‚РѕРІ (РґР»СЏ РЎР’Р  РџРџ)/Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР° РЅР° РІС‹СЏРІР»РµРЅРёРµ СЂРёСЃРєРѕРІ (РґР»СЏ РђРРЎРў-Рњ)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'CrossDate' element value. Дата подачи документов (для СВР ПП)/Дата формирования запроса на выявление рисков (для АИСТ-М)
+     * Set the 'CrossDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё РґРѕРєСѓРјРµРЅС‚РѕРІ (РґР»СЏ РЎР’Р  РџРџ)/Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР° РЅР° РІС‹СЏРІР»РµРЅРёРµ СЂРёСЃРєРѕРІ (РґР»СЏ РђРРЎРў-Рњ)
      * 
      * @param crossDate
      */
@@ -50,7 +50,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'CustomsID' element value. Код таможенного органа (КТАМ)
+     * Get the 'CustomsID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РљРўРђРњ)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'CustomsID' element value. Код таможенного органа (КТАМ)
+     * Set the 'CustomsID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РљРўРђРњ)
      * 
      * @param customsID
      */
@@ -68,7 +68,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. Направление перемещения: ИМ (прибытие)/ ЭК (убытие)
+     * Get the 'CustomsProcedure' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ: РРњ (РїСЂРёР±С‹С‚РёРµ)/ Р­Рљ (СѓР±С‹С‚РёРµ)
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. Направление перемещения: ИМ (прибытие)/ ЭК (убытие)
+     * Set the 'CustomsProcedure' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ: РРњ (РїСЂРёР±С‹С‚РёРµ)/ Р­Рљ (СѓР±С‹С‚РёРµ)
      * 
      * @param customsProcedure
      */

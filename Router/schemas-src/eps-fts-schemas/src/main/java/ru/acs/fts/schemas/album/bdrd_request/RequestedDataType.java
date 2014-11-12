@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Запрашиваемые сведения
+ * Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ СЃРІРµРґРµРЅРёСЏ
  */
 public class RequestedDataType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class RequestedDataType extends DocumentBaseType
     private List<GoodsType> goodInfoList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'DocCode' element value. Код вида запрашиваемого документа
+     * Get the 'DocCode' element value. РљРѕРґ РІРёРґР° Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RequestedDataType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocCode' element value. Код вида запрашиваемого документа
+     * Set the 'DocCode' element value. РљРѕРґ РІРёРґР° Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docCode
      */
@@ -33,7 +33,7 @@ public class RequestedDataType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RequestPositionID' element value. Позиция РД в запросе
+     * Get the 'RequestPositionID' element value. РџРѕР·РёС†РёСЏ Р Р” РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RequestedDataType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. Позиция РД в запросе
+     * Set the 'RequestPositionID' element value. РџРѕР·РёС†РёСЏ Р Р” РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @param requestPositionID
      */
@@ -51,7 +51,7 @@ public class RequestedDataType extends DocumentBaseType
     }
 
     /** 
-     * Get the list of 'GoodInfo' element items. Сведения о товаре
+     * Get the list of 'GoodInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class RequestedDataType extends DocumentBaseType
     }
 
     /** 
-     * Set the list of 'GoodInfo' element items. Сведения о товаре
+     * Set the list of 'GoodInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */

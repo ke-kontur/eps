@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Уведомление
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ
  */
 public class NotificationInfoType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class NotificationInfoType extends DocumentBaseType
     private String ID;
 
     /** 
-     * Get the 'CreateTime' element value. Время создания уведомления
+     * Get the 'CreateTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CreateTime' element value. Время создания уведомления
+     * Set the 'CreateTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param createTime
      */
@@ -33,7 +33,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ModificationDate' element value. Дата обновления
+     * Get the 'ModificationDate' element value. Р”Р°С‚Р° РѕР±РЅРѕРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ModificationDate' element value. Дата обновления
+     * Set the 'ModificationDate' element value. Р”Р°С‚Р° РѕР±РЅРѕРІР»РµРЅРёСЏ
      * 
      * @param modificationDate
      */
@@ -51,7 +51,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'IDreestr' element value. Идентификатор уведомления в реестре уведомлений
+     * Get the 'IDreestr' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ РІ СЂРµРµСЃС‚СЂРµ СѓРІРµРґРѕРјР»РµРЅРёР№
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'IDreestr' element value. Идентификатор уведомления в реестре уведомлений
+     * Set the 'IDreestr' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ РІ СЂРµРµСЃС‚СЂРµ СѓРІРµРґРѕРјР»РµРЅРёР№
      * 
      * @param IDreestr
      */
@@ -69,7 +69,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ID' element value. Идентификатор уведомления, как документа
+     * Get the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ, РєР°Рє РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class NotificationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ID' element value. Идентификатор уведомления, как документа
+     * Set the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ, РєР°Рє РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param ID
      */

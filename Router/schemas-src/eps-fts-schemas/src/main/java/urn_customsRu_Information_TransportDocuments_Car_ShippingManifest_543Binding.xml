@@ -1,0 +1,79 @@
+<binding xmlns:shmf="urn:customs.ru:Information:TransportDocuments:Car:ShippingManifest:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Car:ShippingManifest:5.4.3" default="elements" prefix="shmf"/>
+  <mapping abstract="true" type-name="shmf:ShippingManifestType" class="ru.acs.fts.schemas.album.shippingmanifest.ShippingManifestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Series" get-method="getSeries" set-method="setSeries"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+    <value style="element" name="Expire" get-method="getExpire" set-method="setExpire" format="LocalDate.default"/>
+    <structure map-as="shmf:OrganizationCreatedManifestType" get-method="getOrganizationCreatedManifest" set-method="setOrganizationCreatedManifest" name="OrganizationCreatedManifest"/>
+    <structure map-as="shmf:DriverType" get-method="getDriver" set-method="setDriver" name="Driver"/>
+    <structure map-as="shmf:VehicleType" get-method="getVehicle" set-method="setVehicle" name="Vehicle"/>
+    <structure map-as="shmf:EscortType" get-method="getEscort" set-method="setEscort" usage="optional" name="Escort"/>
+    <collection get-method="getRouteList" set-method="setRouteList" create-type="java.util.ArrayList">
+      <structure map-as="shmf:RouteType" name="Route"/>
+    </collection>
+    <structure map-as="shmf:WorkingDayType" get-method="getWorkingDay" set-method="setWorkingDay" name="WorkingDay"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.shippingmanifest.ShippingManifestType" name="ShippingManifest">
+    <structure map-as="shmf:ShippingManifestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:CheckPointType" class="ru.acs.fts.schemas.album.shippingmanifest.CheckPointType">
+    <value style="element" name="Odometr" get-method="getOdometr" set-method="setOdometr"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:DriverLicensingCardType" class="ru.acs.fts.schemas.album.shippingmanifest.DriverLicensingCardType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:DriverType" class="ru.acs.fts.schemas.album.shippingmanifest.DriverType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="DrivingLicenceSeries" get-method="getDrivingLicenceSeries" set-method="setDrivingLicenceSeries"/>
+    <value style="element" name="DrivingLicenceNumber" get-method="getDrivingLicenceNumber" set-method="setDrivingLicenceNumber"/>
+    <structure map-as="shmf:DriverLicensingCardType" get-method="getDriverLicensingCard" set-method="setDriverLicensingCard" usage="optional" name="DriverLicensingCard"/>
+    <structure map-as="shmf:MedCheckType" get-method="getPreMedCheck" set-method="setPreMedCheck" name="PreMedCheck"/>
+    <structure map-as="shmf:MedCheckType" get-method="getPostMedCheck" set-method="setPostMedCheck" name="PostMedCheck"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:EscortType" class="ru.acs.fts.schemas.album.shippingmanifest.EscortType">
+    <value style="element" name="Purpose" get-method="getPurpose" set-method="setPurpose"/>
+    <collection get-method="getPersonList" set-method="setPersonList" create-type="java.util.ArrayList">
+      <value style="element" name="Person" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:MedCheckType" class="ru.acs.fts.schemas.album.shippingmanifest.MedCheckType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Time" get-method="getTime" set-method="setTime" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:OrganizationCreatedManifestType" class="ru.acs.fts.schemas.album.shippingmanifest.OrganizationCreatedManifestType">
+    <value style="element" name="PhoneNumber" get-method="getPhoneNumber" set-method="setPhoneNumber"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOrganization" set-method="setOrganization" name="Organization"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:RouteType" class="ru.acs.fts.schemas.album.shippingmanifest.RouteType">
+    <value style="element" name="From" get-method="getFrom" set-method="setFrom"/>
+    <value style="element" name="To" get-method="getTo" set-method="setTo"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription"/>
+    <collection get-method="getTTNNumberList" set-method="setTTNNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TTNNumber" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getClient" set-method="setClient" usage="optional" name="Client"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:VehicleType" class="ru.acs.fts.schemas.album.shippingmanifest.VehicleType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Make" get-method="getMake" set-method="setMake"/>
+    <value style="element" name="RegistrationNumber" get-method="getRegistrationNumber" set-method="setRegistrationNumber"/>
+    <value style="element" name="TrailerRegistrationNumber" get-method="getTrailerRegistrationNumber" set-method="setTrailerRegistrationNumber" usage="optional"/>
+    <value style="element" name="SecondTrailerRegistrationNumber" get-method="getSecondTrailerRegistrationNumber" set-method="setSecondTrailerRegistrationNumber" usage="optional"/>
+    <structure map-as="cat_ru:OrganizationBaseType" get-method="getOwner" set-method="setOwner" name="Owner"/>
+    <structure map-as="shmf:CheckPointType" get-method="getStart" set-method="setStart" name="Start"/>
+    <structure map-as="shmf:CheckPointType" get-method="getFinish" set-method="setFinish" name="Finish"/>
+  </mapping>
+  <mapping abstract="true" type-name="shmf:WorkingDayType" class="ru.acs.fts.schemas.album.shippingmanifest.WorkingDayType">
+    <value style="element" name="From" get-method="getFrom" set-method="setFrom"/>
+    <value style="element" name="To" get-method="getTo" set-method="setTo"/>
+  </mapping>
+</binding>

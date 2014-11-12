@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Права
+ * РџСЂР°РІР°
  */
 public class RightType
 {
@@ -14,7 +14,7 @@ public class RightType
     private List<EncumbranceType> encumbranceList = new ArrayList<EncumbranceType>();
 
     /** 
-     * Get the list of 'Owner' element items. Правообладатель
+     * Get the list of 'Owner' element items. РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class RightType
     }
 
     /** 
-     * Set the list of 'Owner' element items. Правообладатель
+     * Set the list of 'Owner' element items. РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class RightType
     }
 
     /** 
-     * Get the 'RightRegistration' element value. Зарегистрированное право
+     * Get the 'RightRegistration' element value. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕРµ РїСЂР°РІРѕ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RightType
     }
 
     /** 
-     * Set the 'RightRegistration' element value. Зарегистрированное право
+     * Set the 'RightRegistration' element value. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕРµ РїСЂР°РІРѕ
      * 
      * @param rightRegistration
      */
@@ -50,7 +50,7 @@ public class RightType
     }
 
     /** 
-     * Get the list of 'Encumbrance' element items. Ограничение права
+     * Get the list of 'Encumbrance' element items. РћРіСЂР°РЅРёС‡РµРЅРёРµ РїСЂР°РІР°
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class RightType
     }
 
     /** 
-     * Set the list of 'Encumbrance' element items. Ограничение права
+     * Set the list of 'Encumbrance' element items. РћРіСЂР°РЅРёС‡РµРЅРёРµ РїСЂР°РІР°
      * 
      * @param list
      */

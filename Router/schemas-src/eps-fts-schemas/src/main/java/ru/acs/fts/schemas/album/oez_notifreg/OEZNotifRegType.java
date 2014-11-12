@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Регистрационный номер уведомления о ввозе/вывозе товаров/Заявления на уничтожение/Акта об уничтожении
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ/Р—Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РђРєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
  */
 public class OEZNotifRegType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class OEZNotifRegType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentSign' element value. Регистрационный номер: 1 - уведомления о ввозе товаров; 2 - уведомления о вывозе товаров; 3 - заявления на уничтожение; 4 - акта об уничтожении
+     * Get the 'DocumentSign' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ: 1 - СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ; 2 - СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ; 3 - Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 4 - Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. Регистрационный номер: 1 - уведомления о ввозе товаров; 2 - уведомления о вывозе товаров; 3 - заявления на уничтожение; 4 - акта об уничтожении
+     * Set the 'DocumentSign' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ: 1 - СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ; 2 - СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ; 3 - Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 4 - Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
      * 
      * @param documentSign
      */
@@ -35,7 +35,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -53,7 +53,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Регистрационный номер уведомления о ввозе/вывозе товаров
+     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Регистрационный номер уведомления о ввозе/вывозе товаров
+     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param registrationNumber
      */
@@ -71,7 +71,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -89,7 +89,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class OEZNotifRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

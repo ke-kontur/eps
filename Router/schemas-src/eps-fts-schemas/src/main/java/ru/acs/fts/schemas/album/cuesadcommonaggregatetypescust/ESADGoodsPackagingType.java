@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о грузовых местах, поддонах и упаковке товаров
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
  */
 public class ESADGoodsPackagingType
 {
@@ -20,7 +20,7 @@ public class ESADGoodsPackagingType
     private List<PackingInformationType> cargoInfoList = new ArrayList<PackingInformationType>();
 
     /** 
-     * Get the 'PakageQuantity' element value. Общее количество грузовых мест, занятых товаром
+     * Get the 'PakageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the 'PakageQuantity' element value. Общее количество грузовых мест, занятых товаром
+     * Set the 'PakageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
      * 
      * @param pakageQuantity
      */
@@ -38,7 +38,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the 'PakageTypeCode' element value. Код наличия упаковки товара: 0 - Без упаковки; 1 - С упаковкой;  2 - Без упаковки в оборудованных емкостях транспортного средства
+     * Get the 'PakageTypeCode' element value. РљРѕРґ РЅР°Р»РёС‡РёСЏ СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂР°: 0 - Р‘РµР· СѓРїР°РєРѕРІРєРё; 1 - РЎ СѓРїР°РєРѕРІРєРѕР№;  2 - Р‘РµР· СѓРїР°РєРѕРІРєРё РІ РѕР±РѕСЂСѓРґРѕРІР°РЅРЅС‹С… РµРјРєРѕСЃС‚СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the 'PakageTypeCode' element value. Код наличия упаковки товара: 0 - Без упаковки; 1 - С упаковкой;  2 - Без упаковки в оборудованных емкостях транспортного средства
+     * Set the 'PakageTypeCode' element value. РљРѕРґ РЅР°Р»РёС‡РёСЏ СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂР°: 0 - Р‘РµР· СѓРїР°РєРѕРІРєРё; 1 - РЎ СѓРїР°РєРѕРІРєРѕР№;  2 - Р‘РµР· СѓРїР°РєРѕРІРєРё РІ РѕР±РѕСЂСѓРґРѕРІР°РЅРЅС‹С… РµРјРєРѕСЃС‚СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param pakageTypeCode
      */
@@ -56,7 +56,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the 'PakagePartQuantity' element value. Количество грузовых мест, частично занятых товаром
+     * Get the 'PakagePartQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the 'PakagePartQuantity' element value. Количество грузовых мест, частично занятых товаром
+     * Set the 'PakagePartQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
      * 
      * @param pakagePartQuantity
      */
@@ -74,7 +74,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the 'RBCargoKind' element value. Вид грузовых мест (элемент 2 гр. 31 ДТ)
+     * Get the 'RBCargoKind' element value. Р’РёРґ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (СЌР»РµРјРµРЅС‚ 2 РіСЂ. 31 Р”Рў)
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the 'RBCargoKind' element value. Вид грузовых мест (элемент 2 гр. 31 ДТ)
+     * Set the 'RBCargoKind' element value. Р’РёРґ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (СЌР»РµРјРµРЅС‚ 2 РіСЂ. 31 Р”Рў)
      * 
      * @param RBCargoKind
      */
@@ -92,7 +92,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the 'PackageCode' element value. Код вида груза в соответствии с  классификатором видов груза, упаковки и упаковочных материалов
+     * Get the 'PackageCode' element value. РљРѕРґ РІРёРґР° РіСЂСѓР·Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the 'PackageCode' element value. Код вида груза в соответствии с  классификатором видов груза, упаковки и упаковочных материалов
+     * Set the 'PackageCode' element value. РљРѕРґ РІРёРґР° РіСЂСѓР·Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @param packageCode
      */
@@ -110,7 +110,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the list of 'PackingInformation' element items. Сведения об упаковке товаров
+     * Get the list of 'PackingInformation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the list of 'PackingInformation' element items. Сведения об упаковке товаров
+     * Set the list of 'PackingInformation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the list of 'PalleteInformation' element items. Сведения о поддонах и паллетах (элемент 2 гр 31)
+     * Get the list of 'PalleteInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРґРѕРЅР°С… Рё РїР°Р»Р»РµС‚Р°С… (СЌР»РµРјРµРЅС‚ 2 РіСЂ 31)
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the list of 'PalleteInformation' element items. Сведения о поддонах и паллетах (элемент 2 гр 31)
+     * Set the list of 'PalleteInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРґРѕРЅР°С… Рё РїР°Р»Р»РµС‚Р°С… (СЌР»РµРјРµРЅС‚ 2 РіСЂ 31)
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the list of 'UnitPackInfo' element items. Сведения об индивидуальной упаковке товара
+     * Get the list of 'UnitPackInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -155,7 +155,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the list of 'UnitPackInfo' element items. Сведения об индивидуальной упаковке товара
+     * Set the list of 'UnitPackInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -164,7 +164,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Get the list of 'CargoInfo' element items. Сведения о виде груза (при перевозе товара без упаковки)
+     * Get the list of 'CargoInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІРёРґРµ РіСЂСѓР·Р° (РїСЂРё РїРµСЂРµРІРѕР·Рµ С‚РѕРІР°СЂР° Р±РµР· СѓРїР°РєРѕРІРєРё)
      * 
      * @return list
      */
@@ -173,7 +173,7 @@ public class ESADGoodsPackagingType
     }
 
     /** 
-     * Set the list of 'CargoInfo' element items. Сведения о виде груза (при перевозе товара без упаковки)
+     * Set the list of 'CargoInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІРёРґРµ РіСЂСѓР·Р° (РїСЂРё РїРµСЂРµРІРѕР·Рµ С‚РѕРІР°СЂР° Р±РµР· СѓРїР°РєРѕРІРєРё)
      * 
      * @param list
      */

@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Причина, по которой предшествующие методы определения стоимости не применимы
+ * РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РјРµС‚РѕРґС‹ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё РЅРµ РїСЂРёРјРµРЅРёРјС‹
  */
 public class ReasonApplyMethodType
 {
     private List<String> reasonDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'ReasonDescription' element items. Описание причины
+     * Get the list of 'ReasonDescription' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class ReasonApplyMethodType
     }
 
     /** 
-     * Set the list of 'ReasonDescription' element items. Описание причины
+     * Set the list of 'ReasonDescription' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹
      * 
      * @param list
      */

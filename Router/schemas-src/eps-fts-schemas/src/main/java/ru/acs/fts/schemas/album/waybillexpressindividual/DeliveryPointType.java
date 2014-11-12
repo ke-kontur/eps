@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.waybillexpressindividual;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Пункт назначения
+ * РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
  */
 public class DeliveryPointType
 {
@@ -13,7 +13,7 @@ public class DeliveryPointType
     private AddressType address;
 
     /** 
-     * Get the 'Name' element value. Название
+     * Get the 'Name' element value. РќР°Р·РІР°РЅРёРµ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DeliveryPointType
     }
 
     /** 
-     * Set the 'Name' element value. Название
+     * Set the 'Name' element value. РќР°Р·РІР°РЅРёРµ
      * 
      * @param name
      */
@@ -31,7 +31,7 @@ public class DeliveryPointType
     }
 
     /** 
-     * Get the 'IATACode' element value. Код ИАТА
+     * Get the 'IATACode' element value. РљРѕРґ РРђРўРђ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DeliveryPointType
     }
 
     /** 
-     * Set the 'IATACode' element value. Код ИАТА
+     * Set the 'IATACode' element value. РљРѕРґ РРђРўРђ
      * 
      * @param IATACode
      */
@@ -49,7 +49,7 @@ public class DeliveryPointType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес 
+     * Get the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DeliveryPointType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес 
+     * Set the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @param address
      */

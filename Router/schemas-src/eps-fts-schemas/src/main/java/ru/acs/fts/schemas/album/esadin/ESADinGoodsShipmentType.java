@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADMainContrac
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGuaranteeType;
 
 /** 
- * ДТ и ТД. Внутренний формат. Сведения о товарной партии.
+ * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
  */
 public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
 {
@@ -24,7 +24,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     private List<CUGuaranteeType> guaranteeList = new ArrayList<CUGuaranteeType>();
 
     /** 
-     * Get the 'ESADinConsignor' element value. ДТ и ТД. Внутренний формат. Сведения об отправителе товаров
+     * Get the 'ESADinConsignor' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinConsignor' element value. ДТ и ТД. Внутренний формат. Сведения об отправителе товаров
+     * Set the 'ESADinConsignor' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param ESADinConsignor
      */
@@ -42,7 +42,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADinConsignee' element value. ДТ и ТД. Внутренний формат. Сведения о получателе товаров.
+     * Get the 'ESADinConsignee' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinConsignee' element value. ДТ и ТД. Внутренний формат. Сведения о получателе товаров.
+     * Set the 'ESADinConsignee' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param ESADinConsignee
      */
@@ -60,7 +60,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADinFinancialAdjustingResponsiblePerson' element value. ДТ и ТД. Внутренний формат. Лицо ответственное за финансовое урегулирование.
+     * Get the 'ESADinFinancialAdjustingResponsiblePerson' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinFinancialAdjustingResponsiblePerson' element value. ДТ и ТД. Внутренний формат. Лицо ответственное за финансовое урегулирование.
+     * Set the 'ESADinFinancialAdjustingResponsiblePerson' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
      * 
      * @param ESADinFinancialAdjustingResponsiblePerson
      */
@@ -79,7 +79,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADinDeclarant' element value. ДТ и ТД. Внутренний формат. Сведения о декларанте товаров.
+     * Get the 'ESADinDeclarant' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinDeclarant' element value. ДТ и ТД. Внутренний формат. Сведения о декларанте товаров.
+     * Set the 'ESADinDeclarant' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param ESADinDeclarant
      */
@@ -97,7 +97,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'ESADinGoodsLocation' element items. ДТ и ТД. Внутренний формат. Местонахождение товаров. Гр. 30 
+     * Get the list of 'ESADinGoodsLocation' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30 
      * 
      * @return list
      */
@@ -106,7 +106,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'ESADinGoodsLocation' element items. ДТ и ТД. Внутренний формат. Местонахождение товаров. Гр. 30 
+     * Set the list of 'ESADinGoodsLocation' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30 
      * 
      * @param list
      */
@@ -115,7 +115,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADinConsigment' element value. ДТ и ТД. Внутренний формат. Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29.
+     * Get the 'ESADinConsigment' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29.
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinConsigment' element value. ДТ и ТД. Внутренний формат. Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29.
+     * Set the 'ESADinConsigment' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29.
      * 
      * @param ESADinConsigment
      */
@@ -133,7 +133,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADinMainContractTerms' element value. ДТ. Внутренний формат. Условия сделки ДТ. Гр. 11, 20, 22, 23, 24.
+     * Get the 'ESADinMainContractTerms' element value. Р”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё Р”Рў. Р“СЂ. 11, 20, 22, 23, 24.
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinMainContractTerms' element value. ДТ. Внутренний формат. Условия сделки ДТ. Гр. 11, 20, 22, 23, 24.
+     * Set the 'ESADinMainContractTerms' element value. Р”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё Р”Рў. Р“СЂ. 11, 20, 22, 23, 24.
      * 
      * @param ESADinMainContractTerms
      */
@@ -152,7 +152,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'ESADinGoods' element items. ДТ и ТД. Внутренний формат. Товарная часть ДТ. Гр. 31-47.
+     * Get the list of 'ESADinGoods' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р”Рў. Р“СЂ. 31-47.
      * 
      * @return list
      */
@@ -161,7 +161,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'ESADinGoods' element items. ДТ и ТД. Внутренний формат. Товарная часть ДТ. Гр. 31-47.
+     * Set the list of 'ESADinGoods' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р”Рў. Р“СЂ. 31-47.
      * 
      * @param list
      */
@@ -170,7 +170,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADinPayments' element value. ДТ и ТД. Внутренний формат. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В.
+     * Get the 'ESADinPayments' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’.
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADinPayments' element value. ДТ и ТД. Внутренний формат. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В.
+     * Set the 'ESADinPayments' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’.
      * 
      * @param ESADinPayments
      */
@@ -188,7 +188,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'Guarantee' element items. Гарантия.
+     * Get the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ.
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class ESADinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'Guarantee' element items. Гарантия.
+     * Set the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ.
      * 
      * @param list
      */

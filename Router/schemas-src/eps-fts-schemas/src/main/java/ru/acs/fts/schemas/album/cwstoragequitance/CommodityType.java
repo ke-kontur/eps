@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * Информация о товаре
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class CommodityType extends GoodsBaseType
 {
@@ -21,7 +21,7 @@ public class CommodityType extends GoodsBaseType
     private GTDIDType GTDOutNumber;
 
     /** 
-     * Get the 'GoodsNumericPred' element value. Порядковый номер товара в предыдущей квитанции
+     * Get the 'GoodsNumericPred' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РїСЂРµРґС‹РґСѓС‰РµР№ РєРІРёС‚Р°РЅС†РёРё
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumericPred' element value. Порядковый номер товара в предыдущей квитанции
+     * Set the 'GoodsNumericPred' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РїСЂРµРґС‹РґСѓС‰РµР№ РєРІРёС‚Р°РЅС†РёРё
      * 
      * @param goodsNumericPred
      */
@@ -39,7 +39,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsNumberInGTD' element value. Порядковый номер товара в ДТ, по которой принят груз
+     * Get the 'GoodsNumberInGTD' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРёРЅСЏС‚ РіСЂСѓР·
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumberInGTD' element value. Порядковый номер товара в ДТ, по которой принят груз
+     * Set the 'GoodsNumberInGTD' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРёРЅСЏС‚ РіСЂСѓР·
      * 
      * @param goodsNumberInGTD
      */
@@ -57,7 +57,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsPlacesIn' element value. Количество принятых грузовых мест
+     * Get the 'GoodsPlacesIn' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРЅСЏС‚С‹С… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsPlacesIn' element value. Количество принятых грузовых мест
+     * Set the 'GoodsPlacesIn' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРЅСЏС‚С‹С… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param goodsPlacesIn
      */
@@ -75,7 +75,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'RatableValueIn' element value. Оценочная стоимость принятого груза
+     * Get the 'RatableValueIn' element value. РћС†РµРЅРѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРёРЅСЏС‚РѕРіРѕ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'RatableValueIn' element value. Оценочная стоимость принятого груза
+     * Set the 'RatableValueIn' element value. РћС†РµРЅРѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРёРЅСЏС‚РѕРіРѕ РіСЂСѓР·Р°
      * 
      * @param ratableValueIn
      */
@@ -93,7 +93,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsPlacesRest' element value. Количество остатка мест товаров на складе
+     * Get the 'GoodsPlacesRest' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃС‚Р°С‚РєР° РјРµСЃС‚ С‚РѕРІР°СЂРѕРІ РЅР° СЃРєР»Р°РґРµ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsPlacesRest' element value. Количество остатка мест товаров на складе
+     * Set the 'GoodsPlacesRest' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃС‚Р°С‚РєР° РјРµСЃС‚ С‚РѕРІР°СЂРѕРІ РЅР° СЃРєР»Р°РґРµ
      * 
      * @param goodsPlacesRest
      */
@@ -111,7 +111,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'RatableValueRest' element value. Оценочная стоимость остатка товаров на складе
+     * Get the 'RatableValueRest' element value. РћС†РµРЅРѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РѕСЃС‚Р°С‚РєР° С‚РѕРІР°СЂРѕРІ РЅР° СЃРєР»Р°РґРµ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'RatableValueRest' element value. Оценочная стоимость остатка товаров на складе
+     * Set the 'RatableValueRest' element value. РћС†РµРЅРѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РѕСЃС‚Р°С‚РєР° С‚РѕРІР°СЂРѕРІ РЅР° СЃРєР»Р°РґРµ
      * 
      * @param ratableValueRest
      */
@@ -129,7 +129,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantityRest' element value. Вес брутто остатков товара на складе (в кг или ДЕИ)
+     * Get the 'GrossWeightQuantityRest' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ РѕСЃС‚Р°С‚РєРѕРІ С‚РѕРІР°СЂР° РЅР° СЃРєР»Р°РґРµ (РІ РєРі РёР»Рё Р”Р•Р)
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantityRest' element value. Вес брутто остатков товара на складе (в кг или ДЕИ)
+     * Set the 'GrossWeightQuantityRest' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ РѕСЃС‚Р°С‚РєРѕРІ С‚РѕРІР°СЂР° РЅР° СЃРєР»Р°РґРµ (РІ РєРі РёР»Рё Р”Р•Р)
      * 
      * @param grossWeightQuantityRest
      */
@@ -147,7 +147,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GrossWeightSuppQuantityIn' element value. Вес брутто принятого груза в ДЕИ
+     * Get the 'GrossWeightSuppQuantityIn' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ РїСЂРёРЅСЏС‚РѕРіРѕ РіСЂСѓР·Р° РІ Р”Р•Р
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GrossWeightSuppQuantityIn' element value. Вес брутто принятого груза в ДЕИ
+     * Set the 'GrossWeightSuppQuantityIn' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ РїСЂРёРЅСЏС‚РѕРіРѕ РіСЂСѓР·Р° РІ Р”Р•Р
      * 
      * @param grossWeightSuppQuantityIn
      */
@@ -166,7 +166,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GTDOutNumber' element value. Номер ДТ, по которому товары выпущены со склада
+     * Get the 'GTDOutNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ С‚РѕРІР°СЂС‹ РІС‹РїСѓС‰РµРЅС‹ СЃРѕ СЃРєР»Р°РґР°
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GTDOutNumber' element value. Номер ДТ, по которому товары выпущены со склада
+     * Set the 'GTDOutNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ С‚РѕРІР°СЂС‹ РІС‹РїСѓС‰РµРЅС‹ СЃРѕ СЃРєР»Р°РґР°
      * 
      * @param GTDOutNumber
      */

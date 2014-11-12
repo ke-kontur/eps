@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.detailquotadatard;
 
 /** 
- * Сведения о товаре
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class GoodsInfoType
 {
@@ -16,7 +16,7 @@ public class GoodsInfoType
     private QuantitativeCharactType quantitativeCharact;
 
     /** 
-     * Get the 'GoodsCategoryCode' element value. Код категории товара
+     * Get the 'GoodsCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsCategoryCode' element value. Код категории товара
+     * Set the 'GoodsCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂР°
      * 
      * @param goodsCategoryCode
      */
@@ -34,7 +34,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsTNVED' element value. Код ТНВЭД
+     * Get the 'GoodsTNVED' element value. РљРѕРґ РўРќР’Р­Р”
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVED' element value. Код ТНВЭД
+     * Set the 'GoodsTNVED' element value. РљРѕРґ РўРќР’Р­Р”
      * 
      * @param goodsTNVED
      */
@@ -52,7 +52,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. Описание (наименование) товара
+     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. Описание (наименование) товара
+     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂР°
      * 
      * @param goodsDescription
      */
@@ -70,7 +70,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'CommercialName' element value. Торговое наименование
+     * Get the 'CommercialName' element value. РўРѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'CommercialName' element value. Торговое наименование
+     * Set the 'CommercialName' element value. РўРѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param commercialName
      */
@@ -88,7 +88,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'InternationalName' element value. Международное наименование
+     * Get the 'InternationalName' element value. РњРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'InternationalName' element value. Международное наименование
+     * Set the 'InternationalName' element value. РњРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param internationalName
      */
@@ -106,7 +106,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'ProducerName' element value. Наименование изготовителя
+     * Get the 'ProducerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'ProducerName' element value. Наименование изготовителя
+     * Set the 'ProducerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ
      * 
      * @param producerName
      */
@@ -124,7 +124,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения товара
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения товара
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param originCountryCode
      */
@@ -142,7 +142,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'QuantitativeCharact' element value. Количественные характеристики
+     * Get the 'QuantitativeCharact' element value. РљРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'QuantitativeCharact' element value. Количественные характеристики
+     * Set the 'QuantitativeCharact' element value. РљРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё
      * 
      * @param quantitativeCharact
      */

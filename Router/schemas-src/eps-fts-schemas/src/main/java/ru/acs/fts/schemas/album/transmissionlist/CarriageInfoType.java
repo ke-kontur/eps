@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о вагонах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РІР°РіРѕРЅР°С…
  */
 public class CarriageInfoType
 {
@@ -20,7 +20,7 @@ public class CarriageInfoType
     private RailwayStationType destinationStation;
 
     /** 
-     * Get the 'EmptyIndicator' element value. Признак того, что вагон является порожним
+     * Get the 'EmptyIndicator' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РІР°РіРѕРЅ СЏРІР»СЏРµС‚СЃСЏ РїРѕСЂРѕР¶РЅРёРј
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'EmptyIndicator' element value. Признак того, что вагон является порожним
+     * Set the 'EmptyIndicator' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РІР°РіРѕРЅ СЏРІР»СЏРµС‚СЃСЏ РїРѕСЂРѕР¶РЅРёРј
      * 
      * @param emptyIndicator
      */
@@ -38,7 +38,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'Number' element value. Инвентарный номер вагона
+     * Get the 'Number' element value. РРЅРІРµРЅС‚Р°СЂРЅС‹Р№ РЅРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'Number' element value. Инвентарный номер вагона
+     * Set the 'Number' element value. РРЅРІРµРЅС‚Р°СЂРЅС‹Р№ РЅРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @param number
      */
@@ -56,7 +56,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'RegistrationCountry' element value. Страна регистрации вагона
+     * Get the 'RegistrationCountry' element value. РЎС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё РІР°РіРѕРЅР°
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'RegistrationCountry' element value. Страна регистрации вагона
+     * Set the 'RegistrationCountry' element value. РЎС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё РІР°РіРѕРЅР°
      * 
      * @param registrationCountry
      */
@@ -74,7 +74,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'DispatchCountry' element value. Страна отправления вагона 
+     * Get the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІР°РіРѕРЅР° 
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'DispatchCountry' element value. Страна отправления вагона 
+     * Set the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІР°РіРѕРЅР° 
      * 
      * @param dispatchCountry
      */
@@ -92,7 +92,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения вагона 
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ РІР°РіРѕРЅР° 
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения вагона 
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ РІР°РіРѕРЅР° 
      * 
      * @param destinationCountry
      */
@@ -110,7 +110,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'CargoWeight' element value. Вес груза в вагоне, кг
+     * Get the 'CargoWeight' element value. Р’РµСЃ РіСЂСѓР·Р° РІ РІР°РіРѕРЅРµ, РєРі
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'CargoWeight' element value. Вес груза в вагоне, кг
+     * Set the 'CargoWeight' element value. Р’РµСЃ РіСЂСѓР·Р° РІ РІР°РіРѕРЅРµ, РєРі
      * 
      * @param cargoWeight
      */
@@ -128,7 +128,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the list of 'WaybillNumber' element items. Номер накладной
+     * Get the list of 'WaybillNumber' element items. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the list of 'WaybillNumber' element items. Номер накладной
+     * Set the list of 'WaybillNumber' element items. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. Станция отправления
+     * Get the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. Станция отправления
+     * Set the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureStation
      */
@@ -164,7 +164,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Get the 'DestinationStation' element value. Станция назначения
+     * Get the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class CarriageInfoType
     }
 
     /** 
-     * Set the 'DestinationStation' element value. Станция назначения
+     * Set the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationStation
      */

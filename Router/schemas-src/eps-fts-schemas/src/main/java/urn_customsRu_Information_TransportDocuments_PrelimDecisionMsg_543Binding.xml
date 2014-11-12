@@ -1,0 +1,42 @@
+<binding xmlns:predec="urn:customs.ru:Information:TransportDocuments:PrelimDecisionMsg:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:PrelimDecisionMsg:5.4.3" default="elements" prefix="predec"/>
+  <mapping abstract="true" type-name="predec:PrelimDecisionMsgType" class="ru.acs.fts.schemas.album.prelimdecisionmsg.PrelimDecisionMsgType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="PI_URN" get-method="getPIURN" set-method="setPIURN" usage="optional"/>
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" format="LocalDate.default"/>
+    <value style="element" name="DecisionTime" get-method="getDecisionTime" set-method="setDecisionTime" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="TSControlDecision" get-method="getTSControlDecision" set-method="setTSControlDecision" usage="optional"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="predec:ConsignmentsType" name="Consignments"/>
+    </collection>
+    <structure map-as="predec:RailwayType" get-method="getRailway" set-method="setRailway" name="Railway"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.prelimdecisionmsg.PrelimDecisionMsgType" name="PrelimDecisionMsg">
+    <structure map-as="predec:PrelimDecisionMsgType"/>
+  </mapping>
+  <mapping abstract="true" type-name="predec:ConsignmentsType" class="ru.acs.fts.schemas.album.prelimdecisionmsg.ConsignmentsType">
+    <value style="element" name="ConsignmentNum" get-method="getConsignmentNum" set-method="setConsignmentNum"/>
+    <value style="element" name="BillSerialNumber" get-method="getBillSerialNumber" set-method="setBillSerialNumber"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="predec:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="predec:GoodsType" class="ru.acs.fts.schemas.album.prelimdecisionmsg.GoodsType">
+    <structure map-as="cat_ru:GoodsBaseType"/>
+    <value style="element" name="CustControlForm" get-method="getCustControlForm" set-method="setCustControlForm" usage="optional"/>
+    <value style="element" name="CustControlResult" get-method="getCustControlResult" set-method="setCustControlResult" usage="optional"/>
+    <value style="element" name="CustControlDecision" get-method="getCustControlDecision" set-method="setCustControlDecision"/>
+    <value style="element" name="WagonNumber" get-method="getWagonNumber" set-method="setWagonNumber" usage="optional"/>
+    <value style="element" name="ContainerNumber" get-method="getContainerNumber" set-method="setContainerNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="predec:RailwayType" class="ru.acs.fts.schemas.album.prelimdecisionmsg.RailwayType">
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode" usage="optional"/>
+    <value style="element" name="RailwayAndStationName" get-method="getRailwayAndStationName" set-method="setRailwayAndStationName"/>
+    <value style="element" name="TrainIndex" get-method="getTrainIndex" set-method="setTrainIndex" usage="optional"/>
+    <value style="element" name="TrainNumber" get-method="getTrainNumber" set-method="setTrainNumber" usage="optional"/>
+  </mapping>
+</binding>

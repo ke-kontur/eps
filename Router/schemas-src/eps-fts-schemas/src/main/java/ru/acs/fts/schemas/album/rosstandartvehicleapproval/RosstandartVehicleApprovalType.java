@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Одобрение транспортного средства
+ * РћРґРѕР±СЂРµРЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class RosstandartVehicleApprovalType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TCtypeApprovalsAddition' element value. Примечание
+     * Get the 'TCtypeApprovalsAddition' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Set the 'TCtypeApprovalsAddition' element value. Примечание
+     * Set the 'TCtypeApprovalsAddition' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param TCtypeApprovalsAddition
      */
@@ -34,7 +34,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Get the 'TCtypeResult' element value. Признак положительного ответа
+     * Get the 'TCtypeResult' element value. РџСЂРёР·РЅР°Рє РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРіРѕ РѕС‚РІРµС‚Р°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Set the 'TCtypeResult' element value. Признак положительного ответа
+     * Set the 'TCtypeResult' element value. РџСЂРёР·РЅР°Рє РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРіРѕ РѕС‚РІРµС‚Р°
      * 
      * @param TCtypeResult
      */
@@ -52,7 +52,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportMean' element value. Транспортное средство
+     * Get the 'TransportMean' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMean' element value. Транспортное средство
+     * Set the 'TransportMean' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param transportMean
      */
@@ -70,7 +70,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Get the 'Approval' element value. Одобрение типа транспортного средства
+     * Get the 'Approval' element value. РћРґРѕР±СЂРµРЅРёРµ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Set the 'Approval' element value. Одобрение типа транспортного средства
+     * Set the 'Approval' element value. РћРґРѕР±СЂРµРЅРёРµ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param approval
      */
@@ -88,7 +88,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class RosstandartVehicleApprovalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

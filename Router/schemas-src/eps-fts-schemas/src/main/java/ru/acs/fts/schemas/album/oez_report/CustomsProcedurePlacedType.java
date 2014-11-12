@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о товарах помещенных под таможенную процедуру
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ
  */
 public class CustomsProcedurePlacedType extends CustomsModeQuantityType
 {
     private List<String> noteList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'Note' element items. Примечание
+     * Get the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class CustomsProcedurePlacedType extends CustomsModeQuantityType
     }
 
     /** 
-     * Set the list of 'Note' element items. Примечание
+     * Set the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param list
      */

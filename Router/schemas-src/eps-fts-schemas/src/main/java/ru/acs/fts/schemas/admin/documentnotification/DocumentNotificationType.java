@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.admin.documentnotification;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Документ
+ * Р”РѕРєСѓРјРµРЅС‚
  */
 public class DocumentNotificationType extends BaseDocType
 {
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentNotificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Свидетельство о включении в реестр уполномоченных экономических операторов/таможенных перевозчиков/владельцев СВХ/владельцев магазинов беспошлинной торговли/владельцев таможенных складов
+ * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹С… СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… РѕРїРµСЂР°С‚РѕСЂРѕРІ/С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРµСЂРµРІРѕР·С‡РёРєРѕРІ/РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ/РІР»Р°РґРµР»СЊС†РµРІ РјР°РіР°Р·РёРЅРѕРІ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё/РІР»Р°РґРµР»СЊС†РµРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… СЃРєР»Р°РґРѕРІ
  */
 public class CustomsRegistryCertificateType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. Признак свидетельства о включении в реестр: 1 - УЭО; 2 - таможенных перевозчиков; 3 - владельцев СВХ; 4 - владельцев магазинов беспошлинной торговли; 5 - владельцев таможенных складов
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ: 1 - РЈР­Рћ; 2 - С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРµСЂРµРІРѕР·С‡РёРєРѕРІ; 3 - РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ; 4 - РІР»Р°РґРµР»СЊС†РµРІ РјР°РіР°Р·РёРЅРѕРІ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё; 5 - РІР»Р°РґРµР»СЊС†РµРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… СЃРєР»Р°РґРѕРІ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак свидетельства о включении в реестр: 1 - УЭО; 2 - таможенных перевозчиков; 3 - владельцев СВХ; 4 - владельцев магазинов беспошлинной торговли; 5 - владельцев таможенных складов
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ: 1 - РЈР­Рћ; 2 - С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРµСЂРµРІРѕР·С‡РёРєРѕРІ; 3 - РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ; 4 - РІР»Р°РґРµР»СЊС†РµРІ РјР°РіР°Р·РёРЅРѕРІ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё; 5 - РІР»Р°РґРµР»СЊС†РµРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… СЃРєР»Р°РґРѕРІ
      * 
      * @param docSign
      */
@@ -46,7 +46,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата выдачи свидетельства/подписи документа
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°/РїРѕРґРїРёСЃРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата выдачи свидетельства/подписи документа
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°/РїРѕРґРїРёСЃРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param issueDate
      */
@@ -64,7 +64,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateRegNumber' element value. Регистрационный номер свидетельства
+     * Get the 'CertificateRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateRegNumber' element value. Регистрационный номер свидетельства
+     * Set the 'CertificateRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @param certificateRegNumber
      */
@@ -82,7 +82,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Simplification' element items. Специальное упрощение (УЭО)
+     * Get the list of 'Simplification' element items. РЎРїРµС†РёР°Р»СЊРЅРѕРµ СѓРїСЂРѕС‰РµРЅРёРµ (РЈР­Рћ)
      * 
      * @return list
      */
@@ -91,7 +91,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Simplification' element items. Специальное упрощение (УЭО)
+     * Set the list of 'Simplification' element items. РЎРїРµС†РёР°Р»СЊРЅРѕРµ СѓРїСЂРѕС‰РµРЅРёРµ (РЈР­Рћ)
      * 
      * @param list
      */
@@ -100,7 +100,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseType' element value. Признак того, что склад является открытым
+     * Get the 'WarehouseType' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃРєР»Р°Рґ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РєСЂС‹С‚С‹Рј
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseType' element value. Признак того, что склад является открытым
+     * Set the 'WarehouseType' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃРєР»Р°Рґ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РєСЂС‹С‚С‹Рј
      * 
      * @param warehouseType
      */
@@ -118,7 +118,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalSquare' element value. Общая площадь МБТ/склада, кв. м
+     * Get the 'TotalSquare' element value. РћР±С‰Р°СЏ РїР»РѕС‰Р°РґСЊ РњР‘Рў/СЃРєР»Р°РґР°, РєРІ. Рј
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalSquare' element value. Общая площадь МБТ/склада, кв. м
+     * Set the 'TotalSquare' element value. РћР±С‰Р°СЏ РїР»РѕС‰Р°РґСЊ РњР‘Рў/СЃРєР»Р°РґР°, РєРІ. Рј
      * 
      * @param totalSquare
      */
@@ -136,7 +136,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueCustoms' element value. Сведения о таможенном органе, выдавшем свидетельство
+     * Get the 'IssueCustoms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueCustoms' element value. Сведения о таможенном органе, выдавшем свидетельство
+     * Set the 'IssueCustoms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @param issueCustoms
      */
@@ -154,7 +154,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SimplificOperationCustoms' element items. Таможенные органы, в которых могут производиться таможенные операции (УЭО)
+     * Get the list of 'SimplificOperationCustoms' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹, РІ РєРѕС‚РѕСЂС‹С… РјРѕРіСѓС‚ РїСЂРѕРёР·РІРѕРґРёС‚СЊСЃСЏ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕРїРµСЂР°С†РёРё (РЈР­Рћ)
      * 
      * @return list
      */
@@ -163,7 +163,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SimplificOperationCustoms' element items. Таможенные органы, в которых могут производиться таможенные операции (УЭО)
+     * Set the list of 'SimplificOperationCustoms' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹, РІ РєРѕС‚РѕСЂС‹С… РјРѕРіСѓС‚ РїСЂРѕРёР·РІРѕРґРёС‚СЊСЃСЏ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕРїРµСЂР°С†РёРё (РЈР­Рћ)
      * 
      * @param list
      */
@@ -172,7 +172,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Guarantee' element items. Сведения об обеспечении уплаты таможенных платежей
+     * Get the list of 'Guarantee' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµСЃРїРµС‡РµРЅРёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -181,7 +181,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Guarantee' element items. Сведения об обеспечении уплаты таможенных платежей
+     * Set the list of 'Guarantee' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµСЃРїРµС‡РµРЅРёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */
@@ -190,7 +190,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegisteredOrganization' element value. Сведения об организации, зарегистрированной в качестве УЭО/таможенного перевозчика/владельца СВХ/владельца МБТ/владельца таможенного склада
+     * Get the 'RegisteredOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ РІ РєР°С‡РµСЃС‚РІРµ РЈР­Рћ/С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРµСЂРµРІРѕР·С‡РёРєР°/РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ/РІР»Р°РґРµР»СЊС†Р° РњР‘Рў/РІР»Р°РґРµР»СЊС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegisteredOrganization' element value. Сведения об организации, зарегистрированной в качестве УЭО/таможенного перевозчика/владельца СВХ/владельца МБТ/владельца таможенного склада
+     * Set the 'RegisteredOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ РІ РєР°С‡РµСЃС‚РІРµ РЈР­Рћ/С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРµСЂРµРІРѕР·С‡РёРєР°/РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ/РІР»Р°РґРµР»СЊС†Р° РњР‘Рў/РІР»Р°РґРµР»СЊС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
      * 
      * @param registeredOrganization
      */
@@ -209,7 +209,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChiefCustomsPerson' element value. Руководитель таможенного органа
+     * Get the 'ChiefCustomsPerson' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChiefCustomsPerson' element value. Руководитель таможенного органа
+     * Set the 'ChiefCustomsPerson' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param chiefCustomsPerson
      */
@@ -227,7 +227,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsOperationPlace' element items. Характеристика местонахождения помещения, открытой площадки, иной территории
+     * Get the list of 'GoodsOperationPlace' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ РїРѕРјРµС‰РµРЅРёСЏ, РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё, РёРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
      * 
      * @return list
      */
@@ -236,7 +236,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsOperationPlace' element items. Характеристика местонахождения помещения, открытой площадки, иной территории
+     * Set the list of 'GoodsOperationPlace' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ РїРѕРјРµС‰РµРЅРёСЏ, РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё, РёРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
      * 
      * @param list
      */
@@ -245,7 +245,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class CustomsRegistryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

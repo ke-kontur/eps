@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cashmemorandum;
 import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.SpecificationGoodsType;
 
 /** 
- * Линия товарного чека
+ * Р›РёРЅРёСЏ С‚РѕРІР°СЂРЅРѕРіРѕ С‡РµРєР°
  */
 public class GoodsType extends SpecificationGoodsType
 {
@@ -14,7 +14,7 @@ public class GoodsType extends SpecificationGoodsType
     private String notes;
 
     /** 
-     * Get the 'Number' element value. Номер товара в списке
+     * Get the 'Number' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Set the 'Number' element value. Номер товара в списке
+     * Set the 'Number' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ
      * 
      * @param number
      */
@@ -32,7 +32,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Get the 'Discount' element value. Скидка, в процентах
+     * Get the 'Discount' element value. РЎРєРёРґРєР°, РІ РїСЂРѕС†РµРЅС‚Р°С…
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Set the 'Discount' element value. Скидка, в процентах
+     * Set the 'Discount' element value. РЎРєРёРґРєР°, РІ РїСЂРѕС†РµРЅС‚Р°С…
      * 
      * @param discount
      */
@@ -50,7 +50,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Get the 'TaxPercent' element value. Налог, в процентах от стоимости товара
+     * Get the 'TaxPercent' element value. РќР°Р»РѕРі, РІ РїСЂРѕС†РµРЅС‚Р°С… РѕС‚ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Set the 'TaxPercent' element value. Налог, в процентах от стоимости товара
+     * Set the 'TaxPercent' element value. РќР°Р»РѕРі, РІ РїСЂРѕС†РµРЅС‚Р°С… РѕС‚ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР°
      * 
      * @param taxPercent
      */
@@ -68,7 +68,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Get the 'Notes' element value. Дополнительная информация
+     * Get the 'Notes' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class GoodsType extends SpecificationGoodsType
     }
 
     /** 
-     * Set the 'Notes' element value. Дополнительная информация
+     * Set the 'Notes' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param notes
      */

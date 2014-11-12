@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * Описание товаров
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
  */
 public class ArriveGoodsType extends GoodsBaseType
 {
@@ -18,7 +18,7 @@ public class ArriveGoodsType extends GoodsBaseType
     private ArrivePackingInformationType arrivePackingInformation;
 
     /** 
-     * Get the 'InvoicedCost' element value. Фактурная стоимость / Цена товара
+     * Get the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ / Р¦РµРЅР° С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Фактурная стоимость / Цена товара
+     * Set the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ / Р¦РµРЅР° С‚РѕРІР°СЂР°
      * 
      * @param invoicedCost
      */
@@ -36,7 +36,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'ContractCurrencyCode' element value. Трехзначный буквенный код валюты фактурной стоимости / цены. 
+     * Get the 'ContractCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё / С†РµРЅС‹. 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'ContractCurrencyCode' element value. Трехзначный буквенный код валюты фактурной стоимости / цены. 
+     * Set the 'ContractCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё / С†РµРЅС‹. 
      * 
      * @param contractCurrencyCode
      */
@@ -54,7 +54,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'Volume' element value. Объем товара
+     * Get the 'Volume' element value. РћР±СЉРµРј С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Volume' element value. Объем товара
+     * Set the 'Volume' element value. РћР±СЉРµРј С‚РѕРІР°СЂР°
      * 
      * @param volume
      */
@@ -72,7 +72,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'SupplementaryQuantity' element items. Кол-во товара в дополнительных единицах  измерения
+     * Get the list of 'SupplementaryQuantity' element items. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С…  РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'SupplementaryQuantity' element items. Кол-во товара в дополнительных единицах  измерения
+     * Set the list of 'SupplementaryQuantity' element items. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С…  РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'ArrivePackingInformation' element value. Информация об упаковках
+     * Get the 'ArrivePackingInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ArriveGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'ArrivePackingInformation' element value. Информация об упаковках
+     * Set the 'ArrivePackingInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
      * 
      * @param arrivePackingInformation
      */

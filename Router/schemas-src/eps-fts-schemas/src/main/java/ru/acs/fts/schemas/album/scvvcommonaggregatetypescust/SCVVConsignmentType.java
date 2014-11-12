@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.scvvcommonaggregatetypescust;
 
 /** 
- * Информация о фактическом вывозе по товарной партии
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class SCVVConsignmentType extends SCVVShipmentFactInfoType
 {
     private GTDInqType DTID;
 
     /** 
-     * Get the 'DTID' element value. Регистрационный номер ДТ.
+     * Get the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class SCVVConsignmentType extends SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'DTID' element value. Регистрационный номер ДТ.
+     * Set the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param DTID
      */

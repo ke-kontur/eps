@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Базовый тип для архива
+ * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ Р°СЂС…РёРІР°
  */
 public class ArchBaseType extends BaseDocType
 {
@@ -12,7 +12,7 @@ public class ArchBaseType extends BaseDocType
     private String archID;
 
     /** 
-     * Get the 'ArchDeclID' element value. Идентификатор декларанта в архиве. 
+     * Get the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ. 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ArchBaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. Идентификатор декларанта в архиве. 
+     * Set the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ. 
      * 
      * @param archDeclID
      */
@@ -30,7 +30,7 @@ public class ArchBaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор архива
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ArchBaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор архива
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
      * 
      * @param archID
      */

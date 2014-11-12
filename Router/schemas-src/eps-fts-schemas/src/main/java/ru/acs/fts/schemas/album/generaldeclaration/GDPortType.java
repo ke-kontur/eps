@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.generaldeclaration;
 
 /** 
- * Сведения о прибытии/убытии судна
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё СЃСѓРґРЅР°
  */
 public class GDPortType
 {
@@ -12,7 +12,7 @@ public class GDPortType
     private String countryCode;
 
     /** 
-     * Get the 'DateTimeInf' element value. Дата и время
+     * Get the 'DateTimeInf' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class GDPortType
     }
 
     /** 
-     * Set the 'DateTimeInf' element value. Дата и время
+     * Set the 'DateTimeInf' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ
      * 
      * @param dateTimeInf
      */
@@ -30,7 +30,7 @@ public class GDPortType
     }
 
     /** 
-     * Get the 'PortName' element value. Название порта
+     * Get the 'PortName' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class GDPortType
     }
 
     /** 
-     * Set the 'PortName' element value. Название порта
+     * Set the 'PortName' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р°
      * 
      * @param portName
      */
@@ -48,7 +48,7 @@ public class GDPortType
     }
 
     /** 
-     * Get the 'CountyName' element value. Наименование страны
+     * Get the 'CountyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class GDPortType
     }
 
     /** 
-     * Set the 'CountyName' element value. Наименование страны
+     * Set the 'CountyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @param countyName
      */
@@ -66,7 +66,7 @@ public class GDPortType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Код страны
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class GDPortType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCode
      */

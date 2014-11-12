@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о поступлении товаров на СВХ
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїРѕСЃС‚СѓРїР»РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РЎР’РҐ
  */
 public class NotifGoodsWhArriveType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NotifDate' element value. Дата формирования уведомления
+     * Get the 'NotifDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifDate' element value. Дата формирования уведомления
+     * Set the 'NotifDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param notifDate
      */
@@ -39,7 +39,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifTime' element value. Время формирования уведомления
+     * Get the 'NotifTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifTime' element value. Время формирования уведомления
+     * Set the 'NotifTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param notifTime
      */
@@ -57,7 +57,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -75,7 +75,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -93,7 +93,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Номер ДТ
+     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Номер ДТ
+     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @param GTDID
      */
@@ -111,7 +111,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsLocation' element value. Местонахождение товара
+     * Get the 'GoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsLocation' element value. Местонахождение товара
+     * Set the 'GoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param goodsLocation
      */
@@ -129,7 +129,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class NotifGoodsWhArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

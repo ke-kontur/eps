@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Сведения о лице, имеющем право без доверенности действовать от имени юридического лица
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РёРјРµСЋС‰РµРј РїСЂР°РІРѕ Р±РµР· РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РґРµР№СЃС‚РІРѕРІР°С‚СЊ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class AuthorizedOrgType extends OrganizationType
 {
@@ -16,7 +16,7 @@ public class AuthorizedOrgType extends OrganizationType
     private String originCountryName;
 
     /** 
-     * Get the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 -  российское юр. лицо; 3 - иностранное юр. лицо
+     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 -  СЂРѕСЃСЃРёР№СЃРєРѕРµ СЋСЂ. Р»РёС†Рѕ; 3 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 -  российское юр. лицо; 3 - иностранное юр. лицо
+     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 -  СЂРѕСЃСЃРёР№СЃРєРѕРµ СЋСЂ. Р»РёС†Рѕ; 3 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ
      * 
      * @param orgSign
      */
@@ -34,7 +34,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Должность
+     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Должность
+     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @param personPost
      */
@@ -52,7 +52,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Get the 'PersonKindCode' element value. Вид должностного лица по справочнику СКФЛЮЛ
+     * Get the 'PersonKindCode' element value. Р’РёРґ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎРљР¤Р›Р®Р›
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'PersonKindCode' element value. Вид должностного лица по справочнику СКФЛЮЛ
+     * Set the 'PersonKindCode' element value. Р’РёРґ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎРљР¤Р›Р®Р›
      * 
      * @param personKindCode
      */
@@ -70,7 +70,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Get the 'PersonKindName' element value. Наименование вида должностного лица по справочнику СКФЛЮЛ
+     * Get the 'PersonKindName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІРёРґР° РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎРљР¤Р›Р®Р›
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'PersonKindName' element value. Наименование вида должностного лица по справочнику СКФЛЮЛ
+     * Set the 'PersonKindName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІРёРґР° РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎРљР¤Р›Р®Р›
      * 
      * @param personKindName
      */
@@ -88,7 +88,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryCode
      */
@@ -106,7 +106,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. Наименование страны происхождения
+     * Get the 'OriginCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class AuthorizedOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Наименование страны происхождения
+     * Set the 'OriginCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryName
      */

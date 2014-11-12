@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Документы, подтверждающие заявленные сведения
+ * Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
  */
 public class CostConfirmationDocumentType
 {
@@ -13,7 +13,7 @@ public class CostConfirmationDocumentType
     private List<String> methodConditionList = new ArrayList<String>();
 
     /** 
-     * Get the 'PreviousCostAppriaseMethod' element value. Предыдущий метод определения таможенной стоимости. (для метода 6)
+     * Get the 'PreviousCostAppriaseMethod' element value. РџСЂРµРґС‹РґСѓС‰РёР№ РјРµС‚РѕРґ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РґР»СЏ РјРµС‚РѕРґР° 6)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CostConfirmationDocumentType
     }
 
     /** 
-     * Set the 'PreviousCostAppriaseMethod' element value. Предыдущий метод определения таможенной стоимости. (для метода 6)
+     * Set the 'PreviousCostAppriaseMethod' element value. РџСЂРµРґС‹РґСѓС‰РёР№ РјРµС‚РѕРґ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РґР»СЏ РјРµС‚РѕРґР° 6)
      * 
      * @param previousCostAppriaseMethod
      */
@@ -31,7 +31,7 @@ public class CostConfirmationDocumentType
     }
 
     /** 
-     * Get the list of 'MethodCondition' element items. Условия применения соответствующего метода (1-5)  для метода 6 при гибком подходе
+     * Get the list of 'MethodCondition' element items. РЈСЃР»РѕРІРёСЏ РїСЂРёРјРµРЅРµРЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРіРѕ РјРµС‚РѕРґР° (1-5)  РґР»СЏ РјРµС‚РѕРґР° 6 РїСЂРё РіРёР±РєРѕРј РїРѕРґС…РѕРґРµ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class CostConfirmationDocumentType
     }
 
     /** 
-     * Set the list of 'MethodCondition' element items. Условия применения соответствующего метода (1-5)  для метода 6 при гибком подходе
+     * Set the list of 'MethodCondition' element items. РЈСЃР»РѕРІРёСЏ РїСЂРёРјРµРЅРµРЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРіРѕ РјРµС‚РѕРґР° (1-5)  РґР»СЏ РјРµС‚РѕРґР° 6 РїСЂРё РіРёР±РєРѕРј РїРѕРґС…РѕРґРµ
      * 
      * @param list
      */

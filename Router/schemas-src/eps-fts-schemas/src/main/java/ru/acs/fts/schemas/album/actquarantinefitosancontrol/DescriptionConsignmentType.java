@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actquarantinefitosancontrol;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Описание груза
+ * РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
  */
 public class DescriptionConsignmentType
 {
@@ -18,7 +18,7 @@ public class DescriptionConsignmentType
     private DesinfestationType desinfestationInfo;
 
     /** 
-     * Get the 'GoodsDescription' element value. Описание продукции, грузов, материалов, транспортных средств.
+     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё, РіСЂСѓР·РѕРІ, РјР°С‚РµСЂРёР°Р»РѕРІ, С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. Описание продукции, грузов, материалов, транспортных средств.
+     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё, РіСЂСѓР·РѕРІ, РјР°С‚РµСЂРёР°Р»РѕРІ, С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @param goodsDescription
      */
@@ -36,7 +36,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'QuantityPlace' element value. Общее количество мест
+     * Get the 'QuantityPlace' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'QuantityPlace' element value. Общее количество мест
+     * Set the 'QuantityPlace' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
      * 
      * @param quantityPlace
      */
@@ -54,7 +54,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество продукции
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество продукции
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param goodsQuantity
      */
@@ -72,7 +72,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'GoodsWeightQuantity' element value. Вес продукции (кг)
+     * Get the 'GoodsWeightQuantity' element value. Р’РµСЃ РїСЂРѕРґСѓРєС†РёРё (РєРі)
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'GoodsWeightQuantity' element value. Вес продукции (кг)
+     * Set the 'GoodsWeightQuantity' element value. Р’РµСЃ РїСЂРѕРґСѓРєС†РёРё (РєРі)
      * 
      * @param goodsWeightQuantity
      */
@@ -90,7 +90,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'Arrival' element value. Прибытие груза
+     * Get the 'Arrival' element value. РџСЂРёР±С‹С‚РёРµ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'Arrival' element value. Прибытие груза
+     * Set the 'Arrival' element value. РџСЂРёР±С‹С‚РёРµ РіСЂСѓР·Р°
      * 
      * @param arrival
      */
@@ -108,7 +108,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'Origin' element value. Происхождение груза
+     * Get the 'Origin' element value. РџСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'Origin' element value. Происхождение груза
+     * Set the 'Origin' element value. РџСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ РіСЂСѓР·Р°
      * 
      * @param origin
      */
@@ -126,7 +126,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'LocationPlace' element value. Место нахождения продукции
+     * Get the 'LocationPlace' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'LocationPlace' element value. Место нахождения продукции
+     * Set the 'LocationPlace' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param locationPlace
      */
@@ -144,7 +144,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Get the 'DesinfestationInfo' element value. Сведения об обеззараживании
+     * Get the 'DesinfestationInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРё
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class DescriptionConsignmentType
     }
 
     /** 
-     * Set the 'DesinfestationInfo' element value. Сведения об обеззараживании
+     * Set the 'DesinfestationInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРё
      * 
      * @param desinfestationInfo
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Гарантия для ТД
+ * Р“Р°СЂР°РЅС‚РёСЏ РґР»СЏ РўР”
  */
 public class TDGuaranteeType
 {
@@ -20,7 +20,7 @@ public class TDGuaranteeType
     private AddressType guaranteeAddress;
 
     /** 
-     * Get the 'MeasureCode' element value. Код меры обеспечения по классификатору мер обеспечения
+     * Get the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'MeasureCode' element value. Код меры обеспечения по классификатору мер обеспечения
+     * Set the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param measureCode
      */
@@ -38,7 +38,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'DocNumber' element value. Номер документа
+     * Get the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'DocNumber' element value. Номер документа
+     * Set the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docNumber
      */
@@ -56,7 +56,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'DocDate' element value. Дата документа
+     * Get the 'DocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'DocDate' element value. Дата документа
+     * Set the 'DocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docDate
      */
@@ -74,7 +74,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'GuaranteeName' element value. Наименование гаранта
+     * Get the 'GuaranteeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіР°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'GuaranteeName' element value. Наименование гаранта
+     * Set the 'GuaranteeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіР°СЂР°РЅС‚Р°
      * 
      * @param guaranteeName
      */
@@ -92,7 +92,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'UNP' element value. Учетный номер плательщика (УНП)
+     * Get the 'UNP' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РїР»Р°С‚РµР»СЊС‰РёРєР° (РЈРќРџ)
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'UNP' element value. Учетный номер плательщика (УНП)
+     * Set the 'UNP' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РїР»Р°С‚РµР»СЊС‰РёРєР° (РЈРќРџ)
      * 
      * @param UNP
      */
@@ -110,7 +110,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'BIC' element value. Код МФО/БИК
+     * Get the 'BIC' element value. РљРѕРґ РњР¤Рћ/Р‘РРљ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'BIC' element value. Код МФО/БИК
+     * Set the 'BIC' element value. РљРѕРґ РњР¤Рћ/Р‘РРљ
      * 
      * @param BIC
      */
@@ -128,7 +128,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'GuaranteeAmount' element value. Сумма обеспечения. Для РБ
+     * Get the 'GuaranteeAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ. Р”Р»СЏ Р Р‘
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'GuaranteeAmount' element value. Сумма обеспечения. Для РБ
+     * Set the 'GuaranteeAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ. Р”Р»СЏ Р Р‘
      * 
      * @param guaranteeAmount
      */
@@ -146,7 +146,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'GuaranteeTD' element value. Поручительство
+     * Get the 'GuaranteeTD' element value. РџРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'GuaranteeTD' element value. Поручительство
+     * Set the 'GuaranteeTD' element value. РџРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @param guaranteeTD
      */
@@ -164,7 +164,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'GuaranteeAddress' element value. Адрес гаранта
+     * Get the 'GuaranteeAddress' element value. РђРґСЂРµСЃ РіР°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'GuaranteeAddress' element value. Адрес гаранта
+     * Set the 'GuaranteeAddress' element value. РђРґСЂРµСЃ РіР°СЂР°РЅС‚Р°
      * 
      * @param guaranteeAddress
      */

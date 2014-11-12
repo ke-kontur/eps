@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.ConsigneeType;
 
 /** 
- * Комплексный тип для описания грузополучателя при составлении отчета ДО2
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ РїСЂРё СЃРѕСЃС‚Р°РІР»РµРЅРёРё РѕС‚С‡РµС‚Р° Р”Рћ2
  */
 public class DO2ConsigneeType extends ConsigneeType
 {
     private PersonBaseType consigneePerson;
 
     /** 
-     * Get the 'ConsigneePerson' element value. Представитель получателя
+     * Get the 'ConsigneePerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DO2ConsigneeType extends ConsigneeType
     }
 
     /** 
-     * Set the 'ConsigneePerson' element value. Представитель получателя
+     * Set the 'ConsigneePerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param consigneePerson
      */

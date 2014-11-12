@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Сведения об организации. Особенности Республики Беларусь
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
  */
 public class RBOrganizationFeaturesType
 {
@@ -10,7 +10,7 @@ public class RBOrganizationFeaturesType
     private String RBIdentificationNumber;
 
     /** 
-     * Get the 'UNP' element value. Учетный номер плательщика (УНП)
+     * Get the 'UNP' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РїР»Р°С‚РµР»СЊС‰РёРєР° (РЈРќРџ)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class RBOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'UNP' element value. Учетный номер плательщика (УНП)
+     * Set the 'UNP' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РїР»Р°С‚РµР»СЊС‰РёРєР° (РЈРќРџ)
      * 
      * @param UNP
      */
@@ -28,7 +28,7 @@ public class RBOrganizationFeaturesType
     }
 
     /** 
-     * Get the 'RBIdentificationNumber' element value. Идентификационный номер физического лица
+     * Get the 'RBIdentificationNumber' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RBOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'RBIdentificationNumber' element value. Идентификационный номер физического лица
+     * Set the 'RBIdentificationNumber' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param RBIdentificationNumber
      */

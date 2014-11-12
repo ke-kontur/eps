@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Порядковый номер Решения, присваиваемый по журналу регистрации решений о внесении изменений в сведения, содержащиеся в ДТ, после выпуска товаров и корректировке ее электронной копии
+ * РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р РµС€РµРЅРёСЏ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё СЂРµС€РµРЅРёР№ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ СЃРІРµРґРµРЅРёСЏ, СЃРѕРґРµСЂР¶Р°С‰РёРµСЃСЏ РІ Р”Рў, РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ Рё РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРµ РµРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё
  */
 public class SolutionNumberType extends GTDIDType
 {
@@ -12,7 +12,7 @@ public class SolutionNumberType extends GTDIDType
     private String solutionInformation;
 
     /** 
-     * Get the 'Code' element value. Код корректировки в соответствии с классификатором типов корректировки ДТ после выпуска товаров
+     * Get the 'Code' element value. РљРѕРґ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С‚РёРїРѕРІ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Р”Рў РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SolutionNumberType extends GTDIDType
     }
 
     /** 
-     * Set the 'Code' element value. Код корректировки в соответствии с классификатором типов корректировки ДТ после выпуска товаров
+     * Set the 'Code' element value. РљРѕРґ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С‚РёРїРѕРІ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Р”Рў РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @param code
      */
@@ -30,7 +30,7 @@ public class SolutionNumberType extends GTDIDType
     }
 
     /** 
-     * Get the 'SolutionInformation' element value. Информация о принятом решении на внесение изменений в ДТ
+     * Get the 'SolutionInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёРЅСЏС‚РѕРј СЂРµС€РµРЅРёРё РЅР° РІРЅРµСЃРµРЅРёРµ РёР·РјРµРЅРµРЅРёР№ РІ Р”Рў
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SolutionNumberType extends GTDIDType
     }
 
     /** 
-     * Set the 'SolutionInformation' element value. Информация о принятом решении на внесение изменений в ДТ
+     * Set the 'SolutionInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёРЅСЏС‚РѕРј СЂРµС€РµРЅРёРё РЅР° РІРЅРµСЃРµРЅРёРµ РёР·РјРµРЅРµРЅРёР№ РІ Р”Рў
      * 
      * @param solutionInformation
      */

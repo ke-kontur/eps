@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Результаты досмотра грузового автомобиля (товарная позиция 8704 по ТН ВЭД ТС)
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° РіСЂСѓР·РѕРІРѕРіРѕ Р°РІС‚РѕРјРѕР±РёР»СЏ (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8704 РїРѕ РўРќ Р’Р­Р” РўРЎ)
  */
 public class TruckInspResultsType extends CommonParametersType
 {
@@ -15,7 +15,7 @@ public class TruckInspResultsType extends CommonParametersType
     private DamagesType damages;
 
     /** 
-     * Get the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Get the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Set the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @param arriveMode
      */
@@ -33,7 +33,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'DuoCabPresence' element value. Наличие сдвоенной кабины: "0" - нет, "1" - да
+     * Get the 'DuoCabPresence' element value. РќР°Р»РёС‡РёРµ СЃРґРІРѕРµРЅРЅРѕР№ РєР°Р±РёРЅС‹: "0" - РЅРµС‚, "1" - РґР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'DuoCabPresence' element value. Наличие сдвоенной кабины: "0" - нет, "1" - да
+     * Set the 'DuoCabPresence' element value. РќР°Р»РёС‡РёРµ СЃРґРІРѕРµРЅРЅРѕР№ РєР°Р±РёРЅС‹: "0" - РЅРµС‚, "1" - РґР°
      * 
      * @param duoCabPresence
      */
@@ -51,7 +51,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'TruckParameters' element value. Параметры, присущие тягачам и грузовикам
+     * Get the 'TruckParameters' element value. РџР°СЂР°РјРµС‚СЂС‹, РїСЂРёСЃСѓС‰РёРµ С‚СЏРіР°С‡Р°Рј Рё РіСЂСѓР·РѕРІРёРєР°Рј
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'TruckParameters' element value. Параметры, присущие тягачам и грузовикам
+     * Set the 'TruckParameters' element value. РџР°СЂР°РјРµС‚СЂС‹, РїСЂРёСЃСѓС‰РёРµ С‚СЏРіР°С‡Р°Рј Рё РіСЂСѓР·РѕРІРёРєР°Рј
      * 
      * @param truckParameters
      */
@@ -69,7 +69,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'CargoPlace' element value. Характеристика грузового места
+     * Get the 'CargoPlace' element value. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'CargoPlace' element value. Характеристика грузового места
+     * Set the 'CargoPlace' element value. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
      * 
      * @param cargoPlace
      */
@@ -87,7 +87,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'TruckDopDevice' element value. Дополнительное оборудование в грузовом автомобиле
+     * Get the 'TruckDopDevice' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ РіСЂСѓР·РѕРІРѕРј Р°РІС‚РѕРјРѕР±РёР»Рµ
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'TruckDopDevice' element value. Дополнительное оборудование в грузовом автомобиле
+     * Set the 'TruckDopDevice' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ РіСЂСѓР·РѕРІРѕРј Р°РІС‚РѕРјРѕР±РёР»Рµ
      * 
      * @param truckDopDevice
      */
@@ -105,7 +105,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Podveska' element value. Подвеска колес
+     * Get the 'Podveska' element value. РџРѕРґРІРµСЃРєР° РєРѕР»РµСЃ
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class TruckInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Podveska' element value. Подвеска колес
+     * Set the 'Podveska' element value. РџРѕРґРІРµСЃРєР° РєРѕР»РµСЃ
      * 
      * @param podveska
      */

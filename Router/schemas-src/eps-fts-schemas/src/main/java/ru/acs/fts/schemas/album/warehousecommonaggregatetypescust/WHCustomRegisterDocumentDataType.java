@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.warehousecommonleaftypescust.CustomDocumentState;
 
 /** 
- * Комплексный тип для данных о регистрации документа в таможенном органе
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РґР°РЅРЅС‹С… Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
  */
 public class WHCustomRegisterDocumentDataType
 {
@@ -15,7 +15,7 @@ public class WHCustomRegisterDocumentDataType
     private WHDocumentRegisterNumberType registerNumber;
 
     /** 
-     * Get the 'CustomState' element value. Таможенный статус отчета
+     * Get the 'CustomState' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃС‚Р°С‚СѓСЃ РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Set the 'CustomState' element value. Таможенный статус отчета
+     * Set the 'CustomState' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃС‚Р°С‚СѓСЃ РѕС‚С‡РµС‚Р°
      * 
      * @param customState
      */
@@ -33,7 +33,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Get the 'RegisterTime' element value. Время регистрации отчета в журнале регистрации ДО таможенного органа
+     * Get the 'RegisterTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚Р° РІ Р¶СѓСЂРЅР°Р»Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рћ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Set the 'RegisterTime' element value. Время регистрации отчета в журнале регистрации ДО таможенного органа
+     * Set the 'RegisterTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚Р° РІ Р¶СѓСЂРЅР°Р»Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рћ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param registerTime
      */
@@ -51,7 +51,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Get the 'Inspector' element value. Сотрудник таможенного органа, зарегистрировавший отчет
+     * Get the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РёР№ РѕС‚С‡РµС‚
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Set the 'Inspector' element value. Сотрудник таможенного органа, зарегистрировавший отчет
+     * Set the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РёР№ РѕС‚С‡РµС‚
      * 
      * @param inspector
      */
@@ -69,7 +69,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Get the 'Cancelation' element value. Данные об аннулировании отчета
+     * Get the 'Cancelation' element value. Р”Р°РЅРЅС‹Рµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Set the 'Cancelation' element value. Данные об аннулировании отчета
+     * Set the 'Cancelation' element value. Р”Р°РЅРЅС‹Рµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РѕС‚С‡РµС‚Р°
      * 
      * @param cancelation
      */
@@ -87,7 +87,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Get the 'RegisterNumber' element value. Регистрационный номер отчета по журналу регистрации ДО таможенного органа
+     * Get the 'RegisterNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡РµС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рћ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class WHCustomRegisterDocumentDataType
     }
 
     /** 
-     * Set the 'RegisterNumber' element value. Регистрационный номер отчета по журналу регистрации ДО таможенного органа
+     * Set the 'RegisterNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡РµС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рћ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param registerNumber
      */

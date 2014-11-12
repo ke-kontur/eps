@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Предоставление документа по запросу ТО
+ * РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р·Р°РїСЂРѕСЃСѓ РўРћ
  */
 public class EPSDocResponseType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class EPSDocResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchDocumentInfo' element value. Информация архива декларанта
+     * Get the 'ArchDocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchDocumentInfo' element value. Информация архива декларанта
+     * Set the 'ArchDocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archDocumentInfo
      */
@@ -34,7 +34,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocResponse' element value. Запрошенный документ
+     * Get the 'DocResponse' element value. Р—Р°РїСЂРѕС€РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocResponse' element value. Запрошенный документ
+     * Set the 'DocResponse' element value. Р—Р°РїСЂРѕС€РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param docResponse
      */
@@ -52,7 +52,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResponcePerson' element value. Лицо, предоставляющее запрошенный документ.
+     * Get the 'ResponcePerson' element value. Р›РёС†Рѕ, РїСЂРµРґРѕСЃС‚Р°РІР»СЏСЋС‰РµРµ Р·Р°РїСЂРѕС€РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResponcePerson' element value. Лицо, предоставляющее запрошенный документ.
+     * Set the 'ResponcePerson' element value. Р›РёС†Рѕ, РїСЂРµРґРѕСЃС‚Р°РІР»СЏСЋС‰РµРµ Р·Р°РїСЂРѕС€РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param responcePerson
      */
@@ -70,7 +70,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArchiveInformation' element value. Информация из архива
+     * Get the 'ArchiveInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р°СЂС…РёРІР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchiveInformation' element value. Информация из архива
+     * Set the 'ArchiveInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р°СЂС…РёРІР°
      * 
      * @param archiveInformation
      */
@@ -88,7 +88,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class EPSDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

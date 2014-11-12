@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Счет фактура
+ * РЎС‡РµС‚ С„Р°РєС‚СѓСЂР°
  */
 public class CommercialInvoiceType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class CommercialInvoiceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CurrencyCode' element value. Код иностранной валюты счета-фактуры. Указывается, если суммы, указываемые в счете-фактуре, выражены в иностранной валюте.
+     * Get the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃСѓРјРјС‹, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃС‡РµС‚Рµ-С„Р°РєС‚СѓСЂРµ, РІС‹СЂР°Р¶РµРЅС‹ РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код иностранной валюты счета-фактуры. Указывается, если суммы, указываемые в счете-фактуре, выражены в иностранной валюте.
+     * Set the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃСѓРјРјС‹, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃС‡РµС‚Рµ-С„Р°РєС‚СѓСЂРµ, РІС‹СЂР°Р¶РµРЅС‹ РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ.
      * 
      * @param currencyCode
      */
@@ -52,7 +52,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Установленный курс иностранной валюты счета-фактуры на дату счета-фактуры. Указывается, если счет-фактура в иностранной валюте, курс  которой не равен курсы ЦБ.
+     * Get the 'CurrencyRate' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РєСѓСЂСЃ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹ РЅР° РґР°С‚Сѓ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃС‡РµС‚-С„Р°РєС‚СѓСЂР° РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ, РєСѓСЂСЃ  РєРѕС‚РѕСЂРѕР№ РЅРµ СЂР°РІРµРЅ РєСѓСЂСЃС‹ Р¦Р‘.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Установленный курс иностранной валюты счета-фактуры на дату счета-фактуры. Указывается, если счет-фактура в иностранной валюте, курс  которой не равен курсы ЦБ.
+     * Set the 'CurrencyRate' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РєСѓСЂСЃ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹ РЅР° РґР°С‚Сѓ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃС‡РµС‚-С„Р°РєС‚СѓСЂР° РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ, РєСѓСЂСЃ  РєРѕС‚РѕСЂРѕР№ РЅРµ СЂР°РІРµРЅ РєСѓСЂСЃС‹ Р¦Р‘.
      * 
      * @param currencyRate
      */
@@ -70,7 +70,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalCost' element value. Общая стоимость всех товаров, с учетом налогов.
+     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµС… С‚РѕРІР°СЂРѕРІ, СЃ СѓС‡РµС‚РѕРј РЅР°Р»РѕРіРѕРІ.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalCost' element value. Общая стоимость всех товаров, с учетом налогов.
+     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµС… С‚РѕРІР°СЂРѕРІ, СЃ СѓС‡РµС‚РѕРј РЅР°Р»РѕРіРѕРІ.
      * 
      * @param totalCost
      */
@@ -88,7 +88,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxSum' element value. Общая сумма налоговых сборов.
+     * Get the 'TaxSum' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РЅР°Р»РѕРіРѕРІС‹С… СЃР±РѕСЂРѕРІ.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxSum' element value. Общая сумма налоговых сборов.
+     * Set the 'TaxSum' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РЅР°Р»РѕРіРѕРІС‹С… СЃР±РѕСЂРѕРІ.
      * 
      * @param taxSum
      */
@@ -106,7 +106,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Buyer' element value. Сведения о покупателе
+     * Get the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Buyer' element value. Сведения о покупателе
+     * Set the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ
      * 
      * @param buyer
      */
@@ -124,7 +124,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Seller' element value. Сведения о продавце
+     * Get the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Seller' element value. Сведения о продавце
+     * Set the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @param seller
      */
@@ -142,7 +142,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель и его адрес
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель и его адрес
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @param consignee
      */
@@ -160,7 +160,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Грузоотправитель и его адрес
+     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Грузоотправитель и его адрес
+     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
      * 
      * @param consignor
      */
@@ -178,7 +178,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InvoiceGoods' element items. Сведения о товарах счета-фактуры
+     * Get the list of 'InvoiceGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹
      * 
      * @return list
      */
@@ -187,7 +187,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InvoiceGoods' element items. Сведения о товарах счета-фактуры
+     * Set the list of 'InvoiceGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹
      * 
      * @param list
      */
@@ -196,7 +196,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PayDocsRegistration' element items. Платежно-расчетные документы к счету-фактуре.
+     * Get the list of 'PayDocsRegistration' element items. РџР»Р°С‚РµР¶РЅРѕ-СЂР°СЃС‡РµС‚РЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рє СЃС‡РµС‚Сѓ-С„Р°РєС‚СѓСЂРµ.
      * 
      * @return list
      */
@@ -205,7 +205,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PayDocsRegistration' element items. Платежно-расчетные документы к счету-фактуре.
+     * Set the list of 'PayDocsRegistration' element items. РџР»Р°С‚РµР¶РЅРѕ-СЂР°СЃС‡РµС‚РЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рє СЃС‡РµС‚Сѓ-С„Р°РєС‚СѓСЂРµ.
      * 
      * @param list
      */
@@ -214,7 +214,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Регистрационные данные счета-фактуры.
+     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹.
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Регистрационные данные счета-фактуры.
+     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹.
      * 
      * @param registration
      */
@@ -257,7 +257,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'IndividualEntrepreneur' element value. Индивидуальный предприниматель
+     * Get the 'IndividualEntrepreneur' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -266,7 +266,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'IndividualEntrepreneur' element value. Индивидуальный предприниматель
+     * Set the 'IndividualEntrepreneur' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
      * 
      * @param individualEntrepreneur
      */
@@ -286,7 +286,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignatureDirectorChiefAccountant' element value. Подпись руководителя организации и главного бухгалтера.
+     * Get the 'SignatureDirectorChiefAccountant' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё Рё РіР»Р°РІРЅРѕРіРѕ Р±СѓС…РіР°Р»С‚РµСЂР°.
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignatureDirectorChiefAccountant' element value. Подпись руководителя организации и главного бухгалтера.
+     * Set the 'SignatureDirectorChiefAccountant' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё Рё РіР»Р°РІРЅРѕРіРѕ Р±СѓС…РіР°Р»С‚РµСЂР°.
      * 
      * @param signatureDirectorChiefAccountant
      */
@@ -306,7 +306,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @return value
      */
@@ -315,7 +315,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @param mark
      */
@@ -324,7 +324,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -333,7 +333,7 @@ public class CommercialInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.eps_inforequest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос статуса электронного документа / процедуры / процесса.
+ * Р—Р°РїСЂРѕСЃ СЃС‚Р°С‚СѓСЃР° СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / РїСЂРѕС†РµРґСѓСЂС‹ / РїСЂРѕС†РµСЃСЃР°.
  */
 public class EPSInfoRequestType extends BaseDocType
 {
@@ -43,7 +43,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArchRequest' element value. Запрос к архиву декларанта
+     * Get the 'ArchRequest' element value. Р—Р°РїСЂРѕСЃ Рє Р°СЂС…РёРІСѓ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchRequest' element value. Запрос к архиву декларанта
+     * Set the 'ArchRequest' element value. Р—Р°РїСЂРѕСЃ Рє Р°СЂС…РёРІСѓ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archRequest
      */
@@ -71,7 +71,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcessRequest' element value. Запрос к процедуре / процессу
+     * Get the 'ProcessRequest' element value. Р—Р°РїСЂРѕСЃ Рє РїСЂРѕС†РµРґСѓСЂРµ / РїСЂРѕС†РµСЃСЃСѓ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessRequest' element value. Запрос к процедуре / процессу
+     * Set the 'ProcessRequest' element value. Р—Р°РїСЂРѕСЃ Рє РїСЂРѕС†РµРґСѓСЂРµ / РїСЂРѕС†РµСЃСЃСѓ
      * 
      * @param processRequest
      */
@@ -99,7 +99,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'EnvRequest' element value. Запрос на передачу сообщения
+     * Get the 'EnvRequest' element value. Р—Р°РїСЂРѕСЃ РЅР° РїРµСЂРµРґР°С‡Сѓ СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'EnvRequest' element value. Запрос на передачу сообщения
+     * Set the 'EnvRequest' element value. Р—Р°РїСЂРѕСЃ РЅР° РїРµСЂРµРґР°С‡Сѓ СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @param envRequest
      */
@@ -118,7 +118,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class EPSInfoRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -69,7 +69,7 @@ public class MessageED11004BusinessProcess extends BusinessProcess
 			{
 				ErrorHelper.throwException(
 					jobBatchContext,
-					ResultCodes._02_00001_01, // TODO: Подобрать правильный код
+					ResultCodes._03_00106_06, // TODO: Подобрать правильный код
 					ProcessingConstants.ERROR_TYPE_BUSINESS
 				);
 			}
@@ -78,7 +78,10 @@ public class MessageED11004BusinessProcess extends BusinessProcess
 		String docCode = rdocInfo.getDocCode( );
 		
 		Edecl_G44_Docmodid g44rel = _serviceHolder.getG44Service( ).getG44Relation( docCode, documentModeId );
-		if ( null == g44rel )
+        if ( null == g44rel &&
+                ((( rdocInfo.getFlags( ) & Edecl_Reqdoc_Info.FLAG_ALLOWED_GRAPHIC ) != Edecl_Reqdoc_Info.FLAG_ALLOWED_GRAPHIC) ||
+                (( rdocInfo.getFlags( ) & Edecl_Reqdoc_Info.FLAG_ALLOWED_GRAPHIC ) == Edecl_Reqdoc_Info.FLAG_ALLOWED_GRAPHIC &&
+                        "09020 09021 09022 09023".contains(docCode))))
 		{
 			ErrorHelper.throwException( 
 				jobBatchContext, 

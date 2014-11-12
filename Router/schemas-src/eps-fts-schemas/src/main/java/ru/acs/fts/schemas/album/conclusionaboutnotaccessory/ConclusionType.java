@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Заключение
+ * Р—Р°РєР»СЋС‡РµРЅРёРµ
  */
 public class ConclusionType extends DocumentBaseType
 {
     private LocalDate duration;
 
     /** 
-     * Get the 'Duration' element value. Cрок действия заключения
+     * Get the 'Duration' element value. CСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ConclusionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Duration' element value. Cрок действия заключения
+     * Set the 'Duration' element value. CСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @param duration
      */

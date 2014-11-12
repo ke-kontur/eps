@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о завершении операций/об отказе в проведении операций в отношении товаров и транспортных средств
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ Р·Р°РІРµСЂС€РµРЅРёРё РѕРїРµСЂР°С†РёР№/РѕР± РѕС‚РєР°Р·Рµ РІ РїСЂРѕРІРµРґРµРЅРёРё РѕРїРµСЂР°С†РёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
  */
 public class NotifFinishRejectOperationsType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentSign' element value. Признак: 0 - отказ, 1 - завершение
+     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє: 0 - РѕС‚РєР°Р·, 1 - Р·Р°РІРµСЂС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. Признак: 0 - отказ, 1 - завершение
+     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє: 0 - РѕС‚РєР°Р·, 1 - Р·Р°РІРµСЂС€РµРЅРёРµ
      * 
      * @param documentSign
      */
@@ -38,7 +38,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OperationDescription' element items. Операция (Заполняется в случае отказа в выполнении конкретного вида операции): 1 - Транспортировка, 2 - Взвешивание, 3 - Иное определение количества товаров, 4 - Погрузка, 5 - Выгрузка, 6 - Перегрузка, 7 - Исправление поврежденной упаковки, 8 - Вскрытие упаковки, 9 - Упаковка, 10 - Переупаковка, 11- Вскрытие помещений, емкостей и других мест,  где находятся или могут находиться товары, 12 - Разделение товарной партии по отдельным видам и (или) наименованиям товаров
+     * Get the list of 'OperationDescription' element items. РћРїРµСЂР°С†РёСЏ (Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РѕС‚РєР°Р·Р° РІ РІС‹РїРѕР»РЅРµРЅРёРё РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РІРёРґР° РѕРїРµСЂР°С†РёРё): 1 - РўСЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєР°, 2 - Р’Р·РІРµС€РёРІР°РЅРёРµ, 3 - РРЅРѕРµ РѕРїСЂРµРґРµР»РµРЅРёРµ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂРѕРІ, 4 - РџРѕРіСЂСѓР·РєР°, 5 - Р’С‹РіСЂСѓР·РєР°, 6 - РџРµСЂРµРіСЂСѓР·РєР°, 7 - РСЃРїСЂР°РІР»РµРЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРЅРѕР№ СѓРїР°РєРѕРІРєРё, 8 - Р’СЃРєСЂС‹С‚РёРµ СѓРїР°РєРѕРІРєРё, 9 - РЈРїР°РєРѕРІРєР°, 10 - РџРµСЂРµСѓРїР°РєРѕРІРєР°, 11- Р’СЃРєСЂС‹С‚РёРµ РїРѕРјРµС‰РµРЅРёР№, РµРјРєРѕСЃС‚РµР№ Рё РґСЂСѓРіРёС… РјРµСЃС‚,  РіРґРµ РЅР°С…РѕРґСЏС‚СЃСЏ РёР»Рё РјРѕРіСѓС‚ РЅР°С…РѕРґРёС‚СЊСЃСЏ С‚РѕРІР°СЂС‹, 12 - Р Р°Р·РґРµР»РµРЅРёРµ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РїРѕ РѕС‚РґРµР»СЊРЅС‹Рј РІРёРґР°Рј Рё (РёР»Рё) РЅР°РёРјРµРЅРѕРІР°РЅРёСЏРј С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OperationDescription' element items. Операция (Заполняется в случае отказа в выполнении конкретного вида операции): 1 - Транспортировка, 2 - Взвешивание, 3 - Иное определение количества товаров, 4 - Погрузка, 5 - Выгрузка, 6 - Перегрузка, 7 - Исправление поврежденной упаковки, 8 - Вскрытие упаковки, 9 - Упаковка, 10 - Переупаковка, 11- Вскрытие помещений, емкостей и других мест,  где находятся или могут находиться товары, 12 - Разделение товарной партии по отдельным видам и (или) наименованиям товаров
+     * Set the list of 'OperationDescription' element items. РћРїРµСЂР°С†РёСЏ (Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РѕС‚РєР°Р·Р° РІ РІС‹РїРѕР»РЅРµРЅРёРё РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РІРёРґР° РѕРїРµСЂР°С†РёРё): 1 - РўСЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєР°, 2 - Р’Р·РІРµС€РёРІР°РЅРёРµ, 3 - РРЅРѕРµ РѕРїСЂРµРґРµР»РµРЅРёРµ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂРѕРІ, 4 - РџРѕРіСЂСѓР·РєР°, 5 - Р’С‹РіСЂСѓР·РєР°, 6 - РџРµСЂРµРіСЂСѓР·РєР°, 7 - РСЃРїСЂР°РІР»РµРЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРЅРѕР№ СѓРїР°РєРѕРІРєРё, 8 - Р’СЃРєСЂС‹С‚РёРµ СѓРїР°РєРѕРІРєРё, 9 - РЈРїР°РєРѕРІРєР°, 10 - РџРµСЂРµСѓРїР°РєРѕРІРєР°, 11- Р’СЃРєСЂС‹С‚РёРµ РїРѕРјРµС‰РµРЅРёР№, РµРјРєРѕСЃС‚РµР№ Рё РґСЂСѓРіРёС… РјРµСЃС‚,  РіРґРµ РЅР°С…РѕРґСЏС‚СЃСЏ РёР»Рё РјРѕРіСѓС‚ РЅР°С…РѕРґРёС‚СЊСЃСЏ С‚РѕРІР°СЂС‹, 12 - Р Р°Р·РґРµР»РµРЅРёРµ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РїРѕ РѕС‚РґРµР»СЊРЅС‹Рј РІРёРґР°Рј Рё (РёР»Рё) РЅР°РёРјРµРЅРѕРІР°РЅРёСЏРј С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -56,7 +56,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Номер таможенной декларации
+     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Номер таможенной декларации
+     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param GTDNumber
      */
@@ -74,7 +74,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о декларанте/ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ/РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о декларанте/ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ/РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
      * 
      * @param declarant
      */
@@ -92,7 +92,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. Таможеннный орган
+     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. Таможеннный орган
+     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customsOffice
      */
@@ -110,7 +110,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class NotifFinishRejectOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.contractdealpassport;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения о резиденте
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ
  */
 public class ResidentType extends CUOrganizationType
 {
     private String affiliateName;
 
     /** 
-     * Get the 'AffiliateName' element value. Наименование филиала, осуществляющего валютные операции
+     * Get the 'AffiliateName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёР»РёР°Р»Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ РІР°Р»СЋС‚РЅС‹Рµ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ResidentType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'AffiliateName' element value. Наименование филиала, осуществляющего валютные операции
+     * Set the 'AffiliateName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёР»РёР°Р»Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ РІР°Р»СЋС‚РЅС‹Рµ РѕРїРµСЂР°С†РёРё
      * 
      * @param affiliateName
      */

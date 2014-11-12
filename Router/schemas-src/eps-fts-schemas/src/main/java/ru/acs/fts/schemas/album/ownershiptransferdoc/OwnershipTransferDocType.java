@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о документах, подтверждающих передачу прав на объекты интеллектуальной собственности.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… РїРµСЂРµРґР°С‡Сѓ РїСЂР°РІ РЅР° РѕР±СЉРµРєС‚С‹ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё.
  */
 public class OwnershipTransferDocType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class OwnershipTransferDocType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegCertifNum' element value. Номер свидетельства о регистрации объекта интеллектуальной собственности
+     * Get the 'RegCertifNum' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegCertifNum' element value. Номер свидетельства о регистрации объекта интеллектуальной собственности
+     * Set the 'RegCertifNum' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @param regCertifNum
      */
@@ -44,7 +44,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegExpiretionDate' element value. Срок действия регистрации
+     * Get the 'RegExpiretionDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegExpiretionDate' element value. Срок действия регистрации
+     * Set the 'RegExpiretionDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regExpiretionDate
      */
@@ -62,7 +62,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'MovementDirection' element value. Направление перемещения по договору
+     * Get the 'MovementDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'MovementDirection' element value. Направление перемещения по договору
+     * Set the 'MovementDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @param movementDirection
      */
@@ -80,7 +80,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Description' element items. Описание
+     * Get the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -89,7 +89,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Description' element items. Описание
+     * Set the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */
@@ -98,7 +98,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportationMethod' element value. Способ транспортировки по договору
+     * Get the 'TransportationMethod' element value. РЎРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportationMethod' element value. Способ транспортировки по договору
+     * Set the 'TransportationMethod' element value. РЎРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @param transportationMethod
      */
@@ -116,7 +116,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'RightHolder' element value. Сведения о правообладателе
+     * Get the 'RightHolder' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RightHolder' element value. Сведения о правообладателе
+     * Set the 'RightHolder' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»Рµ
      * 
      * @param rightHolder
      */
@@ -134,7 +134,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsOwner' element value. Сведения о владельце товара
+     * Get the 'GoodsOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsOwner' element value. Сведения о владельце товара
+     * Set the 'GoodsOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ С‚РѕРІР°СЂР°
      * 
      * @param goodsOwner
      */
@@ -152,7 +152,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'OwnershipDocInfo' element value. Информация о документах, подтверждающих право собственности
+     * Get the 'OwnershipDocInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… РїСЂР°РІРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'OwnershipDocInfo' element value. Информация о документах, подтверждающих право собственности
+     * Set the 'OwnershipDocInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… РїСЂР°РІРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
      * 
      * @param ownershipDocInfo
      */
@@ -170,7 +170,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о товаре
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -179,7 +179,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о товаре
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -188,7 +188,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. Отправитель по договору
+     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. Отправитель по договору
+     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @param sender
      */
@@ -206,7 +206,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. Получатель по договору
+     * Get the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. Получатель по договору
+     * Set the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕ РґРѕРіРѕРІРѕСЂСѓ
      * 
      * @param recipient
      */
@@ -224,7 +224,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class OwnershipTransferDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

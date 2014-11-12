@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Отказ декларанта в запрашиваемых действиях.
+ * РћС‚РєР°Р· РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРµР№СЃС‚РІРёСЏС….
  */
 public class RejectDeclReqOperationType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RejectNumber' element value. Исходящий номер документа
+     * Get the 'RejectNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RejectNumber' element value. Исходящий номер документа
+     * Set the 'RejectNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param rejectNumber
      */
@@ -42,7 +42,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RejectDate' element value. Дата создания документа
+     * Get the 'RejectDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RejectDate' element value. Дата создания документа
+     * Set the 'RejectDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param rejectDate
      */
@@ -60,7 +60,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RejectTime' element value. Время создания документа
+     * Get the 'RejectTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RejectTime' element value. Время создания документа
+     * Set the 'RejectTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param rejectTime
      */
@@ -78,7 +78,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqNumber' element value. Номер запроса от инспектора
+     * Get the 'ReqNumber' element value. РќРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РѕС‚ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqNumber' element value. Номер запроса от инспектора
+     * Set the 'ReqNumber' element value. РќРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РѕС‚ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @param reqNumber
      */
@@ -96,7 +96,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqDate' element value. Дата запроса от инспектора
+     * Get the 'ReqDate' element value. Р”Р°С‚Р° Р·Р°РїСЂРѕСЃР° РѕС‚ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Дата запроса от инспектора
+     * Set the 'ReqDate' element value. Р”Р°С‚Р° Р·Р°РїСЂРѕСЃР° РѕС‚ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @param reqDate
      */
@@ -114,7 +114,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RejectReason' element items. Обоснование отказа декларанта
+     * Get the list of 'RejectReason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РѕС‚РєР°Р·Р° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return list
      */
@@ -123,7 +123,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RejectReason' element items. Обоснование отказа декларанта
+     * Set the list of 'RejectReason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РѕС‚РєР°Р·Р° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param list
      */
@@ -132,7 +132,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Лицо,  декларирующее товары. Наименование / ФИО (для физических лиц)
+     * Get the 'Declarant' element value. Р›РёС†Рѕ,  РґРµРєР»Р°СЂРёСЂСѓСЋС‰РµРµ С‚РѕРІР°СЂС‹. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / Р¤РРћ (РґР»СЏ С„РёР·РёС‡РµСЃРєРёС… Р»РёС†)
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Лицо,  декларирующее товары. Наименование / ФИО (для физических лиц)
+     * Set the 'Declarant' element value. Р›РёС†Рѕ,  РґРµРєР»Р°СЂРёСЂСѓСЋС‰РµРµ С‚РѕРІР°СЂС‹. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / Р¤РРћ (РґР»СЏ С„РёР·РёС‡РµСЃРєРёС… Р»РёС†)
      * 
      * @param declarant
      */
@@ -150,7 +150,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись должностного лица сформировавшего отказ. (ФИО, должность, дата)
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ РѕС‚РєР°Р·. (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ, РґР°С‚Р°)
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись должностного лица сформировавшего отказ. (ФИО, должность, дата)
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ РѕС‚РєР°Р·. (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ, РґР°С‚Р°)
      * 
      * @param personSignature
      */
@@ -168,7 +168,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class RejectDeclReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

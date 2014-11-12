@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Дополнительное оборудование в грузовом автомобиле
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ РіСЂСѓР·РѕРІРѕРј Р°РІС‚РѕРјРѕР±РёР»Рµ
  */
 public class TruckDopDeviceType
 {
@@ -20,7 +20,7 @@ public class TruckDopDeviceType
     private String pressRegulationSystem;
 
     /** 
-     * Get the 'CabCowl' element value. Надкабинный обтекатель: "0" - нет, "1" - есть
+     * Get the 'CabCowl' element value. РќР°РґРєР°Р±РёРЅРЅС‹Р№ РѕР±С‚РµРєР°С‚РµР»СЊ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'CabCowl' element value. Надкабинный обтекатель: "0" - нет, "1" - есть
+     * Set the 'CabCowl' element value. РќР°РґРєР°Р±РёРЅРЅС‹Р№ РѕР±С‚РµРєР°С‚РµР»СЊ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param cabCowl
      */
@@ -38,7 +38,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Winch' element value. Лебедка: "0" - нет, "1" - есть
+     * Get the 'Winch' element value. Р›РµР±РµРґРєР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Winch' element value. Лебедка: "0" - нет, "1" - есть
+     * Set the 'Winch' element value. Р›РµР±РµРґРєР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param winch
      */
@@ -56,7 +56,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Manipulator' element value. Манипулятор для погрузочно-разгрузочных операций: "0" - нет, "1" - есть
+     * Get the 'Manipulator' element value. РњР°РЅРёРїСѓР»СЏС‚РѕСЂ РґР»СЏ РїРѕРіСЂСѓР·РѕС‡РЅРѕ-СЂР°Р·РіСЂСѓР·РѕС‡РЅС‹С… РѕРїРµСЂР°С†РёР№: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Manipulator' element value. Манипулятор для погрузочно-разгрузочных операций: "0" - нет, "1" - есть
+     * Set the 'Manipulator' element value. РњР°РЅРёРїСѓР»СЏС‚РѕСЂ РґР»СЏ РїРѕРіСЂСѓР·РѕС‡РЅРѕ-СЂР°Р·РіСЂСѓР·РѕС‡РЅС‹С… РѕРїРµСЂР°С†РёР№: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param manipulator
      */
@@ -74,7 +74,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Stage' element value. Подъемно-откидная рампа для погрузочно-разгрузочных операций: "0" - нет, "1" - есть
+     * Get the 'Stage' element value. РџРѕРґСЉРµРјРЅРѕ-РѕС‚РєРёРґРЅР°СЏ СЂР°РјРїР° РґР»СЏ РїРѕРіСЂСѓР·РѕС‡РЅРѕ-СЂР°Р·РіСЂСѓР·РѕС‡РЅС‹С… РѕРїРµСЂР°С†РёР№: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Stage' element value. Подъемно-откидная рампа для погрузочно-разгрузочных операций: "0" - нет, "1" - есть
+     * Set the 'Stage' element value. РџРѕРґСЉРµРјРЅРѕ-РѕС‚РєРёРґРЅР°СЏ СЂР°РјРїР° РґР»СЏ РїРѕРіСЂСѓР·РѕС‡РЅРѕ-СЂР°Р·РіСЂСѓР·РѕС‡РЅС‹С… РѕРїРµСЂР°С†РёР№: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param stage
      */
@@ -92,7 +92,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'ABS' element value. Антиблокировочная система: "0" - нет, "1" - есть
+     * Get the 'ABS' element value. РђРЅС‚РёР±Р»РѕРєРёСЂРѕРІРѕС‡РЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'ABS' element value. Антиблокировочная система: "0" - нет, "1" - есть
+     * Set the 'ABS' element value. РђРЅС‚РёР±Р»РѕРєРёСЂРѕРІРѕС‡РЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param ABS
      */
@@ -110,7 +110,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Conditioner' element value. Кондиционер: "0" - нет, "1" - кондиционер, "2" - климат контроль
+     * Get the 'Conditioner' element value. РљРѕРЅРґРёС†РёРѕРЅРµСЂ: "0" - РЅРµС‚, "1" - РєРѕРЅРґРёС†РёРѕРЅРµСЂ, "2" - РєР»РёРјР°С‚ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Conditioner' element value. Кондиционер: "0" - нет, "1" - кондиционер, "2" - климат контроль
+     * Set the 'Conditioner' element value. РљРѕРЅРґРёС†РёРѕРЅРµСЂ: "0" - РЅРµС‚, "1" - РєРѕРЅРґРёС†РёРѕРЅРµСЂ, "2" - РєР»РёРјР°С‚ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @param conditioner
      */
@@ -128,7 +128,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'AudioSystem' element value. Аудиосистема: "0" - нет, "1" - есть
+     * Get the 'AudioSystem' element value. РђСѓРґРёРѕСЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'AudioSystem' element value. Аудиосистема: "0" - нет, "1" - есть
+     * Set the 'AudioSystem' element value. РђСѓРґРёРѕСЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param audioSystem
      */
@@ -146,7 +146,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Telefon' element value. Количество телефонов: "0" - если нет
+     * Get the 'Telefon' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РµР»РµС„РѕРЅРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Telefon' element value. Количество телефонов: "0" - если нет
+     * Set the 'Telefon' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РµР»РµС„РѕРЅРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param telefon
      */
@@ -164,7 +164,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Fridge' element value. Холодильник: "0" - нет, "1" - есть
+     * Get the 'Fridge' element value. РҐРѕР»РѕРґРёР»СЊРЅРёРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Fridge' element value. Холодильник: "0" - нет, "1" - есть
+     * Set the 'Fridge' element value. РҐРѕР»РѕРґРёР»СЊРЅРёРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param fridge
      */
@@ -182,7 +182,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'Microvawe' element value. Печь СВЧ: "0" - нет, "1" - есть
+     * Get the 'Microvawe' element value. РџРµС‡СЊ РЎР’Р§: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'Microvawe' element value. Печь СВЧ: "0" - нет, "1" - есть
+     * Set the 'Microvawe' element value. РџРµС‡СЊ РЎР’Р§: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param microvawe
      */
@@ -200,7 +200,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'NavigationSystem' element value. Навигационная система: "0" - нет, "1" - есть
+     * Get the 'NavigationSystem' element value. РќР°РІРёРіР°С†РёРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -209,7 +209,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'NavigationSystem' element value. Навигационная система: "0" - нет, "1" - есть
+     * Set the 'NavigationSystem' element value. РќР°РІРёРіР°С†РёРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param navigationSystem
      */
@@ -218,7 +218,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Get the 'PressRegulationSystem' element value. Система автоматического регулирования давления в шинах: "0" - нет, "1" - есть
+     * Get the 'PressRegulationSystem' element value. РЎРёСЃС‚РµРјР° Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ РґР°РІР»РµРЅРёСЏ РІ С€РёРЅР°С…: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -227,7 +227,7 @@ public class TruckDopDeviceType
     }
 
     /** 
-     * Set the 'PressRegulationSystem' element value. Система автоматического регулирования давления в шинах: "0" - нет, "1" - есть
+     * Set the 'PressRegulationSystem' element value. РЎРёСЃС‚РµРјР° Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ РґР°РІР»РµРЅРёСЏ РІ С€РёРЅР°С…: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param pressRegulationSystem
      */

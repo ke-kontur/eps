@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Таблица
+ * РўР°Р±Р»РёС†Р°
  */
 public class TableType
 {
@@ -17,7 +17,7 @@ public class TableType
     private String cols;
 
     /** 
-     * Get the 'TableName' element value. Наименование таблицы
+     * Get the 'TableName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'TableName' element value. Наименование таблицы
+     * Set the 'TableName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°Р±Р»РёС†С‹
      * 
      * @param tableName
      */
@@ -53,7 +53,7 @@ public class TableType
     }
 
     /** 
-     * Get the 'TableBody' element value. Тело таблицы
+     * Get the 'TableBody' element value. РўРµР»Рѕ С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'TableBody' element value. Тело таблицы
+     * Set the 'TableBody' element value. РўРµР»Рѕ С‚Р°Р±Р»РёС†С‹
      * 
      * @param tableBody
      */
@@ -71,7 +71,7 @@ public class TableType
     }
 
     /** 
-     * Get the 'TableHead' element value. Заголовок таблицы
+     * Get the 'TableHead' element value. Р—Р°РіРѕР»РѕРІРѕРє С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'TableHead' element value. Заголовок таблицы
+     * Set the 'TableHead' element value. Р—Р°РіРѕР»РѕРІРѕРє С‚Р°Р±Р»РёС†С‹
      * 
      * @param tableHead
      */
@@ -89,7 +89,7 @@ public class TableType
     }
 
     /** 
-     * Get the 'TableFoot' element value. Подвал таблицы
+     * Get the 'TableFoot' element value. РџРѕРґРІР°Р» С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'TableFoot' element value. Подвал таблицы
+     * Set the 'TableFoot' element value. РџРѕРґРІР°Р» С‚Р°Р±Р»РёС†С‹
      * 
      * @param tableFoot
      */
@@ -107,7 +107,7 @@ public class TableType
     }
 
     /** 
-     * Get the 'cols' attribute value. Число колонок в таблице
+     * Get the 'cols' attribute value. Р§РёСЃР»Рѕ РєРѕР»РѕРЅРѕРє РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class TableType
     }
 
     /** 
-     * Set the 'cols' attribute value. Число колонок в таблице
+     * Set the 'cols' attribute value. Р§РёСЃР»Рѕ РєРѕР»РѕРЅРѕРє РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @param cols
      */

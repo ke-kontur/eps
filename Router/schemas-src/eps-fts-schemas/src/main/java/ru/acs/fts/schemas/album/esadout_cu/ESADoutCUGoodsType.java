@@ -18,7 +18,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsQuotaTyp
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ProcessingGoodsDeclarationType;
 
 /** 
- * Товарная часть. Гр. 31-47
+ * РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ. Р“СЂ. 31-47
  */
 public class ESADoutCUGoodsType extends CUESADGoodsItemType
 {
@@ -43,7 +43,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     private SupplementaryQuantityType RBSupplementaryGoodsQuantity;
 
     /** 
-     * Get the 'LanguageGoods' element value. Код языка  описания товара
+     * Get the 'LanguageGoods' element value. РљРѕРґ СЏР·С‹РєР°  РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'LanguageGoods' element value. Код языка  описания товара
+     * Set the 'LanguageGoods' element value. РљРѕРґ СЏР·С‹РєР°  РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param languageGoods
      */
@@ -61,7 +61,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'MilitaryProducts' element value. Признак продукции военного назначения. true - да, false - нет. гр.31 ТД
+     * Get the 'MilitaryProducts' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРґСѓРєС†РёРё РІРѕРµРЅРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ. true - РґР°, false - РЅРµС‚. РіСЂ.31 РўР”
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'MilitaryProducts' element value. Признак продукции военного назначения. true - да, false - нет. гр.31 ТД
+     * Set the 'MilitaryProducts' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРґСѓРєС†РёРё РІРѕРµРЅРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ. true - РґР°, false - РЅРµС‚. РіСЂ.31 РўР”
      * 
      * @param militaryProducts
      */
@@ -79,7 +79,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты стоимости товара (заполняется для ТД)
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РўР”)
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты стоимости товара (заполняется для ТД)
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РўР”)
      * 
      * @param currencyCode
      */
@@ -97,7 +97,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ESADout_CUPresentedDocument' element items. Представленные документы. Гр. 44
+     * Get the list of 'ESADout_CUPresentedDocument' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 44
      * 
      * @return list
      */
@@ -106,7 +106,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ESADout_CUPresentedDocument' element items. Представленные документы. Гр. 44
+     * Set the list of 'ESADout_CUPresentedDocument' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 44
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ESADout_CUPrecedingDocument' element items. Предшествующие документы. Гр. 40
+     * Get the list of 'ESADout_CUPrecedingDocument' element items. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 40
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ESADout_CUPrecedingDocument' element items. Предшествующие документы. Гр. 40
+     * Set the list of 'ESADout_CUPrecedingDocument' element items. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 40
      * 
      * @param list
      */
@@ -135,7 +135,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ESADout_CUCustomsPaymentCalculation' element items.  Исчисление таможенных платежей
+     * Get the list of 'ESADout_CUCustomsPaymentCalculation' element items.  РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -144,7 +144,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ESADout_CUCustomsPaymentCalculation' element items.  Исчисление таможенных платежей
+     * Set the list of 'ESADout_CUCustomsPaymentCalculation' element items.  РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */
@@ -154,7 +154,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADout_CUCustomsConditions' element value. Сведения, указываемые в случае, если ДТ используется в качестве заявления на получение разрешения на переработку товаров (элемент 6 гр 31, гр 44)
+     * Get the 'ESADout_CUCustomsConditions' element value. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ (СЌР»РµРјРµРЅС‚ 6 РіСЂ 31, РіСЂ 44)
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADout_CUCustomsConditions' element value. Сведения, указываемые в случае, если ДТ используется в качестве заявления на получение разрешения на переработку товаров (элемент 6 гр 31, гр 44)
+     * Set the 'ESADout_CUCustomsConditions' element value. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ (СЌР»РµРјРµРЅС‚ 6 РіСЂ 31, РіСЂ 44)
      * 
      * @param ESADoutCUCustomsConditions
      */
@@ -173,7 +173,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.  Гр.41
+     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.  Р“СЂ.41
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.  Гр.41
+     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.  Р“СЂ.41
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -192,7 +192,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'SupplementaryGoodsQuantity1' element items. Количество товара в единице измерения, отличной от основной и дополнительной (элемент 1 Гр.31)
+     * Get the list of 'SupplementaryGoodsQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ (СЌР»РµРјРµРЅС‚ 1 Р“СЂ.31)
      * 
      * @return list
      */
@@ -201,7 +201,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'SupplementaryGoodsQuantity1' element items. Количество товара в единице измерения, отличной от основной и дополнительной (элемент 1 Гр.31)
+     * Set the list of 'SupplementaryGoodsQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ (СЌР»РµРјРµРЅС‚ 1 Р“СЂ.31)
      * 
      * @param list
      */
@@ -211,7 +211,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров
+     * Get the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров
+     * Set the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param ESADGoodsPackaging
      */
@@ -229,7 +229,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADGoodsQuota' element value. Квота.Гр 39 в ДТ
+     * Get the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.Р“СЂ 39 РІ Р”Рў
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADGoodsQuota' element value. Квота.Гр 39 в ДТ
+     * Set the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.Р“СЂ 39 РІ Р”Рў
      * 
      * @param ESADGoodsQuota
      */
@@ -247,7 +247,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADContainer' element value. Сведения о контейнерах (элемент 3 Гр 31)
+     * Get the 'ESADContainer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С… (СЌР»РµРјРµРЅС‚ 3 Р“СЂ 31)
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADContainer' element value. Сведения о контейнерах (элемент 3 Гр 31)
+     * Set the 'ESADContainer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С… (СЌР»РµРјРµРЅС‚ 3 Р“СЂ 31)
      * 
      * @param ESADContainer
      */
@@ -265,7 +265,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADCustomsProcedure' element value. Процедура.Гр 37
+     * Get the 'ESADCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.Р“СЂ 37
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADCustomsProcedure' element value. Процедура.Гр 37
+     * Set the 'ESADCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.Р“СЂ 37
      * 
      * @param ESADCustomsProcedure
      */
@@ -284,7 +284,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ESADExcise' element items. Сведения об акцизных марках (элемент 4 гр 31)
+     * Get the list of 'ESADExcise' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С… (СЌР»РµРјРµРЅС‚ 4 РіСЂ 31)
      * 
      * @return list
      */
@@ -293,7 +293,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ESADExcise' element items. Сведения об акцизных марках (элемент 4 гр 31)
+     * Set the list of 'ESADExcise' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С… (СЌР»РµРјРµРЅС‚ 4 РіСЂ 31)
      * 
      * @param list
      */
@@ -302,7 +302,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ElectricalEnergReceived' element items. Сведения о количестве принятой электроэнергии за отчетный период (элемент 9 Гр 31)
+     * Get the list of 'ElectricalEnergReceived' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРёРЅСЏС‚РѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ (СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31)
      * 
      * @return list
      */
@@ -311,7 +311,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ElectricalEnergReceived' element items. Сведения о количестве принятой электроэнергии за отчетный период (элемент 9 Гр 31)
+     * Set the list of 'ElectricalEnergReceived' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРёРЅСЏС‚РѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ (СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31)
      * 
      * @param list
      */
@@ -320,7 +320,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ElectricalEnergGiven' element items. Сведения о количестве переданной электроэнергии за отчетный период (элемент 9 Гр 31)
+     * Get the list of 'ElectricalEnergGiven' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїРµСЂРµРґР°РЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ (СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31)
      * 
      * @return list
      */
@@ -329,7 +329,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ElectricalEnergGiven' element items. Сведения о количестве переданной электроэнергии за отчетный период (элемент 9 Гр 31)
+     * Set the list of 'ElectricalEnergGiven' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїРµСЂРµРґР°РЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ (СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31)
      * 
      * @param list
      */
@@ -338,7 +338,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'GoodsAutomobile' element items. Сведения об автомобилях. Гр. 31
+     * Get the list of 'GoodsAutomobile' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
      * 
      * @return list
      */
@@ -347,7 +347,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'GoodsAutomobile' element items. Сведения об автомобилях. Гр. 31
+     * Set the list of 'GoodsAutomobile' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
      * 
      * @param list
      */
@@ -356,7 +356,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADoutGoodsOrganization' element value. Сведения об организации в товарной части ДТ
+     * Get the 'ESADoutGoodsOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
      * 
      * @return value
      */
@@ -365,7 +365,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADoutGoodsOrganization' element value. Сведения об организации в товарной части ДТ
+     * Set the 'ESADoutGoodsOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
      * 
      * @param ESADoutGoodsOrganization
      */
@@ -375,7 +375,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'RBSupplementaryGoodsQuantity' element value. Количество товара помещенного под процедуру переработки и свободную таможенную зону для РБ
+     * Get the 'RBSupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕРјРµС‰РµРЅРЅРѕРіРѕ РїРѕРґ РїСЂРѕС†РµРґСѓСЂСѓ РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё СЃРІРѕР±РѕРґРЅСѓСЋ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ Р·РѕРЅСѓ РґР»СЏ Р Р‘
      * 
      * @return value
      */
@@ -384,7 +384,7 @@ public class ESADoutCUGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'RBSupplementaryGoodsQuantity' element value. Количество товара помещенного под процедуру переработки и свободную таможенную зону для РБ
+     * Set the 'RBSupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕРјРµС‰РµРЅРЅРѕРіРѕ РїРѕРґ РїСЂРѕС†РµРґСѓСЂСѓ РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё СЃРІРѕР±РѕРґРЅСѓСЋ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ Р·РѕРЅСѓ РґР»СЏ Р Р‘
      * 
      * @param RBSupplementaryGoodsQuantity
      */

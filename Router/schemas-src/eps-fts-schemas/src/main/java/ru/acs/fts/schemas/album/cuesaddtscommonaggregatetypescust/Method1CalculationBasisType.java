@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * Основа расчета таможенной стоимости по методу 1. Гр. А (11, 12)
+ * РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1. Р“СЂ. Рђ (11, 12)
  */
 public class Method1CalculationBasisType
 {
@@ -18,7 +18,7 @@ public class Method1CalculationBasisType
     private String basisNationalAmount;
 
     /** 
-     * Get the 'DealCurrencyAmount' element value. Цена, фактически уплаченная или подлежащая уплате в валюте счета. гр11a
+     * Get the 'DealCurrencyAmount' element value. Р¦РµРЅР°, С„Р°РєС‚РёС‡РµСЃРєРё СѓРїР»Р°С‡РµРЅРЅР°СЏ РёР»Рё РїРѕРґР»РµР¶Р°С‰Р°СЏ СѓРїР»Р°С‚Рµ РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р°. РіСЂ11a
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'DealCurrencyAmount' element value. Цена, фактически уплаченная или подлежащая уплате в валюте счета. гр11a
+     * Set the 'DealCurrencyAmount' element value. Р¦РµРЅР°, С„Р°РєС‚РёС‡РµСЃРєРё СѓРїР»Р°С‡РµРЅРЅР°СЏ РёР»Рё РїРѕРґР»РµР¶Р°С‰Р°СЏ СѓРїР»Р°С‚Рµ РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р°. РіСЂ11a
      * 
      * @param dealCurrencyAmount
      */
@@ -36,7 +36,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'DealCurrencyCode' element value. Трехзначный буквенный код валюты счета, в соответствии с классификатором валют 
+     * Get the 'DealCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚ 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'DealCurrencyCode' element value. Трехзначный буквенный код валюты счета, в соответствии с классификатором валют 
+     * Set the 'DealCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚ 
      * 
      * @param dealCurrencyCode
      */
@@ -54,7 +54,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'DealNationalAmount' element value. Цена сделки в национальной валюте
+     * Get the 'DealNationalAmount' element value. Р¦РµРЅР° СЃРґРµР»РєРё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'DealNationalAmount' element value. Цена сделки в национальной валюте
+     * Set the 'DealNationalAmount' element value. Р¦РµРЅР° СЃРґРµР»РєРё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
      * 
      * @param dealNationalAmount
      */
@@ -72,7 +72,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'DealCurrencyRate' element value. Курс пересчета
+     * Get the 'DealCurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'DealCurrencyRate' element value. Курс пересчета
+     * Set the 'DealCurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @param dealCurrencyRate
      */
@@ -90,7 +90,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'CurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
+     * Get the 'CurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'CurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
+     * Set the 'CurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
      * 
      * @param currencyQuantity
      */
@@ -108,7 +108,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'IndirectNationalPayment' element value. Косвенные платежи в национальной валюте. 11б
+     * Get the 'IndirectNationalPayment' element value. РљРѕСЃРІРµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 11Р±
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'IndirectNationalPayment' element value. Косвенные платежи в национальной валюте. 11б
+     * Set the 'IndirectNationalPayment' element value. РљРѕСЃРІРµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 11Р±
      * 
      * @param indirectNationalPayment
      */
@@ -126,7 +126,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'IndirectCurrencyCode' element value. Трехзначный буквенный код валюты косвенных платежей, в соответствии с классификатором валют
+     * Get the 'IndirectCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РєРѕСЃРІРµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'IndirectCurrencyCode' element value. Трехзначный буквенный код валюты косвенных платежей, в соответствии с классификатором валют
+     * Set the 'IndirectCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РєРѕСЃРІРµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
      * 
      * @param indirectCurrencyCode
      */
@@ -144,7 +144,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'IndirectCurrencyRate' element value. Курс пересчета
+     * Get the 'IndirectCurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'IndirectCurrencyRate' element value. Курс пересчета
+     * Set the 'IndirectCurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @param indirectCurrencyRate
      */
@@ -162,7 +162,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'IndirectCurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
+     * Get the 'IndirectCurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'IndirectCurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
+     * Set the 'IndirectCurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
      * 
      * @param indirectCurrencyQuantity
      */
@@ -180,7 +180,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Get the 'BasisNationalAmount' element value. Итого гр. А в национальной валюте. гр 12
+     * Get the 'BasisNationalAmount' element value. РС‚РѕРіРѕ РіСЂ. Рђ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. РіСЂ 12
      * 
      * @return value
      */
@@ -189,7 +189,7 @@ public class Method1CalculationBasisType
     }
 
     /** 
-     * Set the 'BasisNationalAmount' element value. Итого гр. А в национальной валюте. гр 12
+     * Set the 'BasisNationalAmount' element value. РС‚РѕРіРѕ РіСЂ. Рђ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. РіСЂ 12
      * 
      * @param basisNationalAmount
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVConsigmentDecisionType;
 
 /** 
- * Решение о разрешении/запрете вывоза товаров с превышением
+ * Р РµС€РµРЅРёРµ Рѕ СЂР°Р·СЂРµС€РµРЅРёРё/Р·Р°РїСЂРµС‚Рµ РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ СЃ РїСЂРµРІС‹С€РµРЅРёРµРј
  */
 public class GoodsExportDecisionType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class GoodsExportDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DecisionDate' element value. Дата и время принятия решения
+     * Get the 'DecisionDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Дата и время принятия решения
+     * Set the 'DecisionDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionDate
      */
@@ -35,7 +35,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcessNumber' element value. Уникальный идентификатор процесса.
+     * Get the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessNumber' element value. Уникальный идентификатор процесса.
+     * Set the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
      * 
      * @param processNumber
      */
@@ -53,7 +53,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ShipmentFactInfo' element items. Сведения об итоговом решении по товарной партии.
+     * Get the list of 'ShipmentFactInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёС‚РѕРіРѕРІРѕРј СЂРµС€РµРЅРёРё РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ShipmentFactInfo' element items. Сведения об итоговом решении по товарной партии.
+     * Set the list of 'ShipmentFactInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёС‚РѕРіРѕРІРѕРј СЂРµС€РµРЅРёРё РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GoodsExportDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

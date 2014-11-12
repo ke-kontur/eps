@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Информация о товаре
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class GoodInfoType
 {
@@ -24,7 +24,7 @@ public class GoodInfoType
     private List<ComponentType> componentList = new ArrayList<ComponentType>();
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товара
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -33,7 +33,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товара
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -42,7 +42,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the list of 'TechnicalDescription' element items. Общее техническое описание товара
+     * Get the list of 'TechnicalDescription' element items. РћР±С‰РµРµ С‚РµС…РЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -51,7 +51,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the list of 'TechnicalDescription' element items. Общее техническое описание товара
+     * Set the list of 'TechnicalDescription' element items. РћР±С‰РµРµ С‚РµС…РЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -60,7 +60,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the 'MethodInstal' element value. Способ монтажа (сборки)
+     * Get the 'MethodInstal' element value. РЎРїРѕСЃРѕР± РјРѕРЅС‚Р°Р¶Р° (СЃР±РѕСЂРєРё)
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the 'MethodInstal' element value. Способ монтажа (сборки)
+     * Set the 'MethodInstal' element value. РЎРїРѕСЃРѕР± РјРѕРЅС‚Р°Р¶Р° (СЃР±РѕСЂРєРё)
      * 
      * @param methodInstal
      */
@@ -78,7 +78,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Планируемый период поставки товара: дата начала
+     * Get the 'BeginDate' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ РїРµСЂРёРѕРґ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂР°: РґР°С‚Р° РЅР°С‡Р°Р»Р°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Планируемый период поставки товара: дата начала
+     * Set the 'BeginDate' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ РїРµСЂРёРѕРґ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂР°: РґР°С‚Р° РЅР°С‡Р°Р»Р°
      * 
      * @param beginDate
      */
@@ -96,7 +96,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the 'EndDate' element value. Планируемый период поставки товара: дата  окончания
+     * Get the 'EndDate' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ РїРµСЂРёРѕРґ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂР°: РґР°С‚Р°  РѕРєРѕРЅС‡Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the 'EndDate' element value. Планируемый период поставки товара: дата  окончания
+     * Set the 'EndDate' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ РїРµСЂРёРѕРґ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂР°: РґР°С‚Р°  РѕРєРѕРЅС‡Р°РЅРёСЏ
      * 
      * @param endDate
      */
@@ -114,7 +114,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код таможенной процедуры, под которую будет помещен товар 
+     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹, РїРѕРґ РєРѕС‚РѕСЂСѓСЋ Р±СѓРґРµС‚ РїРѕРјРµС‰РµРЅ С‚РѕРІР°СЂ 
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код таможенной процедуры, под которую будет помещен товар 
+     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹, РїРѕРґ РєРѕС‚РѕСЂСѓСЋ Р±СѓРґРµС‚ РїРѕРјРµС‰РµРЅ С‚РѕРІР°СЂ 
      * 
      * @param customsModeCode
      */
@@ -132,7 +132,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the list of 'Reason' element items. Причины, по которым невозможна подача заявлений на выпуск в одном таможенном органе
+     * Get the list of 'Reason' element items. РџСЂРёС‡РёРЅС‹, РїРѕ РєРѕС‚РѕСЂС‹Рј РЅРµРІРѕР·РјРѕР¶РЅР° РїРѕРґР°С‡Р° Р·Р°СЏРІР»РµРЅРёР№ РЅР° РІС‹РїСѓСЃРє РІ РѕРґРЅРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return list
      */
@@ -141,7 +141,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the list of 'Reason' element items. Причины, по которым невозможна подача заявлений на выпуск в одном таможенном органе
+     * Set the list of 'Reason' element items. РџСЂРёС‡РёРЅС‹, РїРѕ РєРѕС‚РѕСЂС‹Рј РЅРµРІРѕР·РјРѕР¶РЅР° РїРѕРґР°С‡Р° Р·Р°СЏРІР»РµРЅРёР№ РЅР° РІС‹РїСѓСЃРє РІ РѕРґРЅРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param list
      */
@@ -150,7 +150,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the 'AddressFactInstal' element value. Адрес места фактической сборки, монтажа, установки
+     * Get the 'AddressFactInstal' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕР№ СЃР±РѕСЂРєРё, РјРѕРЅС‚Р°Р¶Р°, СѓСЃС‚Р°РЅРѕРІРєРё
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the 'AddressFactInstal' element value. Адрес места фактической сборки, монтажа, установки
+     * Set the 'AddressFactInstal' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕР№ СЃР±РѕСЂРєРё, РјРѕРЅС‚Р°Р¶Р°, СѓСЃС‚Р°РЅРѕРІРєРё
      * 
      * @param addressFactInstal
      */
@@ -168,7 +168,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the 'CustomsControls' element value. Контролирующая таможня
+     * Get the 'CustomsControls' element value. РљРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰Р°СЏ С‚Р°РјРѕР¶РЅСЏ
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the 'CustomsControls' element value. Контролирующая таможня
+     * Set the 'CustomsControls' element value. РљРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰Р°СЏ С‚Р°РјРѕР¶РЅСЏ
      * 
      * @param customsControls
      */
@@ -186,7 +186,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Get the list of 'Component' element items. Перечень компонентов
+     * Get the list of 'Component' element items. РџРµСЂРµС‡РµРЅСЊ РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
      * 
      * @return list
      */
@@ -195,7 +195,7 @@ public class GoodInfoType
     }
 
     /** 
-     * Set the list of 'Component' element items. Перечень компонентов
+     * Set the list of 'Component' element items. РџРµСЂРµС‡РµРЅСЊ РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
      * 
      * @param list
      */

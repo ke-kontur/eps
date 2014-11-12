@@ -5,7 +5,7 @@ import org.joda.time.DateTime;
 import ru.acs.fts.schemas.aud.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Базовый класс для всех технологических документов АЮД.
+ * Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ РІСЃРµС… С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РђР®Р”.
  */
 public class AUDBaseEnvelopeType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class AUDBaseEnvelopeType extends BaseDocType
     private boolean testDocumentIndicator;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Дата и время создания технологического документа (запроса, ответа). Значение должно быть представлено с указанием смещения (значения локального времени относительно всемирного времени).
+     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°). Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅРѕ СЃ СѓРєР°Р·Р°РЅРёРµРј СЃРјРµС‰РµРЅРёСЏ (Р·РЅР°С‡РµРЅРёСЏ Р»РѕРєР°Р»СЊРЅРѕРіРѕ РІСЂРµРјРµРЅРё РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РІСЃРµРјРёСЂРЅРѕРіРѕ РІСЂРµРјРµРЅРё).
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AUDBaseEnvelopeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Дата и время создания технологического документа (запроса, ответа). Значение должно быть представлено с указанием смещения (значения локального времени относительно всемирного времени).
+     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°). Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅРѕ СЃ СѓРєР°Р·Р°РЅРёРµРј СЃРјРµС‰РµРЅРёСЏ (Р·РЅР°С‡РµРЅРёСЏ Р»РѕРєР°Р»СЊРЅРѕРіРѕ РІСЂРµРјРµРЅРё РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РІСЃРµРјРёСЂРЅРѕРіРѕ РІСЂРµРјРµРЅРё).
      * 
      * @param documentDateTime
      */
@@ -31,7 +31,7 @@ public class AUDBaseEnvelopeType extends BaseDocType
     }
 
     /** 
-     * Get the 'TestDocumentIndicator' element value. Признак того, что технологический документ является тестовым.
+     * Get the 'TestDocumentIndicator' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёР№ РґРѕРєСѓРјРµРЅС‚ СЏРІР»СЏРµС‚СЃСЏ С‚РµСЃС‚РѕРІС‹Рј.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AUDBaseEnvelopeType extends BaseDocType
     }
 
     /** 
-     * Set the 'TestDocumentIndicator' element value. Признак того, что технологический документ является тестовым.
+     * Set the 'TestDocumentIndicator' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёР№ РґРѕРєСѓРјРµРЅС‚ СЏРІР»СЏРµС‚СЃСЏ С‚РµСЃС‚РѕРІС‹Рј.
      * 
      * @param testDocumentIndicator
      */

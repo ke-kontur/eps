@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.eps_inforequest;
 
 /** 
- * Запрос к архиву декларанта
+ * Р—Р°РїСЂРѕСЃ Рє Р°СЂС…РёРІСѓ РґРµРєР»Р°СЂР°РЅС‚Р°
  */
 public class ArchRequestType
 {
@@ -12,7 +12,7 @@ public class ArchRequestType
     private String archDocumentID;
 
     /** 
-     * Get the 'ArchDeclID' element value. Идентификатор декларанта в архиве
+     * Get the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. Идентификатор декларанта в архиве
+     * Set the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @param archDeclID
      */
@@ -30,7 +30,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор архива декларанта
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор архива декларанта
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archID
      */
@@ -48,7 +48,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Архивный идентификатор документа
+     * Get the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Архивный идентификатор документа
+     * Set the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocID
      */
@@ -66,7 +66,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Get the 'ArchDocumentID' element value. Уникальный идентификатор документа
+     * Get the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ArchRequestType
     }
 
     /** 
-     * Set the 'ArchDocumentID' element value. Уникальный идентификатор документа
+     * Set the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocumentID
      */

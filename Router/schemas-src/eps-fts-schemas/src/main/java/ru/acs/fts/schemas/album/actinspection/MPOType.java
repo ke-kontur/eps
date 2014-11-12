@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о предъявленном МПО
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЉСЏРІР»РµРЅРЅРѕРј РњРџРћ
  */
 public class MPOType
 {
@@ -15,7 +15,7 @@ public class MPOType
     private List<String> damageDescList = new ArrayList<String>();
 
     /** 
-     * Get the 'MPO_Number' element value. Номер МПО
+     * Get the 'MPO_Number' element value. РќРѕРјРµСЂ РњРџРћ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class MPOType
     }
 
     /** 
-     * Set the 'MPO_Number' element value. Номер МПО
+     * Set the 'MPO_Number' element value. РќРѕРјРµСЂ РњРџРћ
      * 
      * @param MPONumber
      */
@@ -33,7 +33,7 @@ public class MPOType
     }
 
     /** 
-     * Get the 'MPO_Name' element value. Наименование МПО: 1 - почтовая карточка; 2 - письмо; 3 - бандероль; 4 - мелкий пакет; 5 - секограмма; 6 - посылка; 7 - мешок «М»; 8 - отправление EMS; 9 - аэрограмма
+     * Get the 'MPO_Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РњРџРћ: 1 - РїРѕС‡С‚РѕРІР°СЏ РєР°СЂС‚РѕС‡РєР°; 2 - РїРёСЃСЊРјРѕ; 3 - Р±Р°РЅРґРµСЂРѕР»СЊ; 4 - РјРµР»РєРёР№ РїР°РєРµС‚; 5 - СЃРµРєРѕРіСЂР°РјРјР°; 6 - РїРѕСЃС‹Р»РєР°; 7 - РјРµС€РѕРє В«РњВ»; 8 - РѕС‚РїСЂР°РІР»РµРЅРёРµ EMS; 9 - Р°СЌСЂРѕРіСЂР°РјРјР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class MPOType
     }
 
     /** 
-     * Set the 'MPO_Name' element value. Наименование МПО: 1 - почтовая карточка; 2 - письмо; 3 - бандероль; 4 - мелкий пакет; 5 - секограмма; 6 - посылка; 7 - мешок «М»; 8 - отправление EMS; 9 - аэрограмма
+     * Set the 'MPO_Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РњРџРћ: 1 - РїРѕС‡С‚РѕРІР°СЏ РєР°СЂС‚РѕС‡РєР°; 2 - РїРёСЃСЊРјРѕ; 3 - Р±Р°РЅРґРµСЂРѕР»СЊ; 4 - РјРµР»РєРёР№ РїР°РєРµС‚; 5 - СЃРµРєРѕРіСЂР°РјРјР°; 6 - РїРѕСЃС‹Р»РєР°; 7 - РјРµС€РѕРє В«РњВ»; 8 - РѕС‚РїСЂР°РІР»РµРЅРёРµ EMS; 9 - Р°СЌСЂРѕРіСЂР°РјРјР°
      * 
      * @param MPOName
      */
@@ -51,7 +51,7 @@ public class MPOType
     }
 
     /** 
-     * Get the 'MPO_DamageFlag' element value. Признак повреждения МПО
+     * Get the 'MPO_DamageFlag' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ РњРџРћ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class MPOType
     }
 
     /** 
-     * Set the 'MPO_DamageFlag' element value. Признак повреждения МПО
+     * Set the 'MPO_DamageFlag' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ РњРџРћ
      * 
      * @param MPODamageFlag
      */
@@ -69,7 +69,7 @@ public class MPOType
     }
 
     /** 
-     * Get the list of 'DamageDesc' element items. Описание повреждения МПО
+     * Get the list of 'DamageDesc' element items. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ РњРџРћ
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class MPOType
     }
 
     /** 
-     * Set the list of 'DamageDesc' element items. Описание повреждения МПО
+     * Set the list of 'DamageDesc' element items. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ РњРџРћ
      * 
      * @param list
      */

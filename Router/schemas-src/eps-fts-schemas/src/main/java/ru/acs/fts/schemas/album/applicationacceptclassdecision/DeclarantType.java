@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Информация о заявителе
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
  */
 public class DeclarantType extends OrganizationType
 {
@@ -14,7 +14,7 @@ public class DeclarantType extends OrganizationType
     private AddressType legalAddress;
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -32,7 +32,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Юридический адрес
+     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Юридический адрес
+     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @param legalAddress
      */

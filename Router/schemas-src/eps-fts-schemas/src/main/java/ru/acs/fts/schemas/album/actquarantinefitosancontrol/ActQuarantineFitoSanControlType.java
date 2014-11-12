@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Акт государственного карантинного фитосанитарного контроля
+ * РђРєС‚ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
  */
 public class ActQuarantineFitoSanControlType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameSubject' element value. Наименование субъекта
+     * Get the 'NameSubject' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameSubject' element value. Наименование субъекта
+     * Set the 'NameSubject' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @param nameSubject
      */
@@ -46,7 +46,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'NameManagement' element value. Наименование подразделения управления
+     * Get the 'NameManagement' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ СѓРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameManagement' element value. Наименование подразделения управления
+     * Set the 'NameManagement' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ СѓРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param nameManagement
      */
@@ -64,7 +64,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата выдачи
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата выдачи
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
      * 
      * @param issueDate
      */
@@ -82,7 +82,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Регистрационный номер
+     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Регистрационный номер
+     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param registrationNumber
      */
@@ -100,7 +100,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumberIKR' element value. Номер ИКР, на основании которого разрешается ввоз
+     * Get the 'NumberIKR' element value. РќРѕРјРµСЂ РРљР , РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€Р°РµС‚СЃСЏ РІРІРѕР·
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberIKR' element value. Номер ИКР, на основании которого разрешается ввоз
+     * Set the 'NumberIKR' element value. РќРѕРјРµСЂ РРљР , РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€Р°РµС‚СЃСЏ РІРІРѕР·
      * 
      * @param numberIKR
      */
@@ -118,7 +118,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResultScreening' element items. Результат досмотра
+     * Get the list of 'ResultScreening' element items. Р РµР·СѓР»СЊС‚Р°С‚ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return list
      */
@@ -127,7 +127,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResultScreening' element items. Результат досмотра
+     * Set the list of 'ResultScreening' element items. Р РµР·СѓР»СЊС‚Р°С‚ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param list
      */
@@ -136,7 +136,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConfiscationSamples' element value. Для карантинной фитосанитарной экспертизы отобраны образцы
+     * Get the 'ConfiscationSamples' element value. Р”Р»СЏ РєР°СЂР°РЅС‚РёРЅРЅРѕР№ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹ РѕС‚РѕР±СЂР°РЅС‹ РѕР±СЂР°Р·С†С‹
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConfiscationSamples' element value. Для карантинной фитосанитарной экспертизы отобраны образцы
+     * Set the 'ConfiscationSamples' element value. Р”Р»СЏ РєР°СЂР°РЅС‚РёРЅРЅРѕР№ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹ РѕС‚РѕР±СЂР°РЅС‹ РѕР±СЂР°Р·С†С‹
      * 
      * @param confiscationSamples
      */
@@ -154,7 +154,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReturnDestructionSamples' element value. Образцы  после   проведения   экспертизы если 1- возращены, 2-  уничтожены, 3 - оставлены на хранение.
+     * Get the 'ReturnDestructionSamples' element value. РћР±СЂР°Р·С†С‹  РїРѕСЃР»Рµ   РїСЂРѕРІРµРґРµРЅРёСЏ   СЌРєСЃРїРµСЂС‚РёР·С‹ РµСЃР»Рё 1- РІРѕР·СЂР°С‰РµРЅС‹, 2-  СѓРЅРёС‡С‚РѕР¶РµРЅС‹, 3 - РѕСЃС‚Р°РІР»РµРЅС‹ РЅР° С…СЂР°РЅРµРЅРёРµ.
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReturnDestructionSamples' element value. Образцы  после   проведения   экспертизы если 1- возращены, 2-  уничтожены, 3 - оставлены на хранение.
+     * Set the 'ReturnDestructionSamples' element value. РћР±СЂР°Р·С†С‹  РїРѕСЃР»Рµ   РїСЂРѕРІРµРґРµРЅРёСЏ   СЌРєСЃРїРµСЂС‚РёР·С‹ РµСЃР»Рё 1- РІРѕР·СЂР°С‰РµРЅС‹, 2-  СѓРЅРёС‡С‚РѕР¶РµРЅС‹, 3 - РѕСЃС‚Р°РІР»РµРЅС‹ РЅР° С…СЂР°РЅРµРЅРёРµ.
      * 
      * @param returnDestructionSamples
      */
@@ -172,7 +172,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Prescription' element items. Предписываются следующие карантинные  фитосанитарные  мероприятия,
+     * Get the list of 'Prescription' element items. РџСЂРµРґРїРёСЃС‹РІР°СЋС‚СЃСЏ СЃР»РµРґСѓСЋС‰РёРµ РєР°СЂР°РЅС‚РёРЅРЅС‹Рµ  С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Рµ  РјРµСЂРѕРїСЂРёСЏС‚РёСЏ,
      * 
      * @return list
      */
@@ -181,7 +181,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Prescription' element items. Предписываются следующие карантинные  фитосанитарные  мероприятия,
+     * Set the list of 'Prescription' element items. РџСЂРµРґРїРёСЃС‹РІР°СЋС‚СЃСЏ СЃР»РµРґСѓСЋС‰РёРµ РєР°СЂР°РЅС‚РёРЅРЅС‹Рµ  С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Рµ  РјРµСЂРѕРїСЂРёСЏС‚РёСЏ,
      * 
      * @param list
      */
@@ -190,7 +190,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedOfficial' element value. Уполномоченное  должностное лицо
+     * Get the 'AuthorizedOfficial' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ  РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedOfficial' element value. Уполномоченное  должностное лицо
+     * Set the 'AuthorizedOfficial' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ  РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
      * 
      * @param authorizedOfficial
      */
@@ -208,7 +208,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DescriptionConsignment' element items. Описание груза
+     * Get the list of 'DescriptionConsignment' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -217,7 +217,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DescriptionConsignment' element items. Описание груза
+     * Set the list of 'DescriptionConsignment' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -227,7 +227,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'FitoSanitaryCertificateInfo' element value. Сведения о фитосанитарном (карантинном) сертификате
+     * Get the 'FitoSanitaryCertificateInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРј (РєР°СЂР°РЅС‚РёРЅРЅРѕРј) СЃРµСЂС‚РёС„РёРєР°С‚Рµ
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'FitoSanitaryCertificateInfo' element value. Сведения о фитосанитарном (карантинном) сертификате
+     * Set the 'FitoSanitaryCertificateInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРј (РєР°СЂР°РЅС‚РёРЅРЅРѕРј) СЃРµСЂС‚РёС„РёРєР°С‚Рµ
      * 
      * @param fitoSanitaryCertificateInfo
      */
@@ -246,7 +246,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Owner' element value. Акт составлен  в  присутствии  владельца   (представителя)   груза
+     * Get the 'Owner' element value. РђРєС‚ СЃРѕСЃС‚Р°РІР»РµРЅ  РІ  РїСЂРёСЃСѓС‚СЃС‚РІРёРё  РІР»Р°РґРµР»СЊС†Р°   (РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)   РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Owner' element value. Акт составлен  в  присутствии  владельца   (представителя)   груза
+     * Set the 'Owner' element value. РђРєС‚ СЃРѕСЃС‚Р°РІР»РµРЅ  РІ  РїСЂРёСЃСѓС‚СЃС‚РІРёРё  РІР»Р°РґРµР»СЊС†Р°   (РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)   РіСЂСѓР·Р°
      * 
      * @param owner
      */
@@ -264,7 +264,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class ActQuarantineFitoSanControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

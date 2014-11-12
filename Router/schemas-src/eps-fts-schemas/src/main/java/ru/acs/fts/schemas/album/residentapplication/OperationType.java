@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Наименование операции в соответствии с условиями соглашения 
+ * РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё СЃРѕРіР»Р°С€РµРЅРёСЏ 
  */
 public class OperationType
 {
@@ -14,7 +14,7 @@ public class OperationType
     private List<ProductType> productList = new ArrayList<ProductType>();
 
     /** 
-     * Get the 'OperationName' element value. Наименование операции в соответствии с условиями соглашения 
+     * Get the 'OperationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё СЃРѕРіР»Р°С€РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OperationType
     }
 
     /** 
-     * Set the 'OperationName' element value. Наименование операции в соответствии с условиями соглашения 
+     * Set the 'OperationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё СЃРѕРіР»Р°С€РµРЅРёСЏ 
      * 
      * @param operationName
      */
@@ -32,7 +32,7 @@ public class OperationType
     }
 
     /** 
-     * Get the 'OperationNumber' element value. Порядковый номер операции
+     * Get the 'OperationNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OperationType
     }
 
     /** 
-     * Set the 'OperationNumber' element value. Порядковый номер операции
+     * Set the 'OperationNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРµСЂР°С†РёРё
      * 
      * @param operationNumber
      */
@@ -50,7 +50,7 @@ public class OperationType
     }
 
     /** 
-     * Get the list of 'Product' element items. Товар
+     * Get the list of 'Product' element items. РўРѕРІР°СЂ
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class OperationType
     }
 
     /** 
-     * Set the list of 'Product' element items. Товар
+     * Set the list of 'Product' element items. РўРѕРІР°СЂ
      * 
      * @param list
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание отобранных проб (образцов)
+ * РћРїРёСЃР°РЅРёРµ РѕС‚РѕР±СЂР°РЅРЅС‹С… РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
  */
 public class DescriptionSampleType
 {
@@ -16,7 +16,7 @@ public class DescriptionSampleType
     private List<String> storageConditionList = new ArrayList<String>();
 
     /** 
-     * Get the 'Danger' element value. Признак того, что пробы (образцы) являются опасными
+     * Get the 'Danger' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕР±С‹ (РѕР±СЂР°Р·С†С‹) СЏРІР»СЏСЋС‚СЃСЏ РѕРїР°СЃРЅС‹РјРё
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Set the 'Danger' element value. Признак того, что пробы (образцы) являются опасными
+     * Set the 'Danger' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕР±С‹ (РѕР±СЂР°Р·С†С‹) СЏРІР»СЏСЋС‚СЃСЏ РѕРїР°СЃРЅС‹РјРё
      * 
      * @param danger
      */
@@ -34,7 +34,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Get the 'Perishable' element value. Признак того, что пробы (образцы) являются скоропортящимися
+     * Get the 'Perishable' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕР±С‹ (РѕР±СЂР°Р·С†С‹) СЏРІР»СЏСЋС‚СЃСЏ СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РёРјРёСЃСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Set the 'Perishable' element value. Признак того, что пробы (образцы) являются скоропортящимися
+     * Set the 'Perishable' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕР±С‹ (РѕР±СЂР°Р·С†С‹) СЏРІР»СЏСЋС‚СЃСЏ СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РёРјРёСЃСЏ
      * 
      * @param perishable
      */
@@ -52,7 +52,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Get the list of 'DangerKind' element items. Вид опасности
+     * Get the list of 'DangerKind' element items. Р’РёРґ РѕРїР°СЃРЅРѕСЃС‚Рё
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Set the list of 'DangerKind' element items. Вид опасности
+     * Set the list of 'DangerKind' element items. Р’РёРґ РѕРїР°СЃРЅРѕСЃС‚Рё
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Get the 'PeriodStorage' element value. Срок хранения для скоропортящихся проб (образцов)
+     * Get the 'PeriodStorage' element value. РЎСЂРѕРє С…СЂР°РЅРµРЅРёСЏ РґР»СЏ СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РёС…СЃСЏ РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Set the 'PeriodStorage' element value. Срок хранения для скоропортящихся проб (образцов)
+     * Set the 'PeriodStorage' element value. РЎСЂРѕРє С…СЂР°РЅРµРЅРёСЏ РґР»СЏ СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РёС…СЃСЏ РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
      * 
      * @param periodStorage
      */
@@ -88,7 +88,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Get the list of 'StorageConditions' element items. Условия хранения для скоропортящихся проб (образцов)
+     * Get the list of 'StorageConditions' element items. РЈСЃР»РѕРІРёСЏ С…СЂР°РЅРµРЅРёСЏ РґР»СЏ СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РёС…СЃСЏ РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class DescriptionSampleType
     }
 
     /** 
-     * Set the list of 'StorageConditions' element items. Условия хранения для скоропортящихся проб (образцов)
+     * Set the list of 'StorageConditions' element items. РЈСЃР»РѕРІРёСЏ С…СЂР°РЅРµРЅРёСЏ РґР»СЏ СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РёС…СЃСЏ РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
      * 
      * @param list
      */

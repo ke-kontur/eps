@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о грузе
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіСЂСѓР·Рµ
  */
 public class AWBGoodsInfoType
 {
@@ -16,7 +16,7 @@ public class AWBGoodsInfoType
     private List<AWBGoodsType> AWBGoodList = new ArrayList<AWBGoodsType>();
 
     /** 
-     * Get the 'TotalPlacesQuantity' element value. Общее количество грузовых мест товара
+     * Get the 'TotalPlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Set the 'TotalPlacesQuantity' element value. Общее количество грузовых мест товара
+     * Set the 'TotalPlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
      * 
      * @param totalPlacesQuantity
      */
@@ -34,7 +34,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Get the 'WeightUnitQualifierCode' element value. Код измерения общего веса товара (килограммы или фунты)
+     * Get the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РѕР±С‰РµРіРѕ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Set the 'WeightUnitQualifierCode' element value. Код измерения общего веса товара (килограммы или фунты)
+     * Set the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РѕР±С‰РµРіРѕ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
      * 
      * @param weightUnitQualifierCode
      */
@@ -52,7 +52,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Общий вес брутто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса брутто по товарам)
+     * Get the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° Р±СЂСѓС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Общий вес брутто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса брутто по товарам)
+     * Set the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° Р±СЂСѓС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
      * 
      * @param grossWeightQuantity
      */
@@ -70,7 +70,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Get the 'TotalAmount' element value. Общая сумма (22L)
+     * Get the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° (22L)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Set the 'TotalAmount' element value. Общая сумма (22L)
+     * Set the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° (22L)
      * 
      * @param totalAmount
      */
@@ -88,7 +88,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Get the list of 'AWBGoods' element items. Описание грузовых мест товаров 
+     * Get the list of 'AWBGoods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂРѕРІ 
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class AWBGoodsInfoType
     }
 
     /** 
-     * Set the list of 'AWBGoods' element items. Описание грузовых мест товаров 
+     * Set the list of 'AWBGoods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂРѕРІ 
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.guaranteecalculationresult;
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.TotalAmountType;
 
 /** 
- * Рассчитанные суммы обеспечения по товару.
+ * Р Р°СЃСЃС‡РёС‚Р°РЅРЅС‹Рµ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ.
  */
 public class GoodsAmountType
 {
@@ -13,7 +13,7 @@ public class GoodsAmountType
     private TotalAmountType guaranteeAmount;
 
     /** 
-     * Get the 'Numeric' element value. Номер товара по порядку
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер товара по порядку
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
      * 
      * @param numeric
      */
@@ -31,7 +31,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)
+     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РѕС‚ 6 РґРѕ 10 Р·РЅР°РєРѕРІ)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)
+     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РѕС‚ 6 РґРѕ 10 Р·РЅР°РєРѕРІ)
      * 
      * @param TNVEDCode
      */
@@ -49,7 +49,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Get the 'GuaranteeAmount' element value. Сумма обеспечения по товару
+     * Get the 'GuaranteeAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Set the 'GuaranteeAmount' element value. Сумма обеспечения по товару
+     * Set the 'GuaranteeAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
      * 
      * @param guaranteeAmount
      */

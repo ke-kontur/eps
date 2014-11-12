@@ -4,19 +4,59 @@ package ru.acs.fts.schemas.album.represappliccustomsmark;
 import java.util.ArrayList;
 import java.util.List;
 import org.joda.time.LocalDate;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о партии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
  */
 public class ConsignmentType
 {
+    private String listNumeric;
+    private DocumentBaseType individualWayBill;
     private String decision;
     private LocalDate decisionDate;
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
-    private List<WayBillType> wayBillList = new ArrayList<WayBillType>();
+    private CustomsDutiesType customsDuties;
+    private DocumentBaseType TPOInfo;
 
     /** 
-     * Get the 'Decision' element value. Принятое решение: 1 - выпуск с уплатой таможенных платежей; 2 - выпуск с освобождением от уплаты таможенных платежей; 3 - отказ в выпуске; 4 - требование на предоставление в бумажном виде
+     * Get the 'ListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РїРѕ РїРѕСЂСЏРґРєСѓ
+     * 
+     * @return value
+     */
+    public String getListNumeric() {
+        return listNumeric;
+    }
+
+    /** 
+     * Set the 'ListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РїРѕ РїРѕСЂСЏРґРєСѓ
+     * 
+     * @param listNumeric
+     */
+    public void setListNumeric(String listNumeric) {
+        this.listNumeric = listNumeric;
+    }
+
+    /** 
+     * Get the 'IndividualWayBill' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * 
+     * @return value
+     */
+    public DocumentBaseType getIndividualWayBill() {
+        return individualWayBill;
+    }
+
+    /** 
+     * Set the 'IndividualWayBill' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * 
+     * @param individualWayBill
+     */
+    public void setIndividualWayBill(DocumentBaseType individualWayBill) {
+        this.individualWayBill = individualWayBill;
+    }
+
+    /** 
+     * Get the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ: 1 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ (С‚СЂРµР±СѓРµС‚СЃСЏ СѓРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№), 2 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ Р±РµР· СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 3 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ СЃ СѓРїР»Р°С‚РѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 4 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ, 5 - РІС‹РїСѓСЃРє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -25,7 +65,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Decision' element value. Принятое решение: 1 - выпуск с уплатой таможенных платежей; 2 - выпуск с освобождением от уплаты таможенных платежей; 3 - отказ в выпуске; 4 - требование на предоставление в бумажном виде
+     * Set the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ: 1 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ (С‚СЂРµР±СѓРµС‚СЃСЏ СѓРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№), 2 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ Р±РµР· СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 3 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ СЃ СѓРїР»Р°С‚РѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 4 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ, 5 - РІС‹РїСѓСЃРє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ.
      * 
      * @param decision
      */
@@ -34,7 +74,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'DecisionDate' element value. Дата принятия решения
+     * Get the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +83,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Дата принятия решения
+     * Set the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionDate
      */
@@ -52,7 +92,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -61,7 +101,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -70,20 +110,38 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'WayBill' element items. Сведения о накладной
+     * Get the 'CustomsDuties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
      * 
-     * @return list
+     * @return value
      */
-    public List<WayBillType> getWayBillList() {
-        return wayBillList;
+    public CustomsDutiesType getCustomsDuties() {
+        return customsDuties;
     }
 
     /** 
-     * Set the list of 'WayBill' element items. Сведения о накладной
+     * Set the 'CustomsDuties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
      * 
-     * @param list
+     * @param customsDuties
      */
-    public void setWayBillList(List<WayBillType> list) {
-        wayBillList = list;
+    public void setCustomsDuties(CustomsDutiesType customsDuties) {
+        this.customsDuties = customsDuties;
+    }
+
+    /** 
+     * Get the 'TPOInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РўРџРћ
+     * 
+     * @return value
+     */
+    public DocumentBaseType getTPOInfo() {
+        return TPOInfo;
+    }
+
+    /** 
+     * Set the 'TPOInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РўРџРћ
+     * 
+     * @param TPOInfo
+     */
+    public void setTPOInfo(DocumentBaseType TPOInfo) {
+        this.TPOInfo = TPOInfo;
     }
 }

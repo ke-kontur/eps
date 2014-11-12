@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.railwaybill;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Сведения о грузополучателе/грузоотправителе 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ/РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ 
  */
 public class RBOrganizationType extends OrganizationType
 {
     private String RBCode;
 
     /** 
-     * Get the 'RBCode' element value. Код грузополучателя/грузоотправителя
+     * Get the 'RBCode' element value. РљРѕРґ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ/РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RBOrganizationType extends OrganizationType
     }
 
     /** 
-     * Set the 'RBCode' element value. Код грузополучателя/грузоотправителя
+     * Set the 'RBCode' element value. РљРѕРґ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ/РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @param RBCode
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.statementofaccount;
 import org.joda.time.LocalDate;
 
 /** 
- * Информация о формировании формы документа
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„РѕСЂРјРёСЂРѕРІР°РЅРёРё С„РѕСЂРјС‹ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocumentInfoType
 {
@@ -13,7 +13,7 @@ public class DocumentInfoType
     private String creationTime;
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование учреждения, выпустившего форму
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓС‡СЂРµР¶РґРµРЅРёСЏ, РІС‹РїСѓСЃС‚РёРІС€РµРіРѕ С„РѕСЂРјСѓ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DocumentInfoType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование учреждения, выпустившего форму
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓС‡СЂРµР¶РґРµРЅРёСЏ, РІС‹РїСѓСЃС‚РёРІС€РµРіРѕ С„РѕСЂРјСѓ
      * 
      * @param organizationName
      */
@@ -31,7 +31,7 @@ public class DocumentInfoType
     }
 
     /** 
-     * Get the 'CreationDate' element value. Дата формирования формы
+     * Get the 'CreationDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ С„РѕСЂРјС‹
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DocumentInfoType
     }
 
     /** 
-     * Set the 'CreationDate' element value. Дата формирования формы
+     * Set the 'CreationDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ С„РѕСЂРјС‹
      * 
      * @param creationDate
      */
@@ -49,7 +49,7 @@ public class DocumentInfoType
     }
 
     /** 
-     * Get the 'CreationTime' element value. Время формирования формы
+     * Get the 'CreationTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ С„РѕСЂРјС‹
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DocumentInfoType
     }
 
     /** 
-     * Set the 'CreationTime' element value. Время формирования формы
+     * Set the 'CreationTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ С„РѕСЂРјС‹
      * 
      * @param creationTime
      */

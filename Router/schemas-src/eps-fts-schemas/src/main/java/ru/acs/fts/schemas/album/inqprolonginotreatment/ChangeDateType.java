@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Описание предлагаемого срока продления
+ * РћРїРёСЃР°РЅРёРµ РїСЂРµРґР»Р°РіР°РµРјРѕРіРѕ СЃСЂРѕРєР° РїСЂРѕРґР»РµРЅРёСЏ
  */
 public class ChangeDateType
 {
@@ -14,7 +14,7 @@ public class ChangeDateType
     private List<String> motivationList = new ArrayList<String>();
 
     /** 
-     * Get the 'NewDate' element value. Новая дата окончания переработки
+     * Get the 'NewDate' element value. РќРѕРІР°СЏ РґР°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ChangeDateType
     }
 
     /** 
-     * Set the 'NewDate' element value. Новая дата окончания переработки
+     * Set the 'NewDate' element value. РќРѕРІР°СЏ РґР°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param newDate
      */
@@ -32,7 +32,7 @@ public class ChangeDateType
     }
 
     /** 
-     * Get the list of 'Motivation' element items. Причины изменения сроков переработки
+     * Get the list of 'Motivation' element items. РџСЂРёС‡РёРЅС‹ РёР·РјРµРЅРµРЅРёСЏ СЃСЂРѕРєРѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ChangeDateType
     }
 
     /** 
-     * Set the list of 'Motivation' element items. Причины изменения сроков переработки
+     * Set the list of 'Motivation' element items. РџСЂРёС‡РёРЅС‹ РёР·РјРµРЅРµРЅРёСЏ СЃСЂРѕРєРѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */

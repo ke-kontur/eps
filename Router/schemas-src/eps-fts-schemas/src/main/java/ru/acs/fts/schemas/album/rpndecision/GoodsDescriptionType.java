@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class GoodsDescriptionType
 {
@@ -14,7 +14,7 @@ public class GoodsDescriptionType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the list of 'GoodName' element items. Наименование товара
+     * Get the list of 'GoodName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodName' element items. Наименование товара
+     * Set the list of 'GoodName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AutomobileBaseType;
 import ru.acs.fts.schemas.album.commonleaftypescust.TransportCategoryCodeType;
 
 /** 
- * Карточка транспортного средства. Сведения о транспортном средстве
+ * РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
  */
 public class TransportMeanCardType extends AutomobileBaseType
 {
@@ -16,7 +16,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     private String stateRegNumber;
 
     /** 
-     * Get the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
+     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
+     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param countryCode
      */
@@ -34,7 +34,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'CountryName' element value. Краткое название страны в соответствии с классификатором стран мира
+     * Get the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'CountryName' element value. Краткое название страны в соответствии с классификатором стран мира
+     * Set the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param countryName
      */
@@ -52,7 +52,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportMeansTypeCode' element value. Код типа транспортного средства
+     * Get the 'TransportMeansTypeCode' element value. РљРѕРґ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportMeansTypeCode' element value. Код типа транспортного средства
+     * Set the 'TransportMeansTypeCode' element value. РљРѕРґ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportMeansTypeCode
      */
@@ -70,7 +70,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportCategoryCode' element value. Код категории ТС
+     * Get the 'TransportCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РўРЎ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportCategoryCode' element value. Код категории ТС
+     * Set the 'TransportCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РўРЎ
      * 
      * @param transportCategoryCode
      */
@@ -89,7 +89,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'StateRegNumber' element value. Государственный регистрационный номер
+     * Get the 'StateRegNumber' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'StateRegNumber' element value. Государственный регистрационный номер
+     * Set the 'StateRegNumber' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param stateRegNumber
      */

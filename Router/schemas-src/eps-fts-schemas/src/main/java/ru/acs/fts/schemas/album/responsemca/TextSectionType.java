@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.responsemca;
 
 /** 
- * Текстовый раздел
+ * РўРµРєСЃС‚РѕРІС‹Р№ СЂР°Р·РґРµР»
  */
 public class TextSectionType extends TextParaType
 {
     private String sectionName;
 
     /** 
-     * Get the 'SectionName' element value. Наименование раздела
+     * Get the 'SectionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂР°Р·РґРµР»Р°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class TextSectionType extends TextParaType
     }
 
     /** 
-     * Set the 'SectionName' element value. Наименование раздела
+     * Set the 'SectionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂР°Р·РґРµР»Р°
      * 
      * @param sectionName
      */

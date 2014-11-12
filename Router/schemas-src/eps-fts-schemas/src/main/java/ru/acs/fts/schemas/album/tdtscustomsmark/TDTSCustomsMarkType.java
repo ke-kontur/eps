@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Отметки таможенного органа по ТДТС
+ * РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРѕ РўР”РўРЎ
  */
 public class TDTSCustomsMarkType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Comments' element items. Комментарий
+     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Комментарий
+     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentID' element value. Уникальный идентификатор декларации, к которой относятся служебные отметки (GUID).
+     * Get the 'DocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°С†РёРё, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё (GUID).
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentID' element value. Уникальный идентификатор декларации, к которой относятся служебные отметки (GUID).
+     * Set the 'DocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°С†РёРё, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё (GUID).
      * 
      * @param documentID1
      */
@@ -54,7 +54,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'TDTSRegNumber' element value. Регистрационный номер ТДТС
+     * Get the 'TDTSRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РўР”РўРЎ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'TDTSRegNumber' element value. Регистрационный номер ТДТС
+     * Set the 'TDTSRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РўР”РўРЎ
      * 
      * @param TDTSRegNumber
      */
@@ -72,7 +72,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TDTSCommonMark' element items. Служебные отметки ТДТС
+     * Get the list of 'TDTSCommonMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РўР”РўРЎ
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TDTSCommonMark' element items. Служебные отметки ТДТС
+     * Set the list of 'TDTSCommonMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РўР”РўРЎ
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CancellationInfo' element value. Сведения об отказе
+     * Get the 'CancellationInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CancellationInfo' element value. Сведения об отказе
+     * Set the 'CancellationInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ
      * 
      * @param cancellationInfo
      */
@@ -108,7 +108,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class TDTSCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

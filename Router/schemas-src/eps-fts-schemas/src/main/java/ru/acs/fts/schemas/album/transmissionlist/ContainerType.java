@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transmissionlist;
 
 /** 
- * Сведения о контейнерах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
  */
 public class ContainerType
 {
@@ -14,7 +14,7 @@ public class ContainerType
     private String containerCapacityUnitQualifierCode;
 
     /** 
-     * Get the 'RailwayCode' element value. Код железнодорожной дороги - владельца контейнера. Не указывается, если контейнер не принадлежит железным дорогам
+     * Get the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё - РІР»Р°РґРµР»СЊС†Р° РєРѕРЅС‚РµР№РЅРµСЂР°. РќРµ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РєРѕРЅС‚РµР№РЅРµСЂ РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ Р¶РµР»РµР·РЅС‹Рј РґРѕСЂРѕРіР°Рј
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'RailwayCode' element value. Код железнодорожной дороги - владельца контейнера. Не указывается, если контейнер не принадлежит железным дорогам
+     * Set the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё - РІР»Р°РґРµР»СЊС†Р° РєРѕРЅС‚РµР№РЅРµСЂР°. РќРµ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РєРѕРЅС‚РµР№РЅРµСЂ РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ Р¶РµР»РµР·РЅС‹Рј РґРѕСЂРѕРіР°Рј
      * 
      * @param railwayCode
      */
@@ -32,7 +32,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the 'ContainerID' element value. Номер контейнера
+     * Get the 'ContainerID' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerID' element value. Номер контейнера
+     * Set the 'ContainerID' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerID
      */
@@ -50,7 +50,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the 'ContainerKind' element value. Тип контейнера в соответствии с Классификатором видов груза, упаковки и упаковочных материалов
+     * Get the 'ContainerKind' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerKind' element value. Тип контейнера в соответствии с Классификатором видов груза, упаковки и упаковочных материалов
+     * Set the 'ContainerKind' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @param containerKind
      */
@@ -68,7 +68,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the 'ContainerModeDescription' element value. Описание вида контейнера
+     * Get the 'ContainerModeDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerModeDescription' element value. Описание вида контейнера
+     * Set the 'ContainerModeDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerModeDescription
      */
@@ -86,7 +86,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the 'ContainerCapacity' element value. Емкость контейнера
+     * Get the 'ContainerCapacity' element value. Р•РјРєРѕСЃС‚СЊ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerCapacity' element value. Емкость контейнера
+     * Set the 'ContainerCapacity' element value. Р•РјРєРѕСЃС‚СЊ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerCapacity
      */
@@ -104,7 +104,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the 'ContainerCapacityUnitQualifierCode' element value. Название единицы измерения емкости контейнера
+     * Get the 'ContainerCapacityUnitQualifierCode' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РµРјРєРѕСЃС‚Рё РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerCapacityUnitQualifierCode' element value. Название единицы измерения емкости контейнера
+     * Set the 'ContainerCapacityUnitQualifierCode' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РµРјРєРѕСЃС‚Рё РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerCapacityUnitQualifierCode
      */

@@ -12,7 +12,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'DateBegin' element value. Дата  начала  размещения  документов
+     * Get the 'DateBegin' element value. Р”Р°С‚Р°  РЅР°С‡Р°Р»Р°  СЂР°Р·РјРµС‰РµРЅРёСЏ  РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DateBegin' element value. Дата  начала  размещения  документов
+     * Set the 'DateBegin' element value. Р”Р°С‚Р°  РЅР°С‡Р°Р»Р°  СЂР°Р·РјРµС‰РµРЅРёСЏ  РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param dateBegin
      */
@@ -30,7 +30,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DateStop' element value. Дата  окончания  размещения  документов
+     * Get the 'DateStop' element value. Р”Р°С‚Р°  РѕРєРѕРЅС‡Р°РЅРёСЏ  СЂР°Р·РјРµС‰РµРЅРёСЏ  РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DateStop' element value. Дата  окончания  размещения  документов
+     * Set the 'DateStop' element value. Р”Р°С‚Р°  РѕРєРѕРЅС‡Р°РЅРёСЏ  СЂР°Р·РјРµС‰РµРЅРёСЏ  РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param dateStop
      */
@@ -48,7 +48,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DateIndicatior' element value. Признак  обработки дат. 1-Дата размещения пакета в архиве 2- дата регистрации ГТД
+     * Get the 'DateIndicatior' element value. РџСЂРёР·РЅР°Рє  РѕР±СЂР°Р±РѕС‚РєРё РґР°С‚. 1-Р”Р°С‚Р° СЂР°Р·РјРµС‰РµРЅРёСЏ РїР°РєРµС‚Р° РІ Р°СЂС…РёРІРµ 2- РґР°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё Р“РўР”
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DateIndicatior' element value. Признак  обработки дат. 1-Дата размещения пакета в архиве 2- дата регистрации ГТД
+     * Set the 'DateIndicatior' element value. РџСЂРёР·РЅР°Рє  РѕР±СЂР°Р±РѕС‚РєРё РґР°С‚. 1-Р”Р°С‚Р° СЂР°Р·РјРµС‰РµРЅРёСЏ РїР°РєРµС‚Р° РІ Р°СЂС…РёРІРµ 2- РґР°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё Р“РўР”
      * 
      * @param dateIndicatior
      */
@@ -66,7 +66,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class AUDRegistryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

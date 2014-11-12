@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Экземпляр описи.
+ * Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё.
  */
 public class InventoryInstanceType
 {
@@ -16,7 +16,7 @@ public class InventoryInstanceType
     private List<PriorInformationType> priorInformationList = new ArrayList<PriorInformationType>();
 
     /** 
-     * Get the 'InstanceNumber' element value. Порядковый номер описи по ДТ
+     * Get the 'InstanceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРёСЃРё РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the 'InstanceNumber' element value. Порядковый номер описи по ДТ
+     * Set the 'InstanceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРёСЃРё РїРѕ Р”Рў
      * 
      * @param instanceNumber
      */
@@ -34,7 +34,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Get the 'InventoryInstancePerson' element value. Сведения о лице, подающем опись.
+     * Get the 'InventoryInstancePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РѕРїРёСЃСЊ.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the 'InventoryInstancePerson' element value. Сведения о лице, подающем опись.
+     * Set the 'InventoryInstancePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РѕРїРёСЃСЊ.
      * 
      * @param inventoryInstancePerson
      */
@@ -53,7 +53,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Документ из описи.
+     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё.
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Документ из описи.
+     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё.
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Get the 'InventoryInstanceMark' element value. Служебные отметки в экземпляре описи.
+     * Get the 'InventoryInstanceMark' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РІ СЌРєР·РµРјРїР»СЏСЂРµ РѕРїРёСЃРё.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the 'InventoryInstanceMark' element value. Служебные отметки в экземпляре описи.
+     * Set the 'InventoryInstanceMark' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РІ СЌРєР·РµРјРїР»СЏСЂРµ РѕРїРёСЃРё.
      * 
      * @param inventoryInstanceMark
      */
@@ -90,7 +90,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Get the list of 'PriorInformation' element items. Сведения о предоставленной предварительной информации
+     * Get the list of 'PriorInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the list of 'PriorInformation' element items. Сведения о предоставленной предварительной информации
+     * Set the list of 'PriorInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param list
      */

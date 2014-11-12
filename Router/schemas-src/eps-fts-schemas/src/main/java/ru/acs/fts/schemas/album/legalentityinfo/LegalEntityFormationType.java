@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения об образовании юридического лица
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±СЂР°Р·РѕРІР°РЅРёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class LegalEntityFormationType extends ReferenceInfoType
 {
@@ -14,7 +14,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     private RegOrganType regOrgan;
 
     /** 
-     * Get the 'RegDate' element value. Дата регистрации юридического лица при образовании
+     * Get the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїСЂРё РѕР±СЂР°Р·РѕРІР°РЅРёРё
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RegDate' element value. Дата регистрации юридического лица при образовании
+     * Set the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїСЂРё РѕР±СЂР°Р·РѕРІР°РЅРёРё
      * 
      * @param regDate
      */
@@ -32,7 +32,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RegNum' element value. Регистрационный номер, присвоенный юридическому лицу при образовании
+     * Get the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ СЋСЂРёРґРёС‡РµСЃРєРѕРјСѓ Р»РёС†Сѓ РїСЂРё РѕР±СЂР°Р·РѕРІР°РЅРёРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RegNum' element value. Регистрационный номер, присвоенный юридическому лицу при образовании
+     * Set the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ СЋСЂРёРґРёС‡РµСЃРєРѕРјСѓ Р»РёС†Сѓ РїСЂРё РѕР±СЂР°Р·РѕРІР°РЅРёРё
      * 
      * @param regNum
      */
@@ -50,7 +50,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */
@@ -68,7 +68,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. Орган, зарегистрировавший создание ЮЛ
+     * Get the 'RegOrgan' element value. РћСЂРіР°РЅ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РёР№ СЃРѕР·РґР°РЅРёРµ Р®Р›
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class LegalEntityFormationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. Орган, зарегистрировавший создание ЮЛ
+     * Set the 'RegOrgan' element value. РћСЂРіР°РЅ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РёР№ СЃРѕР·РґР°РЅРёРµ Р®Р›
      * 
      * @param regOrgan
      */

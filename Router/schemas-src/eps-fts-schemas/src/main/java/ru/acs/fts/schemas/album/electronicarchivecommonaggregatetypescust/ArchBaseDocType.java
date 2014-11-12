@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust;
 
 /** 
- * Базовый для документа из архива
+ * Р‘Р°Р·РѕРІС‹Р№ РґР»СЏ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°
  */
 public class ArchBaseDocType extends ArchBaseType
 {
@@ -10,7 +10,7 @@ public class ArchBaseDocType extends ArchBaseType
     private String archDocumentID;
 
     /** 
-     * Get the 'ArchDocID' element value. Идентификатор документа в архиве
+     * Get the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ArchBaseDocType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Идентификатор документа в архиве
+     * Set the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @param archDocID
      */
@@ -28,7 +28,7 @@ public class ArchBaseDocType extends ArchBaseType
     }
 
     /** 
-     * Get the 'ArchDocumentID' element value. Уникальный идентификатор документа
+     * Get the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ArchBaseDocType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocumentID' element value. Уникальный идентификатор документа
+     * Set the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocumentID
      */

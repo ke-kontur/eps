@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADGoodsShipme
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGuaranteeType;
 
 /** 
- * Сведения о товарной партии.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
  */
 public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
 {
@@ -24,7 +24,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     private KTDinPaymentsType KDTinPayments;
 
     /** 
-     * Get the 'PreviousTotalCustomsAmount' element value. Предыдущее значение общей таможенной стоимости
+     * Get the 'PreviousTotalCustomsAmount' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ РѕР±С‰РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'PreviousTotalCustomsAmount' element value. Предыдущее значение общей таможенной стоимости
+     * Set the 'PreviousTotalCustomsAmount' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ РѕР±С‰РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param previousTotalCustomsAmount
      */
@@ -42,7 +42,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KTDinConsignor' element value. КДТ. Внутренний формат. Сведения об отправителе товаров
+     * Get the 'KTDinConsignor' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTDinConsignor' element value. КДТ. Внутренний формат. Сведения об отправителе товаров
+     * Set the 'KTDinConsignor' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param KTDinConsignor
      */
@@ -60,7 +60,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KTDinConsignee' element value. КТД. Внутренний формат. Сведения о получателе товаров.
+     * Get the 'KTDinConsignee' element value. РљРўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTDinConsignee' element value. КТД. Внутренний формат. Сведения о получателе товаров.
+     * Set the 'KTDinConsignee' element value. РљРўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param KTDinConsignee
      */
@@ -78,7 +78,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KTDinFinancialAdjustingResponsiblePerson' element value. КТД. Внутренний формат. Лицо ответственное за финансовое урегулирование.
+     * Get the 'KTDinFinancialAdjustingResponsiblePerson' element value. РљРўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTDinFinancialAdjustingResponsiblePerson' element value. КТД. Внутренний формат. Лицо ответственное за финансовое урегулирование.
+     * Set the 'KTDinFinancialAdjustingResponsiblePerson' element value. РљРўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
      * 
      * @param KTDinFinancialAdjustingResponsiblePerson
      */
@@ -97,7 +97,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KTDinDeclarant' element value. КДТ. Внутренний формат. Сведения о декларанте товаров.
+     * Get the 'KTDinDeclarant' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTDinDeclarant' element value. КДТ. Внутренний формат. Сведения о декларанте товаров.
+     * Set the 'KTDinDeclarant' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param KTDinDeclarant
      */
@@ -115,7 +115,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'KTDinGoodsLocation' element items. КДТ. Внутренний формат. Местонахождение товаров. Гр. 30
+     * Get the list of 'KTDinGoodsLocation' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'KTDinGoodsLocation' element items. КДТ. Внутренний формат. Местонахождение товаров. Гр. 30
+     * Set the list of 'KTDinGoodsLocation' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KTDinMainContractTerms' element value. КДТ. Внутренний формат. Условия сделки. Гр. 11, 20, 22, 23,  24
+     * Get the 'KTDinMainContractTerms' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё. Р“СЂ. 11, 20, 22, 23,  24
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTDinMainContractTerms' element value. КДТ. Внутренний формат. Условия сделки. Гр. 11, 20, 22, 23,  24
+     * Set the 'KTDinMainContractTerms' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё. Р“СЂ. 11, 20, 22, 23,  24
      * 
      * @param KTDinMainContractTerms
      */
@@ -152,7 +152,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KTDinConsigment' element value. КДТ. Внутренний формат. Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29, 53.
+     * Get the 'KTDinConsigment' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29, 53.
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTDinConsigment' element value. КДТ. Внутренний формат. Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29, 53.
+     * Set the 'KTDinConsigment' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29, 53.
      * 
      * @param KTDinConsigment
      */
@@ -170,7 +170,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'KTDinGoods' element items. Товарная часть КДТ. Гр. 31-47
+     * Get the list of 'KTDinGoods' element items. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ РљР”Рў. Р“СЂ. 31-47
      * 
      * @return list
      */
@@ -179,7 +179,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'KTDinGoods' element items. Товарная часть КДТ. Гр. 31-47
+     * Set the list of 'KTDinGoods' element items. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ РљР”Рў. Р“СЂ. 31-47
      * 
      * @param list
      */
@@ -188,7 +188,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'Guarantee' element items. Гарантия.
+     * Get the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ.
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'Guarantee' element items. Гарантия.
+     * Set the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ.
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'KDTinPayments' element value. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В.
+     * Get the 'KDTinPayments' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’.
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class KTDinGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'KDTinPayments' element value. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В.
+     * Set the 'KDTinPayments' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’.
      * 
      * @param KDTinPayments
      */

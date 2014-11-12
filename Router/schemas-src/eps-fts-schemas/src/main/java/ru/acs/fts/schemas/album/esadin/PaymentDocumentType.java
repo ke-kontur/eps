@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Платежный документ
+ * РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class PaymentDocumentType extends DocumentBaseType
 {
     private LocalDate paymentDate;
 
     /** 
-     * Get the 'PaymentDate' element value. Дата уплаты
+     * Get the 'PaymentDate' element value. Р”Р°С‚Р° СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PaymentDate' element value. Дата уплаты
+     * Set the 'PaymentDate' element value. Р”Р°С‚Р° СѓРїР»Р°С‚С‹
      * 
      * @param paymentDate
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Получатель
+ * РџРѕР»СѓС‡Р°С‚РµР»СЊ
  */
 public class ReceiverType
 {
@@ -16,7 +16,7 @@ public class ReceiverType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'Account' element value. Номер счёта 
+     * Get the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р° 
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ReceiverType
     }
 
     /** 
-     * Set the 'Account' element value. Номер счёта 
+     * Set the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р° 
      * 
      * @param account
      */
@@ -34,7 +34,7 @@ public class ReceiverType
     }
 
     /** 
-     * Get the 'Organisation' element value. Реквизиты организации.
+     * Get the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ReceiverType
     }
 
     /** 
-     * Set the 'Organisation' element value. Реквизиты организации.
+     * Set the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё.
      * 
      * @param organisation
      */
@@ -52,7 +52,7 @@ public class ReceiverType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес 
+     * Get the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ReceiverType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес 
+     * Set the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @param address
      */
@@ -70,7 +70,7 @@ public class ReceiverType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ReceiverType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

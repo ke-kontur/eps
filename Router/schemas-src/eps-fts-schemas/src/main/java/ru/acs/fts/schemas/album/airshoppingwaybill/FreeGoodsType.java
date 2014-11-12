@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Бесплатные товары
+ * Р‘РµСЃРїР»Р°С‚РЅС‹Рµ С‚РѕРІР°СЂС‹
  */
 public class FreeGoodsType
 {
@@ -15,7 +15,7 @@ public class FreeGoodsType
     private String numberReturnFreeGoods;
 
     /** 
-     * Get the list of 'NameFreeGoods' element items. Наименование товара
+     * Get the list of 'NameFreeGoods' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Set the list of 'NameFreeGoods' element items. Наименование товара
+     * Set the list of 'NameFreeGoods' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Get the 'PLUCodeFreeGoods' element value. Код PLU товара
+     * Get the 'PLUCodeFreeGoods' element value. РљРѕРґ PLU С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Set the 'PLUCodeFreeGoods' element value. Код PLU товара
+     * Set the 'PLUCodeFreeGoods' element value. РљРѕРґ PLU С‚РѕРІР°СЂР°
      * 
      * @param PLUCodeFreeGoods
      */
@@ -51,7 +51,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Get the 'NumberFreeGoods' element value. Количество товара
+     * Get the 'NumberFreeGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Set the 'NumberFreeGoods' element value. Количество товара
+     * Set the 'NumberFreeGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param numberFreeGoods
      */
@@ -69,7 +69,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Get the 'NumberReturnFreeGoods' element value. Количество возвращенного товара
+     * Get the 'NumberReturnFreeGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІРѕР·РІСЂР°С‰РµРЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class FreeGoodsType
     }
 
     /** 
-     * Set the 'NumberReturnFreeGoods' element value. Количество возвращенного товара
+     * Set the 'NumberReturnFreeGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІРѕР·РІСЂР°С‰РµРЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @param numberReturnFreeGoods
      */

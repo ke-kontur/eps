@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Параметры фильтра для значения типа "duration" (длительность). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+ * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
  */
 public class AUDDurationFilterParamsType extends AUDBaseFilterParamsType
 {
     private List<String> filterValueList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'FilterValue' element items. Значение фильтра для типа "duration" (длительность).
+     * Get the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ).
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class AUDDurationFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the list of 'FilterValue' element items. Значение фильтра для типа "duration" (длительность).
+     * Set the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ).
      * 
      * @param list
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * Пересчет грузовых мест
+ * РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
  */
 public class ReCountPackType
 {
@@ -10,7 +10,7 @@ public class ReCountPackType
     private Choice choice;
 
     /** 
-     * Get the 'ReCount' element value. Пересчет грузовых мест
+     * Get the 'ReCount' element value. РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ReCountPackType
     }
 
     /** 
-     * Set the 'ReCount' element value. Пересчет грузовых мест
+     * Set the 'ReCount' element value. РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param reCount
      */
@@ -78,7 +78,7 @@ public class ReCountPackType
         }
 
         /** 
-         * Get the 'WSelectOpenFlag' element value. С частичным вскрытием
+         * Get the 'WSelectOpenFlag' element value. РЎ С‡Р°СЃС‚РёС‡РЅС‹Рј РІСЃРєСЂС‹С‚РёРµРј
          * 
          * @return value
          */
@@ -87,7 +87,7 @@ public class ReCountPackType
         }
 
         /** 
-         * Set the 'WSelectOpenFlag' element value. С частичным вскрытием
+         * Set the 'WSelectOpenFlag' element value. РЎ С‡Р°СЃС‚РёС‡РЅС‹Рј РІСЃРєСЂС‹С‚РёРµРј
          * 
          * @param WSelectOpenFlag
          */
@@ -106,7 +106,7 @@ public class ReCountPackType
         }
 
         /** 
-         * Get the 'WFullOpenFlag' element value. Со вскрытием всех грузовых мест
+         * Get the 'WFullOpenFlag' element value. РЎРѕ РІСЃРєСЂС‹С‚РёРµРј РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
          * 
          * @return value
          */
@@ -115,7 +115,7 @@ public class ReCountPackType
         }
 
         /** 
-         * Set the 'WFullOpenFlag' element value. Со вскрытием всех грузовых мест
+         * Set the 'WFullOpenFlag' element value. РЎРѕ РІСЃРєСЂС‹С‚РёРµРј РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
          * 
          * @param WFullOpenFlag
          */

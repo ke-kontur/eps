@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDID6Type;
 
 /** 
- * Акт таможенного досмотра (внутренний формат)
+ * РђРєС‚ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РІРЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚)
  */
 public class ActInspectionInType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class ActInspectionInType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BeginInspectionTime' element value. Время начала таможенного досмотра (осмотра)
+     * Get the 'BeginInspectionTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginInspectionTime' element value. Время начала таможенного досмотра (осмотра)
+     * Set the 'BeginInspectionTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @param beginInspectionTime
      */
@@ -52,7 +52,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginInspectionDate' element value. Дата начала таможенного досмотра (осмотра)
+     * Get the 'BeginInspectionDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginInspectionDate' element value. Дата начала таможенного досмотра (осмотра)
+     * Set the 'BeginInspectionDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @param beginInspectionDate
      */
@@ -70,7 +70,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndInspectionTime' element value. Время окончания таможенного досмотра (осмотра)
+     * Get the 'EndInspectionTime' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndInspectionTime' element value. Время окончания таможенного досмотра (осмотра)
+     * Set the 'EndInspectionTime' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @param endInspectionTime
      */
@@ -88,7 +88,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndInspectionDate' element value. Дата окончания таможенного досмотра (осмотра)
+     * Get the 'EndInspectionDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndInspectionDate' element value. Дата окончания таможенного досмотра (осмотра)
+     * Set the 'EndInspectionDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
      * 
      * @param endInspectionDate
      */
@@ -106,7 +106,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActType' element value. Признак досмотра: 1 - досмотре всех товаров, заявленных в ДТ, 2 - досмотр части товаров, заявленных в ДТ, 3 - досмотр товаров, заявленных в нескольких ДТ
+     * Get the 'ActType' element value. РџСЂРёР·РЅР°Рє РґРѕСЃРјРѕС‚СЂР°: 1 - РґРѕСЃРјРѕС‚СЂРµ РІСЃРµС… С‚РѕРІР°СЂРѕРІ, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ Р”Рў, 2 - РґРѕСЃРјРѕС‚СЂ С‡Р°СЃС‚Рё С‚РѕРІР°СЂРѕРІ, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ Р”Рў, 3 - РґРѕСЃРјРѕС‚СЂ С‚РѕРІР°СЂРѕРІ, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ РЅРµСЃРєРѕР»СЊРєРёС… Р”Рў
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActType' element value. Признак досмотра: 1 - досмотре всех товаров, заявленных в ДТ, 2 - досмотр части товаров, заявленных в ДТ, 3 - досмотр товаров, заявленных в нескольких ДТ
+     * Set the 'ActType' element value. РџСЂРёР·РЅР°Рє РґРѕСЃРјРѕС‚СЂР°: 1 - РґРѕСЃРјРѕС‚СЂРµ РІСЃРµС… С‚РѕРІР°СЂРѕРІ, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ Р”Рў, 2 - РґРѕСЃРјРѕС‚СЂ С‡Р°СЃС‚Рё С‚РѕРІР°СЂРѕРІ, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ Р”Рў, 3 - РґРѕСЃРјРѕС‚СЂ С‚РѕРІР°СЂРѕРІ, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ РЅРµСЃРєРѕР»СЊРєРёС… Р”Рў
      * 
      * @param actType
      */
@@ -124,7 +124,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ATDGlobalID' element value. Уникальный идентификатор акта таможенного досмотра
+     * Get the 'ATDGlobalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ATDGlobalID' element value. Уникальный идентификатор акта таможенного досмотра
+     * Set the 'ATDGlobalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param ATDGlobalID
      */
@@ -142,7 +142,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ATDKind' element value. Признак досмотра: 0 - досмотр; 1 - осмотр
+     * Get the 'ATDKind' element value. РџСЂРёР·РЅР°Рє РґРѕСЃРјРѕС‚СЂР°: 0 - РґРѕСЃРјРѕС‚СЂ; 1 - РѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ATDKind' element value. Признак досмотра: 0 - досмотр; 1 - осмотр
+     * Set the 'ATDKind' element value. РџСЂРёР·РЅР°Рє РґРѕСЃРјРѕС‚СЂР°: 0 - РґРѕСЃРјРѕС‚СЂ; 1 - РѕСЃРјРѕС‚СЂ
      * 
      * @param ATDKind
      */
@@ -160,7 +160,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ModificationDate' element value. Дата модификации 
+     * Get the 'ModificationDate' element value. Р”Р°С‚Р° РјРѕРґРёС„РёРєР°С†РёРё 
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ModificationDate' element value. Дата модификации 
+     * Set the 'ModificationDate' element value. Р”Р°С‚Р° РјРѕРґРёС„РёРєР°С†РёРё 
      * 
      * @param modificationDate
      */
@@ -178,7 +178,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ModificationTime' element value. Время модификации
+     * Get the 'ModificationTime' element value. Р’СЂРµРјСЏ РјРѕРґРёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ModificationTime' element value. Время модификации
+     * Set the 'ModificationTime' element value. Р’СЂРµРјСЏ РјРѕРґРёС„РёРєР°С†РёРё
      * 
      * @param modificationTime
      */
@@ -196,7 +196,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'TechMarkCode' element value. Код  проставленной технологической отметки. Код технологической операции заполняется:  001- ошибочно переданный АТД ; 002 - АТД, содержащий ошибку в регистрационном номере; 000 - в прочие случаи.
+     * Get the 'TechMarkCode' element value. РљРѕРґ  РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё. РљРѕРґ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ:  001- РѕС€РёР±РѕС‡РЅРѕ РїРµСЂРµРґР°РЅРЅС‹Р№ РђРўР” ; 002 - РђРўР”, СЃРѕРґРµСЂР¶Р°С‰РёР№ РѕС€РёР±РєСѓ РІ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ; 000 - РІ РїСЂРѕС‡РёРµ СЃР»СѓС‡Р°Рё.
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'TechMarkCode' element value. Код  проставленной технологической отметки. Код технологической операции заполняется:  001- ошибочно переданный АТД ; 002 - АТД, содержащий ошибку в регистрационном номере; 000 - в прочие случаи.
+     * Set the 'TechMarkCode' element value. РљРѕРґ  РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё. РљРѕРґ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ:  001- РѕС€РёР±РѕС‡РЅРѕ РїРµСЂРµРґР°РЅРЅС‹Р№ РђРўР” ; 002 - РђРўР”, СЃРѕРґРµСЂР¶Р°С‰РёР№ РѕС€РёР±РєСѓ РІ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ; 000 - РІ РїСЂРѕС‡РёРµ СЃР»СѓС‡Р°Рё.
      * 
      * @param techMarkCode
      */
@@ -214,7 +214,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsMark' element value. Служебные отметки 
+     * Get the 'CustomsMark' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsMark' element value. Служебные отметки 
+     * Set the 'CustomsMark' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @param customsMark
      */
@@ -232,7 +232,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShortFormSign' element value. Признак составления АТДО в сокращенной форме: 1 - да; 0 - нет
+     * Get the 'ShortFormSign' element value. РџСЂРёР·РЅР°Рє СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ РІ СЃРѕРєСЂР°С‰РµРЅРЅРѕР№ С„РѕСЂРјРµ: 1 - РґР°; 0 - РЅРµС‚
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShortFormSign' element value. Признак составления АТДО в сокращенной форме: 1 - да; 0 - нет
+     * Set the 'ShortFormSign' element value. РџСЂРёР·РЅР°Рє СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ РІ СЃРѕРєСЂР°С‰РµРЅРЅРѕР№ С„РѕСЂРјРµ: 1 - РґР°; 0 - РЅРµС‚
      * 
      * @param shortFormSign
      */
@@ -250,7 +250,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndComposeDate' element value. Дата завершения составления АТДО
+     * Get the 'EndComposeDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndComposeDate' element value. Дата завершения составления АТДО
+     * Set the 'EndComposeDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ
      * 
      * @param endComposeDate
      */
@@ -268,7 +268,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndComposeTime' element value. Время завершения составления АТДО
+     * Get the 'EndComposeTime' element value. Р’СЂРµРјСЏ Р·Р°РІРµСЂС€РµРЅРёСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ
      * 
      * @return value
      */
@@ -277,7 +277,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndComposeTime' element value. Время завершения составления АТДО
+     * Set the 'EndComposeTime' element value. Р’СЂРµРјСЏ Р·Р°РІРµСЂС€РµРЅРёСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ
      * 
      * @param endComposeTime
      */
@@ -286,7 +286,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ATDRegNumber' element value. Регистрационный номер акта таможенного досмотра
+     * Get the 'ATDRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ATDRegNumber' element value. Регистрационный номер акта таможенного досмотра
+     * Set the 'ATDRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param ATDRegNumber
      */
@@ -304,7 +304,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'InstructionNumber' element value. Сведения  о поручении на досмотр
+     * Get the 'InstructionNumber' element value. РЎРІРµРґРµРЅРёСЏ  Рѕ РїРѕСЂСѓС‡РµРЅРёРё РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'InstructionNumber' element value. Сведения  о поручении на досмотр
+     * Set the 'InstructionNumber' element value. РЎРІРµРґРµРЅРёСЏ  Рѕ РїРѕСЂСѓС‡РµРЅРёРё РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @param instructionNumber
      */
@@ -322,7 +322,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionPlace' element value. Описание места проведения досмотра. Иная информация о месте досмотра
+     * Get the 'InspectionPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. РРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚Рµ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -331,7 +331,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionPlace' element value. Описание места проведения досмотра. Иная информация о месте досмотра
+     * Set the 'InspectionPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. РРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚Рµ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspectionPlace
      */
@@ -340,7 +340,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspPerson' element value. Присутствующие лица
+     * Get the 'InspPerson' element value. РџСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёРµ Р»РёС†Р°
      * 
      * @return value
      */
@@ -349,7 +349,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspPerson' element value. Присутствующие лица
+     * Set the 'InspPerson' element value. РџСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёРµ Р»РёС†Р°
      * 
      * @param inspPerson
      */
@@ -358,7 +358,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspTransport' element value. Сведения о транспортных  средствах
+     * Get the 'InspTransport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С…  СЃСЂРµРґСЃС‚РІР°С…
      * 
      * @return value
      */
@@ -367,7 +367,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspTransport' element value. Сведения о транспортных  средствах
+     * Set the 'InspTransport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С…  СЃСЂРµРґСЃС‚РІР°С…
      * 
      * @param inspTransport
      */
@@ -376,7 +376,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionInfo' element value. Информация о проведенном досмотре
+     * Get the 'InspectionInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ
      * 
      * @return value
      */
@@ -385,7 +385,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionInfo' element value. Информация о проведенном досмотре
+     * Set the 'InspectionInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ
      * 
      * @param inspectionInfo
      */
@@ -394,7 +394,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ATDTechOperation' element value. Информация о технологической операции
+     * Get the 'ATDTechOperation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -403,7 +403,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ATDTechOperation' element value. Информация о технологической операции
+     * Set the 'ATDTechOperation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
      * 
      * @param ATDTechOperation
      */
@@ -412,7 +412,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -421,7 +421,7 @@ public class ActInspectionInType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

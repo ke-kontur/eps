@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.minsportrospechlic;
 
 /** 
- * Информация о статусе подтверждения
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚Р°С‚СѓСЃРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
  */
 public class ConfirmationStatusType
 {
@@ -10,7 +10,7 @@ public class ConfirmationStatusType
     private String name;
 
     /** 
-     * Get the 'Code' element value. Код
+     * Get the 'Code' element value. РљРѕРґ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ConfirmationStatusType
     }
 
     /** 
-     * Set the 'Code' element value. Код
+     * Set the 'Code' element value. РљРѕРґ
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class ConfirmationStatusType
     }
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ConfirmationStatusType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */

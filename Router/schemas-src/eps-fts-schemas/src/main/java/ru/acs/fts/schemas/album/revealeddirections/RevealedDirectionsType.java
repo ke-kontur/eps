@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Результат выявления оперативных ориентировок
+ * Р РµР·СѓР»СЊС‚Р°С‚ РІС‹СЏРІР»РµРЅРёСЏ РѕРїРµСЂР°С‚РёРІРЅС‹С… РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє
  */
 public class RevealedDirectionsType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class RevealedDirectionsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'DirectionsList' element items. Список сработавших оперативных ориентировок
+     * Get the list of 'DirectionsList' element items. РЎРїРёСЃРѕРє СЃСЂР°Р±РѕС‚Р°РІС€РёС… РѕРїРµСЂР°С‚РёРІРЅС‹С… РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class RevealedDirectionsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DirectionsList' element items. Список сработавших оперативных ориентировок
+     * Set the list of 'DirectionsList' element items. РЎРїРёСЃРѕРє СЃСЂР°Р±РѕС‚Р°РІС€РёС… РѕРїРµСЂР°С‚РёРІРЅС‹С… РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class RevealedDirectionsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RevealedDirectionsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
      * 
      * @param documentModeID
      */

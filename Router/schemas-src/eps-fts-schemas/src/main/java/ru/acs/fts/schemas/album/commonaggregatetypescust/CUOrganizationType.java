@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Сведения об организации
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
  */
 public class CUOrganizationType extends OrganizationBaseType
 {
@@ -11,7 +11,7 @@ public class CUOrganizationType extends OrganizationBaseType
     private ContactType contact;
 
     /** 
-     * Get the 'Address' element value. Адрес организации
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CUOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param address
      */
@@ -29,7 +29,7 @@ public class CUOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CUOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -47,7 +47,7 @@ public class CUOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Contact' element value. Контактная информация
+     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CUOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Contact' element value. Контактная информация
+     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param contact
      */

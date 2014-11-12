@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialact;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * Описание несоответствия веса товара сведениям, заявленным в товаросопроводительных документах
+ * РћРїРёСЃР°РЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° СЃРІРµРґРµРЅРёСЏРј, Р·Р°СЏРІР»РµРЅРЅС‹Рј РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
  */
 public class BruttoVolQuantType
 {
@@ -12,7 +12,7 @@ public class BruttoVolQuantType
     private WHSuppQuantityType bruttoVolQuantByFact;
 
     /** 
-     * Get the 'BruttoVolQuantByDocs' element value. Вес брутто/объем согласно товаросопроводительным документам
+     * Get the 'BruttoVolQuantByDocs' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ/РѕР±СЉРµРј СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class BruttoVolQuantType
     }
 
     /** 
-     * Set the 'BruttoVolQuantByDocs' element value. Вес брутто/объем согласно товаросопроводительным документам
+     * Set the 'BruttoVolQuantByDocs' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ/РѕР±СЉРµРј СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param bruttoVolQuantByDocs
      */
@@ -30,7 +30,7 @@ public class BruttoVolQuantType
     }
 
     /** 
-     * Get the 'BruttoVolQuantByFact' element value. Вес брутто/объем фактический
+     * Get the 'BruttoVolQuantByFact' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ/РѕР±СЉРµРј С„Р°РєС‚РёС‡РµСЃРєРёР№
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class BruttoVolQuantType
     }
 
     /** 
-     * Set the 'BruttoVolQuantByFact' element value. Вес брутто/объем фактический
+     * Set the 'BruttoVolQuantByFact' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ/РѕР±СЉРµРј С„Р°РєС‚РёС‡РµСЃРєРёР№
      * 
      * @param bruttoVolQuantByFact
      */

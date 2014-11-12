@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о виде документов и версиях этого вида.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРёРґРµ РґРѕРєСѓРјРµРЅС‚РѕРІ Рё РІРµСЂСЃРёСЏС… СЌС‚РѕРіРѕ РІРёРґР°.
  */
 public class AUDDocumentKindInfoType extends AUDDocumentKindIdInfoType
 {
@@ -13,7 +13,7 @@ public class AUDDocumentKindInfoType extends AUDDocumentKindIdInfoType
     private List<AUDDocumentKindVersionInfoType> documentKindVersionInfoList = new ArrayList<AUDDocumentKindVersionInfoType>();
 
     /** 
-     * Get the 'Description' element value. Описание  вида документа.
+     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ  РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AUDDocumentKindInfoType extends AUDDocumentKindIdInfoType
     }
 
     /** 
-     * Set the 'Description' element value. Описание  вида документа.
+     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ  РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param description
      */
@@ -31,7 +31,7 @@ public class AUDDocumentKindInfoType extends AUDDocumentKindIdInfoType
     }
 
     /** 
-     * Get the list of 'DocumentKindVersionInfo' element items. Информация о версии вида документов.
+     * Get the list of 'DocumentKindVersionInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class AUDDocumentKindInfoType extends AUDDocumentKindIdInfoType
     }
 
     /** 
-     * Set the list of 'DocumentKindVersionInfo' element items. Информация о версии вида документов.
+     * Set the list of 'DocumentKindVersionInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @param list
      */

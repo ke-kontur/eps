@@ -19,6 +19,8 @@ import ru.acs.fts.eps2.router.persistence.operators.EnvelopeOperator;
 import ru.acs.fts.eps2.router.processing.EDJobBatchContext;
 import ru.acs.fts.schemas.album.graphicdocrequest.DocumentType;
 import ru.acs.fts.schemas.album.graphicdocrequest.GraphicDocRequestType;
+import ru.acs.fts.schemas.album.permitdelaydocs.DelayedDocsType;
+import ru.acs.fts.schemas.album.permitdelaydocs.PermitDelayDocsType;
 
 public class MessageCMN11120BusinessProcess extends BusinessProcess
 {
@@ -32,7 +34,7 @@ public class MessageCMN11120BusinessProcess extends BusinessProcess
 		
 		Edecl_Messages cmn11119Msg = envelopeOperator.getIncomeEnvelope( recvEnvelope );
 		Edecl_Msg_Doc cmn11119Doc = envelopeService.getDocument( cmn11119Msg.getDocumentId( ) );
-		
+
 		EnvelopeUnmarshaller envUnmarshaller = new EnvelopeUnmarshaller( );
 		Unmarshaller unmarshaller = jobBatchContext.getServiceHolder( ).getUnmarshaller( );
 		Object sigDoc = envUnmarshaller.unmarshallBaseDocOrSignature( cmn11119Doc.getBody( ), unmarshaller );
@@ -42,8 +44,28 @@ public class MessageCMN11120BusinessProcess extends BusinessProcess
 		Edecl_Messages msg11003Msg = envelopeOperator.getIncomeEnvelope( cmn11119Msg );
 		String envelopeId = msg11003Msg.getEnvelopeId( );
 		String documentId = msg11003Msg.getDocumentId( );
+
+        PermitDelayDocsType doc = recvEnvelope.getDocument( ).getDocumentAsClass(PermitDelayDocsType.class);
+        for ( DelayedDocsType ddoc : doc.getDelayedDocList( ) ){
+            if(String.valueOf(ddoc.getDelayDecision()).equals("1")){
+                String position = String.valueOf( ddoc.getRequestPositionID( ) );
+                //Edecl_Reqdoc_Info reqDocInfo = envelopeService.getReqDocInfo( envelopeId, documentId, position );
+                Edecl_Reqdoc_Info reqDocInfo = envelopeService.getReqDocInfo( position );
+                if ( null != reqDocInfo )
+                {
+                    reqDocInfo.setDocCode( "00000" );
+                    reqDocInfo.setFlags( reqDocInfo.getFlags( ) | Edecl_Reqdoc_Info.FLAG_ALLOWED_GRAPHIC );
+                    envelopeService.merge( reqDocInfo );
+                }
+                else
+                {
+                    ErrorHelper.throwException( "По заданному InitialEnvelopeID не удалось отыскать объект Edecl_Reqdoc_Info.",
+                            documentId, ResultCodes._03_00028_01, ProcessingConstants.ERROR_TYPE_DATA );
+                }
+            }
+        }
 		
-		for ( DocumentType document : documents )
+		/*for ( DocumentType document : documents )
 		{
 			String position = String.valueOf( document.getRequestPositionID( ) );
 			Edecl_Reqdoc_Info reqDocInfo = envelopeService.getReqDocInfo( envelopeId, documentId, position );
@@ -57,6 +79,6 @@ public class MessageCMN11120BusinessProcess extends BusinessProcess
 				ErrorHelper.throwException( "По заданному InitialEnvelopeID не удалось отыскать объект Edecl_Reqdoc_Info.", 
 						documentId, ResultCodes._03_00028_01, ProcessingConstants.ERROR_TYPE_DATA );
 			}
-		}
+		}*/
 	}
 }

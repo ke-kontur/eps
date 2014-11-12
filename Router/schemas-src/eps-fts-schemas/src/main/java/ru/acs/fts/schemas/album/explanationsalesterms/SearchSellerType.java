@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Поиск продавца для покупки данного товара или ранее до начала сотрудничества осуществлялся
+ * РџРѕРёСЃРє РїСЂРѕРґР°РІС†Р° РґР»СЏ РїРѕРєСѓРїРєРё РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР° РёР»Рё СЂР°РЅРµРµ РґРѕ РЅР°С‡Р°Р»Р° СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РѕСЃСѓС‰РµСЃС‚РІР»СЏР»СЃСЏ
  */
 public class SearchSellerType
 {
@@ -13,7 +13,7 @@ public class SearchSellerType
     private String commentsOtherwise;
 
     /** 
-     * Get the 'Middleman' element value. Признак участия посредника
+     * Get the 'Middleman' element value. РџСЂРёР·РЅР°Рє СѓС‡Р°СЃС‚РёСЏ РїРѕСЃСЂРµРґРЅРёРєР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Set the 'Middleman' element value. Признак участия посредника
+     * Set the 'Middleman' element value. РџСЂРёР·РЅР°Рє СѓС‡Р°СЃС‚РёСЏ РїРѕСЃСЂРµРґРЅРёРєР°
      * 
      * @param middleman
      */
@@ -31,7 +31,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Get the 'Commercial' element value. Признак использования рекламных объявлений
+     * Get the 'Commercial' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЂРµРєР»Р°РјРЅС‹С… РѕР±СЉСЏРІР»РµРЅРёР№
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Set the 'Commercial' element value. Признак использования рекламных объявлений
+     * Set the 'Commercial' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЂРµРєР»Р°РјРЅС‹С… РѕР±СЉСЏРІР»РµРЅРёР№
      * 
      * @param commercial
      */
@@ -49,7 +49,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Get the 'Exchange' element value. Признак поиска продавца на бирже
+     * Get the 'Exchange' element value. РџСЂРёР·РЅР°Рє РїРѕРёСЃРєР° РїСЂРѕРґР°РІС†Р° РЅР° Р±РёСЂР¶Рµ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Set the 'Exchange' element value. Признак поиска продавца на бирже
+     * Set the 'Exchange' element value. РџСЂРёР·РЅР°Рє РїРѕРёСЃРєР° РїСЂРѕРґР°РІС†Р° РЅР° Р±РёСЂР¶Рµ
      * 
      * @param exchange
      */
@@ -67,7 +67,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Get the 'Otherwise' element value. Признак поиска продавца иным образом
+     * Get the 'Otherwise' element value. РџСЂРёР·РЅР°Рє РїРѕРёСЃРєР° РїСЂРѕРґР°РІС†Р° РёРЅС‹Рј РѕР±СЂР°Р·РѕРј
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Set the 'Otherwise' element value. Признак поиска продавца иным образом
+     * Set the 'Otherwise' element value. РџСЂРёР·РЅР°Рє РїРѕРёСЃРєР° РїСЂРѕРґР°РІС†Р° РёРЅС‹Рј РѕР±СЂР°Р·РѕРј
      * 
      * @param otherwise
      */
@@ -85,7 +85,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Get the 'CommentsOtherwise' element value. Иным образом (указать способ)
+     * Get the 'CommentsOtherwise' element value. РРЅС‹Рј РѕР±СЂР°Р·РѕРј (СѓРєР°Р·Р°С‚СЊ СЃРїРѕСЃРѕР±)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class SearchSellerType
     }
 
     /** 
-     * Set the 'CommentsOtherwise' element value. Иным образом (указать способ)
+     * Set the 'CommentsOtherwise' element value. РРЅС‹Рј РѕР±СЂР°Р·РѕРј (СѓРєР°Р·Р°С‚СЊ СЃРїРѕСЃРѕР±)
      * 
      * @param commentsOtherwise
      */

@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsPackagin
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsQuotaType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class ESADoutGoodsPType extends ESADGoodsItemPType
 {
@@ -23,7 +23,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     private List<CUCustomsPaymentCalculationType> customsPaymentCalcPList = new ArrayList<CUCustomsPaymentCalculationType>();
 
     /** 
-     * Get the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
+     * Get the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Set the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
+     * Set the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param ESADGoodsPackaging
      */
@@ -41,7 +41,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param supplementaryQuantity
      */
@@ -60,7 +60,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Get the 'ESADGoodsQuota' element value. Квота.
+     * Get the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Set the 'ESADGoodsQuota' element value. Квота.
+     * Set the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.
      * 
      * @param ESADGoodsQuota
      */
@@ -78,7 +78,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Get the 'ESADCustomsProcedure' element value. Процедура.
+     * Get the 'ESADCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Set the 'ESADCustomsProcedure' element value. Процедура.
+     * Set the 'ESADCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.
      * 
      * @param ESADCustomsProcedure
      */
@@ -97,7 +97,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Get the list of 'ESADoutPresentedDocumentP' element items. Предоставляемые документы
+     * Get the list of 'ESADoutPresentedDocumentP' element items. РџСЂРµРґРѕСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -106,7 +106,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Set the list of 'ESADoutPresentedDocumentP' element items. Предоставляемые документы
+     * Set the list of 'ESADoutPresentedDocumentP' element items. РџСЂРµРґРѕСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Get the list of 'CustomsPaymentCalcP' element items. Расчет таможенных платежей
+     * Get the list of 'CustomsPaymentCalcP' element items. Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class ESADoutGoodsPType extends ESADGoodsItemPType
     }
 
     /** 
-     * Set the list of 'CustomsPaymentCalcP' element items. Расчет таможенных платежей
+     * Set the list of 'CustomsPaymentCalcP' element items. Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */

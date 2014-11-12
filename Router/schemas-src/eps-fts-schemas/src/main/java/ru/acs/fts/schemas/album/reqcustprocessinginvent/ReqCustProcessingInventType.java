@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Запрос документов, подтверждающих сведения, указанные в заявлении на переработку товаров
+ * Р—Р°РїСЂРѕСЃ РґРѕРєСѓРјРµРЅС‚РѕРІ, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СЃРІРµРґРµРЅРёСЏ, СѓРєР°Р·Р°РЅРЅС‹Рµ РІ Р·Р°СЏРІР»РµРЅРёРё РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ
  */
 public class ReqCustProcessingInventType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления запроса
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления запроса
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param sendDate
      */
@@ -42,7 +42,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления запроса
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления запроса
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param sendTime
      */
@@ -60,7 +60,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestDate' element value. Дата формирования запроса
+     * Get the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Дата формирования запроса
+     * Set the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param requestDate
      */
@@ -78,7 +78,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestTime' element value. Время формирования запроса
+     * Get the 'RequestTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestTime' element value. Время формирования запроса
+     * Set the 'RequestTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param requestTime
      */
@@ -96,7 +96,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Срок предоставления документов
+     * Get the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок предоставления документов
+     * Set the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param dateLimit
      */
@@ -114,7 +114,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган, сформировавший запрос
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РёР№ Р·Р°РїСЂРѕСЃ
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган, сформировавший запрос
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РёР№ Р·Р°РїСЂРѕСЃ
      * 
      * @param customs
      */
@@ -132,7 +132,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -150,7 +150,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RequestedDoc' element items. Запрашиваемый документ
+     * Get the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -159,7 +159,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestedDoc' element items. Запрашиваемый документ
+     * Set the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -168,7 +168,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class ReqCustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

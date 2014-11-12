@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения об оплате штрафов
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„РѕРІ
  */
 public class PaymentPenaltSheetType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class PaymentPenaltSheetType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Penalty' element items. Сведения об оплате штрафа
+     * Get the list of 'Penalty' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class PaymentPenaltSheetType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Penalty' element items. Сведения об оплате штрафа
+     * Set the list of 'Penalty' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class PaymentPenaltSheetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PaymentPenaltSheetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

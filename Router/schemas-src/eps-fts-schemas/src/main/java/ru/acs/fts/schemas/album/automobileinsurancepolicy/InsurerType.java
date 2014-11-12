@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Сведения о страхователе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°С…РѕРІР°С‚РµР»Рµ
  */
 public class InsurerType
 {
@@ -17,7 +17,7 @@ public class InsurerType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'Name' element value. ФИО физического лица/Наименование организации
+     * Get the 'Name' element value. Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°/РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class InsurerType
     }
 
     /** 
-     * Set the 'Name' element value. ФИО физического лица/Наименование организации
+     * Set the 'Name' element value. Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°/РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param name
      */
@@ -35,7 +35,7 @@ public class InsurerType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Гражданство физического лица или страна регистрации организации
+     * Get the 'CountryCode' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РёР»Рё СЃС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class InsurerType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Гражданство физического лица или страна регистрации организации
+     * Set the 'CountryCode' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РёР»Рё СЃС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param countryCode
      */
@@ -53,7 +53,7 @@ public class InsurerType
     }
 
     /** 
-     * Get the 'Phone' element value. Телефон
+     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class InsurerType
     }
 
     /** 
-     * Set the 'Phone' element value. Телефон
+     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @param phone
      */
@@ -71,7 +71,7 @@ public class InsurerType
     }
 
     /** 
-     * Get the 'NaturalPersonIndicator' element value. Индикатор типа страхователя, заполняется в случае, если страхователь - физическое лицо
+     * Get the 'NaturalPersonIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ С‚РёРїР° СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class InsurerType
     }
 
     /** 
-     * Set the 'NaturalPersonIndicator' element value. Индикатор типа страхователя, заполняется в случае, если страхователь - физическое лицо
+     * Set the 'NaturalPersonIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ С‚РёРїР° СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @param naturalPersonIndicator
      */
@@ -89,7 +89,7 @@ public class InsurerType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. Описание почтового адреса страхователя
+     * Get the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ РїРѕС‡С‚РѕРІРѕРіРѕ Р°РґСЂРµСЃР° СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class InsurerType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. Описание почтового адреса страхователя
+     * Set the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ РїРѕС‡С‚РѕРІРѕРіРѕ Р°РґСЂРµСЃР° СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ
      * 
      * @param postalAddress
      */
@@ -107,7 +107,7 @@ public class InsurerType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Сведения документа удостоверяющего личность 
+     * Get the 'IdentityCard' element value. РЎРІРµРґРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ 
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class InsurerType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Сведения документа удостоверяющего личность 
+     * Set the 'IdentityCard' element value. РЎРІРµРґРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ 
      * 
      * @param identityCard
      */

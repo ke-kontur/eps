@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Сведения о транспортном средстве
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
  */
 public class TransportType
 {
@@ -23,7 +23,7 @@ public class TransportType
     private List<MDPInfoType> MDPInfoList = new ArrayList<MDPInfoType>();
 
     /** 
-     * Get the 'Weight' element value. Вес ТС с товарами по документам в кг
+     * Get the 'Weight' element value. Р’РµСЃ РўРЎ СЃ С‚РѕРІР°СЂР°РјРё РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј РІ РєРі
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'Weight' element value. Вес ТС с товарами по документам в кг
+     * Set the 'Weight' element value. Р’РµСЃ РўРЎ СЃ С‚РѕРІР°СЂР°РјРё РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј РІ РєРі
      * 
      * @param weight
      */
@@ -41,7 +41,7 @@ public class TransportType
     }
 
     /** 
-     * Get the 'BatchQuantity' element value. Количество партий
+     * Get the 'BatchQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЂС‚РёР№
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'BatchQuantity' element value. Количество партий
+     * Set the 'BatchQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЂС‚РёР№
      * 
      * @param batchQuantity
      */
@@ -59,7 +59,7 @@ public class TransportType
     }
 
     /** 
-     * Get the 'FactWeight' element value. Вес ТС с товаром фактический (результат взвешивания) в кг
+     * Get the 'FactWeight' element value. Р’РµСЃ РўРЎ СЃ С‚РѕРІР°СЂРѕРј С„Р°РєС‚РёС‡РµСЃРєРёР№ (СЂРµР·СѓР»СЊС‚Р°С‚ РІР·РІРµС€РёРІР°РЅРёСЏ) РІ РєРі
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'FactWeight' element value. Вес ТС с товаром фактический (результат взвешивания) в кг
+     * Set the 'FactWeight' element value. Р’РµСЃ РўРЎ СЃ С‚РѕРІР°СЂРѕРј С„Р°РєС‚РёС‡РµСЃРєРёР№ (СЂРµР·СѓР»СЊС‚Р°С‚ РІР·РІРµС€РёРІР°РЅРёСЏ) РІ РєРі
      * 
      * @param factWeight
      */
@@ -77,7 +77,7 @@ public class TransportType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
+     * Get the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
+     * Set the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIRegID
      */
@@ -120,7 +120,7 @@ public class TransportType
     }
 
     /** 
-     * Get the 'CarInformation' element value. Сведения об автомобильном транспорте
+     * Get the 'CarInformation' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'CarInformation' element value. Сведения об автомобильном транспорте
+     * Set the 'CarInformation' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @param carInformation
      */
@@ -148,7 +148,7 @@ public class TransportType
     }
 
     /** 
-     * Get the 'TrainInformation' element value. Сведения о железнодорожном транспорте
+     * Get the 'TrainInformation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'TrainInformation' element value. Сведения о железнодорожном транспорте
+     * Set the 'TrainInformation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @param trainInformation
      */
@@ -167,7 +167,7 @@ public class TransportType
     }
 
     /** 
-     * Get the 'Carrier' element value. Сведения о перевозчике товаров
+     * Get the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class TransportType
     }
 
     /** 
-     * Set the 'Carrier' element value. Сведения о перевозчике товаров
+     * Set the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param carrier
      */
@@ -185,7 +185,7 @@ public class TransportType
     }
 
     /** 
-     * Get the list of 'MDPInfo' element items. Информация о книжке МДП
+     * Get the list of 'MDPInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРЅРёР¶РєРµ РњР”Рџ
      * 
      * @return list
      */
@@ -194,7 +194,7 @@ public class TransportType
     }
 
     /** 
-     * Set the list of 'MDPInfo' element items. Информация о книжке МДП
+     * Set the list of 'MDPInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРЅРёР¶РєРµ РњР”Рџ
      * 
      * @param list
      */

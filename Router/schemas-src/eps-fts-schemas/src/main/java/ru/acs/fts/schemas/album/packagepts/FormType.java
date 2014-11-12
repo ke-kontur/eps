@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Бланк ПТС и ПШТС-Т
+ * Р‘Р»Р°РЅРє РџРўРЎ Рё РџРЁРўРЎ-Рў
  */
 public class FormType
 {
@@ -24,7 +24,7 @@ public class FormType
     private CustomsType customs;
 
     /** 
-     * Get the 'FormType' element value. Тип оформленного бланка (TYPE_OBJ): 210- ПТС; 220- ПШТС. 
+     * Get the 'FormType' element value. РўРёРї РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ Р±Р»Р°РЅРєР° (TYPE_OBJ): 210- РџРўРЎ; 220- РџРЁРўРЎ. 
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'FormType' element value. Тип оформленного бланка (TYPE_OBJ): 210- ПТС; 220- ПШТС. 
+     * Set the 'FormType' element value. РўРёРї РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ Р±Р»Р°РЅРєР° (TYPE_OBJ): 210- РџРўРЎ; 220- РџРЁРўРЎ. 
      * 
      * @param formType
      */
@@ -42,7 +42,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'LNPCustomsCode' element value. Код таможенного органа на оттиске ЛНП (KTAM_PCH)
+     * Get the 'LNPCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РѕС‚С‚РёСЃРєРµ Р›РќРџ (KTAM_PCH)
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'LNPCustomsCode' element value. Код таможенного органа на оттиске ЛНП (KTAM_PCH)
+     * Set the 'LNPCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РѕС‚С‚РёСЃРєРµ Р›РќРџ (KTAM_PCH)
      * 
      * @param LNPCustomsCode
      */
@@ -60,7 +60,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'FormNumber' element value. Код, серия и номер бланка (BSO_NUM)
+     * Get the 'FormNumber' element value. РљРѕРґ, СЃРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° (BSO_NUM)
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'FormNumber' element value. Код, серия и номер бланка (BSO_NUM)
+     * Set the 'FormNumber' element value. РљРѕРґ, СЃРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° (BSO_NUM)
      * 
      * @param formNumber
      */
@@ -78,7 +78,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'DateState' element value. Дата и время оформления бланка
+     * Get the 'DateState' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РѕС„РѕСЂРјР»РµРЅРёСЏ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'DateState' element value. Дата и время оформления бланка
+     * Set the 'DateState' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РѕС„РѕСЂРјР»РµРЅРёСЏ Р±Р»Р°РЅРєР°
      * 
      * @param dateState
      */
@@ -96,7 +96,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'ModificationDate' element value. Дата и время внесения изменения в бланк
+     * Get the 'ModificationDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёСЏ РІ Р±Р»Р°РЅРє
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'ModificationDate' element value. Дата и время внесения изменения в бланк
+     * Set the 'ModificationDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёСЏ РІ Р±Р»Р°РЅРє
      * 
      * @param modificationDate
      */
@@ -114,7 +114,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'UnloadDate' element value. Дата и время выгрузки записи
+     * Get the 'UnloadDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РІС‹РіСЂСѓР·РєРё Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'UnloadDate' element value. Дата и время выгрузки записи
+     * Set the 'UnloadDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РІС‹РіСЂСѓР·РєРё Р·Р°РїРёСЃРё
      * 
      * @param unloadDate
      */
@@ -132,7 +132,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'GUID' element value. Уникальный идентификатор бланка
+     * Get the 'GUID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'GUID' element value. Уникальный идентификатор бланка
+     * Set the 'GUID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р»Р°РЅРєР°
      * 
      * @param GUID
      */
@@ -150,7 +150,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'OldFormNumber' element value. Код, серия и номер бланка, взамен которого выдается дубликат (OLD_BSO_NUM)
+     * Get the 'OldFormNumber' element value. РљРѕРґ, СЃРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°, РІР·Р°РјРµРЅ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ РґСѓР±Р»РёРєР°С‚ (OLD_BSO_NUM)
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'OldFormNumber' element value. Код, серия и номер бланка, взамен которого выдается дубликат (OLD_BSO_NUM)
+     * Set the 'OldFormNumber' element value. РљРѕРґ, СЃРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°, РІР·Р°РјРµРЅ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ РґСѓР±Р»РёРєР°С‚ (OLD_BSO_NUM)
      * 
      * @param oldFormNumber
      */
@@ -168,7 +168,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'OldFormState' element value. Статус назначенный бланку, взамен которого выдается дубликат (OLD_BSO_STATE): 2- аннулирован; 4- утрачен после оформления. 
+     * Get the 'OldFormState' element value. РЎС‚Р°С‚СѓСЃ РЅР°Р·РЅР°С‡РµРЅРЅС‹Р№ Р±Р»Р°РЅРєСѓ, РІР·Р°РјРµРЅ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ РґСѓР±Р»РёРєР°С‚ (OLD_BSO_STATE): 2- Р°РЅРЅСѓР»РёСЂРѕРІР°РЅ; 4- СѓС‚СЂР°С‡РµРЅ РїРѕСЃР»Рµ РѕС„РѕСЂРјР»РµРЅРёСЏ. 
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'OldFormState' element value. Статус назначенный бланку, взамен которого выдается дубликат (OLD_BSO_STATE): 2- аннулирован; 4- утрачен после оформления. 
+     * Set the 'OldFormState' element value. РЎС‚Р°С‚СѓСЃ РЅР°Р·РЅР°С‡РµРЅРЅС‹Р№ Р±Р»Р°РЅРєСѓ, РІР·Р°РјРµРЅ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ РґСѓР±Р»РёРєР°С‚ (OLD_BSO_STATE): 2- Р°РЅРЅСѓР»РёСЂРѕРІР°РЅ; 4- СѓС‚СЂР°С‡РµРЅ РїРѕСЃР»Рµ РѕС„РѕСЂРјР»РµРЅРёСЏ. 
      * 
      * @param oldFormState
      */
@@ -204,7 +204,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Инспектор, осуществивший оформление
+     * Get the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РёР№ РѕС„РѕСЂРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Инспектор, осуществивший оформление
+     * Set the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РёР№ РѕС„РѕСЂРјР»РµРЅРёРµ
      * 
      * @param customsPerson
      */
@@ -222,7 +222,7 @@ public class FormType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган, в котором бланк был оформлен
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ РєРѕС‚РѕСЂРѕРј Р±Р»Р°РЅРє Р±С‹Р» РѕС„РѕСЂРјР»РµРЅ
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class FormType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган, в котором бланк был оформлен
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ РєРѕС‚РѕСЂРѕРј Р±Р»Р°РЅРє Р±С‹Р» РѕС„РѕСЂРјР»РµРЅ
      * 
      * @param customs
      */
@@ -272,7 +272,7 @@ public class FormType
         }
 
         /** 
-         * Get the 'TPONumber' element value. Номер ТПО 
+         * Get the 'TPONumber' element value. РќРѕРјРµСЂ РўРџРћ 
          * 
          * @return value
          */
@@ -281,7 +281,7 @@ public class FormType
         }
 
         /** 
-         * Set the 'TPONumber' element value. Номер ТПО 
+         * Set the 'TPONumber' element value. РќРѕРјРµСЂ РўРџРћ 
          * 
          * @param TPONumber
          */
@@ -300,7 +300,7 @@ public class FormType
         }
 
         /** 
-         * Get the 'GTDID' element value. Номер ДТ
+         * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
          * 
          * @return value
          */
@@ -309,7 +309,7 @@ public class FormType
         }
 
         /** 
-         * Set the 'GTDID' element value. Номер ДТ
+         * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
          * 
          * @param GTDID
          */

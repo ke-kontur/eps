@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.foivrequest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Количество
+ * РљРѕР»РёС‡РµСЃС‚РІРѕ
  */
 public class QuantityType extends SupplementaryQuantityType
 {
     private String UUID;
 
     /** 
-     * Get the 'UUID' element value. Идентификатор единицы измерения
+     * Get the 'UUID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class QuantityType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'UUID' element value. Идентификатор единицы измерения
+     * Set the 'UUID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param UUID
      */

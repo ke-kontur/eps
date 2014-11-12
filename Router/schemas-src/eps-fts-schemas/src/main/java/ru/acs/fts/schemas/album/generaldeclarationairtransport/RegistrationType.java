@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.generaldeclarationairtransport;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о составлении документа
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class RegistrationType
 {
@@ -14,7 +14,7 @@ public class RegistrationType
     private String documentNumber;
 
     /** 
-     * Get the 'Date' element value. Дата составления документа
+     * Get the 'Date' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'Date' element value. Дата составления документа
+     * Set the 'Date' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param date
      */
@@ -32,7 +32,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'Place' element value. Место составления документа
+     * Get the 'Place' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'Place' element value. Место составления документа
+     * Set the 'Place' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param place
      */
@@ -50,7 +50,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'AirlineIATACode' element value. IATA-код авиакомпании 
+     * Get the 'AirlineIATACode' element value. IATA-РєРѕРґ Р°РІРёР°РєРѕРјРїР°РЅРёРё 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'AirlineIATACode' element value. IATA-код авиакомпании 
+     * Set the 'AirlineIATACode' element value. IATA-РєРѕРґ Р°РІРёР°РєРѕРјРїР°РЅРёРё 
      * 
      * @param airlineIATACode
      */
@@ -68,7 +68,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. Серийный номер документа
+     * Get the 'DocumentNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Серийный номер документа
+     * Set the 'DocumentNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentNumber
      */

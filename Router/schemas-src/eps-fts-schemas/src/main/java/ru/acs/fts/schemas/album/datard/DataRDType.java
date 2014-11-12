@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Перечень разрешительных документов
+ * РџРµСЂРµС‡РµРЅСЊ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
  */
 public class DataRDType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class DataRDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Уникальный номер по БД РД
+     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Уникальный номер по БД РД
+     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -39,7 +39,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentCode' element value. Код вида документа
+     * Get the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. Код вида документа
+     * Set the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentCode
      */
@@ -57,7 +57,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. Номер документа
+     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Номер документа
+     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentNumber
      */
@@ -75,7 +75,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата выдачи документа
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата выдачи документа
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param issueDate
      */
@@ -118,7 +118,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Quota' element value. Квотируемые документы
+     * Get the 'Quota' element value. РљРІРѕС‚РёСЂСѓРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Quota' element value. Квотируемые документы
+     * Set the 'Quota' element value. РљРІРѕС‚РёСЂСѓРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param quota
      */
@@ -146,7 +146,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotQuota' element value. Неквотируемые документы
+     * Get the 'NotQuota' element value. РќРµРєРІРѕС‚РёСЂСѓРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotQuota' element value. Неквотируемые документы
+     * Set the 'NotQuota' element value. РќРµРєРІРѕС‚РёСЂСѓРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param notQuota
      */
@@ -165,7 +165,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class DataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

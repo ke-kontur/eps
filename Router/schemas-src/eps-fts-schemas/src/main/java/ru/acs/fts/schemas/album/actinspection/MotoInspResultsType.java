@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.AutoMotoParametersType;
 
 /** 
- * Результаты досмотра мотоцикла (мопеда) (товарная позиция 8711 по ТН ВЭД ТС)
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° РјРѕС‚РѕС†РёРєР»Р° (РјРѕРїРµРґР°) (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8711 РїРѕ РўРќ Р’Р­Р” РўРЎ)
  */
 public class MotoInspResultsType extends AutoMotoParametersType
 {
@@ -22,7 +22,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     private String adjustDevice;
 
     /** 
-     * Get the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Get the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Set the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @param arriveMode
      */
@@ -40,7 +40,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'MotoKind' element value. Тип мотоцикла. "0" - мотоцикл, "1" - мопед, "2" - скутер
+     * Get the 'MotoKind' element value. РўРёРї РјРѕС‚РѕС†РёРєР»Р°. "0" - РјРѕС‚РѕС†РёРєР», "1" - РјРѕРїРµРґ, "2" - СЃРєСѓС‚РµСЂ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'MotoKind' element value. Тип мотоцикла. "0" - мотоцикл, "1" - мопед, "2" - скутер
+     * Set the 'MotoKind' element value. РўРёРї РјРѕС‚РѕС†РёРєР»Р°. "0" - РјРѕС‚РѕС†РёРєР», "1" - РјРѕРїРµРґ, "2" - СЃРєСѓС‚РµСЂ
      * 
      * @param motoKind
      */
@@ -58,7 +58,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'EngineKind' element value. Тип двигателя: "1" - двухтактный, "2" -четырехтактный, "3" - прочее
+     * Get the 'EngineKind' element value. РўРёРї РґРІРёРіР°С‚РµР»СЏ: "1" - РґРІСѓС…С‚Р°РєС‚РЅС‹Р№, "2" -С‡РµС‚С‹СЂРµС…С‚Р°РєС‚РЅС‹Р№, "3" - РїСЂРѕС‡РµРµ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'EngineKind' element value. Тип двигателя: "1" - двухтактный, "2" -четырехтактный, "3" - прочее
+     * Set the 'EngineKind' element value. РўРёРї РґРІРёРіР°С‚РµР»СЏ: "1" - РґРІСѓС…С‚Р°РєС‚РЅС‹Р№, "2" -С‡РµС‚С‹СЂРµС…С‚Р°РєС‚РЅС‹Р№, "3" - РїСЂРѕС‡РµРµ
      * 
      * @param engineKind
      */
@@ -76,7 +76,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Frame' element value. Рама (материал): "1" - сталь, "2" - титан, "3" - алюминий, "4" - прочее
+     * Get the 'Frame' element value. Р Р°РјР° (РјР°С‚РµСЂРёР°Р»): "1" - СЃС‚Р°Р»СЊ, "2" - С‚РёС‚Р°РЅ, "3" - Р°Р»СЋРјРёРЅРёР№, "4" - РїСЂРѕС‡РµРµ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Frame' element value. Рама (материал): "1" - сталь, "2" - титан, "3" - алюминий, "4" - прочее
+     * Set the 'Frame' element value. Р Р°РјР° (РјР°С‚РµСЂРёР°Р»): "1" - СЃС‚Р°Р»СЊ, "2" - С‚РёС‚Р°РЅ, "3" - Р°Р»СЋРјРёРЅРёР№, "4" - РїСЂРѕС‡РµРµ
      * 
      * @param frame
      */
@@ -94,7 +94,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'FrontBrake' element value. Передние тормоза: "1" - дисковые, "2" - барабанные, "3" - прочее
+     * Get the 'FrontBrake' element value. РџРµСЂРµРґРЅРёРµ С‚РѕСЂРјРѕР·Р°: "1" - РґРёСЃРєРѕРІС‹Рµ, "2" - Р±Р°СЂР°Р±Р°РЅРЅС‹Рµ, "3" - РїСЂРѕС‡РµРµ
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'FrontBrake' element value. Передние тормоза: "1" - дисковые, "2" - барабанные, "3" - прочее
+     * Set the 'FrontBrake' element value. РџРµСЂРµРґРЅРёРµ С‚РѕСЂРјРѕР·Р°: "1" - РґРёСЃРєРѕРІС‹Рµ, "2" - Р±Р°СЂР°Р±Р°РЅРЅС‹Рµ, "3" - РїСЂРѕС‡РµРµ
      * 
      * @param frontBrake
      */
@@ -112,7 +112,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'RearBrake' element value. Задние тормоза: "1" - дисковые, "2" - барабанные, "3" - прочее
+     * Get the 'RearBrake' element value. Р—Р°РґРЅРёРµ С‚РѕСЂРјРѕР·Р°: "1" - РґРёСЃРєРѕРІС‹Рµ, "2" - Р±Р°СЂР°Р±Р°РЅРЅС‹Рµ, "3" - РїСЂРѕС‡РµРµ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'RearBrake' element value. Задние тормоза: "1" - дисковые, "2" - барабанные, "3" - прочее
+     * Set the 'RearBrake' element value. Р—Р°РґРЅРёРµ С‚РѕСЂРјРѕР·Р°: "1" - РґРёСЃРєРѕРІС‹Рµ, "2" - Р±Р°СЂР°Р±Р°РЅРЅС‹Рµ, "3" - РїСЂРѕС‡РµРµ
      * 
      * @param rearBrake
      */
@@ -130,7 +130,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ElDriveGlass' element value. Электропривод лобового стекла: "0" - нет, "1" - есть
+     * Get the 'ElDriveGlass' element value. Р­Р»РµРєС‚СЂРѕРїСЂРёРІРѕРґ Р»РѕР±РѕРІРѕРіРѕ СЃС‚РµРєР»Р°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ElDriveGlass' element value. Электропривод лобового стекла: "0" - нет, "1" - есть
+     * Set the 'ElDriveGlass' element value. Р­Р»РµРєС‚СЂРѕРїСЂРёРІРѕРґ Р»РѕР±РѕРІРѕРіРѕ СЃС‚РµРєР»Р°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param elDriveGlass
      */
@@ -148,7 +148,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ElHeatingHandle' element value. Электроподогрев ручек: "0" - нет, "1" - есть
+     * Get the 'ElHeatingHandle' element value. Р­Р»РµРєС‚СЂРѕРїРѕРґРѕРіСЂРµРІ СЂСѓС‡РµРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ElHeatingHandle' element value. Электроподогрев ручек: "0" - нет, "1" - есть
+     * Set the 'ElHeatingHandle' element value. Р­Р»РµРєС‚СЂРѕРїРѕРґРѕРіСЂРµРІ СЂСѓС‡РµРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param elHeatingHandle
      */
@@ -166,7 +166,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'Optic' element items. Оптика
+     * Get the list of 'Optic' element items. РћРїС‚РёРєР°
      * 
      * @return list
      */
@@ -175,7 +175,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'Optic' element items. Оптика
+     * Set the list of 'Optic' element items. РћРїС‚РёРєР°
      * 
      * @param list
      */
@@ -184,7 +184,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'AdjustDevice' element value. Наличие регулировки подвески: "0" - нет, "1" - есть
+     * Get the 'AdjustDevice' element value. РќР°Р»РёС‡РёРµ СЂРµРіСѓР»РёСЂРѕРІРєРё РїРѕРґРІРµСЃРєРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class MotoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'AdjustDevice' element value. Наличие регулировки подвески: "0" - нет, "1" - есть
+     * Set the 'AdjustDevice' element value. РќР°Р»РёС‡РёРµ СЂРµРіСѓР»РёСЂРѕРІРєРё РїРѕРґРІРµСЃРєРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param adjustDevice
      */

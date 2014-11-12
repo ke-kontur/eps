@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.ContractDeliveryTermsType;
 
 /** 
- * Описание условий поставки в инвойсе
+ * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ РёРЅРІРѕР№СЃРµ
  */
 public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
 {
@@ -15,7 +15,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     private LocalDate deadline;
 
     /** 
-     * Get the 'DispatchCountryCode' element value. Код страны отправления 
+     * Get the 'DispatchCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. Код страны отправления 
+     * Set the 'DispatchCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @param dispatchCountryCode
      */
@@ -33,7 +33,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'TradingCountryCode' element value. Код торгующей страны
+     * Get the 'TradingCountryCode' element value. РљРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'TradingCountryCode' element value. Код торгующей страны
+     * Set the 'TradingCountryCode' element value. РљРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹
      * 
      * @param tradingCountryCode
      */
@@ -51,7 +51,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. Код страны назначения
+     * Get the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. Код страны назначения
+     * Set the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountryCode
      */
@@ -69,7 +69,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'Deadline' element value. Срок доставки
+     * Get the 'Deadline' element value. РЎСЂРѕРє РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class InvoiceDeliveryTermsType extends ContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'Deadline' element value. Срок доставки
+     * Set the 'Deadline' element value. РЎСЂРѕРє РґРѕСЃС‚Р°РІРєРё
      * 
      * @param deadline
      */

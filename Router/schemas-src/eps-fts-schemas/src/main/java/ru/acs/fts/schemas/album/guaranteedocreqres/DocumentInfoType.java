@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.AmountType;
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.CustomsGuaranteeDocType;
 
 /** 
- * Информация о документе обеспечения
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class DocumentInfoType extends CustomsGuaranteeDocType
 {
@@ -20,7 +20,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     private CustomsType registrationCustoms;
 
     /** 
-     * Get the 'Status' element value. Статусное состояние документа обеспечения
+     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃРЅРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Set the 'Status' element value. Статусное состояние документа обеспечения
+     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃРЅРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param status
      */
@@ -38,7 +38,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Дата окончания действия обеспечения
+     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Дата окончания действия обеспечения
+     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param expirationDate
      */
@@ -56,7 +56,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Get the 'GuaranteeType' element value. Тип обеспечения: 0 - простое, 1 - генеральное
+     * Get the 'GuaranteeType' element value. РўРёРї РѕР±РµСЃРїРµС‡РµРЅРёСЏ: 0 - РїСЂРѕСЃС‚РѕРµ, 1 - РіРµРЅРµСЂР°Р»СЊРЅРѕРµ, 2 - РіРµРЅРµСЂР°Р»СЊРЅРѕРµ (СѓС‡РµС‚ Рё РєРѕРЅС‚СЂРѕР»СЊ Р“Рћ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј Р•РђРРЎ РўРћ Р±РµР· РІС‹РґР°С‡Рё С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅРѕРј РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё Р“Рћ)
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Set the 'GuaranteeType' element value. Тип обеспечения: 0 - простое, 1 - генеральное
+     * Set the 'GuaranteeType' element value. РўРёРї РѕР±РµСЃРїРµС‡РµРЅРёСЏ: 0 - РїСЂРѕСЃС‚РѕРµ, 1 - РіРµРЅРµСЂР°Р»СЊРЅРѕРµ, 2 - РіРµРЅРµСЂР°Р»СЊРЅРѕРµ (СѓС‡РµС‚ Рё РєРѕРЅС‚СЂРѕР»СЊ Р“Рћ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј Р•РђРРЎ РўРћ Р±РµР· РІС‹РґР°С‡Рё С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅРѕРј РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё Р“Рћ)
      * 
      * @param guaranteeType
      */
@@ -74,7 +74,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Get the 'Amount' element value. Сумма обеспечения
+     * Get the 'Amount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма обеспечения
+     * Set the 'Amount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param amount
      */
@@ -92,7 +92,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Get the 'LiableTrader' element value. Информация о гаранте/поручителе или залогодателе
+     * Get the 'LiableTrader' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіР°СЂР°РЅС‚Рµ/РїРѕСЂСѓС‡РёС‚РµР»Рµ РёР»Рё Р·Р°Р»РѕРіРѕРґР°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Set the 'LiableTrader' element value. Информация о гаранте/поручителе или залогодателе
+     * Set the 'LiableTrader' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіР°СЂР°РЅС‚Рµ/РїРѕСЂСѓС‡РёС‚РµР»Рµ РёР»Рё Р·Р°Р»РѕРіРѕРґР°С‚РµР»Рµ
      * 
      * @param liableTrader
      */
@@ -110,7 +110,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Get the 'RegistrationCustoms' element value. Код таможенного органа, в котором зарегистрировано обеспечение
+     * Get the 'RegistrationCustoms' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ РєРѕС‚РѕСЂРѕРј Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ РѕР±РµСЃРїРµС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class DocumentInfoType extends CustomsGuaranteeDocType
     }
 
     /** 
-     * Set the 'RegistrationCustoms' element value. Код таможенного органа, в котором зарегистрировано обеспечение
+     * Set the 'RegistrationCustoms' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ РєРѕС‚РѕСЂРѕРј Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ РѕР±РµСЃРїРµС‡РµРЅРёРµ
      * 
      * @param registrationCustoms
      */

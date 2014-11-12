@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actthievingsampling;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Замечания и заявления присутствующих (участвующих) лиц
+ * Р—Р°РјРµС‡Р°РЅРёСЏ Рё Р·Р°СЏРІР»РµРЅРёСЏ РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёС… (СѓС‡Р°СЃС‚РІСѓСЋС‰РёС…) Р»РёС†
  */
 public class ObservationType
 {
@@ -12,7 +12,7 @@ public class ObservationType
     private PersonSignatureType personSignatureObservation;
 
     /** 
-     * Get the 'ObservationContents' element value. Содержание
+     * Get the 'ObservationContents' element value. РЎРѕРґРµСЂР¶Р°РЅРёРµ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ObservationType
     }
 
     /** 
-     * Set the 'ObservationContents' element value. Содержание
+     * Set the 'ObservationContents' element value. РЎРѕРґРµСЂР¶Р°РЅРёРµ
      * 
      * @param observationContents
      */
@@ -30,7 +30,7 @@ public class ObservationType
     }
 
     /** 
-     * Get the 'PersonSignatureObservation' element value. Фамилия, инициалы лица, сделавшего заявление или замечание.
+     * Get the 'PersonSignatureObservation' element value. Р¤Р°РјРёР»РёСЏ, РёРЅРёС†РёР°Р»С‹ Р»РёС†Р°, СЃРґРµР»Р°РІС€РµРіРѕ Р·Р°СЏРІР»РµРЅРёРµ РёР»Рё Р·Р°РјРµС‡Р°РЅРёРµ.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ObservationType
     }
 
     /** 
-     * Set the 'PersonSignatureObservation' element value. Фамилия, инициалы лица, сделавшего заявление или замечание.
+     * Set the 'PersonSignatureObservation' element value. Р¤Р°РјРёР»РёСЏ, РёРЅРёС†РёР°Р»С‹ Р»РёС†Р°, СЃРґРµР»Р°РІС€РµРіРѕ Р·Р°СЏРІР»РµРЅРёРµ РёР»Рё Р·Р°РјРµС‡Р°РЅРёРµ.
      * 
      * @param personSignatureObservation
      */

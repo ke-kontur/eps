@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrgan
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentType;
 
 /** 
- * Заявление на переработку товаров вне таможенной территории
+ * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class InqInoTreatmentType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class InqInoTreatmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TreatmentCountry' element value. Цифровой код страны переработки
+     * Get the 'TreatmentCountry' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'TreatmentCountry' element value. Цифровой код страны переработки
+     * Set the 'TreatmentCountry' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param treatmentCountry
      */
@@ -49,7 +49,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'TreatmentProcedureCode' element value. Код режима переработки
+     * Get the 'TreatmentProcedureCode' element value. РљРѕРґ СЂРµР¶РёРјР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'TreatmentProcedureCode' element value. Код режима переработки
+     * Set the 'TreatmentProcedureCode' element value. РљРѕРґ СЂРµР¶РёРјР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param treatmentProcedureCode
      */
@@ -67,7 +67,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Сведения о заявителе
+     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Сведения о заявителе
+     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param applicant
      */
@@ -85,7 +85,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Treatment' element value. Описание переработки
+     * Get the 'Treatment' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Treatment' element value. Описание переработки
+     * Set the 'Treatment' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param treatment
      */
@@ -103,7 +103,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TreatContracts' element items. Контракт или иные документы, в соответствии с которыми ввозятся/вывозятся на переработку товары
+     * Get the list of 'TreatContracts' element items. РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РІРІРѕР·СЏС‚СЃСЏ/РІС‹РІРѕР·СЏС‚СЃСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂС‹
      * 
      * @return list
      */
@@ -112,7 +112,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TreatContracts' element items. Контракт или иные документы, в соответствии с которыми ввозятся/вывозятся на переработку товары
+     * Set the list of 'TreatContracts' element items. РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РІРІРѕР·СЏС‚СЃСЏ/РІС‹РІРѕР·СЏС‚СЃСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂС‹
      * 
      * @param list
      */
@@ -121,7 +121,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись должностного лица
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись должностного лица
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param personSignature
      */
@@ -139,7 +139,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'InqDoc' element value. Номер / дата заявления на переработку
+     * Get the 'InqDoc' element value. РќРѕРјРµСЂ / РґР°С‚Р° Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'InqDoc' element value. Номер / дата заявления на переработку
+     * Set the 'InqDoc' element value. РќРѕРјРµСЂ / РґР°С‚Р° Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @param inqDoc
      */
@@ -157,7 +157,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsInHells' element value. Таможня ввоза остатков
+     * Get the 'CustomsInHells' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕСЃС‚Р°С‚РєРѕРІ
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsInHells' element value. Таможня ввоза остатков
+     * Set the 'CustomsInHells' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕСЃС‚Р°С‚РєРѕРІ
      * 
      * @param customsInHells
      */
@@ -175,7 +175,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsInWaste' element value. Таможня ввоза отходов
+     * Get the 'CustomsInWaste' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕС‚С…РѕРґРѕРІ
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsInWaste' element value. Таможня ввоза отходов
+     * Set the 'CustomsInWaste' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕС‚С…РѕРґРѕРІ
      * 
      * @param customsInWaste
      */
@@ -193,7 +193,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган в который подается заявление на переработку
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІ РєРѕС‚РѕСЂС‹Р№ РїРѕРґР°РµС‚СЃСЏ Р·Р°СЏРІР»РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган в который подается заявление на переработку
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІ РєРѕС‚РѕСЂС‹Р№ РїРѕРґР°РµС‚СЃСЏ Р·Р°СЏРІР»РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @param customs
      */
@@ -211,7 +211,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentIDInfo' element items. Сведения о документах,  подтверждающих совершение операций по переработке
+     * Get the list of 'DocumentIDInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…,  РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СЃРѕРІРµСЂС€РµРЅРёРµ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentIDInfo' element items. Сведения о документах,  подтверждающих совершение операций по переработке
+     * Set the list of 'DocumentIDInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…,  РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СЃРѕРІРµСЂС€РµРЅРёРµ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsSuperior' element value. ФИО начальника таможни, куда передается заявление
+     * Get the 'CustomsSuperior' element value. Р¤РРћ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РЅРё, РєСѓРґР° РїРµСЂРµРґР°РµС‚СЃСЏ Р·Р°СЏРІР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsSuperior' element value. ФИО начальника таможни, куда передается заявление
+     * Set the 'CustomsSuperior' element value. Р¤РРћ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РЅРё, РєСѓРґР° РїРµСЂРµРґР°РµС‚СЃСЏ Р·Р°СЏРІР»РµРЅРёРµ
      * 
      * @param customsSuperior
      */
@@ -247,7 +247,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractHolder' element value. Контрактродержатель
+     * Get the 'ContractHolder' element value. РљРѕРЅС‚СЂР°РєС‚СЂРѕРґРµСЂР¶Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractHolder' element value. Контрактродержатель
+     * Set the 'ContractHolder' element value. РљРѕРЅС‚СЂР°РєС‚СЂРѕРґРµСЂР¶Р°С‚РµР»СЊ
      * 
      * @param contractHolder
      */
@@ -265,7 +265,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class InqInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

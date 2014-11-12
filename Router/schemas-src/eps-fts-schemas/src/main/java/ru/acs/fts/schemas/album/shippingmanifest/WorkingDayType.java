@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.shippingmanifest;
 
 /** 
- * Режим работы
+ * Р РµР¶РёРј СЂР°Р±РѕС‚С‹
  */
 public class WorkingDayType
 {
@@ -10,7 +10,7 @@ public class WorkingDayType
     private String to;
 
     /** 
-     * Get the 'From' element value. Время начала рабочего дня
+     * Get the 'From' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° СЂР°Р±РѕС‡РµРіРѕ РґРЅСЏ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class WorkingDayType
     }
 
     /** 
-     * Set the 'From' element value. Время начала рабочего дня
+     * Set the 'From' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° СЂР°Р±РѕС‡РµРіРѕ РґРЅСЏ
      * 
      * @param from
      */
@@ -28,7 +28,7 @@ public class WorkingDayType
     }
 
     /** 
-     * Get the 'To' element value. Время окончания рабочего дня
+     * Get the 'To' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°Р±РѕС‡РµРіРѕ РґРЅСЏ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WorkingDayType
     }
 
     /** 
-     * Set the 'To' element value. Время окончания рабочего дня
+     * Set the 'To' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°Р±РѕС‡РµРіРѕ РґРЅСЏ
      * 
      * @param to
      */

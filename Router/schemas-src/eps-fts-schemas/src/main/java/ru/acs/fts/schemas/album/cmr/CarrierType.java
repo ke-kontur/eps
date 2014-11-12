@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Описание перевозчика (гр.16)
+ * РћРїРёСЃР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР° (РіСЂ.16)
  */
 public class CarrierType extends OrganizationBaseType
 {
@@ -15,7 +15,7 @@ public class CarrierType extends OrganizationBaseType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Phone' element value. Телефон 
+     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ 
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Phone' element value. Телефон 
+     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ 
      * 
      * @param phone
      */
@@ -33,7 +33,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKPOID' element value. Код организации по ОКПО
+     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKPOID' element value. Код организации по ОКПО
+     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
      * 
      * @param OKPOID
      */
@@ -51,7 +51,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKATOCode' element value. Код ОКАТО
+     * Get the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKATOCode' element value. Код ОКАТО
+     * Set the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ
      * 
      * @param OKATOCode
      */
@@ -69,7 +69,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. Почтовый адрес перевозчика
+     * Get the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. Почтовый адрес перевозчика
+     * Set the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param postalAddress
      */

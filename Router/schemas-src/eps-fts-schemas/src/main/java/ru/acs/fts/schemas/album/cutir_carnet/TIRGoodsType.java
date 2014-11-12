@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TRPackingInfoType;
 
 /** 
- * Товары в книжке МДП
+ * РўРѕРІР°СЂС‹ РІ РєРЅРёР¶РєРµ РњР”Рџ
  */
 public class TIRGoodsType
 {
@@ -27,7 +27,7 @@ public class TIRGoodsType
     private List<TRPackingInfoType> packingInfoList = new ArrayList<TRPackingInfoType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по списку
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по списку
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
      * 
      * @param goodsNumeric
      */
@@ -45,7 +45,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -63,7 +63,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование груза
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -72,7 +72,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование груза
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -81,7 +81,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. Кол-во товара (в дополнительной единице измерения)
+     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° (РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ)
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. Кол-во товара (в дополнительной единице измерения)
+     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° (РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ)
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -99,7 +99,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -117,7 +117,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeightQuantity
      */
@@ -135,7 +135,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'SupplementaryMeasureUnitCode' element value. Код дополнительной единицы измерения
+     * Get the 'SupplementaryMeasureUnitCode' element value. РљРѕРґ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'SupplementaryMeasureUnitCode' element value. Код дополнительной единицы измерения
+     * Set the 'SupplementaryMeasureUnitCode' element value. РљРѕРґ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param supplementaryMeasureUnitCode
      */
@@ -154,7 +154,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Фактурная стоимость
+     * Get the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Фактурная стоимость
+     * Set the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param invoicedCost
      */
@@ -172,7 +172,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'InvoicedCostCurrencyCode' element value. Буквенный код валюты фактурной стоимости в соответствии с классификатором валют
+     * Get the 'InvoicedCostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'InvoicedCostCurrencyCode' element value. Буквенный код валюты фактурной стоимости в соответствии с классификатором валют
+     * Set the 'InvoicedCostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
      * 
      * @param invoicedCostCurrencyCode
      */
@@ -190,7 +190,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'DocumentKind' element value. Тип документа
+     * Get the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. Тип документа
+     * Set the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentKind
      */
@@ -208,7 +208,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'PrecedingDocumentNumber' element value. Номер предшествующего документа
+     * Get the 'PrecedingDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'PrecedingDocumentNumber' element value. Номер предшествующего документа
+     * Set the 'PrecedingDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param precedingDocumentNumber
      */
@@ -226,7 +226,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'TTNNumber' element value. Номер товарно-транспортной накладной
+     * Get the 'TTNNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'TTNNumber' element value. Номер товарно-транспортной накладной
+     * Set the 'TTNNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param TTNNumber
      */
@@ -244,7 +244,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the 'Language' element value. Код языка описания товара
+     * Get the 'Language' element value. РљРѕРґ СЏР·С‹РєР° РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the 'Language' element value. Код языка описания товара
+     * Set the 'Language' element value. РљРѕРґ СЏР·С‹РєР° РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param language
      */
@@ -262,7 +262,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the list of 'PlacesInfo' element items. Сведения о грузовых местах
+     * Get the list of 'PlacesInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
      * 
      * @return list
      */
@@ -271,7 +271,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the list of 'PlacesInfo' element items. Сведения о грузовых местах
+     * Set the list of 'PlacesInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
      * 
      * @param list
      */
@@ -280,7 +280,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Get the list of 'PackingInfo' element items. Сведения об упаковке товара
+     * Get the list of 'PackingInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -289,7 +289,7 @@ public class TIRGoodsType
     }
 
     /** 
-     * Set the list of 'PackingInfo' element items. Сведения об упаковке товара
+     * Set the list of 'PackingInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */

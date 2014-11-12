@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания контейнера
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РєРѕРЅС‚РµР№РЅРµСЂР°
  */
 public class WHContainerInformationType
 {
@@ -10,7 +10,7 @@ public class WHContainerInformationType
     private String grossWeightQuantity;
 
     /** 
-     * Get the 'ContainerNumber' element value. Номер контейнера.
+     * Get the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class WHContainerInformationType
     }
 
     /** 
-     * Set the 'ContainerNumber' element value. Номер контейнера.
+     * Set the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°.
      * 
      * @param containerNumber
      */
@@ -28,7 +28,7 @@ public class WHContainerInformationType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес брутто (кг) всех товаров в контейнере
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ (РєРі) РІСЃРµС… С‚РѕРІР°СЂРѕРІ РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WHContainerInformationType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес брутто (кг) всех товаров в контейнере
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ (РєРі) РІСЃРµС… С‚РѕРІР°СЂРѕРІ РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
      * 
      * @param grossWeightQuantity
      */

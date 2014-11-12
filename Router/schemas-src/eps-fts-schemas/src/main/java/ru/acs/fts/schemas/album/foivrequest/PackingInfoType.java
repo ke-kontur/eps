@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.foivrequest;
 
 /** 
- * Сведения об упаковке товаров
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
  */
 public class PackingInfoType
 {
@@ -11,7 +11,7 @@ public class PackingInfoType
     private String pakingQuantity;
 
     /** 
-     * Get the 'UUID' element value. Идентификатор упаковки
+     * Get the 'UUID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PackingInfoType
     }
 
     /** 
-     * Set the 'UUID' element value. Идентификатор упаковки
+     * Set the 'UUID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРїР°РєРѕРІРєРё
      * 
      * @param UUID
      */
@@ -29,7 +29,7 @@ public class PackingInfoType
     }
 
     /** 
-     * Get the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  Классификатором видов груза, упаковки и упаковочных материалов.
+     * Get the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PackingInfoType
     }
 
     /** 
-     * Set the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  Классификатором видов груза, упаковки и упаковочных материалов.
+     * Set the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
      * 
      * @param packingCode
      */
@@ -47,7 +47,7 @@ public class PackingInfoType
     }
 
     /** 
-     * Get the 'PakingQuantity' element value. Количество упаковок.
+     * Get the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PackingInfoType
     }
 
     /** 
-     * Set the 'PakingQuantity' element value. Количество упаковок.
+     * Set the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє.
      * 
      * @param pakingQuantity
      */

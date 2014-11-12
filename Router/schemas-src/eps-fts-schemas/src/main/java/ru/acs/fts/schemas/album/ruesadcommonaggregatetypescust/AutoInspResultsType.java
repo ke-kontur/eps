@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Результаты досмотра автомобиля (товарная позиция 8702, 8703 по ТН ВЭД ТС)
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° Р°РІС‚РѕРјРѕР±РёР»СЏ (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8702, 8703 РїРѕ РўРќ Р’Р­Р” РўРЎ)
  */
 public class AutoInspResultsType extends AutoMotoParametersType
 {
@@ -36,7 +36,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     private BodyInfType bodyInf;
 
     /** 
-     * Get the 'AutoKind' element value. Тип автомобиля (заполняется согласно справочнику ATD_KZV.DBF)
+     * Get the 'AutoKind' element value. РўРёРї Р°РІС‚РѕРјРѕР±РёР»СЏ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ ATD_KZV.DBF)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'AutoKind' element value. Тип автомобиля (заполняется согласно справочнику ATD_KZV.DBF)
+     * Set the 'AutoKind' element value. РўРёРї Р°РІС‚РѕРјРѕР±РёР»СЏ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ ATD_KZV.DBF)
      * 
      * @param autoKind
      */
@@ -54,7 +54,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'EngineVolume' element value. Рабочий объем (из документов) (куб. см)
+     * Get the 'EngineVolume' element value. Р Р°Р±РѕС‡РёР№ РѕР±СЉРµРј (РёР· РґРѕРєСѓРјРµРЅС‚РѕРІ) (РєСѓР±. СЃРј)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'EngineVolume' element value. Рабочий объем (из документов) (куб. см)
+     * Set the 'EngineVolume' element value. Р Р°Р±РѕС‡РёР№ РѕР±СЉРµРј (РёР· РґРѕРєСѓРјРµРЅС‚РѕРІ) (РєСѓР±. СЃРј)
      * 
      * @param engineVolume
      */
@@ -72,7 +72,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'EngineKind' element value. Тип двигателя: "0" - бензин, "1" - дизель, "2" - прочее
+     * Get the 'EngineKind' element value. РўРёРї РґРІРёРіР°С‚РµР»СЏ: "0" - Р±РµРЅР·РёРЅ, "1" - РґРёР·РµР»СЊ, "2" - РїСЂРѕС‡РµРµ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'EngineKind' element value. Тип двигателя: "0" - бензин, "1" - дизель, "2" - прочее
+     * Set the 'EngineKind' element value. РўРёРї РґРІРёРіР°С‚РµР»СЏ: "0" - Р±РµРЅР·РёРЅ, "1" - РґРёР·РµР»СЊ, "2" - РїСЂРѕС‡РµРµ
      * 
      * @param engineKind
      */
@@ -90,7 +90,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'LightDisk' element value. Количество дисков из легкого сплава: "0" - если нет
+     * Get the 'LightDisk' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРёСЃРєРѕРІ РёР· Р»РµРіРєРѕРіРѕ СЃРїР»Р°РІР°: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'LightDisk' element value. Количество дисков из легкого сплава: "0" - если нет
+     * Set the 'LightDisk' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРёСЃРєРѕРІ РёР· Р»РµРіРєРѕРіРѕ СЃРїР»Р°РІР°: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param lightDisk
      */
@@ -108,7 +108,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'GUR' element value. Гидроусилитель руля: "0" - нет, "1" - есть
+     * Get the 'GUR' element value. Р“РёРґСЂРѕСѓСЃРёР»РёС‚РµР»СЊ СЂСѓР»СЏ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'GUR' element value. Гидроусилитель руля: "0" - нет, "1" - есть
+     * Set the 'GUR' element value. Р“РёРґСЂРѕСѓСЃРёР»РёС‚РµР»СЊ СЂСѓР»СЏ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param GUR
      */
@@ -126,7 +126,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ElUR' element value. Электроусилитель руля: "0" - нет, "1" - есть
+     * Get the 'ElUR' element value. Р­Р»РµРєС‚СЂРѕСѓСЃРёР»РёС‚РµР»СЊ СЂСѓР»СЏ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ElUR' element value. Электроусилитель руля: "0" - нет, "1" - есть
+     * Set the 'ElUR' element value. Р­Р»РµРєС‚СЂРѕСѓСЃРёР»РёС‚РµР»СЊ СЂСѓР»СЏ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param elUR
      */
@@ -144,7 +144,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'AirBag' element value. Количество подушек безопасности: "0" - если нет
+     * Get the 'AirBag' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґСѓС€РµРє Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'AirBag' element value. Количество подушек безопасности: "0" - если нет
+     * Set the 'AirBag' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґСѓС€РµРє Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param airBag
      */
@@ -162,7 +162,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ElBackGlass' element value. Электропривод зеркал заднего вида: "0" - нет, "1" - есть
+     * Get the 'ElBackGlass' element value. Р­Р»РµРєС‚СЂРѕРїСЂРёРІРѕРґ Р·РµСЂРєР°Р» Р·Р°РґРЅРµРіРѕ РІРёРґР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ElBackGlass' element value. Электропривод зеркал заднего вида: "0" - нет, "1" - есть
+     * Set the 'ElBackGlass' element value. Р­Р»РµРєС‚СЂРѕРїСЂРёРІРѕРґ Р·РµСЂРєР°Р» Р·Р°РґРЅРµРіРѕ РІРёРґР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param elBackGlass
      */
@@ -180,7 +180,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ElHeatingGlass' element value. Электроподогрев лобового стекла: "0" - нет, "1" - есть
+     * Get the 'ElHeatingGlass' element value. Р­Р»РµРєС‚СЂРѕРїРѕРґРѕРіСЂРµРІ Р»РѕР±РѕРІРѕРіРѕ СЃС‚РµРєР»Р°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -189,7 +189,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ElHeatingGlass' element value. Электроподогрев лобового стекла: "0" - нет, "1" - есть
+     * Set the 'ElHeatingGlass' element value. Р­Р»РµРєС‚СЂРѕРїРѕРґРѕРіСЂРµРІ Р»РѕР±РѕРІРѕРіРѕ СЃС‚РµРєР»Р°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param elHeatingGlass
      */
@@ -198,7 +198,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Conditioner' element value. Кондиционер: "0" - нет, "1" - есть
+     * Get the 'Conditioner' element value. РљРѕРЅРґРёС†РёРѕРЅРµСЂ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -207,7 +207,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Conditioner' element value. Кондиционер: "0" - нет, "1" - есть
+     * Set the 'Conditioner' element value. РљРѕРЅРґРёС†РёРѕРЅРµСЂ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param conditioner
      */
@@ -216,7 +216,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Upholstery' element value. Обивка салона (материал)
+     * Get the 'Upholstery' element value. РћР±РёРІРєР° СЃР°Р»РѕРЅР° (РјР°С‚РµСЂРёР°Р»)
      * 
      * @return value
      */
@@ -225,7 +225,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Upholstery' element value. Обивка салона (материал)
+     * Set the 'Upholstery' element value. РћР±РёРІРєР° СЃР°Р»РѕРЅР° (РјР°С‚РµСЂРёР°Р»)
      * 
      * @param upholstery
      */
@@ -234,7 +234,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'SvetDevice' element items. Светотехнические приборы
+     * Get the list of 'SvetDevice' element items. РЎРІРµС‚РѕС‚РµС…РЅРёС‡РµСЃРєРёРµ РїСЂРёР±РѕСЂС‹
      * 
      * @return list
      */
@@ -243,7 +243,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'SvetDevice' element items. Светотехнические приборы
+     * Set the list of 'SvetDevice' element items. РЎРІРµС‚РѕС‚РµС…РЅРёС‡РµСЃРєРёРµ РїСЂРёР±РѕСЂС‹
      * 
      * @param list
      */
@@ -252,7 +252,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'NumberOfHatch' element value. Число люков
+     * Get the 'NumberOfHatch' element value. Р§РёСЃР»Рѕ Р»СЋРєРѕРІ
      * 
      * @return value
      */
@@ -261,7 +261,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'NumberOfHatch' element value. Число люков
+     * Set the 'NumberOfHatch' element value. Р§РёСЃР»Рѕ Р»СЋРєРѕРІ
      * 
      * @param numberOfHatch
      */
@@ -270,7 +270,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Telefon' element value. Количество телефонов: "0" - если нет
+     * Get the 'Telefon' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РµР»РµС„РѕРЅРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -279,7 +279,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Telefon' element value. Количество телефонов: "0" - если нет
+     * Set the 'Telefon' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РµР»РµС„РѕРЅРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param telefon
      */
@@ -288,7 +288,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'CentrLock' element value. Центральный замок: "0" - нет, "1" - есть
+     * Get the 'CentrLock' element value. Р¦РµРЅС‚СЂР°Р»СЊРЅС‹Р№ Р·Р°РјРѕРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -297,7 +297,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'CentrLock' element value. Центральный замок: "0" - нет, "1" - есть
+     * Set the 'CentrLock' element value. Р¦РµРЅС‚СЂР°Р»СЊРЅС‹Р№ Р·Р°РјРѕРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param centrLock
      */
@@ -306,7 +306,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'SalonWindow' element value. Количество окон (для микроавтобуса: "0" - если нет
+     * Get the 'SalonWindow' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕРєРѕРЅ (РґР»СЏ РјРёРєСЂРѕР°РІС‚РѕР±СѓСЃР°: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -315,7 +315,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'SalonWindow' element value. Количество окон (для микроавтобуса: "0" - если нет
+     * Set the 'SalonWindow' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕРєРѕРЅ (РґР»СЏ РјРёРєСЂРѕР°РІС‚РѕР±СѓСЃР°: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param salonWindow
      */
@@ -324,7 +324,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'DistanceControl' element value. Система поддержания допустимой дистанции: "0" - нет, "1" - есть
+     * Get the 'DistanceControl' element value. РЎРёСЃС‚РµРјР° РїРѕРґРґРµСЂР¶Р°РЅРёСЏ РґРѕРїСѓСЃС‚РёРјРѕР№ РґРёСЃС‚Р°РЅС†РёРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -333,7 +333,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'DistanceControl' element value. Система поддержания допустимой дистанции: "0" - нет, "1" - есть
+     * Set the 'DistanceControl' element value. РЎРёСЃС‚РµРјР° РїРѕРґРґРµСЂР¶Р°РЅРёСЏ РґРѕРїСѓСЃС‚РёРјРѕР№ РґРёСЃС‚Р°РЅС†РёРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param distanceControl
      */
@@ -342,7 +342,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Parktronic' element value. Электронная система парковки: "0" - нет, "1" - есть
+     * Get the 'Parktronic' element value. Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР° РїР°СЂРєРѕРІРєРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -351,7 +351,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Parktronic' element value. Электронная система парковки: "0" - нет, "1" - есть
+     * Set the 'Parktronic' element value. Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР° РїР°СЂРєРѕРІРєРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param parktronic
      */
@@ -360,7 +360,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'FireExten' element value. Огнетушитель: "0" - нет, "1" - есть
+     * Get the 'FireExten' element value. РћРіРЅРµС‚СѓС€РёС‚РµР»СЊ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -369,7 +369,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'FireExten' element value. Огнетушитель: "0" - нет, "1" - есть
+     * Set the 'FireExten' element value. РћРіРЅРµС‚СѓС€РёС‚РµР»СЊ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param fireExten
      */
@@ -378,7 +378,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ParkHeating' element value. Система отопления во время стоянки: "0" - нет, "1" - есть
+     * Get the 'ParkHeating' element value. РЎРёСЃС‚РµРјР° РѕС‚РѕРїР»РµРЅРёСЏ РІРѕ РІСЂРµРјСЏ СЃС‚РѕСЏРЅРєРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -387,7 +387,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ParkHeating' element value. Система отопления во время стоянки: "0" - нет, "1" - есть
+     * Set the 'ParkHeating' element value. РЎРёСЃС‚РµРјР° РѕС‚РѕРїР»РµРЅРёСЏ РІРѕ РІСЂРµРјСЏ СЃС‚РѕСЏРЅРєРё: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param parkHeating
      */
@@ -396,7 +396,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'PnevmoDevice' element value. Пневмоподвеска: "0" - нет, "1" - есть
+     * Get the 'PnevmoDevice' element value. РџРЅРµРІРјРѕРїРѕРґРІРµСЃРєР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -405,7 +405,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'PnevmoDevice' element value. Пневмоподвеска: "0" - нет, "1" - есть
+     * Set the 'PnevmoDevice' element value. РџРЅРµРІРјРѕРїРѕРґРІРµСЃРєР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param pnevmoDevice
      */
@@ -414,7 +414,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'BroneClass' element value. Наличие бронезащиты и ее класс (по результату экспертизы): "0" - если нет
+     * Get the 'BroneClass' element value. РќР°Р»РёС‡РёРµ Р±СЂРѕРЅРµР·Р°С‰РёС‚С‹ Рё РµРµ РєР»Р°СЃСЃ (РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Сѓ СЌРєСЃРїРµСЂС‚РёР·С‹): "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -423,7 +423,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'BroneClass' element value. Наличие бронезащиты и ее класс (по результату экспертизы): "0" - если нет
+     * Set the 'BroneClass' element value. РќР°Р»РёС‡РёРµ Р±СЂРѕРЅРµР·Р°С‰РёС‚С‹ Рё РµРµ РєР»Р°СЃСЃ (РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Сѓ СЌРєСЃРїРµСЂС‚РёР·С‹): "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param broneClass
      */
@@ -432,7 +432,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'RegCode' element value. Регистрационный знак
+     * Get the 'RegCode' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ Р·РЅР°Рє
      * 
      * @return value
      */
@@ -441,7 +441,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'RegCode' element value. Регистрационный знак
+     * Set the 'RegCode' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ Р·РЅР°Рє
      * 
      * @param regCode
      */
@@ -450,7 +450,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'Hatch' element items. Люк
+     * Get the list of 'Hatch' element items. Р›СЋРє
      * 
      * @return list
      */
@@ -459,7 +459,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'Hatch' element items. Люк
+     * Set the list of 'Hatch' element items. Р›СЋРє
      * 
      * @param list
      */
@@ -468,7 +468,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Get the 'BodyInf' element value. Кузов
+     * Get the 'BodyInf' element value. РљСѓР·РѕРІ
      * 
      * @return value
      */
@@ -477,7 +477,7 @@ public class AutoInspResultsType extends AutoMotoParametersType
     }
 
     /** 
-     * Set the 'BodyInf' element value. Кузов
+     * Set the 'BodyInf' element value. РљСѓР·РѕРІ
      * 
      * @param bodyInf
      */

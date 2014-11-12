@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airwaybill;
 
 /** 
- * Суммы по платежам
+ * РЎСѓРјРјС‹ РїРѕ РїР»Р°С‚РµР¶Р°Рј
  */
 public class ChargesSummaryType
 {
@@ -15,7 +15,7 @@ public class ChargesSummaryType
     private ChargesInfoType totalCarrierCharges;
 
     /** 
-     * Get the 'PaymentCode' element value. Идентификатор
+     * Get the 'PaymentCode' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'PaymentCode' element value. Идентификатор
+     * Set the 'PaymentCode' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @param paymentCode
      */
@@ -33,7 +33,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Get the 'TotalAmount' element value. Общая сумма
+     * Get the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'TotalAmount' element value. Общая сумма
+     * Set the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°
      * 
      * @param totalAmount
      */
@@ -51,7 +51,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Get the 'TotalWeightCharge' element value. Общая оплата по весу
+     * Get the 'TotalWeightCharge' element value. РћР±С‰Р°СЏ РѕРїР»Р°С‚Р° РїРѕ РІРµСЃСѓ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'TotalWeightCharge' element value. Общая оплата по весу
+     * Set the 'TotalWeightCharge' element value. РћР±С‰Р°СЏ РѕРїР»Р°С‚Р° РїРѕ РІРµСЃСѓ
      * 
      * @param totalWeightCharge
      */
@@ -69,7 +69,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Get the 'ValuationCharge' element value. Плата по объявленной стоимости
+     * Get the 'ValuationCharge' element value. РџР»Р°С‚Р° РїРѕ РѕР±СЉСЏРІР»РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'ValuationCharge' element value. Плата по объявленной стоимости
+     * Set the 'ValuationCharge' element value. РџР»Р°С‚Р° РїРѕ РѕР±СЉСЏРІР»РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param valuationCharge
      */
@@ -87,7 +87,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Get the 'Taxes' element value. Налоги
+     * Get the 'Taxes' element value. РќР°Р»РѕРіРё
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'Taxes' element value. Налоги
+     * Set the 'Taxes' element value. РќР°Р»РѕРіРё
      * 
      * @param taxes
      */
@@ -105,7 +105,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Get the 'TotalAgentCharges' element value. Прочие сборы в пользу  агента
+     * Get the 'TotalAgentCharges' element value. РџСЂРѕС‡РёРµ СЃР±РѕСЂС‹ РІ РїРѕР»СЊР·Сѓ  Р°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'TotalAgentCharges' element value. Прочие сборы в пользу  агента
+     * Set the 'TotalAgentCharges' element value. РџСЂРѕС‡РёРµ СЃР±РѕСЂС‹ РІ РїРѕР»СЊР·Сѓ  Р°РіРµРЅС‚Р°
      * 
      * @param totalAgentCharges
      */
@@ -123,7 +123,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Get the 'TotalCarrierCharges' element value. Сборы в пользу перевозчика
+     * Get the 'TotalCarrierCharges' element value. РЎР±РѕСЂС‹ РІ РїРѕР»СЊР·Сѓ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class ChargesSummaryType
     }
 
     /** 
-     * Set the 'TotalCarrierCharges' element value. Сборы в пользу перевозчика
+     * Set the 'TotalCarrierCharges' element value. РЎР±РѕСЂС‹ РІ РїРѕР»СЊР·Сѓ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param totalCarrierCharges
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.rospatentres;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения из Госреестра товарных знаков и знаков обслуживания/из Перечня общеизвестных в РФ товарных знаков/из Госреестра наименований мест происхождений товаров РФ
+ * РЎРІРµРґРµРЅРёСЏ РёР· Р“РѕСЃСЂРµРµСЃС‚СЂР° С‚РѕРІР°СЂРЅС‹С… Р·РЅР°РєРѕРІ Рё Р·РЅР°РєРѕРІ РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ/РёР· РџРµСЂРµС‡РЅСЏ РѕР±С‰РµРёР·РІРµСЃС‚РЅС‹С… РІ Р Р¤ С‚РѕРІР°СЂРЅС‹С… Р·РЅР°РєРѕРІ/РёР· Р“РѕСЃСЂРµРµСЃС‚СЂР° РЅР°РёРјРµРЅРѕРІР°РЅРёР№ РјРµСЃС‚ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Р Р¤
  */
 public class RosPatentResType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class RosPatentResType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. Сведения 1 - из Госреестра товарных знаков и знаков обслуживания; 2 - из Перечня общеизвестных в РФ товарных знаков; 3 - из Госреестра наименований мест происхождений товаров РФ
+     * Get the 'DocSign' element value. РЎРІРµРґРµРЅРёСЏ 1 - РёР· Р“РѕСЃСЂРµРµСЃС‚СЂР° С‚РѕРІР°СЂРЅС‹С… Р·РЅР°РєРѕРІ Рё Р·РЅР°РєРѕРІ РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ; 2 - РёР· РџРµСЂРµС‡РЅСЏ РѕР±С‰РµРёР·РІРµСЃС‚РЅС‹С… РІ Р Р¤ С‚РѕРІР°СЂРЅС‹С… Р·РЅР°РєРѕРІ; 3 - РёР· Р“РѕСЃСЂРµРµСЃС‚СЂР° РЅР°РёРјРµРЅРѕРІР°РЅРёР№ РјРµСЃС‚ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Р Р¤
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Сведения 1 - из Госреестра товарных знаков и знаков обслуживания; 2 - из Перечня общеизвестных в РФ товарных знаков; 3 - из Госреестра наименований мест происхождений товаров РФ
+     * Set the 'DocSign' element value. РЎРІРµРґРµРЅРёСЏ 1 - РёР· Р“РѕСЃСЂРµРµСЃС‚СЂР° С‚РѕРІР°СЂРЅС‹С… Р·РЅР°РєРѕРІ Рё Р·РЅР°РєРѕРІ РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ; 2 - РёР· РџРµСЂРµС‡РЅСЏ РѕР±С‰РµРёР·РІРµСЃС‚РЅС‹С… РІ Р Р¤ С‚РѕРІР°СЂРЅС‹С… Р·РЅР°РєРѕРІ; 3 - РёР· Р“РѕСЃСЂРµРµСЃС‚СЂР° РЅР°РёРјРµРЅРѕРІР°РЅРёР№ РјРµСЃС‚ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Р Р¤
      * 
      * @param docSign
      */
@@ -33,7 +33,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObjectDescription' element value. Описание объекта
+     * Get the 'ObjectDescription' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObjectDescription' element value. Описание объекта
+     * Set the 'ObjectDescription' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚Р°
      * 
      * @param objectDescription
      */
@@ -51,7 +51,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObjectType' element value. Тип объекта
+     * Get the 'ObjectType' element value. РўРёРї РѕР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObjectType' element value. Тип объекта
+     * Set the 'ObjectType' element value. РўРёРї РѕР±СЉРµРєС‚Р°
      * 
      * @param objectType
      */
@@ -69,7 +69,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObjectNum' element value. Номер объекта
+     * Get the 'ObjectNum' element value. РќРѕРјРµСЂ РѕР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObjectNum' element value. Номер объекта
+     * Set the 'ObjectNum' element value. РќРѕРјРµСЂ РѕР±СЉРµРєС‚Р°
      * 
      * @param objectNum
      */
@@ -87,7 +87,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RosPatentResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

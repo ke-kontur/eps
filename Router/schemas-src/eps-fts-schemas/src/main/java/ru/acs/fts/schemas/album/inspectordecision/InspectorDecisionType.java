@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Решение должностного лица
+ * Р РµС€РµРЅРёРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
  */
 public class InspectorDecisionType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class InspectorDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'DecisionDescription' element items. Описание решения должностного лица
+     * Get the list of 'DecisionDescription' element items. РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class InspectorDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DecisionDescription' element items. Описание решения должностного лица
+     * Set the list of 'DecisionDescription' element items. РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class InspectorDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InspectorDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

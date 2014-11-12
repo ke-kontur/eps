@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.requestdatard;
 import org.joda.time.LocalDate;
 
 /** 
- * Контракт
+ * РљРѕРЅС‚СЂР°РєС‚
  */
 public class ContractType
 {
@@ -12,7 +12,7 @@ public class ContractType
     private LocalDate conDateSignature;
 
     /** 
-     * Get the 'ConNumber' element value. Номер контракта
+     * Get the 'ConNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ContractType
     }
 
     /** 
-     * Set the 'ConNumber' element value. Номер контракта
+     * Set the 'ConNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param conNumber
      */
@@ -30,7 +30,7 @@ public class ContractType
     }
 
     /** 
-     * Get the 'ConDateSignature' element value. Дата подписания контракта
+     * Get the 'ConDateSignature' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ContractType
     }
 
     /** 
-     * Set the 'ConDateSignature' element value. Дата подписания контракта
+     * Set the 'ConDateSignature' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param conDateSignature
      */

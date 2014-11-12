@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания грузовых мест товара
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
  */
 public class WHCargoPlaceType
 {
@@ -11,7 +11,7 @@ public class WHCargoPlaceType
     private String placeDescription;
 
     /** 
-     * Get the 'PlaceNumber' element value. Количество грузовых мест
+     * Get the 'PlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WHCargoPlaceType
     }
 
     /** 
-     * Set the 'PlaceNumber' element value. Количество грузовых мест
+     * Set the 'PlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param placeNumber
      */
@@ -29,7 +29,7 @@ public class WHCargoPlaceType
     }
 
     /** 
-     * Get the 'PackageCode' element value. Код вида упаковки (груза)
+     * Get the 'PackageCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё (РіСЂСѓР·Р°)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class WHCargoPlaceType
     }
 
     /** 
-     * Set the 'PackageCode' element value. Код вида упаковки (груза)
+     * Set the 'PackageCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё (РіСЂСѓР·Р°)
      * 
      * @param packageCode
      */
@@ -47,7 +47,7 @@ public class WHCargoPlaceType
     }
 
     /** 
-     * Get the 'PlaceDescription' element value. Вид  грузовых  мест - описание
+     * Get the 'PlaceDescription' element value. Р’РёРґ  РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚ - РѕРїРёСЃР°РЅРёРµ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class WHCargoPlaceType
     }
 
     /** 
-     * Set the 'PlaceDescription' element value. Вид  грузовых  мест - описание
+     * Set the 'PlaceDescription' element value. Р’РёРґ  РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚ - РѕРїРёСЃР°РЅРёРµ
      * 
      * @param placeDescription
      */

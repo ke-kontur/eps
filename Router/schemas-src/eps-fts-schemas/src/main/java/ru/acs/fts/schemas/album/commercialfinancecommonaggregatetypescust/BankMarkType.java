@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Отметки банка 
+ * РћС‚РјРµС‚РєРё Р±Р°РЅРєР° 
  */
 public class BankMarkType
 {
@@ -13,7 +13,7 @@ public class BankMarkType
     private PersonSignatureType recipSign;
 
     /** 
-     * Get the 'BankName' element value. Наименование банка
+     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class BankMarkType
     }
 
     /** 
-     * Set the 'BankName' element value. Наименование банка
+     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @param bankName
      */
@@ -31,7 +31,7 @@ public class BankMarkType
     }
 
     /** 
-     * Get the 'BIC' element value. БИК
+     * Get the 'BIC' element value. Р‘РРљ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class BankMarkType
     }
 
     /** 
-     * Set the 'BIC' element value. БИК
+     * Set the 'BIC' element value. Р‘РРљ
      * 
      * @param BIC
      */
@@ -49,7 +49,7 @@ public class BankMarkType
     }
 
     /** 
-     * Get the 'RecipSign' element value. Подпись ответственного исполнителя  
+     * Get the 'RecipSign' element value. РџРѕРґРїРёСЃСЊ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РёСЃРїРѕР»РЅРёС‚РµР»СЏ  
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class BankMarkType
     }
 
     /** 
-     * Set the 'RecipSign' element value. Подпись ответственного исполнителя  
+     * Set the 'RecipSign' element value. РџРѕРґРїРёСЃСЊ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РёСЃРїРѕР»РЅРёС‚РµР»СЏ  
      * 
      * @param recipSign
      */

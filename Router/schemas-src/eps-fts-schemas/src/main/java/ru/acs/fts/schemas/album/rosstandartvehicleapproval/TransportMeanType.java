@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.rosstandartvehicleapproval;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Транспортное средство
+ * РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
  */
 public class TransportMeanType extends TransportMeansBaseType
 {
     private String ecoClass;
 
     /** 
-     * Get the 'EcoClass' element value. Экологический класс ТС
+     * Get the 'EcoClass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ РўРЎ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportMeanType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'EcoClass' element value. Экологический класс ТС
+     * Set the 'EcoClass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ РўРЎ
      * 
      * @param ecoClass
      */

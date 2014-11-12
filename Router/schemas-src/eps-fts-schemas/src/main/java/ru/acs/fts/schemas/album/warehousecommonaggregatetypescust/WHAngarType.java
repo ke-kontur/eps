@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для расширенного описания данных о размещении товара на СВХ
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ СЂР°СЃС€РёСЂРµРЅРЅРѕРіРѕ РѕРїРёСЃР°РЅРёСЏ РґР°РЅРЅС‹С… Рѕ СЂР°Р·РјРµС‰РµРЅРёРё С‚РѕРІР°СЂР° РЅР° РЎР’РҐ
  */
 public class WHAngarType extends WHPlaceBaseType
 {
@@ -12,7 +12,7 @@ public class WHAngarType extends WHPlaceBaseType
     private String cell;
 
     /** 
-     * Get the 'Parking' element value. Парковочное место
+     * Get the 'Parking' element value. РџР°СЂРєРѕРІРѕС‡РЅРѕРµ РјРµСЃС‚Рѕ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Set the 'Parking' element value. Парковочное место
+     * Set the 'Parking' element value. РџР°СЂРєРѕРІРѕС‡РЅРѕРµ РјРµСЃС‚Рѕ
      * 
      * @param parking
      */
@@ -30,7 +30,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Get the 'Angar' element value. Ангар
+     * Get the 'Angar' element value. РђРЅРіР°СЂ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Set the 'Angar' element value. Ангар
+     * Set the 'Angar' element value. РђРЅРіР°СЂ
      * 
      * @param angar
      */
@@ -48,7 +48,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Get the 'WHPackind' element value. Номер стеллажа или полки (для товара) / номер места в ангаре (для контейнера)
+     * Get the 'WHPackind' element value. РќРѕРјРµСЂ СЃС‚РµР»Р»Р°Р¶Р° РёР»Рё РїРѕР»РєРё (РґР»СЏ С‚РѕРІР°СЂР°) / РЅРѕРјРµСЂ РјРµСЃС‚Р° РІ Р°РЅРіР°СЂРµ (РґР»СЏ РєРѕРЅС‚РµР№РЅРµСЂР°)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Set the 'WHPackind' element value. Номер стеллажа или полки (для товара) / номер места в ангаре (для контейнера)
+     * Set the 'WHPackind' element value. РќРѕРјРµСЂ СЃС‚РµР»Р»Р°Р¶Р° РёР»Рё РїРѕР»РєРё (РґР»СЏ С‚РѕРІР°СЂР°) / РЅРѕРјРµСЂ РјРµСЃС‚Р° РІ Р°РЅРіР°СЂРµ (РґР»СЏ РєРѕРЅС‚РµР№РЅРµСЂР°)
      * 
      * @param WHPackind
      */
@@ -66,7 +66,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Get the 'Cell' element value. Номер ячейки (заполняется при указании сведений о товаре)
+     * Get the 'Cell' element value. РќРѕРјРµСЂ СЏС‡РµР№РєРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё СЃРІРµРґРµРЅРёР№ Рѕ С‚РѕРІР°СЂРµ)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class WHAngarType extends WHPlaceBaseType
     }
 
     /** 
-     * Set the 'Cell' element value. Номер ячейки (заполняется при указании сведений о товаре)
+     * Set the 'Cell' element value. РќРѕРјРµСЂ СЏС‡РµР№РєРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё СЃРІРµРґРµРЅРёР№ Рѕ С‚РѕРІР°СЂРµ)
      * 
      * @param cell
      */

@@ -1,0 +1,73 @@
+<binding xmlns:aip="urn:customs.ru:Information:TransportDocuments:Car:AutomobileInsurancePolicy:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Car:AutomobileInsurancePolicy:5.4.3" default="elements" prefix="aip"/>
+  <mapping abstract="true" type-name="aip:AutomobileInsurancePolicyType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.AutomobileInsurancePolicyType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getSpecialCommentList" set-method="setSpecialCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="SpecialComments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="InsurerName" get-method="getInsurerName" set-method="setInsurerName"/>
+    <value style="element" name="SignSeriesCode" get-method="getSignSeriesCode" set-method="setSignSeriesCode"/>
+    <value style="element" name="InsuranceTermBegin" get-method="getInsuranceTermBegin" set-method="setInsuranceTermBegin"/>
+    <value style="element" name="InsuranceTermEnd" get-method="getInsuranceTermEnd" set-method="setInsuranceTermEnd"/>
+    <value style="element" name="SignID" get-method="getSignID" set-method="setSignID"/>
+    <value style="element" name="SumInsured" get-method="getSumInsured" set-method="setSumInsured" usage="optional"/>
+    <value style="element" name="InsurancePremium" get-method="getInsurancePremium" set-method="setInsurancePremium" usage="optional"/>
+    <structure map-as="aip:RegistrationType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure map-as="aip:InsurerType" get-method="getInsurer" set-method="setInsurer" name="Insurer"/>
+    <structure map-as="aip:AutomobileOwnerType" get-method="getAutomobileOwner" set-method="setAutomobileOwner" name="AutomobileOwner"/>
+    <structure map-as="aip:AIPTransportMeansType" get-method="getAIPTransportMeans" set-method="setAIPTransportMeans" name="AIPTransportMeans"/>
+    <collection get-method="getAllowedPersonsInformationList" set-method="setAllowedPersonsInformationList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="aip:AllowedPersonsType" name="AllowedPersonsInformation"/>
+    </collection>
+    <collection get-method="getUseTransportTermList" set-method="setUseTransportTermList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="aip:UseTransportTermType" name="UseTransportTerm"/>
+    </collection>
+    <collection get-method="getAutomobileDocList" set-method="setAutomobileDocList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="AutomobileDoc"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getInsuranceAgent" set-method="setInsuranceAgent" usage="optional" name="InsuranceAgent"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getInsurerSign" set-method="setInsurerSign" usage="optional" name="InsurerSign"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.automobileinsurancepolicy.AutomobileInsurancePolicyType" name="AutomobileInsurancePolicy">
+    <structure map-as="aip:AutomobileInsurancePolicyType"/>
+  </mapping>
+  <mapping abstract="true" type-name="aip:AIPTransportMeansType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.AIPTransportMeansType">
+    <value style="element" name="TransportStateSignID" get-method="getTransportStateSignID" set-method="setTransportStateSignID"/>
+    <value style="element" name="Model" get-method="getModel" set-method="setModel"/>
+    <value style="element" name="Mark" get-method="getMark" set-method="setMark" usage="optional"/>
+    <value style="element" name="MarkCode" get-method="getMarkCode" set-method="setMarkCode" usage="optional"/>
+    <value style="element" name="VINID" get-method="getVINID" set-method="setVINID" usage="optional"/>
+    <value style="element" name="OfftakeYear" get-method="getOfftakeYear" set-method="setOfftakeYear" usage="optional"/>
+    <structure map-as="cat_ru:TransportMeansPassportType" get-method="getAIPTransportMeansPassport" set-method="setAIPTransportMeansPassport" name="AIPTransportMeansPassport"/>
+  </mapping>
+  <mapping abstract="true" type-name="aip:AllowedPersonsType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.AllowedPersonsType">
+    <value style="element" name="PersNumeric" get-method="getPersNumeric" set-method="setPersNumeric"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="DrivingLicenceSeriesCode" get-method="getDrivingLicenceSeriesCode" set-method="setDrivingLicenceSeriesCode"/>
+    <value style="element" name="DrivingLicenceNumeric" get-method="getDrivingLicenceNumeric" set-method="setDrivingLicenceNumeric"/>
+    <value style="element" name="RestrictionIndicator" get-method="getRestrictionIndicator" set-method="setRestrictionIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="aip:AutomobileOwnerType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.AutomobileOwnerType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="NaturalPersonIndicator" get-method="getNaturalPersonIndicator" set-method="setNaturalPersonIndicator" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="aip:InsurerType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.InsurerType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="NaturalPersonIndicator" get-method="getNaturalPersonIndicator" set-method="setNaturalPersonIndicator" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getIdentityCard" set-method="setIdentityCard" usage="optional" name="IdentityCard"/>
+  </mapping>
+  <mapping abstract="true" type-name="aip:RegistrationType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.RegistrationType">
+    <value style="element" name="SeriesCode" get-method="getSeriesCode" set-method="setSeriesCode"/>
+    <value style="element" name="PolNumber" get-method="getPolNumber" set-method="setPolNumber"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="InsurContractDate" get-method="getInsurContractDate" set-method="setInsurContractDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="aip:UseTransportTermType" class="ru.acs.fts.schemas.album.automobileinsurancepolicy.UseTransportTermType">
+    <value style="element" name="BeginUseTransportDate" get-method="getBeginUseTransportDate" set-method="setBeginUseTransportDate" format="LocalDate.default"/>
+    <value style="element" name="EndUseTransportDate" get-method="getEndUseTransportDate" set-method="setEndUseTransportDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+</binding>

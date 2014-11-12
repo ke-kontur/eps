@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.freedoc;
 import java.math.BigInteger;
 
 /** 
- * Ячейка таблицы
+ * РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
  */
 public class TableCellType extends TextParagrType
 {
@@ -16,7 +16,7 @@ public class TableCellType extends TextParagrType
     private BigInteger morecols;
 
     /** 
-     * Get the 'align' attribute value. Стили выравнивания по горизонтали
+     * Get the 'align' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Set the 'align' attribute value. Стили выравнивания по горизонтали
+     * Set the 'align' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @param align
      */
@@ -34,7 +34,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Get the 'valign' attribute value. Стили выравнивания по вертикали
+     * Get the 'valign' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Set the 'valign' attribute value. Стили выравнивания по вертикали
+     * Set the 'valign' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
      * 
      * @param valign
      */
@@ -52,7 +52,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Get the 'namest' attribute value. Наименование первой ячейки включаемой в объединение по горизонтали
+     * Get the 'namest' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРІРѕР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Set the 'namest' attribute value. Наименование первой ячейки включаемой в объединение по горизонтали
+     * Set the 'namest' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРІРѕР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @param namest
      */
@@ -70,7 +70,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Get the 'nameend' attribute value. Наименование последней ячейки включаемой в объединение по горизонтали
+     * Get the 'nameend' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃР»РµРґРЅРµР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Set the 'nameend' attribute value. Наименование последней ячейки включаемой в объединение по горизонтали
+     * Set the 'nameend' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃР»РµРґРЅРµР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @param nameend
      */
@@ -88,7 +88,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Get the 'morerows' attribute value. Количество строк, включаемых в объединение по вертикали
+     * Get the 'morerows' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Set the 'morerows' attribute value. Количество строк, включаемых в объединение по вертикали
+     * Set the 'morerows' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
      * 
      * @param morerows
      */
@@ -106,7 +106,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Get the 'morecols' attribute value. Количество столбцов, включаемых в объединение по горизонтали
+     * Get the 'morecols' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class TableCellType extends TextParagrType
     }
 
     /** 
-     * Set the 'morecols' attribute value. Количество столбцов, включаемых в объединение по горизонтали
+     * Set the 'morecols' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
      * 
      * @param morecols
      */

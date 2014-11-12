@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inventoryin;
 import org.joda.time.LocalDate;
 
 /** 
- * Описание решения о проведении дополнительной проверки, по которому предоставляется документ.
+ * РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚.
  */
 public class AddControlDescriptionType
 {
@@ -12,7 +12,7 @@ public class AddControlDescriptionType
     private LocalDate addControlDate;
 
     /** 
-     * Get the 'AddControlNumber' element value. Порядковый номер решения о проведении дополнительной проверки 
+     * Get the 'AddControlNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AddControlDescriptionType
     }
 
     /** 
-     * Set the 'AddControlNumber' element value. Порядковый номер решения о проведении дополнительной проверки 
+     * Set the 'AddControlNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё 
      * 
      * @param addControlNumber
      */
@@ -30,7 +30,7 @@ public class AddControlDescriptionType
     }
 
     /** 
-     * Get the 'AddControlDate' element value. Дата решения о проведении дополнительной проверки
+     * Get the 'AddControlDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AddControlDescriptionType
     }
 
     /** 
-     * Set the 'AddControlDate' element value. Дата решения о проведении дополнительной проверки
+     * Set the 'AddControlDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё
      * 
      * @param addControlDate
      */

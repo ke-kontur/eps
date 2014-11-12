@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Подтверждение
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
  */
 public class ConfirmationType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class ConfirmationType extends DocumentBaseType
     private ConfirmationStatusType confirmationStatus;
 
     /** 
-     * Get the 'DueDate' element value. Срок действия подтверждения
+     * Get the 'DueDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DueDate' element value. Срок действия подтверждения
+     * Set the 'DueDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param dueDate
      */
@@ -33,7 +33,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ConfirmationId' element value. Идентификатор подтверждения
+     * Get the 'ConfirmationId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ConfirmationId' element value. Идентификатор подтверждения
+     * Set the 'ConfirmationId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param confirmationId
      */
@@ -51,7 +51,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LastChangeDate' element value. Информация о дате и времени последнего изменения
+     * Get the 'LastChangeDate' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LastChangeDate' element value. Информация о дате и времени последнего изменения
+     * Set the 'LastChangeDate' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @param lastChangeDate
      */
@@ -69,7 +69,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ConfirmationStatus' element value. Информация о статусе подтверждения
+     * Get the 'ConfirmationStatus' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚Р°С‚СѓСЃРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ConfirmationStatus' element value. Информация о статусе подтверждения
+     * Set the 'ConfirmationStatus' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚Р°С‚СѓСЃРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param confirmationStatus
      */

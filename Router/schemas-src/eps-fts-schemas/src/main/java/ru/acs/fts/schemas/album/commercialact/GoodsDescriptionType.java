@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание несоответствия наименования (описания) товара сведениям, заявленным в товаросопроводительных документах
+ * РћРїРёСЃР°РЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ (РѕРїРёСЃР°РЅРёСЏ) С‚РѕРІР°СЂР° СЃРІРµРґРµРЅРёСЏРј, Р·Р°СЏРІР»РµРЅРЅС‹Рј РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
  */
 public class GoodsDescriptionType
 {
@@ -13,7 +13,7 @@ public class GoodsDescriptionType
     private List<String> goodsDescriptionByFactList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'GoodsDescriptionByDocs' element items. Описание товара согласно товаросопроводительным документам
+     * Get the list of 'GoodsDescriptionByDocs' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsDescriptionByDocs' element items. Описание товара согласно товаросопроводительным документам
+     * Set the list of 'GoodsDescriptionByDocs' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the list of 'GoodsDescriptionByFact' element items. Описание товара фактическое
+     * Get the list of 'GoodsDescriptionByFact' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С„Р°РєС‚РёС‡РµСЃРєРѕРµ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsDescriptionByFact' element items. Описание товара фактическое
+     * Set the list of 'GoodsDescriptionByFact' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С„Р°РєС‚РёС‡РµСЃРєРѕРµ
      * 
      * @param list
      */

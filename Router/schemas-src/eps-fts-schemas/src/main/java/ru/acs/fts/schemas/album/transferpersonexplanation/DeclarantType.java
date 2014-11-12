@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Декларант или иное лицо, имеющее отношение к перемещению товаров и транспортных средств через таможенную границу Российской Федерации
+ * Р”РµРєР»Р°СЂР°РЅС‚ РёР»Рё РёРЅРѕРµ Р»РёС†Рѕ, РёРјРµСЋС‰РµРµ РѕС‚РЅРѕС€РµРЅРёРµ Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
  */
 public class DeclarantType extends OrganizationBaseType
 {
     private DocumentBaseType declContract;
 
     /** 
-     * Get the 'DeclContract' element value. Сведения о договоре декларанта (лица)
+     * Get the 'DeclContract' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ РґРµРєР»Р°СЂР°РЅС‚Р° (Р»РёС†Р°)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DeclarantType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'DeclContract' element value. Сведения о договоре декларанта (лица)
+     * Set the 'DeclContract' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ РґРµРєР»Р°СЂР°РЅС‚Р° (Р»РёС†Р°)
      * 
      * @param declContract
      */

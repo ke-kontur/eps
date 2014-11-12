@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.contractdealpassport;
 
 /** 
- * Номер ПС
+ * РќРѕРјРµСЂ РџРЎ
  */
 public class RegNumberType
 {
@@ -14,7 +14,7 @@ public class RegNumberType
     private String residentSign;
 
     /** 
-     * Get the 'RegistrationPeriod' element value. Период в котором оформлен ПС (gg - год, mm - номер месяца).
+     * Get the 'RegistrationPeriod' element value. РџРµСЂРёРѕРґ РІ РєРѕС‚РѕСЂРѕРј РѕС„РѕСЂРјР»РµРЅ РџРЎ (gg - РіРѕРґ, mm - РЅРѕРјРµСЂ РјРµСЃСЏС†Р°).
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RegNumberType
     }
 
     /** 
-     * Set the 'RegistrationPeriod' element value. Период в котором оформлен ПС (gg - год, mm - номер месяца).
+     * Set the 'RegistrationPeriod' element value. РџРµСЂРёРѕРґ РІ РєРѕС‚РѕСЂРѕРј РѕС„РѕСЂРјР»РµРЅ РџРЎ (gg - РіРѕРґ, mm - РЅРѕРјРµСЂ РјРµСЃСЏС†Р°).
      * 
      * @param registrationPeriod
      */
@@ -32,7 +32,7 @@ public class RegNumberType
     }
 
     /** 
-     * Get the 'PSSerialNumber' element value. Порядковый номер ПС
+     * Get the 'PSSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџРЎ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RegNumberType
     }
 
     /** 
-     * Set the 'PSSerialNumber' element value. Порядковый номер ПС
+     * Set the 'PSSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџРЎ
      * 
      * @param PSSerialNumber
      */
@@ -50,7 +50,7 @@ public class RegNumberType
     }
 
     /** 
-     * Get the 'BankRegistrationNumber' element value. Регистрационный номер уполномоченного банка в соответствии с Книгой государственной регистрации кредитных организаций (КГРКО)
+     * Get the 'BankRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљРЅРёРіРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РєСЂРµРґРёС‚РЅС‹С… РѕСЂРіР°РЅРёР·Р°С†РёР№ (РљР“Р РљРћ)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class RegNumberType
     }
 
     /** 
-     * Set the 'BankRegistrationNumber' element value. Регистрационный номер уполномоченного банка в соответствии с Книгой государственной регистрации кредитных организаций (КГРКО)
+     * Set the 'BankRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљРЅРёРіРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РєСЂРµРґРёС‚РЅС‹С… РѕСЂРіР°РЅРёР·Р°С†РёР№ (РљР“Р РљРћ)
      * 
      * @param bankRegistrationNumber
      */
@@ -68,7 +68,7 @@ public class RegNumberType
     }
 
     /** 
-     * Get the 'AffiliateSerialNumber' element value. Порядковый номер уполномоченного банка в соответствии с КГРКО / (GU(Код ОКАТО))
+     * Get the 'AffiliateSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР“Р РљРћ / (GU(РљРѕРґ РћРљРђРўРћ))
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class RegNumberType
     }
 
     /** 
-     * Set the 'AffiliateSerialNumber' element value. Порядковый номер уполномоченного банка в соответствии с КГРКО / (GU(Код ОКАТО))
+     * Set the 'AffiliateSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР“Р РљРћ / (GU(РљРѕРґ РћРљРђРўРћ))
      * 
      * @param affiliateSerialNumber
      */
@@ -86,7 +86,7 @@ public class RegNumberType
     }
 
     /** 
-     * Get the 'ContractCode' element value. Код вида контракта
+     * Get the 'ContractCode' element value. РљРѕРґ РІРёРґР° РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class RegNumberType
     }
 
     /** 
-     * Set the 'ContractCode' element value. Код вида контракта
+     * Set the 'ContractCode' element value. РљРѕРґ РІРёРґР° РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractCode
      */
@@ -104,7 +104,7 @@ public class RegNumberType
     }
 
     /** 
-     * Get the 'ResidentSign' element value. Признак резидента, оформившего ПС
+     * Get the 'ResidentSign' element value. РџСЂРёР·РЅР°Рє СЂРµР·РёРґРµРЅС‚Р°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class RegNumberType
     }
 
     /** 
-     * Set the 'ResidentSign' element value. Признак резидента, оформившего ПС
+     * Set the 'ResidentSign' element value. РџСЂРёР·РЅР°Рє СЂРµР·РёРґРµРЅС‚Р°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ
      * 
      * @param residentSign
      */

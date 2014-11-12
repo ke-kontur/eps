@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Представленные документы
+ * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class PresentedDocsType extends IdentityCardType
 {
@@ -24,7 +24,7 @@ public class PresentedDocsType extends IdentityCardType
     private List<QuantityType> quantityList = new ArrayList<QuantityType>();
 
     /** 
-     * Get the 'Register' element value. Регистратор (ФИО нотариуса)
+     * Get the 'Register' element value. Р РµРіРёСЃС‚СЂР°С‚РѕСЂ (Р¤РРћ РЅРѕС‚Р°СЂРёСѓСЃР°)
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'Register' element value. Регистратор (ФИО нотариуса)
+     * Set the 'Register' element value. Р РµРіРёСЃС‚СЂР°С‚РѕСЂ (Р¤РРћ РЅРѕС‚Р°СЂРёСѓСЃР°)
      * 
      * @param register
      */
@@ -42,7 +42,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'Note' element value. Особые отметки
+     * Get the 'Note' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'Note' element value. Особые отметки
+     * Set the 'Note' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @param note
      */
@@ -60,7 +60,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'StartDate' element value. Дата начала действия
+     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'StartDate' element value. Дата начала действия
+     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
      * 
      * @param startDate
      */
@@ -78,7 +78,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата прекращения действия
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата прекращения действия
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ
      * 
      * @param endDate
      */
@@ -96,7 +96,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'ImageFile' element value. Имя файла с изображением
+     * Get the 'ImageFile' element value. РРјСЏ С„Р°Р№Р»Р° СЃ РёР·РѕР±СЂР°Р¶РµРЅРёРµРј
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'ImageFile' element value. Имя файла с изображением
+     * Set the 'ImageFile' element value. РРјСЏ С„Р°Р№Р»Р° СЃ РёР·РѕР±СЂР°Р¶РµРЅРёРµРј
      * 
      * @param imageFile
      */
@@ -114,7 +114,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'ImageReference' element value. Электронный адрес изображения
+     * Get the 'ImageReference' element value. Р­Р»РµРєС‚СЂРѕРЅРЅС‹Р№ Р°РґСЂРµСЃ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'ImageReference' element value. Электронный адрес изображения
+     * Set the 'ImageReference' element value. Р­Р»РµРєС‚СЂРѕРЅРЅС‹Р№ Р°РґСЂРµСЃ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
      * 
      * @param imageReference
      */
@@ -132,7 +132,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'RegDate' element value. Дата государственной регистрации
+     * Get the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'RegDate' element value. Дата государственной регистрации
+     * Set the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regDate
      */
@@ -150,7 +150,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'RegNum' element value. Номер регистрации
+     * Get the 'RegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'RegNum' element value. Номер регистрации
+     * Set the 'RegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regNum
      */
@@ -168,7 +168,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'AppendFileType' element value. Тип  приложенного файла по классификатору
+     * Get the 'AppendFileType' element value. РўРёРї  РїСЂРёР»РѕР¶РµРЅРЅРѕРіРѕ С„Р°Р№Р»Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'AppendFileType' element value. Тип  приложенного файла по классификатору
+     * Set the 'AppendFileType' element value. РўРёРї  РїСЂРёР»РѕР¶РµРЅРЅРѕРіРѕ С„Р°Р№Р»Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ
      * 
      * @param appendFileType
      */
@@ -186,7 +186,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the 'AppendFileName' element value. Имя приложенного файла
+     * Get the 'AppendFileName' element value. РРјСЏ РїСЂРёР»РѕР¶РµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the 'AppendFileName' element value. Имя приложенного файла
+     * Set the 'AppendFileName' element value. РРјСЏ РїСЂРёР»РѕР¶РµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°
      * 
      * @param appendFileName
      */
@@ -204,7 +204,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Get the list of 'Quantity' element items. Количество
+     * Get the list of 'Quantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return list
      */
@@ -213,7 +213,7 @@ public class PresentedDocsType extends IdentityCardType
     }
 
     /** 
-     * Set the list of 'Quantity' element items. Количество
+     * Set the list of 'Quantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param list
      */

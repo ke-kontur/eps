@@ -8,9 +8,10 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
+import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.RoutigInfoType;
 
 /** 
- * Пассажирская ведомость
+ * РџР°СЃСЃР°Р¶РёСЂСЃРєР°СЏ РІРµРґРѕРјРѕСЃС‚СЊ
  */
 public class PassengerManifestType extends BaseDocType
 {
@@ -25,15 +26,18 @@ public class PassengerManifestType extends BaseDocType
     private String shipName;
     private String agent;
     private String port;
+    private String airNationalityCode;
+    private String totalCrewNumber;
     private FlightInfoType flightInfo;
     private AirportType destinationAirport;
     private PassengerCapacityType passengerCapacity;
     private List<PassengerInfoType> passengerInfoList = new ArrayList<PassengerInfoType>();
     private PersonSignatureType captainInfo;
+    private List<RoutigInfoType> routingInfoList = new ArrayList<RoutigInfoType>();
     private String documentModeID;
 
     /** 
-     * Get the 'ListNumber' element value. Номер документа
+     * Get the 'ListNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +46,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ListNumber' element value. Номер документа
+     * Set the 'ListNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param listNumber
      */
@@ -51,7 +55,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ManifestDate' element value. Дата заполнения документа
+     * Get the 'ManifestDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +64,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManifestDate' element value. Дата заполнения документа
+     * Set the 'ManifestDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param manifestDate
      */
@@ -69,7 +73,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierName' element value. Наименование перевозчика
+     * Get the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -78,7 +82,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierName' element value. Наименование перевозчика
+     * Set the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierName
      */
@@ -87,7 +91,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Get the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -96,7 +100,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Set the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierCode
      */
@@ -105,7 +109,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalPassNumber' element value. Общая пассажировместимость
+     * Get the 'TotalPassNumber' element value. РћР±С‰Р°СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -114,7 +118,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalPassNumber' element value. Общая пассажировместимость
+     * Set the 'TotalPassNumber' element value. РћР±С‰Р°СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ
      * 
      * @param totalPassNumber
      */
@@ -123,7 +127,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'FactPassNumber' element value. Фактическое количество пассажиров 
+     * Get the 'FactPassNumber' element value. Р¤Р°РєС‚РёС‡РµСЃРєРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ 
      * 
      * @return value
      */
@@ -132,7 +136,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'FactPassNumber' element value. Фактическое количество пассажиров 
+     * Set the 'FactPassNumber' element value. Р¤Р°РєС‚РёС‡РµСЃРєРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ 
      * 
      * @param factPassNumber
      */
@@ -141,7 +145,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'LNG' element value. Код  языка документа
+     * Get the 'LNG' element value. РљРѕРґ  СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -150,7 +154,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'LNG' element value. Код  языка документа
+     * Set the 'LNG' element value. РљРѕРґ  СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param LNG
      */
@@ -159,7 +163,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportKind' element value. Тип транспорта 1 - воздушный 2 - водный
+     * Get the 'TransportKind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚Р° 1 - РІРѕР·РґСѓС€РЅС‹Р№ 2 - РІРѕРґРЅС‹Р№
      * 
      * @return value
      */
@@ -168,7 +172,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportKind' element value. Тип транспорта 1 - воздушный 2 - водный
+     * Set the 'TransportKind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚Р° 1 - РІРѕР·РґСѓС€РЅС‹Р№ 2 - РІРѕРґРЅС‹Р№
      * 
      * @param transportKind
      */
@@ -177,7 +181,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipName' element value. Название судна
+     * Get the 'ShipName' element value. РќР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -186,7 +190,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipName' element value. Название судна
+     * Set the 'ShipName' element value. РќР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @param shipName
      */
@@ -195,7 +199,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Agent' element value. Агент
+     * Get the 'Agent' element value. РђРіРµРЅС‚
      * 
      * @return value
      */
@@ -204,7 +208,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Agent' element value. Агент
+     * Set the 'Agent' element value. РђРіРµРЅС‚
      * 
      * @param agent
      */
@@ -213,7 +217,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Port' element value. Порт
+     * Get the 'Port' element value. РџРѕСЂС‚
      * 
      * @return value
      */
@@ -222,7 +226,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Port' element value. Порт
+     * Set the 'Port' element value. РџРѕСЂС‚
      * 
      * @param port
      */
@@ -231,7 +235,43 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'FlightInfo' element value. Сведения о рейсе
+     * Get the 'AirNationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * 
+     * @return value
+     */
+    public String getAirNationalityCode() {
+        return airNationalityCode;
+    }
+
+    /** 
+     * Set the 'AirNationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * 
+     * @param airNationalityCode
+     */
+    public void setAirNationalityCode(String airNationalityCode) {
+        this.airNationalityCode = airNationalityCode;
+    }
+
+    /** 
+     * Get the 'TotalCrewNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+     * 
+     * @return value
+     */
+    public String getTotalCrewNumber() {
+        return totalCrewNumber;
+    }
+
+    /** 
+     * Set the 'TotalCrewNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+     * 
+     * @param totalCrewNumber
+     */
+    public void setTotalCrewNumber(String totalCrewNumber) {
+        this.totalCrewNumber = totalCrewNumber;
+    }
+
+    /** 
+     * Get the 'FlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @return value
      */
@@ -240,7 +280,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'FlightInfo' element value. Сведения о рейсе
+     * Set the 'FlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @param flightInfo
      */
@@ -249,7 +289,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. Аэропорт назначения
+     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -258,7 +298,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. Аэропорт назначения
+     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationAirport
      */
@@ -267,7 +307,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassengerCapacity' element value. Пассажировместимость судна
+     * Get the 'PassengerCapacity' element value. РџР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -276,7 +316,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassengerCapacity' element value. Пассажировместимость судна
+     * Set the 'PassengerCapacity' element value. РџР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ СЃСѓРґРЅР°
      * 
      * @param passengerCapacity
      */
@@ -285,7 +325,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PassengerInfo' element items. Информация о пассажире
+     * Get the list of 'PassengerInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
      * 
      * @return list
      */
@@ -294,7 +334,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PassengerInfo' element items. Информация о пассажире
+     * Set the list of 'PassengerInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
      * 
      * @param list
      */
@@ -303,7 +343,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CaptainInfo' element value. Сведения о капитане
+     * Get the 'CaptainInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєР°РїРёС‚Р°РЅРµ
      * 
      * @return value
      */
@@ -312,7 +352,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CaptainInfo' element value. Сведения о капитане
+     * Set the 'CaptainInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєР°РїРёС‚Р°РЅРµ
      * 
      * @param captainInfo
      */
@@ -321,7 +361,25 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the list of 'RoutingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ
+     * 
+     * @return list
+     */
+    public List<RoutigInfoType> getRoutingInfoList() {
+        return routingInfoList;
+    }
+
+    /** 
+     * Set the list of 'RoutingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ
+     * 
+     * @param list
+     */
+    public void setRoutingInfoList(List<RoutigInfoType> list) {
+        routingInfoList = list;
+    }
+
+    /** 
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -330,7 +388,7 @@ public class PassengerManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

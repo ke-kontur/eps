@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Сведения об организации. Особенности Республики Казахстан
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
  */
 public class RKOrganizationFeaturesType
 {
@@ -11,7 +11,7 @@ public class RKOrganizationFeaturesType
     private ITNKZType ITN;
 
     /** 
-     * Get the 'BIN' element value. Бизнес-идентификационный номер (БИН)
+     * Get the 'BIN' element value. Р‘РёР·РЅРµСЃ-РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (Р‘РРќ)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RKOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'BIN' element value. Бизнес-идентификационный номер (БИН)
+     * Set the 'BIN' element value. Р‘РёР·РЅРµСЃ-РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (Р‘РРќ)
      * 
      * @param BIN
      */
@@ -29,7 +29,7 @@ public class RKOrganizationFeaturesType
     }
 
     /** 
-     * Get the 'IIN' element value. Индивидуальный идентификационный номер (ИИН)
+     * Get the 'IIN' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (РРРќ)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RKOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'IIN' element value. Индивидуальный идентификационный номер (ИИН)
+     * Set the 'IIN' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (РРРќ)
      * 
      * @param IIN
      */
@@ -47,7 +47,7 @@ public class RKOrganizationFeaturesType
     }
 
     /** 
-     * Get the 'ITN' element value. Идентификационный таможенный номер (ИТН)
+     * Get the 'ITN' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ (РРўРќ)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RKOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'ITN' element value. Идентификационный таможенный номер (ИТН)
+     * Set the 'ITN' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ (РРўРќ)
      * 
      * @param ITN
      */

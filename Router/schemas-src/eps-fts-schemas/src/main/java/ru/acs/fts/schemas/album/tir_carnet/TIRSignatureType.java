@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Подпись держателя. Место и дата  проставления подписи.
+ * РџРѕРґРїРёСЃСЊ РґРµСЂР¶Р°С‚РµР»СЏ. РњРµСЃС‚Рѕ Рё РґР°С‚Р°  РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё.
  */
 public class TIRSignatureType
 {
@@ -15,7 +15,7 @@ public class TIRSignatureType
     private PersonBaseType signPerson;
 
     /** 
-     * Get the 'SignPlace' element value. Место подписи. Наименование места 
+     * Get the 'SignPlace' element value. РњРµСЃС‚Рѕ РїРѕРґРїРёСЃРё. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° 
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Set the 'SignPlace' element value. Место подписи. Наименование места 
+     * Set the 'SignPlace' element value. РњРµСЃС‚Рѕ РїРѕРґРїРёСЃРё. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° 
      * 
      * @param signPlace
      */
@@ -33,7 +33,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Get the 'SignPlaceCountry' element value. Место  проставления подписи. Страна.
+     * Get the 'SignPlaceCountry' element value. РњРµСЃС‚Рѕ  РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё. РЎС‚СЂР°РЅР°.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Set the 'SignPlaceCountry' element value. Место  проставления подписи. Страна.
+     * Set the 'SignPlaceCountry' element value. РњРµСЃС‚Рѕ  РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё. РЎС‚СЂР°РЅР°.
      * 
      * @param signPlaceCountry
      */
@@ -51,7 +51,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Get the 'SignDate' element value. Дата проставления подписи.
+     * Get the 'SignDate' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Set the 'SignDate' element value. Дата проставления подписи.
+     * Set the 'SignDate' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё.
      * 
      * @param signDate
      */
@@ -69,7 +69,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Get the 'SignPerson' element value. Сведения о лице, проставившем подпись
+     * Get the 'SignPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРѕСЃС‚Р°РІРёРІС€РµРј РїРѕРґРїРёСЃСЊ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class TIRSignatureType
     }
 
     /** 
-     * Set the 'SignPerson' element value. Сведения о лице, проставившем подпись
+     * Set the 'SignPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРѕСЃС‚Р°РІРёРІС€РµРј РїРѕРґРїРёСЃСЊ
      * 
      * @param signPerson
      */

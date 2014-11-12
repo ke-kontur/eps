@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.intexchresult;
 
 /** 
- * Информация о документах в архиве декларанта
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
  */
 public class EADInfoType
 {
@@ -12,7 +12,7 @@ public class EADInfoType
     private String archDocStatus;
 
     /** 
-     * Get the 'ArchDeclID' element value. Идентификатор декларанта а ЭАД
+     * Get the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° Р° Р­РђР”
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class EADInfoType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. Идентификатор декларанта а ЭАД
+     * Set the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° Р° Р­РђР”
      * 
      * @param archDeclID
      */
@@ -30,7 +30,7 @@ public class EADInfoType
     }
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор архива
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class EADInfoType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор архива
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
      * 
      * @param archID
      */
@@ -48,7 +48,7 @@ public class EADInfoType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Идентификатор документа в архиве декларанта
+     * Get the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class EADInfoType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Идентификатор документа в архиве декларанта
+     * Set the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archDocID
      */
@@ -66,7 +66,7 @@ public class EADInfoType
     }
 
     /** 
-     * Get the 'ArchDocStatus' element value. Статус документа в архиве.
+     * Get the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ.
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class EADInfoType
     }
 
     /** 
-     * Set the 'ArchDocStatus' element value. Статус документа в архиве.
+     * Set the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ.
      * 
      * @param archDocStatus
      */

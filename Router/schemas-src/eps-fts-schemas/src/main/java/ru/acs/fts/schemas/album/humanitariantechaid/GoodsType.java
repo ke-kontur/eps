@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о товарах/работах/услугах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…/СЂР°Р±РѕС‚Р°С…/СѓСЃР»СѓРіР°С…
  */
 public class GoodsType
 {
@@ -18,7 +18,7 @@ public class GoodsType
     private SupplementaryQuantityType weightSupQuantity;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара/работы/услуги
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°/СЂР°Р±РѕС‚С‹/СѓСЃР»СѓРіРё
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара/работы/услуги
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°/СЂР°Р±РѕС‚С‹/СѓСЃР»СѓРіРё
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Cost' element value. Стоимость
+     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Cost' element value. Стоимость
+     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param cost
      */
@@ -54,7 +54,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Currency' element value. Валюта стоимости
+     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р° СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Currency' element value. Валюта стоимости
+     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р° СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param currency
      */
@@ -72,7 +72,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param goodsQuantity
      */
@@ -90,7 +90,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'WeightQuantity' element value. Вес в основных единицах измерения
+     * Get the 'WeightQuantity' element value. Р’РµСЃ РІ РѕСЃРЅРѕРІРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'WeightQuantity' element value. Вес в основных единицах измерения
+     * Set the 'WeightQuantity' element value. Р’РµСЃ РІ РѕСЃРЅРѕРІРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param weightQuantity
      */
@@ -108,7 +108,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'WeightSupQuantity' element value. Вес в дополнительных единицах измерения
+     * Get the 'WeightSupQuantity' element value. Р’РµСЃ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'WeightSupQuantity' element value. Вес в дополнительных единицах измерения
+     * Set the 'WeightSupQuantity' element value. Р’РµСЃ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param weightSupQuantity
      */

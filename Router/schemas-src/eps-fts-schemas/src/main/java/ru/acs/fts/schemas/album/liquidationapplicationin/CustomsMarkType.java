@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Таможенные отметки
+ * РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕС‚РјРµС‚РєРё
  */
 public class CustomsMarkType
 {
@@ -21,7 +21,7 @@ public class CustomsMarkType
     private CustomsPersonType customsPerson;
 
     /** 
-     * Get the 'CustomsDecision' element value. Тип решения таможенного органа: 1 - разрешение на уничтожение; 2 - продление срока уничтожения; 3 - отказ в выдаче разрешения; 4 - отказ в продлении срока уничтожения
+     * Get the 'CustomsDecision' element value. РўРёРї СЂРµС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°: 1 - СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 2 - РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ; 3 - РѕС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ; 4 - РѕС‚РєР°Р· РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the 'CustomsDecision' element value. Тип решения таможенного органа: 1 - разрешение на уничтожение; 2 - продление срока уничтожения; 3 - отказ в выдаче разрешения; 4 - отказ в продлении срока уничтожения
+     * Set the 'CustomsDecision' element value. РўРёРї СЂРµС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°: 1 - СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 2 - РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ; 3 - РѕС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ; 4 - РѕС‚РєР°Р· РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
      * 
      * @param customsDecision
      */
@@ -39,7 +39,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Get the 'ComposeDate' element value. Дата проставления таможенных отметок
+     * Get the 'ComposeDate' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕС‚РјРµС‚РѕРє
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the 'ComposeDate' element value. Дата проставления таможенных отметок
+     * Set the 'ComposeDate' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕС‚РјРµС‚РѕРє
      * 
      * @param composeDate
      */
@@ -57,7 +57,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Get the 'CustomsControl' element value. Признак необходимости применения таможенного наблюдения
+     * Get the 'CustomsControl' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the 'CustomsControl' element value. Признак необходимости применения таможенного наблюдения
+     * Set the 'CustomsControl' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
      * 
      * @param customsControl
      */
@@ -75,7 +75,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Get the list of 'RefusalReasons' element items. Причины невозможности выдачи разрешения на уничтожение/отказа в продлении срока
+     * Get the list of 'RefusalReasons' element items. РџСЂРёС‡РёРЅС‹ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РѕС‚РєР°Р·Р° РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР°
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the list of 'RefusalReasons' element items. Причины невозможности выдачи разрешения на уничтожение/отказа в продлении срока
+     * Set the list of 'RefusalReasons' element items. РџСЂРёС‡РёРЅС‹ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РѕС‚РєР°Р·Р° РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР°
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Get the 'FinalLiquidationDate' element value. Срок уничтожения по решению таможенного органа
+     * Get the 'FinalLiquidationDate' element value. РЎСЂРѕРє СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ РїРѕ СЂРµС€РµРЅРёСЋ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the 'FinalLiquidationDate' element value. Срок уничтожения по решению таможенного органа
+     * Set the 'FinalLiquidationDate' element value. РЎСЂРѕРє СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ РїРѕ СЂРµС€РµРЅРёСЋ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param finalLiquidationDate
      */
@@ -111,7 +111,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Get the 'ProlongFoundation' element value. Основание продления срока уничтожения
+     * Get the 'ProlongFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the 'ProlongFoundation' element value. Основание продления срока уничтожения
+     * Set the 'ProlongFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
      * 
      * @param prolongFoundation
      */
@@ -129,7 +129,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CustomsMarkType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */

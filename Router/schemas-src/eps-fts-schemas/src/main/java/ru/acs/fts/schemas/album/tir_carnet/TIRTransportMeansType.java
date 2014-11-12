@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.tir_carnet;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TDTransportMeansType;
 
 /** 
- * Транспортное средство в МДП
+ * РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РІ РњР”Рџ
  */
 public class TIRTransportMeansType extends TDTransportMeansType
 {
@@ -12,7 +12,7 @@ public class TIRTransportMeansType extends TDTransportMeansType
     private String trailerNumber2;
 
     /** 
-     * Get the 'TrailerNumber' element value. Номер прицепного транспортного средства
+     * Get the 'TrailerNumber' element value. РќРѕРјРµСЂ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TIRTransportMeansType extends TDTransportMeansType
     }
 
     /** 
-     * Set the 'TrailerNumber' element value. Номер прицепного транспортного средства
+     * Set the 'TrailerNumber' element value. РќРѕРјРµСЂ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param trailerNumber
      */
@@ -30,7 +30,7 @@ public class TIRTransportMeansType extends TDTransportMeansType
     }
 
     /** 
-     * Get the 'TrailerNumber2' element value. Номер второго прицепного транспортного средства
+     * Get the 'TrailerNumber2' element value. РќРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TIRTransportMeansType extends TDTransportMeansType
     }
 
     /** 
-     * Set the 'TrailerNumber2' element value. Номер второго прицепного транспортного средства
+     * Set the 'TrailerNumber2' element value. РќРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param trailerNumber2
      */

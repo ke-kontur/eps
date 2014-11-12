@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.orgdbload;
 
 /** 
- * Информация  о контактных  лицах
+ * РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РєРѕРЅС‚Р°РєС‚РЅС‹С…  Р»РёС†Р°С…
  */
 public class PersonInfoType
 {
@@ -15,7 +15,7 @@ public class PersonInfoType
     private String comments;
 
     /** 
-     * Get the 'PrsnLastName' element value. Фамилия
+     * Get the 'PrsnLastName' element value. Р¤Р°РјРёР»РёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PrsnLastName' element value. Фамилия
+     * Set the 'PrsnLastName' element value. Р¤Р°РјРёР»РёСЏ
      * 
      * @param prsnLastName
      */
@@ -33,7 +33,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'PrsnName' element value. Имя
+     * Get the 'PrsnName' element value. РРјСЏ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PrsnName' element value. Имя
+     * Set the 'PrsnName' element value. РРјСЏ
      * 
      * @param prsnName
      */
@@ -51,7 +51,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'PrsnSecondName' element value. Отчество
+     * Get the 'PrsnSecondName' element value. РћС‚С‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PrsnSecondName' element value. Отчество
+     * Set the 'PrsnSecondName' element value. РћС‚С‡РµСЃС‚РІРѕ
      * 
      * @param prsnSecondName
      */
@@ -69,7 +69,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'ContactPhone' element value. Контактный  телефон
+     * Get the 'ContactPhone' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№  С‚РµР»РµС„РѕРЅ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'ContactPhone' element value. Контактный  телефон
+     * Set the 'ContactPhone' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№  С‚РµР»РµС„РѕРЅ
      * 
      * @param contactPhone
      */
@@ -87,7 +87,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'E_MAIL' element value. Контактный e-mail
+     * Get the 'E_MAIL' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№ e-mail
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'E_MAIL' element value. Контактный e-mail
+     * Set the 'E_MAIL' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№ e-mail
      * 
      * @param EMAIL
      */
@@ -105,7 +105,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'PrsnPost' element value. Должность
+     * Get the 'PrsnPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PrsnPost' element value. Должность
+     * Set the 'PrsnPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @param prsnPost
      */
@@ -123,7 +123,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарий
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарий
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comments
      */

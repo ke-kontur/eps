@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Участник, имеющий допуск к просмотру документов архива
+ * РЈС‡Р°СЃС‚РЅРёРє, РёРјРµСЋС‰РёР№ РґРѕРїСѓСЃРє Рє РїСЂРѕСЃРјРѕС‚СЂСѓ РґРѕРєСѓРјРµРЅС‚РѕРІ Р°СЂС…РёРІР°
  */
 public class ParticipantType
 {
@@ -13,7 +13,7 @@ public class ParticipantType
     private List<ArchiveType> archiveList = new ArrayList<ArchiveType>();
 
     /** 
-     * Get the 'ParticipantID' element value. Идентификатор участника
+     * Get the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓС‡Р°СЃС‚РЅРёРєР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ParticipantType
     }
 
     /** 
-     * Set the 'ParticipantID' element value. Идентификатор участника
+     * Set the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓС‡Р°СЃС‚РЅРёРєР°
      * 
      * @param participantID
      */
@@ -31,7 +31,7 @@ public class ParticipantType
     }
 
     /** 
-     * Get the list of 'Archive' element items. Архив, доступный для просмотра
+     * Get the list of 'Archive' element items. РђСЂС…РёРІ, РґРѕСЃС‚СѓРїРЅС‹Р№ РґР»СЏ РїСЂРѕСЃРјРѕС‚СЂР°
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ParticipantType
     }
 
     /** 
-     * Set the list of 'Archive' element items. Архив, доступный для просмотра
+     * Set the list of 'Archive' element items. РђСЂС…РёРІ, РґРѕСЃС‚СѓРїРЅС‹Р№ РґР»СЏ РїСЂРѕСЃРјРѕС‚СЂР°
      * 
      * @param list
      */

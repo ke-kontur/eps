@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Сведения из реестра уведомлений Таможенного союза
+ * РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° СѓРІРµРґРѕРјР»РµРЅРёР№ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
  */
 public class NoticeCustUnionType extends BaseDocType
 {
@@ -35,7 +35,7 @@ public class NoticeCustUnionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'UniNotificationID' element value. Идентификатор записи в реестре уведомлений Таможенного Союза
+     * Get the 'UniNotificationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё РІ СЂРµРµСЃС‚СЂРµ СѓРІРµРґРѕРјР»РµРЅРёР№ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РЎРѕСЋР·Р°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'UniNotificationID' element value. Идентификатор записи в реестре уведомлений Таможенного Союза
+     * Set the 'UniNotificationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё РІ СЂРµРµСЃС‚СЂРµ СѓРІРµРґРѕРјР»РµРЅРёР№ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РЎРѕСЋР·Р°
      * 
      * @param uniNotificationID
      */
@@ -53,7 +53,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestOrganizationName' element value. Контрольный пункт для представления недостающих документов (Наименование)
+     * Get the 'DestOrganizationName' element value. РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚ РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ (РќР°РёРјРµРЅРѕРІР°РЅРёРµ)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestOrganizationName' element value. Контрольный пункт для представления недостающих документов (Наименование)
+     * Set the 'DestOrganizationName' element value. РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚ РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ (РќР°РёРјРµРЅРѕРІР°РЅРёРµ)
      * 
      * @param destOrganizationName
      */
@@ -71,7 +71,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestRegionCode' element value. Местонахождение контрольного пункта для представления недостающих документов (код страны)
+     * Get the 'DestRegionCode' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р° РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ (РєРѕРґ СЃС‚СЂР°РЅС‹)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestRegionCode' element value. Местонахождение контрольного пункта для представления недостающих документов (код страны)
+     * Set the 'DestRegionCode' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р° РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ (РєРѕРґ СЃС‚СЂР°РЅС‹)
      * 
      * @param destRegionCode
      */
@@ -89,7 +89,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionDateTime' element value. Дата/время проведения контроля
+     * Get the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionDateTime' element value. Дата/время проведения контроля
+     * Set the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param inspectionDateTime
      */
@@ -107,7 +107,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassTGNumber' element value. Номер специального разрешения на перевозку тяжеловесных грузов
+     * Get the 'PassTGNumber' element value. РќРѕРјРµСЂ СЃРїРµС†РёР°Р»СЊРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ С‚СЏР¶РµР»РѕРІРµСЃРЅС‹С… РіСЂСѓР·РѕРІ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassTGNumber' element value. Номер специального разрешения на перевозку тяжеловесных грузов
+     * Set the 'PassTGNumber' element value. РќРѕРјРµСЂ СЃРїРµС†РёР°Р»СЊРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ С‚СЏР¶РµР»РѕРІРµСЃРЅС‹С… РіСЂСѓР·РѕРІ
      * 
      * @param passTGNumber
      */
@@ -125,7 +125,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassKGNumber' element value. Номер специального разрешения на перевозку крупногабаритных грузов
+     * Get the 'PassKGNumber' element value. РќРѕРјРµСЂ СЃРїРµС†РёР°Р»СЊРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РєСЂСѓРїРЅРѕРіР°Р±Р°СЂРёС‚РЅС‹С… РіСЂСѓР·РѕРІ
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassKGNumber' element value. Номер специального разрешения на перевозку крупногабаритных грузов
+     * Set the 'PassKGNumber' element value. РќРѕРјРµСЂ СЃРїРµС†РёР°Р»СЊРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РєСЂСѓРїРЅРѕРіР°Р±Р°СЂРёС‚РЅС‹С… РіСЂСѓР·РѕРІ
      * 
      * @param passKGNumber
      */
@@ -143,7 +143,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassOGNumber' element value. Номер специального разрешения на перевозку опасных грузов
+     * Get the 'PassOGNumber' element value. РќРѕРјРµСЂ СЃРїРµС†РёР°Р»СЊРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassOGNumber' element value. Номер специального разрешения на перевозку опасных грузов
+     * Set the 'PassOGNumber' element value. РќРѕРјРµСЂ СЃРїРµС†РёР°Р»СЊРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ
      * 
      * @param passOGNumber
      */
@@ -161,7 +161,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'IsPerformed' element value. Отметка об устранении всех нарушений, представлении всех документов
+     * Get the 'IsPerformed' element value. РћС‚РјРµС‚РєР° РѕР± СѓСЃС‚СЂР°РЅРµРЅРёРё РІСЃРµС… РЅР°СЂСѓС€РµРЅРёР№, РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РІСЃРµС… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsPerformed' element value. Отметка об устранении всех нарушений, представлении всех документов
+     * Set the 'IsPerformed' element value. РћС‚РјРµС‚РєР° РѕР± СѓСЃС‚СЂР°РЅРµРЅРёРё РІСЃРµС… РЅР°СЂСѓС€РµРЅРёР№, РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РІСЃРµС… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param isPerformed
      */
@@ -179,7 +179,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'UpdateDate' element value. Дата обновления
+     * Get the 'UpdateDate' element value. Р”Р°С‚Р° РѕР±РЅРѕРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'UpdateDate' element value. Дата обновления
+     * Set the 'UpdateDate' element value. Р”Р°С‚Р° РѕР±РЅРѕРІР»РµРЅРёСЏ
      * 
      * @param updateDate
      */
@@ -197,7 +197,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Notification' element value. Уведомление
+     * Get the 'Notification' element value. РЈРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Notification' element value. Уведомление
+     * Set the 'Notification' element value. РЈРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param notification
      */
@@ -215,7 +215,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotificationOrg' element value. Организация, проводившая контроль (Наименование контрольного пункта, код страны места проведения контроля)
+     * Get the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РїСЂРѕРІРѕРґРёРІС€Р°СЏ РєРѕРЅС‚СЂРѕР»СЊ (РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р°, РєРѕРґ СЃС‚СЂР°РЅС‹ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ)
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotificationOrg' element value. Организация, проводившая контроль (Наименование контрольного пункта, код страны места проведения контроля)
+     * Set the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РїСЂРѕРІРѕРґРёРІС€Р°СЏ РєРѕРЅС‚СЂРѕР»СЊ (РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р°, РєРѕРґ СЃС‚СЂР°РЅС‹ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ)
      * 
      * @param notificationOrg
      */
@@ -233,7 +233,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Driver' element value. Водитель
+     * Get the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Driver' element value. Водитель
+     * Set the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
      * 
      * @param driver
      */
@@ -251,7 +251,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -269,7 +269,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitPermit' element value. Разрешение на поездку
+     * Get the 'TransitPermit' element value. Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РїРѕРµР·РґРєСѓ
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitPermit' element value. Разрешение на поездку
+     * Set the 'TransitPermit' element value. Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РїРѕРµР·РґРєСѓ
      * 
      * @param transitPermit
      */
@@ -287,7 +287,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Violation' element items. Выявленное нарушение
+     * Get the list of 'Violation' element items. Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅР°СЂСѓС€РµРЅРёРµ
      * 
      * @return list
      */
@@ -296,7 +296,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Violation' element items. Выявленное нарушение
+     * Set the list of 'Violation' element items. Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅР°СЂСѓС€РµРЅРёРµ
      * 
      * @param list
      */
@@ -305,7 +305,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TSInfo' element value. Регистрационные данные ТС
+     * Get the 'TSInfo' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TSInfo' element value. Регистрационные данные ТС
+     * Set the 'TSInfo' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
      * 
      * @param TSInfo
      */
@@ -323,7 +323,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class NoticeCustUnionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

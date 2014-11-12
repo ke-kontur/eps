@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.tir_carnet;
 
 /** 
- * Идентификатор книжки МДП
+ * РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРЅРёР¶РєРё РњР”Рџ
  */
 public class TIRIdentifierType
 {
@@ -12,7 +12,7 @@ public class TIRIdentifierType
     private String TIRGreenPageNumber;
 
     /** 
-     * Get the 'TIRID' element value. Номер книжки МДП
+     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRID' element value. Номер книжки МДП
+     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRID
      */
@@ -30,7 +30,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Get the 'TIRSeries' element value. Серия книжки МДП
+     * Get the 'TIRSeries' element value. РЎРµСЂРёСЏ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRSeries' element value. Серия книжки МДП
+     * Set the 'TIRSeries' element value. РЎРµСЂРёСЏ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRSeries
      */
@@ -48,7 +48,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Get the 'TIRWhitePageNumber' element value. Порядковый номер белого листа книжки МДП
+     * Get the 'TIRWhitePageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р±РµР»РѕРіРѕ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRWhitePageNumber' element value. Порядковый номер белого листа книжки МДП
+     * Set the 'TIRWhitePageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р±РµР»РѕРіРѕ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRWhitePageNumber
      */
@@ -66,7 +66,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Get the 'TIRGreenPageNumber' element value. Порядковый номер  зеленого листа книжки МДП
+     * Get the 'TIRGreenPageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ  Р·РµР»РµРЅРѕРіРѕ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRGreenPageNumber' element value. Порядковый номер  зеленого листа книжки МДП
+     * Set the 'TIRGreenPageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ  Р·РµР»РµРЅРѕРіРѕ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRGreenPageNumber
      */

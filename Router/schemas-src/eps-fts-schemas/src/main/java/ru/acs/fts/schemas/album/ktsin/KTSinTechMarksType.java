@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktsin;
 import org.joda.time.LocalDate;
 
 /** 
- * КТС. Внутренний формат. Технологические отметки.
+ * РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
  */
 public class KTSinTechMarksType
 {
@@ -12,7 +12,7 @@ public class KTSinTechMarksType
     private String modificationTime;
 
     /** 
-     * Get the 'ModificationDate' element value. Дата последнего внесения изменений в документ.
+     * Get the 'ModificationDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class KTSinTechMarksType
     }
 
     /** 
-     * Set the 'ModificationDate' element value. Дата последнего внесения изменений в документ.
+     * Set the 'ModificationDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param modificationDate
      */
@@ -30,7 +30,7 @@ public class KTSinTechMarksType
     }
 
     /** 
-     * Get the 'ModificationTime' element value. Время последнего внесения изменений в ДТС.
+     * Get the 'ModificationTime' element value. Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”РўРЎ.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class KTSinTechMarksType
     }
 
     /** 
-     * Set the 'ModificationTime' element value. Время последнего внесения изменений в ДТС.
+     * Set the 'ModificationTime' element value. Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”РўРЎ.
      * 
      * @param modificationTime
      */

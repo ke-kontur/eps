@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodstranshipment;
 
 /** 
- * Признаки наличия повреждений
+ * РџСЂРёР·РЅР°РєРё РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№
  */
 public class DamageIndicatorsType
 {
@@ -10,7 +10,7 @@ public class DamageIndicatorsType
     private String isSealsDamaged;
 
     /** 
-     * Get the 'IsCargoApartmentDamaged' element value. Признак повреждения грузового отделения
+     * Get the 'IsCargoApartmentDamaged' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ РіСЂСѓР·РѕРІРѕРіРѕ РѕС‚РґРµР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DamageIndicatorsType
     }
 
     /** 
-     * Set the 'IsCargoApartmentDamaged' element value. Признак повреждения грузового отделения
+     * Set the 'IsCargoApartmentDamaged' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ РіСЂСѓР·РѕРІРѕРіРѕ РѕС‚РґРµР»РµРЅРёСЏ
      * 
      * @param isCargoApartmentDamaged
      */
@@ -28,7 +28,7 @@ public class DamageIndicatorsType
     }
 
     /** 
-     * Get the 'IsSealsDamaged' element value. Признак повреждения пломб
+     * Get the 'IsSealsDamaged' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ РїР»РѕРјР±
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DamageIndicatorsType
     }
 
     /** 
-     * Set the 'IsSealsDamaged' element value. Признак повреждения пломб
+     * Set the 'IsSealsDamaged' element value. РџСЂРёР·РЅР°Рє РїРѕРІСЂРµР¶РґРµРЅРёСЏ РїР»РѕРјР±
      * 
      * @param isSealsDamaged
      */

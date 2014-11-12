@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Справка, прилагаемая к грузовой таможенной декларации
+ * РЎРїСЂР°РІРєР°, РїСЂРёР»Р°РіР°РµРјР°СЏ Рє РіСЂСѓР·РѕРІРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
  */
 public class GTDReferenceType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class GTDReferenceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GoodsInformation' element value. Информация о товаре
+     * Get the 'GoodsInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsInformation' element value. Информация о товаре
+     * Set the 'GoodsInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param goodsInformation
      */
@@ -45,7 +45,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Номер ГТД, к которой прилагается справка
+     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ Р“РўР”, Рє РєРѕС‚РѕСЂРѕР№ РїСЂРёР»Р°РіР°РµС‚СЃСЏ СЃРїСЂР°РІРєР°
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Номер ГТД, к которой прилагается справка
+     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ Р“РўР”, Рє РєРѕС‚РѕСЂРѕР№ РїСЂРёР»Р°РіР°РµС‚СЃСЏ СЃРїСЂР°РІРєР°
      * 
      * @param GTDNumber
      */
@@ -63,7 +63,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'RussianContractPart' element value. Российская сторона договора
+     * Get the 'RussianContractPart' element value. Р РѕСЃСЃРёР№СЃРєР°СЏ СЃС‚РѕСЂРѕРЅР° РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'RussianContractPart' element value. Российская сторона договора
+     * Set the 'RussianContractPart' element value. Р РѕСЃСЃРёР№СЃРєР°СЏ СЃС‚РѕСЂРѕРЅР° РґРѕРіРѕРІРѕСЂР°
      * 
      * @param russianContractPart
      */
@@ -81,7 +81,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contractor' element value. Контрагент
+     * Get the 'Contractor' element value. РљРѕРЅС‚СЂР°РіРµРЅС‚
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contractor' element value. Контрагент
+     * Set the 'Contractor' element value. РљРѕРЅС‚СЂР°РіРµРЅС‚
      * 
      * @param contractor
      */
@@ -99,7 +99,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. Получатель товара
+     * Get the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. Получатель товара
+     * Set the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
      * 
      * @param recipient
      */
@@ -117,7 +117,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsOwner' element value. Собственник товара
+     * Get the 'GoodsOwner' element value. РЎРѕР±СЃС‚РІРµРЅРЅРёРє С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsOwner' element value. Собственник товара
+     * Set the 'GoodsOwner' element value. РЎРѕР±СЃС‚РІРµРЅРЅРёРє С‚РѕРІР°СЂР°
      * 
      * @param goodsOwner
      */
@@ -135,7 +135,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCustoms' element value. Таможенный орган, расположенный в месте прибытия товаров
+     * Get the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, СЂР°СЃРїРѕР»РѕР¶РµРЅРЅС‹Р№ РІ РјРµСЃС‚Рµ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCustoms' element value. Таможенный орган, расположенный в месте прибытия товаров
+     * Set the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, СЂР°СЃРїРѕР»РѕР¶РµРЅРЅС‹Р№ РІ РјРµСЃС‚Рµ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param destinationCustoms
      */
@@ -153,7 +153,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'FloatingCustoms' element value. Таможенный орган, осуществивший выпуск товара
+     * Get the 'FloatingCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РёР№ РІС‹РїСѓСЃРє С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'FloatingCustoms' element value. Таможенный орган, осуществивший выпуск товара
+     * Set the 'FloatingCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РёР№ РІС‹РїСѓСЃРє С‚РѕРІР°СЂР°
      * 
      * @param floatingCustoms
      */
@@ -171,7 +171,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'FillingPerson' element value. Лицо, заполнившее справку
+     * Get the 'FillingPerson' element value. Р›РёС†Рѕ, Р·Р°РїРѕР»РЅРёРІС€РµРµ СЃРїСЂР°РІРєСѓ
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'FillingPerson' element value. Лицо, заполнившее справку
+     * Set the 'FillingPerson' element value. Р›РёС†Рѕ, Р·Р°РїРѕР»РЅРёРІС€РµРµ СЃРїСЂР°РІРєСѓ
      * 
      * @param fillingPerson
      */
@@ -189,7 +189,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'BSideDealInfo' element items. Раздел Б.Сведения о сделках
+     * Get the list of 'BSideDealInfo' element items. Р Р°Р·РґРµР» Р‘.РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С…
      * 
      * @return list
      */
@@ -198,7 +198,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'BSideDealInfo' element items. Раздел Б.Сведения о сделках
+     * Set the list of 'BSideDealInfo' element items. Р Р°Р·РґРµР» Р‘.РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С…
      * 
      * @param list
      */
@@ -207,7 +207,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class GTDReferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

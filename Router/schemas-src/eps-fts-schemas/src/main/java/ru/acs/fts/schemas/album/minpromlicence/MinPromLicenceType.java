@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Ответ на запрос сведений о лицензии на ввоз/вывоз товара с территории Таможенного союза
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ Р»РёС†РµРЅР·РёРё РЅР° РІРІРѕР·/РІС‹РІРѕР· С‚РѕРІР°СЂР° СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
  */
 public class MinPromLicenceType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class MinPromLicenceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. Признак того, что документ действителен
+     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РґРѕРєСѓРјРµРЅС‚ РґРµР№СЃС‚РІРёС‚РµР»РµРЅ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. Признак того, что документ действителен
+     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РґРѕРєСѓРјРµРЅС‚ РґРµР№СЃС‚РІРёС‚РµР»РµРЅ
      * 
      * @param isCanceled
      */
@@ -49,7 +49,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -67,7 +67,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'NomenclatureCode' element value. Код ЕТН ВЭД
+     * Get the 'NomenclatureCode' element value. РљРѕРґ Р•РўРќ Р’Р­Р”
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'NomenclatureCode' element value. Код ЕТН ВЭД
+     * Set the 'NomenclatureCode' element value. РљРѕРґ Р•РўРќ Р’Р­Р”
      * 
      * @param nomenclatureCode
      */
@@ -85,7 +85,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'NomenclatureDescription' element value. Пользовательское описание
+     * Get the 'NomenclatureDescription' element value. РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'NomenclatureDescription' element value. Пользовательское описание
+     * Set the 'NomenclatureDescription' element value. РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @param nomenclatureDescription
      */
@@ -103,7 +103,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddInfo' element value. Дополнительная информация
+     * Get the 'AddInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddInfo' element value. Дополнительная информация
+     * Set the 'AddInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param addInfo
      */
@@ -121,7 +121,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddendumTotalPages' element value. Количество листов в приложении
+     * Get the 'AddendumTotalPages' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddendumTotalPages' element value. Количество листов в приложении
+     * Set the 'AddendumTotalPages' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
      * 
      * @param addendumTotalPages
      */
@@ -139,7 +139,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'License' element value. Лицензия
+     * Get the 'License' element value. Р›РёС†РµРЅР·РёСЏ
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'License' element value. Лицензия
+     * Set the 'License' element value. Р›РёС†РµРЅР·РёСЏ
      * 
      * @param license
      */
@@ -157,7 +157,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Информация о контракте
+     * Get the 'Contract' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Информация о контракте
+     * Set the 'Contract' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @param contract
      */
@@ -175,7 +175,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Dealer' element value. Информация о покупателе/продавце
+     * Get the 'Dealer' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ/РїСЂРѕРґР°РІС†Рµ
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Dealer' element value. Информация о покупателе/продавце
+     * Set the 'Dealer' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ/РїСЂРѕРґР°РІС†Рµ
      * 
      * @param dealer
      */
@@ -193,7 +193,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Country7Info' element value. Страна назначения/отправления
+     * Get the 'Country7Info' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ/РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Country7Info' element value. Страна назначения/отправления
+     * Set the 'Country7Info' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ/РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param country7Info
      */
@@ -211,7 +211,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. Страна происхождения
+     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. Страна происхождения
+     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountry
      */
@@ -229,7 +229,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Cost' element value. Стоимость
+     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Cost' element value. Стоимость
+     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param cost
      */
@@ -247,7 +247,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество в основной единице измерения
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РѕСЃРЅРѕРІРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество в основной единице измерения
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РѕСЃРЅРѕРІРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param quantity
      */
@@ -265,7 +265,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddQuantity' element value. Количество в дополнительной единице измерения
+     * Get the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddQuantity' element value. Количество в дополнительной единице измерения
+     * Set the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param addQuantity
      */
@@ -283,7 +283,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Blank' element value. Бланк
+     * Get the 'Blank' element value. Р‘Р»Р°РЅРє
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Blank' element value. Бланк
+     * Set the 'Blank' element value. Р‘Р»Р°РЅРє
      * 
      * @param blank
      */
@@ -301,7 +301,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Addendum' element items. Приложение к лицензии
+     * Get the list of 'Addendum' element items. РџСЂРёР»РѕР¶РµРЅРёРµ Рє Р»РёС†РµРЅР·РёРё
      * 
      * @return list
      */
@@ -310,7 +310,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Addendum' element items. Приложение к лицензии
+     * Set the list of 'Addendum' element items. РџСЂРёР»РѕР¶РµРЅРёРµ Рє Р»РёС†РµРЅР·РёРё
      * 
      * @param list
      */
@@ -319,7 +319,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -328,7 +328,7 @@ public class MinPromLicenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

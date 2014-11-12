@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Краткая информация о пакете архива (без документов пакета).
+ * РљСЂР°С‚РєР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР° (Р±РµР· РґРѕРєСѓРјРµРЅС‚РѕРІ РїР°РєРµС‚Р°).
  */
 public class AUDArchivePacketInfoType extends AUDArchivePutInfoType
 {
     private String archivePacketId;
 
     /** 
-     * Get the 'ArchivePacketId' element value. Архивный идентификатор пакета
+     * Get the 'ArchivePacketId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDArchivePacketInfoType extends AUDArchivePutInfoType
     }
 
     /** 
-     * Set the 'ArchivePacketId' element value. Архивный идентификатор пакета
+     * Set the 'ArchivePacketId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
      * 
      * @param archivePacketId
      */

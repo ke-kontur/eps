@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.dealpassport;
 
 /** 
- * Реквизиты иностранного контрагента
+ * Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
  */
 public class ForeignContractorType
 {
@@ -11,7 +11,7 @@ public class ForeignContractorType
     private String countryName;
 
     /** 
-     * Get the 'Name' element value. Наименование иностранного контрагента
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование иностранного контрагента
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @param name
      */
@@ -29,7 +29,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Код страны регистрации контрагента
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны регистрации контрагента
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @param countryCode
      */
@@ -47,7 +47,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Get the 'CountryName' element value. Наименование страны
+     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Set the 'CountryName' element value. Наименование страны
+     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @param countryName
      */

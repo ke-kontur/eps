@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.railwaybill;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TransportGoodsType;
 
 /** 
- * Сведения о товарах накладной
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РЅР°РєР»Р°РґРЅРѕР№
  */
 public class RWBGoodsType extends TransportGoodsType
 {
@@ -23,7 +23,7 @@ public class RWBGoodsType extends TransportGoodsType
     private DTInfoType DTInfo;
 
     /** 
-     * Get the 'ContainerIndicator' element value. Отметка перевозки грузов в контейнерах 
+     * Get the 'ContainerIndicator' element value. РћС‚РјРµС‚РєР° РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ РІ РєРѕРЅС‚РµР№РЅРµСЂР°С… 
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Отметка перевозки грузов в контейнерах 
+     * Set the 'ContainerIndicator' element value. РћС‚РјРµС‚РєР° РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ РІ РєРѕРЅС‚РµР№РЅРµСЂР°С… 
      * 
      * @param containerIndicator
      */
@@ -41,7 +41,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'WorkToolDescription' element value. В случае осуществления перевозки с применением перевозочных приспособлений указывается наименование применяемых перевозочных приспособлений
+     * Get the 'WorkToolDescription' element value. Р’ СЃР»СѓС‡Р°Рµ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РїРµСЂРµРІРѕР·РєРё СЃ РїСЂРёРјРµРЅРµРЅРёРµРј РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅСЏРµРјС‹С… РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'WorkToolDescription' element value. В случае осуществления перевозки с применением перевозочных приспособлений указывается наименование применяемых перевозочных приспособлений
+     * Set the 'WorkToolDescription' element value. Р’ СЃР»СѓС‡Р°Рµ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РїРµСЂРµРІРѕР·РєРё СЃ РїСЂРёРјРµРЅРµРЅРёРµРј РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅСЏРµРјС‹С… РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№
      * 
      * @param workToolDescription
      */
@@ -59,7 +59,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'ConductorDescription' element value. Заполняется при перевозках грузов с проводниками. Указываются сведения о проводниках и в соответствующих случаях — название пограничной станции, на которой производится замена проводников. 
+     * Get the 'ConductorDescription' element value. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїРµСЂРµРІРѕР·РєР°С… РіСЂСѓР·РѕРІ СЃ РїСЂРѕРІРѕРґРЅРёРєР°РјРё. РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ СЃРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРІРѕРґРЅРёРєР°С… Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… СЃР»СѓС‡Р°СЏС… вЂ” РЅР°Р·РІР°РЅРёРµ РїРѕРіСЂР°РЅРёС‡РЅРѕР№ СЃС‚Р°РЅС†РёРё, РЅР° РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ Р·Р°РјРµРЅР° РїСЂРѕРІРѕРґРЅРёРєРѕРІ. 
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'ConductorDescription' element value. Заполняется при перевозках грузов с проводниками. Указываются сведения о проводниках и в соответствующих случаях — название пограничной станции, на которой производится замена проводников. 
+     * Set the 'ConductorDescription' element value. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїРµСЂРµРІРѕР·РєР°С… РіСЂСѓР·РѕРІ СЃ РїСЂРѕРІРѕРґРЅРёРєР°РјРё. РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ СЃРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРІРѕРґРЅРёРєР°С… Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… СЃР»СѓС‡Р°СЏС… вЂ” РЅР°Р·РІР°РЅРёРµ РїРѕРіСЂР°РЅРёС‡РЅРѕР№ СЃС‚Р°РЅС†РёРё, РЅР° РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ Р·Р°РјРµРЅР° РїСЂРѕРІРѕРґРЅРёРєРѕРІ. 
      * 
      * @param conductorDescription
      */
@@ -77,7 +77,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'PlaceGoodsQuantity' element value. Количество товара в грузовом месте
+     * Get the 'PlaceGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РіСЂСѓР·РѕРІРѕРј РјРµСЃС‚Рµ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'PlaceGoodsQuantity' element value. Количество товара в грузовом месте
+     * Set the 'PlaceGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РіСЂСѓР·РѕРІРѕРј РјРµСЃС‚Рµ
      * 
      * @param placeGoodsQuantity
      */
@@ -95,7 +95,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. Общее количество грузовых мест товара, если "навал" или налив" то не заполняется
+     * Get the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°, РµСЃР»Рё "РЅР°РІР°Р»" РёР»Рё РЅР°Р»РёРІ" С‚Рѕ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. Общее количество грузовых мест товара, если "навал" или налив" то не заполняется
+     * Set the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°, РµСЃР»Рё "РЅР°РІР°Р»" РёР»Рё РЅР°Р»РёРІ" С‚Рѕ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
      * 
      * @param placesQuantity
      */
@@ -113,7 +113,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара определенный отправителем, брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РѕС‚РїСЂР°РІРёС‚РµР»РµРј, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара определенный отправителем, брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РѕС‚РїСЂР°РІРёС‚РµР»РµРј, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -131,7 +131,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'PlacesDescription' element value. Описание грузовых мест (коробок, упаковок, паллет и т.д.)
+     * Get the 'PlacesDescription' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (РєРѕСЂРѕР±РѕРє, СѓРїР°РєРѕРІРѕРє, РїР°Р»Р»РµС‚ Рё С‚.Рґ.)
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'PlacesDescription' element value. Описание грузовых мест (коробок, упаковок, паллет и т.д.)
+     * Set the 'PlacesDescription' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (РєРѕСЂРѕР±РѕРє, СѓРїР°РєРѕРІРѕРє, РїР°Р»Р»РµС‚ Рё С‚.Рґ.)
      * 
      * @param placesDescription
      */
@@ -149,7 +149,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'HarmonizedRangeGoods' element value. Код товара по ГНГ
+     * Get the 'HarmonizedRangeGoods' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ Р“РќР“
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'HarmonizedRangeGoods' element value. Код товара по ГНГ
+     * Set the 'HarmonizedRangeGoods' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ Р“РќР“
      * 
      * @param harmonizedRangeGoods
      */
@@ -167,7 +167,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'Packing' element value. Упаковка
+     * Get the 'Packing' element value. РЈРїР°РєРѕРІРєР°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'Packing' element value. Упаковка
+     * Set the 'Packing' element value. РЈРїР°РєРѕРІРєР°
      * 
      * @param packing
      */
@@ -185,7 +185,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'Marking' element value. Маркировка
+     * Get the 'Marking' element value. РњР°СЂРєРёСЂРѕРІРєР°
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'Marking' element value. Маркировка
+     * Set the 'Marking' element value. РњР°СЂРєРёСЂРѕРІРєР°
      * 
      * @param marking
      */
@@ -203,7 +203,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'CarriageNumber' element value. Номер вагона
+     * Get the 'CarriageNumber' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'CarriageNumber' element value. Номер вагона
+     * Set the 'CarriageNumber' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @param carriageNumber
      */
@@ -221,7 +221,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'ContainerNumber' element value. Номер контейнера
+     * Get the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'ContainerNumber' element value. Номер контейнера
+     * Set the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerNumber
      */
@@ -239,7 +239,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'DTInfo' element value. Сведения из декларации на товары
+     * Get the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ РёР· РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -248,7 +248,7 @@ public class RWBGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'DTInfo' element value. Сведения из декларации на товары
+     * Set the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ РёР· РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @param DTInfo
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.airwaybill;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения из декларации на товары
+ * РЎРІРµРґРµРЅРёСЏ РёР· РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
  */
 public class DTInfoType
 {
@@ -12,7 +12,7 @@ public class DTInfoType
     private GTDIDType DTNumber;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по ДТ
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DTInfoType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по ДТ
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param goodsNumeric
      */
@@ -30,7 +30,7 @@ public class DTInfoType
     }
 
     /** 
-     * Get the 'DTNumber' element value. Регистрационный номер декларации на товары
+     * Get the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DTInfoType
     }
 
     /** 
-     * Set the 'DTNumber' element value. Регистрационный номер декларации на товары
+     * Set the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @param DTNumber
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.airshoppingwaybill;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Проверка на предмет боя и порчи
+ * РџСЂРѕРІРµСЂРєР° РЅР° РїСЂРµРґРјРµС‚ Р±РѕСЏ Рё РїРѕСЂС‡Рё
  */
 public class CheckingItemFightingDamageType
 {
@@ -14,7 +14,7 @@ public class CheckingItemFightingDamageType
     private PersonBaseType boardConductorArrival;
 
     /** 
-     * Get the 'BoardConductorDeparting' element value. Подпись борт проводника при вылете
+     * Get the 'BoardConductorDeparting' element value. РџРѕРґРїРёСЃСЊ Р±РѕСЂС‚ РїСЂРѕРІРѕРґРЅРёРєР° РїСЂРё РІС‹Р»РµС‚Рµ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Set the 'BoardConductorDeparting' element value. Подпись борт проводника при вылете
+     * Set the 'BoardConductorDeparting' element value. РџРѕРґРїРёСЃСЊ Р±РѕСЂС‚ РїСЂРѕРІРѕРґРЅРёРєР° РїСЂРё РІС‹Р»РµС‚Рµ
      * 
      * @param boardConductorDeparting
      */
@@ -33,7 +33,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Get the 'TransOrganizationDeparting' element value. Подпись транспортной организации при вылете
+     * Get the 'TransOrganizationDeparting' element value. РџРѕРґРїРёСЃСЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё РїСЂРё РІС‹Р»РµС‚Рµ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Set the 'TransOrganizationDeparting' element value. Подпись транспортной организации при вылете
+     * Set the 'TransOrganizationDeparting' element value. РџРѕРґРїРёСЃСЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё РїСЂРё РІС‹Р»РµС‚Рµ
      * 
      * @param transOrganizationDeparting
      */
@@ -52,7 +52,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Get the 'TransOrganizationArrival' element value. Подпись транспортной организации при прилете
+     * Get the 'TransOrganizationArrival' element value. РџРѕРґРїРёСЃСЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё РїСЂРё РїСЂРёР»РµС‚Рµ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Set the 'TransOrganizationArrival' element value. Подпись транспортной организации при прилете
+     * Set the 'TransOrganizationArrival' element value. РџРѕРґРїРёСЃСЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё РїСЂРё РїСЂРёР»РµС‚Рµ
      * 
      * @param transOrganizationArrival
      */
@@ -71,7 +71,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Get the 'BoardConductorArrival' element value. Подпись борт проводника при прилете
+     * Get the 'BoardConductorArrival' element value. РџРѕРґРїРёСЃСЊ Р±РѕСЂС‚ РїСЂРѕРІРѕРґРЅРёРєР° РїСЂРё РїСЂРёР»РµС‚Рµ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class CheckingItemFightingDamageType
     }
 
     /** 
-     * Set the 'BoardConductorArrival' element value. Подпись борт проводника при прилете
+     * Set the 'BoardConductorArrival' element value. РџРѕРґРїРёСЃСЊ Р±РѕСЂС‚ РїСЂРѕРІРѕРґРЅРёРєР° РїСЂРё РїСЂРёР»РµС‚Рµ
      * 
      * @param boardConductorArrival
      */

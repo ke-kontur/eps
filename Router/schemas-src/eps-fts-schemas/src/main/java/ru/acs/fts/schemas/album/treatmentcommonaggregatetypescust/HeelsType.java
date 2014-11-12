@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Остатки
+ * РћСЃС‚Р°С‚РєРё
  */
 public class HeelsType
 {
@@ -14,7 +14,7 @@ public class HeelsType
     private List<TreatProductsType> heelsItemList = new ArrayList<TreatProductsType>();
 
     /** 
-     * Get the list of 'HeelsInfo' element items. Дополнительные сведения к  гр. "Остатки"
+     * Get the list of 'HeelsInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рє  РіСЂ. "РћСЃС‚Р°С‚РєРё"
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class HeelsType
     }
 
     /** 
-     * Set the list of 'HeelsInfo' element items. Дополнительные сведения к  гр. "Остатки"
+     * Set the list of 'HeelsInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рє  РіСЂ. "РћСЃС‚Р°С‚РєРё"
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class HeelsType
     }
 
     /** 
-     * Get the 'HeelsOutProcedure' element value. Режим выпуска остатков
+     * Get the 'HeelsOutProcedure' element value. Р РµР¶РёРј РІС‹РїСѓСЃРєР° РѕСЃС‚Р°С‚РєРѕРІ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class HeelsType
     }
 
     /** 
-     * Set the 'HeelsOutProcedure' element value. Режим выпуска остатков
+     * Set the 'HeelsOutProcedure' element value. Р РµР¶РёРј РІС‹РїСѓСЃРєР° РѕСЃС‚Р°С‚РєРѕРІ
      * 
      * @param heelsOutProcedure
      */
@@ -50,7 +50,7 @@ public class HeelsType
     }
 
     /** 
-     * Get the list of 'HeelsItem' element items. Остатки - описание товара
+     * Get the list of 'HeelsItem' element items. РћСЃС‚Р°С‚РєРё - РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class HeelsType
     }
 
     /** 
-     * Set the list of 'HeelsItem' element items. Остатки - описание товара
+     * Set the list of 'HeelsItem' element items. РћСЃС‚Р°С‚РєРё - РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */

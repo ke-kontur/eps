@@ -1,5 +1,6 @@
 package ru.acs.fts.eps2.model.services;
 
+import java.sql.DatabaseMetaData;
 import java.util.List;
 import java.util.Map;
 
@@ -7,7 +8,12 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceException;
 import javax.persistence.Query;
 
+import org.eclipse.persistence.internal.databaseaccess.Accessor;
+import org.eclipse.persistence.internal.sessions.UnitOfWorkImpl;
+import org.eclipse.persistence.jpa.JpaEntityManager;
 import org.eclipse.persistence.queries.CursoredStream;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.orm.jpa.JpaCallback;
 import org.springframework.orm.jpa.JpaTemplate;
@@ -19,8 +25,10 @@ class BaseStorage< T >
 {
 	private JpaTemplate _jpaTemplate;
 	private Class< T > _clz;
-	
-	@Required
+    protected final Logger log = LoggerFactory.getLogger(BaseStorage.class);
+
+
+    @Required
 	public void setJpaTemplate( JpaTemplate jpaTemplate ) { _jpaTemplate = jpaTemplate; }
 	public JpaTemplate getJpaTemplate( ) { return _jpaTemplate; }
 
@@ -83,7 +91,8 @@ class BaseStorage< T >
 	{
 		try
 		{
-			_jpaTemplate.persist( objectToPersist );
+            _jpaTemplate.persist( objectToPersist );
+
 			_jpaTemplate.flush( );
 		}
 		catch ( Exception exc )

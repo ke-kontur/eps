@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.woodshipingspecification;
 
 /** 
- * Сведения о длине
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґР»РёРЅРµ
  */
 public class LenghtInfoType
 {
@@ -10,7 +10,7 @@ public class LenghtInfoType
     private String quantity;
 
     /** 
-     * Get the 'StandartValue' element value. Значение по ГОСТу
+     * Get the 'StandartValue' element value. Р—РЅР°С‡РµРЅРёРµ РїРѕ Р“РћРЎРўСѓ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class LenghtInfoType
     }
 
     /** 
-     * Set the 'StandartValue' element value. Значение по ГОСТу
+     * Set the 'StandartValue' element value. Р—РЅР°С‡РµРЅРёРµ РїРѕ Р“РћРЎРўСѓ
      * 
      * @param standartValue
      */
@@ -28,7 +28,7 @@ public class LenghtInfoType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class LenghtInfoType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */

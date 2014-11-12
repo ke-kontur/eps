@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.automobileinsurancepolicy;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansPassportType;
 
 /** 
- * Сведения о транспортном средстве 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ 
  */
 public class AIPTransportMeansType
 {
@@ -17,7 +17,7 @@ public class AIPTransportMeansType
     private TransportMeansPassportType AIPTransportMeansPassport;
 
     /** 
-     * Get the 'TransportStateSignID' element value. Государственный знак транспортного средства
+     * Get the 'TransportStateSignID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ Р·РЅР°Рє С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'TransportStateSignID' element value. Государственный знак транспортного средства
+     * Set the 'TransportStateSignID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ Р·РЅР°Рє С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportStateSignID
      */
@@ -35,7 +35,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Get the 'Model' element value. Марка, модель
+     * Get the 'Model' element value. РњР°СЂРєР°, РјРѕРґРµР»СЊ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'Model' element value. Марка, модель
+     * Set the 'Model' element value. РњР°СЂРєР°, РјРѕРґРµР»СЊ
      * 
      * @param model
      */
@@ -53,7 +53,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Get the 'Mark' element value. Наименование марки в оригинале
+     * Get the 'Mark' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјР°СЂРєРё РІ РѕСЂРёРіРёРЅР°Р»Рµ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'Mark' element value. Наименование марки в оригинале
+     * Set the 'Mark' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјР°СЂРєРё РІ РѕСЂРёРіРёРЅР°Р»Рµ
      * 
      * @param mark
      */
@@ -71,7 +71,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Get the 'MarkCode' element value. Код марки 
+     * Get the 'MarkCode' element value. РљРѕРґ РјР°СЂРєРё 
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'MarkCode' element value. Код марки 
+     * Set the 'MarkCode' element value. РљРѕРґ РјР°СЂРєРё 
      * 
      * @param markCode
      */
@@ -89,7 +89,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Get the 'VINID' element value. Идентификационный номер (VIN)
+     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'VINID' element value. Идентификационный номер (VIN)
+     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
      * 
      * @param VINID
      */
@@ -107,7 +107,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Get the 'OfftakeYear' element value. Год изготовления транспортного средства
+     * Get the 'OfftakeYear' element value. Р“РѕРґ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'OfftakeYear' element value. Год изготовления транспортного средства
+     * Set the 'OfftakeYear' element value. Р“РѕРґ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param offtakeYear
      */
@@ -125,7 +125,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Get the 'AIPTransportMeansPassport' element value. Серия и номер Паспорта транспортного средства
+     * Get the 'AIPTransportMeansPassport' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class AIPTransportMeansType
     }
 
     /** 
-     * Set the 'AIPTransportMeansPassport' element value. Серия и номер Паспорта транспортного средства
+     * Set the 'AIPTransportMeansPassport' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param AIPTransportMeansPassport
      */

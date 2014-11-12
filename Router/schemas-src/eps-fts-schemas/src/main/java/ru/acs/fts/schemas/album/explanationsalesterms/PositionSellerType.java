@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Отличие вызвано положением Продавца
+ * РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РїРѕР»РѕР¶РµРЅРёРµРј РџСЂРѕРґР°РІС†Р°
  */
 public class PositionSellerType
 {
@@ -13,7 +13,7 @@ public class PositionSellerType
     private String comments;
 
     /** 
-     * Get the 'FundsAvailable' element value. Признак необходимости наличных средств
+     * Get the 'FundsAvailable' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РЅР°Р»РёС‡РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Set the 'FundsAvailable' element value. Признак необходимости наличных средств
+     * Set the 'FundsAvailable' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РЅР°Р»РёС‡РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param fundsAvailable
      */
@@ -31,7 +31,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Get the 'GlutWarehouse' element value. Признак затоваривания складов
+     * Get the 'GlutWarehouse' element value. РџСЂРёР·РЅР°Рє Р·Р°С‚РѕРІР°СЂРёРІР°РЅРёСЏ СЃРєР»Р°РґРѕРІ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Set the 'GlutWarehouse' element value. Признак затоваривания складов
+     * Set the 'GlutWarehouse' element value. РџСЂРёР·РЅР°Рє Р·Р°С‚РѕРІР°СЂРёРІР°РЅРёСЏ СЃРєР»Р°РґРѕРІ
      * 
      * @param glutWarehouse
      */
@@ -49,7 +49,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Get the 'Bankruptcy' element value. Признак банкротства
+     * Get the 'Bankruptcy' element value. РџСЂРёР·РЅР°Рє Р±Р°РЅРєСЂРѕС‚СЃС‚РІР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Set the 'Bankruptcy' element value. Признак банкротства
+     * Set the 'Bankruptcy' element value. РџСЂРёР·РЅР°Рє Р±Р°РЅРєСЂРѕС‚СЃС‚РІР°
      * 
      * @param bankruptcy
      */
@@ -67,7 +67,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Get the 'Other' element value. Отличие вызвано иным положением продавца
+     * Get the 'Other' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РёРЅС‹Рј РїРѕР»РѕР¶РµРЅРёРµРј РїСЂРѕРґР°РІС†Р°
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Set the 'Other' element value. Отличие вызвано иным положением продавца
+     * Set the 'Other' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РёРЅС‹Рј РїРѕР»РѕР¶РµРЅРёРµРј РїСЂРѕРґР°РІС†Р°
      * 
      * @param other
      */
@@ -85,7 +85,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Get the 'Comments' element value. Иные (указать подробности)
+     * Get the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class PositionSellerType
     }
 
     /** 
-     * Set the 'Comments' element value. Иные (указать подробности)
+     * Set the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
      * 
      * @param comments
      */

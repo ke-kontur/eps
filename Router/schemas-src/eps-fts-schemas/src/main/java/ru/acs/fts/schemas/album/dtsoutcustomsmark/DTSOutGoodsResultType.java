@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.dtsoutcustomsmark;
 
 /** 
- * Решение о таможенной стоимости и служебные отметки по товарам
+ * Р РµС€РµРЅРёРµ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
  */
 public class DTSOutGoodsResultType
 {
@@ -11,7 +11,7 @@ public class DTSOutGoodsResultType
     private DTSOuDecisionType DTSGoodsRecallDecision;
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. Номер товара по ДТ
+     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSOutGoodsResultType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. Номер товара по ДТ
+     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param GTDGoodsNumber
      */
@@ -29,7 +29,7 @@ public class DTSOutGoodsResultType
     }
 
     /** 
-     * Get the 'DTSGoodsCostDecision' element value. Решение о таможенной стоимости товара
+     * Get the 'DTSGoodsCostDecision' element value. Р РµС€РµРЅРёРµ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DTSOutGoodsResultType
     }
 
     /** 
-     * Set the 'DTSGoodsCostDecision' element value. Решение о таможенной стоимости товара
+     * Set the 'DTSGoodsCostDecision' element value. Р РµС€РµРЅРёРµ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР°
      * 
      * @param DTSGoodsCostDecision
      */
@@ -47,7 +47,7 @@ public class DTSOutGoodsResultType
     }
 
     /** 
-     * Get the 'DTSGoodsRecallDecision' element value. Решение об аннулировании или отзыве ДТС по товару
+     * Get the 'DTSGoodsRecallDecision' element value. Р РµС€РµРЅРёРµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РёР»Рё РѕС‚Р·С‹РІРµ Р”РўРЎ РїРѕ С‚РѕРІР°СЂСѓ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DTSOutGoodsResultType
     }
 
     /** 
-     * Set the 'DTSGoodsRecallDecision' element value. Решение об аннулировании или отзыве ДТС по товару
+     * Set the 'DTSGoodsRecallDecision' element value. Р РµС€РµРЅРёРµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РёР»Рё РѕС‚Р·С‹РІРµ Р”РўРЎ РїРѕ С‚РѕРІР°СЂСѓ
      * 
      * @param DTSGoodsRecallDecision
      */

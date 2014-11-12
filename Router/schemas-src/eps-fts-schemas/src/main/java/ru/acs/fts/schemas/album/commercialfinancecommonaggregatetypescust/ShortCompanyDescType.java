@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Название и адрес организации
+ * РќР°Р·РІР°РЅРёРµ Рё Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
  */
 public class ShortCompanyDescType
 {
@@ -12,7 +12,7 @@ public class ShortCompanyDescType
     private AddressType address;
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ShortCompanyDescType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */
@@ -30,7 +30,7 @@ public class ShortCompanyDescType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес.
+     * Get the 'Address' element value. РђРґСЂРµСЃ.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ShortCompanyDescType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес.
+     * Set the 'Address' element value. РђРґСЂРµСЃ.
      * 
      * @param address
      */

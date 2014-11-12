@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Организация, выдавшая путевой лист 
+ * РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
  */
 public class OrganizationCreatedManifestType
 {
@@ -14,7 +14,7 @@ public class OrganizationCreatedManifestType
     private AddressType address;
 
     /** 
-     * Get the 'PhoneNumber' element value. Телефон организации 
+     * Get the 'PhoneNumber' element value. РўРµР»РµС„РѕРЅ РѕСЂРіР°РЅРёР·Р°С†РёРё 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Set the 'PhoneNumber' element value. Телефон организации 
+     * Set the 'PhoneNumber' element value. РўРµР»РµС„РѕРЅ РѕСЂРіР°РЅРёР·Р°С†РёРё 
      * 
      * @param phoneNumber
      */
@@ -32,7 +32,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Get the 'Organization' element value. Реквизиты организации, выдавшей путевой лист 
+     * Get the 'Organization' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Set the 'Organization' element value. Реквизиты организации, выдавшей путевой лист 
+     * Set the 'Organization' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
      * 
      * @param organization
      */
@@ -50,7 +50,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес организации 
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации 
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё 
      * 
      * @param address
      */

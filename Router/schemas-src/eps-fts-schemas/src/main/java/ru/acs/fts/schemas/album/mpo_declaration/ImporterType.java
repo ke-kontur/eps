@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mpo_declaration;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Импортер
+ * РРјРїРѕСЂС‚РµСЂ
  */
 public class ImporterType extends OrganizationType
 {
@@ -12,7 +12,7 @@ public class ImporterType extends OrganizationType
     private String VATNumber;
 
     /** 
-     * Get the 'ImporterIndex' element value. Индекс импортера
+     * Get the 'ImporterIndex' element value. РРЅРґРµРєСЃ РёРјРїРѕСЂС‚РµСЂР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ImporterType extends OrganizationType
     }
 
     /** 
-     * Set the 'ImporterIndex' element value. Индекс импортера
+     * Set the 'ImporterIndex' element value. РРЅРґРµРєСЃ РёРјРїРѕСЂС‚РµСЂР°
      * 
      * @param importerIndex
      */
@@ -30,7 +30,7 @@ public class ImporterType extends OrganizationType
     }
 
     /** 
-     * Get the 'VAT_Number' element value. Номер НДС
+     * Get the 'VAT_Number' element value. РќРѕРјРµСЂ РќР”РЎ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ImporterType extends OrganizationType
     }
 
     /** 
-     * Set the 'VAT_Number' element value. Номер НДС
+     * Set the 'VAT_Number' element value. РќРѕРјРµСЂ РќР”РЎ
      * 
      * @param VATNumber
      */

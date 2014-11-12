@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения о необходимости предоставления дополнительных документов и сведений и о возможности принятия решения/Сведения о результатах контроля
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ Рё Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ/РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РєРѕРЅС‚СЂРѕР»СЏ
  */
 public class InspectionReqResType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class InspectionReqResType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 1 - Сведения о необходимости предоставления дополнительных документов и сведений и о возможности принятия решения; 2 - Сведения о результатах документального ветеринарного контроля; 3 - Сведения о результатах ветеринарного контроля (после осмотра/досмотра)
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РЎРІРµРґРµРЅРёСЏ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ Рё Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ; 2 - РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ; 3 - РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РІРµС‚РµСЂРёРЅР°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (РїРѕСЃР»Рµ РѕСЃРјРѕС‚СЂР°/РґРѕСЃРјРѕС‚СЂР°)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 1 - Сведения о необходимости предоставления дополнительных документов и сведений и о возможности принятия решения; 2 - Сведения о результатах документального ветеринарного контроля; 3 - Сведения о результатах ветеринарного контроля (после осмотра/досмотра)
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РЎРІРµРґРµРЅРёСЏ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ Рё Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ; 2 - РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ; 3 - РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РІРµС‚РµСЂРёРЅР°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (РїРѕСЃР»Рµ РѕСЃРјРѕС‚СЂР°/РґРѕСЃРјРѕС‚СЂР°)
      * 
      * @param docSign
      */
@@ -36,7 +36,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConversationID' element value. Идентификатор взаимодействия
+     * Get the 'ConversationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConversationID' element value. Идентификатор взаимодействия
+     * Set the 'ConversationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ
      * 
      * @param conversationID
      */
@@ -54,7 +54,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionDecision' element value. Решение, принятое таможенным инспектором по результатам документарного контроля
+     * Get the 'InspectionDecision' element value. Р РµС€РµРЅРёРµ, РїСЂРёРЅСЏС‚РѕРµ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РёРЅСЃРїРµРєС‚РѕСЂРѕРј РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РґРѕРєСѓРјРµРЅС‚Р°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionDecision' element value. Решение, принятое таможенным инспектором по результатам документарного контроля
+     * Set the 'InspectionDecision' element value. Р РµС€РµРЅРёРµ, РїСЂРёРЅСЏС‚РѕРµ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РёРЅСЃРїРµРєС‚РѕСЂРѕРј РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РґРѕРєСѓРјРµРЅС‚Р°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param inspectionDecision
      */
@@ -72,7 +72,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Violation' element items. Нарушение, выявленное при досмотре
+     * Get the list of 'Violation' element items. РќР°СЂСѓС€РµРЅРёРµ, РІС‹СЏРІР»РµРЅРЅРѕРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Violation' element items. Нарушение, выявленное при досмотре
+     * Set the list of 'Violation' element items. РќР°СЂСѓС€РµРЅРёРµ, РІС‹СЏРІР»РµРЅРЅРѕРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Requirement' element items. Условие транспортировки груза через границу
+     * Get the list of 'Requirement' element items. РЈСЃР»РѕРІРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё РіСЂСѓР·Р° С‡РµСЂРµР· РіСЂР°РЅРёС†Сѓ
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Requirement' element items. Условие транспортировки груза через границу
+     * Set the list of 'Requirement' element items. РЈСЃР»РѕРІРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё РіСЂСѓР·Р° С‡РµСЂРµР· РіСЂР°РЅРёС†Сѓ
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class InspectionReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.actinspectionin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о лицах, принимающих  участие в досмотре
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Р°С…, РїСЂРёРЅРёРјР°СЋС‰РёС…  СѓС‡Р°СЃС‚РёРµ РІ РґРѕСЃРјРѕС‚СЂРµ
  */
 public class PersonInfType extends PersonBaseType
 {
     private String signatureFlag;
 
     /** 
-     * Get the 'SignatureFlag' element value. Признак, подтверждающий факт подписи АТД: 0 - не подписано 1 - подписано
+     * Get the 'SignatureFlag' element value. РџСЂРёР·РЅР°Рє, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РїРѕРґРїРёСЃРё РђРўР”: 0 - РЅРµ РїРѕРґРїРёСЃР°РЅРѕ 1 - РїРѕРґРїРёСЃР°РЅРѕ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonInfType extends PersonBaseType
     }
 
     /** 
-     * Set the 'SignatureFlag' element value. Признак, подтверждающий факт подписи АТД: 0 - не подписано 1 - подписано
+     * Set the 'SignatureFlag' element value. РџСЂРёР·РЅР°Рє, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РїРѕРґРїРёСЃРё РђРўР”: 0 - РЅРµ РїРѕРґРїРёСЃР°РЅРѕ 1 - РїРѕРґРїРёСЃР°РЅРѕ
      * 
      * @param signatureFlag
      */

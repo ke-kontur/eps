@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * Резервный метод определения таможенной стоимости.
+ * Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
  */
 public class DTSMethod6Type
 {
@@ -13,7 +13,7 @@ public class DTSMethod6Type
     private Method6CalculationType method6Calculation;
 
     /** 
-     * Get the 'ValueBasisCustAmountRUR' element value. Величина основы для определения таможенной стоимости  в рублях.гр 11
+     * Get the 'ValueBasisCustAmountRUR' element value. Р’РµР»РёС‡РёРЅР° РѕСЃРЅРѕРІС‹ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё  РІ СЂСѓР±Р»СЏС….РіСЂ 11
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Set the 'ValueBasisCustAmountRUR' element value. Величина основы для определения таможенной стоимости  в рублях.гр 11
+     * Set the 'ValueBasisCustAmountRUR' element value. Р’РµР»РёС‡РёРЅР° РѕСЃРЅРѕРІС‹ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё  РІ СЂСѓР±Р»СЏС….РіСЂ 11
      * 
      * @param valueBasisCustAmountRUR
      */
@@ -31,7 +31,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Get the 'ValueBasisCustAmount' element value. Величина основы для определения таможенной стоимости в валюте. гр 11
+     * Get the 'ValueBasisCustAmount' element value. Р’РµР»РёС‡РёРЅР° РѕСЃРЅРѕРІС‹ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ. РіСЂ 11
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Set the 'ValueBasisCustAmount' element value. Величина основы для определения таможенной стоимости в валюте. гр 11
+     * Set the 'ValueBasisCustAmount' element value. Р’РµР»РёС‡РёРЅР° РѕСЃРЅРѕРІС‹ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ. РіСЂ 11
      * 
      * @param valueBasisCustAmount
      */
@@ -49,7 +49,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс пересчета
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс пересчета
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @param currencyRate
      */
@@ -67,7 +67,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -85,7 +85,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Get the 'Method6Calculation' element value. Расчет  стоимости.
+     * Get the 'Method6Calculation' element value. Р Р°СЃС‡РµС‚  СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DTSMethod6Type
     }
 
     /** 
-     * Set the 'Method6Calculation' element value. Расчет  стоимости.
+     * Set the 'Method6Calculation' element value. Р Р°СЃС‡РµС‚  СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @param method6Calculation
      */

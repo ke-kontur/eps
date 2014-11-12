@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * Объем досмотра
+ * РћР±СЉРµРј РґРѕСЃРјРѕС‚СЂР°
  */
 public class VolumeInspectionType
 {
@@ -11,7 +11,7 @@ public class VolumeInspectionType
     private String percent100;
 
     /** 
-     * Get the 'Percent10' element value. Если значение поля: "true" - да; "false" - нет.
+     * Get the 'Percent10' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Set the 'Percent10' element value. Если значение поля: "true" - да; "false" - нет.
+     * Set the 'Percent10' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param percent10
      */
@@ -29,7 +29,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Get the 'Percent50' element value. Если значение поля: "true" - да; "false" - нет.
+     * Get the 'Percent50' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Set the 'Percent50' element value. Если значение поля: "true" - да; "false" - нет.
+     * Set the 'Percent50' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param percent50
      */
@@ -47,7 +47,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Get the 'Percent100' element value. Если значение поля: "true" - да; "false" - нет.
+     * Get the 'Percent100' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Set the 'Percent100' element value. Если значение поля: "true" - да; "false" - нет.
+     * Set the 'Percent100' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param percent100
      */

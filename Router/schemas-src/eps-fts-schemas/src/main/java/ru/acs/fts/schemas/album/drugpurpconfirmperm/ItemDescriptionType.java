@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание лекарственного средства
+ * РћРїРёСЃР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class ItemDescriptionType
 {
@@ -21,7 +21,7 @@ public class ItemDescriptionType
     private DocumentBaseType gosRegistration;
 
     /** 
-     * Get the list of 'Name' element items. Наименование лекарственного средства (форма выпуска, дозировка)
+     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (С„РѕСЂРјР° РІС‹РїСѓСЃРєР°, РґРѕР·РёСЂРѕРІРєР°)
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Set the list of 'Name' element items. Наименование лекарственного средства (форма выпуска, дозировка)
+     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (С„РѕСЂРјР° РІС‹РїСѓСЃРєР°, РґРѕР·РёСЂРѕРІРєР°)
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Get the 'ExpitarionDate' element value. Cрок годности
+     * Get the 'ExpitarionDate' element value. CСЂРѕРє РіРѕРґРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Set the 'ExpitarionDate' element value. Cрок годности
+     * Set the 'ExpitarionDate' element value. CСЂРѕРє РіРѕРґРЅРѕСЃС‚Рё
      * 
      * @param expitarionDate
      */
@@ -57,7 +57,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Get the 'Cost' element value. Стоимость
+     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Set the 'Cost' element value. Стоимость
+     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param cost
      */
@@ -75,7 +75,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Get the 'Producer' element value. Производитель лекарственного средства
+     * Get the 'Producer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Set the 'Producer' element value. Производитель лекарственного средства
+     * Set the 'Producer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param producer
      */
@@ -93,7 +93,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Get the 'Count' element value. Количество
+     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Set the 'Count' element value. Количество
+     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param count
      */
@@ -111,7 +111,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Get the 'GosRegistration' element value. Государственная регистрация
+     * Get the 'GosRegistration' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅР°СЏ СЂРµРіРёСЃС‚СЂР°С†РёСЏ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ItemDescriptionType
     }
 
     /** 
-     * Set the 'GosRegistration' element value. Государственная регистрация
+     * Set the 'GosRegistration' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅР°СЏ СЂРµРіРёСЃС‚СЂР°С†РёСЏ
      * 
      * @param gosRegistration
      */

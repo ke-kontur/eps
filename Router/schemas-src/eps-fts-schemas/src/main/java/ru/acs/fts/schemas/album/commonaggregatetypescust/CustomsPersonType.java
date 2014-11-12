@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Должностное лицо таможенного органа
+ * Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
  */
 public class CustomsPersonType
 {
@@ -10,7 +10,7 @@ public class CustomsPersonType
     private String LNP;
 
     /** 
-     * Get the 'PersonName' element value. ФИО должностного лица таможенного органа
+     * Get the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustomsPersonType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО должностного лица таможенного органа
+     * Set the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param personName
      */
@@ -28,7 +28,7 @@ public class CustomsPersonType
     }
 
     /** 
-     * Get the 'LNP' element value. ЛНП должностного лица таможенного органа
+     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsPersonType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП должностного лица таможенного органа
+     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param LNP
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание выполненных работ, оказанных услуг
+ * РћРїРёСЃР°РЅРёРµ РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі
  */
 public class ServiceDescriptionType
 {
@@ -25,7 +25,7 @@ public class ServiceDescriptionType
     private PaymentDetailsType serviceCost;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товара текстовое
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ
      * 
      * @return list
      */
@@ -34,7 +34,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товара текстовое
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ
      * 
      * @param list
      */
@@ -43,7 +43,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'GCost' element value. Cтоимость товара
+     * Get the 'GCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'GCost' element value. Cтоимость товара
+     * Set the 'GCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param GCost
      */
@@ -61,7 +61,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @param currencyCode
      */
@@ -79,7 +79,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'ServiceName' element value. Наименование выполненных работ, оказанных услуг
+     * Get the 'ServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'ServiceName' element value. Наименование выполненных работ, оказанных услуг
+     * Set the 'ServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі
      * 
      * @param serviceName
      */
@@ -97,7 +97,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'InsuranceRate' element value. Тариф страхового взноса (%)
+     * Get the 'InsuranceRate' element value. РўР°СЂРёС„ СЃС‚СЂР°С…РѕРІРѕРіРѕ РІР·РЅРѕСЃР° (%)
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'InsuranceRate' element value. Тариф страхового взноса (%)
+     * Set the 'InsuranceRate' element value. РўР°СЂРёС„ СЃС‚СЂР°С…РѕРІРѕРіРѕ РІР·РЅРѕСЃР° (%)
      * 
      * @param insuranceRate
      */
@@ -115,7 +115,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'TaxRate' element value. Налоговая ставка (%)
+     * Get the 'TaxRate' element value. РќР°Р»РѕРіРѕРІР°СЏ СЃС‚Р°РІРєР° (%)
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'TaxRate' element value. Налоговая ставка (%)
+     * Set the 'TaxRate' element value. РќР°Р»РѕРіРѕРІР°СЏ СЃС‚Р°РІРєР° (%)
      * 
      * @param taxRate
      */
@@ -133,7 +133,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'TaxSum' element value. Сумма налога
+     * Get the 'TaxSum' element value. РЎСѓРјРјР° РЅР°Р»РѕРіР°
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'TaxSum' element value. Сумма налога
+     * Set the 'TaxSum' element value. РЎСѓРјРјР° РЅР°Р»РѕРіР°
      * 
      * @param taxSum
      */
@@ -151,7 +151,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество товара в единицах измерения
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество товара в единицах измерения
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsQuantity
      */
@@ -169,7 +169,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'InsuranceSum' element value. Страховая сумма
+     * Get the 'InsuranceSum' element value. РЎС‚СЂР°С…РѕРІР°СЏ СЃСѓРјРјР°
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'InsuranceSum' element value. Страховая сумма
+     * Set the 'InsuranceSum' element value. РЎС‚СЂР°С…РѕРІР°СЏ СЃСѓРјРјР°
      * 
      * @param insuranceSum
      */
@@ -187,7 +187,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'ServicePrice' element value. Цена (тариф) работ, услуг за единицу измерения
+     * Get the 'ServicePrice' element value. Р¦РµРЅР° (С‚Р°СЂРёС„) СЂР°Р±РѕС‚, СѓСЃР»СѓРі Р·Р° РµРґРёРЅРёС†Сѓ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'ServicePrice' element value. Цена (тариф) работ, услуг за единицу измерения
+     * Set the 'ServicePrice' element value. Р¦РµРЅР° (С‚Р°СЂРёС„) СЂР°Р±РѕС‚, СѓСЃР»СѓРі Р·Р° РµРґРёРЅРёС†Сѓ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param servicePrice
      */
@@ -205,7 +205,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'TransportCost' element value. Стоимость услуг по перевозке (транспортировке) товаров, всего без налога
+     * Get the 'TransportCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СѓСЃР»СѓРі РїРѕ РїРµСЂРµРІРѕР·РєРµ (С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ, РІСЃРµРіРѕ Р±РµР· РЅР°Р»РѕРіР°
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'TransportCost' element value. Стоимость услуг по перевозке (транспортировке) товаров, всего без налога
+     * Set the 'TransportCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СѓСЃР»СѓРі РїРѕ РїРµСЂРµРІРѕР·РєРµ (С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ, РІСЃРµРіРѕ Р±РµР· РЅР°Р»РѕРіР°
      * 
      * @param transportCost
      */
@@ -223,7 +223,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'LoadingCost' element value. Стоимость работ по погрузке перегрузке/разгрузке товаров, всего без налога
+     * Get the 'LoadingCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р±РѕС‚ РїРѕ РїРѕРіСЂСѓР·РєРµ РїРµСЂРµРіСЂСѓР·РєРµ/СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ, РІСЃРµРіРѕ Р±РµР· РЅР°Р»РѕРіР°
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'LoadingCost' element value. Стоимость работ по погрузке перегрузке/разгрузке товаров, всего без налога
+     * Set the 'LoadingCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р±РѕС‚ РїРѕ РїРѕРіСЂСѓР·РєРµ РїРµСЂРµРіСЂСѓР·РєРµ/СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ, РІСЃРµРіРѕ Р±РµР· РЅР°Р»РѕРіР°
      * 
      * @param loadingCost
      */
@@ -241,7 +241,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'ServiceCost' element value. Стоимость работ, услуг/страховой взнос, всего с учетом налога
+     * Get the 'ServiceCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р±РѕС‚, СѓСЃР»СѓРі/СЃС‚СЂР°С…РѕРІРѕР№ РІР·РЅРѕСЃ, РІСЃРµРіРѕ СЃ СѓС‡РµС‚РѕРј РЅР°Р»РѕРіР°
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'ServiceCost' element value. Стоимость работ, услуг/страховой взнос, всего с учетом налога
+     * Set the 'ServiceCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р±РѕС‚, СѓСЃР»СѓРі/СЃС‚СЂР°С…РѕРІРѕР№ РІР·РЅРѕСЃ, РІСЃРµРіРѕ СЃ СѓС‡РµС‚РѕРј РЅР°Р»РѕРіР°
      * 
      * @param serviceCost
      */

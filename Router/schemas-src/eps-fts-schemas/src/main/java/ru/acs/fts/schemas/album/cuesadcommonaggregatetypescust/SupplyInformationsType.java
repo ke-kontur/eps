@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DeliveryTermsRUType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание поставки товаров. Для РФ
+ * РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р”Р»СЏ Р Р¤
  */
 public class SupplyInformationsType
 {
@@ -20,7 +20,7 @@ public class SupplyInformationsType
     private SupplyConsigneeType supplyConsignee;
 
     /** 
-     * Get the 'OriginCountryName' element value. Страна происхождения
+     * Get the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Страна происхождения
+     * Set the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryName
      */
@@ -38,7 +38,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Get the 'CustomsCost' element value. Условная таможенная стоимость
+     * Get the 'CustomsCost' element value. РЈСЃР»РѕРІРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the 'CustomsCost' element value. Условная таможенная стоимость
+     * Set the 'CustomsCost' element value. РЈСЃР»РѕРІРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param customsCost
      */
@@ -56,7 +56,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Get the 'ContractCurrencyCode' element value. Код валюты
+     * Get the 'ContractCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the 'ContractCurrencyCode' element value. Код валюты
+     * Set the 'ContractCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param contractCurrencyCode
      */
@@ -74,7 +74,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Get the 'DeliveryTerms' element value. Условия поставки.
+     * Get the 'DeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the 'DeliveryTerms' element value. Условия поставки.
+     * Set the 'DeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @param deliveryTerms
      */
@@ -92,7 +92,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Get the list of 'GoodsQuantity' element items. Количество товара в единицах измерения.
+     * Get the list of 'GoodsQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the list of 'GoodsQuantity' element items. Количество товара в единицах измерения.
+     * Set the list of 'GoodsQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Get the 'SupplyConsignor' element value. Отправитель поставки.
+     * Get the 'SupplyConsignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the 'SupplyConsignor' element value. Отправитель поставки.
+     * Set the 'SupplyConsignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @param supplyConsignor
      */
@@ -128,7 +128,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Get the 'SupplyConsignee' element value. Получатель поставки.
+     * Get the 'SupplyConsignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class SupplyInformationsType
     }
 
     /** 
-     * Set the 'SupplyConsignee' element value. Получатель поставки.
+     * Set the 'SupplyConsignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕСЃС‚Р°РІРєРё.
      * 
      * @param supplyConsignee
      */

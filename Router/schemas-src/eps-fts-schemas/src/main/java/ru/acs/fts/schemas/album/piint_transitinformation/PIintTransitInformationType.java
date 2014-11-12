@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PresentedDocumentsType;
 
 /** 
- * Уведомление о подаче предварительных сведений. Внутренний формат
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїРѕРґР°С‡Рµ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹С… СЃРІРµРґРµРЅРёР№. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚
  */
 public class PIintTransitInformationType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class PIintTransitInformationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @param PIURN
      */
@@ -47,7 +47,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Дата составления документа
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата составления документа
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDate
      */
@@ -65,7 +65,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BrokerDocNumber' element value. Номер документа в АС брокера
+     * Get the 'BrokerDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РђРЎ Р±СЂРѕРєРµСЂР°
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BrokerDocNumber' element value. Номер документа в АС брокера
+     * Set the 'BrokerDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РђРЎ Р±СЂРѕРєРµСЂР°
      * 
      * @param brokerDocNumber
      */
@@ -83,7 +83,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderCustomsCode' element value. Код таможни на границе
+     * Get the 'BorderCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РЅРё РЅР° РіСЂР°РЅРёС†Рµ
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderCustomsCode' element value. Код таможни на границе
+     * Set the 'BorderCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РЅРё РЅР° РіСЂР°РЅРёС†Рµ
      * 
      * @param borderCustomsCode
      */
@@ -101,7 +101,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderCustomsName' element value. Наименование таможни на границе
+     * Get the 'BorderCustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РЅРё РЅР° РіСЂР°РЅРёС†Рµ
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderCustomsName' element value. Наименование таможни на границе
+     * Set the 'BorderCustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РЅРё РЅР° РіСЂР°РЅРёС†Рµ
      * 
      * @param borderCustomsName
      */
@@ -119,7 +119,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpectArriveDate' element value. Ожидаемая дата прибытия на пункт пропуска
+     * Get the 'ExpectArriveDate' element value. РћР¶РёРґР°РµРјР°СЏ РґР°С‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpectArriveDate' element value. Ожидаемая дата прибытия на пункт пропуска
+     * Set the 'ExpectArriveDate' element value. РћР¶РёРґР°РµРјР°СЏ РґР°С‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param expectArriveDate
      */
@@ -137,7 +137,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpectArriveTime' element value. Ожидаемое время прибытия на пункт пропуска
+     * Get the 'ExpectArriveTime' element value. РћР¶РёРґР°РµРјРѕРµ РІСЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ РЅР° РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpectArriveTime' element value. Ожидаемое время прибытия на пункт пропуска
+     * Set the 'ExpectArriveTime' element value. РћР¶РёРґР°РµРјРѕРµ РІСЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ РЅР° РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param expectArriveTime
      */
@@ -155,7 +155,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -173,7 +173,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -191,7 +191,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsInformation' element value. Информация о перевозимых товарах
+     * Get the 'GoodsInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsInformation' element value. Информация о перевозимых товарах
+     * Set the 'GoodsInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
      * 
      * @param goodsInformation
      */
@@ -209,7 +209,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'LicenceDocument' element items. Сведения о документах обеспечения уплаты, лицензиях на перевозку товаров
+     * Get the list of 'LicenceDocument' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹, Р»РёС†РµРЅР·РёСЏС… РЅР° РїРµСЂРµРІРѕР·РєСѓ С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -218,7 +218,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'LicenceDocument' element items. Сведения о документах обеспечения уплаты, лицензиях на перевозку товаров
+     * Set the list of 'LicenceDocument' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹, Р»РёС†РµРЅР·РёСЏС… РЅР° РїРµСЂРµРІРѕР·РєСѓ С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -227,7 +227,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Principal' element value. Доверитель
+     * Get the 'Principal' element value. Р”РѕРІРµСЂРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Principal' element value. Доверитель
+     * Set the 'Principal' element value. Р”РѕРІРµСЂРёС‚РµР»СЊ
      * 
      * @param principal
      */
@@ -245,7 +245,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShippingInformation' element value. Информация о перевозке груза
+     * Get the 'ShippingInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShippingInformation' element value. Информация о перевозке груза
+     * Set the 'ShippingInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РіСЂСѓР·Р°
      * 
      * @param shippingInformation
      */
@@ -264,7 +264,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Грузоотправитель
+     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Грузоотправитель
+     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param consignor
      */
@@ -282,7 +282,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -291,7 +291,7 @@ public class PIintTransitInformationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о дублировании ДТ/Обязательства о подаче ДТ в таможенный  орган
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РґСѓР±Р»РёСЂРѕРІР°РЅРёРё Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ Р”Рў РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№  РѕСЂРіР°РЅ
  */
 public class DuplicationDTType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class DuplicationDTType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProcedureID' element value. Идентификатор процедуры, в которой найдена ранее зарегистрированная ДТ/Обязательство о подаче ДТ в таможенный  орган
+     * Get the 'ProcedureID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹, РІ РєРѕС‚РѕСЂРѕР№ РЅР°Р№РґРµРЅР° СЂР°РЅРµРµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅР°СЏ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРґР°С‡Рµ Р”Рў РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№  РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcedureID' element value. Идентификатор процедуры, в которой найдена ранее зарегистрированная ДТ/Обязательство о подаче ДТ в таможенный  орган
+     * Set the 'ProcedureID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹, РІ РєРѕС‚РѕСЂРѕР№ РЅР°Р№РґРµРЅР° СЂР°РЅРµРµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅР°СЏ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРґР°С‡Рµ Р”Рў РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№  РѕСЂРіР°РЅ
      * 
      * @param procedureID
      */
@@ -36,7 +36,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationID' element value. Уникальный идентификатор ДТ/Обязательства о подаче ДТ в таможенный  орган (DocumentID), которая(ое) была(о) ранее зарегистрирована(о)
+     * Get the 'DeclarationID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ Р”Рў РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№  РѕСЂРіР°РЅ (DocumentID), РєРѕС‚РѕСЂР°СЏ(РѕРµ) Р±С‹Р»Р°(Рѕ) СЂР°РЅРµРµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅР°(Рѕ)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationID' element value. Уникальный идентификатор ДТ/Обязательства о подаче ДТ в таможенный  орган (DocumentID), которая(ое) была(о) ранее зарегистрирована(о)
+     * Set the 'DeclarationID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ Р”Рў РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№  РѕСЂРіР°РЅ (DocumentID), РєРѕС‚РѕСЂР°СЏ(РѕРµ) Р±С‹Р»Р°(Рѕ) СЂР°РЅРµРµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅР°(Рѕ)
      * 
      * @param declarationID
      */
@@ -54,7 +54,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DubleDateTime' element value. Дата и время выявления информации о дублировании
+     * Get the 'DubleDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РІС‹СЏРІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґСѓР±Р»РёСЂРѕРІР°РЅРёРё
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DubleDateTime' element value. Дата и время выявления информации о дублировании
+     * Set the 'DubleDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РІС‹СЏРІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґСѓР±Р»РёСЂРѕРІР°РЅРёРё
      * 
      * @param dubleDateTime
      */
@@ -72,7 +72,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTRegNumber' element value. Регистрационный номер ДТ/Обязательства о подаче ДТ, зарегистрированной(ого) ранее в ТО
+     * Get the 'DTRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ Р”Рў, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№(РѕРіРѕ) СЂР°РЅРµРµ РІ РўРћ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTRegNumber' element value. Регистрационный номер ДТ/Обязательства о подаче ДТ, зарегистрированной(ого) ранее в ТО
+     * Set the 'DTRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ Р”Рў, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№(РѕРіРѕ) СЂР°РЅРµРµ РІ РўРћ
      * 
      * @param DTRegNumber
      */
@@ -90,7 +90,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Сведения о должностном лице.
+     * Get the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ.
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Сведения о должностном лице.
+     * Set the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ.
      * 
      * @param customsPerson
      */
@@ -108,7 +108,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class DuplicationDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

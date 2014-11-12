@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateexcerpt;
 
 /** 
- * Сведения об организации запрашивающей сведения
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё Р·Р°РїСЂР°С€РёРІР°СЋС‰РµР№ СЃРІРµРґРµРЅРёСЏ
  */
 public class RequestPersonType extends OwnerType
 {
@@ -11,7 +11,7 @@ public class RequestPersonType extends OwnerType
     private OwnerType agent;
 
     /** 
-     * Get the 'PersonKind' element value. Вид заявителя
+     * Get the 'PersonKind' element value. Р’РёРґ Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RequestPersonType extends OwnerType
     }
 
     /** 
-     * Set the 'PersonKind' element value. Вид заявителя
+     * Set the 'PersonKind' element value. Р’РёРґ Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @param personKind
      */
@@ -29,7 +29,7 @@ public class RequestPersonType extends OwnerType
     }
 
     /** 
-     * Get the 'IdentificationSign' element value. Признак подтверждения личности заявителя
+     * Get the 'IdentificationSign' element value. РџСЂРёР·РЅР°Рє РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ Р»РёС‡РЅРѕСЃС‚Рё Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RequestPersonType extends OwnerType
     }
 
     /** 
-     * Set the 'IdentificationSign' element value. Признак подтверждения личности заявителя
+     * Set the 'IdentificationSign' element value. РџСЂРёР·РЅР°Рє РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ Р»РёС‡РЅРѕСЃС‚Рё Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @param identificationSign
      */
@@ -47,7 +47,7 @@ public class RequestPersonType extends OwnerType
     }
 
     /** 
-     * Get the 'Agent' element value. Доверенное лицо
+     * Get the 'Agent' element value. Р”РѕРІРµСЂРµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RequestPersonType extends OwnerType
     }
 
     /** 
-     * Set the 'Agent' element value. Доверенное лицо
+     * Set the 'Agent' element value. Р”РѕРІРµСЂРµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @param agent
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * Сведения товарах с изменным статусом
+ * РЎРІРµРґРµРЅРёСЏ С‚РѕРІР°СЂР°С… СЃ РёР·РјРµРЅРЅС‹Рј СЃС‚Р°С‚СѓСЃРѕРј
  */
 public class StatusDisguiseGoodsType
 {
@@ -10,7 +10,7 @@ public class StatusDisguiseGoodsType
     private String lostGoodsQuantity;
 
     /** 
-     * Get the 'OEZClosedQuantity' element value. Количество товара, в отношении которых таможенная процедура СТЗ завершена при прекращении функционирования ОЭЗ
+     * Get the 'OEZClosedQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… С‚Р°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР° РЎРўР— Р·Р°РІРµСЂС€РµРЅР° РїСЂРё РїСЂРµРєСЂР°С‰РµРЅРёРё С„СѓРЅРєС†РёРѕРЅРёСЂРѕРІР°РЅРёСЏ РћР­Р—
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class StatusDisguiseGoodsType
     }
 
     /** 
-     * Set the 'OEZClosedQuantity' element value. Количество товара, в отношении которых таможенная процедура СТЗ завершена при прекращении функционирования ОЭЗ
+     * Set the 'OEZClosedQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… С‚Р°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР° РЎРўР— Р·Р°РІРµСЂС€РµРЅР° РїСЂРё РїСЂРµРєСЂР°С‰РµРЅРёРё С„СѓРЅРєС†РёРѕРЅРёСЂРѕРІР°РЅРёСЏ РћР­Р—
      * 
      * @param OEZClosedQuantity
      */
@@ -28,7 +28,7 @@ public class StatusDisguiseGoodsType
     }
 
     /** 
-     * Get the 'LostGoodsQuantity' element value. Количество товара, использованное  согласно целям ввоза
+     * Get the 'LostGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ  СЃРѕРіР»Р°СЃРЅРѕ С†РµР»СЏРј РІРІРѕР·Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class StatusDisguiseGoodsType
     }
 
     /** 
-     * Set the 'LostGoodsQuantity' element value. Количество товара, использованное  согласно целям ввоза
+     * Set the 'LostGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ  СЃРѕРіР»Р°СЃРЅРѕ С†РµР»СЏРј РІРІРѕР·Р°
      * 
      * @param lostGoodsQuantity
      */

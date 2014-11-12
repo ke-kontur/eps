@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Заключение таможенного эксперта
+ * Р—Р°РєР»СЋС‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
  */
 public class CustOpinionType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class CustOpinionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegNumber' element value. Номер заключения таможенного эксперта
+     * Get the 'RegNumber' element value. РќРѕРјРµСЂ Р·Р°РєР»СЋС‡РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. Номер заключения таможенного эксперта
+     * Set the 'RegNumber' element value. РќРѕРјРµСЂ Р·Р°РєР»СЋС‡РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @param regNumber
      */
@@ -49,7 +49,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CityName' element value. Наименование города
+     * Get the 'CityName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіРѕСЂРѕРґР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CityName' element value. Наименование города
+     * Set the 'CityName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіРѕСЂРѕРґР°
      * 
      * @param cityName
      */
@@ -67,7 +67,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateTimeStart' element value. Начало экспертизы
+     * Get the 'DateTimeStart' element value. РќР°С‡Р°Р»Рѕ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateTimeStart' element value. Начало экспертизы
+     * Set the 'DateTimeStart' element value. РќР°С‡Р°Р»Рѕ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @param dateTimeStart
      */
@@ -85,7 +85,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateTimeEnd' element value. Окончание экспертизы
+     * Get the 'DateTimeEnd' element value. РћРєРѕРЅС‡Р°РЅРёРµ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateTimeEnd' element value. Окончание экспертизы
+     * Set the 'DateTimeEnd' element value. РћРєРѕРЅС‡Р°РЅРёРµ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @param dateTimeEnd
      */
@@ -103,7 +103,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'FIOExpert' element value. ФИО эксперта
+     * Get the 'FIOExpert' element value. Р¤РРћ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'FIOExpert' element value. ФИО эксперта
+     * Set the 'FIOExpert' element value. Р¤РРћ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @param FIOExpert
      */
@@ -121,7 +121,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Qualification' element value. Квалификация эксперта
+     * Get the 'Qualification' element value. РљРІР°Р»РёС„РёРєР°С†РёСЏ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Qualification' element value. Квалификация эксперта
+     * Set the 'Qualification' element value. РљРІР°Р»РёС„РёРєР°С†РёСЏ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @param qualification
      */
@@ -139,7 +139,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpertExperience' element value. Экспертный стаж. (лет)
+     * Get the 'ExpertExperience' element value. Р­РєСЃРїРµСЂС‚РЅС‹Р№ СЃС‚Р°Р¶. (Р»РµС‚)
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpertExperience' element value. Экспертный стаж. (лет)
+     * Set the 'ExpertExperience' element value. Р­РєСЃРїРµСЂС‚РЅС‹Р№ СЃС‚Р°Р¶. (Р»РµС‚)
      * 
      * @param expertExperience
      */
@@ -157,7 +157,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Questions' element items. Вопросы, поставленные на разрешение таможенного эксперта
+     * Get the list of 'Questions' element items. Р’РѕРїСЂРѕСЃС‹, РїРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РЅР° СЂР°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @return list
      */
@@ -166,7 +166,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Questions' element items. Вопросы, поставленные на разрешение таможенного эксперта
+     * Set the list of 'Questions' element items. Р’РѕРїСЂРѕСЃС‹, РїРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РЅР° СЂР°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @param list
      */
@@ -175,7 +175,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Presentation' element items. Сведения о предоставление необходимого для таможенной экспертизы
+     * Get the list of 'Presentation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РЅРµРѕР±С…РѕРґРёРјРѕРіРѕ РґР»СЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @return list
      */
@@ -184,7 +184,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Presentation' element items. Сведения о предоставление необходимого для таможенной экспертизы
+     * Set the list of 'Presentation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РЅРµРѕР±С…РѕРґРёРјРѕРіРѕ РґР»СЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @param list
      */
@@ -193,7 +193,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InspectionAccount' element items. Внешний осмотр и оценка исходных данных
+     * Get the list of 'InspectionAccount' element items. Р’РЅРµС€РЅРёР№ РѕСЃРјРѕС‚СЂ Рё РѕС†РµРЅРєР° РёСЃС…РѕРґРЅС‹С… РґР°РЅРЅС‹С…
      * 
      * @return list
      */
@@ -202,7 +202,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InspectionAccount' element items. Внешний осмотр и оценка исходных данных
+     * Set the list of 'InspectionAccount' element items. Р’РЅРµС€РЅРёР№ РѕСЃРјРѕС‚СЂ Рё РѕС†РµРЅРєР° РёСЃС…РѕРґРЅС‹С… РґР°РЅРЅС‹С…
      * 
      * @param list
      */
@@ -211,7 +211,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Examination' element items. Исследование (с указанием примененных методов, материалов и документов, иллюстрирующих заключение таможенного эксперта, оценка результатов исследований)
+     * Get the list of 'Examination' element items. РСЃСЃР»РµРґРѕРІР°РЅРёРµ (СЃ СѓРєР°Р·Р°РЅРёРµРј РїСЂРёРјРµРЅРµРЅРЅС‹С… РјРµС‚РѕРґРѕРІ, РјР°С‚РµСЂРёР°Р»РѕРІ Рё РґРѕРєСѓРјРµРЅС‚РѕРІ, РёР»Р»СЋСЃС‚СЂРёСЂСѓСЋС‰РёС… Р·Р°РєР»СЋС‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°, РѕС†РµРЅРєР° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёСЃСЃР»РµРґРѕРІР°РЅРёР№)
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Examination' element items. Исследование (с указанием примененных методов, материалов и документов, иллюстрирующих заключение таможенного эксперта, оценка результатов исследований)
+     * Set the list of 'Examination' element items. РСЃСЃР»РµРґРѕРІР°РЅРёРµ (СЃ СѓРєР°Р·Р°РЅРёРµРј РїСЂРёРјРµРЅРµРЅРЅС‹С… РјРµС‚РѕРґРѕРІ, РјР°С‚РµСЂРёР°Р»РѕРІ Рё РґРѕРєСѓРјРµРЅС‚РѕРІ, РёР»Р»СЋСЃС‚СЂРёСЂСѓСЋС‰РёС… Р·Р°РєР»СЋС‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°, РѕС†РµРЅРєР° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёСЃСЃР»РµРґРѕРІР°РЅРёР№)
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SynthesizingPortion' element items. Синтезирующая часть (в комплексных экспертизах при необходимости)
+     * Get the list of 'SynthesizingPortion' element items. РЎРёРЅС‚РµР·РёСЂСѓСЋС‰Р°СЏ С‡Р°СЃС‚СЊ (РІ РєРѕРјРїР»РµРєСЃРЅС‹С… СЌРєСЃРїРµСЂС‚РёР·Р°С… РїСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё)
      * 
      * @return list
      */
@@ -238,7 +238,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SynthesizingPortion' element items. Синтезирующая часть (в комплексных экспертизах при необходимости)
+     * Set the list of 'SynthesizingPortion' element items. РЎРёРЅС‚РµР·РёСЂСѓСЋС‰Р°СЏ С‡Р°СЃС‚СЊ (РІ РєРѕРјРїР»РµРєСЃРЅС‹С… СЌРєСЃРїРµСЂС‚РёР·Р°С… РїСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё)
      * 
      * @param list
      */
@@ -247,7 +247,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Conclusions' element items. Выводы
+     * Get the list of 'Conclusions' element items. Р’С‹РІРѕРґС‹
      * 
      * @return list
      */
@@ -256,7 +256,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Conclusions' element items. Выводы
+     * Set the list of 'Conclusions' element items. Р’С‹РІРѕРґС‹
      * 
      * @param list
      */
@@ -265,7 +265,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpertCertificate' element value. Экспертное свидетельство
+     * Get the 'ExpertCertificate' element value. Р­РєСЃРїРµСЂС‚РЅРѕРµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpertCertificate' element value. Экспертное свидетельство
+     * Set the 'ExpertCertificate' element value. Р­РєСЃРїРµСЂС‚РЅРѕРµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @param expertCertificate
      */
@@ -283,7 +283,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Commission' element value. Поручение
+     * Get the 'Commission' element value. РџРѕСЂСѓС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Commission' element value. Поручение
+     * Set the 'Commission' element value. РџРѕСЂСѓС‡РµРЅРёРµ
      * 
      * @param commission
      */
@@ -301,7 +301,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ExpertSignature' element items. Подпись таможенного эксперта
+     * Get the list of 'ExpertSignature' element items. РџРѕРґРїРёСЃСЊ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @return list
      */
@@ -310,7 +310,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExpertSignature' element items. Подпись таможенного эксперта
+     * Set the list of 'ExpertSignature' element items. РџРѕРґРїРёСЃСЊ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЌРєСЃРїРµСЂС‚Р°
      * 
      * @param list
      */
@@ -319,7 +319,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -328,7 +328,7 @@ public class CustOpinionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

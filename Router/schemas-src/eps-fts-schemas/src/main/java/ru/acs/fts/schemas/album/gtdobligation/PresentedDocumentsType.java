@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Представляемые документы
+ * РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class PresentedDocumentsType extends DocumentBaseType
 {
@@ -16,7 +16,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     private String addPaymentCode;
 
     /** 
-     * Get the 'DocSign' element value. Признак: 1 - документы, позволяющие идентифицировать товары; 2 - документы, подтверждающий соблюдение ограничений, установленных законодательством РФ о регулировании внешнеторговой деятельности; 3 - документы, свидетельствующие об уплате/обеспечении уплаты таможенных платежей
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє: 1 - РґРѕРєСѓРјРµРЅС‚С‹, РїРѕР·РІРѕР»СЏСЋС‰РёРµ РёРґРµРЅС‚РёС„РёС†РёСЂРѕРІР°С‚СЊ С‚РѕРІР°СЂС‹; 2 - РґРѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕР±Р»СЋРґРµРЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёР№, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹С… Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј Р Р¤ Рѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёРё РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё; 3 - РґРѕРєСѓРјРµРЅС‚С‹, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РёРµ РѕР± СѓРїР»Р°С‚Рµ/РѕР±РµСЃРїРµС‡РµРЅРёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак: 1 - документы, позволяющие идентифицировать товары; 2 - документы, подтверждающий соблюдение ограничений, установленных законодательством РФ о регулировании внешнеторговой деятельности; 3 - документы, свидетельствующие об уплате/обеспечении уплаты таможенных платежей
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє: 1 - РґРѕРєСѓРјРµРЅС‚С‹, РїРѕР·РІРѕР»СЏСЋС‰РёРµ РёРґРµРЅС‚РёС„РёС†РёСЂРѕРІР°С‚СЊ С‚РѕРІР°СЂС‹; 2 - РґРѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕР±Р»СЋРґРµРЅРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёР№, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹С… Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј Р Р¤ Рѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёРё РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё; 3 - РґРѕРєСѓРјРµРЅС‚С‹, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РёРµ РѕР± СѓРїР»Р°С‚Рµ/РѕР±РµСЃРїРµС‡РµРЅРёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param docSign
      */
@@ -34,7 +34,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ModeCode' element value. Код вида документа (заполняется в соответствии с классификатором видов документов, используемых при таможенном декларировании)
+     * Get the 'ModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ModeCode' element value. Код вида документа (заполняется в соответствии с классификатором видов документов, используемых при таможенном декларировании)
+     * Set the 'ModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё)
      * 
      * @param modeCode
      */
@@ -52,7 +52,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Дата окончания действия документа
+     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Дата окончания действия документа
+     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param expirationDate
      */
@@ -70,7 +70,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'AmountCustomaPay' element value. Сумма уплаты/обеспечения уплаты таможенных платежей по документу
+     * Get the 'AmountCustomaPay' element value. РЎСѓРјРјР° СѓРїР»Р°С‚С‹/РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'AmountCustomaPay' element value. Сумма уплаты/обеспечения уплаты таможенных платежей по документу
+     * Set the 'AmountCustomaPay' element value. РЎСѓРјРјР° СѓРїР»Р°С‚С‹/РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param amountCustomaPay
      */
@@ -88,7 +88,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'AddPaymentCode' element value. Код способа обеспечения уплаты таможенных пошлин, налогов
+     * Get the 'AddPaymentCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'AddPaymentCode' element value. Код способа обеспечения уплаты таможенных пошлин, налогов
+     * Set the 'AddPaymentCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @param addPaymentCode
      */

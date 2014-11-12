@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Сведения о пользователе, осуществляющем организацию любительского и спортивного рыболовства
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј РѕСЂРіР°РЅРёР·Р°С†РёСЋ Р»СЋР±РёС‚РµР»СЊСЃРєРѕРіРѕ Рё СЃРїРѕСЂС‚РёРІРЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°
  */
 public class UserInfoType extends OrganizationType
 {
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class UserInfoType extends OrganizationType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

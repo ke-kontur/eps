@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.exportdiamondscertificate;
 
 /** 
- * Уникальный номер сертификата
+ * РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
  */
 public class CertificateNumberType
 {
@@ -10,7 +10,7 @@ public class CertificateNumberType
     private String number;
 
     /** 
-     * Get the 'CountryCode' element value. Код страны
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CertificateNumberType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCode
      */
@@ -28,7 +28,7 @@ public class CertificateNumberType
     }
 
     /** 
-     * Get the 'Number' element value. Номер сертификата
+     * Get the 'Number' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CertificateNumberType
     }
 
     /** 
-     * Set the 'Number' element value. Номер сертификата
+     * Set the 'Number' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param number
      */

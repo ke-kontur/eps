@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.permissionextraction;
 
 /** 
- * Условия добычи (вылова) водных биологических ресурсов
+ * РЈСЃР»РѕРІРёСЏ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕР»РѕРіРёС‡РµСЃРєРёС… СЂРµСЃСѓСЂСЃРѕРІ
  */
 public class ConditionsExtractionType
 {
@@ -14,7 +14,7 @@ public class ConditionsExtractionType
     private String measurementUnitTime;
 
     /** 
-     * Get the 'MiningRegion' element value. Район добычи (вылова) водных биоресурсов и (или) рыбопромысловый участок
+     * Get the 'MiningRegion' element value. Р Р°Р№РѕРЅ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ Рё (РёР»Рё) СЂС‹Р±РѕРїСЂРѕРјС‹СЃР»РѕРІС‹Р№ СѓС‡Р°СЃС‚РѕРє
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Set the 'MiningRegion' element value. Район добычи (вылова) водных биоресурсов и (или) рыбопромысловый участок
+     * Set the 'MiningRegion' element value. Р Р°Р№РѕРЅ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ Рё (РёР»Рё) СЂС‹Р±РѕРїСЂРѕРјС‹СЃР»РѕРІС‹Р№ СѓС‡Р°СЃС‚РѕРє
      * 
      * @param miningRegion
      */
@@ -32,7 +32,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Get the 'TypeResources' element value. Виды водных биоресурсов
+     * Get the 'TypeResources' element value. Р’РёРґС‹ РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Set the 'TypeResources' element value. Виды водных биоресурсов
+     * Set the 'TypeResources' element value. Р’РёРґС‹ РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @param typeResources
      */
@@ -50,7 +50,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Get the 'ProductionQuota' element value. Квоты (объемы) добычи (вылова) водных биоресурсов
+     * Get the 'ProductionQuota' element value. РљРІРѕС‚С‹ (РѕР±СЉРµРјС‹) РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Set the 'ProductionQuota' element value. Квоты (объемы) добычи (вылова) водных биоресурсов
+     * Set the 'ProductionQuota' element value. РљРІРѕС‚С‹ (РѕР±СЉРµРјС‹) РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @param productionQuota
      */
@@ -68,7 +68,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Get the 'ProductionMethod' element value. Орудия, способы добычи (вылова) водных биоресурсов
+     * Get the 'ProductionMethod' element value. РћСЂСѓРґРёСЏ, СЃРїРѕСЃРѕР±С‹ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Set the 'ProductionMethod' element value. Орудия, способы добычи (вылова) водных биоресурсов
+     * Set the 'ProductionMethod' element value. РћСЂСѓРґРёСЏ, СЃРїРѕСЃРѕР±С‹ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @param productionMethod
      */
@@ -86,7 +86,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Get the 'TermExtraction' element value. Сроки добычи (вылова) водных биоресурсов
+     * Get the 'TermExtraction' element value. РЎСЂРѕРєРё РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Set the 'TermExtraction' element value. Сроки добычи (вылова) водных биоресурсов
+     * Set the 'TermExtraction' element value. РЎСЂРѕРєРё РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
      * 
      * @param termExtraction
      */
@@ -104,7 +104,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Get the 'MeasurementUnitTime' element value. Единица измерения времени
+     * Get the 'MeasurementUnitTime' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РІСЂРµРјРµРЅРё
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ConditionsExtractionType
     }
 
     /** 
-     * Set the 'MeasurementUnitTime' element value. Единица измерения времени
+     * Set the 'MeasurementUnitTime' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РІСЂРµРјРµРЅРё
      * 
      * @param measurementUnitTime
      */

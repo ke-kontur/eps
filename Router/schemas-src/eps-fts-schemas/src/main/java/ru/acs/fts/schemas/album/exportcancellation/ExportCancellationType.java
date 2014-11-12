@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.ShipmentBaseInfoType;
 
 /** 
- * Уведомление об аннулировании фактического вывоза товаров.
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ.
  */
 public class ExportCancellationType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class ExportCancellationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ExportCancelDate' element value. Дата аннулирования фактического вывоза товаров
+     * Get the 'ExportCancelDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExportCancelDate' element value. Дата аннулирования фактического вывоза товаров
+     * Set the 'ExportCancelDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ
      * 
      * @param exportCancelDate
      */
@@ -41,7 +41,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddInfo' element value. Примечания
+     * Get the 'AddInfo' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddInfo' element value. Примечания
+     * Set the 'AddInfo' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @param addInfo
      */
@@ -59,7 +59,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcessNumber' element value. Уникальный идентификатор процесса.
+     * Get the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessNumber' element value. Уникальный идентификатор процесса.
+     * Set the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
      * 
      * @param processNumber
      */
@@ -77,7 +77,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. Таможенный орган, оформивший аннулирование товаров
+     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РѕС„РѕСЂРјРёРІС€РёР№ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. Таможенный орган, оформивший аннулирование товаров
+     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РѕС„РѕСЂРјРёРІС€РёР№ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param customsOffice
      */
@@ -95,7 +95,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOfficial' element value. Сведения о должностном лице, оформившем аннулирование вывоза
+     * Get the 'CustomsOfficial' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РѕС„РѕСЂРјРёРІС€РµРј Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOfficial' element value. Сведения о должностном лице, оформившем аннулирование вывоза
+     * Set the 'CustomsOfficial' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РѕС„РѕСЂРјРёРІС€РµРј Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ РІС‹РІРѕР·Р°
      * 
      * @param customsOfficial
      */
@@ -113,7 +113,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ShipmentInfo' element items. Информация о товарной партии, вывоз по которой аннулирован
+     * Get the list of 'ShipmentInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё, РІС‹РІРѕР· РїРѕ РєРѕС‚РѕСЂРѕР№ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅ
      * 
      * @return list
      */
@@ -122,7 +122,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ShipmentInfo' element items. Информация о товарной партии, вывоз по которой аннулирован
+     * Set the list of 'ShipmentInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё, РІС‹РІРѕР· РїРѕ РєРѕС‚РѕСЂРѕР№ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅ
      * 
      * @param list
      */
@@ -131,7 +131,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ExportCancellationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

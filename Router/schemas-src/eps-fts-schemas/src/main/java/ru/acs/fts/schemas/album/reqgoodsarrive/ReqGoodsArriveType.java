@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Запрос о прибытии товаров
+ * Р—Р°РїСЂРѕСЃ Рѕ РїСЂРёР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ
  */
 public class ReqGoodsArriveType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class ReqGoodsArriveType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReqDate' element value. Дата формирования запроса
+     * Get the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Дата формирования запроса
+     * Set the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param reqDate
      */
@@ -42,7 +42,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqTime' element value. Время формирования запроса
+     * Get the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqTime' element value. Время формирования запроса
+     * Set the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
      * 
      * @param reqTime
      */
@@ -60,7 +60,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -78,7 +78,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -96,7 +96,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о товарах
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -105,7 +105,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о товарах
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -114,7 +114,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportMeanArrive' element items. Описание транспортного средства
+     * Get the list of 'TransportMeanArrive' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return list
      */
@@ -123,7 +123,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportMeanArrive' element items. Описание транспортного средства
+     * Set the list of 'TransportMeanArrive' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param list
      */
@@ -132,7 +132,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о декларанте
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о декларанте
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @param declarant
      */
@@ -150,7 +150,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class ReqGoodsArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

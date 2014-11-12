@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.mpo_declaration;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о документе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
  */
 public class DocumentInfoType extends DocumentBaseType
 {
     private String documentCode;
 
     /** 
-     * Get the 'DocumentCode' element value. Код документа (EDIFACT и UPU)
+     * Get the 'DocumentCode' element value. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° (EDIFACT Рё UPU)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. Код документа (EDIFACT и UPU)
+     * Set the 'DocumentCode' element value. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° (EDIFACT Рё UPU)
      * 
      * @param documentCode
      */

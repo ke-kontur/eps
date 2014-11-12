@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.resulttk;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения об оплате штрафа с ПК
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р° СЃ РџРљ
  */
 public class PostPenaltyType
 {
@@ -15,7 +15,7 @@ public class PostPenaltyType
     private PenaltyType penalty;
 
     /** 
-     * Get the 'IsPaid' element value. Отметка об оплате
+     * Get the 'IsPaid' element value. РћС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Set the 'IsPaid' element value. Отметка об оплате
+     * Set the 'IsPaid' element value. РћС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ
      * 
      * @param isPaid
      */
@@ -33,7 +33,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Get the 'ViolatorID' element value. Идентификатор записи в реестре нарушителей
+     * Get the 'ViolatorID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё РІ СЂРµРµСЃС‚СЂРµ РЅР°СЂСѓС€РёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Set the 'ViolatorID' element value. Идентификатор записи в реестре нарушителей
+     * Set the 'ViolatorID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё РІ СЂРµРµСЃС‚СЂРµ РЅР°СЂСѓС€РёС‚РµР»РµР№
      * 
      * @param violatorID
      */
@@ -51,7 +51,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Get the 'PenaltySum' element value. Сумма штрафа в рублях
+     * Get the 'PenaltySum' element value. РЎСѓРјРјР° С€С‚СЂР°С„Р° РІ СЂСѓР±Р»СЏС…
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Set the 'PenaltySum' element value. Сумма штрафа в рублях
+     * Set the 'PenaltySum' element value. РЎСѓРјРјР° С€С‚СЂР°С„Р° РІ СЂСѓР±Р»СЏС…
      * 
      * @param penaltySum
      */
@@ -69,7 +69,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Get the 'Resolution' element value. Постановление
+     * Get the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Set the 'Resolution' element value. Постановление
+     * Set the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
      * 
      * @param resolution
      */
@@ -87,7 +87,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Get the 'Penalty' element value. Сведения об оплате штрафа
+     * Get the 'Penalty' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class PostPenaltyType
     }
 
     /** 
-     * Set the 'Penalty' element value. Сведения об оплате штрафа
+     * Set the 'Penalty' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
      * 
      * @param penalty
      */

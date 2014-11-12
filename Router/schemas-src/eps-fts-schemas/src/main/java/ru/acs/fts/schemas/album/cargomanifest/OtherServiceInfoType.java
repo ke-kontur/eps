@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * Прочая служебная информация
+ * РџСЂРѕС‡Р°СЏ СЃР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
  */
 public class OtherServiceInfoType
 {
@@ -10,7 +10,7 @@ public class OtherServiceInfoType
     private String notice2;
 
     /** 
-     * Get the 'Notice1' element value. Примечание 1
+     * Get the 'Notice1' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 1
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class OtherServiceInfoType
     }
 
     /** 
-     * Set the 'Notice1' element value. Примечание 1
+     * Set the 'Notice1' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 1
      * 
      * @param notice1
      */
@@ -28,7 +28,7 @@ public class OtherServiceInfoType
     }
 
     /** 
-     * Get the 'Notice2' element value. Примечание 2
+     * Get the 'Notice2' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 2
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class OtherServiceInfoType
     }
 
     /** 
-     * Set the 'Notice2' element value. Примечание 2
+     * Set the 'Notice2' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 2
      * 
      * @param notice2
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.warehousecommonleaftypescust.WareHouseCertificateKind;
 
 /** 
- * Комплексный тип для описания документа, на основании которого осуществляет свою деятельность владелец склада
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚ СЃРІРѕСЋ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РІР»Р°РґРµР»РµС† СЃРєР»Р°РґР°
  */
 public class WarehouseCertificateType
 {
@@ -14,7 +14,7 @@ public class WarehouseCertificateType
     private LocalDate certificateDate;
 
     /** 
-     * Get the 'CertificateKind' element value. Вид документа, на основании которого осуществляет свою деятельность владелец склада
+     * Get the 'CertificateKind' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚ СЃРІРѕСЋ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РІР»Р°РґРµР»РµС† СЃРєР»Р°РґР°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WarehouseCertificateType
     }
 
     /** 
-     * Set the 'CertificateKind' element value. Вид документа, на основании которого осуществляет свою деятельность владелец склада
+     * Set the 'CertificateKind' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚ СЃРІРѕСЋ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РІР»Р°РґРµР»РµС† СЃРєР»Р°РґР°
      * 
      * @param certificateKind
      */
@@ -32,7 +32,7 @@ public class WarehouseCertificateType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии / Номер приказа о создании ЗТК
+     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё / РќРѕРјРµСЂ РїСЂРёРєР°Р·Р° Рѕ СЃРѕР·РґР°РЅРёРё Р—РўРљ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WarehouseCertificateType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии / Номер приказа о создании ЗТК
+     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё / РќРѕРјРµСЂ РїСЂРёРєР°Р·Р° Рѕ СЃРѕР·РґР°РЅРёРё Р—РўРљ
      * 
      * @param certificateNumber
      */
@@ -50,7 +50,7 @@ public class WarehouseCertificateType
     }
 
     /** 
-     * Get the 'CertificateDate' element value. Дата документа, на основании которого разрешено хранение
+     * Get the 'CertificateDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРѕ С…СЂР°РЅРµРЅРёРµ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class WarehouseCertificateType
     }
 
     /** 
-     * Set the 'CertificateDate' element value. Дата документа, на основании которого разрешено хранение
+     * Set the 'CertificateDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРѕ С…СЂР°РЅРµРЅРёРµ
      * 
      * @param certificateDate
      */

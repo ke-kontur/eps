@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Акт общей формы
+ * РђРєС‚ РѕР±С‰РµР№ С„РѕСЂРјС‹
  */
 public class ActCommonFormType extends BaseDocType
 {
@@ -33,7 +33,7 @@ public class ActCommonFormType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TrainIndex' element value. Индекс поезда
+     * Get the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'TrainIndex' element value. Индекс поезда
+     * Set the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
      * 
      * @param trainIndex
      */
@@ -51,7 +51,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'TrainNumber' element value. Номер поезда
+     * Get the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'TrainNumber' element value. Номер поезда
+     * Set the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
      * 
      * @param trainNumber
      */
@@ -69,7 +69,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Span' element value. Перегон
+     * Get the 'Span' element value. РџРµСЂРµРіРѕРЅ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Span' element value. Перегон
+     * Set the 'Span' element value. РџРµСЂРµРіРѕРЅ
      * 
      * @param span
      */
@@ -87,7 +87,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipmentNumber' element value. Номер отправки (накладной)
+     * Get the 'ShipmentNumber' element value. РќРѕРјРµСЂ РѕС‚РїСЂР°РІРєРё (РЅР°РєР»Р°РґРЅРѕР№)
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipmentNumber' element value. Номер отправки (накладной)
+     * Set the 'ShipmentNumber' element value. РќРѕРјРµСЂ РѕС‚РїСЂР°РІРєРё (РЅР°РєР»Р°РґРЅРѕР№)
      * 
      * @param shipmentNumber
      */
@@ -105,7 +105,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiptDate' element value. Дата приема груза к перевозке
+     * Get the 'ReceiptDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° РіСЂСѓР·Р° Рє РїРµСЂРµРІРѕР·РєРµ
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptDate' element value. Дата приема груза к перевозке
+     * Set the 'ReceiptDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° РіСЂСѓР·Р° Рє РїРµСЂРµРІРѕР·РєРµ
      * 
      * @param receiptDate
      */
@@ -123,7 +123,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reason' element value. Описание обстоятельств, вызвавших составление акта
+     * Get the 'Reason' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РІС‹Р·РІР°РІС€РёС… СЃРѕСЃС‚Р°РІР»РµРЅРёРµ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reason' element value. Описание обстоятельств, вызвавших составление акта
+     * Set the 'Reason' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РІС‹Р·РІР°РІС€РёС… СЃРѕСЃС‚Р°РІР»РµРЅРёРµ Р°РєС‚Р°
      * 
      * @param reason
      */
@@ -141,7 +141,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActInfo' element value. Номер и дата составления акта общей формы
+     * Get the 'ActInfo' element value. РќРѕРјРµСЂ Рё РґР°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р° РѕР±С‰РµР№ С„РѕСЂРјС‹
      * 
      * @return value
      */
@@ -150,7 +150,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActInfo' element value. Номер и дата составления акта общей формы
+     * Set the 'ActInfo' element value. РќРѕРјРµСЂ Рё РґР°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р° РѕР±С‰РµР№ С„РѕСЂРјС‹
      * 
      * @param actInfo
      */
@@ -159,7 +159,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Station' element value. Сведения о железнодорожной станции
+     * Get the 'Station' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё
      * 
      * @return value
      */
@@ -168,7 +168,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Station' element value. Сведения о железнодорожной станции
+     * Set the 'Station' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё
      * 
      * @param station
      */
@@ -177,7 +177,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -186,7 +186,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -195,7 +195,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. Станция отправления
+     * Get the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -204,7 +204,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. Станция отправления
+     * Set the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureStation
      */
@@ -213,7 +213,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DispatchStation' element value. Станция назначения
+     * Get the 'DispatchStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -222,7 +222,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DispatchStation' element value. Станция назначения
+     * Set the 'DispatchStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param dispatchStation
      */
@@ -231,7 +231,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Перечень грузов
+     * Get the list of 'Goods' element items. РџРµСЂРµС‡РµРЅСЊ РіСЂСѓР·РѕРІ
      * 
      * @return list
      */
@@ -240,7 +240,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Перечень грузов
+     * Set the list of 'Goods' element items. РџРµСЂРµС‡РµРЅСЊ РіСЂСѓР·РѕРІ
      * 
      * @param list
      */
@@ -249,7 +249,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Person' element items. Лицо, в присутствии которого составлен акт
+     * Get the list of 'Person' element items. Р›РёС†Рѕ, РІ РїСЂРёСЃСѓС‚СЃС‚РІРёРё РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅ Р°РєС‚
      * 
      * @return list
      */
@@ -258,7 +258,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Person' element items. Лицо, в присутствии которого составлен акт
+     * Set the list of 'Person' element items. Р›РёС†Рѕ, РІ РїСЂРёСЃСѓС‚СЃС‚РІРёРё РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅ Р°РєС‚
      * 
      * @param list
      */
@@ -267,7 +267,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'WayCustoms' element value. Промежуточный таможенный пост
+     * Get the 'WayCustoms' element value. РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @return value
      */
@@ -276,7 +276,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'WayCustoms' element value. Промежуточный таможенный пост
+     * Set the 'WayCustoms' element value. РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @param wayCustoms
      */
@@ -285,7 +285,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'TD' element value. Номер транзитной декларации
+     * Get the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -294,7 +294,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'TD' element value. Номер транзитной декларации
+     * Set the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param TD
      */
@@ -303,7 +303,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -312,7 +312,7 @@ public class ActCommonFormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

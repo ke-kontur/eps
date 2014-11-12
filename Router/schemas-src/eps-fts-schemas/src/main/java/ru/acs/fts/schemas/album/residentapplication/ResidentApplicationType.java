@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Заявление резидента особой экономической зоны
+ * Р—Р°СЏРІР»РµРЅРёРµ СЂРµР·РёРґРµРЅС‚Р° РѕСЃРѕР±РѕР№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ Р·РѕРЅС‹
  */
 public class ResidentApplicationType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ResidentApplicationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ApplicationType' element value. Тип документа: 0 - сведения; 1 - изменения и (или) дополнения к сведениям
+     * Get the 'ApplicationType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 0 - СЃРІРµРґРµРЅРёСЏ; 1 - РёР·РјРµРЅРµРЅРёСЏ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёСЏ Рє СЃРІРµРґРµРЅРёСЏРј
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationType' element value. Тип документа: 0 - сведения; 1 - изменения и (или) дополнения к сведениям
+     * Set the 'ApplicationType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 0 - СЃРІРµРґРµРЅРёСЏ; 1 - РёР·РјРµРЅРµРЅРёСЏ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёСЏ Рє СЃРІРµРґРµРЅРёСЏРј
      * 
      * @param applicationType
      */
@@ -43,7 +43,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsTreatmentYear' element value. Год таможенного режима свободной таможенной зоны
+     * Get the 'CustomsTreatmentYear' element value. Р“РѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР° СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsTreatmentYear' element value. Год таможенного режима свободной таможенной зоны
+     * Set the 'CustomsTreatmentYear' element value. Р“РѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР° СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
      * 
      * @param customsTreatmentYear
      */
@@ -61,7 +61,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Notes' element value. Служебные отметки 
+     * Get the 'Notes' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Notes' element value. Служебные отметки 
+     * Set the 'Notes' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @param notes
      */
@@ -79,7 +79,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistryNumber' element value. Регистрационный номер заявления вида ХХХХХХХХ/ХХХХХХ/ХХХХХХХ/ХХ
+     * Get the 'RegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РІРёРґР° РҐРҐРҐРҐРҐРҐРҐРҐ/РҐРҐРҐРҐРҐРҐ/РҐРҐРҐРҐРҐРҐРҐ/РҐРҐ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistryNumber' element value. Регистрационный номер заявления вида ХХХХХХХХ/ХХХХХХ/ХХХХХХХ/ХХ
+     * Set the 'RegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РІРёРґР° РҐРҐРҐРҐРҐРҐРҐРҐ/РҐРҐРҐРҐРҐРҐ/РҐРҐРҐРҐРҐРҐРҐ/РҐРҐ
      * 
      * @param registryNumber
      */
@@ -97,7 +97,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -115,7 +115,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPersonSignature' element value. ФИО и личная номерная печать таможенного инспектора 
+     * Get the 'CustomsPersonSignature' element value. Р¤РРћ Рё Р»РёС‡РЅР°СЏ РЅРѕРјРµСЂРЅР°СЏ РїРµС‡Р°С‚СЊ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РёРЅСЃРїРµРєС‚РѕСЂР° 
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPersonSignature' element value. ФИО и личная номерная печать таможенного инспектора 
+     * Set the 'CustomsPersonSignature' element value. Р¤РРћ Рё Р»РёС‡РЅР°СЏ РЅРѕРјРµСЂРЅР°СЏ РїРµС‡Р°С‚СЊ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РёРЅСЃРїРµРєС‚РѕСЂР° 
      * 
      * @param customsPersonSignature
      */
@@ -134,7 +134,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Resident' element value. Сведения о резиденте ОЭЗ 
+     * Get the 'Resident' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ РћР­Р— 
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Resident' element value. Сведения о резиденте ОЭЗ 
+     * Set the 'Resident' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ РћР­Р— 
      * 
      * @param resident
      */
@@ -152,7 +152,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResidentPersonSignature' element value. ФИО и подпись уполномоченного лица организации - резидента ОЭЗ 
+     * Get the 'ResidentPersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResidentPersonSignature' element value. ФИО и подпись уполномоченного лица организации - резидента ОЭЗ 
+     * Set the 'ResidentPersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @param residentPersonSignature
      */
@@ -171,7 +171,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActivitiesAgreement' element value. Соглашение о ведении деятельности 
+     * Get the 'ActivitiesAgreement' element value. РЎРѕРіР»Р°С€РµРЅРёРµ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActivitiesAgreement' element value. Соглашение о ведении деятельности 
+     * Set the 'ActivitiesAgreement' element value. РЎРѕРіР»Р°С€РµРЅРёРµ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
      * 
      * @param activitiesAgreement
      */
@@ -190,7 +190,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormOne' element value. Форма №1. Сведения о товарах, предполагаемых к ввозу на территорию ОЭЗ в соответствии с таможенным режимом свободной таможенной зоны, для проведения в отношении них операций, не связанных с переработкой товаров и изготовлением продуктов их переработки. 
+     * Get the 'FormOne' element value. Р¤РѕСЂРјР° в„–1. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїСЂРµРґРїРѕР»Р°РіР°РµРјС‹С… Рє РІРІРѕР·Сѓ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹, РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё РЅРёС… РѕРїРµСЂР°С†РёР№, РЅРµ СЃРІСЏР·Р°РЅРЅС‹С… СЃ РїРµСЂРµСЂР°Р±РѕС‚РєРѕР№ С‚РѕРІР°СЂРѕРІ Рё РёР·РіРѕС‚РѕРІР»РµРЅРёРµРј РїСЂРѕРґСѓРєС‚РѕРІ РёС… РїРµСЂРµСЂР°Р±РѕС‚РєРё. 
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormOne' element value. Форма №1. Сведения о товарах, предполагаемых к ввозу на территорию ОЭЗ в соответствии с таможенным режимом свободной таможенной зоны, для проведения в отношении них операций, не связанных с переработкой товаров и изготовлением продуктов их переработки. 
+     * Set the 'FormOne' element value. Р¤РѕСЂРјР° в„–1. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїСЂРµРґРїРѕР»Р°РіР°РµРјС‹С… Рє РІРІРѕР·Сѓ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹, РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё РЅРёС… РѕРїРµСЂР°С†РёР№, РЅРµ СЃРІСЏР·Р°РЅРЅС‹С… СЃ РїРµСЂРµСЂР°Р±РѕС‚РєРѕР№ С‚РѕРІР°СЂРѕРІ Рё РёР·РіРѕС‚РѕРІР»РµРЅРёРµРј РїСЂРѕРґСѓРєС‚РѕРІ РёС… РїРµСЂРµСЂР°Р±РѕС‚РєРё. 
      * 
      * @param formOne
      */
@@ -208,7 +208,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormTwo' element value. Форма №2. Сведения о товарах, предполагаемых к ввозу на территорию ОЭЗ в соответствии с таможенным режимом свободной таможенной зоны с целью переработки товаров, о продуктах переработки и отходах 
+     * Get the 'FormTwo' element value. Р¤РѕСЂРјР° в„–2. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїСЂРµРґРїРѕР»Р°РіР°РµРјС‹С… Рє РІРІРѕР·Сѓ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ СЃ С†РµР»СЊСЋ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ, Рѕ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґР°С… 
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormTwo' element value. Форма №2. Сведения о товарах, предполагаемых к ввозу на территорию ОЭЗ в соответствии с таможенным режимом свободной таможенной зоны с целью переработки товаров, о продуктах переработки и отходах 
+     * Set the 'FormTwo' element value. Р¤РѕСЂРјР° в„–2. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїСЂРµРґРїРѕР»Р°РіР°РµРјС‹С… Рє РІРІРѕР·Сѓ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ СЃ С†РµР»СЊСЋ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ, Рѕ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґР°С… 
      * 
      * @param formTwo
      */
@@ -226,7 +226,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class ResidentApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о частичном платеже
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј РїР»Р°С‚РµР¶Рµ
  */
 public class PartPaymentType
 {
@@ -17,7 +17,7 @@ public class PartPaymentType
     private PersonBaseType partPaymentSign;
 
     /** 
-     * Get the 'PartPaymentNum' element value. Номер частичного платежа
+     * Get the 'PartPaymentNum' element value. РќРѕРјРµСЂ С‡Р°СЃС‚РёС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Set the 'PartPaymentNum' element value. Номер частичного платежа
+     * Set the 'PartPaymentNum' element value. РќРѕРјРµСЂ С‡Р°СЃС‚РёС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @param partPaymentNum
      */
@@ -35,7 +35,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Get the 'PartPaymentPP' element value. Номер платежного ордера
+     * Get the 'PartPaymentPP' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РѕСЂРґРµСЂР°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Set the 'PartPaymentPP' element value. Номер платежного ордера
+     * Set the 'PartPaymentPP' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РѕСЂРґРµСЂР°
      * 
      * @param partPaymentPP
      */
@@ -53,7 +53,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Get the 'PartPaymentPPDate' element value. Дата платежного ордера
+     * Get the 'PartPaymentPPDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РѕСЂРґРµСЂР°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Set the 'PartPaymentPPDate' element value. Дата платежного ордера
+     * Set the 'PartPaymentPPDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РѕСЂРґРµСЂР°
      * 
      * @param partPaymentPPDate
      */
@@ -71,7 +71,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Get the 'PartPaymentSumm' element value. Сумма частичного платежа
+     * Get the 'PartPaymentSumm' element value. РЎСѓРјРјР° С‡Р°СЃС‚РёС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Set the 'PartPaymentSumm' element value. Сумма частичного платежа
+     * Set the 'PartPaymentSumm' element value. РЎСѓРјРјР° С‡Р°СЃС‚РёС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @param partPaymentSumm
      */
@@ -89,7 +89,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Get the 'Remainder' element value. Сумма остатка платежа
+     * Get the 'Remainder' element value. РЎСѓРјРјР° РѕСЃС‚Р°С‚РєР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Set the 'Remainder' element value. Сумма остатка платежа
+     * Set the 'Remainder' element value. РЎСѓРјРјР° РѕСЃС‚Р°С‚РєР° РїР»Р°С‚РµР¶Р°
      * 
      * @param remainder
      */
@@ -107,7 +107,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Get the 'PartPaymentSign' element value. Подпись должностного лица, поставившего запись о частичном платеже
+     * Get the 'PartPaymentSign' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј РїР»Р°С‚РµР¶Рµ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class PartPaymentType
     }
 
     /** 
-     * Set the 'PartPaymentSign' element value. Подпись должностного лица, поставившего запись о частичном платеже
+     * Set the 'PartPaymentSign' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј РїР»Р°С‚РµР¶Рµ
      * 
      * @param partPaymentSign
      */

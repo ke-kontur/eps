@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о производителе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
  */
 public class ManufacturerType extends OrganizationBaseType
 {
     private AddressType manufacturerAddress;
 
     /** 
-     * Get the 'ManufacturerAddress' element value. Адрес производителя
+     * Get the 'ManufacturerAddress' element value. РђРґСЂРµСЃ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ManufacturerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ManufacturerAddress' element value. Адрес производителя
+     * Set the 'ManufacturerAddress' element value. РђРґСЂРµСЃ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
      * 
      * @param manufacturerAddress
      */

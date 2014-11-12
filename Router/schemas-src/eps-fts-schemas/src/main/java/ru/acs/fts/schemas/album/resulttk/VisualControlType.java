@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения из визуального контроля
+ * РЎРІРµРґРµРЅРёСЏ РёР· РІРёР·СѓР°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
  */
 public class VisualControlType
 {
@@ -23,7 +23,7 @@ public class VisualControlType
     private List<CheckViolationType> requirementList = new ArrayList<CheckViolationType>();
 
     /** 
-     * Get the 'ShipmentType' element value. Вид перевозки (CONVEY - Перевозка пассажиров; NO_PASSENGER - Без пассажиров; NO_CARGO - Без груза; FREIGHT - Перевозка грузов)
+     * Get the 'ShipmentType' element value. Р’РёРґ РїРµСЂРµРІРѕР·РєРё (CONVEY - РџРµСЂРµРІРѕР·РєР° РїР°СЃСЃР°Р¶РёСЂРѕРІ; NO_PASSENGER - Р‘РµР· РїР°СЃСЃР°Р¶РёСЂРѕРІ; NO_CARGO - Р‘РµР· РіСЂСѓР·Р°; FREIGHT - РџРµСЂРµРІРѕР·РєР° РіСЂСѓР·РѕРІ)
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'ShipmentType' element value. Вид перевозки (CONVEY - Перевозка пассажиров; NO_PASSENGER - Без пассажиров; NO_CARGO - Без груза; FREIGHT - Перевозка грузов)
+     * Set the 'ShipmentType' element value. Р’РёРґ РїРµСЂРµРІРѕР·РєРё (CONVEY - РџРµСЂРµРІРѕР·РєР° РїР°СЃСЃР°Р¶РёСЂРѕРІ; NO_PASSENGER - Р‘РµР· РїР°СЃСЃР°Р¶РёСЂРѕРІ; NO_CARGO - Р‘РµР· РіСЂСѓР·Р°; FREIGHT - РџРµСЂРµРІРѕР·РєР° РіСЂСѓР·РѕРІ)
      * 
      * @param shipmentType
      */
@@ -41,7 +41,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'TripKind' element value. Вид поездки (REGULAR - Регулярная; IRREGULAR - Нерегулярная)
+     * Get the 'TripKind' element value. Р’РёРґ РїРѕРµР·РґРєРё (REGULAR - Р РµРіСѓР»СЏСЂРЅР°СЏ; IRREGULAR - РќРµСЂРµРіСѓР»СЏСЂРЅР°СЏ)
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'TripKind' element value. Вид поездки (REGULAR - Регулярная; IRREGULAR - Нерегулярная)
+     * Set the 'TripKind' element value. Р’РёРґ РїРѕРµР·РґРєРё (REGULAR - Р РµРіСѓР»СЏСЂРЅР°СЏ; IRREGULAR - РќРµСЂРµРіСѓР»СЏСЂРЅР°СЏ)
      * 
      * @param tripKind
      */
@@ -59,7 +59,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'IsTG' element value. Признак тяжеловесного груза
+     * Get the 'IsTG' element value. РџСЂРёР·РЅР°Рє С‚СЏР¶РµР»РѕРІРµСЃРЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'IsTG' element value. Признак тяжеловесного груза
+     * Set the 'IsTG' element value. РџСЂРёР·РЅР°Рє С‚СЏР¶РµР»РѕРІРµСЃРЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @param isTG
      */
@@ -77,7 +77,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'IsKG' element value. Признак крупно-габаритного груза
+     * Get the 'IsKG' element value. РџСЂРёР·РЅР°Рє РєСЂСѓРїРЅРѕ-РіР°Р±Р°СЂРёС‚РЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'IsKG' element value. Признак крупно-габаритного груза
+     * Set the 'IsKG' element value. РџСЂРёР·РЅР°Рє РєСЂСѓРїРЅРѕ-РіР°Р±Р°СЂРёС‚РЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @param isKG
      */
@@ -95,7 +95,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'IsOG' element value. Признак опасного груза
+     * Get the 'IsOG' element value. РџСЂРёР·РЅР°Рє РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'IsOG' element value. Признак опасного груза
+     * Set the 'IsOG' element value. РџСЂРёР·РЅР°Рє РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @param isOG
      */
@@ -113,7 +113,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'IsSPS' element value. Признак скоропортящегося груза
+     * Get the 'IsSPS' element value. РџСЂРёР·РЅР°Рє СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РµРіРѕСЃСЏ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'IsSPS' element value. Признак скоропортящегося груза
+     * Set the 'IsSPS' element value. РџСЂРёР·РЅР°Рє СЃРєРѕСЂРѕРїРѕСЂС‚СЏС‰РµРіРѕСЃСЏ РіСЂСѓР·Р°
      * 
      * @param isSPS
      */
@@ -131,7 +131,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'IsMAP' element value. Признак международной автомобильной перевозки
+     * Get the 'IsMAP' element value. РџСЂРёР·РЅР°Рє РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'IsMAP' element value. Признак международной автомобильной перевозки
+     * Set the 'IsMAP' element value. РџСЂРёР·РЅР°Рє РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @param isMAP
      */
@@ -149,7 +149,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'PassengerCount' element value. Количество пассажиров
+     * Get the 'PassengerCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'PassengerCount' element value. Количество пассажиров
+     * Set the 'PassengerCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ
      * 
      * @param passengerCount
      */
@@ -167,7 +167,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'IsTransit' element value. Признак транзитной поездки
+     * Get the 'IsTransit' element value. РџСЂРёР·РЅР°Рє С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРѕРµР·РґРєРё
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'IsTransit' element value. Признак транзитной поездки
+     * Set the 'IsTransit' element value. РџСЂРёР·РЅР°Рє С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРѕРµР·РґРєРё
      * 
      * @param isTransit
      */
@@ -185,7 +185,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the 'CargoTypeName' element value. Код товара по ТН ВЭД
+     * Get the 'CargoTypeName' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р”
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the 'CargoTypeName' element value. Код товара по ТН ВЭД
+     * Set the 'CargoTypeName' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р”
      * 
      * @param cargoTypeName
      */
@@ -203,7 +203,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the list of 'Trailer' element items. Регистрационные данные первого прицепа
+     * Get the list of 'Trailer' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РїРµСЂРІРѕРіРѕ РїСЂРёС†РµРїР°
      * 
      * @return list
      */
@@ -212,7 +212,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the list of 'Trailer' element items. Регистрационные данные первого прицепа
+     * Set the list of 'Trailer' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РїРµСЂРІРѕРіРѕ РїСЂРёС†РµРїР°
      * 
      * @param list
      */
@@ -221,7 +221,7 @@ public class VisualControlType
     }
 
     /** 
-     * Get the list of 'Requirement' element items. Сведения о наличии/соответствии/выполнении требования/условия
+     * Get the list of 'Requirement' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё/СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё/РІС‹РїРѕР»РЅРµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ/СѓСЃР»РѕРІРёСЏ
      * 
      * @return list
      */
@@ -230,7 +230,7 @@ public class VisualControlType
     }
 
     /** 
-     * Set the list of 'Requirement' element items. Сведения о наличии/соответствии/выполнении требования/условия
+     * Set the list of 'Requirement' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё/СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё/РІС‹РїРѕР»РЅРµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ/СѓСЃР»РѕРІРёСЏ
      * 
      * @param list
      */

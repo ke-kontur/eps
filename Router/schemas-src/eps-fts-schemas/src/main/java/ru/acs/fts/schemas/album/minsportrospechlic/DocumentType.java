@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документ
+ * Р”РѕРєСѓРјРµРЅС‚
  */
 public class DocumentType
 {
@@ -22,7 +22,7 @@ public class DocumentType
     private ConfirmationType confirmation;
 
     /** 
-     * Get the 'IsCanceled' element value. Признак прекращения действия документа
+     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. Признак прекращения действия документа
+     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param isCanceled
      */
@@ -40,7 +40,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -58,7 +58,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. Дополнительная информация
+     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. Дополнительная информация
+     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param additionalInfo
      */
@@ -76,7 +76,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'Paragraph' element value. Пункт приложения к протоколу (соглашению)
+     * Get the 'Paragraph' element value. РџСѓРЅРєС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РїСЂРѕС‚РѕРєРѕР»Сѓ (СЃРѕРіР»Р°С€РµРЅРёСЋ)
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Paragraph' element value. Пункт приложения к протоколу (соглашению)
+     * Set the 'Paragraph' element value. РџСѓРЅРєС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РїСЂРѕС‚РѕРєРѕР»Сѓ (СЃРѕРіР»Р°С€РµРЅРёСЋ)
      * 
      * @param paragraph
      */
@@ -94,7 +94,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'ContractDetails' element value. Реквизиты контракта
+     * Get the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'ContractDetails' element value. Реквизиты контракта
+     * Set the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractDetails
      */
@@ -112,7 +112,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'Person' element value. Сведения о лице, которому выдано подтверждение
+     * Get the 'Person' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Person' element value. Сведения о лице, которому выдано подтверждение
+     * Set the 'Person' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
      * 
      * @param person
      */
@@ -130,7 +130,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'Recipient' element value. Сведения о получателе товаров
+     * Get the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Recipient' element value. Сведения о получателе товаров
+     * Set the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param recipient
      */
@@ -148,7 +148,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товара
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -157,7 +157,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товара
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -166,7 +166,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'AuthorisedPerson' element value. Уполномоченное лицо
+     * Get the 'AuthorisedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'AuthorisedPerson' element value. Уполномоченное лицо
+     * Set the 'AuthorisedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @param authorisedPerson
      */
@@ -184,7 +184,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'Confirmation' element value. Подтверждение
+     * Get the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Confirmation' element value. Подтверждение
+     * Set the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
      * 
      * @param confirmation
      */

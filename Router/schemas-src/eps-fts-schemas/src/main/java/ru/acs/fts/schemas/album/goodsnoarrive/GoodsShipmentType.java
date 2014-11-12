@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ContainerNumberType;
 
 /** 
- * Товарная партия
+ * РўРѕРІР°СЂРЅР°СЏ РїР°СЂС‚РёСЏ
  */
 public class GoodsShipmentType
 {
@@ -14,7 +14,7 @@ public class GoodsShipmentType
     private List<ContainerNumberType> containerNumberList = new ArrayList<ContainerNumberType>();
 
     /** 
-     * Get the list of 'PresentDocument' element items. Представленный документ
+     * Get the list of 'PresentDocument' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'PresentDocument' element items. Представленный документ
+     * Set the list of 'PresentDocument' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'ContainerNumber' element items. Номер контейнера
+     * Get the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'ContainerNumber' element items. Номер контейнера
+     * Set the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param list
      */

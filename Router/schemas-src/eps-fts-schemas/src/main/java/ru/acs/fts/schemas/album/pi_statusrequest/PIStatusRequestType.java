@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос статуса предварительной информации
+ * Р—Р°РїСЂРѕСЃ СЃС‚Р°С‚СѓСЃР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
  */
 public class PIStatusRequestType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class PIStatusRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'InformationID' element items. Идентификатор предварительной информации по которой запрашивается статус
+     * Get the list of 'InformationID' element items. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class PIStatusRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InformationID' element items. Идентификатор предварительной информации по которой запрашивается статус
+     * Set the list of 'InformationID' element items. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class PIStatusRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PIStatusRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

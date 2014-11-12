@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cwquery;
 import org.joda.time.LocalDate;
 
 /** 
- * Период, за который запрашиваются документы
+ * РџРµСЂРёРѕРґ, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°СЋС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class PeriodType
 {
@@ -12,7 +12,7 @@ public class PeriodType
     private LocalDate periodEnd;
 
     /** 
-     * Get the 'PeriodBegin' element value. Начало периода
+     * Get the 'PeriodBegin' element value. РќР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PeriodType
     }
 
     /** 
-     * Set the 'PeriodBegin' element value. Начало периода
+     * Set the 'PeriodBegin' element value. РќР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР°
      * 
      * @param periodBegin
      */
@@ -30,7 +30,7 @@ public class PeriodType
     }
 
     /** 
-     * Get the 'PeriodEnd' element value. Окончание периода
+     * Get the 'PeriodEnd' element value. РћРєРѕРЅС‡Р°РЅРёРµ РїРµСЂРёРѕРґР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PeriodType
     }
 
     /** 
-     * Set the 'PeriodEnd' element value. Окончание периода
+     * Set the 'PeriodEnd' element value. РћРєРѕРЅС‡Р°РЅРёРµ РїРµСЂРёРѕРґР°
      * 
      * @param periodEnd
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * Сертификат Кимберлийского процесса на необработанные природные алмазы
+ * РЎРµСЂС‚РёС„РёРєР°С‚ РљРёРјР±РµСЂР»РёР№СЃРєРѕРіРѕ РїСЂРѕС†РµСЃСЃР° РЅР° РЅРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Рµ РїСЂРёСЂРѕРґРЅС‹Рµ Р°Р»РјР°Р·С‹
  */
 public class KimberleyProcessCertificateType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -46,7 +46,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата выдачи сертификата
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата выдачи сертификата
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param issueDate
      */
@@ -64,7 +64,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ValidityDateEnd' element value. Дата окончания срока действия сертификата
+     * Get the 'ValidityDateEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ValidityDateEnd' element value. Дата окончания срока действия сертификата
+     * Set the 'ValidityDateEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param validityDateEnd
      */
@@ -82,7 +82,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PackageNumber' element value. Число посылок в поставке
+     * Get the 'PackageNumber' element value. Р§РёСЃР»Рѕ РїРѕСЃС‹Р»РѕРє РІ РїРѕСЃС‚Р°РІРєРµ
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PackageNumber' element value. Число посылок в поставке
+     * Set the 'PackageNumber' element value. Р§РёСЃР»Рѕ РїРѕСЃС‹Р»РѕРє РІ РїРѕСЃС‚Р°РІРєРµ
      * 
      * @param packageNumber
      */
@@ -100,7 +100,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExtractingCountry' element value. Добывающая страна
+     * Get the 'ExtractingCountry' element value. Р”РѕР±С‹РІР°СЋС‰Р°СЏ СЃС‚СЂР°РЅР°
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExtractingCountry' element value. Добывающая страна
+     * Set the 'ExtractingCountry' element value. Р”РѕР±С‹РІР°СЋС‰Р°СЏ СЃС‚СЂР°РЅР°
      * 
      * @param extractingCountry
      */
@@ -118,7 +118,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Note' element items. Дополнительные отметки
+     * Get the list of 'Note' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @return list
      */
@@ -127,7 +127,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Note' element items. Дополнительные отметки
+     * Set the list of 'Note' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕС‚РјРµС‚РєРё
      * 
      * @param list
      */
@@ -136,7 +136,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateOrg' element value. Орган сертификации
+     * Get the 'CertificateOrg' element value. РћСЂРіР°РЅ СЃРµСЂС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateOrg' element value. Орган сертификации
+     * Set the 'CertificateOrg' element value. РћСЂРіР°РЅ СЃРµСЂС‚РёС„РёРєР°С†РёРё
      * 
      * @param certificateOrg
      */
@@ -154,7 +154,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exporter' element value. Сведения об экспортере
+     * Get the 'Exporter' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєСЃРїРѕСЂС‚РµСЂРµ
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exporter' element value. Сведения об экспортере
+     * Set the 'Exporter' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєСЃРїРѕСЂС‚РµСЂРµ
      * 
      * @param exporter
      */
@@ -172,7 +172,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. Сведения об импортере
+     * Get the 'Importer' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРјРїРѕСЂС‚РµСЂРµ
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. Сведения об импортере
+     * Set the 'Importer' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРјРїРѕСЂС‚РµСЂРµ
      * 
      * @param importer
      */
@@ -190,7 +190,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DiamondsInfo' element items. Сведения об алмазах
+     * Get the list of 'DiamondsInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°Р»РјР°Р·Р°С…
      * 
      * @return list
      */
@@ -199,7 +199,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DiamondsInfo' element items. Сведения об алмазах
+     * Set the list of 'DiamondsInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°Р»РјР°Р·Р°С…
      * 
      * @param list
      */
@@ -208,7 +208,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthenticateOrg' element value. Орган, подтверждающий аутентичность сертификата
+     * Get the 'AuthenticateOrg' element value. РћСЂРіР°РЅ, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ Р°СѓС‚РµРЅС‚РёС‡РЅРѕСЃС‚СЊ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthenticateOrg' element value. Орган, подтверждающий аутентичность сертификата
+     * Set the 'AuthenticateOrg' element value. РћСЂРіР°РЅ, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ Р°СѓС‚РµРЅС‚РёС‡РЅРѕСЃС‚СЊ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param authenticateOrg
      */
@@ -226,7 +226,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. Уникальный номер сертификата
+     * Get the 'CertificateNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. Уникальный номер сертификата
+     * Set the 'CertificateNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param certificateNumber
      */
@@ -244,7 +244,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class KimberleyProcessCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Подвал таблицы
+ * РџРѕРґРІР°Р» С‚Р°Р±Р»РёС†С‹
  */
 public class TableFootType
 {
     private List<TableRowType> tableRowList = new ArrayList<TableRowType>();
 
     /** 
-     * Get the list of 'TableRow' element items. Строка подвала
+     * Get the list of 'TableRow' element items. РЎС‚СЂРѕРєР° РїРѕРґРІР°Р»Р°
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class TableFootType
     }
 
     /** 
-     * Set the list of 'TableRow' element items. Строка подвала
+     * Set the list of 'TableRow' element items. РЎС‚СЂРѕРєР° РїРѕРґРІР°Р»Р°
      * 
      * @param list
      */

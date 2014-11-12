@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.documentregnumbernotif;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Уведомление о регистрации документа (пакета документов)
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р° (РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ)
  */
 public class DocumentRegNumberNotifType extends BaseDocType
 {
@@ -12,7 +12,7 @@ public class DocumentRegNumberNotifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentRegNumber' element value. Уникальный номер документа (пакета документов)
+     * Get the 'DocumentRegNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° (РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentRegNumberNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentRegNumber' element value. Уникальный номер документа (пакета документов)
+     * Set the 'DocumentRegNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° (РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ)
      * 
      * @param documentRegNumber
      */
@@ -30,7 +30,7 @@ public class DocumentRegNumberNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocumentRegNumberNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

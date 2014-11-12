@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupInformationType;
 
 /** 
- * Товар
+ * РўРѕРІР°СЂ
  */
 public class GoodsType
 {
@@ -17,7 +17,7 @@ public class GoodsType
     private List<NumericTNVEDCodeType> numericTNVEDCodeList = new ArrayList<NumericTNVEDCodeType>();
 
     /** 
-     * Get the list of 'GoodDescription' element items. Наименование товара
+     * Get the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -26,7 +26,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. Наименование товара
+     * Set the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -35,7 +35,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'IsPartialGood' element value. Признак принятия решения в отношении части товара
+     * Get the 'IsPartialGood' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'IsPartialGood' element value. Признак принятия решения в отношении части товара
+     * Set the 'IsPartialGood' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
      * 
      * @param isPartialGood
      */
@@ -53,7 +53,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'AdditionalInformation' element value. Дополнительная информация для идентификации товара
+     * Get the 'AdditionalInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'AdditionalInformation' element value. Дополнительная информация для идентификации товара
+     * Set the 'AdditionalInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂР°
      * 
      * @param additionalInformation
      */
@@ -71,7 +71,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsInformation' element items. Характеристика товара
+     * Get the list of 'GoodsInformation' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsInformation' element items. Характеристика товара
+     * Set the list of 'GoodsInformation' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'Numeric_TNVEDCode' element items. Сведения о номере товара по ДТ и заявленном коде товара по ТН ВЭД ТС
+     * Get the list of 'Numeric_TNVEDCode' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў Рё Р·Р°СЏРІР»РµРЅРЅРѕРј РєРѕРґРµ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'Numeric_TNVEDCode' element items. Сведения о номере товара по ДТ и заявленном коде товара по ТН ВЭД ТС
+     * Set the list of 'Numeric_TNVEDCode' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў Рё Р·Р°СЏРІР»РµРЅРЅРѕРј РєРѕРґРµ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param list
      */

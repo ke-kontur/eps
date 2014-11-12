@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.freedoc;
 
 /** 
- * Текстовый раздел документа
+ * РўРµРєСЃС‚РѕРІС‹Р№ СЂР°Р·РґРµР» РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class TextSectionType extends TextParagrType
 {
     private String sectionName;
 
     /** 
-     * Get the 'SectionName' element value. Наименование раздела
+     * Get the 'SectionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂР°Р·РґРµР»Р°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class TextSectionType extends TextParagrType
     }
 
     /** 
-     * Set the 'SectionName' element value. Наименование раздела
+     * Set the 'SectionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂР°Р·РґРµР»Р°
      * 
      * @param sectionName
      */

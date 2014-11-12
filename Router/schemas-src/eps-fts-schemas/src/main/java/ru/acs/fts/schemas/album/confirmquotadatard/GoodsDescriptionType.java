@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.LicenseGoodsType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsDescriptionType
 {
@@ -16,7 +16,7 @@ public class GoodsDescriptionType
     private LicenseGoodsType licenseGoods;
 
     /** 
-     * Get the 'GoodsNumber' element value. Номер товара
+     * Get the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. Номер товара
+     * Set the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param goodsNumber
      */
@@ -34,7 +34,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the list of 'SupplementaryQuantity' element items. Количество и единицы измерения
+     * Get the list of 'SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Рё РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'SupplementaryQuantity' element items. Количество и единицы измерения
+     * Set the list of 'SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Рё РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'LicenseGoods' element value. Сведения о товаре по приложению разрешительного документа
+     * Get the 'LicenseGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'LicenseGoods' element value. Сведения о товаре по приложению разрешительного документа
+     * Set the 'LicenseGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param licenseGoods
      */

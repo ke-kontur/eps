@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mediacertificate;
 
 /** 
- * Сведения о СМИ
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЎРњР
  */
 public class MediaInfoType
 {
@@ -10,7 +10,7 @@ public class MediaInfoType
     private String name;
 
     /** 
-     * Get the 'Code' element value. Код
+     * Get the 'Code' element value. РљРѕРґ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class MediaInfoType
     }
 
     /** 
-     * Set the 'Code' element value. Код
+     * Set the 'Code' element value. РљРѕРґ
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class MediaInfoType
     }
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class MediaInfoType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */

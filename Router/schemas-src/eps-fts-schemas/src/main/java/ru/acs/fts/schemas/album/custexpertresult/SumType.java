@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.custexpertresult;
 
 /** 
- * Сумма
+ * РЎСѓРјРјР°
  */
 public class SumType
 {
@@ -11,7 +11,7 @@ public class SumType
     private String currencyCode;
 
     /** 
-     * Get the 'SumWords' element value. Сумма прописью
+     * Get the 'SumWords' element value. РЎСѓРјРјР° РїСЂРѕРїРёСЃСЊСЋ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SumType
     }
 
     /** 
-     * Set the 'SumWords' element value. Сумма прописью
+     * Set the 'SumWords' element value. РЎСѓРјРјР° РїСЂРѕРїРёСЃСЊСЋ
      * 
      * @param sumWords
      */
@@ -29,7 +29,7 @@ public class SumType
     }
 
     /** 
-     * Get the 'SumNumber' element value. Сумма
+     * Get the 'SumNumber' element value. РЎСѓРјРјР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SumType
     }
 
     /** 
-     * Set the 'SumNumber' element value. Сумма
+     * Set the 'SumNumber' element value. РЎСѓРјРјР°
      * 
      * @param sumNumber
      */
@@ -47,7 +47,7 @@ public class SumType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты 
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ 
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class SumType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты 
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ 
      * 
      * @param currencyCode
      */

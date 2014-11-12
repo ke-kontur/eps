@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Юридическое лицо
+ * Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
  */
 public class JuridicalPersonType extends OrganizationBaseType
 {
     private List<AddressType> addressList = new ArrayList<AddressType>();
 
     /** 
-     * Get the list of 'Address' element items. Адрес юридического лица
+     * Get the list of 'Address' element items. РђРґСЂРµСЃ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class JuridicalPersonType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'Address' element items. Адрес юридического лица
+     * Set the list of 'Address' element items. РђРґСЂРµСЃ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param list
      */

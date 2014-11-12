@@ -4,16 +4,16 @@ package ru.acs.fts.schemas.album.guaranteestatusreq;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос статуса процесса работы с дополнением к договору поручительства.
+ * Р—Р°РїСЂРѕСЃ СЃС‚Р°С‚СѓСЃР° РїСЂРѕС†РµСЃСЃР° СЂР°Р±РѕС‚С‹ СЃ РґРѕРїРѕР»РЅРµРЅРёРµРј Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°.
  */
 public class GuaranteeStatusReqType extends BaseDocType
 {
     private String GRN;
-    private String additionalID;
+    private GuaranteeIDType guaranteeID;
     private String documentModeID;
 
     /** 
-     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @param GRN
      */
@@ -31,25 +31,25 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Get the 'GuaranteeID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @return value
      */
-    public String getAdditionalID() {
-        return additionalID;
+    public GuaranteeIDType getGuaranteeID() {
+        return guaranteeID;
     }
 
     /** 
-     * Set the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Set the 'GuaranteeID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
-     * @param additionalID
+     * @param guaranteeID
      */
-    public void setAdditionalID(String additionalID) {
-        this.additionalID = additionalID;
+    public void setGuaranteeID(GuaranteeIDType guaranteeID) {
+        this.guaranteeID = guaranteeID;
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.ContactType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADOrganizationInType;
 
 /** 
- * Лицо ответственное за финансовое урегулирование.
+ * Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
  */
 public class KTDinFinancialAdjustingResponsiblePersonType
         extends
@@ -17,7 +17,7 @@ public class KTDinFinancialAdjustingResponsiblePersonType
     private ContactType contact;
 
     /** 
-     * Get the 'EntityForm' element value. Организационно-правовая форма
+     * Get the 'EntityForm' element value. РћСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІР°СЏ С„РѕСЂРјР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class KTDinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Set the 'EntityForm' element value. Организационно-правовая форма
+     * Set the 'EntityForm' element value. РћСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІР°СЏ С„РѕСЂРјР°
      * 
      * @param entityForm
      */
@@ -35,7 +35,7 @@ public class KTDinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении.
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class KTDinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении.
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
      * 
      * @param branchDescription
      */
@@ -53,7 +53,7 @@ public class KTDinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Get the 'Contact' element value. Контактная информация
+     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class KTDinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Set the 'Contact' element value. Контактная информация
+     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param contact
      */

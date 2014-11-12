@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Подтверждение о целевом назначении товаров ввозимых в рамках международного сотрудничества РФ в области исследования и использования космического пространства, в том числе оказания услуг по запуску космических аппаратов
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ С†РµР»РµРІРѕРј РЅР°Р·РЅР°С‡РµРЅРёРё С‚РѕРІР°СЂРѕРІ РІРІРѕР·РёРјС‹С… РІ СЂР°РјРєР°С… РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° Р Р¤ РІ РѕР±Р»Р°СЃС‚Рё РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РєРѕСЃРјРёС‡РµСЃРєРѕРіРѕ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР°, РІ С‚РѕРј С‡РёСЃР»Рµ РѕРєР°Р·Р°РЅРёСЏ СѓСЃР»СѓРі РїРѕ Р·Р°РїСѓСЃРєСѓ РєРѕСЃРјРёС‡РµСЃРєРёС… Р°РїРїР°СЂР°С‚РѕРІ
  */
 public class RSPConfirmationTargetType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -46,7 +46,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. Страна отправления
+     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. Страна отправления
+     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureCountry
      */
@@ -64,7 +64,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. Страна происхождения
+     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. Страна происхождения
+     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountry
      */
@@ -82,7 +82,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. Дополнительная информация
+     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. Дополнительная информация
+     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param additionalInfo
      */
@@ -100,7 +100,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsValue' element value. Стоимость товара в валюте контракта
+     * Get the 'GoodsValue' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsValue' element value. Стоимость товара в валюте контракта
+     * Set the 'GoodsValue' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param goodsValue
      */
@@ -118,7 +118,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractCurrency' element value. Валюта контракта
+     * Get the 'ContractCurrency' element value. Р’Р°Р»СЋС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractCurrency' element value. Валюта контракта
+     * Set the 'ContractCurrency' element value. Р’Р°Р»СЋС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractCurrency
      */
@@ -136,7 +136,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'StatisticalGoodsValue' element value. Статистическая стоимость товара (USD)
+     * Get the 'StatisticalGoodsValue' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (USD)
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatisticalGoodsValue' element value. Статистическая стоимость товара (USD)
+     * Set the 'StatisticalGoodsValue' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (USD)
      * 
      * @param statisticalGoodsValue
      */
@@ -154,7 +154,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Confirmation' element value. Подтверждение
+     * Get the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Confirmation' element value. Подтверждение
+     * Set the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
      * 
      * @param confirmation
      */
@@ -172,7 +172,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Agreement' element value. Сведения о международном соглашении (договоре), в рамках которого ввозятся товары
+     * Get the 'Agreement' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРј СЃРѕРіР»Р°С€РµРЅРёРё (РґРѕРіРѕРІРѕСЂРµ), РІ СЂР°РјРєР°С… РєРѕС‚РѕСЂРѕРіРѕ РІРІРѕР·СЏС‚СЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Agreement' element value. Сведения о международном соглашении (договоре), в рамках которого ввозятся товары
+     * Set the 'Agreement' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРј СЃРѕРіР»Р°С€РµРЅРёРё (РґРѕРіРѕРІРѕСЂРµ), РІ СЂР°РјРєР°С… РєРѕС‚РѕСЂРѕРіРѕ РІРІРѕР·СЏС‚СЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @param agreement
      */
@@ -190,7 +190,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Контракт
+     * Get the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Контракт
+     * Set the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @param contract
      */
@@ -208,7 +208,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipinet' element value. Сведения о получателе товаров (декларанте)
+     * Get the 'Recipinet' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ (РґРµРєР»Р°СЂР°РЅС‚Рµ)
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipinet' element value. Сведения о получателе товаров (декларанте)
+     * Set the 'Recipinet' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ (РґРµРєР»Р°СЂР°РЅС‚Рµ)
      * 
      * @param recipinet
      */
@@ -226,7 +226,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Seller' element value. Сведения о продавце
+     * Get the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Seller' element value. Сведения о продавце
+     * Set the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @param seller
      */
@@ -244,7 +244,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Уполномоченное лицо
+     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Уполномоченное лицо
+     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @param authorizedPerson
      */
@@ -262,7 +262,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товаров
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -271,7 +271,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товаров
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -280,7 +280,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -289,7 +289,7 @@ public class RSPConfirmationTargetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

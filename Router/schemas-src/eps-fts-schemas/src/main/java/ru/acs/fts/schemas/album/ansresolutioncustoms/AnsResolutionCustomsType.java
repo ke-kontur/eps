@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Ответ декларанта на решение таможенного органа по таможенной стоимости
+ * РћС‚РІРµС‚ РґРµРєР»Р°СЂР°РЅС‚Р° РЅР° СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
  */
 public class AnsResolutionCustomsType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RefinedStructure' element value. Признак согласия уточнить структуру заявленной таможенной стоимости в рамках выбранного метода
+     * Get the 'RefinedStructure' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ СѓС‚РѕС‡РЅРёС‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ Р·Р°СЏРІР»РµРЅРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЂР°РјРєР°С… РІС‹Р±СЂР°РЅРЅРѕРіРѕ РјРµС‚РѕРґР°
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'RefinedStructure' element value. Признак согласия уточнить структуру заявленной таможенной стоимости в рамках выбранного метода
+     * Set the 'RefinedStructure' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ СѓС‚РѕС‡РЅРёС‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ Р·Р°СЏРІР»РµРЅРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЂР°РјРєР°С… РІС‹Р±СЂР°РЅРЅРѕРіРѕ РјРµС‚РѕРґР°
      * 
      * @param refinedStructure
      */
@@ -42,7 +42,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DesignateTS' element value. Признак согласия определить таможенную стоимость другим методом
+     * Get the 'DesignateTS' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ РѕРїСЂРµРґРµР»РёС‚СЊ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РґСЂСѓРіРёРј РјРµС‚РѕРґРѕРј
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DesignateTS' element value. Признак согласия определить таможенную стоимость другим методом
+     * Set the 'DesignateTS' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ РѕРїСЂРµРґРµР»РёС‚СЊ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РґСЂСѓРіРёРј РјРµС‚РѕРґРѕРј
      * 
      * @param designateTS
      */
@@ -60,7 +60,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reason' element items. При несогласии сообщить причины.
+     * Get the list of 'Reason' element items. РџСЂРё РЅРµСЃРѕРіР»Р°СЃРёРё СЃРѕРѕР±С‰РёС‚СЊ РїСЂРёС‡РёРЅС‹.
      * 
      * @return list
      */
@@ -69,7 +69,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reason' element items. При несогласии сообщить причины.
+     * Set the list of 'Reason' element items. РџСЂРё РЅРµСЃРѕРіР»Р°СЃРёРё СЃРѕРѕР±С‰РёС‚СЊ РїСЂРёС‡РёРЅС‹.
      * 
      * @param list
      */
@@ -78,7 +78,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consultation' element value. Признак необходимости проведения консультации по выбору метода определения таможенной стоимости
+     * Get the 'Consultation' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё РїРѕ РІС‹Р±РѕСЂСѓ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consultation' element value. Признак необходимости проведения консультации по выбору метода определения таможенной стоимости
+     * Set the 'Consultation' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё РїРѕ РІС‹Р±РѕСЂСѓ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param consultation
      */
@@ -96,7 +96,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpectedConsultationDate' element value. Предполагаемая дата консультации
+     * Get the 'ExpectedConsultationDate' element value. РџСЂРµРґРїРѕР»Р°РіР°РµРјР°СЏ РґР°С‚Р° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpectedConsultationDate' element value. Предполагаемая дата консультации
+     * Set the 'ExpectedConsultationDate' element value. РџСЂРµРґРїРѕР»Р°РіР°РµРјР°СЏ РґР°С‚Р° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё
      * 
      * @param expectedConsultationDate
      */
@@ -114,7 +114,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'AnsDeclarantSignature' element value. Подпись декларанта.
+     * Get the 'AnsDeclarantSignature' element value. РџРѕРґРїРёСЃСЊ РґРµРєР»Р°СЂР°РЅС‚Р°.
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'AnsDeclarantSignature' element value. Подпись декларанта.
+     * Set the 'AnsDeclarantSignature' element value. РџРѕРґРїРёСЃСЊ РґРµРєР»Р°СЂР°РЅС‚Р°.
      * 
      * @param ansDeclarantSignature
      */
@@ -133,7 +133,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'AnsDeclarant' element value. Декларант
+     * Get the 'AnsDeclarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'AnsDeclarant' element value. Декларант
+     * Set the 'AnsDeclarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
      * 
      * @param ansDeclarant
      */
@@ -151,7 +151,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер таможенного документа. 
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер таможенного документа. 
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 
      * 
      * @param GTDID
      */
@@ -169,7 +169,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class AnsResolutionCustomsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

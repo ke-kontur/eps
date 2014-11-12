@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.permitopenproc;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Уведомление об открытии процедуры декларирования.
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РѕС‚РєСЂС‹С‚РёРё РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
  */
 public class PermitOpenProcType extends BaseDocType
 {
@@ -12,7 +12,7 @@ public class PermitOpenProcType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProcedureID' element value. ID процедуры декларирования
+     * Get the 'ProcedureID' element value. ID РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PermitOpenProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcedureID' element value. ID процедуры декларирования
+     * Set the 'ProcedureID' element value. ID РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ
      * 
      * @param procedureID
      */
@@ -30,7 +30,7 @@ public class PermitOpenProcType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PermitOpenProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

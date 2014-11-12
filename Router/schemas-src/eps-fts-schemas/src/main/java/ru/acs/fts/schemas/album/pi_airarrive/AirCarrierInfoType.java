@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.pi_airarrive;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения об авиаперевозчике
+ * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєРµ
  */
 public class AirCarrierInfoType
 {
@@ -13,7 +13,7 @@ public class AirCarrierInfoType
     private PersonBaseType representativeCarrier;
 
     /** 
-     * Get the 'NameAirCarrier' element value. Полное наименование перевозчика
+     * Get the 'NameAirCarrier' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AirCarrierInfoType
     }
 
     /** 
-     * Set the 'NameAirCarrier' element value. Полное наименование перевозчика
+     * Set the 'NameAirCarrier' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param nameAirCarrier
      */
@@ -31,7 +31,7 @@ public class AirCarrierInfoType
     }
 
     /** 
-     * Get the 'IATACode' element value. Код ИАТА перевозчика
+     * Get the 'IATACode' element value. РљРѕРґ РРђРўРђ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AirCarrierInfoType
     }
 
     /** 
-     * Set the 'IATACode' element value. Код ИАТА перевозчика
+     * Set the 'IATACode' element value. РљРѕРґ РРђРўРђ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param IATACode
      */
@@ -49,7 +49,7 @@ public class AirCarrierInfoType
     }
 
     /** 
-     * Get the 'RepresentativeCarrier' element value. Представитель авиаперевозчика
+     * Get the 'RepresentativeCarrier' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AirCarrierInfoType
     }
 
     /** 
-     * Set the 'RepresentativeCarrier' element value. Представитель авиаперевозчика
+     * Set the 'RepresentativeCarrier' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param representativeCarrier
      */

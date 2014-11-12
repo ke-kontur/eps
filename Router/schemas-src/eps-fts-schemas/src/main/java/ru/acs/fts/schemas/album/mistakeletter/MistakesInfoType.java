@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о выявленных ошибках
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РєР°С…
  */
 public class MistakesInfoType
 {
@@ -16,7 +16,7 @@ public class MistakesInfoType
     private MistakesDescriptionType mistakesDescription;
 
     /** 
-     * Get the 'Date' element value. Дата выявления ошибок
+     * Get the 'Date' element value. Р”Р°С‚Р° РІС‹СЏРІР»РµРЅРёСЏ РѕС€РёР±РѕРє
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Set the 'Date' element value. Дата выявления ошибок
+     * Set the 'Date' element value. Р”Р°С‚Р° РІС‹СЏРІР»РµРЅРёСЏ РѕС€РёР±РѕРє
      * 
      * @param date
      */
@@ -34,7 +34,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Get the 'Time' element value. Время выявления ошибок
+     * Get the 'Time' element value. Р’СЂРµРјСЏ РІС‹СЏРІР»РµРЅРёСЏ РѕС€РёР±РѕРє
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Set the 'Time' element value. Время выявления ошибок
+     * Set the 'Time' element value. Р’СЂРµРјСЏ РІС‹СЏРІР»РµРЅРёСЏ РѕС€РёР±РѕРє
      * 
      * @param time
      */
@@ -52,7 +52,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Get the list of 'Reasons' element items. Описание причин ошибок и обстоятельств их выявления
+     * Get the list of 'Reasons' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅ РѕС€РёР±РѕРє Рё РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ РёС… РІС‹СЏРІР»РµРЅРёСЏ
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Set the list of 'Reasons' element items. Описание причин ошибок и обстоятельств их выявления
+     * Set the list of 'Reasons' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅ РѕС€РёР±РѕРє Рё РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ РёС… РІС‹СЏРІР»РµРЅРёСЏ
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Get the 'MistakesDescription' element value. Описание выявленных ошибок
+     * Get the 'MistakesDescription' element value. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РѕРє
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class MistakesInfoType
     }
 
     /** 
-     * Set the 'MistakesDescription' element value. Описание выявленных ошибок
+     * Set the 'MistakesDescription' element value. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РѕРє
      * 
      * @param mistakesDescription
      */

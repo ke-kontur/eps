@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGuaranteeType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.TDGuaranteeType;
 
 /** 
- * Сведения о товарной партии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
 {
@@ -27,7 +27,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     private List<TDGuaranteeType> TDGuaranteeList = new ArrayList<TDGuaranteeType>();
 
     /** 
-     * Get the 'ESADout_CUConsignor' element value. Сведения об отправителе товаров
+     * Get the 'ESADout_CUConsignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUConsignor' element value. Сведения об отправителе товаров
+     * Set the 'ESADout_CUConsignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param ESADoutCUConsignor
      */
@@ -45,7 +45,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUConsignee' element value. Сведения о получателе товаров
+     * Get the 'ESADout_CUConsignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUConsignee' element value. Сведения о получателе товаров
+     * Set the 'ESADout_CUConsignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param ESADoutCUConsignee
      */
@@ -63,7 +63,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUFinancialAdjustingResponsiblePerson' element value. Лицо ответственное за финансовое урегулирование
+     * Get the 'ESADout_CUFinancialAdjustingResponsiblePerson' element value. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUFinancialAdjustingResponsiblePerson' element value. Лицо ответственное за финансовое урегулирование
+     * Set the 'ESADout_CUFinancialAdjustingResponsiblePerson' element value. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ
      * 
      * @param ESADoutCUFinancialAdjustingResponsiblePerson
      */
@@ -82,7 +82,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUDeclarant' element value. Сведения о декларанте товаров
+     * Get the 'ESADout_CUDeclarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUDeclarant' element value. Сведения о декларанте товаров
+     * Set the 'ESADout_CUDeclarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param ESADoutCUDeclarant
      */
@@ -100,7 +100,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUCarrier' element value. Сведения о перевозчике гр. 50 ТД
+     * Get the 'ESADout_CUCarrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ РіСЂ. 50 РўР”
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUCarrier' element value. Сведения о перевозчике гр. 50 ТД
+     * Set the 'ESADout_CUCarrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ РіСЂ. 50 РўР”
      * 
      * @param ESADoutCUCarrier
      */
@@ -118,7 +118,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'ESADout_CUGoodsLocation' element items. Местонахождение товаров. Гр. 30 ДТ
+     * Get the list of 'ESADout_CUGoodsLocation' element items. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30 Р”Рў
      * 
      * @return list
      */
@@ -127,7 +127,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'ESADout_CUGoodsLocation' element items. Местонахождение товаров. Гр. 30 ДТ
+     * Set the list of 'ESADout_CUGoodsLocation' element items. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30 Р”Рў
      * 
      * @param list
      */
@@ -137,7 +137,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUConsigment' element value. Сведения о перевозке товаров. Гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29  -ДТ/ Гр. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- ТД
+     * Get the 'ESADout_CUConsigment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29  -Р”Рў/ Р“СЂ. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- РўР”
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUConsigment' element value. Сведения о перевозке товаров. Гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29  -ДТ/ Гр. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- ТД
+     * Set the 'ESADout_CUConsigment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29  -Р”Рў/ Р“СЂ. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- РўР”
      * 
      * @param ESADoutCUConsigment
      */
@@ -156,7 +156,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUMainContractTerms' element value. Условия сделки Гр. 11, 20, 22, 23, 24 ДТ
+     * Get the 'ESADout_CUMainContractTerms' element value. РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё Р“СЂ. 11, 20, 22, 23, 24 Р”Рў
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUMainContractTerms' element value. Условия сделки Гр. 11, 20, 22, 23, 24 ДТ
+     * Set the 'ESADout_CUMainContractTerms' element value. РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё Р“СЂ. 11, 20, 22, 23, 24 Р”Рў
      * 
      * @param ESADoutCUMainContractTerms
      */
@@ -175,7 +175,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'ESADout_CUGoods' element items. Товарная часть Гр. 31-47
+     * Get the list of 'ESADout_CUGoods' element items. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р“СЂ. 31-47
      * 
      * @return list
      */
@@ -184,7 +184,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'ESADout_CUGoods' element items. Товарная часть Гр. 31-47
+     * Set the list of 'ESADout_CUGoods' element items. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р“СЂ. 31-47
      * 
      * @param list
      */
@@ -193,7 +193,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'ESADout_CUPayments' element value. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В
+     * Get the 'ESADout_CUPayments' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'ESADout_CUPayments' element value. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В
+     * Set the 'ESADout_CUPayments' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’
      * 
      * @param ESADoutCUPayments
      */
@@ -211,7 +211,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'Guarantee' element items. Гарантия.Гр 52 в ДТ
+     * Get the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ.Р“СЂ 52 РІ Р”Рў
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'Guarantee' element items. Гарантия.Гр 52 в ДТ
+     * Set the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ.Р“СЂ 52 РІ Р”Рў
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'TDGuarantee' element items. Гарантия для ТД
+     * Get the list of 'TDGuarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ РґР»СЏ РўР”
      * 
      * @return list
      */
@@ -238,7 +238,7 @@ public class ESADoutCUGoodsShipmentType extends CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'TDGuarantee' element items. Гарантия для ТД
+     * Set the list of 'TDGuarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ РґР»СЏ РўР”
      * 
      * @param list
      */

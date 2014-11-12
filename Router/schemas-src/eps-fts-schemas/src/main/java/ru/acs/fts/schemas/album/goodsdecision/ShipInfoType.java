@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodsdecision;
 
 /** 
- * Сведения о судне
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРЅРµ
  */
 public class ShipInfoType
 {
@@ -10,7 +10,7 @@ public class ShipInfoType
     private String shipName;
 
     /** 
-     * Get the 'ShipIMO' element value. ИМО номер судна
+     * Get the 'ShipIMO' element value. РРњРћ РЅРѕРјРµСЂ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Set the 'ShipIMO' element value. ИМО номер судна
+     * Set the 'ShipIMO' element value. РРњРћ РЅРѕРјРµСЂ СЃСѓРґРЅР°
      * 
      * @param shipIMO
      */
@@ -28,7 +28,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Get the 'ShipName' element value. Наименование судна
+     * Get the 'ShipName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ShipInfoType
     }
 
     /** 
-     * Set the 'ShipName' element value. Наименование судна
+     * Set the 'ShipName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @param shipName
      */

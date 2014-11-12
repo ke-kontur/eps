@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Решение по транзитной декларации 
+ * Р РµС€РµРЅРёРµ РїРѕ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё 
  */
 public class TDSolutionType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class TDSolutionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TDStatus' element value. Статус транзитной перевозки. TR_ALLOWED- выпущена, TR_ISSUE_DENIED - отказано в выпуске, TD_REVOKED - отзыв ТД, TR_CANCELLED - аннулирована ТД (техническое аннулирование), TR_COMPLETED - процедура завершена, TR_COMPLETED_W_RESERVATION - процедура завершена с оговорками
+     * Get the 'TDStatus' element value. РЎС‚Р°С‚СѓСЃ С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРµСЂРµРІРѕР·РєРё. TR_ALLOWED- РІС‹РїСѓС‰РµРЅР°, TR_ISSUE_DENIED - РѕС‚РєР°Р·Р°РЅРѕ РІ РІС‹РїСѓСЃРєРµ, TD_REVOKED - РѕС‚Р·С‹РІ РўР”, TR_CANCELLED - Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР° РўР” (С‚РµС…РЅРёС‡РµСЃРєРѕРµ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ), TR_COMPLETED - РїСЂРѕС†РµРґСѓСЂР° Р·Р°РІРµСЂС€РµРЅР°, TR_COMPLETED_W_RESERVATION - РїСЂРѕС†РµРґСѓСЂР° Р·Р°РІРµСЂС€РµРЅР° СЃ РѕРіРѕРІРѕСЂРєР°РјРё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TDStatus' element value. Статус транзитной перевозки. TR_ALLOWED- выпущена, TR_ISSUE_DENIED - отказано в выпуске, TD_REVOKED - отзыв ТД, TR_CANCELLED - аннулирована ТД (техническое аннулирование), TR_COMPLETED - процедура завершена, TR_COMPLETED_W_RESERVATION - процедура завершена с оговорками
+     * Set the 'TDStatus' element value. РЎС‚Р°С‚СѓСЃ С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРµСЂРµРІРѕР·РєРё. TR_ALLOWED- РІС‹РїСѓС‰РµРЅР°, TR_ISSUE_DENIED - РѕС‚РєР°Р·Р°РЅРѕ РІ РІС‹РїСѓСЃРєРµ, TD_REVOKED - РѕС‚Р·С‹РІ РўР”, TR_CANCELLED - Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР° РўР” (С‚РµС…РЅРёС‡РµСЃРєРѕРµ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ), TR_COMPLETED - РїСЂРѕС†РµРґСѓСЂР° Р·Р°РІРµСЂС€РµРЅР°, TR_COMPLETED_W_RESERVATION - РїСЂРѕС†РµРґСѓСЂР° Р·Р°РІРµСЂС€РµРЅР° СЃ РѕРіРѕРІРѕСЂРєР°РјРё
      * 
      * @param TDStatus
      */
@@ -46,7 +46,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии.
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё.
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии.
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё.
      * 
      * @param comments
      */
@@ -64,7 +64,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitOpenDate' element value. Дата выпуска товаров в соответствии с процедурой таможенного транзита
+     * Get the 'TransitOpenDate' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРѕС†РµРґСѓСЂРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitOpenDate' element value. Дата выпуска товаров в соответствии с процедурой таможенного транзита
+     * Set the 'TransitOpenDate' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРѕС†РµРґСѓСЂРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @param transitOpenDate
      */
@@ -82,7 +82,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitDateLimit' element value. Срок таможенного транзита.
+     * Get the 'TransitDateLimit' element value. РЎСЂРѕРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°.
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitDateLimit' element value. Срок таможенного транзита.
+     * Set the 'TransitDateLimit' element value. РЎСЂРѕРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°.
      * 
      * @param transitDateLimit
      */
@@ -100,7 +100,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @param GRN
      */
@@ -118,7 +118,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Get the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Set the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param additionalID
      */
@@ -136,7 +136,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitFactEndDate' element value. Фактический срок завершения процедуры транзита.
+     * Get the 'TransitFactEndDate' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ СЃСЂРѕРє Р·Р°РІРµСЂС€РµРЅРёСЏ РїСЂРѕС†РµРґСѓСЂС‹ С‚СЂР°РЅР·РёС‚Р°.
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitFactEndDate' element value. Фактический срок завершения процедуры транзита.
+     * Set the 'TransitFactEndDate' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ СЃСЂРѕРє Р·Р°РІРµСЂС€РµРЅРёСЏ РїСЂРѕС†РµРґСѓСЂС‹ С‚СЂР°РЅР·РёС‚Р°.
      * 
      * @param transitFactEndDate
      */
@@ -154,7 +154,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ReservationComplete' element items. Оговорки.
+     * Get the list of 'ReservationComplete' element items. РћРіРѕРІРѕСЂРєРё.
      * 
      * @return list
      */
@@ -163,7 +163,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ReservationComplete' element items. Оговорки.
+     * Set the list of 'ReservationComplete' element items. РћРіРѕРІРѕСЂРєРё.
      * 
      * @param list
      */
@@ -172,7 +172,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TDNumber' element value. Номер ТД
+     * Get the 'TDNumber' element value. РќРѕРјРµСЂ РўР”
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TDNumber' element value. Номер ТД
+     * Set the 'TDNumber' element value. РќРѕРјРµСЂ РўР”
      * 
      * @param TDNumber
      */
@@ -190,7 +190,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -208,7 +208,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCustoms' element value. Таможенный орган назначения.
+     * Get the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCustoms' element value. Таможенный орган назначения.
+     * Set the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
      * 
      * @param destinationCustoms
      */
@@ -226,7 +226,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class TDSolutionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

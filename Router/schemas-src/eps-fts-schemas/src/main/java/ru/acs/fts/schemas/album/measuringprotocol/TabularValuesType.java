@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.measuringprotocol;
 
 /** 
- * Табличные данные
+ * РўР°Р±Р»РёС‡РЅС‹Рµ РґР°РЅРЅС‹Рµ
  */
 public class TabularValuesType
 {
@@ -14,7 +14,7 @@ public class TabularValuesType
     private String lengthRatio;
 
     /** 
-     * Get the 'VolumeCoefficient' element value. Коэффициент на объем коры
+     * Get the 'VolumeCoefficient' element value. РљРѕСЌС„С„РёС†РёРµРЅС‚ РЅР° РѕР±СЉРµРј РєРѕСЂС‹
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Set the 'VolumeCoefficient' element value. Коэффициент на объем коры
+     * Set the 'VolumeCoefficient' element value. РљРѕСЌС„С„РёС†РёРµРЅС‚ РЅР° РѕР±СЉРµРј РєРѕСЂС‹
      * 
      * @param volumeCoefficient
      */
@@ -32,7 +32,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Get the 'TabularLength' element value. Табличная принятая длина, м
+     * Get the 'TabularLength' element value. РўР°Р±Р»РёС‡РЅР°СЏ РїСЂРёРЅСЏС‚Р°СЏ РґР»РёРЅР°, Рј
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Set the 'TabularLength' element value. Табличная принятая длина, м
+     * Set the 'TabularLength' element value. РўР°Р±Р»РёС‡РЅР°СЏ РїСЂРёРЅСЏС‚Р°СЏ РґР»РёРЅР°, Рј
      * 
      * @param tabularLength
      */
@@ -50,7 +50,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Get the 'TabularVolume1' element value. Объем бревна с применением таблицы 1 ГОСТ 2708
+     * Get the 'TabularVolume1' element value. РћР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС†С‹ 1 Р“РћРЎРў 2708
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Set the 'TabularVolume1' element value. Объем бревна с применением таблицы 1 ГОСТ 2708
+     * Set the 'TabularVolume1' element value. РћР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС†С‹ 1 Р“РћРЎРў 2708
      * 
      * @param tabularVolume1
      */
@@ -68,7 +68,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Get the 'TabularDiameter' element value. Толщина бревна с учетом округления по таблицам
+     * Get the 'TabularDiameter' element value. РўРѕР»С‰РёРЅР° Р±СЂРµРІРЅР° СЃ СѓС‡РµС‚РѕРј РѕРєСЂСѓРіР»РµРЅРёСЏ РїРѕ С‚Р°Р±Р»РёС†Р°Рј
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Set the 'TabularDiameter' element value. Толщина бревна с учетом округления по таблицам
+     * Set the 'TabularDiameter' element value. РўРѕР»С‰РёРЅР° Р±СЂРµРІРЅР° СЃ СѓС‡РµС‚РѕРј РѕРєСЂСѓРіР»РµРЅРёСЏ РїРѕ С‚Р°Р±Р»РёС†Р°Рј
      * 
      * @param tabularDiameter
      */
@@ -86,7 +86,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Get the 'TabularVolume4' element value. Объем бревна с применением таблицы 4 ГОСТ 2708
+     * Get the 'TabularVolume4' element value. РћР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС†С‹ 4 Р“РћРЎРў 2708
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Set the 'TabularVolume4' element value. Объем бревна с применением таблицы 4 ГОСТ 2708
+     * Set the 'TabularVolume4' element value. РћР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС†С‹ 4 Р“РћРЎРў 2708
      * 
      * @param tabularVolume4
      */
@@ -104,7 +104,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Get the 'LengthRatio' element value. Отношение фактической и табличной принятой длин
+     * Get the 'LengthRatio' element value. РћС‚РЅРѕС€РµРЅРёРµ С„Р°РєС‚РёС‡РµСЃРєРѕР№ Рё С‚Р°Р±Р»РёС‡РЅРѕР№ РїСЂРёРЅСЏС‚РѕР№ РґР»РёРЅ
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class TabularValuesType
     }
 
     /** 
-     * Set the 'LengthRatio' element value. Отношение фактической и табличной принятой длин
+     * Set the 'LengthRatio' element value. РћС‚РЅРѕС€РµРЅРёРµ С„Р°РєС‚РёС‡РµСЃРєРѕР№ Рё С‚Р°Р±Р»РёС‡РЅРѕР№ РїСЂРёРЅСЏС‚РѕР№ РґР»РёРЅ
      * 
      * @param lengthRatio
      */

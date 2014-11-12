@@ -58,9 +58,11 @@ public class ExportImportMsgResponseBusinessProcess extends BusinessProcess
 			}
 			else
 			{
-				_serviceHolder.getProcedureService( ).persist( 
-					createProcess( recvEnv, jobBatchContext ) 
-				);
+                if(!isMsg11066(recvEnv)) {
+                    _serviceHolder.getProcedureService().persist(
+                            createProcess(recvEnv, jobBatchContext)
+                    );
+                }
 			}
 		}
 		
@@ -220,4 +222,8 @@ public class ExportImportMsgResponseBusinessProcess extends BusinessProcess
 	{
 		return MessageType.MSG_11024.equals( recvEnv.getMessageType( ) );
 	}
+    private boolean isMsg11066( EDEnvelope recvEnv )
+    {
+        return MessageType.MSG_11066.equals( recvEnv.getMessageType( ) );
+    }
 }

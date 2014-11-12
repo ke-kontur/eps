@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения о поставках в адрес физического лица
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РІРєР°С… РІ Р°РґСЂРµСЃ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class RepresApplicStatInfoType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class RepresApplicStatInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Consignment' element items. Сведения о товарах, ранее поступивших получателю
+     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РїРѕР»СѓС‡Р°С‚РµР»СЋ
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class RepresApplicStatInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. Сведения о товарах, ранее поступивших получателю
+     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РїРѕР»СѓС‡Р°С‚РµР»СЋ
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class RepresApplicStatInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Регистрационный номер заявления
+     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RepresApplicStatInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Регистрационный номер заявления
+     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param applicationRegNumber
      */
@@ -52,7 +52,7 @@ public class RepresApplicStatInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class RepresApplicStatInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

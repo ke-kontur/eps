@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Формирование ДУ
+ * Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ Р”РЈ
  */
 public class FledgingType extends CustomsPersonType
 {
@@ -13,7 +13,7 @@ public class FledgingType extends CustomsPersonType
     private String completionSign;
 
     /** 
-     * Get the 'EndDate' element value. Дата формирования ДУ
+     * Get the 'EndDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р”РЈ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class FledgingType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата формирования ДУ
+     * Set the 'EndDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р”РЈ
      * 
      * @param endDate
      */
@@ -31,7 +31,7 @@ public class FledgingType extends CustomsPersonType
     }
 
     /** 
-     * Get the 'CompletionSign' element value. Признак завершения процесса формирования ДУ: "true" - завершен; "false" - не завершен
+     * Get the 'CompletionSign' element value. РџСЂРёР·РЅР°Рє Р·Р°РІРµСЂС€РµРЅРёСЏ РїСЂРѕС†РµСЃСЃР° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р”РЈ: "true" - Р·Р°РІРµСЂС€РµРЅ; "false" - РЅРµ Р·Р°РІРµСЂС€РµРЅ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class FledgingType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'CompletionSign' element value. Признак завершения процесса формирования ДУ: "true" - завершен; "false" - не завершен
+     * Set the 'CompletionSign' element value. РџСЂРёР·РЅР°Рє Р·Р°РІРµСЂС€РµРЅРёСЏ РїСЂРѕС†РµСЃСЃР° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р”РЈ: "true" - Р·Р°РІРµСЂС€РµРЅ; "false" - РЅРµ Р·Р°РІРµСЂС€РµРЅ
      * 
      * @param completionSign
      */

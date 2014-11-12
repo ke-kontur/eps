@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.resolutionorigcountrypreference;
 
 /** 
- * Номер решения
+ * РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
  */
 public class ResolutionNumberType
 {
@@ -11,7 +11,7 @@ public class ResolutionNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного поста
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ResolutionNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного поста
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
      * 
      * @param customsCode
      */
@@ -29,7 +29,7 @@ public class ResolutionNumberType
     }
 
     /** 
-     * Get the 'NomenclatureNumber' element value. Номер дела по номенклатуре
+     * Get the 'NomenclatureNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РїРѕ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ResolutionNumberType
     }
 
     /** 
-     * Set the 'NomenclatureNumber' element value. Номер дела по номенклатуре
+     * Set the 'NomenclatureNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РїРѕ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
      * 
      * @param nomenclatureNumber
      */
@@ -47,7 +47,7 @@ public class ResolutionNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый номер
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ResolutionNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый номер
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param serialNumber
      */

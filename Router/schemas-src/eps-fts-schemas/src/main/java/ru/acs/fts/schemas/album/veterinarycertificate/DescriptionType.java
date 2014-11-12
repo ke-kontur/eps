@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.veterinarycertificate;
 
 /** 
- * Описание
+ * РћРїРёСЃР°РЅРёРµ
  */
 public class DescriptionType
 {
@@ -10,7 +10,7 @@ public class DescriptionType
     private String weight;
 
     /** 
-     * Get the 'Quantity' element value. Мест(штук)
+     * Get the 'Quantity' element value. РњРµСЃС‚(С€С‚СѓРє)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Мест(штук)
+     * Set the 'Quantity' element value. РњРµСЃС‚(С€С‚СѓРє)
      * 
      * @param quantity
      */
@@ -28,7 +28,7 @@ public class DescriptionType
     }
 
     /** 
-     * Get the 'Weight' element value. Вес
+     * Get the 'Weight' element value. Р’РµСЃ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DescriptionType
     }
 
     /** 
-     * Set the 'Weight' element value. Вес
+     * Set the 'Weight' element value. Р’РµСЃ
      * 
      * @param weight
      */

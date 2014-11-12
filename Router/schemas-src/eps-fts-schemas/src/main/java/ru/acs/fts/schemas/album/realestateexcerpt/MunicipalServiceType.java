@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.realestateexcerpt;
 import org.joda.time.LocalDate;
 
 /** 
- * Государственная или муниципальная услуга
+ * Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅР°СЏ РёР»Рё РјСѓРЅРёС†РёРїР°Р»СЊРЅР°СЏ СѓСЃР»СѓРіР°
  */
 public class MunicipalServiceType
 {
@@ -16,7 +16,7 @@ public class MunicipalServiceType
     private String serviceCode;
 
     /** 
-     * Get the 'BaseRequest' element value. Основание запроса сведений
+     * Get the 'BaseRequest' element value. РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РїСЂРѕСЃР° СЃРІРµРґРµРЅРёР№
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Set the 'BaseRequest' element value. Основание запроса сведений
+     * Set the 'BaseRequest' element value. РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РїСЂРѕСЃР° СЃРІРµРґРµРЅРёР№
      * 
      * @param baseRequest
      */
@@ -34,7 +34,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Get the 'NormativeAct' element value. Положение нормативного акта
+     * Get the 'NormativeAct' element value. РџРѕР»РѕР¶РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Set the 'NormativeAct' element value. Положение нормативного акта
+     * Set the 'NormativeAct' element value. РџРѕР»РѕР¶РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ Р°РєС‚Р°
      * 
      * @param normativeAct
      */
@@ -52,7 +52,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Get the 'Post' element value. Должность
+     * Get the 'Post' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Set the 'Post' element value. Должность
+     * Set the 'Post' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @param post
      */
@@ -70,7 +70,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Get the 'AnswerDate' element value. Срок ожидаемого ответа на межведомственный запрос
+     * Get the 'AnswerDate' element value. РЎСЂРѕРє РѕР¶РёРґР°РµРјРѕРіРѕ РѕС‚РІРµС‚Р° РЅР° РјРµР¶РІРµРґРѕРјСЃС‚РІРµРЅРЅС‹Р№ Р·Р°РїСЂРѕСЃ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Set the 'AnswerDate' element value. Срок ожидаемого ответа на межведомственный запрос
+     * Set the 'AnswerDate' element value. РЎСЂРѕРє РѕР¶РёРґР°РµРјРѕРіРѕ РѕС‚РІРµС‚Р° РЅР° РјРµР¶РІРµРґРѕРјСЃС‚РІРµРЅРЅС‹Р№ Р·Р°РїСЂРѕСЃ
      * 
      * @param answerDate
      */
@@ -88,7 +88,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Get the 'ServiceName' element value. Наименование услуги
+     * Get the 'ServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓСЃР»СѓРіРё
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Set the 'ServiceName' element value. Наименование услуги
+     * Set the 'ServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓСЃР»СѓРіРё
      * 
      * @param serviceName
      */
@@ -106,7 +106,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Get the 'ServiceCode' element value. Код услуги
+     * Get the 'ServiceCode' element value. РљРѕРґ СѓСЃР»СѓРіРё
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class MunicipalServiceType
     }
 
     /** 
-     * Set the 'ServiceCode' element value. Код услуги
+     * Set the 'ServiceCode' element value. РљРѕРґ СѓСЃР»СѓРіРё
      * 
      * @param serviceCode
      */

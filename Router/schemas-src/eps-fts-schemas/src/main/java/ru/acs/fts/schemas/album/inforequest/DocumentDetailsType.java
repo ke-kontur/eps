@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Реквизиты документа
+ * Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocumentDetailsType extends DocumentBaseType
 {
     private CUOrganizationType issueOrg;
 
     /** 
-     * Get the 'IssueOrg' element value. Сведения об организации, выдавшей документ
+     * Get the 'IssueOrg' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentDetailsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'IssueOrg' element value. Сведения об организации, выдавшей документ
+     * Set the 'IssueOrg' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param issueOrg
      */

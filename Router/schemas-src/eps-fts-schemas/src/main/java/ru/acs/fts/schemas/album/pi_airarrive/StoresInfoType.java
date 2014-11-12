@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о перевозимых припасах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… РїСЂРёРїР°СЃР°С…
  */
 public class StoresInfoType
 {
@@ -14,7 +14,7 @@ public class StoresInfoType
     private List<SuppliesStocksDescriptionType> consumerList = new ArrayList<SuppliesStocksDescriptionType>();
 
     /** 
-     * Get the list of 'Operating' element items. Эксплуатационные припасы
+     * Get the list of 'Operating' element items. Р­РєСЃРїР»СѓР°С‚Р°С†РёРѕРЅРЅС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class StoresInfoType
     }
 
     /** 
-     * Set the list of 'Operating' element items. Эксплуатационные припасы
+     * Set the list of 'Operating' element items. Р­РєСЃРїР»СѓР°С‚Р°С†РёРѕРЅРЅС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class StoresInfoType
     }
 
     /** 
-     * Get the list of 'Sold' element items. Продаваемые припасы
+     * Get the list of 'Sold' element items. РџСЂРѕРґР°РІР°РµРјС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class StoresInfoType
     }
 
     /** 
-     * Set the list of 'Sold' element items. Продаваемые припасы
+     * Set the list of 'Sold' element items. РџСЂРѕРґР°РІР°РµРјС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class StoresInfoType
     }
 
     /** 
-     * Get the list of 'Consumer' element items. Потребительские припасы
+     * Get the list of 'Consumer' element items. РџРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ РїСЂРёРїР°СЃС‹
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class StoresInfoType
     }
 
     /** 
-     * Set the list of 'Consumer' element items. Потребительские припасы
+     * Set the list of 'Consumer' element items. РџРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ РїСЂРёРїР°СЃС‹
      * 
      * @param list
      */

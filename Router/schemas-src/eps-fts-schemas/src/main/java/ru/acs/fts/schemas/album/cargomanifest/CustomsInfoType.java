@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * Информация для таможни
+ * РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ С‚Р°РјРѕР¶РЅРё
  */
 public class CustomsInfoType
 {
@@ -10,7 +10,7 @@ public class CustomsInfoType
     private String originCountryCode;
 
     /** 
-     * Get the 'Notice' element value. Примечание
+     * Get the 'Notice' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustomsInfoType
     }
 
     /** 
-     * Set the 'Notice' element value. Примечание
+     * Set the 'Notice' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param notice
      */
@@ -28,7 +28,7 @@ public class CustomsInfoType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения товаров
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsInfoType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения товаров
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param originCountryCode
      */

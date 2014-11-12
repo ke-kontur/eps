@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Сообщение о регистрации прибытия воздушного судна/Сообщение о разрешении на убытие воздушного судна
+ * РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёР±С‹С‚РёСЏ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°/РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЂР°Р·СЂРµС€РµРЅРёРё РЅР° СѓР±С‹С‚РёРµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
  */
 public class CheckInOutType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class CheckInOutType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'UIN' element value. УИН
+     * Get the 'UIN' element value. РЈРРќ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'UIN' element value. УИН
+     * Set the 'UIN' element value. РЈРРќ
      * 
      * @param UIN
      */
@@ -41,7 +41,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignInOut' element value. Признак: 1- Прибытие, 0 - Убытие
+     * Get the 'SignInOut' element value. РџСЂРёР·РЅР°Рє: 1- РџСЂРёР±С‹С‚РёРµ, 0 - РЈР±С‹С‚РёРµ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignInOut' element value. Признак: 1- Прибытие, 0 - Убытие
+     * Set the 'SignInOut' element value. РџСЂРёР·РЅР°Рє: 1- РџСЂРёР±С‹С‚РёРµ, 0 - РЈР±С‹С‚РёРµ
      * 
      * @param signInOut
      */
@@ -59,7 +59,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberInOut' element value. Номер сообщения о прибытии/убытии
+     * Get the 'RegNumberInOut' element value. РќРѕРјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberInOut' element value. Номер сообщения о прибытии/убытии
+     * Set the 'RegNumberInOut' element value. РќРѕРјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
      * 
      * @param regNumberInOut
      */
@@ -77,7 +77,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateOperation' element value. Дата операции (регистрации прибытия/убытия) 
+     * Get the 'DateOperation' element value. Р”Р°С‚Р° РѕРїРµСЂР°С†РёРё (СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёР±С‹С‚РёСЏ/СѓР±С‹С‚РёСЏ) 
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateOperation' element value. Дата операции (регистрации прибытия/убытия) 
+     * Set the 'DateOperation' element value. Р”Р°С‚Р° РѕРїРµСЂР°С†РёРё (СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёР±С‹С‚РёСЏ/СѓР±С‹С‚РёСЏ) 
      * 
      * @param dateOperation
      */
@@ -95,7 +95,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'TimeOperation' element value. Время операции (регистрации прибытия/убытия)
+     * Get the 'TimeOperation' element value. Р’СЂРµРјСЏ РѕРїРµСЂР°С†РёРё (СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёР±С‹С‚РёСЏ/СѓР±С‹С‚РёСЏ)
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'TimeOperation' element value. Время операции (регистрации прибытия/убытия)
+     * Set the 'TimeOperation' element value. Р’СЂРµРјСЏ РѕРїРµСЂР°С†РёРё (СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёР±С‹С‚РёСЏ/СѓР±С‹С‚РёСЏ)
      * 
      * @param timeOperation
      */
@@ -113,7 +113,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlDecision' element value. Принятое решение
+     * Get the 'ControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlDecision' element value. Принятое решение
+     * Set the 'ControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
      * 
      * @param controlDecision
      */
@@ -131,7 +131,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -149,7 +149,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -167,7 +167,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Flight' element value. Сведения о рейсе
+     * Get the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Flight' element value. Сведения о рейсе
+     * Set the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @param flight
      */
@@ -185,7 +185,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class CheckInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

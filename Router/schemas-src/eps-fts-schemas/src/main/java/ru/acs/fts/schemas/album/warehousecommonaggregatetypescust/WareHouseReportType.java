@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Комплексный тип для описания документа, составляемого при помещении, в процессе временного хранения товаров и при выпуске товаров со складов временного хранения.
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, СЃРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РїСЂРё РїРѕРјРµС‰РµРЅРёРё, РІ РїСЂРѕС†РµСЃСЃРµ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ Рё РїСЂРё РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ СЃРѕ СЃРєР»Р°РґРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ.
  */
 public class WareHouseReportType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class WareHouseReportType extends BaseDocType
     private WarehouseOwnerType warehouseOwner;
 
     /** 
-     * Get the 'MainTransportModeCode' element value. Код вида основного ТС (по классификатору видов транспорта и транспортировки товаров)
+     * Get the 'MainTransportModeCode' element value. РљРѕРґ РІРёРґР° РѕСЃРЅРѕРІРЅРѕРіРѕ РўРЎ (РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'MainTransportModeCode' element value. Код вида основного ТС (по классификатору видов транспорта и транспортировки товаров)
+     * Set the 'MainTransportModeCode' element value. РљРѕРґ РІРёРґР° РѕСЃРЅРѕРІРЅРѕРіРѕ РўРЎ (РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ)
      * 
      * @param mainTransportModeCode
      */
@@ -36,7 +36,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportNumber' element value. Номер отчета. Присваивается оформляющей системой владельца СВХ
+     * Get the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р°. РџСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РѕС„РѕСЂРјР»СЏСЋС‰РµР№ СЃРёСЃС‚РµРјРѕР№ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportNumber' element value. Номер отчета. Присваивается оформляющей системой владельца СВХ
+     * Set the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р°. РџСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РѕС„РѕСЂРјР»СЏСЋС‰РµР№ СЃРёСЃС‚РµРјРѕР№ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ
      * 
      * @param reportNumber
      */
@@ -54,7 +54,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportDate' element value. Дата составления отчета
+     * Get the 'ReportDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportDate' element value. Дата составления отчета
+     * Set the 'ReportDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
      * 
      * @param reportDate
      */
@@ -72,7 +72,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportTime' element value. Время составления отчета
+     * Get the 'ReportTime' element value. Р’СЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportTime' element value. Время составления отчета
+     * Set the 'ReportTime' element value. Р’СЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
      * 
      * @param reportTime
      */
@@ -90,7 +90,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ModificationDateTime' element value. Дата и время последней модификации документа. Временная часть содержит локальное время отправителя без указания часового пояса
+     * Get the 'ModificationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµР№ РјРѕРґРёС„РёРєР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°. Р’СЂРµРјРµРЅРЅР°СЏ С‡Р°СЃС‚СЊ СЃРѕРґРµСЂР¶РёС‚ Р»РѕРєР°Р»СЊРЅРѕРµ РІСЂРµРјСЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ Р±РµР· СѓРєР°Р·Р°РЅРёСЏ С‡Р°СЃРѕРІРѕРіРѕ РїРѕСЏСЃР°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ModificationDateTime' element value. Дата и время последней модификации документа. Временная часть содержит локальное время отправителя без указания часового пояса
+     * Set the 'ModificationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµР№ РјРѕРґРёС„РёРєР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°. Р’СЂРµРјРµРЅРЅР°СЏ С‡Р°СЃС‚СЊ СЃРѕРґРµСЂР¶РёС‚ Р»РѕРєР°Р»СЊРЅРѕРµ РІСЂРµРјСЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ Р±РµР· СѓРєР°Р·Р°РЅРёСЏ С‡Р°СЃРѕРІРѕРіРѕ РїРѕСЏСЃР°
      * 
      * @param modificationDateTime
      */
@@ -108,7 +108,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomRegistration' element value. Данные о регистрации отчета в таможенном органе
+     * Get the 'CustomRegistration' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomRegistration' element value. Данные о регистрации отчета в таможенном органе
+     * Set the 'CustomRegistration' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customRegistration
      */
@@ -127,7 +127,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseOwner' element value. Данные о владельце склада
+     * Get the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class WareHouseReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseOwner' element value. Данные о владельце склада
+     * Set the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
      * 
      * @param warehouseOwner
      */

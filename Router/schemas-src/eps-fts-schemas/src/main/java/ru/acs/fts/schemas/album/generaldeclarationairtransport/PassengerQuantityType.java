@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.generaldeclarationairtransport;
 
 /** 
- * Информация о количестве пассажиров
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїР°СЃСЃР°Р¶РёСЂРѕРІ
  */
 public class PassengerQuantityType
 {
@@ -12,7 +12,7 @@ public class PassengerQuantityType
     private String transferDestinationPass;
 
     /** 
-     * Get the 'DeparturePass' element value. Количество пассажиров принятых  в пункте отправления
+     * Get the 'DeparturePass' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ РїСЂРёРЅСЏС‚С‹С…  РІ РїСѓРЅРєС‚Рµ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Set the 'DeparturePass' element value. Количество пассажиров принятых  в пункте отправления
+     * Set the 'DeparturePass' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ РїСЂРёРЅСЏС‚С‹С…  РІ РїСѓРЅРєС‚Рµ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departurePass
      */
@@ -30,7 +30,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Get the 'TransferDepartPass' element value. Кол-во трансфертных пассажиров в аэропорту убытия
+     * Get the 'TransferDepartPass' element value. РљРѕР»-РІРѕ С‚СЂР°РЅСЃС„РµСЂС‚РЅС‹С… РїР°СЃСЃР°Р¶РёСЂРѕРІ РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ СѓР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Set the 'TransferDepartPass' element value. Кол-во трансфертных пассажиров в аэропорту убытия
+     * Set the 'TransferDepartPass' element value. РљРѕР»-РІРѕ С‚СЂР°РЅСЃС„РµСЂС‚РЅС‹С… РїР°СЃСЃР°Р¶РёСЂРѕРІ РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ СѓР±С‹С‚РёСЏ
      * 
      * @param transferDepartPass
      */
@@ -48,7 +48,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Get the 'DestinationPass' element value. Количество пассажиров выходящих  в аэропорту назначения
+     * Get the 'DestinationPass' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ РІС‹С…РѕРґСЏС‰РёС…  РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Set the 'DestinationPass' element value. Количество пассажиров выходящих  в аэропорту назначения
+     * Set the 'DestinationPass' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ РІС‹С…РѕРґСЏС‰РёС…  РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationPass
      */
@@ -66,7 +66,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Get the 'TransferDestinationPass' element value. Количество трансфертных пассажиров в аэропорту назначения
+     * Get the 'TransferDestinationPass' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃС„РµСЂС‚РЅС‹С… РїР°СЃСЃР°Р¶РёСЂРѕРІ РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PassengerQuantityType
     }
 
     /** 
-     * Set the 'TransferDestinationPass' element value. Количество трансфертных пассажиров в аэропорту назначения
+     * Set the 'TransferDestinationPass' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃС„РµСЂС‚РЅС‹С… РїР°СЃСЃР°Р¶РёСЂРѕРІ РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param transferDestinationPass
      */

@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Подпись должностного лица
+ * РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
  */
 public class CustomsPersonSignatureType extends CustomsPersonType
 {
     private LocalDate issueDate;
 
     /** 
-     * Get the 'IssueDate' element value. Дата подписания.
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CustomsPersonSignatureType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата подписания.
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ.
      * 
      * @param issueDate
      */

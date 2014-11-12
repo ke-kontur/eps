@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения по результатам проведенной таможенной экспертизы
+ * РЎРІРµРґРµРЅРёСЏ РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РїСЂРѕРІРµРґРµРЅРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹
  */
 public class CustExpertResultType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class CustExpertResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsName' element value. Таможенный орган
+     * Get the 'CustomsName' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsName' element value. Таможенный орган
+     * Set the 'CustomsName' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customsName
      */
@@ -45,7 +45,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlNumber' element value. Номер таможенного контроля
+     * Get the 'ControlNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlNumber' element value. Номер таможенного контроля
+     * Set the 'ControlNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param controlNumber
      */
@@ -63,7 +63,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdminInfractionNumber' element value. Номер дела об административном правонарушении
+     * Get the 'AdminInfractionNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРј РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёРё
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdminInfractionNumber' element value. Номер дела об административном правонарушении
+     * Set the 'AdminInfractionNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРј РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёРё
      * 
      * @param adminInfractionNumber
      */
@@ -81,7 +81,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'CriminalCaseNumber' element value. Номер уголовного дела
+     * Get the 'CriminalCaseNumber' element value. РќРѕРјРµСЂ СѓРіРѕР»РѕРІРЅРѕРіРѕ РґРµР»Р°
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'CriminalCaseNumber' element value. Номер уголовного дела
+     * Set the 'CriminalCaseNumber' element value. РќРѕРјРµСЂ СѓРіРѕР»РѕРІРЅРѕРіРѕ РґРµР»Р°
      * 
      * @param criminalCaseNumber
      */
@@ -99,7 +99,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'OtherCases' element value. Другие случаи
+     * Get the 'OtherCases' element value. Р”СЂСѓРіРёРµ СЃР»СѓС‡Р°Рё
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'OtherCases' element value. Другие случаи
+     * Set the 'OtherCases' element value. Р”СЂСѓРіРёРµ СЃР»СѓС‡Р°Рё
      * 
      * @param otherCases
      */
@@ -117,7 +117,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Decision' element items. Принятое решение
+     * Get the list of 'Decision' element items. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
      * 
      * @return list
      */
@@ -126,7 +126,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Decision' element items. Принятое решение
+     * Set the list of 'Decision' element items. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
      * 
      * @param list
      */
@@ -135,7 +135,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'Expert' element value. Экспертиза
+     * Get the 'Expert' element value. Р­РєСЃРїРµСЂС‚РёР·Р°
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'Expert' element value. Экспертиза
+     * Set the 'Expert' element value. Р­РєСЃРїРµСЂС‚РёР·Р°
      * 
      * @param expert
      */
@@ -153,7 +153,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер  ДТ
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер  ДТ
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў
      * 
      * @param GTDID
      */
@@ -171,7 +171,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecEconomicEffect' element items. Полученный экономический эффект
+     * Get the list of 'RecEconomicEffect' element items. РџРѕР»СѓС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ СЌС„С„РµРєС‚
      * 
      * @return list
      */
@@ -180,7 +180,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecEconomicEffect' element items. Полученный экономический эффект
+     * Set the list of 'RecEconomicEffect' element items. РџРѕР»СѓС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ СЌС„С„РµРєС‚
      * 
      * @param list
      */
@@ -189,7 +189,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ConventionalEconomicEffect' element items. Условный экономический эффект
+     * Get the list of 'ConventionalEconomicEffect' element items. РЈСЃР»РѕРІРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ СЌС„С„РµРєС‚
      * 
      * @return list
      */
@@ -198,7 +198,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ConventionalEconomicEffect' element items. Условный экономический эффект
+     * Set the list of 'ConventionalEconomicEffect' element items. РЈСЃР»РѕРІРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ СЌС„С„РµРєС‚
      * 
      * @param list
      */
@@ -208,7 +208,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Подпись должностного лица таможенного органа
+     * Get the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Подпись должностного лица таможенного органа
+     * Set the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -226,7 +226,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class CustExpertResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

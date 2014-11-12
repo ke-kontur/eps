@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Владелец ТС. 
+ * Р’Р»Р°РґРµР»РµС† РўРЎ. 
  */
 public class TransportOwnerType
 {
@@ -14,7 +14,7 @@ public class TransportOwnerType
     private TransportOwnerOrganizationType transportOwnerOrganization;
 
     /** 
-     * Get the 'OwnerModeCode' element value. Код типа владельца (юрид.-"Ю",физич.-"Ф")
+     * Get the 'OwnerModeCode' element value. РљРѕРґ С‚РёРїР° РІР»Р°РґРµР»СЊС†Р° (СЋСЂРёРґ.-"Р®",С„РёР·РёС‡.-"Р¤")
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportOwnerType
     }
 
     /** 
-     * Set the 'OwnerModeCode' element value. Код типа владельца (юрид.-"Ю",физич.-"Ф")
+     * Set the 'OwnerModeCode' element value. РљРѕРґ С‚РёРїР° РІР»Р°РґРµР»СЊС†Р° (СЋСЂРёРґ.-"Р®",С„РёР·РёС‡.-"Р¤")
      * 
      * @param ownerModeCode
      */
@@ -57,7 +57,7 @@ public class TransportOwnerType
     }
 
     /** 
-     * Get the 'TransportOwnerPerson' element value. Владелец транспортного средства - физическое лицо.
+     * Get the 'TransportOwnerPerson' element value. Р’Р»Р°РґРµР»РµС† С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class TransportOwnerType
     }
 
     /** 
-     * Set the 'TransportOwnerPerson' element value. Владелец транспортного средства - физическое лицо.
+     * Set the 'TransportOwnerPerson' element value. Р’Р»Р°РґРµР»РµС† С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
      * 
      * @param transportOwnerPerson
      */
@@ -86,7 +86,7 @@ public class TransportOwnerType
     }
 
     /** 
-     * Get the 'TransportOwnerOrganization' element value. Владелец ТС - юридическое лицо.
+     * Get the 'TransportOwnerOrganization' element value. Р’Р»Р°РґРµР»РµС† РўРЎ - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class TransportOwnerType
     }
 
     /** 
-     * Set the 'TransportOwnerOrganization' element value. Владелец ТС - юридическое лицо.
+     * Set the 'TransportOwnerOrganization' element value. Р’Р»Р°РґРµР»РµС† РўРЎ - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
      * 
      * @param transportOwnerOrganization
      */

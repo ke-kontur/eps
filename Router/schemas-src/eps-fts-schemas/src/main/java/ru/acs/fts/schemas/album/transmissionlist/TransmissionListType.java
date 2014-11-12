@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Передаточная ведомость
+ * РџРµСЂРµРґР°С‚РѕС‡РЅР°СЏ РІРµРґРѕРјРѕСЃС‚СЊ
  */
 public class TransmissionListType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class TransmissionListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TransmissionDate' element value. Дата составления ППВ
+     * Get the 'TransmissionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РџРџР’
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransmissionDate' element value. Дата составления ППВ
+     * Set the 'TransmissionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РџРџР’
      * 
      * @param transmissionDate
      */
@@ -46,7 +46,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Number' element value. Номер ППВ
+     * Get the 'Number' element value. РќРѕРјРµСЂ РџРџР’
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Number' element value. Номер ППВ
+     * Set the 'Number' element value. РќРѕРјРµСЂ РџРџР’
      * 
      * @param number
      */
@@ -64,7 +64,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'TrainIndex' element value. Индекс поезда
+     * Get the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'TrainIndex' element value. Индекс поезда
+     * Set the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
      * 
      * @param trainIndex
      */
@@ -82,7 +82,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'TrainNumber' element value. Номер поезда
+     * Get the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'TrainNumber' element value. Номер поезда
+     * Set the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
      * 
      * @param trainNumber
      */
@@ -100,7 +100,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'UIN' element items. Регистрационный идентификатор предварительной информации
+     * Get the list of 'UIN' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return list
      */
@@ -109,7 +109,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'UIN' element items. Регистрационный идентификатор предварительной информации
+     * Set the list of 'UIN' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param list
      */
@@ -118,7 +118,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DirectionalRailwayStation' element value. Передающая груз ж.д. станция
+     * Get the 'DirectionalRailwayStation' element value. РџРµСЂРµРґР°СЋС‰Р°СЏ РіСЂСѓР· Р¶.Рґ. СЃС‚Р°РЅС†РёСЏ
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionalRailwayStation' element value. Передающая груз ж.д. станция
+     * Set the 'DirectionalRailwayStation' element value. РџРµСЂРµРґР°СЋС‰Р°СЏ РіСЂСѓР· Р¶.Рґ. СЃС‚Р°РЅС†РёСЏ
      * 
      * @param directionalRailwayStation
      */
@@ -137,7 +137,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'List' element items. Перечень грузов
+     * Get the list of 'List' element items. РџРµСЂРµС‡РµРЅСЊ РіСЂСѓР·РѕРІ
      * 
      * @return list
      */
@@ -146,7 +146,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'List' element items. Перечень грузов
+     * Set the list of 'List' element items. РџРµСЂРµС‡РµРЅСЊ РіСЂСѓР·РѕРІ
      * 
      * @param list
      */
@@ -155,7 +155,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Лицо, сдавшее перечисленные в настоящей ведомости грузы, накладные и акты
+     * Get the 'Person' element value. Р›РёС†Рѕ, СЃРґР°РІС€РµРµ РїРµСЂРµС‡РёСЃР»РµРЅРЅС‹Рµ РІ РЅР°СЃС‚РѕСЏС‰РµР№ РІРµРґРѕРјРѕСЃС‚Рё РіСЂСѓР·С‹, РЅР°РєР»Р°РґРЅС‹Рµ Рё Р°РєС‚С‹
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Лицо, сдавшее перечисленные в настоящей ведомости грузы, накладные и акты
+     * Set the 'Person' element value. Р›РёС†Рѕ, СЃРґР°РІС€РµРµ РїРµСЂРµС‡РёСЃР»РµРЅРЅС‹Рµ РІ РЅР°СЃС‚РѕСЏС‰РµР№ РІРµРґРѕРјРѕСЃС‚Рё РіСЂСѓР·С‹, РЅР°РєР»Р°РґРЅС‹Рµ Рё Р°РєС‚С‹
      * 
      * @param person
      */
@@ -173,7 +173,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -191,7 +191,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CarriageInfo' element items. Сведения о вагонах
+     * Get the list of 'CarriageInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІР°РіРѕРЅР°С…
      * 
      * @return list
      */
@@ -200,7 +200,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CarriageInfo' element items. Сведения о вагонах
+     * Set the list of 'CarriageInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІР°РіРѕРЅР°С…
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Container' element items. Сведения о контейнерах
+     * Get the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return list
      */
@@ -218,7 +218,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Container' element items. Сведения о контейнерах
+     * Set the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param list
      */
@@ -227,7 +227,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderStation' element value. Пограничный пост
+     * Get the 'BorderStation' element value. РџРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїРѕСЃС‚
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderStation' element value. Пограничный пост
+     * Set the 'BorderStation' element value. РџРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїРѕСЃС‚
      * 
      * @param borderStation
      */
@@ -245,7 +245,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class TransmissionListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

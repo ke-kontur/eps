@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.atdclosecontrol;
 
 /** 
- * программное средство, выполнившее проверку
+ * РїСЂРѕРіСЂР°РјРјРЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ, РІС‹РїРѕР»РЅРёРІС€РµРµ РїСЂРѕРІРµСЂРєСѓ
  */
 public class PSCheckType
 {
@@ -10,7 +10,7 @@ public class PSCheckType
     private String PSVersion;
 
     /** 
-     * Get the 'PSID' element value. Идентификатор ПС, выполнившего проверку
+     * Get the 'PSID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РџРЎ, РІС‹РїРѕР»РЅРёРІС€РµРіРѕ РїСЂРѕРІРµСЂРєСѓ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PSCheckType
     }
 
     /** 
-     * Set the 'PSID' element value. Идентификатор ПС, выполнившего проверку
+     * Set the 'PSID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РџРЎ, РІС‹РїРѕР»РЅРёРІС€РµРіРѕ РїСЂРѕРІРµСЂРєСѓ
      * 
      * @param PSID
      */
@@ -28,7 +28,7 @@ public class PSCheckType
     }
 
     /** 
-     * Get the 'PSVersion' element value. Версия ПС, выполнившего проверку
+     * Get the 'PSVersion' element value. Р’РµСЂСЃРёСЏ РџРЎ, РІС‹РїРѕР»РЅРёРІС€РµРіРѕ РїСЂРѕРІРµСЂРєСѓ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PSCheckType
     }
 
     /** 
-     * Set the 'PSVersion' element value. Версия ПС, выполнившего проверку
+     * Set the 'PSVersion' element value. Р’РµСЂСЃРёСЏ РџРЎ, РІС‹РїРѕР»РЅРёРІС€РµРіРѕ РїСЂРѕРІРµСЂРєСѓ
      * 
      * @param PSVersion
      */

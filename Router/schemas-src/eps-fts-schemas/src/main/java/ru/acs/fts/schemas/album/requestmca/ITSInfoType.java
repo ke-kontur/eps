@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupInformationType;
 
 /** 
- * Информация о товарной позиции по запросу
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РїРѕ Р·Р°РїСЂРѕСЃСѓ
  */
 public class ITSInfoType
 {
@@ -27,7 +27,7 @@ public class ITSInfoType
     private ITSRequestInfoMCAType ITSRequest;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товарной позиции
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товарной позиции
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё
      * 
      * @param goodsNumeric
      */
@@ -45,7 +45,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -63,7 +63,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код таможенной процедуры
+     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код таможенной процедуры
+     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹
      * 
      * @param customsModeCode
      */
@@ -81,7 +81,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryCode
      */
@@ -99,7 +99,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'DispatchCountryCode' element value. Код страны отправления
+     * Get the 'DispatchCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. Код страны отправления
+     * Set the 'DispatchCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param dispatchCountryCode
      */
@@ -117,7 +117,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспорта на границе
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° РЅР° РіСЂР°РЅРёС†Рµ
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспорта на границе
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р° РЅР° РіСЂР°РЅРёС†Рµ
      * 
      * @param transportModeCode
      */
@@ -135,7 +135,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the list of 'MDPNum' element items. Номер МДП
+     * Get the list of 'MDPNum' element items. РќРѕРјРµСЂ РњР”Рџ
      * 
      * @return list
      */
@@ -144,7 +144,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the list of 'MDPNum' element items. Номер МДП
+     * Set the list of 'MDPNum' element items. РќРѕРјРµСЂ РњР”Рџ
      * 
      * @param list
      */
@@ -153,7 +153,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the list of 'PassportDeal' element items. Паспорт сделки
+     * Get the list of 'PassportDeal' element items. РџР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё
      * 
      * @return list
      */
@@ -162,7 +162,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the list of 'PassportDeal' element items. Паспорт сделки
+     * Set the list of 'PassportDeal' element items. РџР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё
      * 
      * @param list
      */
@@ -171,7 +171,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'InvoiceCost' element value. Фактурная стоимость
+     * Get the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'InvoiceCost' element value. Фактурная стоимость
+     * Set the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param invoiceCost
      */
@@ -189,7 +189,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'PlacesKol' element value. Количество грузовых мест
+     * Get the 'PlacesKol' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'PlacesKol' element value. Количество грузовых мест
+     * Set the 'PlacesKol' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param placesKol
      */
@@ -207,7 +207,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the list of 'GoodsGroupInformation' element items. Характеристика товаров в группе
+     * Get the list of 'GoodsGroupInformation' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ РІ РіСЂСѓРїРїРµ
      * 
      * @return list
      */
@@ -216,7 +216,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the list of 'GoodsGroupInformation' element items. Характеристика товаров в группе
+     * Set the list of 'GoodsGroupInformation' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ РІ РіСЂСѓРїРїРµ
      * 
      * @param list
      */
@@ -226,7 +226,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the list of 'Contract' element items. Контракт
+     * Get the list of 'Contract' element items. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @return list
      */
@@ -235,7 +235,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the list of 'Contract' element items. Контракт
+     * Set the list of 'Contract' element items. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @param list
      */
@@ -244,7 +244,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the list of 'Invoice' element items. Инвойс
+     * Get the list of 'Invoice' element items. РРЅРІРѕР№СЃ
      * 
      * @return list
      */
@@ -253,7 +253,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the list of 'Invoice' element items. Инвойс
+     * Set the list of 'Invoice' element items. РРЅРІРѕР№СЃ
      * 
      * @param list
      */
@@ -262,7 +262,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Get the 'ITSRequest' element value. Информация о количественных характеристиках товарной позиции для уровня таможенного поста по запросу
+     * Get the 'ITSRequest' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°С… С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РґР»СЏ СѓСЂРѕРІРЅСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° РїРѕ Р·Р°РїСЂРѕСЃСѓ
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class ITSInfoType
     }
 
     /** 
-     * Set the 'ITSRequest' element value. Информация о количественных характеристиках товарной позиции для уровня таможенного поста по запросу
+     * Set the 'ITSRequest' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°С… С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РґР»СЏ СѓСЂРѕРІРЅСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° РїРѕ Р·Р°РїСЂРѕСЃСѓ
      * 
      * @param ITSRequest
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transmissionlist;
 
 /** 
- * Количество груза
+ * РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·Р°
  */
 public class QuantityGoodsType
 {
@@ -10,7 +10,7 @@ public class QuantityGoodsType
     private String quantity;
 
     /** 
-     * Get the 'PackagesQuantity' element value. Количество мест.
+     * Get the 'PackagesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class QuantityGoodsType
     }
 
     /** 
-     * Set the 'PackagesQuantity' element value. Количество мест.
+     * Set the 'PackagesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚.
      * 
      * @param packagesQuantity
      */
@@ -28,7 +28,7 @@ public class QuantityGoodsType
     }
 
     /** 
-     * Get the 'Quantity' element value. Вес в кг
+     * Get the 'Quantity' element value. Р’РµСЃ РІ РєРі
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class QuantityGoodsType
     }
 
     /** 
-     * Set the 'Quantity' element value. Вес в кг
+     * Set the 'Quantity' element value. Р’РµСЃ РІ РєРі
      * 
      * @param quantity
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о паспорте сделки при ввозе товаров в режиме реэкспорта без предварительного помещения под другой таможенный режим
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃРїРѕСЂС‚Рµ СЃРґРµР»РєРё РїСЂРё РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РІ СЂРµР¶РёРјРµ СЂРµСЌРєСЃРїРѕСЂС‚Р° Р±РµР· РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ РґСЂСѓРіРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј
  */
 public class ReExpFinDocumentType
 {
@@ -13,7 +13,7 @@ public class ReExpFinDocumentType
     private LocalDate presentingDate;
 
     /** 
-     * Get the 'FinDocumentCode' element value. Вид представленного документа. 1- ПС; 2 - ПСб .
+     * Get the 'FinDocumentCode' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 1- РџРЎ; 2 - РџРЎР± .
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ReExpFinDocumentType
     }
 
     /** 
-     * Set the 'FinDocumentCode' element value. Вид представленного документа. 1- ПС; 2 - ПСб .
+     * Set the 'FinDocumentCode' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 1- РџРЎ; 2 - РџРЎР± .
      * 
      * @param finDocumentCode
      */
@@ -31,7 +31,7 @@ public class ReExpFinDocumentType
     }
 
     /** 
-     * Get the 'FinDocumentNumber' element value. Номер представленного ПС/ПСб.
+     * Get the 'FinDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РџРЎ/РџРЎР±.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ReExpFinDocumentType
     }
 
     /** 
-     * Set the 'FinDocumentNumber' element value. Номер представленного ПС/ПСб.
+     * Set the 'FinDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РџРЎ/РџРЎР±.
      * 
      * @param finDocumentNumber
      */
@@ -49,7 +49,7 @@ public class ReExpFinDocumentType
     }
 
     /** 
-     * Get the 'PresentingDate' element value. Дата представления недостающего документа / сведений.
+     * Get the 'PresentingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ReExpFinDocumentType
     }
 
     /** 
-     * Set the 'PresentingDate' element value. Дата представления недостающего документа / сведений.
+     * Set the 'PresentingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№.
      * 
      * @param presentingDate
      */

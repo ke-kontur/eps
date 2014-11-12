@@ -95,7 +95,10 @@ public class CreateTransitMessage extends EDJob
 				recipientSystem = bs;
 				if ( BusinessSystems.isSuchSystem( bs, BusinessSystems.CUSTOMS ) ||
 					 BusinessSystems.isSuchSystem( bs, BusinessSystems.EPS ) ||					 
-					 BusinessSystems.isSuchSystem( bs, BusinessSystems.MALAKHIT ) )
+					 BusinessSystems.isSuchSystem( bs, BusinessSystems.MALAKHIT ) ||
+                        BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
+                        BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
+                        BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 				{
 					receivingCustoms = recvEnv.getReceiverCustoms( );
 				}
@@ -257,7 +260,10 @@ public class CreateTransitMessage extends EDJob
 		{
 			return new InferredResults( BusinessSystems.CUSTOMS, recvEnv.getReceiverCustoms( ) );
 		}
-		else if ( BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.MALAKHIT ) )
+		else if ( BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.MALAKHIT ) ||
+                BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.ORDER ) ||
+                BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.PAYMENT1 ) ||
+                BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.PAYMENT2 ))
 		{
 			return new InferredResults( BusinessSystems.DECLARANT );
 		}

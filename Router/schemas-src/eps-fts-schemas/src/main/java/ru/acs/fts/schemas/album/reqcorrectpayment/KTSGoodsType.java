@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Корректировка таможенной стоимости товаров
+ * РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
  */
 public class KTSGoodsType
 {
@@ -13,7 +13,7 @@ public class KTSGoodsType
     private List<String> rationaleList = new ArrayList<String>();
 
     /** 
-     * Get the 'NumberGood' element value. Номер товара
+     * Get the 'NumberGood' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class KTSGoodsType
     }
 
     /** 
-     * Set the 'NumberGood' element value. Номер товара
+     * Set the 'NumberGood' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param numberGood
      */
@@ -31,7 +31,7 @@ public class KTSGoodsType
     }
 
     /** 
-     * Get the list of 'Rationale' element items. Обоснование принятого решения
+     * Get the list of 'Rationale' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class KTSGoodsType
     }
 
     /** 
-     * Set the list of 'Rationale' element items. Обоснование принятого решения
+     * Set the list of 'Rationale' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @param list
      */

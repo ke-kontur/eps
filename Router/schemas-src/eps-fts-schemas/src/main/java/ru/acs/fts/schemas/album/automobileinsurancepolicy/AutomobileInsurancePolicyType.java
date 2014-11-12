@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Страховой полис гражданского автострахования
+ * РЎС‚СЂР°С…РѕРІРѕР№ РїРѕР»РёСЃ РіСЂР°Р¶РґР°РЅСЃРєРѕРіРѕ Р°РІС‚РѕСЃС‚СЂР°С…РѕРІР°РЅРёСЏ
  */
 public class AutomobileInsurancePolicyType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'SpecialComments' element items. Особые отметки 
+     * Get the list of 'SpecialComments' element items. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SpecialComments' element items. Особые отметки 
+     * Set the list of 'SpecialComments' element items. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsurerName' element value. Наименование страховщика
+     * Get the 'InsurerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°С…РѕРІС‰РёРєР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsurerName' element value. Наименование страховщика
+     * Set the 'InsurerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°С…РѕРІС‰РёРєР°
      * 
      * @param insurerName
      */
@@ -68,7 +68,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignSeriesCode' element value. Серия знака государственного образца
+     * Get the 'SignSeriesCode' element value. РЎРµСЂРёСЏ Р·РЅР°РєР° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РѕР±СЂР°Р·С†Р°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignSeriesCode' element value. Серия знака государственного образца
+     * Set the 'SignSeriesCode' element value. РЎРµСЂРёСЏ Р·РЅР°РєР° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РѕР±СЂР°Р·С†Р°
      * 
      * @param signSeriesCode
      */
@@ -86,7 +86,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsuranceTermBegin' element value. Начало срока страхования
+     * Get the 'InsuranceTermBegin' element value. РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° СЃС‚СЂР°С…РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsuranceTermBegin' element value. Начало срока страхования
+     * Set the 'InsuranceTermBegin' element value. РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° СЃС‚СЂР°С…РѕРІР°РЅРёСЏ
      * 
      * @param insuranceTermBegin
      */
@@ -104,7 +104,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsuranceTermEnd' element value. Конец срока страхования
+     * Get the 'InsuranceTermEnd' element value. РљРѕРЅРµС† СЃСЂРѕРєР° СЃС‚СЂР°С…РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsuranceTermEnd' element value. Конец срока страхования
+     * Set the 'InsuranceTermEnd' element value. РљРѕРЅРµС† СЃСЂРѕРєР° СЃС‚СЂР°С…РѕРІР°РЅРёСЏ
      * 
      * @param insuranceTermEnd
      */
@@ -122,7 +122,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignID' element value. Номер знака государственного образца
+     * Get the 'SignID' element value. РќРѕРјРµСЂ Р·РЅР°РєР° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РѕР±СЂР°Р·С†Р°
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignID' element value. Номер знака государственного образца
+     * Set the 'SignID' element value. РќРѕРјРµСЂ Р·РЅР°РєР° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РѕР±СЂР°Р·С†Р°
      * 
      * @param signID
      */
@@ -140,7 +140,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'SumInsured' element value. Резерв. Страховая сумма
+     * Get the 'SumInsured' element value. Р РµР·РµСЂРІ. РЎС‚СЂР°С…РѕРІР°СЏ СЃСѓРјРјР°
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'SumInsured' element value. Резерв. Страховая сумма
+     * Set the 'SumInsured' element value. Р РµР·РµСЂРІ. РЎС‚СЂР°С…РѕРІР°СЏ СЃСѓРјРјР°
      * 
      * @param sumInsured
      */
@@ -158,7 +158,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsurancePremium' element value. Страховая премия
+     * Get the 'InsurancePremium' element value. РЎС‚СЂР°С…РѕРІР°СЏ РїСЂРµРјРёСЏ
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsurancePremium' element value. Страховая премия
+     * Set the 'InsurancePremium' element value. РЎС‚СЂР°С…РѕРІР°СЏ РїСЂРµРјРёСЏ
      * 
      * @param insurancePremium
      */
@@ -176,7 +176,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Регистрационные данные полиса
+     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РїРѕР»РёСЃР°
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Регистрационные данные полиса
+     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РїРѕР»РёСЃР°
      * 
      * @param registration
      */
@@ -194,7 +194,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Insurer' element value. Сведения о страхователе
+     * Get the 'Insurer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°С…РѕРІР°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Insurer' element value. Сведения о страхователе
+     * Set the 'Insurer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°С…РѕРІР°С‚РµР»Рµ
      * 
      * @param insurer
      */
@@ -212,7 +212,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'AutomobileOwner' element value. Сведения о собственнике транспортного средства
+     * Get the 'AutomobileOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'AutomobileOwner' element value. Сведения о собственнике транспортного средства
+     * Set the 'AutomobileOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param automobileOwner
      */
@@ -230,7 +230,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'AIPTransportMeans' element value. Cведения о транспортном средстве 
+     * Get the 'AIPTransportMeans' element value. CРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ 
      * 
      * @return value
      */
@@ -239,7 +239,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'AIPTransportMeans' element value. Cведения о транспортном средстве 
+     * Set the 'AIPTransportMeans' element value. CРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ 
      * 
      * @param AIPTransportMeans
      */
@@ -248,7 +248,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AllowedPersonsInformation' element items. Сведения о лицах, допущенных к управлению транспортного средства
+     * Get the list of 'AllowedPersonsInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Р°С…, РґРѕРїСѓС‰РµРЅРЅС‹С… Рє СѓРїСЂР°РІР»РµРЅРёСЋ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return list
      */
@@ -257,7 +257,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AllowedPersonsInformation' element items. Сведения о лицах, допущенных к управлению транспортного средства
+     * Set the list of 'AllowedPersonsInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Р°С…, РґРѕРїСѓС‰РµРЅРЅС‹С… Рє СѓРїСЂР°РІР»РµРЅРёСЋ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param list
      */
@@ -266,7 +266,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'UseTransportTerm' element items. Период использования ТС
+     * Get the list of 'UseTransportTerm' element items. РџРµСЂРёРѕРґ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РўРЎ
      * 
      * @return list
      */
@@ -275,7 +275,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'UseTransportTerm' element items. Период использования ТС
+     * Set the list of 'UseTransportTerm' element items. РџРµСЂРёРѕРґ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РўРЎ
      * 
      * @param list
      */
@@ -284,7 +284,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AutomobileDoc' element items. Предоставленные документы на автомобиль
+     * Get the list of 'AutomobileDoc' element items. РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РЅР° Р°РІС‚РѕРјРѕР±РёР»СЊ
      * 
      * @return list
      */
@@ -293,7 +293,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AutomobileDoc' element items. Предоставленные документы на автомобиль
+     * Set the list of 'AutomobileDoc' element items. РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РЅР° Р°РІС‚РѕРјРѕР±РёР»СЊ
      * 
      * @param list
      */
@@ -302,7 +302,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsuranceAgent' element value. Страховой агент
+     * Get the 'InsuranceAgent' element value. РЎС‚СЂР°С…РѕРІРѕР№ Р°РіРµРЅС‚
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsuranceAgent' element value. Страховой агент
+     * Set the 'InsuranceAgent' element value. РЎС‚СЂР°С…РѕРІРѕР№ Р°РіРµРЅС‚
      * 
      * @param insuranceAgent
      */
@@ -320,7 +320,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsurerSign' element value. Подпись страховщика/представитель страховщика
+     * Get the 'InsurerSign' element value. РџРѕРґРїРёСЃСЊ СЃС‚СЂР°С…РѕРІС‰РёРєР°/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ СЃС‚СЂР°С…РѕРІС‰РёРєР°
      * 
      * @return value
      */
@@ -329,7 +329,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsurerSign' element value. Подпись страховщика/представитель страховщика
+     * Set the 'InsurerSign' element value. РџРѕРґРїРёСЃСЊ СЃС‚СЂР°С…РѕРІС‰РёРєР°/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ СЃС‚СЂР°С…РѕРІС‰РёРєР°
      * 
      * @param insurerSign
      */
@@ -338,7 +338,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -347,7 +347,7 @@ public class AutomobileInsurancePolicyType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

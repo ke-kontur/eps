@@ -6,8 +6,8 @@
   <display-name>Router Deploy</display-name>
   <module>
     <web>
-      <web-uri>router-5.4.1-3.2.5.war</web-uri>
-      <context-root>/router-5.4.1-3.2.5</context-root>
+      <web-uri>router-5.4.3-3.3.1.war</web-uri>
+      <context-root>/router-5.4.3-3.3.1</context-root>
     </web>
   </module>
 </application>

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.preliminaryorigincountry;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о товаре, необходимые для определения страны происхождения 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ 
  */
 public class GoodsInfoOriginCountryType
 {
@@ -13,7 +13,7 @@ public class GoodsInfoOriginCountryType
     private DocumentBaseType contract;
 
     /** 
-     * Get the 'Manufacturer' element value. Производитель товара
+     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. Производитель товара
+     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ С‚РѕРІР°СЂР°
      * 
      * @param manufacturer
      */
@@ -31,7 +31,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Get the 'PlaceManufactur' element value. Место производства
+     * Get the 'PlaceManufactur' element value. РњРµСЃС‚Рѕ РїСЂРѕРёР·РІРѕРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Set the 'PlaceManufactur' element value. Место производства
+     * Set the 'PlaceManufactur' element value. РњРµСЃС‚Рѕ РїСЂРѕРёР·РІРѕРґСЃС‚РІР°
      * 
      * @param placeManufactur
      */
@@ -49,7 +49,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Get the 'Contract' element value. Конкретный документ, на основании которого принято решение.
+     * Get the 'Contract' element value. РљРѕРЅРєСЂРµС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Set the 'Contract' element value. Конкретный документ, на основании которого принято решение.
+     * Set the 'Contract' element value. РљРѕРЅРєСЂРµС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ.
      * 
      * @param contract
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.ead_docrequest;
 
 /** 
- * Запрашиваемый документ
+ * Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class RequestedDocType
 {
@@ -12,7 +12,7 @@ public class RequestedDocType
     private String requestPositionID;
 
     /** 
-     * Get the 'ArchDeclID' element value. Уникальный идентификатор декларанта в Электронном Архиве Декларанта.
+     * Get the 'ArchDeclID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р­Р»РµРєС‚СЂРѕРЅРЅРѕРј РђСЂС…РёРІРµ Р”РµРєР»Р°СЂР°РЅС‚Р°.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. Уникальный идентификатор декларанта в Электронном Архиве Декларанта.
+     * Set the 'ArchDeclID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р­Р»РµРєС‚СЂРѕРЅРЅРѕРј РђСЂС…РёРІРµ Р”РµРєР»Р°СЂР°РЅС‚Р°.
      * 
      * @param archDeclID
      */
@@ -30,7 +30,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор электронного архива декларанта
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор электронного архива декларанта
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archID
      */
@@ -48,7 +48,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Идентификатор документа в электронном архиве декларанта
+     * Get the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Идентификатор документа в электронном архиве декларанта
+     * Set the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archDocID
      */
@@ -66,7 +66,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Get the 'RequestPositionID' element value. Идетнификатор позиции в запросе
+     * Get the 'RequestPositionID' element value. РРґРµС‚РЅРёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class RequestedDocType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. Идетнификатор позиции в запросе
+     * Set the 'RequestPositionID' element value. РРґРµС‚РЅРёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @param requestPositionID
      */

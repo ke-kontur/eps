@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.postalmanifest;
 
 /** 
- * Сведения о планируемой перегрузке или грузовых операциях в пути
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјРѕР№ РїРµСЂРµРіСЂСѓР·РєРµ РёР»Рё РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёСЏС… РІ РїСѓС‚Рё
  */
 public class ReloadInfoType
 {
@@ -10,7 +10,7 @@ public class ReloadInfoType
     private ReloadPlaceType reloadPlace;
 
     /** 
-     * Get the 'OperationDescription' element value. Описание операции с грузом
+     * Get the 'OperationDescription' element value. РћРїРёСЃР°РЅРёРµ РѕРїРµСЂР°С†РёРё СЃ РіСЂСѓР·РѕРј
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ReloadInfoType
     }
 
     /** 
-     * Set the 'OperationDescription' element value. Описание операции с грузом
+     * Set the 'OperationDescription' element value. РћРїРёСЃР°РЅРёРµ РѕРїРµСЂР°С†РёРё СЃ РіСЂСѓР·РѕРј
      * 
      * @param operationDescription
      */
@@ -28,7 +28,7 @@ public class ReloadInfoType
     }
 
     /** 
-     * Get the 'ReloadPlace' element value. Место проведения грузовых и иных операций
+     * Get the 'ReloadPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ReloadInfoType
     }
 
     /** 
-     * Set the 'ReloadPlace' element value. Место проведения грузовых и иных операций
+     * Set the 'ReloadPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№
      * 
      * @param reloadPlace
      */

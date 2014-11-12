@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.liquidationapplicationin;
 import org.joda.time.LocalDate;
 
 /** 
- * Регистрационный номер заявления на уничтожение
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
  */
 public class ApplicationRegNumberType
 {
@@ -13,7 +13,7 @@ public class ApplicationRegNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ApplicationRegNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class ApplicationRegNumberType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата регистрации документа
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ApplicationRegNumberType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата регистрации документа
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class ApplicationRegNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый номер документа по журналу регистрации
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ApplicationRegNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый номер документа по журналу регистрации
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param serialNumber
      */

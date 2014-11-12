@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * Информация о выпуске товара
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂР°
  */
 public class CommodityOutType
 {
@@ -21,7 +21,7 @@ public class CommodityOutType
     private GTDIDType GTDNumber;
 
     /** 
-     * Get the 'GoodsNumber' element value. Порядковый номер в списке выпускаемых товаров
+     * Get the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІ СЃРїРёСЃРєРµ РІС‹РїСѓСЃРєР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. Порядковый номер в списке выпускаемых товаров
+     * Set the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІ СЃРїРёСЃРєРµ РІС‹РїСѓСЃРєР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsNumber
      */
@@ -39,7 +39,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GoodsNumberInGTD' element value. Порядковый номер товара в ДТ, по которой товар помещен на склад
+     * Get the 'GoodsNumberInGTD' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂ РїРѕРјРµС‰РµРЅ РЅР° СЃРєР»Р°Рґ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsNumberInGTD' element value. Порядковый номер товара в ДТ, по которой товар помещен на склад
+     * Set the 'GoodsNumberInGTD' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂ РїРѕРјРµС‰РµРЅ РЅР° СЃРєР»Р°Рґ
      * 
      * @param goodsNumberInGTD
      */
@@ -57,7 +57,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Таможенный режим, по которому выпускается товар
+     * Get the 'CustomsModeCode' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹РїСѓСЃРєР°РµС‚СЃСЏ С‚РѕРІР°СЂ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Таможенный режим, по которому выпускается товар
+     * Set the 'CustomsModeCode' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹РїСѓСЃРєР°РµС‚СЃСЏ С‚РѕРІР°СЂ
      * 
      * @param customsModeCode
      */
@@ -75,7 +75,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GoodsWeight' element value. Вес товара в кг
+     * Get the 'GoodsWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР° РІ РєРі
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsWeight' element value. Вес товара в кг
+     * Set the 'GoodsWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР° РІ РєРі
      * 
      * @param goodsWeight
      */
@@ -93,7 +93,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'Notes' element value. Примечание
+     * Get the 'Notes' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'Notes' element value. Примечание
+     * Set the 'Notes' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param notes
      */
@@ -111,7 +111,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GoodsNumberMain' element value. Порядковый номер товара в формуляре.
+     * Get the 'GoodsNumberMain' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ С„РѕСЂРјСѓР»СЏСЂРµ.
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsNumberMain' element value. Порядковый номер товара в формуляре.
+     * Set the 'GoodsNumberMain' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ С„РѕСЂРјСѓР»СЏСЂРµ.
      * 
      * @param goodsNumberMain
      */
@@ -129,7 +129,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GoodsValue' element value. Количество товара в дополнительной единице измерения
+     * Get the 'GoodsValue' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsValue' element value. Количество товара в дополнительной единице измерения
+     * Set the 'GoodsValue' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsValue
      */
@@ -147,7 +147,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GoodsValue1' element value. Количество товара в физической единице измерения
+     * Get the 'GoodsValue1' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ С„РёР·РёС‡РµСЃРєРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsValue1' element value. Количество товара в физической единице измерения
+     * Set the 'GoodsValue1' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ С„РёР·РёС‡РµСЃРєРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsValue1
      */
@@ -165,7 +165,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GoodsValue2' element value. Количество товара в физической единице измерения
+     * Get the 'GoodsValue2' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ С„РёР·РёС‡РµСЃРєРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GoodsValue2' element value. Количество товара в физической единице измерения
+     * Set the 'GoodsValue2' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ С„РёР·РёС‡РµСЃРєРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsValue2
      */
@@ -183,7 +183,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Номер ДТ, по которому выпускается товар
+     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹РїСѓСЃРєР°РµС‚СЃСЏ С‚РѕРІР°СЂ
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class CommodityOutType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Номер ДТ, по которому выпускается товар
+     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹РїСѓСЃРєР°РµС‚СЃСЏ С‚РѕРІР°СЂ
      * 
      * @param GTDNumber
      */

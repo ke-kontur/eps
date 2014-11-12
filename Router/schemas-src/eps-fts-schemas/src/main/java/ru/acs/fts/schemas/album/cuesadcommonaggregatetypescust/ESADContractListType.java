@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Дополнительные сведения по внешнеторговым контрактам. Для РФ
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ РїРѕ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РєРѕРЅС‚СЂР°РєС‚Р°Рј. Р”Р»СЏ Р Р¤
  */
 public class ESADContractListType
 {
@@ -19,7 +19,7 @@ public class ESADContractListType
     private List<DocumentBaseType> additionalContractList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'DealPassportNumber' element value. Номер паспорта сделки
+     * Get the 'DealPassportNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'DealPassportNumber' element value. Номер паспорта сделки
+     * Set the 'DealPassportNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё
      * 
      * @param dealPassportNumber
      */
@@ -37,7 +37,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the 'ContractNumber' element value. Номер внешнеторгового контракта
+     * Get the 'ContractNumber' element value. РќРѕРјРµСЂ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'ContractNumber' element value. Номер внешнеторгового контракта
+     * Set the 'ContractNumber' element value. РќРѕРјРµСЂ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractNumber
      */
@@ -55,7 +55,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the 'ContractDate' element value. Дата внешнеторгового контракта
+     * Get the 'ContractDate' element value. Р”Р°С‚Р° РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'ContractDate' element value. Дата внешнеторгового контракта
+     * Set the 'ContractDate' element value. Р”Р°С‚Р° РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractDate
      */
@@ -73,7 +73,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the 'BankName' element value. Наименование банка, оформившего паспорт сделки
+     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РїР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'BankName' element value. Наименование банка, оформившего паспорт сделки
+     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РїР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё
      * 
      * @param bankName
      */
@@ -91,7 +91,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the list of 'SupplyInformations' element items. Описание поставки товаров.
+     * Get the list of 'SupplyInformations' element items. РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ.
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the list of 'SupplyInformations' element items. Описание поставки товаров.
+     * Set the list of 'SupplyInformations' element items. РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ.
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the list of 'AdditionalContract' element items. Дополнения и приложения к основному контракту.
+     * Get the list of 'AdditionalContract' element items. Р”РѕРїРѕР»РЅРµРЅРёСЏ Рё РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РѕСЃРЅРѕРІРЅРѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ.
      * 
      * @return list
      */
@@ -118,7 +118,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the list of 'AdditionalContract' element items. Дополнения и приложения к основному контракту.
+     * Set the list of 'AdditionalContract' element items. Р”РѕРїРѕР»РЅРµРЅРёСЏ Рё РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РѕСЃРЅРѕРІРЅРѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ.
      * 
      * @param list
      */

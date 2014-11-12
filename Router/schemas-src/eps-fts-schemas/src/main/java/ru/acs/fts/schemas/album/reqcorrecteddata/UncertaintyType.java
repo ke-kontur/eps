@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Выявленные несоответствия
+ * Р’С‹СЏРІР»РµРЅРЅС‹Рµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
  */
 public class UncertaintyType
 {
@@ -13,7 +13,7 @@ public class UncertaintyType
     private List<BadDocumentType> badDocumentList = new ArrayList<BadDocumentType>();
 
     /** 
-     * Get the list of 'UncertDescription' element items. Описание выявленных несоответствий
+     * Get the list of 'UncertDescription' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class UncertaintyType
     }
 
     /** 
-     * Set the list of 'UncertDescription' element items. Описание выявленных несоответствий
+     * Set the list of 'UncertDescription' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class UncertaintyType
     }
 
     /** 
-     * Get the list of 'BadDocument' element items. Сведения о документе, содержащем ошибки (ДТ, ДТС, опись) для которого требуется техническая корректировка
+     * Get the list of 'BadDocument' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СЃРѕРґРµСЂР¶Р°С‰РµРј РѕС€РёР±РєРё (Р”Рў, Р”РўРЎ, РѕРїРёСЃСЊ) РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ С‚СЂРµР±СѓРµС‚СЃСЏ С‚РµС…РЅРёС‡РµСЃРєР°СЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєР°
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class UncertaintyType
     }
 
     /** 
-     * Set the list of 'BadDocument' element items. Сведения о документе, содержащем ошибки (ДТ, ДТС, опись) для которого требуется техническая корректировка
+     * Set the list of 'BadDocument' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СЃРѕРґРµСЂР¶Р°С‰РµРј РѕС€РёР±РєРё (Р”Рў, Р”РўРЎ, РѕРїРёСЃСЊ) РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ С‚СЂРµР±СѓРµС‚СЃСЏ С‚РµС…РЅРёС‡РµСЃРєР°СЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєР°
      * 
      * @param list
      */

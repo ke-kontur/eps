@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание предлагаемых изменений в действующее разрешение на переработку
+ * РћРїРёСЃР°РЅРёРµ РїСЂРµРґР»Р°РіР°РµРјС‹С… РёР·РјРµРЅРµРЅРёР№ РІ РґРµР№СЃС‚РІСѓСЋС‰РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
  */
 public class ChangesType
 {
@@ -13,7 +13,7 @@ public class ChangesType
     private List<String> commentList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'ChDescription' element items. Описание изменения
+     * Get the list of 'ChDescription' element items. РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ChangesType
     }
 
     /** 
-     * Set the list of 'ChDescription' element items. Описание изменения
+     * Set the list of 'ChDescription' element items. РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class ChangesType
     }
 
     /** 
-     * Get the list of 'Comments' element items. Комментарии
+     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ChangesType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Комментарии
+     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param list
      */

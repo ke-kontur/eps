@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос документов из электронного архива декларанта
+ * Р—Р°РїСЂРѕСЃ РґРѕРєСѓРјРµРЅС‚РѕРІ РёР· СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
  */
 public class EADDocRequestType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class EADDocRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'RequestedDoc' element items. Запрашиваемый документ
+     * Get the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class EADDocRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestedDoc' element items. Запрашиваемый документ
+     * Set the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class EADDocRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class EADDocRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

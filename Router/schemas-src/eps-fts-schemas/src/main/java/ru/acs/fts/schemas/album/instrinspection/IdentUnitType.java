@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * Средство идентификации
+ * РЎСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
  */
 public class IdentUnitType
 {
@@ -10,7 +10,7 @@ public class IdentUnitType
     private String identQuantity;
 
     /** 
-     * Get the 'IdentDescription' element value. Описание средства идентификации
+     * Get the 'IdentDescription' element value. РћРїРёСЃР°РЅРёРµ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class IdentUnitType
     }
 
     /** 
-     * Set the 'IdentDescription' element value. Описание средства идентификации
+     * Set the 'IdentDescription' element value. РћРїРёСЃР°РЅРёРµ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param identDescription
      */
@@ -28,7 +28,7 @@ public class IdentUnitType
     }
 
     /** 
-     * Get the 'IdentQuantity' element value. Количество средств идентификации
+     * Get the 'IdentQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IdentUnitType
     }
 
     /** 
-     * Set the 'IdentQuantity' element value. Количество средств идентификации
+     * Set the 'IdentQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param identQuantity
      */

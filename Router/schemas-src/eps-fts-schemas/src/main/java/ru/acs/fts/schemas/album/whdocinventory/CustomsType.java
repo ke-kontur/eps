@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.whdocinventory;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomInspectorType;
 
 /** 
- * Таможенный пост
+ * РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
  */
 public class CustomsType
         extends
@@ -13,7 +13,7 @@ public class CustomsType
     private WHCustomInspectorType customsPerson;
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CustomsType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */

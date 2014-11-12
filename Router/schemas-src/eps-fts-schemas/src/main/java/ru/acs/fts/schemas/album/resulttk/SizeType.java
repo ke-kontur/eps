@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.resulttk;
 
 /** 
- * Габаритные параметры ТС
+ * Р“Р°Р±Р°СЂРёС‚РЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РўРЎ
  */
 public class SizeType
 {
@@ -11,7 +11,7 @@ public class SizeType
     private String length;
 
     /** 
-     * Get the 'Height' element value. Высота ТС, м
+     * Get the 'Height' element value. Р’С‹СЃРѕС‚Р° РўРЎ, Рј
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SizeType
     }
 
     /** 
-     * Set the 'Height' element value. Высота ТС, м
+     * Set the 'Height' element value. Р’С‹СЃРѕС‚Р° РўРЎ, Рј
      * 
      * @param height
      */
@@ -29,7 +29,7 @@ public class SizeType
     }
 
     /** 
-     * Get the 'Width' element value. Ширина ТС, м
+     * Get the 'Width' element value. РЁРёСЂРёРЅР° РўРЎ, Рј
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SizeType
     }
 
     /** 
-     * Set the 'Width' element value. Ширина ТС, м
+     * Set the 'Width' element value. РЁРёСЂРёРЅР° РўРЎ, Рј
      * 
      * @param width
      */
@@ -47,7 +47,7 @@ public class SizeType
     }
 
     /** 
-     * Get the 'Length' element value. Длина ТС, м
+     * Get the 'Length' element value. Р”Р»РёРЅР° РўРЎ, Рј
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class SizeType
     }
 
     /** 
-     * Set the 'Length' element value. Длина ТС, м
+     * Set the 'Length' element value. Р”Р»РёРЅР° РўРЎ, Рј
      * 
      * @param length
      */

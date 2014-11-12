@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Дополнительный лист к акту таможенного наблюдения
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р»РёСЃС‚ Рє Р°РєС‚Сѓ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
  */
 public class AddSheetType
 {
@@ -13,7 +13,7 @@ public class AddSheetType
     private List<String> descriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'NumberSheet' element value. Номер дополнительного листа
+     * Get the 'NumberSheet' element value. РќРѕРјРµСЂ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРіРѕ Р»РёСЃС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AddSheetType
     }
 
     /** 
-     * Set the 'NumberSheet' element value. Номер дополнительного листа
+     * Set the 'NumberSheet' element value. РќРѕРјРµСЂ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРіРѕ Р»РёСЃС‚Р°
      * 
      * @param numberSheet
      */
@@ -31,7 +31,7 @@ public class AddSheetType
     }
 
     /** 
-     * Get the list of 'Description' element items. Описание процесса таможенного наблюдения и его результаты
+     * Get the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ РїСЂРѕС†РµСЃСЃР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ Рё РµРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚С‹
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class AddSheetType
     }
 
     /** 
-     * Set the list of 'Description' element items. Описание процесса таможенного наблюдения и его результаты
+     * Set the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ РїСЂРѕС†РµСЃСЃР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ Рё РµРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚С‹
      * 
      * @param list
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документ о товарах запрещенных или ограниченных к ввозу
+ * Р”РѕРєСѓРјРµРЅС‚ Рѕ С‚РѕРІР°СЂР°С… Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РІРІРѕР·Сѓ
  */
 public class ProhibitedGoodsType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class ProhibitedGoodsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ShipInfo' element value. Сведения о морском/воздушном судне
+     * Get the 'ShipInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРѕСЂСЃРєРѕРј/РІРѕР·РґСѓС€РЅРѕРј СЃСѓРґРЅРµ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipInfo' element value. Сведения о морском/воздушном судне
+     * Set the 'ShipInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРѕСЂСЃРєРѕРј/РІРѕР·РґСѓС€РЅРѕРј СЃСѓРґРЅРµ
      * 
      * @param shipInfo
      */
@@ -38,7 +38,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentInfo' element value. Сведения о документе о товарах запрещенных или ограниченных к ввозу
+     * Get the 'DocumentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Рѕ С‚РѕРІР°СЂР°С… Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РІРІРѕР·Сѓ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. Сведения о документе о товарах запрещенных или ограниченных к ввозу
+     * Set the 'DocumentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Рѕ С‚РѕРІР°СЂР°С… Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РІРІРѕР·Сѓ
      * 
      * @param documentInfo
      */
@@ -56,7 +56,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ArmsInfo' element items. Информация о наличии оружия и боеприпасов
+     * Get the list of 'ArmsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё РѕСЂСѓР¶РёСЏ Рё Р±РѕРµРїСЂРёРїР°СЃРѕРІ
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ArmsInfo' element items. Информация о наличии оружия и боеприпасов
+     * Set the list of 'ArmsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё РѕСЂСѓР¶РёСЏ Рё Р±РѕРµРїСЂРёРїР°СЃРѕРІ
      * 
      * @param list
      */
@@ -74,7 +74,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CurrencyInfo' element items. Информация о валюте и валютных ценностях
+     * Get the list of 'CurrencyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР°Р»СЋС‚Рµ Рё РІР°Р»СЋС‚РЅС‹С… С†РµРЅРЅРѕСЃС‚СЏС…
      * 
      * @return list
      */
@@ -83,7 +83,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CurrencyInfo' element items. Информация о валюте и валютных ценностях
+     * Set the list of 'CurrencyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР°Р»СЋС‚Рµ Рё РІР°Р»СЋС‚РЅС‹С… С†РµРЅРЅРѕСЃС‚СЏС…
      * 
      * @param list
      */
@@ -92,7 +92,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DrugsSubstanceInfo' element items. Сведения о наличии лекарственных средств
+     * Get the list of 'DrugsSubstanceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DrugsSubstanceInfo' element items. Сведения о наличии лекарственных средств
+     * Set the list of 'DrugsSubstanceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PermitionDocs' element items. Информация о разрешительных документах
+     * Get the list of 'PermitionDocs' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PermitionDocs' element items. Информация о разрешительных документах
+     * Set the list of 'PermitionDocs' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Уникальный идентификатор документа
+     * Get the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ProhibitedGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Уникальный идентификатор документа
+     * Set the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

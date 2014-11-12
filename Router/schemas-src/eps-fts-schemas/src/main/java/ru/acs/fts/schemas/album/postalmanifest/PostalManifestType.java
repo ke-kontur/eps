@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Почтовый манифест
+ * РџРѕС‡С‚РѕРІС‹Р№ РјР°РЅРёС„РµСЃС‚
  */
 public class PostalManifestType extends BaseDocType
 {
@@ -41,7 +41,7 @@ public class PostalManifestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ManifestDate' element value. Дата
+     * Get the 'ManifestDate' element value. Р”Р°С‚Р°
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManifestDate' element value. Дата
+     * Set the 'ManifestDate' element value. Р”Р°С‚Р°
      * 
      * @param manifestDate
      */
@@ -59,7 +59,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Номер серии
+     * Get the 'SerialNumber' element value. РќРѕРјРµСЂ СЃРµСЂРёРё
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Номер серии
+     * Set the 'SerialNumber' element value. РќРѕРјРµСЂ СЃРµСЂРёРё
      * 
      * @param serialNumber
      */
@@ -77,7 +77,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'PrioritySign' element value. Признак наличия приоритета
+     * Get the 'PrioritySign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРёРѕСЂРёС‚РµС‚Р°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'PrioritySign' element value. Признак наличия приоритета
+     * Set the 'PrioritySign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРёРѕСЂРёС‚РµС‚Р°
      * 
      * @param prioritySign
      */
@@ -95,7 +95,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'OperatorContainerOwner' element value. Назначенный оператор, которому принадлежат емкости
+     * Get the 'OperatorContainerOwner' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёРЅР°РґР»РµР¶Р°С‚ РµРјРєРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperatorContainerOwner' element value. Назначенный оператор, которому принадлежат емкости
+     * Set the 'OperatorContainerOwner' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёРЅР°РґР»РµР¶Р°С‚ РµРјРєРѕСЃС‚Рё
      * 
      * @param operatorContainerOwner
      */
@@ -113,7 +113,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormSign' element value. Признак формы накладной: 1 - CN37; 2 - CN38; 3 - CN41; 4 - CN46; 5 - CN47
+     * Get the 'FormSign' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјС‹ РЅР°РєР»Р°РґРЅРѕР№: 1 - CN37; 2 - CN38; 3 - CN41; 4 - CN46; 5 - CN47
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormSign' element value. Признак формы накладной: 1 - CN37; 2 - CN38; 3 - CN41; 4 - CN46; 5 - CN47
+     * Set the 'FormSign' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјС‹ РЅР°РєР»Р°РґРЅРѕР№: 1 - CN37; 2 - CN38; 3 - CN41; 4 - CN46; 5 - CN47
      * 
      * @param formSign
      */
@@ -131,7 +131,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DesignatedOperator' element value. Назначенный оператор страны подачи
+     * Get the 'DesignatedOperator' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ СЃС‚СЂР°РЅС‹ РїРѕРґР°С‡Рё
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DesignatedOperator' element value. Назначенный оператор страны подачи
+     * Set the 'DesignatedOperator' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ СЃС‚СЂР°РЅС‹ РїРѕРґР°С‡Рё
      * 
      * @param designatedOperator
      */
@@ -149,7 +149,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationAgency' element value. Учреждение обмена назначения накладной
+     * Get the 'DestinationAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РѕР±РјРµРЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationAgency' element value. Учреждение обмена назначения накладной
+     * Set the 'DestinationAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РѕР±РјРµРЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param destinationAgency
      */
@@ -167,7 +167,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -185,7 +185,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'FeedBillAgency' element value. Учреждение обмена подачи накладной
+     * Get the 'FeedBillAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РѕР±РјРµРЅР° РїРѕРґР°С‡Рё РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'FeedBillAgency' element value. Учреждение обмена подачи накладной
+     * Set the 'FeedBillAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РѕР±РјРµРЅР° РїРѕРґР°С‡Рё РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param feedBillAgency
      */
@@ -228,7 +228,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'AirTransport' element value. Авиатранспорт
+     * Get the 'AirTransport' element value. РђРІРёР°С‚СЂР°РЅСЃРїРѕСЂС‚
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'AirTransport' element value. Авиатранспорт
+     * Set the 'AirTransport' element value. РђРІРёР°С‚СЂР°РЅСЃРїРѕСЂС‚
      * 
      * @param airTransport
      */
@@ -256,7 +256,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'SeaTransport' element value. Почтовое судно
+     * Get the 'SeaTransport' element value. РџРѕС‡С‚РѕРІРѕРµ СЃСѓРґРЅРѕ
      * 
      * @return value
      */
@@ -265,7 +265,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'SeaTransport' element value. Почтовое судно
+     * Set the 'SeaTransport' element value. РџРѕС‡С‚РѕРІРѕРµ СЃСѓРґРЅРѕ
      * 
      * @param seaTransport
      */
@@ -284,7 +284,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'RW_Transport' element value. Железнодорожный транспорт
+     * Get the 'RW_Transport' element value. Р–РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'RW_Transport' element value. Железнодорожный транспорт
+     * Set the 'RW_Transport' element value. Р–РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚
      * 
      * @param RWTransport
      */
@@ -312,7 +312,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'AutoTransport' element value. Автотранспорт
+     * Get the 'AutoTransport' element value. РђРІС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚
      * 
      * @return value
      */
@@ -321,7 +321,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'AutoTransport' element value. Автотранспорт
+     * Set the 'AutoTransport' element value. РђРІС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚
      * 
      * @param autoTransport
      */
@@ -331,7 +331,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Container' element items. Сведения об используемых контейнерах
+     * Get the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return list
      */
@@ -340,7 +340,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Container' element items. Сведения об используемых контейнерах
+     * Set the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param list
      */
@@ -349,7 +349,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DespatchInfo' element items. Сведения о почтовом отправлении
+     * Get the list of 'DespatchInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕС‡С‚РѕРІРѕРј РѕС‚РїСЂР°РІР»РµРЅРёРё
      * 
      * @return list
      */
@@ -358,7 +358,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DespatchInfo' element items. Сведения о почтовом отправлении
+     * Set the list of 'DespatchInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕС‡С‚РѕРІРѕРј РѕС‚РїСЂР°РІР»РµРЅРёРё
      * 
      * @param list
      */
@@ -367,7 +367,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReplacementBillInfo' element value. Сведения о заменяющей накладной
+     * Get the 'ReplacementBillInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РјРµРЅСЏСЋС‰РµР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -376,7 +376,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReplacementBillInfo' element value. Сведения о заменяющей накладной
+     * Set the 'ReplacementBillInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РјРµРЅСЏСЋС‰РµР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param replacementBillInfo
      */
@@ -386,7 +386,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalEmptyContainers' element value. Сведения об общих количественных показателях порожних емкостей
+     * Get the 'TotalEmptyContainers' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРѕСЂРѕР¶РЅРёС… РµРјРєРѕСЃС‚РµР№
      * 
      * @return value
      */
@@ -395,7 +395,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalEmptyContainers' element value. Сведения об общих количественных показателях порожних емкостей
+     * Set the 'TotalEmptyContainers' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРѕСЂРѕР¶РЅРёС… РµРјРєРѕСЃС‚РµР№
      * 
      * @param totalEmptyContainers
      */
@@ -405,7 +405,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalWrittenCorr' element value. Сведения об общих количественных показателях письменной корреспонденции
+     * Get the 'TotalWrittenCorr' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРёСЃСЊРјРµРЅРЅРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё
      * 
      * @return value
      */
@@ -414,7 +414,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalWrittenCorr' element value. Сведения об общих количественных показателях письменной корреспонденции
+     * Set the 'TotalWrittenCorr' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРёСЃСЊРјРµРЅРЅРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё
      * 
      * @param totalWrittenCorr
      */
@@ -423,7 +423,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalUncapacityParcels' element value. Сведения об общих количественных показателях СР
+     * Get the 'TotalUncapacityParcels' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РЎР 
      * 
      * @return value
      */
@@ -432,7 +432,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalUncapacityParcels' element value. Сведения об общих количественных показателях СР
+     * Set the 'TotalUncapacityParcels' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РЎР 
      * 
      * @param totalUncapacityParcels
      */
@@ -442,7 +442,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReturnedContainersKind' element value. Сведения о типе возвращаемых емкостей
+     * Get the 'ReturnedContainersKind' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РёРїРµ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
      * 
      * @return value
      */
@@ -451,7 +451,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReturnedContainersKind' element value. Сведения о типе возвращаемых емкостей
+     * Set the 'ReturnedContainersKind' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РёРїРµ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
      * 
      * @param returnedContainersKind
      */
@@ -461,7 +461,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ReloadInfo' element items. Сведения о планируемой перегрузке или грузовых операциях в пути
+     * Get the list of 'ReloadInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјРѕР№ РїРµСЂРµРіСЂСѓР·РєРµ РёР»Рё РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёСЏС… РІ РїСѓС‚Рё
      * 
      * @return list
      */
@@ -470,7 +470,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ReloadInfo' element items. Сведения о планируемой перегрузке или грузовых операциях в пути
+     * Set the list of 'ReloadInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјРѕР№ РїРµСЂРµРіСЂСѓР·РєРµ РёР»Рё РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёСЏС… РІ РїСѓС‚Рё
      * 
      * @param list
      */
@@ -479,7 +479,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -488,7 +488,7 @@ public class PostalManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

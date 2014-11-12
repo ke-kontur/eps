@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.do1reportin;
 
 /** 
- * Сведения об общей стоимости товаров в отчете
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ РІ РѕС‚С‡РµС‚Рµ
  */
 public class DO1CostTypeType
 {
@@ -10,7 +10,7 @@ public class DO1CostTypeType
     private String currencyCode;
 
     /** 
-     * Get the 'Amount' element value. Общая фактурная стоимость
+     * Get the 'Amount' element value. РћР±С‰Р°СЏ С„Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DO1CostTypeType
     }
 
     /** 
-     * Set the 'Amount' element value. Общая фактурная стоимость
+     * Set the 'Amount' element value. РћР±С‰Р°СЏ С„Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param amount
      */
@@ -28,7 +28,7 @@ public class DO1CostTypeType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код валюты фактурной стоимости
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DO1CostTypeType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код валюты фактурной стоимости
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param currencyCode
      */

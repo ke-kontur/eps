@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о товаре
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class GoodsInfoType
 {
@@ -14,7 +14,7 @@ public class GoodsInfoType
     private SoldGoodsType soldGoods;
 
     /** 
-     * Get the list of 'GeneralComments' element items. Общие комментарии
+     * Get the list of 'GeneralComments' element items. РћР±С‰РёРµ РєРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GeneralComments' element items. Общие комментарии
+     * Set the list of 'GeneralComments' element items. РћР±С‰РёРµ РєРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'FreeGoods' element items. Бесплатные товары
+     * Get the list of 'FreeGoods' element items. Р‘РµСЃРїР»Р°С‚РЅС‹Рµ С‚РѕРІР°СЂС‹
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'FreeGoods' element items. Бесплатные товары
+     * Set the list of 'FreeGoods' element items. Р‘РµСЃРїР»Р°С‚РЅС‹Рµ С‚РѕРІР°СЂС‹
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'SoldGoods' element value. Продаваемые товары
+     * Get the 'SoldGoods' element value. РџСЂРѕРґР°РІР°РµРјС‹Рµ С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'SoldGoods' element value. Продаваемые товары
+     * Set the 'SoldGoods' element value. РџСЂРѕРґР°РІР°РµРјС‹Рµ С‚РѕРІР°СЂС‹
      * 
      * @param soldGoods
      */

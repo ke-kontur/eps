@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о результате обработки
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё
  */
 public class ResultInformationType
 {
@@ -15,7 +15,7 @@ public class ResultInformationType
     private String resultCategory;
 
     /** 
-     * Get the 'ResultCode' element value. Код возврата
+     * Get the 'ResultCode' element value. РљРѕРґ РІРѕР·РІСЂР°С‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultCode' element value. Код возврата
+     * Set the 'ResultCode' element value. РљРѕРґ РІРѕР·РІСЂР°С‚Р°
      * 
      * @param resultCode
      */
@@ -33,7 +33,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ReferenceID' element value. Ссылочный идентификатор документа
+     * Get the 'ReferenceID' element value. РЎСЃС‹Р»РѕС‡РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ReferenceID' element value. Ссылочный идентификатор документа
+     * Set the 'ReferenceID' element value. РЎСЃС‹Р»РѕС‡РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param referenceID
      */
@@ -51,7 +51,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the list of 'ResultDescription' element items. Текстовое описание.
+     * Get the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ.
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the list of 'ResultDescription' element items. Текстовое описание.
+     * Set the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ.
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
+     * Get the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
+     * Set the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
      * 
      * @param resultCategory
      */

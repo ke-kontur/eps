@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * Санитарно-эпидемиологическое заключение (гигиенический сертификат)
+ * РЎР°РЅРёС‚Р°СЂРЅРѕ-СЌРїРёРґРµРјРёРѕР»РѕРіРёС‡РµСЃРєРѕРµ Р·Р°РєР»СЋС‡РµРЅРёРµ (РіРёРіРёРµРЅРёС‡РµСЃРєРёР№ СЃРµСЂС‚РёС„РёРєР°С‚)
  */
 public class SanitarySertifType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class SanitarySertifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SertifNumber' element value. Номер сертификата
+     * Get the 'SertifNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifNumber' element value. Номер сертификата
+     * Set the 'SertifNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param sertifNumber
      */
@@ -48,7 +48,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Дата начала действия сертификата (совпадает с датой регистрации документа)
+     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (СЃРѕРІРїР°РґР°РµС‚ СЃ РґР°С‚РѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Дата начала действия сертификата (совпадает с датой регистрации документа)
+     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (СЃРѕРІРїР°РґР°РµС‚ СЃ РґР°С‚РѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°)
      * 
      * @param beginDate
      */
@@ -66,7 +66,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата окончания действия сертификата (необязателен при сертификации партии)
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (РЅРµРѕР±СЏР·Р°С‚РµР»РµРЅ РїСЂРё СЃРµСЂС‚РёС„РёРєР°С†РёРё РїР°СЂС‚РёРё)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата окончания действия сертификата (необязателен при сертификации партии)
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (РЅРµРѕР±СЏР·Р°С‚РµР»РµРЅ РїСЂРё СЃРµСЂС‚РёС„РёРєР°С†РёРё РїР°СЂС‚РёРё)
      * 
      * @param endDate
      */
@@ -84,7 +84,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormNumber' element value. Номер бланка сертификата
+     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormNumber' element value. Номер бланка сертификата
+     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param formNumber
      */
@@ -102,7 +102,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'TypeOfSetif' element value. Признак вида заключения: 1 - санитарно-эпидемиологическое заключение, иначе - гигиеническое
+     * Get the 'TypeOfSetif' element value. РџСЂРёР·РЅР°Рє РІРёРґР° Р·Р°РєР»СЋС‡РµРЅРёСЏ: 1 - СЃР°РЅРёС‚Р°СЂРЅРѕ-СЌРїРёРґРµРјРёРѕР»РѕРіРёС‡РµСЃРєРѕРµ Р·Р°РєР»СЋС‡РµРЅРёРµ, РёРЅР°С‡Рµ - РіРёРіРёРµРЅРёС‡РµСЃРєРѕРµ
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'TypeOfSetif' element value. Признак вида заключения: 1 - санитарно-эпидемиологическое заключение, иначе - гигиеническое
+     * Set the 'TypeOfSetif' element value. РџСЂРёР·РЅР°Рє РІРёРґР° Р·Р°РєР»СЋС‡РµРЅРёСЏ: 1 - СЃР°РЅРёС‚Р°СЂРЅРѕ-СЌРїРёРґРµРјРёРѕР»РѕРіРёС‡РµСЃРєРѕРµ Р·Р°РєР»СЋС‡РµРЅРёРµ, РёРЅР°С‡Рµ - РіРёРіРёРµРЅРёС‡РµСЃРєРѕРµ
      * 
      * @param typeOfSetif
      */
@@ -120,7 +120,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'SertifOrganization' element value. Сведения об органе сертификации
+     * Get the 'SertifOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ СЃРµСЂС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifOrganization' element value. Сведения об органе сертификации
+     * Set the 'SertifOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ СЃРµСЂС‚РёС„РёРєР°С†РёРё
      * 
      * @param sertifOrganization
      */
@@ -138,7 +138,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'NormDocsOrganization' element value. Информация об организации - разработчике нормативной документации
+     * Get the 'NormDocsOrganization' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРµ РЅРѕСЂРјР°С‚РёРІРЅРѕР№ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'NormDocsOrganization' element value. Информация об организации - разработчике нормативной документации
+     * Set the 'NormDocsOrganization' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРµ РЅРѕСЂРјР°С‚РёРІРЅРѕР№ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё
      * 
      * @param normDocsOrganization
      */
@@ -156,7 +156,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ManufacturerInf' element items. Информация об изготовителе/индивидуальном предпринимателе
+     * Get the list of 'ManufacturerInf' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ
      * 
      * @return list
      */
@@ -165,7 +165,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ManufacturerInf' element items. Информация об изготовителе/индивидуальном предпринимателе
+     * Set the list of 'ManufacturerInf' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ
      * 
      * @param list
      */
@@ -174,7 +174,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'SertifRecipient' element value. Информация о лице, которому выдан сертификат 
+     * Get the 'SertifRecipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚ 
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifRecipient' element value. Информация о лице, которому выдан сертификат 
+     * Set the 'SertifRecipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚ 
      * 
      * @param sertifRecipient
      */
@@ -192,7 +192,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Goods' element value. Сведения о продукции
+     * Get the 'Goods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Goods' element value. Сведения о продукции
+     * Set the 'Goods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param goods
      */
@@ -210,7 +210,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. Подпись руководителя
+     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. Подпись руководителя
+     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ
      * 
      * @param documentSignature
      */
@@ -228,7 +228,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Contract' element items. Номер и дата контракта
+     * Get the list of 'Contract' element items. РќРѕРјРµСЂ Рё РґР°С‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return list
      */
@@ -237,7 +237,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Contract' element items. Номер и дата контракта
+     * Set the list of 'Contract' element items. РќРѕРјРµСЂ Рё РґР°С‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param list
      */
@@ -246,7 +246,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'SertifSupplement' element value. Приложение к санитарно-эпидемиологическому заключению / кроме описания заводов изготовителей
+     * Get the 'SertifSupplement' element value. РџСЂРёР»РѕР¶РµРЅРёРµ Рє СЃР°РЅРёС‚Р°СЂРЅРѕ-СЌРїРёРґРµРјРёРѕР»РѕРіРёС‡РµСЃРєРѕРјСѓ Р·Р°РєР»СЋС‡РµРЅРёСЋ / РєСЂРѕРјРµ РѕРїРёСЃР°РЅРёСЏ Р·Р°РІРѕРґРѕРІ РёР·РіРѕС‚РѕРІРёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifSupplement' element value. Приложение к санитарно-эпидемиологическому заключению / кроме описания заводов изготовителей
+     * Set the 'SertifSupplement' element value. РџСЂРёР»РѕР¶РµРЅРёРµ Рє СЃР°РЅРёС‚Р°СЂРЅРѕ-СЌРїРёРґРµРјРёРѕР»РѕРіРёС‡РµСЃРєРѕРјСѓ Р·Р°РєР»СЋС‡РµРЅРёСЋ / РєСЂРѕРјРµ РѕРїРёСЃР°РЅРёСЏ Р·Р°РІРѕРґРѕРІ РёР·РіРѕС‚РѕРІРёС‚РµР»РµР№
      * 
      * @param sertifSupplement
      */
@@ -264,7 +264,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class SanitarySertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

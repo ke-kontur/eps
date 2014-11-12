@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.decisionclassgood;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Обоснование принятия решения. Заключение экспертной организации
+ * РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ. Р—Р°РєР»СЋС‡РµРЅРёРµ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
  */
 public class ExpertDecisionType extends DocumentBaseType
 {
     private String expertOrganization;
 
     /** 
-     * Get the 'ExpertOrganization' element value. Наименование экспертной организации
+     * Get the 'ExpertOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ExpertDecisionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ExpertOrganization' element value. Наименование экспертной организации
+     * Set the 'ExpertOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param expertOrganization
      */

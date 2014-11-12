@@ -1,0 +1,45 @@
+<binding xmlns:rsm="urn:customs.ru:Information:TransportDocuments:HouseManifest:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:HouseManifest:5.4.3" default="elements" prefix="rsm"/>
+  <mapping abstract="true" type-name="rsm:HouseManifestType" class="ru.acs.fts.schemas.album.housemanifest.HouseManifestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="LinesNumberTotal" get-method="getLinesNumberTotal" set-method="setLinesNumberTotal" usage="optional"/>
+    <value style="element" name="TotalNumberOfPieces" get-method="getTotalNumberOfPieces" set-method="setTotalNumberOfPieces"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getTotalGrossWeight" set-method="setTotalGrossWeight" name="TotalGrossWeight"/>
+    <structure map-as="rsm:HeaderType" get-method="getHeader" set-method="setHeader" name="Header"/>
+    <collection get-method="getItemDetailList" set-method="setItemDetailList" create-type="java.util.ArrayList">
+      <structure map-as="rsm:ItemDetailsType" name="ItemDetails"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.housemanifest.HouseManifestType" name="HouseManifest">
+    <structure map-as="rsm:HouseManifestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsm:HandlingInformationType" class="ru.acs.fts.schemas.album.housemanifest.HandlingInformationType">
+    <value style="element" name="ServiceTypeCode" get-method="getServiceTypeCode" set-method="setServiceTypeCode"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsm:HeaderType" class="ru.acs.fts.schemas.album.housemanifest.HeaderType">
+    <structure map-as="catTrans_ru:AirportType" get-method="getOriginLocation" set-method="setOriginLocation" name="OriginLocation"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDestinationLocation" set-method="setDestinationLocation" name="DestinationLocation"/>
+    <structure map-as="catTrans_ru:AWBNumberType" get-method="getMasterWaybillNumber" set-method="setMasterWaybillNumber" name="MasterWaybillNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsm:HouseWBOrgType" class="ru.acs.fts.schemas.album.housemanifest.HouseWBOrgType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="AccountNumber" get-method="getAccountNumber" set-method="setAccountNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsm:ItemDetailsType" class="ru.acs.fts.schemas.album.housemanifest.ItemDetailsType">
+    <value style="element" name="HouseWaybillNumber" get-method="getHouseWaybillNumber" set-method="setHouseWaybillNumber"/>
+    <value style="element" name="LineItemNumber" get-method="getLineItemNumber" set-method="setLineItemNumber"/>
+    <value style="element" name="ItemDescription" get-method="getItemDescription" set-method="setItemDescription" usage="optional"/>
+    <value style="element" name="ItemName" get-method="getItemName" set-method="setItemName"/>
+    <value style="element" name="NumberOfPieces" get-method="getNumberOfPieces" set-method="setNumberOfPieces" usage="optional"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getOriginLocation" set-method="setOriginLocation" name="OriginLocation"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDestinationLocation" set-method="setDestinationLocation" name="DestinationLocation"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGrossWeight" set-method="setGrossWeight" name="GrossWeight"/>
+    <collection get-method="getSpecialHandlingCodeList" set-method="setSpecialHandlingCodeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rsm:HandlingInformationType" name="SpecialHandlingCode"/>
+    </collection>
+    <structure map-as="rsm:HouseWBOrgType" get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor"/>
+    <structure map-as="rsm:HouseWBOrgType" get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee"/>
+  </mapping>
+</binding>

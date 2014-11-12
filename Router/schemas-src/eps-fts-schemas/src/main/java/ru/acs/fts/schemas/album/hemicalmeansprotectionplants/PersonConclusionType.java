@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.hemicalmeansprotectionplants;
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.AuthorizedPersonType;
 
 /** 
- * Уполномоченное должностное лицо, подписавшее заключение
+ * РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
  */
 public class PersonConclusionType extends AuthorizedPersonType
 {
     private String stampNumber;
 
     /** 
-     * Get the 'StampNumber' element value. Номер печати
+     * Get the 'StampNumber' element value. РќРѕРјРµСЂ РїРµС‡Р°С‚Рё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonConclusionType extends AuthorizedPersonType
     }
 
     /** 
-     * Set the 'StampNumber' element value. Номер печати
+     * Set the 'StampNumber' element value. РќРѕРјРµСЂ РїРµС‡Р°С‚Рё
      * 
      * @param stampNumber
      */

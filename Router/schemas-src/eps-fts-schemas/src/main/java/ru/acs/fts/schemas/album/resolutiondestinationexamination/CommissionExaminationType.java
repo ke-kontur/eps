@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Поручение на экспертизу
+ * РџРѕСЂСѓС‡РµРЅРёРµ РЅР° СЌРєСЃРїРµСЂС‚РёР·Сѓ
  */
 public class CommissionExaminationType
 {
@@ -13,7 +13,7 @@ public class CommissionExaminationType
     private CustomsType customs;
 
     /** 
-     * Get the 'Organization' element value. Экспертное учреждение
+     * Get the 'Organization' element value. Р­РєСЃРїРµСЂС‚РЅРѕРµ СѓС‡СЂРµР¶РґРµРЅРёРµ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CommissionExaminationType
     }
 
     /** 
-     * Set the 'Organization' element value. Экспертное учреждение
+     * Set the 'Organization' element value. Р­РєСЃРїРµСЂС‚РЅРѕРµ СѓС‡СЂРµР¶РґРµРЅРёРµ
      * 
      * @param organization
      */
@@ -31,7 +31,7 @@ public class CommissionExaminationType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CommissionExaminationType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */

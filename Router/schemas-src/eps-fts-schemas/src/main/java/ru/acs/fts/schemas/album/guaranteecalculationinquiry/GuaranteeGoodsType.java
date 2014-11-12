@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.AmountType;
 
 /** 
- * Информация о товаре для расчета сумм обеспечения
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ РґР»СЏ СЂР°СЃС‡РµС‚Р° СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class GuaranteeGoodsType
 {
@@ -19,7 +19,7 @@ public class GuaranteeGoodsType
     private AmountType cost;
 
     /** 
-     * Get the 'Numeric' element value. Номер товара по порядку
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер товара по порядку
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
      * 
      * @param numeric
      */
@@ -37,7 +37,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)
+     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РѕС‚ 6 РґРѕ 10 Р·РЅР°РєРѕРІ)
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)
+     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РѕС‚ 6 РґРѕ 10 Р·РЅР°РєРѕРІ)
      * 
      * @param TNVEDCode
      */
@@ -55,7 +55,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. Код страны происхождения товара
+     * Get the 'OriginCountry' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. Код страны происхождения товара
+     * Set the 'OriginCountry' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param originCountry
      */
@@ -73,7 +73,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'WeightQuantity' element value. Вес товара
+     * Get the 'WeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'WeightQuantity' element value. Вес товара
+     * Set the 'WeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°
      * 
      * @param weightQuantity
      */
@@ -91,7 +91,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'PrivilegeCode' element value. Код льготы
+     * Get the 'PrivilegeCode' element value. РљРѕРґ Р»СЊРіРѕС‚С‹
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'PrivilegeCode' element value. Код льготы
+     * Set the 'PrivilegeCode' element value. РљРѕРґ Р»СЊРіРѕС‚С‹
      * 
      * @param privilegeCode
      */
@@ -109,7 +109,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param supplementaryQuantity
      */
@@ -128,7 +128,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'AddSupplementaryQuantity' element value. Количество товара в единице измерения, отличной от основной и дополнительной
+     * Get the 'AddSupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'AddSupplementaryQuantity' element value. Количество товара в единице измерения, отличной от основной и дополнительной
+     * Set the 'AddSupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№
      * 
      * @param addSupplementaryQuantity
      */
@@ -147,7 +147,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Get the 'Cost' element value. Стоимость товара
+     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class GuaranteeGoodsType
     }
 
     /** 
-     * Set the 'Cost' element value. Стоимость товара
+     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param cost
      */

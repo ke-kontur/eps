@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация по платежам
+ * РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РїР»Р°С‚РµР¶Р°Рј
  */
 public class PaymentInfoType
 {
@@ -21,7 +21,7 @@ public class PaymentInfoType
     private ChargesSummaryType collectCharge;
 
     /** 
-     * Get the 'TaxCode' element value. Коды сборов (только для использования перевозчиком)
+     * Get the 'TaxCode' element value. РљРѕРґС‹ СЃР±РѕСЂРѕРІ (С‚РѕР»СЊРєРѕ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїРµСЂРµРІРѕР·С‡РёРєРѕРј)
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'TaxCode' element value. Коды сборов (только для использования перевозчиком)
+     * Set the 'TaxCode' element value. РљРѕРґС‹ СЃР±РѕСЂРѕРІ (С‚РѕР»СЊРєРѕ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїРµСЂРµРІРѕР·С‡РёРєРѕРј)
      * 
      * @param taxCode
      */
@@ -39,7 +39,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'WeightValuePrepaidFlag' element value. Признак предоплаты  для сборов по весу/объявленной стоимости
+     * Get the 'WeightValuePrepaidFlag' element value. РџСЂРёР·РЅР°Рє РїСЂРµРґРѕРїР»Р°С‚С‹  РґР»СЏ СЃР±РѕСЂРѕРІ РїРѕ РІРµСЃСѓ/РѕР±СЉСЏРІР»РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'WeightValuePrepaidFlag' element value. Признак предоплаты  для сборов по весу/объявленной стоимости
+     * Set the 'WeightValuePrepaidFlag' element value. РџСЂРёР·РЅР°Рє РїСЂРµРґРѕРїР»Р°С‚С‹  РґР»СЏ СЃР±РѕСЂРѕРІ РїРѕ РІРµСЃСѓ/РѕР±СЉСЏРІР»РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param weightValuePrepaidFlag
      */
@@ -57,7 +57,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'OtherChargesPrepaidFlag' element value. Признак предоплаты  для других сборов
+     * Get the 'OtherChargesPrepaidFlag' element value. РџСЂРёР·РЅР°Рє РїСЂРµРґРѕРїР»Р°С‚С‹  РґР»СЏ РґСЂСѓРіРёС… СЃР±РѕСЂРѕРІ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'OtherChargesPrepaidFlag' element value. Признак предоплаты  для других сборов
+     * Set the 'OtherChargesPrepaidFlag' element value. РџСЂРёР·РЅР°Рє РїСЂРµРґРѕРїР»Р°С‚С‹  РґР»СЏ РґСЂСѓРіРёС… СЃР±РѕСЂРѕРІ
      * 
      * @param otherChargesPrepaidFlag
      */
@@ -75,7 +75,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс пересчета в аэропорту назначения
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р° РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс пересчета в аэропорту назначения
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р° РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param currencyRate
      */
@@ -93,7 +93,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'ChargesDestCurrency' element value. Сумма сборов в валюте страны назначения
+     * Get the 'ChargesDestCurrency' element value. РЎСѓРјРјР° СЃР±РѕСЂРѕРІ РІ РІР°Р»СЋС‚Рµ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'ChargesDestCurrency' element value. Сумма сборов в валюте страны назначения
+     * Set the 'ChargesDestCurrency' element value. РЎСѓРјРјР° СЃР±РѕСЂРѕРІ РІ РІР°Р»СЋС‚Рµ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param chargesDestCurrency
      */
@@ -111,7 +111,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'ChargesDestination' element value. Сумма сборов в аэропорту назначения
+     * Get the 'ChargesDestination' element value. РЎСѓРјРјР° СЃР±РѕСЂРѕРІ РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'ChargesDestination' element value. Сумма сборов в аэропорту назначения
+     * Set the 'ChargesDestination' element value. РЎСѓРјРјР° СЃР±РѕСЂРѕРІ РІ Р°СЌСЂРѕРїРѕСЂС‚Сѓ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param chargesDestination
      */
@@ -129,7 +129,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'TotalCollectCharges' element value. Сумма сборов в кредит
+     * Get the 'TotalCollectCharges' element value. РЎСѓРјРјР° СЃР±РѕСЂРѕРІ РІ РєСЂРµРґРёС‚
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'TotalCollectCharges' element value. Сумма сборов в кредит
+     * Set the 'TotalCollectCharges' element value. РЎСѓРјРјР° СЃР±РѕСЂРѕРІ РІ РєСЂРµРґРёС‚
      * 
      * @param totalCollectCharges
      */
@@ -147,7 +147,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the list of 'OtherCharges' element items. Другие сборы
+     * Get the list of 'OtherCharges' element items. Р”СЂСѓРіРёРµ СЃР±РѕСЂС‹
      * 
      * @return list
      */
@@ -156,7 +156,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the list of 'OtherCharges' element items. Другие сборы
+     * Set the list of 'OtherCharges' element items. Р”СЂСѓРіРёРµ СЃР±РѕСЂС‹
      * 
      * @param list
      */
@@ -165,7 +165,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'PrepaydCharge' element value. Предоплаченные платежи
+     * Get the 'PrepaydCharge' element value. РџСЂРµРґРѕРїР»Р°С‡РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'PrepaydCharge' element value. Предоплаченные платежи
+     * Set the 'PrepaydCharge' element value. РџСЂРµРґРѕРїР»Р°С‡РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
      * 
      * @param prepaydCharge
      */
@@ -183,7 +183,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'CollectCharge' element value. Оплата по прибытии
+     * Get the 'CollectCharge' element value. РћРїР»Р°С‚Р° РїРѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'CollectCharge' element value. Оплата по прибытии
+     * Set the 'CollectCharge' element value. РћРїР»Р°С‚Р° РїРѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @param collectCharge
      */

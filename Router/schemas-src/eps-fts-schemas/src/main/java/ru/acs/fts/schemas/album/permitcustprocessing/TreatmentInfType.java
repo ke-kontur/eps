@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOpera
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrganizationType;
 
 /** 
- * Переработка
+ * РџРµСЂРµСЂР°Р±РѕС‚РєР°
  */
 public class TreatmentInfType
 {
@@ -23,7 +23,7 @@ public class TreatmentInfType
     private TreatmentOperationsType treatmentOperations;
 
     /** 
-     * Get the list of 'YieldNorm' element items. Нормы выхода
+     * Get the list of 'YieldNorm' element items. РќРѕСЂРјС‹ РІС‹С…РѕРґР°
      * 
      * @return list
      */
@@ -32,7 +32,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the list of 'YieldNorm' element items. Нормы выхода
+     * Set the list of 'YieldNorm' element items. РќРѕСЂРјС‹ РІС‹С…РѕРґР°
      * 
      * @param list
      */
@@ -41,7 +41,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the list of 'IdentificationMethod' element items. Способы идентификации товаров в продуктах переработки
+     * Get the list of 'IdentificationMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -50,7 +50,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the list of 'IdentificationMethod' element items. Способы идентификации товаров в продуктах переработки
+     * Set the list of 'IdentificationMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -59,7 +59,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Срок переработки
+     * Get the 'DateLimit' element value. РЎСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок переработки
+     * Set the 'DateLimit' element value. РЎСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param dateLimit
      */
@@ -77,7 +77,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the list of 'ProcessProductionDes' element items. Краткое описание производственного процесса
+     * Get the list of 'ProcessProductionDes' element items. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРѕС†РµСЃСЃР°
      * 
      * @return list
      */
@@ -86,7 +86,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the list of 'ProcessProductionDes' element items. Краткое описание производственного процесса
+     * Set the list of 'ProcessProductionDes' element items. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРѕС†РµСЃСЃР°
      * 
      * @param list
      */
@@ -95,7 +95,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the list of 'SpecialCustomMarks' element items. Специальные отметки таможни
+     * Get the list of 'SpecialCustomMarks' element items. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ РѕС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the list of 'SpecialCustomMarks' element items. Специальные отметки таможни
+     * Set the list of 'SpecialCustomMarks' element items. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ РѕС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the list of 'BaseTreatmentDocs' element items. Контракт или иные документы, в соответствии с которыми вывозятся на переработку товары
+     * Get the list of 'BaseTreatmentDocs' element items. РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РІС‹РІРѕР·СЏС‚СЃСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂС‹
      * 
      * @return list
      */
@@ -122,7 +122,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the list of 'BaseTreatmentDocs' element items. Контракт или иные документы, в соответствии с которыми вывозятся на переработку товары
+     * Set the list of 'BaseTreatmentDocs' element items. РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РІС‹РІРѕР·СЏС‚СЃСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂС‹
      * 
      * @param list
      */
@@ -131,7 +131,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the list of 'TreatmentOrganization' element items. Описание организации-переработчика
+     * Get the list of 'TreatmentOrganization' element items. РћРїРёСЃР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРµСЂРµСЂР°Р±РѕС‚С‡РёРєР°
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the list of 'TreatmentOrganization' element items. Описание организации-переработчика
+     * Set the list of 'TreatmentOrganization' element items. РћРїРёСЃР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРµСЂРµСЂР°Р±РѕС‚С‡РёРєР°
      * 
      * @param list
      */
@@ -150,7 +150,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Get the 'TreatmentOperations' element value. Операции по переработке товаров и способы их совершения
+     * Get the 'TreatmentOperations' element value. РћРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ Рё СЃРїРѕСЃРѕР±С‹ РёС… СЃРѕРІРµСЂС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the 'TreatmentOperations' element value. Операции по переработке товаров и способы их совершения
+     * Set the 'TreatmentOperations' element value. РћРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ Рё СЃРїРѕСЃРѕР±С‹ РёС… СЃРѕРІРµСЂС€РµРЅРёСЏ
      * 
      * @param treatmentOperations
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Платёжный документ
+ * РџР»Р°С‚С‘Р¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class PaymentDocumentType
 {
@@ -20,7 +20,7 @@ public class PaymentDocumentType
     private String KPPCode;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @param paymentModeCode
      */
@@ -38,7 +38,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'PaymentDocumentNumber' element value. Номер платежного документа
+     * Get the 'PaymentDocumentNumber' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PaymentDocumentNumber' element value. Номер платежного документа
+     * Set the 'PaymentDocumentNumber' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param paymentDocumentNumber
      */
@@ -56,7 +56,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'PaymentDocumentDate' element value. Дата платежного документа
+     * Get the 'PaymentDocumentDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PaymentDocumentDate' element value. Дата платежного документа
+     * Set the 'PaymentDocumentDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param paymentDocumentDate
      */
@@ -74,7 +74,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'TotalAmount' element value. Общая сумма по платежному документу
+     * Get the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'TotalAmount' element value. Общая сумма по платежному документу
+     * Set the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param totalAmount
      */
@@ -92,7 +92,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'WrittenoffAmount' element value. Списываемая сумма по платежному документу
+     * Get the 'WrittenoffAmount' element value. РЎРїРёСЃС‹РІР°РµРјР°СЏ СЃСѓРјРјР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'WrittenoffAmount' element value. Списываемая сумма по платежному документу
+     * Set the 'WrittenoffAmount' element value. РЎРїРёСЃС‹РІР°РµРјР°СЏ СЃСѓРјРјР° РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param writtenoffAmount
      */
@@ -110,7 +110,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа / обеспечения
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа / обеспечения
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param paymentCurrencyCode
      */
@@ -128,7 +128,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'WrittenoffAmountCurrencyCode' element value. Код валюты списываемой суммы по платежному документу
+     * Get the 'WrittenoffAmountCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃРїРёСЃС‹РІР°РµРјРѕР№ СЃСѓРјРјС‹ РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'WrittenoffAmountCurrencyCode' element value. Код валюты списываемой суммы по платежному документу
+     * Set the 'WrittenoffAmountCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃРїРёСЃС‹РІР°РµРјРѕР№ СЃСѓРјРјС‹ РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
      * 
      * @param writtenoffAmountCurrencyCode
      */
@@ -147,7 +147,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'ReturnSign' element value. Признак возврата денежных средств
+     * Get the 'ReturnSign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‚Р° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'ReturnSign' element value. Признак возврата денежных средств
+     * Set the 'ReturnSign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‚Р° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param returnSign
      */
@@ -165,7 +165,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'INNID' element value. Индивидуальный номер налогоплательщика плательщика
+     * Get the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'INNID' element value. Индивидуальный номер налогоплательщика плательщика
+     * Set the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param INNID
      */
@@ -183,7 +183,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'KPPCode' element value. Код причины постановки на налоговый учет плательщика
+     * Get the 'KPPCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'KPPCode' element value. Код причины постановки на налоговый учет плательщика
+     * Set the 'KPPCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param KPPCode
      */

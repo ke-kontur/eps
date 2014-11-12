@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Дополнительная информация, для которой не предусмотрено специальных элементов
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ, РґР»СЏ РєРѕС‚РѕСЂРѕР№ РЅРµ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРѕ СЃРїРµС†РёР°Р»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ
  */
 public class AdditionalDataType
 {
@@ -13,7 +13,7 @@ public class AdditionalDataType
     private List<String> additionalInformationList = new ArrayList<String>();
 
     /** 
-     * Get the 'PositionNumber' element value. Номер графы
+     * Get the 'PositionNumber' element value. РќРѕРјРµСЂ РіСЂР°С„С‹
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AdditionalDataType
     }
 
     /** 
-     * Set the 'PositionNumber' element value. Номер графы
+     * Set the 'PositionNumber' element value. РќРѕРјРµСЂ РіСЂР°С„С‹
      * 
      * @param positionNumber
      */
@@ -31,7 +31,7 @@ public class AdditionalDataType
     }
 
     /** 
-     * Get the list of 'AdditionalInformation' element items. Дополнительные данные
+     * Get the list of 'AdditionalInformation' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class AdditionalDataType
     }
 
     /** 
-     * Set the list of 'AdditionalInformation' element items. Дополнительные данные
+     * Set the list of 'AdditionalInformation' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ
      * 
      * @param list
      */

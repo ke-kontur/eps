@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Комплексный тип для данных об аннулировании документа
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РґР°РЅРЅС‹С… РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class WHDocumentCancelationType
 {
@@ -13,7 +13,7 @@ public class WHDocumentCancelationType
     private WHCustomInspectorType inspector;
 
     /** 
-     * Get the 'CancelDate' element value. Дата аннулирования
+     * Get the 'CancelDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Set the 'CancelDate' element value. Дата аннулирования
+     * Set the 'CancelDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
      * 
      * @param cancelDate
      */
@@ -31,7 +31,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Get the 'CancelReason' element value. Причина аннулирования
+     * Get the 'CancelReason' element value. РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Set the 'CancelReason' element value. Причина аннулирования
+     * Set the 'CancelReason' element value. РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
      * 
      * @param cancelReason
      */
@@ -49,7 +49,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Get the 'Inspector' element value. Сотрудник таможенного органа, аннулировавший отчет
+     * Get the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р°РЅРЅСѓР»РёСЂРѕРІР°РІС€РёР№ РѕС‚С‡РµС‚
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Set the 'Inspector' element value. Сотрудник таможенного органа, аннулировавший отчет
+     * Set the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р°РЅРЅСѓР»РёСЂРѕРІР°РІС€РёР№ РѕС‚С‡РµС‚
      * 
      * @param inspector
      */

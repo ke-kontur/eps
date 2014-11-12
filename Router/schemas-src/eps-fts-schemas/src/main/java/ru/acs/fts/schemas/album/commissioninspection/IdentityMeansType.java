@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * Средства идентификации
+ * РЎСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
  */
 public class IdentityMeansType
 {
@@ -10,7 +10,7 @@ public class IdentityMeansType
     private String quantity;
 
     /** 
-     * Get the 'Kind' element value. Вид средств идентификации
+     * Get the 'Kind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class IdentityMeansType
     }
 
     /** 
-     * Set the 'Kind' element value. Вид средств идентификации
+     * Set the 'Kind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param kind
      */
@@ -28,7 +28,7 @@ public class IdentityMeansType
     }
 
     /** 
-     * Get the 'Quantity' element value. Кол-во средств идентификации, которые требуется наложить
+     * Get the 'Quantity' element value. РљРѕР»-РІРѕ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё, РєРѕС‚РѕСЂС‹Рµ С‚СЂРµР±СѓРµС‚СЃСЏ РЅР°Р»РѕР¶РёС‚СЊ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IdentityMeansType
     }
 
     /** 
-     * Set the 'Quantity' element value. Кол-во средств идентификации, которые требуется наложить
+     * Set the 'Quantity' element value. РљРѕР»-РІРѕ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё, РєРѕС‚РѕСЂС‹Рµ С‚СЂРµР±СѓРµС‚СЃСЏ РЅР°Р»РѕР¶РёС‚СЊ
      * 
      * @param quantity
      */

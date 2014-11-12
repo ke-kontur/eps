@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.rzndesignatedpurpose;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Подтверждение (Удостоверение)
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ (РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ)
  */
 public class ConfirmationType extends DocumentBaseType
 {
     private String duration;
 
     /** 
-     * Get the 'Duration' element value. Срок действия
+     * Get the 'Duration' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Duration' element value. Срок действия
+     * Set the 'Duration' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ
      * 
      * @param duration
      */

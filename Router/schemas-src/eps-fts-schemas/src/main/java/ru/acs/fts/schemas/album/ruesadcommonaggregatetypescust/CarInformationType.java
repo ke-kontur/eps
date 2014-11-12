@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Сведения о комплектации автомобиля
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїР»РµРєС‚Р°С†РёРё Р°РІС‚РѕРјРѕР±РёР»СЏ
  */
 public class CarInformationType
 {
@@ -11,7 +11,7 @@ public class CarInformationType
     private AutoInspResultsType autoInspResults;
 
     /** 
-     * Get the 'ArriveType' element value. Прибытие: 1 - своим ходом, 2 - на транспортном средстве, 3 - в контейнере
+     * Get the 'ArriveType' element value. РџСЂРёР±С‹С‚РёРµ: 1 - СЃРІРѕРёРј С…РѕРґРѕРј, 2 - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, 3 - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CarInformationType
     }
 
     /** 
-     * Set the 'ArriveType' element value. Прибытие: 1 - своим ходом, 2 - на транспортном средстве, 3 - в контейнере
+     * Set the 'ArriveType' element value. РџСЂРёР±С‹С‚РёРµ: 1 - СЃРІРѕРёРј С…РѕРґРѕРј, 2 - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, 3 - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
      * 
      * @param arriveType
      */
@@ -29,7 +29,7 @@ public class CarInformationType
     }
 
     /** 
-     * Get the 'VINID' element value. Идентификационный номер (VIN) транспортного средства
+     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CarInformationType
     }
 
     /** 
-     * Set the 'VINID' element value. Идентификационный номер (VIN) транспортного средства
+     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param VINID
      */
@@ -47,7 +47,7 @@ public class CarInformationType
     }
 
     /** 
-     * Get the 'AutoInspResults' element value. Результаты досмотра автомобиля (товарная позиция 8702, 8703 по ТН ВЭД ТС)
+     * Get the 'AutoInspResults' element value. Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° Р°РІС‚РѕРјРѕР±РёР»СЏ (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8702, 8703 РїРѕ РўРќ Р’Р­Р” РўРЎ)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CarInformationType
     }
 
     /** 
-     * Set the 'AutoInspResults' element value. Результаты досмотра автомобиля (товарная позиция 8702, 8703 по ТН ВЭД ТС)
+     * Set the 'AutoInspResults' element value. Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° Р°РІС‚РѕРјРѕР±РёР»СЏ (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8702, 8703 РїРѕ РўРќ Р’Р­Р” РўРЎ)
      * 
      * @param autoInspResults
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transitrevealedrisks;
 
 /** 
- * Информация о типовом критерии
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РёРїРѕРІРѕРј РєСЂРёС‚РµСЂРёРё
  */
 public class CriterionCodeInfoType
 {
@@ -10,7 +10,7 @@ public class CriterionCodeInfoType
     private String criterionDescription;
 
     /** 
-     * Get the 'CriterionCode' element value. Код типового критерия
+     * Get the 'CriterionCode' element value. РљРѕРґ С‚РёРїРѕРІРѕРіРѕ РєСЂРёС‚РµСЂРёСЏ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CriterionCodeInfoType
     }
 
     /** 
-     * Set the 'CriterionCode' element value. Код типового критерия
+     * Set the 'CriterionCode' element value. РљРѕРґ С‚РёРїРѕРІРѕРіРѕ РєСЂРёС‚РµСЂРёСЏ
      * 
      * @param criterionCode
      */
@@ -28,7 +28,7 @@ public class CriterionCodeInfoType
     }
 
     /** 
-     * Get the 'CriterionDescription' element value. Описание типового критерия
+     * Get the 'CriterionDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїРѕРІРѕРіРѕ РєСЂРёС‚РµСЂРёСЏ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CriterionCodeInfoType
     }
 
     /** 
-     * Set the 'CriterionDescription' element value. Описание типового критерия
+     * Set the 'CriterionDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїРѕРІРѕРіРѕ РєСЂРёС‚РµСЂРёСЏ
      * 
      * @param criterionDescription
      */

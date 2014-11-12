@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о версии вида документов, включая перечень способов представления (для визуализации документов) и перечень реквизитов.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚РѕРІ, РІРєР»СЋС‡Р°СЏ РїРµСЂРµС‡РµРЅСЊ СЃРїРѕСЃРѕР±РѕРІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ) Рё РїРµСЂРµС‡РµРЅСЊ СЂРµРєРІРёР·РёС‚РѕРІ.
  */
 public class AUDDocumentKindVersionInfoType
 {
@@ -14,7 +14,7 @@ public class AUDDocumentKindVersionInfoType
     private List<AUDRepresentationKindCommonInfoType> representationKindCommonInfoList = new ArrayList<AUDRepresentationKindCommonInfoType>();
 
     /** 
-     * Get the 'AppliedDocumentKindVersionId' element value. Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).
+     * Get the 'AppliedDocumentKindVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјРµРЅ XML РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (РєРѕСЂРЅРµРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AUDDocumentKindVersionInfoType
     }
 
     /** 
-     * Set the 'AppliedDocumentKindVersionId' element value. Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).
+     * Set the 'AppliedDocumentKindVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјРµРЅ XML РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (РєРѕСЂРЅРµРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @param appliedDocumentKindVersionId
      */
@@ -33,7 +33,7 @@ public class AUDDocumentKindVersionInfoType
     }
 
     /** 
-     * Get the list of 'DocumentAttributeInfo' element items. Резерв. Информация о реквизите документа.
+     * Get the list of 'DocumentAttributeInfo' element items. Р РµР·РµСЂРІ. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class AUDDocumentKindVersionInfoType
     }
 
     /** 
-     * Set the list of 'DocumentAttributeInfo' element items. Резерв. Информация о реквизите документа.
+     * Set the list of 'DocumentAttributeInfo' element items. Р РµР·РµСЂРІ. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class AUDDocumentKindVersionInfoType
     }
 
     /** 
-     * Get the list of 'RepresentationKindCommonInfo' element items. Информация о виде представления (для визуализации документа).
+     * Get the list of 'RepresentationKindCommonInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРёРґРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class AUDDocumentKindVersionInfoType
     }
 
     /** 
-     * Set the list of 'RepresentationKindCommonInfo' element items. Информация о виде представления (для визуализации документа).
+     * Set the list of 'RepresentationKindCommonInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРёРґРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @param list
      */

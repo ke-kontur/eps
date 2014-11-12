@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.minpromlicence;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документ
+ * Р”РѕРєСѓРјРµРЅС‚
  */
 public class DocumentType extends DocumentBaseType
 {
     private String docCode;
 
     /** 
-     * Get the 'DocCode' element value. Код документа
+     * Get the 'DocCode' element value. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocCode' element value. Код документа
+     * Set the 'DocCode' element value. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docCode
      */

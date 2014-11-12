@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Индивидуальная накладная при экспресс перевозке
+ * РРЅРґРёРІРёРґСѓР°Р»СЊРЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ РїСЂРё СЌРєСЃРїСЂРµСЃСЃ РїРµСЂРµРІРѕР·РєРµ
  */
 public class WayBillExpressIndividualType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'WayBillNumber' element value. Номер индивидуальной накладной 
+     * Get the 'WayBillNumber' element value. РќРѕРјРµСЂ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№ 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'WayBillNumber' element value. Номер индивидуальной накладной 
+     * Set the 'WayBillNumber' element value. РќРѕРјРµСЂ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№ 
      * 
      * @param wayBillNumber
      */
@@ -49,7 +49,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты. Относится ко всем значениям стоимости в этом документе 
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹. РћС‚РЅРѕСЃРёС‚СЃСЏ РєРѕ РІСЃРµРј Р·РЅР°С‡РµРЅРёСЏРј СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЌС‚РѕРј РґРѕРєСѓРјРµРЅС‚Рµ 
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты. Относится ко всем значениям стоимости в этом документе 
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹. РћС‚РЅРѕСЃРёС‚СЃСЏ РєРѕ РІСЃРµРј Р·РЅР°С‡РµРЅРёСЏРј СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЌС‚РѕРј РґРѕРєСѓРјРµРЅС‚Рµ 
      * 
      * @param currencyCode
      */
@@ -67,7 +67,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipmentType' element value. Тип перевозки: 1 - автомобильные перевозки; 2 - перевозки водным транспортом; 3 - авиаперевозки
+     * Get the 'ShipmentType' element value. РўРёРї РїРµСЂРµРІРѕР·РєРё: 1 - Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹Рµ РїРµСЂРµРІРѕР·РєРё; 2 - РїРµСЂРµРІРѕР·РєРё РІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј; 3 - Р°РІРёР°РїРµСЂРµРІРѕР·РєРё
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipmentType' element value. Тип перевозки: 1 - автомобильные перевозки; 2 - перевозки водным транспортом; 3 - авиаперевозки
+     * Set the 'ShipmentType' element value. РўРёРї РїРµСЂРµРІРѕР·РєРё: 1 - Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹Рµ РїРµСЂРµРІРѕР·РєРё; 2 - РїРµСЂРµРІРѕР·РєРё РІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј; 3 - Р°РІРёР°РїРµСЂРµРІРѕР·РєРё
      * 
      * @param shipmentType
      */
@@ -85,7 +85,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'Services' element value. Информация об услугах 
+     * Get the 'Services' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓСЃР»СѓРіР°С… 
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'Services' element value. Информация об услугах 
+     * Set the 'Services' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓСЃР»СѓРіР°С… 
      * 
      * @param services
      */
@@ -103,7 +103,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecialServices' element value. Информация о специальных услугах 
+     * Get the 'SpecialServices' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРїРµС†РёР°Р»СЊРЅС‹С… СѓСЃР»СѓРіР°С… 
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecialServices' element value. Информация о специальных услугах 
+     * Set the 'SpecialServices' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРїРµС†РёР°Р»СЊРЅС‹С… СѓСЃР»СѓРіР°С… 
      * 
      * @param specialServices
      */
@@ -121,7 +121,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'InternationalDistribution' element value. Признак использования международной рассылки
+     * Get the 'InternationalDistribution' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ СЂР°СЃСЃС‹Р»РєРё
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'InternationalDistribution' element value. Признак использования международной рассылки
+     * Set the 'InternationalDistribution' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ СЂР°СЃСЃС‹Р»РєРё
      * 
      * @param internationalDistribution
      */
@@ -139,7 +139,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'MailStickerNumber' element value. Номер наклейки для разового отправления с оплатой получателя 
+     * Get the 'MailStickerNumber' element value. РќРѕРјРµСЂ РЅР°РєР»РµР№РєРё РґР»СЏ СЂР°Р·РѕРІРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃ РѕРїР»Р°С‚РѕР№ РїРѕР»СѓС‡Р°С‚РµР»СЏ 
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'MailStickerNumber' element value. Номер наклейки для разового отправления с оплатой получателя 
+     * Set the 'MailStickerNumber' element value. РќРѕРјРµСЂ РЅР°РєР»РµР№РєРё РґР»СЏ СЂР°Р·РѕРІРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃ РѕРїР»Р°С‚РѕР№ РїРѕР»СѓС‡Р°С‚РµР»СЏ 
      * 
      * @param mailStickerNumber
      */
@@ -157,7 +157,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код  таможенного режима 
+     * Get the 'CustomsModeCode' element value. РљРѕРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР° 
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код  таможенного режима 
+     * Set the 'CustomsModeCode' element value. РљРѕРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР° 
      * 
      * @param customsModeCode
      */
@@ -175,7 +175,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'NetWeightTotal' element value. Суммарный вес товаров нетто, кг
+     * Get the 'NetWeightTotal' element value. РЎСѓРјРјР°СЂРЅС‹Р№ РІРµСЃ С‚РѕРІР°СЂРѕРІ РЅРµС‚С‚Рѕ, РєРі
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'NetWeightTotal' element value. Суммарный вес товаров нетто, кг
+     * Set the 'NetWeightTotal' element value. РЎСѓРјРјР°СЂРЅС‹Р№ РІРµСЃ С‚РѕРІР°СЂРѕРІ РЅРµС‚С‚Рѕ, РєРі
      * 
      * @param netWeightTotal
      */
@@ -193,7 +193,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'GrossWeightTotal' element value. Суммарный вес товаров брутто, кг 
+     * Get the 'GrossWeightTotal' element value. РЎСѓРјРјР°СЂРЅС‹Р№ РІРµСЃ С‚РѕРІР°СЂРѕРІ Р±СЂСѓС‚С‚Рѕ, РєРі 
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'GrossWeightTotal' element value. Суммарный вес товаров брутто, кг 
+     * Set the 'GrossWeightTotal' element value. РЎСѓРјРјР°СЂРЅС‹Р№ РІРµСЃ С‚РѕРІР°СЂРѕРІ Р±СЂСѓС‚С‚Рѕ, РєРі 
      * 
      * @param grossWeightTotal
      */
@@ -211,7 +211,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. Отправитель 
+     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ 
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. Отправитель 
+     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ 
      * 
      * @param sender
      */
@@ -229,7 +229,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Receiver' element items. Получатель
+     * Get the list of 'Receiver' element items. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return list
      */
@@ -238,7 +238,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Receiver' element items. Получатель
+     * Set the list of 'Receiver' element items. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param list
      */
@@ -247,7 +247,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Наименование перевозчика и его реквизиты 
+     * Get the 'Carrier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР° Рё РµРіРѕ СЂРµРєРІРёР·РёС‚С‹ 
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Наименование перевозчика и его реквизиты 
+     * Set the 'Carrier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР° Рё РµРіРѕ СЂРµРєРІРёР·РёС‚С‹ 
      * 
      * @param carrier
      */
@@ -265,7 +265,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePoint' element value. Пункт отправления 
+     * Get the 'DeparturePoint' element value. РџСѓРЅРєС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePoint' element value. Пункт отправления 
+     * Set the 'DeparturePoint' element value. РџСѓРЅРєС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @param departurePoint
      */
@@ -283,7 +283,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeliveryPoint' element value. Пункт назначения
+     * Get the 'DeliveryPoint' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeliveryPoint' element value. Пункт назначения
+     * Set the 'DeliveryPoint' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param deliveryPoint
      */
@@ -301,7 +301,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'WayBillAccepted' element value. Накладная была принята: дата, время и имя принявшего лица
+     * Get the 'WayBillAccepted' element value. РќР°РєР»Р°РґРЅР°СЏ Р±С‹Р»Р° РїСЂРёРЅСЏС‚Р°: РґР°С‚Р°, РІСЂРµРјСЏ Рё РёРјСЏ РїСЂРёРЅСЏРІС€РµРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -310,7 +310,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'WayBillAccepted' element value. Накладная была принята: дата, время и имя принявшего лица
+     * Set the 'WayBillAccepted' element value. РќР°РєР»Р°РґРЅР°СЏ Р±С‹Р»Р° РїСЂРёРЅСЏС‚Р°: РґР°С‚Р°, РІСЂРµРјСЏ Рё РёРјСЏ РїСЂРёРЅСЏРІС€РµРіРѕ Р»РёС†Р°
      * 
      * @param wayBillAccepted
      */
@@ -319,7 +319,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'Insurance' element value. Информация о страховании 
+     * Get the 'Insurance' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚СЂР°С…РѕРІР°РЅРёРё 
      * 
      * @return value
      */
@@ -328,7 +328,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'Insurance' element value. Информация о страховании 
+     * Set the 'Insurance' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚СЂР°С…РѕРІР°РЅРёРё 
      * 
      * @param insurance
      */
@@ -337,7 +337,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Товар накладной
+     * Get the list of 'Goods' element items. РўРѕРІР°СЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return list
      */
@@ -346,7 +346,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Товар накладной
+     * Set the list of 'Goods' element items. РўРѕРІР°СЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param list
      */
@@ -355,7 +355,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -364,7 +364,7 @@ public class WayBillExpressIndividualType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

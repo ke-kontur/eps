@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.dealpassport;
 
 /** 
- * Общие сведения о контракте
+ * РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
  */
 public class ContractTermsType extends TermsType
 {
@@ -12,7 +12,7 @@ public class ContractTermsType extends TermsType
     private String currencyName;
 
     /** 
-     * Get the 'Amount' element value. Общая сумма сделки
+     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'Amount' element value. Общая сумма сделки
+     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРґРµР»РєРё
      * 
      * @param amount
      */
@@ -30,7 +30,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @param currencyCode
      */
@@ -48,7 +48,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Get the 'WS' element value. 1 - "Без суммы"
+     * Get the 'WS' element value. 1 - "Р‘РµР· СЃСѓРјРјС‹"
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'WS' element value. 1 - "Без суммы"
+     * Set the 'WS' element value. 1 - "Р‘РµР· СЃСѓРјРјС‹"
      * 
      * @param WS
      */
@@ -66,7 +66,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Get the 'CurrencyName' element value. Краткое наименование валюты контракта
+     * Get the 'CurrencyName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'CurrencyName' element value. Краткое наименование валюты контракта
+     * Set the 'CurrencyName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param currencyName
      */

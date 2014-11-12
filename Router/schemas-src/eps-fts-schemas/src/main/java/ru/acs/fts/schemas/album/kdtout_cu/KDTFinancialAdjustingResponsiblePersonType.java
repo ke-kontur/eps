@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Лицо ответственное за финансовое урегулирование
+ * Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ
  */
 public class KDTFinancialAdjustingResponsiblePersonType
         extends
@@ -14,7 +14,7 @@ public class KDTFinancialAdjustingResponsiblePersonType
     private CUBranchDescriptionType branchDescription;
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KDTFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @param branchDescription
      */

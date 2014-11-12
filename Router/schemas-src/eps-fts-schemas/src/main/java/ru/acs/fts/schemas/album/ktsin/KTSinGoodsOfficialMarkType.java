@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktsin;
 import org.joda.time.LocalDate;
 
 /** 
- * КТС. Внутренний формат. Служебные отметки по товарам.
+ * РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј.
  */
 public class KTSinGoodsOfficialMarkType
 {
@@ -20,7 +20,7 @@ public class KTSinGoodsOfficialMarkType
     private LocalDate documentDate;
 
     /** 
-     * Get the 'RecordSerialNumber' element value. Порядковый номер записи 
+     * Get the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё 
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'RecordSerialNumber' element value. Порядковый номер записи 
+     * Set the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё 
      * 
      * @param recordSerialNumber
      */
@@ -38,7 +38,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'ReserveMarkIdentifier' element value. Резерв - Идентификатор проставленной технологической отметки
+     * Get the 'ReserveMarkIdentifier' element value. Р РµР·РµСЂРІ - РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'ReserveMarkIdentifier' element value. Резерв - Идентификатор проставленной технологической отметки
+     * Set the 'ReserveMarkIdentifier' element value. Р РµР·РµСЂРІ - РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @param reserveMarkIdentifier
      */
@@ -56,7 +56,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'OfficialRecord' element value. Служебная запись 
+     * Get the 'OfficialRecord' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ 
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'OfficialRecord' element value. Служебная запись 
+     * Set the 'OfficialRecord' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ 
      * 
      * @param officialRecord
      */
@@ -74,7 +74,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'PaymentEnsuringTypeCode' element value. Вид обеспечения уплаты
+     * Get the 'PaymentEnsuringTypeCode' element value. Р’РёРґ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'PaymentEnsuringTypeCode' element value. Вид обеспечения уплаты
+     * Set the 'PaymentEnsuringTypeCode' element value. Р’РёРґ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @param paymentEnsuringTypeCode
      */
@@ -92,7 +92,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'PersonName' element value. ФИО инспектора, заверившего запись
+     * Get the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО инспектора, заверившего запись
+     * Set the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @param personName
      */
@@ -110,7 +110,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
+     * Get the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
+     * Set the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
      * 
      * @param LNP
      */
@@ -128,7 +128,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата внесения служебной отметки.
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата внесения служебной отметки.
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
      * 
      * @param dateInf
      */
@@ -146,7 +146,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Время внесения служебной отметки.
+     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Время внесения служебной отметки.
+     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
      * 
      * @param timeInf
      */
@@ -164,7 +164,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. Номер документа
+     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Номер документа
+     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentNumber
      */
@@ -182,7 +182,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Дата документа.
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class KTSinGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата документа.
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentDate
      */

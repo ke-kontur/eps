@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Описание документов, которые предполагается представить в определенный срок
+ * РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РІ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЃСЂРѕРє
  */
 public class DocumentDescriptionType
 {
@@ -15,7 +15,7 @@ public class DocumentDescriptionType
     private String note;
 
     /** 
-     * Get the 'Position' element value. Порядковый номер записи
+     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Set the 'Position' element value. Порядковый номер записи
+     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
      * 
      * @param position
      */
@@ -33,7 +33,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Get the 'DocCode' element value. Код вида документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
+     * Get the 'DocCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Set the 'DocCode' element value. Код вида документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
+     * Set the 'DocCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
      * 
      * @param docCode
      */
@@ -51,7 +51,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Get the 'DocName' element value. Вид документа
+     * Get the 'DocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Set the 'DocName' element value. Вид документа
+     * Set the 'DocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docName
      */
@@ -69,7 +69,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Get the 'SuggDate' element value. Дата предоставления документа
+     * Get the 'SuggDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Set the 'SuggDate' element value. Дата предоставления документа
+     * Set the 'SuggDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param suggDate
      */
@@ -87,7 +87,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Get the 'Note' element value. Примечание
+     * Get the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class DocumentDescriptionType
     }
 
     /** 
-     * Set the 'Note' element value. Примечание
+     * Set the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param note
      */

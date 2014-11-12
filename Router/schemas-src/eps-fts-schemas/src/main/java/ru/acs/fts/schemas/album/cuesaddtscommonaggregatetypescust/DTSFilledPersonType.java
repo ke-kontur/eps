@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType;
 
 /** 
- * Дата заполнения и лицо, заполнившее ДТС
+ * Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ Рё Р»РёС†Рѕ, Р·Р°РїРѕР»РЅРёРІС€РµРµ Р”РўРЎ
  */
 public class DTSFilledPersonType extends ESADFilledPersonType
 {
@@ -14,7 +14,7 @@ public class DTSFilledPersonType extends ESADFilledPersonType
     private String securityLabelCode;
 
     /** 
-     * Get the 'FilledDate' element value. Дата заполнения ДТС
+     * Get the 'FilledDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ Р”РўРЎ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DTSFilledPersonType extends ESADFilledPersonType
     }
 
     /** 
-     * Set the 'FilledDate' element value. Дата заполнения ДТС
+     * Set the 'FilledDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ Р”РўРЎ
      * 
      * @param filledDate
      */
@@ -32,7 +32,7 @@ public class DTSFilledPersonType extends ESADFilledPersonType
     }
 
     /** 
-     * Get the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
+     * Get the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DTSFilledPersonType extends ESADFilledPersonType
     }
 
     /** 
-     * Set the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
+     * Set the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
      * 
      * @param regNumberDoc
      */
@@ -50,7 +50,7 @@ public class DTSFilledPersonType extends ESADFilledPersonType
     }
 
     /** 
-     * Get the 'SecurityLabelCode' element value. Код защитной наклейки для РК
+     * Get the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DTSFilledPersonType extends ESADFilledPersonType
     }
 
     /** 
-     * Set the 'SecurityLabelCode' element value. Код защитной наклейки для РК
+     * Set the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
      * 
      * @param securityLabelCode
      */

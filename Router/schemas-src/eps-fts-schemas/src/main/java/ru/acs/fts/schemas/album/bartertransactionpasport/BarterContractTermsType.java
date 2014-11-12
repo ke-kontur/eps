@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Реквизиты и условия договора по Бартеру
+ * Р РµРєРІРёР·РёС‚С‹ Рё СѓСЃР»РѕРІРёСЏ РґРѕРіРѕРІРѕСЂР° РїРѕ Р‘Р°СЂС‚РµСЂСѓ
  */
 public class BarterContractTermsType
 {
@@ -20,7 +20,7 @@ public class BarterContractTermsType
     private List<DocumentBaseType> changeContractList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'Amount' element value. Общая сумма договора
+     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the 'Amount' element value. Общая сумма договора
+     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРѕРіРѕРІРѕСЂР°
      * 
      * @param amount
      */
@@ -38,7 +38,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты договора
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты договора
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param currencyCode
      */
@@ -56,7 +56,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код применяемой формы расчетов по договора
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјРѕР№ С„РѕСЂРјС‹ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код применяемой формы расчетов по договора
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјРѕР№ С„РѕСЂРјС‹ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param paymentModeCode
      */
@@ -74,7 +74,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Get the 'DueDateCode' element value. Код расчетного срока ввоза (таможенного оформления) на таможенную территорию Российской Федерации
+     * Get the 'DueDateCode' element value. РљРѕРґ СЂР°СЃС‡РµС‚РЅРѕРіРѕ СЃСЂРѕРєР° РІРІРѕР·Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ) РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the 'DueDateCode' element value. Код расчетного срока ввоза (таможенного оформления) на таможенную территорию Российской Федерации
+     * Set the 'DueDateCode' element value. РљРѕРґ СЂР°СЃС‡РµС‚РЅРѕРіРѕ СЃСЂРѕРєР° РІРІРѕР·Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ) РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
      * 
      * @param dueDateCode
      */
@@ -92,7 +92,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Get the 'LastDate' element value. Последняя дата
+     * Get the 'LastDate' element value. РџРѕСЃР»РµРґРЅСЏСЏ РґР°С‚Р°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the 'LastDate' element value. Последняя дата
+     * Set the 'LastDate' element value. РџРѕСЃР»РµРґРЅСЏСЏ РґР°С‚Р°
      * 
      * @param lastDate
      */
@@ -110,7 +110,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Get the 'Contract' element value. Дата и номер контракта
+     * Get the 'Contract' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the 'Contract' element value. Дата и номер контракта
+     * Set the 'Contract' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contract
      */
@@ -128,7 +128,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Get the list of 'ChangeContract' element items. Номера и даты изменений/дополнений к контракту
+     * Get the list of 'ChangeContract' element items. РќРѕРјРµСЂР° Рё РґР°С‚С‹ РёР·РјРµРЅРµРЅРёР№/РґРѕРїРѕР»РЅРµРЅРёР№ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class BarterContractTermsType
     }
 
     /** 
-     * Set the list of 'ChangeContract' element items. Номера и даты изменений/дополнений к контракту
+     * Set the list of 'ChangeContract' element items. РќРѕРјРµСЂР° Рё РґР°С‚С‹ РёР·РјРµРЅРµРЅРёР№/РґРѕРїРѕР»РЅРµРЅРёР№ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param list
      */

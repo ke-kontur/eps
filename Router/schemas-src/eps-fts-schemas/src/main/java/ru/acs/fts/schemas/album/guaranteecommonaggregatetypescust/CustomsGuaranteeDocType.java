@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Информация о документе, по которому осуществляется перевозка товаров/о документе обеспечения
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ/Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class CustomsGuaranteeDocType extends DocumentBaseType
 {
@@ -14,7 +14,7 @@ public class CustomsGuaranteeDocType extends DocumentBaseType
     private LocalDate contractDate;
 
     /** 
-     * Get the 'DocumentKind' element value. Тип документа, по которому осуществляется перевозка товаров/Тип документа обеспечения: 1 - ДТ; 2 - ТД; 3 - книжка МДП; 4 - Сертификат; 5 - ТПО; 6 - ТР; 7 - дополнение к договору поручительства
+     * Get the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ/РўРёРї РґРѕРєСѓРјРµРЅС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ: 1 - Р”Рў; 2 - РўР”; 3 - РєРЅРёР¶РєР° РњР”Рџ; 4 - РЎРµСЂС‚РёС„РёРєР°С‚; 5 - РўРџРћ; 6 - РўР ; 7 - РґРѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°; 8 - Р±Р°РЅРєРѕРІСЃРєР°СЏ РіР°СЂР°РЅС‚РёСЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CustomsGuaranteeDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. Тип документа, по которому осуществляется перевозка товаров/Тип документа обеспечения: 1 - ДТ; 2 - ТД; 3 - книжка МДП; 4 - Сертификат; 5 - ТПО; 6 - ТР; 7 - дополнение к договору поручительства
+     * Set the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ/РўРёРї РґРѕРєСѓРјРµРЅС‚Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ: 1 - Р”Рў; 2 - РўР”; 3 - РєРЅРёР¶РєР° РњР”Рџ; 4 - РЎРµСЂС‚РёС„РёРєР°С‚; 5 - РўРџРћ; 6 - РўР ; 7 - РґРѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°; 8 - Р±Р°РЅРєРѕРІСЃРєР°СЏ РіР°СЂР°РЅС‚РёСЏ
      * 
      * @param documentKind
      */
@@ -32,7 +32,7 @@ public class CustomsGuaranteeDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ContractNumber' element value. Номер договора поручительства
+     * Get the 'ContractNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CustomsGuaranteeDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ContractNumber' element value. Номер договора поручительства
+     * Set the 'ContractNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param contractNumber
      */
@@ -50,7 +50,7 @@ public class CustomsGuaranteeDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ContractDate' element value. Дата договора поручительства
+     * Get the 'ContractDate' element value. Р”Р°С‚Р° РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CustomsGuaranteeDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ContractDate' element value. Дата договора поручительства
+     * Set the 'ContractDate' element value. Р”Р°С‚Р° РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param contractDate
      */

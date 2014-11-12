@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Представленные документы
+ * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class PresentedDocumentsType extends DocumentBaseType
 {
@@ -16,7 +16,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     private String countryCode;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param customsCode
      */
@@ -34,7 +34,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44
+     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44
+     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44
      * 
      * @param presentedDocumentModeCode
      */
@@ -52,7 +52,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentBeginActionsDate' element value. Дата начала действия документа
+     * Get the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentBeginActionsDate' element value. Дата начала действия документа
+     * Set the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentBeginActionsDate
      */
@@ -70,7 +70,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentEndActionsDate' element value. Дата окончания действия документа
+     * Get the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentEndActionsDate' element value. Дата окончания действия документа
+     * Set the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentEndActionsDate
      */
@@ -88,7 +88,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Код страны в соответствии с классификатором стран мира, в которой выдан сертификат
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°, РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны в соответствии с классификатором стран мира, в которой выдан сертификат
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°, РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
      * 
      * @param countryCode
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateexcerpt;
 
 /** 
- * Объект недвижимости
+ * РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
  */
 public class EstateObjectType
 {
@@ -20,7 +20,7 @@ public class EstateObjectType
     private AddressType address;
 
     /** 
-     * Get the 'ObjectSign' element value. Тип объекта: 0 - земельный участок; 1 - объект недвижимости
+     * Get the 'ObjectSign' element value. РўРёРї РѕР±СЉРµРєС‚Р°: 0 - Р·РµРјРµР»СЊРЅС‹Р№ СѓС‡Р°СЃС‚РѕРє; 1 - РѕР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ObjectSign' element value. Тип объекта: 0 - земельный участок; 1 - объект недвижимости
+     * Set the 'ObjectSign' element value. РўРёРї РѕР±СЉРµРєС‚Р°: 0 - Р·РµРјРµР»СЊРЅС‹Р№ СѓС‡Р°СЃС‚РѕРє; 1 - РѕР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @param objectSign
      */
@@ -38,7 +38,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'EstateObjectSign' element value. Тип объекта недвижимости: 1 - помещение; 2 - здание; 3 - иное
+     * Get the 'EstateObjectSign' element value. РўРёРї РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё: 1 - РїРѕРјРµС‰РµРЅРёРµ; 2 - Р·РґР°РЅРёРµ; 3 - РёРЅРѕРµ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'EstateObjectSign' element value. Тип объекта недвижимости: 1 - помещение; 2 - здание; 3 - иное
+     * Set the 'EstateObjectSign' element value. РўРёРї РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё: 1 - РїРѕРјРµС‰РµРЅРёРµ; 2 - Р·РґР°РЅРёРµ; 3 - РёРЅРѕРµ
      * 
      * @param estateObjectSign
      */
@@ -56,7 +56,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'HousingSign' element value. Признак того, что объект недвижимости является жилым (квартира, жилой дом)
+     * Get the 'HousingSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РѕР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё СЏРІР»СЏРµС‚СЃСЏ Р¶РёР»С‹Рј (РєРІР°СЂС‚РёСЂР°, Р¶РёР»РѕР№ РґРѕРј)
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'HousingSign' element value. Признак того, что объект недвижимости является жилым (квартира, жилой дом)
+     * Set the 'HousingSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РѕР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё СЏРІР»СЏРµС‚СЃСЏ Р¶РёР»С‹Рј (РєРІР°СЂС‚РёСЂР°, Р¶РёР»РѕР№ РґРѕРј)
      * 
      * @param housingSign
      */
@@ -74,7 +74,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'IsRoom' element value. Признак того, что помещение является комнатой
+     * Get the 'IsRoom' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРјРµС‰РµРЅРёРµ СЏРІР»СЏРµС‚СЃСЏ РєРѕРјРЅР°С‚РѕР№
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'IsRoom' element value. Признак того, что помещение является комнатой
+     * Set the 'IsRoom' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРјРµС‰РµРЅРёРµ СЏРІР»СЏРµС‚СЃСЏ РєРѕРјРЅР°С‚РѕР№
      * 
      * @param isRoom
      */
@@ -92,7 +92,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'AreaValue' element value. Площадь объекта
+     * Get the 'AreaValue' element value. РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'AreaValue' element value. Площадь объекта
+     * Set the 'AreaValue' element value. РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р°
      * 
      * @param areaValue
      */
@@ -110,7 +110,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'AreaUnit' element value. Единица измерения площади
+     * Get the 'AreaUnit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РїР»РѕС‰Р°РґРё
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'AreaUnit' element value. Единица измерения площади
+     * Set the 'AreaUnit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РїР»РѕС‰Р°РґРё
      * 
      * @param areaUnit
      */
@@ -128,7 +128,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'ObjectDescription' element value. Описание объекта
+     * Get the 'ObjectDescription' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ObjectDescription' element value. Описание объекта
+     * Set the 'ObjectDescription' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚Р°
      * 
      * @param objectDescription
      */
@@ -146,7 +146,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'CadastrNumber' element value. Кадастровый номер
+     * Get the 'CadastrNumber' element value. РљР°РґР°СЃС‚СЂРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'CadastrNumber' element value. Кадастровый номер
+     * Set the 'CadastrNumber' element value. РљР°РґР°СЃС‚СЂРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param cadastrNumber
      */
@@ -164,7 +164,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. Дополнительная информация
+     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. Дополнительная информация
+     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param additionalInfo
      */
@@ -182,7 +182,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'ID' element value. Внутренний идентификатор
+     * Get the 'ID' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ID' element value. Внутренний идентификатор
+     * Set the 'ID' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @param ID
      */
@@ -200,7 +200,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'ConditionCadastrNum' element value. Условный кадастровый номер
+     * Get the 'ConditionCadastrNum' element value. РЈСЃР»РѕРІРЅС‹Р№ РєР°РґР°СЃС‚СЂРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -209,7 +209,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ConditionCadastrNum' element value. Условный кадастровый номер
+     * Set the 'ConditionCadastrNum' element value. РЈСЃР»РѕРІРЅС‹Р№ РєР°РґР°СЃС‚СЂРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param conditionCadastrNum
      */
@@ -218,7 +218,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес объекта
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -227,7 +227,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес объекта
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕР±СЉРµРєС‚Р°
      * 
      * @param address
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание продуктов переработки
+ * РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё
  */
 public class ProcessingGoodsType
 {
@@ -15,7 +15,7 @@ public class ProcessingGoodsType
     private SupplementaryQuantityType processingGoodsQuantity;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -33,7 +33,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание и характеристика товара
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание и характеристика товара
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Get the 'ProcessingGoodsQuantity' element value. Количество товаров в единице измерения
+     * Get the 'ProcessingGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Set the 'ProcessingGoodsQuantity' element value. Количество товаров в единице измерения
+     * Set the 'ProcessingGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param processingGoodsQuantity
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.dealpassport;
 
 /** 
- * Номер паспорта сделки, оформленного до 18.06.2004
+ * РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё, РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РґРѕ 18.06.2004
  */
 public class DPoldNumberType
 {
@@ -12,7 +12,7 @@ public class DPoldNumberType
     private String oldPart4;
 
     /** 
-     * Get the 'TypeOfDP' element value. Тип ПС: 1 - экспорт, 2 - импорт.
+     * Get the 'TypeOfDP' element value. РўРёРї РџРЎ: 1 - СЌРєСЃРїРѕСЂС‚, 2 - РёРјРїРѕСЂС‚.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Set the 'TypeOfDP' element value. Тип ПС: 1 - экспорт, 2 - импорт.
+     * Set the 'TypeOfDP' element value. РўРёРї РџРЎ: 1 - СЌРєСЃРїРѕСЂС‚, 2 - РёРјРїРѕСЂС‚.
      * 
      * @param typeOfDP
      */
@@ -30,7 +30,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Get the 'BankOKPO' element value. Номер банка (подразделения), оформившего ПС
+     * Get the 'BankOKPO' element value. РќРѕРјРµСЂ Р±Р°РЅРєР° (РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ), РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Set the 'BankOKPO' element value. Номер банка (подразделения), оформившего ПС
+     * Set the 'BankOKPO' element value. РќРѕРјРµСЂ Р±Р°РЅРєР° (РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ), РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ
      * 
      * @param bankOKPO
      */
@@ -48,7 +48,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Get the 'OldReNumber' element value. Номер, присвоенный ПС при переоформлении
+     * Get the 'OldReNumber' element value. РќРѕРјРµСЂ, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ РџРЎ РїСЂРё РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Set the 'OldReNumber' element value. Номер, присвоенный ПС при переоформлении
+     * Set the 'OldReNumber' element value. РќРѕРјРµСЂ, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ РџРЎ РїСЂРё РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё
      * 
      * @param oldReNumber
      */
@@ -66,7 +66,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Get the 'OldPart4' element value. Четвертая часть номера ПС из десяти цифр
+     * Get the 'OldPart4' element value. Р§РµС‚РІРµСЂС‚Р°СЏ С‡Р°СЃС‚СЊ РЅРѕРјРµСЂР° РџРЎ РёР· РґРµСЃСЏС‚Рё С†РёС„СЂ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class DPoldNumberType
     }
 
     /** 
-     * Set the 'OldPart4' element value. Четвертая часть номера ПС из десяти цифр
+     * Set the 'OldPart4' element value. Р§РµС‚РІРµСЂС‚Р°СЏ С‡Р°СЃС‚СЊ РЅРѕРјРµСЂР° РџРЎ РёР· РґРµСЃСЏС‚Рё С†РёС„СЂ
      * 
      * @param oldPart4
      */

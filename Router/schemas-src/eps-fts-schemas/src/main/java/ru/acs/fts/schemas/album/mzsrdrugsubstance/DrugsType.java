@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * В отношении лекарственных препаратов
+ * Р’ РѕС‚РЅРѕС€РµРЅРёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… РїСЂРµРїР°СЂР°С‚РѕРІ
  */
 public class DrugsType
 {
@@ -25,7 +25,7 @@ public class DrugsType
     private RegistrationType registration;
 
     /** 
-     * Get the 'Name' element value. Наименование лекарственного препарата (международное непатентованное или химическое и торговое наименования)
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р° (РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРµ РЅРµРїР°С‚РµРЅС‚РѕРІР°РЅРЅРѕРµ РёР»Рё С…РёРјРёС‡РµСЃРєРѕРµ Рё С‚РѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ)
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование лекарственного препарата (международное непатентованное или химическое и торговое наименования)
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р° (РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРµ РЅРµРїР°С‚РµРЅС‚РѕРІР°РЅРЅРѕРµ РёР»Рё С…РёРјРёС‡РµСЃРєРѕРµ Рё С‚РѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ)
      * 
      * @param name
      */
@@ -43,7 +43,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'TradeName' element value. Торговое наименование лекарственного препарата
+     * Get the 'TradeName' element value. РўРѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'TradeName' element value. Торговое наименование лекарственного препарата
+     * Set the 'TradeName' element value. РўРѕСЂРіРѕРІРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @param tradeName
      */
@@ -61,7 +61,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Compound' element value. Перечень веществ, входящих в состав лекарственного препарата, с указанием кол-ва каждого из них
+     * Get the 'Compound' element value. РџРµСЂРµС‡РµРЅСЊ РІРµС‰РµСЃС‚РІ, РІС…РѕРґСЏС‰РёС… РІ СЃРѕСЃС‚Р°РІ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°, СЃ СѓРєР°Р·Р°РЅРёРµРј РєРѕР»-РІР° РєР°Р¶РґРѕРіРѕ РёР· РЅРёС…
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Compound' element value. Перечень веществ, входящих в состав лекарственного препарата, с указанием кол-ва каждого из них
+     * Set the 'Compound' element value. РџРµСЂРµС‡РµРЅСЊ РІРµС‰РµСЃС‚РІ, РІС…РѕРґСЏС‰РёС… РІ СЃРѕСЃС‚Р°РІ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°, СЃ СѓРєР°Р·Р°РЅРёРµРј РєРѕР»-РІР° РєР°Р¶РґРѕРіРѕ РёР· РЅРёС…
      * 
      * @param compound
      */
@@ -79,7 +79,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Form' element value. Лекарственная форма с указанием количества лекарственного препарата в потребительской упаковке
+     * Get the 'Form' element value. Р›РµРєР°СЂСЃС‚РІРµРЅРЅР°СЏ С„РѕСЂРјР° СЃ СѓРєР°Р·Р°РЅРёРµРј РєРѕР»РёС‡РµСЃС‚РІР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р° РІ РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ СѓРїР°РєРѕРІРєРµ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Form' element value. Лекарственная форма с указанием количества лекарственного препарата в потребительской упаковке
+     * Set the 'Form' element value. Р›РµРєР°СЂСЃС‚РІРµРЅРЅР°СЏ С„РѕСЂРјР° СЃ СѓРєР°Р·Р°РЅРёРµРј РєРѕР»РёС‡РµСЃС‚РІР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р° РІ РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ СѓРїР°РєРѕРІРєРµ
      * 
      * @param form
      */
@@ -97,7 +97,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Doze' element value. Дозировка
+     * Get the 'Doze' element value. Р”РѕР·РёСЂРѕРІРєР°
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Doze' element value. Дозировка
+     * Set the 'Doze' element value. Р”РѕР·РёСЂРѕРІРєР°
      * 
      * @param doze
      */
@@ -115,7 +115,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'DozeMeasureUnit' element value. Единица измерения дозировки
+     * Get the 'DozeMeasureUnit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РґРѕР·РёСЂРѕРІРєРё
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'DozeMeasureUnit' element value. Единица измерения дозировки
+     * Set the 'DozeMeasureUnit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РґРѕР·РёСЂРѕРІРєРё
      * 
      * @param dozeMeasureUnit
      */
@@ -133,7 +133,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Packing' element value. Первичная упаковка лекарственного препарата
+     * Get the 'Packing' element value. РџРµСЂРІРёС‡РЅР°СЏ СѓРїР°РєРѕРІРєР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Packing' element value. Первичная упаковка лекарственного препарата
+     * Set the 'Packing' element value. РџРµСЂРІРёС‡РЅР°СЏ СѓРїР°РєРѕРІРєР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @param packing
      */
@@ -151,7 +151,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Group' element value. Фармакотерапевтическая группа лекарственного препарата
+     * Get the 'Group' element value. Р¤Р°СЂРјР°РєРѕС‚РµСЂР°РїРµРІС‚РёС‡РµСЃРєР°СЏ РіСЂСѓРїРїР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Group' element value. Фармакотерапевтическая группа лекарственного препарата
+     * Set the 'Group' element value. Р¤Р°СЂРјР°РєРѕС‚РµСЂР°РїРµРІС‚РёС‡РµСЃРєР°СЏ РіСЂСѓРїРїР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @param group
      */
@@ -169,7 +169,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'DozeNumber' element value. Количество доз в упаковке
+     * Get the 'DozeNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР· РІ СѓРїР°РєРѕРІРєРµ
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'DozeNumber' element value. Количество доз в упаковке
+     * Set the 'DozeNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР· РІ СѓРїР°РєРѕРІРєРµ
      * 
      * @param dozeNumber
      */
@@ -187,7 +187,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'PackingComplete' element value. Комплектность упаковки
+     * Get the 'PackingComplete' element value. РљРѕРјРїР»РµРєС‚РЅРѕСЃС‚СЊ СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'PackingComplete' element value. Комплектность упаковки
+     * Set the 'PackingComplete' element value. РљРѕРјРїР»РµРєС‚РЅРѕСЃС‚СЊ СѓРїР°РєРѕРІРєРё
      * 
      * @param packingComplete
      */
@@ -205,7 +205,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'FS_ND' element value. ФС/НД
+     * Get the 'FS_ND' element value. Р¤РЎ/РќР”
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'FS_ND' element value. ФС/НД
+     * Set the 'FS_ND' element value. Р¤РЎ/РќР”
      * 
      * @param FSND
      */
@@ -223,7 +223,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'ULName' element value. Юридическое лицо, на имя которого выдано разрешение (Представитель)
+     * Get the 'ULName' element value. Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ, РЅР° РёРјСЏ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ (РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ)
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'ULName' element value. Юридическое лицо, на имя которого выдано разрешение (Представитель)
+     * Set the 'ULName' element value. Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ, РЅР° РёРјСЏ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ (РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ)
      * 
      * @param ULName
      */
@@ -241,7 +241,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Producer' element value. Производитель лекарственного препарата
+     * Get the 'Producer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Producer' element value. Производитель лекарственного препарата
+     * Set the 'Producer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @param producer
      */
@@ -259,7 +259,7 @@ public class DrugsType
     }
 
     /** 
-     * Get the 'Registration' element value. Сведения о регистрации лекарственного препарата
+     * Get the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @return value
      */
@@ -268,7 +268,7 @@ public class DrugsType
     }
 
     /** 
-     * Set the 'Registration' element value. Сведения о регистрации лекарственного препарата
+     * Set the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р°
      * 
      * @param registration
      */

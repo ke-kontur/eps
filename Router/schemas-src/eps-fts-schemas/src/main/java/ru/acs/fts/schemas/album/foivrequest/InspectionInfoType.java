@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Запрос о необходимости предоставления дополнительных сведений и о возможности принятия решения
+ * Р—Р°РїСЂРѕСЃ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… СЃРІРµРґРµРЅРёР№ Рё Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
  */
 public class InspectionInfoType
 {
@@ -24,7 +24,7 @@ public class InspectionInfoType
     private PersonBaseType inspector;
 
     /** 
-     * Get the 'TransferKind' element value. Тип операции: 1 - Ввоз (импорт в ТС); 2 - Вывоз (экспорт из ТС); 3 - Транзит через территорию ТС
+     * Get the 'TransferKind' element value. РўРёРї РѕРїРµСЂР°С†РёРё: 1 - Р’РІРѕР· (РёРјРїРѕСЂС‚ РІ РўРЎ); 2 - Р’С‹РІРѕР· (СЌРєСЃРїРѕСЂС‚ РёР· РўРЎ); 3 - РўСЂР°РЅР·РёС‚ С‡РµСЂРµР· С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'TransferKind' element value. Тип операции: 1 - Ввоз (импорт в ТС); 2 - Вывоз (экспорт из ТС); 3 - Транзит через территорию ТС
+     * Set the 'TransferKind' element value. РўРёРї РѕРїРµСЂР°С†РёРё: 1 - Р’РІРѕР· (РёРјРїРѕСЂС‚ РІ РўРЎ); 2 - Р’С‹РІРѕР· (СЌРєСЃРїРѕСЂС‚ РёР· РўРЎ); 3 - РўСЂР°РЅР·РёС‚ С‡РµСЂРµР· С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ
      * 
      * @param transferKind
      */
@@ -42,7 +42,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'StartDateTime' element value. Дата и время начала досмотра
+     * Get the 'StartDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'StartDateTime' element value. Дата и время начала досмотра
+     * Set the 'StartDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param startDateTime
      */
@@ -60,7 +60,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'Enterprise' element value. Зарубежное предприятие-изготовитель
+     * Get the 'Enterprise' element value. Р—Р°СЂСѓР±РµР¶РЅРѕРµ РїСЂРµРґРїСЂРёСЏС‚РёРµ-РёР·РіРѕС‚РѕРІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'Enterprise' element value. Зарубежное предприятие-изготовитель
+     * Set the 'Enterprise' element value. Р—Р°СЂСѓР±РµР¶РЅРѕРµ РїСЂРµРґРїСЂРёСЏС‚РёРµ-РёР·РіРѕС‚РѕРІРёС‚РµР»СЊ
      * 
      * @param enterprise
      */
@@ -78,7 +78,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'BusinessEntity' element value. Хозяйствующий субъект-получатель продукции или заявитель.
+     * Get the 'BusinessEntity' element value. РҐРѕР·СЏР№СЃС‚РІСѓСЋС‰РёР№ СЃСѓР±СЉРµРєС‚-РїРѕР»СѓС‡Р°С‚РµР»СЊ РїСЂРѕРґСѓРєС†РёРё РёР»Рё Р·Р°СЏРІРёС‚РµР»СЊ.
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'BusinessEntity' element value. Хозяйствующий субъект-получатель продукции или заявитель.
+     * Set the 'BusinessEntity' element value. РҐРѕР·СЏР№СЃС‚РІСѓСЋС‰РёР№ СЃСѓР±СЉРµРєС‚-РїРѕР»СѓС‡Р°С‚РµР»СЊ РїСЂРѕРґСѓРєС†РёРё РёР»Рё Р·Р°СЏРІРёС‚РµР»СЊ.
      * 
      * @param businessEntity
      */
@@ -96,7 +96,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'DestinationPoint' element value. Место назначения (склад временного хранения и т.п.)
+     * Get the 'DestinationPoint' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ (СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ Рё С‚.Рї.)
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'DestinationPoint' element value. Место назначения (склад временного хранения и т.п.)
+     * Set the 'DestinationPoint' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ (СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ Рё С‚.Рї.)
      * 
      * @param destinationPoint
      */
@@ -114,7 +114,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'BorderInspectionPoint' element value. Пограничный ветеринарный пункт пропуска
+     * Get the 'BorderInspectionPoint' element value. РџРѕРіСЂР°РЅРёС‡РЅС‹Р№ РІРµС‚РµСЂРёРЅР°СЂРЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'BorderInspectionPoint' element value. Пограничный ветеринарный пункт пропуска
+     * Set the 'BorderInspectionPoint' element value. РџРѕРіСЂР°РЅРёС‡РЅС‹Р№ РІРµС‚РµСЂРёРЅР°СЂРЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param borderInspectionPoint
      */
@@ -132,7 +132,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'ShipmentType' element value. Тип партии для морского транспорта: 0 - Контейнерная партия; 1 - Трюмная партия
+     * Get the 'ShipmentType' element value. РўРёРї РїР°СЂС‚РёРё РґР»СЏ РјРѕСЂСЃРєРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°: 0 - РљРѕРЅС‚РµР№РЅРµСЂРЅР°СЏ РїР°СЂС‚РёСЏ; 1 - РўСЂСЋРјРЅР°СЏ РїР°СЂС‚РёСЏ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'ShipmentType' element value. Тип партии для морского транспорта: 0 - Контейнерная партия; 1 - Трюмная партия
+     * Set the 'ShipmentType' element value. РўРёРї РїР°СЂС‚РёРё РґР»СЏ РјРѕСЂСЃРєРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°: 0 - РљРѕРЅС‚РµР№РЅРµСЂРЅР°СЏ РїР°СЂС‚РёСЏ; 1 - РўСЂСЋРјРЅР°СЏ РїР°СЂС‚РёСЏ
      * 
      * @param shipmentType
      */
@@ -150,7 +150,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'ImporterCountry' element value. Буквенный код страны-импортёра 
+     * Get the 'ImporterCountry' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹-РёРјРїРѕСЂС‚С‘СЂР° 
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'ImporterCountry' element value. Буквенный код страны-импортёра 
+     * Set the 'ImporterCountry' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹-РёРјРїРѕСЂС‚С‘СЂР° 
      * 
      * @param importerCountry
      */
@@ -168,7 +168,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'GoodsInfo' element value. Сведения о товаре
+     * Get the 'GoodsInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'GoodsInfo' element value. Сведения о товаре
+     * Set the 'GoodsInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param goodsInfo
      */
@@ -186,7 +186,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'Permission' element value. Разрешение РСХН на транспортировку подконтрольной продукции
+     * Get the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ Р РЎРҐРќ РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєСѓ РїРѕРґРєРѕРЅС‚СЂРѕР»СЊРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'Permission' element value. Разрешение РСХН на транспортировку подконтрольной продукции
+     * Set the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ Р РЎРҐРќ РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєСѓ РїРѕРґРєРѕРЅС‚СЂРѕР»СЊРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param permission
      */
@@ -204,7 +204,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'VetCertificate' element value. Ветеринарный сопроводительный документ
+     * Get the 'VetCertificate' element value. Р’РµС‚РµСЂРёРЅР°СЂРЅС‹Р№ СЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'VetCertificate' element value. Ветеринарный сопроводительный документ
+     * Set the 'VetCertificate' element value. Р’РµС‚РµСЂРёРЅР°СЂРЅС‹Р№ СЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param vetCertificate
      */
@@ -222,7 +222,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'Waybill' element value. Товарно-транспортная накладная (ТТН)
+     * Get the 'Waybill' element value. РўРѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ (РўРўРќ)
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'Waybill' element value. Товарно-транспортная накладная (ТТН)
+     * Set the 'Waybill' element value. РўРѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ (РўРўРќ)
      * 
      * @param waybill
      */
@@ -240,7 +240,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'Inspector' element value. Таможенный инспектор
+     * Get the 'Inspector' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РёРЅСЃРїРµРєС‚РѕСЂ
      * 
      * @return value
      */
@@ -249,7 +249,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'Inspector' element value. Таможенный инспектор
+     * Set the 'Inspector' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РёРЅСЃРїРµРєС‚РѕСЂ
      * 
      * @param inspector
      */

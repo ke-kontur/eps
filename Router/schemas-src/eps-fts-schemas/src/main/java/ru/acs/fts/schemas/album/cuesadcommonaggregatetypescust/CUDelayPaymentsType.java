@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Отсрочка платежей гр.48
+ * РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
  */
 public class CUDelayPaymentsType
 {
@@ -14,7 +14,7 @@ public class CUDelayPaymentsType
     private LocalDate delayDate;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @param paymentModeCode
      */
@@ -32,7 +32,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Get the 'DelayDocumentNumber' element value. Номер документа, на основании которого предоставлена отсрочка 
+     * Get the 'DelayDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР° РѕС‚СЃСЂРѕС‡РєР° 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Set the 'DelayDocumentNumber' element value. Номер документа, на основании которого предоставлена отсрочка 
+     * Set the 'DelayDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР° РѕС‚СЃСЂРѕС‡РєР° 
      * 
      * @param delayDocumentNumber
      */
@@ -50,7 +50,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Get the 'DelayDocumentDate' element value. Дата документа, на основании которого предоставлена отсрочка 
+     * Get the 'DelayDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР° РѕС‚СЃСЂРѕС‡РєР° 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Set the 'DelayDocumentDate' element value. Дата документа, на основании которого предоставлена отсрочка 
+     * Set the 'DelayDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР° РѕС‚СЃСЂРѕС‡РєР° 
      * 
      * @param delayDocumentDate
      */
@@ -68,7 +68,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Get the 'DelayDate' element value. Дата уплаты
+     * Get the 'DelayDate' element value. Р”Р°С‚Р° СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class CUDelayPaymentsType
     }
 
     /** 
-     * Set the 'DelayDate' element value. Дата уплаты
+     * Set the 'DelayDate' element value. Р”Р°С‚Р° СѓРїР»Р°С‚С‹
      * 
      * @param delayDate
      */

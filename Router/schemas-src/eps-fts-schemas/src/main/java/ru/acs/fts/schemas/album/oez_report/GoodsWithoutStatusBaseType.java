@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Базовый тип для позиций во всех таблицах отчёта. Содержит обшие для всех товаров поля, кроме ИН/РОС. Позиции всех таблиц должны наследоваться от этого типа 
+ * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РїРѕР·РёС†РёР№ РІРѕ РІСЃРµС… С‚Р°Р±Р»РёС†Р°С… РѕС‚С‡С‘С‚Р°. РЎРѕРґРµСЂР¶РёС‚ РѕР±С€РёРµ РґР»СЏ РІСЃРµС… С‚РѕРІР°СЂРѕРІ РїРѕР»СЏ, РєСЂРѕРјРµ РРќ/Р РћРЎ. РџРѕР·РёС†РёРё РІСЃРµС… С‚Р°Р±Р»РёС† РґРѕР»Р¶РЅС‹ РЅР°СЃР»РµРґРѕРІР°С‚СЊСЃСЏ РѕС‚ СЌС‚РѕРіРѕ С‚РёРїР° 
  */
 public class GoodsWithoutStatusBaseType
 {
@@ -14,7 +14,7 @@ public class GoodsWithoutStatusBaseType
     private String measureUnitQualifier;
 
     /** 
-     * Get the list of 'Name' element items. Наименование товара
+     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the list of 'Name' element items. Наименование товара
+     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'TNVED' element value. Код товара по ТН ВЭД ТС
+     * Get the 'TNVED' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'TNVED' element value. Код товара по ТН ВЭД ТС
+     * Set the 'TNVED' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVED
      */
@@ -50,7 +50,7 @@ public class GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifier' element value. Единица измерения количества товара
+     * Get the 'MeasureUnitQualifier' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifier' element value. Единица измерения количества товара
+     * Set the 'MeasureUnitQualifier' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂР°
      * 
      * @param measureUnitQualifier
      */

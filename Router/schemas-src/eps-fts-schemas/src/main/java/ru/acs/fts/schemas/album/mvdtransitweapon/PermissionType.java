@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.mvdtransitweapon;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Разрешение
+ * Р Р°Р·СЂРµС€РµРЅРёРµ
  */
 public class PermissionType extends DocumentBaseType
 {
     private String series;
 
     /** 
-     * Get the 'Series' element value. Серия
+     * Get the 'Series' element value. РЎРµСЂРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Series' element value. Серия
+     * Set the 'Series' element value. РЎРµСЂРёСЏ
      * 
      * @param series
      */

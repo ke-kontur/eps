@@ -1,0 +1,45 @@
+<binding xmlns:recp="urn:customs.ru:Information:ExchangeDocuments:PayerReceipt:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catComFin_ru="urn:customs.ru:Information:CommercialFinanceDocuments:CommercialFinanceCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:PayerReceipt:5.4.3" default="elements" prefix="recp"/>
+  <mapping abstract="true" type-name="recp:PayerReceiptType" class="ru.acs.fts.schemas.album.PayerReceiptType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReceiptNumber" get-method="getReceiptNumber" set-method="setReceiptNumber"/>
+    <value style="element" name="ReceiptDate" get-method="getReceiptDate" set-method="setReceiptDate" format="LocalDate.default"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="AmountLetter" get-method="getAmountLetter" set-method="setAmountLetter" usage="optional"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="ReservationID" get-method="getReservationID" set-method="setReservationID" usage="optional"/>
+    <structure map-as="recp:PayerType" get-method="getPayer" set-method="setPayer" name="Payer"/>
+    <structure map-as="recp:PayeeType" get-method="getPayee" set-method="setPayee" name="Payee"/>
+    <structure map-as="recp:CustomsDocumentType" get-method="getCustomsDocument" set-method="setCustomsDocument" name="CustomsDocument"/>
+    <collection get-method="getPayingList" set-method="setPayingList" create-type="java.util.ArrayList">
+      <structure map-as="recp:PayingType" name="Paying"/>
+    </collection>
+    <structure map-as="recp:TPORegNumberType" get-method="getTPORegNumber" set-method="setTPORegNumber" name="TPORegNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.PayerReceiptType" name="PayerReceipt">
+    <structure map-as="recp:PayerReceiptType"/>
+  </mapping>
+  <mapping abstract="true" type-name="recp:CustomsDocumentType" class="ru.acs.fts.schemas.album.CustomsDocumentType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="recp:PayeeType" class="ru.acs.fts.schemas.album.PayeeType">
+    <structure map-as="catComFin_ru:PayCustomerType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="recp:PayerType" class="ru.acs.fts.schemas.album.PayerType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="CardNumber" get-method="getCardNumber" set-method="setCardNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="recp:PayingType" class="ru.acs.fts.schemas.album.PayingType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="recp:TPORegNumberType" class="ru.acs.fts.schemas.album.TPORegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber"/>
+  </mapping>
+</binding>

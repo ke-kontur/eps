@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.revealingtransportpp;
 
 /** 
- * Информация о книжке МДП
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРЅРёР¶РєРµ РњР”Рџ
  */
 public class MDPInfoType
 {
@@ -11,7 +11,7 @@ public class MDPInfoType
     private String MDPHolder;
 
     /** 
-     * Get the 'MDPSeriesNumber' element value. Серия МДП
+     * Get the 'MDPSeriesNumber' element value. РЎРµСЂРёСЏ РњР”Рџ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MDPInfoType
     }
 
     /** 
-     * Set the 'MDPSeriesNumber' element value. Серия МДП
+     * Set the 'MDPSeriesNumber' element value. РЎРµСЂРёСЏ РњР”Рџ
      * 
      * @param MDPSeriesNumber
      */
@@ -29,7 +29,7 @@ public class MDPInfoType
     }
 
     /** 
-     * Get the 'MDPNumber' element value. Номер книжки МДП
+     * Get the 'MDPNumber' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MDPInfoType
     }
 
     /** 
-     * Set the 'MDPNumber' element value. Номер книжки МДП
+     * Set the 'MDPNumber' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param MDPNumber
      */
@@ -47,7 +47,7 @@ public class MDPInfoType
     }
 
     /** 
-     * Get the 'MDPHolder' element value. Номер держателя книжки МДП
+     * Get the 'MDPHolder' element value. РќРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MDPInfoType
     }
 
     /** 
-     * Set the 'MDPHolder' element value. Номер держателя книжки МДП
+     * Set the 'MDPHolder' element value. РќРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param MDPHolder
      */

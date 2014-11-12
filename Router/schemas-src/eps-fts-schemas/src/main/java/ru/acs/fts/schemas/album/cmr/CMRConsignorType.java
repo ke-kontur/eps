@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cmr;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Сведения о грузоотправителе (гр.1)
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ (РіСЂ.1)
  */
 public class CMRConsignorType extends OrganizationType
 {
@@ -12,7 +12,7 @@ public class CMRConsignorType extends OrganizationType
     private TerminalType terminal;
 
     /** 
-     * Get the 'Guarantee' element value. Поручитель. Организация по поручению  которой отправляется груз
+     * Get the 'Guarantee' element value. РџРѕСЂСѓС‡РёС‚РµР»СЊ. РћСЂРіР°РЅРёР·Р°С†РёСЏ РїРѕ РїРѕСЂСѓС‡РµРЅРёСЋ  РєРѕС‚РѕСЂРѕР№ РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РіСЂСѓР·
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CMRConsignorType extends OrganizationType
     }
 
     /** 
-     * Set the 'Guarantee' element value. Поручитель. Организация по поручению  которой отправляется груз
+     * Set the 'Guarantee' element value. РџРѕСЂСѓС‡РёС‚РµР»СЊ. РћСЂРіР°РЅРёР·Р°С†РёСЏ РїРѕ РїРѕСЂСѓС‡РµРЅРёСЋ  РєРѕС‚РѕСЂРѕР№ РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РіСЂСѓР·
      * 
      * @param guarantee
      */
@@ -30,7 +30,7 @@ public class CMRConsignorType extends OrganizationType
     }
 
     /** 
-     * Get the 'Terminal' element value. Наименование и местоположение склада / терминала
+     * Get the 'Terminal' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ СЃРєР»Р°РґР° / С‚РµСЂРјРёРЅР°Р»Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CMRConsignorType extends OrganizationType
     }
 
     /** 
-     * Set the 'Terminal' element value. Наименование и местоположение склада / терминала
+     * Set the 'Terminal' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ СЃРєР»Р°РґР° / С‚РµСЂРјРёРЅР°Р»Р°
      * 
      * @param terminal
      */

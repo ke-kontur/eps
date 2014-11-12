@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.actoperationindentif;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Сведения о лице
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ
  */
 public class PersonType extends PersonSignatureType
 {
     private String job;
 
     /** 
-     * Get the 'Job' element value. Место работы
+     * Get the 'Job' element value. РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'Job' element value. Место работы
+     * Set the 'Job' element value. РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
      * 
      * @param job
      */

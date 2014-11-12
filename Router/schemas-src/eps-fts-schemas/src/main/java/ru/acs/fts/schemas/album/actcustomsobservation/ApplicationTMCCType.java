@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actcustomsobservation;
 
 /** 
- * Применяемые ТСТК
+ * РџСЂРёРјРµРЅСЏРµРјС‹Рµ РўРЎРўРљ
  */
 public class ApplicationTMCCType
 {
@@ -10,7 +10,7 @@ public class ApplicationTMCCType
     private String number;
 
     /** 
-     * Get the 'Kind' element value. Вид ТСТК
+     * Get the 'Kind' element value. Р’РёРґ РўРЎРўРљ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ApplicationTMCCType
     }
 
     /** 
-     * Set the 'Kind' element value. Вид ТСТК
+     * Set the 'Kind' element value. Р’РёРґ РўРЎРўРљ
      * 
      * @param kind
      */
@@ -28,7 +28,7 @@ public class ApplicationTMCCType
     }
 
     /** 
-     * Get the 'Number' element value. Инвентарные номера
+     * Get the 'Number' element value. РРЅРІРµРЅС‚Р°СЂРЅС‹Рµ РЅРѕРјРµСЂР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ApplicationTMCCType
     }
 
     /** 
-     * Set the 'Number' element value. Инвентарные номера
+     * Set the 'Number' element value. РРЅРІРµРЅС‚Р°СЂРЅС‹Рµ РЅРѕРјРµСЂР°
      * 
      * @param number
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actregistrationmining;
 
 /** 
- * Регистрационный номер акта
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р°
  */
 public class RegistrationNumberType
 {
@@ -10,7 +10,7 @@ public class RegistrationNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'NumberInspectors' element value. Персональный номер государственного инспектора
+     * Get the 'NumberInspectors' element value. РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'NumberInspectors' element value. Персональный номер государственного инспектора
+     * Set the 'NumberInspectors' element value. РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @param numberInspectors
      */
@@ -28,7 +28,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый номер акта
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый номер акта
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р°
      * 
      * @param serialNumber
      */

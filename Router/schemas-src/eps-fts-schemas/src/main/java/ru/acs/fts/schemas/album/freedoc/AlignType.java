@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.freedoc;
 
 /** 
- * Стили выравнивания по горизонтали
+ * РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
  */
 public enum AlignType {
     CENTER("Center"), LEFT("Left"), RIGHT("Right");

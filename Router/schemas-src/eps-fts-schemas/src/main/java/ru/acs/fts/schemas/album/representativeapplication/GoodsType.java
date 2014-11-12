@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType
 {
@@ -19,10 +19,9 @@ public class GoodsType
     private String goodsCostRuble;
     private List<SupplementaryQuantityType> goodsQuantityList = new ArrayList<SupplementaryQuantityType>();
     private List<PresentedDocumentsType> presentedDocumentList = new ArrayList<PresentedDocumentsType>();
-    private CustomsDutiesType customsDuties;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Порядковый номер товара
+     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -31,7 +30,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Порядковый номер товара
+     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param goodsNumeric
      */
@@ -40,7 +39,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -49,7 +48,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -58,7 +57,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД 
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” 
      * 
      * @return value
      */
@@ -67,7 +66,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД 
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” 
      * 
      * @param goodsTNVEDCode
      */
@@ -76,7 +75,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. Стоимость товара в валюте счета (сделки)
+     * Get the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
      * 
      * @return value
      */
@@ -85,7 +84,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. Стоимость товара в валюте счета (сделки)
+     * Set the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
      * 
      * @param goodsCost
      */
@@ -94,7 +93,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Вес товара, брутто, кг
+     * Get the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ, РєРі
      * 
      * @return value
      */
@@ -103,7 +102,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Вес товара, брутто, кг
+     * Set the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ, РєРі
      * 
      * @param grossWeight
      */
@@ -112,7 +111,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCostEuro' element value. Стоимость товара в евро
+     * Get the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РµРІСЂРѕ
      * 
      * @return value
      */
@@ -121,7 +120,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCostEuro' element value. Стоимость товара в евро
+     * Set the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РµРІСЂРѕ
      * 
      * @param goodsCostEuro
      */
@@ -130,7 +129,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCostRuble' element value. Стоимость товара в рублях
+     * Get the 'GoodsCostRuble' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ СЂСѓР±Р»СЏС…
      * 
      * @return value
      */
@@ -139,7 +138,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCostRuble' element value. Стоимость товара в рублях
+     * Set the 'GoodsCostRuble' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ СЂСѓР±Р»СЏС…
      * 
      * @param goodsCostRuble
      */
@@ -148,7 +147,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsQuantity' element items. Количество товара в основной (дополнительной) единице измерения
+     * Get the list of 'GoodsQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РѕСЃРЅРѕРІРЅРѕР№ (РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№) РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return list
      */
@@ -157,7 +156,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsQuantity' element items. Количество товара в основной (дополнительной) единице измерения
+     * Set the list of 'GoodsQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РѕСЃРЅРѕРІРЅРѕР№ (РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№) РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param list
      */
@@ -166,7 +165,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'PresentedDocuments' element items. Сведения о представляемых документах
+     * Get the list of 'PresentedDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @return list
      */
@@ -175,29 +174,11 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'PresentedDocuments' element items. Сведения о представляемых документах
+     * Set the list of 'PresentedDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @param list
      */
     public void setPresentedDocumentList(List<PresentedDocumentsType> list) {
         presentedDocumentList = list;
-    }
-
-    /** 
-     * Get the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
-     * 
-     * @return value
-     */
-    public CustomsDutiesType getCustomsDuties() {
-        return customsDuties;
-    }
-
-    /** 
-     * Set the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
-     * 
-     * @param customsDuties
-     */
-    public void setCustomsDuties(CustomsDutiesType customsDuties) {
-        this.customsDuties = customsDuties;
     }
 }

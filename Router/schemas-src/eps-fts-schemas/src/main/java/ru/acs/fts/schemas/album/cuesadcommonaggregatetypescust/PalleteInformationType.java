@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения о поддонах и паллетах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРґРѕРЅР°С… Рё РїР°Р»Р»РµС‚Р°С…
  */
 public class PalleteInformationType
 {
@@ -11,7 +11,7 @@ public class PalleteInformationType
     private String palleteCode;
 
     /** 
-     * Get the 'PalleteQuantity' element value. Количество поддонов
+     * Get the 'PalleteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteQuantity' element value. Количество поддонов
+     * Set the 'PalleteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ
      * 
      * @param palleteQuantity
      */
@@ -29,7 +29,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Get the 'PalleteDescription' element value. Описание поддонов
+     * Get the 'PalleteDescription' element value. РћРїРёСЃР°РЅРёРµ РїРѕРґРґРѕРЅРѕРІ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteDescription' element value. Описание поддонов
+     * Set the 'PalleteDescription' element value. РћРїРёСЃР°РЅРёРµ РїРѕРґРґРѕРЅРѕРІ
      * 
      * @param palleteDescription
      */
@@ -47,7 +47,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Get the 'PalleteCode' element value. Код вида поддона в соответствии с классификатором видов груза, упаковки и упаковочных материалов 
+     * Get the 'PalleteCode' element value. РљРѕРґ РІРёРґР° РїРѕРґРґРѕРЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ 
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteCode' element value. Код вида поддона в соответствии с классификатором видов груза, упаковки и упаковочных материалов 
+     * Set the 'PalleteCode' element value. РљРѕРґ РІРёРґР° РїРѕРґРґРѕРЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ 
      * 
      * @param palleteCode
      */

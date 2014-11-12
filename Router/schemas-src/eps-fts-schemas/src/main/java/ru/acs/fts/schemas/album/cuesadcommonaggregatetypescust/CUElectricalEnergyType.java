@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения о количестве принятой и переданной электроэнергии за отчетный период
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРёРЅСЏС‚РѕР№ Рё РїРµСЂРµРґР°РЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ
  */
 public class CUElectricalEnergyType
 {
@@ -10,7 +10,7 @@ public class CUElectricalEnergyType
     private String qualifierCode;
 
     /** 
-     * Get the 'ElectricalEnergyQuantity' element value. Количество электроэнергии
+     * Get the 'ElectricalEnergyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CUElectricalEnergyType
     }
 
     /** 
-     * Set the 'ElectricalEnergyQuantity' element value. Количество электроэнергии
+     * Set the 'ElectricalEnergyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё
      * 
      * @param electricalEnergyQuantity
      */
@@ -28,7 +28,7 @@ public class CUElectricalEnergyType
     }
 
     /** 
-     * Get the 'QualifierCode' element value. Код единицы измерения
+     * Get the 'QualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CUElectricalEnergyType
     }
 
     /** 
-     * Set the 'QualifierCode' element value. Код единицы измерения
+     * Set the 'QualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param qualifierCode
      */

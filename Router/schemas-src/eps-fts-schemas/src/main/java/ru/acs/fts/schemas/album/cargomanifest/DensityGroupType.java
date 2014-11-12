@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * Группа объемного веса
+ * Р“СЂСѓРїРїР° РѕР±СЉРµРјРЅРѕРіРѕ РІРµСЃР°
  */
 public class DensityGroupType
 {

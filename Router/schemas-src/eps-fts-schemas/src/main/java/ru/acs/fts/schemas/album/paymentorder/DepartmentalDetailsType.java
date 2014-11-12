@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.paymentorder;
 import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.DepartmentalInfoType;
 
 /** 
- * Ведомственная информация по платежному поручению
+ * Р’РµРґРѕРјСЃС‚РІРµРЅРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РїР»Р°С‚РµР¶РЅРѕРјСѓ РїРѕСЂСѓС‡РµРЅРёСЋ
  */
 public class DepartmentalDetailsType extends DepartmentalInfoType
 {
     private String uniqueID;
 
     /** 
-     * Get the 'UniqueID' element value. Уникальный идентификатор платежа/начисления (графа Код)
+     * Get the 'UniqueID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР»Р°С‚РµР¶Р°/РЅР°С‡РёСЃР»РµРЅРёСЏ (РіСЂР°С„Р° РљРѕРґ)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DepartmentalDetailsType extends DepartmentalInfoType
     }
 
     /** 
-     * Set the 'UniqueID' element value. Уникальный идентификатор платежа/начисления (графа Код)
+     * Set the 'UniqueID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР»Р°С‚РµР¶Р°/РЅР°С‡РёСЃР»РµРЅРёСЏ (РіСЂР°С„Р° РљРѕРґ)
      * 
      * @param uniqueID
      */

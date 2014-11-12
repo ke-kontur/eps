@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Реквизиты и условия контракта по Импорту
+ * Р РµРєРІРёР·РёС‚С‹ Рё СѓСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р° РїРѕ РРјРїРѕСЂС‚Сѓ
  */
 public class ImportContractTermsType
 {
@@ -19,7 +19,7 @@ public class ImportContractTermsType
     private List<String> paymentCurrencyCodeList = new ArrayList<String>();
 
     /** 
-     * Get the 'Amount' element value. Общая сумма сделки
+     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the 'Amount' element value. Общая сумма сделки
+     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРґРµР»РєРё
      * 
      * @param amount
      */
@@ -37,7 +37,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Get the 'Discount' element value. Общая сумма скидки по контракту
+     * Get the 'Discount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРєРёРґРєРё РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the 'Discount' element value. Общая сумма скидки по контракту
+     * Set the 'Discount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРєРёРґРєРё РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param discount
      */
@@ -55,7 +55,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @param currencyCode
      */
@@ -73,7 +73,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код расчетного срока оплаты товара (услуги) по Контракту 
+     * Get the 'PaymentModeCode' element value. РљРѕРґ СЂР°СЃС‡РµС‚РЅРѕРіРѕ СЃСЂРѕРєР° РѕРїР»Р°С‚С‹ С‚РѕРІР°СЂР° (СѓСЃР»СѓРіРё) РїРѕ РљРѕРЅС‚СЂР°РєС‚Сѓ 
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код расчетного срока оплаты товара (услуги) по Контракту 
+     * Set the 'PaymentModeCode' element value. РљРѕРґ СЂР°СЃС‡РµС‚РЅРѕРіРѕ СЃСЂРѕРєР° РѕРїР»Р°С‚С‹ С‚РѕРІР°СЂР° (СѓСЃР»СѓРіРё) РїРѕ РљРѕРЅС‚СЂР°РєС‚Сѓ 
      * 
      * @param paymentModeCode
      */
@@ -91,7 +91,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Get the list of 'DueDateCode' element items. Код применяемой формы расчетов по Контракту
+     * Get the list of 'DueDateCode' element items. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјРѕР№ С„РѕСЂРјС‹ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РљРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'DueDateCode' element items. Код применяемой формы расчетов по Контракту
+     * Set the list of 'DueDateCode' element items. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјРѕР№ С„РѕСЂРјС‹ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РљРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Get the 'LastDate' element value. Последняя дата расчетов по контракту
+     * Get the 'LastDate' element value. РџРѕСЃР»РµРґРЅСЏСЏ РґР°С‚Р° СЂР°СЃС‡РµС‚РѕРІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the 'LastDate' element value. Последняя дата расчетов по контракту
+     * Set the 'LastDate' element value. РџРѕСЃР»РµРґРЅСЏСЏ РґР°С‚Р° СЂР°СЃС‡РµС‚РѕРІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param lastDate
      */
@@ -127,7 +127,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Get the list of 'PaymentCurrencyCode' element items. Код валюты платежа
+     * Get the list of 'PaymentCurrencyCode' element items. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'PaymentCurrencyCode' element items. Код валюты платежа
+     * Set the list of 'PaymentCurrencyCode' element items. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param list
      */

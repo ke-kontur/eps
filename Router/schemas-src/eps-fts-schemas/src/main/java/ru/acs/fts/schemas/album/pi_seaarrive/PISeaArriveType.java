@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Предварительная информация о товарах, перевозимых  водным транспортом
+ * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїРµСЂРµРІРѕР·РёРјС‹С…  РІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
  */
 public class PISeaArriveType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class PISeaArriveType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @param PIURN
      */
@@ -39,7 +39,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPOSign' element value. Признак оформления МПО
+     * Get the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РњРџРћ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPOSign' element value. Признак оформления МПО
+     * Set the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РњРџРћ
      * 
      * @param MPOSign
      */
@@ -57,7 +57,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DangerGoodsSing' element value. Признак наличия опасных товаров
+     * Get the 'DangerGoodsSing' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРїР°СЃРЅС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DangerGoodsSing' element value. Признак наличия опасных товаров
+     * Set the 'DangerGoodsSing' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРїР°СЃРЅС‹С… С‚РѕРІР°СЂРѕРІ
      * 
      * @param dangerGoodsSing
      */
@@ -75,7 +75,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipDetails' element value. Реквизиты и характеристики судна
+     * Get the 'ShipDetails' element value. Р РµРєРІРёР·РёС‚С‹ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipDetails' element value. Реквизиты и характеристики судна
+     * Set the 'ShipDetails' element value. Р РµРєРІРёР·РёС‚С‹ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃСѓРґРЅР°
      * 
      * @param shipDetails
      */
@@ -93,7 +93,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Passengers' element value. Сведения о пассажирах
+     * Get the 'Passengers' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂР°С…
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Passengers' element value. Сведения о пассажирах
+     * Set the 'Passengers' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂР°С…
      * 
      * @param passengers
      */
@@ -111,7 +111,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'CrewInfo' element value. Сведения об экипаже
+     * Get the 'CrewInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєРёРїР°Р¶Рµ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'CrewInfo' element value. Сведения об экипаже
+     * Set the 'CrewInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєРёРїР°Р¶Рµ
      * 
      * @param crewInfo
      */
@@ -129,7 +129,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignments' element items. Перечень товарных партий
+     * Get the list of 'Consignments' element items. РџРµСЂРµС‡РµРЅСЊ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№
      * 
      * @return list
      */
@@ -138,7 +138,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignments' element items. Перечень товарных партий
+     * Set the list of 'Consignments' element items. РџРµСЂРµС‡РµРЅСЊ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№
      * 
      * @param list
      */
@@ -147,7 +147,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Stores' element items. Сведения о судовых припасах
+     * Get the list of 'Stores' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІС‹С… РїСЂРёРїР°СЃР°С…
      * 
      * @return list
      */
@@ -156,7 +156,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Stores' element items. Сведения о судовых припасах
+     * Set the list of 'Stores' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІС‹С… РїСЂРёРїР°СЃР°С…
      * 
      * @param list
      */
@@ -165,7 +165,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class PISeaArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

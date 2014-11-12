@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.noticerubykz;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Перевозчик
+ * РџРµСЂРµРІРѕР·С‡РёРє
  */
 public class CarrierType extends CUOrganizationType
 {
     private String ID;
 
     /** 
-     * Get the 'ID' element value. Идентификатор
+     * Get the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CarrierType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ID' element value. Идентификатор
+     * Set the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @param ID
      */

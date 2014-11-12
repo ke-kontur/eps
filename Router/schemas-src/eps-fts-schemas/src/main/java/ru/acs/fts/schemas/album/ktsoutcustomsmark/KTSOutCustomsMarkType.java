@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Служебные отметки КТС
+ * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РљРўРЎ
  */
 public class KTSOutCustomsMarkType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'KTSDocumentID' element value. Уникальный идентификатор КТС, к которой относятся служебные отметки.
+     * Get the 'KTSDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РљРўРЎ, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTSDocumentID' element value. Уникальный идентификатор КТС, к которой относятся служебные отметки.
+     * Set the 'KTSDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РљРўРЎ, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё.
      * 
      * @param KTSDocumentID
      */
@@ -36,7 +36,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'KTSOutCustomsMarkGoods' element items. КТС-служебные отметки по товарам
+     * Get the list of 'KTSOutCustomsMarkGoods' element items. РљРўРЎ-СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
      * 
      * @return list
      */
@@ -45,7 +45,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'KTSOutCustomsMarkGoods' element items. КТС-служебные отметки по товарам
+     * Set the list of 'KTSOutCustomsMarkGoods' element items. РљРўРЎ-СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
      * 
      * @param list
      */
@@ -55,7 +55,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'KTSOutCustomsMarkGeneral' element items. Служебные отметки общие
+     * Get the list of 'KTSOutCustomsMarkGeneral' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РѕР±С‰РёРµ
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'KTSOutCustomsMarkGeneral' element items. Служебные отметки общие
+     * Set the list of 'KTSOutCustomsMarkGeneral' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РѕР±С‰РёРµ
      * 
      * @param list
      */
@@ -74,7 +74,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер таможенного документа.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер таможенного документа.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param GTDID
      */
@@ -92,7 +92,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class KTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

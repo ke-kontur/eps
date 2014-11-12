@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Свидетельство о постановке на учет в налоговом органе юридического лица. 
+ * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕСЃС‚Р°РЅРѕРІРєРµ РЅР° СѓС‡РµС‚ РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°. 
  */
 public class TaxOrganRegistrationCertificateType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата постановки на учет
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата постановки на учет
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚
      * 
      * @param registrationDate
      */
@@ -40,7 +40,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxOrganName' element value. Наименование налогового органа
+     * Get the 'TaxOrganName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxOrganName' element value. Наименование налогового органа
+     * Set the 'TaxOrganName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param taxOrganName
      */
@@ -58,7 +58,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateDate' element value. Дата выдачи свидетельства
+     * Get the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateDate' element value. Дата выдачи свидетельства
+     * Set the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @param certificateDate
      */
@@ -76,7 +76,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateID' element value. Серия и номер свидетельства
+     * Get the 'CertificateID' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateID' element value. Серия и номер свидетельства
+     * Set the 'CertificateID' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
      * 
      * @param certificateID
      */
@@ -94,7 +94,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxOrganID' element value. Код налогового органа
+     * Get the 'TaxOrganID' element value. РљРѕРґ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxOrganID' element value. Код налогового органа
+     * Set the 'TaxOrganID' element value. РљРѕРґ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param taxOrganID
      */
@@ -112,7 +112,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Company' element value. Полное наименование и адрес места нахождения юридического лица в соответствии с учредительными документами
+     * Get the 'Company' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Рё Р°РґСЂРµСЃ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓС‡СЂРµРґРёС‚РµР»СЊРЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Company' element value. Полное наименование и адрес места нахождения юридического лица в соответствии с учредительными документами
+     * Set the 'Company' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Рё Р°РґСЂРµСЃ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓС‡СЂРµРґРёС‚РµР»СЊРЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
      * 
      * @param company
      */
@@ -130,7 +130,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxOrganClerkSignature' element value. Подпись руководителя налогового органа
+     * Get the 'TaxOrganClerkSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxOrganClerkSignature' element value. Подпись руководителя налогового органа
+     * Set the 'TaxOrganClerkSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param taxOrganClerkSignature
      */
@@ -148,7 +148,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationDocument' element value. Сведения о документах, подтверждающий создание юридического лица и на основании которых выдается свидетельство
+     * Get the 'RegistrationDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕР·РґР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° Рё РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РІС‹РґР°РµС‚СЃСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDocument' element value. Сведения о документах, подтверждающий создание юридического лица и на основании которых выдается свидетельство
+     * Set the 'RegistrationDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕР·РґР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° Рё РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РІС‹РґР°РµС‚СЃСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
      * 
      * @param registrationDocument
      */
@@ -167,7 +167,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class TaxOrganRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

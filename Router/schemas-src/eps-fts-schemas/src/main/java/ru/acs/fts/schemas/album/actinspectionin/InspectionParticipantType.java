@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AuthoritesDocumentType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Лицо, присутствующее при досмотре (осмотре)
+ * Р›РёС†Рѕ, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ (РѕСЃРјРѕС‚СЂРµ)
  */
 public class InspectionParticipantType extends PersonInfType
 {
@@ -24,7 +24,7 @@ public class InspectionParticipantType extends PersonInfType
     private AuthoritesDocumentType authoritesDocument;
 
     /** 
-     * Get the 'Status' element value. Статус или должность лица, присутствующего при досмотре (осмотре): 3 - декларант (иное лицо, уполномоченное в отношении товаров, либо представитель); 4 - понятой; 5 - эксперт; 6 - оператор почтовой связи
+     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ РёР»Рё РґРѕР»Р¶РЅРѕСЃС‚СЊ Р»РёС†Р°, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРіРѕ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ (РѕСЃРјРѕС‚СЂРµ): 3 - РґРµРєР»Р°СЂР°РЅС‚ (РёРЅРѕРµ Р»РёС†Рѕ, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, Р»РёР±Рѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ); 4 - РїРѕРЅСЏС‚РѕР№; 5 - СЌРєСЃРїРµСЂС‚; 6 - РѕРїРµСЂР°С‚РѕСЂ РїРѕС‡С‚РѕРІРѕР№ СЃРІСЏР·Рё
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'Status' element value. Статус или должность лица, присутствующего при досмотре (осмотре): 3 - декларант (иное лицо, уполномоченное в отношении товаров, либо представитель); 4 - понятой; 5 - эксперт; 6 - оператор почтовой связи
+     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ РёР»Рё РґРѕР»Р¶РЅРѕСЃС‚СЊ Р»РёС†Р°, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРіРѕ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ (РѕСЃРјРѕС‚СЂРµ): 3 - РґРµРєР»Р°СЂР°РЅС‚ (РёРЅРѕРµ Р»РёС†Рѕ, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, Р»РёР±Рѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ); 4 - РїРѕРЅСЏС‚РѕР№; 5 - СЌРєСЃРїРµСЂС‚; 6 - РѕРїРµСЂР°С‚РѕСЂ РїРѕС‡С‚РѕРІРѕР№ СЃРІСЏР·Рё
      * 
      * @param status
      */
@@ -42,7 +42,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'ATDRecriveDate' element value. Дата получения второго экземпляра на руки
+     * Get the 'ATDRecriveDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РІС‚РѕСЂРѕРіРѕ СЌРєР·РµРјРїР»СЏСЂР° РЅР° СЂСѓРєРё
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'ATDRecriveDate' element value. Дата получения второго экземпляра на руки
+     * Set the 'ATDRecriveDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РІС‚РѕСЂРѕРіРѕ СЌРєР·РµРјРїР»СЏСЂР° РЅР° СЂСѓРєРё
      * 
      * @param ATDRecriveDate
      */
@@ -60,7 +60,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'ATDReceiveTime' element value. Время получения второго экземпляра
+     * Get the 'ATDReceiveTime' element value. Р’СЂРµРјСЏ РїРѕР»СѓС‡РµРЅРёСЏ РІС‚РѕСЂРѕРіРѕ СЌРєР·РµРјРїР»СЏСЂР°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'ATDReceiveTime' element value. Время получения второго экземпляра
+     * Set the 'ATDReceiveTime' element value. Р’СЂРµРјСЏ РїРѕР»СѓС‡РµРЅРёСЏ РІС‚РѕСЂРѕРіРѕ СЌРєР·РµРјРїР»СЏСЂР°
      * 
      * @param ATDReceiveTime
      */
@@ -78,7 +78,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @param recordNumber
      */
@@ -96,7 +96,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'Reason' element value. Причина проведения таможенного досмотра в отсутствие декларанта или иного лица, обладающего полномочиями в отношении товаров (транспортных средств), либо их представителей
+     * Get the 'Reason' element value. РџСЂРёС‡РёРЅР° РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° РІ РѕС‚СЃСѓС‚СЃС‚РІРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё РёРЅРѕРіРѕ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ), Р»РёР±Рѕ РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'Reason' element value. Причина проведения таможенного досмотра в отсутствие декларанта или иного лица, обладающего полномочиями в отношении товаров (транспортных средств), либо их представителей
+     * Set the 'Reason' element value. РџСЂРёС‡РёРЅР° РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° РІ РѕС‚СЃСѓС‚СЃС‚РІРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё РёРЅРѕРіРѕ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ), Р»РёР±Рѕ РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @param reason
      */
@@ -114,7 +114,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'Job' element value. Место работы
+     * Get the 'Job' element value. РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'Job' element value. Место работы
+     * Set the 'Job' element value. РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
      * 
      * @param job
      */
@@ -132,7 +132,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'ATDReceiveCopy' element value. Признак, подтверждающий факт получения второго экземпляра АТД  представителем декларанта или лица, уполномоченного в отношении товаров 0 - не получено 1 - получено
+     * Get the 'ATDReceiveCopy' element value. РџСЂРёР·РЅР°Рє, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РїРѕР»СѓС‡РµРЅРёСЏ РІС‚РѕСЂРѕРіРѕ СЌРєР·РµРјРїР»СЏСЂР° РђРўР”  РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё Р»РёС†Р°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ 0 - РЅРµ РїРѕР»СѓС‡РµРЅРѕ 1 - РїРѕР»СѓС‡РµРЅРѕ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'ATDReceiveCopy' element value. Признак, подтверждающий факт получения второго экземпляра АТД  представителем декларанта или лица, уполномоченного в отношении товаров 0 - не получено 1 - получено
+     * Set the 'ATDReceiveCopy' element value. РџСЂРёР·РЅР°Рє, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РїРѕР»СѓС‡РµРЅРёСЏ РІС‚РѕСЂРѕРіРѕ СЌРєР·РµРјРїР»СЏСЂР° РђРўР”  РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё Р»РёС†Р°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ 0 - РЅРµ РїРѕР»СѓС‡РµРЅРѕ 1 - РїРѕР»СѓС‡РµРЅРѕ
      * 
      * @param ATDReceiveCopy
      */
@@ -150,7 +150,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'AddresseeMPO' element value. Номер МПО, с которым направлен второй АТД(О), в адрес лица, обладающего полномочиями в отношении товаров
+     * Get the 'AddresseeMPO' element value. РќРѕРјРµСЂ РњРџРћ, СЃ РєРѕС‚РѕСЂС‹Рј РЅР°РїСЂР°РІР»РµРЅ РІС‚РѕСЂРѕР№ РђРўР”(Рћ), РІ Р°РґСЂРµСЃ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'AddresseeMPO' element value. Номер МПО, с которым направлен второй АТД(О), в адрес лица, обладающего полномочиями в отношении товаров
+     * Set the 'AddresseeMPO' element value. РќРѕРјРµСЂ РњРџРћ, СЃ РєРѕС‚РѕСЂС‹Рј РЅР°РїСЂР°РІР»РµРЅ РІС‚РѕСЂРѕР№ РђРўР”(Рћ), РІ Р°РґСЂРµСЃ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param addresseeMPO
      */
@@ -168,7 +168,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -186,7 +186,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес местожительства понятого
+     * Get the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚РѕР¶РёС‚РµР»СЊСЃС‚РІР° РїРѕРЅСЏС‚РѕРіРѕ
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес местожительства понятого
+     * Set the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚РѕР¶РёС‚РµР»СЊСЃС‚РІР° РїРѕРЅСЏС‚РѕРіРѕ
      * 
      * @param address
      */
@@ -204,7 +204,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Get the 'AuthoritesDocument' element value. Документ, подтверждающий полномочия. 
+     * Get the 'AuthoritesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ. 
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class InspectionParticipantType extends PersonInfType
     }
 
     /** 
-     * Set the 'AuthoritesDocument' element value. Документ, подтверждающий полномочия. 
+     * Set the 'AuthoritesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ. 
      * 
      * @param authoritesDocument
      */

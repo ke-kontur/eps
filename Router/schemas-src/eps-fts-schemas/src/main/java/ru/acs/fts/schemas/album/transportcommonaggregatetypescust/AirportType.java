@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * Сведения об аэропорте (городе)
+ * РЎРІРµРґРµРЅРёСЏ РѕР± Р°СЌСЂРѕРїРѕСЂС‚Рµ (РіРѕСЂРѕРґРµ)
  */
 public class AirportType
 {
@@ -10,7 +10,7 @@ public class AirportType
     private String IATACode;
 
     /** 
-     * Get the 'Name' element value. Название
+     * Get the 'Name' element value. РќР°Р·РІР°РЅРёРµ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AirportType
     }
 
     /** 
-     * Set the 'Name' element value. Название
+     * Set the 'Name' element value. РќР°Р·РІР°РЅРёРµ
      * 
      * @param name
      */
@@ -28,7 +28,7 @@ public class AirportType
     }
 
     /** 
-     * Get the 'IATACode' element value. Код ИАТА
+     * Get the 'IATACode' element value. РљРѕРґ РРђРўРђ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AirportType
     }
 
     /** 
-     * Set the 'IATACode' element value. Код ИАТА
+     * Set the 'IATACode' element value. РљРѕРґ РРђРўРђ
      * 
      * @param IATACode
      */

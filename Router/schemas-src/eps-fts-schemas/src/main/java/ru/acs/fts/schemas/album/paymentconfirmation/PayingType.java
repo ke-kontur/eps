@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.paymentconfirmation;
 
 /** 
- * Платеж
+ * РџР»Р°С‚РµР¶
  */
 public class PayingType
 {
@@ -11,7 +11,7 @@ public class PayingType
     private String amount;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида таможенного платежа
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PayingType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида таможенного платежа
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentModeCode
      */
@@ -29,7 +29,7 @@ public class PayingType
     }
 
     /** 
-     * Get the 'CBC' element value. Код бюджетной классификации (КБК)
+     * Get the 'CBC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё (РљР‘Рљ)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PayingType
     }
 
     /** 
-     * Set the 'CBC' element value. Код бюджетной классификации (КБК)
+     * Set the 'CBC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё (РљР‘Рљ)
      * 
      * @param CBC
      */
@@ -47,7 +47,7 @@ public class PayingType
     }
 
     /** 
-     * Get the 'Amount' element value. Сумма, подлежащая уплате
+     * Get the 'Amount' element value. РЎСѓРјРјР°, РїРѕРґР»РµР¶Р°С‰Р°СЏ СѓРїР»Р°С‚Рµ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PayingType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма, подлежащая уплате
+     * Set the 'Amount' element value. РЎСѓРјРјР°, РїРѕРґР»РµР¶Р°С‰Р°СЏ СѓРїР»Р°С‚Рµ
      * 
      * @param amount
      */

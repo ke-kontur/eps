@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о фирме
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С„РёСЂРјРµ
  */
 public class OrganizationInfoType
 {
@@ -14,7 +14,7 @@ public class OrganizationInfoType
     private List<StructuredTextType> nameList = new ArrayList<StructuredTextType>();
 
     /** 
-     * Get the 'CountryCode' element value. Код страны
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCode
      */
@@ -32,7 +32,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'CountryName' element value. Наименование страны
+     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'CountryName' element value. Наименование страны
+     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @param countryName
      */
@@ -50,7 +50,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the list of 'Name' element items. Наименование
+     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the list of 'Name' element items. Наименование
+     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param list
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.receiptpayment;
 
 /** 
- * Платежный документ
+ * РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class PaymentDocumentType
 {
     private Object any;
 
     /** 
-     * Get the 'PaymentDocumentType' complexType value. Тело документа
+     * Get the 'PaymentDocumentType' complexType value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PaymentDocumentType' complexType value. Тело документа
+     * Set the 'PaymentDocumentType' complexType value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param any
      */

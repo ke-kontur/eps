@@ -19,9 +19,14 @@ public class BusinessSystems
 	public static final String RZD = "RZD";
 	
 	public static final String BALANCER = "BALANCER";
-	
-	
-	public static final String UNKNOWN = "UNKNOWN";
+
+    public static final String ORDER = "ORDER";
+
+    public static final String PAYMENT1 = "PAYMENT1";
+
+    public static final String PAYMENT2 = "PAYMENT2";
+
+    public static final String UNKNOWN = "UNKNOWN";
 	
 	public static boolean isSuchSystem( String object, String testSystem )
 	{

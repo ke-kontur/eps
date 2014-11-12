@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Реализация товаров на внутреннем рынке
+ * Р РµР°Р»РёР·Р°С†РёСЏ С‚РѕРІР°СЂРѕРІ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ
  */
 public class SaleGoodsDomesticMarketType
 {
@@ -15,7 +15,7 @@ public class SaleGoodsDomesticMarketType
     private MarketPriceType marketPrice;
 
     /** 
-     * Get the 'FinalSellingPrice' element value. Признак того, что цена реализации товара известна конечному потребителю на внутреннем рынке
+     * Get the 'FinalSellingPrice' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С†РµРЅР° СЂРµР°Р»РёР·Р°С†РёРё С‚РѕРІР°СЂР° РёР·РІРµСЃС‚РЅР° РєРѕРЅРµС‡РЅРѕРјСѓ РїРѕС‚СЂРµР±РёС‚РµР»СЋ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'FinalSellingPrice' element value. Признак того, что цена реализации товара известна конечному потребителю на внутреннем рынке
+     * Set the 'FinalSellingPrice' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С†РµРЅР° СЂРµР°Р»РёР·Р°С†РёРё С‚РѕРІР°СЂР° РёР·РІРµСЃС‚РЅР° РєРѕРЅРµС‡РЅРѕРјСѓ РїРѕС‚СЂРµР±РёС‚РµР»СЋ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ
      * 
      * @param finalSellingPrice
      */
@@ -33,7 +33,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Get the 'UnitSellingPriceGoods' element value. Укажите цену реализации единицы товара на внутреннем рынке (в т.ч. планируемую)
+     * Get the 'UnitSellingPriceGoods' element value. РЈРєР°Р¶РёС‚Рµ С†РµРЅСѓ СЂРµР°Р»РёР·Р°С†РёРё РµРґРёРЅРёС†С‹ С‚РѕРІР°СЂР° РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ (РІ С‚.С‡. РїР»Р°РЅРёСЂСѓРµРјСѓСЋ)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'UnitSellingPriceGoods' element value. Укажите цену реализации единицы товара на внутреннем рынке (в т.ч. планируемую)
+     * Set the 'UnitSellingPriceGoods' element value. РЈРєР°Р¶РёС‚Рµ С†РµРЅСѓ СЂРµР°Р»РёР·Р°С†РёРё РµРґРёРЅРёС†С‹ С‚РѕРІР°СЂР° РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ (РІ С‚.С‡. РїР»Р°РЅРёСЂСѓРµРјСѓСЋ)
      * 
      * @param unitSellingPriceGoods
      */
@@ -51,7 +51,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Get the 'Cost' element value. Укажите общий размер расходов Покупателя при реализации товаров на внутреннем рынке,которые должны быть включены в цену реализации для их покрытия
+     * Get the 'Cost' element value. РЈРєР°Р¶РёС‚Рµ РѕР±С‰РёР№ СЂР°Р·РјРµСЂ СЂР°СЃС…РѕРґРѕРІ РџРѕРєСѓРїР°С‚РµР»СЏ РїСЂРё СЂРµР°Р»РёР·Р°С†РёРё С‚РѕРІР°СЂРѕРІ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ,РєРѕС‚РѕСЂС‹Рµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІРєР»СЋС‡РµРЅС‹ РІ С†РµРЅСѓ СЂРµР°Р»РёР·Р°С†РёРё РґР»СЏ РёС… РїРѕРєСЂС‹С‚РёСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'Cost' element value. Укажите общий размер расходов Покупателя при реализации товаров на внутреннем рынке,которые должны быть включены в цену реализации для их покрытия
+     * Set the 'Cost' element value. РЈРєР°Р¶РёС‚Рµ РѕР±С‰РёР№ СЂР°Р·РјРµСЂ СЂР°СЃС…РѕРґРѕРІ РџРѕРєСѓРїР°С‚РµР»СЏ РїСЂРё СЂРµР°Р»РёР·Р°С†РёРё С‚РѕРІР°СЂРѕРІ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ,РєРѕС‚РѕСЂС‹Рµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІРєР»СЋС‡РµРЅС‹ РІ С†РµРЅСѓ СЂРµР°Р»РёР·Р°С†РёРё РґР»СЏ РёС… РїРѕРєСЂС‹С‚РёСЏ
      * 
      * @param cost
      */
@@ -69,7 +69,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Get the 'Profitability' element value. Укажите процент планируемой рентабельности сделки
+     * Get the 'Profitability' element value. РЈРєР°Р¶РёС‚Рµ РїСЂРѕС†РµРЅС‚ РїР»Р°РЅРёСЂСѓРµРјРѕР№ СЂРµРЅС‚Р°Р±РµР»СЊРЅРѕСЃС‚Рё СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'Profitability' element value. Укажите процент планируемой рентабельности сделки
+     * Set the 'Profitability' element value. РЈРєР°Р¶РёС‚Рµ РїСЂРѕС†РµРЅС‚ РїР»Р°РЅРёСЂСѓРµРјРѕР№ СЂРµРЅС‚Р°Р±РµР»СЊРЅРѕСЃС‚Рё СЃРґРµР»РєРё
      * 
      * @param profitability
      */
@@ -87,7 +87,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Get the 'BuyerGoods' element value. Покупатель товаров
+     * Get the 'BuyerGoods' element value. РџРѕРєСѓРїР°С‚РµР»СЊ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'BuyerGoods' element value. Покупатель товаров
+     * Set the 'BuyerGoods' element value. РџРѕРєСѓРїР°С‚РµР»СЊ С‚РѕРІР°СЂРѕРІ
      * 
      * @param buyerGoods
      */
@@ -105,7 +105,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Get the 'ExcessCustomsCost' element value. Цена товара на внутреннем рынке Российской Федерации превышает заявленную таможенную стоимость, увеличенную на размер таможенных платежей
+     * Get the 'ExcessCustomsCost' element value. Р¦РµРЅР° С‚РѕРІР°СЂР° РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РїСЂРµРІС‹С€Р°РµС‚ Р·Р°СЏРІР»РµРЅРЅСѓСЋ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ, СѓРІРµР»РёС‡РµРЅРЅСѓСЋ РЅР° СЂР°Р·РјРµСЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'ExcessCustomsCost' element value. Цена товара на внутреннем рынке Российской Федерации превышает заявленную таможенную стоимость, увеличенную на размер таможенных платежей
+     * Set the 'ExcessCustomsCost' element value. Р¦РµРЅР° С‚РѕРІР°СЂР° РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РїСЂРµРІС‹С€Р°РµС‚ Р·Р°СЏРІР»РµРЅРЅСѓСЋ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ, СѓРІРµР»РёС‡РµРЅРЅСѓСЋ РЅР° СЂР°Р·РјРµСЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param excessCustomsCost
      */
@@ -123,7 +123,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Get the 'MarketPrice' element value. Известна ли Покупателю рыночная цена в Российской Федерации товаров того же класса или вида при продаже их конечному потребителю.
+     * Get the 'MarketPrice' element value. РР·РІРµСЃС‚РЅР° Р»Рё РџРѕРєСѓРїР°С‚РµР»СЋ СЂС‹РЅРѕС‡РЅР°СЏ С†РµРЅР° РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё С‚РѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР° РїСЂРё РїСЂРѕРґР°Р¶Рµ РёС… РєРѕРЅРµС‡РЅРѕРјСѓ РїРѕС‚СЂРµР±РёС‚РµР»СЋ.
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class SaleGoodsDomesticMarketType
     }
 
     /** 
-     * Set the 'MarketPrice' element value. Известна ли Покупателю рыночная цена в Российской Федерации товаров того же класса или вида при продаже их конечному потребителю.
+     * Set the 'MarketPrice' element value. РР·РІРµСЃС‚РЅР° Р»Рё РџРѕРєСѓРїР°С‚РµР»СЋ СЂС‹РЅРѕС‡РЅР°СЏ С†РµРЅР° РІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё С‚РѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР° РїСЂРё РїСЂРѕРґР°Р¶Рµ РёС… РєРѕРЅРµС‡РЅРѕРјСѓ РїРѕС‚СЂРµР±РёС‚РµР»СЋ.
      * 
      * @param marketPrice
      */

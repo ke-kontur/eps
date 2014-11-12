@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airwaybill;
 
 /** 
- * Платеж
+ * РџР»Р°С‚РµР¶
  */
 public class ChargesInfoType
 {
@@ -10,7 +10,7 @@ public class ChargesInfoType
     private String amount;
 
     /** 
-     * Get the 'PaymentCode' element value. Идентификатор платежа
+     * Get the 'PaymentCode' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ChargesInfoType
     }
 
     /** 
-     * Set the 'PaymentCode' element value. Идентификатор платежа
+     * Set the 'PaymentCode' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentCode
      */
@@ -28,7 +28,7 @@ public class ChargesInfoType
     }
 
     /** 
-     * Get the 'Amount' element value. Сумма платежа
+     * Get the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ChargesInfoType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма платежа
+     * Set the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param amount
      */

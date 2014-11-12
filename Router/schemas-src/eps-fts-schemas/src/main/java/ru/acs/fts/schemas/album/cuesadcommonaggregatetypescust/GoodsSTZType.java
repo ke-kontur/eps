@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о товарах, помещенных под таможенную процедуру СТЗ или свободного склада. гр 31 п 11
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР— РёР»Рё СЃРІРѕР±РѕРґРЅРѕРіРѕ СЃРєР»Р°РґР°. РіСЂ 31 Рї 11
  */
 public class GoodsSTZType
 {
@@ -16,7 +16,7 @@ public class GoodsSTZType
     private List<GoodsGroupDescriptionType> goodsGroupDescriptionList = new ArrayList<GoodsGroupDescriptionType>();
 
     /** 
-     * Get the 'LineNumber' element value. Порядковый номер строки в гр 40
+     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РІ РіСЂ 40
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Порядковый номер строки в гр 40
+     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РІ РіСЂ 40
      * 
      * @param lineNumber
      */
@@ -34,7 +34,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименования товара (торговое, коммерческое или иное традиционное наименование)
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёСЏ С‚РѕРІР°СЂР° (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ)
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименования товара (торговое, коммерческое или иное традиционное наименование)
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёСЏ С‚РѕРІР°СЂР° (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ)
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. Количество товара
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. Количество товара
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param supplementaryQuantity
      */
@@ -71,7 +71,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Get the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками
+     * Get the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class GoodsSTZType
     }
 
     /** 
-     * Set the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками
+     * Set the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
      * 
      * @param list
      */

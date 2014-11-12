@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Перевозчик в книжке МДП
+ * РџРµСЂРµРІРѕР·С‡РёРє РІ РєРЅРёР¶РєРµ РњР”Рџ
  */
 public class TIRCarrierType extends OrganizationBaseType
 {
@@ -16,7 +16,7 @@ public class TIRCarrierType extends OrganizationBaseType
     private AddressType address;
 
     /** 
-     * Get the 'ITN' element value. ИТН
+     * Get the 'ITN' element value. РРўРќ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ITN' element value. ИТН
+     * Set the 'ITN' element value. РРўРќ
      * 
      * @param ITN
      */
@@ -34,7 +34,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -52,7 +52,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'TIRSignature' element value. Подпись держателя. Место и дата  проставления подписи.
+     * Get the 'TIRSignature' element value. РџРѕРґРїРёСЃСЊ РґРµСЂР¶Р°С‚РµР»СЏ. РњРµСЃС‚Рѕ Рё РґР°С‚Р°  РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'TIRSignature' element value. Подпись держателя. Место и дата  проставления подписи.
+     * Set the 'TIRSignature' element value. РџРѕРґРїРёСЃСЊ РґРµСЂР¶Р°С‚РµР»СЏ. РњРµСЃС‚Рѕ Рё РґР°С‚Р°  РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РїРѕРґРїРёСЃРё.
      * 
      * @param TIRSignature
      */
@@ -70,7 +70,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TIRCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */

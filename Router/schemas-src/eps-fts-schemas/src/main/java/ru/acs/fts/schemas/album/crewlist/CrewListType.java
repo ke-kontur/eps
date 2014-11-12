@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.PortType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.VesselType;
 
 /** 
- * Судовая роль
+ * РЎСѓРґРѕРІР°СЏ СЂРѕР»СЊ
  */
 public class CrewListType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class CrewListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LanguageCode' element value. Код языка документа 
+     * Get the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р° 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCode' element value. Код языка документа 
+     * Set the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р° 
      * 
      * @param languageCode
      */
@@ -49,7 +49,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePort' element value. Название порта отправления судна
+     * Get the 'DeparturePort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePort' element value. Название порта отправления судна
+     * Set the 'DeparturePort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР°
      * 
      * @param departurePort
      */
@@ -67,7 +67,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArrivalIndicator' element value. Признак прибытия судна относительно Российской стороны
+     * Get the 'ArrivalIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёР±С‹С‚РёСЏ СЃСѓРґРЅР° РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ Р РѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArrivalIndicator' element value. Признак прибытия судна относительно Российской стороны
+     * Set the 'ArrivalIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёР±С‹С‚РёСЏ СЃСѓРґРЅР° РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ Р РѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹
      * 
      * @param arrivalIndicator
      */
@@ -85,7 +85,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Название перевозчика (агента)
+     * Get the 'Carrier' element value. РќР°Р·РІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР° (Р°РіРµРЅС‚Р°)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Название перевозчика (агента)
+     * Set the 'Carrier' element value. РќР°Р·РІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР° (Р°РіРµРЅС‚Р°)
      * 
      * @param carrier
      */
@@ -103,7 +103,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Notice' element value. Примечание 
+     * Get the 'Notice' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Notice' element value. Примечание 
+     * Set the 'Notice' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 
      * 
      * @param notice
      */
@@ -121,7 +121,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'RUPersonnel' element value. Количество российских членов экипажа.
+     * Get the 'RUPersonnel' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЂРѕСЃСЃРёР№СЃРєРёС… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°.
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'RUPersonnel' element value. Количество российских членов экипажа.
+     * Set the 'RUPersonnel' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЂРѕСЃСЃРёР№СЃРєРёС… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°.
      * 
      * @param RUPersonnel
      */
@@ -139,7 +139,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignPersonnel' element value. Количество иностранных членов экипажа.
+     * Get the 'ForeignPersonnel' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°.
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignPersonnel' element value. Количество иностранных членов экипажа.
+     * Set the 'ForeignPersonnel' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°.
      * 
      * @param foreignPersonnel
      */
@@ -157,7 +157,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
+     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
+     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
      * 
      * @param documentSignature
      */
@@ -175,7 +175,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Vessel' element value. Реквизиты судна
+     * Get the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Vessel' element value. Реквизиты судна
+     * Set the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
      * 
      * @param vessel
      */
@@ -218,7 +218,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Arrival' element value. Информация о прибытии
+     * Get the 'Arrival' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -227,7 +227,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Arrival' element value. Информация о прибытии
+     * Set the 'Arrival' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @param arrival
      */
@@ -246,7 +246,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sailing' element value. Информация об убытии
+     * Get the 'Sailing' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sailing' element value. Информация об убытии
+     * Set the 'Sailing' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓР±С‹С‚РёРё
      * 
      * @param sailing
      */
@@ -265,7 +265,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CockpitPersonnel' element items. Реквизиты членов экипажа
+     * Get the list of 'CockpitPersonnel' element items. Р РµРєРІРёР·РёС‚С‹ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @return list
      */
@@ -274,7 +274,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CockpitPersonnel' element items. Реквизиты членов экипажа
+     * Set the list of 'CockpitPersonnel' element items. Р РµРєРІРёР·РёС‚С‹ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @param list
      */
@@ -283,7 +283,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class CrewListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

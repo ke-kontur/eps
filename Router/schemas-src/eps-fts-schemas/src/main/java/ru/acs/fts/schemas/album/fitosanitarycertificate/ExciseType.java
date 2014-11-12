@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Отличительные знаки (маркировка)
+ * РћС‚Р»РёС‡РёС‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё (РјР°СЂРєРёСЂРѕРІРєР°)
  */
 public class ExciseType
 {
@@ -13,7 +13,7 @@ public class ExciseType
     private List<String> exciseDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'ExciseSerieses' element value. Номер марки
+     * Get the 'ExciseSerieses' element value. РќРѕРјРµСЂ РјР°СЂРєРё
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ExciseType
     }
 
     /** 
-     * Set the 'ExciseSerieses' element value. Номер марки
+     * Set the 'ExciseSerieses' element value. РќРѕРјРµСЂ РјР°СЂРєРё
      * 
      * @param exciseSerieses
      */
@@ -31,7 +31,7 @@ public class ExciseType
     }
 
     /** 
-     * Get the list of 'ExciseDescription' element items. Описание отличительных знаков
+     * Get the list of 'ExciseDescription' element items. РћРїРёСЃР°РЅРёРµ РѕС‚Р»РёС‡РёС‚РµР»СЊРЅС‹С… Р·РЅР°РєРѕРІ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ExciseType
     }
 
     /** 
-     * Set the list of 'ExciseDescription' element items. Описание отличительных знаков
+     * Set the list of 'ExciseDescription' element items. РћРїРёСЃР°РЅРёРµ РѕС‚Р»РёС‡РёС‚РµР»СЊРЅС‹С… Р·РЅР°РєРѕРІ
      * 
      * @param list
      */

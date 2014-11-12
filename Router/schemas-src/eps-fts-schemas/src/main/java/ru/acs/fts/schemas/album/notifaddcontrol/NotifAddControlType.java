@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Решение о проведении дополнительной проверки
+ * Р РµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё
  */
 public class NotifAddControlType extends BaseDocType
 {
@@ -35,7 +35,7 @@ public class NotifAddControlType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResolDate' element value. Дата решения
+     * Get the 'ResolDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResolDate' element value. Дата решения
+     * Set the 'ResolDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
      * 
      * @param resolDate
      */
@@ -53,7 +53,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'OfficeName' element value. Наименование таможенного органа
+     * Get the 'OfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'OfficeName' element value. Наименование таможенного органа
+     * Set the 'OfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param officeName
      */
@@ -71,7 +71,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Срок представления дополнительных документов.
+     * Get the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок представления дополнительных документов.
+     * Set the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @param dateLimit
      */
@@ -89,7 +89,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Violations' element items. Признаки, указывающие на то, что сведения  могут являться недостоверными либо заявленные сведения должным образом не подтверждены
+     * Get the list of 'Violations' element items. РџСЂРёР·РЅР°РєРё, СѓРєР°Р·С‹РІР°СЋС‰РёРµ РЅР° С‚Рѕ, С‡С‚Рѕ СЃРІРµРґРµРЅРёСЏ  РјРѕРіСѓС‚ СЏРІР»СЏС‚СЊСЃСЏ РЅРµРґРѕСЃС‚РѕРІРµСЂРЅС‹РјРё Р»РёР±Рѕ Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ РґРѕР»Р¶РЅС‹Рј РѕР±СЂР°Р·РѕРј РЅРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅС‹
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Violations' element items. Признаки, указывающие на то, что сведения  могут являться недостоверными либо заявленные сведения должным образом не подтверждены
+     * Set the list of 'Violations' element items. РџСЂРёР·РЅР°РєРё, СѓРєР°Р·С‹РІР°СЋС‰РёРµ РЅР° С‚Рѕ, С‡С‚Рѕ СЃРІРµРґРµРЅРёСЏ  РјРѕРіСѓС‚ СЏРІР»СЏС‚СЊСЃСЏ РЅРµРґРѕСЃС‚РѕРІРµСЂРЅС‹РјРё Р»РёР±Рѕ Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ РґРѕР»Р¶РЅС‹Рј РѕР±СЂР°Р·РѕРј РЅРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅС‹
      * 
      * @param list
      */
@@ -107,7 +107,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateOut' element value. Срок выполнения действий, необходимых для выпуска товара
+     * Get the 'DateOut' element value. РЎСЂРѕРє РІС‹РїРѕР»РЅРµРЅРёСЏ РґРµР№СЃС‚РІРёР№, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateOut' element value. Срок выполнения действий, необходимых для выпуска товара
+     * Set the 'DateOut' element value. РЎСЂРѕРє РІС‹РїРѕР»РЅРµРЅРёСЏ РґРµР№СЃС‚РІРёР№, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂР°
      * 
      * @param dateOut
      */
@@ -125,7 +125,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclName' element value. Наименование декларанта (таможенного представителя)
+     * Get the 'DeclName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclName' element value. Наименование декларанта (таможенного представителя)
+     * Set the 'DeclName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @param declName
      */
@@ -143,7 +143,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'FoundInfo' element items. Сведения, обнаруженные в ходе проверки декларации на товары
+     * Get the list of 'FoundInfo' element items. РЎРІРµРґРµРЅРёСЏ, РѕР±РЅР°СЂСѓР¶РµРЅРЅС‹Рµ РІ С…РѕРґРµ РїСЂРѕРІРµСЂРєРё РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @return list
      */
@@ -152,7 +152,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'FoundInfo' element items. Сведения, обнаруженные в ходе проверки декларации на товары
+     * Set the list of 'FoundInfo' element items. РЎРІРµРґРµРЅРёСЏ, РѕР±РЅР°СЂСѓР¶РµРЅРЅС‹Рµ РІ С…РѕРґРµ РїСЂРѕРІРµСЂРєРё РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @param list
      */
@@ -161,7 +161,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CauseDocuments' element items. Причина предоставления документов
+     * Get the list of 'CauseDocuments' element items. РџСЂРёС‡РёРЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return list
      */
@@ -170,7 +170,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CauseDocuments' element items. Причина предоставления документов
+     * Set the list of 'CauseDocuments' element items. РџСЂРёС‡РёРЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param list
      */
@@ -179,7 +179,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArtCauseDoc' element value. Статья, по которой требуется предоставить документы
+     * Get the 'ArtCauseDoc' element value. РЎС‚Р°С‚СЊСЏ, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArtCauseDoc' element value. Статья, по которой требуется предоставить документы
+     * Set the 'ArtCauseDoc' element value. РЎС‚Р°С‚СЊСЏ, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param artCauseDoc
      */
@@ -197,7 +197,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArtControl' element value. Статья в соответствии, с которой уведомляют, что в ходе проверки декларации на товары обнаружено.
+     * Get the 'ArtControl' element value. РЎС‚Р°С‚СЊСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё, СЃ РєРѕС‚РѕСЂРѕР№ СѓРІРµРґРѕРјР»СЏСЋС‚, С‡С‚Рѕ РІ С…РѕРґРµ РїСЂРѕРІРµСЂРєРё РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹ РѕР±РЅР°СЂСѓР¶РµРЅРѕ.
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArtControl' element value. Статья в соответствии, с которой уведомляют, что в ходе проверки декларации на товары обнаружено.
+     * Set the 'ArtControl' element value. РЎС‚Р°С‚СЊСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё, СЃ РєРѕС‚РѕСЂРѕР№ СѓРІРµРґРѕРјР»СЏСЋС‚, С‡С‚Рѕ РІ С…РѕРґРµ РїСЂРѕРІРµСЂРєРё РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹ РѕР±РЅР°СЂСѓР¶РµРЅРѕ.
      * 
      * @param artControl
      */
@@ -215,7 +215,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ActionOut' element items. Действия необходимые для выпуска товара
+     * Get the list of 'ActionOut' element items. Р”РµР№СЃС‚РІРёСЏ РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -224,7 +224,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ActionOut' element items. Действия необходимые для выпуска товара
+     * Set the list of 'ActionOut' element items. Р”РµР№СЃС‚РІРёСЏ РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -233,7 +233,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifType' element value. Тип решения: 1 - решение о проведении дополнительной проверки для таможенной стоимости; 2- решение о проведении дополнительной проверки для классификации по коду ТНВЭД; 3 - решение о проведении дополнительной проверки для определения страны происхождения
+     * Get the 'NotifType' element value. РўРёРї СЂРµС€РµРЅРёСЏ: 1 - СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё РґР»СЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё; 2- СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё РґР»СЏ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РїРѕ РєРѕРґСѓ РўРќР’Р­Р”; 3 - СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifType' element value. Тип решения: 1 - решение о проведении дополнительной проверки для таможенной стоимости; 2- решение о проведении дополнительной проверки для классификации по коду ТНВЭД; 3 - решение о проведении дополнительной проверки для определения страны происхождения
+     * Set the 'NotifType' element value. РўРёРї СЂРµС€РµРЅРёСЏ: 1 - СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё РґР»СЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё; 2- СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё РґР»СЏ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РїРѕ РєРѕРґСѓ РўРќР’Р­Р”; 3 - СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РїСЂРѕРІРµСЂРєРё РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param notifType
      */
@@ -251,7 +251,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер  ДТ.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў.
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер  ДТ.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў.
      * 
      * @param GTDID
      */
@@ -269,7 +269,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CustomsCostInf' element items. Сведения, требующие подтверждения
+     * Get the list of 'CustomsCostInf' element items. РЎРІРµРґРµРЅРёСЏ, С‚СЂРµР±СѓСЋС‰РёРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return list
      */
@@ -278,7 +278,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CustomsCostInf' element items. Сведения, требующие подтверждения
+     * Set the list of 'CustomsCostInf' element items. РЎРІРµРґРµРЅРёСЏ, С‚СЂРµР±СѓСЋС‰РёРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param list
      */
@@ -287,7 +287,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -296,7 +296,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -305,7 +305,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес направления решения
+     * Get the 'Address' element value. РђРґСЂРµСЃ РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес направления решения
+     * Set the 'Address' element value. РђРґСЂРµСЃ РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param address
      */
@@ -323,7 +323,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceivingResolution' element value. Получение решения
+     * Get the 'ReceivingResolution' element value. РџРѕР»СѓС‡РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceivingResolution' element value. Получение решения
+     * Set the 'ReceivingResolution' element value. РџРѕР»СѓС‡РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @param receivingResolution
      */
@@ -341,7 +341,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendResolution' element value. Направление решения
+     * Get the 'SendResolution' element value. РќР°РїСЂР°РІР»РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendResolution' element value. Направление решения
+     * Set the 'SendResolution' element value. РќР°РїСЂР°РІР»РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @param sendResolution
      */
@@ -359,7 +359,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class NotifAddControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

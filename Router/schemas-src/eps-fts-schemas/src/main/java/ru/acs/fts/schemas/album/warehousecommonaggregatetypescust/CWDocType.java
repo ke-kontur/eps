@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Базовый тип для СВХ
+ * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РЎР’РҐ
  */
 public class CWDocType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class CWDocType extends BaseDocType
     private CustomsType customsProperties;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Дата и время создания электронного документа.
+     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CWDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Дата и время создания электронного документа.
+     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentDateTime
      */
@@ -31,7 +31,7 @@ public class CWDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProperties' element value. Реквизиты таможенного органа
+     * Get the 'CustomsProperties' element value. Р РµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CWDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProperties' element value. Реквизиты таможенного органа
+     * Set the 'CustomsProperties' element value. Р РµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsProperties
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_getdocumentformattedresponse;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Ответ на запрос на получение данных для отображения документа архива.
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РґР°РЅРЅС‹С… РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° Р°СЂС…РёРІР°.
  */
 public class AUDGetDocumentFormattedResponseType extends AUDBaseEnvelopeType
 {
@@ -12,7 +12,7 @@ public class AUDGetDocumentFormattedResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentRepresentation' element value. Сформированное представление документа (для визуализации документа).
+     * Get the 'DocumentRepresentation' element value. РЎС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDGetDocumentFormattedResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentRepresentation' element value. Сформированное представление документа (для визуализации документа).
+     * Set the 'DocumentRepresentation' element value. РЎС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
      * 
      * @param documentRepresentation
      */
@@ -30,7 +30,7 @@ public class AUDGetDocumentFormattedResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDGetDocumentFormattedResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

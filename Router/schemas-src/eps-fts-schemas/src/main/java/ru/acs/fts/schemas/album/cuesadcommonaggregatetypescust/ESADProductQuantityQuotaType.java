@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения об остатке квоты, выраженные в количестве продукта. Заполняется в случае, если квота указывается в единицах измерения
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃС‚Р°С‚РєРµ РєРІРѕС‚С‹, РІС‹СЂР°Р¶РµРЅРЅС‹Рµ РІ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРѕРґСѓРєС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РєРІРѕС‚Р° СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
  */
 public class ESADProductQuantityQuotaType
 {
@@ -11,7 +11,7 @@ public class ESADProductQuantityQuotaType
     private String quotaMeasurementName;
 
     /** 
-     * Get the 'QuotaQuantity' element value. Остаток квоты в единице измерения
+     * Get the 'QuotaQuantity' element value. РћСЃС‚Р°С‚РѕРє РєРІРѕС‚С‹ РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ESADProductQuantityQuotaType
     }
 
     /** 
-     * Set the 'QuotaQuantity' element value. Остаток квоты в единице измерения
+     * Set the 'QuotaQuantity' element value. РћСЃС‚Р°С‚РѕРє РєРІРѕС‚С‹ РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param quotaQuantity
      */
@@ -29,7 +29,7 @@ public class ESADProductQuantityQuotaType
     }
 
     /** 
-     * Get the 'QuotaMeasureUnitQualifierCode' element value. Код единицы измерения квоты в соответствии с классификатором единиц измерения
+     * Get the 'QuotaMeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРІРѕС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ESADProductQuantityQuotaType
     }
 
     /** 
-     * Set the 'QuotaMeasureUnitQualifierCode' element value. Код единицы измерения квоты в соответствии с классификатором единиц измерения
+     * Set the 'QuotaMeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРІРѕС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param quotaMeasureUnitQualifierCode
      */
@@ -48,7 +48,7 @@ public class ESADProductQuantityQuotaType
     }
 
     /** 
-     * Get the 'QuotaMeasurementName' element value. Наименование единицы измерения квоты
+     * Get the 'QuotaMeasurementName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРІРѕС‚С‹
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ESADProductQuantityQuotaType
     }
 
     /** 
-     * Set the 'QuotaMeasurementName' element value. Наименование единицы измерения квоты
+     * Set the 'QuotaMeasurementName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРІРѕС‚С‹
      * 
      * @param quotaMeasurementName
      */

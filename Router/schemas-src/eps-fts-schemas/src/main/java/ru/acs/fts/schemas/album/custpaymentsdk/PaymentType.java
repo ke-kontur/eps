@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.custpaymentsdk;
 
 /** 
- * Платежи к уплате
+ * РџР»Р°С‚РµР¶Рё Рє СѓРїР»Р°С‚Рµ
  */
 public class PaymentType
 {
@@ -14,7 +14,7 @@ public class PaymentType
     private String currencyRate;
 
     /** 
-     * Get the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Get the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Set the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSign
      */
@@ -32,7 +32,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @param paymentModeCode
      */
@@ -50,7 +50,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentAmount
      */
@@ -68,7 +68,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
+     * Get the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
+     * Set the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSubspecies
      */
@@ -86,7 +86,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
      * 
      * @param paymentCurrencyCode
      */
@@ -104,7 +104,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
      * 
      * @param currencyRate
      */

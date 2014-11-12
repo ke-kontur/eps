@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Объекты интеллектуальной собственности
+ * РћР±СЉРµРєС‚С‹ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
  */
 public class SEMOISResponseType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class SEMOISResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Status' element value. Состояние отработки
+     * Get the 'Status' element value. РЎРѕСЃС‚РѕСЏРЅРёРµ РѕС‚СЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SEMOISResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Status' element value. Состояние отработки
+     * Set the 'Status' element value. РЎРѕСЃС‚РѕСЏРЅРёРµ РѕС‚СЂР°Р±РѕС‚РєРё
      * 
      * @param status
      */
@@ -33,7 +33,7 @@ public class SEMOISResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Информация о товарах
+     * Get the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class SEMOISResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Информация о товарах
+     * Set the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class SEMOISResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SEMOISResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

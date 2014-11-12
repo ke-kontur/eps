@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.preliminarytnvedcode;
 
 /** 
- * Регистрационный номер
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
  */
 public class RegistrationNumberType
 {
@@ -12,7 +12,7 @@ public class RegistrationNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'CountryCode' element value. Код государства 
+     * Get the 'CountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код государства 
+     * Set the 'CountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° 
      * 
      * @param countryCode
      */
@@ -30,7 +30,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа 
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа 
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° 
      * 
      * @param customsCode
      */
@@ -48,7 +48,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'Year' element value. Последние цифры года принятия предварительного решения 
+     * Get the 'Year' element value. РџРѕСЃР»РµРґРЅРёРµ С†РёС„СЂС‹ РіРѕРґР° РїСЂРёРЅСЏС‚РёСЏ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'Year' element value. Последние цифры года принятия предварительного решения 
+     * Set the 'Year' element value. РџРѕСЃР»РµРґРЅРёРµ С†РёС„СЂС‹ РіРѕРґР° РїСЂРёРЅСЏС‚РёСЏ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ 
      * 
      * @param year
      */
@@ -66,7 +66,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый исходящий номер предварительного решения по классификации товара в календарного года
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР° РІ РєР°Р»РµРЅРґР°СЂРЅРѕРіРѕ РіРѕРґР°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый исходящий номер предварительного решения по классификации товара в календарного года
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР° РІ РєР°Р»РµРЅРґР°СЂРЅРѕРіРѕ РіРѕРґР°
      * 
      * @param serialNumber
      */

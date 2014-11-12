@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Информация по обработке груза
+ * РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
  */
 public class HandlingInfoType
 {
@@ -15,7 +15,7 @@ public class HandlingInfoType
     private OrganizationType notificationOrg;
 
     /** 
-     * Get the 'ServiceInfoCode' element value. Код информации
+     * Get the 'ServiceInfoCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'ServiceInfoCode' element value. Код информации
+     * Set the 'ServiceInfoCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param serviceInfoCode
      */
@@ -33,7 +33,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Get the list of 'InfoDescription' element items. Специальные требования и другая информация
+     * Get the list of 'InfoDescription' element items. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РґСЂСѓРіР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the list of 'InfoDescription' element items. Специальные требования и другая информация
+     * Set the list of 'InfoDescription' element items. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РґСЂСѓРіР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Get the 'NotificationOrg' element value. Организация или лицо для уведомления о прибытии груза
+     * Get the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ РёР»Рё Р»РёС†Рѕ РґР»СЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'NotificationOrg' element value. Организация или лицо для уведомления о прибытии груза
+     * Set the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ РёР»Рё Р»РёС†Рѕ РґР»СЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё РіСЂСѓР·Р°
      * 
      * @param notificationOrg
      */

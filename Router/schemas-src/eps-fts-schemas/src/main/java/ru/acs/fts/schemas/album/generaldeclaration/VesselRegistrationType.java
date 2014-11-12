@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.VesselType;
 
 /** 
- * Реквизиты и характеристики судна, сведения о регистрации судна
+ * Р РµРєРІРёР·РёС‚С‹ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃСѓРґРЅР°, СЃРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
  */
 public class VesselRegistrationType extends VesselType
 {
@@ -19,7 +19,7 @@ public class VesselRegistrationType extends VesselType
     private String vesselType1;
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата регистрации судна
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата регистрации судна
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
      * 
      * @param registrationDate
      */
@@ -37,7 +37,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'RegistrationID' element value. Номер регистрации
+     * Get the 'RegistrationID' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'RegistrationID' element value. Номер регистрации
+     * Set the 'RegistrationID' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param registrationID
      */
@@ -55,7 +55,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'RegistrationPort' element value. Порт регистрации судна
+     * Get the 'RegistrationPort' element value. РџРѕСЂС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'RegistrationPort' element value. Порт регистрации судна
+     * Set the 'RegistrationPort' element value. РџРѕСЂС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
      * 
      * @param registrationPort
      */
@@ -73,7 +73,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'GrossTonnage' element value. Валовая вместимость (тоннаж)
+     * Get the 'GrossTonnage' element value. Р’Р°Р»РѕРІР°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ (С‚РѕРЅРЅР°Р¶)
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'GrossTonnage' element value. Валовая вместимость (тоннаж)
+     * Set the 'GrossTonnage' element value. Р’Р°Р»РѕРІР°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ (С‚РѕРЅРЅР°Р¶)
      * 
      * @param grossTonnage
      */
@@ -91,7 +91,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'NetTonnage' element value. Чистая вместимость (тоннаж)
+     * Get the 'NetTonnage' element value. Р§РёСЃС‚Р°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ (С‚РѕРЅРЅР°Р¶)
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'NetTonnage' element value. Чистая вместимость (тоннаж)
+     * Set the 'NetTonnage' element value. Р§РёСЃС‚Р°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ (С‚РѕРЅРЅР°Р¶)
      * 
      * @param netTonnage
      */
@@ -109,7 +109,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'IMO' element value. ИМО судна
+     * Get the 'IMO' element value. РРњРћ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'IMO' element value. ИМО судна
+     * Set the 'IMO' element value. РРњРћ СЃСѓРґРЅР°
      * 
      * @param IMO
      */
@@ -127,7 +127,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'Flag' element value. Флаг судна
+     * Get the 'Flag' element value. Р¤Р»Р°Рі СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'Flag' element value. Флаг судна
+     * Set the 'Flag' element value. Р¤Р»Р°Рі СЃСѓРґРЅР°
      * 
      * @param flag
      */
@@ -145,7 +145,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Get the 'VesselType' element value. Тип судна
+     * Get the 'VesselType' element value. РўРёРї СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class VesselRegistrationType extends VesselType
     }
 
     /** 
-     * Set the 'VesselType' element value. Тип судна
+     * Set the 'VesselType' element value. РўРёРї СЃСѓРґРЅР°
      * 
      * @param vesselType1
      */

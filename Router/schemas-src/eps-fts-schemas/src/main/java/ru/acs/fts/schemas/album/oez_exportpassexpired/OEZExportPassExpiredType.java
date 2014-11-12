@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Уведомление об аннулировании разрешения
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё СЂР°Р·СЂРµС€РµРЅРёСЏ
  */
 public class OEZExportPassExpiredType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DateEnd' element value. Дата аннулирования
+     * Get the 'DateEnd' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateEnd' element value. Дата аннулирования
+     * Set the 'DateEnd' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
      * 
      * @param dateEnd
      */
@@ -34,7 +34,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassRegNumber' element value. Регистрационный номер разрешения
+     * Get the 'PassRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassRegNumber' element value. Регистрационный номер разрешения
+     * Set the 'PassRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param passRegNumber
      */
@@ -52,7 +52,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -70,7 +70,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class OEZExportPassExpiredType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

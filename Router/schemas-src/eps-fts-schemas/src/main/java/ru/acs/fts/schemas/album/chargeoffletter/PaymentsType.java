@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.chargeoffletter;
 import org.joda.time.LocalDate;
 
 /** 
- * Платежи
+ * РџР»Р°С‚РµР¶Рё
  */
 public class PaymentsType
 {
@@ -14,7 +14,7 @@ public class PaymentsType
     private LocalDate paymentOrderDate;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа 
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PaymentsType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа 
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° 
      * 
      * @param paymentModeCode
      */
@@ -32,7 +32,7 @@ public class PaymentsType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PaymentsType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentAmount
      */
@@ -50,7 +50,7 @@ public class PaymentsType
     }
 
     /** 
-     * Get the 'PaymentOrderNumber' element value. Номер платежного поручения
+     * Get the 'PaymentOrderNumber' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PaymentsType
     }
 
     /** 
-     * Set the 'PaymentOrderNumber' element value. Номер платежного поручения
+     * Set the 'PaymentOrderNumber' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @param paymentOrderNumber
      */
@@ -68,7 +68,7 @@ public class PaymentsType
     }
 
     /** 
-     * Get the 'PaymentOrderDate' element value. Дата платежного поручения
+     * Get the 'PaymentOrderDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PaymentsType
     }
 
     /** 
-     * Set the 'PaymentOrderDate' element value. Дата платежного поручения
+     * Set the 'PaymentOrderDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @param paymentOrderDate
      */

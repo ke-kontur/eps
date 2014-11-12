@@ -1,0 +1,21 @@
+<binding xmlns:deccr="urn:customs.ru:Information:TransportDocuments:Sea:DeclarationCrew:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Sea:DeclarationCrew:5.4.3" default="elements" prefix="deccr"/>
+  <mapping abstract="true" type-name="deccr:DeclarationCrewType" class="ru.acs.fts.schemas.album.declarationcrew.DeclarationCrewType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ShipName" get-method="getShipName" set-method="setShipName"/>
+    <value style="element" name="NationalityVessel" get-method="getNationalityVessel" set-method="setNationalityVessel"/>
+    <collection get-method="getSubjectList" set-method="setSubjectList" create-type="java.util.ArrayList">
+      <value style="element" name="Subject" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ArrivalPort" get-method="getArrivalPort" set-method="setArrivalPort" usage="optional"/>
+    <value style="element" name="DeparturePort" get-method="getDeparturePort" set-method="setDeparturePort"/>
+    <collection get-method="getPersonSignatureList" set-method="setPersonSignatureList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonSignatureType" name="PersonSignature"/>
+    </collection>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCaptainSignature" set-method="setCaptainSignature" name="CaptainSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.declarationcrew.DeclarationCrewType" name="DeclarationCrew">
+    <structure map-as="deccr:DeclarationCrewType"/>
+  </mapping>
+</binding>

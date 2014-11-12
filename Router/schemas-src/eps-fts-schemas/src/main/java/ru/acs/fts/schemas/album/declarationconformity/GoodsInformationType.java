@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.declarationconformity;
 
 /** 
- * Характеристика товара
+ * РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
  */
 public class GoodsInformationType
 {
@@ -15,7 +15,7 @@ public class GoodsInformationType
     private String goodsKind;
 
     /** 
-     * Get the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
+     * Get the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
+     * Set the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
      * 
      * @param tradeMark
      */
@@ -33,7 +33,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'GoodsMark' element value. Марка (модель) товара
+     * Get the 'GoodsMark' element value. РњР°СЂРєР° (РјРѕРґРµР»СЊ) С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'GoodsMark' element value. Марка (модель) товара
+     * Set the 'GoodsMark' element value. РњР°СЂРєР° (РјРѕРґРµР»СЊ) С‚РѕРІР°СЂР°
      * 
      * @param goodsMark
      */
@@ -51,7 +51,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'GoodsMarking' element value. Артикул товара
+     * Get the 'GoodsMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'GoodsMarking' element value. Артикул товара
+     * Set the 'GoodsMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
      * 
      * @param goodsMarking
      */
@@ -69,7 +69,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'GoodsStandard' element value. Стандарт (ГОСТ, ОСТ, СПП, СТО, ТУ)
+     * Get the 'GoodsStandard' element value. РЎС‚Р°РЅРґР°СЂС‚ (Р“РћРЎРў, РћРЎРў, РЎРџРџ, РЎРўРћ, РўРЈ)
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'GoodsStandard' element value. Стандарт (ГОСТ, ОСТ, СПП, СТО, ТУ)
+     * Set the 'GoodsStandard' element value. РЎС‚Р°РЅРґР°СЂС‚ (Р“РћРЎРў, РћРЎРў, РЎРџРџ, РЎРўРћ, РўРЈ)
      * 
      * @param goodsStandard
      */
@@ -87,7 +87,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'GoodsSort' element value. Сорт / Сорт или группа сортов (для лесо- и пиломатериалов)
+     * Get the 'GoodsSort' element value. РЎРѕСЂС‚ / РЎРѕСЂС‚ РёР»Рё РіСЂСѓРїРїР° СЃРѕСЂС‚РѕРІ (РґР»СЏ Р»РµСЃРѕ- Рё РїРёР»РѕРјР°С‚РµСЂРёР°Р»РѕРІ)
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'GoodsSort' element value. Сорт / Сорт или группа сортов (для лесо- и пиломатериалов)
+     * Set the 'GoodsSort' element value. РЎРѕСЂС‚ / РЎРѕСЂС‚ РёР»Рё РіСЂСѓРїРїР° СЃРѕСЂС‚РѕРІ (РґР»СЏ Р»РµСЃРѕ- Рё РїРёР»РѕРјР°С‚РµСЂРёР°Р»РѕРІ)
      * 
      * @param goodsSort
      */
@@ -105,7 +105,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Размеры
+     * Get the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Размеры
+     * Set the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹
      * 
      * @param dimensions
      */
@@ -123,7 +123,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'GoodsKind' element value. Вид товара
+     * Get the 'GoodsKind' element value. Р’РёРґ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'GoodsKind' element value. Вид товара
+     * Set the 'GoodsKind' element value. Р’РёРґ С‚РѕРІР°СЂР°
      * 
      * @param goodsKind
      */

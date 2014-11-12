@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Обращение за разрешением представить документы в виде графических документов
+ * РћР±СЂР°С‰РµРЅРёРµ Р·Р° СЂР°Р·СЂРµС€РµРЅРёРµРј РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹ РІ РІРёРґРµ РіСЂР°С„РёС‡РµСЃРєРёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
  */
 public class GraphicDocRequestType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class GraphicDocRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegNumberDT' element value. Регистрационный номер ДТ
+     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Регистрационный номер ДТ
+     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param regNumberDT
      */
@@ -36,7 +36,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestPerson' element value. Сведения о лице, подающем документ(ы)
+     * Get the 'RequestPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РґРѕРєСѓРјРµРЅС‚(С‹)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestPerson' element value. Сведения о лице, подающем документ(ы)
+     * Set the 'RequestPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РґРѕРєСѓРјРµРЅС‚(С‹)
      * 
      * @param requestPerson
      */
@@ -54,7 +54,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Document' element items. Документ
+     * Get the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Document' element items. Документ
+     * Set the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GraphicDocRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

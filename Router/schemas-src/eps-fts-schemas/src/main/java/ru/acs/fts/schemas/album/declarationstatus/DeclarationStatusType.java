@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Актуализированные сведения о состоянии таможенной декларации
+ * РђРєС‚СѓР°Р»РёР·РёСЂРѕРІР°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚РѕСЏРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
  */
 public class DeclarationStatusType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class DeclarationStatusType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -37,7 +37,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Get the 'StatusDescription' element value. Описание состояния таможенной декларации
+     * Get the 'StatusDescription' element value. РћРїРёСЃР°РЅРёРµ СЃРѕСЃС‚РѕСЏРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusDescription' element value. Описание состояния таможенной декларации
+     * Set the 'StatusDescription' element value. РћРїРёСЃР°РЅРёРµ СЃРѕСЃС‚РѕСЏРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param statusDescription
      */
@@ -55,7 +55,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Get the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Set the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param additionalID
      */
@@ -73,7 +73,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionCode' element value. Код решения в соответствии с классификатором решений,  принимаемых таможенными органами
+     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№,  РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. Код решения в соответствии с классификатором решений,  принимаемых таможенными органами
+     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№,  РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё
      * 
      * @param decisionCode
      */
@@ -91,7 +91,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationRegNumber' element value. Регистрационный номер таможенной декларации
+     * Get the 'DeclarationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationRegNumber' element value. Регистрационный номер таможенной декларации
+     * Set the 'DeclarationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param declarationRegNumber
      */
@@ -109,7 +109,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -127,7 +127,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class DeclarationStatusType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

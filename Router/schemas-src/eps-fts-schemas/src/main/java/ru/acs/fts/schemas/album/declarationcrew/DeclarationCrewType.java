@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Декларация о личных вещах экипажа
+ * Р”РµРєР»Р°СЂР°С†РёСЏ Рѕ Р»РёС‡РЅС‹С… РІРµС‰Р°С… СЌРєРёРїР°Р¶Р°
  */
 public class DeclarationCrewType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class DeclarationCrewType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ShipName' element value. Название судна
+     * Get the 'ShipName' element value. РќР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipName' element value. Название судна
+     * Set the 'ShipName' element value. РќР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @param shipName
      */
@@ -39,7 +39,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the 'NationalityVessel' element value. Национальная принадлежность судна
+     * Get the 'NationalityVessel' element value. РќР°С†РёРѕРЅР°Р»СЊРЅР°СЏ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the 'NationalityVessel' element value. Национальная принадлежность судна
+     * Set the 'NationalityVessel' element value. РќР°С†РёРѕРЅР°Р»СЊРЅР°СЏ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ СЃСѓРґРЅР°
      * 
      * @param nationalityVessel
      */
@@ -57,7 +57,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Subject' element items. Предметы, которые подлежат или подтверждению на запрещение, или ограничению 
+     * Get the list of 'Subject' element items. РџСЂРµРґРјРµС‚С‹, РєРѕС‚РѕСЂС‹Рµ РїРѕРґР»РµР¶Р°С‚ РёР»Рё РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЋ РЅР° Р·Р°РїСЂРµС‰РµРЅРёРµ, РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРёСЋ 
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Subject' element items. Предметы, которые подлежат или подтверждению на запрещение, или ограничению 
+     * Set the list of 'Subject' element items. РџСЂРµРґРјРµС‚С‹, РєРѕС‚РѕСЂС‹Рµ РїРѕРґР»РµР¶Р°С‚ РёР»Рё РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЋ РЅР° Р·Р°РїСЂРµС‰РµРЅРёРµ, РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРёСЋ 
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArrivalPort' element value. Порт прихода
+     * Get the 'ArrivalPort' element value. РџРѕСЂС‚ РїСЂРёС…РѕРґР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArrivalPort' element value. Порт прихода
+     * Set the 'ArrivalPort' element value. РџРѕСЂС‚ РїСЂРёС…РѕРґР°
      * 
      * @param arrivalPort
      */
@@ -93,7 +93,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePort' element value. Порт отхода 
+     * Get the 'DeparturePort' element value. РџРѕСЂС‚ РѕС‚С…РѕРґР° 
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePort' element value. Порт отхода 
+     * Set the 'DeparturePort' element value. РџРѕСЂС‚ РѕС‚С…РѕРґР° 
      * 
      * @param departurePort
      */
@@ -111,7 +111,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PersonSignature' element items. Подписи экипажа
+     * Get the list of 'PersonSignature' element items. РџРѕРґРїРёСЃРё СЌРєРёРїР°Р¶Р°
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PersonSignature' element items. Подписи экипажа
+     * Set the list of 'PersonSignature' element items. РџРѕРґРїРёСЃРё СЌРєРёРїР°Р¶Р°
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the 'CaptainSignature' element value. Подпись капитана, уполномоченного агента или лица командного состава.
+     * Get the 'CaptainSignature' element value. РџРѕРґРїРёСЃСЊ РєР°РїРёС‚Р°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р°РіРµРЅС‚Р° РёР»Рё Р»РёС†Р° РєРѕРјР°РЅРґРЅРѕРіРѕ СЃРѕСЃС‚Р°РІР°.
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the 'CaptainSignature' element value. Подпись капитана, уполномоченного агента или лица командного состава.
+     * Set the 'CaptainSignature' element value. РџРѕРґРїРёСЃСЊ РєР°РїРёС‚Р°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р°РіРµРЅС‚Р° РёР»Рё Р»РёС†Р° РєРѕРјР°РЅРґРЅРѕРіРѕ СЃРѕСЃС‚Р°РІР°.
      * 
      * @param captainSignature
      */
@@ -147,7 +147,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class DeclarationCrewType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

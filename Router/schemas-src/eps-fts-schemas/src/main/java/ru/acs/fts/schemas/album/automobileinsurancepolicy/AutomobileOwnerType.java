@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.automobileinsurancepolicy;
 
 /** 
- * Сведения о собственнике транспортного средства
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class AutomobileOwnerType
 {
@@ -10,7 +10,7 @@ public class AutomobileOwnerType
     private String naturalPersonIndicator;
 
     /** 
-     * Get the 'Name' element value. ФИО физического лица/Наименование организации
+     * Get the 'Name' element value. Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°/РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AutomobileOwnerType
     }
 
     /** 
-     * Set the 'Name' element value. ФИО физического лица/Наименование организации
+     * Set the 'Name' element value. Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°/РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param name
      */
@@ -28,7 +28,7 @@ public class AutomobileOwnerType
     }
 
     /** 
-     * Get the 'NaturalPersonIndicator' element value. Индикатор, заполняется в случае, если страхователь - физическое лицо
+     * Get the 'NaturalPersonIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AutomobileOwnerType
     }
 
     /** 
-     * Set the 'NaturalPersonIndicator' element value. Индикатор, заполняется в случае, если страхователь - физическое лицо
+     * Set the 'NaturalPersonIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @param naturalPersonIndicator
      */

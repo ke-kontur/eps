@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.RoutigInfoType;
 
 /** 
- * Генеральная авиа декларация
+ * Р“РµРЅРµСЂР°Р»СЊРЅР°СЏ Р°РІРёР° РґРµРєР»Р°СЂР°С†РёСЏ
  */
 public class GeneralDeclarationAirTransportType extends BaseDocType
 {
@@ -42,7 +42,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LanguageCode' element value. Код языка документа
+     * Get the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCode' element value. Код языка документа
+     * Set the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param languageCode
      */
@@ -60,7 +60,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Наименование собственника воздушного судна или перевозчика 
+     * Get the 'Carrier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР° РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР° РёР»Рё РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Наименование собственника воздушного судна или перевозчика 
+     * Set the 'Carrier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР° РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР° РёР»Рё РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @param carrier
      */
@@ -78,7 +78,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Notice' element value. Примечание 
+     * Get the 'Notice' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Notice' element value. Примечание 
+     * Set the 'Notice' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 
      * 
      * @param notice
      */
@@ -96,7 +96,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'FoodSetQuantity' element value. Количество комплектов питания
+     * Get the 'FoodSetQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРїР»РµРєС‚РѕРІ РїРёС‚Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'FoodSetQuantity' element value. Количество комплектов питания
+     * Set the 'FoodSetQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРїР»РµРєС‚РѕРІ РїРёС‚Р°РЅРёСЏ
      * 
      * @param foodSetQuantity
      */
@@ -114,7 +114,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Get the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Set the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierCode
      */
@@ -132,7 +132,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CrewMembersNumber' element value. Количество членов экипажа
+     * Get the 'CrewMembersNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CrewMembersNumber' element value. Количество членов экипажа
+     * Set the 'CrewMembersNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @param crewMembersNumber
      */
@@ -150,7 +150,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'RoutingSign' element value. Прилет/Вылет. 1 - прилет; 0 - вылет
+     * Get the 'RoutingSign' element value. РџСЂРёР»РµС‚/Р’С‹Р»РµС‚. 1 - РїСЂРёР»РµС‚; 0 - РІС‹Р»РµС‚
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'RoutingSign' element value. Прилет/Вылет. 1 - прилет; 0 - вылет
+     * Set the 'RoutingSign' element value. РџСЂРёР»РµС‚/Р’С‹Р»РµС‚. 1 - РїСЂРёР»РµС‚; 0 - РІС‹Р»РµС‚
      * 
      * @param routingSign
      */
@@ -168,7 +168,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Flight' element value. Сведения о рейсе 
+     * Get the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ 
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Flight' element value. Сведения о рейсе 
+     * Set the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ 
      * 
      * @param flight
      */
@@ -186,7 +186,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. Подпись уполномоченного агента или лица командного состава 
+     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р°РіРµРЅС‚Р° РёР»Рё Р»РёС†Р° РєРѕРјР°РЅРґРЅРѕРіРѕ СЃРѕСЃС‚Р°РІР° 
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. Подпись уполномоченного агента или лица командного состава 
+     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р°РіРµРЅС‚Р° РёР»Рё Р»РёС†Р° РєРѕРјР°РЅРґРЅРѕРіРѕ СЃРѕСЃС‚Р°РІР° 
      * 
      * @param documentSignature
      */
@@ -204,7 +204,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CockpitPersonnel' element items. Информация об экипаже
+     * Get the list of 'CockpitPersonnel' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СЌРєРёРїР°Р¶Рµ
      * 
      * @return list
      */
@@ -213,7 +213,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CockpitPersonnel' element items. Информация об экипаже
+     * Set the list of 'CockpitPersonnel' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СЌРєРёРїР°Р¶Рµ
      * 
      * @param list
      */
@@ -222,7 +222,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. Аэропорт назначения
+     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. Аэропорт назначения
+     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationAirport
      */
@@ -240,7 +240,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RoutingInfo' element items. Информация о маршруте 
+     * Get the list of 'RoutingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ 
      * 
      * @return list
      */
@@ -249,7 +249,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RoutingInfo' element items. Информация о маршруте 
+     * Set the list of 'RoutingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ 
      * 
      * @param list
      */
@@ -258,7 +258,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Сведения о составлении документа
+     * Get the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -267,7 +267,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Сведения о составлении документа
+     * Set the 'Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param registration
      */
@@ -276,7 +276,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassengerQuantity' element value. Информация о количестве пассажиров
+     * Get the 'PassengerQuantity' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїР°СЃСЃР°Р¶РёСЂРѕРІ
      * 
      * @return value
      */
@@ -285,7 +285,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassengerQuantity' element value. Информация о количестве пассажиров
+     * Set the 'PassengerQuantity' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїР°СЃСЃР°Р¶РёСЂРѕРІ
      * 
      * @param passengerQuantity
      */
@@ -294,7 +294,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'FuelInfo' element value. Информация о топливе
+     * Get the 'FuelInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРїР»РёРІРµ
      * 
      * @return value
      */
@@ -303,7 +303,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'FuelInfo' element value. Информация о топливе
+     * Set the 'FuelInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРїР»РёРІРµ
      * 
      * @param fuelInfo
      */
@@ -312,7 +312,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'POLInformation' element items. Информация о ГСМ
+     * Get the list of 'POLInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р“РЎРњ
      * 
      * @return list
      */
@@ -321,7 +321,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'POLInformation' element items. Информация о ГСМ
+     * Set the list of 'POLInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р“РЎРњ
      * 
      * @param list
      */
@@ -330,7 +330,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'WeaponInfo' element items. Информация о наличии оружия и военного снаряжения
+     * Get the list of 'WeaponInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё РѕСЂСѓР¶РёСЏ Рё РІРѕРµРЅРЅРѕРіРѕ СЃРЅР°СЂСЏР¶РµРЅРёСЏ
      * 
      * @return list
      */
@@ -339,7 +339,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'WeaponInfo' element items. Информация о наличии оружия и военного снаряжения
+     * Set the list of 'WeaponInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё РѕСЂСѓР¶РёСЏ Рё РІРѕРµРЅРЅРѕРіРѕ СЃРЅР°СЂСЏР¶РµРЅРёСЏ
      * 
      * @param list
      */
@@ -348,7 +348,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PsychotropicAgentInfo' element items. Информация о наличии  психотропных  средств
+     * Get the list of 'PsychotropicAgentInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё  РїСЃРёС…РѕС‚СЂРѕРїРЅС‹С…  СЃСЂРµРґСЃС‚РІ
      * 
      * @return list
      */
@@ -357,7 +357,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PsychotropicAgentInfo' element items. Информация о наличии  психотропных  средств
+     * Set the list of 'PsychotropicAgentInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё  РїСЃРёС…РѕС‚СЂРѕРїРЅС‹С…  СЃСЂРµРґСЃС‚РІ
      * 
      * @param list
      */
@@ -366,7 +366,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @return value
      */
@@ -375,7 +375,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @param mark
      */
@@ -384,7 +384,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -393,7 +393,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountry
      */
@@ -402,7 +402,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. Страна отправления
+     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -411,7 +411,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. Страна отправления
+     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureCountry
      */
@@ -420,7 +420,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -429,7 +429,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -438,7 +438,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignInOut' element value. Признак совершения промежуточной, вынужденной (технической) посадки воздушного судна на территории РФ и на его борту отсутствуют товары, подлежащие разгрузке (выгрузке) или погрузке в месте посадки
+     * Get the 'SignInOut' element value. РџСЂРёР·РЅР°Рє СЃРѕРІРµСЂС€РµРЅРёСЏ РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕР№, РІС‹РЅСѓР¶РґРµРЅРЅРѕР№ (С‚РµС…РЅРёС‡РµСЃРєРѕР№) РїРѕСЃР°РґРєРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР° РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤ Рё РЅР° РµРіРѕ Р±РѕСЂС‚Сѓ РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‚ С‚РѕРІР°СЂС‹, РїРѕРґР»РµР¶Р°С‰РёРµ СЂР°Р·РіСЂСѓР·РєРµ (РІС‹РіСЂСѓР·РєРµ) РёР»Рё РїРѕРіСЂСѓР·РєРµ РІ РјРµСЃС‚Рµ РїРѕСЃР°РґРєРё
      * 
      * @return value
      */
@@ -447,7 +447,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignInOut' element value. Признак совершения промежуточной, вынужденной (технической) посадки воздушного судна на территории РФ и на его борту отсутствуют товары, подлежащие разгрузке (выгрузке) или погрузке в месте посадки
+     * Set the 'SignInOut' element value. РџСЂРёР·РЅР°Рє СЃРѕРІРµСЂС€РµРЅРёСЏ РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕР№, РІС‹РЅСѓР¶РґРµРЅРЅРѕР№ (С‚РµС…РЅРёС‡РµСЃРєРѕР№) РїРѕСЃР°РґРєРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР° РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤ Рё РЅР° РµРіРѕ Р±РѕСЂС‚Сѓ РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‚ С‚РѕРІР°СЂС‹, РїРѕРґР»РµР¶Р°С‰РёРµ СЂР°Р·РіСЂСѓР·РєРµ (РІС‹РіСЂСѓР·РєРµ) РёР»Рё РїРѕРіСЂСѓР·РєРµ РІ РјРµСЃС‚Рµ РїРѕСЃР°РґРєРё
      * 
      * @param signInOut
      */
@@ -456,7 +456,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -465,7 +465,7 @@ public class GeneralDeclarationAirTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

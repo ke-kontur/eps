@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Формирование цены сделки
+ * Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ С†РµРЅС‹ СЃРґРµР»РєРё
  */
 public class PricingTransactionsType
 {
@@ -29,7 +29,7 @@ public class PricingTransactionsType
     private ValueFormingPriceType valueFormingPrice;
 
     /** 
-     * Get the 'PriceLeve' element value. Признак наличия у покупателя информации об уровне рыночных цен на такого вида товары
+     * Get the 'PriceLeve' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ РёРЅС„РѕСЂРјР°С†РёРё РѕР± СѓСЂРѕРІРЅРµ СЂС‹РЅРѕС‡РЅС‹С… С†РµРЅ РЅР° С‚Р°РєРѕРіРѕ РІРёРґР° С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'PriceLeve' element value. Признак наличия у покупателя информации об уровне рыночных цен на такого вида товары
+     * Set the 'PriceLeve' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ РёРЅС„РѕСЂРјР°С†РёРё РѕР± СѓСЂРѕРІРЅРµ СЂС‹РЅРѕС‡РЅС‹С… С†РµРЅ РЅР° С‚Р°РєРѕРіРѕ РІРёРґР° С‚РѕРІР°СЂС‹
      * 
      * @param priceLeve
      */
@@ -47,7 +47,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'InitialOfferPriceAppropriateLevel' element value. Признак того, что первоначальная цена  предложения корреспондирует такому уровню цен
+     * Get the 'InitialOfferPriceAppropriateLevel' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅР°СЏ С†РµРЅР°  РїСЂРµРґР»РѕР¶РµРЅРёСЏ РєРѕСЂСЂРµСЃРїРѕРЅРґРёСЂСѓРµС‚ С‚Р°РєРѕРјСѓ СѓСЂРѕРІРЅСЋ С†РµРЅ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'InitialOfferPriceAppropriateLevel' element value. Признак того, что первоначальная цена  предложения корреспондирует такому уровню цен
+     * Set the 'InitialOfferPriceAppropriateLevel' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅР°СЏ С†РµРЅР°  РїСЂРµРґР»РѕР¶РµРЅРёСЏ РєРѕСЂСЂРµСЃРїРѕРЅРґРёСЂСѓРµС‚ С‚Р°РєРѕРјСѓ СѓСЂРѕРІРЅСЋ С†РµРЅ
      * 
      * @param initialOfferPriceAppropriateLevel
      */
@@ -66,7 +66,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'PercentageDeviation' element value. Процент отклонения
+     * Get the 'PercentageDeviation' element value. РџСЂРѕС†РµРЅС‚ РѕС‚РєР»РѕРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'PercentageDeviation' element value. Процент отклонения
+     * Set the 'PercentageDeviation' element value. РџСЂРѕС†РµРЅС‚ РѕС‚РєР»РѕРЅРµРЅРёСЏ
      * 
      * @param percentageDeviation
      */
@@ -84,7 +84,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'SalePriceInitialOfferPrice' element value. Признак того, что цена сделки совпадает с первоначальной ценой предложения
+     * Get the 'SalePriceInitialOfferPrice' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С†РµРЅР° СЃРґРµР»РєРё СЃРѕРІРїР°РґР°РµС‚ СЃ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ С†РµРЅРѕР№ РїСЂРµРґР»РѕР¶РµРЅРёСЏ
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'SalePriceInitialOfferPrice' element value. Признак того, что цена сделки совпадает с первоначальной ценой предложения
+     * Set the 'SalePriceInitialOfferPrice' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С†РµРЅР° СЃРґРµР»РєРё СЃРѕРІРїР°РґР°РµС‚ СЃ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ С†РµРЅРѕР№ РїСЂРµРґР»РѕР¶РµРЅРёСЏ
      * 
      * @param salePriceInitialOfferPrice
      */
@@ -102,7 +102,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'PercentageDifferences' element value. Процент отличия от первоначальной цены.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'PercentageDifferences' element value. РџСЂРѕС†РµРЅС‚ РѕС‚Р»РёС‡РёСЏ РѕС‚ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ С†РµРЅС‹.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'PercentageDifferences' element value. Процент отличия от первоначальной цены.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'PercentageDifferences' element value. РџСЂРѕС†РµРЅС‚ РѕС‚Р»РёС‡РёСЏ РѕС‚ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ С†РµРЅС‹.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param percentageDifferences
      */
@@ -120,7 +120,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'OtherReasonsDifferences' element value. Другие причины отличия
+     * Get the 'OtherReasonsDifferences' element value. Р”СЂСѓРіРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚Р»РёС‡РёСЏ
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'OtherReasonsDifferences' element value. Другие причины отличия
+     * Set the 'OtherReasonsDifferences' element value. Р”СЂСѓРіРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚Р»РёС‡РёСЏ
      * 
      * @param otherReasonsDifferences
      */
@@ -138,7 +138,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'CommentsOtherReasonsDifferences' element value. Другие причины отличия (указать подробности)
+     * Get the 'CommentsOtherReasonsDifferences' element value. Р”СЂСѓРіРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚Р»РёС‡РёСЏ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'CommentsOtherReasonsDifferences' element value. Другие причины отличия (указать подробности)
+     * Set the 'CommentsOtherReasonsDifferences' element value. Р”СЂСѓРіРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚Р»РёС‡РёСЏ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
      * 
      * @param commentsOtherReasonsDifferences
      */
@@ -157,7 +157,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'KeepCorrespondence' element value. Признак того, что у покупателя сохранилась переписка
+     * Get the 'KeepCorrespondence' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ СЃРѕС…СЂР°РЅРёР»Р°СЃСЊ РїРµСЂРµРїРёСЃРєР°
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'KeepCorrespondence' element value. Признак того, что у покупателя сохранилась переписка
+     * Set the 'KeepCorrespondence' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ СЃРѕС…СЂР°РЅРёР»Р°СЃСЊ РїРµСЂРµРїРёСЃРєР°
      * 
      * @param keepCorrespondence
      */
@@ -175,7 +175,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'GrantCorrespondence' element value. Признак возможности представления переписки  таможенным органам
+     * Get the 'GrantCorrespondence' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РїРµСЂРµРїРёСЃРєРё  С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅР°Рј
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'GrantCorrespondence' element value. Признак возможности представления переписки  таможенным органам
+     * Set the 'GrantCorrespondence' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РїРµСЂРµРїРёСЃРєРё  С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅР°Рј
      * 
      * @param grantCorrespondence
      */
@@ -193,7 +193,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the list of 'ReasonGrantCorrespondence' element items. Причина, по которой не может быть представлена переписка таможенным органам.
+     * Get the list of 'ReasonGrantCorrespondence' element items. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅР° РїРµСЂРµРїРёСЃРєР° С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅР°Рј.
      * 
      * @return list
      */
@@ -202,7 +202,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the list of 'ReasonGrantCorrespondence' element items. Причина, по которой не может быть представлена переписка таможенным органам.
+     * Set the list of 'ReasonGrantCorrespondence' element items. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅР° РїРµСЂРµРїРёСЃРєР° С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅР°Рј.
      * 
      * @param list
      */
@@ -211,7 +211,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'PubliclyOffer' element value. Признак того, что первоначальная цена предложения является публичной офертой (в терминах ст. 494 Гражданского кодекса Российской Федерации)
+     * Get the 'PubliclyOffer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅР°СЏ С†РµРЅР° РїСЂРµРґР»РѕР¶РµРЅРёСЏ СЏРІР»СЏРµС‚СЃСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚РѕР№ (РІ С‚РµСЂРјРёРЅР°С… СЃС‚. 494 Р“СЂР°Р¶РґР°РЅСЃРєРѕРіРѕ РєРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё)
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'PubliclyOffer' element value. Признак того, что первоначальная цена предложения является публичной офертой (в терминах ст. 494 Гражданского кодекса Российской Федерации)
+     * Set the 'PubliclyOffer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅР°СЏ С†РµРЅР° РїСЂРµРґР»РѕР¶РµРЅРёСЏ СЏРІР»СЏРµС‚СЃСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚РѕР№ (РІ С‚РµСЂРјРёРЅР°С… СЃС‚. 494 Р“СЂР°Р¶РґР°РЅСЃРєРѕРіРѕ РєРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё)
      * 
      * @param publiclyOffer
      */
@@ -229,7 +229,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'Discount' element value. Отличие вызвано скидкой
+     * Get the 'Discount' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ СЃРєРёРґРєРѕР№
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'Discount' element value. Отличие вызвано скидкой
+     * Set the 'Discount' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ СЃРєРёРґРєРѕР№
      * 
      * @param discount
      */
@@ -247,7 +247,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'NonStandardSituationMarket' element value. Отличие вызвано нестандартной ситуацией на рынке
+     * Get the 'NonStandardSituationMarket' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ СЃРёС‚СѓР°С†РёРµР№ РЅР° СЂС‹РЅРєРµ
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'NonStandardSituationMarket' element value. Отличие вызвано нестандартной ситуацией на рынке
+     * Set the 'NonStandardSituationMarket' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ СЃРёС‚СѓР°С†РёРµР№ РЅР° СЂС‹РЅРєРµ
      * 
      * @param nonStandardSituationMarket
      */
@@ -266,7 +266,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'PositionSeller' element value. Отличие вызвано положением Продавца
+     * Get the 'PositionSeller' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РїРѕР»РѕР¶РµРЅРёРµРј РџСЂРѕРґР°РІС†Р°
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'PositionSeller' element value. Отличие вызвано положением Продавца
+     * Set the 'PositionSeller' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РїРѕР»РѕР¶РµРЅРёРµРј РџСЂРѕРґР°РІС†Р°
      * 
      * @param positionSeller
      */
@@ -284,7 +284,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'SpecialRelationship' element value. Отличие вызвано особыми отношениями Продавца и покупателя
+     * Get the 'SpecialRelationship' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РѕСЃРѕР±С‹РјРё РѕС‚РЅРѕС€РµРЅРёСЏРјРё РџСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'SpecialRelationship' element value. Отличие вызвано особыми отношениями Продавца и покупателя
+     * Set the 'SpecialRelationship' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РѕСЃРѕР±С‹РјРё РѕС‚РЅРѕС€РµРЅРёСЏРјРё РџСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
      * 
      * @param specialRelationship
      */
@@ -303,7 +303,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'AlignmentPrices' element value. Согласование цены сделки.
+     * Get the 'AlignmentPrices' element value. РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ С†РµРЅС‹ СЃРґРµР»РєРё.
      * 
      * @return value
      */
@@ -312,7 +312,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'AlignmentPrices' element value. Согласование цены сделки.
+     * Set the 'AlignmentPrices' element value. РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ С†РµРЅС‹ СЃРґРµР»РєРё.
      * 
      * @param alignmentPrices
      */
@@ -321,7 +321,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'ExpressPubliclyOffer' element value. Каким образом была выражена публичная оферта Продавца.
+     * Get the 'ExpressPubliclyOffer' element value. РљР°РєРёРј РѕР±СЂР°Р·РѕРј Р±С‹Р»Р° РІС‹СЂР°Р¶РµРЅР° РїСѓР±Р»РёС‡РЅР°СЏ РѕС„РµСЂС‚Р° РџСЂРѕРґР°РІС†Р°.
      * 
      * @return value
      */
@@ -330,7 +330,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'ExpressPubliclyOffer' element value. Каким образом была выражена публичная оферта Продавца.
+     * Set the 'ExpressPubliclyOffer' element value. РљР°РєРёРј РѕР±СЂР°Р·РѕРј Р±С‹Р»Р° РІС‹СЂР°Р¶РµРЅР° РїСѓР±Р»РёС‡РЅР°СЏ РѕС„РµСЂС‚Р° РџСЂРѕРґР°РІС†Р°.
      * 
      * @param expressPubliclyOffer
      */
@@ -340,7 +340,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Get the 'ValueFormingPrice' element value. Известно ли покупателю, исходя из какой величины формировалась цена первоначального предложения.
+     * Get the 'ValueFormingPrice' element value. РР·РІРµСЃС‚РЅРѕ Р»Рё РїРѕРєСѓРїР°С‚РµР»СЋ, РёСЃС…РѕРґСЏ РёР· РєР°РєРѕР№ РІРµР»РёС‡РёРЅС‹ С„РѕСЂРјРёСЂРѕРІР°Р»Р°СЃСЊ С†РµРЅР° РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕРіРѕ РїСЂРµРґР»РѕР¶РµРЅРёСЏ.
      * 
      * @return value
      */
@@ -349,7 +349,7 @@ public class PricingTransactionsType
     }
 
     /** 
-     * Set the 'ValueFormingPrice' element value. Известно ли покупателю, исходя из какой величины формировалась цена первоначального предложения.
+     * Set the 'ValueFormingPrice' element value. РР·РІРµСЃС‚РЅРѕ Р»Рё РїРѕРєСѓРїР°С‚РµР»СЋ, РёСЃС…РѕРґСЏ РёР· РєР°РєРѕР№ РІРµР»РёС‡РёРЅС‹ С„РѕСЂРјРёСЂРѕРІР°Р»Р°СЃСЊ С†РµРЅР° РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕРіРѕ РїСЂРµРґР»РѕР¶РµРЅРёСЏ.
      * 
      * @param valueFormingPrice
      */

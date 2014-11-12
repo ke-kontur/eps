@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.DestinationWarehouseType;
 
 /** 
- * Место доставки товаров
+ * РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
  */
 public class DestinationType
 {
@@ -18,7 +18,7 @@ public class DestinationType
     private CustomsType destinationCustoms;
 
     /** 
-     * Get the 'DestinationRWStationCode' element value. Код ж/д станции назначения
+     * Get the 'DestinationRWStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'DestinationRWStationCode' element value. Код ж/д станции назначения
+     * Set the 'DestinationRWStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationRWStationCode
      */
@@ -36,7 +36,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'DestinationRWStationName' element value. Наименование железнодорожной станции назанчения
+     * Get the 'DestinationRWStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё РЅР°Р·Р°РЅС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'DestinationRWStationName' element value. Наименование железнодорожной станции назанчения
+     * Set the 'DestinationRWStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё РЅР°Р·Р°РЅС‡РµРЅРёСЏ
      * 
      * @param destinationRWStationName
      */
@@ -54,7 +54,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'DestinantionPlaceName' element value. Наименование места назначения
+     * Get the 'DestinantionPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'DestinantionPlaceName' element value. Наименование места назначения
+     * Set the 'DestinantionPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinantionPlaceName
      */
@@ -72,7 +72,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес места назначения
+     * Get the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес места назначения
+     * Set the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param address
      */
@@ -90,7 +90,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'DestinationWarehouse' element value. СВХ места назначения
+     * Get the 'DestinationWarehouse' element value. РЎР’РҐ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'DestinationWarehouse' element value. СВХ места назначения
+     * Set the 'DestinationWarehouse' element value. РЎР’РҐ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationWarehouse
      */
@@ -109,7 +109,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'DestinationCustoms' element value. Таможня назначения
+     * Get the 'DestinationCustoms' element value. РўР°РјРѕР¶РЅСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'DestinationCustoms' element value. Таможня назначения
+     * Set the 'DestinationCustoms' element value. РўР°РјРѕР¶РЅСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCustoms
      */

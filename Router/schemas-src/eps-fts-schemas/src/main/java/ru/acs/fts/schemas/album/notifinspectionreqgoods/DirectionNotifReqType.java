@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * При направлении уведомления/требования по почте или иным способом
+ * РџСЂРё РЅР°РїСЂР°РІР»РµРЅРёРё СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ РїРѕ РїРѕС‡С‚Рµ РёР»Рё РёРЅС‹Рј СЃРїРѕСЃРѕР±РѕРј
  */
 public class DirectionNotifReqType
 {
@@ -18,7 +18,7 @@ public class DirectionNotifReqType
     private CustomsPersonType customsPerson;
 
     /** 
-     * Get the 'MethodDirection' element value. Способ направления 
+     * Get the 'MethodDirection' element value. РЎРїРѕСЃРѕР± РЅР°РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Set the 'MethodDirection' element value. Способ направления 
+     * Set the 'MethodDirection' element value. РЎРїРѕСЃРѕР± РЅР°РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @param methodDirection
      */
@@ -36,7 +36,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Get the 'DateDirection' element value. Дата направления 
+     * Get the 'DateDirection' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Set the 'DateDirection' element value. Дата направления 
+     * Set the 'DateDirection' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @param dateDirection
      */
@@ -54,7 +54,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес 
+     * Get the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес 
+     * Set the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @param address
      */
@@ -72,7 +72,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Get the 'Person' element value. Лицо, принявшее уведомление
+     * Get the 'Person' element value. Р›РёС†Рѕ, РїСЂРёРЅСЏРІС€РµРµ СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Set the 'Person' element value. Лицо, принявшее уведомление
+     * Set the 'Person' element value. Р›РёС†Рѕ, РїСЂРёРЅСЏРІС€РµРµ СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param person
      */
@@ -90,7 +90,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо, направившее уведомление
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РЅР°РїСЂР°РІРёРІС€РµРµ СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DirectionNotifReqType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо, направившее уведомление
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РЅР°РїСЂР°РІРёРІС€РµРµ СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param customsPerson
      */

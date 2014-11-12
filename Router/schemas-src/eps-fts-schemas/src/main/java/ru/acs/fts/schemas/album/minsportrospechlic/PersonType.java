@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.minsportrospechlic;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о получателе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
  */
 public class PersonType extends OrganizationBaseType
 {
     private String personStatus;
 
     /** 
-     * Get the 'PersonStatus' element value. Статус получателя Ю/Ф (0 - юридическое лицо; 1 - физическое лицо)
+     * Get the 'PersonStatus' element value. РЎС‚Р°С‚СѓСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р®/Р¤ (0 - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ; 1 - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'PersonStatus' element value. Статус получателя Ю/Ф (0 - юридическое лицо; 1 - физическое лицо)
+     * Set the 'PersonStatus' element value. РЎС‚Р°С‚СѓСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р®/Р¤ (0 - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ; 1 - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ)
      * 
      * @param personStatus
      */

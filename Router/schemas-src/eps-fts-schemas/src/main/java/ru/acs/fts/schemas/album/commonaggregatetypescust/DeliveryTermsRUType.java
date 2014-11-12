@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Условие поставки товаров. Для России
+ * РЈСЃР»РѕРІРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р”Р»СЏ Р РѕСЃСЃРёРё
  */
 public class DeliveryTermsRUType
 {
@@ -10,7 +10,7 @@ public class DeliveryTermsRUType
     private String deliveryTermsStringCode;
 
     /** 
-     * Get the 'DeliveryPlace' element value. Описание / Название географического пункта
+     * Get the 'DeliveryPlace' element value. РћРїРёСЃР°РЅРёРµ / РќР°Р·РІР°РЅРёРµ РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕРіРѕ РїСѓРЅРєС‚Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DeliveryTermsRUType
     }
 
     /** 
-     * Set the 'DeliveryPlace' element value. Описание / Название географического пункта
+     * Set the 'DeliveryPlace' element value. РћРїРёСЃР°РЅРёРµ / РќР°Р·РІР°РЅРёРµ РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕРіРѕ РїСѓРЅРєС‚Р°
      * 
      * @param deliveryPlace
      */
@@ -28,7 +28,7 @@ public class DeliveryTermsRUType
     }
 
     /** 
-     * Get the 'DeliveryTermsStringCode' element value. Код условий поставки в соответствии с классификатором условий поставки
+     * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DeliveryTermsRUType
     }
 
     /** 
-     * Set the 'DeliveryTermsStringCode' element value. Код условий поставки в соответствии с классификатором условий поставки
+     * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
      * 
      * @param deliveryTermsStringCode
      */

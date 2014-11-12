@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADoutCUCustomsPaymentType;
 
 /** 
- * Таможенные платежи к уплате
+ * РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё Рє СѓРїР»Р°С‚Рµ
  */
 public class CustomsPaymentsPType
 {
     private List<ESADoutCUCustomsPaymentType> customsPaymentList = new ArrayList<ESADoutCUCustomsPaymentType>();
 
     /** 
-     * Get the list of 'CustomsPayment' element items. Таможенные платежи
+     * Get the list of 'CustomsPayment' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class CustomsPaymentsPType
     }
 
     /** 
-     * Set the list of 'CustomsPayment' element items. Таможенные платежи
+     * Set the list of 'CustomsPayment' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
      * 
      * @param list
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Оборудование (Тип РЭС, его комплектация)
+ * РћР±РѕСЂСѓРґРѕРІР°РЅРёРµ (РўРёРї Р Р­РЎ, РµРіРѕ РєРѕРјРїР»РµРєС‚Р°С†РёСЏ)
  */
 public class ResItemType
 {
@@ -18,7 +18,7 @@ public class ResItemType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the 'ResType' element value. Тип РЭС
+     * Get the 'ResType' element value. РўРёРї Р Р­РЎ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ResItemType
     }
 
     /** 
-     * Set the 'ResType' element value. Тип РЭС
+     * Set the 'ResType' element value. РўРёРї Р Р­РЎ
      * 
      * @param resType
      */
@@ -36,7 +36,7 @@ public class ResItemType
     }
 
     /** 
-     * Get the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ResItemType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param numeric
      */
@@ -54,7 +54,7 @@ public class ResItemType
     }
 
     /** 
-     * Get the 'Model' element value. Модель, платформа
+     * Get the 'Model' element value. РњРѕРґРµР»СЊ, РїР»Р°С‚С„РѕСЂРјР°
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ResItemType
     }
 
     /** 
-     * Set the 'Model' element value. Модель, платформа
+     * Set the 'Model' element value. РњРѕРґРµР»СЊ, РїР»Р°С‚С„РѕСЂРјР°
      * 
      * @param model
      */
@@ -72,7 +72,7 @@ public class ResItemType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. Производитель
+     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ResItemType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. Производитель
+     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
      * 
      * @param manufacturer
      */
@@ -90,7 +90,7 @@ public class ResItemType
     }
 
     /** 
-     * Get the list of 'Country' element items. Страна - производитель
+     * Get the list of 'Country' element items. РЎС‚СЂР°РЅР° - РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class ResItemType
     }
 
     /** 
-     * Set the list of 'Country' element items. Страна - производитель
+     * Set the list of 'Country' element items. РЎС‚СЂР°РЅР° - РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class ResItemType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ResItemType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */

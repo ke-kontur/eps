@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.freedoc;
 import org.joda.time.LocalDate;
 
 /** 
- * Заголовок документа
+ * Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocumentHeadType
 {
@@ -15,7 +15,7 @@ public class DocumentHeadType
     private String visibleFlag;
 
     /** 
-     * Get the 'DocumentName' element value. Наименование документа
+     * Get the 'DocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Set the 'DocumentName' element value. Наименование документа
+     * Set the 'DocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentName
      */
@@ -33,7 +33,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Дата документа
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата документа
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDate
      */
@@ -51,7 +51,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. Номер документа. В случае, если номера нет, указывается "Б/Н"
+     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°. Р’ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РЅРѕРјРµСЂР° РЅРµС‚, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ "Р‘/Рќ"
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Номер документа. В случае, если номера нет, указывается "Б/Н"
+     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°. Р’ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РЅРѕРјРµСЂР° РЅРµС‚, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ "Р‘/Рќ"
      * 
      * @param documentNumber
      */
@@ -69,7 +69,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование организации,  выдавшей документ
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё,  РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class DocumentHeadType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование организации,  выдавшей документ
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё,  РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param organizationName
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateresponse;
 
 /** 
- * Адрес
+ * РђРґСЂРµСЃ
  */
 public class AddressType
         extends
@@ -16,7 +16,7 @@ public class AddressType
     private AddressElementType urbanDistrict;
 
     /** 
-     * Get the 'KLADRCode' element value. Код адреса по КЛАДР
+     * Get the 'KLADRCode' element value. РљРѕРґ Р°РґСЂРµСЃР° РїРѕ РљР›РђР”Р 
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'KLADRCode' element value. Код адреса по КЛАДР
+     * Set the 'KLADRCode' element value. РљРѕРґ Р°РґСЂРµСЃР° РїРѕ РљР›РђР”Р 
      * 
      * @param KLADRCode
      */
@@ -34,7 +34,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'OKATO' element value. ОКАТО
+     * Get the 'OKATO' element value. РћРљРђРўРћ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'OKATO' element value. ОКАТО
+     * Set the 'OKATO' element value. РћРљРђРўРћ
      * 
      * @param OKATO
      */
@@ -52,7 +52,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'UnformalizedDescription' element value. Неформализованное описание
+     * Get the 'UnformalizedDescription' element value. РќРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'UnformalizedDescription' element value. Неформализованное описание
+     * Set the 'UnformalizedDescription' element value. РќРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @param unformalizedDescription
      */
@@ -70,7 +70,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'District' element value. Район
+     * Get the 'District' element value. Р Р°Р№РѕРЅ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'District' element value. Район
+     * Set the 'District' element value. Р Р°Р№РѕРЅ
      * 
      * @param district
      */
@@ -88,7 +88,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'RuralPlace' element value. Сельсовет
+     * Get the 'RuralPlace' element value. РЎРµР»СЊСЃРѕРІРµС‚
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'RuralPlace' element value. Сельсовет
+     * Set the 'RuralPlace' element value. РЎРµР»СЊСЃРѕРІРµС‚
      * 
      * @param ruralPlace
      */
@@ -106,7 +106,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'UrbanDistrict' element value. Городской район
+     * Get the 'UrbanDistrict' element value. Р“РѕСЂРѕРґСЃРєРѕР№ СЂР°Р№РѕРЅ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'UrbanDistrict' element value. Городской район
+     * Set the 'UrbanDistrict' element value. Р“РѕСЂРѕРґСЃРєРѕР№ СЂР°Р№РѕРЅ
      * 
      * @param urbanDistrict
      */

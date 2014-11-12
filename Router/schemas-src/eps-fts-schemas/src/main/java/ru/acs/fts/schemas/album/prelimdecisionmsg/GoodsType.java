@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.prelimdecisionmsg;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType extends GoodsBaseType
 {
@@ -15,7 +15,7 @@ public class GoodsType extends GoodsBaseType
     private String containerNumber;
 
     /** 
-     * Get the 'CustControlForm' element value. Форма таможенного контроля
+     * Get the 'CustControlForm' element value. Р¤РѕСЂРјР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CustControlForm' element value. Форма таможенного контроля
+     * Set the 'CustControlForm' element value. Р¤РѕСЂРјР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param custControlForm
      */
@@ -33,7 +33,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CustControlResult' element value. Результат таможенного контроля
+     * Get the 'CustControlResult' element value. Р РµР·СѓР»СЊС‚Р°С‚ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CustControlResult' element value. Результат таможенного контроля
+     * Set the 'CustControlResult' element value. Р РµР·СѓР»СЊС‚Р°С‚ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param custControlResult
      */
@@ -51,7 +51,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CustControlDecision' element value. Принятое решение
+     * Get the 'CustControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CustControlDecision' element value. Принятое решение
+     * Set the 'CustControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
      * 
      * @param custControlDecision
      */
@@ -69,7 +69,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'WagonNumber' element value. Номер вагона
+     * Get the 'WagonNumber' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'WagonNumber' element value. Номер вагона
+     * Set the 'WagonNumber' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @param wagonNumber
      */
@@ -87,7 +87,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'ContainerNumber' element value. Номер контейнера
+     * Get the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'ContainerNumber' element value. Номер контейнера
+     * Set the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerNumber
      */

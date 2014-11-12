@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonleaftypescust;
 
 /** 
- * Таможенный статус отчета
+ * РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃС‚Р°С‚СѓСЃ РѕС‚С‡РµС‚Р°
  */
 public enum CustomDocumentState {
     DS_EDITING("ds_Editing"), DS_REBUILDING("ds_Rebuilding"), DS_ON_INSPECT(

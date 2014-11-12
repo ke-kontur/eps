@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * Ограничение действия гарантии вне ЕС
+ * РћРіСЂР°РЅРёС‡РµРЅРёРµ РґРµР№СЃС‚РІРёСЏ РіР°СЂР°РЅС‚РёРё РІРЅРµ Р•РЎ
  */
 public class LimitationNonECType
 {
     private String notValid4Country;
 
     /** 
-     * Get the 'NotValid4Country' element value. Код страны, в которой действует ограничение.
+     * Get the 'NotValid4Country' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РІ РєРѕС‚РѕСЂРѕР№ РґРµР№СЃС‚РІСѓРµС‚ РѕРіСЂР°РЅРёС‡РµРЅРёРµ.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class LimitationNonECType
     }
 
     /** 
-     * Set the 'NotValid4Country' element value. Код страны, в которой действует ограничение.
+     * Set the 'NotValid4Country' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РІ РєРѕС‚РѕСЂРѕР№ РґРµР№СЃС‚РІСѓРµС‚ РѕРіСЂР°РЅРёС‡РµРЅРёРµ.
      * 
      * @param notValid4Country
      */

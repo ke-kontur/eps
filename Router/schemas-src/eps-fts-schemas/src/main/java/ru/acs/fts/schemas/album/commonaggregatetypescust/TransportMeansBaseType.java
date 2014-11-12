@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Базовый тип для описания транспортного средства в таможенных документах
+ * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
  */
 public class TransportMeansBaseType
 {
@@ -15,7 +15,7 @@ public class TransportMeansBaseType
     private String transportRegNumber;
 
     /** 
-     * Get the 'VIN' element value. Номер шасси (VIN)
+     * Get the 'VIN' element value. РќРѕРјРµСЂ С€Р°СЃСЃРё (VIN)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'VIN' element value. Номер шасси (VIN)
+     * Set the 'VIN' element value. РќРѕРјРµСЂ С€Р°СЃСЃРё (VIN)
      * 
      * @param VIN
      */
@@ -33,7 +33,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TransportKindCode' element value. Код типа транспортного средства
+     * Get the 'TransportKindCode' element value. РљРѕРґ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportKindCode' element value. Код типа транспортного средства
+     * Set the 'TransportKindCode' element value. РљРѕРґ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportKindCode
      */
@@ -51,7 +51,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TransportMarkCode' element value. Код марки транспортного средства
+     * Get the 'TransportMarkCode' element value. РљРѕРґ РјР°СЂРєРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportMarkCode' element value. Код марки транспортного средства
+     * Set the 'TransportMarkCode' element value. РљРѕРґ РјР°СЂРєРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportMarkCode
      */
@@ -69,7 +69,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TransportIdentifier' element value. Идентификатор. Номер транспортного средства, наименование судна, номер авиарейса, номер поезда, номер железнодорожного вагона (платформ, цистерн и т.п.)
+     * Get the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°, РЅРѕРјРµСЂ Р°РІРёР°СЂРµР№СЃР°, РЅРѕРјРµСЂ РїРѕРµР·РґР°, РЅРѕРјРµСЂ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРіРѕ РІР°РіРѕРЅР° (РїР»Р°С‚С„РѕСЂРј, С†РёСЃС‚РµСЂРЅ Рё С‚.Рї.)
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportIdentifier' element value. Идентификатор. Номер транспортного средства, наименование судна, номер авиарейса, номер поезда, номер железнодорожного вагона (платформ, цистерн и т.п.)
+     * Set the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°, РЅРѕРјРµСЂ Р°РІРёР°СЂРµР№СЃР°, РЅРѕРјРµСЂ РїРѕРµР·РґР°, РЅРѕРјРµСЂ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРіРѕ РІР°РіРѕРЅР° (РїР»Р°С‚С„РѕСЂРј, С†РёСЃС‚РµСЂРЅ Рё С‚.Рї.)
      * 
      * @param transportIdentifier
      */
@@ -87,7 +87,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TransportMeansNationalityCode' element value. Буквенный код страны принадлежности транспортного средства по классификатору стран мира
+     * Get the 'TransportMeansNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportMeansNationalityCode' element value. Буквенный код страны принадлежности транспортного средства по классификатору стран мира
+     * Set the 'TransportMeansNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param transportMeansNationalityCode
      */
@@ -106,7 +106,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Get the 'ActiveTransportIdentifier' element value. Идентификатор активного транспортного средства для прицепов, полуприцепов и др.
+     * Get the 'ActiveTransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚РёРІРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїСЂРёС†РµРїРѕРІ, РїРѕР»СѓРїСЂРёС†РµРїРѕРІ Рё РґСЂ.
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'ActiveTransportIdentifier' element value. Идентификатор активного транспортного средства для прицепов, полуприцепов и др.
+     * Set the 'ActiveTransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚РёРІРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїСЂРёС†РµРїРѕРІ, РїРѕР»СѓРїСЂРёС†РµРїРѕРІ Рё РґСЂ.
      * 
      * @param activeTransportIdentifier
      */
@@ -124,7 +124,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TransportRegNumber' element value. Номер свидетельства о регистрации транспортного средства для РБ
+     * Get the 'TransportRegNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ Р Р‘
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportRegNumber' element value. Номер свидетельства о регистрации транспортного средства для РБ
+     * Set the 'TransportRegNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ Р Р‘
      * 
      * @param transportRegNumber
      */

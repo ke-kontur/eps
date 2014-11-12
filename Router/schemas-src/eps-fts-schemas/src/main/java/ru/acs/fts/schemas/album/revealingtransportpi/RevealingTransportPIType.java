@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сообщение о прибытии/убытии транспортного средства
+ * РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class RevealingTransportPIType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class RevealingTransportPIType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ServiceInfo' element value. Служебная информация
+     * Get the 'ServiceInfo' element value. РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Set the 'ServiceInfo' element value. Служебная информация
+     * Set the 'ServiceInfo' element value. РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param serviceInfo
      */
@@ -34,7 +34,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarInformation' element value. Сведения об автомобильном транспорте
+     * Get the 'CarInformation' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarInformation' element value. Сведения об автомобильном транспорте
+     * Set the 'CarInformation' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
      * 
      * @param carInformation
      */
@@ -52,7 +52,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. Сведения о товарной партии
+     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. Сведения о товарной партии
+     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RevealingTransportPIType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

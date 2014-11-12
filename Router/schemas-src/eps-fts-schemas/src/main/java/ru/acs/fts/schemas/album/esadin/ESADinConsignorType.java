@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.ContactType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADOrganizationInType;
 
 /** 
- * ДТ и ТД. Внутренний формат. Сведения об отправителе товаров
+ * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
  */
 public class ESADinConsignorType extends ESADOrganizationInType
 {
@@ -18,7 +18,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     private ContactType contact;
 
     /** 
-     * Get the 'BowelsINN' element value. ИНН недропользователя.
+     * Get the 'BowelsINN' element value. РРќРќ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'BowelsINN' element value. ИНН недропользователя.
+     * Set the 'BowelsINN' element value. РРќРќ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @param bowelsINN
      */
@@ -36,7 +36,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'BowelsOKPO' element value. ОКПО недропользователя.
+     * Get the 'BowelsOKPO' element value. РћРљРџРћ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'BowelsOKPO' element value. ОКПО недропользователя.
+     * Set the 'BowelsOKPO' element value. РћРљРџРћ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @param bowelsOKPO
      */
@@ -54,7 +54,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ
+     * Get the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ
+     * Set the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў
      * 
      * @param contractorIndicator
      */
@@ -72,7 +72,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'OfficesExchangeCode' element value. Код учреждения обмена подачи международных почтовых отправлений 
+     * Get the 'OfficesExchangeCode' element value. РљРѕРґ СѓС‡СЂРµР¶РґРµРЅРёСЏ РѕР±РјРµРЅР° РїРѕРґР°С‡Рё РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕС‡С‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёР№ 
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'OfficesExchangeCode' element value. Код учреждения обмена подачи международных почтовых отправлений 
+     * Set the 'OfficesExchangeCode' element value. РљРѕРґ СѓС‡СЂРµР¶РґРµРЅРёСЏ РѕР±РјРµРЅР° РїРѕРґР°С‡Рё РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕС‡С‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёР№ 
      * 
      * @param officesExchangeCode
      */
@@ -90,7 +90,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @param branchDescription
      */
@@ -108,7 +108,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'Contact' element value. Контактная информация
+     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ESADinConsignorType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'Contact' element value. Контактная информация
+     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param contact
      */

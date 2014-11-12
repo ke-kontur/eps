@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание перевозимых запасных частей и припасов
+ * РћРїРёСЃР°РЅРёРµ РїРµСЂРµРІРѕР·РёРјС‹С… Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РїСЂРёРїР°СЃРѕРІ
  */
 public class SuppliesStocksDescriptionType
 {
@@ -14,7 +14,7 @@ public class SuppliesStocksDescriptionType
     private String measureUnitQualifier;
 
     /** 
-     * Get the list of 'Description' element items. Описание
+     * Get the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class SuppliesStocksDescriptionType
     }
 
     /** 
-     * Set the list of 'Description' element items. Описание
+     * Set the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class SuppliesStocksDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class SuppliesStocksDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */
@@ -50,7 +50,7 @@ public class SuppliesStocksDescriptionType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifier' element value. Наименование единицы измерения
+     * Get the 'MeasureUnitQualifier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class SuppliesStocksDescriptionType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifier' element value. Наименование единицы измерения
+     * Set the 'MeasureUnitQualifier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param measureUnitQualifier
      */

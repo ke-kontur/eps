@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.admin.int_dtrequest;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Запрос предварительной декларации на товары
+ * Р—Р°РїСЂРѕСЃ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
  */
 public class INTDTRequestType extends BaseDocType
 {
@@ -87,7 +87,7 @@ public class INTDTRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class INTDTRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

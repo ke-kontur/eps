@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Какие сведения (документы) и в какой срок необходимо скорректировать (представить) в таможенный орган
+ * РљР°РєРёРµ СЃРІРµРґРµРЅРёСЏ (РґРѕРєСѓРјРµРЅС‚С‹) Рё РІ РєР°РєРѕР№ СЃСЂРѕРє РЅРµРѕР±С…РѕРґРёРјРѕ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°С‚СЊ (РїСЂРµРґСЃС‚Р°РІРёС‚СЊ) РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
  */
 public class InstructionReqType
 {
@@ -15,7 +15,7 @@ public class InstructionReqType
     private List<String> instrDocumentList = new ArrayList<String>();
 
     /** 
-     * Get the 'DateLimit' element value. Срок, в который необходимо выполнить действия
+     * Get the 'DateLimit' element value. РЎСЂРѕРє, РІ РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РІС‹РїРѕР»РЅРёС‚СЊ РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InstructionReqType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок, в который необходимо выполнить действия
+     * Set the 'DateLimit' element value. РЎСЂРѕРє, РІ РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РІС‹РїРѕР»РЅРёС‚СЊ РґРµР№СЃС‚РІРёСЏ
      * 
      * @param dateLimit
      */
@@ -33,7 +33,7 @@ public class InstructionReqType
     }
 
     /** 
-     * Get the list of 'InstructionDescription' element items. Описание действий
+     * Get the list of 'InstructionDescription' element items. РћРїРёСЃР°РЅРёРµ РґРµР№СЃС‚РІРёР№
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class InstructionReqType
     }
 
     /** 
-     * Set the list of 'InstructionDescription' element items. Описание действий
+     * Set the list of 'InstructionDescription' element items. РћРїРёСЃР°РЅРёРµ РґРµР№СЃС‚РІРёР№
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class InstructionReqType
     }
 
     /** 
-     * Get the list of 'InstrDocument' element items. Документ,  в соответствии с которым требуется выполнение действий
+     * Get the list of 'InstrDocument' element items. Р”РѕРєСѓРјРµРЅС‚,  РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј С‚СЂРµР±СѓРµС‚СЃСЏ РІС‹РїРѕР»РЅРµРЅРёРµ РґРµР№СЃС‚РІРёР№
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class InstructionReqType
     }
 
     /** 
-     * Set the list of 'InstrDocument' element items. Документ,  в соответствии с которым требуется выполнение действий
+     * Set the list of 'InstrDocument' element items. Р”РѕРєСѓРјРµРЅС‚,  РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј С‚СЂРµР±СѓРµС‚СЃСЏ РІС‹РїРѕР»РЅРµРЅРёРµ РґРµР№СЃС‚РІРёР№
      * 
      * @param list
      */

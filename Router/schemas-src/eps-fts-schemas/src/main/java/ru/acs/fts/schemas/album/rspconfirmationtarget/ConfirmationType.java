@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.rspconfirmationtarget;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Подтверждение
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
  */
 public class ConfirmationType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class ConfirmationType extends DocumentBaseType
     private String lastChangeDate;
 
     /** 
-     * Get the 'Status' element value. Текущий статус подтверждения: 1 - Действующее, 2 - Приостановленное, 3 - Аннулированное, 4 - Находится на оформлении
+     * Get the 'Status' element value. РўРµРєСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РµРµ, 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРµ, 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅРѕРµ, 4 - РќР°С…РѕРґРёС‚СЃСЏ РЅР° РѕС„РѕСЂРјР»РµРЅРёРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Status' element value. Текущий статус подтверждения: 1 - Действующее, 2 - Приостановленное, 3 - Аннулированное, 4 - Находится на оформлении
+     * Set the 'Status' element value. РўРµРєСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РµРµ, 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРµ, 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅРѕРµ, 4 - РќР°С…РѕРґРёС‚СЃСЏ РЅР° РѕС„РѕСЂРјР»РµРЅРёРё
      * 
      * @param status
      */
@@ -30,7 +30,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LastChangeDate' element value. Информация о дате и времени последнего изменения
+     * Get the 'LastChangeDate' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ConfirmationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LastChangeDate' element value. Информация о дате и времени последнего изменения
+     * Set the 'LastChangeDate' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @param lastChangeDate
      */

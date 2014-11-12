@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Таблица 1. Отчет о товарах, ввезенных в соответствии с таможенным режимом СТЗ
+ * РўР°Р±Р»РёС†Р° 1. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РІРІРµР·РµРЅРЅС‹С… РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј РЎРўР—
  */
 public class Table1Type
 {
     private List<Table1GoodsType> table1GoodList = new ArrayList<Table1GoodsType>();
 
     /** 
-     * Get the list of 'Table1Goods' element items. Таблица 1. Товар, ввезённый в соответствии с таможенным режимом ОЭЗ
+     * Get the list of 'Table1Goods' element items. РўР°Р±Р»РёС†Р° 1. РўРѕРІР°СЂ, РІРІРµР·С‘РЅРЅС‹Р№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј РћР­Р—
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class Table1Type
     }
 
     /** 
-     * Set the list of 'Table1Goods' element items. Таблица 1. Товар, ввезённый в соответствии с таможенным режимом ОЭЗ
+     * Set the list of 'Table1Goods' element items. РўР°Р±Р»РёС†Р° 1. РўРѕРІР°СЂ, РІРІРµР·С‘РЅРЅС‹Р№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј РћР­Р—
      * 
      * @param list
      */

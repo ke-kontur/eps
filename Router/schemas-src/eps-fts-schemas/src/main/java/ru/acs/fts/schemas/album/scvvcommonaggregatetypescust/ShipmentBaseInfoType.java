@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.scvvcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Информация о товарной партии
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class ShipmentBaseInfoType
 {
@@ -12,7 +12,7 @@ public class ShipmentBaseInfoType
     private GTDIDType DTID;
 
     /** 
-     * Get the 'CustomsNumber' element value. Таможенный номер накладной
+     * Get the 'CustomsNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ShipmentBaseInfoType
     }
 
     /** 
-     * Set the 'CustomsNumber' element value. Таможенный номер накладной
+     * Set the 'CustomsNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param customsNumber
      */
@@ -30,7 +30,7 @@ public class ShipmentBaseInfoType
     }
 
     /** 
-     * Get the 'DTID' element value. Регистрационный номер декларации
+     * Get the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ShipmentBaseInfoType
     }
 
     /** 
-     * Set the 'DTID' element value. Регистрационный номер декларации
+     * Set the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param DTID
      */

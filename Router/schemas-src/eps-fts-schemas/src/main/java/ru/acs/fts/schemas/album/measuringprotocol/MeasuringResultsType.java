@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.measuringprotocol;
 
 /** 
- * Итоговые значения измерений
+ * РС‚РѕРіРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
  */
 public class MeasuringResultsType
 {
@@ -12,7 +12,7 @@ public class MeasuringResultsType
     private String resultMeasureValue;
 
     /** 
-     * Get the 'BarkSign' element value. Признак измерений лесоматериалов с корой
+     * Get the 'BarkSign' element value. РџСЂРёР·РЅР°Рє РёР·РјРµСЂРµРЅРёР№ Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ СЃ РєРѕСЂРѕР№
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Set the 'BarkSign' element value. Признак измерений лесоматериалов с корой
+     * Set the 'BarkSign' element value. РџСЂРёР·РЅР°Рє РёР·РјРµСЂРµРЅРёР№ Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ СЃ РєРѕСЂРѕР№
      * 
      * @param barkSign
      */
@@ -30,7 +30,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Get the 'MeasureValue' element value. Сумма объемов, куб. м
+     * Get the 'MeasureValue' element value. РЎСѓРјРјР° РѕР±СЉРµРјРѕРІ, РєСѓР±. Рј
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Set the 'MeasureValue' element value. Сумма объемов, куб. м
+     * Set the 'MeasureValue' element value. РЎСѓРјРјР° РѕР±СЉРµРјРѕРІ, РєСѓР±. Рј
      * 
      * @param measureValue
      */
@@ -48,7 +48,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Get the 'AbsoluteError' element value. Абсолютная погрешность, куб. м
+     * Get the 'AbsoluteError' element value. РђР±СЃРѕР»СЋС‚РЅР°СЏ РїРѕРіСЂРµС€РЅРѕСЃС‚СЊ, РєСѓР±. Рј
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Set the 'AbsoluteError' element value. Абсолютная погрешность, куб. м
+     * Set the 'AbsoluteError' element value. РђР±СЃРѕР»СЋС‚РЅР°СЏ РїРѕРіСЂРµС€РЅРѕСЃС‚СЊ, РєСѓР±. Рј
      * 
      * @param absoluteError
      */
@@ -66,7 +66,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Get the 'ResultMeasureValue' element value. Результат измерения с учетом погрешности
+     * Get the 'ResultMeasureValue' element value. Р РµР·СѓР»СЊС‚Р°С‚ РёР·РјРµСЂРµРЅРёСЏ СЃ СѓС‡РµС‚РѕРј РїРѕРіСЂРµС€РЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class MeasuringResultsType
     }
 
     /** 
-     * Set the 'ResultMeasureValue' element value. Результат измерения с учетом погрешности
+     * Set the 'ResultMeasureValue' element value. Р РµР·СѓР»СЊС‚Р°С‚ РёР·РјРµСЂРµРЅРёСЏ СЃ СѓС‡РµС‚РѕРј РїРѕРіСЂРµС€РЅРѕСЃС‚Рё
      * 
      * @param resultMeasureValue
      */

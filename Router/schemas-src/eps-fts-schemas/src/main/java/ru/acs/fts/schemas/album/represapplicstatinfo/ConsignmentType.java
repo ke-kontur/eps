@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения о товарах, ранее поступивших получателю
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РїРѕР»СѓС‡Р°С‚РµР»СЋ
  */
 public class ConsignmentType
 {
@@ -20,7 +20,7 @@ public class ConsignmentType
     private List<WayBillType> wayBillList = new ArrayList<WayBillType>();
 
     /** 
-     * Get the 'OverWeightSign' element value. Признак наличия превышения по весу для данной посылки
+     * Get the 'OverWeightSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРІС‹С€РµРЅРёСЏ РїРѕ РІРµСЃСѓ РґР»СЏ РґР°РЅРЅРѕР№ РїРѕСЃС‹Р»РєРё
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'OverWeightSign' element value. Признак наличия превышения по весу для данной посылки
+     * Set the 'OverWeightSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРІС‹С€РµРЅРёСЏ РїРѕ РІРµСЃСѓ РґР»СЏ РґР°РЅРЅРѕР№ РїРѕСЃС‹Р»РєРё
      * 
      * @param overWeightSign
      */
@@ -38,7 +38,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'OverCostSign' element value. Признак наличия превышения по стоимости для данной посылки
+     * Get the 'OverCostSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРІС‹С€РµРЅРёСЏ РїРѕ СЃС‚РѕРёРјРѕСЃС‚Рё РґР»СЏ РґР°РЅРЅРѕР№ РїРѕСЃС‹Р»РєРё
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'OverCostSign' element value. Признак наличия превышения по стоимости для данной посылки
+     * Set the 'OverCostSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРІС‹С€РµРЅРёСЏ РїРѕ СЃС‚РѕРёРјРѕСЃС‚Рё РґР»СЏ РґР°РЅРЅРѕР№ РїРѕСЃС‹Р»РєРё
      * 
      * @param overCostSign
      */
@@ -56,7 +56,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'PreviousGoodsCost' element value. Стоимость товаров за календарный месяц, ранее поступивших в адрес получателя, евро
+     * Get the 'PreviousGoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ Р·Р° РєР°Р»РµРЅРґР°СЂРЅС‹Р№ РјРµСЃСЏС†, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РІ Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РµРІСЂРѕ
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'PreviousGoodsCost' element value. Стоимость товаров за календарный месяц, ранее поступивших в адрес получателя, евро
+     * Set the 'PreviousGoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ Р·Р° РєР°Р»РµРЅРґР°СЂРЅС‹Р№ РјРµСЃСЏС†, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РІ Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РµРІСЂРѕ
      * 
      * @param previousGoodsCost
      */
@@ -74,7 +74,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'PreviousGoodsGrossWeight' element value. Вес товаров, брутто, за календарный месяц, ранее поступивших в адрес получателя, кг
+     * Get the 'PreviousGoodsGrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, Р±СЂСѓС‚С‚Рѕ, Р·Р° РєР°Р»РµРЅРґР°СЂРЅС‹Р№ РјРµСЃСЏС†, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РІ Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РєРі
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'PreviousGoodsGrossWeight' element value. Вес товаров, брутто, за календарный месяц, ранее поступивших в адрес получателя, кг
+     * Set the 'PreviousGoodsGrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, Р±СЂСѓС‚С‚Рѕ, Р·Р° РєР°Р»РµРЅРґР°СЂРЅС‹Р№ РјРµСЃСЏС†, СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… РІ Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РєРі
      * 
      * @param previousGoodsGrossWeight
      */
@@ -92,7 +92,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsFrequency' element value. Частота перемещения товаров в адрес получателя
+     * Get the 'GoodsFrequency' element value. Р§Р°СЃС‚РѕС‚Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsFrequency' element value. Частота перемещения товаров в адрес получателя
+     * Set the 'GoodsFrequency' element value. Р§Р°СЃС‚РѕС‚Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param goodsFrequency
      */
@@ -110,7 +110,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignee' element value. Получатель
+     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignee' element value. Получатель
+     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -128,7 +128,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Перечень ранее поставленных получателю товаров
+     * Get the list of 'Goods' element items. РџРµСЂРµС‡РµРЅСЊ СЂР°РЅРµРµ РїРѕСЃС‚Р°РІР»РµРЅРЅС‹С… РїРѕР»СѓС‡Р°С‚РµР»СЋ С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Перечень ранее поставленных получателю товаров
+     * Set the list of 'Goods' element items. РџРµСЂРµС‡РµРЅСЊ СЂР°РЅРµРµ РїРѕСЃС‚Р°РІР»РµРЅРЅС‹С… РїРѕР»СѓС‡Р°С‚РµР»СЋ С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'WayBill' element items. Сведения о накладной
+     * Get the list of 'WayBill' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return list
      */
@@ -155,7 +155,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'WayBill' element items. Сведения о накладной
+     * Set the list of 'WayBill' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param list
      */

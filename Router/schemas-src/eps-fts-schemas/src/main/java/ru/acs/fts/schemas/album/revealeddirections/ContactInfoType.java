@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.revealeddirections;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Информация о владельце оперативной ориентировки
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
  */
 public class ContactInfoType extends PersonBaseType
 {
@@ -12,7 +12,7 @@ public class ContactInfoType extends PersonBaseType
     private String contactDepartament;
 
     /** 
-     * Get the 'ContactPhone' element value. Контактный телефон пользователя, разработавшего оперативную ориентировку
+     * Get the 'ContactPhone' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№ С‚РµР»РµС„РѕРЅ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РѕРїРµСЂР°С‚РёРІРЅСѓСЋ РѕСЂРёРµРЅС‚РёСЂРѕРІРєСѓ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ContactInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'ContactPhone' element value. Контактный телефон пользователя, разработавшего оперативную ориентировку
+     * Set the 'ContactPhone' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№ С‚РµР»РµС„РѕРЅ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РѕРїРµСЂР°С‚РёРІРЅСѓСЋ РѕСЂРёРµРЅС‚РёСЂРѕРІРєСѓ
      * 
      * @param contactPhone
      */
@@ -30,7 +30,7 @@ public class ContactInfoType extends PersonBaseType
     }
 
     /** 
-     * Get the 'ContactDepartament' element value. Наименование отдела пользователя, разработавшего оперативную ориентировку
+     * Get the 'ContactDepartament' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС‚РґРµР»Р° РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РѕРїРµСЂР°С‚РёРІРЅСѓСЋ РѕСЂРёРµРЅС‚РёСЂРѕРІРєСѓ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ContactInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'ContactDepartament' element value. Наименование отдела пользователя, разработавшего оперативную ориентировку
+     * Set the 'ContactDepartament' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС‚РґРµР»Р° РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РѕРїРµСЂР°С‚РёРІРЅСѓСЋ РѕСЂРёРµРЅС‚РёСЂРѕРІРєСѓ
      * 
      * @param contactDepartament
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения о товарной партии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class CUESADGoodsShipmentType
 {
@@ -16,7 +16,7 @@ public class CUESADGoodsShipmentType
     private String custCostCurrencyCode;
 
     /** 
-     * Get the 'OriginCountryName' element value. Страна происхождения товара. Краткое название страны в соответствии с классификатором стран мира / РАЗНЫЕ/ НЕИЗВЕСТНА/ ЕВРОСОЮЗ
+     * Get the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР° / Р РђР—РќР«Р•/ РќР•РР—Р’Р•РЎРўРќРђ/ Р•Р’Р РћРЎРћР®Р—
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Страна происхождения товара. Краткое название страны в соответствии с классификатором стран мира / РАЗНЫЕ/ НЕИЗВЕСТНА/ ЕВРОСОЮЗ
+     * Set the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР° / Р РђР—РќР«Р•/ РќР•РР—Р’Р•РЎРўРќРђ/ Р•Р’Р РћРЎРћР®Р—
      * 
      * @param originCountryName
      */
@@ -34,7 +34,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'SpecificationNumber' element value. Общее количество представленных спецификаций
+     * Get the 'SpecificationNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'SpecificationNumber' element value. Общее количество представленных спецификаций
+     * Set the 'SpecificationNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @param specificationNumber
      */
@@ -52,7 +52,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'SpecificationListNumber' element value. Общее количество листов представленных спецификаций
+     * Get the 'SpecificationListNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'SpecificationListNumber' element value. Общее количество листов представленных спецификаций
+     * Set the 'SpecificationListNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @param specificationListNumber
      */
@@ -70,7 +70,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. Всего наименований товаров
+     * Get the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. Всего наименований товаров
+     * Set the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @param totalGoodsNumber
      */
@@ -88,7 +88,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalPackageNumber' element value. Общее количество грузовых мест
+     * Get the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalPackageNumber' element value. Общее количество грузовых мест
+     * Set the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param totalPackageNumber
      */
@@ -106,7 +106,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalSheetNumber' element value. Количество листов
+     * Get the 'TotalSheetNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalSheetNumber' element value. Количество листов
+     * Set the 'TotalSheetNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ
      * 
      * @param totalSheetNumber
      */
@@ -124,7 +124,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalCustCost' element value. Сведения о стоимости/общая таможенная стоимость
+     * Get the 'TotalCustCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalCustCost' element value. Сведения о стоимости/общая таможенная стоимость
+     * Set the 'TotalCustCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param totalCustCost
      */
@@ -142,7 +142,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'CustCostCurrencyCode' element value. Буквенный код валюты таможенной стоимости в соответствии с классификатором валют
+     * Get the 'CustCostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class CUESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'CustCostCurrencyCode' element value. Буквенный код валюты таможенной стоимости в соответствии с классификатором валют
+     * Set the 'CustCostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
      * 
      * @param custCostCurrencyCode
      */

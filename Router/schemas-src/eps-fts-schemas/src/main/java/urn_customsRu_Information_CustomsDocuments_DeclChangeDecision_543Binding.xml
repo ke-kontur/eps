@@ -1,0 +1,53 @@
+<binding xmlns:dcd="urn:customs.ru:Information:CustomsDocuments:DeclChangeDecision:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DeclChangeDecision:5.4.3" default="elements" prefix="dcd"/>
+  <mapping abstract="true" type-name="dcd:DeclChangeDecisionType" class="ru.acs.fts.schemas.album.declchangedecision.DeclChangeDecisionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" format="LocalDate.default"/>
+    <value style="element" name="Paragraph" get-method="getParagraph" set-method="setParagraph" usage="optional"/>
+    <value style="element" name="Subparagraph" get-method="getSubparagraph" set-method="setSubparagraph" usage="optional"/>
+    <collection get-method="getDecisionFoundationList" set-method="setDecisionFoundationList" create-type="java.util.ArrayList">
+      <value style="element" name="DecisionFoundation" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" format="LocalDate.default"/>
+    <value style="element" name="ReleaseSign" get-method="getReleaseSign" set-method="setReleaseSign"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <structure map-as="dcd:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="dcd:CustomsType" get-method="getKDTCustoms" set-method="setKDTCustoms" usage="optional" name="KDTCustoms"/>
+    <collection get-method="getChangesDescriptionList" set-method="setChangesDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="dcd:ChangesDescriptionType" name="ChangesDescription"/>
+    </collection>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="dcd:SignatureInfoType" get-method="getSendInfo" set-method="setSendInfo" usage="optional" name="SendInfo"/>
+    <structure map-as="dcd:SignatureInfoType" get-method="getReceiveInfo" set-method="setReceiveInfo" usage="optional" name="ReceiveInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.declchangedecision.DeclChangeDecisionType" name="DeclChangeDecision">
+    <structure map-as="dcd:DeclChangeDecisionType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcd:ChangeDetailsType" class="ru.acs.fts.schemas.album.declchangedecision.ChangeDetailsType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <collection get-method="getPreviousDataList" set-method="setPreviousDataList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PreviousData" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCorrectDataList" set-method="setCorrectDataList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CorrectData" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="dcd:ChangesDescriptionType" class="ru.acs.fts.schemas.album.declchangedecision.ChangesDescriptionType">
+    <structure map-as="cat_ru:GTDIDType" get-method="getDeclRegNumber" set-method="setDeclRegNumber" name="DeclRegNumber"/>
+    <collection get-method="getChangeDetailList" set-method="setChangeDetailList" create-type="java.util.ArrayList">
+      <structure map-as="dcd:ChangeDetailsType" name="ChangeDetails"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="dcd:CustomsType" class="ru.acs.fts.schemas.album.declchangedecision.CustomsType">
+    <structure map-as="cat_ru:CUCustomsType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcd:SignatureInfoType" class="ru.acs.fts.schemas.album.declchangedecision.SignatureInfoType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:AddressType" get-method="getSendAddress" set-method="setSendAddress" usage="optional" name="SendAddress"/>
+  </mapping>
+</binding>

@@ -24,6 +24,7 @@ public class UniversalMessageDispatcher implements MessageDispatcher
 	protected MessagingGateway _messagingGateway;
 	protected JobBatchContextFactory _jobBatchContextFactory;
 	protected String _fatalErrorQueue;
+    private int _maxRetryCount=5;
 
 	// @formatter:off
 	@Required
@@ -51,12 +52,30 @@ public class UniversalMessageDispatcher implements MessageDispatcher
 	public void dispatch( Message message ) throws Exception
 	{
 		log.info( String.format( "Диспетчер начал обработку сообщения: %s", message.getClass( ).getSimpleName( ) ) );
-		
+        boolean shouldDispatch = true;
+
+        if ( message.propertyExists( "JMSXDeliveryCount" ) )
+        {
+            int deliveryCount = message.getIntProperty( "JMSXDeliveryCount" );
+            log.info( String.format( "Попытка обработки №%d", deliveryCount ) );
+
+            if ( deliveryCount > _maxRetryCount )
+            {
+                log.info( "Превышен лимит повторов обработки сообщения. Сообщение будет перенаправлено в очередь ошибочных" );
+
+                shouldDispatch = false;
+                if(deliveryCount > _maxRetryCount+2){
+                    return;
+                }
+            }
+        }
+
 		byte[ ] messageData = null;
 		
 		try
 		{
 			messageData = JMSMessageConverter.toBytes( message );
+
 		}
 		catch ( JMSMessageConverterException exc )
 		{
@@ -67,8 +86,9 @@ public class UniversalMessageDispatcher implements MessageDispatcher
 				
 			discard( messageData, _errorRecvQueue );			
 		}
+
 		
-		if ( null == messageData || messageData.length < 20 )
+		if ( null == messageData || messageData.length < 20 || !shouldDispatch)
 		{
 			log.error( "Ошибка при получении сообщения (неверное сообщение). Не удалось прочитать тело сообщения" );
 			if ( messageData != null )

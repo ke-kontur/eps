@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDID6Type;
 
 /** 
- * Протокол завершения контроля  АТД
+ * РџСЂРѕС‚РѕРєРѕР» Р·Р°РІРµСЂС€РµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ  РђРўР”
  */
 public class ATDCloseControlType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class ATDCloseControlType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CheckDate' element value. Дата проведения проверки
+     * Get the 'CheckDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckDate' element value. Дата проведения проверки
+     * Set the 'CheckDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё
      * 
      * @param checkDate
      */
@@ -46,7 +46,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'CheckTime' element value. Время проведения проверки
+     * Get the 'CheckTime' element value. Р’СЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckTime' element value. Время проведения проверки
+     * Set the 'CheckTime' element value. Р’СЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё
      * 
      * @param checkTime
      */
@@ -64,7 +64,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndCheckDate' element value. Дата, на которую выполнена проверка. Указывается, если отлична от даты составления документа или даты проверки
+     * Get the 'EndCheckDate' element value. Р”Р°С‚Р°, РЅР° РєРѕС‚РѕСЂСѓСЋ РІС‹РїРѕР»РЅРµРЅР° РїСЂРѕРІРµСЂРєР°. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РѕС‚Р»РёС‡РЅР° РѕС‚ РґР°С‚С‹ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РёР»Рё РґР°С‚С‹ РїСЂРѕРІРµСЂРєРё
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndCheckDate' element value. Дата, на которую выполнена проверка. Указывается, если отлична от даты составления документа или даты проверки
+     * Set the 'EndCheckDate' element value. Р”Р°С‚Р°, РЅР° РєРѕС‚РѕСЂСѓСЋ РІС‹РїРѕР»РЅРµРЅР° РїСЂРѕРІРµСЂРєР°. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РѕС‚Р»РёС‡РЅР° РѕС‚ РґР°С‚С‹ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РёР»Рё РґР°С‚С‹ РїСЂРѕРІРµСЂРєРё
      * 
      * @param endCheckDate
      */
@@ -82,7 +82,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DBVersion' element value. Версия структуры внутреннего формата электронной копии АТД 
+     * Get the 'DBVersion' element value. Р’РµСЂСЃРёСЏ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё РђРўР” 
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DBVersion' element value. Версия структуры внутреннего формата электронной копии АТД 
+     * Set the 'DBVersion' element value. Р’РµСЂСЃРёСЏ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё РђРўР” 
      * 
      * @param DBVersion
      */
@@ -100,7 +100,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ErrorCount' element value. Общее количество ошибок ПЗК
+     * Get the 'ErrorCount' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС€РёР±РѕРє РџР—Рљ
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ErrorCount' element value. Общее количество ошибок ПЗК
+     * Set the 'ErrorCount' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС€РёР±РѕРє РџР—Рљ
      * 
      * @param errorCount
      */
@@ -118,7 +118,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReasonCode' element value. Код причины повторной передачи электронной копии ДТ после ее возврата с вышестоящего уровня системы
+     * Get the 'ReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕРІС‚РѕСЂРЅРѕР№ РїРµСЂРµРґР°С‡Рё СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў РїРѕСЃР»Рµ РµРµ РІРѕР·РІСЂР°С‚Р° СЃ РІС‹С€РµСЃС‚РѕСЏС‰РµРіРѕ СѓСЂРѕРІРЅСЏ СЃРёСЃС‚РµРјС‹
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReasonCode' element value. Код причины повторной передачи электронной копии ДТ после ее возврата с вышестоящего уровня системы
+     * Set the 'ReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕРІС‚РѕСЂРЅРѕР№ РїРµСЂРµРґР°С‡Рё СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў РїРѕСЃР»Рµ РµРµ РІРѕР·РІСЂР°С‚Р° СЃ РІС‹С€РµСЃС‚РѕСЏС‰РµРіРѕ СѓСЂРѕРІРЅСЏ СЃРёСЃС‚РµРјС‹
      * 
      * @param reasonCode
      */
@@ -136,7 +136,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Explanation' element value. Объяснение инспектора о несвоевременности или неполноте представления информации по результатам ФЛК
+     * Get the 'Explanation' element value. РћР±СЉСЏСЃРЅРµРЅРёРµ РёРЅСЃРїРµРєС‚РѕСЂР° Рѕ РЅРµСЃРІРѕРµРІСЂРµРјРµРЅРЅРѕСЃС‚Рё РёР»Рё РЅРµРїРѕР»РЅРѕС‚Рµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј Р¤Р›Рљ
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Explanation' element value. Объяснение инспектора о несвоевременности или неполноте представления информации по результатам ФЛК
+     * Set the 'Explanation' element value. РћР±СЉСЏСЃРЅРµРЅРёРµ РёРЅСЃРїРµРєС‚РѕСЂР° Рѕ РЅРµСЃРІРѕРµРІСЂРµРјРµРЅРЅРѕСЃС‚Рё РёР»Рё РЅРµРїРѕР»РЅРѕС‚Рµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј Р¤Р›Рљ
      * 
      * @param explanation
      */
@@ -154,7 +154,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExplanationDate' element value. Дата внесения объяснения инспектором о несвоевременности или неполноте представления информации по результатам ФЛК
+     * Get the 'ExplanationDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ РѕР±СЉСЏСЃРЅРµРЅРёСЏ РёРЅСЃРїРµРєС‚РѕСЂРѕРј Рѕ РЅРµСЃРІРѕРµРІСЂРµРјРµРЅРЅРѕСЃС‚Рё РёР»Рё РЅРµРїРѕР»РЅРѕС‚Рµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј Р¤Р›Рљ
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExplanationDate' element value. Дата внесения объяснения инспектором о несвоевременности или неполноте представления информации по результатам ФЛК
+     * Set the 'ExplanationDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ РѕР±СЉСЏСЃРЅРµРЅРёСЏ РёРЅСЃРїРµРєС‚РѕСЂРѕРј Рѕ РЅРµСЃРІРѕРµРІСЂРµРјРµРЅРЅРѕСЃС‚Рё РёР»Рё РЅРµРїРѕР»РЅРѕС‚Рµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј Р¤Р›Рљ
      * 
      * @param explanationDate
      */
@@ -172,7 +172,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ATDGlobalID' element value. Уникальный идентификатор акта таможенного досмотра
+     * Get the 'ATDGlobalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ATDGlobalID' element value. Уникальный идентификатор акта таможенного досмотра
+     * Set the 'ATDGlobalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param ATDGlobalID
      */
@@ -190,7 +190,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Document' element value. Проверенный электронный таможенный документ
+     * Get the 'Document' element value. РџСЂРѕРІРµСЂРµРЅРЅС‹Р№ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Document' element value. Проверенный электронный таможенный документ
+     * Set the 'Document' element value. РџСЂРѕРІРµСЂРµРЅРЅС‹Р№ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param document
      */
@@ -208,7 +208,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'PSCheck' element value. программное средство, выполнившее проверку
+     * Get the 'PSCheck' element value. РїСЂРѕРіСЂР°РјРјРЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ, РІС‹РїРѕР»РЅРёРІС€РµРµ РїСЂРѕРІРµСЂРєСѓ
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'PSCheck' element value. программное средство, выполнившее проверку
+     * Set the 'PSCheck' element value. РїСЂРѕРіСЂР°РјРјРЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ, РІС‹РїРѕР»РЅРёРІС€РµРµ РїСЂРѕРІРµСЂРєСѓ
      * 
      * @param PSCheck
      */
@@ -226,7 +226,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PZKErrors' element items. Ошибки
+     * Get the list of 'PZKErrors' element items. РћС€РёР±РєРё
      * 
      * @return list
      */
@@ -235,7 +235,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PZKErrors' element items. Ошибки
+     * Set the list of 'PZKErrors' element items. РћС€РёР±РєРё
      * 
      * @param list
      */
@@ -244,7 +244,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ATDRegNumder' element value. Регистрационный номер АТД
+     * Get the 'ATDRegNumder' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РђРўР”
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ATDRegNumder' element value. Регистрационный номер АТД
+     * Set the 'ATDRegNumder' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РђРўР”
      * 
      * @param ATDRegNumder
      */
@@ -262,7 +262,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class ATDCloseControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

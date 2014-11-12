@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomInspec
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHDocumentRegisterNumberType;
 
 /** 
- * Уведомление о полной выдаче товаров по отчетности ДО1
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїРѕР»РЅРѕР№ РІС‹РґР°С‡Рµ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚С‡РµС‚РЅРѕСЃС‚Рё Р”Рћ1
  */
 public class DO1CloseReqType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class DO1CloseReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'FormationMSGDate' element value. Дата формирования сообщения
+     * Get the 'FormationMSGDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormationMSGDate' element value. Дата формирования сообщения
+     * Set the 'FormationMSGDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @param formationMSGDate
      */
@@ -36,7 +36,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormationMSGTime' element value. Время формирования сообщения
+     * Get the 'FormationMSGTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormationMSGTime' element value. Время формирования сообщения
+     * Set the 'FormationMSGTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @param formationMSGTime
      */
@@ -54,7 +54,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomInspector' element value. Должностного лица таможенного органа
+     * Get the 'CustomInspector' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomInspector' element value. Должностного лица таможенного органа
+     * Set the 'CustomInspector' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customInspector
      */
@@ -72,7 +72,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDO1' element value. Номер отчетности ДО-1
+     * Get the 'RegNumberDO1' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚РЅРѕСЃС‚Рё Р”Рћ-1
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDO1' element value. Номер отчетности ДО-1
+     * Set the 'RegNumberDO1' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚РЅРѕСЃС‚Рё Р”Рћ-1
      * 
      * @param regNumberDO1
      */
@@ -90,7 +90,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DO1CloseReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

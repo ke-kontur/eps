@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.extractfromorder;
 
 /** 
- * Место работы
+ * РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
  */
 public class EmploymentPlaceType
 {
@@ -12,7 +12,7 @@ public class EmploymentPlaceType
     private String extraPay;
 
     /** 
-     * Get the 'DepartmentName' element value. Наименование структурного подразделения
+     * Get the 'DepartmentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Set the 'DepartmentName' element value. Наименование структурного подразделения
+     * Set the 'DepartmentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
      * 
      * @param departmentName
      */
@@ -30,7 +30,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Наименование профессии (должности), разряд, класс (категория) квалификации
+     * Get the 'PersonPost' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕС„РµСЃСЃРёРё (РґРѕР»Р¶РЅРѕСЃС‚Рё), СЂР°Р·СЂСЏРґ, РєР»Р°СЃСЃ (РєР°С‚РµРіРѕСЂРёСЏ) РєРІР°Р»РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Наименование профессии (должности), разряд, класс (категория) квалификации
+     * Set the 'PersonPost' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕС„РµСЃСЃРёРё (РґРѕР»Р¶РЅРѕСЃС‚Рё), СЂР°Р·СЂСЏРґ, РєР»Р°СЃСЃ (РєР°С‚РµРіРѕСЂРёСЏ) РєРІР°Р»РёС„РёРєР°С†РёРё
      * 
      * @param personPost
      */
@@ -48,7 +48,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Get the 'MounthlyWage' element value. Оклад (тарифная ставка)
+     * Get the 'MounthlyWage' element value. РћРєР»Р°Рґ (С‚Р°СЂРёС„РЅР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Set the 'MounthlyWage' element value. Оклад (тарифная ставка)
+     * Set the 'MounthlyWage' element value. РћРєР»Р°Рґ (С‚Р°СЂРёС„РЅР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param mounthlyWage
      */
@@ -66,7 +66,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Get the 'ExtraPay' element value. Надбавка
+     * Get the 'ExtraPay' element value. РќР°РґР±Р°РІРєР°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class EmploymentPlaceType
     }
 
     /** 
-     * Set the 'ExtraPay' element value. Надбавка
+     * Set the 'ExtraPay' element value. РќР°РґР±Р°РІРєР°
      * 
      * @param extraPay
      */

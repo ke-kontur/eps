@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Люк
+ * Р›СЋРє
  */
 public class HatchType
 {
@@ -10,7 +10,7 @@ public class HatchType
     private String hatchDescription;
 
     /** 
-     * Get the 'HatchKind' element value. Тип люка: "0" - механический, "1" - электрический
+     * Get the 'HatchKind' element value. РўРёРї Р»СЋРєР°: "0" - РјРµС…Р°РЅРёС‡РµСЃРєРёР№, "1" - СЌР»РµРєС‚СЂРёС‡РµСЃРєРёР№
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class HatchType
     }
 
     /** 
-     * Set the 'HatchKind' element value. Тип люка: "0" - механический, "1" - электрический
+     * Set the 'HatchKind' element value. РўРёРї Р»СЋРєР°: "0" - РјРµС…Р°РЅРёС‡РµСЃРєРёР№, "1" - СЌР»РµРєС‚СЂРёС‡РµСЃРєРёР№
      * 
      * @param hatchKind
      */
@@ -28,7 +28,7 @@ public class HatchType
     }
 
     /** 
-     * Get the 'HatchDescription' element value. Описание
+     * Get the 'HatchDescription' element value. РћРїРёСЃР°РЅРёРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class HatchType
     }
 
     /** 
-     * Set the 'HatchDescription' element value. Описание
+     * Set the 'HatchDescription' element value. РћРїРёСЃР°РЅРёРµ
      * 
      * @param hatchDescription
      */

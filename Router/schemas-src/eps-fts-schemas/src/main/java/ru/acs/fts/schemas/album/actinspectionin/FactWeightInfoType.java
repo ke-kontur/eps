@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspectionin;
 
 /** 
- * Сведения об общем фактическом весе товаров
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµРј С„Р°РєС‚РёС‡РµСЃРєРѕРј РІРµСЃРµ С‚РѕРІР°СЂРѕРІ
  */
 public class FactWeightInfoType
 {
@@ -12,7 +12,7 @@ public class FactWeightInfoType
     private String weightMetodDesc;
 
     /** 
-     * Get the 'WeightNettoFact' element value. Фактический вес товара нетто, кг
+     * Get the 'WeightNettoFact' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ, РєРі
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Set the 'WeightNettoFact' element value. Фактический вес товара нетто, кг
+     * Set the 'WeightNettoFact' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ, РєРі
      * 
      * @param weightNettoFact
      */
@@ -30,7 +30,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Get the 'WeightBruttoFact' element value. Фактический вес товара брутто, кг
+     * Get the 'WeightBruttoFact' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ, РєРі
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Set the 'WeightBruttoFact' element value. Фактический вес товара брутто, кг
+     * Set the 'WeightBruttoFact' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ, РєРі
      * 
      * @param weightBruttoFact
      */
@@ -48,7 +48,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Get the 'WeightMethodKind' element value. Способ определения фактического веса товаров: "1" - фактическое взвешивание,  "2" - определение среднего веса одного места взвешиванием нескольких мест, "3" - расчетный метод, "4" - прочее.
+     * Get the 'WeightMethodKind' element value. РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЃР° С‚РѕРІР°СЂРѕРІ: "1" - С„Р°РєС‚РёС‡РµСЃРєРѕРµ РІР·РІРµС€РёРІР°РЅРёРµ,  "2" - РѕРїСЂРµРґРµР»РµРЅРёРµ СЃСЂРµРґРЅРµРіРѕ РІРµСЃР° РѕРґРЅРѕРіРѕ РјРµСЃС‚Р° РІР·РІРµС€РёРІР°РЅРёРµРј РЅРµСЃРєРѕР»СЊРєРёС… РјРµСЃС‚, "3" - СЂР°СЃС‡РµС‚РЅС‹Р№ РјРµС‚РѕРґ, "4" - РїСЂРѕС‡РµРµ.
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Set the 'WeightMethodKind' element value. Способ определения фактического веса товаров: "1" - фактическое взвешивание,  "2" - определение среднего веса одного места взвешиванием нескольких мест, "3" - расчетный метод, "4" - прочее.
+     * Set the 'WeightMethodKind' element value. РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЃР° С‚РѕРІР°СЂРѕРІ: "1" - С„Р°РєС‚РёС‡РµСЃРєРѕРµ РІР·РІРµС€РёРІР°РЅРёРµ,  "2" - РѕРїСЂРµРґРµР»РµРЅРёРµ СЃСЂРµРґРЅРµРіРѕ РІРµСЃР° РѕРґРЅРѕРіРѕ РјРµСЃС‚Р° РІР·РІРµС€РёРІР°РЅРёРµРј РЅРµСЃРєРѕР»СЊРєРёС… РјРµСЃС‚, "3" - СЂР°СЃС‡РµС‚РЅС‹Р№ РјРµС‚РѕРґ, "4" - РїСЂРѕС‡РµРµ.
      * 
      * @param weightMethodKind
      */
@@ -66,7 +66,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Get the 'WeightMetodDesc' element value. Примечание к способу взвешивания: количество взвешенных мест, способов расчетов, описание прочего способа взвешивания.
+     * Get the 'WeightMetodDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє СЃРїРѕСЃРѕР±Сѓ РІР·РІРµС€РёРІР°РЅРёСЏ: РєРѕР»РёС‡РµСЃС‚РІРѕ РІР·РІРµС€РµРЅРЅС‹С… РјРµСЃС‚, СЃРїРѕСЃРѕР±РѕРІ СЂР°СЃС‡РµС‚РѕРІ, РѕРїРёСЃР°РЅРёРµ РїСЂРѕС‡РµРіРѕ СЃРїРѕСЃРѕР±Р° РІР·РІРµС€РёРІР°РЅРёСЏ.
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class FactWeightInfoType
     }
 
     /** 
-     * Set the 'WeightMetodDesc' element value. Примечание к способу взвешивания: количество взвешенных мест, способов расчетов, описание прочего способа взвешивания.
+     * Set the 'WeightMetodDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє СЃРїРѕСЃРѕР±Сѓ РІР·РІРµС€РёРІР°РЅРёСЏ: РєРѕР»РёС‡РµСЃС‚РІРѕ РІР·РІРµС€РµРЅРЅС‹С… РјРµСЃС‚, СЃРїРѕСЃРѕР±РѕРІ СЂР°СЃС‡РµС‚РѕРІ, РѕРїРёСЃР°РЅРёРµ РїСЂРѕС‡РµРіРѕ СЃРїРѕСЃРѕР±Р° РІР·РІРµС€РёРІР°РЅРёСЏ.
      * 
      * @param weightMetodDesc
      */

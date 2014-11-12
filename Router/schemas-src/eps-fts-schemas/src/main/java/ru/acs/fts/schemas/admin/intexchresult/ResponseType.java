@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;
 
 /** 
- * Элемент, содержащий результат выполнения операции (положительный или отрицательный)
+ * Р­Р»РµРјРµРЅС‚, СЃРѕРґРµСЂР¶Р°С‰РёР№ СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё (РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№ РёР»Рё РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№)
  */
 public class ResponseType
 {
@@ -17,7 +17,7 @@ public class ResponseType
     private List<ResultInformationType> resultInformationList = new ArrayList<ResultInformationType>();
 
     /** 
-     * Get the 'RefDocumentID' element value. Идентификатор документа, в котором была допущена ошибка.
+     * Get the 'RefDocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РІ РєРѕС‚РѕСЂРѕРј Р±С‹Р»Р° РґРѕРїСѓС‰РµРЅР° РѕС€РёР±РєР°.
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the 'RefDocumentID' element value. Идентификатор документа, в котором была допущена ошибка.
+     * Set the 'RefDocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РІ РєРѕС‚РѕСЂРѕРј Р±С‹Р»Р° РґРѕРїСѓС‰РµРЅР° РѕС€РёР±РєР°.
      * 
      * @param refDocumentID
      */
@@ -35,7 +35,7 @@ public class ResponseType
     }
 
     /** 
-     * Get the 'CreateDate' element value. Дата создания документа
+     * Get the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the 'CreateDate' element value. Дата создания документа
+     * Set the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param createDate
      */
@@ -53,7 +53,7 @@ public class ResponseType
     }
 
     /** 
-     * Get the 'CreateTime' element value. Время создания документа
+     * Get the 'CreateTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the 'CreateTime' element value. Время создания документа
+     * Set the 'CreateTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param createTime
      */
@@ -71,7 +71,7 @@ public class ResponseType
     }
 
     /** 
-     * Get the list of 'ResultInformation' element items. Код возврата при обработке сообщения, результат выполнения операции (запрос к ЭАД, запрос статуса/истории процесса)
+     * Get the list of 'ResultInformation' element items. РљРѕРґ РІРѕР·РІСЂР°С‚Р° РїСЂРё РѕР±СЂР°Р±РѕС‚РєРµ СЃРѕРѕР±С‰РµРЅРёСЏ, СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё (Р·Р°РїСЂРѕСЃ Рє Р­РђР”, Р·Р°РїСЂРѕСЃ СЃС‚Р°С‚СѓСЃР°/РёСЃС‚РѕСЂРёРё РїСЂРѕС†РµСЃСЃР°)
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the list of 'ResultInformation' element items. Код возврата при обработке сообщения, результат выполнения операции (запрос к ЭАД, запрос статуса/истории процесса)
+     * Set the list of 'ResultInformation' element items. РљРѕРґ РІРѕР·РІСЂР°С‚Р° РїСЂРё РѕР±СЂР°Р±РѕС‚РєРµ СЃРѕРѕР±С‰РµРЅРёСЏ, СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё (Р·Р°РїСЂРѕСЃ Рє Р­РђР”, Р·Р°РїСЂРѕСЃ СЃС‚Р°С‚СѓСЃР°/РёСЃС‚РѕСЂРёРё РїСЂРѕС†РµСЃСЃР°)
      * 
      * @param list
      */

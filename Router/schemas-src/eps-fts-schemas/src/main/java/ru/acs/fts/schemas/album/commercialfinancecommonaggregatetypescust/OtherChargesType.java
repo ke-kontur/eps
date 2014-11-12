@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Информация о прочих расходах
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕС‡РёС… СЂР°СЃС…РѕРґР°С…
  */
 public class OtherChargesType
 {
@@ -10,7 +10,7 @@ public class OtherChargesType
     private String chargeAmount;
 
     /** 
-     * Get the 'ChargeType' element value. Тип расхода (например, упаковка, перегрузка в порту и прочее).
+     * Get the 'ChargeType' element value. РўРёРї СЂР°СЃС…РѕРґР° (РЅР°РїСЂРёРјРµСЂ, СѓРїР°РєРѕРІРєР°, РїРµСЂРµРіСЂСѓР·РєР° РІ РїРѕСЂС‚Сѓ Рё РїСЂРѕС‡РµРµ).
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Set the 'ChargeType' element value. Тип расхода (например, упаковка, перегрузка в порту и прочее).
+     * Set the 'ChargeType' element value. РўРёРї СЂР°СЃС…РѕРґР° (РЅР°РїСЂРёРјРµСЂ, СѓРїР°РєРѕРІРєР°, РїРµСЂРµРіСЂСѓР·РєР° РІ РїРѕСЂС‚Сѓ Рё РїСЂРѕС‡РµРµ).
      * 
      * @param chargeType
      */
@@ -28,7 +28,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Get the 'ChargeAmount' element value. Сумма расхода.
+     * Get the 'ChargeAmount' element value. РЎСѓРјРјР° СЂР°СЃС…РѕРґР°.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class OtherChargesType
     }
 
     /** 
-     * Set the 'ChargeAmount' element value. Сумма расхода.
+     * Set the 'ChargeAmount' element value. РЎСѓРјРјР° СЂР°СЃС…РѕРґР°.
      * 
      * @param chargeAmount
      */

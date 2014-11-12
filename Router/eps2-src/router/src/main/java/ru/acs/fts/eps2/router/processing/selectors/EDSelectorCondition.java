@@ -376,6 +376,21 @@ public class EDSelectorCondition extends BaseSelectorCondition< EDJobBatchContex
 			if ( isMalakhit( code, exchType, configurator ) )
 				result = true;
 		}
+        else if ( BusinessSystems.isSuchSystem( businessSystem, "ORDER" ) )
+        {
+            if ( isOrder( code, exchType, configurator ) )
+                result = true;
+        }
+        else if ( BusinessSystems.isSuchSystem( businessSystem, "PAYMENT1" ) )
+        {
+            if ( isPayment1( code, exchType, configurator ) )
+                result = true;
+        }
+        else if ( BusinessSystems.isSuchSystem( businessSystem, "PAYMENT2" ) )
+        {
+            if ( isPayment2( code, exchType, configurator ) )
+                result = true;
+        }
 		else if ( BusinessSystems.isSuchSystem( businessSystem, "CUSTOMS" ) )
 		{
 			if ( isCommonCustoms( code, exchType, configurator ) )
@@ -396,6 +411,24 @@ public class EDSelectorCondition extends BaseSelectorCondition< EDJobBatchContex
 		return StringUtil.areEqual( code, configurator.getMalakhitCustomsCode( ) )
 					&& StringUtil.areEqual( exchType, configurator.getMalakhitExchType( ) );
 	}
+
+    private boolean isOrder( String code, String exchType, EDConfigurator configurator )
+    {
+        return StringUtil.areEqual( code, configurator.getOrderCustomsCode( ) )
+                && StringUtil.areEqual( exchType, configurator.getOrderExchType( ) );
+    }
+
+    private boolean isPayment1( String code, String exchType, EDConfigurator configurator )
+    {
+        return StringUtil.areEqual( code, configurator.getPayment1CustomsCode( ) )
+                && StringUtil.areEqual( exchType, configurator.getPayment1ExchType( ) );
+    }
+
+    private boolean isPayment2( String code, String exchType, EDConfigurator configurator )
+    {
+        return StringUtil.areEqual( code, configurator.getPayment2CustomsCode( ) )
+                && StringUtil.areEqual( exchType, configurator.getPayment2ExchType( ) );
+    }
 	
 	private boolean isCommonCustoms( String code, String exchType, EDConfigurator configurator )
 	{

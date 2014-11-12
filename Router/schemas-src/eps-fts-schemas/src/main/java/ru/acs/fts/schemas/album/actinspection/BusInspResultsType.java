@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Результаты досмотра автобуса (товарная позиция 8702 по ТН ВЭД ТС)
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° Р°РІС‚РѕР±СѓСЃР° (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8702 РїРѕ РўРќ Р’Р­Р” РўРЎ)
  */
 public class BusInspResultsType extends CommonParametersType
 {
@@ -26,7 +26,7 @@ public class BusInspResultsType extends CommonParametersType
     private DamagesType damages;
 
     /** 
-     * Get the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Get the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Set the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @param arriveMode
      */
@@ -44,7 +44,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'SeatPlaceNumber' element value. Число мест для сидения
+     * Get the 'SeatPlaceNumber' element value. Р§РёСЃР»Рѕ РјРµСЃС‚ РґР»СЏ СЃРёРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'SeatPlaceNumber' element value. Число мест для сидения
+     * Set the 'SeatPlaceNumber' element value. Р§РёСЃР»Рѕ РјРµСЃС‚ РґР»СЏ СЃРёРґРµРЅРёСЏ
      * 
      * @param seatPlaceNumber
      */
@@ -62,7 +62,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'StandPlaceNumber' element value. Число мест для стояния
+     * Get the 'StandPlaceNumber' element value. Р§РёСЃР»Рѕ РјРµСЃС‚ РґР»СЏ СЃС‚РѕСЏРЅРёСЏ
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'StandPlaceNumber' element value. Число мест для стояния
+     * Set the 'StandPlaceNumber' element value. Р§РёСЃР»Рѕ РјРµСЃС‚ РґР»СЏ СЃС‚РѕСЏРЅРёСЏ
      * 
      * @param standPlaceNumber
      */
@@ -80,7 +80,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'PassPlaceNumber' element value. Общее число мест, включая водителя
+     * Get the 'PassPlaceNumber' element value. РћР±С‰РµРµ С‡РёСЃР»Рѕ РјРµСЃС‚, РІРєР»СЋС‡Р°СЏ РІРѕРґРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'PassPlaceNumber' element value. Общее число мест, включая водителя
+     * Set the 'PassPlaceNumber' element value. РћР±С‰РµРµ С‡РёСЃР»Рѕ РјРµСЃС‚, РІРєР»СЋС‡Р°СЏ РІРѕРґРёС‚РµР»СЏ
      * 
      * @param passPlaceNumber
      */
@@ -98,7 +98,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Lengthm' element value. Длина, м
+     * Get the 'Lengthm' element value. Р”Р»РёРЅР°, Рј
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Lengthm' element value. Длина, м
+     * Set the 'Lengthm' element value. Р”Р»РёРЅР°, Рј
      * 
      * @param lengthm
      */
@@ -116,7 +116,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Widthm' element value. Ширина (без зеркал заднего вида), м
+     * Get the 'Widthm' element value. РЁРёСЂРёРЅР° (Р±РµР· Р·РµСЂРєР°Р» Р·Р°РґРЅРµРіРѕ РІРёРґР°), Рј
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Widthm' element value. Ширина (без зеркал заднего вида), м
+     * Set the 'Widthm' element value. РЁРёСЂРёРЅР° (Р±РµР· Р·РµСЂРєР°Р» Р·Р°РґРЅРµРіРѕ РІРёРґР°), Рј
      * 
      * @param widthm
      */
@@ -134,7 +134,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Heightm' element value. Высота (без климатической установки или топливных баков для газового топлива), м
+     * Get the 'Heightm' element value. Р’С‹СЃРѕС‚Р° (Р±РµР· РєР»РёРјР°С‚РёС‡РµСЃРєРѕР№ СѓСЃС‚Р°РЅРѕРІРєРё РёР»Рё С‚РѕРїР»РёРІРЅС‹С… Р±Р°РєРѕРІ РґР»СЏ РіР°Р·РѕРІРѕРіРѕ С‚РѕРїР»РёРІР°), Рј
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Heightm' element value. Высота (без климатической установки или топливных баков для газового топлива), м
+     * Set the 'Heightm' element value. Р’С‹СЃРѕС‚Р° (Р±РµР· РєР»РёРјР°С‚РёС‡РµСЃРєРѕР№ СѓСЃС‚Р°РЅРѕРІРєРё РёР»Рё С‚РѕРїР»РёРІРЅС‹С… Р±Р°РєРѕРІ РґР»СЏ РіР°Р·РѕРІРѕРіРѕ С‚РѕРїР»РёРІР°), Рј
      * 
      * @param heightm
      */
@@ -152,7 +152,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'SolarBatPresence' element value. Наличие солнечных двухсекционных батарей: "0" - нет, "1" - да
+     * Get the 'SolarBatPresence' element value. РќР°Р»РёС‡РёРµ СЃРѕР»РЅРµС‡РЅС‹С… РґРІСѓС…СЃРµРєС†РёРѕРЅРЅС‹С… Р±Р°С‚Р°СЂРµР№: "0" - РЅРµС‚, "1" - РґР°
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'SolarBatPresence' element value. Наличие солнечных двухсекционных батарей: "0" - нет, "1" - да
+     * Set the 'SolarBatPresence' element value. РќР°Р»РёС‡РёРµ СЃРѕР»РЅРµС‡РЅС‹С… РґРІСѓС…СЃРµРєС†РёРѕРЅРЅС‹С… Р±Р°С‚Р°СЂРµР№: "0" - РЅРµС‚, "1" - РґР°
      * 
      * @param solarBatPresence
      */
@@ -170,7 +170,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'LuggBoxNumber' element value. Количество багажных (грузовых) отсеков
+     * Get the 'LuggBoxNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р±Р°РіР°Р¶РЅС‹С… (РіСЂСѓР·РѕРІС‹С…) РѕС‚СЃРµРєРѕРІ
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'LuggBoxNumber' element value. Количество багажных (грузовых) отсеков
+     * Set the 'LuggBoxNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р±Р°РіР°Р¶РЅС‹С… (РіСЂСѓР·РѕРІС‹С…) РѕС‚СЃРµРєРѕРІ
      * 
      * @param luggBoxNumber
      */
@@ -188,7 +188,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'LuggBoxVolume' element value. Общий объем багажных (грузовых) отсеков в кубических метрах
+     * Get the 'LuggBoxVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј Р±Р°РіР°Р¶РЅС‹С… (РіСЂСѓР·РѕРІС‹С…) РѕС‚СЃРµРєРѕРІ РІ РєСѓР±РёС‡РµСЃРєРёС… РјРµС‚СЂР°С…
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'LuggBoxVolume' element value. Общий объем багажных (грузовых) отсеков в кубических метрах
+     * Set the 'LuggBoxVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј Р±Р°РіР°Р¶РЅС‹С… (РіСЂСѓР·РѕРІС‹С…) РѕС‚СЃРµРєРѕРІ РІ РєСѓР±РёС‡РµСЃРєРёС… РјРµС‚СЂР°С…
      * 
      * @param luggBoxVolume
      */
@@ -206,7 +206,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'NumberOfStore' element value. Этажность
+     * Get the 'NumberOfStore' element value. Р­С‚Р°Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'NumberOfStore' element value. Этажность
+     * Set the 'NumberOfStore' element value. Р­С‚Р°Р¶РЅРѕСЃС‚СЊ
      * 
      * @param numberOfStore
      */
@@ -224,7 +224,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'SeatKind' element value. Тип кресел: "1" - мягкие, "2" - жесткие, "3" - с откидной спинкой
+     * Get the 'SeatKind' element value. РўРёРї РєСЂРµСЃРµР»: "1" - РјСЏРіРєРёРµ, "2" - Р¶РµСЃС‚РєРёРµ, "3" - СЃ РѕС‚РєРёРґРЅРѕР№ СЃРїРёРЅРєРѕР№
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'SeatKind' element value. Тип кресел: "1" - мягкие, "2" - жесткие, "3" - с откидной спинкой
+     * Set the 'SeatKind' element value. РўРёРї РєСЂРµСЃРµР»: "1" - РјСЏРіРєРёРµ, "2" - Р¶РµСЃС‚РєРёРµ, "3" - СЃ РѕС‚РєРёРґРЅРѕР№ СЃРїРёРЅРєРѕР№
      * 
      * @param seatKind
      */
@@ -242,7 +242,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'WindowKind' element value. Тип остекления салона: "0" - без остекления, "1" - одинарные стекла, "2" - двойной стеклопакет, "3" - тройной стеклопакет
+     * Get the 'WindowKind' element value. РўРёРї РѕСЃС‚РµРєР»РµРЅРёСЏ СЃР°Р»РѕРЅР°: "0" - Р±РµР· РѕСЃС‚РµРєР»РµРЅРёСЏ, "1" - РѕРґРёРЅР°СЂРЅС‹Рµ СЃС‚РµРєР»Р°, "2" - РґРІРѕР№РЅРѕР№ СЃС‚РµРєР»РѕРїР°РєРµС‚, "3" - С‚СЂРѕР№РЅРѕР№ СЃС‚РµРєР»РѕРїР°РєРµС‚
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'WindowKind' element value. Тип остекления салона: "0" - без остекления, "1" - одинарные стекла, "2" - двойной стеклопакет, "3" - тройной стеклопакет
+     * Set the 'WindowKind' element value. РўРёРї РѕСЃС‚РµРєР»РµРЅРёСЏ СЃР°Р»РѕРЅР°: "0" - Р±РµР· РѕСЃС‚РµРєР»РµРЅРёСЏ, "1" - РѕРґРёРЅР°СЂРЅС‹Рµ СЃС‚РµРєР»Р°, "2" - РґРІРѕР№РЅРѕР№ СЃС‚РµРєР»РѕРїР°РєРµС‚, "3" - С‚СЂРѕР№РЅРѕР№ СЃС‚РµРєР»РѕРїР°РєРµС‚
      * 
      * @param windowKind
      */
@@ -260,7 +260,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'PassDoorNumber' element value. Количество дверей для пассажиров
+     * Get the 'PassDoorNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРІРµСЂРµР№ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ
      * 
      * @return value
      */
@@ -269,7 +269,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'PassDoorNumber' element value. Количество дверей для пассажиров
+     * Set the 'PassDoorNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРІРµСЂРµР№ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ
      * 
      * @param passDoorNumber
      */
@@ -278,7 +278,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'DriverCabDividingWall' element value. Перегородка, отделяющая место водителя
+     * Get the 'DriverCabDividingWall' element value. РџРµСЂРµРіРѕСЂРѕРґРєР°, РѕС‚РґРµР»СЏСЋС‰Р°СЏ РјРµСЃС‚Рѕ РІРѕРґРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -287,7 +287,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'DriverCabDividingWall' element value. Перегородка, отделяющая место водителя
+     * Set the 'DriverCabDividingWall' element value. РџРµСЂРµРіРѕСЂРѕРґРєР°, РѕС‚РґРµР»СЏСЋС‰Р°СЏ РјРµСЃС‚Рѕ РІРѕРґРёС‚РµР»СЏ
      * 
      * @param driverCabDividingWall
      */
@@ -296,7 +296,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Podveska' element value. Тип подвески
+     * Get the 'Podveska' element value. РўРёРї РїРѕРґРІРµСЃРєРё
      * 
      * @return value
      */
@@ -305,7 +305,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Podveska' element value. Тип подвески
+     * Set the 'Podveska' element value. РўРёРї РїРѕРґРІРµСЃРєРё
      * 
      * @param podveska
      */
@@ -314,7 +314,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'BusDopDevice' element value. Дополнительное оборудование в автобусе
+     * Get the 'BusDopDevice' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ Р°РІС‚РѕР±СѓСЃРµ
      * 
      * @return value
      */
@@ -323,7 +323,7 @@ public class BusInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'BusDopDevice' element value. Дополнительное оборудование в автобусе
+     * Set the 'BusDopDevice' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ Р°РІС‚РѕР±СѓСЃРµ
      * 
      * @param busDopDevice
      */

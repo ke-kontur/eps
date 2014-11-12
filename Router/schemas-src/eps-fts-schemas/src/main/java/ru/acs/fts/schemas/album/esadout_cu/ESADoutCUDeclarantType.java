@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения о декларанте товаров
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
  */
 public class ESADoutCUDeclarantType extends CUOrganizationType
 {
     private CUBranchDescriptionType branchDescription;
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ESADoutCUDeclarantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @param branchDescription
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.DocumentDescriptionType;
 
 /** 
- * Обязательство о представлении документов в установленный срок
+ * РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ СЃСЂРѕРє
  */
 public class DocsObligationType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class DocsObligationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -39,7 +39,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Сведения о заявителе
+     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Сведения о заявителе
+     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param applicant
      */
@@ -57,7 +57,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ObligDocsDescription' element items. Описание документов, по которым подается обязательство
+     * Get the list of 'ObligDocsDescription' element items. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РїРѕ РєРѕС‚РѕСЂС‹Рј РїРѕРґР°РµС‚СЃСЏ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ObligDocsDescription' element items. Описание документов, по которым подается обязательство
+     * Set the list of 'ObligDocsDescription' element items. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РїРѕ РєРѕС‚РѕСЂС‹Рј РїРѕРґР°РµС‚СЃСЏ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Справочный номер ДТ
+     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Справочный номер ДТ
+     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -93,7 +93,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class DocsObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

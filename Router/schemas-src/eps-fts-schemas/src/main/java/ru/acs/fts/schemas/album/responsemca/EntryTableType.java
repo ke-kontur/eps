@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Вложенная таблица
+ * Р’Р»РѕР¶РµРЅРЅР°СЏ С‚Р°Р±Р»РёС†Р°
  */
 public class EntryTableType extends CellType
 {
@@ -13,7 +13,7 @@ public class EntryTableType extends CellType
     private List<EntryRowType> entryRowList = new ArrayList<EntryRowType>();
 
     /** 
-     * Get the 'Cols' element value. Число колонок в таблице
+     * Get the 'Cols' element value. Р§РёСЃР»Рѕ РєРѕР»РѕРЅРѕРє РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class EntryTableType extends CellType
     }
 
     /** 
-     * Set the 'Cols' element value. Число колонок в таблице
+     * Set the 'Cols' element value. Р§РёСЃР»Рѕ РєРѕР»РѕРЅРѕРє РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @param cols
      */
@@ -31,7 +31,7 @@ public class EntryTableType extends CellType
     }
 
     /** 
-     * Get the list of 'EntryRow' element items. Строка таблицы
+     * Get the list of 'EntryRow' element items. РЎС‚СЂРѕРєР° С‚Р°Р±Р»РёС†С‹
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class EntryTableType extends CellType
     }
 
     /** 
-     * Set the list of 'EntryRow' element items. Строка таблицы
+     * Set the list of 'EntryRow' element items. РЎС‚СЂРѕРєР° С‚Р°Р±Р»РёС†С‹
      * 
      * @param list
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Декларант
+ * Р”РµРєР»Р°СЂР°РЅС‚
  */
 public class DeclarantType extends OrganizationType
 {
@@ -14,7 +14,7 @@ public class DeclarantType extends OrganizationType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @param branchDescription
      */
@@ -32,7 +32,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

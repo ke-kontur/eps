@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.intexchresult;
 
 /** 
- * Результат обработки документа
+ * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocumentResultType
 {
@@ -10,7 +10,7 @@ public class DocumentResultType
     private String documentID;
 
     /** 
-     * Get the 'ResultCode' element value. Код обработки сообщения
+     * Get the 'ResultCode' element value. РљРѕРґ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocumentResultType
     }
 
     /** 
-     * Set the 'ResultCode' element value. Код обработки сообщения
+     * Set the 'ResultCode' element value. РљРѕРґ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @param resultCode
      */
@@ -28,7 +28,7 @@ public class DocumentResultType
     }
 
     /** 
-     * Get the 'DocumentID' element value. Идентификатор документа - результата обработки.
+     * Get the 'DocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° - СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DocumentResultType
     }
 
     /** 
-     * Set the 'DocumentID' element value. Идентификатор документа - результата обработки.
+     * Set the 'DocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° - СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
      * 
      * @param documentID
      */

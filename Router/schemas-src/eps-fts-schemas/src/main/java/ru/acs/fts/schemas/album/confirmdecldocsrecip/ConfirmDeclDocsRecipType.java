@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.DeclPersonType;
 import ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.RecipDocumentType;
 
 /** 
- * Подтверждение получения декларантом документов из КАСТО
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РїРѕР»СѓС‡РµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј РґРѕРєСѓРјРµРЅС‚РѕРІ РёР· РљРђРЎРўРћ
  */
 public class ConfirmDeclDocsRecipType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата создания подтверждения
+     * Get the 'SendDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата создания подтверждения
+     * Set the 'SendDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -42,7 +42,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время создания подтверждения
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время создания подтверждения
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -60,7 +60,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарий
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарий
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comments
      */
@@ -78,7 +78,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecipDocument' element items. Информация о полученных документах.
+     * Get the list of 'RecipDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
      * 
      * @return list
      */
@@ -87,7 +87,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecipDocument' element items. Информация о полученных документах.
+     * Set the list of 'RecipDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
      * 
      * @param list
      */
@@ -96,7 +96,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения об организации - декларанте
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё - РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения об организации - декларанте
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё - РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @param declarant
      */
@@ -114,7 +114,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclPerson' element value. Сведения о лице, создавшем подтверждение.
+     * Get the 'DeclPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, СЃРѕР·РґР°РІС€РµРј РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ.
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclPerson' element value. Сведения о лице, создавшем подтверждение.
+     * Set the 'DeclPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, СЃРѕР·РґР°РІС€РµРј РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ.
      * 
      * @param declPerson
      */
@@ -132,7 +132,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclDecision' element value. Решение декларанта. (заполняется в случае получения уведомления о проведении фактического контроля)
+     * Get the 'DeclDecision' element value. Р РµС€РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р°. (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РїРѕР»СѓС‡РµРЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ)
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclDecision' element value. Решение декларанта. (заполняется в случае получения уведомления о проведении фактического контроля)
+     * Set the 'DeclDecision' element value. Р РµС€РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р°. (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РїРѕР»СѓС‡РµРЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ)
      * 
      * @param declDecision
      */
@@ -150,7 +150,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class ConfirmDeclDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

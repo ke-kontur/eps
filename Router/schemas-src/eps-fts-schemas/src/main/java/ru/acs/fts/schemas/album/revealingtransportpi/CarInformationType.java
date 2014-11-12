@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TransportMeansType;
 
 /** 
- * Сведения об автомобильном транспорте
+ * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
  */
 public class CarInformationType
 {
@@ -14,7 +14,7 @@ public class CarInformationType
     private List<TransportMeansType> transportMeanList = new ArrayList<TransportMeansType>();
 
     /** 
-     * Get the 'TIRHolder' element value. Идентификационный номер держателя книжки МДП
+     * Get the 'TIRHolder' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CarInformationType
     }
 
     /** 
-     * Set the 'TIRHolder' element value. Идентификационный номер держателя книжки МДП
+     * Set the 'TIRHolder' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRHolder
      */
@@ -32,7 +32,7 @@ public class CarInformationType
     }
 
     /** 
-     * Get the list of 'TransportMeans' element items. Базовый тип для описания транспортного средства в таможенных документах.
+     * Get the list of 'TransportMeans' element items. Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class CarInformationType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. Базовый тип для описания транспортного средства в таможенных документах.
+     * Set the list of 'TransportMeans' element items. Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
      * 
      * @param list
      */

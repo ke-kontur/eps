@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.classdecisionchange;
 import org.joda.time.LocalDate;
 
 /** 
- * Регистрационный номер
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
  */
 public class RegistrationNumberType
 {
@@ -13,7 +13,7 @@ public class RegistrationNumberType
     private LocalDate date;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый исходящий номер
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый исходящий номер
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ
      * 
      * @param serialNumber
      */
@@ -49,7 +49,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'Date' element value. Дата принятия решения
+     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'Date' element value. Дата принятия решения
+     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param date
      */

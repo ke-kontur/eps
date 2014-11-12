@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Результаты проведения документального карантинного фитосанитарного контроля должностными лицами ФТС России
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹РјРё Р»РёС†Р°РјРё Р¤РўРЎ Р РѕСЃСЃРёРё
  */
 public class QuaranFitoSanitControlType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CertificateIsPresent' element value. Признак наличия фитосанитарного сертификата страны-экспортера
+     * Get the 'CertificateIsPresent' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р° СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateIsPresent' element value. Признак наличия фитосанитарного сертификата страны-экспортера
+     * Set the 'CertificateIsPresent' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р° СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°
      * 
      * @param certificateIsPresent
      */
@@ -47,7 +47,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. При отсутствии фитосанитарного сертификата страны-экспортера, указывается страна, из которой прибыл груз
+     * Get the 'OriginCountry' element value. РџСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р° СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ СЃС‚СЂР°РЅР°, РёР· РєРѕС‚РѕСЂРѕР№ РїСЂРёР±С‹Р» РіСЂСѓР·
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. При отсутствии фитосанитарного сертификата страны-экспортера, указывается страна, из которой прибыл груз
+     * Set the 'OriginCountry' element value. РџСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р° СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ СЃС‚СЂР°РЅР°, РёР· РєРѕС‚РѕСЂРѕР№ РїСЂРёР±С‹Р» РіСЂСѓР·
      * 
      * @param originCountry
      */
@@ -65,7 +65,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'QuarantineCountry' element value. Страна-экспортер подкарантинной продукции, выдавшая фитосанитарный сертификат
+     * Get the 'QuarantineCountry' element value. РЎС‚СЂР°РЅР°-СЌРєСЃРїРѕСЂС‚РµСЂ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё, РІС‹РґР°РІС€Р°СЏ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'QuarantineCountry' element value. Страна-экспортер подкарантинной продукции, выдавшая фитосанитарный сертификат
+     * Set the 'QuarantineCountry' element value. РЎС‚СЂР°РЅР°-СЌРєСЃРїРѕСЂС‚РµСЂ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё, РІС‹РґР°РІС€Р°СЏ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚
      * 
      * @param quarantineCountry
      */
@@ -83,7 +83,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlResult' element value. Результат документального карантинного фитосанитарного контроля
+     * Get the 'ControlResult' element value. Р РµР·СѓР»СЊС‚Р°С‚ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlResult' element value. Результат документального карантинного фитосанитарного контроля
+     * Set the 'ControlResult' element value. Р РµР·СѓР»СЊС‚Р°С‚ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param controlResult
      */
@@ -101,7 +101,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'BanImportReason' element value. Причина запрета ввоза
+     * Get the 'BanImportReason' element value. РџСЂРёС‡РёРЅР° Р·Р°РїСЂРµС‚Р° РІРІРѕР·Р°
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'BanImportReason' element value. Причина запрета ввоза
+     * Set the 'BanImportReason' element value. РџСЂРёС‡РёРЅР° Р·Р°РїСЂРµС‚Р° РІРІРѕР·Р°
      * 
      * @param banImportReason
      */
@@ -119,7 +119,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'TSInfo' element value. Сведения о транспортном средстве
+     * Get the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'TSInfo' element value. Сведения о транспортном средстве
+     * Set the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
      * 
      * @param TSInfo
      */
@@ -137,7 +137,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Certificate' element value. Фитосанитарный сертификат страны-экспортера
+     * Get the 'Certificate' element value. Р¤РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚ СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Certificate' element value. Фитосанитарный сертификат страны-экспортера
+     * Set the 'Certificate' element value. Р¤РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚ СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°
      * 
      * @param certificate
      */
@@ -155,7 +155,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. Сведения о подкарантинной продукции
+     * Get the 'GoodsDescription' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. Сведения о подкарантинной продукции
+     * Set the 'GoodsDescription' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param goodsDescription
      */
@@ -173,7 +173,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. Импортер (получатель)
+     * Get the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ (РїРѕР»СѓС‡Р°С‚РµР»СЊ)
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. Импортер (получатель)
+     * Set the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ (РїРѕР»СѓС‡Р°С‚РµР»СЊ)
      * 
      * @param importer
      */
@@ -191,7 +191,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exporter' element value. Экспортер (отправитель)
+     * Get the 'Exporter' element value. Р­РєСЃРїРѕСЂС‚РµСЂ (РѕС‚РїСЂР°РІРёС‚РµР»СЊ)
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exporter' element value. Экспортер (отправитель)
+     * Set the 'Exporter' element value. Р­РєСЃРїРѕСЂС‚РµСЂ (РѕС‚РїСЂР°РІРёС‚РµР»СЊ)
      * 
      * @param exporter
      */
@@ -209,7 +209,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Act' element value. Выданный акт
+     * Get the 'Act' element value. Р’С‹РґР°РЅРЅС‹Р№ Р°РєС‚
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Act' element value. Выданный акт
+     * Set the 'Act' element value. Р’С‹РґР°РЅРЅС‹Р№ Р°РєС‚
      * 
      * @param act
      */
@@ -227,7 +227,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный пост
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный пост
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @param customs
      */
@@ -245,7 +245,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Inspector' element value. Инспектор таможенного подразделения
+     * Get the 'Inspector' element value. РРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Inspector' element value. Инспектор таможенного подразделения
+     * Set the 'Inspector' element value. РРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
      * 
      * @param inspector
      */
@@ -263,7 +263,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class QuaranFitoSanitControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

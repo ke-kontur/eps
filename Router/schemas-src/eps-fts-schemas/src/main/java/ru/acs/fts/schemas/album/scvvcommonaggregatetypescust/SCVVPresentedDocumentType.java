@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.scvvcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Представленный документ. (Код вида, наименование, номер, дата)
+ * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. (РљРѕРґ РІРёРґР°, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ, РЅРѕРјРµСЂ, РґР°С‚Р°)
  */
 public class SCVVPresentedDocumentType extends DocumentBaseType
 {
     private String presentedDocumentModeCode;
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа.
+     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SCVVPresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа.
+     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param presentedDocumentModeCode
      */

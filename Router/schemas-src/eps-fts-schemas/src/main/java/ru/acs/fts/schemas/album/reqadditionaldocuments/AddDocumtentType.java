@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Дополнительные документы
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class AddDocumtentType
 {
@@ -16,7 +16,7 @@ public class AddDocumtentType
     private List<String> notationList = new ArrayList<String>();
 
     /** 
-     * Get the 'Position' element value. Порядковый номер
+     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Set the 'Position' element value. Порядковый номер
+     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param position
      */
@@ -34,7 +34,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Get the list of 'Description' element items. Описание
+     * Get the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Set the list of 'Description' element items. Описание
+     * Set the list of 'Description' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Get the 'KindDocuments' element value. Вид документа
+     * Get the 'KindDocuments' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Set the 'KindDocuments' element value. Вид документа
+     * Set the 'KindDocuments' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param kindDocuments
      */
@@ -70,7 +70,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Get the 'CodeKindDocuments' element value. Код вида документа
+     * Get the 'CodeKindDocuments' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Set the 'CodeKindDocuments' element value. Код вида документа
+     * Set the 'CodeKindDocuments' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param codeKindDocuments
      */
@@ -88,7 +88,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Get the list of 'Notation' element items. Примечание
+     * Get the list of 'Notation' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class AddDocumtentType
     }
 
     /** 
-     * Set the list of 'Notation' element items. Примечание
+     * Set the list of 'Notation' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param list
      */

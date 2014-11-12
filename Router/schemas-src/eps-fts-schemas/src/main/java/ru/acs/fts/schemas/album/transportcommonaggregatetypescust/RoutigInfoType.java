@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Маршрут  следования
+ * РњР°СЂС€СЂСѓС‚  СЃР»РµРґРѕРІР°РЅРёСЏ
  */
 public class RoutigInfoType
 {
@@ -16,7 +16,7 @@ public class RoutigInfoType
     private AirportType airport;
 
     /** 
-     * Get the 'NumPP' element value. Порядковый номер записи
+     * Get the 'NumPP' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Set the 'NumPP' element value. Порядковый номер записи
+     * Set the 'NumPP' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
      * 
      * @param numPP
      */
@@ -34,7 +34,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Get the 'CarrierName' element value. Наименование перевозчика
+     * Get the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Set the 'CarrierName' element value. Наименование перевозчика
+     * Set the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierName
      */
@@ -52,7 +52,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Get the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Get the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Set the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Set the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierCode
      */
@@ -70,7 +70,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Get the 'FlightNumber' element value. Номер рейса
+     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. Номер рейса
+     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @param flightNumber
      */
@@ -88,7 +88,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Get the 'FlightDate' element value. Дата рейса
+     * Get the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Set the 'FlightDate' element value. Дата рейса
+     * Set the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
      * 
      * @param flightDate
      */
@@ -106,7 +106,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Get the 'Airport' element value. Следующий  аэропорт
+     * Get the 'Airport' element value. РЎР»РµРґСѓСЋС‰РёР№  Р°СЌСЂРѕРїРѕСЂС‚
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class RoutigInfoType
     }
 
     /** 
-     * Set the 'Airport' element value. Следующий  аэропорт
+     * Set the 'Airport' element value. РЎР»РµРґСѓСЋС‰РёР№  Р°СЌСЂРѕРїРѕСЂС‚
      * 
      * @param airport
      */

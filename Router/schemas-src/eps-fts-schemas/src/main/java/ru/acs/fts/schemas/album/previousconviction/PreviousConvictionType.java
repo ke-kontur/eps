@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.previousconviction;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения о наличии судимости у руководителя и сотрудников юридического лица
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё СЃСѓРґРёРјРѕСЃС‚Рё Сѓ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ Рё СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class PreviousConvictionType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class PreviousConvictionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Organization' element value. Сведения об организации/физ. лице (юр. лицо/ИП)
+     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё/С„РёР·. Р»РёС†Рµ (СЋСЂ. Р»РёС†Рѕ/РРџ)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PreviousConvictionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. Сведения об организации/физ. лице (юр. лицо/ИП)
+     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё/С„РёР·. Р»РёС†Рµ (СЋСЂ. Р»РёС†Рѕ/РРџ)
      * 
      * @param organization
      */
@@ -31,7 +31,7 @@ public class PreviousConvictionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResultInfo' element value. Сведения о постановке лица на учет
+     * Get the 'ResultInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РЅРѕРІРєРµ Р»РёС†Р° РЅР° СѓС‡РµС‚
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PreviousConvictionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultInfo' element value. Сведения о постановке лица на учет
+     * Set the 'ResultInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РЅРѕРІРєРµ Р»РёС†Р° РЅР° СѓС‡РµС‚
      * 
      * @param resultInfo
      */
@@ -49,7 +49,7 @@ public class PreviousConvictionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PreviousConvictionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Сообщение о принятии предварительного решения в ТО
+ * РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РІ РўРћ
  */
 public class PrelimDecisionMsgType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
+     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
      * 
      * @param PIURN
      */
@@ -41,7 +41,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionDate' element value. Дата принятия решения
+     * Get the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Дата принятия решения
+     * Set the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionDate
      */
@@ -59,7 +59,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionTime' element value. Время принятия решения
+     * Get the 'DecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionTime' element value. Время принятия решения
+     * Set the 'DecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decisionTime
      */
@@ -77,7 +77,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного поста
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного поста
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
      * 
      * @param customsCode
      */
@@ -95,7 +95,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'TSControlDecision' element value. Принятое решение по ТС
+     * Get the 'TSControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ РўРЎ
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'TSControlDecision' element value. Принятое решение по ТС
+     * Set the 'TSControlDecision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ РўРЎ
      * 
      * @param TSControlDecision
      */
@@ -113,7 +113,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо, принимающее решение
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїСЂРёРЅРёРјР°СЋС‰РµРµ СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо, принимающее решение
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїСЂРёРЅРёРјР°СЋС‰РµРµ СЂРµС€РµРЅРёРµ
      * 
      * @param customsPerson
      */
@@ -131,7 +131,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignments' element items. Сведения о товарных партиях
+     * Get the list of 'Consignments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёСЏС…
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignments' element items. Сведения о товарных партиях
+     * Set the list of 'Consignments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёСЏС…
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'Railway' element value. Сведения о железной дороге
+     * Get the 'Railway' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРµ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'Railway' element value. Сведения о железной дороге
+     * Set the 'Railway' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРµ
      * 
      * @param railway
      */
@@ -167,7 +167,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class PrelimDecisionMsgType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

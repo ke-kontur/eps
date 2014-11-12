@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.rspconfirmationtarget;
 
 /** 
- * Уполномоченное лицо, подписавшее документ
+ * РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
  */
 public class AuthorizedPersonType
 {
@@ -10,7 +10,7 @@ public class AuthorizedPersonType
     private String personPost;
 
     /** 
-     * Get the 'PersonName' element value. ФИО уполномоченного лица
+     * Get the 'PersonName' element value. Р¤РРћ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AuthorizedPersonType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО уполномоченного лица
+     * Set the 'PersonName' element value. Р¤РРћ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param personName
      */
@@ -28,7 +28,7 @@ public class AuthorizedPersonType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Должность
+     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AuthorizedPersonType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Должность
+     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @param personPost
      */

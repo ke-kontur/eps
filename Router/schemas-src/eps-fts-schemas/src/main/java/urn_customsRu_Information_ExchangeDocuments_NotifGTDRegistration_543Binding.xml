@@ -1,0 +1,21 @@
+<binding xmlns:nGTDr="urn:customs.ru:Information:ExchangeDocuments:NotifGTDRegistration:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifGTDRegistration:5.4.3" default="elements" prefix="nGTDr"/>
+  <mapping abstract="true" type-name="nGTDr:NotifGTDRegistrationType" class="ru.acs.fts.schemas.album.notifgtdregistration.NotifGTDRegistrationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="RegistrationTime" get-method="getRegistrationTime" set-method="setRegistrationTime"/>
+    <value style="element" name="DocSign" get-method="getDocSign" set-method="setDocSign"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" name="GTDID"/>
+    <structure map-as="nGTDr:CustomsPersonSignatureType" get-method="getCustomsPersonSignature" set-method="setCustomsPersonSignature" usage="optional" name="CustomsPersonSignature"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifgtdregistration.NotifGTDRegistrationType" name="NotifGTDRegistration">
+    <structure map-as="nGTDr:NotifGTDRegistrationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nGTDr:CustomsPersonSignatureType" class="ru.acs.fts.schemas.album.notifgtdregistration.CustomsPersonSignatureType">
+    <structure map-as="cat_ru:CustomsPersonType"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" format="LocalDate.default"/>
+  </mapping>
+</binding>

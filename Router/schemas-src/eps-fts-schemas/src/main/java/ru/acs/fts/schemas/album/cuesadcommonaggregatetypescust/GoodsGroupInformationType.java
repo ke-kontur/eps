@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Характеристика товаров в группе
+ * РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ РІ РіСЂСѓРїРїРµ
  */
 public class GoodsGroupInformationType
 {
@@ -26,7 +26,7 @@ public class GoodsGroupInformationType
     private SupplementaryQuantityType goodsGroupQuantity;
 
     /** 
-     * Get the 'Manufacturer' element value. Сведения о производителе
+     * Get the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. Сведения о производителе
+     * Set the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
      * 
      * @param manufacturer
      */
@@ -44,7 +44,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
+     * Get the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
+     * Set the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
      * 
      * @param tradeMark
      */
@@ -62,7 +62,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'GoodsMark' element value. Марка товара
+     * Get the 'GoodsMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'GoodsMark' element value. Марка товара
+     * Set the 'GoodsMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
      * 
      * @param goodsMark
      */
@@ -80,7 +80,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'GoodsModel' element value. Модель товара
+     * Get the 'GoodsModel' element value. РњРѕРґРµР»СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'GoodsModel' element value. Модель товара
+     * Set the 'GoodsModel' element value. РњРѕРґРµР»СЊ С‚РѕРІР°СЂР°
      * 
      * @param goodsModel
      */
@@ -98,7 +98,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'GoodsMarking' element value. Артикул товара
+     * Get the 'GoodsMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'GoodsMarking' element value. Артикул товара
+     * Set the 'GoodsMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
      * 
      * @param goodsMarking
      */
@@ -116,7 +116,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'GoodsStandard' element value. Стандарт (ГОСТ, ОСТ, СПП, СТО, ТУ)
+     * Get the 'GoodsStandard' element value. РЎС‚Р°РЅРґР°СЂС‚ (Р“РћРЎРў, РћРЎРў, РЎРџРџ, РЎРўРћ, РўРЈ)
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'GoodsStandard' element value. Стандарт (ГОСТ, ОСТ, СПП, СТО, ТУ)
+     * Set the 'GoodsStandard' element value. РЎС‚Р°РЅРґР°СЂС‚ (Р“РћРЎРў, РћРЎРў, РЎРџРџ, РЎРўРћ, РўРЈ)
      * 
      * @param goodsStandard
      */
@@ -134,7 +134,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'GoodsSort' element value. Сорт / Сорт или группа сортов (для лесо- и пиломатериалов)
+     * Get the 'GoodsSort' element value. РЎРѕСЂС‚ / РЎРѕСЂС‚ РёР»Рё РіСЂСѓРїРїР° СЃРѕСЂС‚РѕРІ (РґР»СЏ Р»РµСЃРѕ- Рё РїРёР»РѕРјР°С‚РµСЂРёР°Р»РѕРІ)
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'GoodsSort' element value. Сорт / Сорт или группа сортов (для лесо- и пиломатериалов)
+     * Set the 'GoodsSort' element value. РЎРѕСЂС‚ / РЎРѕСЂС‚ РёР»Рё РіСЂСѓРїРїР° СЃРѕСЂС‚РѕРІ (РґР»СЏ Р»РµСЃРѕ- Рё РїРёР»РѕРјР°С‚РµСЂРёР°Р»РѕРІ)
      * 
      * @param goodsSort
      */
@@ -152,7 +152,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'WoodSortiment' element value. Наименование сортимента (для лесоматериалов товарной позиции 4403)
+     * Get the 'WoodSortiment' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃРѕСЂС‚РёРјРµРЅС‚Р° (РґР»СЏ Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё 4403)
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'WoodSortiment' element value. Наименование сортимента (для лесоматериалов товарной позиции 4403)
+     * Set the 'WoodSortiment' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃРѕСЂС‚РёРјРµРЅС‚Р° (РґР»СЏ Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё 4403)
      * 
      * @param woodSortiment
      */
@@ -170,7 +170,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'WoodKind' element value. Порода древесины
+     * Get the 'WoodKind' element value. РџРѕСЂРѕРґР° РґСЂРµРІРµСЃРёРЅС‹
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'WoodKind' element value. Порода древесины
+     * Set the 'WoodKind' element value. РџРѕСЂРѕРґР° РґСЂРµРІРµСЃРёРЅС‹
      * 
      * @param woodKind
      */
@@ -188,7 +188,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Размеры
+     * Get the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Размеры
+     * Set the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹
      * 
      * @param dimensions
      */
@@ -206,7 +206,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'DateIssue' element value. Дата выпуска
+     * Get the 'DateIssue' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР°
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'DateIssue' element value. Дата выпуска
+     * Set the 'DateIssue' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР°
      * 
      * @param dateIssue
      */
@@ -224,7 +224,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the list of 'SerialNumber' element items. Серийный номер
+     * Get the list of 'SerialNumber' element items. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return list
      */
@@ -233,7 +233,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the list of 'SerialNumber' element items. Серийный номер
+     * Set the list of 'SerialNumber' element items. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param list
      */
@@ -242,7 +242,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Get the 'GoodsGroupQuantity' element value. Количество товаров. Гр.31 первый подраздел
+     * Get the 'GoodsGroupQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ. Р“СЂ.31 РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class GoodsGroupInformationType
     }
 
     /** 
-     * Set the 'GoodsGroupQuantity' element value. Количество товаров. Гр.31 первый подраздел
+     * Set the 'GoodsGroupQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ. Р“СЂ.31 РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
      * 
      * @param goodsGroupQuantity
      */

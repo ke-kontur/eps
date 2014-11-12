@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.extractfromorder;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Сведения  о сотруднике
+ * РЎРІРµРґРµРЅРёСЏ  Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ
  */
 public class EmployeeInfoType extends PersonSignatureType
 {
     private String clockNumber;
 
     /** 
-     * Get the 'ClockNumber' element value. Табельный номер
+     * Get the 'ClockNumber' element value. РўР°Р±РµР»СЊРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class EmployeeInfoType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'ClockNumber' element value. Табельный номер
+     * Set the 'ClockNumber' element value. РўР°Р±РµР»СЊРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param clockNumber
      */

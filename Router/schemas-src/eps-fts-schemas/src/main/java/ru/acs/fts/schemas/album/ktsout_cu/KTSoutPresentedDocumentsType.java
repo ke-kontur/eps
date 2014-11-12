@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.ktsout_cu;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADPresentedDocumentsType;
 
 /** 
- * КТС. Представленные документы
+ * РљРўРЎ. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class KTSoutPresentedDocumentsType extends CUESADPresentedDocumentsType
 {
     private String regNumberDocument;
 
     /** 
-     * Get the 'RegNumberDocument' element value. Регистрационный номер таможенного документа, с которым он был первоначально предоставлен. Для РБ  
+     * Get the 'RegNumberDocument' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, СЃ РєРѕС‚РѕСЂС‹Рј РѕРЅ Р±С‹Р» РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅ. Р”Р»СЏ Р Р‘  
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class KTSoutPresentedDocumentsType extends CUESADPresentedDocumentsType
     }
 
     /** 
-     * Set the 'RegNumberDocument' element value. Регистрационный номер таможенного документа, с которым он был первоначально предоставлен. Для РБ  
+     * Set the 'RegNumberDocument' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, СЃ РєРѕС‚РѕСЂС‹Рј РѕРЅ Р±С‹Р» РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅ. Р”Р»СЏ Р Р‘  
      * 
      * @param regNumberDocument
      */

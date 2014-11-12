@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Запрещенные или ограниченные к ввозу товары
+ * Р—Р°РїСЂРµС‰РµРЅРЅС‹Рµ РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹Рµ Рє РІРІРѕР·Сѓ С‚РѕРІР°СЂС‹
  */
 public class ProhibitedGoodsType
 {
@@ -16,7 +16,7 @@ public class ProhibitedGoodsType
     private List<DocumentBaseType> permitionDocList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'ArmsInfo' element items. Информация о наличии оружия и боеприпасов
+     * Get the list of 'ArmsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё РѕСЂСѓР¶РёСЏ Рё Р±РѕРµРїСЂРёРїР°СЃРѕРІ
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Set the list of 'ArmsInfo' element items. Информация о наличии оружия и боеприпасов
+     * Set the list of 'ArmsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р»РёС‡РёРё РѕСЂСѓР¶РёСЏ Рё Р±РѕРµРїСЂРёРїР°СЃРѕРІ
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Get the list of 'DrugsSubstanceInfo' element items. Сведения о наличии лекарственных средств
+     * Get the list of 'DrugsSubstanceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Set the list of 'DrugsSubstanceInfo' element items. Сведения о наличии лекарственных средств
+     * Set the list of 'DrugsSubstanceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Get the list of 'CurrencyInfo' element items. Информация о валюте и валютных ценностях
+     * Get the list of 'CurrencyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР°Р»СЋС‚Рµ Рё РІР°Р»СЋС‚РЅС‹С… С†РµРЅРЅРѕСЃС‚СЏС…
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Set the list of 'CurrencyInfo' element items. Информация о валюте и валютных ценностях
+     * Set the list of 'CurrencyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР°Р»СЋС‚Рµ Рё РІР°Р»СЋС‚РЅС‹С… С†РµРЅРЅРѕСЃС‚СЏС…
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Get the list of 'PermitionDocs' element items. Информация о разрешительных документах
+     * Get the list of 'PermitionDocs' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class ProhibitedGoodsType
     }
 
     /** 
-     * Set the list of 'PermitionDocs' element items. Информация о разрешительных документах
+     * Set the list of 'PermitionDocs' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @param list
      */

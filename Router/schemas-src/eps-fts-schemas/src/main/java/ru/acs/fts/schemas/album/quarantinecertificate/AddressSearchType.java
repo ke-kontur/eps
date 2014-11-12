@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.quarantinecertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Адрес проведения карантинного досмотра
+ * РђРґСЂРµСЃ РїСЂРѕРІРµРґРµРЅРёСЏ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
  */
 public class AddressSearchType extends AddressType
 {
     private String phone;
 
     /** 
-     * Get the 'Phone' element value. Телефон
+     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AddressSearchType extends AddressType
     }
 
     /** 
-     * Set the 'Phone' element value. Телефон
+     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @param phone
      */

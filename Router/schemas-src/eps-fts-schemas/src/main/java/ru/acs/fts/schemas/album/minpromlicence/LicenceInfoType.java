@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Информация о лицензии
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†РµРЅР·РёРё
  */
 public class LicenceInfoType
 {
@@ -24,7 +24,7 @@ public class LicenceInfoType
     private PersonSignatureType signPerson;
 
     /** 
-     * Get the 'DateTo' element value. Дата окончания действия лицензии
+     * Get the 'DateTo' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'DateTo' element value. Дата окончания действия лицензии
+     * Set the 'DateTo' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @param dateTo
      */
@@ -42,7 +42,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'LicType' element value. Тип лицензии (разовая, генеральная, исключительная)
+     * Get the 'LicType' element value. РўРёРї Р»РёС†РµРЅР·РёРё (СЂР°Р·РѕРІР°СЏ, РіРµРЅРµСЂР°Р»СЊРЅР°СЏ, РёСЃРєР»СЋС‡РёС‚РµР»СЊРЅР°СЏ)
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'LicType' element value. Тип лицензии (разовая, генеральная, исключительная)
+     * Set the 'LicType' element value. РўРёРї Р»РёС†РµРЅР·РёРё (СЂР°Р·РѕРІР°СЏ, РіРµРЅРµСЂР°Р»СЊРЅР°СЏ, РёСЃРєР»СЋС‡РёС‚РµР»СЊРЅР°СЏ)
      * 
      * @param licType
      */
@@ -60,7 +60,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'LicOperation' element value. Тип операции (импорт, экспорт)
+     * Get the 'LicOperation' element value. РўРёРї РѕРїРµСЂР°С†РёРё (РёРјРїРѕСЂС‚, СЌРєСЃРїРѕСЂС‚)
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'LicOperation' element value. Тип операции (импорт, экспорт)
+     * Set the 'LicOperation' element value. РўРёРї РѕРїРµСЂР°С†РёРё (РёРјРїРѕСЂС‚, СЌРєСЃРїРѕСЂС‚)
      * 
      * @param licOperation
      */
@@ -78,7 +78,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'DepartmentShortName' element value. Короткое наименование подразделения Минпромторга России, оформившего лицензию
+     * Get the 'DepartmentShortName' element value. РљРѕСЂРѕС‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РњРёРЅРїСЂРѕРјС‚РѕСЂРіР° Р РѕСЃСЃРёРё, РѕС„РѕСЂРјРёРІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'DepartmentShortName' element value. Короткое наименование подразделения Минпромторга России, оформившего лицензию
+     * Set the 'DepartmentShortName' element value. РљРѕСЂРѕС‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РњРёРЅРїСЂРѕРјС‚РѕСЂРіР° Р РѕСЃСЃРёРё, РѕС„РѕСЂРјРёРІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
      * 
      * @param departmentShortName
      */
@@ -96,7 +96,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'DepartmentCode' element value. Код подразделения Минпромторга России, оформившего лицензию
+     * Get the 'DepartmentCode' element value. РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РњРёРЅРїСЂРѕРјС‚РѕСЂРіР° Р РѕСЃСЃРёРё, РѕС„РѕСЂРјРёРІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'DepartmentCode' element value. Код подразделения Минпромторга России, оформившего лицензию
+     * Set the 'DepartmentCode' element value. РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РњРёРЅРїСЂРѕРјС‚РѕСЂРіР° Р РѕСЃСЃРёРё, РѕС„РѕСЂРјРёРІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
      * 
      * @param departmentCode
      */
@@ -114,7 +114,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'Licence' element value. Реквизиты лицензии
+     * Get the 'Licence' element value. Р РµРєРІРёР·РёС‚С‹ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'Licence' element value. Реквизиты лицензии
+     * Set the 'Licence' element value. Р РµРєРІРёР·РёС‚С‹ Р»РёС†РµРЅР·РёРё
      * 
      * @param licence
      */
@@ -132,7 +132,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'Holder' element value. Информация о владельце лицензии
+     * Get the 'Holder' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'Holder' element value. Информация о владельце лицензии
+     * Set the 'Holder' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
      * 
      * @param holder
      */
@@ -150,7 +150,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the list of 'Reason' element items. Основание для выдачи лицензии
+     * Get the list of 'Reason' element items. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё
      * 
      * @return list
      */
@@ -159,7 +159,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the list of 'Reason' element items. Основание для выдачи лицензии
+     * Set the list of 'Reason' element items. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё
      * 
      * @param list
      */
@@ -168,7 +168,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Get the 'SignPerson' element value. Лицо, подписавшее документ
+     * Get the 'SignPerson' element value. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class LicenceInfoType
     }
 
     /** 
-     * Set the 'SignPerson' element value. Лицо, подписавшее документ
+     * Set the 'SignPerson' element value. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param signPerson
      */

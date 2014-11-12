@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Продавец
+ * РџСЂРѕРґР°РІРµС†
  */
 public class SellerType
 {
@@ -13,7 +13,7 @@ public class SellerType
     private AddressType address;
 
     /** 
-     * Get the 'Organisation' element value. Реквизиты организации
+     * Get the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class SellerType
     }
 
     /** 
-     * Set the 'Organisation' element value. Реквизиты организации
+     * Set the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param organisation
      */
@@ -31,7 +31,7 @@ public class SellerType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес организации
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class SellerType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param address
      */

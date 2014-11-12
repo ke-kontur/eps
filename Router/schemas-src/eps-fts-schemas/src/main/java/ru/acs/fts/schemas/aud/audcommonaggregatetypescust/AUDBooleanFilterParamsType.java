@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Параметры фильтра для значения типа "boolean" (булевое). Допустимые операторы: empty, not_empty, equal, not_equal.
+ * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal.
  */
 public class AUDBooleanFilterParamsType extends AUDBaseFilterParamsType
 {
     private Boolean filterValue;
 
     /** 
-     * Get the 'FilterValue' element value. Значение фильтра для типа "boolean" (булевое).
+     * Get the 'FilterValue' element value. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ).
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDBooleanFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the 'FilterValue' element value. Значение фильтра для типа "boolean" (булевое).
+     * Set the 'FilterValue' element value. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ).
      * 
      * @param filterValue
      */

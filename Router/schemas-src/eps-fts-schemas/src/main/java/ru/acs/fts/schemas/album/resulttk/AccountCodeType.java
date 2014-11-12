@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.resulttk;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Учетный талон
+ * РЈС‡РµС‚РЅС‹Р№ С‚Р°Р»РѕРЅ
  */
 public class AccountCodeType
 {
@@ -17,7 +17,7 @@ public class AccountCodeType
     private PersonBaseType accountCodeEmployee;
 
     /** 
-     * Get the 'AccountCodeID' element value. Идентификатор учетного талона
+     * Get the 'AccountCodeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'AccountCodeID' element value. Идентификатор учетного талона
+     * Set the 'AccountCodeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
      * 
      * @param accountCodeID
      */
@@ -35,7 +35,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Get the 'AccountCodeNumber' element value. Номер учетного талона
+     * Get the 'AccountCodeNumber' element value. РќРѕРјРµСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'AccountCodeNumber' element value. Номер учетного талона
+     * Set the 'AccountCodeNumber' element value. РќРѕРјРµСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
      * 
      * @param accountCodeNumber
      */
@@ -53,7 +53,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Get the 'AccountCodeCreateDate' element value. Дата/время выдачи учетного талона
+     * Get the 'AccountCodeCreateDate' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РІС‹РґР°С‡Рё СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'AccountCodeCreateDate' element value. Дата/время выдачи учетного талона
+     * Set the 'AccountCodeCreateDate' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РІС‹РґР°С‡Рё СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
      * 
      * @param accountCodeCreateDate
      */
@@ -71,7 +71,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Get the 'InspectionID' element value. Идентификатор листа учета (связь с документом "Сведения из транспортного контроля")
+     * Get the 'InspectionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° СѓС‡РµС‚Р° (СЃРІСЏР·СЊ СЃ РґРѕРєСѓРјРµРЅС‚РѕРј "РЎРІРµРґРµРЅРёСЏ РёР· С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ")
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'InspectionID' element value. Идентификатор листа учета (связь с документом "Сведения из транспортного контроля")
+     * Set the 'InspectionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° СѓС‡РµС‚Р° (СЃРІСЏР·СЊ СЃ РґРѕРєСѓРјРµРЅС‚РѕРј "РЎРІРµРґРµРЅРёСЏ РёР· С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ")
      * 
      * @param inspectionID
      */
@@ -89,7 +89,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Get the 'Information' element value. Примечание
+     * Get the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'Information' element value. Примечание
+     * Set the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param information
      */
@@ -107,7 +107,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Get the 'Driver' element value. Водитель
+     * Get the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'Driver' element value. Водитель
+     * Set the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
      * 
      * @param driver
      */
@@ -125,7 +125,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Get the 'AccountCodeEmployee' element value. Инспектор, выдавший Учетный талон
+     * Get the 'AccountCodeEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РІС‹РґР°РІС€РёР№ РЈС‡РµС‚РЅС‹Р№ С‚Р°Р»РѕРЅ
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class AccountCodeType
     }
 
     /** 
-     * Set the 'AccountCodeEmployee' element value. Инспектор, выдавший Учетный талон
+     * Set the 'AccountCodeEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РІС‹РґР°РІС€РёР№ РЈС‡РµС‚РЅС‹Р№ С‚Р°Р»РѕРЅ
      * 
      * @param accountCodeEmployee
      */

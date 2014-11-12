@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
 
 /** 
- * Уведомление об отмене рейса
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РѕС‚РјРµРЅРµ СЂРµР№СЃР°
  */
 public class NoticeCanceledFlightType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NoticeDate' element value. Дата уведомления
+     * Get the 'NoticeDate' element value. Р”Р°С‚Р° СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Set the 'NoticeDate' element value. Дата уведомления
+     * Set the 'NoticeDate' element value. Р”Р°С‚Р° СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param noticeDate
      */
@@ -37,7 +37,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Get the 'NoticeTime' element value. Время уведомления
+     * Get the 'NoticeTime' element value. Р’СЂРµРјСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Set the 'NoticeTime' element value. Время уведомления
+     * Set the 'NoticeTime' element value. Р’СЂРµРјСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param noticeTime
      */
@@ -55,7 +55,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reasons' element value. Причины
+     * Get the 'Reasons' element value. РџСЂРёС‡РёРЅС‹
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reasons' element value. Причины
+     * Set the 'Reasons' element value. РџСЂРёС‡РёРЅС‹
      * 
      * @param reasons
      */
@@ -73,7 +73,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Get the 'Flight' element value. Сведения об отмененном рейсе
+     * Get the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РјРµРЅРµРЅРЅРѕРј СЂРµР№СЃРµ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Set the 'Flight' element value. Сведения об отмененном рейсе
+     * Set the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РјРµРЅРµРЅРЅРѕРј СЂРµР№СЃРµ
      * 
      * @param flight
      */
@@ -91,7 +91,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. Таможенный орган
+     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. Таможенный орган
+     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customsOffice
      */
@@ -109,7 +109,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class NoticeCanceledFlightType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

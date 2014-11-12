@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.packagepts;
 import org.joda.time.LocalDate;
 
 /** 
- * ТПО
+ * РўРџРћ
  */
 public class TPOIDType
 {
@@ -13,7 +13,7 @@ public class TPOIDType
     private String TPONumber;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TPOIDType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class TPOIDType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата регистрации документа.
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TPOIDType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата регистрации документа.
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class TPOIDType
     }
 
     /** 
-     * Get the 'TPONumber' element value. Номер ТПО
+     * Get the 'TPONumber' element value. РќРѕРјРµСЂ РўРџРћ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TPOIDType
     }
 
     /** 
-     * Set the 'TPONumber' element value. Номер ТПО
+     * Set the 'TPONumber' element value. РќРѕРјРµСЂ РўРџРћ
      * 
      * @param TPONumber
      */

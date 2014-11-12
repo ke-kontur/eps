@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Условия отбора проб или образцов
+ * РЈСЃР»РѕРІРёСЏ РѕС‚Р±РѕСЂР° РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
  */
 public class TermsThievingSamplingType
 {
@@ -17,7 +17,7 @@ public class TermsThievingSamplingType
     private AddressThievingSamplingType addressThievingSampling;
 
     /** 
-     * Get the 'Weather' element value. Погода
+     * Get the 'Weather' element value. РџРѕРіРѕРґР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Set the 'Weather' element value. Погода
+     * Set the 'Weather' element value. РџРѕРіРѕРґР°
      * 
      * @param weather
      */
@@ -35,7 +35,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Get the 'Light' element value. Освещение: 0 - искусственное; 1 - естественное
+     * Get the 'Light' element value. РћСЃРІРµС‰РµРЅРёРµ: 0 - РёСЃРєСѓСЃСЃС‚РІРµРЅРЅРѕРµ; 1 - РµСЃС‚РµСЃС‚РІРµРЅРЅРѕРµ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Set the 'Light' element value. Освещение: 0 - искусственное; 1 - естественное
+     * Set the 'Light' element value. РћСЃРІРµС‰РµРЅРёРµ: 0 - РёСЃРєСѓСЃСЃС‚РІРµРЅРЅРѕРµ; 1 - РµСЃС‚РµСЃС‚РІРµРЅРЅРѕРµ
      * 
      * @param light
      */
@@ -53,7 +53,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Get the list of 'Arrangement' element items. Описание научно - технических и технических средств, применяемых при отборе проб или образцов
+     * Get the list of 'Arrangement' element items. РћРїРёСЃР°РЅРёРµ РЅР°СѓС‡РЅРѕ - С‚РµС…РЅРёС‡РµСЃРєРёС… Рё С‚РµС…РЅРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ, РїСЂРёРјРµРЅСЏРµРјС‹С… РїСЂРё РѕС‚Р±РѕСЂРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Set the list of 'Arrangement' element items. Описание научно - технических и технических средств, применяемых при отборе проб или образцов
+     * Set the list of 'Arrangement' element items. РћРїРёСЃР°РЅРёРµ РЅР°СѓС‡РЅРѕ - С‚РµС…РЅРёС‡РµСЃРєРёС… Рё С‚РµС…РЅРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ, РїСЂРёРјРµРЅСЏРµРјС‹С… РїСЂРё РѕС‚Р±РѕСЂРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Get the 'Sample' element value. Отобраны: 0 - образцы; 1 - пробы
+     * Get the 'Sample' element value. РћС‚РѕР±СЂР°РЅС‹: 0 - РѕР±СЂР°Р·С†С‹; 1 - РїСЂРѕР±С‹
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Set the 'Sample' element value. Отобраны: 0 - образцы; 1 - пробы
+     * Set the 'Sample' element value. РћС‚РѕР±СЂР°РЅС‹: 0 - РѕР±СЂР°Р·С†С‹; 1 - РїСЂРѕР±С‹
      * 
      * @param sample
      */
@@ -89,7 +89,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -107,7 +107,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Get the 'AddressThievingSampling' element value. Адрес, по которому проводился отбор проб или образцов
+     * Get the 'AddressThievingSampling' element value. РђРґСЂРµСЃ, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРѕРґРёР»СЃСЏ РѕС‚Р±РѕСЂ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class TermsThievingSamplingType
     }
 
     /** 
-     * Set the 'AddressThievingSampling' element value. Адрес, по которому проводился отбор проб или образцов
+     * Set the 'AddressThievingSampling' element value. РђРґСЂРµСЃ, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРѕРґРёР»СЃСЏ РѕС‚Р±РѕСЂ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @param addressThievingSampling
      */

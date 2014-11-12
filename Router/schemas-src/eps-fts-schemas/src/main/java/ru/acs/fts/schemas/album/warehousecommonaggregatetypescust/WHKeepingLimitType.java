@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Комплексный тип для описания cведений о сроке хранения товаров
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ cРІРµРґРµРЅРёР№ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
  */
 public class WHKeepingLimitType
 {
@@ -14,7 +14,7 @@ public class WHKeepingLimitType
     private LocalDate deadLineDate;
 
     /** 
-     * Get the 'AcceptDate' element value. Дата приема товара на хранение 
+     * Get the 'AcceptDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Set the 'AcceptDate' element value. Дата приема товара на хранение 
+     * Set the 'AcceptDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ 
      * 
      * @param acceptDate
      */
@@ -32,7 +32,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Get the 'AcceptTime' element value. Время приема товара на хранение
+     * Get the 'AcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Set the 'AcceptTime' element value. Время приема товара на хранение
+     * Set the 'AcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ
      * 
      * @param acceptTime
      */
@@ -50,7 +50,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Get the 'StoringDateType' element value. Тип срока хранения  по справочнику
+     * Get the 'StoringDateType' element value. РўРёРї СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ  РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Set the 'StoringDateType' element value. Тип срока хранения  по справочнику
+     * Set the 'StoringDateType' element value. РўРёРї СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ  РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
      * 
      * @param storingDateType
      */
@@ -68,7 +68,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Get the 'DeadLineDate' element value. Дата истечения срока хранения
+     * Get the 'DeadLineDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class WHKeepingLimitType
     }
 
     /** 
-     * Set the 'DeadLineDate' element value. Дата истечения срока хранения
+     * Set the 'DeadLineDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ
      * 
      * @param deadLineDate
      */

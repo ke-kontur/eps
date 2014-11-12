@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * СКВВ. Сведения о товаре 
+ * РЎРљР’Р’. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ 
  */
 public class SCVVGoodsType extends GoodsBaseType
 {
@@ -14,7 +14,7 @@ public class SCVVGoodsType extends GoodsBaseType
     private SupplementaryQuantityType supplementaryGoodsQuantity;
 
     /** 
-     * Get the 'Amount' element value. Таможенная стоимость товара
+     * Get the 'Amount' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class SCVVGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Amount' element value. Таможенная стоимость товара
+     * Set the 'Amount' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param amount
      */
@@ -32,7 +32,7 @@ public class SCVVGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsAddTNVEDCode' element value. Код товара по  классификатору дополнительной таможенной информации.
+     * Get the 'GoodsAddTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class SCVVGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsAddTNVEDCode' element value. Код товара по  классификатору дополнительной таможенной информации.
+     * Set the 'GoodsAddTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
      * 
      * @param goodsAddTNVEDCode
      */
@@ -50,7 +50,7 @@ public class SCVVGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. Количество в дополнительной единице измерения.
+     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class SCVVGoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. Количество в дополнительной единице измерения.
+     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @param supplementaryGoodsQuantity
      */

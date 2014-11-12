@@ -1,0 +1,120 @@
+<binding xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_cu="urn:customs.ru:Information:TransportDocuments:CUTransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3" default="elements" prefix="catTrans_ru"/>
+  <mapping abstract="true" type-name="catTrans_ru:AWBNumberType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType">
+    <value style="element" name="AirlineIATACode" get-method="getAirlineIATACode" set-method="setAirlineIATACode" usage="optional"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <value style="element" name="AirlineSign" get-method="getAirlineSign" set-method="setAirlineSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:AirportType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType">
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+    <value style="element" name="IATACode" get-method="getIATACode" set-method="setIATACode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:DimensionsType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.DimensionsType">
+    <value style="element" name="Lenght" get-method="getLenght" set-method="setLenght"/>
+    <value style="element" name="Wight" get-method="getWight" set-method="setWight"/>
+    <value style="element" name="FullyLoaded" get-method="getFullyLoaded" set-method="setFullyLoaded"/>
+    <value style="element" name="Empty" get-method="getEmpty" set-method="setEmpty"/>
+    <value style="element" name="MaximumHeight" get-method="getMaximumHeight" set-method="setMaximumHeight"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:DocumentType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.DocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="ModeCode" get-method="getModeCode" set-method="setModeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:FlightInfoType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType">
+    <value style="element" name="FlightNumber" get-method="getFlightNumber" set-method="setFlightNumber"/>
+    <value style="element" name="FlightDate" get-method="getFlightDate" set-method="setFlightDate" format="LocalDate.default"/>
+    <value style="element" name="Mark" get-method="getMark" set-method="setMark" usage="optional"/>
+    <value style="element" name="AirPlaneRegNum" get-method="getAirPlaneRegNum" set-method="setAirPlaneRegNum" usage="optional"/>
+    <value style="element" name="FlightTime" get-method="getFlightTime" set-method="setFlightTime" usage="optional"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDepartureAirport" set-method="setDepartureAirport" name="DepartureAirport"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:MainMachineType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.MainMachineType">
+    <value style="element" name="Type" get-method="getType" set-method="setType"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="Power" get-method="getPower" set-method="setPower"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:PortGoodsType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.PortGoodsType">
+    <structure map-as="cat_ru:TransportGoodsBaseType"/>
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="Dimensions" get-method="getDimensions" set-method="setDimensions" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:PortType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.PortType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:RoutigInfoType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.RoutigInfoType">
+    <value style="element" name="NumPP" get-method="getNumPP" set-method="setNumPP"/>
+    <value style="element" name="CarrierName" get-method="getCarrierName" set-method="setCarrierName" usage="optional"/>
+    <value style="element" name="CarrierCode" get-method="getCarrierCode" set-method="setCarrierCode" usage="optional"/>
+    <value style="element" name="FlightNumber" get-method="getFlightNumber" set-method="setFlightNumber" usage="optional"/>
+    <value style="element" name="FlightDate" get-method="getFlightDate" set-method="setFlightDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getAirport" set-method="setAirport" usage="optional" name="Airport"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:ShipDataType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.ShipDataType">
+    <value style="element" name="IDVessel" get-method="getIDVessel" set-method="setIDVessel"/>
+    <value style="element" name="Name" get-method="getName" set-method="setName" usage="optional"/>
+    <value style="element" name="RegNumder" get-method="getRegNumder" set-method="setRegNumder" usage="optional"/>
+    <collection get-method="getTypeFunctionList" set-method="setTypeFunctionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="TypeFunction" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Class" get-method="get_Class" set-method="set_Class"/>
+    <value style="element" name="Project" get-method="getProject" set-method="setProject"/>
+    <value style="element" name="Year" get-method="getYear" set-method="setYear" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace" usage="optional"/>
+    <value style="element" name="HousingMaterial" get-method="getHousingMaterial" set-method="setHousingMaterial"/>
+    <value style="element" name="Capacity" get-method="getCapacity" set-method="setCapacity"/>
+    <value style="element" name="Passenger" get-method="getPassenger" set-method="setPassenger"/>
+    <value style="element" name="PreviousName" get-method="getPreviousName" set-method="setPreviousName" usage="optional"/>
+    <structure map-as="catTrans_ru:MainMachineType" get-method="getMainMachine" set-method="setMainMachine" name="MainMachine"/>
+    <structure map-as="catTrans_ru:DimensionsType" get-method="getDimensions" set-method="setDimensions" name="Dimensions"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPreviousPlaceResidence" set-method="setPreviousPlaceResidence" usage="optional" name="PreviousPlaceResidence"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:ShortCountryDescType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.ShortCountryDescType">
+    <value style="element" name="ShortName" get-method="getShortName" set-method="setShortName"/>
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:TDGoodsBaseType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TDGoodsBaseType">
+    <structure map-as="cat_ru:TransportGoodsBaseType"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <value style="element" name="SupplementaryGoodsQuantity" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="SupplementaryMeasureUnitCode" get-method="getSupplementaryMeasureUnitCode" set-method="setSupplementaryMeasureUnitCode" usage="optional"/>
+    <value style="element" name="InvoicedCost" get-method="getInvoicedCost" set-method="setInvoicedCost" usage="optional"/>
+    <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+    <value style="element" name="DocumentKind" get-method="getDocumentKind" set-method="setDocumentKind" usage="optional"/>
+    <value style="element" name="PrecedingDocumentNumber" get-method="getPrecedingDocumentNumber" set-method="setPrecedingDocumentNumber" usage="optional"/>
+    <collection get-method="getPlacesInfoList" set-method="setPlacesInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:TRPackingInfoType" name="PlacesInfo"/>
+    </collection>
+    <collection get-method="getPackingInfoList" set-method="setPackingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:TRPackingInfoType" name="PackingInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:TDGuaranteeType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TDGuaranteeType">
+    <value style="element" name="MeasureCode" get-method="getMeasureCode" set-method="setMeasureCode"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber" usage="optional"/>
+    <value style="element" name="IssueDate" get-method="getIssueDate" set-method="setIssueDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:TDTransportMeansType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TDTransportMeansType">
+    <value style="element" name="TMNumber" get-method="getTMNumber" set-method="setTMNumber" usage="optional"/>
+    <value style="element" name="VINID" get-method="getVINID" set-method="setVINID" usage="optional"/>
+    <value style="element" name="ModeCode" get-method="getModeCode" set-method="setModeCode" usage="optional"/>
+    <value style="element" name="NationalityCode" get-method="getNationalityCode" set-method="setNationalityCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:TransportGoodsType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TransportGoodsType">
+    <structure map-as="cat_ru:TransportGoodsBaseType"/>
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric" usage="optional"/>
+    <value style="element" name="GoodsNomenclatureCode" get-method="getGoodsNomenclatureCode" set-method="setGoodsNomenclatureCode" usage="optional"/>
+    <collection get-method="getHazardousCargoCodeList" set-method="setHazardousCargoCodeList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="HazardousCargoCode" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="VolumeQuantity" get-method="getVolumeQuantity" set-method="setVolumeQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catTrans_ru:VesselType" class="ru.acs.fts.schemas.album.transportcommonaggregatetypescust.VesselType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Shipmaster" get-method="getShipmaster" set-method="setShipmaster" usage="optional"/>
+    <value style="element" name="NationalityCode" get-method="getNationalityCode" set-method="setNationalityCode" usage="optional"/>
+  </mapping>
+</binding>

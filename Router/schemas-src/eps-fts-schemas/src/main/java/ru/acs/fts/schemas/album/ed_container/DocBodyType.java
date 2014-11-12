@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.ed_container;
 
 /** 
- * Документ, подписанный  ЭЦП
+ * Р”РѕРєСѓРјРµРЅС‚, РїРѕРґРїРёСЃР°РЅРЅС‹Р№  Р­Р¦Рџ
  */
 public class DocBodyType
 {
     private Object any;
 
     /** 
-     * Get the 'DocBodyType' complexType value. Документ, подписанный  ЭЦП
+     * Get the 'DocBodyType' complexType value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґРїРёСЃР°РЅРЅС‹Р№  Р­Р¦Рџ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class DocBodyType
     }
 
     /** 
-     * Set the 'DocBodyType' complexType value. Документ, подписанный  ЭЦП
+     * Set the 'DocBodyType' complexType value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґРїРёСЃР°РЅРЅС‹Р№  Р­Р¦Рџ
      * 
      * @param any
      */

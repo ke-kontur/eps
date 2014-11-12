@@ -3,10 +3,9 @@ package ru.acs.fts.schemas.album.represappliccustomsmark;
 
 import java.util.ArrayList;
 import java.util.List;
-import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType
 {
@@ -14,10 +13,9 @@ public class GoodsType
     private List<String> goodsDescriptionList = new ArrayList<String>();
     private String goodsTNVEDCode;
     private String comments;
-    private DocumentBaseType TPOInfo;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
+     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -26,7 +24,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
+     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @param goodsNumeric
      */
@@ -35,7 +33,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -44,7 +42,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -53,7 +51,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -62,7 +60,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -71,7 +69,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Comments' element value. Примечание
+     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -80,29 +78,11 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Comments' element value. Примечание
+     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param comments
      */
     public void setComments(String comments) {
         this.comments = comments;
-    }
-
-    /** 
-     * Get the 'TPOInfo' element value. Сведения о ТПО
-     * 
-     * @return value
-     */
-    public DocumentBaseType getTPOInfo() {
-        return TPOInfo;
-    }
-
-    /** 
-     * Set the 'TPOInfo' element value. Сведения о ТПО
-     * 
-     * @param TPOInfo
-     */
-    public void setTPOInfo(DocumentBaseType TPOInfo) {
-        this.TPOInfo = TPOInfo;
     }
 }

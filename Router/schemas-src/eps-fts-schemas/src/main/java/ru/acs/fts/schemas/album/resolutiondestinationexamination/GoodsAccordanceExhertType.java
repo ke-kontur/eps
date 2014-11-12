@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Материалы, предоставленные эксперту
+ * РњР°С‚РµСЂРёР°Р»С‹, РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ СЌРєСЃРїРµСЂС‚Сѓ
  */
 public class GoodsAccordanceExhertType
 {
@@ -14,7 +14,7 @@ public class GoodsAccordanceExhertType
     private List<DocumentBaseType> documentList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'ListSample' element items. Перечень проб и образцов
+     * Get the list of 'ListSample' element items. РџРµСЂРµС‡РµРЅСЊ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsAccordanceExhertType
     }
 
     /** 
-     * Set the list of 'ListSample' element items. Перечень проб и образцов
+     * Set the list of 'ListSample' element items. РџРµСЂРµС‡РµРЅСЊ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsAccordanceExhertType
     }
 
     /** 
-     * Get the list of 'Documents' element items. Документы, приложенные к пробам и образцам
+     * Get the list of 'Documents' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїСЂРёР»РѕР¶РµРЅРЅС‹Рµ Рє РїСЂРѕР±Р°Рј Рё РѕР±СЂР°Р·С†Р°Рј
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class GoodsAccordanceExhertType
     }
 
     /** 
-     * Set the list of 'Documents' element items. Документы, приложенные к пробам и образцам
+     * Set the list of 'Documents' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїСЂРёР»РѕР¶РµРЅРЅС‹Рµ Рє РїСЂРѕР±Р°Рј Рё РѕР±СЂР°Р·С†Р°Рј
      * 
      * @param list
      */

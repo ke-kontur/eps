@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Отчет по выявленным рискам
+ * РћС‚С‡РµС‚ РїРѕ РІС‹СЏРІР»РµРЅРЅС‹Рј СЂРёСЃРєР°Рј
  */
 public class RevealedRisksType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class RevealedRisksType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ, к которой относятся выявленные риски. Заполняется при использовании электронной формы декларирования.
+     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ РІС‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ, к которой относятся выявленные риски. Заполняется при использовании электронной формы декларирования.
+     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ РІС‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @param GTDDocumentID
      */
@@ -36,7 +36,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RevealledRisks' element items. ДТ - выявленные риски
+     * Get the list of 'RevealledRisks' element items. Р”Рў - РІС‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё
      * 
      * @return list
      */
@@ -45,7 +45,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RevealledRisks' element items. ДТ - выявленные риски
+     * Set the list of 'RevealledRisks' element items. Р”Рў - РІС‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё
      * 
      * @param list
      */
@@ -54,7 +54,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков
+     * Get the list of 'RiskInf' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков
+     * Set the list of 'RiskInf' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param GTDID
      */
@@ -90,7 +90,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

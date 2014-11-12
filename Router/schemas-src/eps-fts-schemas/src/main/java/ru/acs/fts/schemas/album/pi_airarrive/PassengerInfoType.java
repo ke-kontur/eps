@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.pi_airarrive;
 
 /** 
- * Сведения о пассажире
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
  */
 public class PassengerInfoType
 {
@@ -11,7 +11,7 @@ public class PassengerInfoType
     private AirportInfoType destinationAirport;
 
     /** 
-     * Get the 'PassengersName' element value. ФИО пассажира
+     * Get the 'PassengersName' element value. Р¤РРћ РїР°СЃСЃР°Р¶РёСЂР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'PassengersName' element value. ФИО пассажира
+     * Set the 'PassengersName' element value. Р¤РРћ РїР°СЃСЃР°Р¶РёСЂР°
      * 
      * @param passengersName
      */
@@ -29,7 +29,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'DepatureAirport' element value. Пункт посадки пассажира(аэропорт вылета)
+     * Get the 'DepatureAirport' element value. РџСѓРЅРєС‚ РїРѕСЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР°(Р°СЌСЂРѕРїРѕСЂС‚ РІС‹Р»РµС‚Р°)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'DepatureAirport' element value. Пункт посадки пассажира(аэропорт вылета)
+     * Set the 'DepatureAirport' element value. РџСѓРЅРєС‚ РїРѕСЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР°(Р°СЌСЂРѕРїРѕСЂС‚ РІС‹Р»РµС‚Р°)
      * 
      * @param depatureAirport
      */
@@ -47,7 +47,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. Пункт высадки пассажира (аэропорт назначения)
+     * Get the 'DestinationAirport' element value. РџСѓРЅРєС‚ РІС‹СЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР° (Р°СЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. Пункт высадки пассажира (аэропорт назначения)
+     * Set the 'DestinationAirport' element value. РџСѓРЅРєС‚ РІС‹СЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР° (Р°СЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ)
      * 
      * @param destinationAirport
      */

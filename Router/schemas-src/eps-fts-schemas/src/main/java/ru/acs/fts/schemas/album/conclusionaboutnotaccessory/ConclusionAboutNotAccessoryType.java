@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Заключение ФСВТС России
+ * Р—Р°РєР»СЋС‡РµРЅРёРµ Р¤РЎР’РўРЎ Р РѕСЃСЃРёРё
  */
 public class ConclusionAboutNotAccessoryType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -40,7 +40,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование и описание товара
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -49,7 +49,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование и описание товара
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -58,7 +58,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conclusion' element value. Заключение
+     * Get the 'Conclusion' element value. Р—Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conclusion' element value. Заключение
+     * Set the 'Conclusion' element value. Р—Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @param conclusion
      */
@@ -76,7 +76,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractInfo' element value. Реквизиты контракта
+     * Get the 'ContractInfo' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractInfo' element value. Реквизиты контракта
+     * Set the 'ContractInfo' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractInfo
      */
@@ -94,7 +94,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConclusionReceiver' element value. Организация, получившая заключение
+     * Get the 'ConclusionReceiver' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РїРѕР»СѓС‡РёРІС€Р°СЏ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConclusionReceiver' element value. Организация, получившая заключение
+     * Set the 'ConclusionReceiver' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РїРѕР»СѓС‡РёРІС€Р°СЏ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @param conclusionReceiver
      */
@@ -112,7 +112,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
+     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
+     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @param authorizedPerson
      */
@@ -130,7 +130,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class ConclusionAboutNotAccessoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

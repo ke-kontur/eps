@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Доверитель
+ * Р”РѕРІРµСЂРёС‚РµР»СЊ
  */
 public class PrincipalType extends OrganizationBaseType
 {
@@ -15,7 +15,7 @@ public class PrincipalType extends OrganizationBaseType
     private AddressType address;
 
     /** 
-     * Get the 'ITN' element value. ИТН
+     * Get the 'ITN' element value. РРўРќ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class PrincipalType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ITN' element value. ИТН
+     * Set the 'ITN' element value. РРўРќ
      * 
      * @param ITN
      */
@@ -33,7 +33,7 @@ public class PrincipalType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class PrincipalType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -51,7 +51,7 @@ public class PrincipalType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес организации / физического лица
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class PrincipalType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации / физического лица
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param address
      */

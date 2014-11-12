@@ -3,7 +3,7 @@ package ru.acs.fts.schemas.envelope;
 
 /** 
  * 
- Электронно-цифровая подпись.
+ Р­Р»РµРєС‚СЂРѕРЅРЅРѕ-С†РёС„СЂРѕРІР°СЏ РїРѕРґРїРёСЃСЊ.
 
  * 
  * Schema fragment(s) for this class:

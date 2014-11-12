@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.aud.audcommonleaftypescust.AUDDocumentVersionsRequestT
 import ru.acs.fts.schemas.aud.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Запрос на извлечение пакета (пакетов) документов архива.
+ * Р—Р°РїСЂРѕСЃ РЅР° РёР·РІР»РµС‡РµРЅРёРµ РїР°РєРµС‚Р° (РїР°РєРµС‚РѕРІ) РґРѕРєСѓРјРµРЅС‚РѕРІ Р°СЂС…РёРІР°.
  */
 public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
 {
@@ -23,7 +23,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentVersionsRequirements' element value. Указывает, какие версии документов пакета требуется предоставить.
+     * Get the 'DocumentVersionsRequirements' element value. РЈРєР°Р·С‹РІР°РµС‚, РєР°РєРёРµ РІРµСЂСЃРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РїР°РєРµС‚Р° С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ.
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentVersionsRequirements' element value. Указывает, какие версии документов пакета требуется предоставить.
+     * Set the 'DocumentVersionsRequirements' element value. РЈРєР°Р·С‹РІР°РµС‚, РєР°РєРёРµ РІРµСЂСЃРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РїР°РєРµС‚Р° С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ.
      * 
      * @param documentVersionsRequirements
      */
@@ -67,7 +67,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'AppliedPacketId' element value. Прикладной идентификатор пакета документов.
+     * Get the 'AppliedPacketId' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'AppliedPacketId' element value. Прикладной идентификатор пакета документов.
+     * Set the 'AppliedPacketId' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @param appliedPacketId
      */
@@ -95,7 +95,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'ArchivePacketId' element value. Архивный идентификатор пакета документов.
+     * Get the 'ArchivePacketId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'ArchivePacketId' element value. Архивный идентификатор пакета документов.
+     * Set the 'ArchivePacketId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @param archivePacketId
      */
@@ -123,7 +123,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'GTDID' element value. Номер ГТД к которой принадлежит данный  пакет
+     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р“РўР” Рє РєРѕС‚РѕСЂРѕР№ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґР°РЅРЅС‹Р№  РїР°РєРµС‚
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'GTDID' element value. Номер ГТД к которой принадлежит данный  пакет
+     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р“РўР” Рє РєРѕС‚РѕСЂРѕР№ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґР°РЅРЅС‹Р№  РїР°РєРµС‚
      * 
      * @param GTDID
      */
@@ -142,7 +142,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentDataPresenceInfo' element value. Признаки необходимости предоставления отдельных данных, связанных с документом.
+     * Get the 'DocumentDataPresenceInfo' element value. РџСЂРёР·РЅР°РєРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… РґР°РЅРЅС‹С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РґРѕРєСѓРјРµРЅС‚РѕРј.
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentDataPresenceInfo' element value. Признаки необходимости предоставления отдельных данных, связанных с документом.
+     * Set the 'DocumentDataPresenceInfo' element value. РџСЂРёР·РЅР°РєРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… РґР°РЅРЅС‹С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РґРѕРєСѓРјРµРЅС‚РѕРј.
      * 
      * @param documentDataPresenceInfo
      */
@@ -161,7 +161,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class AUDGetPacketRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

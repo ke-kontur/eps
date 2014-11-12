@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о предметах, взятых в качестве проб или образцов.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРµРґРјРµС‚Р°С…, РІР·СЏС‚С‹С… РІ РєР°С‡РµСЃС‚РІРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ.
  */
 public class InfoObjectType
 {
@@ -17,7 +17,7 @@ public class InfoObjectType
     private String currency;
 
     /** 
-     * Get the 'Position' element value. Порядковый номер
+     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Set the 'Position' element value. Порядковый номер
+     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param position
      */
@@ -35,7 +35,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Get the list of 'NameOdject' element items. Наименование, индивидуальные признаки предметов, взятых в качестве проб или образцов.
+     * Get the list of 'NameOdject' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ, РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РїСЂРёР·РЅР°РєРё РїСЂРµРґРјРµС‚РѕРІ, РІР·СЏС‚С‹С… РІ РєР°С‡РµСЃС‚РІРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ.
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Set the list of 'NameOdject' element items. Наименование, индивидуальные признаки предметов, взятых в качестве проб или образцов.
+     * Set the list of 'NameOdject' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ, РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РїСЂРёР·РЅР°РєРё РїСЂРµРґРјРµС‚РѕРІ, РІР·СЏС‚С‹С… РІ РєР°С‡РµСЃС‚РІРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ.
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Get the 'QuantityWeight' element value. Количество, вес
+     * Get the 'QuantityWeight' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ, РІРµСЃ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Set the 'QuantityWeight' element value. Количество, вес
+     * Set the 'QuantityWeight' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ, РІРµСЃ
      * 
      * @param quantityWeight
      */
@@ -71,7 +71,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Get the 'Unit' element value. Единица измерения 
+     * Get the 'Unit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ 
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Set the 'Unit' element value. Единица измерения 
+     * Set the 'Unit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ 
      * 
      * @param unit
      */
@@ -89,7 +89,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Get the 'Cost' element value. Стоимость
+     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Set the 'Cost' element value. Стоимость
+     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param cost
      */
@@ -107,7 +107,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Get the 'Currency' element value. Валюта
+     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р°
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class InfoObjectType
     }
 
     /** 
-     * Set the 'Currency' element value. Валюта
+     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р°
      * 
      * @param currency
      */

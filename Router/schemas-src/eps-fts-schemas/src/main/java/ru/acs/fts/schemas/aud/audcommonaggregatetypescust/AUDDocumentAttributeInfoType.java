@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 import ru.acs.fts.schemas.aud.audcommonleaftypescust.AUDDocumentAttributeValueKindType;
 
 /** 
- * Информация о реквизите документа.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р°.
  */
 public class AUDDocumentAttributeInfoType
         extends
@@ -14,7 +14,7 @@ public class AUDDocumentAttributeInfoType
     private AUDDocumentAttributeValueKindType valueKind;
 
     /** 
-     * Get the 'Description' element value. Название реквизита (краткое описание).
+     * Get the 'Description' element value. РќР°Р·РІР°РЅРёРµ СЂРµРєРІРёР·РёС‚Р° (РєСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ).
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AUDDocumentAttributeInfoType
     }
 
     /** 
-     * Set the 'Description' element value. Название реквизита (краткое описание).
+     * Set the 'Description' element value. РќР°Р·РІР°РЅРёРµ СЂРµРєРІРёР·РёС‚Р° (РєСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ).
      * 
      * @param description
      */
@@ -32,7 +32,7 @@ public class AUDDocumentAttributeInfoType
     }
 
     /** 
-     * Get the 'ValueKind' element value. Тип значения реквизита.
+     * Get the 'ValueKind' element value. РўРёРї Р·РЅР°С‡РµРЅРёСЏ СЂРµРєРІРёР·РёС‚Р°.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AUDDocumentAttributeInfoType
     }
 
     /** 
-     * Set the 'ValueKind' element value. Тип значения реквизита.
+     * Set the 'ValueKind' element value. РўРёРї Р·РЅР°С‡РµРЅРёСЏ СЂРµРєРІРёР·РёС‚Р°.
      * 
      * @param valueKind
      */

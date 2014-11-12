@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.semcommonaggregatetypescust;
 
 /** 
- * Неформализованные индикаторы профиля риска
+ * РќРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹Рµ РёРЅРґРёРєР°С‚РѕСЂС‹ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
  */
 public class RiskProfileDescriptionType
 {
@@ -10,7 +10,7 @@ public class RiskProfileDescriptionType
     private String description;
 
     /** 
-     * Get the 'Code' element value. Код неформализованного признака
+     * Get the 'Code' element value. РљРѕРґ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРіРѕ РїСЂРёР·РЅР°РєР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class RiskProfileDescriptionType
     }
 
     /** 
-     * Set the 'Code' element value. Код неформализованного признака
+     * Set the 'Code' element value. РљРѕРґ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРіРѕ РїСЂРёР·РЅР°РєР°
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class RiskProfileDescriptionType
     }
 
     /** 
-     * Get the 'Description' element value. Описание (значение) неформализованного признака
+     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ (Р·РЅР°С‡РµРЅРёРµ) РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРіРѕ РїСЂРёР·РЅР°РєР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RiskProfileDescriptionType
     }
 
     /** 
-     * Set the 'Description' element value. Описание (значение) неформализованного признака
+     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ (Р·РЅР°С‡РµРЅРёРµ) РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРіРѕ РїСЂРёР·РЅР°РєР°
      * 
      * @param description
      */

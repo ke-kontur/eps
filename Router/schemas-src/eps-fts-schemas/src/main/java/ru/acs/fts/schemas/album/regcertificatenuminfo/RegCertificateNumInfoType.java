@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDID5Type;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения о номере выданного сертификата.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ РІС‹РґР°РЅРЅРѕРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚Р°.
  */
 public class RegCertificateNumInfoType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -37,7 +37,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @param GRN
      */
@@ -55,7 +55,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. Номер сертификата
+     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. Номер сертификата
+     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param certificateNumber
      */
@@ -73,7 +73,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -91,7 +91,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
+     * Get the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
+     * Set the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param additionalNumber
      */
@@ -109,7 +109,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class RegCertificateNumInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

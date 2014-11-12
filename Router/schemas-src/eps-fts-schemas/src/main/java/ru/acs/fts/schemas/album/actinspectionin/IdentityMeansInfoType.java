@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Средства идентификации
+ * РЎСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
  */
 public class IdentityMeansInfoType
 {
@@ -16,7 +16,7 @@ public class IdentityMeansInfoType
     private List<IdentifyMeanType> identifyMeanList = new ArrayList<IdentifyMeanType>();
 
     /** 
-     * Get the 'IdentBeforeNum' element value. Кол-во средств идентификации до начала проведения досмотра (0 - без средств идентификации)
+     * Get the 'IdentBeforeNum' element value. РљРѕР»-РІРѕ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РґРѕ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР° (0 - Р±РµР· СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Set the 'IdentBeforeNum' element value. Кол-во средств идентификации до начала проведения досмотра (0 - без средств идентификации)
+     * Set the 'IdentBeforeNum' element value. РљРѕР»-РІРѕ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РґРѕ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР° (0 - Р±РµР· СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё)
      * 
      * @param identBeforeNum
      */
@@ -34,7 +34,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Get the 'IdentCrashFlag' element value. Признак нарушения средств идентификации ("0" - не нарушены, "1" - нарушены)
+     * Get the 'IdentCrashFlag' element value. РџСЂРёР·РЅР°Рє РЅР°СЂСѓС€РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё ("0" - РЅРµ РЅР°СЂСѓС€РµРЅС‹, "1" - РЅР°СЂСѓС€РµРЅС‹)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Set the 'IdentCrashFlag' element value. Признак нарушения средств идентификации ("0" - не нарушены, "1" - нарушены)
+     * Set the 'IdentCrashFlag' element value. РџСЂРёР·РЅР°Рє РЅР°СЂСѓС€РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё ("0" - РЅРµ РЅР°СЂСѓС€РµРЅС‹, "1" - РЅР°СЂСѓС€РµРЅС‹)
      * 
      * @param identCrashFlag
      */
@@ -52,7 +52,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Get the 'IdentEndNum' element value. Кол-во наложенных средств идентификации после проведения таможенного досмотра (0 - без средств идентификации)
+     * Get the 'IdentEndNum' element value. РљРѕР»-РІРѕ РЅР°Р»РѕР¶РµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РїРѕСЃР»Рµ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (0 - Р±РµР· СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё)
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Set the 'IdentEndNum' element value. Кол-во наложенных средств идентификации после проведения таможенного досмотра (0 - без средств идентификации)
+     * Set the 'IdentEndNum' element value. РљРѕР»-РІРѕ РЅР°Р»РѕР¶РµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РїРѕСЃР»Рµ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (0 - Р±РµР· СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё)
      * 
      * @param identEndNum
      */
@@ -70,7 +70,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Get the 'IdentMeansDesc' element value. Общие примечания по средствам идентификации
+     * Get the 'IdentMeansDesc' element value. РћР±С‰РёРµ РїСЂРёРјРµС‡Р°РЅРёСЏ РїРѕ СЃСЂРµРґСЃС‚РІР°Рј РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Set the 'IdentMeansDesc' element value. Общие примечания по средствам идентификации
+     * Set the 'IdentMeansDesc' element value. РћР±С‰РёРµ РїСЂРёРјРµС‡Р°РЅРёСЏ РїРѕ СЃСЂРµРґСЃС‚РІР°Рј РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param identMeansDesc
      */
@@ -88,7 +88,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Get the list of 'IdentifyMean' element items. Cредство идентификации
+     * Get the list of 'IdentifyMean' element items. CСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class IdentityMeansInfoType
     }
 
     /** 
-     * Set the list of 'IdentifyMean' element items. Cредство идентификации
+     * Set the list of 'IdentifyMean' element items. CСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param list
      */

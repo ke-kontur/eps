@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Паспорт гражданина РФ
+ * РџР°СЃРїРѕСЂС‚ РіСЂР°Р¶РґР°РЅРёРЅР° Р Р¤
  */
 public class PassportType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class PassportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CardSeries' element value. Серия паспорта
+     * Get the 'CardSeries' element value. РЎРµСЂРёСЏ РїР°СЃРїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CardSeries' element value. Серия паспорта
+     * Set the 'CardSeries' element value. РЎРµСЂРёСЏ РїР°СЃРїРѕСЂС‚Р°
      * 
      * @param cardSeries
      */
@@ -38,7 +38,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CardNumber' element value. Номер паспорта
+     * Get the 'CardNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CardNumber' element value. Номер паспорта
+     * Set the 'CardNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°
      * 
      * @param cardNumber
      */
@@ -56,7 +56,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование организации, выдавшей паспорт
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование организации, выдавшей паспорт
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
      * 
      * @param organizationName
      */
@@ -74,7 +74,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CardDate' element value. Дата выдачи паспорта
+     * Get the 'CardDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CardDate' element value. Дата выдачи паспорта
+     * Set the 'CardDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р°
      * 
      * @param cardDate
      */
@@ -92,7 +92,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrgCode' element value. Код подразделения организации, выдавшей паспорт
+     * Get the 'OrgCode' element value. РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrgCode' element value. Код подразделения организации, выдавшей паспорт
+     * Set the 'OrgCode' element value. РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
      * 
      * @param orgCode
      */
@@ -110,7 +110,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonInfo' element value. Сведения о физ. лице
+     * Get the 'PersonInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёР·. Р»РёС†Рµ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonInfo' element value. Сведения о физ. лице
+     * Set the 'PersonInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёР·. Р»РёС†Рµ
      * 
      * @param personInfo
      */
@@ -128,7 +128,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResidencePlace' element value. Место жительства
+     * Get the 'ResidencePlace' element value. РњРµСЃС‚Рѕ Р¶РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResidencePlace' element value. Место жительства
+     * Set the 'ResidencePlace' element value. РњРµСЃС‚Рѕ Р¶РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param residencePlace
      */
@@ -146,7 +146,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class PassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

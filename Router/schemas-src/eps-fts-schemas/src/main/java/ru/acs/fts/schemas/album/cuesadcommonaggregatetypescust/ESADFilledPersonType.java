@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о лице, заполнившем декларацию
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРµРєР»Р°СЂР°С†РёСЋ
  */
 public class ESADFilledPersonType extends PersonBaseType
 {
@@ -17,7 +17,7 @@ public class ESADFilledPersonType extends PersonBaseType
     private ContactType contact;
 
     /** 
-     * Get the 'QualificationCertificate' element value. Номер квалификационного аттестата специалиста по таможенному оформлению. Для РБ
+     * Get the 'QualificationCertificate' element value. РќРѕРјРµСЂ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р° СЃРїРµС†РёР°Р»РёСЃС‚Р° РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РѕС„РѕСЂРјР»РµРЅРёСЋ. Р”Р»СЏ Р Р‘
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'QualificationCertificate' element value. Номер квалификационного аттестата специалиста по таможенному оформлению. Для РБ
+     * Set the 'QualificationCertificate' element value. РќРѕРјРµСЂ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р° СЃРїРµС†РёР°Р»РёСЃС‚Р° РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РѕС„РѕСЂРјР»РµРЅРёСЋ. Р”Р»СЏ Р Р‘
      * 
      * @param qualificationCertificate
      */
@@ -35,7 +35,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'AuthoritesDocument' element value. Сведения о документе, удостоверяющем полномочия, о доверенности на совершение действий
+     * Get the 'AuthoritesDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏ, Рѕ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РЅР° СЃРѕРІРµСЂС€РµРЅРёРµ РґРµР№СЃС‚РІРёР№
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'AuthoritesDocument' element value. Сведения о документе, удостоверяющем полномочия, о доверенности на совершение действий
+     * Set the 'AuthoritesDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏ, Рѕ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РЅР° СЃРѕРІРµСЂС€РµРЅРёРµ РґРµР№СЃС‚РІРёР№
      * 
      * @param authoritesDocument
      */
@@ -53,7 +53,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -71,7 +71,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'Contact' element value. Контактная информация
+     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ESADFilledPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Contact' element value. Контактная информация
+     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param contact
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Заявление на продление сроков переработки товаров вне таможенной территории
+ * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєРѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class InqProlongInoTreatmentType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -40,7 +40,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Сведения о заявителе
+     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Сведения о заявителе
+     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param applicant
      */
@@ -58,7 +58,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChangeDate' element value. Описание предлагаемого срока продления
+     * Get the 'ChangeDate' element value. РћРїРёСЃР°РЅРёРµ РїСЂРµРґР»Р°РіР°РµРјРѕРіРѕ СЃСЂРѕРєР° РїСЂРѕРґР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChangeDate' element value. Описание предлагаемого срока продления
+     * Set the 'ChangeDate' element value. РћРїРёСЃР°РЅРёРµ РїСЂРµРґР»Р°РіР°РµРјРѕРіРѕ СЃСЂРѕРєР° РїСЂРѕРґР»РµРЅРёСЏ
      * 
      * @param changeDate
      */
@@ -76,7 +76,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -94,7 +94,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentBase' element items. Дополнительные документы
+     * Get the list of 'DocumentBase' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -103,7 +103,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentBase' element items. Дополнительные документы
+     * Set the list of 'DocumentBase' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -112,7 +112,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class InqProlongInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Отзыв разрешения на переработку товаров вне таможенной территории
+ * РћС‚Р·С‹РІ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class RecallInoTreatmentType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class RecallInoTreatmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PermitNumber' element value. Номер разрешения на переработку вне таможенной территории
+     * Get the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermitNumber' element value. Номер разрешения на переработку вне таможенной территории
+     * Set the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
      * 
      * @param permitNumber
      */
@@ -41,7 +41,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -59,7 +59,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecallBeginDate' element value. Дата вступления в силу отзыва
+     * Get the 'RecallBeginDate' element value. Р”Р°С‚Р° РІСЃС‚СѓРїР»РµРЅРёСЏ РІ СЃРёР»Сѓ РѕС‚Р·С‹РІР°
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecallBeginDate' element value. Дата вступления в силу отзыва
+     * Set the 'RecallBeginDate' element value. Р”Р°С‚Р° РІСЃС‚СѓРїР»РµРЅРёСЏ РІ СЃРёР»Сѓ РѕС‚Р·С‹РІР°
      * 
      * @param recallBeginDate
      */
@@ -77,7 +77,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -95,7 +95,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GovermentAct' element items. Акт Правительства Российской Федерации, на основании которого отзывается разрешение
+     * Get the list of 'GovermentAct' element items. РђРєС‚ РџСЂР°РІРёС‚РµР»СЊСЃС‚РІР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕС‚Р·С‹РІР°РµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GovermentAct' element items. Акт Правительства Российской Федерации, на основании которого отзывается разрешение
+     * Set the list of 'GovermentAct' element items. РђРєС‚ РџСЂР°РІРёС‚РµР»СЊСЃС‚РІР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕС‚Р·С‹РІР°РµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -131,7 +131,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -149,7 +149,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class RecallInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

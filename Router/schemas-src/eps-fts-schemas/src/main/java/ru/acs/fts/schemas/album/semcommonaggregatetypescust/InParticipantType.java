@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.BranchDescription
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADOrganizationInType;
 
 /** 
- * Участник таможенного процесса
+ * РЈС‡Р°СЃС‚РЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРѕС†РµСЃСЃР°
  */
 public class InParticipantType extends ESADOrganizationInType
 {
     private BranchDescriptionType branchDescription;
 
     /** 
-     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении.
+     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class InParticipantType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении.
+     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
      * 
      * @param branchDescription
      */

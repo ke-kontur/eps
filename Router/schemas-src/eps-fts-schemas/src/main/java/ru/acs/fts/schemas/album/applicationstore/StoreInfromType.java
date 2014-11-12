@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о припасах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРїР°СЃР°С…
  */
 public class StoreInfromType
 {
@@ -19,7 +19,7 @@ public class StoreInfromType
     private List<StrListGoodsType> consumerList = new ArrayList<StrListGoodsType>();
 
     /** 
-     * Get the 'DateMove' element value. Дата перемещения припасов
+     * Get the 'DateMove' element value. Р”Р°С‚Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the 'DateMove' element value. Дата перемещения припасов
+     * Set the 'DateMove' element value. Р”Р°С‚Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ
      * 
      * @param dateMove
      */
@@ -37,7 +37,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Get the 'TimeMove' element value. Время перемещения припасов
+     * Get the 'TimeMove' element value. Р’СЂРµРјСЏ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the 'TimeMove' element value. Время перемещения припасов
+     * Set the 'TimeMove' element value. Р’СЂРµРјСЏ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ
      * 
      * @param timeMove
      */
@@ -55,7 +55,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Get the list of 'StoreActions' element items. Предполагаемые действия с припасами
+     * Get the list of 'StoreActions' element items. РџСЂРµРґРїРѕР»Р°РіР°РµРјС‹Рµ РґРµР№СЃС‚РІРёСЏ СЃ РїСЂРёРїР°СЃР°РјРё
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the list of 'StoreActions' element items. Предполагаемые действия с припасами
+     * Set the list of 'StoreActions' element items. РџСЂРµРґРїРѕР»Р°РіР°РµРјС‹Рµ РґРµР№СЃС‚РІРёСЏ СЃ РїСЂРёРїР°СЃР°РјРё
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Get the 'PlaceMove' element value. Место перемещения
+     * Get the 'PlaceMove' element value. РњРµСЃС‚Рѕ РїРµСЂРµРјРµС‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the 'PlaceMove' element value. Место перемещения
+     * Set the 'PlaceMove' element value. РњРµСЃС‚Рѕ РїРµСЂРµРјРµС‰РµРЅРёСЏ
      * 
      * @param placeMove
      */
@@ -91,7 +91,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Get the list of 'Operating' element items. Эксплуатационные припасы
+     * Get the list of 'Operating' element items. Р­РєСЃРїР»СѓР°С‚Р°С†РёРѕРЅРЅС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the list of 'Operating' element items. Эксплуатационные припасы
+     * Set the list of 'Operating' element items. Р­РєСЃРїР»СѓР°С‚Р°С†РёРѕРЅРЅС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Get the 'Sold' element value. Продаваемые припасы
+     * Get the 'Sold' element value. РџСЂРѕРґР°РІР°РµРјС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the 'Sold' element value. Продаваемые припасы
+     * Set the 'Sold' element value. РџСЂРѕРґР°РІР°РµРјС‹Рµ РїСЂРёРїР°СЃС‹
      * 
      * @param sold
      */
@@ -127,7 +127,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Get the list of 'Consumer' element items. Потребительские припасы
+     * Get the list of 'Consumer' element items. РџРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ РїСЂРёРїР°СЃС‹
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class StoreInfromType
     }
 
     /** 
-     * Set the list of 'Consumer' element items. Потребительские припасы
+     * Set the list of 'Consumer' element items. РџРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ РїСЂРёРїР°СЃС‹
      * 
      * @param list
      */

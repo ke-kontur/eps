@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * Количество в дополнительной единице измерения
+ * РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
  */
 public class DTSSupplementaryQuantityType
 {
@@ -11,7 +11,7 @@ public class DTSSupplementaryQuantityType
     private String measureUnitQualifierCode;
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество товара в единице измерения
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSSupplementaryQuantityType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество товара в единице измерения
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsQuantity
      */
@@ -29,7 +29,7 @@ public class DTSSupplementaryQuantityType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. Условное обозначение единицы измерения
+     * Get the 'MeasureUnitQualifierName' element value. РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DTSSupplementaryQuantityType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. Условное обозначение единицы измерения
+     * Set the 'MeasureUnitQualifierName' element value. РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param measureUnitQualifierName
      */
@@ -47,7 +47,7 @@ public class DTSSupplementaryQuantityType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в ТН ВЭД ТС
+     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DTSSupplementaryQuantityType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в ТН ВЭД ТС
+     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param measureUnitQualifierCode
      */

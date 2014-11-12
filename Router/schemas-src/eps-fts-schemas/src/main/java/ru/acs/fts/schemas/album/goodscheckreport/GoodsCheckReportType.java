@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Отчёт о результатах сверки
+ * РћС‚С‡С‘С‚ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… СЃРІРµСЂРєРё
  */
 public class GoodsCheckReportType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class GoodsCheckReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Note' element items. Примечание, комментарий
+     * Get the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Note' element items. Примечание, комментарий
+     * Set the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган, проводивший сверку
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РїСЂРѕРІРѕРґРёРІС€РёР№ СЃРІРµСЂРєСѓ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган, проводивший сверку
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РїСЂРѕРІРѕРґРёРІС€РёР№ СЃРІРµСЂРєСѓ
      * 
      * @param customs
      */
@@ -55,7 +55,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо, проводившее сверку
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїСЂРѕРІРѕРґРёРІС€РµРµ СЃРІРµСЂРєСѓ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо, проводившее сверку
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїСЂРѕРІРѕРґРёРІС€РµРµ СЃРІРµСЂРєСѓ
      * 
      * @param customsPerson
      */
@@ -73,7 +73,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsCheckTable' element items. Таблица сверки
+     * Get the list of 'GoodsCheckTable' element items. РўР°Р±Р»РёС†Р° СЃРІРµСЂРєРё
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsCheckTable' element items. Таблица сверки
+     * Set the list of 'GoodsCheckTable' element items. РўР°Р±Р»РёС†Р° СЃРІРµСЂРєРё
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GoodsCheckReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

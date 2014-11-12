@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class GoodsInfoType
 {
@@ -17,7 +17,7 @@ public class GoodsInfoType
     private PlaceType factStation;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -35,7 +35,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'Container' element items. Контейнер
+     * Get the list of 'Container' element items. РљРѕРЅС‚РµР№РЅРµСЂ
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'Container' element items. Контейнер
+     * Set the list of 'Container' element items. РљРѕРЅС‚РµР№РЅРµСЂ
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'ETSNG' element value. Код ЕТСНГ
+     * Get the 'ETSNG' element value. РљРѕРґ Р•РўРЎРќР“
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'ETSNG' element value. Код ЕТСНГ
+     * Set the 'ETSNG' element value. РљРѕРґ Р•РўРЎРќР“
      * 
      * @param ETSNG
      */
@@ -71,7 +71,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'IssuanceDate' element value. Дата выдачи груза
+     * Get the 'IssuanceDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'IssuanceDate' element value. Дата выдачи груза
+     * Set the 'IssuanceDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РіСЂСѓР·Р°
      * 
      * @param issuanceDate
      */
@@ -89,7 +89,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'FactStation' element value. Станция фактического прибытия
+     * Get the 'FactStation' element value. РЎС‚Р°РЅС†РёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'FactStation' element value. Станция фактического прибытия
+     * Set the 'FactStation' element value. РЎС‚Р°РЅС†РёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ
      * 
      * @param factStation
      */

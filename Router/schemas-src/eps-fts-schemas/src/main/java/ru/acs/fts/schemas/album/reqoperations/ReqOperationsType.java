@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Требование/Заявление о проведении операций в отношении товаров и  транспортных средств
+ * РўСЂРµР±РѕРІР°РЅРёРµ/Р—Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РѕРїРµСЂР°С†РёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё  С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
  */
 public class ReqOperationsType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class ReqOperationsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReqDate' element value. Дата требования
+     * Get the 'ReqDate' element value. Р”Р°С‚Р° С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Дата требования
+     * Set the 'ReqDate' element value. Р”Р°С‚Р° С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param reqDate
      */
@@ -52,7 +52,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 0 - Требование; 1 - Заявление
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РўСЂРµР±РѕРІР°РЅРёРµ; 1 - Р—Р°СЏРІР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 0 - Требование; 1 - Заявление
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РўСЂРµР±РѕРІР°РЅРёРµ; 1 - Р—Р°СЏРІР»РµРЅРёРµ
      * 
      * @param docSign
      */
@@ -70,7 +70,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -88,7 +88,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
      * 
      * @param declarant
      */
@@ -106,7 +106,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Transportation' element value. Транспортировка
+     * Get the 'Transportation' element value. РўСЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєР°
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Transportation' element value. Транспортировка
+     * Set the 'Transportation' element value. РўСЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєР°
      * 
      * @param transportation
      */
@@ -124,7 +124,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Weighing' element value. Взвешивание
+     * Get the 'Weighing' element value. Р’Р·РІРµС€РёРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Weighing' element value. Взвешивание
+     * Set the 'Weighing' element value. Р’Р·РІРµС€РёРІР°РЅРёРµ
      * 
      * @param weighing
      */
@@ -142,7 +142,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DifferentDefinitionQuantity' element value. Иное определение количества товаров
+     * Get the 'DifferentDefinitionQuantity' element value. РРЅРѕРµ РѕРїСЂРµРґРµР»РµРЅРёРµ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DifferentDefinitionQuantity' element value. Иное определение количества товаров
+     * Set the 'DifferentDefinitionQuantity' element value. РРЅРѕРµ РѕРїСЂРµРґРµР»РµРЅРёРµ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂРѕРІ
      * 
      * @param differentDefinitionQuantity
      */
@@ -161,7 +161,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Loading' element value. Погрузка
+     * Get the 'Loading' element value. РџРѕРіСЂСѓР·РєР°
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Loading' element value. Погрузка
+     * Set the 'Loading' element value. РџРѕРіСЂСѓР·РєР°
      * 
      * @param loading
      */
@@ -179,7 +179,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Unloading' element value. Выгрузка
+     * Get the 'Unloading' element value. Р’С‹РіСЂСѓР·РєР°
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Unloading' element value. Выгрузка
+     * Set the 'Unloading' element value. Р’С‹РіСЂСѓР·РєР°
      * 
      * @param unloading
      */
@@ -197,7 +197,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Overload' element value. Перегрузка
+     * Get the 'Overload' element value. РџРµСЂРµРіСЂСѓР·РєР°
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Overload' element value. Перегрузка
+     * Set the 'Overload' element value. РџРµСЂРµРіСЂСѓР·РєР°
      * 
      * @param overload
      */
@@ -215,7 +215,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CorrectionPackaging' element value. Исправление поврежденной упаковки
+     * Get the 'CorrectionPackaging' element value. РСЃРїСЂР°РІР»РµРЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРЅРѕР№ СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CorrectionPackaging' element value. Исправление поврежденной упаковки
+     * Set the 'CorrectionPackaging' element value. РСЃРїСЂР°РІР»РµРЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРЅРѕР№ СѓРїР°РєРѕРІРєРё
      * 
      * @param correctionPackaging
      */
@@ -233,7 +233,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Unpacking' element value. Вскрытие упаковки
+     * Get the 'Unpacking' element value. Р’СЃРєСЂС‹С‚РёРµ СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Unpacking' element value. Вскрытие упаковки
+     * Set the 'Unpacking' element value. Р’СЃРєСЂС‹С‚РёРµ СѓРїР°РєРѕРІРєРё
      * 
      * @param unpacking
      */
@@ -251,7 +251,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Packing' element value. Упаковка
+     * Get the 'Packing' element value. РЈРїР°РєРѕРІРєР°
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Packing' element value. Упаковка
+     * Set the 'Packing' element value. РЈРїР°РєРѕРІРєР°
      * 
      * @param packing
      */
@@ -269,7 +269,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Repackaging' element value. Переупаковка
+     * Get the 'Repackaging' element value. РџРµСЂРµСѓРїР°РєРѕРІРєР°
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Repackaging' element value. Переупаковка
+     * Set the 'Repackaging' element value. РџРµСЂРµСѓРїР°РєРѕРІРєР°
      * 
      * @param repackaging
      */
@@ -287,7 +287,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'OpeningLocationGoods' element value. Вскрытие помещений, емкостей и других мест,  где находятся или могут находиться товары
+     * Get the 'OpeningLocationGoods' element value. Р’СЃРєСЂС‹С‚РёРµ РїРѕРјРµС‰РµРЅРёР№, РµРјРєРѕСЃС‚РµР№ Рё РґСЂСѓРіРёС… РјРµСЃС‚,  РіРґРµ РЅР°С…РѕРґСЏС‚СЃСЏ РёР»Рё РјРѕРіСѓС‚ РЅР°С…РѕРґРёС‚СЊСЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -296,7 +296,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'OpeningLocationGoods' element value. Вскрытие помещений, емкостей и других мест,  где находятся или могут находиться товары
+     * Set the 'OpeningLocationGoods' element value. Р’СЃРєСЂС‹С‚РёРµ РїРѕРјРµС‰РµРЅРёР№, РµРјРєРѕСЃС‚РµР№ Рё РґСЂСѓРіРёС… РјРµСЃС‚,  РіРґРµ РЅР°С…РѕРґСЏС‚СЃСЏ РёР»Рё РјРѕРіСѓС‚ РЅР°С…РѕРґРёС‚СЊСЃСЏ С‚РѕРІР°СЂС‹
      * 
      * @param openingLocationGoods
      */
@@ -305,7 +305,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DivisionConsignment' element value. Разделение товарной партии по отдельным видам и (или) наименованиям товаров
+     * Get the 'DivisionConsignment' element value. Р Р°Р·РґРµР»РµРЅРёРµ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РїРѕ РѕС‚РґРµР»СЊРЅС‹Рј РІРёРґР°Рј Рё (РёР»Рё) РЅР°РёРјРµРЅРѕРІР°РЅРёСЏРј С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DivisionConsignment' element value. Разделение товарной партии по отдельным видам и (или) наименованиям товаров
+     * Set the 'DivisionConsignment' element value. Р Р°Р·РґРµР»РµРЅРёРµ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РїРѕ РѕС‚РґРµР»СЊРЅС‹Рј РІРёРґР°Рј Рё (РёР»Рё) РЅР°РёРјРµРЅРѕРІР°РЅРёСЏРј С‚РѕРІР°СЂРѕРІ
      * 
      * @param divisionConsignment
      */
@@ -323,7 +323,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -341,7 +341,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись лица, получившего требование
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РїРѕР»СѓС‡РёРІС€РµРіРѕ С‚СЂРµР±РѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись лица, получившего требование
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РїРѕР»СѓС‡РёРІС€РµРіРѕ С‚СЂРµР±РѕРІР°РЅРёРµ
      * 
      * @param personSignature
      */
@@ -359,7 +359,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DirectionRequirement' element value. При направлении требования по почте или иным способом
+     * Get the 'DirectionRequirement' element value. РџСЂРё РЅР°РїСЂР°РІР»РµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ РїРѕ РїРѕС‡С‚Рµ РёР»Рё РёРЅС‹Рј СЃРїРѕСЃРѕР±РѕРј
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionRequirement' element value. При направлении требования по почте или иным способом
+     * Set the 'DirectionRequirement' element value. РџСЂРё РЅР°РїСЂР°РІР»РµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ РїРѕ РїРѕС‡С‚Рµ РёР»Рё РёРЅС‹Рј СЃРїРѕСЃРѕР±РѕРј
      * 
      * @param directionRequirement
      */
@@ -378,7 +378,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -387,7 +387,7 @@ public class ReqOperationsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

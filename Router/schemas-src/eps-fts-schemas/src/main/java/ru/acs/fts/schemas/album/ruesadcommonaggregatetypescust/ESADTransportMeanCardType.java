@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AutomobileBaseType;
 import ru.acs.fts.schemas.album.commonleaftypescust.TransportCategoryCodeType;
 
 /** 
- * Карточка транспортного средства. Сведения о транспортном средстве.
+ * РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ.
  */
 public class ESADTransportMeanCardType extends AutomobileBaseType
 {
@@ -42,7 +42,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     private List<String> colorListElementList = new ArrayList<String>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по ДТ / списку
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў / СЃРїРёСЃРєСѓ
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по ДТ / списку
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў / СЃРїРёСЃРєСѓ
      * 
      * @param goodsNumeric
      */
@@ -60,7 +60,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -78,7 +78,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TMSign' element value. Признак: - "А" (ТС); - "Ш" (шасси); - "С" (самоходная машина).
+     * Get the 'TMSign' element value. РџСЂРёР·РЅР°Рє: - "Рђ" (РўРЎ); - "РЁ" (С€Р°СЃСЃРё); - "РЎ" (СЃР°РјРѕС…РѕРґРЅР°СЏ РјР°С€РёРЅР°).
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TMSign' element value. Признак: - "А" (ТС); - "Ш" (шасси); - "С" (самоходная машина).
+     * Set the 'TMSign' element value. РџСЂРёР·РЅР°Рє: - "Рђ" (РўРЎ); - "РЁ" (С€Р°СЃСЃРё); - "РЎ" (СЃР°РјРѕС…РѕРґРЅР°СЏ РјР°С€РёРЅР°).
      * 
      * @param TMSign
      */
@@ -96,7 +96,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ExportA2CountryCode' element value. Буквенный код страны вывоза
+     * Get the 'ExportA2CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ExportA2CountryCode' element value. Буквенный код страны вывоза
+     * Set the 'ExportA2CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІС‹РІРѕР·Р°
      * 
      * @param exportA2CountryCode
      */
@@ -114,7 +114,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ExportN3CountryCode' element value. Цифровой код страны вывоза
+     * Get the 'ExportN3CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ExportN3CountryCode' element value. Цифровой код страны вывоза
+     * Set the 'ExportN3CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІС‹РІРѕР·Р°
      * 
      * @param exportN3CountryCode
      */
@@ -132,7 +132,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportMeansTypeCode' element value. Код типа
+     * Get the 'TransportMeansTypeCode' element value. РљРѕРґ С‚РёРїР°
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportMeansTypeCode' element value. Код типа
+     * Set the 'TransportMeansTypeCode' element value. РљРѕРґ С‚РёРїР°
      * 
      * @param transportMeansTypeCode
      */
@@ -150,7 +150,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportCategoryCode' element value. Код категории ТС.
+     * Get the 'TransportCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РўРЎ.
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportCategoryCode' element value. Код категории ТС.
+     * Set the 'TransportCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РўРЎ.
      * 
      * @param transportCategoryCode
      */
@@ -169,7 +169,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'SeatsQuantity' element value. Количество мест, включая место водителя
+     * Get the 'SeatsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚, РІРєР»СЋС‡Р°СЏ РјРµСЃС‚Рѕ РІРѕРґРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'SeatsQuantity' element value. Количество мест, включая место водителя
+     * Set the 'SeatsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚, РІРєР»СЋС‡Р°СЏ РјРµСЃС‚Рѕ РІРѕРґРёС‚РµР»СЏ
      * 
      * @param seatsQuantity
      */
@@ -187,7 +187,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineModel' element value. Модель двигателя
+     * Get the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModel' element value. Модель двигателя
+     * Set the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
      * 
      * @param engineModel
      */
@@ -205,7 +205,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'GearboxID' element value. Номер коробки передач
+     * Get the 'GearboxID' element value. РќРѕРјРµСЂ РєРѕСЂРѕР±РєРё РїРµСЂРµРґР°С‡
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'GearboxID' element value. Номер коробки передач
+     * Set the 'GearboxID' element value. РќРѕРјРµСЂ РєРѕСЂРѕР±РєРё РїРµСЂРµРґР°С‡
      * 
      * @param gearboxID
      */
@@ -223,7 +223,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the list of 'AxleID' element items. Номер(а) моста(ов)
+     * Get the list of 'AxleID' element items. РќРѕРјРµСЂ(Р°) РјРѕСЃС‚Р°(РѕРІ)
      * 
      * @return list
      */
@@ -232,7 +232,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the list of 'AxleID' element items. Номер(а) моста(ов)
+     * Set the list of 'AxleID' element items. РќРѕРјРµСЂ(Р°) РјРѕСЃС‚Р°(РѕРІ)
      * 
      * @param list
      */
@@ -241,7 +241,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ColorCode' element value. Код цвета транспортного средства
+     * Get the 'ColorCode' element value. РљРѕРґ С†РІРµС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ColorCode' element value. Код цвета транспортного средства
+     * Set the 'ColorCode' element value. РљРѕРґ С†РІРµС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param colorCode
      */
@@ -259,7 +259,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
+     * Get the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
      * 
      * @return value
      */
@@ -268,7 +268,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
+     * Set the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
      * 
      * @param enginePowerHpQuanity
      */
@@ -277,7 +277,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
+     * Get the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
      * 
      * @return value
      */
@@ -286,7 +286,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
+     * Set the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
      * 
      * @param enginePowerKvtQuanity
      */
@@ -295,7 +295,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineModeCode' element value. Код типа двигателя
+     * Get the 'EngineModeCode' element value. РљРѕРґ С‚РёРїР° РґРІРёРіР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -304,7 +304,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModeCode' element value. Код типа двигателя
+     * Set the 'EngineModeCode' element value. РљРѕРґ С‚РёРїР° РґРІРёРіР°С‚РµР»СЏ
      * 
      * @param engineModeCode
      */
@@ -313,7 +313,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MoverModeCodeType' element value. Код вида движителя
+     * Get the 'MoverModeCodeType' element value. РљРѕРґ РІРёРґР° РґРІРёР¶РёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -322,7 +322,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MoverModeCodeType' element value. Код вида движителя
+     * Set the 'MoverModeCodeType' element value. РљРѕРґ РІРёРґР° РґРІРёР¶РёС‚РµР»СЏ
      * 
      * @param moverModeCodeType
      */
@@ -331,7 +331,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Ekoclass' element value. Экологический класс ("0"-нулевой, "1" - первый, "2" - второй, "3" - третий, "4" - четвертый, "5" - пятый)
+     * Get the 'Ekoclass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ ("0"-РЅСѓР»РµРІРѕР№, "1" - РїРµСЂРІС‹Р№, "2" - РІС‚РѕСЂРѕР№, "3" - С‚СЂРµС‚РёР№, "4" - С‡РµС‚РІРµСЂС‚С‹Р№, "5" - РїСЏС‚С‹Р№)
      * 
      * @return value
      */
@@ -340,7 +340,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Ekoclass' element value. Экологический класс ("0"-нулевой, "1" - первый, "2" - второй, "3" - третий, "4" - четвертый, "5" - пятый)
+     * Set the 'Ekoclass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ ("0"-РЅСѓР»РµРІРѕР№, "1" - РїРµСЂРІС‹Р№, "2" - РІС‚РѕСЂРѕР№, "3" - С‚СЂРµС‚РёР№, "4" - С‡РµС‚РІРµСЂС‚С‹Р№, "5" - РїСЏС‚С‹Р№)
      * 
      * @param ekoclass
      */
@@ -349,7 +349,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MaxWeightQuantity' element value. Разрешенная максимальная масса ТС в кг
+     * Get the 'MaxWeightQuantity' element value. Р Р°Р·СЂРµС€РµРЅРЅР°СЏ РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјР°СЃСЃР° РўРЎ РІ РєРі
      * 
      * @return value
      */
@@ -358,7 +358,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MaxWeightQuantity' element value. Разрешенная максимальная масса ТС в кг
+     * Set the 'MaxWeightQuantity' element value. Р Р°Р·СЂРµС€РµРЅРЅР°СЏ РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјР°СЃСЃР° РўРЎ РІ РєРі
      * 
      * @param maxWeightQuantity
      */
@@ -367,7 +367,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MinWeightQuantity' element value. Масса без нагрузки в кг
+     * Get the 'MinWeightQuantity' element value. РњР°СЃСЃР° Р±РµР· РЅР°РіСЂСѓР·РєРё РІ РєРі
      * 
      * @return value
      */
@@ -376,7 +376,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MinWeightQuantity' element value. Масса без нагрузки в кг
+     * Set the 'MinWeightQuantity' element value. РњР°СЃСЃР° Р±РµР· РЅР°РіСЂСѓР·РєРё РІ РєРі
      * 
      * @param minWeightQuantity
      */
@@ -385,7 +385,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MaximumConstructiveVelocity' element value. Максимальная конструктивная скорость
+     * Get the 'MaximumConstructiveVelocity' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РёРІРЅР°СЏ СЃРєРѕСЂРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -394,7 +394,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MaximumConstructiveVelocity' element value. Максимальная конструктивная скорость
+     * Set the 'MaximumConstructiveVelocity' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РёРІРЅР°СЏ СЃРєРѕСЂРѕСЃС‚СЊ
      * 
      * @param maximumConstructiveVelocity
      */
@@ -404,7 +404,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Widthmm' element value. Ширина, мм
+     * Get the 'Widthmm' element value. РЁРёСЂРёРЅР°, РјРј
      * 
      * @return value
      */
@@ -413,7 +413,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Widthmm' element value. Ширина, мм
+     * Set the 'Widthmm' element value. РЁРёСЂРёРЅР°, РјРј
      * 
      * @param widthmm
      */
@@ -422,7 +422,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Heightmm' element value. Высота, мм
+     * Get the 'Heightmm' element value. Р’С‹СЃРѕС‚Р°, РјРј
      * 
      * @return value
      */
@@ -431,7 +431,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Heightmm' element value. Высота, мм
+     * Set the 'Heightmm' element value. Р’С‹СЃРѕС‚Р°, РјРј
      * 
      * @param heightmm
      */
@@ -440,7 +440,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Lengthmm' element value. Длина, мм
+     * Get the 'Lengthmm' element value. Р”Р»РёРЅР°, РјРј
      * 
      * @return value
      */
@@ -449,7 +449,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Lengthmm' element value. Длина, мм
+     * Set the 'Lengthmm' element value. Р”Р»РёРЅР°, РјРј
      * 
      * @param lengthmm
      */
@@ -458,7 +458,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'PassedKilometerQuantity' element value. К моменту выдачи паспорта отработано/пройдено моточасов/километров
+     * Get the 'PassedKilometerQuantity' element value. Рљ РјРѕРјРµРЅС‚Сѓ РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р° РѕС‚СЂР°Р±РѕС‚Р°РЅРѕ/РїСЂРѕР№РґРµРЅРѕ РјРѕС‚РѕС‡Р°СЃРѕРІ/РєРёР»РѕРјРµС‚СЂРѕРІ
      * 
      * @return value
      */
@@ -467,7 +467,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'PassedKilometerQuantity' element value. К моменту выдачи паспорта отработано/пройдено моточасов/километров
+     * Set the 'PassedKilometerQuantity' element value. Рљ РјРѕРјРµРЅС‚Сѓ РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р° РѕС‚СЂР°Р±РѕС‚Р°РЅРѕ/РїСЂРѕР№РґРµРЅРѕ РјРѕС‚РѕС‡Р°СЃРѕРІ/РєРёР»РѕРјРµС‚СЂРѕРІ
      * 
      * @param passedKilometerQuantity
      */
@@ -476,7 +476,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ApprovalNumber' element value.  Номер Одобрения типа ТС/ Заключения о соответствии / Сертификата соответствия.
+     * Get the 'ApprovalNumber' element value.  РќРѕРјРµСЂ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ/ Р—Р°РєР»СЋС‡РµРЅРёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё / РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ.
      * 
      * @return value
      */
@@ -485,7 +485,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ApprovalNumber' element value.  Номер Одобрения типа ТС/ Заключения о соответствии / Сертификата соответствия.
+     * Set the 'ApprovalNumber' element value.  РќРѕРјРµСЂ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ/ Р—Р°РєР»СЋС‡РµРЅРёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё / РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ.
      * 
      * @param approvalNumber
      */
@@ -494,7 +494,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ApprovalDate' element value.  Дата Одобрения / Заключения / Сертификата
+     * Get the 'ApprovalDate' element value.  Р”Р°С‚Р° РћРґРѕР±СЂРµРЅРёСЏ / Р—Р°РєР»СЋС‡РµРЅРёСЏ / РЎРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @return value
      */
@@ -503,7 +503,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ApprovalDate' element value.  Дата Одобрения / Заключения / Сертификата
+     * Set the 'ApprovalDate' element value.  Р”Р°С‚Р° РћРґРѕР±СЂРµРЅРёСЏ / Р—Р°РєР»СЋС‡РµРЅРёСЏ / РЎРµСЂС‚РёС„РёРєР°С‚Р°
      * 
      * @param approvalDate
      */
@@ -512,7 +512,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ApprovalOrganization' element value. Организация, выдавшая Одобрение / Заключение / Сертификат
+     * Get the 'ApprovalOrganization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ РћРґРѕР±СЂРµРЅРёРµ / Р—Р°РєР»СЋС‡РµРЅРёРµ / РЎРµСЂС‚РёС„РёРєР°С‚
      * 
      * @return value
      */
@@ -521,7 +521,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ApprovalOrganization' element value. Организация, выдавшая Одобрение / Заключение / Сертификат
+     * Set the 'ApprovalOrganization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ РћРґРѕР±СЂРµРЅРёРµ / Р—Р°РєР»СЋС‡РµРЅРёРµ / РЎРµСЂС‚РёС„РёРєР°С‚
      * 
      * @param approvalOrganization
      */
@@ -530,7 +530,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the list of 'ColorListElement' element items. Элемент из  списка кодов. Заполняется для ТС,  шасси при указании ColorCode = 905 (многоцветный)
+     * Get the list of 'ColorListElement' element items. Р­Р»РµРјРµРЅС‚ РёР·  СЃРїРёСЃРєР° РєРѕРґРѕРІ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РўРЎ,  С€Р°СЃСЃРё РїСЂРё СѓРєР°Р·Р°РЅРёРё ColorCode = 905 (РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№)
      * 
      * @return list
      */
@@ -539,7 +539,7 @@ public class ESADTransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the list of 'ColorListElement' element items. Элемент из  списка кодов. Заполняется для ТС,  шасси при указании ColorCode = 905 (многоцветный)
+     * Set the list of 'ColorListElement' element items. Р­Р»РµРјРµРЅС‚ РёР·  СЃРїРёСЃРєР° РєРѕРґРѕРІ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РўРЎ,  С€Р°СЃСЃРё РїСЂРё СѓРєР°Р·Р°РЅРёРё ColorCode = 905 (РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№)
      * 
      * @param list
      */

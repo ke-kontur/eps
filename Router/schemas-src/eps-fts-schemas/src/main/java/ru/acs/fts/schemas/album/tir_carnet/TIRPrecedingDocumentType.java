@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.tir_carnet;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Предшествующий документ в МДП
+ * РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ РІ РњР”Рџ
  */
 public class TIRPrecedingDocumentType extends DocumentBaseType
 {
     private String documentKind;
 
     /** 
-     * Get the 'DocumentKind' element value. Тип предшествующего документа
+     * Get the 'DocumentKind' element value. РўРёРї РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TIRPrecedingDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. Тип предшествующего документа
+     * Set the 'DocumentKind' element value. РўРёРї РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentKind
      */

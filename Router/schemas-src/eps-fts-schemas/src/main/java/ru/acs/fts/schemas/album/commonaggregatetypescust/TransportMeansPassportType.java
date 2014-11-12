@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Серия и номер Паспорта транспортного средства
+ * РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class TransportMeansPassportType
 {
@@ -11,7 +11,7 @@ public class TransportMeansPassportType
     private String regionCode;
 
     /** 
-     * Get the 'Series' element value. Серия Паспорта транспортного средства
+     * Get the 'Series' element value. РЎРµСЂРёСЏ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportMeansPassportType
     }
 
     /** 
-     * Set the 'Series' element value. Серия Паспорта транспортного средства
+     * Set the 'Series' element value. РЎРµСЂРёСЏ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param series
      */
@@ -29,7 +29,7 @@ public class TransportMeansPassportType
     }
 
     /** 
-     * Get the 'PTSNumber' element value. Номер Паспорта транспортного средства
+     * Get the 'PTSNumber' element value. РќРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TransportMeansPassportType
     }
 
     /** 
-     * Set the 'PTSNumber' element value. Номер Паспорта транспортного средства
+     * Set the 'PTSNumber' element value. РќРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param PTSNumber
      */
@@ -47,7 +47,7 @@ public class TransportMeansPassportType
     }
 
     /** 
-     * Get the 'RegionCode' element value. Код региона
+     * Get the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TransportMeansPassportType
     }
 
     /** 
-     * Set the 'RegionCode' element value. Код региона
+     * Set the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
      * 
      * @param regionCode
      */

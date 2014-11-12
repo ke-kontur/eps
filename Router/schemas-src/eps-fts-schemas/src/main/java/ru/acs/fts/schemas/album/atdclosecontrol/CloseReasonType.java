@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.atdclosecontrol;
 import org.joda.time.LocalDate;
 
 /** 
- * Причины закрытия
+ * РџСЂРёС‡РёРЅС‹ Р·Р°РєСЂС‹С‚РёСЏ
  */
 public class CloseReasonType
 {
@@ -15,7 +15,7 @@ public class CloseReasonType
     private NormativeDocumentType checkNormativeDocument;
 
     /** 
-     * Get the 'ReasonCode' element value. Код причины закрытия в соответствии со Справочником причин закрытия
+     * Get the 'ReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ Р·Р°РєСЂС‹С‚РёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ РЎРїСЂР°РІРѕС‡РЅРёРєРѕРј РїСЂРёС‡РёРЅ Р·Р°РєСЂС‹С‚РёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Set the 'ReasonCode' element value. Код причины закрытия в соответствии со Справочником причин закрытия
+     * Set the 'ReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ Р·Р°РєСЂС‹С‚РёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ РЎРїСЂР°РІРѕС‡РЅРёРєРѕРј РїСЂРёС‡РёРЅ Р·Р°РєСЂС‹С‚РёСЏ
      * 
      * @param reasonCode
      */
@@ -33,7 +33,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Get the 'InspectorNotice' element value. Примечания инспектора
+     * Get the 'InspectorNotice' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Set the 'InspectorNotice' element value. Примечания инспектора
+     * Set the 'InspectorNotice' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @param inspectorNotice
      */
@@ -51,7 +51,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Get the 'LNP' element value. ЛНП инспектора, закрывшего ПЗК
+     * Get the 'LNP' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РєСЂС‹РІС€РµРіРѕ РџР—Рљ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП инспектора, закрывшего ПЗК
+     * Set the 'LNP' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РєСЂС‹РІС€РµРіРѕ РџР—Рљ
      * 
      * @param LNP
      */
@@ -69,7 +69,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Get the 'CloseDate' element value. Дата закрытия ошибки по ПЗК
+     * Get the 'CloseDate' element value. Р”Р°С‚Р° Р·Р°РєСЂС‹С‚РёСЏ РѕС€РёР±РєРё РїРѕ РџР—Рљ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Set the 'CloseDate' element value. Дата закрытия ошибки по ПЗК
+     * Set the 'CloseDate' element value. Р”Р°С‚Р° Р·Р°РєСЂС‹С‚РёСЏ РѕС€РёР±РєРё РїРѕ РџР—Рљ
      * 
      * @param closeDate
      */
@@ -87,7 +87,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Get the 'CheckNormativeDocument' element value. Нормативный документ, в соответствии с которым выполняется закрытие
+     * Get the 'CheckNormativeDocument' element value. РќРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ Р·Р°РєСЂС‹С‚РёРµ
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class CloseReasonType
     }
 
     /** 
-     * Set the 'CheckNormativeDocument' element value. Нормативный документ, в соответствии с которым выполняется закрытие
+     * Set the 'CheckNormativeDocument' element value. РќРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ Р·Р°РєСЂС‹С‚РёРµ
      * 
      * @param checkNormativeDocument
      */

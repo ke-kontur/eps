@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Сведения о ТС
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РўРЎ
  */
 public class TSInfoType extends TransportMeansBaseType
 {
@@ -13,7 +13,7 @@ public class TSInfoType extends TransportMeansBaseType
     private CUOrganizationType TSOwner;
 
     /** 
-     * Get the 'Model' element value. Модель
+     * Get the 'Model' element value. РњРѕРґРµР»СЊ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TSInfoType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'Model' element value. Модель
+     * Set the 'Model' element value. РњРѕРґРµР»СЊ
      * 
      * @param model
      */
@@ -31,7 +31,7 @@ public class TSInfoType extends TransportMeansBaseType
     }
 
     /** 
-     * Get the 'TSOwner' element value. Владелец ТС
+     * Get the 'TSOwner' element value. Р’Р»Р°РґРµР»РµС† РўРЎ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TSInfoType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TSOwner' element value. Владелец ТС
+     * Set the 'TSOwner' element value. Р’Р»Р°РґРµР»РµС† РўРЎ
      * 
      * @param TSOwner
      */

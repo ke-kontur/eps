@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Правообладатель
+ * РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ
  */
 public class OwnerType extends OrganizationBaseType
 {
@@ -29,7 +29,7 @@ public class OwnerType extends OrganizationBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - юр. лицо; 3 - субъект публичного права
+     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЋСЂ. Р»РёС†Рѕ; 3 - СЃСѓР±СЉРµРєС‚ РїСѓР±Р»РёС‡РЅРѕРіРѕ РїСЂР°РІР°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - юр. лицо; 3 - субъект публичного права
+     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЋСЂ. Р»РёС†Рѕ; 3 - СЃСѓР±СЉРµРєС‚ РїСѓР±Р»РёС‡РЅРѕРіРѕ РїСЂР°РІР°
      * 
      * @param orgSign
      */
@@ -47,7 +47,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'SubjectCode' element value. Субъект правоотношений
+     * Get the 'SubjectCode' element value. РЎСѓР±СЉРµРєС‚ РїСЂР°РІРѕРѕС‚РЅРѕС€РµРЅРёР№
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'SubjectCode' element value. Субъект правоотношений
+     * Set the 'SubjectCode' element value. РЎСѓР±СЉРµРєС‚ РїСЂР°РІРѕРѕС‚РЅРѕС€РµРЅРёР№
      * 
      * @param subjectCode
      */
@@ -65,7 +65,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'BirthDate' element value. Дата рождения
+     * Get the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BirthDate' element value. Дата рождения
+     * Set the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthDate
      */
@@ -83,7 +83,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'BirthPlace' element value. Место рождения
+     * Get the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BirthPlace' element value. Место рождения
+     * Set the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthPlace
      */
@@ -101,7 +101,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'InsuranceNumber' element value. СНИЛС
+     * Get the 'InsuranceNumber' element value. РЎРќРР›РЎ
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'InsuranceNumber' element value. СНИЛС
+     * Set the 'InsuranceNumber' element value. РЎРќРР›РЎ
      * 
      * @param insuranceNumber
      */
@@ -119,7 +119,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Citizen' element value. Гражданство
+     * Get the 'Citizen' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Citizen' element value. Гражданство
+     * Set the 'Citizen' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ
      * 
      * @param citizen
      */
@@ -137,7 +137,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Sex' element value. Пол
+     * Get the 'Sex' element value. РџРѕР»
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Sex' element value. Пол
+     * Set the 'Sex' element value. РџРѕР»
      * 
      * @param sex
      */
@@ -155,7 +155,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'CodeOPF' element value. Код ОПФ
+     * Get the 'CodeOPF' element value. РљРѕРґ РћРџР¤
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CodeOPF' element value. Код ОПФ
+     * Set the 'CodeOPF' element value. РљРѕРґ РћРџР¤
      * 
      * @param codeOPF
      */
@@ -173,7 +173,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'RegCountry' element value. Страна регистрации (инкорпорации)
+     * Get the 'RegCountry' element value. РЎС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё (РёРЅРєРѕСЂРїРѕСЂР°С†РёРё)
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'RegCountry' element value. Страна регистрации (инкорпорации)
+     * Set the 'RegCountry' element value. РЎС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё (РёРЅРєРѕСЂРїРѕСЂР°С†РёРё)
      * 
      * @param regCountry
      */
@@ -191,7 +191,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'RegDate' element value. Дата государственной регистрации (Дата регистрации в стране регистрации (инкорпорации)) 
+     * Get the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё (Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РІ СЃС‚СЂР°РЅРµ СЂРµРіРёСЃС‚СЂР°С†РёРё (РёРЅРєРѕСЂРїРѕСЂР°С†РёРё)) 
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'RegDate' element value. Дата государственной регистрации (Дата регистрации в стране регистрации (инкорпорации)) 
+     * Set the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё (Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РІ СЃС‚СЂР°РЅРµ СЂРµРіРёСЃС‚СЂР°С†РёРё (РёРЅРєРѕСЂРїРѕСЂР°С†РёРё)) 
      * 
      * @param regDate
      */
@@ -209,7 +209,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'AgencyRegistration' element value. Орган регистрации (наименование регистрирующего органа)
+     * Get the 'AgencyRegistration' element value. РћСЂРіР°РЅ СЂРµРіРёСЃС‚СЂР°С†РёРё (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°)
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'AgencyRegistration' element value. Орган регистрации (наименование регистрирующего органа)
+     * Set the 'AgencyRegistration' element value. РћСЂРіР°РЅ СЂРµРіРёСЃС‚СЂР°С†РёРё (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°)
      * 
      * @param agencyRegistration
      */
@@ -227,7 +227,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Email' element value. Адрес электронной почты
+     * Get the 'Email' element value. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Email' element value. Адрес электронной почты
+     * Set the 'Email' element value. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
      * 
      * @param email
      */
@@ -245,7 +245,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'RegNum' element value. Номер регистрационной записи
+     * Get the 'RegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕР№ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'RegNum' element value. Номер регистрационной записи
+     * Set the 'RegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕР№ Р·Р°РїРёСЃРё
      * 
      * @param regNum
      */
@@ -263,7 +263,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'CodeOKATO' element value. Код ОКАТО
+     * Get the 'CodeOKATO' element value. РљРѕРґ РћРљРђРўРћ
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CodeOKATO' element value. Код ОКАТО
+     * Set the 'CodeOKATO' element value. РљРѕРґ РћРљРђРўРћ
      * 
      * @param codeOKATO
      */
@@ -281,7 +281,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'RegAddress' element value. Зарегистрированный адрес субъекта
+     * Get the 'RegAddress' element value. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Р№ Р°РґСЂРµСЃ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'RegAddress' element value. Зарегистрированный адрес субъекта
+     * Set the 'RegAddress' element value. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Р№ Р°РґСЂРµСЃ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @param regAddress
      */
@@ -299,7 +299,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'FactLocation' element value. Фактический адрес субъекта
+     * Get the 'FactLocation' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @return value
      */
@@ -308,7 +308,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'FactLocation' element value. Фактический адрес субъекта
+     * Set the 'FactLocation' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ СЃСѓР±СЉРµРєС‚Р°
      * 
      * @param factLocation
      */
@@ -317,7 +317,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -326,7 +326,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

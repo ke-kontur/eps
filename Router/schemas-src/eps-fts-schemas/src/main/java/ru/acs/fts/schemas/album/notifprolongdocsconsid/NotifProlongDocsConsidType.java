@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Уведомление о продлении срока рассмотрения документов при рассмотрении вопроса о выдаче разрешения на переработку
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° СЂР°СЃСЃРјРѕС‚СЂРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РїСЂРё СЂР°СЃСЃРјРѕС‚СЂРµРЅРёРё РІРѕРїСЂРѕСЃР° Рѕ РІС‹РґР°С‡Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
  */
 public class NotifProlongDocsConsidType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -38,7 +38,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comments' element items. Комментарии
+     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Комментарии
+     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param list
      */
@@ -56,7 +56,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -74,7 +74,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -92,7 +92,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class NotifProlongDocsConsidType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

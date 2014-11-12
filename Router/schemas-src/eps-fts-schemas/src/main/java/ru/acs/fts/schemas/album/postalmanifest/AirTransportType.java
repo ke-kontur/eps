@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.postalmanifest;
 import org.joda.time.LocalDate;
 
 /** 
- * Авиатранспорт
+ * РђРІРёР°С‚СЂР°РЅСЃРїРѕСЂС‚
  */
 public class AirTransportType
 {
@@ -15,7 +15,7 @@ public class AirTransportType
     private String unloadAirport;
 
     /** 
-     * Get the 'SendDate' element value. Дата отправления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AirTransportType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата отправления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -33,7 +33,7 @@ public class AirTransportType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время отправления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AirTransportType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время отправления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -51,7 +51,7 @@ public class AirTransportType
     }
 
     /** 
-     * Get the 'FlightNumber' element value. Номер рейса
+     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class AirTransportType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. Номер рейса
+     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @param flightNumber
      */
@@ -69,7 +69,7 @@ public class AirTransportType
     }
 
     /** 
-     * Get the 'DirectOverloadAirport' element value. Аэропорт прямой перегрузки
+     * Get the 'DirectOverloadAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїСЂСЏРјРѕР№ РїРµСЂРµРіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class AirTransportType
     }
 
     /** 
-     * Set the 'DirectOverloadAirport' element value. Аэропорт прямой перегрузки
+     * Set the 'DirectOverloadAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїСЂСЏРјРѕР№ РїРµСЂРµРіСЂСѓР·РєРё
      * 
      * @param directOverloadAirport
      */
@@ -87,7 +87,7 @@ public class AirTransportType
     }
 
     /** 
-     * Get the 'UnloadAirport' element value. Аэропорт выгрузки
+     * Get the 'UnloadAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РІС‹РіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class AirTransportType
     }
 
     /** 
-     * Set the 'UnloadAirport' element value. Аэропорт выгрузки
+     * Set the 'UnloadAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РІС‹РіСЂСѓР·РєРё
      * 
      * @param unloadAirport
      */

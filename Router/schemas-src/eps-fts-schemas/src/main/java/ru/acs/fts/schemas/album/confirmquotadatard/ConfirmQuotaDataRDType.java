@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Информация о списании по квоте
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРїРёСЃР°РЅРёРё РїРѕ РєРІРѕС‚Рµ
  */
 public class ConfirmQuotaDataRDType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Уникальный номер по БД РД
+     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Уникальный номер по БД РД
+     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -37,7 +37,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'UseDateTime' element value. Дата использования и время
+     * Get the 'UseDateTime' element value. Р”Р°С‚Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РІСЂРµРјСЏ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'UseDateTime' element value. Дата использования и время
+     * Set the 'UseDateTime' element value. Р”Р°С‚Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РІСЂРµРјСЏ
      * 
      * @param useDateTime
      */
@@ -55,7 +55,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustDocType' element value. Тип таможенного документа. ДТ -декларация на товары, ПР - сообщение о прибытии, УБ - сообщение об убытии, ТД - транзитная декларация.
+     * Get the 'CustDocType' element value. РўРёРї С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р”Рў -РґРµРєР»Р°СЂР°С†РёСЏ РЅР° С‚РѕРІР°СЂС‹, РџР  - СЃРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё, РЈР‘ - СЃРѕРѕР±С‰РµРЅРёРµ РѕР± СѓР±С‹С‚РёРё, РўР” - С‚СЂР°РЅР·РёС‚РЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustDocType' element value. Тип таможенного документа. ДТ -декларация на товары, ПР - сообщение о прибытии, УБ - сообщение об убытии, ТД - транзитная декларация.
+     * Set the 'CustDocType' element value. РўРёРї С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р”Рў -РґРµРєР»Р°СЂР°С†РёСЏ РЅР° С‚РѕРІР°СЂС‹, РџР  - СЃРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё, РЈР‘ - СЃРѕРѕР±С‰РµРЅРёРµ РѕР± СѓР±С‹С‚РёРё, РўР” - С‚СЂР°РЅР·РёС‚РЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ.
      * 
      * @param custDocType
      */
@@ -73,7 +73,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Номер таможенного документа, при оформлении которого использован разрешительный документ
+     * Get the 'GTDID' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Номер таможенного документа, при оформлении которого использован разрешительный документ
+     * Set the 'GTDID' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param GTDID
      */
@@ -91,7 +91,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ConfirmQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

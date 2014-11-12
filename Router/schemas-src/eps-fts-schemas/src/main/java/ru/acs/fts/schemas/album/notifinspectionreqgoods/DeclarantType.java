@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.notifinspectionreqgoods;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
  */
 public class DeclarantType extends OrganizationBaseType
 {
     private OrganizationBaseType representative;
 
     /** 
-     * Get the 'Representative' element value. Представитель
+     * Get the 'Representative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DeclarantType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Representative' element value. Представитель
+     * Set the 'Representative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
      * 
      * @param representative
      */

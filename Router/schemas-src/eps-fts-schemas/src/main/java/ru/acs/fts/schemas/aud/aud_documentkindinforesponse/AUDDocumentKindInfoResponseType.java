@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Ответ на запрос на получение информации о зарегистрированных видах документов.
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РёРЅС„РѕСЂРјР°С†РёРё Рѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹С… РІРёРґР°С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
  */
 public class AUDDocumentKindInfoResponseType extends AUDBaseEnvelopeType
 {
@@ -14,7 +14,7 @@ public class AUDDocumentKindInfoResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the list of 'DocumentKindInfo' element items. Информация о виде документов и версиях этого вида.
+     * Get the list of 'DocumentKindInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРёРґРµ РґРѕРєСѓРјРµРЅС‚РѕРІ Рё РІРµСЂСЃРёСЏС… СЌС‚РѕРіРѕ РІРёРґР°.
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class AUDDocumentKindInfoResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'DocumentKindInfo' element items. Информация о виде документов и версиях этого вида.
+     * Set the list of 'DocumentKindInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРёРґРµ РґРѕРєСѓРјРµРЅС‚РѕРІ Рё РІРµСЂСЃРёСЏС… СЌС‚РѕРіРѕ РІРёРґР°.
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class AUDDocumentKindInfoResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AUDDocumentKindInfoResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

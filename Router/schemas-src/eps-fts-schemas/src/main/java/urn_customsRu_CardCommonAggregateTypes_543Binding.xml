@@ -1,0 +1,50 @@
+<binding xmlns:cat_crd="urn:customs.ru:CardCommonAggregateTypes:5.4.3">
+  <namespace uri="urn:customs.ru:CardCommonAggregateTypes:5.4.3" default="elements" prefix="cat_crd"/>
+  <mapping abstract="true" type-name="cat_crd:BaseDocType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.BaseDocType">
+    <value style="element" name="DocumentID" get-method="getDocumentID" set-method="setDocumentID"/>
+    <value style="element" name="RefDocumentID" get-method="getRefDocumentID" set-method="setRefDocumentID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:CustomsPersonType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.CustomsPersonType">
+    <value style="element" name="PersonName" get-method="getPersonName" set-method="setPersonName"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:CustomsTypeType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.CustomsTypeType">
+    <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+    <value style="element" name="OfficeName" get-method="getOfficeName" set-method="setOfficeName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:DocumentBaseType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.DocumentBaseType">
+    <value style="element" name="PrDocumentNumber" get-method="getPrDocumentNumber" set-method="setPrDocumentNumber"/>
+    <value style="element" name="PrDocumentDate" get-method="getPrDocumentDate" set-method="setPrDocumentDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:GTDIDType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.GTDIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="GTDNumber" get-method="getGTDNumber" set-method="setGTDNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:IdentityCardType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.IdentityCardType">
+    <value style="element" name="IdentityCardCode" get-method="getIdentityCardCode" set-method="setIdentityCardCode" usage="optional"/>
+    <value style="element" name="IdentityCardSeries" get-method="getIdentityCardSeries" set-method="setIdentityCardSeries" usage="optional"/>
+    <value style="element" name="IdentityCardNumber" get-method="getIdentityCardNumber" set-method="setIdentityCardNumber" usage="optional"/>
+    <value style="element" name="IdentityCardDate" get-method="getIdentityCardDate" set-method="setIdentityCardDate" usage="optional" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:OrganizationBaseType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.OrganizationBaseType">
+    <structure map-as="cat_crd:RFOrganizationFeaturesType"/>
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:PaymentDocumentType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.PaymentDocumentType">
+    <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+    <value style="element" name="PaymentDocumentNumber" get-method="getPaymentDocumentNumber" set-method="setPaymentDocumentNumber"/>
+    <value style="element" name="PaymentDocumentDate" get-method="getPaymentDocumentDate" set-method="setPaymentDocumentDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TotalAmount" get-method="getTotalAmount" set-method="setTotalAmount" usage="optional"/>
+    <value style="element" name="WrittenoffAmount" get-method="getWrittenoffAmount" set-method="setWrittenoffAmount" usage="optional"/>
+    <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+    <value style="element" name="WrittenoffAmountCurrencyCode" get-method="getWrittenoffAmountCurrencyCode" set-method="setWrittenoffAmountCurrencyCode" usage="optional"/>
+    <value style="element" name="ReturnSign" get-method="getReturnSign" set-method="setReturnSign" usage="optional"/>
+    <value style="element" name="INNID" get-method="getINNID" set-method="setINNID" usage="optional"/>
+    <value style="element" name="KPPCode" get-method="getKPPCode" set-method="setKPPCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cat_crd:RFOrganizationFeaturesType" class="ru.acs.fts.schemas.album.cardcommonaggregatetypes.RFOrganizationFeaturesType">
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+  </mapping>
+</binding>

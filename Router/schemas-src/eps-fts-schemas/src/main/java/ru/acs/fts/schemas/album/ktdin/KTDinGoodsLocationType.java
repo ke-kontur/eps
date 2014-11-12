@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGoodsLocationPl
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUTransportType;
 
 /** 
- * Местонахождение товаров. Гр. 30
+ * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30
  */
 public class KTDinGoodsLocationType
 {
@@ -21,7 +21,7 @@ public class KTDinGoodsLocationType
     private AddressType address;
 
     /** 
-     * Get the 'ITN' element value. ИТН субъекта ВЭД
+     * Get the 'ITN' element value. РРўРќ СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'ITN' element value. ИТН субъекта ВЭД
+     * Set the 'ITN' element value. РРўРќ СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
      * 
      * @param ITN
      */
@@ -39,7 +39,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'InformationTypeCode' element value. Код места нахождения товаров в соответствии c Классификатором мест нахождения товаров
+     * Get the 'InformationTypeCode' element value. РљРѕРґ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё c РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµСЃС‚ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. Код места нахождения товаров в соответствии c Классификатором мест нахождения товаров
+     * Set the 'InformationTypeCode' element value. РљРѕРґ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё c РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµСЃС‚ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param informationTypeCode
      */
@@ -57,7 +57,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. Код таможенного органа в соответствии с Классификаторами таможенных органов, применяемыми в государствах - членах Таможенного союза
+     * Get the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. Код таможенного органа в соответствии с Классификаторами таможенных органов, применяемыми в государствах - членах Таможенного союза
+     * Set the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
      * 
      * @param customsOffice
      */
@@ -75,7 +75,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. Код страны таможенного органа
+     * Get the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. Код страны таможенного органа
+     * Set the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsCountryCode
      */
@@ -93,7 +93,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'LocationName' element value. Наименование железнодорожной станции/морского (речного) порта
+     * Get the 'LocationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё/РјРѕСЂСЃРєРѕРіРѕ (СЂРµС‡РЅРѕРіРѕ) РїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'LocationName' element value. Наименование железнодорожной станции/морского (речного) порта
+     * Set the 'LocationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё/РјРѕСЂСЃРєРѕРіРѕ (СЂРµС‡РЅРѕРіРѕ) РїРѕСЂС‚Р°
      * 
      * @param locationName
      */
@@ -111,7 +111,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'Transport' element value. Сведения о местонахождении товаров - транспортное средство
+     * Get the 'Transport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'Transport' element value. Сведения о местонахождении товаров - транспортное средство
+     * Set the 'Transport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param transport
      */
@@ -129,7 +129,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров: разрешение таможенного органа на временное хранение товаров, склад временного хранения, таможенный склад, свободный склад, магазин беспошлинной торговли, помещение, открытые площадки и иные территории уполномоченного экономического оператора, склад хранения собственных товаров, склад получателя товаров
+     * Get the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: СЂР°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, РјР°РіР°Р·РёРЅ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё, РїРѕРјРµС‰РµРЅРёРµ, РѕС‚РєСЂС‹С‚С‹Рµ РїР»РѕС‰Р°РґРєРё Рё РёРЅС‹Рµ С‚РµСЂСЂРёС‚РѕСЂРёРё СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ РѕРїРµСЂР°С‚РѕСЂР°, СЃРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ, СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров: разрешение таможенного органа на временное хранение товаров, склад временного хранения, таможенный склад, свободный склад, магазин беспошлинной торговли, помещение, открытые площадки и иные территории уполномоченного экономического оператора, склад хранения собственных товаров, склад получателя товаров
+     * Set the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: СЂР°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, РјР°РіР°Р·РёРЅ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё, РїРѕРјРµС‰РµРЅРёРµ, РѕС‚РєСЂС‹С‚С‹Рµ РїР»РѕС‰Р°РґРєРё Рё РёРЅС‹Рµ С‚РµСЂСЂРёС‚РѕСЂРёРё СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ РѕРїРµСЂР°С‚РѕСЂР°, СЃРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ, СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsLocationWarehouse
      */
@@ -148,7 +148,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationPlace' element value. Сведения о местонахождении товара
+     * Get the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationPlace' element value. Сведения о местонахождении товара
+     * Set the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°
      * 
      * @param goodsLocationPlace
      */
@@ -167,7 +167,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес местонахождения товаров
+     * Get the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class KTDinGoodsLocationType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес местонахождения товаров
+     * Set the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param address
      */

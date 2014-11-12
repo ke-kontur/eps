@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialact;
 
 /** 
- * Сведения о фактурной стоимости
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
  */
 public class InvoiceCostDataType
 {
@@ -10,7 +10,7 @@ public class InvoiceCostDataType
     private String costCurrencyCode;
 
     /** 
-     * Get the 'CostAmount' element value. Стоимость
+     * Get the 'CostAmount' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class InvoiceCostDataType
     }
 
     /** 
-     * Set the 'CostAmount' element value. Стоимость
+     * Set the 'CostAmount' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param costAmount
      */
@@ -28,7 +28,7 @@ public class InvoiceCostDataType
     }
 
     /** 
-     * Get the 'CostCurrencyCode' element value. Буквенный код валюты фактурной стоимости
+     * Get the 'CostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class InvoiceCostDataType
     }
 
     /** 
-     * Set the 'CostCurrencyCode' element value. Буквенный код валюты фактурной стоимости
+     * Set the 'CostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param costCurrencyCode
      */

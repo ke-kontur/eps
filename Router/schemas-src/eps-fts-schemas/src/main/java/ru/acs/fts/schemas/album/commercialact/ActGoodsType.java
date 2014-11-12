@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialact;
 
 /** 
- * Сведения о товаре согласно отчету о принятии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ СЃРѕРіР»Р°СЃРЅРѕ РѕС‚С‡РµС‚Сѓ Рѕ РїСЂРёРЅСЏС‚РёРё
  */
 public class ActGoodsType
 {
@@ -10,7 +10,7 @@ public class ActGoodsType
     private String comments;
 
     /** 
-     * Get the 'DO1GoodNumber' element value. Номер товара в отчете ДО-1
+     * Get the 'DO1GoodNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РѕС‚С‡РµС‚Рµ Р”Рћ-1
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ActGoodsType
     }
 
     /** 
-     * Set the 'DO1GoodNumber' element value. Номер товара в отчете ДО-1
+     * Set the 'DO1GoodNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РѕС‚С‡РµС‚Рµ Р”Рћ-1
      * 
      * @param DO1GoodNumber
      */
@@ -28,7 +28,7 @@ public class ActGoodsType
     }
 
     /** 
-     * Get the 'Comments' element value. Дополнение в примечание по товару (графа 11 отчета), уточняющее причины и обстоятельства отсутствия товара
+     * Get the 'Comments' element value. Р”РѕРїРѕР»РЅРµРЅРёРµ РІ РїСЂРёРјРµС‡Р°РЅРёРµ РїРѕ С‚РѕРІР°СЂСѓ (РіСЂР°С„Р° 11 РѕС‚С‡РµС‚Р°), СѓС‚РѕС‡РЅСЏСЋС‰РµРµ РїСЂРёС‡РёРЅС‹ Рё РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР° РѕС‚СЃСѓС‚СЃС‚РІРёСЏ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ActGoodsType
     }
 
     /** 
-     * Set the 'Comments' element value. Дополнение в примечание по товару (графа 11 отчета), уточняющее причины и обстоятельства отсутствия товара
+     * Set the 'Comments' element value. Р”РѕРїРѕР»РЅРµРЅРёРµ РІ РїСЂРёРјРµС‡Р°РЅРёРµ РїРѕ С‚РѕРІР°СЂСѓ (РіСЂР°С„Р° 11 РѕС‚С‡РµС‚Р°), СѓС‚РѕС‡РЅСЏСЋС‰РµРµ РїСЂРёС‡РёРЅС‹ Рё РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР° РѕС‚СЃСѓС‚СЃС‚РІРёСЏ С‚РѕРІР°СЂР°
      * 
      * @param comments
      */

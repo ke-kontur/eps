@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.representativeapplication;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Получатель
+ * РџРѕР»СѓС‡Р°С‚РµР»СЊ
  */
 public class ConsigneeType extends CUOrganizationType
 {
     private String consigneeSign;
 
     /** 
-     * Get the 'ConsigneeSign' element value. Признак получателя: 0 - по товаросопроводительным документам; 1 - по доверенности
+     * Get the 'ConsigneeSign' element value. РџСЂРёР·РЅР°Рє РїРѕР»СѓС‡Р°С‚РµР»СЏ: 0 - РїРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј; 1 - РїРѕ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ConsigneeSign' element value. Признак получателя: 0 - по товаросопроводительным документам; 1 - по доверенности
+     * Set the 'ConsigneeSign' element value. РџСЂРёР·РЅР°Рє РїРѕР»СѓС‡Р°С‚РµР»СЏ: 0 - РїРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј; 1 - РїРѕ РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё
      * 
      * @param consigneeSign
      */

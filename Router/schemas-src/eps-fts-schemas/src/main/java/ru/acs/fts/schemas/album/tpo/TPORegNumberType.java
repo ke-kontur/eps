@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.tpo;
 import org.joda.time.LocalDate;
 
 /** 
- * Справочный номер ТПО
+ * РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
  */
 public class TPORegNumberType
 {
@@ -13,7 +13,7 @@ public class TPORegNumberType
     private String docNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата регистрации документа
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата регистрации документа
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Get the 'DocNumber' element value. Номер документа по журналу регистрации/типографский номер
+     * Get the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё/С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Set the 'DocNumber' element value. Номер документа по журналу регистрации/типографский номер
+     * Set the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё/С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ
      * 
      * @param docNumber
      */

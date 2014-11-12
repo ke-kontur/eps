@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * Сведения об общем количестве товара по накладной при частичной погрузке
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµРј РєРѕР»РёС‡РµСЃС‚РІРµ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё С‡Р°СЃС‚РёС‡РЅРѕР№ РїРѕРіСЂСѓР·РєРµ
  */
 public class TotalConsigmentPiecesType
 {
@@ -28,7 +28,7 @@ public class TotalConsigmentPiecesType
     }
 
     /** 
-     * Get the 'NumberPieces' element value. Количество мест товара по накладной
+     * Get the 'NumberPieces' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TotalConsigmentPiecesType
     }
 
     /** 
-     * Set the 'NumberPieces' element value. Количество мест товара по накладной
+     * Set the 'NumberPieces' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param numberPieces
      */

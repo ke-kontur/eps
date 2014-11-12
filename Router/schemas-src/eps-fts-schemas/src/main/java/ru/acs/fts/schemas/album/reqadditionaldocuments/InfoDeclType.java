@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Декларант
+ * Р”РµРєР»Р°СЂР°РЅС‚
  */
 public class InfoDeclType
 {
@@ -13,7 +13,7 @@ public class InfoDeclType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'Organization' element value. Сведения об организации./ ФИО декларанта
+     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё./ Р¤РРћ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class InfoDeclType
     }
 
     /** 
-     * Set the 'Organization' element value. Сведения об организации./ ФИО декларанта
+     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё./ Р¤РРћ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param organization
      */
@@ -31,7 +31,7 @@ public class InfoDeclType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class InfoDeclType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

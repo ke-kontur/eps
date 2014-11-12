@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.fitosanitarycertificate;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * Организации(ям) по карантину и защите растений (страны)
+ * РћСЂРіР°РЅРёР·Р°С†РёРё(СЏРј) РїРѕ РєР°СЂР°РЅС‚РёРЅСѓ Рё Р·Р°С‰РёС‚Рµ СЂР°СЃС‚РµРЅРёР№ (СЃС‚СЂР°РЅС‹)
  */
 public class OrganizationQuarantineType
 {
@@ -12,7 +12,7 @@ public class OrganizationQuarantineType
     private SertifOrgBaseType organization;
 
     /** 
-     * Get the 'CounryName' element value. Краткое наименование страны.
+     * Get the 'CounryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OrganizationQuarantineType
     }
 
     /** 
-     * Set the 'CounryName' element value. Краткое наименование страны.
+     * Set the 'CounryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹.
      * 
      * @param counryName
      */
@@ -30,7 +30,7 @@ public class OrganizationQuarantineType
     }
 
     /** 
-     * Get the 'Organization' element value. Сведения об организации 
+     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class OrganizationQuarantineType
     }
 
     /** 
-     * Set the 'Organization' element value. Сведения об организации 
+     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё 
      * 
      * @param organization
      */

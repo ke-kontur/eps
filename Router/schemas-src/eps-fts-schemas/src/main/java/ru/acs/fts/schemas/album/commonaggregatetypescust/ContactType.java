@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Контактная информация
+ * РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
  */
 public class ContactType
 {
@@ -15,7 +15,7 @@ public class ContactType
     private List<String> EMailList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'Phone' element items. Номер телефона
+     * Get the list of 'Phone' element items. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class ContactType
     }
 
     /** 
-     * Set the list of 'Phone' element items. Номер телефона
+     * Set the list of 'Phone' element items. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class ContactType
     }
 
     /** 
-     * Get the 'Fax' element value. Номер факса
+     * Get the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ContactType
     }
 
     /** 
-     * Set the 'Fax' element value. Номер факса
+     * Set the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°
      * 
      * @param fax
      */
@@ -51,7 +51,7 @@ public class ContactType
     }
 
     /** 
-     * Get the 'Telex' element value. Номер телекса
+     * Get the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ContactType
     }
 
     /** 
-     * Set the 'Telex' element value. Номер телекса
+     * Set the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°
      * 
      * @param telex
      */
@@ -69,7 +69,7 @@ public class ContactType
     }
 
     /** 
-     * Get the list of 'E_mail' element items. Адрес электронной почты
+     * Get the list of 'E_mail' element items. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class ContactType
     }
 
     /** 
-     * Set the list of 'E_mail' element items. Адрес электронной почты
+     * Set the list of 'E_mail' element items. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
      * 
      * @param list
      */

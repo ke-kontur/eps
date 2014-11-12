@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.certificatetitlevessel;
 import org.joda.time.LocalDate;
 
 /** 
- * Государственный судовой реестр Российской Федерации
+ * Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЃСѓРґРѕРІРѕР№ СЂРµРµСЃС‚СЂ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
  */
 public class RegisterType
 {
@@ -12,7 +12,7 @@ public class RegisterType
     private LocalDate dateRegister;
 
     /** 
-     * Get the 'NumberRegister' element value. Номер реестра
+     * Get the 'NumberRegister' element value. РќРѕРјРµСЂ СЂРµРµСЃС‚СЂР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RegisterType
     }
 
     /** 
-     * Set the 'NumberRegister' element value. Номер реестра
+     * Set the 'NumberRegister' element value. РќРѕРјРµСЂ СЂРµРµСЃС‚СЂР°
      * 
      * @param numberRegister
      */
@@ -30,7 +30,7 @@ public class RegisterType
     }
 
     /** 
-     * Get the 'DateRegister' element value. Дата реестра
+     * Get the 'DateRegister' element value. Р”Р°С‚Р° СЂРµРµСЃС‚СЂР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RegisterType
     }
 
     /** 
-     * Set the 'DateRegister' element value. Дата реестра
+     * Set the 'DateRegister' element value. Р”Р°С‚Р° СЂРµРµСЃС‚СЂР°
      * 
      * @param dateRegister
      */

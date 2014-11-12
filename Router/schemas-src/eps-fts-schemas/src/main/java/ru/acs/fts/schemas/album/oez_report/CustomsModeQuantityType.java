@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.oez_report;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Количество товара, соответствующее определённому коду таможенного режима
+ * РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРµ РѕРїСЂРµРґРµР»С‘РЅРЅРѕРјСѓ РєРѕРґСѓ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
  */
 public class CustomsModeQuantityType
 {
@@ -13,7 +13,7 @@ public class CustomsModeQuantityType
     private GTDIDType declarationNumber;
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код таможенного режима
+     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CustomsModeQuantityType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код таможенного режима
+     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
      * 
      * @param customsModeCode
      */
@@ -31,7 +31,7 @@ public class CustomsModeQuantityType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество товара
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CustomsModeQuantityType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество товара
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param quantity
      */
@@ -49,7 +49,7 @@ public class CustomsModeQuantityType
     }
 
     /** 
-     * Get the 'DeclarationNumber' element value. Номер таможенной декларации
+     * Get the 'DeclarationNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CustomsModeQuantityType
     }
 
     /** 
-     * Set the 'DeclarationNumber' element value. Номер таможенной декларации
+     * Set the 'DeclarationNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param declarationNumber
      */

@@ -1,0 +1,29 @@
+<binding xmlns:rsfa="urn:customs.ru:Information:CustomsDocuments:RefusalInFavorOfStateApplic:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RefusalInFavorOfStateApplic:5.4.3" default="elements" prefix="rsfa"/>
+  <mapping abstract="true" type-name="rsfa:RefusalInFavorOfStateApplicType" class="ru.acs.fts.schemas.album.RefusalInFavorOfStateApplicType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost" usage="optional"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="Reasons" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" name="Declarant"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="rsfa:GoodsType" name="Goods"/>
+    </collection>
+    <structure map-as="cat_ru:AddressType" get-method="getGoodsPlace" set-method="setGoodsPlace" name="GoodsPlace"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="cat_ru:AddressType" get-method="getStoragePlace" set-method="setStoragePlace" name="StoragePlace"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.RefusalInFavorOfStateApplicType" name="RefusalInFavorOfStateApplic">
+    <structure map-as="rsfa:RefusalInFavorOfStateApplicType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rsfa:GoodsType" class="ru.acs.fts.schemas.album.GoodsType">
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <value style="element" name="Cost" get-method="getCost" set-method="setCost" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional" name="GoodsQuantity"/>
+  </mapping>
+</binding>

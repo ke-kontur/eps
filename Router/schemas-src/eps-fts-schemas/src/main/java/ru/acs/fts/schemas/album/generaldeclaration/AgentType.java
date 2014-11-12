@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.generaldeclaration;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Информация об агенте
+ * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°РіРµРЅС‚Рµ
  */
 public class AgentType
 {
@@ -13,7 +13,7 @@ public class AgentType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Name' element value. Наименование организации или фамилия физического лица
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё С„Р°РјРёР»РёСЏ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AgentType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование организации или фамилия физического лица
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё С„Р°РјРёР»РёСЏ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param name
      */
@@ -31,7 +31,7 @@ public class AgentType
     }
 
     /** 
-     * Get the 'Phone' element value. Номер телефона.
+     * Get the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AgentType
     }
 
     /** 
-     * Set the 'Phone' element value. Номер телефона.
+     * Set the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
      * 
      * @param phone
      */
@@ -49,7 +49,7 @@ public class AgentType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. Описание адреса участника (адрес доставки почтовой корреспонденции)
+     * Get the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СѓС‡Р°СЃС‚РЅРёРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AgentType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. Описание адреса участника (адрес доставки почтовой корреспонденции)
+     * Set the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СѓС‡Р°СЃС‚РЅРёРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
      * 
      * @param postalAddress
      */

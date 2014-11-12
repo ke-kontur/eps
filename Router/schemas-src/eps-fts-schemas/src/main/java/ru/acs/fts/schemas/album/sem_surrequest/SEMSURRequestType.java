@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.BaseServiceRequestType;
 
 /** 
- * Запрос к сервису СУР
+ * Р—Р°РїСЂРѕСЃ Рє СЃРµСЂРІРёСЃСѓ РЎРЈР 
  */
 public class SEMSURRequestType extends BaseServiceRequestType
 {
@@ -16,7 +16,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     private String documentModeID;
 
     /** 
-     * Get the list of 'PresentedDocumentMode' element items. Дополнительная информация/представленные документы гр.44
+     * Get the list of 'PresentedDocumentMode' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ/РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ.44
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the list of 'PresentedDocumentMode' element items. Дополнительная информация/представленные документы гр.44
+     * Set the list of 'PresentedDocumentMode' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ/РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ.44
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Информация о товарах и неформализованных индикаторах профиля риска
+     * Get the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С… Рё РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂР°С… РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Информация о товарах и неформализованных индикаторах профиля риска
+     * Set the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С… Рё РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂР°С… РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Get the 'PlaceAndDate' element value. Графа 54 Место и дата
+     * Get the 'PlaceAndDate' element value. Р“СЂР°С„Р° 54 РњРµСЃС‚Рѕ Рё РґР°С‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the 'PlaceAndDate' element value. Графа 54 Место и дата
+     * Set the 'PlaceAndDate' element value. Р“СЂР°С„Р° 54 РњРµСЃС‚Рѕ Рё РґР°С‚Р°
      * 
      * @param placeAndDate
      */
@@ -70,7 +70,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class SEMSURRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

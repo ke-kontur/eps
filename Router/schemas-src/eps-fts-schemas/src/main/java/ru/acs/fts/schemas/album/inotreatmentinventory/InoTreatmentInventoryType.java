@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Опись, прилагаемая к заявлению на переработку товаров вне таможенной территории
+ * РћРїРёСЃСЊ, РїСЂРёР»Р°РіР°РµРјР°СЏ Рє Р·Р°СЏРІР»РµРЅРёСЋ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class InoTreatmentInventoryType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class InoTreatmentInventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Applicant' element value. Сведения о заявителе
+     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class InoTreatmentInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Сведения о заявителе
+     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param applicant
      */
@@ -34,7 +34,7 @@ public class InoTreatmentInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Документ из описи
+     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class InoTreatmentInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Документ из описи
+     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class InoTreatmentInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class InoTreatmentInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

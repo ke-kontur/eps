@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.tpo;
 
 /** 
- * Данные об автомобиле
+ * Р”Р°РЅРЅС‹Рµ РѕР± Р°РІС‚РѕРјРѕР±РёР»Рµ
  */
 public class AutomobileInfoType
 {
@@ -16,7 +16,7 @@ public class AutomobileInfoType
     private String enginePowerKVt;
 
     /** 
-     * Get the 'Model' element value. Модель
+     * Get the 'Model' element value. РњРѕРґРµР»СЊ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'Model' element value. Модель
+     * Set the 'Model' element value. РњРѕРґРµР»СЊ
      * 
      * @param model
      */
@@ -34,7 +34,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'Mark' element value. Марка
+     * Get the 'Mark' element value. РњР°СЂРєР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'Mark' element value. Марка
+     * Set the 'Mark' element value. РњР°СЂРєР°
      * 
      * @param mark
      */
@@ -52,7 +52,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'OfftakeYear' element value. Год выпуска
+     * Get the 'OfftakeYear' element value. Р“РѕРґ РІС‹РїСѓСЃРєР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'OfftakeYear' element value. Год выпуска
+     * Set the 'OfftakeYear' element value. Р“РѕРґ РІС‹РїСѓСЃРєР°
      * 
      * @param offtakeYear
      */
@@ -70,7 +70,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'EngineVolumeQuanity' element value. Объем двигателя, куб. см
+     * Get the 'EngineVolumeQuanity' element value. РћР±СЉРµРј РґРІРёРіР°С‚РµР»СЏ, РєСѓР±. СЃРј
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'EngineVolumeQuanity' element value. Объем двигателя, куб. см
+     * Set the 'EngineVolumeQuanity' element value. РћР±СЉРµРј РґРІРёРіР°С‚РµР»СЏ, РєСѓР±. СЃРј
      * 
      * @param engineVolumeQuanity
      */
@@ -88,7 +88,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'VINID' element value. Идентификационный номер (VIN)
+     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'VINID' element value. Идентификационный номер (VIN)
+     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
      * 
      * @param VINID
      */
@@ -106,7 +106,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'EnginePower' element value. Мощность двигателя в лошадиных силах
+     * Get the 'EnginePower' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'EnginePower' element value. Мощность двигателя в лошадиных силах
+     * Set the 'EnginePower' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
      * 
      * @param enginePower
      */
@@ -124,7 +124,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'MarkCode' element value. Код марки 
+     * Get the 'MarkCode' element value. РљРѕРґ РјР°СЂРєРё 
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'MarkCode' element value. Код марки 
+     * Set the 'MarkCode' element value. РљРѕРґ РјР°СЂРєРё 
      * 
      * @param markCode
      */
@@ -142,7 +142,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Get the 'EnginePowerKVt' element value. Мощность двигателя в КВт
+     * Get the 'EnginePowerKVt' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РљР’С‚
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class AutomobileInfoType
     }
 
     /** 
-     * Set the 'EnginePowerKVt' element value. Мощность двигателя в КВт
+     * Set the 'EnginePowerKVt' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РљР’С‚
      * 
      * @param enginePowerKVt
      */

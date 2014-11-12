@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.automobileinsurancepolicy;
 import org.joda.time.LocalDate;
 
 /** 
- * Период использования ТС
+ * РџРµСЂРёРѕРґ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РўРЎ
  */
 public class UseTransportTermType
 {
@@ -12,7 +12,7 @@ public class UseTransportTermType
     private LocalDate endUseTransportDate;
 
     /** 
-     * Get the 'BeginUseTransportDate' element value. Начало периода использования транспортного средства для ТС принадлежащих физ. лица)
+     * Get the 'BeginUseTransportDate' element value. РќР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РўРЎ РїСЂРёРЅР°РґР»РµР¶Р°С‰РёС… С„РёР·. Р»РёС†Р°)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class UseTransportTermType
     }
 
     /** 
-     * Set the 'BeginUseTransportDate' element value. Начало периода использования транспортного средства для ТС принадлежащих физ. лица)
+     * Set the 'BeginUseTransportDate' element value. РќР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РўРЎ РїСЂРёРЅР°РґР»РµР¶Р°С‰РёС… С„РёР·. Р»РёС†Р°)
      * 
      * @param beginUseTransportDate
      */
@@ -30,7 +30,7 @@ public class UseTransportTermType
     }
 
     /** 
-     * Get the 'EndUseTransportDate' element value. Конец периода использования транспортного средства для ТС принадлежащих физ. лица)
+     * Get the 'EndUseTransportDate' element value. РљРѕРЅРµС† РїРµСЂРёРѕРґР° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РўРЎ РїСЂРёРЅР°РґР»РµР¶Р°С‰РёС… С„РёР·. Р»РёС†Р°)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class UseTransportTermType
     }
 
     /** 
-     * Set the 'EndUseTransportDate' element value. Конец периода использования транспортного средства для ТС принадлежащих физ. лица)
+     * Set the 'EndUseTransportDate' element value. РљРѕРЅРµС† РїРµСЂРёРѕРґР° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РўРЎ РїСЂРёРЅР°РґР»РµР¶Р°С‰РёС… С„РёР·. Р»РёС†Р°)
      * 
      * @param endUseTransportDate
      */

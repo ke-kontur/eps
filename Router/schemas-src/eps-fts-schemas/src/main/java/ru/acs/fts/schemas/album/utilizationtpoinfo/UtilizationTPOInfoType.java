@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения об оформленном ТПО на утилизационные сборы.
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС„РѕСЂРјР»РµРЅРЅРѕРј РўРџРћ РЅР° СѓС‚РёР»РёР·Р°С†РёРѕРЅРЅС‹Рµ СЃР±РѕСЂС‹.
  */
 public class UtilizationTPOInfoType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CodeReasonFreePayment' element value. Код освобождения от уплаты от утилизационных сборов
+     * Get the 'CodeReasonFreePayment' element value. РљРѕРґ РѕСЃРІРѕР±РѕР¶РґРµРЅРёСЏ РѕС‚ СѓРїР»Р°С‚С‹ РѕС‚ СѓС‚РёР»РёР·Р°С†РёРѕРЅРЅС‹С… СЃР±РѕСЂРѕРІ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CodeReasonFreePayment' element value. Код освобождения от уплаты от утилизационных сборов
+     * Set the 'CodeReasonFreePayment' element value. РљРѕРґ РѕСЃРІРѕР±РѕР¶РґРµРЅРёСЏ РѕС‚ СѓРїР»Р°С‚С‹ РѕС‚ СѓС‚РёР»РёР·Р°С†РёРѕРЅРЅС‹С… СЃР±РѕСЂРѕРІ
      * 
      * @param codeReasonFreePayment
      */
@@ -33,7 +33,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TPOID' element value. Идентифицирующие параметры документа ТПО
+     * Get the 'TPOID' element value. РРґРµРЅС‚РёС„РёС†РёСЂСѓСЋС‰РёРµ РїР°СЂР°РјРµС‚СЂС‹ РґРѕРєСѓРјРµРЅС‚Р° РўРџРћ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TPOID' element value. Идентифицирующие параметры документа ТПО
+     * Set the 'TPOID' element value. РРґРµРЅС‚РёС„РёС†РёСЂСѓСЋС‰РёРµ РїР°СЂР°РјРµС‚СЂС‹ РґРѕРєСѓРјРµРЅС‚Р° РўРџРћ
      * 
      * @param TPOID
      */
@@ -51,7 +51,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CardNumber' element value. Учетный номер карточки
+     * Get the 'CardNumber' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РєР°СЂС‚РѕС‡РєРё
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CardNumber' element value. Учетный номер карточки
+     * Set the 'CardNumber' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РєР°СЂС‚РѕС‡РєРё
      * 
      * @param cardNumber
      */
@@ -69,7 +69,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class UtilizationTPOInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

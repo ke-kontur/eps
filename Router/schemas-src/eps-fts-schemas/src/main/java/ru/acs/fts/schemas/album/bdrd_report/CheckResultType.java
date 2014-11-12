@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Результаты сверки сведений
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ СЃРІРµСЂРєРё СЃРІРµРґРµРЅРёР№
  */
 public class CheckResultType
 {
@@ -22,7 +22,7 @@ public class CheckResultType
     private List<SupplementaryQuantityType> RDSupplementaryQuantityList = new ArrayList<SupplementaryQuantityType>();
 
     /** 
-     * Get the 'DataSource' element value. Источник получения сведений (ФОИВ)
+     * Get the 'DataSource' element value. РСЃС‚РѕС‡РЅРёРє РїРѕР»СѓС‡РµРЅРёСЏ СЃРІРµРґРµРЅРёР№ (Р¤РћРР’)
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the 'DataSource' element value. Источник получения сведений (ФОИВ)
+     * Set the 'DataSource' element value. РСЃС‚РѕС‡РЅРёРє РїРѕР»СѓС‡РµРЅРёСЏ СЃРІРµРґРµРЅРёР№ (Р¤РћРР’)
      * 
      * @param dataSource
      */
@@ -40,7 +40,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the 'QuotaPosibilitySign' element value. Признак возможности списания квоты
+     * Get the 'QuotaPosibilitySign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЃРїРёСЃР°РЅРёСЏ РєРІРѕС‚С‹
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the 'QuotaPosibilitySign' element value. Признак возможности списания квоты
+     * Set the 'QuotaPosibilitySign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЃРїРёСЃР°РЅРёСЏ РєРІРѕС‚С‹
      * 
      * @param quotaPosibilitySign
      */
@@ -58,7 +58,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the 'GoodsNumber' element value. Номер товара по ДТ
+     * Get the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. Номер товара по ДТ
+     * Set the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param goodsNumber
      */
@@ -76,7 +76,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param numeric
      */
@@ -94,7 +94,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the list of 'DT_GoodsDescription' element items. Описание товара по ДТ
+     * Get the list of 'DT_GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return list
      */
@@ -103,7 +103,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the list of 'DT_GoodsDescription' element items. Описание товара по ДТ
+     * Set the list of 'DT_GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param list
      */
@@ -112,7 +112,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the 'DT_GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС по ДТ
+     * Get the 'DT_GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the 'DT_GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС по ДТ
+     * Set the 'DT_GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ РїРѕ Р”Рў
      * 
      * @param DTGoodsTNVEDCode
      */
@@ -130,7 +130,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the list of 'RD_GoodsDescription' element items. Описание товара по РД
+     * Get the list of 'RD_GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РїРѕ Р Р”
      * 
      * @return list
      */
@@ -139,7 +139,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the list of 'RD_GoodsDescription' element items. Описание товара по РД
+     * Set the list of 'RD_GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РїРѕ Р Р”
      * 
      * @param list
      */
@@ -148,7 +148,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the 'RD_GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС по РД
+     * Get the 'RD_GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ РїРѕ Р Р”
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the 'RD_GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС по РД
+     * Set the 'RD_GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ РїРѕ Р Р”
      * 
      * @param RDGoodsTNVEDCode
      */
@@ -166,7 +166,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the list of 'DT_SupplementaryQuantity' element items. Количество товара по ДТ
+     * Get the list of 'DT_SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return list
      */
@@ -175,7 +175,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the list of 'DT_SupplementaryQuantity' element items. Количество товара по ДТ
+     * Set the list of 'DT_SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param list
      */
@@ -185,7 +185,7 @@ public class CheckResultType
     }
 
     /** 
-     * Get the list of 'RD_SupplementaryQuantity' element items. Количество товара по РД
+     * Get the list of 'RD_SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕ Р Р”
      * 
      * @return list
      */
@@ -194,7 +194,7 @@ public class CheckResultType
     }
 
     /** 
-     * Set the list of 'RD_SupplementaryQuantity' element items. Количество товара по РД
+     * Set the list of 'RD_SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕ Р Р”
      * 
      * @param list
      */

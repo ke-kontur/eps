@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsPackagingType;
 
 /** 
- * Товар 
+ * РўРѕРІР°СЂ 
  */
 public class GoodsType
 {
@@ -23,7 +23,7 @@ public class GoodsType
     private CustomsPaymentType customsPayment;
 
     /** 
-     * Get the 'CommonWayBillNumber' element value. Номер общей накладной на товар
+     * Get the 'CommonWayBillNumber' element value. РќРѕРјРµСЂ РѕР±С‰РµР№ РЅР°РєР»Р°РґРЅРѕР№ РЅР° С‚РѕРІР°СЂ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'CommonWayBillNumber' element value. Номер общей накладной на товар
+     * Set the 'CommonWayBillNumber' element value. РќРѕРјРµСЂ РѕР±С‰РµР№ РЅР°РєР»Р°РґРЅРѕР№ РЅР° С‚РѕРІР°СЂ
      * 
      * @param commonWayBillNumber
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */
@@ -59,7 +59,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'TNVED' element value. Код товара по ТН ВЭД ТС
+     * Get the 'TNVED' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'TNVED' element value. Код товара по ТН ВЭД ТС
+     * Set the 'TNVED' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVED
      */
@@ -77,7 +77,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'NetWeight' element value. Вес товара нетто, кг 
+     * Get the 'NetWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ, РєРі 
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'NetWeight' element value. Вес товара нетто, кг 
+     * Set the 'NetWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ, РєРі 
      * 
      * @param netWeight
      */
@@ -95,7 +95,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Вес товара брутто, кг 
+     * Get the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ, РєРі 
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Вес товара брутто, кг 
+     * Set the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ, РєРі 
      * 
      * @param grossWeight
      */
@@ -113,7 +113,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Стоимость
+     * Get the 'InvoicedCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Стоимость
+     * Set the 'InvoicedCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param invoicedCost
      */
@@ -131,7 +131,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'CustomsCost' element value. Таможенная стоимость
+     * Get the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'CustomsCost' element value. Таможенная стоимость
+     * Set the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param customsCost
      */
@@ -149,7 +149,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'ReceiverByCommonWayBill' element value. Получатель по общей накладной на товар
+     * Get the 'ReceiverByCommonWayBill' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕ РѕР±С‰РµР№ РЅР°РєР»Р°РґРЅРѕР№ РЅР° С‚РѕРІР°СЂ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'ReceiverByCommonWayBill' element value. Получатель по общей накладной на товар
+     * Set the 'ReceiverByCommonWayBill' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕ РѕР±С‰РµР№ РЅР°РєР»Р°РґРЅРѕР№ РЅР° С‚РѕРІР°СЂ
      * 
      * @param receiverByCommonWayBill
      */
@@ -168,7 +168,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Packaging' element value. Сведения об упаковке товара
+     * Get the 'Packaging' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Packaging' element value. Сведения об упаковке товара
+     * Set the 'Packaging' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂР°
      * 
      * @param packaging
      */
@@ -186,7 +186,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Габариты товара
+     * Get the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚С‹ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Габариты товара
+     * Set the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚С‹ С‚РѕРІР°СЂР°
      * 
      * @param dimensions
      */
@@ -204,7 +204,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'CustomsPayment' element value. Таможенные платежи
+     * Get the 'CustomsPayment' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'CustomsPayment' element value. Таможенные платежи
+     * Set the 'CustomsPayment' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё
      * 
      * @param customsPayment
      */

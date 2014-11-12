@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о типе объекта декларирования
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РёРїРµ РѕР±СЉРµРєС‚Р° РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ
  */
 public class TypeDeclarationType
 {
@@ -16,7 +16,7 @@ public class TypeDeclarationType
     private List<DocumentBaseType> shippingDocumentList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'Number' element value. Номер партии/изделия
+     * Get the 'Number' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё/РёР·РґРµР»РёСЏ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Set the 'Number' element value. Номер партии/изделия
+     * Set the 'Number' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё/РёР·РґРµР»РёСЏ
      * 
      * @param number
      */
@@ -34,7 +34,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Get the 'Size' element value. Размер партии
+     * Get the 'Size' element value. Р Р°Р·РјРµСЂ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Set the 'Size' element value. Размер партии
+     * Set the 'Size' element value. Р Р°Р·РјРµСЂ РїР°СЂС‚РёРё
      * 
      * @param size
      */
@@ -52,7 +52,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество товара в партии
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество товара в партии
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РїР°СЂС‚РёРё
      * 
      * @param quantity
      */
@@ -70,7 +70,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Get the list of 'ShippingDocuments' element items. Товаросопроводительные документы
+     * Get the list of 'ShippingDocuments' element items. РўРѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class TypeDeclarationType
     }
 
     /** 
-     * Set the list of 'ShippingDocuments' element items. Товаросопроводительные документы
+     * Set the list of 'ShippingDocuments' element items. РўРѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * Акт об изменении, удалении, уничтожении или замене средств идентификации
+ * РђРєС‚ РѕР± РёР·РјРµРЅРµРЅРёРё, СѓРґР°Р»РµРЅРёРё, СѓРЅРёС‡С‚РѕР¶РµРЅРёРё РёР»Рё Р·Р°РјРµРЅРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
  */
 public class ActOperationIndentifType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class ActOperationIndentifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ActDate' element value. Дата акта
+     * Get the 'ActDate' element value. Р”Р°С‚Р° Р°РєС‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActDate' element value. Дата акта
+     * Set the 'ActDate' element value. Р”Р°С‚Р° Р°РєС‚Р°
      * 
      * @param actDate
      */
@@ -46,7 +46,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActNumber' element value. Номер акта
+     * Get the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActNumber' element value. Номер акта
+     * Set the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р°
      * 
      * @param actNumber
      */
@@ -64,7 +64,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DescriptionCircumstances' element value. Краткое описание обстоятельств
+     * Get the 'DescriptionCircumstances' element value. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DescriptionCircumstances' element value. Краткое описание обстоятельств
+     * Set the 'DescriptionCircumstances' element value. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ
      * 
      * @param descriptionCircumstances
      */
@@ -82,7 +82,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'OperationIndentif' element value. Операции со средствами идентификации. 1 - удаление, 2 - изменение, 3 - замена, 4 - уничтожение.
+     * Get the 'OperationIndentif' element value. РћРїРµСЂР°С†РёРё СЃРѕ СЃСЂРµРґСЃС‚РІР°РјРё РёРґРµРЅС‚РёС„РёРєР°С†РёРё. 1 - СѓРґР°Р»РµРЅРёРµ, 2 - РёР·РјРµРЅРµРЅРёРµ, 3 - Р·Р°РјРµРЅР°, 4 - СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ.
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperationIndentif' element value. Операции со средствами идентификации. 1 - удаление, 2 - изменение, 3 - замена, 4 - уничтожение.
+     * Set the 'OperationIndentif' element value. РћРїРµСЂР°С†РёРё СЃРѕ СЃСЂРµРґСЃС‚РІР°РјРё РёРґРµРЅС‚РёС„РёРєР°С†РёРё. 1 - СѓРґР°Р»РµРЅРёРµ, 2 - РёР·РјРµРЅРµРЅРёРµ, 3 - Р·Р°РјРµРЅР°, 4 - СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ.
      * 
      * @param operationIndentif
      */
@@ -100,7 +100,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportIdentifier' element items. Номер транспортных средств и контейнеров, на которых удалены или изменены средства идентификации
+     * Get the list of 'TransportIdentifier' element items. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ Рё РєРѕРЅС‚РµР№РЅРµСЂРѕРІ, РЅР° РєРѕС‚РѕСЂС‹С… СѓРґР°Р»РµРЅС‹ РёР»Рё РёР·РјРµРЅРµРЅС‹ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return list
      */
@@ -109,7 +109,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportIdentifier' element items. Номер транспортных средств и контейнеров, на которых удалены или изменены средства идентификации
+     * Set the list of 'TransportIdentifier' element items. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ Рё РєРѕРЅС‚РµР№РЅРµСЂРѕРІ, РЅР° РєРѕС‚РѕСЂС‹С… СѓРґР°Р»РµРЅС‹ РёР»Рё РёР·РјРµРЅРµРЅС‹ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param list
      */
@@ -118,7 +118,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DescriptionIdentif' element value. Описание измененных,  удаленных,  уничтоженных или  замененных средств идентификации 
+     * Get the 'DescriptionIdentif' element value. РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРЅС‹С…,  СѓРґР°Р»РµРЅРЅС‹С…,  СѓРЅРёС‡С‚РѕР¶РµРЅРЅС‹С… РёР»Рё  Р·Р°РјРµРЅРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё 
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DescriptionIdentif' element value. Описание измененных,  удаленных,  уничтоженных или  замененных средств идентификации 
+     * Set the 'DescriptionIdentif' element value. РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРЅС‹С…,  СѓРґР°Р»РµРЅРЅС‹С…,  СѓРЅРёС‡С‚РѕР¶РµРЅРЅС‹С… РёР»Рё  Р·Р°РјРµРЅРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё 
      * 
      * @param descriptionIdentif
      */
@@ -136,7 +136,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DescriptionNewIdentif' element value. Описание новых средств идентификации
+     * Get the 'DescriptionNewIdentif' element value. РћРїРёСЃР°РЅРёРµ РЅРѕРІС‹С… СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DescriptionNewIdentif' element value. Описание новых средств идентификации
+     * Set the 'DescriptionNewIdentif' element value. РћРїРёСЃР°РЅРёРµ РЅРѕРІС‹С… СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param descriptionNewIdentif
      */
@@ -154,7 +154,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationIdentifiDate' element value. Дата применения средств(а) идентификации
+     * Get the 'ApplicationIdentifiDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ СЃСЂРµРґСЃС‚РІ(Р°) РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationIdentifiDate' element value. Дата применения средств(а) идентификации
+     * Set the 'ApplicationIdentifiDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ СЃСЂРµРґСЃС‚РІ(Р°) РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param applicationIdentifiDate
      */
@@ -172,7 +172,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -190,7 +190,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -208,7 +208,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'OperationPlace' element value. Описание места проведения операций по изменению, удалению, уничтожению или замене средств идентификации
+     * Get the 'OperationPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РёР·РјРµРЅРµРЅРёСЋ, СѓРґР°Р»РµРЅРёСЋ, СѓРЅРёС‡С‚РѕР¶РµРЅРёСЋ РёР»Рё Р·Р°РјРµРЅРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperationPlace' element value. Описание места проведения операций по изменению, удалению, уничтожению или замене средств идентификации
+     * Set the 'OperationPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РёР·РјРµРЅРµРЅРёСЋ, СѓРґР°Р»РµРЅРёСЋ, СѓРЅРёС‡С‚РѕР¶РµРЅРёСЋ РёР»Рё Р·Р°РјРµРЅРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param operationPlace
      */
@@ -226,7 +226,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'SecondCopyReceived' element value. Второй экземпляр акта на руки получил
+     * Get the 'SecondCopyReceived' element value. Р’С‚РѕСЂРѕР№ СЌРєР·РµРјРїР»СЏСЂ Р°РєС‚Р° РЅР° СЂСѓРєРё РїРѕР»СѓС‡РёР»
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SecondCopyReceived' element value. Второй экземпляр акта на руки получил
+     * Set the 'SecondCopyReceived' element value. Р’С‚РѕСЂРѕР№ СЌРєР·РµРјРїР»СЏСЂ Р°РєС‚Р° РЅР° СЂСѓРєРё РїРѕР»СѓС‡РёР»
      * 
      * @param secondCopyReceived
      */
@@ -244,7 +244,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonGoods' element value. Лицо, обладающее полномочиями в отношении товаров (представитель лица)
+     * Get the 'PersonGoods' element value. Р›РёС†Рѕ, РѕР±Р»Р°РґР°СЋС‰РµРµ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ (РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р»РёС†Р°)
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonGoods' element value. Лицо, обладающее полномочиями в отношении товаров (представитель лица)
+     * Set the 'PersonGoods' element value. Р›РёС†Рѕ, РѕР±Р»Р°РґР°СЋС‰РµРµ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ (РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р»РёС†Р°)
      * 
      * @param personGoods
      */
@@ -262,7 +262,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class ActOperationIndentifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -13,14 +13,15 @@
     <structure map-as="racm:RepresApplicCustomsMarkType"/>
   </mapping>
   <mapping abstract="true" type-name="racm:ConsignmentType" class="ru.acs.fts.schemas.album.represappliccustomsmark.ConsignmentType">
+    <value style="element" name="ListNumeric" get-method="getListNumeric" set-method="setListNumeric"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getIndividualWayBill" set-method="setIndividualWayBill" name="IndividualWayBill"/>
     <value style="element" name="Decision" get-method="getDecision" set-method="setDecision"/>
     <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" format="LocalDate.default"/>
     <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
       <structure map-as="racm:GoodsType" name="Goods"/>
     </collection>
-    <collection get-method="getWayBillList" set-method="setWayBillList" create-type="java.util.ArrayList">
-      <structure map-as="racm:WayBillType" name="WayBill"/>
-    </collection>
+    <structure map-as="racm:CustomsDutiesType" get-method="getCustomsDuties" set-method="setCustomsDuties" usage="optional" name="CustomsDuties"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getTPOInfo" set-method="setTPOInfo" usage="optional" name="TPOInfo"/>
   </mapping>
   <mapping abstract="true" type-name="racm:GoodsType" class="ru.acs.fts.schemas.album.represappliccustomsmark.GoodsType">
     <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
@@ -29,10 +30,10 @@
     </collection>
     <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
     <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
-    <structure map-as="cat_ru:DocumentBaseType" get-method="getTPOInfo" set-method="setTPOInfo" usage="optional" name="TPOInfo"/>
   </mapping>
-  <mapping abstract="true" type-name="racm:WayBillType" class="ru.acs.fts.schemas.album.represappliccustomsmark.WayBillType">
-    <structure map-as="cat_ru:DocumentBaseType"/>
-    <value style="element" name="WayBillKind" get-method="getWayBillKind" set-method="setWayBillKind"/>
+  <mapping abstract="true" type-name="racm:CustomsDutiesType" class="ru.acs.fts.schemas.album.represappliccustomsmark.CustomsDutiesType">
+    <value style="element" name="Duties" get-method="getDuties" set-method="setDuties" usage="optional"/>
+    <value style="element" name="Taxes" get-method="getTaxes" set-method="setTaxes" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
   </mapping>
 </binding>

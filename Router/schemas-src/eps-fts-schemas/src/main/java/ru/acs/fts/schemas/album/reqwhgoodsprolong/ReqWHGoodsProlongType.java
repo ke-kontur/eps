@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Заявление о продлении сроков временного хранения товаров
+ * Р—Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
  */
 public class ReqWHGoodsProlongType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата подачи заявления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата подачи заявления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -37,7 +37,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время подачи заявления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время подачи заявления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -55,7 +55,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumber' element value. Регистрационный номер заявления
+     * Get the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. Регистрационный номер заявления
+     * Set the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param regNumber
      */
@@ -73,7 +73,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reason' element items. Обоснование
+     * Get the list of 'Reason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reason' element items. Обоснование
+     * Set the list of 'Reason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsReason' element items. Основание продления срока по каждому товару
+     * Get the list of 'GoodsReason' element items. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РїРѕ РєР°Р¶РґРѕРјСѓ С‚РѕРІР°СЂСѓ
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsReason' element items. Основание продления срока по каждому товару
+     * Set the list of 'GoodsReason' element items. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РїРѕ РєР°Р¶РґРѕРјСѓ С‚РѕРІР°СЂСѓ
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ReqWHGoodsProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

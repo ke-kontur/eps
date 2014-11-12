@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * ИНН кредитной организации / реквизиты банка в котором открыт счет.
+ * РРќРќ РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё / СЂРµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР° РІ РєРѕС‚РѕСЂРѕРј РѕС‚РєСЂС‹С‚ СЃС‡РµС‚.
  */
 public class BankOrganizationType
 {
@@ -12,7 +12,7 @@ public class BankOrganizationType
     private String organizationKind;
 
     /** 
-     * Get the 'INN' element value. ИНН кредитной организации
+     * Get the 'INN' element value. РРќРќ РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Set the 'INN' element value. ИНН кредитной организации
+     * Set the 'INN' element value. РРќРќ РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param INN
      */
@@ -30,7 +30,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Get the 'OKPO' element value. ОКПО банка
+     * Get the 'OKPO' element value. РћРљРџРћ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Set the 'OKPO' element value. ОКПО банка
+     * Set the 'OKPO' element value. РћРљРџРћ Р±Р°РЅРєР°
      * 
      * @param OKPO
      */
@@ -48,7 +48,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Get the 'BankName' element value. Наименование банка
+     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Set the 'BankName' element value. Наименование банка
+     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @param bankName
      */
@@ -66,7 +66,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Get the 'OrganizationKind' element value. Тип организации, указанный в гр. 28. 1- Кредитная организация 2-Банк в котором открыт счет. 
+     * Get the 'OrganizationKind' element value. РўРёРї РѕСЂРіР°РЅРёР·Р°С†РёРё, СѓРєР°Р·Р°РЅРЅС‹Р№ РІ РіСЂ. 28. 1- РљСЂРµРґРёС‚РЅР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ 2-Р‘Р°РЅРє РІ РєРѕС‚РѕСЂРѕРј РѕС‚РєСЂС‹С‚ СЃС‡РµС‚. 
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class BankOrganizationType
     }
 
     /** 
-     * Set the 'OrganizationKind' element value. Тип организации, указанный в гр. 28. 1- Кредитная организация 2-Банк в котором открыт счет. 
+     * Set the 'OrganizationKind' element value. РўРёРї РѕСЂРіР°РЅРёР·Р°С†РёРё, СѓРєР°Р·Р°РЅРЅС‹Р№ РІ РіСЂ. 28. 1- РљСЂРµРґРёС‚РЅР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ 2-Р‘Р°РЅРє РІ РєРѕС‚РѕСЂРѕРј РѕС‚РєСЂС‹С‚ СЃС‡РµС‚. 
      * 
      * @param organizationKind
      */

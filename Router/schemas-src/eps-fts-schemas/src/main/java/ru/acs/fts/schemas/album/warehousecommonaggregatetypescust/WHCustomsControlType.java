@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.warehousecommonleaftypescust.CustomsControlKind;
 
 /** 
- * Комплексный тип для описания cведений о мере таможенного контроля над хранимым на СВХ товаром
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ cРІРµРґРµРЅРёР№ Рѕ РјРµСЂРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ РЅР°Рґ С…СЂР°РЅРёРјС‹Рј РЅР° РЎР’РҐ С‚РѕРІР°СЂРѕРј
  */
 public class WHCustomsControlType
 {
@@ -16,7 +16,7 @@ public class WHCustomsControlType
     private WHCustomInspectorType inspector;
 
     /** 
-     * Get the 'Kind' element value. Вид меры ТК
+     * Get the 'Kind' element value. Р’РёРґ РјРµСЂС‹ РўРљ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Set the 'Kind' element value. Вид меры ТК
+     * Set the 'Kind' element value. Р’РёРґ РјРµСЂС‹ РўРљ
      * 
      * @param kind
      */
@@ -34,7 +34,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Get the 'Date' element value. Дата применения
+     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Set the 'Date' element value. Дата применения
+     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ
      * 
      * @param date
      */
@@ -52,7 +52,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Get the 'Reason' element value. Основание применения меры / Информация по грузу
+     * Get the 'Reason' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ / РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РіСЂСѓР·Сѓ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Set the 'Reason' element value. Основание применения меры / Информация по грузу
+     * Set the 'Reason' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ / РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РіСЂСѓР·Сѓ
      * 
      * @param reason
      */
@@ -70,7 +70,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Get the 'KeepingLimit' element value. Срок ВХ по принятой мере ТК
+     * Get the 'KeepingLimit' element value. РЎСЂРѕРє Р’РҐ РїРѕ РїСЂРёРЅСЏС‚РѕР№ РјРµСЂРµ РўРљ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Set the 'KeepingLimit' element value. Срок ВХ по принятой мере ТК
+     * Set the 'KeepingLimit' element value. РЎСЂРѕРє Р’РҐ РїРѕ РїСЂРёРЅСЏС‚РѕР№ РјРµСЂРµ РўРљ
      * 
      * @param keepingLimit
      */
@@ -88,7 +88,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Get the 'Inspector' element value. Сотрудник таможенного органа, применивший меру ТК
+     * Get the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРёРјРµРЅРёРІС€РёР№ РјРµСЂСѓ РўРљ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class WHCustomsControlType
     }
 
     /** 
-     * Set the 'Inspector' element value. Сотрудник таможенного органа, применивший меру ТК
+     * Set the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРёРјРµРЅРёРІС€РёР№ РјРµСЂСѓ РўРљ
      * 
      * @param inspector
      */

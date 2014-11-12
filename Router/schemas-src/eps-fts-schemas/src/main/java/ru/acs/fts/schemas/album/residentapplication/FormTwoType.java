@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Форма №2. Сведения о товарах, предполагаемых к ввозу на территорию ОЭЗ в соответствии с таможенным режимом свободной таможенной зоны с целью переработки товаров, о продуктах переработки и отходах 
+ * Р¤РѕСЂРјР° в„–2. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїСЂРµРґРїРѕР»Р°РіР°РµРјС‹С… Рє РІРІРѕР·Сѓ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ СЃ С†РµР»СЊСЋ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ, Рѕ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґР°С… 
  */
 public class FormTwoType
 {
@@ -15,7 +15,7 @@ public class FormTwoType
     private List<FormTwoSectionType> sectionList = new ArrayList<FormTwoSectionType>();
 
     /** 
-     * Get the 'ResidentPersonSignature' element value. ФИО и подпись уполномоченного лица организации - резидента ОЭЗ
+     * Get the 'ResidentPersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class FormTwoType
     }
 
     /** 
-     * Set the 'ResidentPersonSignature' element value. ФИО и подпись уполномоченного лица организации - резидента ОЭЗ
+     * Set the 'ResidentPersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
      * 
      * @param residentPersonSignature
      */
@@ -34,7 +34,7 @@ public class FormTwoType
     }
 
     /** 
-     * Get the 'EconZonePersonSignature' element value. ФИО и подпись уполномоченного лица органа управления ОЭЗ 
+     * Get the 'EconZonePersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅР° СѓРїСЂР°РІР»РµРЅРёСЏ РћР­Р— 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class FormTwoType
     }
 
     /** 
-     * Set the 'EconZonePersonSignature' element value. ФИО и подпись уполномоченного лица органа управления ОЭЗ 
+     * Set the 'EconZonePersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅР° СѓРїСЂР°РІР»РµРЅРёСЏ РћР­Р— 
      * 
      * @param econZonePersonSignature
      */
@@ -53,7 +53,7 @@ public class FormTwoType
     }
 
     /** 
-     * Get the list of 'Section' element items. Раздел 
+     * Get the list of 'Section' element items. Р Р°Р·РґРµР» 
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class FormTwoType
     }
 
     /** 
-     * Set the list of 'Section' element items. Раздел 
+     * Set the list of 'Section' element items. Р Р°Р·РґРµР» 
      * 
      * @param list
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.archdocupdate;
 
 /** 
- * Измененный документ
+ * РР·РјРµРЅРµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class ArcDocType
 {
     private Object any;
 
     /** 
-     * Get the 'ArcDocType' complexType value. Тело документа
+     * Get the 'ArcDocType' complexType value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ArcDocType
     }
 
     /** 
-     * Set the 'ArcDocType' complexType value. Тело документа
+     * Set the 'ArcDocType' complexType value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param any
      */

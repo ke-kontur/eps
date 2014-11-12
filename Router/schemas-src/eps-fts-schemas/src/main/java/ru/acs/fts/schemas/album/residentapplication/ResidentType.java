@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о резиденте ОЭЗ 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ РћР­Р— 
  */
 public class ResidentType
 {
@@ -35,7 +35,7 @@ public class ResidentType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Паспорт резидента ОЭЗ 
+     * Get the 'IdentityCard' element value. РџР°СЃРїРѕСЂС‚ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ResidentType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Паспорт резидента ОЭЗ 
+     * Set the 'IdentityCard' element value. РџР°СЃРїРѕСЂС‚ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @param identityCard
      */
@@ -53,7 +53,7 @@ public class ResidentType
     }
 
     /** 
-     * Get the 'LicenseNumber' element value. Свидетельство, удостоверяющее регистрацию лица в качестве резидента ОЭЗ 
+     * Get the 'LicenseNumber' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРµ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ResidentType
     }
 
     /** 
-     * Set the 'LicenseNumber' element value. Свидетельство, удостоверяющее регистрацию лица в качестве резидента ОЭЗ 
+     * Set the 'LicenseNumber' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРµ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @param licenseNumber
      */
@@ -71,7 +71,7 @@ public class ResidentType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес резидента ОЭЗ 
+     * Get the 'Address' element value. РђРґСЂРµСЃ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ResidentType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес резидента ОЭЗ 
+     * Set the 'Address' element value. РђРґСЂРµСЃ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— 
      * 
      * @param address
      */

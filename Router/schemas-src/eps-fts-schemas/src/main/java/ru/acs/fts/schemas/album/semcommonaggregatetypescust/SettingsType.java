@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.semcommonaggregatetypescust;
 
 /** 
- * Ограничительные коэффициенты
+ * РћРіСЂР°РЅРёС‡РёС‚РµР»СЊРЅС‹Рµ РєРѕСЌС„С„РёС†РёРµРЅС‚С‹
  */
 public class SettingsType
 {
@@ -11,7 +11,7 @@ public class SettingsType
     private String type;
 
     /** 
-     * Get the 'Name' element value. Наименование коэффициента
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SettingsType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование коэффициента
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р°
      * 
      * @param name
      */
@@ -29,7 +29,7 @@ public class SettingsType
     }
 
     /** 
-     * Get the 'Value' element value. Значение коэффициента
+     * Get the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SettingsType
     }
 
     /** 
-     * Set the 'Value' element value. Значение коэффициента
+     * Set the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р°
      * 
      * @param value
      */
@@ -47,7 +47,7 @@ public class SettingsType
     }
 
     /** 
-     * Get the 'Type' element value. Тип коэффициента
+     * Get the 'Type' element value. РўРёРї РєРѕСЌС„С„РёС†РёРµРЅС‚Р°
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class SettingsType
     }
 
     /** 
-     * Set the 'Type' element value. Тип коэффициента
+     * Set the 'Type' element value. РўРёРї РєРѕСЌС„С„РёС†РёРµРЅС‚Р°
      * 
      * @param type
      */

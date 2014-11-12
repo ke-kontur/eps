@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
 
 /** 
- * Сведения о рейсе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
  */
 public class FlightType extends FlightInfoType
 {
     private AirportType destinationAirport;
 
     /** 
-     * Get the 'DestinationAirport' element value. Аэропорт назначения 
+     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class FlightType extends FlightInfoType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. Аэропорт назначения 
+     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ 
      * 
      * @param destinationAirport
      */

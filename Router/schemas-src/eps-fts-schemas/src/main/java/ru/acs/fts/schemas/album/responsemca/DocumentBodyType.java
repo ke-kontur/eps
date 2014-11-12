@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Тело документа
+ * РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocumentBodyType
 {
@@ -62,7 +62,7 @@ public class DocumentBodyType
         }
 
         /** 
-         * Get the list of 'TextSection' element items. Текстовый раздел
+         * Get the list of 'TextSection' element items. РўРµРєСЃС‚РѕРІС‹Р№ СЂР°Р·РґРµР»
          * 
          * @return list
          */
@@ -71,7 +71,7 @@ public class DocumentBodyType
         }
 
         /** 
-         * Set the list of 'TextSection' element items. Текстовый раздел
+         * Set the list of 'TextSection' element items. РўРµРєСЃС‚РѕРІС‹Р№ СЂР°Р·РґРµР»
          * 
          * @param list
          */
@@ -90,7 +90,7 @@ public class DocumentBodyType
         }
 
         /** 
-         * Get the list of 'Table' element items. Таблица
+         * Get the list of 'Table' element items. РўР°Р±Р»РёС†Р°
          * 
          * @return list
          */
@@ -99,7 +99,7 @@ public class DocumentBodyType
         }
 
         /** 
-         * Set the list of 'Table' element items. Таблица
+         * Set the list of 'Table' element items. РўР°Р±Р»РёС†Р°
          * 
          * @param list
          */

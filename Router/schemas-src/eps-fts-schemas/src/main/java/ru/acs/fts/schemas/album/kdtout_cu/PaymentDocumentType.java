@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.RFOrganizationFeaturesT
 import ru.acs.fts.schemas.album.commonaggregatetypescust.RKOrganizationFeaturesType;
 
 /** 
- * Платежный документ
+ * РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class PaymentDocumentType extends DocumentBaseType
 {
@@ -18,7 +18,7 @@ public class PaymentDocumentType extends DocumentBaseType
     private Choice choice;
 
     /** 
-     * Get the 'PaymentDate' element value. Дата уплаты
+     * Get the 'PaymentDate' element value. Р”Р°С‚Р° СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PaymentDate' element value. Дата уплаты
+     * Set the 'PaymentDate' element value. Р”Р°С‚Р° СѓРїР»Р°С‚С‹
      * 
      * @param paymentDate
      */
@@ -36,7 +36,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. Способ уплаты в соответствии с классификатором способов уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
+     * Get the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. Способ уплаты в соответствии с классификатором способов уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
+     * Set the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @param paymentWayCode
      */
@@ -54,7 +54,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocPaymentAmount' element value. Сумма уплаты или возврата денежных средств
+     * Get the 'DocPaymentAmount' element value. РЎСѓРјРјР° СѓРїР»Р°С‚С‹ РёР»Рё РІРѕР·РІСЂР°С‚Р° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocPaymentAmount' element value. Сумма уплаты или возврата денежных средств
+     * Set the 'DocPaymentAmount' element value. РЎСѓРјРјР° СѓРїР»Р°С‚С‹ РёР»Рё РІРѕР·РІСЂР°С‚Р° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param docPaymentAmount
      */
@@ -124,7 +124,7 @@ public class PaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Get the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
+         * Get the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
          * 
          * @return value
          */
@@ -133,7 +133,7 @@ public class PaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Set the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
+         * Set the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
          * 
          * @param RFOrganizationFeatures
          */
@@ -153,7 +153,7 @@ public class PaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Get the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
+         * Get the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
          * 
          * @return value
          */
@@ -162,7 +162,7 @@ public class PaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Set the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
+         * Set the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
          * 
          * @param RKOrganizationFeatures
          */
@@ -182,7 +182,7 @@ public class PaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Get the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
+         * Get the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
          * 
          * @return value
          */
@@ -191,7 +191,7 @@ public class PaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Set the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
+         * Set the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
          * 
          * @param RBOrganizationFeatures
          */

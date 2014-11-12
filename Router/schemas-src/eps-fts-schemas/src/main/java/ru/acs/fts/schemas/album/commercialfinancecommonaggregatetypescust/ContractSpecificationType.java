@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Спецификация к контракту
+ * РЎРїРµС†РёС„РёРєР°С†РёСЏ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
  */
 public class ContractSpecificationType
 {
@@ -15,7 +15,7 @@ public class ContractSpecificationType
     private List<SpecificationGoodsExtendedType> specificationGoodsExtendedList = new ArrayList<SpecificationGoodsExtendedType>();
 
     /** 
-     * Get the 'ID' element value. Номер документа
+     * Get the 'ID' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ContractSpecificationType
     }
 
     /** 
-     * Set the 'ID' element value. Номер документа
+     * Set the 'ID' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param ID
      */
@@ -33,7 +33,7 @@ public class ContractSpecificationType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата составления документа
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ContractSpecificationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата составления документа
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param issueDate
      */
@@ -51,7 +51,7 @@ public class ContractSpecificationType
     }
 
     /** 
-     * Get the list of 'SpecificationGoodsExtended' element items. Описание и дополнительные характеристики товаров из спецификации к контракту
+     * Get the list of 'SpecificationGoodsExtended' element items. РћРїРёСЃР°РЅРёРµ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class ContractSpecificationType
     }
 
     /** 
-     * Set the list of 'SpecificationGoodsExtended' element items. Описание и дополнительные характеристики товаров из спецификации к контракту
+     * Set the list of 'SpecificationGoodsExtended' element items. РћРїРёСЃР°РЅРёРµ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param list
      */

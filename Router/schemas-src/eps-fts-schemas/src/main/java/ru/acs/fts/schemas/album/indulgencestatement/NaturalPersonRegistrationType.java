@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.indulgencestatement;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о государственной регистрации индивидуального предпринимателя
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
  */
 public class NaturalPersonRegistrationType
 {
@@ -12,7 +12,7 @@ public class NaturalPersonRegistrationType
     private LocalDate dateInf;
 
     /** 
-     * Get the 'RegistrationOrganization' element value. Наименование регистрирующего органа
+     * Get the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class NaturalPersonRegistrationType
     }
 
     /** 
-     * Set the 'RegistrationOrganization' element value. Наименование регистрирующего органа
+     * Set the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param registrationOrganization
      */
@@ -30,7 +30,7 @@ public class NaturalPersonRegistrationType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата государственной регистрации физического лица в качестве индивидуального предпринимателя и данные документа
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ Рё РґР°РЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class NaturalPersonRegistrationType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата государственной регистрации физического лица в качестве индивидуального предпринимателя и данные документа
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ Рё РґР°РЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param dateInf
      */

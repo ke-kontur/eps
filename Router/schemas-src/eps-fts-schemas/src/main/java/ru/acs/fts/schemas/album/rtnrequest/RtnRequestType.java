@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения из реестра разрешений ОГ/карточек допуска
+ * РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° СЂР°Р·СЂРµС€РµРЅРёР№ РћР“/РєР°СЂС‚РѕС‡РµРє РґРѕРїСѓСЃРєР°
  */
 public class RtnRequestType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class RtnRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Permit' element items. Данные по разрешению/карточке
+     * Get the list of 'Permit' element items. Р”Р°РЅРЅС‹Рµ РїРѕ СЂР°Р·СЂРµС€РµРЅРёСЋ/РєР°СЂС‚РѕС‡РєРµ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class RtnRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Permit' element items. Данные по разрешению/карточке
+     * Set the list of 'Permit' element items. Р”Р°РЅРЅС‹Рµ РїРѕ СЂР°Р·СЂРµС€РµРЅРёСЋ/РєР°СЂС‚РѕС‡РєРµ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class RtnRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RtnRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

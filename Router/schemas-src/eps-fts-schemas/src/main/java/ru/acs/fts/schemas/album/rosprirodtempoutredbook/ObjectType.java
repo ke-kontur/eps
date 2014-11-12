@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Животные или растения, занесённые в Красную книгу
+ * Р–РёРІРѕС‚РЅС‹Рµ РёР»Рё СЂР°СЃС‚РµРЅРёСЏ, Р·Р°РЅРµСЃС‘РЅРЅС‹Рµ РІ РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ
  */
 public class ObjectType
 {
@@ -18,7 +18,7 @@ public class ObjectType
     private CountMarksType count;
 
     /** 
-     * Get the list of 'Name' element items. Русское и латинское название животных  или растений, включенных Красную книгу Российской Федерации
+     * Get the list of 'Name' element items. Р СѓСЃСЃРєРѕРµ Рё Р»Р°С‚РёРЅСЃРєРѕРµ РЅР°Р·РІР°РЅРёРµ Р¶РёРІРѕС‚РЅС‹С…  РёР»Рё СЂР°СЃС‚РµРЅРёР№, РІРєР»СЋС‡РµРЅРЅС‹С… РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
      * 
      * @return list
      */
@@ -27,7 +27,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the list of 'Name' element items. Русское и латинское название животных  или растений, включенных Красную книгу Российской Федерации
+     * Set the list of 'Name' element items. Р СѓСЃСЃРєРѕРµ Рё Р»Р°С‚РёРЅСЃРєРѕРµ РЅР°Р·РІР°РЅРёРµ Р¶РёРІРѕС‚РЅС‹С…  РёР»Рё СЂР°СЃС‚РµРЅРёР№, РІРєР»СЋС‡РµРЅРЅС‹С… РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
      * 
      * @param list
      */
@@ -36,7 +36,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param numeric
      */
@@ -54,7 +54,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Country' element value. Страна назначения
+     * Get the 'Country' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Country' element value. Страна назначения
+     * Set the 'Country' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param country
      */
@@ -72,7 +72,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'PurposeExport' element value. Цель вывоза
+     * Get the 'PurposeExport' element value. Р¦РµР»СЊ РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'PurposeExport' element value. Цель вывоза
+     * Set the 'PurposeExport' element value. Р¦РµР»СЊ РІС‹РІРѕР·Р°
      * 
      * @param purposeExport
      */
@@ -90,7 +90,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Contract' element value. Реквизиты контракта
+     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Contract' element value. Реквизиты контракта
+     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contract
      */
@@ -108,7 +108,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Count' element value. Количество животных (растений), их пол, возраст, метки и др.
+     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р¶РёРІРѕС‚РЅС‹С… (СЂР°СЃС‚РµРЅРёР№), РёС… РїРѕР», РІРѕР·СЂР°СЃС‚, РјРµС‚РєРё Рё РґСЂ.
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Count' element value. Количество животных (растений), их пол, возраст, метки и др.
+     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р¶РёРІРѕС‚РЅС‹С… (СЂР°СЃС‚РµРЅРёР№), РёС… РїРѕР», РІРѕР·СЂР°СЃС‚, РјРµС‚РєРё Рё РґСЂ.
      * 
      * @param count
      */

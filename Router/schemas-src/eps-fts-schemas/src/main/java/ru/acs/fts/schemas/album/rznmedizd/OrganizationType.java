@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.rznmedizd;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Организация
+ * РћСЂРіР°РЅРёР·Р°С†РёСЏ
  */
 public class OrganizationType extends CUOrganizationType
 {
     private String id;
 
     /** 
-     * Get the 'Id' element value. Внутренний идентификатор организации
+     * Get the 'Id' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'Id' element value. Внутренний идентификатор организации
+     * Set the 'Id' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param id
      */

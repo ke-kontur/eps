@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktsoutcustomsmark;
 import org.joda.time.LocalDate;
 
 /** 
- * КТС-служебные отметки общие
+ * РљРўРЎ-СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РѕР±С‰РёРµ
  */
 public class KTSOutCustomsMarkGeneralType
 {
@@ -17,7 +17,7 @@ public class KTSOutCustomsMarkGeneralType
     private SubscriptionType customsPerson;
 
     /** 
-     * Get the 'KTS1FormNumber' element value. Номер бланка формы КТС-1
+     * Get the 'KTS1FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° С„РѕСЂРјС‹ РљРўРЎ-1
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'KTS1FormNumber' element value. Номер бланка формы КТС-1
+     * Set the 'KTS1FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° С„РѕСЂРјС‹ РљРўРЎ-1
      * 
      * @param KTS1FormNumber
      */
@@ -35,7 +35,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы) (C,D)
+     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹) (C,D)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы) (C,D)
+     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹) (C,D)
      * 
      * @param GRNumber
      */
@@ -53,7 +53,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Get the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Get the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Set the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @param paymentEnsuringModeCodeType
      */
@@ -72,7 +72,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. Номер документа
+     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Номер документа
+     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentNumber
      */
@@ -90,7 +90,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Дата документа
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата документа
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDate
      */
@@ -108,7 +108,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. Служебная запись
+     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. Служебная запись
+     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ
      * 
      * @param markDescription
      */
@@ -126,7 +126,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class KTSOutCustomsMarkGeneralType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Сведения о товарной партии.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
  */
 public class ESADGoodsShipmentType
 {
@@ -16,7 +16,7 @@ public class ESADGoodsShipmentType
     private String custCostCurrencyCode;
 
     /** 
-     * Get the 'OriginCountryName' element value. Страна происхождения товара. Наименование / РАЗНЫЕ/ НЕИЗВЕСТНА
+     * Get the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / Р РђР—РќР«Р•/ РќР•РР—Р’Р•РЎРўРќРђ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Страна происхождения товара. Наименование / РАЗНЫЕ/ НЕИЗВЕСТНА
+     * Set the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / Р РђР—РќР«Р•/ РќР•РР—Р’Р•РЎРўРќРђ
      * 
      * @param originCountryName
      */
@@ -34,7 +34,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'SpecificationNumber' element value. Общее количество представленных спецификаций.
+     * Get the 'SpecificationNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'SpecificationNumber' element value. Общее количество представленных спецификаций.
+     * Set the 'SpecificationNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№.
      * 
      * @param specificationNumber
      */
@@ -52,7 +52,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'SpecificationListNumber' element value. Общее количество листов представленных спецификаций.
+     * Get the 'SpecificationListNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'SpecificationListNumber' element value. Общее количество листов представленных спецификаций.
+     * Set the 'SpecificationListNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№.
      * 
      * @param specificationListNumber
      */
@@ -70,7 +70,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. Всего наименований товаров.
+     * Get the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. Всего наименований товаров.
+     * Set the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param totalGoodsNumber
      */
@@ -88,7 +88,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalPackageNumber' element value. Общее количество грузовых мест.
+     * Get the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalPackageNumber' element value. Общее количество грузовых мест.
+     * Set the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
      * 
      * @param totalPackageNumber
      */
@@ -106,7 +106,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalSheetNumber' element value. Общее количество комплектов ТД1/ТД2,  ТД3/ТД4 или КТД1/КТД2.
+     * Get the 'TotalSheetNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРїР»РµРєС‚РѕРІ РўР”1/РўР”2,  РўР”3/РўР”4 РёР»Рё РљРўР”1/РљРўР”2.
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalSheetNumber' element value. Общее количество комплектов ТД1/ТД2,  ТД3/ТД4 или КТД1/КТД2.
+     * Set the 'TotalSheetNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРїР»РµРєС‚РѕРІ РўР”1/РўР”2,  РўР”3/РўР”4 РёР»Рё РљРўР”1/РљРўР”2.
      * 
      * @param totalSheetNumber
      */
@@ -124,7 +124,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'TotalCustCost' element value. Сведения о стоимости/общая таможенная стоимость
+     * Get the 'TotalCustCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'TotalCustCost' element value. Сведения о стоимости/общая таможенная стоимость
+     * Set the 'TotalCustCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param totalCustCost
      */
@@ -142,7 +142,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Get the 'CustCostCurrencyCode' element value. Цифровой код валюты таможенной стоимости.
+     * Get the 'CustCostCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ESADGoodsShipmentType
     }
 
     /** 
-     * Set the 'CustCostCurrencyCode' element value. Цифровой код валюты таможенной стоимости.
+     * Set the 'CustCostCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @param custCostCurrencyCode
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о прекращении юридического лица
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРєСЂР°С‰РµРЅРёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class LegalEntityTerminationType extends ReferenceInfoType
 {
@@ -13,7 +13,7 @@ public class LegalEntityTerminationType extends ReferenceInfoType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'EndDate' element value. Дата прекращения юридического лица
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class LegalEntityTerminationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата прекращения юридического лица
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param endDate
      */
@@ -31,7 +31,7 @@ public class LegalEntityTerminationType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. Сведения о регистрирующем (налоговом) органе, зарегистрировавшем прекращение деятельности юридического лица
+     * Get the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј (РЅР°Р»РѕРіРѕРІРѕРј) РѕСЂРіР°РЅРµ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРј РїСЂРµРєСЂР°С‰РµРЅРёРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class LegalEntityTerminationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. Сведения о регистрирующем (налоговом) органе, зарегистрировавшем прекращение деятельности юридического лица
+     * Set the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј (РЅР°Р»РѕРіРѕРІРѕРј) РѕСЂРіР°РЅРµ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРј РїСЂРµРєСЂР°С‰РµРЅРёРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param regOrgan
      */
@@ -49,7 +49,7 @@ public class LegalEntityTerminationType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class LegalEntityTerminationType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */

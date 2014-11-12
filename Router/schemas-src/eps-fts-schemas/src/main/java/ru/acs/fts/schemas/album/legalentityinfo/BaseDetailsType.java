@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о  юридическом лице
+ * РЎРІРµРґРµРЅРёСЏ Рѕ  СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
  */
 public class BaseDetailsType extends OrganizationBaseType
 {
@@ -30,7 +30,7 @@ public class BaseDetailsType extends OrganizationBaseType
     private List<ActivityType> activityList = new ArrayList<ActivityType>();
 
     /** 
-     * Get the 'OGRNDate' element value. Дата присвоения ОГРН
+     * Get the 'OGRNDate' element value. Р”Р°С‚Р° РїСЂРёСЃРІРѕРµРЅРёСЏ РћР“Р Рќ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OGRNDate' element value. Дата присвоения ОГРН
+     * Set the 'OGRNDate' element value. Р”Р°С‚Р° РїСЂРёСЃРІРѕРµРЅРёСЏ РћР“Р Рќ
      * 
      * @param OGRNDate
      */
@@ -48,7 +48,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'BrandName' element value. Фирменное наименование юридического лица
+     * Get the 'BrandName' element value. Р¤РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BrandName' element value. Фирменное наименование юридического лица
+     * Set the 'BrandName' element value. Р¤РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param brandName
      */
@@ -66,7 +66,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OrgStatusInfo' element value. Сведения о правоспособности (статусе) юридического лица
+     * Get the 'OrgStatusInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕСЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё (СЃС‚Р°С‚СѓСЃРµ) СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrgStatusInfo' element value. Сведения о правоспособности (статусе) юридического лица
+     * Set the 'OrgStatusInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕСЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё (СЃС‚Р°С‚СѓСЃРµ) СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param orgStatusInfo
      */
@@ -84,7 +84,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OrgAddress' element value. Сведения об адресе (месте нахождения) постоянно действующего исполнительного органа юр. лица
+     * Get the 'OrgAddress' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РґСЂРµСЃРµ (РјРµСЃС‚Рµ РЅР°С…РѕР¶РґРµРЅРёСЏ) РїРѕСЃС‚РѕСЏРЅРЅРѕ РґРµР№СЃС‚РІСѓСЋС‰РµРіРѕ РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° СЋСЂ. Р»РёС†Р°
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrgAddress' element value. Сведения об адресе (месте нахождения) постоянно действующего исполнительного органа юр. лица
+     * Set the 'OrgAddress' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РґСЂРµСЃРµ (РјРµСЃС‚Рµ РЅР°С…РѕР¶РґРµРЅРёСЏ) РїРѕСЃС‚РѕСЏРЅРЅРѕ РґРµР№СЃС‚РІСѓСЋС‰РµРіРѕ РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° СЋСЂ. Р»РёС†Р°
      * 
      * @param orgAddress
      */
@@ -102,7 +102,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'BranchDescription' element items. Сведения об обособленном подразделении
+     * Get the list of 'BranchDescription' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @return list
      */
@@ -111,7 +111,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'BranchDescription' element items. Сведения об обособленном подразделении
+     * Set the list of 'BranchDescription' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
      * 
      * @param list
      */
@@ -120,7 +120,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OrganizationForm' element value. Сведения об организационно-правовой форме
+     * Get the 'OrganizationForm' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјРµ
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrganizationForm' element value. Сведения об организационно-правовой форме
+     * Set the 'OrganizationForm' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјРµ
      * 
      * @param organizationForm
      */
@@ -138,7 +138,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */
@@ -156,7 +156,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'LegalEntityFormation' element value. Сведения об образовании юридического лица
+     * Get the 'LegalEntityFormation' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±СЂР°Р·РѕРІР°РЅРёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'LegalEntityFormation' element value. Сведения об образовании юридического лица
+     * Set the 'LegalEntityFormation' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±СЂР°Р·РѕРІР°РЅРёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param legalEntityFormation
      */
@@ -175,7 +175,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'SuccessionData' element value. Сведения о правопреемстве
+     * Get the 'SuccessionData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕРїСЂРµРµРјСЃС‚РІРµ
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'SuccessionData' element value. Сведения о правопреемстве
+     * Set the 'SuccessionData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕРїСЂРµРµРјСЃС‚РІРµ
      * 
      * @param successionData
      */
@@ -193,7 +193,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OrgCapital' element value. Сведения о размере указанного в учредительных документах коммерческой организации уставного капитала (складочного капитала, уставного фонда, паевого фонда)
+     * Get the 'OrgCapital' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·РјРµСЂРµ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РІ СѓС‡СЂРµРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… РєРѕРјРјРµСЂС‡РµСЃРєРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° (СЃРєР»Р°РґРѕС‡РЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°, СѓСЃС‚Р°РІРЅРѕРіРѕ С„РѕРЅРґР°, РїР°РµРІРѕРіРѕ С„РѕРЅРґР°)
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrgCapital' element value. Сведения о размере указанного в учредительных документах коммерческой организации уставного капитала (складочного капитала, уставного фонда, паевого фонда)
+     * Set the 'OrgCapital' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·РјРµСЂРµ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РІ СѓС‡СЂРµРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… РєРѕРјРјРµСЂС‡РµСЃРєРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р° (СЃРєР»Р°РґРѕС‡РЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°, СѓСЃС‚Р°РІРЅРѕРіРѕ С„РѕРЅРґР°, РїР°РµРІРѕРіРѕ С„РѕРЅРґР°)
      * 
      * @param orgCapital
      */
@@ -211,7 +211,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'CapitalReduction' element value. Сведения о нахождении хозяйственного общества в процессе уменьшения уставного капитала
+     * Get the 'CapitalReduction' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°С…РѕР¶РґРµРЅРёРё С…РѕР·СЏР№СЃС‚РІРµРЅРЅРѕРіРѕ РѕР±С‰РµСЃС‚РІР° РІ РїСЂРѕС†РµСЃСЃРµ СѓРјРµРЅСЊС€РµРЅРёСЏ СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CapitalReduction' element value. Сведения о нахождении хозяйственного общества в процессе уменьшения уставного капитала
+     * Set the 'CapitalReduction' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°С…РѕР¶РґРµРЅРёРё С…РѕР·СЏР№СЃС‚РІРµРЅРЅРѕРіРѕ РѕР±С‰РµСЃС‚РІР° РІ РїСЂРѕС†РµСЃСЃРµ СѓРјРµРЅСЊС€РµРЅРёСЏ СѓСЃС‚Р°РІРЅРѕРіРѕ РєР°РїРёС‚Р°Р»Р°
      * 
      * @param capitalReduction
      */
@@ -229,7 +229,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'Founder' element items. Сведения об учредителе юридического лица
+     * Get the list of 'Founder' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡СЂРµРґРёС‚РµР»Рµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return list
      */
@@ -238,7 +238,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'Founder' element items. Сведения об учредителе юридического лица
+     * Set the list of 'Founder' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡СЂРµРґРёС‚РµР»Рµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param list
      */
@@ -247,7 +247,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'LLCShare' element value. Сведения о доле, принадлежащей обществу с ограниченной ответственностью
+     * Get the 'LLCShare' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Рµ, РїСЂРёРЅР°РґР»РµР¶Р°С‰РµР№ РѕР±С‰РµСЃС‚РІСѓ СЃ РѕРіСЂР°РЅРёС‡РµРЅРЅРѕР№ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊСЋ
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'LLCShare' element value. Сведения о доле, принадлежащей обществу с ограниченной ответственностью
+     * Set the 'LLCShare' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Рµ, РїСЂРёРЅР°РґР»РµР¶Р°С‰РµР№ РѕР±С‰РµСЃС‚РІСѓ СЃ РѕРіСЂР°РЅРёС‡РµРЅРЅРѕР№ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊСЋ
      * 
      * @param LLCShare
      */
@@ -265,7 +265,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Holder' element value. Сведения о держателе реестра акционеров акционерного общества
+     * Get the 'Holder' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµСЂР¶Р°С‚РµР»Рµ СЂРµРµСЃС‚СЂР° Р°РєС†РёРѕРЅРµСЂРѕРІ Р°РєС†РёРѕРЅРµСЂРЅРѕРіРѕ РѕР±С‰РµСЃС‚РІР°
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Holder' element value. Сведения о держателе реестра акционеров акционерного общества
+     * Set the 'Holder' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµСЂР¶Р°С‚РµР»Рµ СЂРµРµСЃС‚СЂР° Р°РєС†РёРѕРЅРµСЂРѕРІ Р°РєС†РёРѕРЅРµСЂРЅРѕРіРѕ РѕР±С‰РµСЃС‚РІР°
      * 
      * @param holder
      */
@@ -283,7 +283,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'PermitPerson' element items. Сведения о лице, имеющем право без доверенности действовать от имени юридического лица
+     * Get the list of 'PermitPerson' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РёРјРµСЋС‰РµРј РїСЂР°РІРѕ Р±РµР· РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РґРµР№СЃС‚РІРѕРІР°С‚СЊ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return list
      */
@@ -292,7 +292,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'PermitPerson' element items. Сведения о лице, имеющем право без доверенности действовать от имени юридического лица
+     * Set the list of 'PermitPerson' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РёРјРµСЋС‰РµРј РїСЂР°РІРѕ Р±РµР· РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РґРµР№СЃС‚РІРѕРІР°С‚СЊ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param list
      */
@@ -301,7 +301,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'ForeignPermitPerson' element value. Сведения об управляющей организации - иностранном юридическом лице
+     * Get the 'ForeignPermitPerson' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїСЂР°РІР»СЏСЋС‰РµР№ РѕСЂРіР°РЅРёР·Р°С†РёРё - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРј СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
      * 
      * @return value
      */
@@ -310,7 +310,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ForeignPermitPerson' element value. Сведения об управляющей организации - иностранном юридическом лице
+     * Set the 'ForeignPermitPerson' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїСЂР°РІР»СЏСЋС‰РµР№ РѕСЂРіР°РЅРёР·Р°С†РёРё - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРј СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
      * 
      * @param foreignPermitPerson
      */
@@ -319,7 +319,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'Activity' element items. Сведения о кодах по Общероссийскому классификатору видов экономической деятельности
+     * Get the list of 'Activity' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРґР°С… РїРѕ РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @return list
      */
@@ -328,7 +328,7 @@ public class BaseDetailsType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'Activity' element items. Сведения о кодах по Общероссийскому классификатору видов экономической деятельности
+     * Set the list of 'Activity' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРґР°С… РїРѕ РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @param list
      */

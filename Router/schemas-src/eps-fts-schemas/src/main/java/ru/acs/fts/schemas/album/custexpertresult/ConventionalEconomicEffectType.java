@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.custexpertresult;
 
 /** 
- * Условный экономический эффект
+ * РЈСЃР»РѕРІРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ СЌС„С„РµРєС‚
  */
 public class ConventionalEconomicEffectType extends SumType
 {
@@ -12,7 +12,7 @@ public class ConventionalEconomicEffectType extends SumType
     private String kind;
 
     /** 
-     * Get the 'Section' element value. Раздел: 1- стоимость изъятых товаров, оборот которых запрещен; 2 - стоимость некачественных и фальсифицированных товаров (по каждому виду), ввоз (вывоз) которых на (с) территорию ТС запрещен; 3 - стоимость запрещенных (ограниченных) к ввозу/вывозу товаров; 4- вес наркотических средств (по каждому виду)
+     * Get the 'Section' element value. Р Р°Р·РґРµР»: 1- СЃС‚РѕРёРјРѕСЃС‚СЊ РёР·СЉСЏС‚С‹С… С‚РѕРІР°СЂРѕРІ, РѕР±РѕСЂРѕС‚ РєРѕС‚РѕСЂС‹С… Р·Р°РїСЂРµС‰РµРЅ; 2 - СЃС‚РѕРёРјРѕСЃС‚СЊ РЅРµРєР°С‡РµСЃС‚РІРµРЅРЅС‹С… Рё С„Р°Р»СЊСЃРёС„РёС†РёСЂРѕРІР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (РїРѕ РєР°Р¶РґРѕРјСѓ РІРёРґСѓ), РІРІРѕР· (РІС‹РІРѕР·) РєРѕС‚РѕСЂС‹С… РЅР° (СЃ) С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ Р·Р°РїСЂРµС‰РµРЅ; 3 - СЃС‚РѕРёРјРѕСЃС‚СЊ Р·Р°РїСЂРµС‰РµРЅРЅС‹С… (РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С…) Рє РІРІРѕР·Сѓ/РІС‹РІРѕР·Сѓ С‚РѕРІР°СЂРѕРІ; 4- РІРµСЃ РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ (РїРѕ РєР°Р¶РґРѕРјСѓ РІРёРґСѓ)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Set the 'Section' element value. Раздел: 1- стоимость изъятых товаров, оборот которых запрещен; 2 - стоимость некачественных и фальсифицированных товаров (по каждому виду), ввоз (вывоз) которых на (с) территорию ТС запрещен; 3 - стоимость запрещенных (ограниченных) к ввозу/вывозу товаров; 4- вес наркотических средств (по каждому виду)
+     * Set the 'Section' element value. Р Р°Р·РґРµР»: 1- СЃС‚РѕРёРјРѕСЃС‚СЊ РёР·СЉСЏС‚С‹С… С‚РѕРІР°СЂРѕРІ, РѕР±РѕСЂРѕС‚ РєРѕС‚РѕСЂС‹С… Р·Р°РїСЂРµС‰РµРЅ; 2 - СЃС‚РѕРёРјРѕСЃС‚СЊ РЅРµРєР°С‡РµСЃС‚РІРµРЅРЅС‹С… Рё С„Р°Р»СЊСЃРёС„РёС†РёСЂРѕРІР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (РїРѕ РєР°Р¶РґРѕРјСѓ РІРёРґСѓ), РІРІРѕР· (РІС‹РІРѕР·) РєРѕС‚РѕСЂС‹С… РЅР° (СЃ) С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ Р·Р°РїСЂРµС‰РµРЅ; 3 - СЃС‚РѕРёРјРѕСЃС‚СЊ Р·Р°РїСЂРµС‰РµРЅРЅС‹С… (РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С…) Рє РІРІРѕР·Сѓ/РІС‹РІРѕР·Сѓ С‚РѕРІР°СЂРѕРІ; 4- РІРµСЃ РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ (РїРѕ РєР°Р¶РґРѕРјСѓ РІРёРґСѓ)
      * 
      * @param section
      */
@@ -30,7 +30,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Get the 'QuantityDrug' element value. Вес наркотических средств (по каждому виду)
+     * Get the 'QuantityDrug' element value. Р’РµСЃ РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ (РїРѕ РєР°Р¶РґРѕРјСѓ РІРёРґСѓ)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Set the 'QuantityDrug' element value. Вес наркотических средств (по каждому виду)
+     * Set the 'QuantityDrug' element value. Р’РµСЃ РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ (РїРѕ РєР°Р¶РґРѕРјСѓ РІРёРґСѓ)
      * 
      * @param quantityDrug
      */
@@ -48,7 +48,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. Наименование единицы измерения
+     * Get the 'MeasureUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. Наименование единицы измерения
+     * Set the 'MeasureUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param measureUnitQualifierName
      */
@@ -66,7 +66,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Get the 'Kind' element value. Вид
+     * Get the 'Kind' element value. Р’РёРґ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ConventionalEconomicEffectType extends SumType
     }
 
     /** 
-     * Set the 'Kind' element value. Вид
+     * Set the 'Kind' element value. Р’РёРґ
      * 
      * @param kind
      */

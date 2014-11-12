@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * Дополнительные начисления  (иные затраты) гр. Б  (16-17)
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ  (РёРЅС‹Рµ Р·Р°С‚СЂР°С‚С‹) РіСЂ. Р‘  (16-17)
  */
 public class Method5AdditionalSumType
 {
@@ -13,7 +13,7 @@ public class Method5AdditionalSumType
     private String totalAdditionalPayment;
 
     /** 
-     * Get the 'WorkingStockCost' element value. Стоимость или соответствующая часть стоимости товаров и услуг, предоставленных изготовителю: сырьё, материалы, детали, полуфабрикаты и другие составляющие ввозимых товаров  16а
+     * Get the 'WorkingStockCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РёР»Рё СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰Р°СЏ С‡Р°СЃС‚СЊ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ Рё СѓСЃР»СѓРі, РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹С… РёР·РіРѕС‚РѕРІРёС‚РµР»СЋ: СЃС‹СЂСЊС‘, РјР°С‚РµСЂРёР°Р»С‹, РґРµС‚Р°Р»Рё, РїРѕР»СѓС„Р°Р±СЂРёРєР°С‚С‹ Рё РґСЂСѓРіРёРµ СЃРѕСЃС‚Р°РІР»СЏСЋС‰РёРµ РІРІРѕР·РёРјС‹С… С‚РѕРІР°СЂРѕРІ  16Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Set the 'WorkingStockCost' element value. Стоимость или соответствующая часть стоимости товаров и услуг, предоставленных изготовителю: сырьё, материалы, детали, полуфабрикаты и другие составляющие ввозимых товаров  16а
+     * Set the 'WorkingStockCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РёР»Рё СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰Р°СЏ С‡Р°СЃС‚СЊ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ Рё СѓСЃР»СѓРі, РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹С… РёР·РіРѕС‚РѕРІРёС‚РµР»СЋ: СЃС‹СЂСЊС‘, РјР°С‚РµСЂРёР°Р»С‹, РґРµС‚Р°Р»Рё, РїРѕР»СѓС„Р°Р±СЂРёРєР°С‚С‹ Рё РґСЂСѓРіРёРµ СЃРѕСЃС‚Р°РІР»СЏСЋС‰РёРµ РІРІРѕР·РёРјС‹С… С‚РѕРІР°СЂРѕРІ  16Р°
      * 
      * @param workingStockCost
      */
@@ -31,7 +31,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Get the 'ProductionToolkitCost' element value. Стоимость инструментов, штампов, форм и други подобных предметов, использованных при производстве ввозимых товаров. 16б
+     * Get the 'ProductionToolkitCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ, С€С‚Р°РјРїРѕРІ, С„РѕСЂРј Рё РґСЂСѓРіРё РїРѕРґРѕР±РЅС‹С… РїСЂРµРґРјРµС‚РѕРІ, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹С… РїСЂРё РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ РІРІРѕР·РёРјС‹С… С‚РѕРІР°СЂРѕРІ. 16Р±
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Set the 'ProductionToolkitCost' element value. Стоимость инструментов, штампов, форм и други подобных предметов, использованных при производстве ввозимых товаров. 16б
+     * Set the 'ProductionToolkitCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ, С€С‚Р°РјРїРѕРІ, С„РѕСЂРј Рё РґСЂСѓРіРё РїРѕРґРѕР±РЅС‹С… РїСЂРµРґРјРµС‚РѕРІ, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹С… РїСЂРё РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ РІРІРѕР·РёРјС‹С… С‚РѕРІР°СЂРѕРІ. 16Р±
      * 
      * @param productionToolkitCost
      */
@@ -49,7 +49,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Get the 'ProductionStoreCost' element value. Материалы израсходованные при производстве. 16в
+     * Get the 'ProductionStoreCost' element value. РњР°С‚РµСЂРёР°Р»С‹ РёР·СЂР°СЃС…РѕРґРѕРІР°РЅРЅС‹Рµ РїСЂРё РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ. 16РІ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Set the 'ProductionStoreCost' element value. Материалы израсходованные при производстве. 16в
+     * Set the 'ProductionStoreCost' element value. РњР°С‚РµСЂРёР°Р»С‹ РёР·СЂР°СЃС…РѕРґРѕРІР°РЅРЅС‹Рµ РїСЂРё РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ. 16РІ
      * 
      * @param productionStoreCost
      */
@@ -67,7 +67,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Get the 'DesignPayment' element value. Стоимость проектирования, разработки, дизайна, оформления и пр. выполненных вне территории Российской Федерации. 16г
+     * Get the 'DesignPayment' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ, СЂР°Р·СЂР°Р±РѕС‚РєРё, РґРёР·Р°Р№РЅР°, РѕС„РѕСЂРјР»РµРЅРёСЏ Рё РїСЂ. РІС‹РїРѕР»РЅРµРЅРЅС‹С… РІРЅРµ С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 16Рі
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Set the 'DesignPayment' element value. Стоимость проектирования, разработки, дизайна, оформления и пр. выполненных вне территории Российской Федерации. 16г
+     * Set the 'DesignPayment' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ, СЂР°Р·СЂР°Р±РѕС‚РєРё, РґРёР·Р°Р№РЅР°, РѕС„РѕСЂРјР»РµРЅРёСЏ Рё РїСЂ. РІС‹РїРѕР»РЅРµРЅРЅС‹С… РІРЅРµ С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё. 16Рі
      * 
      * @param designPayment
      */
@@ -85,7 +85,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Get the 'TotalAdditionalPayment' element value. Итого дополнительных начислений. 17
+     * Get the 'TotalAdditionalPayment' element value. РС‚РѕРіРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РЅР°С‡РёСЃР»РµРЅРёР№. 17
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class Method5AdditionalSumType
     }
 
     /** 
-     * Set the 'TotalAdditionalPayment' element value. Итого дополнительных начислений. 17
+     * Set the 'TotalAdditionalPayment' element value. РС‚РѕРіРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РЅР°С‡РёСЃР»РµРЅРёР№. 17
      * 
      * @param totalAdditionalPayment
      */

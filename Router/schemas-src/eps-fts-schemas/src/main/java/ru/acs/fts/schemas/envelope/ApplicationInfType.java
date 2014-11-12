@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.envelope;
 
 /** 
- * Информация приложения
+ * РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -22,7 +22,7 @@ public class ApplicationInfType
     private String messageKind;
 
     /** 
-     * Get the 'SoftKind' element value. Тип программного обеспечения
+     * Get the 'SoftKind' element value. РўРёРї РїСЂРѕРіСЂР°РјРјРЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ApplicationInfType
     }
 
     /** 
-     * Set the 'SoftKind' element value. Тип программного обеспечения
+     * Set the 'SoftKind' element value. РўРёРї РїСЂРѕРіСЂР°РјРјРЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param softKind
      */
@@ -40,7 +40,7 @@ public class ApplicationInfType
     }
 
     /** 
-     * Get the 'SoftVersion' element value. Версия программного обеспечения
+     * Get the 'SoftVersion' element value. Р’РµСЂСЃРёСЏ РїСЂРѕРіСЂР°РјРјРЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ApplicationInfType
     }
 
     /** 
-     * Set the 'SoftVersion' element value. Версия программного обеспечения
+     * Set the 'SoftVersion' element value. Р’РµСЂСЃРёСЏ РїСЂРѕРіСЂР°РјРјРЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param softVersion
      */
@@ -58,7 +58,7 @@ public class ApplicationInfType
     }
 
     /** 
-     * Get the 'MessageKind' element value. Тип сообщения
+     * Get the 'MessageKind' element value. РўРёРї СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ApplicationInfType
     }
 
     /** 
-     * Set the 'MessageKind' element value. Тип сообщения
+     * Set the 'MessageKind' element value. РўРёРї СЃРѕРѕР±С‰РµРЅРёСЏ
      * 
      * @param messageKind
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.CUKTSCustomsPa
 import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSGoodsItemType;
 
 /** 
- * КТС. Сведения о корректируемых товарах
+ * РљРўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјС‹С… С‚РѕРІР°СЂР°С…
  */
 public class KTSoutCUGoodsItemType extends KTSGoodsItemType
 {
@@ -19,7 +19,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     private List<AutomobileType> goodsAutomobileList = new ArrayList<AutomobileType>();
 
     /** 
-     * Get the list of 'KTSoutPresentedDocuments' element items. КТС. Представленные документы
+     * Get the list of 'KTSoutPresentedDocuments' element items. РљРўРЎ. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTSoutPresentedDocuments' element items. КТС. Представленные документы
+     * Set the list of 'KTSoutPresentedDocuments' element items. РљРўРЎ. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTSCustomsPaymentCalculation' element items. КТС. Исчисление платежей
+     * Get the list of 'KTSCustomsPaymentCalculation' element items. РљРўРЎ. РСЃС‡РёСЃР»РµРЅРёРµ РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTSCustomsPaymentCalculation' element items. КТС. Исчисление платежей
+     * Set the list of 'KTSCustomsPaymentCalculation' element items. РљРўРЎ. РСЃС‡РёСЃР»РµРЅРёРµ РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */
@@ -57,7 +57,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. Процедура. гр 37
+     * Get the 'CustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°. РіСЂ 37
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. Процедура. гр 37
+     * Set the 'CustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°. РіСЂ 37
      * 
      * @param customsProcedure
      */
@@ -75,7 +75,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Get the list of 'GoodsAutomobile' element items. Сведения об автомобилях. Гр. 31
+     * Get the list of 'GoodsAutomobile' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class KTSoutCUGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'GoodsAutomobile' element items. Сведения об автомобилях. Гр. 31
+     * Set the list of 'GoodsAutomobile' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
      * 
      * @param list
      */

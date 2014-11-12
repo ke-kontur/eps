@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Разрешение
+ * Р Р°Р·СЂРµС€РµРЅРёРµ
  */
 public class PermissionType extends DocumentBaseType
 {
@@ -14,7 +14,7 @@ public class PermissionType extends DocumentBaseType
     private LocalDate endDate;
 
     /** 
-     * Get the 'IssuePeriod' element value. Период действия разрешения
+     * Get the 'IssuePeriod' element value. РџРµСЂРёРѕРґ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'IssuePeriod' element value. Период действия разрешения
+     * Set the 'IssuePeriod' element value. РџРµСЂРёРѕРґ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param issuePeriod
      */
@@ -32,7 +32,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Status' element value. Статус разрешения: 1 - Действующее, 2 - Приостановленное, 3 - Аннулированное, 4 - Находится на переоформлении
+     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ СЂР°Р·СЂРµС€РµРЅРёСЏ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РµРµ, 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРµ, 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅРѕРµ, 4 - РќР°С…РѕРґРёС‚СЃСЏ РЅР° РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Status' element value. Статус разрешения: 1 - Действующее, 2 - Приостановленное, 3 - Аннулированное, 4 - Находится на переоформлении
+     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ СЂР°Р·СЂРµС€РµРЅРёСЏ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РµРµ, 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРµ, 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅРѕРµ, 4 - РќР°С…РѕРґРёС‚СЃСЏ РЅР° РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё
      * 
      * @param status
      */
@@ -50,7 +50,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата аннулирования разрешения
+     * Get the 'EndDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата аннулирования разрешения
+     * Set the 'EndDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param endDate
      */

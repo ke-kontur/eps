@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Груз
+ * Р“СЂСѓР·
  */
 public class AWBGoodsType
 {
@@ -29,7 +29,7 @@ public class AWBGoodsType
     private DTInfoType DTInfo;
 
     /** 
-     * Get the 'PlacesQuantity' element value. Количество мест товара одного наименования
+     * Get the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. Количество мест товара одного наименования
+     * Set the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ
      * 
      * @param placesQuantity
      */
@@ -47,7 +47,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'WeightUnitQualifierCode' element value. Код измерения веса товара (килограммы или фунты)
+     * Get the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'WeightUnitQualifierCode' element value. Код измерения веса товара (килограммы или фунты)
+     * Set the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
      * 
      * @param weightUnitQualifierCode
      */
@@ -65,7 +65,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
      * 
      * @param grossWeightQuantity
      */
@@ -83,7 +83,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'RateMixCode' element value. Трехзначный  буквенно-цифровой код  комбинации тарифов
+     * Get the 'RateMixCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№  Р±СѓРєРІРµРЅРЅРѕ-С†РёС„СЂРѕРІРѕР№ РєРѕРґ  РєРѕРјР±РёРЅР°С†РёРё С‚Р°СЂРёС„РѕРІ
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'RateMixCode' element value. Трехзначный  буквенно-цифровой код  комбинации тарифов
+     * Set the 'RateMixCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№  Р±СѓРєРІРµРЅРЅРѕ-С†РёС„СЂРѕРІРѕР№ РєРѕРґ  РєРѕРјР±РёРЅР°С†РёРё С‚Р°СЂРёС„РѕРІ
      * 
      * @param rateMixCode
      */
@@ -101,7 +101,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'ServiceCode' element value. Служебный код, заполняемый выпускающим перевозчиком
+     * Get the 'ServiceCode' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РєРѕРґ, Р·Р°РїРѕР»РЅСЏРµРјС‹Р№ РІС‹РїСѓСЃРєР°СЋС‰РёРј РїРµСЂРµРІРѕР·С‡РёРєРѕРј
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'ServiceCode' element value. Служебный код, заполняемый выпускающим перевозчиком
+     * Set the 'ServiceCode' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РєРѕРґ, Р·Р°РїРѕР»РЅСЏРµРјС‹Р№ РІС‹РїСѓСЃРєР°СЋС‰РёРј РїРµСЂРµРІРѕР·С‡РёРєРѕРј
      * 
      * @param serviceCode
      */
@@ -119,7 +119,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'TariffClassCode' element value. Класс тарифа
+     * Get the 'TariffClassCode' element value. РљР»Р°СЃСЃ С‚Р°СЂРёС„Р°
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'TariffClassCode' element value. Класс тарифа
+     * Set the 'TariffClassCode' element value. РљР»Р°СЃСЃ С‚Р°СЂРёС„Р°
      * 
      * @param tariffClassCode
      */
@@ -137,7 +137,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'CommodityItemNum' element value. товарный номер / процент скидки, надбавки / тип тарифа для пакетированного груза
+     * Get the 'CommodityItemNum' element value. С‚РѕРІР°СЂРЅС‹Р№ РЅРѕРјРµСЂ / РїСЂРѕС†РµРЅС‚ СЃРєРёРґРєРё, РЅР°РґР±Р°РІРєРё / С‚РёРї С‚Р°СЂРёС„Р° РґР»СЏ РїР°РєРµС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'CommodityItemNum' element value. товарный номер / процент скидки, надбавки / тип тарифа для пакетированного груза
+     * Set the 'CommodityItemNum' element value. С‚РѕРІР°СЂРЅС‹Р№ РЅРѕРјРµСЂ / РїСЂРѕС†РµРЅС‚ СЃРєРёРґРєРё, РЅР°РґР±Р°РІРєРё / С‚РёРї С‚Р°СЂРёС„Р° РґР»СЏ РїР°РєРµС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ РіСЂСѓР·Р°
      * 
      * @param commodityItemNum
      */
@@ -155,7 +155,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'GoodsVolume' element value. Общий объем, занимаемый перевозимым товаром без указания единиц измерения
+     * Get the 'GoodsVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј, Р·Р°РЅРёРјР°РµРјС‹Р№ РїРµСЂРµРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂРѕРј Р±РµР· СѓРєР°Р·Р°РЅРёСЏ РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'GoodsVolume' element value. Общий объем, занимаемый перевозимым товаром без указания единиц измерения
+     * Set the 'GoodsVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј, Р·Р°РЅРёРјР°РµРјС‹Р№ РїРµСЂРµРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂРѕРј Р±РµР· СѓРєР°Р·Р°РЅРёСЏ РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsVolume
      */
@@ -173,7 +173,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'VolumeUnitQualifierCode' element value. Код единицы измерения объема
+     * Get the 'VolumeUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'VolumeUnitQualifierCode' element value. Код единицы измерения объема
+     * Set the 'VolumeUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
      * 
      * @param volumeUnitQualifierCode
      */
@@ -191,7 +191,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'PaidWeightQuantity' element value. Платный вес товара 
+     * Get the 'PaidWeightQuantity' element value. РџР»Р°С‚РЅС‹Р№ РІРµСЃ С‚РѕРІР°СЂР° 
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'PaidWeightQuantity' element value. Платный вес товара 
+     * Set the 'PaidWeightQuantity' element value. РџР»Р°С‚РЅС‹Р№ РІРµСЃ С‚РѕРІР°СЂР° 
      * 
      * @param paidWeightQuantity
      */
@@ -209,7 +209,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'GoodsCommodityCode' element value. Код  товара по товарной номенклатуре
+     * Get the 'GoodsCommodityCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ С‚РѕРІР°СЂРЅРѕР№ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'GoodsCommodityCode' element value. Код  товара по товарной номенклатуре
+     * Set the 'GoodsCommodityCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ С‚РѕРІР°СЂРЅРѕР№ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
      * 
      * @param goodsCommodityCode
      */
@@ -227,7 +227,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'FactPlacesQuantity' element value. Фактическое количество мест товара
+     * Get the 'FactPlacesQuantity' element value. Р¤Р°РєС‚РёС‡РµСЃРєРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'FactPlacesQuantity' element value. Фактическое количество мест товара
+     * Set the 'FactPlacesQuantity' element value. Р¤Р°РєС‚РёС‡РµСЃРєРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
      * 
      * @param factPlacesQuantity
      */
@@ -245,7 +245,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'TotalSum' element value. Сумма (22H)
+     * Get the 'TotalSum' element value. РЎСѓРјРјР° (22H)
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'TotalSum' element value. Сумма (22H)
+     * Set the 'TotalSum' element value. РЎСѓРјРјР° (22H)
      * 
      * @param totalSum
      */
@@ -263,7 +263,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'RateCharge' element value. Ставка (22G)
+     * Get the 'RateCharge' element value. РЎС‚Р°РІРєР° (22G)
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'RateCharge' element value. Ставка (22G)
+     * Set the 'RateCharge' element value. РЎС‚Р°РІРєР° (22G)
      * 
      * @param rateCharge
      */
@@ -281,7 +281,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescr' element items. Описание груза / дополнительная информация
+     * Get the list of 'GoodsDescr' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° / РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return list
      */
@@ -290,7 +290,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescr' element items. Описание груза / дополнительная информация
+     * Set the list of 'GoodsDescr' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° / РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param list
      */
@@ -299,7 +299,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Габариты
+     * Get the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚С‹
      * 
      * @return value
      */
@@ -308,7 +308,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Габариты
+     * Set the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚С‹
      * 
      * @param dimensions
      */
@@ -317,7 +317,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the list of 'ContainerInfo' element items. Информация о контейнерах
+     * Get the list of 'ContainerInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return list
      */
@@ -326,7 +326,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the list of 'ContainerInfo' element items. Информация о контейнерах
+     * Set the list of 'ContainerInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param list
      */
@@ -335,7 +335,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Get the 'DTInfo' element value. Сведения из декларации на товары
+     * Get the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ РёР· РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -344,7 +344,7 @@ public class AWBGoodsType
     }
 
     /** 
-     * Set the 'DTInfo' element value. Сведения из декларации на товары
+     * Set the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ РёР· РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
      * 
      * @param DTInfo
      */

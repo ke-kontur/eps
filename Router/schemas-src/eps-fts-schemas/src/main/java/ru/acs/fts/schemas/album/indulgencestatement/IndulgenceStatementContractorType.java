@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.indulgencestatement;
 
 /** 
- * Сведения о контрагенте
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Рµ
  */
 public class IndulgenceStatementContractorType
 {
@@ -12,7 +12,7 @@ public class IndulgenceStatementContractorType
     private String goodsCountryCode;
 
     /** 
-     * Get the 'Name' element value. Наименование иностранного контрагента
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование иностранного контрагента
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @param name
      */
@@ -30,7 +30,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Код страны регистрации контрагента
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны регистрации контрагента
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
      * 
      * @param countryCode
      */
@@ -48,7 +48,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Get the 'RegistrationPlace' element value. Место регистрации
+     * Get the 'RegistrationPlace' element value. РњРµСЃС‚Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Set the 'RegistrationPlace' element value. Место регистрации
+     * Set the 'RegistrationPlace' element value. РњРµСЃС‚Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param registrationPlace
      */
@@ -66,7 +66,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Get the 'GoodsCountryCode' element value. Код страны происхождения товаров
+     * Get the 'GoodsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class IndulgenceStatementContractorType
     }
 
     /** 
-     * Set the 'GoodsCountryCode' element value. Код страны происхождения товаров
+     * Set the 'GoodsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsCountryCode
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Объект недвижимости
+ * РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
  */
 public class EstateObjectType
 {
@@ -25,7 +25,7 @@ public class EstateObjectType
     private List<ShareHoldingType> shareHoldingList = new ArrayList<ShareHoldingType>();
 
     /** 
-     * Get the 'ObjectName' element value. Наименование  объекта недвижимости
+     * Get the 'ObjectName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ObjectName' element value. Наименование  объекта недвижимости
+     * Set the 'ObjectName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @param objectName
      */
@@ -43,7 +43,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'CadastrNumber' element value. Кадастровый номер
+     * Get the 'CadastrNumber' element value. РљР°РґР°СЃС‚СЂРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'CadastrNumber' element value. Кадастровый номер
+     * Set the 'CadastrNumber' element value. РљР°РґР°СЃС‚СЂРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param cadastrNumber
      */
@@ -61,7 +61,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'ConditionNum' element value. Условный номер
+     * Get the 'ConditionNum' element value. РЈСЃР»РѕРІРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ConditionNum' element value. Условный номер
+     * Set the 'ConditionNum' element value. РЈСЃР»РѕРІРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param conditionNum
      */
@@ -79,7 +79,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'InventoryNumber' element value. Инвентарный номер, литер
+     * Get the 'InventoryNumber' element value. РРЅРІРµРЅС‚Р°СЂРЅС‹Р№ РЅРѕРјРµСЂ, Р»РёС‚РµСЂ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'InventoryNumber' element value. Инвентарный номер, литер
+     * Set the 'InventoryNumber' element value. РРЅРІРµРЅС‚Р°СЂРЅС‹Р№ РЅРѕРјРµСЂ, Р»РёС‚РµСЂ
      * 
      * @param inventoryNumber
      */
@@ -97,7 +97,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'FloorNumber' element value. Этажность (этаж)
+     * Get the 'FloorNumber' element value. Р­С‚Р°Р¶РЅРѕСЃС‚СЊ (СЌС‚Р°Р¶)
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'FloorNumber' element value. Этажность (этаж)
+     * Set the 'FloorNumber' element value. Р­С‚Р°Р¶РЅРѕСЃС‚СЊ (СЌС‚Р°Р¶)
      * 
      * @param floorNumber
      */
@@ -115,7 +115,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the list of 'FloorPlanNum' element items. Номера на поэтажном плане. Элемент экспликации
+     * Get the list of 'FloorPlanNum' element items. РќРѕРјРµСЂР° РЅР° РїРѕСЌС‚Р°Р¶РЅРѕРј РїР»Р°РЅРµ. Р­Р»РµРјРµРЅС‚ СЌРєСЃРїР»РёРєР°С†РёРё
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the list of 'FloorPlanNum' element items. Номера на поэтажном плане. Элемент экспликации
+     * Set the list of 'FloorPlanNum' element items. РќРѕРјРµСЂР° РЅР° РїРѕСЌС‚Р°Р¶РЅРѕРј РїР»Р°РЅРµ. Р­Р»РµРјРµРЅС‚ СЌРєСЃРїР»РёРєР°С†РёРё
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the list of 'Complex' element items. Элемент сложной вещи
+     * Get the list of 'Complex' element items. Р­Р»РµРјРµРЅС‚ СЃР»РѕР¶РЅРѕР№ РІРµС‰Рё
      * 
      * @return list
      */
@@ -142,7 +142,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the list of 'Complex' element items. Элемент сложной вещи
+     * Set the list of 'Complex' element items. Р­Р»РµРјРµРЅС‚ СЃР»РѕР¶РЅРѕР№ РІРµС‰Рё
      * 
      * @param list
      */
@@ -151,7 +151,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'ObjectType' element value. Тип объекта недвижимости
+     * Get the 'ObjectType' element value. РўРёРї РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ObjectType' element value. Тип объекта недвижимости
+     * Set the 'ObjectType' element value. РўРёРї РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @param objectType
      */
@@ -169,7 +169,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'Assignation' element value. Назначение объекта недвижимости
+     * Get the 'Assignation' element value. РќР°Р·РЅР°С‡РµРЅРёРµ РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'Assignation' element value. Назначение объекта недвижимости
+     * Set the 'Assignation' element value. РќР°Р·РЅР°С‡РµРЅРёРµ РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @param assignation
      */
@@ -187,7 +187,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'GroundCategory' element value. Целевое назначение (категория) земель
+     * Get the 'GroundCategory' element value. Р¦РµР»РµРІРѕРµ РЅР°Р·РЅР°С‡РµРЅРёРµ (РєР°С‚РµРіРѕСЂРёСЏ) Р·РµРјРµР»СЊ
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'GroundCategory' element value. Целевое назначение (категория) земель
+     * Set the 'GroundCategory' element value. Р¦РµР»РµРІРѕРµ РЅР°Р·РЅР°С‡РµРЅРёРµ (РєР°С‚РµРіРѕСЂРёСЏ) Р·РµРјРµР»СЊ
      * 
      * @param groundCategory
      */
@@ -205,7 +205,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'ObjectArea' element value. Площадь объекта недвижимости
+     * Get the 'ObjectArea' element value. РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'ObjectArea' element value. Площадь объекта недвижимости
+     * Set the 'ObjectArea' element value. РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
      * 
      * @param objectArea
      */
@@ -223,7 +223,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */
@@ -241,7 +241,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the list of 'Right' element items. Права
+     * Get the list of 'Right' element items. РџСЂР°РІР°
      * 
      * @return list
      */
@@ -250,7 +250,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the list of 'Right' element items. Права
+     * Set the list of 'Right' element items. РџСЂР°РІР°
      * 
      * @param list
      */
@@ -259,7 +259,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Get the list of 'ShareHolding' element items. Описание объектов долевого строительства
+     * Get the list of 'ShareHolding' element items. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚РѕРІ РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return list
      */
@@ -268,7 +268,7 @@ public class EstateObjectType
     }
 
     /** 
-     * Set the list of 'ShareHolding' element items. Описание объектов долевого строительства
+     * Set the list of 'ShareHolding' element items. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚РѕРІ РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param list
      */

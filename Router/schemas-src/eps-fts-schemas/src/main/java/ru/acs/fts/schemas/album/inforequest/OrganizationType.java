@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения об организации/физ. лице (юр. лицо/ИП)
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё/С„РёР·. Р»РёС†Рµ (СЋСЂ. Р»РёС†Рѕ/РРџ)
  */
 public class OrganizationType extends CUOrganizationType
 {
@@ -17,7 +17,7 @@ public class OrganizationType extends CUOrganizationType
     private AddressType birthPlace;
 
     /** 
-     * Get the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
+     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
+     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
      * 
      * @param orgSign
      */
@@ -35,7 +35,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'InsuranceNumber' element value. Страховой номер индивидуального лицевого счёта (СНИЛС)
+     * Get the 'InsuranceNumber' element value. РЎС‚СЂР°С…РѕРІРѕР№ РЅРѕРјРµСЂ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ Р»РёС†РµРІРѕРіРѕ СЃС‡С‘С‚Р° (РЎРќРР›РЎ)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'InsuranceNumber' element value. Страховой номер индивидуального лицевого счёта (СНИЛС)
+     * Set the 'InsuranceNumber' element value. РЎС‚СЂР°С…РѕРІРѕР№ РЅРѕРјРµСЂ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ Р»РёС†РµРІРѕРіРѕ СЃС‡С‘С‚Р° (РЎРќРР›РЎ)
      * 
      * @param insuranceNumber
      */
@@ -53,7 +53,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'BirthDate' element value. Дата рождения
+     * Get the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BirthDate' element value. Дата рождения
+     * Set the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthDate
      */
@@ -71,7 +71,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'AddressSign' element value. Тип регистрации: 0 - МП (место пребывания); 1 - МЖ (место проживания)
+     * Get the 'AddressSign' element value. РўРёРї СЂРµРіРёСЃС‚СЂР°С†РёРё: 0 - РњРџ (РјРµСЃС‚Рѕ РїСЂРµР±С‹РІР°РЅРёСЏ); 1 - РњР– (РјРµСЃС‚Рѕ РїСЂРѕР¶РёРІР°РЅРёСЏ)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'AddressSign' element value. Тип регистрации: 0 - МП (место пребывания); 1 - МЖ (место проживания)
+     * Set the 'AddressSign' element value. РўРёРї СЂРµРіРёСЃС‚СЂР°С†РёРё: 0 - РњРџ (РјРµСЃС‚Рѕ РїСЂРµР±С‹РІР°РЅРёСЏ); 1 - РњР– (РјРµСЃС‚Рѕ РїСЂРѕР¶РёРІР°РЅРёСЏ)
      * 
      * @param addressSign
      */
@@ -89,7 +89,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'BirthPlace' element value. Место рождения
+     * Get the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BirthPlace' element value. Место рождения
+     * Set the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthPlace
      */

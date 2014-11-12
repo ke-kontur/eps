@@ -9,7 +9,7 @@ public class DocumentType
     private LocalDate documentDate;
 
     /** 
-     * Get the 'DocumentNumber' element value. Номер предъявляемого документа.
+     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґСЉСЏРІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. Номер предъявляемого документа.
+     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґСЉСЏРІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentNumber
      */
@@ -27,7 +27,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Дата предъявляемого документа.
+     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЉСЏРІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Дата предъявляемого документа.
+     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЉСЏРІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentDate
      */

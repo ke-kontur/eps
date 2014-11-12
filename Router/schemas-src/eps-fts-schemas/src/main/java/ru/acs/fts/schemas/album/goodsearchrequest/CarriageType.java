@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Сведения о транспортном средстве
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
  */
 public class CarriageType extends TransportMeansBaseType
 {
     private List<GoodsType> goodsInfoList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Описание товара
+     * Get the list of 'GoodsInfo' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class CarriageType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Описание товара
+     * Set the list of 'GoodsInfo' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */

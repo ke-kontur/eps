@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.airshoppingwaybill;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Табельный номер составившего накладную
+ * РўР°Р±РµР»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ РЅР°РєР»Р°РґРЅСѓСЋ
  */
 public class PersonScheduledNumberType extends PersonSignatureType
 {
     private String scheduledNumber;
 
     /** 
-     * Get the 'ScheduledNumber' element value. Табельный номер
+     * Get the 'ScheduledNumber' element value. РўР°Р±РµР»СЊРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonScheduledNumberType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'ScheduledNumber' element value. Табельный номер
+     * Set the 'ScheduledNumber' element value. РўР°Р±РµР»СЊРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param scheduledNumber
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения о лице
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ
  */
 public class ParticipantType extends CUOrganizationType
 {
@@ -26,7 +26,7 @@ public class ParticipantType extends CUOrganizationType
     private RegOrganType regOrgan;
 
     /** 
-     * Get the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - российское юр. лицо; 3 - иностранное юр. лицо
+     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЂРѕСЃСЃРёР№СЃРєРѕРµ СЋСЂ. Р»РёС†Рѕ; 3 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - российское юр. лицо; 3 - иностранное юр. лицо
+     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЂРѕСЃСЃРёР№СЃРєРѕРµ СЋСЂ. Р»РёС†Рѕ; 3 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ
      * 
      * @param orgSign
      */
@@ -44,7 +44,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Должность
+     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Должность
+     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @param personPost
      */
@@ -62,7 +62,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryCode
      */
@@ -80,7 +80,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. Наименование страны происхождения
+     * Get the 'OriginCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Наименование страны происхождения
+     * Set the 'OriginCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
      * 
      * @param originCountryName
      */
@@ -98,7 +98,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegDate' element value. Дата регистрации
+     * Get the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegDate' element value. Дата регистрации
+     * Set the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regDate
      */
@@ -116,7 +116,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegNum' element value. Регистрационный номер
+     * Get the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegNum' element value. Регистрационный номер
+     * Set the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param regNum
      */
@@ -134,7 +134,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'BranchDescription' element value. Полное наименование представительства или филиала в РФ
+     * Get the 'BranchDescription' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІР° РёР»Рё С„РёР»РёР°Р»Р° РІ Р Р¤
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. Полное наименование представительства или филиала в РФ
+     * Set the 'BranchDescription' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІР° РёР»Рё С„РёР»РёР°Р»Р° РІ Р Р¤
      * 
      * @param branchDescription
      */
@@ -152,7 +152,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */
@@ -170,7 +170,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'ForeignAddress' element value. Адрес места жительства (места пребывания) за пределами территории РФ
+     * Get the 'ForeignAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° Р¶РёС‚РµР»СЊСЃС‚РІР° (РјРµСЃС‚Р° РїСЂРµР±С‹РІР°РЅРёСЏ) Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ForeignAddress' element value. Адрес места жительства (места пребывания) за пределами территории РФ
+     * Set the 'ForeignAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° Р¶РёС‚РµР»СЊСЃС‚РІР° (РјРµСЃС‚Р° РїСЂРµР±С‹РІР°РЅРёСЏ) Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
      * 
      * @param foreignAddress
      */
@@ -188,7 +188,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the list of 'Disqualification' element items. Сведения о дисквалификации
+     * Get the list of 'Disqualification' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'Disqualification' element items. Сведения о дисквалификации
+     * Set the list of 'Disqualification' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Вид должностного лица
+     * Get the 'AuthorizedPerson' element value. Р’РёРґ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Вид должностного лица
+     * Set the 'AuthorizedPerson' element value. Р’РёРґ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param authorizedPerson
      */
@@ -224,7 +224,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. Сведения о регистрирующем органе
+     * Get the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. Сведения о регистрирующем органе
+     * Set the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј РѕСЂРіР°РЅРµ
      * 
      * @param regOrgan
      */

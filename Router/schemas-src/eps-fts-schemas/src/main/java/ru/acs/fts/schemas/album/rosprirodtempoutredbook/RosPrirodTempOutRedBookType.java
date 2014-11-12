@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Ответ на запрос сведений из заключения (разрешения) о возможности временного вывоза диких животных и дикорастущих растений, относящихся к видам, занесенным в Красную книгу Российской Федерации
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ РёР· Р·Р°РєР»СЋС‡РµРЅРёСЏ (СЂР°Р·СЂРµС€РµРЅРёСЏ) Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІСЂРµРјРµРЅРЅРѕРіРѕ РІС‹РІРѕР·Р° РґРёРєРёС… Р¶РёРІРѕС‚РЅС‹С… Рё РґРёРєРѕСЂР°СЃС‚СѓС‰РёС… СЂР°СЃС‚РµРЅРёР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє РІРёРґР°Рј, Р·Р°РЅРµСЃРµРЅРЅС‹Рј РІ РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
  */
 public class RosPrirodTempOutRedBookType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. Признак прекращения действия документа
+     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. Признак прекращения действия документа
+     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param isCanceled
      */
@@ -42,7 +42,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -60,7 +60,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentId' element value. Id документа
+     * Get the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentId' element value. Id документа
+     * Set the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentId
      */
@@ -78,7 +78,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'RemovalTime' element value. Срок вывоза
+     * Get the 'RemovalTime' element value. РЎСЂРѕРє РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'RemovalTime' element value. Срок вывоза
+     * Set the 'RemovalTime' element value. РЎСЂРѕРє РІС‹РІРѕР·Р°
      * 
      * @param removalTime
      */
@@ -96,7 +96,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
+     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
+     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @param authorizedPerson
      */
@@ -114,7 +114,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conclusion' element value. Сведения о заключении
+     * Get the 'Conclusion' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conclusion' element value. Сведения о заключении
+     * Set the 'Conclusion' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
      * 
      * @param conclusion
      */
@@ -132,7 +132,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Реквизиты получателя заключения
+     * Get the 'Person' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Реквизиты получателя заключения
+     * Set the 'Person' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @param person
      */
@@ -150,7 +150,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. Получатель диких животных и дикорастущих растений, относящихся к видам, занесенным в Красную книгу
+     * Get the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РґРёРєРёС… Р¶РёРІРѕС‚РЅС‹С… Рё РґРёРєРѕСЂР°СЃС‚СѓС‰РёС… СЂР°СЃС‚РµРЅРёР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє РІРёРґР°Рј, Р·Р°РЅРµСЃРµРЅРЅС‹Рј РІ РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. Получатель диких животных и дикорастущих растений, относящихся к видам, занесенным в Красную книгу
+     * Set the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ РґРёРєРёС… Р¶РёРІРѕС‚РЅС‹С… Рё РґРёРєРѕСЂР°СЃС‚СѓС‰РёС… СЂР°СЃС‚РµРЅРёР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє РІРёРґР°Рј, Р·Р°РЅРµСЃРµРЅРЅС‹Рј РІ РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ
      * 
      * @param recipient
      */
@@ -168,7 +168,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Object' element items. Животные или растения, занесённые в Красную книгу
+     * Get the list of 'Object' element items. Р–РёРІРѕС‚РЅС‹Рµ РёР»Рё СЂР°СЃС‚РµРЅРёСЏ, Р·Р°РЅРµСЃС‘РЅРЅС‹Рµ РІ РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ
      * 
      * @return list
      */
@@ -177,7 +177,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Object' element items. Животные или растения, занесённые в Красную книгу
+     * Set the list of 'Object' element items. Р–РёРІРѕС‚РЅС‹Рµ РёР»Рё СЂР°СЃС‚РµРЅРёСЏ, Р·Р°РЅРµСЃС‘РЅРЅС‹Рµ РІ РљСЂР°СЃРЅСѓСЋ РєРЅРёРіСѓ
      * 
      * @param list
      */
@@ -186,7 +186,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class RosPrirodTempOutRedBookType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

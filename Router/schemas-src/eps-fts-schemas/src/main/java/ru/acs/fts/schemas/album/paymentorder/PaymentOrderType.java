@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Платежное поручение
+ * РџР»Р°С‚РµР¶РЅРѕРµ РїРѕСЂСѓС‡РµРЅРёРµ
  */
 public class PaymentOrderType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class PaymentOrderType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа (0 - не заполнено, 1 - электронно, 2 - почтой, 3 - телеграфом)
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° (0 - РЅРµ Р·Р°РїРѕР»РЅРµРЅРѕ, 1 - СЌР»РµРєС‚СЂРѕРЅРЅРѕ, 2 - РїРѕС‡С‚РѕР№, 3 - С‚РµР»РµРіСЂР°С„РѕРј)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа (0 - не заполнено, 1 - электронно, 2 - почтой, 3 - телеграфом)
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° (0 - РЅРµ Р·Р°РїРѕР»РЅРµРЅРѕ, 1 - СЌР»РµРєС‚СЂРѕРЅРЅРѕ, 2 - РїРѕС‡С‚РѕР№, 3 - С‚РµР»РµРіСЂР°С„РѕРј)
      * 
      * @param paymentModeCode
      */
@@ -49,7 +49,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР°
      * 
      * @param paymentAmount
      */
@@ -67,7 +67,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransactionKind' element value. Вид операции. Фиксированное значение "01"
+     * Get the 'TransactionKind' element value. Р’РёРґ РѕРїРµСЂР°С†РёРё. Р¤РёРєСЃРёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ "01"
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransactionKind' element value. Вид операции. Фиксированное значение "01"
+     * Set the 'TransactionKind' element value. Р’РёРґ РѕРїРµСЂР°С†РёРё. Р¤РёРєСЃРёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ "01"
      * 
      * @param transactionKind
      */
@@ -85,7 +85,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'Priority' element value. Очередность платежа
+     * Get the 'Priority' element value. РћС‡РµСЂРµРґРЅРѕСЃС‚СЊ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'Priority' element value. Очередность платежа
+     * Set the 'Priority' element value. РћС‡РµСЂРµРґРЅРѕСЃС‚СЊ РїР»Р°С‚РµР¶Р°
      * 
      * @param priority
      */
@@ -103,7 +103,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiptDate' element value. Дата поступления расчетного документа в банк плательщика. Заполняется при платежах клиента кредитной организации
+     * Get the 'ReceiptDate' element value. Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ Р±Р°РЅРє РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptDate' element value. Дата поступления расчетного документа в банк плательщика. Заполняется при платежах клиента кредитной организации
+     * Set the 'ReceiptDate' element value. Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ Р±Р°РЅРє РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param receiptDate
      */
@@ -121,7 +121,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChargeOffDate' element value. Дата списания денежных средств со счета плательщика. Заполняется при платежах клиента кредитной организации
+     * Get the 'ChargeOffDate' element value. Р”Р°С‚Р° СЃРїРёСЃР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ СЃРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChargeOffDate' element value. Дата списания денежных средств со счета плательщика. Заполняется при платежах клиента кредитной организации
+     * Set the 'ChargeOffDate' element value. Р”Р°С‚Р° СЃРїРёСЃР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ СЃРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param chargeOffDate
      */
@@ -139,7 +139,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'Purpose' element value. Назначение платежа
+     * Get the 'Purpose' element value. РќР°Р·РЅР°С‡РµРЅРёРµ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'Purpose' element value. Назначение платежа
+     * Set the 'Purpose' element value. РќР°Р·РЅР°С‡РµРЅРёРµ РїР»Р°С‚РµР¶Р°
      * 
      * @param purpose
      */
@@ -157,7 +157,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'ValueSpelledOut' element value. Сумма прописью
+     * Get the 'ValueSpelledOut' element value. РЎСѓРјРјР° РїСЂРѕРїРёСЃСЊСЋ
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'ValueSpelledOut' element value. Сумма прописью
+     * Set the 'ValueSpelledOut' element value. РЎСѓРјРјР° РїСЂРѕРїРёСЃСЊСЋ
      * 
      * @param valueSpelledOut
      */
@@ -175,7 +175,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentReference' element value. Реквизиты платежного поручения
+     * Get the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentReference' element value. Реквизиты платежного поручения
+     * Set the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @param documentReference
      */
@@ -193,7 +193,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payer' element value. Реквизиты плательщика
+     * Get the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payer' element value. Реквизиты плательщика
+     * Set the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param payer
      */
@@ -211,7 +211,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payee' element value. Реквизиты получателя
+     * Get the 'Payee' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payee' element value. Реквизиты получателя
+     * Set the 'Payee' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param payee
      */
@@ -229,7 +229,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartmentalInfo' element value. Ведомственная информация
+     * Get the 'DepartmentalInfo' element value. Р’РµРґРѕРјСЃС‚РІРµРЅРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartmentalInfo' element value. Ведомственная информация
+     * Set the 'DepartmentalInfo' element value. Р’РµРґРѕРјСЃС‚РІРµРЅРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param departmentalInfo
      */
@@ -247,7 +247,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PayerSign' element items. Подпись  плательщика
+     * Get the list of 'PayerSign' element items. РџРѕРґРїРёСЃСЊ  РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return list
      */
@@ -256,7 +256,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PayerSign' element items. Подпись  плательщика
+     * Set the list of 'PayerSign' element items. РџРѕРґРїРёСЃСЊ  РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param list
      */
@@ -265,7 +265,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'BankSign' element value. Отметки банка
+     * Get the 'BankSign' element value. РћС‚РјРµС‚РєРё Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankSign' element value. Отметки банка
+     * Set the 'BankSign' element value. РћС‚РјРµС‚РєРё Р±Р°РЅРєР°
      * 
      * @param bankSign
      */
@@ -283,7 +283,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class PaymentOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

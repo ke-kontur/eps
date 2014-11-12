@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.responsecheckinventory;
 import org.joda.time.LocalDate;
 
 /** 
- * Документ из описи
+ * Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
  */
 public class InvCheckResultType
 {
@@ -20,7 +20,7 @@ public class InvCheckResultType
     private String checkResultDesc;
 
     /** 
-     * Get the 'InvDocCode' element value. Код вида представляемого документа
+     * Get the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'InvDocCode' element value. Код вида представляемого документа
+     * Set the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocCode
      */
@@ -38,7 +38,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'InvDocName' element value. Вид документа
+     * Get the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'InvDocName' element value. Вид документа
+     * Set the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocName
      */
@@ -56,7 +56,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'InvDocNumber' element value. Номер документа
+     * Get the 'InvDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'InvDocNumber' element value. Номер документа
+     * Set the 'InvDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocNumber
      */
@@ -74,7 +74,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'InvDocDate' element value. Дата документа
+     * Get the 'InvDocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'InvDocDate' element value. Дата документа
+     * Set the 'InvDocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocDate
      */
@@ -92,7 +92,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор электронного архива декларанта
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор электронного архива декларанта
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archID
      */
@@ -110,7 +110,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Идентификатор документа в электронном архиве декларанта
+     * Get the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Идентификатор документа в электронном архиве декларанта
+     * Set the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param archDocID
      */
@@ -128,7 +128,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'InventDocumentID' element value. Уникальный идентификатор документа, представленного в описи. Заполняется при использовании в системах электронного декларирования в случае наличия на момент составления описи указанного документа в электронном виде.
+     * Get the 'InventDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕРїРёСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ РЅР° РјРѕРјРµРЅС‚ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё СѓРєР°Р·Р°РЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РІРёРґРµ.
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'InventDocumentID' element value. Уникальный идентификатор документа, представленного в описи. Заполняется при использовании в системах электронного декларирования в случае наличия на момент составления описи указанного документа в электронном виде.
+     * Set the 'InventDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕРїРёСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ РЅР° РјРѕРјРµРЅС‚ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё СѓРєР°Р·Р°РЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РІРёРґРµ.
      * 
      * @param inventDocumentID
      */
@@ -146,7 +146,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'InventLineID' element value. Уникальный идентификатор строки в описи. GUID. Обязателен для заполнения при использовании в системах электронного декларирования.
+     * Get the 'InventLineID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё РІ РѕРїРёСЃРё. GUID. РћР±СЏР·Р°С‚РµР»РµРЅ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'InventLineID' element value. Уникальный идентификатор строки в описи. GUID. Обязателен для заполнения при использовании в системах электронного декларирования.
+     * Set the 'InventLineID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё РІ РѕРїРёСЃРё. GUID. РћР±СЏР·Р°С‚РµР»РµРЅ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @param inventLineID
      */
@@ -164,7 +164,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'CheckResultCode' element value. Код результата  обработки
+     * Get the 'CheckResultCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°  РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'CheckResultCode' element value. Код результата  обработки
+     * Set the 'CheckResultCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°  РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @param checkResultCode
      */
@@ -182,7 +182,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Get the 'CheckResultDesc' element value. Описание  результата обработки
+     * Get the 'CheckResultDesc' element value. РћРїРёСЃР°РЅРёРµ  СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class InvCheckResultType
     }
 
     /** 
-     * Set the 'CheckResultDesc' element value. Описание  результата обработки
+     * Set the 'CheckResultDesc' element value. РћРїРёСЃР°РЅРёРµ  СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @param checkResultDesc
      */

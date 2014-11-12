@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.guaranteecalculationinquiry;
 
 /** 
- * Товарная часть запроса
+ * РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р·Р°РїСЂРѕСЃР°
  */
 public class GoodsInfoType
 {
@@ -10,7 +10,7 @@ public class GoodsInfoType
     private GuaranteeGoodsType correctedItem;
 
     /** 
-     * Get the 'CheckedItem' element value. Товар текущей проверки
+     * Get the 'CheckedItem' element value. РўРѕРІР°СЂ С‚РµРєСѓС‰РµР№ РїСЂРѕРІРµСЂРєРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'CheckedItem' element value. Товар текущей проверки
+     * Set the 'CheckedItem' element value. РўРѕРІР°СЂ С‚РµРєСѓС‰РµР№ РїСЂРѕРІРµСЂРєРё
      * 
      * @param checkedItem
      */
@@ -28,7 +28,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'CorrectedItem' element value. Корректируемый товар
+     * Get the 'CorrectedItem' element value. РљРѕСЂСЂРµРєС‚РёСЂСѓРµРјС‹Р№ С‚РѕРІР°СЂ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'CorrectedItem' element value. Корректируемый товар
+     * Set the 'CorrectedItem' element value. РљРѕСЂСЂРµРєС‚РёСЂСѓРµРјС‹Р№ С‚РѕРІР°СЂ
      * 
      * @param correctedItem
      */

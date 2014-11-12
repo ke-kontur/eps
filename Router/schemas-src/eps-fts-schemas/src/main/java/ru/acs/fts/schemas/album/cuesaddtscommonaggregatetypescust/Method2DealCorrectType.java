@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * Корректировка стоимости  сделки. Гр. Б (12-17)
+ * РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° СЃС‚РѕРёРјРѕСЃС‚Рё  СЃРґРµР»РєРё. Р“СЂ. Р‘ (12-17)
  */
 public class Method2DealCorrectType
 {
@@ -25,7 +25,7 @@ public class Method2DealCorrectType
     private String totalDealCorrect;
 
     /** 
-     * Get the 'MinusQuantityCorrect' element value. Корректировка на количество. (-) 12а
+     * Get the 'MinusQuantityCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ. (-) 12Р°
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusQuantityCorrect' element value. Корректировка на количество. (-) 12а
+     * Set the 'MinusQuantityCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ. (-) 12Р°
      * 
      * @param minusQuantityCorrect
      */
@@ -43,7 +43,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusCommerceCorrect' element value. Корректировка на коммерческий уровень. (-) 12б
+     * Get the 'MinusCommerceCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕРјРјРµСЂС‡РµСЃРєРёР№ СѓСЂРѕРІРµРЅСЊ. (-) 12Р±
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusCommerceCorrect' element value. Корректировка на коммерческий уровень. (-) 12б
+     * Set the 'MinusCommerceCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕРјРјРµСЂС‡РµСЃРєРёР№ СѓСЂРѕРІРµРЅСЊ. (-) 12Р±
      * 
      * @param minusCommerceCorrect
      */
@@ -61,7 +61,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusBorderTransportCharges' element value. Корректировка на разницу в расходах по перевозке(транспортировке) товаров до места прибытия на таможенную территорию Таможенного союза. (-) 12в
+     * Get the 'MinusBorderTransportCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРµСЂРµРІРѕР·РєРµ(С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (-) 12РІ
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusBorderTransportCharges' element value. Корректировка на разницу в расходах по перевозке(транспортировке) товаров до места прибытия на таможенную территорию Таможенного союза. (-) 12в
+     * Set the 'MinusBorderTransportCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРµСЂРµРІРѕР·РєРµ(С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (-) 12РІ
      * 
      * @param minusBorderTransportCharges
      */
@@ -80,7 +80,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusBorderPlace' element value. Место прибытия  / место назначение идентичных или однородных товаров. 12 в
+     * Get the 'MinusBorderPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ  / РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёРµ РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ. 12 РІ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusBorderPlace' element value. Место прибытия  / место назначение идентичных или однородных товаров. 12 в
+     * Set the 'MinusBorderPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ  / РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёРµ РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ. 12 РІ
      * 
      * @param minusBorderPlace
      */
@@ -98,7 +98,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusLoadCharges' element value. Корректировка на разницу в расходах по погрузке, выгрузке/перегрузке товаров и операциям, связанным с перевозкой до места прибытия на таможенную территорию Таможенного союза. (-) 12г
+     * Get the 'MinusLoadCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРѕРіСЂСѓР·РєРµ, РІС‹РіСЂСѓР·РєРµ/РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ Рё РѕРїРµСЂР°С†РёСЏРј, СЃРІСЏР·Р°РЅРЅС‹Рј СЃ РїРµСЂРµРІРѕР·РєРѕР№ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (-) 12Рі
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusLoadCharges' element value. Корректировка на разницу в расходах по погрузке, выгрузке/перегрузке товаров и операциям, связанным с перевозкой до места прибытия на таможенную территорию Таможенного союза. (-) 12г
+     * Set the 'MinusLoadCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРѕРіСЂСѓР·РєРµ, РІС‹РіСЂСѓР·РєРµ/РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ Рё РѕРїРµСЂР°С†РёСЏРј, СЃРІСЏР·Р°РЅРЅС‹Рј СЃ РїРµСЂРµРІРѕР·РєРѕР№ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (-) 12Рі
      * 
      * @param minusLoadCharges
      */
@@ -116,7 +116,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusArrivalPlace' element value. Место прибытия  идентичных или однородных товаров. 12г
+     * Get the 'MinusArrivalPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ  РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ. 12Рі
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusArrivalPlace' element value. Место прибытия  идентичных или однородных товаров. 12г
+     * Set the 'MinusArrivalPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ  РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ. 12Рі
      * 
      * @param minusArrivalPlace
      */
@@ -134,7 +134,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusInsuranceCharges' element value. Корректировка на разницу в расходах на страхование в связи с операциями, указанными в гр 12в и 12г. (-) 12д
+     * Get the 'MinusInsuranceCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РЅР° СЃС‚СЂР°С…РѕРІР°РЅРёРµ РІ СЃРІСЏР·Рё СЃ РѕРїРµСЂР°С†РёСЏРјРё, СѓРєР°Р·Р°РЅРЅС‹РјРё РІ РіСЂ 12РІ Рё 12Рі. (-) 12Рґ
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusInsuranceCharges' element value. Корректировка на разницу в расходах на страхование в связи с операциями, указанными в гр 12в и 12г. (-) 12д
+     * Set the 'MinusInsuranceCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РЅР° СЃС‚СЂР°С…РѕРІР°РЅРёРµ РІ СЃРІСЏР·Рё СЃ РѕРїРµСЂР°С†РёСЏРјРё, СѓРєР°Р·Р°РЅРЅС‹РјРё РІ РіСЂ 12РІ Рё 12Рі. (-) 12Рґ
      * 
      * @param minusInsuranceCharges
      */
@@ -152,7 +152,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'MinusTotalSum' element value. Итого 12  в национальной валюте. Гр. 13
+     * Get the 'MinusTotalSum' element value. РС‚РѕРіРѕ 12  РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. Р“СЂ. 13
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'MinusTotalSum' element value. Итого 12  в национальной валюте. Гр. 13
+     * Set the 'MinusTotalSum' element value. РС‚РѕРіРѕ 12  РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. Р“СЂ. 13
      * 
      * @param minusTotalSum
      */
@@ -170,7 +170,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusQuantityCorrect' element value. Корректировка на количество.(+) 14а
+     * Get the 'PlusQuantityCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ.(+) 14Р°
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusQuantityCorrect' element value. Корректировка на количество.(+) 14а
+     * Set the 'PlusQuantityCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ.(+) 14Р°
      * 
      * @param plusQuantityCorrect
      */
@@ -188,7 +188,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusCommerceCorrect' element value. Корректировка на коммерческий уровень. (+) 14б
+     * Get the 'PlusCommerceCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕРјРјРµСЂС‡РµСЃРєРёР№ СѓСЂРѕРІРµРЅСЊ. (+) 14Р±
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusCommerceCorrect' element value. Корректировка на коммерческий уровень. (+) 14б
+     * Set the 'PlusCommerceCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕРјРјРµСЂС‡РµСЃРєРёР№ СѓСЂРѕРІРµРЅСЊ. (+) 14Р±
      * 
      * @param plusCommerceCorrect
      */
@@ -206,7 +206,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusBorderTransportCharges' element value. Корректировка на разницу в расходах по перевозке(транспортировке) товаров до места прибытия на таможенную территорию Таможенного союза. (+) 14в
+     * Get the 'PlusBorderTransportCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРµСЂРµРІРѕР·РєРµ(С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (+) 14РІ
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusBorderTransportCharges' element value. Корректировка на разницу в расходах по перевозке(транспортировке) товаров до места прибытия на таможенную территорию Таможенного союза. (+) 14в
+     * Set the 'PlusBorderTransportCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРµСЂРµРІРѕР·РєРµ(С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (+) 14РІ
      * 
      * @param plusBorderTransportCharges
      */
@@ -224,7 +224,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusBorderPlace' element value. Место прибытия  / место назначения оцениваемых товаров 14в
+     * Get the 'PlusBorderPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ  / РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ 14РІ
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusBorderPlace' element value. Место прибытия  / место назначения оцениваемых товаров 14в
+     * Set the 'PlusBorderPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ  / РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ 14РІ
      * 
      * @param plusBorderPlace
      */
@@ -242,7 +242,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusLoadCharges' element value. Корректировка на разницу в расходах по погрузке, выгрузке/перегрузке товаров и операциям, связанным с перевозкой до места прибытия на таможенную территорию Таможенного союза. (+) 14г
+     * Get the 'PlusLoadCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРѕРіСЂСѓР·РєРµ, РІС‹РіСЂСѓР·РєРµ/РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ Рё РѕРїРµСЂР°С†РёСЏРј, СЃРІСЏР·Р°РЅРЅС‹Рј СЃ РїРµСЂРµРІРѕР·РєРѕР№ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (+) 14Рі
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusLoadCharges' element value. Корректировка на разницу в расходах по погрузке, выгрузке/перегрузке товаров и операциям, связанным с перевозкой до места прибытия на таможенную территорию Таможенного союза. (+) 14г
+     * Set the 'PlusLoadCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РїРѕ РїРѕРіСЂСѓР·РєРµ, РІС‹РіСЂСѓР·РєРµ/РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ Рё РѕРїРµСЂР°С†РёСЏРј, СЃРІСЏР·Р°РЅРЅС‹Рј СЃ РїРµСЂРµРІРѕР·РєРѕР№ РґРѕ РјРµСЃС‚Р° РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. (+) 14Рі
      * 
      * @param plusLoadCharges
      */
@@ -260,7 +260,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusArrivalPlace' element value. Место прибытия товаров 14г
+     * Get the 'PlusArrivalPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ 14Рі
      * 
      * @return value
      */
@@ -269,7 +269,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusArrivalPlace' element value. Место прибытия товаров 14г
+     * Set the 'PlusArrivalPlace' element value. РњРµСЃС‚Рѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ 14Рі
      * 
      * @param plusArrivalPlace
      */
@@ -278,7 +278,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusInsuranceCharges' element value. Корректировка на разницу в расходах на страхование в связи с операциями, указанными в гр 14в и 14г (+) 14д
+     * Get the 'PlusInsuranceCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РЅР° СЃС‚СЂР°С…РѕРІР°РЅРёРµ РІ СЃРІСЏР·Рё СЃ РѕРїРµСЂР°С†РёСЏРјРё, СѓРєР°Р·Р°РЅРЅС‹РјРё РІ РіСЂ 14РІ Рё 14Рі (+) 14Рґ
      * 
      * @return value
      */
@@ -287,7 +287,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusInsuranceCharges' element value. Корректировка на разницу в расходах на страхование в связи с операциями, указанными в гр 14в и 14г (+) 14д
+     * Set the 'PlusInsuranceCharges' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° СЂР°Р·РЅРёС†Сѓ РІ СЂР°СЃС…РѕРґР°С… РЅР° СЃС‚СЂР°С…РѕРІР°РЅРёРµ РІ СЃРІСЏР·Рё СЃ РѕРїРµСЂР°С†РёСЏРјРё, СѓРєР°Р·Р°РЅРЅС‹РјРё РІ РіСЂ 14РІ Рё 14Рі (+) 14Рґ
      * 
      * @param plusInsuranceCharges
      */
@@ -296,7 +296,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'PlusTotalSum' element value. Итого 14 в национальной валюте. 15
+     * Get the 'PlusTotalSum' element value. РС‚РѕРіРѕ 14 РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 15
      * 
      * @return value
      */
@@ -305,7 +305,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'PlusTotalSum' element value. Итого 14 в национальной валюте. 15
+     * Set the 'PlusTotalSum' element value. РС‚РѕРіРѕ 14 РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 15
      * 
      * @param plusTotalSum
      */
@@ -314,7 +314,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Get the 'TotalDealCorrect' element value. Стоимость сделки с учетом корректировок в национальной валюте 11а -13+15. гр 16   
+     * Get the 'TotalDealCorrect' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё СЃ СѓС‡РµС‚РѕРј РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ 11Р° -13+15. РіСЂ 16   
      * 
      * @return value
      */
@@ -323,7 +323,7 @@ public class Method2DealCorrectType
     }
 
     /** 
-     * Set the 'TotalDealCorrect' element value. Стоимость сделки с учетом корректировок в национальной валюте 11а -13+15. гр 16   
+     * Set the 'TotalDealCorrect' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё СЃ СѓС‡РµС‚РѕРј РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ 11Р° -13+15. РіСЂ 16   
      * 
      * @param totalDealCorrect
      */

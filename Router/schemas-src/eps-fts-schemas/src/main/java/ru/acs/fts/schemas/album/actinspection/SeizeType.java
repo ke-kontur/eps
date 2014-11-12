@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actinspection;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Изъятие
+ * РР·СЉСЏС‚РёРµ
  */
 public class SeizeType
 {
@@ -12,7 +12,7 @@ public class SeizeType
     private DocumentBaseType seizeAct;
 
     /** 
-     * Get the 'Presence' element value. "0" - изъятие не производилось, "1" - произведено взятие проб и образцов по акту
+     * Get the 'Presence' element value. "0" - РёР·СЉСЏС‚РёРµ РЅРµ РїСЂРѕРёР·РІРѕРґРёР»РѕСЃСЊ, "1" - РїСЂРѕРёР·РІРµРґРµРЅРѕ РІР·СЏС‚РёРµ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ РїРѕ Р°РєС‚Сѓ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SeizeType
     }
 
     /** 
-     * Set the 'Presence' element value. "0" - изъятие не производилось, "1" - произведено взятие проб и образцов по акту
+     * Set the 'Presence' element value. "0" - РёР·СЉСЏС‚РёРµ РЅРµ РїСЂРѕРёР·РІРѕРґРёР»РѕСЃСЊ, "1" - РїСЂРѕРёР·РІРµРґРµРЅРѕ РІР·СЏС‚РёРµ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ РїРѕ Р°РєС‚Сѓ
      * 
      * @param presence
      */
@@ -30,7 +30,7 @@ public class SeizeType
     }
 
     /** 
-     * Get the 'SeizeAct' element value. Акт взятие проб и образцов
+     * Get the 'SeizeAct' element value. РђРєС‚ РІР·СЏС‚РёРµ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SeizeType
     }
 
     /** 
-     * Set the 'SeizeAct' element value. Акт взятие проб и образцов
+     * Set the 'SeizeAct' element value. РђРєС‚ РІР·СЏС‚РёРµ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @param seizeAct
      */

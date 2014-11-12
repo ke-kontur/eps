@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.resulttk;
 import org.joda.time.LocalDate;
 
 /** 
- * Данные проверки/наличия нарушения
+ * Р”Р°РЅРЅС‹Рµ РїСЂРѕРІРµСЂРєРё/РЅР°Р»РёС‡РёСЏ РЅР°СЂСѓС€РµРЅРёСЏ
  */
 public class CheckViolationType
 {
@@ -15,7 +15,7 @@ public class CheckViolationType
     private LocalDate correctionDate;
 
     /** 
-     * Get the 'RequirementInfo' element value. Описание требования/условия
+     * Get the 'RequirementInfo' element value. РћРїРёСЃР°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏ/СѓСЃР»РѕРІРёСЏ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Set the 'RequirementInfo' element value. Описание требования/условия
+     * Set the 'RequirementInfo' element value. РћРїРёСЃР°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏ/СѓСЃР»РѕРІРёСЏ
      * 
      * @param requirementInfo
      */
@@ -33,7 +33,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Get the 'ViolationName' element value. Наименование нарушения
+     * Get the 'ViolationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅР°СЂСѓС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Set the 'ViolationName' element value. Наименование нарушения
+     * Set the 'ViolationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅР°СЂСѓС€РµРЅРёСЏ
      * 
      * @param violationName
      */
@@ -51,7 +51,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Get the 'ControlStatusName' element value. Статус проверки/наличия нарушения (YES - Да; NO - Нет; NOTREQUIRED - Не требуется; NOTVERIFIED - Не проверялось)
+     * Get the 'ControlStatusName' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕРІРµСЂРєРё/РЅР°Р»РёС‡РёСЏ РЅР°СЂСѓС€РµРЅРёСЏ (YES - Р”Р°; NO - РќРµС‚; NOTREQUIRED - РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ; NOTVERIFIED - РќРµ РїСЂРѕРІРµСЂСЏР»РѕСЃСЊ)
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Set the 'ControlStatusName' element value. Статус проверки/наличия нарушения (YES - Да; NO - Нет; NOTREQUIRED - Не требуется; NOTVERIFIED - Не проверялось)
+     * Set the 'ControlStatusName' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕРІРµСЂРєРё/РЅР°Р»РёС‡РёСЏ РЅР°СЂСѓС€РµРЅРёСЏ (YES - Р”Р°; NO - РќРµС‚; NOTREQUIRED - РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ; NOTVERIFIED - РќРµ РїСЂРѕРІРµСЂСЏР»РѕСЃСЊ)
      * 
      * @param controlStatusName
      */
@@ -69,7 +69,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Get the 'NotifNumber' element value. Номер уведомления
+     * Get the 'NotifNumber' element value. РќРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Set the 'NotifNumber' element value. Номер уведомления
+     * Set the 'NotifNumber' element value. РќРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param notifNumber
      */
@@ -87,7 +87,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Get the 'CorrectionDate' element value. Дата устранения замечания
+     * Get the 'CorrectionDate' element value. Р”Р°С‚Р° СѓСЃС‚СЂР°РЅРµРЅРёСЏ Р·Р°РјРµС‡Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class CheckViolationType
     }
 
     /** 
-     * Set the 'CorrectionDate' element value. Дата устранения замечания
+     * Set the 'CorrectionDate' element value. Р”Р°С‚Р° СѓСЃС‚СЂР°РЅРµРЅРёСЏ Р·Р°РјРµС‡Р°РЅРёСЏ
      * 
      * @param correctionDate
      */

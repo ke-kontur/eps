@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.PIGoodsType;
 
 /** 
- * Информация о перевозимых товарах
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
  */
 public class GoodsInformType
 {
@@ -21,7 +21,7 @@ public class GoodsInformType
     private CUCustomsType borderCustoms;
 
     /** 
-     * Get the 'TotalGoodsNameQuantity' element value. Всего наименований товаров
+     * Get the 'TotalGoodsNameQuantity' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the 'TotalGoodsNameQuantity' element value. Всего наименований товаров
+     * Set the 'TotalGoodsNameQuantity' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @param totalGoodsNameQuantity
      */
@@ -39,7 +39,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Get the 'ShipSpecifQuantity' element value. Количество отгрузочных спецификаций
+     * Get the 'ShipSpecifQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the 'ShipSpecifQuantity' element value. Количество отгрузочных спецификаций
+     * Set the 'ShipSpecifQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @param shipSpecifQuantity
      */
@@ -57,7 +57,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Get the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
+     * Get the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
+     * Set the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
      * 
      * @param shipSpecifGoodsQuantity
      */
@@ -75,7 +75,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Get the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Get the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Set the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param dateExpectedArrival
      */
@@ -93,7 +93,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Get the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Get the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Set the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param timeExpectedArrival
      */
@@ -111,7 +111,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Get the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств.
+     * Get the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GoodsInformType
     }
 
     /** 
-     * Set the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств.
+     * Set the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @param borderCustoms
      */

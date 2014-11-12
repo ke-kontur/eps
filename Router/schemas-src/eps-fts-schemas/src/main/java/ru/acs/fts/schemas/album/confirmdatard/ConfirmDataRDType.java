@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Подтверждение оформления по документу
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕС„РѕСЂРјР»РµРЅРёСЏ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ
  */
 public class ConfirmDataRDType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class ConfirmDataRDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Уникальный номер по БД РД
+     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Уникальный номер по БД РД
+     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -35,7 +35,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'UseDateTime' element value. Дата использования и время
+     * Get the 'UseDateTime' element value. Р”Р°С‚Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РІСЂРµРјСЏ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'UseDateTime' element value. Дата использования и время
+     * Set the 'UseDateTime' element value. Р”Р°С‚Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РІСЂРµРјСЏ
      * 
      * @param useDateTime
      */
@@ -53,7 +53,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Difference' element value. Признак расхождения. Если true -  да, false-нет
+     * Get the 'Difference' element value. РџСЂРёР·РЅР°Рє СЂР°СЃС…РѕР¶РґРµРЅРёСЏ. Р•СЃР»Рё true -  РґР°, false-РЅРµС‚
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Difference' element value. Признак расхождения. Если true -  да, false-нет
+     * Set the 'Difference' element value. РџСЂРёР·РЅР°Рє СЂР°СЃС…РѕР¶РґРµРЅРёСЏ. Р•СЃР»Рё true -  РґР°, false-РЅРµС‚
      * 
      * @param difference
      */
@@ -71,7 +71,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustDocType' element value. Тип таможенного документа. ДТ -декларация на товары, ПР - сообщение о прибытии, УБ - сообщение об убытии, ТД - транзитная декларация.
+     * Get the 'CustDocType' element value. РўРёРї С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р”Рў -РґРµРєР»Р°СЂР°С†РёСЏ РЅР° С‚РѕРІР°СЂС‹, РџР  - СЃРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё, РЈР‘ - СЃРѕРѕР±С‰РµРЅРёРµ РѕР± СѓР±С‹С‚РёРё, РўР” - С‚СЂР°РЅР·РёС‚РЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustDocType' element value. Тип таможенного документа. ДТ -декларация на товары, ПР - сообщение о прибытии, УБ - сообщение об убытии, ТД - транзитная декларация.
+     * Set the 'CustDocType' element value. РўРёРї С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р”Рў -РґРµРєР»Р°СЂР°С†РёСЏ РЅР° С‚РѕРІР°СЂС‹, РџР  - СЃРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё, РЈР‘ - СЃРѕРѕР±С‰РµРЅРёРµ РѕР± СѓР±С‹С‚РёРё, РўР” - С‚СЂР°РЅР·РёС‚РЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ.
      * 
      * @param custDocType
      */
@@ -89,7 +89,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Номер таможенного документа, при оформлении которого использован разрешительный документ
+     * Get the 'GTDID' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Номер таможенного документа, при оформлении которого использован разрешительный документ
+     * Set the 'GTDID' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param GTDID
      */
@@ -107,7 +107,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class ConfirmDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

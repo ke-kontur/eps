@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о платеже
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
  */
 public class PaymentInfoType
 {
@@ -19,7 +19,7 @@ public class PaymentInfoType
     private List<PaymentDetailsType> paymentDetailList = new ArrayList<PaymentDetailsType>();
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа в соответствии с Классификатором видов таможенных и иных платежей
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа в соответствии с Классификатором видов таможенных и иных платежей
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param paymentModeCode
      */
@@ -37,7 +37,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'PaymentName' element value. Наименование платежа
+     * Get the 'PaymentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'PaymentName' element value. Наименование платежа
+     * Set the 'PaymentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentName
      */
@@ -55,7 +55,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'TaxBase' element value. Основа начисления
+     * Get the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'TaxBase' element value. Основа начисления
+     * Set the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @param taxBase
      */
@@ -73,7 +73,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'Rate' element value. Ставка
+     * Get the 'Rate' element value. РЎС‚Р°РІРєР°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'Rate' element value. Ставка
+     * Set the 'Rate' element value. РЎС‚Р°РІРєР°
      * 
      * @param rate
      */
@@ -91,7 +91,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'Amount' element value. Исчисленная сумма
+     * Get the 'Amount' element value. РСЃС‡РёСЃР»РµРЅРЅР°СЏ СЃСѓРјРјР°
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'Amount' element value. Исчисленная сумма
+     * Set the 'Amount' element value. РСЃС‡РёСЃР»РµРЅРЅР°СЏ СЃСѓРјРјР°
      * 
      * @param amount
      */
@@ -109,7 +109,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'TaxBaseQualifierCode' element value. Единица основы начисления платежа
+     * Get the 'TaxBaseQualifierCode' element value. Р•РґРёРЅРёС†Р° РѕСЃРЅРѕРІС‹ РЅР°С‡РёСЃР»РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'TaxBaseQualifierCode' element value. Единица основы начисления платежа
+     * Set the 'TaxBaseQualifierCode' element value. Р•РґРёРЅРёС†Р° РѕСЃРЅРѕРІС‹ РЅР°С‡РёСЃР»РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @param taxBaseQualifierCode
      */
@@ -127,7 +127,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'RateQualifierCode' element value. Код единицы измерения ставки
+     * Get the 'RateQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'RateQualifierCode' element value. Код единицы измерения ставки
+     * Set the 'RateQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё
      * 
      * @param rateQualifierCode
      */
@@ -145,7 +145,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the list of 'PaymentDetails' element items. Подробности уплаты
+     * Get the list of 'PaymentDetails' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СѓРїР»Р°С‚С‹
      * 
      * @return list
      */
@@ -154,7 +154,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the list of 'PaymentDetails' element items. Подробности уплаты
+     * Set the list of 'PaymentDetails' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СѓРїР»Р°С‚С‹
      * 
      * @param list
      */

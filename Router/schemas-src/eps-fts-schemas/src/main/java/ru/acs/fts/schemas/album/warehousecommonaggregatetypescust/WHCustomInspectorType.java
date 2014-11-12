@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Комплексный тип для описания должностного лица таможенного органа
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
  */
 public class WHCustomInspectorType extends PersonBaseType
 {
     private String LNP;
 
     /** 
-     * Get the 'LNP' element value. Л.Н.П. сотрудника таможенного органа, зарегистрировавшего отчет
+     * Get the 'LNP' element value. Р›.Рќ.Рџ. СЃРѕС‚СЂСѓРґРЅРёРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РѕС‚С‡РµС‚
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WHCustomInspectorType extends PersonBaseType
     }
 
     /** 
-     * Set the 'LNP' element value. Л.Н.П. сотрудника таможенного органа, зарегистрировавшего отчет
+     * Set the 'LNP' element value. Р›.Рќ.Рџ. СЃРѕС‚СЂСѓРґРЅРёРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РѕС‚С‡РµС‚
      * 
      * @param LNP
      */

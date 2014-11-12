@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Реквизиты таможни,принимающей товарную партию.
+ * Р РµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РЅРё,РїСЂРёРЅРёРјР°СЋС‰РµР№ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ.
  */
 public class UnloadCustomSignType
 {
@@ -14,7 +14,7 @@ public class UnloadCustomSignType
     private CustomsPersonType person;
 
     /** 
-     * Get the 'CustComments' element value. Комментарий к получению груза.
+     * Get the 'CustComments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє РїРѕР»СѓС‡РµРЅРёСЋ РіСЂСѓР·Р°.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Set the 'CustComments' element value. Комментарий к получению груза.
+     * Set the 'CustComments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє РїРѕР»СѓС‡РµРЅРёСЋ РіСЂСѓР·Р°.
      * 
      * @param custComments
      */
@@ -32,7 +32,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -50,7 +50,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Get the 'Person' element value. Должностное лицо таможенного органа
+     * Get the 'Person' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Set the 'Person' element value. Должностное лицо таможенного органа
+     * Set the 'Person' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param person
      */

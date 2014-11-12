@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AuthoritesDocumentType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Сведения о физ. лице
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С„РёР·. Р»РёС†Рµ
  */
 public class PersonType extends PersonSignatureType
 {
     private AuthoritesDocumentType authoritesDocument;
 
     /** 
-     * Get the 'AuthoritesDocument' element value. Сведения о документе, удостоверяющем полномочия.
+     * Get the 'AuthoritesDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏ.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'AuthoritesDocument' element value. Сведения о документе, удостоверяющем полномочия.
+     * Set the 'AuthoritesDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏ.
      * 
      * @param authoritesDocument
      */

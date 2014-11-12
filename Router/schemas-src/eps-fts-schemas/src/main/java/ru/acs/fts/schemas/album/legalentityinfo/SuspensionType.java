@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о приостановлении действия лицензии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРё РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
  */
 public class SuspensionType
 {
@@ -12,7 +12,7 @@ public class SuspensionType
     private RegOrganType regOrgan;
 
     /** 
-     * Get the 'EndDate' element value. Дата приостановления
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SuspensionType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата приостановления
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ
      * 
      * @param endDate
      */
@@ -30,7 +30,7 @@ public class SuspensionType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. Наименование лицензирующего органа, приостановившего действие лицензии
+     * Get the 'RegOrgan' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°, РїСЂРёРѕСЃС‚Р°РЅРѕРІРёРІС€РµРіРѕ РґРµР№СЃС‚РІРёРµ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SuspensionType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. Наименование лицензирующего органа, приостановившего действие лицензии
+     * Set the 'RegOrgan' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°, РїСЂРёРѕСЃС‚Р°РЅРѕРІРёРІС€РµРіРѕ РґРµР№СЃС‚РІРёРµ Р»РёС†РµРЅР·РёРё
      * 
      * @param regOrgan
      */

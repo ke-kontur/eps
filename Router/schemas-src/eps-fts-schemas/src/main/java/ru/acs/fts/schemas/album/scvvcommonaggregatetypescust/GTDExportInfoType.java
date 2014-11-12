@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о фактическом вывозе по декларации на товары
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
  */
 public class GTDExportInfoType
 {
@@ -13,7 +13,7 @@ public class GTDExportInfoType
     private GTDInqType DTID;
 
     /** 
-     * Get the list of 'ShipmentFactInfo' element items. Сведения о фактически вывезенных товарах
+     * Get the list of 'ShipmentFactInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё РІС‹РІРµР·РµРЅРЅС‹С… С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class GTDExportInfoType
     }
 
     /** 
-     * Set the list of 'ShipmentFactInfo' element items. Сведения о фактически вывезенных товарах
+     * Set the list of 'ShipmentFactInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё РІС‹РІРµР·РµРЅРЅС‹С… С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class GTDExportInfoType
     }
 
     /** 
-     * Get the 'DTID' element value. Регистрационный номер ДТ.
+     * Get the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GTDExportInfoType
     }
 
     /** 
-     * Set the 'DTID' element value. Регистрационный номер ДТ.
+     * Set the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param DTID
      */

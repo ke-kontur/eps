@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Реквизиты организации. Базовый класс
+ * Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё. Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ
  */
 public class OrganizationBaseType
 {
@@ -12,7 +12,7 @@ public class OrganizationBaseType
     private Choice choice;
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование организации / ФИО физического лица
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование организации / ФИО физического лица
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param organizationName
      */
@@ -30,7 +30,7 @@ public class OrganizationBaseType
     }
 
     /** 
-     * Get the 'ShortName' element value. Краткое наименование организации
+     * Get the 'ShortName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class OrganizationBaseType
     }
 
     /** 
-     * Set the 'ShortName' element value. Краткое наименование организации
+     * Set the 'ShortName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param shortName
      */
@@ -48,7 +48,7 @@ public class OrganizationBaseType
     }
 
     /** 
-     * Get the 'OrganizationLanguage' element value. Код языка для заполнения наименования 
+     * Get the 'OrganizationLanguage' element value. РљРѕРґ СЏР·С‹РєР° РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ 
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class OrganizationBaseType
     }
 
     /** 
-     * Set the 'OrganizationLanguage' element value. Код языка для заполнения наименования 
+     * Set the 'OrganizationLanguage' element value. РљРѕРґ СЏР·С‹РєР° РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ 
      * 
      * @param organizationLanguage
      */
@@ -118,7 +118,7 @@ public class OrganizationBaseType
         }
 
         /** 
-         * Get the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
+         * Get the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
          * 
          * @return value
          */
@@ -127,7 +127,7 @@ public class OrganizationBaseType
         }
 
         /** 
-         * Set the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
+         * Set the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
          * 
          * @param RFOrganizationFeatures
          */
@@ -147,7 +147,7 @@ public class OrganizationBaseType
         }
 
         /** 
-         * Get the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
+         * Get the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
          * 
          * @return value
          */
@@ -156,7 +156,7 @@ public class OrganizationBaseType
         }
 
         /** 
-         * Set the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
+         * Set the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
          * 
          * @param RKOrganizationFeatures
          */
@@ -176,7 +176,7 @@ public class OrganizationBaseType
         }
 
         /** 
-         * Get the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
+         * Get the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
          * 
          * @return value
          */
@@ -185,7 +185,7 @@ public class OrganizationBaseType
         }
 
         /** 
-         * Set the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
+         * Set the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
          * 
          * @param RBOrganizationFeatures
          */

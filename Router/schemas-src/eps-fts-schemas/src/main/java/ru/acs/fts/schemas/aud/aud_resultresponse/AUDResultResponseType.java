@@ -10,7 +10,7 @@ public class AUDResultResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentBody' element value. Технологический документ-ответ, который был отправлен клиенту в результате обработки технологического документа-запроса.
+     * Get the 'DocumentBody' element value. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёР№ РґРѕРєСѓРјРµРЅС‚-РѕС‚РІРµС‚, РєРѕС‚РѕСЂС‹Р№ Р±С‹Р» РѕС‚РїСЂР°РІР»РµРЅ РєР»РёРµРЅС‚Сѓ РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°-Р·Р°РїСЂРѕСЃР°.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDResultResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentBody' element value. Технологический документ-ответ, который был отправлен клиенту в результате обработки технологического документа-запроса.
+     * Set the 'DocumentBody' element value. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёР№ РґРѕРєСѓРјРµРЅС‚-РѕС‚РІРµС‚, РєРѕС‚РѕСЂС‹Р№ Р±С‹Р» РѕС‚РїСЂР°РІР»РµРЅ РєР»РёРµРЅС‚Сѓ РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°-Р·Р°РїСЂРѕСЃР°.
      * 
      * @param documentBody
      */
@@ -28,7 +28,7 @@ public class AUDResultResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDResultResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

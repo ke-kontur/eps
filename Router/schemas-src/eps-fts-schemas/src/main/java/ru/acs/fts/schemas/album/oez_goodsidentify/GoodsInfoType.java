@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsInfoType
 {
@@ -13,7 +13,7 @@ public class GoodsInfoType
     private List<String> goodsDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'Position' element value. Порядковый номер товара
+     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'Position' element value. Порядковый номер товара
+     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param position
      */
@@ -31,7 +31,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание товара
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание товара
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */

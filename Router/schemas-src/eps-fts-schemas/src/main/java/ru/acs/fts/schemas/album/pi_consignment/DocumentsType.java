@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.pi_consignment;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Документ
+ * Р”РѕРєСѓРјРµРЅС‚
  */
 public class DocumentsType extends DocumentBaseType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. Код вида документа
+     * Get the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. Код вида документа
+     * Set the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeCode
      */

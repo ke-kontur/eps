@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.minfinmetalstoneinout;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class ProductDescriptionType
 {
@@ -16,7 +16,7 @@ public class ProductDescriptionType
     private SupplementaryQuantityType count;
 
     /** 
-     * Get the 'Product' element value. Товар
+     * Get the 'Product' element value. РўРѕРІР°СЂ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Set the 'Product' element value. Товар
+     * Set the 'Product' element value. РўРѕРІР°СЂ
      * 
      * @param product
      */
@@ -34,7 +34,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Get the 'Weight' element value. Масса товара
+     * Get the 'Weight' element value. РњР°СЃСЃР° С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Set the 'Weight' element value. Масса товара
+     * Set the 'Weight' element value. РњР°СЃСЃР° С‚РѕРІР°СЂР°
      * 
      * @param weight
      */
@@ -52,7 +52,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Get the 'ETNVEDCode' element value. Код товара по ЕТН ВЭД
+     * Get the 'ETNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ Р•РўРќ Р’Р­Р”
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Set the 'ETNVEDCode' element value. Код товара по ЕТН ВЭД
+     * Set the 'ETNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ Р•РўРќ Р’Р­Р”
      * 
      * @param ETNVEDCode
      */
@@ -70,7 +70,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Get the 'Price' element value. Контрактная стоимость
+     * Get the 'Price' element value. РљРѕРЅС‚СЂР°РєС‚РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Set the 'Price' element value. Контрактная стоимость
+     * Set the 'Price' element value. РљРѕРЅС‚СЂР°РєС‚РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param price
      */
@@ -88,7 +88,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Get the 'Currency' element value. Код валюты
+     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Set the 'Currency' element value. Код валюты
+     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currency
      */
@@ -106,7 +106,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Get the 'Count' element value. Количество товара
+     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ProductDescriptionType
     }
 
     /** 
-     * Set the 'Count' element value. Количество товара
+     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param count
      */

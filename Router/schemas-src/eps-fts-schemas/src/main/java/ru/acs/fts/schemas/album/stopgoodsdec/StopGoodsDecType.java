@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Решение о приостановлении выпуска товаров
+ * Р РµС€РµРЅРёРµ Рѕ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРё РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
  */
 public class StopGoodsDecType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class StopGoodsDecType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -41,7 +41,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecIssueDate' element value. Дата принятия решения
+     * Get the 'DecIssueDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecIssueDate' element value. Дата принятия решения
+     * Set the 'DecIssueDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param decIssueDate
      */
@@ -59,7 +59,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecEndDate' element value. Дата окончания приостановления выпуска товаров
+     * Get the 'DecEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecEndDate' element value. Дата окончания приостановления выпуска товаров
+     * Set the 'DecEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @param decEndDate
      */
@@ -77,7 +77,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsLocation' element value. Местонахождение товаров, выпуск которых приостановлен
+     * Get the 'GoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ, РІС‹РїСѓСЃРє РєРѕС‚РѕСЂС‹С… РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsLocation' element value. Местонахождение товаров, выпуск которых приостановлен
+     * Set the 'GoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ, РІС‹РїСѓСЃРє РєРѕС‚РѕСЂС‹С… РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ
      * 
      * @param goodsLocation
      */
@@ -95,7 +95,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RightPerson' element items. Правообладатель (декларант, представитель)
+     * Get the list of 'RightPerson' element items. РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ (РґРµРєР»Р°СЂР°РЅС‚, РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ)
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RightPerson' element items. Правообладатель (декларант, представитель)
+     * Set the list of 'RightPerson' element items. РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ (РґРµРєР»Р°СЂР°РЅС‚, РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ)
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -131,7 +131,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationNumber' element value. Номер ДТ
+     * Get the 'DeclarationNumber' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationNumber' element value. Номер ДТ
+     * Set the 'DeclarationNumber' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @param declarationNumber
      */
@@ -149,7 +149,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RestrictionGoodsInfo' element items. Сведения о товаре, на который наложено ограничение
+     * Get the list of 'RestrictionGoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅР° РєРѕС‚РѕСЂС‹Р№ РЅР°Р»РѕР¶РµРЅРѕ РѕРіСЂР°РЅРёС‡РµРЅРёРµ
      * 
      * @return list
      */
@@ -158,7 +158,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RestrictionGoodsInfo' element items. Сведения о товаре, на который наложено ограничение
+     * Set the list of 'RestrictionGoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅР° РєРѕС‚РѕСЂС‹Р№ РЅР°Р»РѕР¶РµРЅРѕ РѕРіСЂР°РЅРёС‡РµРЅРёРµ
      * 
      * @param list
      */
@@ -167,7 +167,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class StopGoodsDecType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

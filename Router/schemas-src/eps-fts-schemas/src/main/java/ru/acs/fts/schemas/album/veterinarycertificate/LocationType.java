@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.veterinarycertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Местонахождение продукции/животного/Место составления сертификата
+ * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїСЂРѕРґСѓРєС†РёРё/Р¶РёРІРѕС‚РЅРѕРіРѕ/РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
  */
 public class LocationType
 {
@@ -12,7 +12,7 @@ public class LocationType
     private AddressType address;
 
     /** 
-     * Get the 'PlaceLocation' element value. Местонахождение  продукции
+     * Get the 'PlaceLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ  РїСЂРѕРґСѓРєС†РёРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class LocationType
     }
 
     /** 
-     * Set the 'PlaceLocation' element value. Местонахождение  продукции
+     * Set the 'PlaceLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ  РїСЂРѕРґСѓРєС†РёРё
      * 
      * @param placeLocation
      */
@@ -30,7 +30,7 @@ public class LocationType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес 
+     * Get the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class LocationType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес 
+     * Set the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @param address
      */

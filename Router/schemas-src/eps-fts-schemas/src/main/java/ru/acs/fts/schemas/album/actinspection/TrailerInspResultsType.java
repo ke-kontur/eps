@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Результаты досмотра прицепа, полуприцепа (товарная позиция 8716 по ТН ВЭД ТС)
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° РїСЂРёС†РµРїР°, РїРѕР»СѓРїСЂРёС†РµРїР° (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8716 РїРѕ РўРќ Р’Р­Р” РўРЎ)
  */
 public class TrailerInspResultsType extends CommonParametersType
 {
@@ -13,7 +13,7 @@ public class TrailerInspResultsType extends CommonParametersType
     private DamagesType damages;
 
     /** 
-     * Get the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Get the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
+     * Set the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
      * 
      * @param arriveMode
      */
@@ -31,7 +31,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Skatnost' element value. Колеса задних осей: "1" - односкатные, "2" - двускатные
+     * Get the 'Skatnost' element value. РљРѕР»РµСЃР° Р·Р°РґРЅРёС… РѕСЃРµР№: "1" - РѕРґРЅРѕСЃРєР°С‚РЅС‹Рµ, "2" - РґРІСѓСЃРєР°С‚РЅС‹Рµ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Skatnost' element value. Колеса задних осей: "1" - односкатные, "2" - двускатные
+     * Set the 'Skatnost' element value. РљРѕР»РµСЃР° Р·Р°РґРЅРёС… РѕСЃРµР№: "1" - РѕРґРЅРѕСЃРєР°С‚РЅС‹Рµ, "2" - РґРІСѓСЃРєР°С‚РЅС‹Рµ
      * 
      * @param skatnost
      */
@@ -49,7 +49,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Podveska' element value. Тип подвески
+     * Get the 'Podveska' element value. РўРёРї РїРѕРґРІРµСЃРєРё
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Podveska' element value. Тип подвески
+     * Set the 'Podveska' element value. РўРёРї РїРѕРґРІРµСЃРєРё
      * 
      * @param podveska
      */
@@ -67,7 +67,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'CargoPlace' element value. Характеристика грузового места
+     * Get the 'CargoPlace' element value. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class TrailerInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'CargoPlace' element value. Характеристика грузового места
+     * Set the 'CargoPlace' element value. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
      * 
      * @param cargoPlace
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType
 {
@@ -16,7 +16,7 @@ public class GoodsType
     private LocalDate goodsDate;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Вес товара, брутто, кг
+     * Get the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ, РєРі
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Вес товара, брутто, кг
+     * Set the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ, РєРі
      * 
      * @param grossWeight
      */
@@ -52,7 +52,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCostEuro' element value. Стоимость товара в евро
+     * Get the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РµРІСЂРѕ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCostEuro' element value. Стоимость товара в евро
+     * Set the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РµРІСЂРѕ
      * 
      * @param goodsCostEuro
      */
@@ -70,7 +70,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsDate' element value. Дата поставки товара
+     * Get the 'GoodsDate' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsDate' element value. Дата поставки товара
+     * Set the 'GoodsDate' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂР°
      * 
      * @param goodsDate
      */

@@ -51,8 +51,8 @@ public class SendMessage extends Job
 		{
 			@SuppressWarnings( "unchecked" )
 			List< Object > objects = ( List< Object > )object;
-			
-			for ( Object obj : objects )
+
+            for ( Object obj : objects )
 			{
 				SendMessageHelper.sendEnvelope( jobBatchContext, jobContext, obj );
 			}

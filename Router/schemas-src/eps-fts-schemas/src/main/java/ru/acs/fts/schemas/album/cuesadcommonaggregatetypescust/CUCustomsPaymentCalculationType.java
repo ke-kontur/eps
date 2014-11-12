@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Исчисление таможенных платежей
+ * РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
  */
 public class CUCustomsPaymentCalculationType
 {
@@ -41,7 +41,7 @@ public class CUCustomsPaymentCalculationType
     private String numberGroup;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @param paymentModeCode
      */
@@ -59,7 +59,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentAmount
      */
@@ -77,7 +77,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentCurrencyCode
      */
@@ -95,7 +95,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'TaxBase' element value. Основа начисления
+     * Get the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'TaxBase' element value. Основа начисления
+     * Set the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @param taxBase
      */
@@ -113,7 +113,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'TaxBaseCurrencyCode' element value. Цифровой код валюты основы начисления (адвалорная ставка)
+     * Get the 'TaxBaseCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РѕСЃРЅРѕРІС‹ РЅР°С‡РёСЃР»РµРЅРёСЏ (Р°РґРІР°Р»РѕСЂРЅР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'TaxBaseCurrencyCode' element value. Цифровой код валюты основы начисления (адвалорная ставка)
+     * Set the 'TaxBaseCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РѕСЃРЅРѕРІС‹ РЅР°С‡РёСЃР»РµРЅРёСЏ (Р°РґРІР°Р»РѕСЂРЅР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param taxBaseCurrencyCode
      */
@@ -131,7 +131,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'Rate' element value. Ставка / ставка рефинансирования
+     * Get the 'Rate' element value. РЎС‚Р°РІРєР° / СЃС‚Р°РІРєР° СЂРµС„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'Rate' element value. Ставка / ставка рефинансирования
+     * Set the 'Rate' element value. РЎС‚Р°РІРєР° / СЃС‚Р°РІРєР° СЂРµС„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ
      * 
      * @param rate
      */
@@ -149,7 +149,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTypeCode' element value. Вид ставки (адвалорная -"%", признак сборов для РК - "S", специфическая - "*")
+     * Get the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", РїСЂРёР·РЅР°Рє СЃР±РѕСЂРѕРІ РґР»СЏ Р Рљ - "S", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTypeCode' element value. Вид ставки (адвалорная -"%", признак сборов для РК - "S", специфическая - "*")
+     * Set the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", РїСЂРёР·РЅР°Рє СЃР±РѕСЂРѕРІ РґР»СЏ Р Рљ - "S", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @param rateTypeCode
      */
@@ -167,7 +167,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateCurrencyCode' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Get the 'RateCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateCurrencyCode' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Set the 'RateCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateCurrencyCode
      */
@@ -185,7 +185,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTNVEDQualifierCode' element value. Код единицы измерения ставки (специфическая ставка)
+     * Get the 'RateTNVEDQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTNVEDQualifierCode' element value. Код единицы измерения ставки (специфическая ставка)
+     * Set the 'RateTNVEDQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateTNVEDQualifierCode
      */
@@ -203,7 +203,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'WeightingFactor' element value. Весовой коэффициент единицы измерения (специфическая ставка)
+     * Get the 'WeightingFactor' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'WeightingFactor' element value. Весовой коэффициент единицы измерения (специфическая ставка)
+     * Set the 'WeightingFactor' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param weightingFactor
      */
@@ -221,7 +221,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'ComparisonOperationsSign' element value. Знак операции сравнения (1 - меньше, 2 - больше)
+     * Get the 'ComparisonOperationsSign' element value. Р—РЅР°Рє РѕРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ (1 - РјРµРЅСЊС€Рµ, 2 - Р±РѕР»СЊС€Рµ)
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'ComparisonOperationsSign' element value. Знак операции сравнения (1 - меньше, 2 - больше)
+     * Set the 'ComparisonOperationsSign' element value. Р—РЅР°Рє РѕРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ (1 - РјРµРЅСЊС€Рµ, 2 - Р±РѕР»СЊС€Рµ)
      * 
      * @param comparisonOperationsSign
      */
@@ -239,7 +239,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'Rate2' element value. Ставка
+     * Get the 'Rate2' element value. РЎС‚Р°РІРєР°
      * 
      * @return value
      */
@@ -248,7 +248,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'Rate2' element value. Ставка
+     * Set the 'Rate2' element value. РЎС‚Р°РІРєР°
      * 
      * @param rate2
      */
@@ -257,7 +257,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTypeCode2' element value. Вид ставки (адвалорная -"%", признак сборов для РК - "S", специфическая - "*")
+     * Get the 'RateTypeCode2' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", РїСЂРёР·РЅР°Рє СЃР±РѕСЂРѕРІ РґР»СЏ Р Рљ - "S", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @return value
      */
@@ -266,7 +266,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTypeCode2' element value. Вид ставки (адвалорная -"%", признак сборов для РК - "S", специфическая - "*")
+     * Set the 'RateTypeCode2' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", РїСЂРёР·РЅР°Рє СЃР±РѕСЂРѕРІ РґР»СЏ Р Рљ - "S", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @param rateTypeCode2
      */
@@ -275,7 +275,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateCurrencyCode2' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Get the 'RateCurrencyCode2' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -284,7 +284,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateCurrencyCode2' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Set the 'RateCurrencyCode2' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateCurrencyCode2
      */
@@ -293,7 +293,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTNVEDQualifierCode2' element value. Код единицы измерения ставки (специфическая ставка)
+     * Get the 'RateTNVEDQualifierCode2' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -302,7 +302,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTNVEDQualifierCode2' element value. Код единицы измерения ставки (специфическая ставка)
+     * Set the 'RateTNVEDQualifierCode2' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateTNVEDQualifierCode2
      */
@@ -311,7 +311,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'WeightingFactor2' element value. Весовой коэффициент единицы измерения (специфическая ставка)
+     * Get the 'WeightingFactor2' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -320,7 +320,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'WeightingFactor2' element value. Весовой коэффициент единицы измерения (специфическая ставка)
+     * Set the 'WeightingFactor2' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param weightingFactor2
      */
@@ -329,7 +329,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'OperationsSign' element value. Знак операции
+     * Get the 'OperationsSign' element value. Р—РЅР°Рє РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -338,7 +338,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'OperationsSign' element value. Знак операции
+     * Set the 'OperationsSign' element value. Р—РЅР°Рє РѕРїРµСЂР°С†РёРё
      * 
      * @param operationsSign
      */
@@ -347,7 +347,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'Rate3' element value. Ставка
+     * Get the 'Rate3' element value. РЎС‚Р°РІРєР°
      * 
      * @return value
      */
@@ -356,7 +356,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'Rate3' element value. Ставка
+     * Set the 'Rate3' element value. РЎС‚Р°РІРєР°
      * 
      * @param rate3
      */
@@ -365,7 +365,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTypeCode3' element value. Вид ставки (адвалорная -"%", специфическая - "*")
+     * Get the 'RateTypeCode3' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @return value
      */
@@ -374,7 +374,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTypeCode3' element value. Вид ставки (адвалорная -"%", специфическая - "*")
+     * Set the 'RateTypeCode3' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @param rateTypeCode3
      */
@@ -383,7 +383,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateCurrencyCode3' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Get the 'RateCurrencyCode3' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -392,7 +392,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateCurrencyCode3' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Set the 'RateCurrencyCode3' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateCurrencyCode3
      */
@@ -401,7 +401,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTNVEDQualifierCode3' element value. Код единицы измерения ставки (специфическая ставка)
+     * Get the 'RateTNVEDQualifierCode3' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -410,7 +410,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTNVEDQualifierCode3' element value. Код единицы измерения ставки (специфическая ставка)
+     * Set the 'RateTNVEDQualifierCode3' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateTNVEDQualifierCode3
      */
@@ -419,7 +419,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'WeightingFactor3' element value. Весовой коэффициент единицы измерения (специфическая ставка)
+     * Get the 'WeightingFactor3' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -428,7 +428,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'WeightingFactor3' element value. Весовой коэффициент единицы измерения (специфическая ставка)
+     * Set the 'WeightingFactor3' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param weightingFactor3
      */
@@ -437,7 +437,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'ComparisonResult' element value. Результат выполнения операции сравнения: 1 - истина; 0 - ложь
+     * Get the 'ComparisonResult' element value. Р РµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ: 1 - РёСЃС‚РёРЅР°; 0 - Р»РѕР¶СЊ
      * 
      * @return value
      */
@@ -446,7 +446,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'ComparisonResult' element value. Результат выполнения операции сравнения: 1 - истина; 0 - ложь
+     * Set the 'ComparisonResult' element value. Р РµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ: 1 - РёСЃС‚РёРЅР°; 0 - Р»РѕР¶СЊ
      * 
      * @param comparisonResult
      */
@@ -455,7 +455,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'RateUseDate' element value. Дата применения ставки таможенного платежа
+     * Get the 'RateUseDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ СЃС‚Р°РІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -464,7 +464,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'RateUseDate' element value. Дата применения ставки таможенного платежа
+     * Set the 'RateUseDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ СЃС‚Р°РІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
      * 
      * @param rateUseDate
      */
@@ -473,7 +473,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentCode' element value. Код в соответствии с классификатором особенностей уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
+     * Get the 'PaymentCode' element value. РљРѕРґ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @return value
      */
@@ -482,7 +482,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentCode' element value. Код в соответствии с классификатором особенностей уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
+     * Set the 'PaymentCode' element value. РљРѕРґ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @param paymentCode
      */
@@ -491,7 +491,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'NumberDays' element value. Количество дней
+     * Get the 'NumberDays' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№
      * 
      * @return value
      */
@@ -500,7 +500,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'NumberDays' element value. Количество дней
+     * Set the 'NumberDays' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№
      * 
      * @param numberDays
      */
@@ -509,7 +509,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'NumberStages' element value. Число этапов
+     * Get the 'NumberStages' element value. Р§РёСЃР»Рѕ СЌС‚Р°РїРѕРІ
      * 
      * @return value
      */
@@ -518,7 +518,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'NumberStages' element value. Число этапов
+     * Set the 'NumberStages' element value. Р§РёСЃР»Рѕ СЌС‚Р°РїРѕРІ
      * 
      * @param numberStages
      */
@@ -527,7 +527,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'NumberMonths' element value. Число полных и неполных календарных месяцев
+     * Get the 'NumberMonths' element value. Р§РёСЃР»Рѕ РїРѕР»РЅС‹С… Рё РЅРµРїРѕР»РЅС‹С… РєР°Р»РµРЅРґР°СЂРЅС‹С… РјРµСЃСЏС†РµРІ
      * 
      * @return value
      */
@@ -536,7 +536,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'NumberMonths' element value. Число полных и неполных календарных месяцев
+     * Set the 'NumberMonths' element value. Р§РёСЃР»Рѕ РїРѕР»РЅС‹С… Рё РЅРµРїРѕР»РЅС‹С… РєР°Р»РµРЅРґР°СЂРЅС‹С… РјРµСЃСЏС†РµРІ
      * 
      * @param numberMonths
      */
@@ -545,7 +545,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'TariffRate' element value. Тарифный коэффициент
+     * Get the 'TariffRate' element value. РўР°СЂРёС„РЅС‹Р№ РєРѕСЌС„С„РёС†РёРµРЅС‚
      * 
      * @return value
      */
@@ -554,7 +554,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'TariffRate' element value. Тарифный коэффициент
+     * Set the 'TariffRate' element value. РўР°СЂРёС„РЅС‹Р№ РєРѕСЌС„С„РёС†РёРµРЅС‚
      * 
      * @param tariffRate
      */
@@ -563,7 +563,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'LineNumber' element value. Порядковый номер строки из гр.40
+     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёР· РіСЂ.40
      * 
      * @return value
      */
@@ -572,7 +572,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Порядковый номер строки из гр.40
+     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёР· РіСЂ.40
      * 
      * @param lineNumber
      */
@@ -581,7 +581,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'NumberGroup' element value. Номер группы. Для РФ
+     * Get the 'NumberGroup' element value. РќРѕРјРµСЂ РіСЂСѓРїРїС‹. Р”Р»СЏ Р Р¤
      * 
      * @return value
      */
@@ -590,7 +590,7 @@ public class CUCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'NumberGroup' element value. Номер группы. Для РФ
+     * Set the 'NumberGroup' element value. РќРѕРјРµСЂ РіСЂСѓРїРїС‹. Р”Р»СЏ Р Р¤
      * 
      * @param numberGroup
      */

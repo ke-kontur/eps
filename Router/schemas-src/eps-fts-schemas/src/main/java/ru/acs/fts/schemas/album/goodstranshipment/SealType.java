@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodstranshipment;
 
 /** 
- * Информация о вновь наложенных пломбах.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРЅРѕРІСЊ РЅР°Р»РѕР¶РµРЅРЅС‹С… РїР»РѕРјР±Р°С….
  */
 public class SealType
 {
@@ -12,7 +12,7 @@ public class SealType
     private String quantity;
 
     /** 
-     * Get the 'IdentNumber' element value. Номер наложенного средства идентификации
+     * Get the 'IdentNumber' element value. РќРѕРјРµСЂ РЅР°Р»РѕР¶РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'IdentNumber' element value. Номер наложенного средства идентификации
+     * Set the 'IdentNumber' element value. РќРѕРјРµСЂ РЅР°Р»РѕР¶РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param identNumber
      */
@@ -30,7 +30,7 @@ public class SealType
     }
 
     /** 
-     * Get the 'IdentKind' element value. Вид средств идентификации: 1 - пломба, 2 - печать, 3 - иное
+     * Get the 'IdentKind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 1 - РїР»РѕРјР±Р°, 2 - РїРµС‡Р°С‚СЊ, 3 - РёРЅРѕРµ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'IdentKind' element value. Вид средств идентификации: 1 - пломба, 2 - печать, 3 - иное
+     * Set the 'IdentKind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 1 - РїР»РѕРјР±Р°, 2 - РїРµС‡Р°С‚СЊ, 3 - РёРЅРѕРµ
      * 
      * @param identKind
      */
@@ -48,7 +48,7 @@ public class SealType
     }
 
     /** 
-     * Get the 'IdentDesc' element value. Примечание по средству идентификации
+     * Get the 'IdentDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СЃСЂРµРґСЃС‚РІСѓ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'IdentDesc' element value. Примечание по средству идентификации
+     * Set the 'IdentDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СЃСЂРµРґСЃС‚РІСѓ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param identDesc
      */
@@ -66,7 +66,7 @@ public class SealType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */

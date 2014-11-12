@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Сведения из документа "Уведомление Российской Федерации" ("Республики Беларусь", "Республики Казахстан")
+ * РЎРІРµРґРµРЅРёСЏ РёР· РґРѕРєСѓРјРµРЅС‚Р° "РЈРІРµРґРѕРјР»РµРЅРёРµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё" ("Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ", "Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ")
  */
 public class NoticeRuByKzType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class NoticeRuByKzType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Notification' element items. Уведомление
+     * Get the list of 'Notification' element items. РЈРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class NoticeRuByKzType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Notification' element items. Уведомление
+     * Set the list of 'Notification' element items. РЈРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class NoticeRuByKzType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class NoticeRuByKzType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

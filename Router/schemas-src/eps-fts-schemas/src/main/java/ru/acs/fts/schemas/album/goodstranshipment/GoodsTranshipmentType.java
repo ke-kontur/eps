@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о необходимости проведения грузовых операций и/или продлении срока транзита
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёР№ Рё/РёР»Рё РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° С‚СЂР°РЅР·РёС‚Р°
  */
 public class GoodsTranshipmentType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class GoodsTranshipmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDirection' element value. Признак направления документа: 0 - от участника ВЭД в ТО; 1 - от ТО участнику ВЭД
+     * Get the 'DocumentDirection' element value. РџСЂРёР·РЅР°Рє РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°: 0 - РѕС‚ СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р” РІ РўРћ; 1 - РѕС‚ РўРћ СѓС‡Р°СЃС‚РЅРёРєСѓ Р’Р­Р”
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDirection' element value. Признак направления документа: 0 - от участника ВЭД в ТО; 1 - от ТО участнику ВЭД
+     * Set the 'DocumentDirection' element value. РџСЂРёР·РЅР°Рє РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°: 0 - РѕС‚ СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р” РІ РўРћ; 1 - РѕС‚ РўРћ СѓС‡Р°СЃС‚РЅРёРєСѓ Р’Р­Р”
      * 
      * @param documentDirection
      */
@@ -70,7 +70,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'TD' element value. Номер транзитной декларации
+     * Get the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'TD' element value. Номер транзитной декларации
+     * Set the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param TD
      */
@@ -98,7 +98,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRID' element value. Номер книжки МДП
+     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRID' element value. Номер книжки МДП
+     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRID
      */
@@ -117,7 +117,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'IncidentInfo' element value. Информация о происшествии (об аварии или действии непреодолимой силы во время перевозки)
+     * Get the 'IncidentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРёСЃС€РµСЃС‚РІРёРё (РѕР± Р°РІР°СЂРёРё РёР»Рё РґРµР№СЃС‚РІРёРё РЅРµРїСЂРµРѕРґРѕР»РёРјРѕР№ СЃРёР»С‹ РІРѕ РІСЂРµРјСЏ РїРµСЂРµРІРѕР·РєРё)
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'IncidentInfo' element value. Информация о происшествии (об аварии или действии непреодолимой силы во время перевозки)
+     * Set the 'IncidentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРёСЃС€РµСЃС‚РІРёРё (РѕР± Р°РІР°СЂРёРё РёР»Рё РґРµР№СЃС‚РІРёРё РЅРµРїСЂРµРѕРґРѕР»РёРјРѕР№ СЃРёР»С‹ РІРѕ РІСЂРµРјСЏ РїРµСЂРµРІРѕР·РєРё)
      * 
      * @param incidentInfo
      */
@@ -135,7 +135,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReloadPlace' element value. Место проведения грузовых и иных операций.
+     * Get the 'ReloadPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№.
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReloadPlace' element value. Место проведения грузовых и иных операций.
+     * Set the 'ReloadPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№.
      * 
      * @param reloadPlace
      */
@@ -153,7 +153,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transport' element items. Сведения о новом составе транспортных средств после проведения грузовых операций
+     * Get the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕСЃС‚Р°РІРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕСЃР»Рµ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёР№
      * 
      * @return list
      */
@@ -162,7 +162,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transport' element items. Сведения о новом составе транспортных средств после проведения грузовых операций
+     * Set the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕСЃС‚Р°РІРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕСЃР»Рµ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёР№
      * 
      * @param list
      */
@@ -171,7 +171,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Seal' element items. Информация о вновь наложенных пломбах, печатях и иных средствах идентификации
+     * Get the list of 'Seal' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРЅРѕРІСЊ РЅР°Р»РѕР¶РµРЅРЅС‹С… РїР»РѕРјР±Р°С…, РїРµС‡Р°С‚СЏС… Рё РёРЅС‹С… СЃСЂРµРґСЃС‚РІР°С… РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @return list
      */
@@ -180,7 +180,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Seal' element items. Информация о вновь наложенных пломбах, печатях и иных средствах идентификации
+     * Set the list of 'Seal' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРЅРѕРІСЊ РЅР°Р»РѕР¶РµРЅРЅС‹С… РїР»РѕРјР±Р°С…, РїРµС‡Р°С‚СЏС… Рё РёРЅС‹С… СЃСЂРµРґСЃС‚РІР°С… РёРґРµРЅС‚РёС„РёРєР°С†РёРё
      * 
      * @param list
      */
@@ -189,7 +189,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Сведения о должностном лице таможенного органа, оформившем изменения
+     * Get the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕС„РѕСЂРјРёРІС€РµРј РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Сведения о должностном лице таможенного органа, оформившем изменения
+     * Set the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕС„РѕСЂРјРёРІС€РµРј РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @param customsPerson
      */
@@ -207,7 +207,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. Товаротранспортная накладная
+     * Get the list of 'Consignment' element items. РўРѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
      * 
      * @return list
      */
@@ -216,7 +216,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. Товаротранспортная накладная
+     * Set the list of 'Consignment' element items. РўРѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
      * 
      * @param list
      */
@@ -225,7 +225,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class GoodsTranshipmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

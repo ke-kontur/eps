@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Подтверждение целевого назначения материалов, ввозимых в рамках Соглашения о ввозе материалов образовательного, научного и культурного характера от 22 ноября 1950 г./сведения о целевом назначении для медицины/сведения о подтверждении целевого назначения ввозимого товара (Минтранс)/сведения о подтверждении целевого назначения ввозимого товара (Минпромторг)
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РјР°С‚РµСЂРёР°Р»РѕРІ, РІРІРѕР·РёРјС‹С… РІ СЂР°РјРєР°С… РЎРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРІРѕР·Рµ РјР°С‚РµСЂРёР°Р»РѕРІ РѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅРѕРіРѕ, РЅР°СѓС‡РЅРѕРіРѕ Рё РєСѓР»СЊС‚СѓСЂРЅРѕРіРѕ С…Р°СЂР°РєС‚РµСЂР° РѕС‚ 22 РЅРѕСЏР±СЂСЏ 1950 Рі./СЃРІРµРґРµРЅРёСЏ Рѕ С†РµР»РµРІРѕРј РЅР°Р·РЅР°С‡РµРЅРёРё РґР»СЏ РјРµРґРёС†РёРЅС‹/СЃРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР° (РњРёРЅС‚СЂР°РЅСЃ)/СЃРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР° (РњРёРЅРїСЂРѕРјС‚РѕСЂРі)
  */
 public class RZNDesignatedPurposeType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -42,7 +42,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 1 - подтверждение целевого назначения материалов, ввозимых в рамках Соглашения о ввозе материалов образовательного, научного и культурного характера от 22 ноября 1950 г.; 2 - сведения о целевом назначении для медицины; 3 - сведения о подтверждении целевого назначения ввозимого товара (Минтранс); 4 - сведения о подтверждении целевого назначения ввозимого товара (Минпромторг)
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РјР°С‚РµСЂРёР°Р»РѕРІ, РІРІРѕР·РёРјС‹С… РІ СЂР°РјРєР°С… РЎРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРІРѕР·Рµ РјР°С‚РµСЂРёР°Р»РѕРІ РѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅРѕРіРѕ, РЅР°СѓС‡РЅРѕРіРѕ Рё РєСѓР»СЊС‚СѓСЂРЅРѕРіРѕ С…Р°СЂР°РєС‚РµСЂР° РѕС‚ 22 РЅРѕСЏР±СЂСЏ 1950 Рі.; 2 - СЃРІРµРґРµРЅРёСЏ Рѕ С†РµР»РµРІРѕРј РЅР°Р·РЅР°С‡РµРЅРёРё РґР»СЏ РјРµРґРёС†РёРЅС‹; 3 - СЃРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР° (РњРёРЅС‚СЂР°РЅСЃ); 4 - СЃРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР° (РњРёРЅРїСЂРѕРјС‚РѕСЂРі)
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 1 - подтверждение целевого назначения материалов, ввозимых в рамках Соглашения о ввозе материалов образовательного, научного и культурного характера от 22 ноября 1950 г.; 2 - сведения о целевом назначении для медицины; 3 - сведения о подтверждении целевого назначения ввозимого товара (Минтранс); 4 - сведения о подтверждении целевого назначения ввозимого товара (Минпромторг)
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РјР°С‚РµСЂРёР°Р»РѕРІ, РІРІРѕР·РёРјС‹С… РІ СЂР°РјРєР°С… РЎРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРІРѕР·Рµ РјР°С‚РµСЂРёР°Р»РѕРІ РѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅРѕРіРѕ, РЅР°СѓС‡РЅРѕРіРѕ Рё РєСѓР»СЊС‚СѓСЂРЅРѕРіРѕ С…Р°СЂР°РєС‚РµСЂР° РѕС‚ 22 РЅРѕСЏР±СЂСЏ 1950 Рі.; 2 - СЃРІРµРґРµРЅРёСЏ Рѕ С†РµР»РµРІРѕРј РЅР°Р·РЅР°С‡РµРЅРёРё РґР»СЏ РјРµРґРёС†РёРЅС‹; 3 - СЃРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР° (РњРёРЅС‚СЂР°РЅСЃ); 4 - СЃРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР° (РњРёРЅРїСЂРѕРјС‚РѕСЂРі)
      * 
      * @param docSign
      */
@@ -60,7 +60,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Confirmation' element value. Подтверждение (Удостоверение)
+     * Get the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ (РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ)
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Confirmation' element value. Подтверждение (Удостоверение)
+     * Set the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ (РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ)
      * 
      * @param confirmation
      */
@@ -78,7 +78,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Holder' element value. Держатель подтверждения (Получатель подтверждающего письма)
+     * Get the 'Holder' element value. Р”РµСЂР¶Р°С‚РµР»СЊ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ (РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РµРіРѕ РїРёСЃСЊРјР°)
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Holder' element value. Держатель подтверждения (Получатель подтверждающего письма)
+     * Set the 'Holder' element value. Р”РµСЂР¶Р°С‚РµР»СЊ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ (РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РµРіРѕ РїРёСЃСЊРјР°)
      * 
      * @param holder
      */
@@ -96,7 +96,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -114,7 +114,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Контракт
+     * Get the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Контракт
+     * Set the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @param contract
      */
@@ -132,7 +132,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. Описание товара
+     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. Описание товара
+     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param goodsDescription
      */
@@ -150,7 +150,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TargetMedOrg' element items. Медицинская организация (объект), для которой предназначен ввозимый товар
+     * Get the list of 'TargetMedOrg' element items. РњРµРґРёС†РёРЅСЃРєР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ (РѕР±СЉРµРєС‚), РґР»СЏ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ РІРІРѕР·РёРјС‹Р№ С‚РѕРІР°СЂ
      * 
      * @return list
      */
@@ -159,7 +159,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TargetMedOrg' element items. Медицинская организация (объект), для которой предназначен ввозимый товар
+     * Set the list of 'TargetMedOrg' element items. РњРµРґРёС†РёРЅСЃРєР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ (РѕР±СЉРµРєС‚), РґР»СЏ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ РІРІРѕР·РёРјС‹Р№ С‚РѕРІР°СЂ
      * 
      * @param list
      */
@@ -168,7 +168,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConfirmationLetter' element value. Письмо о подтверждении целевого назначения товара для медицинских целей
+     * Get the 'ConfirmationLetter' element value. РџРёСЃСЊРјРѕ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂР° РґР»СЏ РјРµРґРёС†РёРЅСЃРєРёС… С†РµР»РµР№
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConfirmationLetter' element value. Письмо о подтверждении целевого назначения товара для медицинских целей
+     * Set the 'ConfirmationLetter' element value. РџРёСЃСЊРјРѕ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂР° РґР»СЏ РјРµРґРёС†РёРЅСЃРєРёС… С†РµР»РµР№
      * 
      * @param confirmationLetter
      */
@@ -186,7 +186,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class RZNDesignatedPurposeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

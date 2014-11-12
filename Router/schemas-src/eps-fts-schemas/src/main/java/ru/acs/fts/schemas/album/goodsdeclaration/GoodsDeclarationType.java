@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Данные декларации на товары
+ * Р”Р°РЅРЅС‹Рµ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
  */
 public class GoodsDeclarationType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class GoodsDeclarationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDID
      */
@@ -41,7 +41,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -59,7 +59,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consigner' element value. Грузоотправитель
+     * Get the 'Consigner' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consigner' element value. Грузоотправитель
+     * Set the 'Consigner' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param consigner
      */
@@ -77,7 +77,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsList' element items. Сведения о товаре
+     * Get the list of 'GoodsList' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -86,7 +86,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsList' element items. Сведения о товаре
+     * Set the list of 'GoodsList' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -95,7 +95,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе  убытия
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ  СѓР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе  убытия
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ  СѓР±С‹С‚РёСЏ
      * 
      * @param customs
      */
@@ -113,7 +113,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. Станция отправления
+     * Get the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. Станция отправления
+     * Set the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureStation
      */
@@ -131,7 +131,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationStation' element value. Станция назначения
+     * Get the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationStation' element value. Станция назначения
+     * Set the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationStation
      */
@@ -149,7 +149,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderStation' element value. Пограничная станция
+     * Get the 'BorderStation' element value. РџРѕРіСЂР°РЅРёС‡РЅР°СЏ СЃС‚Р°РЅС†РёСЏ
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderStation' element value. Пограничная станция
+     * Set the 'BorderStation' element value. РџРѕРіСЂР°РЅРёС‡РЅР°СЏ СЃС‚Р°РЅС†РёСЏ
      * 
      * @param borderStation
      */
@@ -167,7 +167,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class GoodsDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

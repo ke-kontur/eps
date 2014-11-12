@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.inqinotreatment;
 
 /** 
- * Описание товаров
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
  */
 public class TreatGoodsInfType
 {

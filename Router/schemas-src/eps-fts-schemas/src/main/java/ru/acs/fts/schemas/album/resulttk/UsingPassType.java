@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.resulttk;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Использование спец.разрешения на поездку
+ * РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЃРїРµС†.СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРѕРµР·РґРєСѓ
  */
 public class UsingPassType extends DocumentBaseType
 {
     private String controlStatusName;
 
     /** 
-     * Get the 'ControlStatusName' element value. Статус проверки разрешения
+     * Get the 'ControlStatusName' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕРІРµСЂРєРё СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class UsingPassType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ControlStatusName' element value. Статус проверки разрешения
+     * Set the 'ControlStatusName' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕРІРµСЂРєРё СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param controlStatusName
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.revealeddirections;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDID5Type;
 
 /** 
- * Регистрационный номер оперативной ориентировки
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
  */
 public class DirectionRegNumberType extends GTDID5Type
 {
     private String seqNumberVersion;
 
     /** 
-     * Get the 'SeqNumberVersion' element value. Порядковый номер версии оперативной ориентировки
+     * Get the 'SeqNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DirectionRegNumberType extends GTDID5Type
     }
 
     /** 
-     * Set the 'SeqNumberVersion' element value. Порядковый номер версии оперативной ориентировки
+     * Set the 'SeqNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РѕРїРµСЂР°С‚РёРІРЅРѕР№ РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё
      * 
      * @param seqNumberVersion
      */

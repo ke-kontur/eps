@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Нормативные документы, на соответствие которым производится сертификация
+ * РќРѕСЂРјР°С‚РёРІРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РєРѕС‚РѕСЂС‹Рј РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЃРµСЂС‚РёС„РёРєР°С†РёСЏ
  */
 public class CertifNormDocType
 {
     private List<String> docsDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'DocsDescription' element items. Обозначение нормативных документов
+     * Get the list of 'DocsDescription' element items. РћР±РѕР·РЅР°С‡РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class CertifNormDocType
     }
 
     /** 
-     * Set the list of 'DocsDescription' element items. Обозначение нормативных документов
+     * Set the list of 'DocsDescription' element items. РћР±РѕР·РЅР°С‡РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param list
      */

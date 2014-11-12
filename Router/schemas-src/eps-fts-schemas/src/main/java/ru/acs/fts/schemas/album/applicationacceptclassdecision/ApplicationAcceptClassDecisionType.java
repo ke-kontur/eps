@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Заявление о принятии классификационного решения
+ * Р—Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё РєР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ
  */
 public class ApplicationAcceptClassDecisionType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DecisionSign' element value. Признак заявления о принятии решения по классификации товара (1- заявление о принятии решения, 0 - заявление о принятии предварительного решения)
+     * Get the 'DecisionSign' element value. РџСЂРёР·РЅР°Рє Р·Р°СЏРІР»РµРЅРёСЏ Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР° (1- Р·Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ, 0 - Р·Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ)
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionSign' element value. Признак заявления о принятии решения по классификации товара (1- заявление о принятии решения, 0 - заявление о принятии предварительного решения)
+     * Set the 'DecisionSign' element value. РџСЂРёР·РЅР°Рє Р·Р°СЏРІР»РµРЅРёСЏ Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР° (1- Р·Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ, 0 - Р·Р°СЏРІР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ)
      * 
      * @param decisionSign
      */
@@ -40,7 +40,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumberApplication' element value. Номер заявления
+     * Get the 'NumberApplication' element value. РќРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberApplication' element value. Номер заявления
+     * Set the 'NumberApplication' element value. РќРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param numberApplication
      */
@@ -58,7 +58,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateApplication' element value. Дата заявления
+     * Get the 'DateApplication' element value. Р”Р°С‚Р° Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateApplication' element value. Дата заявления
+     * Set the 'DateApplication' element value. Р”Р°С‚Р° Р·Р°СЏРІР»РµРЅРёСЏ
      * 
      * @param dateApplication
      */
@@ -76,7 +76,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Информация о заявителе
+     * Get the 'Declarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Информация о заявителе
+     * Set the 'Declarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param declarant
      */
@@ -94,7 +94,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodInfo' element items. Информация о товаре
+     * Get the list of 'GoodInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -103,7 +103,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodInfo' element items. Информация о товаре
+     * Set the list of 'GoodInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -112,7 +112,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись заявителя
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись заявителя
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @param personSignature
      */
@@ -130,7 +130,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AttachedDocuments' element items. Опись прилагаемых документов
+     * Get the list of 'AttachedDocuments' element items. РћРїРёСЃСЊ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return list
      */
@@ -139,7 +139,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AttachedDocuments' element items. Опись прилагаемых документов
+     * Set the list of 'AttachedDocuments' element items. РћРїРёСЃСЊ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param list
      */
@@ -148,7 +148,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class ApplicationAcceptClassDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

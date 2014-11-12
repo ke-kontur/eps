@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.veterinarycertificate;
 
 /** 
- * Карантинирование
+ * РљР°СЂР°РЅС‚РёРЅРёСЂРѕРІР°РЅРёРµ
  */
 public class QuarantineType
 {
@@ -10,7 +10,7 @@ public class QuarantineType
     private String numberDays;
 
     /** 
-     * Get the 'PlaseQuarantine' element value. Место карантинирование
+     * Get the 'PlaseQuarantine' element value. РњРµСЃС‚Рѕ РєР°СЂР°РЅС‚РёРЅРёСЂРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class QuarantineType
     }
 
     /** 
-     * Set the 'PlaseQuarantine' element value. Место карантинирование
+     * Set the 'PlaseQuarantine' element value. РњРµСЃС‚Рѕ РєР°СЂР°РЅС‚РёРЅРёСЂРѕРІР°РЅРёРµ
      * 
      * @param plaseQuarantine
      */
@@ -28,7 +28,7 @@ public class QuarantineType
     }
 
     /** 
-     * Get the 'NumberDays' element value. Количество дней
+     * Get the 'NumberDays' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class QuarantineType
     }
 
     /** 
-     * Set the 'NumberDays' element value. Количество дней
+     * Set the 'NumberDays' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№
      * 
      * @param numberDays
      */

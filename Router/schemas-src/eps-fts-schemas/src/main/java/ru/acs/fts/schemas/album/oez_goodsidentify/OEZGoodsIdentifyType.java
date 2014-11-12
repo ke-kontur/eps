@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Уведомление о проведении идентификации товаров, ввозимых  (ввезенных) на территорию ОЭЗ
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ, РІРІРѕР·РёРјС‹С…  (РІРІРµР·РµРЅРЅС‹С…) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р—
  */
 public class OEZGoodsIdentifyType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DateDocument' element value. Дата документа
+     * Get the 'DateDocument' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateDocument' element value. Дата документа
+     * Set the 'DateDocument' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param dateDocument
      */
@@ -44,7 +44,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reason' element items. Причины, по которым принято решение о проведении идентификации товаров
+     * Get the list of 'Reason' element items. РџСЂРёС‡РёРЅС‹, РїРѕ РєРѕС‚РѕСЂС‹Рј РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -53,7 +53,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reason' element items. Причины, по которым принято решение о проведении идентификации товаров
+     * Set the list of 'Reason' element items. РџСЂРёС‡РёРЅС‹, РїРѕ РєРѕС‚РѕСЂС‹Рј РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -62,7 +62,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PlaceIdentify' element items. Место проведения идентификации товаров
+     * Get the list of 'PlaceIdentify' element items. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -71,7 +71,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PlaceIdentify' element items. Место проведения идентификации товаров
+     * Set the list of 'PlaceIdentify' element items. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -80,7 +80,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Activity' element items. Действия необходимые совершить в отношении товаров и средств транспорта, перевозящих такие товары
+     * Get the list of 'Activity' element items. Р”РµР№СЃС‚РІРёСЏ РЅРµРѕР±С…РѕРґРёРјС‹Рµ СЃРѕРІРµСЂС€РёС‚СЊ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё СЃСЂРµРґСЃС‚РІ С‚СЂР°РЅСЃРїРѕСЂС‚Р°, РїРµСЂРµРІРѕР·СЏС‰РёС… С‚Р°РєРёРµ С‚РѕРІР°СЂС‹
      * 
      * @return list
      */
@@ -89,7 +89,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Activity' element items. Действия необходимые совершить в отношении товаров и средств транспорта, перевозящих такие товары
+     * Set the list of 'Activity' element items. Р”РµР№СЃС‚РІРёСЏ РЅРµРѕР±С…РѕРґРёРјС‹Рµ СЃРѕРІРµСЂС€РёС‚СЊ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё СЃСЂРµРґСЃС‚РІ С‚СЂР°РЅСЃРїРѕСЂС‚Р°, РїРµСЂРµРІРѕР·СЏС‰РёС… С‚Р°РєРёРµ С‚РѕРІР°СЂС‹
      * 
      * @param list
      */
@@ -98,7 +98,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PresentInfo' element items. Перечень документов и сведений необходимых представить в уполномоченный таможенный орган
+     * Get the list of 'PresentInfo' element items. РџРµСЂРµС‡РµРЅСЊ РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ РЅРµРѕР±С…РѕРґРёРјС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РІ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return list
      */
@@ -107,7 +107,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PresentInfo' element items. Перечень документов и сведений необходимых представить в уполномоченный таможенный орган
+     * Set the list of 'PresentInfo' element items. РџРµСЂРµС‡РµРЅСЊ РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№ РЅРµРѕР±С…РѕРґРёРјС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РІ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -134,7 +134,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Получатель
+     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Получатель
+     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -152,7 +152,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumberImp' element value. Регистрационный номер уведомления о ввозе
+     * Get the 'RegistrationNumberImp' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumberImp' element value. Регистрационный номер уведомления о ввозе
+     * Set the 'RegistrationNumberImp' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ
      * 
      * @param registrationNumberImp
      */
@@ -171,7 +171,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о товарах
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -180,7 +180,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о товарах
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -189,7 +189,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -207,7 +207,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class OEZGoodsIdentifyType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

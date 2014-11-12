@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.prohibitedgoods;
 
 /** 
- * Сведения о наличии лекарственных средств
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РёС‡РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
  */
 public class DrugsSubstanceInfoType extends ProhibitedSubjectInfoType
 {
     private String drugsType;
 
     /** 
-     * Get the 'DrugsType' element value. Тип лекарственного средства. 1 - наркотические; 2 - сильнодействующие; 3 - психотропные; 4 - ядовитые
+     * Get the 'DrugsType' element value. РўРёРї Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. 1 - РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёРµ; 2 - СЃРёР»СЊРЅРѕРґРµР№СЃС‚РІСѓСЋС‰РёРµ; 3 - РїСЃРёС…РѕС‚СЂРѕРїРЅС‹Рµ; 4 - СЏРґРѕРІРёС‚С‹Рµ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class DrugsSubstanceInfoType extends ProhibitedSubjectInfoType
     }
 
     /** 
-     * Set the 'DrugsType' element value. Тип лекарственного средства. 1 - наркотические; 2 - сильнодействующие; 3 - психотропные; 4 - ядовитые
+     * Set the 'DrugsType' element value. РўРёРї Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. 1 - РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёРµ; 2 - СЃРёР»СЊРЅРѕРґРµР№СЃС‚РІСѓСЋС‰РёРµ; 3 - РїСЃРёС…РѕС‚СЂРѕРїРЅС‹Рµ; 4 - СЏРґРѕРІРёС‚С‹Рµ
      * 
      * @param drugsType
      */

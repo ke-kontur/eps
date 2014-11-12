@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Таможенная декларация на транспортное средство
+ * РўР°РјРѕР¶РµРЅРЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
  */
 public class TransportDeclarationType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class TransportDeclarationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Status' element value. 0 - Ввоз; 1 - Вывоз
+     * Get the 'Status' element value. 0 - Р’РІРѕР·; 1 - Р’С‹РІРѕР·
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Status' element value. 0 - Ввоз; 1 - Вывоз
+     * Set the 'Status' element value. 0 - Р’РІРѕР·; 1 - Р’С‹РІРѕР·
      * 
      * @param status
      */
@@ -47,7 +47,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'StoreInfo' element value. Признак наличия припасов в ТСМП
+     * Get the 'StoreInfo' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРёРїР°СЃРѕРІ РІ РўРЎРњРџ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'StoreInfo' element value. Признак наличия припасов в ТСМП
+     * Set the 'StoreInfo' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРёРїР°СЃРѕРІ РІ РўРЎРњРџ
      * 
      * @param storeInfo
      */
@@ -65,7 +65,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsInfo' element value. Признак наличия товаров в ТСМП
+     * Get the 'GoodsInfo' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ С‚РѕРІР°СЂРѕРІ РІ РўРЎРњРџ
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsInfo' element value. Признак наличия товаров в ТСМП
+     * Set the 'GoodsInfo' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ С‚РѕРІР°СЂРѕРІ РІ РўРЎРњРџ
      * 
      * @param goodsInfo
      */
@@ -83,7 +83,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Purpose' element value. Цель ввоза/вывоза (1 - для начала международной перевозки грузов, пассажиров и (или) багажа на таможенной территории; 2 - для начала международной перевозки грузов, пассажиров и (или) багажа за пределы таможенной территории; 3 - для завершения международной перевозки грузов, пассажиров и (или) багажа на таможенной территории; 4 - для завершения международной перевозки грузов, пассажиров и (или) багажа за пределами таможенной территории)
+     * Get the 'Purpose' element value. Р¦РµР»СЊ РІРІРѕР·Р°/РІС‹РІРѕР·Р° (1 - РґР»СЏ РЅР°С‡Р°Р»Р° РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° РЅР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 2 - РґР»СЏ РЅР°С‡Р°Р»Р° РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° Р·Р° РїСЂРµРґРµР»С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 3 - РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° РЅР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 4 - РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° Р·Р° РїСЂРµРґРµР»Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 5 - РёРЅРѕРµ)
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Purpose' element value. Цель ввоза/вывоза (1 - для начала международной перевозки грузов, пассажиров и (или) багажа на таможенной территории; 2 - для начала международной перевозки грузов, пассажиров и (или) багажа за пределы таможенной территории; 3 - для завершения международной перевозки грузов, пассажиров и (или) багажа на таможенной территории; 4 - для завершения международной перевозки грузов, пассажиров и (или) багажа за пределами таможенной территории)
+     * Set the 'Purpose' element value. Р¦РµР»СЊ РІРІРѕР·Р°/РІС‹РІРѕР·Р° (1 - РґР»СЏ РЅР°С‡Р°Р»Р° РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° РЅР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 2 - РґР»СЏ РЅР°С‡Р°Р»Р° РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° Р·Р° РїСЂРµРґРµР»С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 3 - РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° РЅР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 4 - РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ, РїР°СЃСЃР°Р¶РёСЂРѕРІ Рё (РёР»Рё) Р±Р°РіР°Р¶Р° Р·Р° РїСЂРµРґРµР»Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё; 5 - РёРЅРѕРµ)
      * 
      * @param purpose
      */
@@ -101,7 +101,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. Дополнительные сведения
+     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. Дополнительные сведения
+     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param additionalInfo
      */
@@ -119,7 +119,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TSInfo' element items. Транспортное средство
+     * Get the list of 'TSInfo' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return list
      */
@@ -128,7 +128,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TSInfo' element items. Транспортное средство
+     * Set the list of 'TSInfo' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param list
      */
@@ -162,7 +162,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Лицо, осуществляющее перевозку товаров
+     * Get the 'Carrier' element value. Р›РёС†Рѕ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРµ РїРµСЂРµРІРѕР·РєСѓ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Лицо, осуществляющее перевозку товаров
+     * Set the 'Carrier' element value. Р›РёС†Рѕ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРµ РїРµСЂРµРІРѕР·РєСѓ С‚РѕРІР°СЂРѕРІ
      * 
      * @param carrier
      */
@@ -190,7 +190,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DateStamp' element items. Сведения, указанные на календарном штемпеле
+     * Get the list of 'DateStamp' element items. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·Р°РЅРЅС‹Рµ РЅР° РєР°Р»РµРЅРґР°СЂРЅРѕРј С€С‚РµРјРїРµР»Рµ
      * 
      * @return list
      */
@@ -199,7 +199,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DateStamp' element items. Сведения, указанные на календарном штемпеле
+     * Set the list of 'DateStamp' element items. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·Р°РЅРЅС‹Рµ РЅР° РєР°Р»РµРЅРґР°СЂРЅРѕРј С€С‚РµРјРїРµР»Рµ
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Route' element value. Маршрут
+     * Get the 'Route' element value. РњР°СЂС€СЂСѓС‚
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Route' element value. Маршрут
+     * Set the 'Route' element value. РњР°СЂС€СЂСѓС‚
      * 
      * @param route
      */
@@ -227,7 +227,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CrewInfo' element value. Экипаж
+     * Get the 'CrewInfo' element value. Р­РєРёРїР°Р¶
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CrewInfo' element value. Экипаж
+     * Set the 'CrewInfo' element value. Р­РєРёРїР°Р¶
      * 
      * @param crewInfo
      */
@@ -245,7 +245,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Passengers' element value. Пассажиры
+     * Get the 'Passengers' element value. РџР°СЃСЃР°Р¶РёСЂС‹
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Passengers' element value. Пассажиры
+     * Set the 'Passengers' element value. РџР°СЃСЃР°Р¶РёСЂС‹
      * 
      * @param passengers
      */
@@ -263,7 +263,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'OperatingEquipment' element value. Запасные части и оборудование
+     * Get the 'OperatingEquipment' element value. Р—Р°РїР°СЃРЅС‹Рµ С‡Р°СЃС‚Рё Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperatingEquipment' element value. Запасные части и оборудование
+     * Set the 'OperatingEquipment' element value. Р—Р°РїР°СЃРЅС‹Рµ С‡Р°СЃС‚Рё Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ
      * 
      * @param operatingEquipment
      */
@@ -281,7 +281,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Signer' element value. Подпись лица, заявляющего сведения
+     * Get the 'Signer' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, Р·Р°СЏРІР»СЏСЋС‰РµРіРѕ СЃРІРµРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Signer' element value. Подпись лица, заявляющего сведения
+     * Set the 'Signer' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, Р·Р°СЏРІР»СЏСЋС‰РµРіРѕ СЃРІРµРґРµРЅРёСЏ
      * 
      * @param signer
      */
@@ -299,7 +299,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -308,7 +308,7 @@ public class TransportDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Цель досмотра
+ * Р¦РµР»СЊ РґРѕСЃРјРѕС‚СЂР°
  */
 public class InspGoalType
 {
@@ -15,7 +15,7 @@ public class InspGoalType
     private List<String> goalsDescList = new ArrayList<String>();
 
     /** 
-     * Get the 'GoodsIdent' element value. Идентификация товаров
+     * Get the 'GoodsIdent' element value. РРґРµРЅС‚РёС„РёРєР°С†РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InspGoalType
     }
 
     /** 
-     * Set the 'GoodsIdent' element value. Идентификация товаров
+     * Set the 'GoodsIdent' element value. РРґРµРЅС‚РёС„РёРєР°С†РёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsIdent
      */
@@ -33,7 +33,7 @@ public class InspGoalType
     }
 
     /** 
-     * Get the 'SpotCheck' element value. Выборочная проверка
+     * Get the 'SpotCheck' element value. Р’С‹Р±РѕСЂРѕС‡РЅР°СЏ РїСЂРѕРІРµСЂРєР°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class InspGoalType
     }
 
     /** 
-     * Set the 'SpotCheck' element value. Выборочная проверка
+     * Set the 'SpotCheck' element value. Р’С‹Р±РѕСЂРѕС‡РЅР°СЏ РїСЂРѕРІРµСЂРєР°
      * 
      * @param spotCheck
      */
@@ -51,7 +51,7 @@ public class InspGoalType
     }
 
     /** 
-     * Get the 'OtherGoals' element value. Прочее
+     * Get the 'OtherGoals' element value. РџСЂРѕС‡РµРµ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class InspGoalType
     }
 
     /** 
-     * Set the 'OtherGoals' element value. Прочее
+     * Set the 'OtherGoals' element value. РџСЂРѕС‡РµРµ
      * 
      * @param otherGoals
      */
@@ -69,7 +69,7 @@ public class InspGoalType
     }
 
     /** 
-     * Get the list of 'GoalsDesc' element items. Дополнительная информация
+     * Get the list of 'GoalsDesc' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class InspGoalType
     }
 
     /** 
-     * Set the list of 'GoalsDesc' element items. Дополнительная информация
+     * Set the list of 'GoalsDesc' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param list
      */

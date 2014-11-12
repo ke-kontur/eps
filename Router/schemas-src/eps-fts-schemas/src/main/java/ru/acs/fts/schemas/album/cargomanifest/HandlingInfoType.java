@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * Информация по обработке груза
+ * РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
  */
 public class HandlingInfoType
 {
@@ -11,7 +11,7 @@ public class HandlingInfoType
     private String infoDescription;
 
     /** 
-     * Get the 'NumPP' element value. Порядковый номер записи
+     * Get the 'NumPP' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'NumPP' element value. Порядковый номер записи
+     * Set the 'NumPP' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
      * 
      * @param numPP
      */
@@ -29,7 +29,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Get the 'ServiceInfoCode' element value. Код информации
+     * Get the 'ServiceInfoCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'ServiceInfoCode' element value. Код информации
+     * Set the 'ServiceInfoCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param serviceInfoCode
      */
@@ -47,7 +47,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Get the 'InfoDescription' element value. Специальные требования и другая информация
+     * Get the 'InfoDescription' element value. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РґСЂСѓРіР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'InfoDescription' element value. Специальные требования и другая информация
+     * Set the 'InfoDescription' element value. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РґСЂСѓРіР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
      * 
      * @param infoDescription
      */

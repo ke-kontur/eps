@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cwformular;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Информация о документе
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
  */
 public class DocumentType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class DocumentType extends DocumentBaseType
     private String docType;
 
     /** 
-     * Get the 'DocNN' element value. Порядковый номер документа
+     * Get the 'DocNN' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocNN' element value. Порядковый номер документа
+     * Set the 'DocNN' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docNN
      */
@@ -30,7 +30,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocType' element value. Тип документа
+     * Get the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocType' element value. Тип документа
+     * Set the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docType
      */

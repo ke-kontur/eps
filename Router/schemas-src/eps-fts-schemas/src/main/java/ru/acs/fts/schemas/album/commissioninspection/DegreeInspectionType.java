@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * Степень досмотра
+ * РЎС‚РµРїРµРЅСЊ РґРѕСЃРјРѕС‚СЂР°
  */
 public class DegreeInspectionType
 {
@@ -20,7 +20,7 @@ public class DegreeInspectionType
     private String otherComments;
 
     /** 
-     * Get the 'Weighing' element value. Взвешивание (полное/выборочное/без взвешивания).Если значение поля: 1 - полное; 2 - выборочное; 3 - без взвешивания.
+     * Get the 'Weighing' element value. Р’Р·РІРµС€РёРІР°РЅРёРµ (РїРѕР»РЅРѕРµ/РІС‹Р±РѕСЂРѕС‡РЅРѕРµ/Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ).Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: 1 - РїРѕР»РЅРѕРµ; 2 - РІС‹Р±РѕСЂРѕС‡РЅРѕРµ; 3 - Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'Weighing' element value. Взвешивание (полное/выборочное/без взвешивания).Если значение поля: 1 - полное; 2 - выборочное; 3 - без взвешивания.
+     * Set the 'Weighing' element value. Р’Р·РІРµС€РёРІР°РЅРёРµ (РїРѕР»РЅРѕРµ/РІС‹Р±РѕСЂРѕС‡РЅРѕРµ/Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ).Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: 1 - РїРѕР»РЅРѕРµ; 2 - РІС‹Р±РѕСЂРѕС‡РЅРѕРµ; 3 - Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ.
      * 
      * @param weighing
      */
@@ -38,7 +38,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'ConvertingFreightPlace' element value. Пересчет грузовых мест.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'ConvertingFreightPlace' element value. РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'ConvertingFreightPlace' element value. Пересчет грузовых мест.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'ConvertingFreightPlace' element value. РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param convertingFreightPlace
      */
@@ -56,7 +56,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'ChooseOpening' element value. Выборочным вскрытием.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'ChooseOpening' element value. Р’С‹Р±РѕСЂРѕС‡РЅС‹Рј РІСЃРєСЂС‹С‚РёРµРј.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'ChooseOpening' element value. Выборочным вскрытием.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'ChooseOpening' element value. Р’С‹Р±РѕСЂРѕС‡РЅС‹Рј РІСЃРєСЂС‹С‚РёРµРј.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param chooseOpening
      */
@@ -74,7 +74,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'OpeningAllFreightPlace' element value. Вскрытием всех грузовых мест. Если значение поля: "true" - да; "false" - нет.
+     * Get the 'OpeningAllFreightPlace' element value. Р’СЃРєСЂС‹С‚РёРµРј РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'OpeningAllFreightPlace' element value. Вскрытием всех грузовых мест. Если значение поля: "true" - да; "false" - нет.
+     * Set the 'OpeningAllFreightPlace' element value. Р’СЃРєСЂС‹С‚РёРµРј РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param openingAllFreightPlace
      */
@@ -92,7 +92,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'ConvertingQuantityObjects' element value. Пересчет количества предметов в грузовых местах. Если значение поля: "true" - да; "false" - нет.
+     * Get the 'ConvertingQuantityObjects' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'ConvertingQuantityObjects' element value. Пересчет количества предметов в грузовых местах. Если значение поля: "true" - да; "false" - нет.
+     * Set the 'ConvertingQuantityObjects' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param convertingQuantityObjects
      */
@@ -110,7 +110,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'Choose' element value. Выборочно.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'Choose' element value. Р’С‹Р±РѕСЂРѕС‡РЅРѕ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'Choose' element value. Выборочно.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'Choose' element value. Р’С‹Р±РѕСЂРѕС‡РЅРѕ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param choose
      */
@@ -128,7 +128,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'All' element value. Всех.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'All' element value. Р’СЃРµС….Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'All' element value. Всех.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'All' element value. Р’СЃРµС….Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param all
      */
@@ -146,7 +146,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'MeasurementDeterminationBehaviourGoods' element value. Измерение и определение характеристик товаров (с частичной разборкой/с полной разборкой).Если значение поля: "true" - да; "false" - нет.
+     * Get the 'MeasurementDeterminationBehaviourGoods' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ (СЃ С‡Р°СЃС‚РёС‡РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№/СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№).Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'MeasurementDeterminationBehaviourGoods' element value. Измерение и определение характеристик товаров (с частичной разборкой/с полной разборкой).Если значение поля: "true" - да; "false" - нет.
+     * Set the 'MeasurementDeterminationBehaviourGoods' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ (СЃ С‡Р°СЃС‚РёС‡РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№/СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№).Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param measurementDeterminationBehaviourGoods
      */
@@ -165,7 +165,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'WithoutThievingSampling' element value. Без взятия проб и образцов.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'WithoutThievingSampling' element value. Р‘РµР· РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'WithoutThievingSampling' element value. Без взятия проб и образцов.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'WithoutThievingSampling' element value. Р‘РµР· РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param withoutThievingSampling
      */
@@ -183,7 +183,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'WithThievingSampling' element value. С взятием проб и образцов. Если значение поля: "true" - да; "false" - нет.
+     * Get the 'WithThievingSampling' element value. РЎ РІР·СЏС‚РёРµРј РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'WithThievingSampling' element value. С взятием проб и образцов. Если значение поля: "true" - да; "false" - нет.
+     * Set the 'WithThievingSampling' element value. РЎ РІР·СЏС‚РёРµРј РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param withThievingSampling
      */
@@ -201,7 +201,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'Others' element value. Прочее.Если значение поля: "true" - да; "false" - нет.
+     * Get the 'Others' element value. РџСЂРѕС‡РµРµ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @return value
      */
@@ -210,7 +210,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'Others' element value. Прочее.Если значение поля: "true" - да; "false" - нет.
+     * Set the 'Others' element value. РџСЂРѕС‡РµРµ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
      * 
      * @param others
      */
@@ -219,7 +219,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Get the 'OtherComments' element value. Прочее(указать)
+     * Get the 'OtherComments' element value. РџСЂРѕС‡РµРµ(СѓРєР°Р·Р°С‚СЊ)
      * 
      * @return value
      */
@@ -228,7 +228,7 @@ public class DegreeInspectionType
     }
 
     /** 
-     * Set the 'OtherComments' element value. Прочее(указать)
+     * Set the 'OtherComments' element value. РџСЂРѕС‡РµРµ(СѓРєР°Р·Р°С‚СЊ)
      * 
      * @param otherComments
      */

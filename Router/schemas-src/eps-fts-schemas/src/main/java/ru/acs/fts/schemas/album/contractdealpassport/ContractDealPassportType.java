@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Паспорт сделки (ПС), оформленный по контракту - документ валютного контроля,  предназначенный для осуществления контроля за вывозимыми с территории Российской Федерации товарами
+ * РџР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё (РџРЎ), РѕС„РѕСЂРјР»РµРЅРЅС‹Р№ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ - РґРѕРєСѓРјРµРЅС‚ РІР°Р»СЋС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ,  РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹Р№ РґР»СЏ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ Р·Р° РІС‹РІРѕР·РёРјС‹РјРё СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё С‚РѕРІР°СЂР°РјРё
  */
 public class ContractDealPassportType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ContractDealPassportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Дата оформления ПС
+     * Get the 'Date' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Дата оформления ПС
+     * Set the 'Date' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
      * 
      * @param date
      */
@@ -43,7 +43,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'BankName' element value. Полное или сокращенное фирменное название уполномоченного банка (филиала уполномоченного банка), оформившего ПС
+     * Get the 'BankName' element value. РџРѕР»РЅРѕРµ РёР»Рё СЃРѕРєСЂР°С‰РµРЅРЅРѕРµ С„РёСЂРјРµРЅРЅРѕРµ РЅР°Р·РІР°РЅРёРµ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР° (С„РёР»РёР°Р»Р° СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР°), РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankName' element value. Полное или сокращенное фирменное название уполномоченного банка (филиала уполномоченного банка), оформившего ПС
+     * Set the 'BankName' element value. РџРѕР»РЅРѕРµ РёР»Рё СЃРѕРєСЂР°С‰РµРЅРЅРѕРµ С„РёСЂРјРµРЅРЅРѕРµ РЅР°Р·РІР°РЅРёРµ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР° (С„РёР»РёР°Р»Р° СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР°), РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ
      * 
      * @param bankName
      */
@@ -61,7 +61,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PSNumber' element value. Регистрационный номер ПС
+     * Get the 'PSNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РџРЎ
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PSNumber' element value. Регистрационный номер ПС
+     * Set the 'PSNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РџРЎ
      * 
      * @param PSNumber
      */
@@ -79,7 +79,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResidentInfo' element value. Сведения о резиденте
+     * Get the 'ResidentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResidentInfo' element value. Сведения о резиденте
+     * Set the 'ResidentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ
      * 
      * @param residentInfo
      */
@@ -97,7 +97,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'NonresidentInfo' element items. Реквизиты нерезидента
+     * Get the list of 'NonresidentInfo' element items. Р РµРєРІРёР·РёС‚С‹ РЅРµСЂРµР·РёРґРµРЅС‚Р°
      * 
      * @return list
      */
@@ -106,7 +106,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'NonresidentInfo' element items. Реквизиты нерезидента
+     * Set the list of 'NonresidentInfo' element items. Р РµРєРІРёР·РёС‚С‹ РЅРµСЂРµР·РёРґРµРЅС‚Р°
      * 
      * @param list
      */
@@ -115,7 +115,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CommonContractInfo' element items. Общие сведения о контракте
+     * Get the list of 'CommonContractInfo' element items. РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CommonContractInfo' element items. Общие сведения о контракте
+     * Set the list of 'CommonContractInfo' element items. РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AdditionalInfo' element items. Сведения об оформлении, о переводе и закрытии ПС
+     * Get the list of 'AdditionalInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС„РѕСЂРјР»РµРЅРёРё, Рѕ РїРµСЂРµРІРѕРґРµ Рё Р·Р°РєСЂС‹С‚РёРё РџРЎ
      * 
      * @return list
      */
@@ -142,7 +142,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AdditionalInfo' element items. Сведения об оформлении, о переводе и закрытии ПС
+     * Set the list of 'AdditionalInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС„РѕСЂРјР»РµРЅРёРё, Рѕ РїРµСЂРµРІРѕРґРµ Рё Р·Р°РєСЂС‹С‚РёРё РџРЎ
      * 
      * @param list
      */
@@ -151,7 +151,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'UpdatingInfo' element items. Сведения о переоформлении ПС
+     * Get the list of 'UpdatingInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё РџРЎ
      * 
      * @return list
      */
@@ -160,7 +160,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'UpdatingInfo' element items. Сведения о переоформлении ПС
+     * Set the list of 'UpdatingInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё РџРЎ
      * 
      * @param list
      */
@@ -169,7 +169,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PreviousPSNumber' element value. Номер ПС, ранее оформленного по этому контракту
+     * Get the 'PreviousPSNumber' element value. РќРѕРјРµСЂ РџРЎ, СЂР°РЅРµРµ РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РїРѕ СЌС‚РѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PreviousPSNumber' element value. Номер ПС, ранее оформленного по этому контракту
+     * Set the 'PreviousPSNumber' element value. РќРѕРјРµСЂ РџРЎ, СЂР°РЅРµРµ РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РїРѕ СЌС‚РѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param previousPSNumber
      */
@@ -187,7 +187,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentRegistrationType' element value. Способ и дата предоставления документов для оформления ПС
+     * Get the 'DocumentRegistrationType' element value. РЎРїРѕСЃРѕР± Рё РґР°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґР»СЏ РѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentRegistrationType' element value. Способ и дата предоставления документов для оформления ПС
+     * Set the 'DocumentRegistrationType' element value. РЎРїРѕСЃРѕР± Рё РґР°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґР»СЏ РѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
      * 
      * @param documentRegistrationType
      */
@@ -206,7 +206,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CompletedDocumentType' element value. Способ и дата направления резиденту оформленного ПС
+     * Get the 'CompletedDocumentType' element value. РЎРїРѕСЃРѕР± Рё РґР°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµР·РёРґРµРЅС‚Сѓ РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РџРЎ
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CompletedDocumentType' element value. Способ и дата направления резиденту оформленного ПС
+     * Set the 'CompletedDocumentType' element value. РЎРїРѕСЃРѕР± Рё РґР°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµР·РёРґРµРЅС‚Сѓ РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РџРЎ
      * 
      * @param completedDocumentType
      */
@@ -225,7 +225,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class ContractDealPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

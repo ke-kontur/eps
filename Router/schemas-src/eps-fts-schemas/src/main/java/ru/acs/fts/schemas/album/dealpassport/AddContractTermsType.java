@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Дополнительные сведения о контракте
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
  */
 public class AddContractTermsType extends TermsType
 {
@@ -15,7 +15,7 @@ public class AddContractTermsType extends TermsType
     private String WS;
 
     /** 
-     * Get the 'Amount' element value. Общая сумма сделки
+     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРґРµР»РєРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'Amount' element value. Общая сумма сделки
+     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРґРµР»РєРё
      * 
      * @param amount
      */
@@ -33,7 +33,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты контракта (цены)
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
      * 
      * @param currencyCode
      */
@@ -51,7 +51,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Get the list of 'AdditionalInformation' element items. Дополнительная информация. Указывается только в электронном виде.
+     * Get the list of 'AdditionalInformation' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ С‚РѕР»СЊРєРѕ РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РІРёРґРµ.
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Set the list of 'AdditionalInformation' element items. Дополнительная информация. Указывается только в электронном виде.
+     * Set the list of 'AdditionalInformation' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ С‚РѕР»СЊРєРѕ РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РІРёРґРµ.
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Get the 'WS' element value. 1 - "Без суммы"
+     * Get the 'WS' element value. 1 - "Р‘РµР· СЃСѓРјРјС‹"
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class AddContractTermsType extends TermsType
     }
 
     /** 
-     * Set the 'WS' element value. 1 - "Без суммы"
+     * Set the 'WS' element value. 1 - "Р‘РµР· СЃСѓРјРјС‹"
      * 
      * @param WS
      */

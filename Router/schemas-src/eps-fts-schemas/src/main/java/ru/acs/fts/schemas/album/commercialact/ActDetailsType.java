@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialact;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения об акте
+ * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС‚Рµ
  */
 public class ActDetailsType
 {
@@ -14,7 +14,7 @@ public class ActDetailsType
     private String actOrderNumber;
 
     /** 
-     * Get the 'ActName' element value. Наименование акта (Акт, Коммерческий акт, Акт общей формы и т.д.)
+     * Get the 'ActName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°РєС‚Р° (РђРєС‚, РљРѕРјРјРµСЂС‡РµСЃРєРёР№ Р°РєС‚, РђРєС‚ РѕР±С‰РµР№ С„РѕСЂРјС‹ Рё С‚.Рґ.)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Set the 'ActName' element value. Наименование акта (Акт, Коммерческий акт, Акт общей формы и т.д.)
+     * Set the 'ActName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°РєС‚Р° (РђРєС‚, РљРѕРјРјРµСЂС‡РµСЃРєРёР№ Р°РєС‚, РђРєС‚ РѕР±С‰РµР№ С„РѕСЂРјС‹ Рё С‚.Рґ.)
      * 
      * @param actName
      */
@@ -32,7 +32,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Get the 'ActNumber' element value. Номер акта
+     * Get the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Set the 'ActNumber' element value. Номер акта
+     * Set the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р°
      * 
      * @param actNumber
      */
@@ -50,7 +50,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Get the 'ActDate' element value. Дата акта
+     * Get the 'ActDate' element value. Р”Р°С‚Р° Р°РєС‚Р°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Set the 'ActDate' element value. Дата акта
+     * Set the 'ActDate' element value. Р”Р°С‚Р° Р°РєС‚Р°
      * 
      * @param actDate
      */
@@ -68,7 +68,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Get the 'ActOrderNumber' element value. Порядковый номер Акта (для первого начиная с единицы), составленного в отношении товаров указанного отчета о принятии, начиная с момента подачи отчета
+     * Get the 'ActOrderNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РђРєС‚Р° (РґР»СЏ РїРµСЂРІРѕРіРѕ РЅР°С‡РёРЅР°СЏ СЃ РµРґРёРЅРёС†С‹), СЃРѕСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РѕС‚С‡РµС‚Р° Рѕ РїСЂРёРЅСЏС‚РёРё, РЅР°С‡РёРЅР°СЏ СЃ РјРѕРјРµРЅС‚Р° РїРѕРґР°С‡Рё РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ActDetailsType
     }
 
     /** 
-     * Set the 'ActOrderNumber' element value. Порядковый номер Акта (для первого начиная с единицы), составленного в отношении товаров указанного отчета о принятии, начиная с момента подачи отчета
+     * Set the 'ActOrderNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РђРєС‚Р° (РґР»СЏ РїРµСЂРІРѕРіРѕ РЅР°С‡РёРЅР°СЏ СЃ РµРґРёРЅРёС†С‹), СЃРѕСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РѕС‚С‡РµС‚Р° Рѕ РїСЂРёРЅСЏС‚РёРё, РЅР°С‡РёРЅР°СЏ СЃ РјРѕРјРµРЅС‚Р° РїРѕРґР°С‡Рё РѕС‚С‡РµС‚Р°
      * 
      * @param actOrderNumber
      */

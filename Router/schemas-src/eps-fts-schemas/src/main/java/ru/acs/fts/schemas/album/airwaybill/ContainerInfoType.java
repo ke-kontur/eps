@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о контейнере
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
  */
 public class ContainerInfoType
 {
@@ -13,7 +13,7 @@ public class ContainerInfoType
     private String containerDescr;
 
     /** 
-     * Get the list of 'ContainerNum' element items. Номер контейнера
+     * Get the list of 'ContainerNum' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the list of 'ContainerNum' element items. Номер контейнера
+     * Set the list of 'ContainerNum' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Get the 'ContainerDescr' element value. Описание контейнера
+     * Get the 'ContainerDescr' element value. РћРїРёСЃР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the 'ContainerDescr' element value. Описание контейнера
+     * Set the 'ContainerDescr' element value. РћРїРёСЃР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param containerDescr
      */

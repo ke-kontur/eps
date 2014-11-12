@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.SCVVConsignmentType;
 
 /** 
- * Информация о фактически вывозимых товарах
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё РІС‹РІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
  */
 public class GoodsFactInfoType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class GoodsFactInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProcessNumber' element value. Уникальный идентификатор процесса.
+     * Get the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsFactInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessNumber' element value. Уникальный идентификатор процесса.
+     * Set the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
      * 
      * @param processNumber
      */
@@ -34,7 +34,7 @@ public class GoodsFactInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ShipmentFactInfo' element items. Информация о фактическом вывозе по товарной партии
+     * Get the list of 'ShipmentFactInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsFactInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ShipmentFactInfo' element items. Информация о фактическом вывозе по товарной партии
+     * Set the list of 'ShipmentFactInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class GoodsFactInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsFactInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

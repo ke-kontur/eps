@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Заявитель
+ * Р—Р°СЏРІРёС‚РµР»СЊ
  */
 public class ApplicantType extends CUOrganizationType
 {
@@ -13,7 +13,7 @@ public class ApplicantType extends CUOrganizationType
     private DocumentBaseType OEZResidentCertif;
 
     /** 
-     * Get the 'PersonPost' element value. Должность
+     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ApplicantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Должность
+     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
      * 
      * @param personPost
      */
@@ -31,7 +31,7 @@ public class ApplicantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OEZ_ResidentCertif' element value. Свидетельство, удостоверяющее регистрацию лица в качестве резидента ОЭЗ
+     * Get the 'OEZ_ResidentCertif' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРµ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ApplicantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OEZ_ResidentCertif' element value. Свидетельство, удостоверяющее регистрацию лица в качестве резидента ОЭЗ
+     * Set the 'OEZ_ResidentCertif' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРµ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
      * 
      * @param OEZResidentCertif
      */

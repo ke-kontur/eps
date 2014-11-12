@@ -16,7 +16,7 @@ public class E2T
     private EnvelopeType envelope;
 
     /** 
-     * Get the 'Envelope' element value. Конверт
+     * Get the 'Envelope' element value. РљРѕРЅРІРµСЂС‚
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class E2T
     }
 
     /** 
-     * Set the 'Envelope' element value. Конверт
+     * Set the 'Envelope' element value. РљРѕРЅРІРµСЂС‚
      * 
      * @param envelope
      */

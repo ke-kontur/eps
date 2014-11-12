@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.residentsezsertificate;
 
 /** 
- * Сведения о юридическом лице или об индивидуальном предпринимателе - резиденте ОЭЗ 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ РёР»Рё РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ - СЂРµР·РёРґРµРЅС‚Рµ РћР­Р— 
  */
 public class ResidentOrganisationType
 {
@@ -16,7 +16,7 @@ public class ResidentOrganisationType
     private String KPP;
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param organizationName
      */
@@ -34,7 +34,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'ShortName' element value. Краткое наименование 
+     * Get the 'ShortName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'ShortName' element value. Краткое наименование 
+     * Set the 'ShortName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
      * 
      * @param shortName
      */
@@ -52,7 +52,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'FullName' element value. Полное наименование 
+     * Get the 'FullName' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'FullName' element value. Полное наименование 
+     * Set the 'FullName' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
      * 
      * @param fullName
      */
@@ -70,7 +70,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'FirmName' element value. Фирменное наименование 
+     * Get the 'FirmName' element value. Р¤РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'FirmName' element value. Фирменное наименование 
+     * Set the 'FirmName' element value. Р¤РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
      * 
      * @param firmName
      */
@@ -88,7 +88,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'Type' element value. Тип резидента: 1 - юр. лицо, 0 - ИП
+     * Get the 'Type' element value. РўРёРї СЂРµР·РёРґРµРЅС‚Р°: 1 - СЋСЂ. Р»РёС†Рѕ, 0 - РРџ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'Type' element value. Тип резидента: 1 - юр. лицо, 0 - ИП
+     * Set the 'Type' element value. РўРёРї СЂРµР·РёРґРµРЅС‚Р°: 1 - СЋСЂ. Р»РёС†Рѕ, 0 - РРџ
      * 
      * @param type
      */
@@ -106,7 +106,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'OGRN' element value. ОГРН/ОГРНИП. Основной государственный регистрационный  номер.
+     * Get the 'OGRN' element value. РћР“Р Рќ/РћР“Р РќРРџ. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ.
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'OGRN' element value. ОГРН/ОГРНИП. Основной государственный регистрационный  номер.
+     * Set the 'OGRN' element value. РћР“Р Рќ/РћР“Р РќРРџ. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ.
      * 
      * @param OGRN
      */
@@ -124,7 +124,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
+     * Get the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
+     * Set the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
      * 
      * @param INN
      */
@@ -142,7 +142,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Get the 'KPP' element value. КПП - Код причины постановки на учет. 
+     * Get the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚. 
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ResidentOrganisationType
     }
 
     /** 
-     * Set the 'KPP' element value. КПП - Код причины постановки на учет. 
+     * Set the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚. 
      * 
      * @param KPP
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Информация о клиенте архива.
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєР»РёРµРЅС‚Рµ Р°СЂС…РёРІР°.
  */
 public class AUDArchiveClientInfoType
 {
@@ -10,7 +10,7 @@ public class AUDArchiveClientInfoType
     private String description;
 
     /** 
-     * Get the 'ArchiveClientId' element value. Идентификатор клиента архива.
+     * Get the 'ArchiveClientId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР»РёРµРЅС‚Р° Р°СЂС…РёРІР°.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDArchiveClientInfoType
     }
 
     /** 
-     * Set the 'ArchiveClientId' element value. Идентификатор клиента архива.
+     * Set the 'ArchiveClientId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР»РёРµРЅС‚Р° Р°СЂС…РёРІР°.
      * 
      * @param archiveClientId
      */
@@ -28,7 +28,7 @@ public class AUDArchiveClientInfoType
     }
 
     /** 
-     * Get the 'Description' element value. Наименование клиента архива.
+     * Get the 'Description' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»РёРµРЅС‚Р° Р°СЂС…РёРІР°.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDArchiveClientInfoType
     }
 
     /** 
-     * Set the 'Description' element value. Наименование клиента архива.
+     * Set the 'Description' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»РёРµРЅС‚Р° Р°СЂС…РёРІР°.
      * 
      * @param description
      */

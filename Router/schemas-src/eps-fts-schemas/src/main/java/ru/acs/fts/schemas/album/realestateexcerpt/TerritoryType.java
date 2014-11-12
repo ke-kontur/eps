@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Территория РФ
+ * РўРµСЂСЂРёС‚РѕСЂРёСЏ Р Р¤
  */
 public class TerritoryType
 {
@@ -13,7 +13,7 @@ public class TerritoryType
     private List<String> regionCodeList = new ArrayList<String>();
 
     /** 
-     * Get the 'IsRussiaTerritory' element value. Признак действительности/размещения по всей территории РФ
+     * Get the 'IsRussiaTerritory' element value. РџСЂРёР·РЅР°Рє РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё/СЂР°Р·РјРµС‰РµРЅРёСЏ РїРѕ РІСЃРµР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TerritoryType
     }
 
     /** 
-     * Set the 'IsRussiaTerritory' element value. Признак действительности/размещения по всей территории РФ
+     * Set the 'IsRussiaTerritory' element value. РџСЂРёР·РЅР°Рє РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё/СЂР°Р·РјРµС‰РµРЅРёСЏ РїРѕ РІСЃРµР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
      * 
      * @param isRussiaTerritory
      */
@@ -31,7 +31,7 @@ public class TerritoryType
     }
 
     /** 
-     * Get the list of 'RegionCode' element items. Регион (код)
+     * Get the list of 'RegionCode' element items. Р РµРіРёРѕРЅ (РєРѕРґ)
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class TerritoryType
     }
 
     /** 
-     * Set the list of 'RegionCode' element items. Регион (код)
+     * Set the list of 'RegionCode' element items. Р РµРіРёРѕРЅ (РєРѕРґ)
      * 
      * @param list
      */

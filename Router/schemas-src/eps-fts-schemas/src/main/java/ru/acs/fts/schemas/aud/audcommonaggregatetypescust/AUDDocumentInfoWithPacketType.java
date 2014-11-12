@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Информация о документе архива и пакете (в состав которого входит документ).
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР° Рё РїР°РєРµС‚Рµ (РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚).
  */
 public class AUDDocumentInfoWithPacketType extends AUDDocumentInfoType
 {
     private AUDPacketInfoType packetInfo;
 
     /** 
-     * Get the 'PacketInfo' element value. Информация о пакете, в состав которого входит документ.
+     * Get the 'PacketInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ, РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDDocumentInfoWithPacketType extends AUDDocumentInfoType
     }
 
     /** 
-     * Set the 'PacketInfo' element value. Информация о пакете, в состав которого входит документ.
+     * Set the 'PacketInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ, РІ СЃРѕСЃС‚Р°РІ РєРѕС‚РѕСЂРѕРіРѕ РІС…РѕРґРёС‚ РґРѕРєСѓРјРµРЅС‚.
      * 
      * @param packetInfo
      */

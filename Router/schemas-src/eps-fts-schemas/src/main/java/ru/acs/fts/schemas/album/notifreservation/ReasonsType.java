@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание обстоятельств, послуживших причиной невозможности резервирования суммы обеспечения
+ * РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РїРѕСЃР»СѓР¶РёРІС€РёС… РїСЂРёС‡РёРЅРѕР№ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class ReasonsType
 {
@@ -13,7 +13,7 @@ public class ReasonsType
     private List<String> reasonDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'ReasonCode' element value. Код
+     * Get the 'ReasonCode' element value. РљРѕРґ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ReasonsType
     }
 
     /** 
-     * Set the 'ReasonCode' element value. Код
+     * Set the 'ReasonCode' element value. РљРѕРґ
      * 
      * @param reasonCode
      */
@@ -31,7 +31,7 @@ public class ReasonsType
     }
 
     /** 
-     * Get the list of 'ReasonDescription' element items. Описание
+     * Get the list of 'ReasonDescription' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ReasonsType
     }
 
     /** 
-     * Set the list of 'ReasonDescription' element items. Описание
+     * Set the list of 'ReasonDescription' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */

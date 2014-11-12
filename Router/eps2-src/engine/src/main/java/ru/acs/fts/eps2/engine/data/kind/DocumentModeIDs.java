@@ -41,6 +41,8 @@ public class DocumentModeIDs
 	public static final String INT_DT_REQUEST = "1090010E";
 	
 	public static final String INT_DT_RESPONSE = "1090011E";
+
+    public static final String INVENTORY = "1006003E";
 	
 	public static final String REQ_ESAD_INFO = "1006127E";
 	
@@ -81,4 +83,8 @@ public class DocumentModeIDs
 	public static final String CONFIRM_WH_DOC_REG_REMOTE = "1090012E";
 	
 	public static final String KDT_OUT_CU = "1006111E";
+
+    public static final String REPRES_APPLIC_CHANGE = "1006200E";
+
+    public static final String DECL_CHANGE_REQUEST="1004115E";
 }

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.custpaymentsdk;
 import org.joda.time.LocalDate;
 
 /** 
- * Отсрочки, рассрочки
+ * РћС‚СЃСЂРѕС‡РєРё, СЂР°СЃСЃСЂРѕС‡РєРё
  */
 public class PaymentDelayType
 {
@@ -20,7 +20,7 @@ public class PaymentDelayType
     private String postponementProcent;
 
     /** 
-     * Get the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Get the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Set the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSign
      */
@@ -38,7 +38,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @param paymentModeCode
      */
@@ -56,7 +56,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'PaymentDelayAmount' element value. Сумма отсрочки/рассрочки
+     * Get the 'PaymentDelayAmount' element value. РЎСѓРјРјР° РѕС‚СЃСЂРѕС‡РєРё/СЂР°СЃСЃСЂРѕС‡РєРё
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'PaymentDelayAmount' element value. Сумма отсрочки/рассрочки
+     * Set the 'PaymentDelayAmount' element value. РЎСѓРјРјР° РѕС‚СЃСЂРѕС‡РєРё/СЂР°СЃСЃСЂРѕС‡РєРё
      * 
      * @param paymentDelayAmount
      */
@@ -74,7 +74,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
+     * Get the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
+     * Set the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSubspecies
      */
@@ -92,7 +92,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
      * 
      * @param paymentCurrencyCode
      */
@@ -110,7 +110,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Get the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Set the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @param paymentEnsuringModeCodeType
      */
@@ -129,7 +129,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'DelayPremitNumber' element value. Номер разрешения на отсрочку платежа.
+     * Get the 'DelayPremitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'DelayPremitNumber' element value. Номер разрешения на отсрочку платежа.
+     * Set the 'DelayPremitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°.
      * 
      * @param delayPremitNumber
      */
@@ -147,7 +147,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'DelayPaymentDate' element value. Срок уплаты
+     * Get the 'DelayPaymentDate' element value. РЎСЂРѕРє СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'DelayPaymentDate' element value. Срок уплаты
+     * Set the 'DelayPaymentDate' element value. РЎСЂРѕРє СѓРїР»Р°С‚С‹
      * 
      * @param delayPaymentDate
      */
@@ -165,7 +165,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'Rate' element value. Ставка кредита.
+     * Get the 'Rate' element value. РЎС‚Р°РІРєР° РєСЂРµРґРёС‚Р°.
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'Rate' element value. Ставка кредита.
+     * Set the 'Rate' element value. РЎС‚Р°РІРєР° РєСЂРµРґРёС‚Р°.
      * 
      * @param rate
      */
@@ -183,7 +183,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Get the 'PostponementProcent' element value. Процент за предоставление отсрочки / рассрочки (заполняется для 91, 93 видов там. платежей)
+     * Get the 'PostponementProcent' element value. РџСЂРѕС†РµРЅС‚ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕС‚СЃСЂРѕС‡РєРё / СЂР°СЃСЃСЂРѕС‡РєРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ 91, 93 РІРёРґРѕРІ С‚Р°Рј. РїР»Р°С‚РµР¶РµР№)
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class PaymentDelayType
     }
 
     /** 
-     * Set the 'PostponementProcent' element value. Процент за предоставление отсрочки / рассрочки (заполняется для 91, 93 видов там. платежей)
+     * Set the 'PostponementProcent' element value. РџСЂРѕС†РµРЅС‚ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕС‚СЃСЂРѕС‡РєРё / СЂР°СЃСЃСЂРѕС‡РєРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ 91, 93 РІРёРґРѕРІ С‚Р°Рј. РїР»Р°С‚РµР¶РµР№)
      * 
      * @param postponementProcent
      */

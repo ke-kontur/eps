@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Информация о перегрузке товаров. Гр. 55 ТД
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 55 РўР”
  */
 public class ESADReloadingInfoType
 {
@@ -19,7 +19,7 @@ public class ESADReloadingInfoType
     private ESADReloadContainerType reloadContainer;
 
     /** 
-     * Get the 'ReloadCountryCode' element value. Код страны перегрузки товара
+     * Get the 'ReloadCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadCountryCode' element value. Код страны перегрузки товара
+     * Set the 'ReloadCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂР°
      * 
      * @param reloadCountryCode
      */
@@ -37,7 +37,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Get the 'ReloadCountryName' element value. Наименование страны перегрузки товара
+     * Get the 'ReloadCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadCountryName' element value. Наименование страны перегрузки товара
+     * Set the 'ReloadCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂР°
      * 
      * @param reloadCountryName
      */
@@ -55,7 +55,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок
+     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок
+     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
      * 
      * @param containerIndicator
      */
@@ -73,7 +73,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Get the list of 'ReloadingTransportMeans' element items. Новое транспортное средство
+     * Get the list of 'ReloadingTransportMeans' element items. РќРѕРІРѕРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Set the list of 'ReloadingTransportMeans' element items. Новое транспортное средство
+     * Set the list of 'ReloadingTransportMeans' element items. РќРѕРІРѕРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Get the 'ReloadingCustomsOffice' element value. Таможенный орган перегрузки товаров
+     * Get the 'ReloadingCustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadingCustomsOffice' element value. Таможенный орган перегрузки товаров
+     * Set the 'ReloadingCustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param reloadingCustomsOffice
      */
@@ -109,7 +109,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Get the 'ReloadContainer' element value. Сведения о новых контейнерах
+     * Get the 'ReloadContainer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІС‹С… РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ESADReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadContainer' element value. Сведения о новых контейнерах
+     * Set the 'ReloadContainer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІС‹С… РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param reloadContainer
      */

@@ -6,14 +6,14 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Параметры фильтра для значения типа "date" (дата). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+ * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "date" (РґР°С‚Р°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
  */
 public class AUDDateFilterParamsType extends AUDBaseFilterParamsType
 {
     private List<LocalDate> filterValueList = new ArrayList<LocalDate>();
 
     /** 
-     * Get the list of 'FilterValue' element items. Значение фильтра для типа "date" (дата).
+     * Get the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "date" (РґР°С‚Р°).
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class AUDDateFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the list of 'FilterValue' element items. Значение фильтра для типа "date" (дата).
+     * Set the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "date" (РґР°С‚Р°).
      * 
      * @param list
      */

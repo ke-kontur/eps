@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.rosprirodtempoutredbook;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Количество животных (растений), их пол, возраст, метки и др.
+ * РљРѕР»РёС‡РµСЃС‚РІРѕ Р¶РёРІРѕС‚РЅС‹С… (СЂР°СЃС‚РµРЅРёР№), РёС… РїРѕР», РІРѕР·СЂР°СЃС‚, РјРµС‚РєРё Рё РґСЂ.
  */
 public class CountMarksType extends SupplementaryQuantityType
 {
     private String additionalMarks;
 
     /** 
-     * Get the 'AdditionalMarks' element value. Дополнительные данные (пол, возраст, метки и др.)
+     * Get the 'AdditionalMarks' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ (РїРѕР», РІРѕР·СЂР°СЃС‚, РјРµС‚РєРё Рё РґСЂ.)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CountMarksType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'AdditionalMarks' element value. Дополнительные данные (пол, возраст, метки и др.)
+     * Set the 'AdditionalMarks' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ (РїРѕР», РІРѕР·СЂР°СЃС‚, РјРµС‚РєРё Рё РґСЂ.)
      * 
      * @param additionalMarks
      */

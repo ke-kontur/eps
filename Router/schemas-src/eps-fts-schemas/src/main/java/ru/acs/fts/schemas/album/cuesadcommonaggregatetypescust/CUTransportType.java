@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о местонахождении товаров - транспортное средство
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
  */
 public class CUTransportType
 {
@@ -13,7 +13,7 @@ public class CUTransportType
     private List<String> transporIdentifierList = new ArrayList<String>();
 
     /** 
-     * Get the 'TransporKind' element value. Код вида транспортного средства в соответствии с классификатором видов транспорта и транспортировки товаров
+     * Get the 'TransporKind' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CUTransportType
     }
 
     /** 
-     * Set the 'TransporKind' element value. Код вида транспортного средства в соответствии с классификатором видов транспорта и транспортировки товаров
+     * Set the 'TransporKind' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param transporKind
      */
@@ -31,7 +31,7 @@ public class CUTransportType
     }
 
     /** 
-     * Get the list of 'TransporIdentifier' element items. Номер транспортного средства
+     * Get the list of 'TransporIdentifier' element items. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class CUTransportType
     }
 
     /** 
-     * Set the list of 'TransporIdentifier' element items. Номер транспортного средства
+     * Set the list of 'TransporIdentifier' element items. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param list
      */

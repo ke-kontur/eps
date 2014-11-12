@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Счет-фактура на оплату услуг по перевозке, погрузке перегрузке/разгрузке товаров и по страхованию товаров
+ * РЎС‡РµС‚-С„Р°РєС‚СѓСЂР° РЅР° РѕРїР»Р°С‚Сѓ СѓСЃР»СѓРі РїРѕ РїРµСЂРµРІРѕР·РєРµ, РїРѕРіСЂСѓР·РєРµ РїРµСЂРµРіСЂСѓР·РєРµ/СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ Рё РїРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЋ С‚РѕРІР°СЂРѕРІ
  */
 public class ServiceInvoiceType extends BaseDocType
 {
@@ -33,7 +33,7 @@ public class ServiceInvoiceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentSign' element value. Признак документа (Счет-фактура на оплату услуг: 0 -  по страхованию товаров; 1 - по перевозке (транспортировке) погрузке перегрузке/разгрузке товаров)
+     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° (РЎС‡РµС‚-С„Р°РєС‚СѓСЂР° РЅР° РѕРїР»Р°С‚Сѓ СѓСЃР»СѓРі: 0 -  РїРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЋ С‚РѕРІР°СЂРѕРІ; 1 - РїРѕ РїРµСЂРµРІРѕР·РєРµ (С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) РїРѕРіСЂСѓР·РєРµ РїРµСЂРµРіСЂСѓР·РєРµ/СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. Признак документа (Счет-фактура на оплату услуг: 0 -  по страхованию товаров; 1 - по перевозке (транспортировке) погрузке перегрузке/разгрузке товаров)
+     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° (РЎС‡РµС‚-С„Р°РєС‚СѓСЂР° РЅР° РѕРїР»Р°С‚Сѓ СѓСЃР»СѓРі: 0 -  РїРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЋ С‚РѕРІР°СЂРѕРІ; 1 - РїРѕ РїРµСЂРµРІРѕР·РєРµ (С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) РїРѕРіСЂСѓР·РєРµ РїРµСЂРµРіСЂСѓР·РєРµ/СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ)
      * 
      * @param documentSign
      */
@@ -51,7 +51,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalServiceCost' element value. Всего к оплате
+     * Get the 'TotalServiceCost' element value. Р’СЃРµРіРѕ Рє РѕРїР»Р°С‚Рµ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalServiceCost' element value. Всего к оплате
+     * Set the 'TotalServiceCost' element value. Р’СЃРµРіРѕ Рє РѕРїР»Р°С‚Рµ
      * 
      * @param totalServiceCost
      */
@@ -69,7 +69,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Currency' element value. Код валюты
+     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Currency' element value. Код валюты
+     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currency
      */
@@ -87,7 +87,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'ServiceProvider' element value. Поставщик услуг (страховщик/экспедитор/перевозчик)
+     * Get the 'ServiceProvider' element value. РџРѕСЃС‚Р°РІС‰РёРє СѓСЃР»СѓРі (СЃС‚СЂР°С…РѕРІС‰РёРє/СЌРєСЃРїРµРґРёС‚РѕСЂ/РїРµСЂРµРІРѕР·С‡РёРє)
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'ServiceProvider' element value. Поставщик услуг (страховщик/экспедитор/перевозчик)
+     * Set the 'ServiceProvider' element value. РџРѕСЃС‚Р°РІС‰РёРє СѓСЃР»СѓРі (СЃС‚СЂР°С…РѕРІС‰РёРє/СЌРєСЃРїРµРґРёС‚РѕСЂ/РїРµСЂРµРІРѕР·С‡РёРє)
      * 
      * @param serviceProvider
      */
@@ -105,7 +105,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Грузоотправитель
+     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Грузоотправитель
+     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param consignor
      */
@@ -123,7 +123,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Грузополучатель
+     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Грузополучатель
+     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param consignee
      */
@@ -141,7 +141,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentDocument' element items. Платежно-расчетный документ
+     * Get the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅРѕ-СЂР°СЃС‡РµС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -150,7 +150,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. Платежно-расчетный документ
+     * Set the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅРѕ-СЂР°СЃС‡РµС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -159,7 +159,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractDetails' element value. Реквизиты договора
+     * Get the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -168,7 +168,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractDetails' element value. Реквизиты договора
+     * Set the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param contractDetails
      */
@@ -177,7 +177,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Insurance' element value. Страховой полис
+     * Get the 'Insurance' element value. РЎС‚СЂР°С…РѕРІРѕР№ РїРѕР»РёСЃ
      * 
      * @return value
      */
@@ -186,7 +186,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Insurance' element value. Страховой полис
+     * Set the 'Insurance' element value. РЎС‚СЂР°С…РѕРІРѕР№ РїРѕР»РёСЃ
      * 
      * @param insurance
      */
@@ -195,7 +195,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'ServiceConsumer' element value. Клиент (страхователь/заказчик)
+     * Get the 'ServiceConsumer' element value. РљР»РёРµРЅС‚ (СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ/Р·Р°РєР°Р·С‡РёРє)
      * 
      * @return value
      */
@@ -204,7 +204,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'ServiceConsumer' element value. Клиент (страхователь/заказчик)
+     * Set the 'ServiceConsumer' element value. РљР»РёРµРЅС‚ (СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ/Р·Р°РєР°Р·С‡РёРє)
      * 
      * @param serviceConsumer
      */
@@ -213,7 +213,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ServiceDescription' element items. Описание выполненных работ, оказанных услуг
+     * Get the list of 'ServiceDescription' element items. РћРїРёСЃР°РЅРёРµ РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі
      * 
      * @return list
      */
@@ -222,7 +222,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ServiceDescription' element items. Описание выполненных работ, оказанных услуг
+     * Set the list of 'ServiceDescription' element items. РћРїРёСЃР°РЅРёРµ РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі
      * 
      * @param list
      */
@@ -256,7 +256,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'IndividualEntrepreneur' element value. Индивидуальный предприниматель
+     * Get the 'IndividualEntrepreneur' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -265,7 +265,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'IndividualEntrepreneur' element value. Индивидуальный предприниматель
+     * Set the 'IndividualEntrepreneur' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
      * 
      * @param individualEntrepreneur
      */
@@ -285,7 +285,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignatureDirectorChiefAccountant' element value. Подпись руководителя организации и главного бухгалтера.
+     * Get the 'SignatureDirectorChiefAccountant' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё Рё РіР»Р°РІРЅРѕРіРѕ Р±СѓС…РіР°Р»С‚РµСЂР°.
      * 
      * @return value
      */
@@ -294,7 +294,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignatureDirectorChiefAccountant' element value. Подпись руководителя организации и главного бухгалтера.
+     * Set the 'SignatureDirectorChiefAccountant' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё Рё РіР»Р°РІРЅРѕРіРѕ Р±СѓС…РіР°Р»С‚РµСЂР°.
      * 
      * @param signatureDirectorChiefAccountant
      */
@@ -305,7 +305,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Регистрационные данные счета-фактуры
+     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Регистрационные данные счета-фактуры
+     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹
      * 
      * @param registration
      */
@@ -323,7 +323,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class ServiceInvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

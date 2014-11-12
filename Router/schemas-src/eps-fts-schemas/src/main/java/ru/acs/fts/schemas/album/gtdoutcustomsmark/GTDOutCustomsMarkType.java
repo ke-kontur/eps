@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Служебные отметки ДТ
+ * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў
  */
 public class GTDOutCustomsMarkType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Comments' element items. Комментарий
+     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Комментарий
+     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ к которой относятся служебные отметки (GUID).
+     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё (GUID).
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ к которой относятся служебные отметки (GUID).
+     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё (GUID).
      * 
      * @param GTDDocumentID
      */
@@ -56,7 +56,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDOutResolution' element value. Принятые решения по ДТ.
+     * Get the 'GTDOutResolution' element value. РџСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў.
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDOutResolution' element value. Принятые решения по ДТ.
+     * Set the 'GTDOutResolution' element value. РџСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў.
      * 
      * @param GTDOutResolution
      */
@@ -74,7 +74,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GTDOutCommonMark' element items. Служебные отметки ДТ 
+     * Get the list of 'GTDOutCommonMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў 
      * 
      * @return list
      */
@@ -83,7 +83,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GTDOutCommonMark' element items. Служебные отметки ДТ 
+     * Set the list of 'GTDOutCommonMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў 
      * 
      * @param list
      */
@@ -92,7 +92,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GTDOutGoodsResolution' element items. Служебные отметки и принятые решения по товарам.
+     * Get the list of 'GTDOutGoodsResolution' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Рё РїСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂР°Рј.
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GTDOutGoodsResolution' element items. Служебные отметки и принятые решения по товарам.
+     * Set the list of 'GTDOutGoodsResolution' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Рё РїСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂР°Рј.
      * 
      * @param list
      */
@@ -111,7 +111,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param GTDID
      */
@@ -129,7 +129,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GTDOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

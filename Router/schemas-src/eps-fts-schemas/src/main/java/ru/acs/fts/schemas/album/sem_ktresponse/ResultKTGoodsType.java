@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.semcommonaggregatetypescust.KTsType;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.ResultGoodsType;
 
 /** 
- * Информация о товарах. В случае отсутствия информация по товарам не найдена
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј РЅРµ РЅР°Р№РґРµРЅР°
  */
 public class ResultKTGoodsType extends ResultGoodsType
 {
@@ -15,7 +15,7 @@ public class ResultKTGoodsType extends ResultGoodsType
     private List<KTsType> KTList = new ArrayList<KTsType>();
 
     /** 
-     * Get the 'MessageDoc' element value. Сообщение о наличии/ отсутствии кодов разрешительных документов
+     * Get the 'MessageDoc' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РЅР°Р»РёС‡РёРё/ РѕС‚СЃСѓС‚СЃС‚РІРёРё РєРѕРґРѕРІ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ResultKTGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'MessageDoc' element value. Сообщение о наличии/ отсутствии кодов разрешительных документов
+     * Set the 'MessageDoc' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РЅР°Р»РёС‡РёРё/ РѕС‚СЃСѓС‚СЃС‚РІРёРё РєРѕРґРѕРІ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param messageDoc
      */
@@ -33,7 +33,7 @@ public class ResultKTGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the list of 'KTs' element items. Категории товаров, включенных во внутрисистемный список товаров, запрещенных или ограниченных к перемещению через таможенную границу РФ
+     * Get the list of 'KTs' element items. РљР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ, РІРєР»СЋС‡РµРЅРЅС‹С… РІРѕ РІРЅСѓС‚СЂРёСЃРёСЃС‚РµРјРЅС‹Р№ СЃРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ, Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class ResultKTGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the list of 'KTs' element items. Категории товаров, включенных во внутрисистемный список товаров, запрещенных или ограниченных к перемещению через таможенную границу РФ
+     * Set the list of 'KTs' element items. РљР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ, РІРєР»СЋС‡РµРЅРЅС‹С… РІРѕ РІРЅСѓС‚СЂРёСЃРёСЃС‚РµРјРЅС‹Р№ СЃРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ, Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤
      * 
      * @param list
      */

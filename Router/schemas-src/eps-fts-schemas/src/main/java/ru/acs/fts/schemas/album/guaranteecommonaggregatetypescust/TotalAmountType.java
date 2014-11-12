@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust;
 
 /** 
- * Общая сумма обеспечения
+ * РћР±С‰Р°СЏ СЃСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
  */
 public class TotalAmountType
 {
@@ -11,7 +11,7 @@ public class TotalAmountType
     private AmountType taxes;
 
     /** 
-     * Get the 'Duties' element value. Таможенные пошлины
+     * Get the 'Duties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TotalAmountType
     }
 
     /** 
-     * Set the 'Duties' element value. Таможенные пошлины
+     * Set the 'Duties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹
      * 
      * @param duties
      */
@@ -29,7 +29,7 @@ public class TotalAmountType
     }
 
     /** 
-     * Get the 'Excises' element value. Акцизы
+     * Get the 'Excises' element value. РђРєС†РёР·С‹
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TotalAmountType
     }
 
     /** 
-     * Set the 'Excises' element value. Акцизы
+     * Set the 'Excises' element value. РђРєС†РёР·С‹
      * 
      * @param excises
      */
@@ -47,7 +47,7 @@ public class TotalAmountType
     }
 
     /** 
-     * Get the 'Taxes' element value. Налоги.
+     * Get the 'Taxes' element value. РќР°Р»РѕРіРё.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TotalAmountType
     }
 
     /** 
-     * Set the 'Taxes' element value. Налоги.
+     * Set the 'Taxes' element value. РќР°Р»РѕРіРё.
      * 
      * @param taxes
      */

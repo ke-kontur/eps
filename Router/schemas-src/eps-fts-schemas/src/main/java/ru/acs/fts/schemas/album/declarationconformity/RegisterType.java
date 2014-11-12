@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Органа, зарегистрировавшем декларацию о соответствии
+ * РћСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРј РґРµРєР»Р°СЂР°С†РёСЋ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
  */
 public class RegisterType extends OrganizationType
 {
@@ -14,7 +14,7 @@ public class RegisterType extends OrganizationType
     private String registrationNumber;
 
     /** 
-     * Get the 'RegistrationAuthority' element value. Наименование органа по аккредитации, выдавшего аттестат аккредитации.
+     * Get the 'RegistrationAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РїРѕ Р°РєРєСЂРµРґРёС‚Р°С†РёРё, РІС‹РґР°РІС€РµРіРѕ Р°С‚С‚РµСЃС‚Р°С‚ Р°РєРєСЂРµРґРёС‚Р°С†РёРё.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RegisterType extends OrganizationType
     }
 
     /** 
-     * Set the 'RegistrationAuthority' element value. Наименование органа по аккредитации, выдавшего аттестат аккредитации.
+     * Set the 'RegistrationAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РїРѕ Р°РєРєСЂРµРґРёС‚Р°С†РёРё, РІС‹РґР°РІС€РµРіРѕ Р°С‚С‚РµСЃС‚Р°С‚ Р°РєРєСЂРµРґРёС‚Р°С†РёРё.
      * 
      * @param registrationAuthority
      */
@@ -32,7 +32,7 @@ public class RegisterType extends OrganizationType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата аттестата аккредитации регистрации
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° Р°С‚С‚РµСЃС‚Р°С‚Р° Р°РєРєСЂРµРґРёС‚Р°С†РёРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RegisterType extends OrganizationType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата аттестата аккредитации регистрации
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° Р°С‚С‚РµСЃС‚Р°С‚Р° Р°РєРєСЂРµРґРёС‚Р°С†РёРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param registrationDate
      */
@@ -50,7 +50,7 @@ public class RegisterType extends OrganizationType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Регистрационный номер аттестата аккредитации органа по сертификации
+     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°С‚С‚РµСЃС‚Р°С‚Р° Р°РєРєСЂРµРґРёС‚Р°С†РёРё РѕСЂРіР°РЅР° РїРѕ СЃРµСЂС‚РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class RegisterType extends OrganizationType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Регистрационный номер аттестата аккредитации органа по сертификации
+     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°С‚С‚РµСЃС‚Р°С‚Р° Р°РєРєСЂРµРґРёС‚Р°С†РёРё РѕСЂРіР°РЅР° РїРѕ СЃРµСЂС‚РёС„РёРєР°С†РёРё
      * 
      * @param registrationNumber
      */

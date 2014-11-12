@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Подтверждение снятия с контроля
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ СЃРЅСЏС‚РёСЏ СЃ РєРѕРЅС‚СЂРѕР»СЏ
  */
 public class RemovalControlType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class RemovalControlType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RemDate' element value. Дата снятия с контроля
+     * Get the 'RemDate' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'RemDate' element value. Дата снятия с контроля
+     * Set the 'RemDate' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param remDate
      */
@@ -39,7 +39,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'RemTime' element value. Время снятия с контроля
+     * Get the 'RemTime' element value. Р’СЂРµРјСЏ СЃРЅСЏС‚РёСЏ СЃ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'RemTime' element value. Время снятия с контроля
+     * Set the 'RemTime' element value. Р’СЂРµРјСЏ СЃРЅСЏС‚РёСЏ СЃ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param remTime
      */
@@ -57,7 +57,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreateDocDate' element value. Дата создания документа
+     * Get the 'CreateDocDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDocDate' element value. Дата создания документа
+     * Set the 'CreateDocDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param createDocDate
      */
@@ -75,7 +75,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreateDocTime' element value. Время создания документа
+     * Get the 'CreateDocTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDocTime' element value. Время создания документа
+     * Set the 'CreateDocTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param createDocTime
      */
@@ -93,7 +93,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'CoordReqNumber' element value. Порядковый номер Направления, сформированного по ДТ в процессе ее оформления
+     * Get the 'CoordReqNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РќР°РїСЂР°РІР»РµРЅРёСЏ, СЃС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРіРѕ РїРѕ Р”Рў РІ РїСЂРѕС†РµСЃСЃРµ РµРµ РѕС„РѕСЂРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'CoordReqNumber' element value. Порядковый номер Направления, сформированного по ДТ в процессе ее оформления
+     * Set the 'CoordReqNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РќР°РїСЂР°РІР»РµРЅРёСЏ, СЃС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРіРѕ РїРѕ Р”Рў РІ РїСЂРѕС†РµСЃСЃРµ РµРµ РѕС„РѕСЂРјР»РµРЅРёСЏ
      * 
      * @param coordReqNumber
      */
@@ -111,7 +111,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Инспектора ОПСУР
+     * Get the 'Person' element value. РРЅСЃРїРµРєС‚РѕСЂР° РћРџРЎРЈР 
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Инспектора ОПСУР
+     * Set the 'Person' element value. РРЅСЃРїРµРєС‚РѕСЂР° РћРџРЎРЈР 
      * 
      * @param person
      */
@@ -129,7 +129,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTNumber' element value. Регистрационный номер ДТ
+     * Get the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTNumber' element value. Регистрационный номер ДТ
+     * Set the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param DTNumber
      */
@@ -147,7 +147,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class RemovalControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

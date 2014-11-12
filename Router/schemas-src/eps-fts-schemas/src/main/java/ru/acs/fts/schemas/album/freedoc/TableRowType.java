@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Строка таблицы
+ * РЎС‚СЂРѕРєР° С‚Р°Р±Р»РёС†С‹
  */
 public class TableRowType
 {
@@ -62,7 +62,7 @@ public class TableRowType
         }
 
         /** 
-         * Get the list of 'TableCell' element items. Ячейка таблицы
+         * Get the list of 'TableCell' element items. РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
          * 
          * @return list
          */
@@ -71,7 +71,7 @@ public class TableRowType
         }
 
         /** 
-         * Set the list of 'TableCell' element items. Ячейка таблицы
+         * Set the list of 'TableCell' element items. РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
          * 
          * @param list
          */

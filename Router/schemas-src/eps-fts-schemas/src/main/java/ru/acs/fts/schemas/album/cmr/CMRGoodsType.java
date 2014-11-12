@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TRPackingInf
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TransportGoodsType;
 
 /** 
- * Сведения о товарах (гр.6,7,9,10,11,12)
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… (РіСЂ.6,7,9,10,11,12)
  */
 public class CMRGoodsType extends TransportGoodsType
 {
@@ -16,7 +16,7 @@ public class CMRGoodsType extends TransportGoodsType
     private List<TRPackingInfoType> goodsPackingInfoList = new ArrayList<TRPackingInfoType>();
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество упакованного груза 
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІР°РЅРЅРѕРіРѕ РіСЂСѓР·Р° 
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CMRGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество упакованного груза 
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІР°РЅРЅРѕРіРѕ РіСЂСѓР·Р° 
      * 
      * @param goodsQuantity
      */
@@ -34,7 +34,7 @@ public class CMRGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CMRGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -52,7 +52,7 @@ public class CMRGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsPackingInfo' element items. Информация об упаковке груза
+     * Get the list of 'GoodsPackingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class CMRGoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsPackingInfo' element items. Информация об упаковке груза
+     * Set the list of 'GoodsPackingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєРµ РіСЂСѓР·Р°
      * 
      * @param list
      */

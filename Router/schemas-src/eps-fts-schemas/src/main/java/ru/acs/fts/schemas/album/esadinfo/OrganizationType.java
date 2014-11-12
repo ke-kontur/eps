@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Сведения о грузоотправителе/грузополучателе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ/РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ
  */
 public class OrganizationType extends OrganizationBaseType
 {
     private AddressType address;
 
     /** 
-     * Get the 'Address' element value. Адрес организации / физического лица
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации / физического лица
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param address
      */

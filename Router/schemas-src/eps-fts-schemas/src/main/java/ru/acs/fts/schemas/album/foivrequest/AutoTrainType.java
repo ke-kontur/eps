@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о транспортном средстве (автопоезд)
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ (Р°РІС‚РѕРїРѕРµР·Рґ)
  */
 public class AutoTrainType
 {
@@ -17,7 +17,7 @@ public class AutoTrainType
     private List<String> axisInvervalList = new ArrayList<String>();
 
     /** 
-     * Get the 'TotalWeight' element value. Общий вес автопоезда с грузом
+     * Get the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ Р°РІС‚РѕРїРѕРµР·РґР° СЃ РіСЂСѓР·РѕРј
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Set the 'TotalWeight' element value. Общий вес автопоезда с грузом
+     * Set the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ Р°РІС‚РѕРїРѕРµР·РґР° СЃ РіСЂСѓР·РѕРј
      * 
      * @param totalWeight
      */
@@ -35,7 +35,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Get the 'Length' element value. Длина автопоезда (в метрах)
+     * Get the 'Length' element value. Р”Р»РёРЅР° Р°РІС‚РѕРїРѕРµР·РґР° (РІ РјРµС‚СЂР°С…)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Set the 'Length' element value. Длина автопоезда (в метрах)
+     * Set the 'Length' element value. Р”Р»РёРЅР° Р°РІС‚РѕРїРѕРµР·РґР° (РІ РјРµС‚СЂР°С…)
      * 
      * @param length
      */
@@ -53,7 +53,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Get the 'Width' element value. Ширина автопоезда (в метрах)
+     * Get the 'Width' element value. РЁРёСЂРёРЅР° Р°РІС‚РѕРїРѕРµР·РґР° (РІ РјРµС‚СЂР°С…)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Set the 'Width' element value. Ширина автопоезда (в метрах)
+     * Set the 'Width' element value. РЁРёСЂРёРЅР° Р°РІС‚РѕРїРѕРµР·РґР° (РІ РјРµС‚СЂР°С…)
      * 
      * @param width
      */
@@ -71,7 +71,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Get the 'Height' element value. Высота автопоезда (в метрах)
+     * Get the 'Height' element value. Р’С‹СЃРѕС‚Р° Р°РІС‚РѕРїРѕРµР·РґР° (РІ РјРµС‚СЂР°С…)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Set the 'Height' element value. Высота автопоезда (в метрах)
+     * Set the 'Height' element value. Р’С‹СЃРѕС‚Р° Р°РІС‚РѕРїРѕРµР·РґР° (РІ РјРµС‚СЂР°С…)
      * 
      * @param height
      */
@@ -89,7 +89,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Get the list of 'AxisLoads' element items. Массив нагрузок на оси (в тоннах)
+     * Get the list of 'AxisLoads' element items. РњР°СЃСЃРёРІ РЅР°РіСЂСѓР·РѕРє РЅР° РѕСЃРё (РІ С‚РѕРЅРЅР°С…)
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Set the list of 'AxisLoads' element items. Массив нагрузок на оси (в тоннах)
+     * Set the list of 'AxisLoads' element items. РњР°СЃСЃРёРІ РЅР°РіСЂСѓР·РѕРє РЅР° РѕСЃРё (РІ С‚РѕРЅРЅР°С…)
      * 
      * @param list
      */
@@ -107,7 +107,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Get the list of 'AxisInvervals' element items. Массив интервалов между осями (в метрах)
+     * Get the list of 'AxisInvervals' element items. РњР°СЃСЃРёРІ РёРЅС‚РµСЂРІР°Р»РѕРІ РјРµР¶РґСѓ РѕСЃСЏРјРё (РІ РјРµС‚СЂР°С…)
      * 
      * @return list
      */
@@ -116,7 +116,7 @@ public class AutoTrainType
     }
 
     /** 
-     * Set the list of 'AxisInvervals' element items. Массив интервалов между осями (в метрах)
+     * Set the list of 'AxisInvervals' element items. РњР°СЃСЃРёРІ РёРЅС‚РµСЂРІР°Р»РѕРІ РјРµР¶РґСѓ РѕСЃСЏРјРё (РІ РјРµС‚СЂР°С…)
      * 
      * @param list
      */

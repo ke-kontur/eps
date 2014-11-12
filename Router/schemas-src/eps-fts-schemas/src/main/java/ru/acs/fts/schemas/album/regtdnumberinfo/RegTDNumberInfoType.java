@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения о номере зарегистрированной транзитной декларации.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё.
  */
 public class RegTDNumberInfoType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class RegTDNumberInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -40,7 +40,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @param GRN
      */
@@ -58,7 +58,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -76,7 +76,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
+     * Get the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
+     * Set the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param additionalNumber
      */
@@ -119,7 +119,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TDNumber' element value. Номер транзитной декларации
+     * Get the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TDNumber' element value. Номер транзитной декларации
+     * Set the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param TDNumber
      */
@@ -147,7 +147,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRID' element value. Номер книжки МДП
+     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRID' element value. Номер книжки МДП
+     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRID
      */
@@ -166,7 +166,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class RegTDNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

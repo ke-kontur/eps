@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdobligationin;
 import org.joda.time.LocalDate;
 
 /** 
- * Таможенный представитель (брокер)
+ * РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ (Р±СЂРѕРєРµСЂ)
  */
 public class CustBrokerType
 {
@@ -14,7 +14,7 @@ public class CustBrokerType
     private String documentModeCode;
 
     /** 
-     * Get the 'AbbreviationCustBrokerName' element value. Сокращенное наименование таможенного представителя
+     * Get the 'AbbreviationCustBrokerName' element value. РЎРѕРєСЂР°С‰РµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Set the 'AbbreviationCustBrokerName' element value. Сокращенное наименование таможенного представителя
+     * Set the 'AbbreviationCustBrokerName' element value. РЎРѕРєСЂР°С‰РµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @param abbreviationCustBrokerName
      */
@@ -32,7 +32,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Get the 'BrokerReestrNumber' element value. Номер Свидетельства о включении в Реестр таможенных представителей
+     * Get the 'BrokerReestrNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Set the 'BrokerReestrNumber' element value. Номер Свидетельства о включении в Реестр таможенных представителей
+     * Set the 'BrokerReestrNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @param brokerReestrNumber
      */
@@ -50,7 +50,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Get the 'BrokerReestrDate' element value. Дата выдачи Свидетельства о включении в Реестр таможенных представителей
+     * Get the 'BrokerReestrDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Set the 'BrokerReestrDate' element value. Дата выдачи Свидетельства о включении в Реестр таможенных представителей
+     * Set the 'BrokerReestrDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @param brokerReestrDate
      */
@@ -68,7 +68,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Get the 'DocumentModeCode' element value. Тип документа:2 - свидетельство таможенного  представителя (брокера ); 3 - свидетельство таможенного представителя
+     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:2 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ  РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР° ); 3 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class CustBrokerType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. Тип документа:2 - свидетельство таможенного  представителя (брокера ); 3 - свидетельство таможенного представителя
+     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:2 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ  РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР° ); 3 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @param documentModeCode
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonleaftypescust;
 
 /** 
- * Возможные значения для запроса версий документа архива.
+ * Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ Р·Р°РїСЂРѕСЃР° РІРµСЂСЃРёР№ РґРѕРєСѓРјРµРЅС‚Р° Р°СЂС…РёРІР°.
  */
 public enum AUDDocumentVersionsRequestType {
     ALL_VERSIONS("all_versions"), LAST_VERSION("last_version");

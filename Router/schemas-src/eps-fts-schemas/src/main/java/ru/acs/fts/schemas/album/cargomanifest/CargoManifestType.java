@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
 
 /** 
- * Грузовой манифест
+ * Р“СЂСѓР·РѕРІРѕР№ РјР°РЅРёС„РµСЃС‚
  */
 public class CargoManifestType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class CargoManifestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ManifestDate' element value. Дата заполнения манифеста
+     * Get the 'ManifestDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ РјР°РЅРёС„РµСЃС‚Р°
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManifestDate' element value. Дата заполнения манифеста
+     * Set the 'ManifestDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ РјР°РЅРёС„РµСЃС‚Р°
      * 
      * @param manifestDate
      */
@@ -39,7 +39,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierName' element value. Наименование перевозчика
+     * Get the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierName' element value. Наименование перевозчика
+     * Set the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierName
      */
@@ -57,7 +57,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Get the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierCode' element value. Двухсимвольный код  перевозчика
+     * Set the 'CarrierCode' element value. Р”РІСѓС…СЃРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ  РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param carrierCode
      */
@@ -75,7 +75,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'LNG' element value. Код  языка документа
+     * Get the 'LNG' element value. РљРѕРґ  СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'LNG' element value. Код  языка документа
+     * Set the 'LNG' element value. РљРѕРґ  СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param LNG
      */
@@ -93,7 +93,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'FlightInfo' element value. Сведения о рейсе
+     * Get the 'FlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'FlightInfo' element value. Сведения о рейсе
+     * Set the 'FlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
      * 
      * @param flightInfo
      */
@@ -111,7 +111,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DestinationInfo' element items. информация о разгрузке товара
+     * Get the list of 'DestinationInfo' element items. РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DestinationInfo' element items. информация о разгрузке товара
+     * Set the list of 'DestinationInfo' element items. РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CargoManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

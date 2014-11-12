@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.bartertransactionpasport;
 
 /** 
- * Особые отметки
+ * РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
  */
 public class SpecialCommentsType
 {
@@ -11,7 +11,7 @@ public class SpecialCommentsType
     private String importAmount;
 
     /** 
-     * Get the 'Explanations' element value. Информация, не отраженная в других графах Паспорта, облегчающая работу контролирующих органов
+     * Get the 'Explanations' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РЅРµ РѕС‚СЂР°Р¶РµРЅРЅР°СЏ РІ РґСЂСѓРіРёС… РіСЂР°С„Р°С… РџР°СЃРїРѕСЂС‚Р°, РѕР±Р»РµРіС‡Р°СЋС‰Р°СЏ СЂР°Р±РѕС‚Сѓ РєРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰РёС… РѕСЂРіР°РЅРѕРІ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SpecialCommentsType
     }
 
     /** 
-     * Set the 'Explanations' element value. Информация, не отраженная в других графах Паспорта, облегчающая работу контролирующих органов
+     * Set the 'Explanations' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РЅРµ РѕС‚СЂР°Р¶РµРЅРЅР°СЏ РІ РґСЂСѓРіРёС… РіСЂР°С„Р°С… РџР°СЃРїРѕСЂС‚Р°, РѕР±Р»РµРіС‡Р°СЋС‰Р°СЏ СЂР°Р±РѕС‚Сѓ РєРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰РёС… РѕСЂРіР°РЅРѕРІ
      * 
      * @param explanations
      */
@@ -29,7 +29,7 @@ public class SpecialCommentsType
     }
 
     /** 
-     * Get the 'ExportAmount' element value. Исполненная часть экспорта, тыс. ед.
+     * Get the 'ExportAmount' element value. РСЃРїРѕР»РЅРµРЅРЅР°СЏ С‡Р°СЃС‚СЊ СЌРєСЃРїРѕСЂС‚Р°, С‚С‹СЃ. РµРґ.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SpecialCommentsType
     }
 
     /** 
-     * Set the 'ExportAmount' element value. Исполненная часть экспорта, тыс. ед.
+     * Set the 'ExportAmount' element value. РСЃРїРѕР»РЅРµРЅРЅР°СЏ С‡Р°СЃС‚СЊ СЌРєСЃРїРѕСЂС‚Р°, С‚С‹СЃ. РµРґ.
      * 
      * @param exportAmount
      */
@@ -47,7 +47,7 @@ public class SpecialCommentsType
     }
 
     /** 
-     * Get the 'ImportAmount' element value. Исполненная часть импорта, тыс. ед.
+     * Get the 'ImportAmount' element value. РСЃРїРѕР»РЅРµРЅРЅР°СЏ С‡Р°СЃС‚СЊ РёРјРїРѕСЂС‚Р°, С‚С‹СЃ. РµРґ.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class SpecialCommentsType
     }
 
     /** 
-     * Set the 'ImportAmount' element value. Исполненная часть импорта, тыс. ед.
+     * Set the 'ImportAmount' element value. РСЃРїРѕР»РЅРµРЅРЅР°СЏ С‡Р°СЃС‚СЊ РёРјРїРѕСЂС‚Р°, С‚С‹СЃ. РµРґ.
      * 
      * @param importAmount
      */

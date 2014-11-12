@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.sertifst1form;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Информация о лице, которое является отправителем/экспортером
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РїСЂР°РІРёС‚РµР»РµРј/СЌРєСЃРїРѕСЂС‚РµСЂРѕРј
  */
 public class ExporterSenderInformationType
 {
@@ -13,7 +13,7 @@ public class ExporterSenderInformationType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'SenderName' element value. Наименование лица, которое является отправителем
+     * Get the 'SenderName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РїСЂР°РІРёС‚РµР»РµРј
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ExporterSenderInformationType
     }
 
     /** 
-     * Set the 'SenderName' element value. Наименование лица, которое является отправителем
+     * Set the 'SenderName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РїСЂР°РІРёС‚РµР»РµРј
      * 
      * @param senderName
      */
@@ -31,7 +31,7 @@ public class ExporterSenderInformationType
     }
 
     /** 
-     * Get the 'Phone' element value. Телефон
+     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ExporterSenderInformationType
     }
 
     /** 
-     * Set the 'Phone' element value. Телефон
+     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @param phone
      */

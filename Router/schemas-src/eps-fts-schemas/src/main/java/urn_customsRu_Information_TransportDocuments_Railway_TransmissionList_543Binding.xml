@@ -1,0 +1,80 @@
+<binding xmlns:tral="urn:customs.ru:Information:TransportDocuments:Railway:TransmissionList:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Railway:TransmissionList:5.4.3" default="elements" prefix="tral"/>
+  <mapping abstract="true" type-name="tral:TransmissionListType" class="ru.acs.fts.schemas.album.transmissionlist.TransmissionListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TransmissionDate" get-method="getTransmissionDate" set-method="setTransmissionDate" format="LocalDate.default"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="TrainIndex" get-method="getTrainIndex" set-method="setTrainIndex"/>
+    <value style="element" name="TrainNumber" get-method="getTrainNumber" set-method="setTrainNumber"/>
+    <collection get-method="getUINList" set-method="setUINList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="UIN" type="java.lang.String"/>
+    </collection>
+    <structure map-as="tral:RailwayStationType" get-method="getDirectionalRailwayStation" set-method="setDirectionalRailwayStation" name="DirectionalRailwayStation"/>
+    <collection get-method="getListList" set-method="setListList" create-type="java.util.ArrayList">
+      <structure map-as="tral:ListType" name="List"/>
+    </collection>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getPerson" set-method="setPerson" name="Person"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <collection get-method="getCarriageInfoList" set-method="setCarriageInfoList" create-type="java.util.ArrayList">
+      <structure map-as="tral:CarriageInfoType" name="CarriageInfo"/>
+    </collection>
+    <collection get-method="getContainerList" set-method="setContainerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="tral:ContainerType" name="Container"/>
+    </collection>
+    <structure map-as="tral:StationType" get-method="getBorderStation" set-method="setBorderStation" usage="optional" name="BorderStation"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.transmissionlist.TransmissionListType" name="TransmissionList">
+    <structure map-as="tral:TransmissionListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="tral:CarriageInfoType" class="ru.acs.fts.schemas.album.transmissionlist.CarriageInfoType">
+    <value style="element" name="EmptyIndicator" get-method="getEmptyIndicator" set-method="setEmptyIndicator"/>
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="RegistrationCountry" get-method="getRegistrationCountry" set-method="setRegistrationCountry"/>
+    <value style="element" name="DispatchCountry" get-method="getDispatchCountry" set-method="setDispatchCountry"/>
+    <value style="element" name="DestinationCountry" get-method="getDestinationCountry" set-method="setDestinationCountry"/>
+    <value style="element" name="CargoWeight" get-method="getCargoWeight" set-method="setCargoWeight"/>
+    <collection get-method="getWaybillNumberList" set-method="setWaybillNumberList" create-type="java.util.ArrayList">
+      <value style="element" name="WaybillNumber" type="java.lang.String"/>
+    </collection>
+    <structure map-as="tral:RailwayStationType" get-method="getDepartureStation" set-method="setDepartureStation" usage="optional" name="DepartureStation"/>
+    <structure map-as="tral:RailwayStationType" get-method="getDestinationStation" set-method="setDestinationStation" usage="optional" name="DestinationStation"/>
+  </mapping>
+  <mapping abstract="true" type-name="tral:ContainerType" class="ru.acs.fts.schemas.album.transmissionlist.ContainerType">
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+    <value style="element" name="ContainerID" get-method="getContainerID" set-method="setContainerID"/>
+    <value style="element" name="ContainerKind" get-method="getContainerKind" set-method="setContainerKind" usage="optional"/>
+    <value style="element" name="ContainerModeDescription" get-method="getContainerModeDescription" set-method="setContainerModeDescription"/>
+    <value style="element" name="ContainerCapacity" get-method="getContainerCapacity" set-method="setContainerCapacity" usage="optional"/>
+    <value style="element" name="ContainerCapacityUnitQualifierCode" get-method="getContainerCapacityUnitQualifierCode" set-method="setContainerCapacityUnitQualifierCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tral:ListType" class="ru.acs.fts.schemas.album.transmissionlist.ListType">
+    <value style="element" name="BillNumber" get-method="getBillNumber" set-method="setBillNumber" usage="optional"/>
+    <value style="element" name="CatalogNumber" get-method="getCatalogNumber" set-method="setCatalogNumber" usage="optional"/>
+    <value style="element" name="CarriageNumber" get-method="getCarriageNumber" set-method="setCarriageNumber" usage="optional"/>
+    <collection get-method="getGoodDescriptionList" set-method="setGoodDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="GoodDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ActNumber" get-method="getActNumber" set-method="setActNumber" usage="optional"/>
+    <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerNumber" type="java.lang.String"/>
+    </collection>
+    <structure map-as="tral:RailwayStationType" get-method="getDepartureStation" set-method="setDepartureStation" usage="optional" name="DepartureStation"/>
+    <structure map-as="tral:RailwayStationType" get-method="getDestinationStation" set-method="setDestinationStation" usage="optional" name="DestinationStation"/>
+    <structure map-as="tral:QuantityGoodsType" get-method="getBillQuantity" set-method="setBillQuantity" name="BillQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="tral:QuantityGoodsType" class="ru.acs.fts.schemas.album.transmissionlist.QuantityGoodsType">
+    <value style="element" name="PackagesQuantity" get-method="getPackagesQuantity" set-method="setPackagesQuantity" usage="optional"/>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tral:RailwayStationType" class="ru.acs.fts.schemas.album.transmissionlist.RailwayStationType">
+    <value style="element" name="RailwayStationName" get-method="getRailwayStationName" set-method="setRailwayStationName"/>
+    <value style="element" name="RailwayStationCode" get-method="getRailwayStationCode" set-method="setRailwayStationCode"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="tral:StationType" class="ru.acs.fts.schemas.album.transmissionlist.StationType">
+    <value style="element" name="StationCode" get-method="getStationCode" set-method="setStationCode" usage="optional"/>
+    <value style="element" name="StationName" get-method="getStationName" set-method="setStationName"/>
+    <value style="element" name="RailwayCode" get-method="getRailwayCode" set-method="setRailwayCode" usage="optional"/>
+  </mapping>
+</binding>

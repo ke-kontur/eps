@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mistakeletter;
 
 /** 
- * Ошибка в наименовании документа
+ * РћС€РёР±РєР° РІ РЅР°РёРјРµРЅРѕРІР°РЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocNameMistakeType
 {
@@ -10,7 +10,7 @@ public class DocNameMistakeType
     private String nameValidValue;
 
     /** 
-     * Get the 'NameMistakeValue' element value. Ошибочное значение, указанное в отчете по форме ДО-1
+     * Get the 'NameMistakeValue' element value. РћС€РёР±РѕС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ, СѓРєР°Р·Р°РЅРЅРѕРµ РІ РѕС‚С‡РµС‚Рµ РїРѕ С„РѕСЂРјРµ Р”Рћ-1
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocNameMistakeType
     }
 
     /** 
-     * Set the 'NameMistakeValue' element value. Ошибочное значение, указанное в отчете по форме ДО-1
+     * Set the 'NameMistakeValue' element value. РћС€РёР±РѕС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ, СѓРєР°Р·Р°РЅРЅРѕРµ РІ РѕС‚С‡РµС‚Рµ РїРѕ С„РѕСЂРјРµ Р”Рћ-1
      * 
      * @param nameMistakeValue
      */
@@ -28,7 +28,7 @@ public class DocNameMistakeType
     }
 
     /** 
-     * Get the 'NameValidValue' element value. Правильное значение. Если не указано, то считается, что код должен был отсутствовать вовсе
+     * Get the 'NameValidValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р•СЃР»Рё РЅРµ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ РєРѕРґ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ РІРѕРІСЃРµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DocNameMistakeType
     }
 
     /** 
-     * Set the 'NameValidValue' element value. Правильное значение. Если не указано, то считается, что код должен был отсутствовать вовсе
+     * Set the 'NameValidValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р•СЃР»Рё РЅРµ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ РєРѕРґ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ РІРѕРІСЃРµ
      * 
      * @param nameValidValue
      */

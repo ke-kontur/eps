@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Комплексный тип для описания подробностей для авиационного транспорта
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РїРѕРґСЂРѕР±РЅРѕСЃС‚РµР№ РґР»СЏ Р°РІРёР°С†РёРѕРЅРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°
  */
 public class AviaParticularsType
 {
@@ -12,7 +12,7 @@ public class AviaParticularsType
     private LocalDate flightDate;
 
     /** 
-     * Get the 'FlightNumber' element value. Номер рейса
+     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AviaParticularsType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. Номер рейса
+     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
      * 
      * @param flightNumber
      */
@@ -30,7 +30,7 @@ public class AviaParticularsType
     }
 
     /** 
-     * Get the 'FlightDate' element value. Дата рейса
+     * Get the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AviaParticularsType
     }
 
     /** 
-     * Set the 'FlightDate' element value. Дата рейса
+     * Set the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
      * 
      * @param flightDate
      */

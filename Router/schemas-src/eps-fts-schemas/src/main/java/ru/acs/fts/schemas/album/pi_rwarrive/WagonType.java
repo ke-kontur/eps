@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Вагон
+ * Р’Р°РіРѕРЅ
  */
 public class WagonType
 {
@@ -20,7 +20,7 @@ public class WagonType
     private String wagonNumeric;
 
     /** 
-     * Get the 'WagonNumber' element value. Номер вагона
+     * Get the 'WagonNumber' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'WagonNumber' element value. Номер вагона
+     * Set the 'WagonNumber' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @param wagonNumber
      */
@@ -38,7 +38,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'CountryRegistrationCode' element value. Буквенный код страны регистрации.
+     * Get the 'CountryRegistrationCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'CountryRegistrationCode' element value. Буквенный код страны регистрации.
+     * Set the 'CountryRegistrationCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё.
      * 
      * @param countryRegistrationCode
      */
@@ -56,7 +56,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. Станция отправления 
+     * Get the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. Станция отправления 
+     * Set the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ 
      * 
      * @param departureStation
      */
@@ -74,7 +74,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'DestinationStation' element value. Станция назначения
+     * Get the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'DestinationStation' element value. Станция назначения
+     * Set the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationStation
      */
@@ -92,7 +92,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'GoodsWeightQuantity' element value. Вес груза
+     * Get the 'GoodsWeightQuantity' element value. Р’РµСЃ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'GoodsWeightQuantity' element value. Вес груза
+     * Set the 'GoodsWeightQuantity' element value. Р’РµСЃ РіСЂСѓР·Р°
      * 
      * @param goodsWeightQuantity
      */
@@ -110,7 +110,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'EmptyIndicator' element value. Признак порожний (да\\нет)
+     * Get the 'EmptyIndicator' element value. РџСЂРёР·РЅР°Рє РїРѕСЂРѕР¶РЅРёР№ (РґР°\\РЅРµС‚)
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'EmptyIndicator' element value. Признак порожний (да\\нет)
+     * Set the 'EmptyIndicator' element value. РџСЂРёР·РЅР°Рє РїРѕСЂРѕР¶РЅРёР№ (РґР°\\РЅРµС‚)
      * 
      * @param emptyIndicator
      */
@@ -128,7 +128,7 @@ public class WagonType
     }
 
     /** 
-     * Get the list of 'ContainerNumbers' element items. Номера контейнеров
+     * Get the list of 'ContainerNumbers' element items. РќРѕРјРµСЂР° РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class WagonType
     }
 
     /** 
-     * Set the list of 'ContainerNumbers' element items. Номера контейнеров
+     * Set the list of 'ContainerNumbers' element items. РќРѕРјРµСЂР° РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'AddInformaition' element value. Примечания
+     * Get the 'AddInformaition' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'AddInformaition' element value. Примечания
+     * Set the 'AddInformaition' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @param addInformaition
      */
@@ -164,7 +164,7 @@ public class WagonType
     }
 
     /** 
-     * Get the 'WagonNumeric' element value. Порядковый номер вагона в составе
+     * Get the 'WagonNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІР°РіРѕРЅР° РІ СЃРѕСЃС‚Р°РІРµ
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class WagonType
     }
 
     /** 
-     * Set the 'WagonNumeric' element value. Порядковый номер вагона в составе
+     * Set the 'WagonNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІР°РіРѕРЅР° РІ СЃРѕСЃС‚Р°РІРµ
      * 
      * @param wagonNumeric
      */

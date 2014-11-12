@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Поручительство
+ * РџРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІРѕ
  */
 public class GuaranteeTDType
 {
@@ -16,7 +16,7 @@ public class GuaranteeTDType
     private LocalDate addGuaranteeDate;
 
     /** 
-     * Get the 'GeneralNumber' element value. Номер генерального договора
+     * Get the 'GeneralNumber' element value. РќРѕРјРµСЂ РіРµРЅРµСЂР°Р»СЊРЅРѕРіРѕ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Set the 'GeneralNumber' element value. Номер генерального договора
+     * Set the 'GeneralNumber' element value. РќРѕРјРµСЂ РіРµРЅРµСЂР°Р»СЊРЅРѕРіРѕ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param generalNumber
      */
@@ -34,7 +34,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Get the 'GeneralDate' element value. Дата генерального договора
+     * Get the 'GeneralDate' element value. Р”Р°С‚Р° РіРµРЅРµСЂР°Р»СЊРЅРѕРіРѕ РґРѕРіРѕРІРѕСЂР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Set the 'GeneralDate' element value. Дата генерального договора
+     * Set the 'GeneralDate' element value. Р”Р°С‚Р° РіРµРЅРµСЂР°Р»СЊРЅРѕРіРѕ РґРѕРіРѕРІРѕСЂР°
      * 
      * @param generalDate
      */
@@ -52,7 +52,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Get the 'GuaranteeNumber' element value. Номер договора поручительства
+     * Get the 'GuaranteeNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Set the 'GuaranteeNumber' element value. Номер договора поручительства
+     * Set the 'GuaranteeNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param guaranteeNumber
      */
@@ -70,7 +70,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Get the 'GuaranteeDate' element value. Дата договора поручительства
+     * Get the 'GuaranteeDate' element value. Р”Р°С‚Р° РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Set the 'GuaranteeDate' element value. Дата договора поручительства
+     * Set the 'GuaranteeDate' element value. Р”Р°С‚Р° РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param guaranteeDate
      */
@@ -88,7 +88,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Get the 'AddGuaranteeNumber' element value. Номер дополнение к договору поручительства 
+     * Get the 'AddGuaranteeNumber' element value. РќРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° 
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Set the 'AddGuaranteeNumber' element value. Номер дополнение к договору поручительства 
+     * Set the 'AddGuaranteeNumber' element value. РќРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° 
      * 
      * @param addGuaranteeNumber
      */
@@ -106,7 +106,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Get the 'AddGuaranteeDate' element value. Дата дополнение к договору поручительства
+     * Get the 'AddGuaranteeDate' element value. Р”Р°С‚Р° РґРѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class GuaranteeTDType
     }
 
     /** 
-     * Set the 'AddGuaranteeDate' element value. Дата дополнение к договору поручительства
+     * Set the 'AddGuaranteeDate' element value. Р”Р°С‚Р° РґРѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param addGuaranteeDate
      */

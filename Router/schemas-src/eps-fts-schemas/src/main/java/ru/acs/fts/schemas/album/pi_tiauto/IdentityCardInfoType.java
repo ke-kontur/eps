@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.pi_tiauto;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Сведения документа, удостоверяющего личность
+ * РЎРІРµРґРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
  */
 public class IdentityCardInfoType extends IdentityCardType
 {
@@ -12,7 +12,7 @@ public class IdentityCardInfoType extends IdentityCardType
     private String countryName;
 
     /** 
-     * Get the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
+     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class IdentityCardInfoType extends IdentityCardType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
+     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param countryCode
      */
@@ -30,7 +30,7 @@ public class IdentityCardInfoType extends IdentityCardType
     }
 
     /** 
-     * Get the 'CountryName' element value. Краткое название страны в соответствии с классификатором стран мира
+     * Get the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class IdentityCardInfoType extends IdentityCardType
     }
 
     /** 
-     * Set the 'CountryName' element value. Краткое название страны в соответствии с классификатором стран мира
+     * Set the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param countryName
      */

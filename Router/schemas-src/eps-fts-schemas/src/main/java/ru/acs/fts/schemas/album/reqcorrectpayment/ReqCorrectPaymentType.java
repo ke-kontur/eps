@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Решение о корректировке таможенной стоимости товаров
+ * Р РµС€РµРЅРёРµ Рѕ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
  */
 public class ReqCorrectPaymentType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResolDate' element value. Дата решения
+     * Get the 'ResolDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResolDate' element value. Дата решения
+     * Set the 'ResolDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
      * 
      * @param resolDate
      */
@@ -48,7 +48,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'OfficeName' element value. Наименование таможенного органа
+     * Get the 'OfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'OfficeName' element value. Наименование таможенного органа
+     * Set the 'OfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param officeName
      */
@@ -66,7 +66,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclName' element value. Наименование декларанта (таможенного представителя)
+     * Get the 'DeclName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclName' element value. Наименование декларанта (таможенного представителя)
+     * Set the 'DeclName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @param declName
      */
@@ -84,7 +84,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimitPriorRelease' element value. Срок осуществления корректировки таможенной стоимости и уплаты таможенной пошлины, налогов при принятии решения до выпуска товаров
+     * Get the 'DateLimitPriorRelease' element value. РЎСЂРѕРє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРѕРІ РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РґРѕ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimitPriorRelease' element value. Срок осуществления корректировки таможенной стоимости и уплаты таможенной пошлины, налогов при принятии решения до выпуска товаров
+     * Set the 'DateLimitPriorRelease' element value. РЎСЂРѕРє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРѕРІ РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РґРѕ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @param dateLimitPriorRelease
      */
@@ -102,7 +102,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimitAfterRelease' element value. Срок осуществления корректировки таможенной стоимости и уплаты таможенной пошлины, налогов при принятии решения после выпуска товаров (срок, не превышающий 10 рабочих дней со дня получения декларантом/представителем  решения о корректировке)
+     * Get the 'DateLimitAfterRelease' element value. РЎСЂРѕРє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРѕРІ РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ (СЃСЂРѕРє, РЅРµ РїСЂРµРІС‹С€Р°СЋС‰РёР№ 10 СЂР°Р±РѕС‡РёС… РґРЅРµР№ СЃРѕ РґРЅСЏ РїРѕР»СѓС‡РµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј  СЂРµС€РµРЅРёСЏ Рѕ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРµ)
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimitAfterRelease' element value. Срок осуществления корректировки таможенной стоимости и уплаты таможенной пошлины, налогов при принятии решения после выпуска товаров (срок, не превышающий 10 рабочих дней со дня получения декларантом/представителем  решения о корректировке)
+     * Set the 'DateLimitAfterRelease' element value. РЎСЂРѕРє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРѕРІ РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ (СЃСЂРѕРє, РЅРµ РїСЂРµРІС‹С€Р°СЋС‰РёР№ 10 СЂР°Р±РѕС‡РёС… РґРЅРµР№ СЃРѕ РґРЅСЏ РїРѕР»СѓС‡РµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј  СЂРµС€РµРЅРёСЏ Рѕ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРµ)
      * 
      * @param dateLimitAfterRelease
      */
@@ -120,7 +120,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Срок, установленный в государстве - членеТаможенного союза, осуществления корректировки таможенной стоимости и уплаты таможенной пошлины, налогов при принятии решения после выпуска товаров
+     * Get the 'DateLimit' element value. РЎСЂРѕРє, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµ - С‡Р»РµРЅРµРўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°, РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРѕРІ РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок, установленный в государстве - членеТаможенного союза, осуществления корректировки таможенной стоимости и уплаты таможенной пошлины, налогов при принятии решения после выпуска товаров
+     * Set the 'DateLimit' element value. РЎСЂРѕРє, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµ - С‡Р»РµРЅРµРўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°, РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРѕРІ РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
      * 
      * @param dateLimit
      */
@@ -138,7 +138,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -156,7 +156,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер  ДТ.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў.
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер  ДТ.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў.
      * 
      * @param GTDID
      */
@@ -174,7 +174,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'KTSGoods' element items. Корректировка таможенной стоимости товаров
+     * Get the list of 'KTSGoods' element items. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
      * 
      * @return list
      */
@@ -183,7 +183,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'KTSGoods' element items. Корректировка таможенной стоимости товаров
+     * Set the list of 'KTSGoods' element items. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
      * 
      * @param list
      */
@@ -192,7 +192,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ValuationCustCost' element items. Определение таможенной стоимости товаров/Необходимые изменения в ДТ
+     * Get the list of 'ValuationCustCost' element items. РћРїСЂРµРґРµР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ/РќРµРѕР±С…РѕРґРёРјС‹Рµ РёР·РјРµРЅРµРЅРёСЏ РІ Р”Рў
      * 
      * @return list
      */
@@ -201,7 +201,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ValuationCustCost' element items. Определение таможенной стоимости товаров/Необходимые изменения в ДТ
+     * Set the list of 'ValuationCustCost' element items. РћРїСЂРµРґРµР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ/РќРµРѕР±С…РѕРґРёРјС‹Рµ РёР·РјРµРЅРµРЅРёСЏ РІ Р”Рў
      * 
      * @param list
      */
@@ -210,7 +210,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес направления решения
+     * Get the 'Address' element value. РђРґСЂРµСЃ РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес направления решения
+     * Set the 'Address' element value. РђРґСЂРµСЃ РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
      * 
      * @param address
      */
@@ -228,7 +228,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceivingResolution' element value. Получение решения
+     * Get the 'ReceivingResolution' element value. РџРѕР»СѓС‡РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceivingResolution' element value. Получение решения
+     * Set the 'ReceivingResolution' element value. РџРѕР»СѓС‡РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @param receivingResolution
      */
@@ -246,7 +246,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendResolution' element value. Направление решения
+     * Get the 'SendResolution' element value. РќР°РїСЂР°РІР»РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendResolution' element value. Направление решения
+     * Set the 'SendResolution' element value. РќР°РїСЂР°РІР»РµРЅРёРµ СЂРµС€РµРЅРёСЏ
      * 
      * @param sendResolution
      */
@@ -264,7 +264,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class ReqCorrectPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

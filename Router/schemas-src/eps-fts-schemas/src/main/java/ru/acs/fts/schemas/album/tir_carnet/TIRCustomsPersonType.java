@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Должностное лицо таможенного органа.
+ * Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
  */
 public class TIRCustomsPersonType extends CustomsPersonType
 {
     private LocalDate date;
 
     /** 
-     * Get the 'Date' element value. Дата
+     * Get the 'Date' element value. Р”Р°С‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TIRCustomsPersonType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'Date' element value. Дата
+     * Set the 'Date' element value. Р”Р°С‚Р°
      * 
      * @param date
      */

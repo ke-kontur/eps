@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Запрос документа
+ * Р—Р°РїСЂРѕСЃ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class DocRequestType
 {
@@ -18,7 +18,7 @@ public class DocRequestType
     private DocumentBaseType documentDetails;
 
     /** 
-     * Get the 'ReqSign' element value. Признак: 1 - Запрос копии документа (Указываются вид (наименование) и реквизиты договора (сделки)); 2 - Справка о содержании правоустанавливающих документов
+     * Get the 'ReqSign' element value. РџСЂРёР·РЅР°Рє: 1 - Р—Р°РїСЂРѕСЃ РєРѕРїРёРё РґРѕРєСѓРјРµРЅС‚Р° (РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ РІРёРґ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) Рё СЂРµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР° (СЃРґРµР»РєРё)); 2 - РЎРїСЂР°РІРєР° Рѕ СЃРѕРґРµСЂР¶Р°РЅРёРё РїСЂР°РІРѕСѓСЃС‚Р°РЅР°РІР»РёРІР°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DocRequestType
     }
 
     /** 
-     * Set the 'ReqSign' element value. Признак: 1 - Запрос копии документа (Указываются вид (наименование) и реквизиты договора (сделки)); 2 - Справка о содержании правоустанавливающих документов
+     * Set the 'ReqSign' element value. РџСЂРёР·РЅР°Рє: 1 - Р—Р°РїСЂРѕСЃ РєРѕРїРёРё РґРѕРєСѓРјРµРЅС‚Р° (РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ РІРёРґ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) Рё СЂРµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР° (СЃРґРµР»РєРё)); 2 - РЎРїСЂР°РІРєР° Рѕ СЃРѕРґРµСЂР¶Р°РЅРёРё РїСЂР°РІРѕСѓСЃС‚Р°РЅР°РІР»РёРІР°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param reqSign
      */
@@ -36,7 +36,7 @@ public class DocRequestType
     }
 
     /** 
-     * Get the 'DescribeContract' element value. Положения, интересующие заявителя
+     * Get the 'DescribeContract' element value. РџРѕР»РѕР¶РµРЅРёСЏ, РёРЅС‚РµСЂРµСЃСѓСЋС‰РёРµ Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DocRequestType
     }
 
     /** 
-     * Set the 'DescribeContract' element value. Положения, интересующие заявителя
+     * Set the 'DescribeContract' element value. РџРѕР»РѕР¶РµРЅРёСЏ, РёРЅС‚РµСЂРµСЃСѓСЋС‰РёРµ Р·Р°СЏРІРёС‚РµР»СЏ
      * 
      * @param describeContract
      */
@@ -54,7 +54,7 @@ public class DocRequestType
     }
 
     /** 
-     * Get the 'IdentityDoc' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityDoc' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DocRequestType
     }
 
     /** 
-     * Set the 'IdentityDoc' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityDoc' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityDoc
      */
@@ -72,7 +72,7 @@ public class DocRequestType
     }
 
     /** 
-     * Get the list of 'Object' element items. Объект
+     * Get the list of 'Object' element items. РћР±СЉРµРєС‚
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class DocRequestType
     }
 
     /** 
-     * Set the list of 'Object' element items. Объект
+     * Set the list of 'Object' element items. РћР±СЉРµРєС‚
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class DocRequestType
     }
 
     /** 
-     * Get the 'DocumentDetails' element value. Реквизиты документа
+     * Get the 'DocumentDetails' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DocRequestType
     }
 
     /** 
-     * Set the 'DocumentDetails' element value. Реквизиты документа
+     * Set the 'DocumentDetails' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDetails
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.inventoryin;
 
 /** 
- * Документ
+ * Р”РѕРєСѓРјРµРЅС‚
  */
 public class RequestDocumentType
 {
@@ -14,7 +14,7 @@ public class RequestDocumentType
     private String requestorName;
 
     /** 
-     * Get the 'InvDocCode' element value. Код вида представляемого документа. Заполняется согласно Классификатору видов документов, используемых при заявлении сведений в графе 44 ДТ.
+     * Get the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44 Р”Рў.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Set the 'InvDocCode' element value. Код вида представляемого документа. Заполняется согласно Классификатору видов документов, используемых при заявлении сведений в графе 44 ДТ.
+     * Set the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44 Р”Рў.
      * 
      * @param invDocCode
      */
@@ -32,7 +32,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Get the 'InvDocName' element value. Вид документа
+     * Get the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Set the 'InvDocName' element value. Вид документа
+     * Set the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param invDocName
      */
@@ -50,7 +50,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Порядковый номер записи в запросе
+     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Порядковый номер записи в запросе
+     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ Р·Р°РїСЂРѕСЃРµ
      * 
      * @param recordNumber
      */
@@ -68,7 +68,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Get the 'ReqPurpose' element value. Цель, для которой запрашивается документ
+     * Get the 'ReqPurpose' element value. Р¦РµР»СЊ, РґР»СЏ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Set the 'ReqPurpose' element value. Цель, для которой запрашивается документ
+     * Set the 'ReqPurpose' element value. Р¦РµР»СЊ, РґР»СЏ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param reqPurpose
      */
@@ -86,7 +86,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Get the 'Note' element value. Примечание
+     * Get the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Set the 'Note' element value. Примечание
+     * Set the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param note
      */
@@ -104,7 +104,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Get the 'RequestorName' element value. ФИО должностного лица, запрашивающего дополнительные документы и сведения
+     * Get the 'RequestorName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, Р·Р°РїСЂР°С€РёРІР°СЋС‰РµРіРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рё СЃРІРµРґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class RequestDocumentType
     }
 
     /** 
-     * Set the 'RequestorName' element value. ФИО должностного лица, запрашивающего дополнительные документы и сведения
+     * Set the 'RequestorName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, Р·Р°РїСЂР°С€РёРІР°СЋС‰РµРіРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рё СЃРІРµРґРµРЅРёСЏ
      * 
      * @param requestorName
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Информация о прибытии/отбытии в порт
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/РѕС‚Р±С‹С‚РёРё РІ РїРѕСЂС‚
  */
 public class PortType
 {
@@ -12,7 +12,7 @@ public class PortType
     private String name;
 
     /** 
-     * Get the 'Date' element value. Дата
+     * Get the 'Date' element value. Р”Р°С‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PortType
     }
 
     /** 
-     * Set the 'Date' element value. Дата
+     * Set the 'Date' element value. Р”Р°С‚Р°
      * 
      * @param date
      */
@@ -30,7 +30,7 @@ public class PortType
     }
 
     /** 
-     * Get the 'Name' element value. Название порта
+     * Get the 'Name' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PortType
     }
 
     /** 
-     * Set the 'Name' element value. Название порта
+     * Set the 'Name' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р°
      * 
      * @param name
      */

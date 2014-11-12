@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.currentimportprolong;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Регистрационный номер ЭТДТС
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р­РўР”РўРЎ
  */
 public class ETDTSNumberType extends GTDIDType
 {
     private String transportModeCode;
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспорта
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ETDTSNumberType extends GTDIDType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспорта
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
      * 
      * @param transportModeCode
      */

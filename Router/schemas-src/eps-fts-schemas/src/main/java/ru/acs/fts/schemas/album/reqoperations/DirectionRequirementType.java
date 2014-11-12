@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * При направлении требования по почте или иным способом
+ * РџСЂРё РЅР°РїСЂР°РІР»РµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ РїРѕ РїРѕС‡С‚Рµ РёР»Рё РёРЅС‹Рј СЃРїРѕСЃРѕР±РѕРј
  */
 public class DirectionRequirementType
 {
@@ -18,7 +18,7 @@ public class DirectionRequirementType
     private AddressType address;
 
     /** 
-     * Get the 'MethodDirection' element value. Способ направления требования
+     * Get the 'MethodDirection' element value. РЎРїРѕСЃРѕР± РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Set the 'MethodDirection' element value. Способ направления требования
+     * Set the 'MethodDirection' element value. РЎРїРѕСЃРѕР± РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param methodDirection
      */
@@ -36,7 +36,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Get the 'DateDirection' element value. Дата направления требования
+     * Get the 'DateDirection' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Set the 'DateDirection' element value. Дата направления требования
+     * Set the 'DateDirection' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param dateDirection
      */
@@ -54,7 +54,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо, направившее требование
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РЅР°РїСЂР°РІРёРІС€РµРµ С‚СЂРµР±РѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо, направившее требование
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РЅР°РїСЂР°РІРёРІС€РµРµ С‚СЂРµР±РѕРІР°РЅРёРµ
      * 
      * @param customsPerson
      */
@@ -72,7 +72,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Get the 'Person' element value. Лицо, принявшее требование
+     * Get the 'Person' element value. Р›РёС†Рѕ, РїСЂРёРЅСЏРІС€РµРµ С‚СЂРµР±РѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Set the 'Person' element value. Лицо, принявшее требование
+     * Set the 'Person' element value. Р›РёС†Рѕ, РїСЂРёРЅСЏРІС€РµРµ С‚СЂРµР±РѕРІР°РЅРёРµ
      * 
      * @param person
      */
@@ -90,7 +90,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес 
+     * Get the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class DirectionRequirementType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес 
+     * Set the 'Address' element value. РђРґСЂРµСЃ 
      * 
      * @param address
      */

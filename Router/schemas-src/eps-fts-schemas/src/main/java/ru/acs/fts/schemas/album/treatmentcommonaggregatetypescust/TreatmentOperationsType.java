@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Операции по переработке товаров и способы их совершения
+ * РћРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ Рё СЃРїРѕСЃРѕР±С‹ РёС… СЃРѕРІРµСЂС€РµРЅРёСЏ
  */
 public class TreatmentOperationsType
 {
@@ -15,7 +15,7 @@ public class TreatmentOperationsType
     private LocalDate operationEndDate;
 
     /** 
-     * Get the 'OperationName' element value. Название операции
+     * Get the 'OperationName' element value. РќР°Р·РІР°РЅРёРµ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TreatmentOperationsType
     }
 
     /** 
-     * Set the 'OperationName' element value. Название операции
+     * Set the 'OperationName' element value. РќР°Р·РІР°РЅРёРµ РѕРїРµСЂР°С†РёРё
      * 
      * @param operationName
      */
@@ -33,7 +33,7 @@ public class TreatmentOperationsType
     }
 
     /** 
-     * Get the list of 'OperationMethod' element items. Способ совершения операции
+     * Get the list of 'OperationMethod' element items. РЎРїРѕСЃРѕР± СЃРѕРІРµСЂС€РµРЅРёСЏ РѕРїРµСЂР°С†РёРё
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class TreatmentOperationsType
     }
 
     /** 
-     * Set the list of 'OperationMethod' element items. Способ совершения операции
+     * Set the list of 'OperationMethod' element items. РЎРїРѕСЃРѕР± СЃРѕРІРµСЂС€РµРЅРёСЏ РѕРїРµСЂР°С†РёРё
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class TreatmentOperationsType
     }
 
     /** 
-     * Get the 'OperationEndDate' element value. Срок завершения операции
+     * Get the 'OperationEndDate' element value. РЎСЂРѕРє Р·Р°РІРµСЂС€РµРЅРёСЏ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TreatmentOperationsType
     }
 
     /** 
-     * Set the 'OperationEndDate' element value. Срок завершения операции
+     * Set the 'OperationEndDate' element value. РЎСЂРѕРє Р·Р°РІРµСЂС€РµРЅРёСЏ РѕРїРµСЂР°С†РёРё
      * 
      * @param operationEndDate
      */

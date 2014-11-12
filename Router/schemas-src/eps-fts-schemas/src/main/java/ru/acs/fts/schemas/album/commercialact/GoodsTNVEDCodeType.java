@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialact;
 
 /** 
- * Описание несоответствия кода товара по ТН ВЭД сведениям, заявленным в товаросопроводительных документах
+ * РћРїРёСЃР°РЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РєРѕРґР° С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” СЃРІРµРґРµРЅРёСЏРј, Р·Р°СЏРІР»РµРЅРЅС‹Рј РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
  */
 public class GoodsTNVEDCodeType
 {
@@ -10,7 +10,7 @@ public class GoodsTNVEDCodeType
     private String TNVEDCodeByFact;
 
     /** 
-     * Get the 'TNVEDCodeByDocs' element value. Код товара по ТН ВЭД ТС согласно товаросопроводительным документам
+     * Get the 'TNVEDCodeByDocs' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class GoodsTNVEDCodeType
     }
 
     /** 
-     * Set the 'TNVEDCodeByDocs' element value. Код товара по ТН ВЭД ТС согласно товаросопроводительным документам
+     * Set the 'TNVEDCodeByDocs' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param TNVEDCodeByDocs
      */
@@ -28,7 +28,7 @@ public class GoodsTNVEDCodeType
     }
 
     /** 
-     * Get the 'TNVEDCodeByFact' element value. Код товара по ТН ВЭД ТС фактический
+     * Get the 'TNVEDCodeByFact' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ С„Р°РєС‚РёС‡РµСЃРєРёР№
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class GoodsTNVEDCodeType
     }
 
     /** 
-     * Set the 'TNVEDCodeByFact' element value. Код товара по ТН ВЭД ТС фактический
+     * Set the 'TNVEDCodeByFact' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ С„Р°РєС‚РёС‡РµСЃРєРёР№
      * 
      * @param TNVEDCodeByFact
      */

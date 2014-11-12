@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о перевозимом грузе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјРѕРј РіСЂСѓР·Рµ
  */
 public class GoodsInfoType
 {
@@ -16,7 +16,7 @@ public class GoodsInfoType
     private PackingInfoType packingInfo;
 
     /** 
-     * Get the 'WeightUnitQualifierCode' element value. Код измерения веса товара(килограммы или фунты)
+     * Get the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР°(РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'WeightUnitQualifierCode' element value. Код измерения веса товара(килограммы или фунты)
+     * Set the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР°(РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
      * 
      * @param weightUnitQualifierCode
      */
@@ -34,7 +34,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsVolume' element value. Объем товара
+     * Get the 'GoodsVolume' element value. РћР±СЉРµРј С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsVolume' element value. Объем товара
+     * Set the 'GoodsVolume' element value. РћР±СЉРµРј С‚РѕРІР°СЂР°
      * 
      * @param goodsVolume
      */
@@ -52,7 +52,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'CargoDescription' element items. Описание груза
+     * Get the list of 'CargoDescription' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'CargoDescription' element items. Описание груза
+     * Set the list of 'CargoDescription' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -88,7 +88,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'PackingInfo' element value. Сведения об упаковке и грузовых местах
+     * Get the 'PackingInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ Рё РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'PackingInfo' element value. Сведения об упаковке и грузовых местах
+     * Set the 'PackingInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ Рё РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
      * 
      * @param packingInfo
      */

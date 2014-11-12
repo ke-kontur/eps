@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.guaranteecontractaddition;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о документе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
  */
 public class DocumentInfoType extends DocumentBaseType
 {
     private String documentCode;
 
     /** 
-     * Get the 'DocumentCode' element value. Код видa  документа в соответствии с Классификатором видов документов, используемых при таможенном декларировании
+     * Get the 'DocumentCode' element value. РљРѕРґ РІРёРґa  РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. Код видa  документа в соответствии с Классификатором видов документов, используемых при таможенном декларировании
+     * Set the 'DocumentCode' element value. РљРѕРґ РІРёРґa  РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё
      * 
      * @param documentCode
      */

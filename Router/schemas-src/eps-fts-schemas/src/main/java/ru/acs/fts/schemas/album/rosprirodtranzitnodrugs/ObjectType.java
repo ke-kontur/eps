@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Ядовитое вещество, на транзит которого выдано разрешение
+ * РЇРґРѕРІРёС‚РѕРµ РІРµС‰РµСЃС‚РІРѕ, РЅР° С‚СЂР°РЅР·РёС‚ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
  */
 public class ObjectType
 {
@@ -21,7 +21,7 @@ public class ObjectType
     private DocumentBaseType contract;
 
     /** 
-     * Get the list of 'Info' element items. Описание ядовитых веществ
+     * Get the list of 'Info' element items. РћРїРёСЃР°РЅРёРµ СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the list of 'Info' element items. Описание ядовитых веществ
+     * Set the list of 'Info' element items. РћРїРёСЃР°РЅРёРµ СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'TNVED' element value. Код ТН ВЭД ТС
+     * Get the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'TNVED' element value. Код ТН ВЭД ТС
+     * Set the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVED
      */
@@ -57,7 +57,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Numeric' element value. Номер позиции 
+     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё 
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Numeric' element value. Номер позиции 
+     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё 
      * 
      * @param numeric
      */
@@ -75,7 +75,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Sender' element value. Отправитель
+     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Sender' element value. Отправитель
+     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param sender
      */
@@ -93,7 +93,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Receiver' element value. Получатель
+     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Receiver' element value. Получатель
+     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param receiver
      */
@@ -111,7 +111,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Count' element value. Количество
+     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Count' element value. Количество
+     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param count
      */
@@ -129,7 +129,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Contract' element value. Реквизиты контракта
+     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Contract' element value. Реквизиты контракта
+     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contract
      */

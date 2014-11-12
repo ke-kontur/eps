@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.correctiondecision;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Набор ссылок на документы, которыми руководствовался инспектор таможни при принятии решения по мере
+ * РќР°Р±РѕСЂ СЃСЃС‹Р»РѕРє РЅР° РґРѕРєСѓРјРµРЅС‚С‹, РєРѕС‚РѕСЂС‹РјРё СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
  */
 public class RefDocumentListType extends DocumentBaseType
 {
@@ -16,7 +16,7 @@ public class RefDocumentListType extends DocumentBaseType
     private String note;
 
     /** 
-     * Get the 'CusDesDocumentID' element value. Ссылка на DocumentID того документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Get the 'CusDesDocumentID' element value. РЎСЃС‹Р»РєР° РЅР° DocumentID С‚РѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CusDesDocumentID' element value. Ссылка на DocumentID того документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Set the 'CusDesDocumentID' element value. РЎСЃС‹Р»РєР° РЅР° DocumentID С‚РѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @param cusDesDocumentID
      */
@@ -34,7 +34,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocCode' element value. Код вида документа. При наличии документа в Классификаторе видов документов, используемых при заявлении сведений в графе 44 ДТ, указывается этот код.
+     * Get the 'DocCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РџСЂРё РЅР°Р»РёС‡РёРё РґРѕРєСѓРјРµРЅС‚Р° РІ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРµ РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44 Р”Рў, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ СЌС‚РѕС‚ РєРѕРґ.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocCode' element value. Код вида документа. При наличии документа в Классификаторе видов документов, используемых при заявлении сведений в графе 44 ДТ, указывается этот код.
+     * Set the 'DocCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РџСЂРё РЅР°Р»РёС‡РёРё РґРѕРєСѓРјРµРЅС‚Р° РІ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРµ РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44 Р”Рў, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ СЌС‚РѕС‚ РєРѕРґ.
      * 
      * @param docCode
      */
@@ -52,7 +52,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocName' element value. Вид документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Get the 'DocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocName' element value. Вид документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Set the 'DocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @param docName
      */
@@ -70,7 +70,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SectionNumber' element value. Номер раздела документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Get the 'SectionNumber' element value. РќРѕРјРµСЂ СЂР°Р·РґРµР»Р° РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SectionNumber' element value. Номер раздела документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Set the 'SectionNumber' element value. РќРѕРјРµСЂ СЂР°Р·РґРµР»Р° РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @param sectionNumber
      */
@@ -88,7 +88,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Порядковый номер записи в разделе документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ СЂР°Р·РґРµР»Рµ РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Порядковый номер записи в разделе документа, которым руководствовался инспектор таможни при принятии решения по мере
+     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ СЂР°Р·РґРµР»Рµ РґРѕРєСѓРјРµРЅС‚Р°, РєРѕС‚РѕСЂС‹Рј СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @param recordNumber
      */
@@ -106,7 +106,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Note' element value. Комментарий инспектора
+     * Get the 'Note' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class RefDocumentListType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Note' element value. Комментарий инспектора
+     * Set the 'Note' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ РёРЅСЃРїРµРєС‚РѕСЂР°
      * 
      * @param note
      */

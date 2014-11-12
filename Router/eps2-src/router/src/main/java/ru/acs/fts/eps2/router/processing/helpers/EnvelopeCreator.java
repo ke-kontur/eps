@@ -344,7 +344,10 @@ public class EnvelopeCreator
 		{
 			responseEdHeader.setReceiverCustoms( receivingCustoms );
 		}
-		else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) )
+		else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 		{
 			responseEdHeader.setReceiverCustoms( receivingCustoms );
 			
@@ -405,7 +408,10 @@ public class EnvelopeCreator
 			throwException( receivedEnvelope );
 		
 		CustomsType recvCustoms = receivedEdHeader.getReceiverCustoms( );
-		if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) )
+		if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 		{
 			String epsCustomsCode = _configurator.getEpsCustomsCode( );
 			String epsExchType = ( null != recvCustoms ? recvCustoms.getExchType( ) : receivingCustoms.getExchType( ) );
@@ -595,7 +601,10 @@ public class EnvelopeCreator
 		{
 			responseEdHeader.setReceiverCustoms( receivingCustoms );
 		}
-		else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) )
+		else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 		{
 			responseEdHeader.setReceiverCustoms( receivingCustoms );
 			
@@ -610,7 +619,10 @@ public class EnvelopeCreator
 			 BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.ASKTT2 ) ||
 			 BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.MALAKHIT ) ||
 			 BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.ADMIN ) ||
-			 BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.BALANCER ) )
+			 BusinessSystems.isSuchSystem( senderSystem, BusinessSystems.BALANCER ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 		{
 			responseEdHeader.setSenderCustoms( sendingCustoms );
 		}
@@ -897,6 +909,24 @@ public class EnvelopeCreator
 		{
 			return getBalancerReceiverInformation( );
 		}
+        else if(BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER )){
+            CustomsType customs = new CustomsType( );
+            customs.setCustomsCode( _configurator.getOrderCustomsCode( ) );
+            customs.setExchType( _configurator.getOrderExchType( ) );
+            return getCustomsReceiverInformation( customs );
+        }
+        else if(BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 )){
+            CustomsType customs = new CustomsType( );
+            customs.setCustomsCode( _configurator.getPayment1CustomsCode( ) );
+            customs.setExchType( _configurator.getPayment1ExchType( ) );
+            return getCustomsReceiverInformation( customs );
+        }
+        else if( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 )){
+            CustomsType customs = new CustomsType( );
+            customs.setCustomsCode( _configurator.getPayment2CustomsCode( ) );
+            customs.setExchType( _configurator.getPayment2ExchType() );
+            return getCustomsReceiverInformation( customs );
+        }
 		
 		return null;
 	}
@@ -912,7 +942,10 @@ public class EnvelopeCreator
 		}
 		else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.CUSTOMS ) ||
 				  BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ASKTT2 ) ||
-				  BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) )
+				  BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.MALAKHIT ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
+                BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 		{
 			return getCustomsSenderInformation( );
 		}

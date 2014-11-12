@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.explanationsalesterms;
 import org.joda.time.LocalDate;
 
 /** 
- * Описание вида договора
+ * РћРїРёСЃР°РЅРёРµ РІРёРґР° РґРѕРіРѕРІРѕСЂР°
  */
 public class DescriptionKindContractType
 {
@@ -14,7 +14,7 @@ public class DescriptionKindContractType
     private String placeDetention;
 
     /** 
-     * Get the 'DateSettlement' element value. Дата заключения
+     * Get the 'DateSettlement' element value. Р”Р°С‚Р° Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Set the 'DateSettlement' element value. Дата заключения
+     * Set the 'DateSettlement' element value. Р”Р°С‚Р° Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @param dateSettlement
      */
@@ -32,7 +32,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Get the 'ExpiryDate' element value. Дата окончания действия (если определено договором)
+     * Get the 'ExpiryDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ (РµСЃР»Рё РѕРїСЂРµРґРµР»РµРЅРѕ РґРѕРіРѕРІРѕСЂРѕРј)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Set the 'ExpiryDate' element value. Дата окончания действия (если определено договором)
+     * Set the 'ExpiryDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ (РµСЃР»Рё РѕРїСЂРµРґРµР»РµРЅРѕ РґРѕРіРѕРІРѕСЂРѕРј)
      * 
      * @param expiryDate
      */
@@ -50,7 +50,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Get the 'ApplicableLaw' element value. Применяемое право
+     * Get the 'ApplicableLaw' element value. РџСЂРёРјРµРЅСЏРµРјРѕРµ РїСЂР°РІРѕ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Set the 'ApplicableLaw' element value. Применяемое право
+     * Set the 'ApplicableLaw' element value. РџСЂРёРјРµРЅСЏРµРјРѕРµ РїСЂР°РІРѕ
      * 
      * @param applicableLaw
      */
@@ -68,7 +68,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Get the 'PlaceDetention' element value. Место заключения
+     * Get the 'PlaceDetention' element value. РњРµСЃС‚Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DescriptionKindContractType
     }
 
     /** 
-     * Set the 'PlaceDetention' element value. Место заключения
+     * Set the 'PlaceDetention' element value. РњРµСЃС‚Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @param placeDetention
      */

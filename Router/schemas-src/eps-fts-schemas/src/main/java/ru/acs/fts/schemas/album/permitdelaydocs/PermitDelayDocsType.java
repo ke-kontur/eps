@@ -10,10 +10,11 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Разрешение представления документов в установленный срок
+ * Р Р°Р·СЂРµС€РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ СЃСЂРѕРє/Р Р°Р·СЂРµС€РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ РіСЂР°С„РёС‡РµСЃРєРѕРј РІРёРґРµ
  */
 public class PermitDelayDocsType extends BaseDocType
 {
+    private String docSign;
     private LocalDate sendDate;
     private String sendTime;
     private String comments;
@@ -24,7 +25,25 @@ public class PermitDelayDocsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'DocSign' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р Р°Р·СЂРµС€РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ СЃСЂРѕРє, 1- Р Р°Р·СЂРµС€РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ РіСЂР°С„РёС‡РµСЃРєРѕРј РІРёРґРµ
+     * 
+     * @return value
+     */
+    public String getDocSign() {
+        return docSign;
+    }
+
+    /** 
+     * Set the 'DocSign' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р Р°Р·СЂРµС€РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ СЃСЂРѕРє, 1- Р Р°Р·СЂРµС€РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РІ РіСЂР°С„РёС‡РµСЃРєРѕРј РІРёРґРµ
+     * 
+     * @param docSign
+     */
+    public void setDocSign(String docSign) {
+        this.docSign = docSign;
+    }
+
+    /** 
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -33,7 +52,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -42,7 +61,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -51,7 +70,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -60,7 +79,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -69,7 +88,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -78,7 +97,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DelayedDocs' element items. Решение по документам
+     * Get the list of 'DelayedDocs' element items. Р РµС€РµРЅРёРµ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return list
      */
@@ -87,7 +106,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DelayedDocs' element items. Решение по документам
+     * Set the list of 'DelayedDocs' element items. Р РµС€РµРЅРёРµ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param list
      */
@@ -96,7 +115,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -105,7 +124,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -114,7 +133,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -123,7 +142,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -132,7 +151,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Справочный номер ДТ
+     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -141,7 +160,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Справочный номер ДТ
+     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -150,7 +169,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -159,7 +178,7 @@ public class PermitDelayDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

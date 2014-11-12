@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.custpaymentsdk;
 import org.joda.time.LocalDate;
 
 /** 
- * Добавочные листы
+ * Р”РѕР±Р°РІРѕС‡РЅС‹Рµ Р»РёСЃС‚С‹
  */
 public class CustomsMarcType
 {
@@ -12,7 +12,7 @@ public class CustomsMarcType
     private LocalDate dateInf;
 
     /** 
-     * Get the 'MarkDescription' element value. Служебная запись / номер документа 
+     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CustomsMarcType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. Служебная запись / номер документа 
+     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° 
      * 
      * @param markDescription
      */
@@ -30,7 +30,7 @@ public class CustomsMarcType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата проставления отметки/ Дата принятия решения о продлении срока проверки (ст. 359 ТК)
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё/ Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё (СЃС‚. 359 РўРљ)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CustomsMarcType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата проставления отметки/ Дата принятия решения о продлении срока проверки (ст. 359 ТК)
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё/ Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё (СЃС‚. 359 РўРљ)
      * 
      * @param dateInf
      */

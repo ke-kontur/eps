@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения о дополнении к договору поручительства, использование которого в качестве обеспечения невозможно в связи с истечением срока действия.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРїРѕР»РЅРµРЅРёРё Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РєРѕС‚РѕСЂРѕРіРѕ РІ РєР°С‡РµСЃС‚РІРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РЅРµРІРѕР·РјРѕР¶РЅРѕ РІ СЃРІСЏР·Рё СЃ РёСЃС‚РµС‡РµРЅРёРµРј СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ.
  */
 public class ExpiredAdditionalInfoType
 {
@@ -16,7 +16,7 @@ public class ExpiredAdditionalInfoType
     private GTDIDType additionalNumber;
 
     /** 
-     * Get the 'Guarantor' element value. Наименование поручителя
+     * Get the 'Guarantor' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЂСѓС‡РёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Set the 'Guarantor' element value. Наименование поручителя
+     * Set the 'Guarantor' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЂСѓС‡РёС‚РµР»СЏ
      * 
      * @param guarantor
      */
@@ -34,7 +34,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Get the 'ValidityDate' element value. Cрок, до истечения которого возможно использование дополнения в целях обеспечения уплаты таможенных пошлин, налогов при таможенном транзите товаров.
+     * Get the 'ValidityDate' element value. CСЂРѕРє, РґРѕ РёСЃС‚РµС‡РµРЅРёСЏ РєРѕС‚РѕСЂРѕРіРѕ РІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РґРѕРїРѕР»РЅРµРЅРёСЏ РІ С†РµР»СЏС… РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Set the 'ValidityDate' element value. Cрок, до истечения которого возможно использование дополнения в целях обеспечения уплаты таможенных пошлин, налогов при таможенном транзите товаров.
+     * Set the 'ValidityDate' element value. CСЂРѕРє, РґРѕ РёСЃС‚РµС‡РµРЅРёСЏ РєРѕС‚РѕСЂРѕРіРѕ РІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РґРѕРїРѕР»РЅРµРЅРёСЏ РІ С†РµР»СЏС… РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param validityDate
      */
@@ -52,7 +52,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
+     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
      * 
      * @param GRN
      */
@@ -70,7 +70,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Get the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Get the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Set the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
+     * Set the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param additionalID
      */
@@ -88,7 +88,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Get the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
+     * Get the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ExpiredAdditionalInfoType
     }
 
     /** 
-     * Set the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
+     * Set the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param additionalNumber
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.semcommonaggregatetypescust;
 
 /** 
- * Сведения об отправителе/получателе товаров
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ/РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
  */
 public class InConsParticipantType extends InParticipantType
 {
@@ -11,7 +11,7 @@ public class InConsParticipantType extends InParticipantType
     private String contractorIndicator;
 
     /** 
-     * Get the 'BowelsINN' element value. ИНН недропользователя.
+     * Get the 'BowelsINN' element value. РРќРќ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class InConsParticipantType extends InParticipantType
     }
 
     /** 
-     * Set the 'BowelsINN' element value. ИНН недропользователя.
+     * Set the 'BowelsINN' element value. РРќРќ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @param bowelsINN
      */
@@ -29,7 +29,7 @@ public class InConsParticipantType extends InParticipantType
     }
 
     /** 
-     * Get the 'BowelsOKPO' element value. ОКПО недропользователя.
+     * Get the 'BowelsOKPO' element value. РћРљРџРћ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class InConsParticipantType extends InParticipantType
     }
 
     /** 
-     * Set the 'BowelsOKPO' element value. ОКПО недропользователя.
+     * Set the 'BowelsOKPO' element value. РћРљРџРћ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
      * 
      * @param bowelsOKPO
      */
@@ -47,7 +47,7 @@ public class InConsParticipantType extends InParticipantType
     }
 
     /** 
-     * Get the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ.
+     * Get the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class InConsParticipantType extends InParticipantType
     }
 
     /** 
-     * Set the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ.
+     * Set the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ.
      * 
      * @param contractorIndicator
      */

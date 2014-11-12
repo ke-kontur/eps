@@ -4,20 +4,25 @@ package ru.acs.fts.schemas.album.representativeapplication;
 import java.util.ArrayList;
 import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
+import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
+import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.WarehousePlaceType;
 
 /** 
- * Заявление таможенного представителя, используемое в качестве пассажирской таможенной декларации
+ * Р—Р°СЏРІР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ, РёСЃРїРѕР»СЊР·СѓРµРјРѕРµ РІ РєР°С‡РµСЃС‚РІРµ РїР°СЃСЃР°Р¶РёСЂСЃРєРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё/Р РµРµСЃС‚СЂ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
  */
 public class RepresentativeApplicationType extends BaseDocType
 {
     private String destinationCountry;
     private String totalGoodsNumber;
     private RepresentativeType representative;
+    private String applicationSign;
+    private GTDIDType applicationRegNumber;
+    private WarehousePlaceType warehousePlace;
     private List<ConsignmentType> consignmentList = new ArrayList<ConsignmentType>();
     private String documentModeID;
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения. Буквенный код по классификатору стран мира
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -26,7 +31,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения. Буквенный код по классификатору стран мира
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param destinationCountry
      */
@@ -35,7 +40,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. Всего наименований товаров
+     * Get the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -44,7 +49,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. Всего наименований товаров
+     * Set the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
      * 
      * @param totalGoodsNumber
      */
@@ -53,7 +58,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Representative' element value. Таможенный представитель
+     * Get the 'Representative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -62,7 +67,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Representative' element value. Таможенный представитель
+     * Set the 'Representative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
      * 
      * @param representative
      */
@@ -71,7 +76,61 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. Сведения о партии
+     * Get the 'ApplicationSign' element value. РўРёРї СЂРµРµСЃС‚СЂР°: 0 - СЂРµРµСЃС‚СЂ РґРѕСЃС‚Р°РІР»СЏРµРјС‹С… С‚РѕРІР°СЂРѕРІ, 1- СЂРµРµСЃС‚СЂ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ 
+     * 
+     * @return value
+     */
+    public String getApplicationSign() {
+        return applicationSign;
+    }
+
+    /** 
+     * Set the 'ApplicationSign' element value. РўРёРї СЂРµРµСЃС‚СЂР°: 0 - СЂРµРµСЃС‚СЂ РґРѕСЃС‚Р°РІР»СЏРµРјС‹С… С‚РѕРІР°СЂРѕРІ, 1- СЂРµРµСЃС‚СЂ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ 
+     * 
+     * @param applicationSign
+     */
+    public void setApplicationSign(String applicationSign) {
+        this.applicationSign = applicationSign;
+    }
+
+    /** 
+     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РёСЃС…РѕРґРЅРѕРіРѕ СЂРµРµСЃС‚СЂР°, РµСЃР»Рё С‚РѕРІР°СЂС‹ РІРѕР·РІСЂР°С‰Р°РµРјС‹Рµ
+     * 
+     * @return value
+     */
+    public GTDIDType getApplicationRegNumber() {
+        return applicationRegNumber;
+    }
+
+    /** 
+     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РёСЃС…РѕРґРЅРѕРіРѕ СЂРµРµСЃС‚СЂР°, РµСЃР»Рё С‚РѕРІР°СЂС‹ РІРѕР·РІСЂР°С‰Р°РµРјС‹Рµ
+     * 
+     * @param applicationRegNumber
+     */
+    public void setApplicationRegNumber(GTDIDType applicationRegNumber) {
+        this.applicationRegNumber = applicationRegNumber;
+    }
+
+    /** 
+     * Get the 'WarehousePlace' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РЎР’РҐ, РЅР° РєРѕС‚РѕСЂРѕРј СЂР°Р·РјРµС‰РµРЅС‹ С‚РѕРІР°СЂС‹
+     * 
+     * @return value
+     */
+    public WarehousePlaceType getWarehousePlace() {
+        return warehousePlace;
+    }
+
+    /** 
+     * Set the 'WarehousePlace' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РЎР’РҐ, РЅР° РєРѕС‚РѕСЂРѕРј СЂР°Р·РјРµС‰РµРЅС‹ С‚РѕРІР°СЂС‹
+     * 
+     * @param warehousePlace
+     */
+    public void setWarehousePlace(WarehousePlaceType warehousePlace) {
+        this.warehousePlace = warehousePlace;
+    }
+
+    /** 
+     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
      * 
      * @return list
      */
@@ -80,7 +139,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. Сведения о партии
+     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
      * 
      * @param list
      */
@@ -89,7 +148,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -98,7 +157,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Ответ сервиса NI
+ * РћС‚РІРµС‚ СЃРµСЂРІРёСЃР° NI
  */
 public class SEMNIResponseType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class SEMNIResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Message' element value. Сообщение о статусе обработки
+     * Get the 'Message' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЃС‚Р°С‚СѓСЃРµ РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SEMNIResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Message' element value. Сообщение о статусе обработки
+     * Set the 'Message' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЃС‚Р°С‚СѓСЃРµ РѕР±СЂР°Р±РѕС‚РєРё
      * 
      * @param message
      */
@@ -33,7 +33,7 @@ public class SEMNIResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResDeclarations' element items. Обработанные декларации
+     * Get the list of 'ResDeclarations' element items. РћР±СЂР°Р±РѕС‚Р°РЅРЅС‹Рµ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class SEMNIResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResDeclarations' element items. Обработанные декларации
+     * Set the list of 'ResDeclarations' element items. РћР±СЂР°Р±РѕС‚Р°РЅРЅС‹Рµ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class SEMNIResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SEMNIResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

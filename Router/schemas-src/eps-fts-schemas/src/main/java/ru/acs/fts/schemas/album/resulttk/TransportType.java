@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Регистрационные данные ТС
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
  */
 public class TransportType extends TransportMeansBaseType
 {
     private List<CheckViolationType> violFidelNumbTrailList = new ArrayList<CheckViolationType>();
 
     /** 
-     * Get the list of 'ViolFidelNumbTrail' element items. Наличие и соответствие отличительного знака страны регистрации прицепа/полуприцепа установленным требованиям
+     * Get the list of 'ViolFidelNumbTrail' element items. РќР°Р»РёС‡РёРµ Рё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РѕС‚Р»РёС‡РёС‚РµР»СЊРЅРѕРіРѕ Р·РЅР°РєР° СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёС†РµРїР°/РїРѕР»СѓРїСЂРёС†РµРїР° СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рј С‚СЂРµР±РѕРІР°РЅРёСЏРј
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the list of 'ViolFidelNumbTrail' element items. Наличие и соответствие отличительного знака страны регистрации прицепа/полуприцепа установленным требованиям
+     * Set the list of 'ViolFidelNumbTrail' element items. РќР°Р»РёС‡РёРµ Рё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РѕС‚Р»РёС‡РёС‚РµР»СЊРЅРѕРіРѕ Р·РЅР°РєР° СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРёС†РµРїР°/РїРѕР»СѓРїСЂРёС†РµРїР° СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рј С‚СЂРµР±РѕРІР°РЅРёСЏРј
      * 
      * @param list
      */

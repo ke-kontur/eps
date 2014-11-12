@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Чек оплаты таможенный платежей
+ * Р§РµРє РѕРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїР»Р°С‚РµР¶РµР№
  */
 public class ReceiptPaymentType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class ReceiptPaymentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CheckNumber' element value. Номер чека
+     * Get the 'CheckNumber' element value. РќРѕРјРµСЂ С‡РµРєР°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ReceiptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckNumber' element value. Номер чека
+     * Set the 'CheckNumber' element value. РќРѕРјРµСЂ С‡РµРєР°
      * 
      * @param checkNumber
      */
@@ -33,7 +33,7 @@ public class ReceiptPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentDocument' element items. Платежный документ
+     * Get the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class ReceiptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. Платежный документ
+     * Set the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class ReceiptPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ReceiptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

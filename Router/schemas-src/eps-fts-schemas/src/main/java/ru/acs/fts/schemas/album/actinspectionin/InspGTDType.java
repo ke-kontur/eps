@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.actinspectionin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Номер ДТ в которой заявлены сведения о досматриваемых  товарах
+ * РќРѕРјРµСЂ Р”Рў РІ РєРѕС‚РѕСЂРѕР№ Р·Р°СЏРІР»РµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РґРѕСЃРјР°С‚СЂРёРІР°РµРјС‹С…  С‚РѕРІР°СЂР°С…
  */
 public class InspGTDType extends GTDIDType
 {
     private String recordNumber;
 
     /** 
-     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class InspGTDType extends GTDIDType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @param recordNumber
      */

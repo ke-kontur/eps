@@ -13,7 +13,7 @@ import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.BaseTreatmentD
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentType;
 
 /** 
- * Разрешение на переработку товаров вне таможенной территории
+ * Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class PermitInoTreatmentType extends BaseDocType
 {
@@ -37,7 +37,7 @@ public class PermitInoTreatmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PermitNumber' element value. Номер разрешения на переработку вне таможенной территории
+     * Get the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermitNumber' element value. Номер разрешения на переработку вне таможенной территории
+     * Set the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
      * 
      * @param permitNumber
      */
@@ -55,7 +55,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -73,7 +73,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comments' element items. Особые отметки таможни
+     * Get the list of 'Comments' element items. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Особые отметки таможни
+     * Set the list of 'Comments' element items. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'BasicPermitNumber' element value. Номер основного разрешения на переработку вне таможенной территории (в случае подачи дополнения к разрешению)
+     * Get the 'BasicPermitNumber' element value. РќРѕРјРµСЂ РѕСЃРЅРѕРІРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё (РІ СЃР»СѓС‡Р°Рµ РїРѕРґР°С‡Рё РґРѕРїРѕР»РЅРµРЅРёСЏ Рє СЂР°Р·СЂРµС€РµРЅРёСЋ)
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'BasicPermitNumber' element value. Номер основного разрешения на переработку вне таможенной территории (в случае подачи дополнения к разрешению)
+     * Set the 'BasicPermitNumber' element value. РќРѕРјРµСЂ РѕСЃРЅРѕРІРЅРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё (РІ СЃР»СѓС‡Р°Рµ РїРѕРґР°С‡Рё РґРѕРїРѕР»РЅРµРЅРёСЏ Рє СЂР°Р·СЂРµС€РµРЅРёСЋ)
      * 
      * @param basicPermitNumber
      */
@@ -109,7 +109,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'TreatmentProcedureCode' element value. Код режима переработки
+     * Get the 'TreatmentProcedureCode' element value. РљРѕРґ СЂРµР¶РёРјР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'TreatmentProcedureCode' element value. Код режима переработки
+     * Set the 'TreatmentProcedureCode' element value. РљРѕРґ СЂРµР¶РёРјР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param treatmentProcedureCode
      */
@@ -127,7 +127,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'PermitPeriodDate' element value. Дата действия разрешения
+     * Get the 'PermitPeriodDate' element value. Р”Р°С‚Р° РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermitPeriodDate' element value. Дата действия разрешения
+     * Set the 'PermitPeriodDate' element value. Р”Р°С‚Р° РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
      * 
      * @param permitPeriodDate
      */
@@ -145,7 +145,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'TreatmentCountry' element value. Цифровой код страны переработки
+     * Get the 'TreatmentCountry' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'TreatmentCountry' element value. Цифровой код страны переработки
+     * Set the 'TreatmentCountry' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param treatmentCountry
      */
@@ -163,7 +163,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegionalCustoms' element value. Наименование регионального таможенного управления
+     * Get the 'RegionalCustoms' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°Р»СЊРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegionalCustoms' element value. Наименование регионального таможенного управления
+     * Set the 'RegionalCustoms' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°Р»СЊРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param regionalCustoms
      */
@@ -181,7 +181,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'PermitHolder' element value. Лицо, которому выдано разрешение
+     * Get the 'PermitHolder' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermitHolder' element value. Лицо, которому выдано разрешение
+     * Set the 'PermitHolder' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
      * 
      * @param permitHolder
      */
@@ -199,7 +199,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Treatment' element value. Описание переработки
+     * Get the 'Treatment' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Treatment' element value. Описание переработки
+     * Set the 'Treatment' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param treatment
      */
@@ -217,7 +217,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'BaseTreatmentDocs' element items. Контракт или иные документы, в соответствии с которыми вывозятся на переработку товары
+     * Get the list of 'BaseTreatmentDocs' element items. РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РІС‹РІРѕР·СЏС‚СЃСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂС‹
      * 
      * @return list
      */
@@ -226,7 +226,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'BaseTreatmentDocs' element items. Контракт или иные документы, в соответствии с которыми вывозятся на переработку товары
+     * Set the list of 'BaseTreatmentDocs' element items. РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РІС‹РІРѕР·СЏС‚СЃСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂС‹
      * 
      * @param list
      */
@@ -235,7 +235,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -244,7 +244,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -253,7 +253,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -262,7 +262,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -271,7 +271,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsInWaste' element value. Таможня ввоза отходов
+     * Get the 'CustomsInWaste' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕС‚С…РѕРґРѕРІ
      * 
      * @return value
      */
@@ -280,7 +280,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsInWaste' element value. Таможня ввоза отходов
+     * Set the 'CustomsInWaste' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕС‚С…РѕРґРѕРІ
      * 
      * @param customsInWaste
      */
@@ -289,7 +289,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsInHells' element value. Таможня ввоза остатков
+     * Get the 'CustomsInHells' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕСЃС‚Р°С‚РєРѕРІ
      * 
      * @return value
      */
@@ -298,7 +298,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsInHells' element value. Таможня ввоза остатков
+     * Set the 'CustomsInHells' element value. РўР°РјРѕР¶РЅСЏ РІРІРѕР·Р° РѕСЃС‚Р°С‚РєРѕРІ
      * 
      * @param customsInHells
      */
@@ -307,7 +307,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentIDInfo' element items. Сведения о документах,  подтверждающих совершение операций по переработке
+     * Get the list of 'DocumentIDInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…,  РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СЃРѕРІРµСЂС€РµРЅРёРµ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @return list
      */
@@ -316,7 +316,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentIDInfo' element items. Сведения о документах,  подтверждающих совершение операций по переработке
+     * Set the list of 'DocumentIDInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…,  РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СЃРѕРІРµСЂС€РµРЅРёРµ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @param list
      */
@@ -325,7 +325,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Signature' element value. ФИО начальника таможни, куда передается заявление 
+     * Get the 'Signature' element value. Р¤РРћ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РЅРё, РєСѓРґР° РїРµСЂРµРґР°РµС‚СЃСЏ Р·Р°СЏРІР»РµРЅРёРµ 
      * 
      * @return value
      */
@@ -334,7 +334,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Signature' element value. ФИО начальника таможни, куда передается заявление 
+     * Set the 'Signature' element value. Р¤РРћ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РЅРё, РєСѓРґР° РїРµСЂРµРґР°РµС‚СЃСЏ Р·Р°СЏРІР»РµРЅРёРµ 
      * 
      * @param signature
      */
@@ -343,7 +343,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -352,7 +352,7 @@ public class PermitInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.resolutiondestinationexamination;
 import org.joda.time.LocalDate;
 
 /** 
- * Срок проведения экспертизы
+ * РЎСЂРѕРє РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
  */
 public class TermRealizationExaminationType
 {
@@ -13,7 +13,7 @@ public class TermRealizationExaminationType
     private LocalDate endDate;
 
     /** 
-     * Get the 'TermDay' element value. Срок проведения экспертизы в днях
+     * Get the 'TermDay' element value. РЎСЂРѕРє РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹ РІ РґРЅСЏС…
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TermRealizationExaminationType
     }
 
     /** 
-     * Set the 'TermDay' element value. Срок проведения экспертизы в днях
+     * Set the 'TermDay' element value. РЎСЂРѕРє РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹ РІ РґРЅСЏС…
      * 
      * @param termDay
      */
@@ -31,7 +31,7 @@ public class TermRealizationExaminationType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Дата начала проведения экспертизы
+     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TermRealizationExaminationType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Дата начала проведения экспертизы
+     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @param beginDate
      */
@@ -49,7 +49,7 @@ public class TermRealizationExaminationType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дача окончания проведения экспертизы
+     * Get the 'EndDate' element value. Р”Р°С‡Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TermRealizationExaminationType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дача окончания проведения экспертизы
+     * Set the 'EndDate' element value. Р”Р°С‡Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
      * 
      * @param endDate
      */

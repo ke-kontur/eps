@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Адрес организации / физического лица
+ * РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class AddressType
 {
@@ -14,7 +14,7 @@ public class AddressType
     private String streetHouse;
 
     /** 
-     * Get the 'PostalCode' element value. Почтовый индекс
+     * Get the 'PostalCode' element value. РџРѕС‡С‚РѕРІС‹Р№ РёРЅРґРµРєСЃ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'PostalCode' element value. Почтовый индекс
+     * Set the 'PostalCode' element value. РџРѕС‡С‚РѕРІС‹Р№ РёРЅРґРµРєСЃ
      * 
      * @param postalCode
      */
@@ -32,7 +32,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
+     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
+     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param countryCode
      */
@@ -50,7 +50,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'CounryName' element value. Краткое название страны в соответствии с классификатором стран мира
+     * Get the 'CounryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'CounryName' element value. Краткое название страны в соответствии с классификатором стран мира
+     * Set the 'CounryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param counryName
      */
@@ -68,7 +68,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'Region' element value. Область (регион, штат, провинция и т.п.)
+     * Get the 'Region' element value. РћР±Р»Р°СЃС‚СЊ (СЂРµРіРёРѕРЅ, С€С‚Р°С‚, РїСЂРѕРІРёРЅС†РёСЏ Рё С‚.Рї.)
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'Region' element value. Область (регион, штат, провинция и т.п.)
+     * Set the 'Region' element value. РћР±Р»Р°СЃС‚СЊ (СЂРµРіРёРѕРЅ, С€С‚Р°С‚, РїСЂРѕРІРёРЅС†РёСЏ Рё С‚.Рї.)
      * 
      * @param region
      */
@@ -86,7 +86,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'City' element value. Населенный пункт
+     * Get the 'City' element value. РќР°СЃРµР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'City' element value. Населенный пункт
+     * Set the 'City' element value. РќР°СЃРµР»РµРЅРЅС‹Р№ РїСѓРЅРєС‚
      * 
      * @param city
      */
@@ -104,7 +104,7 @@ public class AddressType
     }
 
     /** 
-     * Get the 'StreetHouse' element value. Улица, номер дома, номер офиса
+     * Get the 'StreetHouse' element value. РЈР»РёС†Р°, РЅРѕРјРµСЂ РґРѕРјР°, РЅРѕРјРµСЂ РѕС„РёСЃР°
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class AddressType
     }
 
     /** 
-     * Set the 'StreetHouse' element value. Улица, номер дома, номер офиса
+     * Set the 'StreetHouse' element value. РЈР»РёС†Р°, РЅРѕРјРµСЂ РґРѕРјР°, РЅРѕРјРµСЂ РѕС„РёСЃР°
      * 
      * @param streetHouse
      */

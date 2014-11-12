@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Заявление на переработку товаров
+ * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ
  */
 public class ProcessingGoodsDeclarationType
 {
@@ -25,7 +25,7 @@ public class ProcessingGoodsDeclarationType
     private List<ProcessingGoodsType> heelList = new ArrayList<ProcessingGoodsType>();
 
     /** 
-     * Get the list of 'RateOutputGoods' element items. Норма выхода продуктов переработки
+     * Get the list of 'RateOutputGoods' element items. РќРѕСЂРјР° РІС‹С…РѕРґР° РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -34,7 +34,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the list of 'RateOutputGoods' element items. Норма выхода продуктов переработки
+     * Set the list of 'RateOutputGoods' element items. РќРѕСЂРјР° РІС‹С…РѕРґР° РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -43,7 +43,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the 'ProcessingDocNumber' element value. Номер разрешения на предшествующую переработку
+     * Get the 'ProcessingDocNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰СѓСЋ РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the 'ProcessingDocNumber' element value. Номер разрешения на предшествующую переработку
+     * Set the 'ProcessingDocNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰СѓСЋ РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @param processingDocNumber
      */
@@ -61,7 +61,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the 'ProcessingDocDate' element value. Дата предшествующего разрешения на переработку
+     * Get the 'ProcessingDocDate' element value. Р”Р°С‚Р° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the 'ProcessingDocDate' element value. Дата предшествующего разрешения на переработку
+     * Set the 'ProcessingDocDate' element value. Р”Р°С‚Р° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @param processingDocDate
      */
@@ -79,7 +79,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the list of 'GoodsIdentificationMethod' element items. Способы идентификации ввезенных/вывезенных товаров в продуктах переработки
+     * Get the list of 'GoodsIdentificationMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РІРІРµР·РµРЅРЅС‹С…/РІС‹РІРµР·РµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ РІ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -88,7 +88,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the list of 'GoodsIdentificationMethod' element items. Способы идентификации ввезенных/вывезенных товаров в продуктах переработки
+     * Set the list of 'GoodsIdentificationMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РІРІРµР·РµРЅРЅС‹С…/РІС‹РІРµР·РµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ РІ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -97,7 +97,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the 'ProcessingPlace' element value. Место проведения операций по переработке товаров
+     * Get the 'ProcessingPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the 'ProcessingPlace' element value. Место проведения операций по переработке товаров
+     * Set the 'ProcessingPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param processingPlace
      */
@@ -115,7 +115,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the list of 'Substitute' element items. Сведения о замене иностранных товаров эквивалентными товарами
+     * Get the list of 'Substitute' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РјРµРЅРµ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ СЌРєРІРёРІР°Р»РµРЅС‚РЅС‹РјРё С‚РѕРІР°СЂР°РјРё
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the list of 'Substitute' element items. Сведения о замене иностранных товаров эквивалентными товарами
+     * Set the list of 'Substitute' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РјРµРЅРµ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ СЌРєРІРёРІР°Р»РµРЅС‚РЅС‹РјРё С‚РѕРІР°СЂР°РјРё
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the 'PlaceProcessing' element value. Адрес места проведения операций по переработке
+     * Get the 'PlaceProcessing' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the 'PlaceProcessing' element value. Адрес места проведения операций по переработке
+     * Set the 'PlaceProcessing' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @param placeProcessing
      */
@@ -151,7 +151,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the 'Organization' element value. Наименование лица, осуществляющего операции по переработке товаров
+     * Get the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ РѕРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the 'Organization' element value. Наименование лица, осуществляющего операции по переработке товаров
+     * Set the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ РѕРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param organization
      */
@@ -169,7 +169,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the 'ProcessingProduct' element value. Продукт переработки
+     * Get the 'ProcessingProduct' element value. РџСЂРѕРґСѓРєС‚ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the 'ProcessingProduct' element value. Продукт переработки
+     * Set the 'ProcessingProduct' element value. РџСЂРѕРґСѓРєС‚ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param processingProduct
      */
@@ -187,7 +187,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the list of 'WasteProducts' element items. Отходы переработки
+     * Get the list of 'WasteProducts' element items. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -196,7 +196,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the list of 'WasteProducts' element items. Отходы переработки
+     * Set the list of 'WasteProducts' element items. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -205,7 +205,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Get the list of 'Heels' element items. Остатки
+     * Get the list of 'Heels' element items. РћСЃС‚Р°С‚РєРё
      * 
      * @return list
      */
@@ -214,7 +214,7 @@ public class ProcessingGoodsDeclarationType
     }
 
     /** 
-     * Set the list of 'Heels' element items. Остатки
+     * Set the list of 'Heels' element items. РћСЃС‚Р°С‚РєРё
      * 
      * @param list
      */

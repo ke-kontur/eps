@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.MarkUpType;
 
 /** 
- * Размеченное текстовое содержимое графы ДТ
+ * Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ СЃРѕРґРµСЂР¶РёРјРѕРµ РіСЂР°С„С‹ Р”Рў
  */
 public class DTFieldDescriptionMarkUpType
 {
@@ -14,7 +14,7 @@ public class DTFieldDescriptionMarkUpType
     private List<MarkUpType> markupList = new ArrayList<MarkUpType>();
 
     /** 
-     * Get the 'DTFieldName' element value. Номер графы ДТ
+     * Get the 'DTFieldName' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DTFieldDescriptionMarkUpType
     }
 
     /** 
-     * Set the 'DTFieldName' element value. Номер графы ДТ
+     * Set the 'DTFieldName' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў
      * 
      * @param DTFieldName
      */
@@ -32,7 +32,7 @@ public class DTFieldDescriptionMarkUpType
     }
 
     /** 
-     * Get the list of 'Markup' element items. Текстовое описание
+     * Get the list of 'Markup' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class DTFieldDescriptionMarkUpType
     }
 
     /** 
-     * Set the list of 'Markup' element items. Текстовое описание
+     * Set the list of 'Markup' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */

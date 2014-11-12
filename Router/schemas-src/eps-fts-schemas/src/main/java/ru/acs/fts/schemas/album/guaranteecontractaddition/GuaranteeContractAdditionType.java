@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Дополнение к договору поручительства
+ * Р”РѕРїРѕР»РЅРµРЅРёРµ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
  */
 public class GuaranteeContractAdditionType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DutyAmount' element value. Сумма обеспечения таможенных пошлин и налогов
+     * Get the 'DutyAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ Рё РЅР°Р»РѕРіРѕРІ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DutyAmount' element value. Сумма обеспечения таможенных пошлин и налогов
+     * Set the 'DutyAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ Рё РЅР°Р»РѕРіРѕРІ
      * 
      * @param dutyAmount
      */
@@ -47,7 +47,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты обеспечения
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты обеспечения
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param currencyCode
      */
@@ -65,7 +65,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ValidityDate' element value. Cрок, до истечения которого возможно использование дополнения в целях обеспечения уплаты таможенных пошлин, налогов при таможенном транзите товаров.
+     * Get the 'ValidityDate' element value. CСЂРѕРє, РґРѕ РёСЃС‚РµС‡РµРЅРёСЏ РєРѕС‚РѕСЂРѕРіРѕ РІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РґРѕРїРѕР»РЅРµРЅРёСЏ РІ С†РµР»СЏС… РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ValidityDate' element value. Cрок, до истечения которого возможно использование дополнения в целях обеспечения уплаты таможенных пошлин, налогов при таможенном транзите товаров.
+     * Set the 'ValidityDate' element value. CСЂРѕРє, РґРѕ РёСЃС‚РµС‡РµРЅРёСЏ РєРѕС‚РѕСЂРѕРіРѕ РІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РґРѕРїРѕР»РЅРµРЅРёСЏ РІ С†РµР»СЏС… РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ.
      * 
      * @param validityDate
      */
@@ -83,7 +83,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Guarantor' element value. Сведения о поручителе
+     * Get the 'Guarantor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЂСѓС‡РёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Guarantor' element value. Сведения о поручителе
+     * Set the 'Guarantor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЂСѓС‡РёС‚РµР»Рµ
      * 
      * @param guarantor
      */
@@ -101,7 +101,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentProvider' element value. Сведения о лице, предоставившем обеспечение уплаты таможенных пошлин, налогов 
+     * Get the 'PaymentProvider' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРµРґРѕСЃС‚Р°РІРёРІС€РµРј РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ 
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentProvider' element value. Сведения о лице, предоставившем обеспечение уплаты таможенных пошлин, налогов 
+     * Set the 'PaymentProvider' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРµРґРѕСЃС‚Р°РІРёРІС€РµРј РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ 
      * 
      * @param paymentProvider
      */
@@ -119,7 +119,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о декларанте
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о декларанте
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @param declarant
      */
@@ -137,7 +137,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportDocument' element value. Сведения о транспортном (перевозочном) документе
+     * Get the 'TransportDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј (РїРµСЂРµРІРѕР·РѕС‡РЅРѕРј) РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportDocument' element value. Сведения о транспортном (перевозочном) документе
+     * Set the 'TransportDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј (РїРµСЂРµРІРѕР·РѕС‡РЅРѕРј) РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param transportDocument
      */
@@ -155,7 +155,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'GuaranteeDocument' element value. Cведения о договоре поручительства
+     * Get the 'GuaranteeDocument' element value. CРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'GuaranteeDocument' element value. Cведения о договоре поручительства
+     * Set the 'GuaranteeDocument' element value. CРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
      * 
      * @param guaranteeDocument
      */
@@ -173,7 +173,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CommercialDocument' element items. Сведения о коммерческом документе
+     * Get the list of 'CommercialDocument' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРјРµСЂС‡РµСЃРєРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return list
      */
@@ -182,7 +182,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CommercialDocument' element items. Сведения о коммерческом документе
+     * Set the list of 'CommercialDocument' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРјРµСЂС‡РµСЃРєРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param list
      */
@@ -191,7 +191,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArrivalCustoms' element value. Таможенный орган назначения
+     * Get the 'ArrivalCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArrivalCustoms' element value. Таможенный орган назначения
+     * Set the 'ArrivalCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param arrivalCustoms
      */
@@ -209,7 +209,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepatureCustoms' element value. Таможенный орган отправления
+     * Get the 'DepatureCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepatureCustoms' element value. Таможенный орган отправления
+     * Set the 'DepatureCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param depatureCustoms
      */
@@ -227,7 +227,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDT' element value. Регистрационный номер таможенной декларации
+     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Регистрационный номер таможенной декларации
+     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param regNumberDT
      */
@@ -245,7 +245,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class GuaranteeContractAdditionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

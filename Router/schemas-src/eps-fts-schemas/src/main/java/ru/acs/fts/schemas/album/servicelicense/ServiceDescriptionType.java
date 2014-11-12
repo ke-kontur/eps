@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.servicelicense;
 
 /** 
- * Описание вида услуг (работ)
+ * РћРїРёСЃР°РЅРёРµ РІРёРґР° СѓСЃР»СѓРі (СЂР°Р±РѕС‚)
  */
 public class ServiceDescriptionType
 {
@@ -12,7 +12,7 @@ public class ServiceDescriptionType
     private String aerotechnicsTypeCode;
 
     /** 
-     * Get the 'ServiceName' element value. Наименование вида деятельности (обслуживания)
+     * Get the 'ServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё (РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'ServiceName' element value. Наименование вида деятельности (обслуживания)
+     * Set the 'ServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё (РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ)
      * 
      * @param serviceName
      */
@@ -30,7 +30,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'ServiceCode' element value. Код вида деятельности
+     * Get the 'ServiceCode' element value. РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'ServiceCode' element value. Код вида деятельности
+     * Set the 'ServiceCode' element value. РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
      * 
      * @param serviceCode
      */
@@ -48,7 +48,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'AerotechnicsName' element value. Наименование типа авиатехники
+     * Get the 'AerotechnicsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РёРїР° Р°РІРёР°С‚РµС…РЅРёРєРё
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'AerotechnicsName' element value. Наименование типа авиатехники
+     * Set the 'AerotechnicsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РёРїР° Р°РІРёР°С‚РµС…РЅРёРєРё
      * 
      * @param aerotechnicsName
      */
@@ -66,7 +66,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Get the 'AerotechnicsTypeCode' element value. Код типа авиатехники
+     * Get the 'AerotechnicsTypeCode' element value. РљРѕРґ С‚РёРїР° Р°РІРёР°С‚РµС…РЅРёРєРё
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ServiceDescriptionType
     }
 
     /** 
-     * Set the 'AerotechnicsTypeCode' element value. Код типа авиатехники
+     * Set the 'AerotechnicsTypeCode' element value. РљРѕРґ С‚РёРїР° Р°РІРёР°С‚РµС…РЅРёРєРё
      * 
      * @param aerotechnicsTypeCode
      */

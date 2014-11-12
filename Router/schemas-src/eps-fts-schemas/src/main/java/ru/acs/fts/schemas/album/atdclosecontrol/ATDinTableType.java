@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.atdclosecontrol;
 
 /** 
- * Информация в таблице внутреннего формата электронной копии АТД 
+ * РРЅС„РѕСЂРјР°С†РёСЏ РІ С‚Р°Р±Р»РёС†Рµ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё РђРўР” 
  */
 public class ATDinTableType
 {
@@ -11,7 +11,7 @@ public class ATDinTableType
     private String recordNumber;
 
     /** 
-     * Get the 'TableName' element value. Имя таблицы внутреннего формата электронной копии АТД 
+     * Get the 'TableName' element value. РРјСЏ С‚Р°Р±Р»РёС†С‹ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё РђРўР” 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ATDinTableType
     }
 
     /** 
-     * Set the 'TableName' element value. Имя таблицы внутреннего формата электронной копии АТД 
+     * Set the 'TableName' element value. РРјСЏ С‚Р°Р±Р»РёС†С‹ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё РђРўР” 
      * 
      * @param tableName
      */
@@ -29,7 +29,7 @@ public class ATDinTableType
     }
 
     /** 
-     * Get the 'AttributeName' element value. Наименование атрибута таблицы
+     * Get the 'AttributeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚Р° С‚Р°Р±Р»РёС†С‹
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ATDinTableType
     }
 
     /** 
-     * Set the 'AttributeName' element value. Наименование атрибута таблицы
+     * Set the 'AttributeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚Р° С‚Р°Р±Р»РёС†С‹
      * 
      * @param attributeName
      */
@@ -47,7 +47,7 @@ public class ATDinTableType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Номер записи, соответствующий значению поля NUMREC в таблице
+     * Get the 'RecordNumber' element value. РќРѕРјРµСЂ Р·Р°РїРёСЃРё, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ Р·РЅР°С‡РµРЅРёСЋ РїРѕР»СЏ NUMREC РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ATDinTableType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Номер записи, соответствующий значению поля NUMREC в таблице
+     * Set the 'RecordNumber' element value. РќРѕРјРµСЂ Р·Р°РїРёСЃРё, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ Р·РЅР°С‡РµРЅРёСЋ РїРѕР»СЏ NUMREC РІ С‚Р°Р±Р»РёС†Рµ
      * 
      * @param recordNumber
      */

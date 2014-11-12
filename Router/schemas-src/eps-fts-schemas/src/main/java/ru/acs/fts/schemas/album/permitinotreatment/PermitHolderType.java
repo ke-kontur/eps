@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrganizationType;
 
 /** 
- * Лицо, которому выдано разрешение
+ * Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
  */
 public class PermitHolderType extends TreatmentOrganizationType
 {
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PermitHolderType extends TreatmentOrganizationType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */

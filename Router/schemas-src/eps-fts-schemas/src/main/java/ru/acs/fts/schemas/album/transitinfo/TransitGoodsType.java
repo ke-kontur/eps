@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsItemBaseType;
 
 /** 
- * Описание товара
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
  */
 public class TransitGoodsType extends GoodsItemBaseType
 {
@@ -14,7 +14,7 @@ public class TransitGoodsType extends GoodsItemBaseType
     private SupplementaryQuantityType supplementaryGoodsQuantity;
 
     /** 
-     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД.
+     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р”.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransitGoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД.
+     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р”.
      * 
      * @param TNVEDCode
      */
@@ -32,7 +32,7 @@ public class TransitGoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты фактурной стоимости
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TransitGoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты фактурной стоимости
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param currencyCode
      */
@@ -50,7 +50,7 @@ public class TransitGoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.
+     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TransitGoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.
+     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @param supplementaryGoodsQuantity
      */

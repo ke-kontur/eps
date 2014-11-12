@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspectionin;
 
 /** 
- * Измерение уровня радиационного излучения
+ * РР·РјРµСЂРµРЅРёРµ СѓСЂРѕРІРЅСЏ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ РёР·Р»СѓС‡РµРЅРёСЏ
  */
 public class InspRadiationInfoType
 {
@@ -11,7 +11,7 @@ public class InspRadiationInfoType
     private String deviceCertificate;
 
     /** 
-     * Get the 'RadValue' element value. Уровень радиационного фона 
+     * Get the 'RadValue' element value. РЈСЂРѕРІРµРЅСЊ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ С„РѕРЅР° 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class InspRadiationInfoType
     }
 
     /** 
-     * Set the 'RadValue' element value. Уровень радиационного фона 
+     * Set the 'RadValue' element value. РЈСЂРѕРІРµРЅСЊ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ С„РѕРЅР° 
      * 
      * @param radValue
      */
@@ -29,7 +29,7 @@ public class InspRadiationInfoType
     }
 
     /** 
-     * Get the 'RadDeviceName' element value. Наименование прибора, которым проводились измерения
+     * Get the 'RadDeviceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёР±РѕСЂР°, РєРѕС‚РѕСЂС‹Рј РїСЂРѕРІРѕРґРёР»РёСЃСЊ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class InspRadiationInfoType
     }
 
     /** 
-     * Set the 'RadDeviceName' element value. Наименование прибора, которым проводились измерения
+     * Set the 'RadDeviceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёР±РѕСЂР°, РєРѕС‚РѕСЂС‹Рј РїСЂРѕРІРѕРґРёР»РёСЃСЊ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param radDeviceName
      */
@@ -47,7 +47,7 @@ public class InspRadiationInfoType
     }
 
     /** 
-     * Get the 'DeviceCertificate' element value. Свидетельство о поверке используемого оборудования
+     * Get the 'DeviceCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРІРµСЂРєРµ РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class InspRadiationInfoType
     }
 
     /** 
-     * Set the 'DeviceCertificate' element value. Свидетельство о поверке используемого оборудования
+     * Set the 'DeviceCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРІРµСЂРєРµ РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
      * 
      * @param deviceCertificate
      */

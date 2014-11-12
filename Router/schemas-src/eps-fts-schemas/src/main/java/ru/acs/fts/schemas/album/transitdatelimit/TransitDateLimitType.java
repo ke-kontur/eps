@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Заявление/уведомление о продлении срока таможенного транзита
+ * Р—Р°СЏРІР»РµРЅРёРµ/СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
  */
 public class TransitDateLimitType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class TransitDateLimitType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentSign' element value. Признак документа о продлении срока таможенного транзита: 0 - заявление; 1 - уведомление
+     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°: 0 - Р·Р°СЏРІР»РµРЅРёРµ; 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. Признак документа о продлении срока таможенного транзита: 0 - заявление; 1 - уведомление
+     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°: 0 - Р·Р°СЏРІР»РµРЅРёРµ; 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param documentSign
      */
@@ -43,7 +43,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocDate' element value. Дата направления документа
+     * Get the 'DocDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocDate' element value. Дата направления документа
+     * Set the 'DocDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docDate
      */
@@ -61,7 +61,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocTime' element value. Время направления документа
+     * Get the 'DocTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocTime' element value. Время направления документа
+     * Set the 'DocTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param docTime
      */
@@ -79,7 +79,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Срок продления таможенного транзита
+     * Get the 'DateLimit' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Срок продления таможенного транзита
+     * Set the 'DateLimit' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @param dateLimit
      */
@@ -97,7 +97,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reason' element value. Причины изменения срока таможенного транзита
+     * Get the 'Reason' element value. РџСЂРёС‡РёРЅС‹ РёР·РјРµРЅРµРЅРёСЏ СЃСЂРѕРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reason' element value. Причины изменения срока таможенного транзита
+     * Set the 'Reason' element value. РџСЂРёС‡РёРЅС‹ РёР·РјРµРЅРµРЅРёСЏ СЃСЂРѕРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @param reason
      */
@@ -140,7 +140,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'TD' element value. Номер транзитной декларации
+     * Get the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'TD' element value. Номер транзитной декларации
+     * Set the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param TD
      */
@@ -168,7 +168,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRID' element value. Номер книжки МДП
+     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRID' element value. Номер книжки МДП
+     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRID
      */
@@ -187,7 +187,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -205,7 +205,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class TransitDateLimitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

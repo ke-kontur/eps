@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Условия контракта
+ * РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
  */
 public class TermsContractType
 {
@@ -11,7 +11,7 @@ public class TermsContractType
     private DescriptionTermsContractType counterDelivery;
 
     /** 
-     * Get the 'ProvidedDependPurchase' element value. Условие, при котором продажа одного наименования товара зависит от покупки товара другого наименования
+     * Get the 'ProvidedDependPurchase' element value. РЈСЃР»РѕРІРёРµ, РїСЂРё РєРѕС‚РѕСЂРѕРј РїСЂРѕРґР°Р¶Р° РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ С‚РѕРІР°СЂР° Р·Р°РІРёСЃРёС‚ РѕС‚ РїРѕРєСѓРїРєРё С‚РѕРІР°СЂР° РґСЂСѓРіРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TermsContractType
     }
 
     /** 
-     * Set the 'ProvidedDependPurchase' element value. Условие, при котором продажа одного наименования товара зависит от покупки товара другого наименования
+     * Set the 'ProvidedDependPurchase' element value. РЈСЃР»РѕРІРёРµ, РїСЂРё РєРѕС‚РѕСЂРѕРј РїСЂРѕРґР°Р¶Р° РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ С‚РѕРІР°СЂР° Р·Р°РІРёСЃРёС‚ РѕС‚ РїРѕРєСѓРїРєРё С‚РѕРІР°СЂР° РґСЂСѓРіРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ
      * 
      * @param providedDependPurchase
      */
@@ -30,7 +30,7 @@ public class TermsContractType
     }
 
     /** 
-     * Get the 'DeliveryGoodsBuyer' element value. Поставку товаров со стороны Покупателя в пользу Продавца бесплатно или по сниженной цене
+     * Get the 'DeliveryGoodsBuyer' element value. РџРѕСЃС‚Р°РІРєСѓ С‚РѕРІР°СЂРѕРІ СЃРѕ СЃС‚РѕСЂРѕРЅС‹ РџРѕРєСѓРїР°С‚РµР»СЏ РІ РїРѕР»СЊР·Сѓ РџСЂРѕРґР°РІС†Р° Р±РµСЃРїР»Р°С‚РЅРѕ РёР»Рё РїРѕ СЃРЅРёР¶РµРЅРЅРѕР№ С†РµРЅРµ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TermsContractType
     }
 
     /** 
-     * Set the 'DeliveryGoodsBuyer' element value. Поставку товаров со стороны Покупателя в пользу Продавца бесплатно или по сниженной цене
+     * Set the 'DeliveryGoodsBuyer' element value. РџРѕСЃС‚Р°РІРєСѓ С‚РѕРІР°СЂРѕРІ СЃРѕ СЃС‚РѕСЂРѕРЅС‹ РџРѕРєСѓРїР°С‚РµР»СЏ РІ РїРѕР»СЊР·Сѓ РџСЂРѕРґР°РІС†Р° Р±РµСЃРїР»Р°С‚РЅРѕ РёР»Рё РїРѕ СЃРЅРёР¶РµРЅРЅРѕР№ С†РµРЅРµ
      * 
      * @param deliveryGoodsBuyer
      */
@@ -49,7 +49,7 @@ public class TermsContractType
     }
 
     /** 
-     * Get the 'CounterDelivery' element value. Встречную поставку товаров покупателем продавцу.
+     * Get the 'CounterDelivery' element value. Р’СЃС‚СЂРµС‡РЅСѓСЋ РїРѕСЃС‚Р°РІРєСѓ С‚РѕРІР°СЂРѕРІ РїРѕРєСѓРїР°С‚РµР»РµРј РїСЂРѕРґР°РІС†Сѓ.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TermsContractType
     }
 
     /** 
-     * Set the 'CounterDelivery' element value. Встречную поставку товаров покупателем продавцу.
+     * Set the 'CounterDelivery' element value. Р’СЃС‚СЂРµС‡РЅСѓСЋ РїРѕСЃС‚Р°РІРєСѓ С‚РѕРІР°СЂРѕРІ РїРѕРєСѓРїР°С‚РµР»РµРј РїСЂРѕРґР°РІС†Сѓ.
      * 
      * @param counterDelivery
      */

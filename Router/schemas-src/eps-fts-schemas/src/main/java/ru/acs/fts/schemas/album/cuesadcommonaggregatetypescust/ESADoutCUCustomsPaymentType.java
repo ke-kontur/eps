@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения об уплачиваемых платежах. Гр. B
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…. Р“СЂ. B
  */
 public class ESADoutCUCustomsPaymentType
 {
@@ -12,7 +12,7 @@ public class ESADoutCUCustomsPaymentType
     private String currencyRate;
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
      * 
      * @param paymentModeCode
      */
@@ -30,7 +30,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа 
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р° 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа 
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р° 
      * 
      * @param paymentAmount
      */
@@ -48,7 +48,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentCurrencyCode
      */
@@ -66,7 +66,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты платежа 
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° 
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты платежа 
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° 
      * 
      * @param currencyRate
      */

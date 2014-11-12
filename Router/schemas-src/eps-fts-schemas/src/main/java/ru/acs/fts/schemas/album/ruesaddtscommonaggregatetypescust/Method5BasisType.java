@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * Основа для расчета таможенной стоимости по методу 5.
+ * РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5.
  */
 public class Method5BasisType
 {
@@ -15,7 +15,7 @@ public class Method5BasisType
     private String totalBasisAmount;
 
     /** 
-     * Get the 'StoreExpense' element value. Затраты на сырьё, материалы, детали, полуфабрикаты и другие составляющие оцениваемых товаров, понесённые изготовителем. 11
+     * Get the 'StoreExpense' element value. Р—Р°С‚СЂР°С‚С‹ РЅР° СЃС‹СЂСЊС‘, РјР°С‚РµСЂРёР°Р»С‹, РґРµС‚Р°Р»Рё, РїРѕР»СѓС„Р°Р±СЂРёРєР°С‚С‹ Рё РґСЂСѓРіРёРµ СЃРѕСЃС‚Р°РІР»СЏСЋС‰РёРµ РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ, РїРѕРЅРµСЃС‘РЅРЅС‹Рµ РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј. 11
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'StoreExpense' element value. Затраты на сырьё, материалы, детали, полуфабрикаты и другие составляющие оцениваемых товаров, понесённые изготовителем. 11
+     * Set the 'StoreExpense' element value. Р—Р°С‚СЂР°С‚С‹ РЅР° СЃС‹СЂСЊС‘, РјР°С‚РµСЂРёР°Р»С‹, РґРµС‚Р°Р»Рё, РїРѕР»СѓС„Р°Р±СЂРёРєР°С‚С‹ Рё РґСЂСѓРіРёРµ СЃРѕСЃС‚Р°РІР»СЏСЋС‰РёРµ РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ, РїРѕРЅРµСЃС‘РЅРЅС‹Рµ РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј. 11
      * 
      * @param storeExpense
      */
@@ -33,7 +33,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Get the 'ProductionExpense' element value. Издержки, понесённые изготовителем в связи с производством оцениваемых товаров (за исключением вошедших в графу 11) 12
+     * Get the 'ProductionExpense' element value. РР·РґРµСЂР¶РєРё, РїРѕРЅРµСЃС‘РЅРЅС‹Рµ РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј РІ СЃРІСЏР·Рё СЃ РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕРј РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ (Р·Р° РёСЃРєР»СЋС‡РµРЅРёРµРј РІРѕС€РµРґС€РёС… РІ РіСЂР°С„Сѓ 11) 12
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'ProductionExpense' element value. Издержки, понесённые изготовителем в связи с производством оцениваемых товаров (за исключением вошедших в графу 11) 12
+     * Set the 'ProductionExpense' element value. РР·РґРµСЂР¶РєРё, РїРѕРЅРµСЃС‘РЅРЅС‹Рµ РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј РІ СЃРІСЏР·Рё СЃ РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕРј РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ (Р·Р° РёСЃРєР»СЋС‡РµРЅРёРµРј РІРѕС€РµРґС€РёС… РІ РіСЂР°С„Сѓ 11) 12
      * 
      * @param productionExpense
      */
@@ -51,7 +51,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Get the 'BorderTransportCharge' element value. Расходы по доставке до места ввоза в Российскую Федерацию. 13а
+     * Get the 'BorderTransportCharge' element value. Р Р°СЃС…РѕРґС‹ РїРѕ РґРѕСЃС‚Р°РІРєРµ РґРѕ РјРµСЃС‚Р° РІРІРѕР·Р° РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ. 13Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'BorderTransportCharge' element value. Расходы по доставке до места ввоза в Российскую Федерацию. 13а
+     * Set the 'BorderTransportCharge' element value. Р Р°СЃС…РѕРґС‹ РїРѕ РґРѕСЃС‚Р°РІРєРµ РґРѕ РјРµСЃС‚Р° РІРІРѕР·Р° РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ. 13Р°
      * 
      * @param borderTransportCharge
      */
@@ -69,7 +69,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Get the 'PackageExpense' element value. Расходы на тару и упаковку. 13б
+     * Get the 'PackageExpense' element value. Р Р°СЃС…РѕРґС‹ РЅР° С‚Р°СЂСѓ Рё СѓРїР°РєРѕРІРєСѓ. 13Р±
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'PackageExpense' element value. Расходы на тару и упаковку. 13б
+     * Set the 'PackageExpense' element value. Р Р°СЃС…РѕРґС‹ РЅР° С‚Р°СЂСѓ Рё СѓРїР°РєРѕРІРєСѓ. 13Р±
      * 
      * @param packageExpense
      */
@@ -87,7 +87,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Get the 'OtherExpense' element value. Иные затраты. 13в.
+     * Get the 'OtherExpense' element value. РРЅС‹Рµ Р·Р°С‚СЂР°С‚С‹. 13РІ.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'OtherExpense' element value. Иные затраты. 13в.
+     * Set the 'OtherExpense' element value. РРЅС‹Рµ Р·Р°С‚СЂР°С‚С‹. 13РІ.
      * 
      * @param otherExpense
      */
@@ -105,7 +105,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Get the 'ExportProfit' element value. Величина прибыли, обычно получаемая экспортёром. 14.
+     * Get the 'ExportProfit' element value. Р’РµР»РёС‡РёРЅР° РїСЂРёР±С‹Р»Рё, РѕР±С‹С‡РЅРѕ РїРѕР»СѓС‡Р°РµРјР°СЏ СЌРєСЃРїРѕСЂС‚С‘СЂРѕРј. 14.
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'ExportProfit' element value. Величина прибыли, обычно получаемая экспортёром. 14.
+     * Set the 'ExportProfit' element value. Р’РµР»РёС‡РёРЅР° РїСЂРёР±С‹Р»Рё, РѕР±С‹С‡РЅРѕ РїРѕР»СѓС‡Р°РµРјР°СЏ СЌРєСЃРїРѕСЂС‚С‘СЂРѕРј. 14.
      * 
      * @param exportProfit
      */
@@ -123,7 +123,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Get the 'TotalBasisAmount' element value. Итого А в рублях. 15
+     * Get the 'TotalBasisAmount' element value. РС‚РѕРіРѕ Рђ РІ СЂСѓР±Р»СЏС…. 15
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class Method5BasisType
     }
 
     /** 
-     * Set the 'TotalBasisAmount' element value. Итого А в рублях. 15
+     * Set the 'TotalBasisAmount' element value. РС‚РѕРіРѕ Рђ РІ СЂСѓР±Р»СЏС…. 15
      * 
      * @param totalBasisAmount
      */

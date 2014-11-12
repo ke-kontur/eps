@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Разрешение на отзыв декларации
+ * Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РѕС‚Р·С‹РІ РґРµРєР»Р°СЂР°С†РёРё
  */
 public class PermitRecallGTDType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class PermitRecallGTDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -40,7 +40,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Время направления
+     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Время направления
+     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendTime
      */
@@ -58,7 +58,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'NewGTDdeadline' element value. Срок подачи новой ДТ (формат-дата. заполняется при отзыве ДТ на иностранные товары)
+     * Get the 'NewGTDdeadline' element value. РЎСЂРѕРє РїРѕРґР°С‡Рё РЅРѕРІРѕР№ Р”Рў (С„РѕСЂРјР°С‚-РґР°С‚Р°. Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РѕС‚Р·С‹РІРµ Р”Рў РЅР° РёРЅРѕСЃС‚СЂР°РЅРЅС‹Рµ С‚РѕРІР°СЂС‹)
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'NewGTDdeadline' element value. Срок подачи новой ДТ (формат-дата. заполняется при отзыве ДТ на иностранные товары)
+     * Set the 'NewGTDdeadline' element value. РЎСЂРѕРє РїРѕРґР°С‡Рё РЅРѕРІРѕР№ Р”Рў (С„РѕСЂРјР°С‚-РґР°С‚Р°. Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РѕС‚Р·С‹РІРµ Р”Рў РЅР° РёРЅРѕСЃС‚СЂР°РЅРЅС‹Рµ С‚РѕРІР°СЂС‹)
      * 
      * @param newGTDdeadline
      */
@@ -76,7 +76,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -94,7 +94,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -112,7 +112,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -130,7 +130,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Справочный номер ДТ
+     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Справочный номер ДТ
+     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -148,7 +148,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class PermitRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

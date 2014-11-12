@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Платежные реквизиты организации
+ * РџР»Р°С‚РµР¶РЅС‹Рµ СЂРµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
  */
 public class PaymentRequisitionsType
 {
@@ -22,7 +22,7 @@ public class PaymentRequisitionsType
     private AddressType bankPostalAddress;
 
     /** 
-     * Get the 'OKPOID' element value. Код банка по ОКПО
+     * Get the 'OKPOID' element value. РљРѕРґ Р±Р°РЅРєР° РїРѕ РћРљРџРћ
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'OKPOID' element value. Код банка по ОКПО
+     * Set the 'OKPOID' element value. РљРѕРґ Р±Р°РЅРєР° РїРѕ РћРљРџРћ
      * 
      * @param OKPOID
      */
@@ -40,7 +40,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the 'BankName' element value. Наименование банка
+     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'BankName' element value. Наименование банка
+     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
      * 
      * @param bankName
      */
@@ -58,7 +58,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the 'BICID' element value. БИК банка
+     * Get the 'BICID' element value. Р‘РРљ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'BICID' element value. БИК банка
+     * Set the 'BICID' element value. Р‘РРљ Р±Р°РЅРєР°
      * 
      * @param BICID
      */
@@ -76,7 +76,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the 'SWIFTID' element value. SWIFT код банка
+     * Get the 'SWIFTID' element value. SWIFT РєРѕРґ Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'SWIFTID' element value. SWIFT код банка
+     * Set the 'SWIFTID' element value. SWIFT РєРѕРґ Р±Р°РЅРєР°
      * 
      * @param SWIFTID
      */
@@ -94,7 +94,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the 'AccountNumeric' element value. Номер корреспондентского счета банка
+     * Get the 'AccountNumeric' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° Р±Р°РЅРєР°
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'AccountNumeric' element value. Номер корреспондентского счета банка
+     * Set the 'AccountNumeric' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° Р±Р°РЅРєР°
      * 
      * @param accountNumeric
      */
@@ -112,7 +112,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the list of 'CurrentCurrencyAccount' element items. Валютный счет организации (текущий)
+     * Get the list of 'CurrentCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (С‚РµРєСѓС‰РёР№)
      * 
      * @return list
      */
@@ -121,7 +121,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the list of 'CurrentCurrencyAccount' element items. Валютный счет организации (текущий)
+     * Set the list of 'CurrentCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (С‚РµРєСѓС‰РёР№)
      * 
      * @param list
      */
@@ -130,7 +130,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the list of 'TransitCurrencyAccount' element items. Валютный счет организации (транзитный)
+     * Get the list of 'TransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (С‚СЂР°РЅР·РёС‚РЅС‹Р№)
      * 
      * @return list
      */
@@ -139,7 +139,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the list of 'TransitCurrencyAccount' element items. Валютный счет организации (транзитный)
+     * Set the list of 'TransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (С‚СЂР°РЅР·РёС‚РЅС‹Р№)
      * 
      * @param list
      */
@@ -148,7 +148,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the list of 'SpecialTransitCurrencyAccount' element items. Валютный счет организации (специальный транзитный)
+     * Get the list of 'SpecialTransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (СЃРїРµС†РёР°Р»СЊРЅС‹Р№ С‚СЂР°РЅР·РёС‚РЅС‹Р№)
      * 
      * @return list
      */
@@ -157,7 +157,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the list of 'SpecialTransitCurrencyAccount' element items. Валютный счет организации (специальный транзитный)
+     * Set the list of 'SpecialTransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (СЃРїРµС†РёР°Р»СЊРЅС‹Р№ С‚СЂР°РЅР·РёС‚РЅС‹Р№)
      * 
      * @param list
      */
@@ -166,7 +166,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the 'RoubleCurrencyAccount' element value. Рублевый расчетный счет организации
+     * Get the 'RoubleCurrencyAccount' element value. Р СѓР±Р»РµРІС‹Р№ СЂР°СЃС‡РµС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'RoubleCurrencyAccount' element value. Рублевый расчетный счет организации
+     * Set the 'RoubleCurrencyAccount' element value. Р СѓР±Р»РµРІС‹Р№ СЂР°СЃС‡РµС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param roubleCurrencyAccount
      */
@@ -184,7 +184,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Get the 'BankPostalAddress' element value. Описание адреса банка (адрес доставки почтовой корреспонденции)
+     * Get the 'BankPostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° Р±Р°РЅРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class PaymentRequisitionsType
     }
 
     /** 
-     * Set the 'BankPostalAddress' element value. Описание адреса банка (адрес доставки почтовой корреспонденции)
+     * Set the 'BankPostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° Р±Р°РЅРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
      * 
      * @param bankPostalAddress
      */

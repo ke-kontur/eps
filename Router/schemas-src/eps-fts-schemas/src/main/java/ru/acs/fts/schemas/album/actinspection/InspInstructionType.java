@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actinspection;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о поручении на досмотр
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЂСѓС‡РµРЅРёРё РЅР° РґРѕСЃРјРѕС‚СЂ
  */
 public class InspInstructionType
 {
@@ -14,7 +14,7 @@ public class InspInstructionType
     private String PTDNumber;
 
     /** 
-     * Get the 'Time' element value. Время выдачи поручения на досмотр
+     * Get the 'Time' element value. Р’СЂРµРјСЏ РІС‹РґР°С‡Рё РїРѕСЂСѓС‡РµРЅРёСЏ РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Set the 'Time' element value. Время выдачи поручения на досмотр
+     * Set the 'Time' element value. Р’СЂРµРјСЏ РІС‹РґР°С‡Рё РїРѕСЂСѓС‡РµРЅРёСЏ РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @param time
      */
@@ -32,7 +32,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего ПТД
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РџРўР”
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего ПТД
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РџРўР”
      * 
      * @param customsCode
      */
@@ -50,7 +50,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата регистрации ПТД
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџРўР”
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата регистрации ПТД
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџРўР”
      * 
      * @param registrationDate
      */
@@ -68,7 +68,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Get the 'PTDNumber' element value. Порядковый номер ПТД   по журналу регистрации
+     * Get the 'PTDNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџРўР”   РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class InspInstructionType
     }
 
     /** 
-     * Set the 'PTDNumber' element value. Порядковый номер ПТД   по журналу регистрации
+     * Set the 'PTDNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџРўР”   РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param PTDNumber
      */

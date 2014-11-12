@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Представленный документ.
+ * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚.
  */
 public class PresentedDocumentType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class PresentedDocumentType extends DocumentBaseType
     private LocalDate presentingLackingDate;
 
     /** 
-     * Get the 'DocumentBeginActionsDate' element value. Дата начала действия документа
+     * Get the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentBeginActionsDate' element value. Дата начала действия документа
+     * Set the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentBeginActionsDate
      */
@@ -33,7 +33,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentEndActionsDate' element value. Дата окончания действия документа
+     * Get the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentEndActionsDate' element value. Дата окончания действия документа
+     * Set the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentEndActionsDate
      */
@@ -51,7 +51,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование органа, выдавшего документ
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование органа, выдавшего документ
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param organizationName
      */
@@ -69,7 +69,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PresentingLackingDate' element value. Дата представления недостающего документа / сведений
+     * Get the 'PresentingLackingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentingLackingDate' element value. Дата представления недостающего документа / сведений
+     * Set the 'PresentingLackingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№
      * 
      * @param presentingLackingDate
      */

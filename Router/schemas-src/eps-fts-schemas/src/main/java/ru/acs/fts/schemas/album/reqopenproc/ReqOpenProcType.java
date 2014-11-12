@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Запрос на открытие процедуры декларирования
+ * Р—Р°РїСЂРѕСЃ РЅР° РѕС‚РєСЂС‹С‚РёРµ РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ
  */
 public class ReqOpenProcType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class ReqOpenProcType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Declarant' element value. Информация об участнике ВЭД.
+     * Get the 'Declarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ReqOpenProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Информация об участнике ВЭД.
+     * Set the 'Declarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”.
      * 
      * @param declarant
      */
@@ -31,7 +31,7 @@ public class ReqOpenProcType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ReqOpenProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

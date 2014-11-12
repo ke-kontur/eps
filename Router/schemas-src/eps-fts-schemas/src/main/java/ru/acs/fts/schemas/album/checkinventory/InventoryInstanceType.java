@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Экземпляр описи.
+ * Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё.
  */
 public class InventoryInstanceType
 {
@@ -15,7 +15,7 @@ public class InventoryInstanceType
     private List<InventDocumentType> inventDocumentList = new ArrayList<InventDocumentType>();
 
     /** 
-     * Get the 'InstanceNumber' element value. Порядковый номер описи
+     * Get the 'InstanceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРёСЃРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the 'InstanceNumber' element value. Порядковый номер описи
+     * Set the 'InstanceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРёСЃРё
      * 
      * @param instanceNumber
      */
@@ -33,7 +33,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Get the 'InventoryInstanceDate' element value. Дата предоставления описи
+     * Get the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the 'InventoryInstanceDate' element value. Дата предоставления описи
+     * Set the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё
      * 
      * @param inventoryInstanceDate
      */
@@ -51,7 +51,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Документ из описи
+     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class InventoryInstanceType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Документ из описи
+     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
      * 
      * @param list
      */

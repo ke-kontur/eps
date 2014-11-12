@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Представленные документы. Гр. 44. п.1 - 7.0, п.10 включительно.
+ * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 44. Рї.1 - 7.0, Рї.10 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ.
  */
 public class ESADBasicPresentedDocumentType extends PresentedDocumentType
 {
@@ -14,7 +14,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     private String temporaryImportCode;
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
+     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
+     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
      * 
      * @param presentedDocumentModeCode
      */
@@ -32,7 +32,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'ActNumber' element value. Номер акта о фактическом перемещении товаром таможенной границы
+     * Get the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РїРµСЂРµРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕР№ РіСЂР°РЅРёС†С‹
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'ActNumber' element value. Номер акта о фактическом перемещении товаром таможенной границы
+     * Set the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РїРµСЂРµРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕР№ РіСЂР°РЅРёС†С‹
      * 
      * @param actNumber
      */
@@ -50,7 +50,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'ActDate' element value. Дата акта о фактическом перемещении товаром таможенной границы / дата фактического вывоза
+     * Get the 'ActDate' element value. Р”Р°С‚Р° Р°РєС‚Р° Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РїРµСЂРµРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕР№ РіСЂР°РЅРёС†С‹ / РґР°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'ActDate' element value. Дата акта о фактическом перемещении товаром таможенной границы / дата фактического вывоза
+     * Set the 'ActDate' element value. Р”Р°С‚Р° Р°РєС‚Р° Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РїРµСЂРµРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРј С‚Р°РјРѕР¶РµРЅРЅРѕР№ РіСЂР°РЅРёС†С‹ / РґР°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р°
      * 
      * @param actDate
      */
@@ -68,7 +68,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'TemporaryImportCode' element value. Код срока временного ввоза. 1- если срок временного ввоз/вывоза менее 1 года, 2- если срок временного ввоз/вывоза более 1 года.
+     * Get the 'TemporaryImportCode' element value. РљРѕРґ СЃСЂРѕРєР° РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°. 1- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° РјРµРЅРµРµ 1 РіРѕРґР°, 2- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° Р±РѕР»РµРµ 1 РіРѕРґР°.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ESADBasicPresentedDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'TemporaryImportCode' element value. Код срока временного ввоза. 1- если срок временного ввоз/вывоза менее 1 года, 2- если срок временного ввоз/вывоза более 1 года.
+     * Set the 'TemporaryImportCode' element value. РљРѕРґ СЃСЂРѕРєР° РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°. 1- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° РјРµРЅРµРµ 1 РіРѕРґР°, 2- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° Р±РѕР»РµРµ 1 РіРѕРґР°.
      * 
      * @param temporaryImportCode
      */

@@ -191,7 +191,39 @@ public class EnvelopeService implements IGenericService
 			return null;
 		
 		return msgs.get( 0 ).getDocumentId( );
-	}	
+	}
+
+    /**
+     * Получение всех сообщенией 11146 и 11096 с контейнером в статусе current. Костыль
+     * @param processId
+     * @return
+     * @throws DatabaseException
+     */
+    public List< Edecl_Messages > getMessagesByProcessIdForCMN11146WithCurrentDocuments( String processId )
+            throws DatabaseException
+    {
+        StringBuilder request = new StringBuilder( );
+
+        request.append( "select message from Edecl_Messages message join Edecl_Msg_Doc doc on doc.documentID = message.documentId" );
+        request.append( "where message.processId = :processId " );
+        request.append( " and ( message.messageType = 'CMN.11146' " );
+        request.append( " or message.messageType = 'CMN.11096' ) " );
+        request.append( " and not ( message.receiveDate is null )  and doc.state = 'CURRENT'" );
+        /*request.append( " and exists ( " );
+        request.append( " select resMessage from Edecl_Messages resMessage " );
+        request.append( "where ( resMessage.messageType = 'CMN.00004' " );
+        request.append( " or resMessage.messageType = 'ADM.00006' ) " );
+        request.append( " and ( resMessage.initialEnvelopeId = message.envelopeId " );
+        request.append( " or resMessage.incomeEnvelopeId = message.envelopeId ) ) " );
+        request.append( "order by message.receiveDate desc " );*/
+
+        Map< String, Object > arguments = new HashMap< String, Object >( );
+        arguments.put( "processId", processId );
+
+        List< Edecl_Messages > msgs = _edeclMessages.select( request.toString( ), arguments );
+
+        return msgs;
+    }
 	
 	public String getGlobalDocumentId( String refDocumentId ) 
 		throws DatabaseException
@@ -225,6 +257,35 @@ public class EnvelopeService implements IGenericService
 		
 		return res.get( 0 );
 	}
+
+    public String getEnvelope11052InnerByEnvelopeId( String envelopeId )
+            throws DatabaseException
+    {
+        StringBuilder q = new StringBuilder( );
+
+        //по 92 берем инитиал и ищем 95
+        q.append( "select msg from Edecl_Messages msg " );
+        q.append( "where msg.envelopeId = :envelopeId" );
+
+        Map< String, Object > args = new HashMap< String, Object >( );
+        args.put( "envelopeId", envelopeId );
+
+        List< Edecl_Messages > res = _edeclMessages.select( q.toString( ), args );
+        if ( null == res || 0 == res.size( ) )
+            return "";
+
+        String envelope95 = res.get( 0 ).getIncomeEnvelopeId();
+        q = new StringBuilder();
+        q.append( "select msg from Edecl_Messages msg " );
+        q.append( "where msg.incomeEnvelopeId = :envelopeId and msg.messageType='CMN.11052'" );
+        args = new HashMap< String, Object >( );
+        args.put( "envelopeId", envelope95 );
+
+        res = _edeclMessages.select( q.toString( ), args );
+        if ( null == res || 0 == res.size( ) )
+            return "";
+        return res.get(0).getEnvelopeId();
+    }
 	
 	public Edecl_Messages getEnvelope_RefDocumentId( String documentId )
 		throws DatabaseException
@@ -389,6 +450,23 @@ public class EnvelopeService implements IGenericService
 		
 		return rdocs.get( 0 );
 	}
+
+    public Edecl_Reqdoc_Info getReqDocInfo( String requestPositionId)
+            throws DatabaseException
+    {
+        StringBuilder q = new StringBuilder( );
+        q.append( "select rdoc from Edecl_Reqdoc_Info rdoc " );
+        q.append( "where rdoc.positionId = :requestPositionId " );
+
+        Map< String, Object > args = new HashMap< String, Object >( );
+        args.put( "requestPositionId", requestPositionId );
+
+        List< Edecl_Reqdoc_Info > rdocs = _edeclReqDocInfo.select( q.toString( ), args );
+        if ( null == rdocs || 0 == rdocs.size( ) )
+            return null;
+
+        return rdocs.get( 0 );
+    }
 	
 	public Edecl_Messages getEnvelopeByDocumentId( String documentId )
 		throws DatabaseException

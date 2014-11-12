@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Результат обработки строки записи
+ * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё СЃС‚СЂРѕРєРё Р·Р°РїРёСЃРё
  */
 public class RowResultType
 {
@@ -15,7 +15,7 @@ public class RowResultType
     private String infoCode;
 
     /** 
-     * Get the 'RowID' element value. Идентификатор записи
+     * Get the 'RowID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RowResultType
     }
 
     /** 
-     * Set the 'RowID' element value. Идентификатор записи
+     * Set the 'RowID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё
      * 
      * @param rowID
      */
@@ -33,7 +33,7 @@ public class RowResultType
     }
 
     /** 
-     * Get the 'ResultCode' element value. Результат(код)
+     * Get the 'ResultCode' element value. Р РµР·СѓР»СЊС‚Р°С‚(РєРѕРґ)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RowResultType
     }
 
     /** 
-     * Set the 'ResultCode' element value. Результат(код)
+     * Set the 'ResultCode' element value. Р РµР·СѓР»СЊС‚Р°С‚(РєРѕРґ)
      * 
      * @param resultCode
      */
@@ -51,7 +51,7 @@ public class RowResultType
     }
 
     /** 
-     * Get the list of 'ResultDescription' element items. Описание
+     * Get the list of 'ResultDescription' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class RowResultType
     }
 
     /** 
-     * Set the list of 'ResultDescription' element items. Описание
+     * Set the list of 'ResultDescription' element items. РћРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class RowResultType
     }
 
     /** 
-     * Get the 'InfoCode' element value. Информационный код
+     * Get the 'InfoCode' element value. РРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RowResultType
     }
 
     /** 
-     * Set the 'InfoCode' element value. Информационный код
+     * Set the 'InfoCode' element value. РРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ
      * 
      * @param infoCode
      */

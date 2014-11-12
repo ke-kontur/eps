@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.gtdreference;
 
 /** 
- * Раздел Б.Сведения о сделках
+ * Р Р°Р·РґРµР» Р‘.РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С…
  */
 public class BSideDealInfoType
 {
@@ -10,7 +10,7 @@ public class BSideDealInfoType
     private OrgDealInfoType buyer;
 
     /** 
-     * Get the 'Seller' element value. Сведения, касающиеся организации-продавца
+     * Get the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ, РєР°СЃР°СЋС‰РёРµСЃСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїСЂРѕРґР°РІС†Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class BSideDealInfoType
     }
 
     /** 
-     * Set the 'Seller' element value. Сведения, касающиеся организации-продавца
+     * Set the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ, РєР°СЃР°СЋС‰РёРµСЃСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїСЂРѕРґР°РІС†Р°
      * 
      * @param seller
      */
@@ -28,7 +28,7 @@ public class BSideDealInfoType
     }
 
     /** 
-     * Get the 'Buyer' element value. Сведения, касающиеся организации-покупателя
+     * Get the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ, РєР°СЃР°СЋС‰РёРµСЃСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРѕРєСѓРїР°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class BSideDealInfoType
     }
 
     /** 
-     * Set the 'Buyer' element value. Сведения, касающиеся организации-покупателя
+     * Set the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ, РєР°СЃР°СЋС‰РёРµСЃСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРѕРєСѓРїР°С‚РµР»СЏ
      * 
      * @param buyer
      */

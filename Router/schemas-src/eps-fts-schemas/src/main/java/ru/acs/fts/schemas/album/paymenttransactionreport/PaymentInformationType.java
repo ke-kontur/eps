@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.cardcommonaggregatetypes.DocumentBaseType;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.OrganizationBaseType;
 
 /** 
- * Сведения о платеже
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
  */
 public class PaymentInformationType
 {
@@ -25,7 +25,7 @@ public class PaymentInformationType
     private OrganizationBaseType systemOperator;
 
     /** 
-     * Get the 'ProcessingDate' element value. Дата обработки оператором таможенных платежей операции уплаты таможенных и иных платежей
+     * Get the 'ProcessingDate' element value. Р”Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё РѕРїРµСЂР°С‚РѕСЂРѕРј С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РѕРїРµСЂР°С†РёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'ProcessingDate' element value. Дата обработки оператором таможенных платежей операции уплаты таможенных и иных платежей
+     * Set the 'ProcessingDate' element value. Р”Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё РѕРїРµСЂР°С‚РѕСЂРѕРј С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РѕРїРµСЂР°С†РёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param processingDate
      */
@@ -43,7 +43,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты платежа
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты платежа
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
      * 
      * @param currencyCode
      */
@@ -61,7 +61,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'Amount' element value. Сумма платежа
+     * Get the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма платежа
+     * Set the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param amount
      */
@@ -79,7 +79,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentDocumentKind' element value. Тип платежного документа: 01 - таможенная платежная карта; 02 - банковская карта; 03 - наличные денежные средства; 04 - зарезервировано
+     * Get the 'PaymentDocumentKind' element value. РўРёРї РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°: 01 - С‚Р°РјРѕР¶РµРЅРЅР°СЏ РїР»Р°С‚РµР¶РЅР°СЏ РєР°СЂС‚Р°; 02 - Р±Р°РЅРєРѕРІСЃРєР°СЏ РєР°СЂС‚Р°; 03 - РЅР°Р»РёС‡РЅС‹Рµ РґРµРЅРµР¶РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°; 04 - Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРѕ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentDocumentKind' element value. Тип платежного документа: 01 - таможенная платежная карта; 02 - банковская карта; 03 - наличные денежные средства; 04 - зарезервировано
+     * Set the 'PaymentDocumentKind' element value. РўРёРї РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°: 01 - С‚Р°РјРѕР¶РµРЅРЅР°СЏ РїР»Р°С‚РµР¶РЅР°СЏ РєР°СЂС‚Р°; 02 - Р±Р°РЅРєРѕРІСЃРєР°СЏ РєР°СЂС‚Р°; 03 - РЅР°Р»РёС‡РЅС‹Рµ РґРµРЅРµР¶РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°; 04 - Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРѕ
      * 
      * @param paymentDocumentKind
      */
@@ -97,7 +97,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'BankTransactionID' element value. Уникальный идентификатор банковской операции
+     * Get the 'BankTransactionID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р°РЅРєРѕРІСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'BankTransactionID' element value. Уникальный идентификатор банковской операции
+     * Set the 'BankTransactionID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р°РЅРєРѕРІСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
      * 
      * @param bankTransactionID
      */
@@ -115,7 +115,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа - получателя платежа
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° - РїРѕР»СѓС‡Р°С‚РµР»СЏ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа - получателя платежа
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° - РїРѕР»СѓС‡Р°С‚РµР»СЏ РїР»Р°С‚РµР¶Р°
      * 
      * @param customsCode
      */
@@ -133,7 +133,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentDate' element value. Дата совершения платежа
+     * Get the 'PaymentDate' element value. Р”Р°С‚Р° СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentDate' element value. Дата совершения платежа
+     * Set the 'PaymentDate' element value. Р”Р°С‚Р° СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentDate
      */
@@ -151,7 +151,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentTime' element value. Время совершения платежа
+     * Get the 'PaymentTime' element value. Р’СЂРµРјСЏ СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentTime' element value. Время совершения платежа
+     * Set the 'PaymentTime' element value. Р’СЂРµРјСЏ СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentTime
      */
@@ -169,7 +169,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentAsgmtIndicator' element value. Показатель основания платежа
+     * Get the 'PaymentAsgmtIndicator' element value. РџРѕРєР°Р·Р°С‚РµР»СЊ РѕСЃРЅРѕРІР°РЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentAsgmtIndicator' element value. Показатель основания платежа
+     * Set the 'PaymentAsgmtIndicator' element value. РџРѕРєР°Р·Р°С‚РµР»СЊ РѕСЃРЅРѕРІР°РЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentAsgmtIndicator
      */
@@ -187,7 +187,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'CBC' element value. Код бюджетной классификации
+     * Get the 'CBC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'CBC' element value. Код бюджетной классификации
+     * Set the 'CBC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
      * 
      * @param CBC
      */
@@ -205,7 +205,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentKind' element value. Код вида платежа
+     * Get the 'PaymentKind' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentKind' element value. Код вида платежа
+     * Set the 'PaymentKind' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentKind
      */
@@ -223,7 +223,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentBaseDocument' element value. Документ, являющийся основанием для совершения платежа
+     * Get the 'PaymentBaseDocument' element value. Р”РѕРєСѓРјРµРЅС‚, СЏРІР»СЏСЋС‰РёР№СЃСЏ РѕСЃРЅРѕРІР°РЅРёРµРј РґР»СЏ СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentBaseDocument' element value. Документ, являющийся основанием для совершения платежа
+     * Set the 'PaymentBaseDocument' element value. Р”РѕРєСѓРјРµРЅС‚, СЏРІР»СЏСЋС‰РёР№СЃСЏ РѕСЃРЅРѕРІР°РЅРёРµРј РґР»СЏ СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentBaseDocument
      */
@@ -241,7 +241,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'SystemOperator' element value. Оператор системы, в которой оформлен платеж
+     * Get the 'SystemOperator' element value. РћРїРµСЂР°С‚РѕСЂ СЃРёСЃС‚РµРјС‹, РІ РєРѕС‚РѕСЂРѕР№ РѕС„РѕСЂРјР»РµРЅ РїР»Р°С‚РµР¶
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'SystemOperator' element value. Оператор системы, в которой оформлен платеж
+     * Set the 'SystemOperator' element value. РћРїРµСЂР°С‚РѕСЂ СЃРёСЃС‚РµРјС‹, РІ РєРѕС‚РѕСЂРѕР№ РѕС„РѕСЂРјР»РµРЅ РїР»Р°С‚РµР¶
      * 
      * @param systemOperator
      */

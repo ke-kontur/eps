@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mvdtransitweapon;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Описание оружия (патронов)
+ * РћРїРёСЃР°РЅРёРµ РѕСЂСѓР¶РёСЏ (РїР°С‚СЂРѕРЅРѕРІ)
  */
 public class WeaponDescriptionType
 {
@@ -14,7 +14,7 @@ public class WeaponDescriptionType
     private SupplementaryQuantityType addQuantity;
 
     /** 
-     * Get the 'Kind' element value. Вид оружия
+     * Get the 'Kind' element value. Р’РёРґ РѕСЂСѓР¶РёСЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Set the 'Kind' element value. Вид оружия
+     * Set the 'Kind' element value. Р’РёРґ РѕСЂСѓР¶РёСЏ
      * 
      * @param kind
      */
@@ -32,7 +32,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Get the 'Type' element value. Тип оружия
+     * Get the 'Type' element value. РўРёРї РѕСЂСѓР¶РёСЏ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Set the 'Type' element value. Тип оружия
+     * Set the 'Type' element value. РўРёРї РѕСЂСѓР¶РёСЏ
      * 
      * @param type
      */
@@ -50,7 +50,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */
@@ -68,7 +68,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Get the 'AddQuantity' element value. Количество в дополнительной единице измерения
+     * Get the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class WeaponDescriptionType
     }
 
     /** 
-     * Set the 'AddQuantity' element value. Количество в дополнительной единице измерения
+     * Set the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param addQuantity
      */

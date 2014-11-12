@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.serviceinvoice;
 
 /** 
- * Параметры оплаты услуг
+ * РџР°СЂР°РјРµС‚СЂС‹ РѕРїР»Р°С‚С‹ СѓСЃР»СѓРі
  */
 public class PaymentDetailsType
 {
@@ -10,7 +10,7 @@ public class PaymentDetailsType
     private String currency;
 
     /** 
-     * Get the 'Amount' element value. Сумма
+     * Get the 'Amount' element value. РЎСѓРјРјР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Set the 'Amount' element value. Сумма
+     * Set the 'Amount' element value. РЎСѓРјРјР°
      * 
      * @param amount
      */
@@ -28,7 +28,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Get the 'Currency' element value. Код валюты
+     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Set the 'Currency' element value. Код валюты
+     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currency
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADCommonOfficialMarkType;
 
 /** 
- * Служебные отметки ДТ 
+ * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў 
  */
 public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
 {
@@ -18,7 +18,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     private String guaranteeFoundation;
 
     /** 
-     * Get the 'StageDescription' element value. Описание этапа.
+     * Get the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'StageDescription' element value. Описание этапа.
+     * Set the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
      * 
      * @param stageDescription
      */
@@ -36,7 +36,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'IdentifierDescription' element value. Описание типа примечания
+     * Get the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° РїСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'IdentifierDescription' element value. Описание типа примечания
+     * Set the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° РїСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @param identifierDescription
      */
@@ -54,7 +54,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'INPI_GUID' element value. Идентификационный номер предварительной информации о товарах, направленной таможенными органами Турецкой Республики в ЕАИС таможенных органов Российской Федерации (глобальный идентификатор)
+     * Get the 'INPI_GUID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С‚РѕРІР°СЂР°С…, РЅР°РїСЂР°РІР»РµРЅРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё РўСѓСЂРµС†РєРѕР№ Р РµСЃРїСѓР±Р»РёРєРё РІ Р•РђРРЎ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё (РіР»РѕР±Р°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'INPI_GUID' element value. Идентификационный номер предварительной информации о товарах, направленной таможенными органами Турецкой Республики в ЕАИС таможенных органов Российской Федерации (глобальный идентификатор)
+     * Set the 'INPI_GUID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С‚РѕРІР°СЂР°С…, РЅР°РїСЂР°РІР»РµРЅРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё РўСѓСЂРµС†РєРѕР№ Р РµСЃРїСѓР±Р»РёРєРё РІ Р•РђРРЎ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё (РіР»РѕР±Р°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ)
      * 
      * @param INPIGUID
      */
@@ -72,7 +72,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GoodsPresentDate' element value. Дата представления товаров
+     * Get the 'GoodsPresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GoodsPresentDate' element value. Дата представления товаров
+     * Set the 'GoodsPresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsPresentDate
      */
@@ -90,7 +90,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GoodsPresentTime' element value. Время представления товаров
+     * Get the 'GoodsPresentTime' element value. Р’СЂРµРјСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GoodsPresentTime' element value. Время представления товаров
+     * Set the 'GoodsPresentTime' element value. Р’СЂРµРјСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param goodsPresentTime
      */
@@ -108,7 +108,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. Код способа обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
+     * Get the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. Код способа обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
+     * Set the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @param paymentWayCode
      */
@@ -126,7 +126,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GuaranteeFoundation' element value. Основание предоставления обеспечения уплаты таможенных  пошлин, налогов, специальных, антидемпинговых, компенсационных пошлин
+     * Get the 'GuaranteeFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ, СЃРїРµС†РёР°Р»СЊРЅС‹С…, Р°РЅС‚РёРґРµРјРїРёРЅРіРѕРІС‹С…, РєРѕРјРїРµРЅСЃР°С†РёРѕРЅРЅС‹С… РїРѕС€Р»РёРЅ
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class GTDInCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GuaranteeFoundation' element value. Основание предоставления обеспечения уплаты таможенных  пошлин, налогов, специальных, антидемпинговых, компенсационных пошлин
+     * Set the 'GuaranteeFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ, СЃРїРµС†РёР°Р»СЊРЅС‹С…, Р°РЅС‚РёРґРµРјРїРёРЅРіРѕРІС‹С…, РєРѕРјРїРµРЅСЃР°С†РёРѕРЅРЅС‹С… РїРѕС€Р»РёРЅ
      * 
      * @param guaranteeFoundation
      */

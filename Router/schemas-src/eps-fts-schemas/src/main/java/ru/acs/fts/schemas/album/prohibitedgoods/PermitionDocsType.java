@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.prohibitedgoods;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Информация о разрешительных документах
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
  */
 public class PermitionDocsType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class PermitionDocsType extends DocumentBaseType
     private String permitDocOrganization;
 
     /** 
-     * Get the 'DocumentDescriprion' element value. Описание разрешительного документа
+     * Get the 'DocumentDescriprion' element value. РћРїРёСЃР°РЅРёРµ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PermitionDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentDescriprion' element value. Описание разрешительного документа
+     * Set the 'DocumentDescriprion' element value. РћРїРёСЃР°РЅРёРµ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentDescriprion
      */
@@ -30,7 +30,7 @@ public class PermitionDocsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PermitDocOrganization' element value. Наименование организации, выдавшей разрешительный документ
+     * Get the 'PermitDocOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PermitionDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PermitDocOrganization' element value. Наименование организации, выдавшей разрешительный документ
+     * Set the 'PermitDocOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param permitDocOrganization
      */

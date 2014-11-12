@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * Информация о товаре
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class CommodityType extends GoodsBaseType
 {
@@ -15,7 +15,7 @@ public class CommodityType extends GoodsBaseType
     private WHSuppQuantityType goodsValue;
 
     /** 
-     * Get the 'GoodsNumberInStorageQuitance' element value. Порядковый номер товара в складской квитанции, по которой товар помещен на склад
+     * Get the 'GoodsNumberInStorageQuitance' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂ РїРѕРјРµС‰РµРЅ РЅР° СЃРєР»Р°Рґ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumberInStorageQuitance' element value. Порядковый номер товара в складской квитанции, по которой товар помещен на склад
+     * Set the 'GoodsNumberInStorageQuitance' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂ РїРѕРјРµС‰РµРЅ РЅР° СЃРєР»Р°Рґ
      * 
      * @param goodsNumberInStorageQuitance
      */
@@ -34,7 +34,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsNumberInGTD' element value. Порядковый номер товара в ДТ, по которой принят груз
+     * Get the 'GoodsNumberInGTD' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРёРЅСЏС‚ РіСЂСѓР·
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumberInGTD' element value. Порядковый номер товара в ДТ, по которой принят груз
+     * Set the 'GoodsNumberInGTD' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРёРЅСЏС‚ РіСЂСѓР·
      * 
      * @param goodsNumberInGTD
      */
@@ -52,7 +52,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'IndividualCharacteristics' element value. Индивидуальные признаки товара
+     * Get the 'IndividualCharacteristics' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РїСЂРёР·РЅР°РєРё С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'IndividualCharacteristics' element value. Индивидуальные признаки товара
+     * Set the 'IndividualCharacteristics' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РїСЂРёР·РЅР°РєРё С‚РѕРІР°СЂР°
      * 
      * @param individualCharacteristics
      */
@@ -70,7 +70,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsValue' element value. Количество принятого товара
+     * Get the 'GoodsValue' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРЅСЏС‚РѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CommodityType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsValue' element value. Количество принятого товара
+     * Set the 'GoodsValue' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРЅСЏС‚РѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @param goodsValue
      */

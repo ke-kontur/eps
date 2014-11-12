@@ -1,0 +1,16 @@
+<binding xmlns:gsreq="urn:customs.ru:Information:ExchangeDocuments:GuaranteeStatusReq:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:GuaranteeStatusReq:5.4.3" default="elements" prefix="gsreq"/>
+  <mapping abstract="true" type-name="gsreq:GuaranteeIDType" class="ru.acs.fts.schemas.album.guaranteestatusreq.GuaranteeIDType">
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID"/>
+    <value style="element" name="ContractNumber" get-method="getContractNumber" set-method="setContractNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="gsreq:GuaranteeStatusReqType" class="ru.acs.fts.schemas.album.guaranteestatusreq.GuaranteeStatusReqType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <structure map-as="gsreq:GuaranteeIDType" get-method="getGuaranteeID" set-method="setGuaranteeID" name="GuaranteeID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteestatusreq.GuaranteeStatusReqType" name="GuaranteeStatusReq">
+    <structure map-as="gsreq:GuaranteeStatusReqType"/>
+  </mapping>
+</binding>

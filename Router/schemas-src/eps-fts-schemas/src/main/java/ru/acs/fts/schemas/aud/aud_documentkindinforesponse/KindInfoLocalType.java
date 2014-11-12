@@ -14,7 +14,7 @@ public class KindInfoLocalType
     private List<AUDDocumentAttributeInfoType> documentCommonAttributeList = new ArrayList<AUDDocumentAttributeInfoType>();
 
     /** 
-     * Get the 'AppliedDocumentKindId' element value. Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.
+     * Get the 'AppliedDocumentKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ Р·РЅР°С‡РµРЅРёСЋ Р°С‚СЂРёР±СѓС‚Р° 'DocumentModeID' ("РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ.") РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Set the 'AppliedDocumentKindId' element value. Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.
+     * Set the 'AppliedDocumentKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ Р·РЅР°С‡РµРЅРёСЋ Р°С‚СЂРёР±СѓС‚Р° 'DocumentModeID' ("РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ.") РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param appliedDocumentKindId
      */
@@ -32,7 +32,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Get the 'Description' element value. Описание  вида документа.
+     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ  РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Set the 'Description' element value. Описание  вида документа.
+     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ  РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param description
      */
@@ -50,7 +50,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Get the list of 'DocumentKindVersionInfo' element items. Информация о версии вида документов.
+     * Get the list of 'DocumentKindVersionInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Set the list of 'DocumentKindVersionInfo' element items. Информация о версии вида документов.
+     * Set the list of 'DocumentKindVersionInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚РѕРІ.
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Get the list of 'DocumentCommonAttribute' element items. Информация о реквизите документа
+     * Get the list of 'DocumentCommonAttribute' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class KindInfoLocalType
     }
 
     /** 
-     * Set the list of 'DocumentCommonAttribute' element items. Информация о реквизите документа
+     * Set the list of 'DocumentCommonAttribute' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param list
      */

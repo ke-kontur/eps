@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.gtdobligationin;
 
 /** 
- * Документы, подтверждающие уплату таможенных платежей.
+ * Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ СѓРїР»Р°С‚Сѓ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
  */
 public class ConfPaytDocumentsType
 {
@@ -11,7 +11,7 @@ public class ConfPaytDocumentsType
     private ObligDecisionType obligDecision;
 
     /** 
-     * Get the 'PayDocument' element value. Признак принятия обеспечения уплаты таможенных платежей
+     * Get the 'PayDocument' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ConfPaytDocumentsType
     }
 
     /** 
-     * Set the 'PayDocument' element value. Признак принятия обеспечения уплаты таможенных платежей
+     * Set the 'PayDocument' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param payDocument
      */
@@ -29,7 +29,7 @@ public class ConfPaytDocumentsType
     }
 
     /** 
-     * Get the 'NotRequiredPayment' element value. Признак того, что обеспечение уплаты таможенных платежей не требуется
+     * Get the 'NotRequiredPayment' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ConfPaytDocumentsType
     }
 
     /** 
-     * Set the 'NotRequiredPayment' element value. Признак того, что обеспечение уплаты таможенных платежей не требуется
+     * Set the 'NotRequiredPayment' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ
      * 
      * @param notRequiredPayment
      */
@@ -47,7 +47,7 @@ public class ConfPaytDocumentsType
     }
 
     /** 
-     * Get the 'ObligDecision' element value. Решение по выпуску товаров
+     * Get the 'ObligDecision' element value. Р РµС€РµРЅРёРµ РїРѕ РІС‹РїСѓСЃРєСѓ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ConfPaytDocumentsType
     }
 
     /** 
-     * Set the 'ObligDecision' element value. Решение по выпуску товаров
+     * Set the 'ObligDecision' element value. Р РµС€РµРЅРёРµ РїРѕ РІС‹РїСѓСЃРєСѓ С‚РѕРІР°СЂРѕРІ
      * 
      * @param obligDecision
      */

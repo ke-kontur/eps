@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.confirmdecldocsrecip;
 import org.joda.time.LocalDate;
 
 /** 
- * Решение декларанта
+ * Р РµС€РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р°
  */
 public class DeclDecisionType
 {
@@ -14,7 +14,7 @@ public class DeclDecisionType
     private InspectionPlaceType inspectionPlace;
 
     /** 
-     * Get the 'DeclAgree' element value. Признак согласия декларанта прибыть на досмотр
+     * Get the 'DeclAgree' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ РґРµРєР»Р°СЂР°РЅС‚Р° РїСЂРёР±С‹С‚СЊ РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Set the 'DeclAgree' element value. Признак согласия декларанта прибыть на досмотр
+     * Set the 'DeclAgree' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ РґРµРєР»Р°СЂР°РЅС‚Р° РїСЂРёР±С‹С‚СЊ РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @param declAgree
      */
@@ -32,7 +32,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Get the 'DeclDate' element value. Дата прибытия декларанта на досмотр
+     * Get the 'DeclDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ РґРµРєР»Р°СЂР°РЅС‚Р° РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Set the 'DeclDate' element value. Дата прибытия декларанта на досмотр
+     * Set the 'DeclDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ РґРµРєР»Р°СЂР°РЅС‚Р° РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @param declDate
      */
@@ -50,7 +50,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Get the 'DeclTime' element value. Время прибытия декларанта на досмотр
+     * Get the 'DeclTime' element value. Р’СЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ РґРµРєР»Р°СЂР°РЅС‚Р° РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Set the 'DeclTime' element value. Время прибытия декларанта на досмотр
+     * Set the 'DeclTime' element value. Р’СЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ РґРµРєР»Р°СЂР°РЅС‚Р° РЅР° РґРѕСЃРјРѕС‚СЂ
      * 
      * @param declTime
      */
@@ -68,7 +68,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Get the 'InspectionPlace' element value. Описание места проведения досмотра
+     * Get the 'InspectionPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DeclDecisionType
     }
 
     /** 
-     * Set the 'InspectionPlace' element value. Описание места проведения досмотра
+     * Set the 'InspectionPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspectionPlace
      */

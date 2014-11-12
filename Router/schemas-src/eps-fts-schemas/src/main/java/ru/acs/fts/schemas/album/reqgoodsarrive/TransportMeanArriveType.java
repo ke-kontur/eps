@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Описание транспортного средства
+ * РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
  */
 public class TransportMeanArriveType extends TransportMeansBaseType
 {
@@ -14,7 +14,7 @@ public class TransportMeanArriveType extends TransportMeansBaseType
     private String note;
 
     /** 
-     * Get the 'TransportMeanArriveFlag' element value. Индикатор нахождения транспортного средства в зоне таможенного контроля
+     * Get the 'TransportMeanArriveFlag' element value. РРЅРґРёРєР°С‚РѕСЂ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ Р·РѕРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportMeanArriveType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportMeanArriveFlag' element value. Индикатор нахождения транспортного средства в зоне таможенного контроля
+     * Set the 'TransportMeanArriveFlag' element value. РРЅРґРёРєР°С‚РѕСЂ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ Р·РѕРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
      * 
      * @param transportMeanArriveFlag
      */
@@ -32,7 +32,7 @@ public class TransportMeanArriveType extends TransportMeansBaseType
     }
 
     /** 
-     * Get the 'Date' element value. Дата пересечения таможенной границы
+     * Get the 'Date' element value. Р”Р°С‚Р° РїРµСЂРµСЃРµС‡РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РіСЂР°РЅРёС†С‹
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TransportMeanArriveType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'Date' element value. Дата пересечения таможенной границы
+     * Set the 'Date' element value. Р”Р°С‚Р° РїРµСЂРµСЃРµС‡РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РіСЂР°РЅРёС†С‹
      * 
      * @param date
      */
@@ -50,7 +50,7 @@ public class TransportMeanArriveType extends TransportMeansBaseType
     }
 
     /** 
-     * Get the 'Note' element value. Примечание
+     * Get the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TransportMeanArriveType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'Note' element value. Примечание
+     * Set the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param note
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inqinotreatment;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Контракт или иные документы, в соответствии с которыми товары ввозятся /вывозятся  на переработку
+ * РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё С‚РѕРІР°СЂС‹ РІРІРѕР·СЏС‚СЃСЏ /РІС‹РІРѕР·СЏС‚СЃСЏ  РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
  */
 public class TreatContractsType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class TreatContractsType extends DocumentBaseType
     private String companyName;
 
     /** 
-     * Get the 'CompanyCountry' element value. Страна, где расположена иностранная организация
+     * Get the 'CompanyCountry' element value. РЎС‚СЂР°РЅР°, РіРґРµ СЂР°СЃРїРѕР»РѕР¶РµРЅР° РёРЅРѕСЃС‚СЂР°РЅРЅР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TreatContractsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CompanyCountry' element value. Страна, где расположена иностранная организация
+     * Set the 'CompanyCountry' element value. РЎС‚СЂР°РЅР°, РіРґРµ СЂР°СЃРїРѕР»РѕР¶РµРЅР° РёРЅРѕСЃС‚СЂР°РЅРЅР°СЏ РѕСЂРіР°РЅРёР·Р°С†РёСЏ
      * 
      * @param companyCountry
      */
@@ -30,7 +30,7 @@ public class TreatContractsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'CompanyName' element value. Наименование иностранной организации
+     * Get the 'CompanyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TreatContractsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CompanyName' element value. Наименование иностранной организации
+     * Set the 'CompanyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param companyName
      */

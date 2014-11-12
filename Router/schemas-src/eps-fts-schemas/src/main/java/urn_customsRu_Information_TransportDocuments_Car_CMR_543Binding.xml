@@ -1,0 +1,111 @@
+<binding xmlns:cmr="urn:customs.ru:Information:TransportDocuments:Car:CMR:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3" xmlns:catTrans_cu="urn:customs.ru:Information:TransportDocuments:CUTransportCommonAgregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Car:CMR:5.4.3" default="elements" prefix="cmr"/>
+  <mapping abstract="true" type-name="cmr:CMRType" class="ru.acs.fts.schemas.album.cmr.CMRType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="LanguageCode" get-method="getLanguageCode" set-method="setLanguageCode"/>
+    <value style="element" name="CarrierNotice" get-method="getCarrierNotice" set-method="setCarrierNotice" usage="optional"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="GoodsCost" get-method="getGoodsCost" set-method="setGoodsCost" usage="optional"/>
+    <value style="element" name="StampSign" get-method="getStampSign" set-method="setStampSign"/>
+    <structure map-as="cmr:RegistrationDocumentType" get-method="getRegistrationDocument" set-method="setRegistrationDocument" name="RegistrationDocument"/>
+    <structure map-as="cmr:CMRConsignorType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="cmr:CMRCarrierType" get-method="getCarrier" set-method="setCarrier" name="Carrier"/>
+    <structure map-as="cat_ru:AddressType" get-method="getDeliveryPlace" set-method="setDeliveryPlace" usage="optional" name="DeliveryPlace"/>
+    <structure map-as="cmr:CarrierType" get-method="getNextCarrier" set-method="setNextCarrier" usage="optional" name="NextCarrier"/>
+    <collection get-method="getEnclosedDocumentList" set-method="setEnclosedDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_ru:DocumentType" name="EnclosedDocument"/>
+    </collection>
+    <collection get-method="getCMRGoodList" set-method="setCMRGoodList" create-type="java.util.ArrayList">
+      <structure map-as="cmr:CMRGoodsType" name="CMRGoods"/>
+    </collection>
+    <structure map-as="cmr:ConsigneeCustomsType" get-method="getConsigneeCustoms" set-method="setConsigneeCustoms" usage="optional" name="ConsigneeCustoms"/>
+    <structure map-as="cmr:CMRDeliveryTermsType" get-method="getDeliveryTerms" set-method="setDeliveryTerms" name="DeliveryTerms"/>
+    <structure map-as="cmr:CMRTransportType" get-method="getCMRTransport" set-method="setCMRTransport" usage="optional" name="CMRTransport"/>
+    <structure map-as="cmr:TakingCargoType" get-method="getTakingCargo" set-method="setTakingCargo" name="TakingCargo"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="cmr:CMRGoodsWeightType" test-method="ifCMRGoodsWeight" get-method="getCMRGoodsWeight" set-method="setCMRGoodsWeight" usage="optional" name="CMRGoodsWeight"/>
+      <structure map-as="cat_ru:SupplementaryQuantityType" test-method="ifCMRSupplementaryQuantity" get-method="getCMRSupplementaryQuantity" set-method="setCMRSupplementaryQuantity" usage="optional" name="CMR_SupplementaryQuantity"/>
+    </structure>
+    <structure map-as="cmr:CMRTransportCostType" get-method="getCMRTransportCost" set-method="setCMRTransportCost" usage="optional" name="CMRTransportCost"/>
+    <structure map-as="cmr:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.cmr.CMRType" name="CMR">
+    <structure map-as="cmr:CMRType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRCarrierType" class="ru.acs.fts.schemas.album.cmr.CMRCarrierType">
+    <structure map-as="cmr:CarrierType"/>
+    <value style="element" name="LicenseID" get-method="getLicenseID" set-method="setLicenseID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRConsignorType" class="ru.acs.fts.schemas.album.cmr.CMRConsignorType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <structure map-as="cat_ru:OrganizationType" get-method="getGuarantee" set-method="setGuarantee" usage="optional" name="Guarantee"/>
+    <structure map-as="cmr:TerminalType" get-method="getTerminal" set-method="setTerminal" usage="optional" name="Terminal"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRDeliveryTermsType" class="ru.acs.fts.schemas.album.cmr.CMRDeliveryTermsType">
+    <collection get-method="getDeliveryPlaceList" set-method="setDeliveryPlaceList" create-type="java.util.ArrayList">
+      <value style="element" name="DeliveryPlace" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="DeliveryTermsStringCode" get-method="getDeliveryTermsStringCode" set-method="setDeliveryTermsStringCode"/>
+    <value style="element" name="TermsDescription" get-method="getTermsDescription" set-method="setTermsDescription" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRGoodsType" class="ru.acs.fts.schemas.album.cmr.CMRGoodsType">
+    <structure map-as="catTrans_ru:TransportGoodsType"/>
+    <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <collection get-method="getGoodsPackingInfoList" set-method="setGoodsPackingInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catTrans_cu:TRPackingInfoType" name="GoodsPackingInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRGoodsWeightType" class="ru.acs.fts.schemas.album.cmr.CMRGoodsWeightType">
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRTransportCostType" class="ru.acs.fts.schemas.album.cmr.CMRTransportCostType">
+    <value style="element" name="TransportCost" get-method="getTransportCost" set-method="setTransportCost"/>
+    <value style="element" name="AdditionalCharges" get-method="getAdditionalCharges" set-method="setAdditionalCharges" usage="optional"/>
+    <value style="element" name="OtherCharges" get-method="getOtherCharges" set-method="setOtherCharges" usage="optional"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CMRTransportType" class="ru.acs.fts.schemas.album.cmr.CMRTransportType">
+    <value style="element" name="SpecialConditionsText" get-method="getSpecialConditionsText" set-method="setSpecialConditionsText" usage="optional"/>
+    <value style="element" name="PrimeMoverStateSignID" get-method="getPrimeMoverStateSignID" set-method="setPrimeMoverStateSignID"/>
+    <value style="element" name="TrailerStateSignID" get-method="getTrailerStateSignID" set-method="setTrailerStateSignID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:CarrierType" class="ru.acs.fts.schemas.album.cmr.CarrierType">
+    <structure map-as="cat_ru:OrganizationBaseType"/>
+    <value style="element" name="Phone" get-method="getPhone" set-method="setPhone" usage="optional"/>
+    <value style="element" name="OKPOID" get-method="getOKPOID" set-method="setOKPOID" usage="optional"/>
+    <value style="element" name="OKATOCode" get-method="getOKATOCode" set-method="setOKATOCode" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getPostalAddress" set-method="setPostalAddress" usage="optional" name="PostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:ConsigneeCustomsType" class="ru.acs.fts.schemas.album.cmr.ConsigneeCustomsType">
+    <value style="element" name="DestinationOfficeName" get-method="getDestinationOfficeName" set-method="setDestinationOfficeName"/>
+    <value style="element" name="WarehouseName" get-method="getWarehouseName" set-method="setWarehouseName" usage="optional"/>
+    <value style="element" name="DestinationOfficeIdenifier" get-method="getDestinationOfficeIdenifier" set-method="setDestinationOfficeIdenifier"/>
+    <value style="element" name="WarehouseLicenceID" get-method="getWarehouseLicenceID" set-method="setWarehouseLicenceID" usage="optional"/>
+    <value style="element" name="WarehouseLicenceDate" get-method="getWarehouseLicenceDate" set-method="setWarehouseLicenceDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:AddressType" get-method="getWarehousePostalAddress" set-method="setWarehousePostalAddress" usage="optional" name="WarehousePostalAddress"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:MarkType" class="ru.acs.fts.schemas.album.cmr.MarkType">
+    <value style="element" name="MarkSing" get-method="getMarkSing" set-method="setMarkSing"/>
+    <value style="element" name="MarkKind" get-method="getMarkKind" set-method="setMarkKind"/>
+    <value style="element" name="ResultControl" get-method="getResultControl" set-method="setResultControl" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:RegistrationDocumentType" class="ru.acs.fts.schemas.album.cmr.RegistrationDocumentType">
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="RegID" get-method="getRegID" set-method="setRegID" usage="optional"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:TakingCargoType" class="ru.acs.fts.schemas.album.cmr.TakingCargoType">
+    <value style="element" name="TakingCargoDate" get-method="getTakingCargoDate" set-method="setTakingCargoDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:AddressType" get-method="getTakingCargoPlace" set-method="setTakingCargoPlace" name="TakingCargoPlace"/>
+  </mapping>
+  <mapping abstract="true" type-name="cmr:TerminalType" class="ru.acs.fts.schemas.album.cmr.TerminalType">
+    <value style="element" name="TerminalName" get-method="getTerminalName" set-method="setTerminalName" usage="optional"/>
+    <value style="element" name="PlaceName" get-method="getPlaceName" set-method="setPlaceName" usage="optional"/>
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode" usage="optional"/>
+  </mapping>
+</binding>

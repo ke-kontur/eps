@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cmr;
 
 /** 
- * Информация о расходах, связанных с перевозкой груза (используется для заполнения графы 19).
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°СЃС…РѕРґР°С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РїРµСЂРµРІРѕР·РєРѕР№ РіСЂСѓР·Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РіСЂР°С„С‹ 19).
  */
 public class CMRTransportCostType
 {
@@ -13,7 +13,7 @@ public class CMRTransportCostType
     private String currencyCode;
 
     /** 
-     * Get the 'TransportCost' element value. Стоимость услуг по перевозке
+     * Get the 'TransportCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СѓСЃР»СѓРі РїРѕ РїРµСЂРµРІРѕР·РєРµ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Set the 'TransportCost' element value. Стоимость услуг по перевозке
+     * Set the 'TransportCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СѓСЃР»СѓРі РїРѕ РїРµСЂРµРІРѕР·РєРµ
      * 
      * @param transportCost
      */
@@ -31,7 +31,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Get the 'AdditionalCharges' element value. Дополнительные расходы, связанные с перевозкой грузов
+     * Get the 'AdditionalCharges' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЂР°СЃС…РѕРґС‹, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ РїРµСЂРµРІРѕР·РєРѕР№ РіСЂСѓР·РѕРІ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Set the 'AdditionalCharges' element value. Дополнительные расходы, связанные с перевозкой грузов
+     * Set the 'AdditionalCharges' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЂР°СЃС…РѕРґС‹, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ РїРµСЂРµРІРѕР·РєРѕР№ РіСЂСѓР·РѕРІ
      * 
      * @param additionalCharges
      */
@@ -49,7 +49,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Get the 'OtherCharges' element value. Прочие расходы, связанные с транспортировкой груза
+     * Get the 'OtherCharges' element value. РџСЂРѕС‡РёРµ СЂР°СЃС…РѕРґС‹, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРѕР№ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Set the 'OtherCharges' element value. Прочие расходы, связанные с транспортировкой груза
+     * Set the 'OtherCharges' element value. РџСЂРѕС‡РёРµ СЂР°СЃС…РѕРґС‹, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРѕР№ РіСЂСѓР·Р°
      * 
      * @param otherCharges
      */
@@ -67,7 +67,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Get the 'TotalCost' element value. Общая сумма расходов, связанных с транспортировкой груза
+     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЂР°СЃС…РѕРґРѕРІ, СЃРІСЏР·Р°РЅРЅС‹С… СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРѕР№ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Set the 'TotalCost' element value. Общая сумма расходов, связанных с транспортировкой груза
+     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЂР°СЃС…РѕРґРѕРІ, СЃРІСЏР·Р°РЅРЅС‹С… СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРѕР№ РіСЂСѓР·Р°
      * 
      * @param totalCost
      */
@@ -85,7 +85,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты . Указывается, если стоимость услуг выражена в иностранной валюте
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ . РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃС‚РѕРёРјРѕСЃС‚СЊ СѓСЃР»СѓРі РІС‹СЂР°Р¶РµРЅР° РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class CMRTransportCostType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты . Указывается, если стоимость услуг выражена в иностранной валюте
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ . РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё СЃС‚РѕРёРјРѕСЃС‚СЊ СѓСЃР»СѓРі РІС‹СЂР°Р¶РµРЅР° РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ
      * 
      * @param currencyCode
      */

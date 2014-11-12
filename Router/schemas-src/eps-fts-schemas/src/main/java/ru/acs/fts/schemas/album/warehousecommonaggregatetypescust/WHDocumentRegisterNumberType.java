@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Комплексный тип для регистрационного номера отчета ДО1/ДО2/ДО3 по журналу регистрации ДО таможенного органа
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРіРѕ РЅРѕРјРµСЂР° РѕС‚С‡РµС‚Р° Р”Рћ1/Р”Рћ2/Р”Рћ3 РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рћ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
  */
 public class WHDocumentRegisterNumberType extends GTDIDType
 {
@@ -40,7 +40,7 @@ public class WHDocumentRegisterNumberType extends GTDIDType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. Номер свидетельства о включении в реестр владельцев временного хранения
+     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class WHDocumentRegisterNumberType extends GTDIDType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. Номер свидетельства о включении в реестр владельцев временного хранения
+     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ
      * 
      * @param certificateNumber
      */
@@ -68,7 +68,7 @@ public class WHDocumentRegisterNumberType extends GTDIDType
     }
 
     /** 
-     * Get the 'OtherWHPlaceKind' element value. Цифровой признак места временного хранения в соответствии с нумерацией, установленной пунктом 34 Порядка
+     * Get the 'OtherWHPlaceKind' element value. Р¦РёС„СЂРѕРІРѕР№ РїСЂРёР·РЅР°Рє РјРµСЃС‚Р° РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅСѓРјРµСЂР°С†РёРµР№, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ РїСѓРЅРєС‚РѕРј 34 РџРѕСЂСЏРґРєР°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class WHDocumentRegisterNumberType extends GTDIDType
     }
 
     /** 
-     * Set the 'OtherWHPlaceKind' element value. Цифровой признак места временного хранения в соответствии с нумерацией, установленной пунктом 34 Порядка
+     * Set the 'OtherWHPlaceKind' element value. Р¦РёС„СЂРѕРІРѕР№ РїСЂРёР·РЅР°Рє РјРµСЃС‚Р° РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅСѓРјРµСЂР°С†РёРµР№, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ РїСѓРЅРєС‚РѕРј 34 РџРѕСЂСЏРґРєР°
      * 
      * @param otherWHPlaceKind
      */

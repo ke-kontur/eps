@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.notif_piresult;
 
 /** 
- * Информация об обработке документа
+ * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕР±СЂР°Р±РѕС‚РєРµ РґРѕРєСѓРјРµРЅС‚Р°
  */
 public class PIDocResultType
 {
@@ -11,7 +11,7 @@ public class PIDocResultType
     private String PIRegDateTime;
 
     /** 
-     * Get the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации.
+     * Get the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PIDocResultType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации.
+     * Set the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
      * 
      * @param PIRegID
      */
@@ -29,7 +29,7 @@ public class PIDocResultType
     }
 
     /** 
-     * Get the 'PI_Status' element value. Статус предварительной информации
+     * Get the 'PI_Status' element value. РЎС‚Р°С‚СѓСЃ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PIDocResultType
     }
 
     /** 
-     * Set the 'PI_Status' element value. Статус предварительной информации
+     * Set the 'PI_Status' element value. РЎС‚Р°С‚СѓСЃ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIStatus
      */
@@ -47,7 +47,7 @@ public class PIDocResultType
     }
 
     /** 
-     * Get the 'PI_RegDateTime' element value. Дата и время регистрации предварительной информации
+     * Get the 'PI_RegDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PIDocResultType
     }
 
     /** 
-     * Set the 'PI_RegDateTime' element value. Дата и время регистрации предварительной информации
+     * Set the 'PI_RegDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIRegDateTime
      */

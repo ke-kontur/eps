@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrganizationType;
 
 /** 
- * Опись документов, прилагаемая к заявлению на переработку товаров
+ * РћРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚РѕРІ, РїСЂРёР»Р°РіР°РµРјР°СЏ Рє Р·Р°СЏРІР»РµРЅРёСЋ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ
  */
 public class CustProcessingInventType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class CustProcessingInventType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InqDocumentID' element value. Уникальный идентификатор заявления на переработку
+     * Get the 'InqDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'InqDocumentID' element value. Уникальный идентификатор заявления на переработку
+     * Set the 'InqDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
      * 
      * @param inqDocumentID
      */
@@ -35,7 +35,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о заявителе
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о заявителе
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
      * 
      * @param declarant
      */
@@ -53,7 +53,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Документ из  описи
+     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР·  РѕРїРёСЃРё
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Документ из  описи
+     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР·  РѕРїРёСЃРё
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class CustProcessingInventType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

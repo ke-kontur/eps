@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Сведения о товарах счета-фактуры
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… СЃС‡РµС‚Р°-С„Р°РєС‚СѓСЂС‹
  */
 public class RussianInvoiceGoodsType
 {
@@ -28,7 +28,7 @@ public class RussianInvoiceGoodsType
     private AdditionalGoodsDescriptionType additionalGoodsDescription;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Описание поставляемого товара (услуги)
+     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ С‚РѕРІР°СЂР° (СѓСЃР»СѓРіРё)
      * 
      * @return list
      */
@@ -37,7 +37,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Описание поставляемого товара (услуги)
+     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ С‚РѕРІР°СЂР° (СѓСЃР»СѓРіРё)
      * 
      * @param list
      */
@@ -46,7 +46,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodMarking' element value. Артикул товара
+     * Get the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodMarking' element value. Артикул товара
+     * Set the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
      * 
      * @param goodMarking
      */
@@ -64,7 +64,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodsCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodsCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsCode
      */
@@ -82,7 +82,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'SupplementaryQualifierName' element value. Название дополнительной единицы измерения при возможности ее указания
+     * Get the 'SupplementaryQualifierName' element value. РќР°Р·РІР°РЅРёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'SupplementaryQualifierName' element value. Название дополнительной единицы измерения при возможности ее указания
+     * Set the 'SupplementaryQualifierName' element value. РќР°Р·РІР°РЅРёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
      * 
      * @param supplementaryQualifierName
      */
@@ -100,7 +100,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество товара, услуг исходя из принятых единиц измерения
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, СѓСЃР»СѓРі РёСЃС…РѕРґСЏ РёР· РїСЂРёРЅСЏС‚С‹С… РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество товара, услуг исходя из принятых единиц измерения
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, СѓСЃР»СѓРі РёСЃС…РѕРґСЏ РёР· РїСЂРёРЅСЏС‚С‹С… РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param goodsQuantity
      */
@@ -118,7 +118,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. Название единицы измерения при возможности ее указания
+     * Get the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. Название единицы измерения при возможности ее указания
+     * Set the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
      * 
      * @param measureUnitQualifierName
      */
@@ -136,7 +136,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodsPrice' element value. Цена товара/услуги
+     * Get the 'GoodsPrice' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°/СѓСЃР»СѓРіРё
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodsPrice' element value. Цена товара/услуги
+     * Set the 'GoodsPrice' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°/СѓСЃР»СѓРіРё
      * 
      * @param goodsPrice
      */
@@ -154,7 +154,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. Стоимость всего количества поставляемого (отгруженного) по счету - проформе товара (выполненных работ, оказанных услуг) без налога
+     * Get the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РїРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ (РѕС‚РіСЂСѓР¶РµРЅРЅРѕРіРѕ) РїРѕ СЃС‡РµС‚Сѓ - РїСЂРѕС„РѕСЂРјРµ С‚РѕРІР°СЂР° (РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі) Р±РµР· РЅР°Р»РѕРіР°
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. Стоимость всего количества поставляемого (отгруженного) по счету - проформе товара (выполненных работ, оказанных услуг) без налога
+     * Set the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РїРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ (РѕС‚РіСЂСѓР¶РµРЅРЅРѕРіРѕ) РїРѕ СЃС‡РµС‚Сѓ - РїСЂРѕС„РѕСЂРјРµ С‚РѕРІР°СЂР° (РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі) Р±РµР· РЅР°Р»РѕРіР°
      * 
      * @param goodsCost
      */
@@ -172,7 +172,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'Exise' element value. Cумма акциза по подакцизным товарам
+     * Get the 'Exise' element value. CСѓРјРјР° Р°РєС†РёР·Р° РїРѕ РїРѕРґР°РєС†РёР·РЅС‹Рј С‚РѕРІР°СЂР°Рј
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'Exise' element value. Cумма акциза по подакцизным товарам
+     * Set the 'Exise' element value. CСѓРјРјР° Р°РєС†РёР·Р° РїРѕ РїРѕРґР°РєС†РёР·РЅС‹Рј С‚РѕРІР°СЂР°Рј
      * 
      * @param exise
      */
@@ -190,7 +190,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'TaxRate' element value. Налоговая ставка
+     * Get the 'TaxRate' element value. РќР°Р»РѕРіРѕРІР°СЏ СЃС‚Р°РІРєР°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'TaxRate' element value. Налоговая ставка
+     * Set the 'TaxRate' element value. РќР°Р»РѕРіРѕРІР°СЏ СЃС‚Р°РІРєР°
      * 
      * @param taxRate
      */
@@ -208,7 +208,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'TaxSum' element value. Cумма налога, предъявляемая покупателю товаров (работ, услуг), определяемая исходя из применяемых налоговых ставок
+     * Get the 'TaxSum' element value. CСѓРјРјР° РЅР°Р»РѕРіР°, РїСЂРµРґСЉСЏРІР»СЏРµРјР°СЏ РїРѕРєСѓРїР°С‚РµР»СЋ С‚РѕРІР°СЂРѕРІ (СЂР°Р±РѕС‚, СѓСЃР»СѓРі), РѕРїСЂРµРґРµР»СЏРµРјР°СЏ РёСЃС…РѕРґСЏ РёР· РїСЂРёРјРµРЅСЏРµРјС‹С… РЅР°Р»РѕРіРѕРІС‹С… СЃС‚Р°РІРѕРє
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'TaxSum' element value. Cумма налога, предъявляемая покупателю товаров (работ, услуг), определяемая исходя из применяемых налоговых ставок
+     * Set the 'TaxSum' element value. CСѓРјРјР° РЅР°Р»РѕРіР°, РїСЂРµРґСЉСЏРІР»СЏРµРјР°СЏ РїРѕРєСѓРїР°С‚РµР»СЋ С‚РѕРІР°СЂРѕРІ (СЂР°Р±РѕС‚, СѓСЃР»СѓРі), РѕРїСЂРµРґРµР»СЏРµРјР°СЏ РёСЃС…РѕРґСЏ РёР· РїСЂРёРјРµРЅСЏРµРјС‹С… РЅР°Р»РѕРіРѕРІС‹С… СЃС‚Р°РІРѕРє
      * 
      * @param taxSum
      */
@@ -226,7 +226,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'TotalCost' element value. Cтоимость всего количества поставляемых (отгруженных) по счету-проформе товаров (выполненных работ, оказанных услуг) с учетом суммы налога
+     * Get the 'TotalCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РїРѕСЃС‚Р°РІР»СЏРµРјС‹С… (РѕС‚РіСЂСѓР¶РµРЅРЅС‹С…) РїРѕ СЃС‡РµС‚Сѓ-РїСЂРѕС„РѕСЂРјРµ С‚РѕРІР°СЂРѕРІ (РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі) СЃ СѓС‡РµС‚РѕРј СЃСѓРјРјС‹ РЅР°Р»РѕРіР°
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'TotalCost' element value. Cтоимость всего количества поставляемых (отгруженных) по счету-проформе товаров (выполненных работ, оказанных услуг) с учетом суммы налога
+     * Set the 'TotalCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РїРѕСЃС‚Р°РІР»СЏРµРјС‹С… (РѕС‚РіСЂСѓР¶РµРЅРЅС‹С…) РїРѕ СЃС‡РµС‚Сѓ-РїСЂРѕС„РѕСЂРјРµ С‚РѕРІР°СЂРѕРІ (РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі) СЃ СѓС‡РµС‚РѕРј СЃСѓРјРјС‹ РЅР°Р»РѕРіР°
      * 
      * @param totalCost
      */
@@ -244,7 +244,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения, указываются в отношении товаров, страной происхождения которых не является Российская Федерация. 
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, СЃС‚СЂР°РЅРѕР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РєРѕС‚РѕСЂС‹С… РЅРµ СЏРІР»СЏРµС‚СЃСЏ Р РѕСЃСЃРёР№СЃРєР°СЏ Р¤РµРґРµСЂР°С†РёСЏ. 
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения, указываются в отношении товаров, страной происхождения которых не является Российская Федерация. 
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, СЃС‚СЂР°РЅРѕР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РєРѕС‚РѕСЂС‹С… РЅРµ СЏРІР»СЏРµС‚СЃСЏ Р РѕСЃСЃРёР№СЃРєР°СЏ Р¤РµРґРµСЂР°С†РёСЏ. 
      * 
      * @param originCountryCode
      */
@@ -262,7 +262,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'OriginA3CountryCode' element value. Буквенный код страны происхождения, указываются в отношении товаров, страной происхождения которых не является Российская Федерация. 
+     * Get the 'OriginA3CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, СЃС‚СЂР°РЅРѕР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РєРѕС‚РѕСЂС‹С… РЅРµ СЏРІР»СЏРµС‚СЃСЏ Р РѕСЃСЃРёР№СЃРєР°СЏ Р¤РµРґРµСЂР°С†РёСЏ. 
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'OriginA3CountryCode' element value. Буквенный код страны происхождения, указываются в отношении товаров, страной происхождения которых не является Российская Федерация. 
+     * Set the 'OriginA3CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, СЃС‚СЂР°РЅРѕР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РєРѕС‚РѕСЂС‹С… РЅРµ СЏРІР»СЏРµС‚СЃСЏ Р РѕСЃСЃРёР№СЃРєР°СЏ Р¤РµРґРµСЂР°С†РёСЏ. 
      * 
      * @param originA3CountryCode
      */
@@ -280,7 +280,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'GTDID' element value. Номер ДТ
+     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -289,7 +289,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'GTDID' element value. Номер ДТ
+     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @param GTDID
      */
@@ -298,7 +298,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Get the 'AdditionalGoodsDescription' element value. Дополнительные характеристики товаров
+     * Get the 'AdditionalGoodsDescription' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -307,7 +307,7 @@ public class RussianInvoiceGoodsType
     }
 
     /** 
-     * Set the 'AdditionalGoodsDescription' element value. Дополнительные характеристики товаров
+     * Set the 'AdditionalGoodsDescription' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param additionalGoodsDescription
      */

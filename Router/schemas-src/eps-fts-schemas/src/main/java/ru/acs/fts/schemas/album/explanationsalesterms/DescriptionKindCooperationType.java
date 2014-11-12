@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Описание вида сотрудничества.
+ * РћРїРёСЃР°РЅРёРµ РІРёРґР° СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°.
  */
 public class DescriptionKindCooperationType
 {
@@ -10,7 +10,7 @@ public class DescriptionKindCooperationType
     private String value;
 
     /** 
-     * Get the 'PeriodTime' element value. Период времени
+     * Get the 'PeriodTime' element value. РџРµСЂРёРѕРґ РІСЂРµРјРµРЅРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DescriptionKindCooperationType
     }
 
     /** 
-     * Set the 'PeriodTime' element value. Период времени
+     * Set the 'PeriodTime' element value. РџРµСЂРёРѕРґ РІСЂРµРјРµРЅРё
      * 
      * @param periodTime
      */
@@ -28,7 +28,7 @@ public class DescriptionKindCooperationType
     }
 
     /** 
-     * Get the 'Value' element value. Если значение поля: true или 1 - да; false или 0 - нет
+     * Get the 'Value' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: true РёР»Рё 1 - РґР°; false РёР»Рё 0 - РЅРµС‚
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DescriptionKindCooperationType
     }
 
     /** 
-     * Set the 'Value' element value. Если значение поля: true или 1 - да; false или 0 - нет
+     * Set the 'Value' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: true РёР»Рё 1 - РґР°; false РёР»Рё 0 - РЅРµС‚
      * 
      * @param value
      */

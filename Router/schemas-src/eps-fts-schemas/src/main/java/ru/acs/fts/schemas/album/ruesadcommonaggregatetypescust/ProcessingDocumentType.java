@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения о процедурах переработки на таможенной территории и вне таможенной территории. 
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕС†РµРґСѓСЂР°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё РЅР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Рё РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё. 
  */
 public class ProcessingDocumentType extends PresentedDocumentType
 {
@@ -17,7 +17,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     private CUOrganizationType processingOrganization;
 
     /** 
-     * Get the 'InformationCode' element value. Код информации ( 1- разрешение на переработку  2 - ДТ)
+     * Get the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё ( 1- СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ  2 - Р”Рў)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'InformationCode' element value. Код информации ( 1- разрешение на переработку  2 - ДТ)
+     * Set the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё ( 1- СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ  2 - Р”Рў)
      * 
      * @param informationCode
      */
@@ -35,7 +35,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'PeriodDate' element value. Срок действия разрешения.
+     * Get the 'PeriodDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'PeriodDate' element value. Срок действия разрешения.
+     * Set the 'PeriodDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ.
      * 
      * @param periodDate
      */
@@ -53,7 +53,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'SupplyStatus' element value. 11 - ОПЕРЕЖАЮЩАЯ ПОСТАВКА. Заполняется если продукты переработки ввозятся раньше, чем осуществлен вывоз товаров на переработку вне таможенной территории. в остальных случаях не заполняется. 
+     * Get the 'SupplyStatus' element value. 11 - РћРџР•Р Р•Р–РђР®Р©РђРЇ РџРћРЎРўРђР’РљРђ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РїСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё РІРІРѕР·СЏС‚СЃСЏ СЂР°РЅСЊС€Рµ, С‡РµРј РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё. РІ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ. 
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'SupplyStatus' element value. 11 - ОПЕРЕЖАЮЩАЯ ПОСТАВКА. Заполняется если продукты переработки ввозятся раньше, чем осуществлен вывоз товаров на переработку вне таможенной территории. в остальных случаях не заполняется. 
+     * Set the 'SupplyStatus' element value. 11 - РћРџР•Р Р•Р–РђР®Р©РђРЇ РџРћРЎРўРђР’РљРђ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РїСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё РІРІРѕР·СЏС‚СЃСЏ СЂР°РЅСЊС€Рµ, С‡РµРј РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё. РІ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ. 
      * 
      * @param supplyStatus
      */
@@ -71,7 +71,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'PlaceProcessing' element value. Место проведения операций по переработке
+     * Get the 'PlaceProcessing' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'PlaceProcessing' element value. Место проведения операций по переработке
+     * Set the 'PlaceProcessing' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ
      * 
      * @param placeProcessing
      */
@@ -89,7 +89,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'ProcessingOrganization' element value. Наименование лица, осуществляющего операции по переработке товаров
+     * Get the 'ProcessingOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ РѕРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ProcessingDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'ProcessingOrganization' element value. Наименование лица, осуществляющего операции по переработке товаров
+     * Set the 'ProcessingOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ РѕРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param processingOrganization
      */

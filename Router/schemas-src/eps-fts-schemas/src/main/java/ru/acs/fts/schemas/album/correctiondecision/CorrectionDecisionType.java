@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Решение по направлению, принятое структурным отделом таможни
+ * Р РµС€РµРЅРёРµ РїРѕ РЅР°РїСЂР°РІР»РµРЅРёСЋ, РїСЂРёРЅСЏС‚РѕРµ СЃС‚СЂСѓРєС‚СѓСЂРЅС‹Рј РѕС‚РґРµР»РѕРј С‚Р°РјРѕР¶РЅРё
  */
 public class CorrectionDecisionType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class CorrectionDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DTReference' element value. Ссылка на DocumentID того состояния ДТ, при котором было сформировано Направление на согласование мер по минимизации риска
+     * Get the 'DTReference' element value. РЎСЃС‹Р»РєР° РЅР° DocumentID С‚РѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ Р”Рў, РїСЂРё РєРѕС‚РѕСЂРѕРј Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РќР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTReference' element value. Ссылка на DocumentID того состояния ДТ, при котором было сформировано Направление на согласование мер по минимизации риска
+     * Set the 'DTReference' element value. РЎСЃС‹Р»РєР° РЅР° DocumentID С‚РѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ Р”Рў, РїСЂРё РєРѕС‚РѕСЂРѕРј Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РќР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
      * 
      * @param DTReference
      */
@@ -38,7 +38,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CoordReqNumber' element value. Порядковый номер Направления, сформированного по ДТ в процессе ее оформления
+     * Get the 'CoordReqNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РќР°РїСЂР°РІР»РµРЅРёСЏ, СЃС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРіРѕ РїРѕ Р”Рў РІ РїСЂРѕС†РµСЃСЃРµ РµРµ РѕС„РѕСЂРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CoordReqNumber' element value. Порядковый номер Направления, сформированного по ДТ в процессе ее оформления
+     * Set the 'CoordReqNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РќР°РїСЂР°РІР»РµРЅРёСЏ, СЃС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРіРѕ РїРѕ Р”Рў РІ РїСЂРѕС†РµСЃСЃРµ РµРµ РѕС„РѕСЂРјР»РµРЅРёСЏ
      * 
      * @param coordReqNumber
      */
@@ -56,7 +56,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResolutionCustInspector' element items. Заключение инспектора таможни
+     * Get the list of 'ResolutionCustInspector' element items. Р—Р°РєР»СЋС‡РµРЅРёРµ РёРЅСЃРїРµРєС‚РѕСЂР° С‚Р°РјРѕР¶РЅРё
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResolutionCustInspector' element items. Заключение инспектора таможни
+     * Set the list of 'ResolutionCustInspector' element items. Р—Р°РєР»СЋС‡РµРЅРёРµ РёРЅСЃРїРµРєС‚РѕСЂР° С‚Р°РјРѕР¶РЅРё
      * 
      * @param list
      */
@@ -74,7 +74,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RefDocumentList' element items. Набор ссылок на документы, которыми руководствовался инспектор таможни при принятии решения по мере
+     * Get the list of 'RefDocumentList' element items. РќР°Р±РѕСЂ СЃСЃС‹Р»РѕРє РЅР° РґРѕРєСѓРјРµРЅС‚С‹, РєРѕС‚РѕСЂС‹РјРё СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @return list
      */
@@ -83,7 +83,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RefDocumentList' element items. Набор ссылок на документы, которыми руководствовался инспектор таможни при принятии решения по мере
+     * Set the list of 'RefDocumentList' element items. РќР°Р±РѕСЂ СЃСЃС‹Р»РѕРє РЅР° РґРѕРєСѓРјРµРЅС‚С‹, РєРѕС‚РѕСЂС‹РјРё СЂСѓРєРѕРІРѕРґСЃС‚РІРѕРІР°Р»СЃСЏ РёРЅСЃРїРµРєС‚РѕСЂ С‚Р°РјРѕР¶РЅРё РїСЂРё РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ РїРѕ РјРµСЂРµ
      * 
      * @param list
      */
@@ -92,7 +92,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MeasureDecisions' element items. Решения по мерам по минимизации риска, принятые инспекторами структурных или координирующего подразделений таможни
+     * Get the list of 'MeasureDecisions' element items. Р РµС€РµРЅРёСЏ РїРѕ РјРµСЂР°Рј РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°, РїСЂРёРЅСЏС‚С‹Рµ РёРЅСЃРїРµРєС‚РѕСЂР°РјРё СЃС‚СЂСѓРєС‚СѓСЂРЅС‹С… РёР»Рё РєРѕРѕСЂРґРёРЅРёСЂСѓСЋС‰РµРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№ С‚Р°РјРѕР¶РЅРё
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MeasureDecisions' element items. Решения по мерам по минимизации риска, принятые инспекторами структурных или координирующего подразделений таможни
+     * Set the list of 'MeasureDecisions' element items. Р РµС€РµРЅРёСЏ РїРѕ РјРµСЂР°Рј РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°, РїСЂРёРЅСЏС‚С‹Рµ РёРЅСЃРїРµРєС‚РѕСЂР°РјРё СЃС‚СЂСѓРєС‚СѓСЂРЅС‹С… РёР»Рё РєРѕРѕСЂРґРёРЅРёСЂСѓСЋС‰РµРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№ С‚Р°РјРѕР¶РЅРё
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTNumber' element value. Регистрационный номер ДТ
+     * Get the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTNumber' element value. Регистрационный номер ДТ
+     * Set the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param DTNumber
      */
@@ -128,7 +128,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class CorrectionDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Информация о несоответствии сведений, заявленных в таможенной декларации, сведениям, полученным в результате применения дополнительных форм таможенного контроля (досмотр, осмотр)
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё, СЃРІРµРґРµРЅРёСЏРј, РїРѕР»СѓС‡РµРЅРЅС‹Рј РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РїСЂРёРјРµРЅРµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… С„РѕСЂРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (РґРѕСЃРјРѕС‚СЂ, РѕСЃРјРѕС‚СЂ)
  */
 public class NotifDiscrepancyType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class NotifDiscrepancyType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата/время создания уведомления
+     * Get the 'SendDate' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата/время создания уведомления
+     * Set the 'SendDate' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -40,7 +40,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -58,7 +58,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SourceOfInformation' element items. Информация о несоответствии сведений (номера, даты актов осмотра, досмотра)
+     * Get the list of 'SourceOfInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРІРµРґРµРЅРёР№ (РЅРѕРјРµСЂР°, РґР°С‚С‹ Р°РєС‚РѕРІ РѕСЃРјРѕС‚СЂР°, РґРѕСЃРјРѕС‚СЂР°)
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SourceOfInformation' element items. Информация о несоответствии сведений (номера, даты актов осмотра, досмотра)
+     * Set the list of 'SourceOfInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРІРµРґРµРЅРёР№ (РЅРѕРјРµСЂР°, РґР°С‚С‹ Р°РєС‚РѕРІ РѕСЃРјРѕС‚СЂР°, РґРѕСЃРјРѕС‚СЂР°)
      * 
      * @param list
      */
@@ -76,7 +76,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -94,7 +94,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган.
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ.
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган.
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ.
      * 
      * @param customs
      */
@@ -112,7 +112,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Справочный номер ДТ.
+     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Справочный номер ДТ.
+     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param GTDNumber
      */
@@ -130,7 +130,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class NotifDiscrepancyType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

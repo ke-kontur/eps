@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_packetinventoryresponse;
 import java.math.BigInteger;
 
 /** 
- * Сведения о документе из описи
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РёР· РѕРїРёСЃРё
  */
 public class DocumentInventoryItemType
 {
@@ -13,7 +13,7 @@ public class DocumentInventoryItemType
     private BigInteger maxVersion;
 
     /** 
-     * Get the 'AppliedDocumentId' element value. Прикладной идентификатор документа
+     * Get the 'AppliedDocumentId' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DocumentInventoryItemType
     }
 
     /** 
-     * Set the 'AppliedDocumentId' element value. Прикладной идентификатор документа
+     * Set the 'AppliedDocumentId' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param appliedDocumentId
      */
@@ -31,7 +31,7 @@ public class DocumentInventoryItemType
     }
 
     /** 
-     * Get the 'ArchiveDocumentId' element value. Архивный идентификатор документа
+     * Get the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DocumentInventoryItemType
     }
 
     /** 
-     * Set the 'ArchiveDocumentId' element value. Архивный идентификатор документа
+     * Set the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archiveDocumentId
      */
@@ -49,7 +49,7 @@ public class DocumentInventoryItemType
     }
 
     /** 
-     * Get the 'MaxVersion' element value. Максимальная версия документа
+     * Get the 'MaxVersion' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DocumentInventoryItemType
     }
 
     /** 
-     * Set the 'MaxVersion' element value. Максимальная версия документа
+     * Set the 'MaxVersion' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param maxVersion
      */

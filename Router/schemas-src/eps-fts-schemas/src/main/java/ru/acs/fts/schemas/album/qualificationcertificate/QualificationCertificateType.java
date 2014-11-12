@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Квалификационный аттестат специалиста по таможенному оформлению
+ * РљРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ Р°С‚С‚РµСЃС‚Р°С‚ СЃРїРµС†РёР°Р»РёСЃС‚Р° РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РѕС„РѕСЂРјР»РµРЅРёСЋ
  */
 public class QualificationCertificateType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class QualificationCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PersonName' element value. Фамилия. Имя. Отчество.
+     * Get the 'PersonName' element value. Р¤Р°РјРёР»РёСЏ. РРјСЏ. РћС‚С‡РµСЃС‚РІРѕ.
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonName' element value. Фамилия. Имя. Отчество.
+     * Set the 'PersonName' element value. Р¤Р°РјРёР»РёСЏ. РРјСЏ. РћС‚С‡РµСЃС‚РІРѕ.
      * 
      * @param personName
      */
@@ -44,7 +44,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateBirth' element value. Дата рождения
+     * Get the 'DateBirth' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateBirth' element value. Дата рождения
+     * Set the 'DateBirth' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param dateBirth
      */
@@ -62,7 +62,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateIssueCertificate' element value. Дата выдачи квалификационного аттестата
+     * Get the 'DateIssueCertificate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р°
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateIssueCertificate' element value. Дата выдачи квалификационного аттестата
+     * Set the 'DateIssueCertificate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р°
      * 
      * @param dateIssueCertificate
      */
@@ -80,7 +80,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -98,7 +98,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Код и наименование таможенного органа
+     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Код и наименование таможенного органа
+     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customs
      */
@@ -116,7 +116,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignatureChairmanCommission' element value. Подпись председателя экзаменационной комиссии
+     * Get the 'SignatureChairmanCommission' element value. РџРѕРґРїРёСЃСЊ РїСЂРµРґСЃРµРґР°С‚РµР»СЏ СЌРєР·Р°РјРµРЅР°С†РёРѕРЅРЅРѕР№ РєРѕРјРёСЃСЃРёРё
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignatureChairmanCommission' element value. Подпись председателя экзаменационной комиссии
+     * Set the 'SignatureChairmanCommission' element value. РџРѕРґРїРёСЃСЊ РїСЂРµРґСЃРµРґР°С‚РµР»СЏ СЌРєР·Р°РјРµРЅР°С†РёРѕРЅРЅРѕР№ РєРѕРјРёСЃСЃРёРё
      * 
      * @param signatureChairmanCommission
      */
@@ -135,7 +135,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InfoLearning' element items. Сведения  о прохождении обучения по программам повышения квалификации.
+     * Get the list of 'InfoLearning' element items. РЎРІРµРґРµРЅРёСЏ  Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ РєРІР°Р»РёС„РёРєР°С†РёРё.
      * 
      * @return list
      */
@@ -144,7 +144,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InfoLearning' element items. Сведения  о прохождении обучения по программам повышения квалификации.
+     * Set the list of 'InfoLearning' element items. РЎРІРµРґРµРЅРёСЏ  Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ РєРІР°Р»РёС„РёРєР°С†РёРё.
      * 
      * @param list
      */
@@ -153,7 +153,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumberCertificate' element value. Регистрационный номер квалификационного аттестата.
+     * Get the 'RegistrationNumberCertificate' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р°.
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumberCertificate' element value. Регистрационный номер квалификационного аттестата.
+     * Set the 'RegistrationNumberCertificate' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р°.
      * 
      * @param registrationNumberCertificate
      */
@@ -172,7 +172,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Form' element value. Серия и номер бланка
+     * Get the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Form' element value. Серия и номер бланка
+     * Set the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
      * 
      * @param form
      */
@@ -190,7 +190,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class QualificationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

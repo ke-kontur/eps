@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Количество поставленной электроэнергии. Распоряжение ГТК РФ 350-р от 23.05.2002г.
+ * РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё. Р Р°СЃРїРѕСЂСЏР¶РµРЅРёРµ Р“РўРљ Р Р¤ 350-СЂ РѕС‚ 23.05.2002Рі.
  */
 public class ESADElectricalEnergyQuantityType
 {
@@ -14,7 +14,7 @@ public class ESADElectricalEnergyQuantityType
     private String transferEnergyQuantity;
 
     /** 
-     * Get the 'TariffZoneName' element value. Наименование тарифной зоны. Может быть не заполнено, если внешнеторговым договором (контрактом) для всех тарифных зон установлена одинаковая цена электроэнергии.
+     * Get the 'TariffZoneName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°СЂРёС„РЅРѕР№ Р·РѕРЅС‹. РњРѕР¶РµС‚ Р±С‹С‚СЊ РЅРµ Р·Р°РїРѕР»РЅРµРЅРѕ, РµСЃР»Рё РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РґРѕРіРѕРІРѕСЂРѕРј (РєРѕРЅС‚СЂР°РєС‚РѕРј) РґР»СЏ РІСЃРµС… С‚Р°СЂРёС„РЅС‹С… Р·РѕРЅ СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РѕРґРёРЅР°РєРѕРІР°СЏ С†РµРЅР° СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Set the 'TariffZoneName' element value. Наименование тарифной зоны. Может быть не заполнено, если внешнеторговым договором (контрактом) для всех тарифных зон установлена одинаковая цена электроэнергии.
+     * Set the 'TariffZoneName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°СЂРёС„РЅРѕР№ Р·РѕРЅС‹. РњРѕР¶РµС‚ Р±С‹С‚СЊ РЅРµ Р·Р°РїРѕР»РЅРµРЅРѕ, РµСЃР»Рё РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РґРѕРіРѕРІРѕСЂРѕРј (РєРѕРЅС‚СЂР°РєС‚РѕРј) РґР»СЏ РІСЃРµС… С‚Р°СЂРёС„РЅС‹С… Р·РѕРЅ СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РѕРґРёРЅР°РєРѕРІР°СЏ С†РµРЅР° СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё.
      * 
      * @param tariffZoneName
      */
@@ -32,7 +32,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Get the 'TextID' element value. Идентификатор текста (201-принято, 202-отдано, 203-прочее)
+     * Get the 'TextID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµРєСЃС‚Р° (201-РїСЂРёРЅСЏС‚Рѕ, 202-РѕС‚РґР°РЅРѕ, 203-РїСЂРѕС‡РµРµ)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Set the 'TextID' element value. Идентификатор текста (201-принято, 202-отдано, 203-прочее)
+     * Set the 'TextID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµРєСЃС‚Р° (201-РїСЂРёРЅСЏС‚Рѕ, 202-РѕС‚РґР°РЅРѕ, 203-РїСЂРѕС‡РµРµ)
      * 
      * @param textID
      */
@@ -50,7 +50,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Get the 'Description' element value. ПРИНЯТО/ОТДАНО/ИНОЙ ТЕКСТ
+     * Get the 'Description' element value. РџР РРќРЇРўРћ/РћРўР”РђРќРћ/РРќРћР™ РўР•РљРЎРў
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Set the 'Description' element value. ПРИНЯТО/ОТДАНО/ИНОЙ ТЕКСТ
+     * Set the 'Description' element value. РџР РРќРЇРўРћ/РћРўР”РђРќРћ/РРќРћР™ РўР•РљРЎРў
      * 
      * @param description
      */
@@ -68,7 +68,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Get the 'QualifierCode' element value. Код единицы измерения.
+     * Get the 'QualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Set the 'QualifierCode' element value. Код единицы измерения.
+     * Set the 'QualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @param qualifierCode
      */
@@ -86,7 +86,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Get the 'QualifierName' element value. Краткое наименование единицы измерения.
+     * Get the 'QualifierName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Set the 'QualifierName' element value. Краткое наименование единицы измерения.
+     * Set the 'QualifierName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
      * 
      * @param qualifierName
      */
@@ -104,7 +104,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Get the 'TransferEnergyQuantity' element value. Количество (Сумма перетоков электроэнергии для тарифной зоны)
+     * Get the 'TransferEnergyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ (РЎСѓРјРјР° РїРµСЂРµС‚РѕРєРѕРІ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё РґР»СЏ С‚Р°СЂРёС„РЅРѕР№ Р·РѕРЅС‹)
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ESADElectricalEnergyQuantityType
     }
 
     /** 
-     * Set the 'TransferEnergyQuantity' element value. Количество (Сумма перетоков электроэнергии для тарифной зоны)
+     * Set the 'TransferEnergyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ (РЎСѓРјРјР° РїРµСЂРµС‚РѕРєРѕРІ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё РґР»СЏ С‚Р°СЂРёС„РЅРѕР№ Р·РѕРЅС‹)
      * 
      * @param transferEnergyQuantity
      */

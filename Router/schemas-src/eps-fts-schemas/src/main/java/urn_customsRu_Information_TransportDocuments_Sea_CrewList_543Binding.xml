@@ -1,0 +1,34 @@
+<binding xmlns:cl="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Sea:CrewList:5.4.3" default="elements" prefix="cl"/>
+  <mapping abstract="true" type-name="cl:CrewListType" class="ru.acs.fts.schemas.album.crewlist.CrewListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="LanguageCode" get-method="getLanguageCode" set-method="setLanguageCode"/>
+    <value style="element" name="DeparturePort" get-method="getDeparturePort" set-method="setDeparturePort"/>
+    <value style="element" name="ArrivalIndicator" get-method="getArrivalIndicator" set-method="setArrivalIndicator" usage="optional"/>
+    <value style="element" name="Carrier" get-method="getCarrier" set-method="setCarrier" usage="optional"/>
+    <value style="element" name="Notice" get-method="getNotice" set-method="setNotice" usage="optional"/>
+    <value style="element" name="RUPersonnel" get-method="getRUPersonnel" set-method="setRUPersonnel"/>
+    <value style="element" name="ForeignPersonnel" get-method="getForeignPersonnel" set-method="setForeignPersonnel"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getDocumentSignature" set-method="setDocumentSignature" name="DocumentSignature"/>
+    <structure map-as="catTrans_ru:VesselType" get-method="getVessel" set-method="setVessel" name="Vessel"/>
+    <structure ordered="false" choice="true">
+      <structure map-as="catTrans_ru:PortType" test-method="ifArrival" get-method="getArrival" set-method="setArrival" usage="optional" name="Arrival"/>
+      <structure map-as="catTrans_ru:PortType" test-method="ifSailing" get-method="getSailing" set-method="setSailing" usage="optional" name="Sailing"/>
+    </structure>
+    <collection get-method="getCockpitPersonnelList" set-method="setCockpitPersonnelList" create-type="java.util.ArrayList">
+      <structure map-as="cl:CockpitPersonnelType" name="CockpitPersonnel"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.crewlist.CrewListType" name="CrewList">
+    <structure map-as="cl:CrewListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="cl:CockpitPersonnelType" class="ru.acs.fts.schemas.album.crewlist.CockpitPersonnelType">
+    <structure map-as="cat_ru:PersonBaseType"/>
+    <value style="element" name="PersNumeric" get-method="getPersNumeric" set-method="setPersNumeric"/>
+    <value style="element" name="Nationality" get-method="getNationality" set-method="setNationality"/>
+    <value style="element" name="BirthPlace" get-method="getBirthPlace" set-method="setBirthPlace"/>
+    <value style="element" name="DateofBirth" get-method="getDateofBirth" set-method="setDateofBirth" format="LocalDate.default"/>
+    <structure map-as="cat_ru:IdentityCardType" get-method="getDocument" set-method="setDocument" name="Document"/>
+  </mapping>
+</binding>

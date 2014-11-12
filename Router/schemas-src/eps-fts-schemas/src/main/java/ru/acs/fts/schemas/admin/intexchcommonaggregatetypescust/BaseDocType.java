@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust;
 
 /** 
- * Базовый тип для электронного документа.
+ * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
  */
 public class BaseDocType
 {
@@ -10,7 +10,7 @@ public class BaseDocType
     private String refDocumentID;
 
     /** 
-     * Get the 'DocumentID' element value. Уникальный идентификатор документа
+     * Get the 'DocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class BaseDocType
     }
 
     /** 
-     * Set the 'DocumentID' element value. Уникальный идентификатор документа
+     * Set the 'DocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentID
      */
@@ -28,7 +28,7 @@ public class BaseDocType
     }
 
     /** 
-     * Get the 'RefDocumentID' element value. Уникальный идентификатор исходного документа
+     * Get the 'RefDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёСЃС…РѕРґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class BaseDocType
     }
 
     /** 
-     * Set the 'RefDocumentID' element value. Уникальный идентификатор исходного документа
+     * Set the 'RefDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёСЃС…РѕРґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param refDocumentID
      */

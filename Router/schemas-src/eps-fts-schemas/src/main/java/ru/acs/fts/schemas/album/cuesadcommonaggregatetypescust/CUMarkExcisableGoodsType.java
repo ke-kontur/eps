@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о маркированных подакцизных товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РјР°СЂРєРёСЂРѕРІР°РЅРЅС‹С… РїРѕРґР°РєС†РёР·РЅС‹С… С‚РѕРІР°СЂР°С…
  */
 public class CUMarkExcisableGoodsType
 {
@@ -14,7 +14,7 @@ public class CUMarkExcisableGoodsType
     private List<String> quantityMarkList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'Series' element items. Серия марок
+     * Get the list of 'Series' element items. РЎРµСЂРёСЏ РјР°СЂРѕРє
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class CUMarkExcisableGoodsType
     }
 
     /** 
-     * Set the list of 'Series' element items. Серия марок
+     * Set the list of 'Series' element items. РЎРµСЂРёСЏ РјР°СЂРѕРє
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class CUMarkExcisableGoodsType
     }
 
     /** 
-     * Get the 'Number' element value. Номер марки
+     * Get the 'Number' element value. РќРѕРјРµСЂ РјР°СЂРєРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CUMarkExcisableGoodsType
     }
 
     /** 
-     * Set the 'Number' element value. Номер марки
+     * Set the 'Number' element value. РќРѕРјРµСЂ РјР°СЂРєРё
      * 
      * @param number
      */
@@ -50,7 +50,7 @@ public class CUMarkExcisableGoodsType
     }
 
     /** 
-     * Get the list of 'QuantityMark' element items. Количество акцизных марок
+     * Get the list of 'QuantityMark' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class CUMarkExcisableGoodsType
     }
 
     /** 
-     * Set the list of 'QuantityMark' element items. Количество акцизных марок
+     * Set the list of 'QuantityMark' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
      * 
      * @param list
      */

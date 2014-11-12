@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.resulttk;
 
 /** 
- * Пост (пункт пропуска), где осуществлялся транспортный контроль
+ * РџРѕСЃС‚ (РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РіРґРµ РѕСЃСѓС‰РµСЃС‚РІР»СЏР»СЃСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
  */
 public class CheckPointType
 {
@@ -11,7 +11,7 @@ public class CheckPointType
     private String countryCode;
 
     /** 
-     * Get the 'CheckPointCode' element value. Код поста (пункта пропуска)
+     * Get the 'CheckPointCode' element value. РљРѕРґ РїРѕСЃС‚Р° (РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CheckPointType
     }
 
     /** 
-     * Set the 'CheckPointCode' element value. Код поста (пункта пропуска)
+     * Set the 'CheckPointCode' element value. РљРѕРґ РїРѕСЃС‚Р° (РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°)
      * 
      * @param checkPointCode
      */
@@ -29,7 +29,7 @@ public class CheckPointType
     }
 
     /** 
-     * Get the 'CheckPointName' element value. Наименование поста (пункта пропуска)
+     * Get the 'CheckPointName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃС‚Р° (РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CheckPointType
     }
 
     /** 
-     * Set the 'CheckPointName' element value. Наименование поста (пункта пропуска)
+     * Set the 'CheckPointName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃС‚Р° (РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°)
      * 
      * @param checkPointName
      */
@@ -47,7 +47,7 @@ public class CheckPointType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Код страны
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CheckPointType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCode
      */

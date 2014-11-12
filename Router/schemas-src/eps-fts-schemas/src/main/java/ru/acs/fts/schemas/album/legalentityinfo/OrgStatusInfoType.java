@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о правоспособности (статусе) юридического лица
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂР°РІРѕСЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё (СЃС‚Р°С‚СѓСЃРµ) СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
  */
 public class OrgStatusInfoType
 {
@@ -15,7 +15,7 @@ public class OrgStatusInfoType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'StartDate' element value. Дата начала действия указанных сведений
+     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Set the 'StartDate' element value. Дата начала действия указанных сведений
+     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№
      * 
      * @param startDate
      */
@@ -33,7 +33,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Get the 'StatusCode' element value. Код статуса юридического лица по справочнику СЮЛСТ
+     * Get the 'StatusCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃР° СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎР®Р›РЎРў
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Set the 'StatusCode' element value. Код статуса юридического лица по справочнику СЮЛСТ
+     * Set the 'StatusCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃР° СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎР®Р›РЎРў
      * 
      * @param statusCode
      */
@@ -51,7 +51,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Get the 'StatusName' element value. Наименование статуса юридического лица по справочнику СЮЛСТ
+     * Get the 'StatusName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С‚СѓСЃР° СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎР®Р›РЎРў
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Set the 'StatusName' element value. Наименование статуса юридического лица по справочнику СЮЛСТ
+     * Set the 'StatusName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С‚СѓСЃР° СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РЎР®Р›РЎРў
      * 
      * @param statusName
      */
@@ -69,7 +69,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. Сведения о регистрирующем (налоговом) органе по месту нахождения юр. лица
+     * Get the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј (РЅР°Р»РѕРіРѕРІРѕРј) РѕСЂРіР°РЅРµ РїРѕ РјРµСЃС‚Сѓ РЅР°С…РѕР¶РґРµРЅРёСЏ СЋСЂ. Р»РёС†Р°
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. Сведения о регистрирующем (налоговом) органе по месту нахождения юр. лица
+     * Set the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј (РЅР°Р»РѕРіРѕРІРѕРј) РѕСЂРіР°РЅРµ РїРѕ РјРµСЃС‚Сѓ РЅР°С…РѕР¶РґРµРЅРёСЏ СЋСЂ. Р»РёС†Р°
      * 
      * @param regOrgan
      */
@@ -87,7 +87,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Get the 'RecordData' element value. Сведения о записи
+     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class OrgStatusInfoType
     }
 
     /** 
-     * Set the 'RecordData' element value. Сведения о записи
+     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
      * 
      * @param recordData
      */

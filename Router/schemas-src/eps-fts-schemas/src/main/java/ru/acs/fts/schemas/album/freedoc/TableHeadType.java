@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Заголовок таблицы
+ * Р—Р°РіРѕР»РѕРІРѕРє С‚Р°Р±Р»РёС†С‹
  */
 public class TableHeadType
 {
     private List<TableRowType> tableRowList = new ArrayList<TableRowType>();
 
     /** 
-     * Get the list of 'TableRow' element items. Строка заголовка
+     * Get the list of 'TableRow' element items. РЎС‚СЂРѕРєР° Р·Р°РіРѕР»РѕРІРєР°
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class TableHeadType
     }
 
     /** 
-     * Set the list of 'TableRow' element items. Строка заголовка
+     * Set the list of 'TableRow' element items. РЎС‚СЂРѕРєР° Р·Р°РіРѕР»РѕРІРєР°
      * 
      * @param list
      */

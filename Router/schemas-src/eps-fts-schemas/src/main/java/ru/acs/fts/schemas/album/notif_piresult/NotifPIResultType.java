@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.notif_piresult;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Уведомление о результатах обработки сообщения
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
  */
 public class NotifPIResultType extends BaseDocType
 {
@@ -12,7 +12,7 @@ public class NotifPIResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Response' element value. Результат обработки документа
+     * Get the 'Response' element value. Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class NotifPIResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'Response' element value. Результат обработки документа
+     * Set the 'Response' element value. Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param response
      */
@@ -30,7 +30,7 @@ public class NotifPIResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class NotifPIResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

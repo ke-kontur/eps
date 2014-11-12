@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * АТД - взятие проб и образцов
+ * РђРўР” - РІР·СЏС‚РёРµ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
  */
 public class InspTestActType extends DocumentBaseType
 {
@@ -14,7 +14,7 @@ public class InspTestActType extends DocumentBaseType
     private String recordNumber;
 
     /** 
-     * Get the 'SeizureDate' element value. Дата взятия проб и образцов
+     * Get the 'SeizureDate' element value. Р”Р°С‚Р° РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InspTestActType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SeizureDate' element value. Дата взятия проб и образцов
+     * Set the 'SeizureDate' element value. Р”Р°С‚Р° РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @param seizureDate
      */
@@ -32,7 +32,7 @@ public class InspTestActType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SeizureActDesc' element value. Примечание к акту взятия проб и образцов
+     * Get the 'SeizureActDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє Р°РєС‚Сѓ РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InspTestActType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SeizureActDesc' element value. Примечание к акту взятия проб и образцов
+     * Set the 'SeizureActDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє Р°РєС‚Сѓ РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
      * 
      * @param seizureActDesc
      */
@@ -50,7 +50,7 @@ public class InspTestActType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class InspTestActType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
+     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
      * 
      * @param recordNumber
      */

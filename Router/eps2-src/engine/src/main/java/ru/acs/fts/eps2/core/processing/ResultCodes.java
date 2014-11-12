@@ -511,6 +511,11 @@ public class ResultCodes
 	 */
 	public static final String _03_00105_01 = "03.00105.01";
 
+    /**
+     * Предоставление документов после выпуска не разрешено
+     */
+    public static final String _03_00106_06 = "03.00106.06";
+
 	/**
 	 * CALL_CRYPTOSRV_ERROR("01.00050.01"),
 	 */
@@ -1036,6 +1041,11 @@ public class ResultCodes
 	 * архива. PARTICIPANT_ID_DOESNT_CORRESPOND_TO_OWNER( "03.00106.04" ),
 	 */
 	public static final String _03_00106_04 = "03.00106.04";
+
+    /**
+     * Не найдены запросы документов по переданным позициям
+     */
+    public static final String _03_00106_05 = "03.00106.05";
 
 	/**
 	 * Документ не найден. Документ не найден в архиве.

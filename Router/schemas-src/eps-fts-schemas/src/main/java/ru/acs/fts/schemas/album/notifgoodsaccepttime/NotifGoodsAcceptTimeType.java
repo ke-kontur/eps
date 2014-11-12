@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Уведомление о дате и времени принятия товаров от перевозчика 
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР° 
  */
 public class NotifGoodsAcceptTimeType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Дата принятия товаров от перевозчика 
+     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Дата принятия товаров от перевозчика 
+     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @param date
      */
@@ -43,7 +43,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Time' element value. Время принятия товаров от перевозчика 
+     * Get the 'Time' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Time' element value. Время принятия товаров от перевозчика 
+     * Set the 'Time' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР° 
      * 
      * @param time
      */
@@ -61,7 +61,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'PrecedingNotifNumber' element value. Регистрационный номер исходного уведомления
+     * Get the 'PrecedingNotifNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РёСЃС…РѕРґРЅРѕРіРѕ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'PrecedingNotifNumber' element value. Регистрационный номер исходного уведомления
+     * Set the 'PrecedingNotifNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РёСЃС…РѕРґРЅРѕРіРѕ СѓРІРµРґРѕРјР»РµРЅРёСЏ
      * 
      * @param precedingNotifNumber
      */
@@ -79,7 +79,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'EconomicOperator' element value. Уполномоченный экономический оператор
+     * Get the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'EconomicOperator' element value. Уполномоченный экономический оператор
+     * Set the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
      * 
      * @param economicOperator
      */
@@ -97,7 +97,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Перевозчик
+     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Перевозчик
+     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
      * 
      * @param carrier
      */
@@ -115,7 +115,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Transport' element value. Транспортное средство
+     * Get the 'Transport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Transport' element value. Транспортное средство
+     * Set the 'Transport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param transport
      */
@@ -133,7 +133,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Document' element items. Документы
+     * Get the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚С‹
      * 
      * @return list
      */
@@ -142,7 +142,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Document' element items. Документы
+     * Set the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚С‹
      * 
      * @param list
      */
@@ -151,7 +151,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifPerson' element value. ФИО лица,  составившего  уведомление о принятии товаров
+     * Get the 'NotifPerson' element value. Р¤РРћ Р»РёС†Р°,  СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ  СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifPerson' element value. ФИО лица,  составившего  уведомление о принятии товаров
+     * Set the 'NotifPerson' element value. Р¤РРћ Р»РёС†Р°,  СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ  СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param notifPerson
      */
@@ -169,7 +169,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class NotifGoodsAcceptTimeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

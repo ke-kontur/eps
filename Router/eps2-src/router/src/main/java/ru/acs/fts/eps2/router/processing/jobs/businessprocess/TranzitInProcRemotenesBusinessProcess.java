@@ -65,7 +65,7 @@ public class TranzitInProcRemotenesBusinessProcess extends BusinessProcess
 		
 		boolean sendCmn00004 = true;
 		
-		if ( null != sendOuter && sendOuter.containsKey( messageType ) && sendOuter.get( messageType ) )
+		if ( null != sendOuter && sendOuter.containsKey( messageType ) && sendOuter.get( messageType ) && ProcedureUdFlags.isTrivialRemoteness(procInfo.getUdFlag()))
 		{
 			String recipientSystem = inferRemoteRecipient( recvEnv, procInfo );
 			CustomsType receiverCustoms = inferRemoteRecipientCustoms( recvEnv, procInfo );

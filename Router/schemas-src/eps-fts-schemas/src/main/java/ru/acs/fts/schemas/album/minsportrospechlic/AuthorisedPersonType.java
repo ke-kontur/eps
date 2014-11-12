@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.minsportrospechlic;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Уполномоченное лицо
+ * РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
  */
 public class AuthorisedPersonType extends PersonBaseType
 {
     private String ID;
 
     /** 
-     * Get the 'ID' element value. Идентификатор
+     * Get the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AuthorisedPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'ID' element value. Идентификатор
+     * Set the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
      * 
      * @param ID
      */

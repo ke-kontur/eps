@@ -17,7 +17,7 @@ import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.ReasonApplyMet
 import ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust.DTSGoodsCustomsCostType;
 
 /** 
- * Декларация таможенной стоимости. Внешний формат
+ * Р”РµРєР»Р°СЂР°С†РёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’РЅРµС€РЅРёР№ С„РѕСЂРјР°С‚
  */
 public class DTSoutType extends BaseDocType
 {
@@ -45,7 +45,7 @@ public class DTSoutType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsCostMethodCode' element value. Номер метода (заполняется в соответствии с классификатором методов определения таможенной стоимости товаров, помещаемых под таможенные режимы, применяемые к ввозимым и вывозимым товарам. В случае применения разных методов, указывается "*"-разные)
+     * Get the 'CustomsCostMethodCode' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹, РїСЂРёРјРµРЅСЏРµРјС‹Рµ Рє РІРІРѕР·РёРјС‹Рј Рё РІС‹РІРѕР·РёРјС‹Рј С‚РѕРІР°СЂР°Рј. Р’ СЃР»СѓС‡Р°Рµ РїСЂРёРјРµРЅРµРЅРёСЏ СЂР°Р·РЅС‹С… РјРµС‚РѕРґРѕРІ, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ "*"-СЂР°Р·РЅС‹Рµ)
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCostMethodCode' element value. Номер метода (заполняется в соответствии с классификатором методов определения таможенной стоимости товаров, помещаемых под таможенные режимы, применяемые к ввозимым и вывозимым товарам. В случае применения разных методов, указывается "*"-разные)
+     * Set the 'CustomsCostMethodCode' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹, РїСЂРёРјРµРЅСЏРµРјС‹Рµ Рє РІРІРѕР·РёРјС‹Рј Рё РІС‹РІРѕР·РёРјС‹Рј С‚РѕРІР°СЂР°Рј. Р’ СЃР»СѓС‡Р°Рµ РїСЂРёРјРµРЅРµРЅРёСЏ СЂР°Р·РЅС‹С… РјРµС‚РѕРґРѕРІ, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ "*"-СЂР°Р·РЅС‹Рµ)
      * 
      * @param customsCostMethodCode
      */
@@ -63,7 +63,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'BaseMethodCode' element value. Номер базового метода  (заполняется при определении таможенной стоимости по методам 6)
+     * Get the 'BaseMethodCode' element value. РќРѕРјРµСЂ Р±Р°Р·РѕРІРѕРіРѕ РјРµС‚РѕРґР°  (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РѕРїСЂРµРґРµР»РµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґР°Рј 6)
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'BaseMethodCode' element value. Номер базового метода  (заполняется при определении таможенной стоимости по методам 6)
+     * Set the 'BaseMethodCode' element value. РќРѕРјРµСЂ Р±Р°Р·РѕРІРѕРіРѕ РјРµС‚РѕРґР°  (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РѕРїСЂРµРґРµР»РµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґР°Рј 6)
      * 
      * @param baseMethodCode
      */
@@ -81,7 +81,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalSheetNumber' element value. Число дополнительных листов
+     * Get the 'AdditionalSheetNumber' element value. Р§РёСЃР»Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalSheetNumber' element value. Число дополнительных листов
+     * Set the 'AdditionalSheetNumber' element value. Р§РёСЃР»Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ
      * 
      * @param additionalSheetNumber
      */
@@ -99,7 +99,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении ДТС отдельно от ДТ.
+     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё Р”РўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении ДТС отдельно от ДТ.
+     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё Р”РўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @param GTDDocumentID
      */
@@ -117,7 +117,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyDate' element value. Дата применения курса валюты.
+     * Get the 'CurrencyDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ РєСѓСЂСЃР° РІР°Р»СЋС‚С‹.
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyDate' element value. Дата применения курса валюты.
+     * Set the 'CurrencyDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ РєСѓСЂСЃР° РІР°Р»СЋС‚С‹.
      * 
      * @param currencyDate
      */
@@ -135,7 +135,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Буквенный код валюты графы "Заявленная таможенная стоимость"
+     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РіСЂР°С„С‹ "Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ"
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Буквенный код валюты графы "Заявленная таможенная стоимость"
+     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РіСЂР°С„С‹ "Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ"
      * 
      * @param currencyCode
      */
@@ -153,7 +153,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты графы "Заявленная таможенная стоимость (б)"
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РіСЂР°С„С‹ "Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (Р±)"
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты графы "Заявленная таможенная стоимость (б)"
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РіСЂР°С„С‹ "Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (Р±)"
      * 
      * @param currencyRate
      */
@@ -171,7 +171,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormDTS' element value. Форма ДТС: 3 - ДТС-3; 4 - ДТС-4.
+     * Get the 'FormDTS' element value. Р¤РѕСЂРјР° Р”РўРЎ: 3 - Р”РўРЎ-3; 4 - Р”РўРЎ-4.
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormDTS' element value. Форма ДТС: 3 - ДТС-3; 4 - ДТС-4.
+     * Set the 'FormDTS' element value. Р¤РѕСЂРјР° Р”РўРЎ: 3 - Р”РўРЎ-3; 4 - Р”РўРЎ-4.
      * 
      * @param formDTS
      */
@@ -189,7 +189,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSoutSeller' element value. Внешняя ДТС. Сведения о продавце.
+     * Get the 'DTSoutSeller' element value. Р’РЅРµС€РЅСЏСЏ Р”РўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ.
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSoutSeller' element value. Внешняя ДТС. Сведения о продавце.
+     * Set the 'DTSoutSeller' element value. Р’РЅРµС€РЅСЏСЏ Р”РўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ.
      * 
      * @param DTSoutSeller
      */
@@ -207,7 +207,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSoutBuyer' element value. Внешняя ДТС. Сведения о покупателе.
+     * Get the 'DTSoutBuyer' element value. Р’РЅРµС€РЅСЏСЏ Р”РўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ.
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSoutBuyer' element value. Внешняя ДТС. Сведения о покупателе.
+     * Set the 'DTSoutBuyer' element value. Р’РЅРµС€РЅСЏСЏ Р”РўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ.
      * 
      * @param DTSoutBuyer
      */
@@ -225,7 +225,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTSInvoiceDocuments' element items. Сведения о документах. ДТС-3  гр. 4,5,6; ДТС-4 гр. 4,5,8
+     * Get the list of 'DTSInvoiceDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…. Р”РўРЎ-3  РіСЂ. 4,5,6; Р”РўРЎ-4 РіСЂ. 4,5,8
      * 
      * @return list
      */
@@ -234,7 +234,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTSInvoiceDocuments' element items. Сведения о документах. ДТС-3  гр. 4,5,6; ДТС-4 гр. 4,5,8
+     * Set the list of 'DTSInvoiceDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…. Р”РўРЎ-3  РіСЂ. 4,5,6; Р”РўРЎ-4 РіСЂ. 4,5,8
      * 
      * @param list
      */
@@ -243,7 +243,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSBuyerSellerDependence' element value. Взаимосвязь между покупателем и продавцом. ДТС-3 гр.7.
+     * Get the 'DTSBuyerSellerDependence' element value. Р’Р·Р°РёРјРѕСЃРІСЏР·СЊ РјРµР¶РґСѓ РїРѕРєСѓРїР°С‚РµР»РµРј Рё РїСЂРѕРґР°РІС†РѕРј. Р”РўРЎ-3 РіСЂ.7.
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSBuyerSellerDependence' element value. Взаимосвязь между покупателем и продавцом. ДТС-3 гр.7.
+     * Set the 'DTSBuyerSellerDependence' element value. Р’Р·Р°РёРјРѕСЃРІСЏР·СЊ РјРµР¶РґСѓ РїРѕРєСѓРїР°С‚РµР»РµРј Рё РїСЂРѕРґР°РІС†РѕРј. Р”РўРЎ-3 РіСЂ.7.
      * 
      * @param DTSBuyerSellerDependence
      */
@@ -262,7 +262,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSSellingLimitation' element value. Ограничения на пользование товарами  и обязательства при продаже товаров. ДТС-3 гр.8.
+     * Get the 'DTSSellingLimitation' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РЅР° РїРѕР»СЊР·РѕРІР°РЅРёРµ С‚РѕРІР°СЂР°РјРё  Рё РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїСЂРё РїСЂРѕРґР°Р¶Рµ С‚РѕРІР°СЂРѕРІ. Р”РўРЎ-3 РіСЂ.8.
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSSellingLimitation' element value. Ограничения на пользование товарами  и обязательства при продаже товаров. ДТС-3 гр.8.
+     * Set the 'DTSSellingLimitation' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РЅР° РїРѕР»СЊР·РѕРІР°РЅРёРµ С‚РѕРІР°СЂР°РјРё  Рё РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїСЂРё РїСЂРѕРґР°Р¶Рµ С‚РѕРІР°СЂРѕРІ. Р”РўРЎ-3 РіСЂ.8.
      * 
      * @param DTSSellingLimitation
      */
@@ -281,7 +281,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSAdditionalPayments' element value. Платежи за использование интеллектуальной собственности и условия передачи части дохода продавцу. ДТС-3  гр.9.
+     * Get the 'DTSAdditionalPayments' element value. РџР»Р°С‚РµР¶Рё Р·Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё Рё СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё С‡Р°СЃС‚Рё РґРѕС…РѕРґР° РїСЂРѕРґР°РІС†Сѓ. Р”РўРЎ-3  РіСЂ.9.
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSAdditionalPayments' element value. Платежи за использование интеллектуальной собственности и условия передачи части дохода продавцу. ДТС-3  гр.9.
+     * Set the 'DTSAdditionalPayments' element value. РџР»Р°С‚РµР¶Рё Р·Р° РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё Рё СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё С‡Р°СЃС‚Рё РґРѕС…РѕРґР° РїСЂРѕРґР°РІС†Сѓ. Р”РўРЎ-3  РіСЂ.9.
      * 
      * @param DTSAdditionalPayments
      */
@@ -300,7 +300,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReasonApplyMethod' element value. Причина, по которой предшествующие методы определения стоимости не применимы. ДТС-4 гр. 7.
+     * Get the 'ReasonApplyMethod' element value. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РјРµС‚РѕРґС‹ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё РЅРµ РїСЂРёРјРµРЅРёРјС‹. Р”РўРЎ-4 РіСЂ. 7.
      * 
      * @return value
      */
@@ -309,7 +309,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReasonApplyMethod' element value. Причина, по которой предшествующие методы определения стоимости не применимы. ДТС-4 гр. 7.
+     * Set the 'ReasonApplyMethod' element value. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РјРµС‚РѕРґС‹ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚РѕРёРјРѕСЃС‚Рё РЅРµ РїСЂРёРјРµРЅРёРјС‹. Р”РўРЎ-4 РіСЂ. 7.
      * 
      * @param reasonApplyMethod
      */
@@ -318,7 +318,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTSGoodsCustomsCost' element items. Составляющие таможенной стоимости по товару.
+     * Get the list of 'DTSGoodsCustomsCost' element items. РЎРѕСЃС‚Р°РІР»СЏСЋС‰РёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ С‚РѕРІР°СЂСѓ.
      * 
      * @return list
      */
@@ -327,7 +327,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTSGoodsCustomsCost' element items. Составляющие таможенной стоимости по товару.
+     * Set the list of 'DTSGoodsCustomsCost' element items. РЎРѕСЃС‚Р°РІР»СЏСЋС‰РёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ С‚РѕРІР°СЂСѓ.
      * 
      * @param list
      */
@@ -336,7 +336,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSoutFilledPerson' element value. Дата заполнения и лицо, заполнившее ДТС. 
+     * Get the 'DTSoutFilledPerson' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ Рё Р»РёС†Рѕ, Р·Р°РїРѕР»РЅРёРІС€РµРµ Р”РўРЎ. 
      * 
      * @return value
      */
@@ -345,7 +345,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSoutFilledPerson' element value. Дата заполнения и лицо, заполнившее ДТС. 
+     * Set the 'DTSoutFilledPerson' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ Рё Р»РёС†Рѕ, Р·Р°РїРѕР»РЅРёРІС€РµРµ Р”РўРЎ. 
      * 
      * @param DTSoutFilledPerson
      */
@@ -354,7 +354,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSoutDeclarant' element value. Внешняя ДТС. Сведения о декларанте.
+     * Get the 'DTSoutDeclarant' element value. Р’РЅРµС€РЅСЏСЏ Р”РўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ.
      * 
      * @return value
      */
@@ -363,7 +363,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSoutDeclarant' element value. Внешняя ДТС. Сведения о декларанте.
+     * Set the 'DTSoutDeclarant' element value. Р’РЅРµС€РЅСЏСЏ Р”РўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ.
      * 
      * @param DTSoutDeclarant
      */
@@ -372,7 +372,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CostConfirmationDocument' element items. Документы, подтверждающие заявленные сведения. ДТС-4 гр.8.
+     * Get the list of 'CostConfirmationDocument' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ. Р”РўРЎ-4 РіСЂ.8.
      * 
      * @return list
      */
@@ -381,7 +381,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CostConfirmationDocument' element items. Документы, подтверждающие заявленные сведения. ДТС-4 гр.8.
+     * Set the list of 'CostConfirmationDocument' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ. Р”РўРЎ-4 РіСЂ.8.
      * 
      * @param list
      */
@@ -391,7 +391,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DeliveryTerms' element items. Условие поставки товаров.
+     * Get the list of 'DeliveryTerms' element items. РЈСЃР»РѕРІРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ.
      * 
      * @return list
      */
@@ -400,7 +400,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DeliveryTerms' element items. Условие поставки товаров.
+     * Set the list of 'DeliveryTerms' element items. РЈСЃР»РѕРІРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ.
      * 
      * @param list
      */
@@ -409,7 +409,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Регистрационный номер ДТ. Используется при предоставлении ДТС отдельно от ДТ.
+     * Get the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё Р”РўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @return value
      */
@@ -418,7 +418,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Регистрационный номер ДТ. Используется при предоставлении ДТС отдельно от ДТ.
+     * Set the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё Р”РўРЎ РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
      * 
      * @param GTDNumber
      */
@@ -427,7 +427,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -436,7 +436,7 @@ public class DTSoutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

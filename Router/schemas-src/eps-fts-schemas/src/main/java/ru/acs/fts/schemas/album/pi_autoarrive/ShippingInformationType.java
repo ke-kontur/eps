@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.CountryInformation
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TransportMeansType;
 
 /** 
- * Информация о перевозке груза
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РіСЂСѓР·Р°
  */
 public class ShippingInformationType
 {
@@ -17,7 +17,7 @@ public class ShippingInformationType
     private CountryInformationType destinationCountry;
 
     /** 
-     * Get the 'ContainerIndicator' element value. Признак контейнерной перевозки
+     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Признак контейнерной перевозки
+     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @param containerIndicator
      */
@@ -35,7 +35,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the list of 'BorderTransport' element items. Транспортное средство
+     * Get the list of 'BorderTransport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the list of 'BorderTransport' element items. Транспортное средство
+     * Set the list of 'BorderTransport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'DispatchCountry' element value. Страна отправления товаров
+     * Get the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'DispatchCountry' element value. Страна отправления товаров
+     * Set the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param dispatchCountry
      */
@@ -71,7 +71,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения товаров
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения товаров
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param destinationCountry
      */

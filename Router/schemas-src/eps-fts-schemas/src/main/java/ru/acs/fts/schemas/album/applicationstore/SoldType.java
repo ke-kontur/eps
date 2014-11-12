@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Продаваемые припасы
+ * РџСЂРѕРґР°РІР°РµРјС‹Рµ РїСЂРёРїР°СЃС‹
  */
 public class SoldType
 {
@@ -15,7 +15,7 @@ public class SoldType
     private List<StrListGoodsType> soldGoodsList = new ArrayList<StrListGoodsType>();
 
     /** 
-     * Get the 'TotalCost' element value. Общая стоимость продаваемых припасов.
+     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕРґР°РІР°РµРјС‹С… РїСЂРёРїР°СЃРѕРІ.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SoldType
     }
 
     /** 
-     * Set the 'TotalCost' element value. Общая стоимость продаваемых припасов.
+     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕРґР°РІР°РµРјС‹С… РїСЂРёРїР°СЃРѕРІ.
      * 
      * @param totalCost
      */
@@ -33,7 +33,7 @@ public class SoldType
     }
 
     /** 
-     * Get the 'Currency' element value. Валюта 
+     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р° 
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SoldType
     }
 
     /** 
-     * Set the 'Currency' element value. Валюта 
+     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р° 
      * 
      * @param currency
      */
@@ -51,7 +51,7 @@ public class SoldType
     }
 
     /** 
-     * Get the 'CustomsTotalCostGoods' element value. Общая таможенная стоимость
+     * Get the 'CustomsTotalCostGoods' element value. РћР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SoldType
     }
 
     /** 
-     * Set the 'CustomsTotalCostGoods' element value. Общая таможенная стоимость
+     * Set the 'CustomsTotalCostGoods' element value. РћР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param customsTotalCostGoods
      */
@@ -69,7 +69,7 @@ public class SoldType
     }
 
     /** 
-     * Get the list of 'SoldGoodsList' element items. Список продаваемых припасов
+     * Get the list of 'SoldGoodsList' element items. РЎРїРёСЃРѕРє РїСЂРѕРґР°РІР°РµРјС‹С… РїСЂРёРїР°СЃРѕРІ
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class SoldType
     }
 
     /** 
-     * Set the list of 'SoldGoodsList' element items. Список продаваемых припасов
+     * Set the list of 'SoldGoodsList' element items. РЎРїРёСЃРѕРє РїСЂРѕРґР°РІР°РµРјС‹С… РїСЂРёРїР°СЃРѕРІ
      * 
      * @param list
      */

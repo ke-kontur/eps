@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADContainerType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType
 {
@@ -16,7 +16,7 @@ public class GoodsType
     private List<ESADContainerType> containerList = new ArrayList<ESADContainerType>();
 
     /** 
-     * Get the 'GoodsNumber' element value. Порядковый номер товара по ТД/МДП.
+     * Get the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РўР”/РњР”Рџ.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. Порядковый номер товара по ТД/МДП.
+     * Set the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РўР”/РњР”Рџ.
      * 
      * @param goodsNumber
      */
@@ -34,7 +34,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование товара
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование товара
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossMass' element value. Вес товара, брутто
+     * Get the 'GrossMass' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossMass' element value. Вес товара, брутто
+     * Set the 'GrossMass' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
      * 
      * @param grossMass
      */
@@ -70,7 +70,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'Container' element items. Сведения о новом составе контейнеров
+     * Get the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕСЃС‚Р°РІРµ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'Container' element items. Сведения о новом составе контейнеров
+     * Set the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕСЃС‚Р°РІРµ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
      * 
      * @param list
      */

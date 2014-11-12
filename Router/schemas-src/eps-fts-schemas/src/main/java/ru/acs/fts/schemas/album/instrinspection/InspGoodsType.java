@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * Сведения о товаре
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class InspGoodsType
 {
@@ -11,7 +11,7 @@ public class InspGoodsType
     private String netWeightQuantity;
 
     /** 
-     * Get the 'PakageQuantity' element value. Количество грузовых мест
+     * Get the 'PakageQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class InspGoodsType
     }
 
     /** 
-     * Set the 'PakageQuantity' element value. Количество грузовых мест
+     * Set the 'PakageQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param pakageQuantity
      */
@@ -29,7 +29,7 @@ public class InspGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class InspGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
      * 
      * @param grossWeightQuantity
      */
@@ -47,7 +47,7 @@ public class InspGoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес товара нетто (кг)
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class InspGoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес товара нетто (кг)
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeightQuantity
      */

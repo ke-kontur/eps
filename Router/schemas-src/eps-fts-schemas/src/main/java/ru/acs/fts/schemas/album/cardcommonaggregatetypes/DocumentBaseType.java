@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cardcommonaggregatetypes;
 import org.joda.time.LocalDate;
 
 /** 
- * Базовый класс для указания документов. Наименование, номер, дата.
+ * Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ СѓРєР°Р·Р°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ. РќР°РёРјРµРЅРѕРІР°РЅРёРµ, РЅРѕРјРµСЂ, РґР°С‚Р°
  */
 public class DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class DocumentBaseType
     private LocalDate prDocumentDate;
 
     /** 
-     * Get the 'PrDocumentNumber' element value. Номер документа.
+     * Get the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentBaseType
     }
 
     /** 
-     * Set the 'PrDocumentNumber' element value. Номер документа.
+     * Set the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param prDocumentNumber
      */
@@ -30,7 +30,7 @@ public class DocumentBaseType
     }
 
     /** 
-     * Get the 'PrDocumentDate' element value. Дата документа.
+     * Get the 'PrDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocumentBaseType
     }
 
     /** 
-     * Set the 'PrDocumentDate' element value. Дата документа.
+     * Set the 'PrDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param prDocumentDate
      */

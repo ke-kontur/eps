@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.esadoutp;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Предварительное уведомление о декларировании товаров
+ * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё С‚РѕРІР°СЂРѕРІ
  */
 public class ESADoutPType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class ESADoutPType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsProcedure' element value. Таможенная процедура. ИМ, ЭК. ВТТ, МТТ. Левый подраздел гр.1 ДТ.
+     * Get the 'CustomsProcedure' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°. РРњ, Р­Рљ. Р’РўРў, РњРўРў. Р›РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 Р”Рў.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. Таможенная процедура. ИМ, ЭК. ВТТ, МТТ. Левый подраздел гр.1 ДТ.
+     * Set the 'CustomsProcedure' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°. РРњ, Р­Рљ. Р’РўРў, РњРўРў. Р›РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 Р”Рў.
      * 
      * @param customsProcedure
      */
@@ -36,7 +36,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код таможенного режима.  гр. 1. средний подраздел ДТ. Первый символ кода гр. 37.
+     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°.  РіСЂ. 1. СЃСЂРµРґРЅРёР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЃРёРјРІРѕР» РєРѕРґР° РіСЂ. 37.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код таможенного режима.  гр. 1. средний подраздел ДТ. Первый символ кода гр. 37.
+     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°.  РіСЂ. 1. СЃСЂРµРґРЅРёР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЃРёРјРІРѕР» РєРѕРґР° РіСЂ. 37.
      * 
      * @param customsModeCode
      */
@@ -54,7 +54,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitDirectionCode' element value. Направление перемещения при транзите.  ИМ, ЭК, ПР. Гр. 1 ДТ. правый подраздел. 
+     * Get the 'TransitDirectionCode' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ.  РРњ, Р­Рљ, РџР . Р“СЂ. 1 Р”Рў. РїСЂР°РІС‹Р№ РїРѕРґСЂР°Р·РґРµР». 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitDirectionCode' element value. Направление перемещения при транзите.  ИМ, ЭК, ПР. Гр. 1 ДТ. правый подраздел. 
+     * Set the 'TransitDirectionCode' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ.  РРњ, Р­Рљ, РџР . Р“СЂ. 1 Р”Рў. РїСЂР°РІС‹Р№ РїРѕРґСЂР°Р·РґРµР». 
      * 
      * @param transitDirectionCode
      */
@@ -72,7 +72,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationKind' element value. Вид таможенной декларации по Классификатору видов таможенных деклараций.
+     * Get the 'DeclarationKind' element value. Р’РёРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРµРєР»Р°СЂР°С†РёР№.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. Вид таможенной декларации по Классификатору видов таможенных деклараций.
+     * Set the 'DeclarationKind' element value. Р’РёРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРµРєР»Р°СЂР°С†РёР№.
      * 
      * @param declarationKind
      */
@@ -90,7 +90,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_URN' element value. Уникальный идентификатор предварительной информации
+     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. Уникальный идентификатор предварительной информации
+     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIURN
      */
@@ -108,7 +108,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormKind' element value. Тип формы
+     * Get the 'FormKind' element value. РўРёРї С„РѕСЂРјС‹
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormKind' element value. Тип формы
+     * Set the 'FormKind' element value. РўРёРї С„РѕСЂРјС‹
      * 
      * @param formKind
      */
@@ -126,7 +126,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'ESADGoodsShipmentP' element value. Сведения о товарной партии.
+     * Get the 'ESADGoodsShipmentP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'ESADGoodsShipmentP' element value. Сведения о товарной партии.
+     * Set the 'ESADGoodsShipmentP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
      * 
      * @param ESADGoodsShipmentP
      */
@@ -144,7 +144,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class ESADoutPType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

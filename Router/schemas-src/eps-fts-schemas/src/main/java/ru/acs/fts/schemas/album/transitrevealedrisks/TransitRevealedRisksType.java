@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Результат выявления рисков по информации о транзитных товарах
+ * Р РµР·СѓР»СЊС‚Р°С‚ РІС‹СЏРІР»РµРЅРёСЏ СЂРёСЃРєРѕРІ РїРѕ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С‚СЂР°РЅР·РёС‚РЅС‹С… С‚РѕРІР°СЂР°С…
  */
 public class TransitRevealedRisksType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class TransitRevealedRisksType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TransportID' element value. Идентификатор сообщения с информацией о транзитных товарах, по которым выявлялись риски
+     * Get the 'TransportID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ Рѕ С‚СЂР°РЅР·РёС‚РЅС‹С… С‚РѕРІР°СЂР°С…, РїРѕ РєРѕС‚РѕСЂС‹Рј РІС‹СЏРІР»СЏР»РёСЃСЊ СЂРёСЃРєРё
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportID' element value. Идентификатор сообщения с информацией о транзитных товарах, по которым выявлялись риски
+     * Set the 'TransportID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ Рѕ С‚СЂР°РЅР·РёС‚РЅС‹С… С‚РѕРІР°СЂР°С…, РїРѕ РєРѕС‚РѕСЂС‹Рј РІС‹СЏРІР»СЏР»РёСЃСЊ СЂРёСЃРєРё
      * 
      * @param transportID
      */
@@ -34,7 +34,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Profiles' element items. Выявленные ПР/СПР
+     * Get the list of 'Profiles' element items. Р’С‹СЏРІР»РµРЅРЅС‹Рµ РџР /РЎРџР 
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Profiles' element items. Выявленные ПР/СПР
+     * Set the list of 'Profiles' element items. Р’С‹СЏРІР»РµРЅРЅС‹Рµ РџР /РЎРџР 
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignments' element value. Партии товаров, на которых были выявлены риски
+     * Get the 'Consignments' element value. РџР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ, РЅР° РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignments' element value. Партии товаров, на которых были выявлены риски
+     * Set the 'Consignments' element value. РџР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ, РЅР° РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
      * 
      * @param consignments
      */
@@ -70,7 +70,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TransitRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

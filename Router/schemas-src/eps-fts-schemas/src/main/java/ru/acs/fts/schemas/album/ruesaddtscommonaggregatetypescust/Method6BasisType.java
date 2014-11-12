@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * Основа для расчета по методу 6
+ * РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° РїРѕ РјРµС‚РѕРґСѓ 6
  */
 public class Method6BasisType
 {
@@ -12,7 +12,7 @@ public class Method6BasisType
     private String currencyRate;
 
     /** 
-     * Get the 'CurrencyAmount' element value. Цена в валюте счета.
+     * Get the 'CurrencyAmount' element value. Р¦РµРЅР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р°.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Set the 'CurrencyAmount' element value. Цена в валюте счета.
+     * Set the 'CurrencyAmount' element value. Р¦РµРЅР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р°.
      * 
      * @param currencyAmount
      */
@@ -30,7 +30,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты счета
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты счета
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р°
      * 
      * @param currencyCode
      */
@@ -48,7 +48,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Get the 'NationalAmount' element value. Цена сделки в национальной валюте
+     * Get the 'NationalAmount' element value. Р¦РµРЅР° СЃРґРµР»РєРё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Set the 'NationalAmount' element value. Цена сделки в национальной валюте
+     * Set the 'NationalAmount' element value. Р¦РµРЅР° СЃРґРµР»РєРё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
      * 
      * @param nationalAmount
      */
@@ -66,7 +66,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс пересчета
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class Method6BasisType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс пересчета
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РїРµСЂРµСЃС‡РµС‚Р°
      * 
      * @param currencyRate
      */

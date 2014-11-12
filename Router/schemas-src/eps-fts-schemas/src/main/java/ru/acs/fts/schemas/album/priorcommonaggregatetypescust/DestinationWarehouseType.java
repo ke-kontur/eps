@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * СВХ места назначения
+ * РЎР’РҐ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
  */
 public class DestinationWarehouseType
 {
@@ -12,7 +12,7 @@ public class DestinationWarehouseType
     private LocalDate certificateDate;
 
     /** 
-     * Get the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии 
+     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DestinationWarehouseType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии 
+     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё 
      * 
      * @param certificateNumber
      */
@@ -30,7 +30,7 @@ public class DestinationWarehouseType
     }
 
     /** 
-     * Get the 'CertificateDate' element value. Дата выдачи свидетельства о включении в Реестр владельцев СВХ / ТС / Дата выдачи лицензии 
+     * Get the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ / РўРЎ / Р”Р°С‚Р° РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DestinationWarehouseType
     }
 
     /** 
-     * Set the 'CertificateDate' element value. Дата выдачи свидетельства о включении в Реестр владельцев СВХ / ТС / Дата выдачи лицензии 
+     * Set the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ / РўРЎ / Р”Р°С‚Р° РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё 
      * 
      * @param certificateDate
      */

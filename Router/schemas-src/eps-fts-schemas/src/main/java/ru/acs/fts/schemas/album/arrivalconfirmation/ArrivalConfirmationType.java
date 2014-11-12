@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Подтверждение о прибытии
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
  */
 public class ArrivalConfirmationType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ArrivalConfirmationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NotifDate' element value. Дата подачи уведомления о прибытии
+     * Get the 'NotifDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifDate' element value. Дата подачи уведомления о прибытии
+     * Set the 'NotifDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @param notifDate
      */
@@ -43,7 +43,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifTime' element value. Время подачи уведомления о прибытии
+     * Get the 'NotifTime' element value. Р’СЂРµРјСЏ РїРѕРґР°С‡Рё СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifTime' element value. Время подачи уведомления о прибытии
+     * Set the 'NotifTime' element value. Р’СЂРµРјСЏ РїРѕРґР°С‡Рё СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @param notifTime
      */
@@ -61,7 +61,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comment' element value. Комментарий
+     * Get the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comment' element value. Комментарий
+     * Set the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comment
      */
@@ -79,7 +79,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Confirmation' element value. Подтверждение о прибытии
+     * Get the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Confirmation' element value. Подтверждение о прибытии
+     * Set the 'Confirmation' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @param confirmation
      */
@@ -97,7 +97,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа, выдавшее Подтверждение о прибытии
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРµ РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа, выдавшее Подтверждение о прибытии
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРµ РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
      * 
      * @param customsPerson
      */
@@ -140,7 +140,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TD' element value. Номер транзитной декларации
+     * Get the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TD' element value. Номер транзитной декларации
+     * Set the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
      * 
      * @param TD
      */
@@ -168,7 +168,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRID' element value. Номер книжки МДП
+     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRID' element value. Номер книжки МДП
+     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
      * 
      * @param TIRID
      */
@@ -187,7 +187,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ArrivalConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

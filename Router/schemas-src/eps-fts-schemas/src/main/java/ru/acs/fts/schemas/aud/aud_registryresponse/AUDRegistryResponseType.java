@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Реестр документов,  размещенных  в архиве
+ * Р РµРµСЃС‚СЂ РґРѕРєСѓРјРµРЅС‚РѕРІ,  СЂР°Р·РјРµС‰РµРЅРЅС‹С…  РІ Р°СЂС…РёРІРµ
  */
 public class AUDRegistryResponseType extends AUDBaseEnvelopeType
 {
@@ -15,7 +15,7 @@ public class AUDRegistryResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'NullFlag' element value. Признак наличия  записей  в реестре. true - присутствуют false -  отсутствуют
+     * Get the 'NullFlag' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ  Р·Р°РїРёСЃРµР№  РІ СЂРµРµСЃС‚СЂРµ. true - РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‚ false -  РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‚
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AUDRegistryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'NullFlag' element value. Признак наличия  записей  в реестре. true - присутствуют false -  отсутствуют
+     * Set the 'NullFlag' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ  Р·Р°РїРёСЃРµР№  РІ СЂРµРµСЃС‚СЂРµ. true - РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‚ false -  РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‚
      * 
      * @param nullFlag
      */
@@ -33,7 +33,7 @@ public class AUDRegistryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the list of 'AUD_PacketRegistryRow' element items. Сведения о  размещенных  пакетах
+     * Get the list of 'AUD_PacketRegistryRow' element items. РЎРІРµРґРµРЅРёСЏ Рѕ  СЂР°Р·РјРµС‰РµРЅРЅС‹С…  РїР°РєРµС‚Р°С…
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class AUDRegistryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'AUD_PacketRegistryRow' element items. Сведения о  размещенных  пакетах
+     * Set the list of 'AUD_PacketRegistryRow' element items. РЎРІРµРґРµРЅРёСЏ Рѕ  СЂР°Р·РјРµС‰РµРЅРЅС‹С…  РїР°РєРµС‚Р°С…
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class AUDRegistryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class AUDRegistryResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

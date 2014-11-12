@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.ConclusionType;
 
 /** 
- * Ответ на запрос сведений  из заключения на ввоз / вывоз / транзит образцов ядовитых веществ
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№  РёР· Р·Р°РєР»СЋС‡РµРЅРёСЏ РЅР° РІРІРѕР· / РІС‹РІРѕР· / С‚СЂР°РЅР·РёС‚ РѕР±СЂР°Р·С†РѕРІ СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ
  */
 public class RosPrirodPoisonousSubstancesType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. Признак прекращения действия документа
+     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. Признак прекращения действия документа
+     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param isCanceled
      */
@@ -44,7 +44,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
+     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
      * 
      * @param BDRDID
      */
@@ -62,7 +62,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentId' element value. Id документа
+     * Get the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentId' element value. Id документа
+     * Set the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentId
      */
@@ -80,7 +80,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Info' element value. Описание ядовитых веществ
+     * Get the 'Info' element value. РћРїРёСЃР°РЅРёРµ СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Info' element value. Описание ядовитых веществ
+     * Set the 'Info' element value. РћРїРёСЃР°РЅРёРµ СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ
      * 
      * @param info
      */
@@ -98,7 +98,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'TNVED' element value. Код ТН ВЭД ТС
+     * Get the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'TNVED' element value. Код ТН ВЭД ТС
+     * Set the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param TNVED
      */
@@ -116,7 +116,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
+     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
+     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
      * 
      * @param authorizedPerson
      */
@@ -134,7 +134,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conclusion' element value. Сведения о заключении
+     * Get the 'Conclusion' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conclusion' element value. Сведения о заключении
+     * Set the 'Conclusion' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
      * 
      * @param conclusion
      */
@@ -152,7 +152,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. Отправитель
+     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. Отправитель
+     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
      * 
      * @param sender
      */
@@ -170,7 +170,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. Получатель
+     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. Получатель
+     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
      * 
      * @param receiver
      */
@@ -188,7 +188,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Count' element value. Количество
+     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Count' element value. Количество
+     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param count
      */
@@ -206,7 +206,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Реквизиты контракта
+     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Реквизиты контракта
+     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contract
      */
@@ -224,7 +224,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class RosPrirodPoisonousSubstancesType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.GoodsLocationPlac
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.WarehousePlaceType;
 
 /** 
- * Адрес, по которому проводилось отбор проб или образцов.
+ * РђРґСЂРµСЃ, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРѕРґРёР»РѕСЃСЊ РѕС‚Р±РѕСЂ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ.
  */
 public class AddressThievingSamplingType
 {
@@ -13,7 +13,7 @@ public class AddressThievingSamplingType
     private GoodsLocationPlaceType goodsLocationPlace;
 
     /** 
-     * Get the 'WarehousePlace' element value. Сведения о лицензии/ свидетельстве склада.
+     * Get the 'WarehousePlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AddressThievingSamplingType
     }
 
     /** 
-     * Set the 'WarehousePlace' element value. Сведения о лицензии/ свидетельстве склада.
+     * Set the 'WarehousePlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
      * 
      * @param warehousePlace
      */
@@ -31,7 +31,7 @@ public class AddressThievingSamplingType
     }
 
     /** 
-     * Get the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
+     * Get the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AddressThievingSamplingType
     }
 
     /** 
-     * Set the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
+     * Set the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
      * 
      * @param goodsLocationPlace
      */

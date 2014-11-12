@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.dtsout;
 import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSFilledPersonType;
 
 /** 
- * ДТС. Внешний формат. Сведения о лице, заполнившем ДТС.
+ * Р”РўРЎ. Р’РЅРµС€РЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј Р”РўРЎ.
  */
 public class DTSoutFilledPersonType extends DTSFilledPersonType
 {
     private String LNP;
 
     /** 
-     * Get the 'LNP' element value. ЛНП должностного лица таможенного органа
+     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSoutFilledPersonType extends DTSFilledPersonType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП должностного лица таможенного органа
+     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param LNP
      */

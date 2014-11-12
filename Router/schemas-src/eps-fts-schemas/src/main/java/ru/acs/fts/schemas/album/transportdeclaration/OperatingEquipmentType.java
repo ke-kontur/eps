@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Запасные части и оборудование
+ * Р—Р°РїР°СЃРЅС‹Рµ С‡Р°СЃС‚Рё Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ
  */
 public class OperatingEquipmentType
 {
@@ -15,7 +15,7 @@ public class OperatingEquipmentType
     private SupplementaryQuantityType equipmentDescription;
 
     /** 
-     * Get the 'GoodsSign' element value. Наличие запасных частей и оборудования, предназначенных для ремонта и эксплуатации ТСМП
+     * Get the 'GoodsSign' element value. РќР°Р»РёС‡РёРµ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ СЂРµРјРѕРЅС‚Р° Рё СЌРєСЃРїР»СѓР°С‚Р°С†РёРё РўРЎРњРџ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class OperatingEquipmentType
     }
 
     /** 
-     * Set the 'GoodsSign' element value. Наличие запасных частей и оборудования, предназначенных для ремонта и эксплуатации ТСМП
+     * Set the 'GoodsSign' element value. РќР°Р»РёС‡РёРµ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ СЂРµРјРѕРЅС‚Р° Рё СЌРєСЃРїР»СѓР°С‚Р°С†РёРё РўРЎРњРџ
      * 
      * @param goodsSign
      */
@@ -33,7 +33,7 @@ public class OperatingEquipmentType
     }
 
     /** 
-     * Get the list of 'EquipmentName' element items. Наименование запасных частей и оборудования
+     * Get the list of 'EquipmentName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class OperatingEquipmentType
     }
 
     /** 
-     * Set the list of 'EquipmentName' element items. Наименование запасных частей и оборудования
+     * Set the list of 'EquipmentName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class OperatingEquipmentType
     }
 
     /** 
-     * Get the 'EquipmentDescription' element value. Краткое описание и количество запасных частей и оборудования
+     * Get the 'EquipmentDescription' element value. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ Рё РєРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class OperatingEquipmentType
     }
 
     /** 
-     * Set the 'EquipmentDescription' element value. Краткое описание и количество запасных частей и оборудования
+     * Set the 'EquipmentDescription' element value. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ Рё РєРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№ Рё РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
      * 
      * @param equipmentDescription
      */

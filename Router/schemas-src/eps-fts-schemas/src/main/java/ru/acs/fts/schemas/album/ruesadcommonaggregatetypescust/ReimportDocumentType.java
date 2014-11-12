@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения указываемые при помещении товаров под таможенный режим реимпорта. Гр. 44 п.9.6.
+ * РЎРІРµРґРµРЅРёСЏ СѓРєР°Р·С‹РІР°РµРјС‹Рµ РїСЂРё РїРѕРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЂРµРёРјРїРѕСЂС‚Р°. Р“СЂ. 44 Рї.9.6.
  */
 public class ReimportDocumentType extends PresentedDocumentType
 {
@@ -14,7 +14,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     private LocalDate exportDate;
 
     /** 
-     * Get the 'SymbolSubLineNumber' element value. Код информации  A-разрешение продления сроков по реимпорту . B - ДТ при вывозе. С- Статус товаров при вывозе с территории РФ, D - Операции с товарами за пределами РФ
+     * Get the 'SymbolSubLineNumber' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё  A-СЂР°Р·СЂРµС€РµРЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєРѕРІ РїРѕ СЂРµРёРјРїРѕСЂС‚Сѓ . B - Р”Рў РїСЂРё РІС‹РІРѕР·Рµ. РЎ- РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂРѕРІ РїСЂРё РІС‹РІРѕР·Рµ СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤, D - РћРїРµСЂР°С†РёРё СЃ С‚РѕРІР°СЂР°РјРё Р·Р° РїСЂРµРґРµР»Р°РјРё Р Р¤
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'SymbolSubLineNumber' element value. Код информации  A-разрешение продления сроков по реимпорту . B - ДТ при вывозе. С- Статус товаров при вывозе с территории РФ, D - Операции с товарами за пределами РФ
+     * Set the 'SymbolSubLineNumber' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё  A-СЂР°Р·СЂРµС€РµРЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєРѕРІ РїРѕ СЂРµРёРјРїРѕСЂС‚Сѓ . B - Р”Рў РїСЂРё РІС‹РІРѕР·Рµ. РЎ- РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂРѕРІ РїСЂРё РІС‹РІРѕР·Рµ СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤, D - РћРїРµСЂР°С†РёРё СЃ С‚РѕРІР°СЂР°РјРё Р·Р° РїСЂРµРґРµР»Р°РјРё Р Р¤
      * 
      * @param symbolSubLineNumber
      */
@@ -32,7 +32,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'GoodsStatus' element value. Статус товаров при вывозе 21- РОССИЙСКИЕ, 22 - ПРОДУКТЫ ПЕРЕРАБОТКИ
+     * Get the 'GoodsStatus' element value. РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂРѕРІ РїСЂРё РІС‹РІРѕР·Рµ 21- Р РћРЎРЎРР™РЎРљРР•, 22 - РџР РћР”РЈРљРўР« РџР•Р Р•Р РђР‘РћРўРљР
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'GoodsStatus' element value. Статус товаров при вывозе 21- РОССИЙСКИЕ, 22 - ПРОДУКТЫ ПЕРЕРАБОТКИ
+     * Set the 'GoodsStatus' element value. РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂРѕРІ РїСЂРё РІС‹РІРѕР·Рµ 21- Р РћРЎРЎРР™РЎРљРР•, 22 - РџР РћР”РЈРљРўР« РџР•Р Р•Р РђР‘РћРўРљР
      * 
      * @param goodsStatus
      */
@@ -50,7 +50,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'RepairStatus' element value. Признак ремонта за пределами таможенной территории РФ. 30 - ОПЕРАЦИИ ПО РЕМОНТУ НЕ ПРОИЗВОДИЛИСЬ, 31 - ОПЕРАЦИИ ПО РЕМОНТУ ПРОИЗВОДИЛИСЬ.
+     * Get the 'RepairStatus' element value. РџСЂРёР·РЅР°Рє СЂРµРјРѕРЅС‚Р° Р·Р° РїСЂРµРґРµР»Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤. 30 - РћРџР•Р РђР¦РР РџРћ Р Р•РњРћРќРўРЈ РќР• РџР РћРР—Р’РћР”РР›РРЎР¬, 31 - РћРџР•Р РђР¦РР РџРћ Р Р•РњРћРќРўРЈ РџР РћРР—Р’РћР”РР›РРЎР¬.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'RepairStatus' element value. Признак ремонта за пределами таможенной территории РФ. 30 - ОПЕРАЦИИ ПО РЕМОНТУ НЕ ПРОИЗВОДИЛИСЬ, 31 - ОПЕРАЦИИ ПО РЕМОНТУ ПРОИЗВОДИЛИСЬ.
+     * Set the 'RepairStatus' element value. РџСЂРёР·РЅР°Рє СЂРµРјРѕРЅС‚Р° Р·Р° РїСЂРµРґРµР»Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤. 30 - РћРџР•Р РђР¦РР РџРћ Р Р•РњРћРќРўРЈ РќР• РџР РћРР—Р’РћР”РР›РРЎР¬, 31 - РћРџР•Р РђР¦РР РџРћ Р Р•РњРћРќРўРЈ РџР РћРР—Р’РћР”РР›РРЎР¬.
      * 
      * @param repairStatus
      */
@@ -68,7 +68,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'ExportDate' element value. Дата фактического вывоза.
+     * Get the 'ExportDate' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р°.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ReimportDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'ExportDate' element value. Дата фактического вывоза.
+     * Set the 'ExportDate' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р°.
      * 
      * @param exportDate
      */

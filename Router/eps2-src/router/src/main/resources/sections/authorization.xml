@@ -157,6 +157,8 @@
     								<value>CMN.11104</value>
     								<value>CMN.11108</value>
     								<value>CMN.11110</value>
+
+                                    <value>CMN.11144</value>
     								
     								<value>CMN.12102</value>
     								<value>CMN.12103</value>
@@ -179,9 +181,10 @@
 									<value>ED.13005</value>
     								<!-- Продление срока выпуска товаров -->
 									<value>CMN.11112</value>
-									<value>CMN.11119</value>
 									<value>CMN.11121</value>
 									<value>CMN.11126</value>
+                                    <!--Предоставление документов в графическом виде-->
+                                    <value>CMN.11119</value>
     							</list>
     						</property>
     					</bean>
@@ -204,10 +207,11 @@
     								<value>CMN.11101</value>
     								<value>CMN.11117</value>
     								<value>CMN.11118</value>
+                                    <value>CMN.11122</value>
     								<value>CMN.11123</value>
     								<value>CMN.11124</value>
-    								
-    								<value>MSG.11007</value>
+
+                                    <value>MSG.11007</value>
     								<value>MSG.11008</value>
     								<value>MSG.11020</value>
     								<value>MSG.11025</value>
@@ -237,9 +241,10 @@
     								<value>CMN.11101</value>
     								<value>CMN.11117</value>
     								<value>CMN.11118</value>
+                                    <value>CMN.11122</value>
     								<value>CMN.11123</value>
     								<value>CMN.11124</value>
-    								
+
     								<value>MSG.11007</value>
     								<value>MSG.11008</value>
     								<value>MSG.11020</value>
@@ -285,6 +290,7 @@
 									<value>CMN.11007</value>
     								<value>CMN.11010</value>
     								<value>CMN.11020</value>
+                                    <value>CMN.11022</value>
     								<value>CMN.11033</value>
     								<value>CMN.11042</value>
     								<value>CMN.11043</value>
@@ -316,6 +322,11 @@
     								<value>CMN.11124</value>
     								<value>CMN.11125</value>
     								<value>CMN.11128</value>
+                                    <value>CMN.11138</value>
+                                    <value>CMN.11148</value>
+                                    <value>CMN.11156</value>
+                                    <value>CMN.11157</value>
+
 <!--     							<value>CMN.11098</value> -->
 <!--     							<value>CMN.11103</value> -->
     								<value>CMN.12116</value>
@@ -329,7 +340,7 @@
 									<value>CMN.11009</value> 
 									<value>CMN.11015</value>
 									<value>CMN.11016</value>
-									<value>CMN.11022</value>
+									<value>CMN.11122</value>
 									<value>CMN.11029</value>
 									<value>CMN.11031</value>
 									<value>CMN.11064</value>
@@ -586,7 +597,9 @@
     							<list>
     								<value>CMN.11103</value>
     								<value>CMN.11098</value>
-    								
+                                    <value>CMN.11145</value>
+                                    <value>CMN.11150</value>
+                                    <value>CMN.11152</value>
     								<value>CMN.15025</value>
     								<value>CMN.15026</value>
     							</list>

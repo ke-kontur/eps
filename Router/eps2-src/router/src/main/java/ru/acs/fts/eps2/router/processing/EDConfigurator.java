@@ -72,8 +72,14 @@ public class EDConfigurator extends Configurator
 	 * Настройки соединения с админом
 	 */
 	private String _epsReceiveAdminAddress;
-	
-	// @formatter:off
+    private String orderCustomsCode;
+    private String orderExchType;
+    private String payment1CustomsCode;
+    private String payment1ExchType;
+    private String payment2CustomsCode;
+    private String payment2ExchType;
+
+    // @formatter:off
 	public Edecl_Wmqaddress getExtGateTransmitionAddress( ) { return _extGateTransmitionAddress; } 
 	public void setExtGateTransmitionAddress( Edecl_Wmqaddress externalGateTransmitionAddress ) { _extGateTransmitionAddress = externalGateTransmitionAddress; }
 	
@@ -139,5 +145,53 @@ public class EDConfigurator extends Configurator
 	
 	public String getEpsReceiveAdminAddress( ) { return _epsReceiveAdminAddress; }
 	public void setEpsReceiveAdminAddress( String epsReceiveAdminAddress ) { _epsReceiveAdminAddress = epsReceiveAdminAddress; }
-	// @formatter:on
+
+    public void setOrderCustomsCode(String orderCustomsCode) {
+        this.orderCustomsCode = orderCustomsCode;
+    }
+
+    public String getOrderCustomsCode() {
+        return orderCustomsCode;
+    }
+
+    public void setOrderExchType(String orderExchType) {
+        this.orderExchType = orderExchType;
+    }
+
+    public String getOrderExchType() {
+        return orderExchType;
+    }
+
+    public void setPayment1CustomsCode(String payment1CustomsCode) {
+        this.payment1CustomsCode = payment1CustomsCode;
+    }
+
+    public String getPayment1CustomsCode() {
+        return payment1CustomsCode;
+    }
+
+    public void setPayment1ExchType(String payment1ExchType) {
+        this.payment1ExchType = payment1ExchType;
+    }
+
+    public String getPayment1ExchType() {
+        return payment1ExchType;
+    }
+
+    public void setPayment2CustomsCode(String payment2CustomsCode) {
+        this.payment2CustomsCode = payment2CustomsCode;
+    }
+
+    public String getPayment2CustomsCode() {
+        return payment2CustomsCode;
+    }
+
+    public void setPayment2ExchType(String payment2ExchType) {
+        this.payment2ExchType = payment2ExchType;
+    }
+
+    public String getPayment2ExchType() {
+        return payment2ExchType;
+    }
+    // @formatter:on
 }

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Дополнительное оборудование в автобусе
+ * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ Р°РІС‚РѕР±СѓСЃРµ
  */
 public class BusDopDeviceType
 {
@@ -19,7 +19,7 @@ public class BusDopDeviceType
     private String navigationSystem;
 
     /** 
-     * Get the 'ABS' element value. Антиблокировочная система: "0" - нет, "1" - есть
+     * Get the 'ABS' element value. РђРЅС‚РёР±Р»РѕРєРёСЂРѕРІРѕС‡РЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'ABS' element value. Антиблокировочная система: "0" - нет, "1" - есть
+     * Set the 'ABS' element value. РђРЅС‚РёР±Р»РѕРєРёСЂРѕРІРѕС‡РЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param ABS
      */
@@ -37,7 +37,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'Conditioner' element value. Кондиционер: "0" - нет, "1" - кондиционер, "2" - климат контроль
+     * Get the 'Conditioner' element value. РљРѕРЅРґРёС†РёРѕРЅРµСЂ: "0" - РЅРµС‚, "1" - РєРѕРЅРґРёС†РёРѕРЅРµСЂ, "2" - РєР»РёРјР°С‚ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'Conditioner' element value. Кондиционер: "0" - нет, "1" - кондиционер, "2" - климат контроль
+     * Set the 'Conditioner' element value. РљРѕРЅРґРёС†РёРѕРЅРµСЂ: "0" - РЅРµС‚, "1" - РєРѕРЅРґРёС†РёРѕРЅРµСЂ, "2" - РєР»РёРјР°С‚ РєРѕРЅС‚СЂРѕР»СЊ
      * 
      * @param conditioner
      */
@@ -55,7 +55,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'VideotapeRecorder' element value. Видеомагнитофон: "0" - нет, "1" - есть
+     * Get the 'VideotapeRecorder' element value. Р’РёРґРµРѕРјР°РіРЅРёС‚РѕС„РѕРЅ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'VideotapeRecorder' element value. Видеомагнитофон: "0" - нет, "1" - есть
+     * Set the 'VideotapeRecorder' element value. Р’РёРґРµРѕРјР°РіРЅРёС‚РѕС„РѕРЅ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param videotapeRecorder
      */
@@ -73,7 +73,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'AudioSystem' element value. Аудиосистема: "0" - нет, "1" - есть
+     * Get the 'AudioSystem' element value. РђСѓРґРёРѕСЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'AudioSystem' element value. Аудиосистема: "0" - нет, "1" - есть
+     * Set the 'AudioSystem' element value. РђСѓРґРёРѕСЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param audioSystem
      */
@@ -91,7 +91,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'TV' element value. Телевизор: "0" - нет, "1" - есть
+     * Get the 'TV' element value. РўРµР»РµРІРёР·РѕСЂ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'TV' element value. Телевизор: "0" - нет, "1" - есть
+     * Set the 'TV' element value. РўРµР»РµРІРёР·РѕСЂ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param TV
      */
@@ -109,7 +109,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'Telefon' element value. Количество телефонов: "0" - если нет
+     * Get the 'Telefon' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РµР»РµС„РѕРЅРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'Telefon' element value. Количество телефонов: "0" - если нет
+     * Set the 'Telefon' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РµР»РµС„РѕРЅРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
      * 
      * @param telefon
      */
@@ -127,7 +127,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'Fax' element value. Факс: "0" - нет, "1" - есть
+     * Get the 'Fax' element value. Р¤Р°РєСЃ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'Fax' element value. Факс: "0" - нет, "1" - есть
+     * Set the 'Fax' element value. Р¤Р°РєСЃ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param fax
      */
@@ -145,7 +145,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'BioCloset' element value. Биотуалет: "0" - нет, "1" - есть
+     * Get the 'BioCloset' element value. Р‘РёРѕС‚СѓР°Р»РµС‚: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'BioCloset' element value. Биотуалет: "0" - нет, "1" - есть
+     * Set the 'BioCloset' element value. Р‘РёРѕС‚СѓР°Р»РµС‚: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param bioCloset
      */
@@ -163,7 +163,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'Fridge' element value. Холодильник: "0" - нет, "1" - есть
+     * Get the 'Fridge' element value. РҐРѕР»РѕРґРёР»СЊРЅРёРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'Fridge' element value. Холодильник: "0" - нет, "1" - есть
+     * Set the 'Fridge' element value. РҐРѕР»РѕРґРёР»СЊРЅРёРє: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param fridge
      */
@@ -181,7 +181,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'Microvawe' element value. Печь СВЧ: "0" - нет, "1" - есть
+     * Get the 'Microvawe' element value. РџРµС‡СЊ РЎР’Р§: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'Microvawe' element value. Печь СВЧ: "0" - нет, "1" - есть
+     * Set the 'Microvawe' element value. РџРµС‡СЊ РЎР’Р§: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param microvawe
      */
@@ -199,7 +199,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Get the 'NavigationSystem' element value. Навигационная система: "0" - нет, "1" - есть
+     * Get the 'NavigationSystem' element value. РќР°РІРёРіР°С†РёРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class BusDopDeviceType
     }
 
     /** 
-     * Set the 'NavigationSystem' element value. Навигационная система: "0" - нет, "1" - есть
+     * Set the 'NavigationSystem' element value. РќР°РІРёРіР°С†РёРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
      * 
      * @param navigationSystem
      */

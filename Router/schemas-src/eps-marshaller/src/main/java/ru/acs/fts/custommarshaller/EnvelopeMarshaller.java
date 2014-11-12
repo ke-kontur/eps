@@ -20,6 +20,7 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.codec.binary.Base64;
+import org.jibx.runtime.JiBXException;
 import org.springframework.oxm.Marshaller;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -35,7 +36,7 @@ public class EnvelopeMarshaller
 	public String getEncoding( ) { return encoding; }
 	
 	private XStringMarshallableClass marshallDoc( Object obj, Marshaller marshaller )
-		throws IOException
+		throws IOException,JiBXException
 	{
 		XStringMarshallableClass sms = new XStringMarshallableClass( );
 		sms.setByteArray( omitXmlDeclaration( marshallObj( obj, marshaller ) ) );
@@ -44,7 +45,7 @@ public class EnvelopeMarshaller
 	}
 
 	private byte[ ] marshallObj( Object obj, Marshaller marshaller )
-		throws IOException
+		throws IOException, JiBXException
 	{
 		ByteArrayOutputStream bas2 = new ByteArrayOutputStream( );
 		StreamResult sr2 = new StreamResult( bas2 );
@@ -58,31 +59,36 @@ public class EnvelopeMarshaller
 	public byte[ ] marshall( EnvelopeType envType, Marshaller marshaller, Boolean compressed ) 
 		throws IOException
 	{
-		/** Если не надо сжимать, то просто маршаллим */
-		if ( ! compressed )
-			return marshallObj( envType, marshaller );
-		
-		Object doc = envType.getBody( ).getAnyList( ).get( 0 );
+        try {
+            /** Если не надо сжимать, то просто маршаллим */
+            if (!compressed)
+                return marshallObj(envType, marshaller);
 
-		/** Если документ уже сжать, то тоже просто маршаллим */
-		if ( doc instanceof Compressed )
-			return marshallObj( envType, marshaller );
-		
-		XStringMarshallableClass marsh = marshalBaseDocOrSignature( doc, marshaller );
-		
-		Compressed compr = new Compressed( );
-		compr.setCompressed( Base64.encodeBase64String( compress( marsh.getByteArray( ) ) ) );
-		envType.getBody( ).getAnyList( ).set( 0, compr );
-		
-		byte[ ] res = marshallObj( envType, marshaller );
-		
-		envType.getBody( ).getAnyList( ).set( 0, doc );
-		
-		return res;
+            Object doc = envType.getBody().getAnyList().get(0);
+
+            /** Если документ уже сжать, то тоже просто маршаллим */
+            if (doc instanceof Compressed)
+                return marshallObj(envType, marshaller);
+
+            XStringMarshallableClass marsh = marshalBaseDocOrSignature(doc, marshaller);
+
+            Compressed compr = new Compressed();
+            compr.setCompressed(Base64.encodeBase64String(compress(marsh.getByteArray())));
+            envType.getBody().getAnyList().set(0, compr);
+
+            byte[] res = marshallObj(envType, marshaller);
+
+            envType.getBody().getAnyList().set(0, doc);
+
+            return res;
+        }
+        catch (JiBXException exception){
+            throw new RuntimeException(exception);
+        }
 	}
 
 	public XStringMarshallableClass marshalBaseDocOrSignature( Object data, Marshaller marshaller ) 
-		throws IOException
+		throws IOException,JiBXException
 	{
 		if ( data instanceof XStringMarshallableClass )
 			return ( XStringMarshallableClass )data;

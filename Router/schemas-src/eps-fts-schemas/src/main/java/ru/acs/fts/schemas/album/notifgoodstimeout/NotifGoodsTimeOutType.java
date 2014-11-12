@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Уведомление об истечении сроков предъявления товаров/предоставления сведений
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёСЃС‚РµС‡РµРЅРёРё СЃСЂРѕРєРѕРІ РїСЂРµРґСЉСЏРІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРІРµРґРµРЅРёР№
  */
 public class NotifGoodsTimeOutType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'StateChDate' element value. Дата смены статуса
+     * Get the 'StateChDate' element value. Р”Р°С‚Р° СЃРјРµРЅС‹ СЃС‚Р°С‚СѓСЃР°
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'StateChDate' element value. Дата смены статуса
+     * Set the 'StateChDate' element value. Р”Р°С‚Р° СЃРјРµРЅС‹ СЃС‚Р°С‚СѓСЃР°
      * 
      * @param stateChDate
      */
@@ -37,7 +37,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'StateChTime' element value. Время смены статуса
+     * Get the 'StateChTime' element value. Р’СЂРµРјСЏ СЃРјРµРЅС‹ СЃС‚Р°С‚СѓСЃР°
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'StateChTime' element value. Время смены статуса
+     * Set the 'StateChTime' element value. Р’СЂРµРјСЏ СЃРјРµРЅС‹ СЃС‚Р°С‚СѓСЃР°
      * 
      * @param stateChTime
      */
@@ -55,7 +55,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcessID' element value. Идентификатор процесса, для которого запрашивается статус / история
+     * Get the 'ProcessID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ / РёСЃС‚РѕСЂРёСЏ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessID' element value. Идентификатор процесса, для которого запрашивается статус / история
+     * Set the 'ProcessID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ / РёСЃС‚РѕСЂРёСЏ
      * 
      * @param processID
      */
@@ -73,7 +73,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcState' element value. Текущий статус процесса
+     * Get the 'ProcState' element value. РўРµРєСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcState' element value. Текущий статус процесса
+     * Set the 'ProcState' element value. РўРµРєСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР°
      * 
      * @param procState
      */
@@ -91,7 +91,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'StateDescription' element value. Описание текущего статусного состояния
+     * Get the 'StateDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РµРєСѓС‰РµРіРѕ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'StateDescription' element value. Описание текущего статусного состояния
+     * Set the 'StateDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РµРєСѓС‰РµРіРѕ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ
      * 
      * @param stateDescription
      */
@@ -109,7 +109,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'PrevProcState' element value. Предыдущий статус процесса
+     * Get the 'PrevProcState' element value. РџСЂРµРґС‹РґСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'PrevProcState' element value. Предыдущий статус процесса
+     * Set the 'PrevProcState' element value. РџСЂРµРґС‹РґСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР°
      * 
      * @param prevProcState
      */
@@ -127,7 +127,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'PrevStateDescription' element value. Описание предыдущего статусного состояния
+     * Get the 'PrevStateDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРµРґС‹РґСѓС‰РµРіРѕ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'PrevStateDescription' element value. Описание предыдущего статусного состояния
+     * Set the 'PrevStateDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРµРґС‹РґСѓС‰РµРіРѕ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ
      * 
      * @param prevStateDescription
      */
@@ -145,7 +145,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class NotifGoodsTimeOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

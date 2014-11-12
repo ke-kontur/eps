@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportdeclaration;
 
 /** 
- * Экипаж
+ * Р­РєРёРїР°Р¶
  */
 public class CrewInfoType
 {
@@ -10,7 +10,7 @@ public class CrewInfoType
     private String totalMemberCount;
 
     /** 
-     * Get the 'CrewDescription' element value. Экипаж (команда судна, поездная бригада и т.п.)
+     * Get the 'CrewDescription' element value. Р­РєРёРїР°Р¶ (РєРѕРјР°РЅРґР° СЃСѓРґРЅР°, РїРѕРµР·РґРЅР°СЏ Р±СЂРёРіР°РґР° Рё С‚.Рї.)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Set the 'CrewDescription' element value. Экипаж (команда судна, поездная бригада и т.п.)
+     * Set the 'CrewDescription' element value. Р­РєРёРїР°Р¶ (РєРѕРјР°РЅРґР° СЃСѓРґРЅР°, РїРѕРµР·РґРЅР°СЏ Р±СЂРёРіР°РґР° Рё С‚.Рї.)
      * 
      * @param crewDescription
      */
@@ -28,7 +28,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Get the 'TotalMemberCount' element value. Общее количество членов экипажа
+     * Get the 'TotalMemberCount' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Set the 'TotalMemberCount' element value. Общее количество членов экипажа
+     * Set the 'TotalMemberCount' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
      * 
      * @param totalMemberCount
      */

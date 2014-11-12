@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 
 /** 
- * Информация о разгрузке товара
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
  */
 public class DestinationInfoType
 {
@@ -16,7 +16,7 @@ public class DestinationInfoType
     private List<ULDGoodsType> ULDCargoList = new ArrayList<ULDGoodsType>();
 
     /** 
-     * Get the 'NilCargoCode' element value. NilCargoCode. Служебное поле
+     * Get the 'NilCargoCode' element value. NilCargoCode. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Set the 'NilCargoCode' element value. NilCargoCode. Служебное поле
+     * Set the 'NilCargoCode' element value. NilCargoCode. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ
      * 
      * @param nilCargoCode
      */
@@ -34,7 +34,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. Аэропорт назначения
+     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. Аэропорт назначения
+     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationAirport
      */
@@ -52,7 +52,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Get the list of 'BulkGargo' element items. Описание груза навалом
+     * Get the list of 'BulkGargo' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° РЅР°РІР°Р»РѕРј
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Set the list of 'BulkGargo' element items. Описание груза навалом
+     * Set the list of 'BulkGargo' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° РЅР°РІР°Р»РѕРј
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Get the list of 'ULDCargo' element items. Товары, перевозимые в контейнере
+     * Get the list of 'ULDCargo' element items. РўРѕРІР°СЂС‹, РїРµСЂРµРІРѕР·РёРјС‹Рµ РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class DestinationInfoType
     }
 
     /** 
-     * Set the list of 'ULDCargo' element items. Товары, перевозимые в контейнере
+     * Set the list of 'ULDCargo' element items. РўРѕРІР°СЂС‹, РїРµСЂРµРІРѕР·РёРјС‹Рµ РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
      * 
      * @param list
      */

@@ -1,0 +1,171 @@
+<binding xmlns:awb="urn:customs.ru:Information:TransportDocuments:Air:AirWaybill:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Air:AirWaybill:5.4.3" default="elements" prefix="awb"/>
+  <mapping abstract="true" type-name="awb:AirWaybillType" class="ru.acs.fts.schemas.album.airwaybill.AirWaybillType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="AgreedValuation" get-method="getAgreedValuation" set-method="setAgreedValuation" usage="optional"/>
+    <value style="element" name="AgreedValuationCurrencyCode" get-method="getAgreedValuationCurrencyCode" set-method="setAgreedValuationCurrencyCode"/>
+    <value style="element" name="TotalCost" get-method="getTotalCost" set-method="setTotalCost" usage="optional"/>
+    <value style="element" name="NCVIndicator" get-method="getNCVIndicator" set-method="setNCVIndicator"/>
+    <value style="element" name="InsuranceCost" get-method="getInsuranceCost" set-method="setInsuranceCost" usage="optional"/>
+    <value style="element" name="XXXIndicator" get-method="getXXXIndicator" set-method="setXXXIndicator"/>
+    <value style="element" name="SCI" get-method="getSCI" set-method="setSCI" usage="optional"/>
+    <value style="element" name="NVDIndicator" get-method="getNVDIndicator" set-method="setNVDIndicator"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDeparturePoint" set-method="setDeparturePoint" name="DeparturePoint"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDestinationPoint" set-method="setDestinationPoint" name="DestinationPoint"/>
+    <structure map-as="awb:RegistrationType" get-method="getRegistration" set-method="setRegistration" name="Registration"/>
+    <structure map-as="awb:AirOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <structure map-as="awb:AirOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="awb:IssueAgentType" get-method="getIssuingCarrierAgent" set-method="setIssuingCarrierAgent" usage="optional" name="IssuingCarrierAgent"/>
+    <collection get-method="getPaymentList" set-method="setPaymentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="awb:PaymentType" name="Payment"/>
+    </collection>
+    <collection get-method="getGoodsMovementList" set-method="setGoodsMovementList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="awb:GoodsMovementType" name="GoodsMovement"/>
+    </collection>
+    <collection get-method="getHandlingInfoList" set-method="setHandlingInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="awb:HandlingInfoType" name="HandlingInfo"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getIssueInfo" set-method="setIssueInfo" name="IssueInfo"/>
+    <structure map-as="awb:AWBGoodsInfoType" get-method="getAWBGoodsInfo" set-method="setAWBGoodsInfo" name="AWBGoodsInfo"/>
+    <structure map-as="awb:PaymentInfoType" get-method="getPaymentInfo" set-method="setPaymentInfo" name="PaymentInfo"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getConsignorSign" set-method="setConsignorSign" usage="optional" name="ConsignorSign"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getCarrierSign" set-method="setCarrierSign" usage="optional" name="CarrierSign"/>
+    <structure map-as="awb:MarkType" get-method="getMark" set-method="setMark" usage="optional" name="Mark"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.airwaybill.AirWaybillType" name="AirWaybill">
+    <structure map-as="awb:AirWaybillType"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:AWBGoodsInfoType" class="ru.acs.fts.schemas.album.airwaybill.AWBGoodsInfoType">
+    <value style="element" name="TotalPlacesQuantity" get-method="getTotalPlacesQuantity" set-method="setTotalPlacesQuantity"/>
+    <value style="element" name="WeightUnitQualifierCode" get-method="getWeightUnitQualifierCode" set-method="setWeightUnitQualifierCode"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <value style="element" name="TotalAmount" get-method="getTotalAmount" set-method="setTotalAmount" usage="optional"/>
+    <collection get-method="getAWBGoodList" set-method="setAWBGoodList" create-type="java.util.ArrayList">
+      <structure map-as="awb:AWBGoodsType" name="AWBGoods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="awb:AWBGoodsType" class="ru.acs.fts.schemas.album.airwaybill.AWBGoodsType">
+    <value style="element" name="PlacesQuantity" get-method="getPlacesQuantity" set-method="setPlacesQuantity" usage="optional"/>
+    <value style="element" name="WeightUnitQualifierCode" get-method="getWeightUnitQualifierCode" set-method="setWeightUnitQualifierCode" usage="optional"/>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+    <value style="element" name="RateMixCode" get-method="getRateMixCode" set-method="setRateMixCode" usage="optional"/>
+    <value style="element" name="ServiceCode" get-method="getServiceCode" set-method="setServiceCode" usage="optional"/>
+    <value style="element" name="TariffClassCode" get-method="getTariffClassCode" set-method="setTariffClassCode" usage="optional"/>
+    <value style="element" name="CommodityItemNum" get-method="getCommodityItemNum" set-method="setCommodityItemNum" usage="optional"/>
+    <value style="element" name="GoodsVolume" get-method="getGoodsVolume" set-method="setGoodsVolume" usage="optional"/>
+    <value style="element" name="VolumeUnitQualifierCode" get-method="getVolumeUnitQualifierCode" set-method="setVolumeUnitQualifierCode" usage="optional"/>
+    <value style="element" name="PaidWeightQuantity" get-method="getPaidWeightQuantity" set-method="setPaidWeightQuantity" usage="optional"/>
+    <value style="element" name="GoodsCommodityCode" get-method="getGoodsCommodityCode" set-method="setGoodsCommodityCode" usage="optional"/>
+    <value style="element" name="FactPlacesQuantity" get-method="getFactPlacesQuantity" set-method="setFactPlacesQuantity" usage="optional"/>
+    <value style="element" name="TotalSum" get-method="getTotalSum" set-method="setTotalSum" usage="optional"/>
+    <value style="element" name="RateCharge" get-method="getRateCharge" set-method="setRateCharge" usage="optional"/>
+    <collection get-method="getGoodsDescrList" set-method="setGoodsDescrList" create-type="java.util.ArrayList">
+      <structure map-as="awb:GoodsDescrType" name="GoodsDescr"/>
+    </collection>
+    <structure map-as="awb:DimensionInfoType" get-method="getDimensions" set-method="setDimensions" usage="optional" name="Dimensions"/>
+    <collection get-method="getContainerInfoList" set-method="setContainerInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="awb:ContainerInfoType" name="ContainerInfo"/>
+    </collection>
+    <structure map-as="awb:DTInfoType" get-method="getDTInfo" set-method="setDTInfo" usage="optional" name="DTInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:AirOrganizationType" class="ru.acs.fts.schemas.album.airwaybill.AirOrganizationType">
+    <structure map-as="cat_ru:OrganizationType"/>
+    <value style="element" name="AccountNumber" get-method="getAccountNumber" set-method="setAccountNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:ChargesInfoType" class="ru.acs.fts.schemas.album.airwaybill.ChargesInfoType">
+    <value style="element" name="PaymentCode" get-method="getPaymentCode" set-method="setPaymentCode" usage="optional"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:ChargesSummaryType" class="ru.acs.fts.schemas.album.airwaybill.ChargesSummaryType">
+    <value style="element" name="PaymentCode" get-method="getPaymentCode" set-method="setPaymentCode" usage="optional"/>
+    <value style="element" name="TotalAmount" get-method="getTotalAmount" set-method="setTotalAmount"/>
+    <structure map-as="awb:ChargesInfoType" get-method="getTotalWeightCharge" set-method="setTotalWeightCharge" usage="optional" name="TotalWeightCharge"/>
+    <structure map-as="awb:ChargesInfoType" get-method="getValuationCharge" set-method="setValuationCharge" usage="optional" name="ValuationCharge"/>
+    <structure map-as="awb:ChargesInfoType" get-method="getTaxes" set-method="setTaxes" usage="optional" name="Taxes"/>
+    <structure map-as="awb:ChargesInfoType" get-method="getTotalAgentCharges" set-method="setTotalAgentCharges" usage="optional" name="TotalAgentCharges"/>
+    <structure map-as="awb:ChargesInfoType" get-method="getTotalCarrierCharges" set-method="setTotalCarrierCharges" usage="optional" name="TotalCarrierCharges"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:ContainerInfoType" class="ru.acs.fts.schemas.album.airwaybill.ContainerInfoType">
+    <collection get-method="getContainerNumList" set-method="setContainerNumList" create-type="java.util.ArrayList">
+      <value style="element" name="ContainerNum" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ContainerDescr" get-method="getContainerDescr" set-method="setContainerDescr" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:DTInfoType" class="ru.acs.fts.schemas.album.airwaybill.DTInfoType">
+    <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTNumber" set-method="setDTNumber" name="DTNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:DimensionInfoType" class="ru.acs.fts.schemas.album.airwaybill.DimensionInfoType">
+    <value style="element" name="DimensionsCode" get-method="getDimensionsCode" set-method="setDimensionsCode"/>
+    <value style="element" name="Lenght" get-method="getLenght" set-method="setLenght"/>
+    <value style="element" name="Wight" get-method="getWight" set-method="setWight"/>
+    <value style="element" name="Height" get-method="getHeight" set-method="setHeight"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:GoodsDescrType" class="ru.acs.fts.schemas.album.airwaybill.GoodsDescrType">
+    <value style="element" name="InformationCode" get-method="getInformationCode" set-method="setInformationCode" usage="optional"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="awb:GoodsMovementType" class="ru.acs.fts.schemas.album.airwaybill.GoodsMovementType">
+    <value style="element" name="FlightNumber" get-method="getFlightNumber" set-method="setFlightNumber" usage="optional"/>
+    <value style="element" name="FlightDate" get-method="getFlightDate" set-method="setFlightDate" usage="optional"/>
+    <value style="element" name="NumPP" get-method="getNumPP" set-method="setNumPP"/>
+    <value style="element" name="DestinationPlace" get-method="getDestinationPlace" set-method="setDestinationPlace" usage="optional"/>
+    <value style="element" name="CarrierName" get-method="getCarrierName" set-method="setCarrierName" usage="optional"/>
+    <value style="element" name="CarrierCode" get-method="getCarrierCode" set-method="setCarrierCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:HandlingInfoType" class="ru.acs.fts.schemas.album.airwaybill.HandlingInfoType">
+    <value style="element" name="ServiceInfoCode" get-method="getServiceInfoCode" set-method="setServiceInfoCode"/>
+    <collection get-method="getInfoDescriptionList" set-method="setInfoDescriptionList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="InfoDescription" type="java.lang.String"/>
+    </collection>
+    <structure map-as="cat_ru:OrganizationType" get-method="getNotificationOrg" set-method="setNotificationOrg" usage="optional" name="NotificationOrg"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:IssueAgentType" class="ru.acs.fts.schemas.album.airwaybill.IssueAgentType">
+    <structure map-as="awb:AirOrganizationType"/>
+    <value style="element" name="IATACode" get-method="getIATACode" set-method="setIATACode"/>
+    <value style="element" name="CommissionFlag" get-method="getCommissionFlag" set-method="setCommissionFlag"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:MarkType" class="ru.acs.fts.schemas.album.airwaybill.MarkType">
+    <value style="element" name="MarkSing" get-method="getMarkSing" set-method="setMarkSing"/>
+    <value style="element" name="MarkKind" get-method="getMarkKind" set-method="setMarkKind"/>
+    <value style="element" name="ResultControl" get-method="getResultControl" set-method="setResultControl" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:OtherChargesType" class="ru.acs.fts.schemas.album.airwaybill.OtherChargesType">
+    <value style="element" name="OtherChargeCode" get-method="getOtherChargeCode" set-method="setOtherChargeCode"/>
+    <value style="element" name="EntitlementCode" get-method="getEntitlementCode" set-method="setEntitlementCode"/>
+    <value style="element" name="OtherChargeAmount" get-method="getOtherChargeAmount" set-method="setOtherChargeAmount"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:PaymentInfoType" class="ru.acs.fts.schemas.album.airwaybill.PaymentInfoType">
+    <value style="element" name="TaxCode" get-method="getTaxCode" set-method="setTaxCode" usage="optional"/>
+    <value style="element" name="WeightValuePrepaidFlag" get-method="getWeightValuePrepaidFlag" set-method="setWeightValuePrepaidFlag"/>
+    <value style="element" name="OtherChargesPrepaidFlag" get-method="getOtherChargesPrepaidFlag" set-method="setOtherChargesPrepaidFlag"/>
+    <value style="element" name="CurrencyRate" get-method="getCurrencyRate" set-method="setCurrencyRate" usage="optional"/>
+    <value style="element" name="ChargesDestCurrency" get-method="getChargesDestCurrency" set-method="setChargesDestCurrency" usage="optional"/>
+    <value style="element" name="ChargesDestination" get-method="getChargesDestination" set-method="setChargesDestination" usage="optional"/>
+    <value style="element" name="TotalCollectCharges" get-method="getTotalCollectCharges" set-method="setTotalCollectCharges" usage="optional"/>
+    <collection get-method="getOtherChargeList" set-method="setOtherChargeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="awb:OtherChargesType" name="OtherCharges"/>
+    </collection>
+    <structure map-as="awb:ChargesSummaryType" get-method="getPrepaydCharge" set-method="setPrepaydCharge" usage="optional" name="PrepaydCharge"/>
+    <structure map-as="awb:ChargesSummaryType" get-method="getCollectCharge" set-method="setCollectCharge" usage="optional" name="CollectCharge"/>
+  </mapping>
+  <mapping abstract="true" type-name="awb:PaymentType" class="ru.acs.fts.schemas.album.airwaybill.PaymentType">
+    <value style="element" name="PaymentMode" get-method="getPaymentMode" set-method="setPaymentMode"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace" usage="optional"/>
+    <value style="element" name="DateInf" get-method="getDateInf" set-method="setDateInf" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="NameInf" get-method="getNameInf" set-method="setNameInf" usage="optional"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="awb:RegistrationType" class="ru.acs.fts.schemas.album.airwaybill.RegistrationType">
+    <structure map-as="catTrans_ru:AWBNumberType"/>
+    <value style="element" name="Date" get-method="getDate" set-method="setDate" format="LocalDate.default"/>
+    <value style="element" name="Place" get-method="getPlace" set-method="setPlace"/>
+  </mapping>
+</binding>

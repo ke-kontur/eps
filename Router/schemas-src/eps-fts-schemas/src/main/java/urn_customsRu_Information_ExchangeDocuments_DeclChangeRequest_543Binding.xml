@@ -1,0 +1,29 @@
+<binding xmlns:dcr="urn:customs.ru:Information:ExchangeDocuments:DeclChangeRequest:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:DeclChangeRequest:5.4.3" default="elements" prefix="dcr"/>
+  <mapping abstract="true" type-name="dcr:DeclChangeRequestType" class="ru.acs.fts.schemas.album.DeclChangeRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getReasonList" set-method="setReasonList" create-type="java.util.ArrayList">
+      <value style="element" name="Reasons" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="RequestDate" get-method="getRequestDate" set-method="setRequestDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getRegNumberDT" set-method="setRegNumberDT" name="RegNumberDT"/>
+    <collection get-method="getChangesDescriptionList" set-method="setChangesDescriptionList" create-type="java.util.ArrayList">
+      <structure map-as="dcr:ChangesDescriptionType" name="ChangesDescription"/>
+    </collection>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.DeclChangeRequestType" name="DeclChangeRequest">
+    <structure map-as="dcr:DeclChangeRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dcr:ChangesDescriptionType" class="ru.acs.fts.schemas.album.ChangesDescriptionType">
+    <value style="element" name="GRNumber" get-method="getGRNumber" set-method="setGRNumber"/>
+    <collection get-method="getPreviousDataList" set-method="setPreviousDataList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="PreviousData" type="java.lang.String"/>
+    </collection>
+    <collection get-method="getCorrectDataList" set-method="setCorrectDataList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="CorrectData" type="java.lang.String"/>
+    </collection>
+  </mapping>
+</binding>

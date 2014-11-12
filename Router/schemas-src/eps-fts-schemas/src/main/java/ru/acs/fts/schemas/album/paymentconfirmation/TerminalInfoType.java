@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.paymentconfirmation;
 
 /** 
- * Сведения о терминале/банкомате
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РµСЂРјРёРЅР°Р»Рµ/Р±Р°РЅРєРѕРјР°С‚Рµ
  */
 public class TerminalInfoType
 {
@@ -10,7 +10,7 @@ public class TerminalInfoType
     private String postNumer;
 
     /** 
-     * Get the 'TermenalNumber' element value. Номер терминала/банкомата
+     * Get the 'TermenalNumber' element value. РќРѕРјРµСЂ С‚РµСЂРјРёРЅР°Р»Р°/Р±Р°РЅРєРѕРјР°С‚Р°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class TerminalInfoType
     }
 
     /** 
-     * Set the 'TermenalNumber' element value. Номер терминала/банкомата
+     * Set the 'TermenalNumber' element value. РќРѕРјРµСЂ С‚РµСЂРјРёРЅР°Р»Р°/Р±Р°РЅРєРѕРјР°С‚Р°
      * 
      * @param termenalNumber
      */
@@ -28,7 +28,7 @@ public class TerminalInfoType
     }
 
     /** 
-     * Get the 'PostNumer' element value. Номер поста
+     * Get the 'PostNumer' element value. РќРѕРјРµСЂ РїРѕСЃС‚Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TerminalInfoType
     }
 
     /** 
-     * Set the 'PostNumer' element value. Номер поста
+     * Set the 'PostNumer' element value. РќРѕРјРµСЂ РїРѕСЃС‚Р°
      * 
      * @param postNumer
      */

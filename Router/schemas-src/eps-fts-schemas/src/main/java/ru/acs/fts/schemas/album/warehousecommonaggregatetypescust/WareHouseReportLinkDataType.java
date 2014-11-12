@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Комплексный тип для указания сведений об отчете, составленном владельцем СВХ (ДО-1 или ДО-2)
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ СѓРєР°Р·Р°РЅРёСЏ СЃРІРµРґРµРЅРёР№ РѕР± РѕС‚С‡РµС‚Рµ, СЃРѕСЃС‚Р°РІР»РµРЅРЅРѕРј РІР»Р°РґРµР»СЊС†РµРј РЎР’РҐ (Р”Рћ-1 РёР»Рё Р”Рћ-2)
  */
 public class WareHouseReportLinkDataType
 {
@@ -12,7 +12,7 @@ public class WareHouseReportLinkDataType
     private String reportNumber;
 
     /** 
-     * Get the 'ReportDate' element value. Дата составления отчета
+     * Get the 'ReportDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class WareHouseReportLinkDataType
     }
 
     /** 
-     * Set the 'ReportDate' element value. Дата составления отчета
+     * Set the 'ReportDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
      * 
      * @param reportDate
      */
@@ -30,7 +30,7 @@ public class WareHouseReportLinkDataType
     }
 
     /** 
-     * Get the 'ReportNumber' element value. Номер отчета (согласно нумерации в информационной системе владельца СВХ)
+     * Get the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р° (СЃРѕРіР»Р°СЃРЅРѕ РЅСѓРјРµСЂР°С†РёРё РІ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕР№ СЃРёСЃС‚РµРјРµ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class WareHouseReportLinkDataType
     }
 
     /** 
-     * Set the 'ReportNumber' element value. Номер отчета (согласно нумерации в информационной системе владельца СВХ)
+     * Set the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р° (СЃРѕРіР»Р°СЃРЅРѕ РЅСѓРјРµСЂР°С†РёРё РІ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕР№ СЃРёСЃС‚РµРјРµ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ)
      * 
      * @param reportNumber
      */

@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.semcommonaggregatetypescust.GoodsType;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.RiskProfilesType;
 
 /** 
- * Наименование товаров
+ * РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
  */
 public class GoodsDescriptionType extends GoodsType
 {
     private List<RiskProfilesType> riskProfileList = new ArrayList<RiskProfilesType>();
 
     /** 
-     * Get the list of 'RiskProfiles' element items. Список выявленных на товаре профилей риска
+     * Get the list of 'RiskProfiles' element items. РЎРїРёСЃРѕРє РІС‹СЏРІР»РµРЅРЅС‹С… РЅР° С‚РѕРІР°СЂРµ РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsDescriptionType extends GoodsType
     }
 
     /** 
-     * Set the list of 'RiskProfiles' element items. Список выявленных на товаре профилей риска
+     * Set the list of 'RiskProfiles' element items. РЎРїРёСЃРѕРє РІС‹СЏРІР»РµРЅРЅС‹С… РЅР° С‚РѕРІР°СЂРµ РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР°
      * 
      * @param list
      */

@@ -1,0 +1,23 @@
+<binding xmlns:chit="urn:customs.ru:Information:TransportDocuments:Air:CheckInOut:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3">
+  <namespace uri="urn:customs.ru:Information:TransportDocuments:Air:CheckInOut:5.4.3" default="elements" prefix="chit"/>
+  <mapping abstract="true" type-name="chit:CheckInOutType" class="ru.acs.fts.schemas.album.checkinout.CheckInOutType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="UIN" get-method="getUIN" set-method="setUIN"/>
+    <value style="element" name="SignInOut" get-method="getSignInOut" set-method="setSignInOut"/>
+    <value style="element" name="RegNumberInOut" get-method="getRegNumberInOut" set-method="setRegNumberInOut"/>
+    <value style="element" name="DateOperation" get-method="getDateOperation" set-method="setDateOperation" format="LocalDate.default"/>
+    <value style="element" name="TimeOperation" get-method="getTimeOperation" set-method="setTimeOperation" usage="optional"/>
+    <value style="element" name="ControlDecision" get-method="getControlDecision" set-method="setControlDecision"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <structure map-as="chit:FlightType" get-method="getFlight" set-method="setFlight" name="Flight"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.checkinout.CheckInOutType" name="CheckInOut">
+    <structure map-as="chit:CheckInOutType"/>
+  </mapping>
+  <mapping abstract="true" type-name="chit:FlightType" class="ru.acs.fts.schemas.album.checkinout.FlightType">
+    <structure map-as="catTrans_ru:FlightInfoType"/>
+    <structure map-as="catTrans_ru:AirportType" get-method="getDestinationAirport" set-method="setDestinationAirport" name="DestinationAirport"/>
+  </mapping>
+</binding>

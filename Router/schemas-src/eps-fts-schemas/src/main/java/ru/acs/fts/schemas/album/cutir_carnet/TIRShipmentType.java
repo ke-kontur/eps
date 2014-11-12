@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.IdentityMark
 import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TIRDestinationType;
 
 /** 
- * Сведения о товарной партии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class TIRShipmentType
 {
@@ -22,7 +22,7 @@ public class TIRShipmentType
     private List<IdentityMarkType> identityMarkList = new ArrayList<IdentityMarkType>();
 
     /** 
-     * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок
+     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок
+     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
      * 
      * @param containerIndicator
      */
@@ -40,7 +40,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the list of 'ContainerID' element items. Номер контейнера
+     * Get the list of 'ContainerID' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @return list
      */
@@ -49,7 +49,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the list of 'ContainerID' element items. Номер контейнера
+     * Set the list of 'ContainerID' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
      * 
      * @param list
      */
@@ -58,7 +58,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the 'TotalPlacesQuantity' element value. Общее число грузовых  мест
+     * Get the 'TotalPlacesQuantity' element value. РћР±С‰РµРµ С‡РёСЃР»Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the 'TotalPlacesQuantity' element value. Общее число грузовых  мест
+     * Set the 'TotalPlacesQuantity' element value. РћР±С‰РµРµ С‡РёСЃР»Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚
      * 
      * @param totalPlacesQuantity
      */
@@ -76,7 +76,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the 'TIRConsignor' element value. Сведения об отправителе
+     * Get the 'TIRConsignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the 'TIRConsignor' element value. Сведения об отправителе
+     * Set the 'TIRConsignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @param TIRConsignor
      */
@@ -94,7 +94,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the 'TIRConsignee' element value. Сведения о получателе
+     * Get the 'TIRConsignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the 'TIRConsignee' element value. Сведения о получателе
+     * Set the 'TIRConsignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @param TIRConsignee
      */
@@ -112,7 +112,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the 'Destination' element value. Место назначения/доставки
+     * Get the 'Destination' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ/РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the 'Destination' element value. Место назначения/доставки
+     * Set the 'Destination' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ/РґРѕСЃС‚Р°РІРєРё
      * 
      * @param destination
      */
@@ -130,7 +130,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the list of 'TIRGoods' element items. Товары в книжке МДП
+     * Get the list of 'TIRGoods' element items. РўРѕРІР°СЂС‹ РІ РєРЅРёР¶РєРµ РњР”Рџ
      * 
      * @return list
      */
@@ -139,7 +139,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the list of 'TIRGoods' element items. Товары в книжке МДП
+     * Set the list of 'TIRGoods' element items. РўРѕРІР°СЂС‹ РІ РєРЅРёР¶РєРµ РњР”Рџ
      * 
      * @param list
      */
@@ -148,7 +148,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Get the list of 'IdentityMark' element items. Пломбы или опознавательные знаки (число, идентификация)
+     * Get the list of 'IdentityMark' element items. РџР»РѕРјР±С‹ РёР»Рё РѕРїРѕР·РЅР°РІР°С‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё (С‡РёСЃР»Рѕ, РёРґРµРЅС‚РёС„РёРєР°С†РёСЏ)
      * 
      * @return list
      */
@@ -157,7 +157,7 @@ public class TIRShipmentType
     }
 
     /** 
-     * Set the list of 'IdentityMark' element items. Пломбы или опознавательные знаки (число, идентификация)
+     * Set the list of 'IdentityMark' element items. РџР»РѕРјР±С‹ РёР»Рё РѕРїРѕР·РЅР°РІР°С‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё (С‡РёСЃР»Рѕ, РёРґРµРЅС‚РёС„РёРєР°С†РёСЏ)
      * 
      * @param list
      */

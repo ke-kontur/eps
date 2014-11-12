@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Документ-Контейнер
+ * Р”РѕРєСѓРјРµРЅС‚-РљРѕРЅС‚РµР№РЅРµСЂ
  */
 public class EDContainerType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class EDContainerType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'FullSetIndicator' element value. Признак полноты комплекта документов. Используется в системах электронного декларирования. при обычном порядке оформления не заполняется.
+     * Get the 'FullSetIndicator' element value. РџСЂРёР·РЅР°Рє РїРѕР»РЅРѕС‚С‹ РєРѕРјРїР»РµРєС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ. РїСЂРё РѕР±С‹С‡РЅРѕРј РїРѕСЂСЏРґРєРµ РѕС„РѕСЂРјР»РµРЅРёСЏ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class EDContainerType extends BaseDocType
     }
 
     /** 
-     * Set the 'FullSetIndicator' element value. Признак полноты комплекта документов. Используется в системах электронного декларирования. при обычном порядке оформления не заполняется.
+     * Set the 'FullSetIndicator' element value. РџСЂРёР·РЅР°Рє РїРѕР»РЅРѕС‚С‹ РєРѕРјРїР»РµРєС‚Р° РґРѕРєСѓРјРµРЅС‚РѕРІ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ СЃРёСЃС‚РµРјР°С… СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ. РїСЂРё РѕР±С‹С‡РЅРѕРј РїРѕСЂСЏРґРєРµ РѕС„РѕСЂРјР»РµРЅРёСЏ РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
      * 
      * @param fullSetIndicator
      */
@@ -34,7 +34,7 @@ public class EDContainerType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Xindicator' element items. Резерв. Используется в электронном представлении сведений.
+     * Get the list of 'Xindicator' element items. Р РµР·РµСЂРІ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№.
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class EDContainerType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Xindicator' element items. Резерв. Используется в электронном представлении сведений.
+     * Set the list of 'Xindicator' element items. Р РµР·РµСЂРІ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№.
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class EDContainerType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class EDContainerType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

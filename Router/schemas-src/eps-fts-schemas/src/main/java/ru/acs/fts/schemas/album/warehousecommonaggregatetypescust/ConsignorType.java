@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания грузоотправителя
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЏ
  */
 public class ConsignorType
 {
@@ -11,7 +11,7 @@ public class ConsignorType
     private WHAddressType address;
 
     /** 
-     * Get the 'CountryCode' element value. Цифровой код страны отправителя  (по справочнику ОКСМ)
+     * Get the 'CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ  (РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РћРљРЎРњ)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ConsignorType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Цифровой код страны отправителя  (по справочнику ОКСМ)
+     * Set the 'CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ  (РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РћРљРЎРњ)
      * 
      * @param countryCode
      */
@@ -29,7 +29,7 @@ public class ConsignorType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование организации / ФИО физического лица
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ConsignorType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование организации / ФИО физического лица
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param organizationName
      */
@@ -47,7 +47,7 @@ public class ConsignorType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ConsignorType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */

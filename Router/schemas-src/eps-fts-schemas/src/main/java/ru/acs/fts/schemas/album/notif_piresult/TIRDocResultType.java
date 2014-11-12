@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.notif_piresult;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TIRIDType;
 
 /** 
- * Информация по книжке МДП
+ * РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРЅРёР¶РєРµ РњР”Рџ
  */
 public class TIRDocResultType extends TIRIDType
 {
     private String PIStatus;
 
     /** 
-     * Get the 'PI_Status' element value. Статус предварительной информации
+     * Get the 'PI_Status' element value. РЎС‚Р°С‚СѓСЃ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TIRDocResultType extends TIRIDType
     }
 
     /** 
-     * Set the 'PI_Status' element value. Статус предварительной информации
+     * Set the 'PI_Status' element value. РЎС‚Р°С‚СѓСЃ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIStatus
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о товарных партиях
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёСЏС…
  */
 public class ConsignmentsType
 {
@@ -14,7 +14,7 @@ public class ConsignmentsType
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'ConsignmentNum' element value. Номер товарной партии
+     * Get the 'ConsignmentNum' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'ConsignmentNum' element value. Номер товарной партии
+     * Set the 'ConsignmentNum' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
      * 
      * @param consignmentNum
      */
@@ -32,7 +32,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'BillSerialNumber' element value. Серийный номер накладной
+     * Get the 'BillSerialNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'BillSerialNumber' element value. Серийный номер накладной
+     * Set the 'BillSerialNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param billSerialNumber
      */
@@ -50,7 +50,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */

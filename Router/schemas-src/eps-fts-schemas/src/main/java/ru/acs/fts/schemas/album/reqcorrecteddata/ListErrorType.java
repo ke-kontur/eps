@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.reqcorrecteddata;
 
 /** 
- * Список ошибок, подлежащих исправлению
+ * РЎРїРёСЃРѕРє РѕС€РёР±РѕРє, РїРѕРґР»РµР¶Р°С‰РёС… РёСЃРїСЂР°РІР»РµРЅРёСЋ
  */
 public class ListErrorType
 {
@@ -19,7 +19,7 @@ public class ListErrorType
     private String correctValue;
 
     /** 
-     * Get the 'ErrCode' element value. Код ошибки.
+     * Get the 'ErrCode' element value. РљРѕРґ РѕС€РёР±РєРё.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrCode' element value. Код ошибки.
+     * Set the 'ErrCode' element value. РљРѕРґ РѕС€РёР±РєРё.
      * 
      * @param errCode
      */
@@ -37,7 +37,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'ErrorName' element value. Наименование ошибки.
+     * Get the 'ErrorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС€РёР±РєРё.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrorName' element value. Наименование ошибки.
+     * Set the 'ErrorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС€РёР±РєРё.
      * 
      * @param errorName
      */
@@ -55,7 +55,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'ErrDescription' element value. Подробное описание ошибки
+     * Get the 'ErrDescription' element value. РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrDescription' element value. Подробное описание ошибки
+     * Set the 'ErrDescription' element value. РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
      * 
      * @param errDescription
      */
@@ -73,7 +73,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. Номер товара по ДТ/списку
+     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. Номер товара по ДТ/списку
+     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ
      * 
      * @param GTDGoodsNumber
      */
@@ -91,7 +91,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'ErrElement' element value. Имя ошибочного узла/элемента/атрибута 
+     * Get the 'ErrElement' element value. РРјСЏ РѕС€РёР±РѕС‡РЅРѕРіРѕ СѓР·Р»Р°/СЌР»РµРјРµРЅС‚Р°/Р°С‚СЂРёР±СѓС‚Р° 
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrElement' element value. Имя ошибочного узла/элемента/атрибута 
+     * Set the 'ErrElement' element value. РРјСЏ РѕС€РёР±РѕС‡РЅРѕРіРѕ СѓР·Р»Р°/СЌР»РµРјРµРЅС‚Р°/Р°С‚СЂРёР±СѓС‚Р° 
      * 
      * @param errElement
      */
@@ -109,7 +109,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'ErrField' element value. Номер графы ДТ/ДТС/КТС
+     * Get the 'ErrField' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў/Р”РўРЎ/РљРўРЎ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrField' element value. Номер графы ДТ/ДТС/КТС
+     * Set the 'ErrField' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў/Р”РўРЎ/РљРўРЎ
      * 
      * @param errField
      */
@@ -127,7 +127,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'SuccessContent' element value. Верное значение
+     * Get the 'SuccessContent' element value. Р’РµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'SuccessContent' element value. Верное значение
+     * Set the 'SuccessContent' element value. Р’РµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param successContent
      */
@@ -145,7 +145,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'ErrLevel' element value. Уровень ошибки
+     * Get the 'ErrLevel' element value. РЈСЂРѕРІРµРЅСЊ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrLevel' element value. Уровень ошибки
+     * Set the 'ErrLevel' element value. РЈСЂРѕРІРµРЅСЊ РѕС€РёР±РєРё
      * 
      * @param errLevel
      */
@@ -163,7 +163,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'CodeOrder' element value. Код нормативного документа
+     * Get the 'CodeOrder' element value. РљРѕРґ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'CodeOrder' element value. Код нормативного документа
+     * Set the 'CodeOrder' element value. РљРѕРґ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param codeOrder
      */
@@ -181,7 +181,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'ErrElementDesc' element value. Описание поля в котором найдена ошибка
+     * Get the 'ErrElementDesc' element value. РћРїРёСЃР°РЅРёРµ РїРѕР»СЏ РІ РєРѕС‚РѕСЂРѕРј РЅР°Р№РґРµРЅР° РѕС€РёР±РєР°
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'ErrElementDesc' element value. Описание поля в котором найдена ошибка
+     * Set the 'ErrElementDesc' element value. РћРїРёСЃР°РЅРёРµ РїРѕР»СЏ РІ РєРѕС‚РѕСЂРѕРј РЅР°Р№РґРµРЅР° РѕС€РёР±РєР°
      * 
      * @param errElementDesc
      */
@@ -199,7 +199,7 @@ public class ListErrorType
     }
 
     /** 
-     * Get the 'CorrectValue' element value. Верное (ожидаемое) значение
+     * Get the 'CorrectValue' element value. Р’РµСЂРЅРѕРµ (РѕР¶РёРґР°РµРјРѕРµ) Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class ListErrorType
     }
 
     /** 
-     * Set the 'CorrectValue' element value. Верное (ожидаемое) значение
+     * Set the 'CorrectValue' element value. Р’РµСЂРЅРѕРµ (РѕР¶РёРґР°РµРјРѕРµ) Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param correctValue
      */

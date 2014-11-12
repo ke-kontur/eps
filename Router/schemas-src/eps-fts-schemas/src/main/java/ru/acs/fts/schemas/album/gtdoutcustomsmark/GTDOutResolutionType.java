@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdoutcustomsmark;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADDecisionType;
 
 /** 
- * Принятые решения по ДТ / товарам.
+ * РџСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў / С‚РѕРІР°СЂР°Рј.
  */
 public class GTDOutResolutionType extends RUESADDecisionType
 {
@@ -12,7 +12,7 @@ public class GTDOutResolutionType extends RUESADDecisionType
     private String personName;
 
     /** 
-     * Get the 'ResolutionDescription' element value. Описание принятого решения
+     * Get the 'ResolutionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class GTDOutResolutionType extends RUESADDecisionType
     }
 
     /** 
-     * Set the 'ResolutionDescription' element value. Описание принятого решения
+     * Set the 'ResolutionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
      * 
      * @param resolutionDescription
      */
@@ -30,7 +30,7 @@ public class GTDOutResolutionType extends RUESADDecisionType
     }
 
     /** 
-     * Get the 'PersonName' element value. ФИО должностного лица таможенного органа
+     * Get the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class GTDOutResolutionType extends RUESADDecisionType
     }
 
     /** 
-     * Set the 'PersonName' element value. ФИО должностного лица таможенного органа
+     * Set the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param personName
      */

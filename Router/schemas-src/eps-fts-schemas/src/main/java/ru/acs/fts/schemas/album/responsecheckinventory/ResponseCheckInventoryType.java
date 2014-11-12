@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Ответ на запрос на сверку описи в ЭАД
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° СЃРІРµСЂРєСѓ РѕРїРёСЃРё РІ Р­РђР”
  */
 public class ResponseCheckInventoryType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class ResponseCheckInventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InventoryID' element value. Идентификатор описи документов
+     * Get the 'InventoryID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ResponseCheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryID' element value. Идентификатор описи документов
+     * Set the 'InventoryID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param inventoryID
      */
@@ -33,7 +33,7 @@ public class ResponseCheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CheckResult' element items. Результат проверки документов
+     * Get the list of 'CheckResult' element items. Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class ResponseCheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CheckResult' element items. Результат проверки документов
+     * Set the list of 'CheckResult' element items. Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class ResponseCheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ResponseCheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

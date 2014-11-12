@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inventoryin;
 import org.joda.time.LocalDate;
 
 /** 
- * Отметки таможенного органа.
+ * РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
  */
 public class InventOfficialMarkType
 {
@@ -18,7 +18,7 @@ public class InventOfficialMarkType
     private String decisionReason;
 
     /** 
-     * Get the 'GTDAcceptTime' element value. Время принятия ДТ
+     * Get the 'GTDAcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ Р”Рў
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'GTDAcceptTime' element value. Время принятия ДТ
+     * Set the 'GTDAcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ Р”Рў
      * 
      * @param GTDAcceptTime
      */
@@ -36,7 +36,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'ExaminationStartDate' element value. Дата начала проверки ДТ
+     * Get the 'ExaminationStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё Р”Рў
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'ExaminationStartDate' element value. Дата начала проверки ДТ
+     * Set the 'ExaminationStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё Р”Рў
      * 
      * @param examinationStartDate
      */
@@ -54,7 +54,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'ExaminationStartTime' element value. Время начала проверки ДТ
+     * Get the 'ExaminationStartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё Р”Рў
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'ExaminationStartTime' element value. Время начала проверки ДТ
+     * Set the 'ExaminationStartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё Р”Рў
      * 
      * @param examinationStartTime
      */
@@ -72,7 +72,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. ЛНП лица, сделавшего отметку о начале проверки ДТ
+     * Get the 'LNP' element value. Р›РќРџ Р»РёС†Р°, СЃРґРµР»Р°РІС€РµРіРѕ РѕС‚РјРµС‚РєСѓ Рѕ РЅР°С‡Р°Р»Рµ РїСЂРѕРІРµСЂРєРё Р”Рў
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП лица, сделавшего отметку о начале проверки ДТ
+     * Set the 'LNP' element value. Р›РќРџ Р»РёС†Р°, СЃРґРµР»Р°РІС€РµРіРѕ РѕС‚РјРµС‚РєСѓ Рѕ РЅР°С‡Р°Р»Рµ РїСЂРѕРІРµСЂРєРё Р”Рў
      * 
      * @param LNP
      */
@@ -90,7 +90,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'GTDDecisionCode' element value. Код решения по ДТ- в соответствии с классификатором решений, принимаемых таможенными органами; - "**" - различно по товарам.
+     * Get the 'GTDDecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў- РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№, РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё; - "**" - СЂР°Р·Р»РёС‡РЅРѕ РїРѕ С‚РѕРІР°СЂР°Рј.
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'GTDDecisionCode' element value. Код решения по ДТ- в соответствии с классификатором решений, принимаемых таможенными органами; - "**" - различно по товарам.
+     * Set the 'GTDDecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў- РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№, РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё; - "**" - СЂР°Р·Р»РёС‡РЅРѕ РїРѕ С‚РѕРІР°СЂР°Рј.
      * 
      * @param GTDDecisionCode
      */
@@ -108,7 +108,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'GTDDecisionDate' element value. Дата принятия решения по ДТ
+     * Get the 'GTDDecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'GTDDecisionDate' element value. Дата принятия решения по ДТ
+     * Set the 'GTDDecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў
      * 
      * @param GTDDecisionDate
      */
@@ -126,7 +126,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'GTDDecisionTime' element value. Время принятия решения по ДТ
+     * Get the 'GTDDecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'GTDDecisionTime' element value. Время принятия решения по ДТ
+     * Set the 'GTDDecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ Р”Рў
      * 
      * @param GTDDecisionTime
      */
@@ -144,7 +144,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Get the 'DecisionReason' element value. Причина отказа в принятии ДТ
+     * Get the 'DecisionReason' element value. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р° РІ РїСЂРёРЅСЏС‚РёРё Р”Рў
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class InventOfficialMarkType
     }
 
     /** 
-     * Set the 'DecisionReason' element value. Причина отказа в принятии ДТ
+     * Set the 'DecisionReason' element value. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р° РІ РїСЂРёРЅСЏС‚РёРё Р”Рў
      * 
      * @param decisionReason
      */

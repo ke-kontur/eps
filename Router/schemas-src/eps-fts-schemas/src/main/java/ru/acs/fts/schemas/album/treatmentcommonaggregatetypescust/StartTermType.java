@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Начало срока переработки
+ * РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
  */
 public class StartTermType
 {
@@ -16,7 +16,7 @@ public class StartTermType
     private GTDIDType GTDID;
 
     /** 
-     * Get the 'StartWith' element value. Начало с
+     * Get the 'StartWith' element value. РќР°С‡Р°Р»Рѕ СЃ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class StartTermType
     }
 
     /** 
-     * Set the 'StartWith' element value. Начало с
+     * Set the 'StartWith' element value. РќР°С‡Р°Р»Рѕ СЃ
      * 
      * @param startWith
      */
@@ -34,7 +34,7 @@ public class StartTermType
     }
 
     /** 
-     * Get the 'TermTo' element value. Срок до
+     * Get the 'TermTo' element value. РЎСЂРѕРє РґРѕ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class StartTermType
     }
 
     /** 
-     * Set the 'TermTo' element value. Срок до
+     * Set the 'TermTo' element value. РЎСЂРѕРє РґРѕ
      * 
      * @param termTo
      */
@@ -52,7 +52,7 @@ public class StartTermType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. Подпись
+     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class StartTermType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. Подпись
+     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
      * 
      * @param personSignature
      */
@@ -70,7 +70,7 @@ public class StartTermType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер таможенного документа.
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class StartTermType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер таможенного документа.
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param GTDID
      */

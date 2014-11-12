@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Отправитель
+ * РћС‚РїСЂР°РІРёС‚РµР»СЊ
  */
 public class ConsignorType extends OrganizationBaseType
 {
     private AddressType address;
 
     /** 
-     * Get the 'Address' element value. Адрес организации / физического лица
+     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ConsignorType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес организации / физического лица
+     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param address
      */

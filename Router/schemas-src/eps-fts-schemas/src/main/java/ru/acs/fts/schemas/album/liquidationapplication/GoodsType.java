@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Товар, помещенный под таможенную процедуру СТЗ
+ * РўРѕРІР°СЂ, РїРѕРјРµС‰РµРЅРЅС‹Р№ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
  */
 public class GoodsType
 {
@@ -14,7 +14,7 @@ public class GoodsType
     private String goodsTNVEDCode;
 
     /** 
-     * Get the list of 'GoodDescription' element items. Наименование товара
+     * Get the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. Наименование товара
+     * Set the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param goodsNumeric
      */
@@ -50,7 +50,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */

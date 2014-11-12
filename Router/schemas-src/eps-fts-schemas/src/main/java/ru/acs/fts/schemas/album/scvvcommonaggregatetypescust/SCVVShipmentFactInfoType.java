@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Информация о фактическом вывозе
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ
  */
 public class SCVVShipmentFactInfoType
 {
@@ -29,7 +29,7 @@ public class SCVVShipmentFactInfoType
     private CustomsPersonType customsPerson;
 
     /** 
-     * Get the 'ExportDate' element value. Дата убытия
+     * Get the 'ExportDate' element value. Р”Р°С‚Р° СѓР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'ExportDate' element value. Дата убытия
+     * Set the 'ExportDate' element value. Р”Р°С‚Р° СѓР±С‹С‚РёСЏ
      * 
      * @param exportDate
      */
@@ -47,7 +47,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the list of 'AddInfo' element items. Примечания
+     * Get the list of 'AddInfo' element items. РџСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @return list
      */
@@ -56,7 +56,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the list of 'AddInfo' element items. Примечания
+     * Set the list of 'AddInfo' element items. РџСЂРёРјРµС‡Р°РЅРёСЏ
      * 
      * @param list
      */
@@ -65,7 +65,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.
+     * Get the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ.
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ.
+     * Set the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ.
      * 
      * @param dispatchCountryCode
      */
@@ -83,7 +83,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ / 00 (неизвестна)
+     * Get the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по общероссийскому классификатору стран мира либо по классификатору экономических союзов и сообществ / 00 (неизвестна)
+     * Set the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° Р»РёР±Рѕ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)
      * 
      * @param destinationCountryCode
      */
@@ -101,7 +101,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'TotalGoodsWeight' element value. Общий вес брутто (кг) вывезенного товара 
+     * Get the 'TotalGoodsWeight' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ (РєРі) РІС‹РІРµР·РµРЅРЅРѕРіРѕ С‚РѕРІР°СЂР° 
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'TotalGoodsWeight' element value. Общий вес брутто (кг) вывезенного товара 
+     * Set the 'TotalGoodsWeight' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ (РєРі) РІС‹РІРµР·РµРЅРЅРѕРіРѕ С‚РѕРІР°СЂР° 
      * 
      * @param totalGoodsWeight
      */
@@ -119,7 +119,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'BorderPointCode' element value. Код пограничного пункта пропуска.
+     * Get the 'BorderPointCode' element value. РљРѕРґ РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°.
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'BorderPointCode' element value. Код пограничного пункта пропуска.
+     * Set the 'BorderPointCode' element value. РљРѕРґ РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°.
      * 
      * @param borderPointCode
      */
@@ -137,7 +137,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'CustomsNumber' element value. Таможенный номер накладной
+     * Get the 'CustomsNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'CustomsNumber' element value. Таможенный номер накладной
+     * Set the 'CustomsNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param customsNumber
      */
@@ -155,7 +155,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'Consignee' element value. Сведения о получателе товаров
+     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'Consignee' element value. Сведения о получателе товаров
+     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param consignee
      */
@@ -173,7 +173,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'Consignor' element value. Сведения об отправителе товаров
+     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'Consignor' element value. Сведения об отправителе товаров
+     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param consignor
      */
@@ -191,7 +191,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the list of 'PresentedDocument' element items. Транспортный документ
+     * Get the list of 'PresentedDocument' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return list
      */
@@ -200,7 +200,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the list of 'PresentedDocument' element items. Транспортный документ
+     * Set the list of 'PresentedDocument' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the list of 'GoodsFactInfo' element items. Сведения о товаре
+     * Get the list of 'GoodsFactInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -218,7 +218,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the list of 'GoodsFactInfo' element items. Сведения о товаре
+     * Set the list of 'GoodsFactInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -227,7 +227,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the list of 'DepartureTransport' element items. Транспортные средства при убытии
+     * Get the list of 'DepartureTransport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё СѓР±С‹С‚РёРё
      * 
      * @return list
      */
@@ -236,7 +236,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the list of 'DepartureTransport' element items. Транспортные средства при убытии
+     * Set the list of 'DepartureTransport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё СѓР±С‹С‚РёРё
      * 
      * @param list
      */
@@ -245,7 +245,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган убытия
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ СѓР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган убытия
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ СѓР±С‹С‚РёСЏ
      * 
      * @param customs
      */
@@ -263,7 +263,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Инспектор, зарегистрировавший убытие 
+     * Get the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РёР№ СѓР±С‹С‚РёРµ 
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class SCVVShipmentFactInfoType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Инспектор, зарегистрировавший убытие 
+     * Set the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РёР№ СѓР±С‹С‚РёРµ 
      * 
      * @param customsPerson
      */

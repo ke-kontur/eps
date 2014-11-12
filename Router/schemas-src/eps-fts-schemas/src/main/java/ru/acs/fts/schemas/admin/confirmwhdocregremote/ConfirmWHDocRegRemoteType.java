@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Подтверждение регистрации документа (СВХ)
+ * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р° (РЎР’РҐ)
  */
 public class ConfirmWHDocRegRemoteType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class ConfirmWHDocRegRemoteType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'EADInfo' element items. Информация о документах в архиве декларанта
+     * Get the list of 'EADInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class ConfirmWHDocRegRemoteType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'EADInfo' element items. Информация о документах в архиве декларанта
+     * Set the list of 'EADInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class ConfirmWHDocRegRemoteType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Справочный номер ДТ
+     * Get the 'GTDID' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ConfirmWHDocRegRemoteType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Справочный номер ДТ
+     * Set the 'GTDID' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDID
      */
@@ -51,7 +51,7 @@ public class ConfirmWHDocRegRemoteType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ConfirmWHDocRegRemoteType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.scienceeduminconfirm;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Сведения об участнике
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ
  */
 public class ParticipantType extends CUOrganizationType
 {
@@ -12,7 +12,7 @@ public class ParticipantType extends CUOrganizationType
     private String address1;
 
     /** 
-     * Get the 'ParticipantSign' element value. Признак: 0 - физическое лицо; 1 - юридическое лицо
+     * Get the 'ParticipantSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ; 1 - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ParticipantSign' element value. Признак: 0 - физическое лицо; 1 - юридическое лицо
+     * Set the 'ParticipantSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ; 1 - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
      * 
      * @param participantSign
      */
@@ -30,7 +30,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес (строка)
+     * Get the 'Address' element value. РђРґСЂРµСЃ (СЃС‚СЂРѕРєР°)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ParticipantType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес (строка)
+     * Set the 'Address' element value. РђРґСЂРµСЃ (СЃС‚СЂРѕРєР°)
      * 
      * @param address1
      */

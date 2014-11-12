@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Регистрация
+ * Р РµРіРёСЃС‚СЂР°С†РёСЏ
  */
 public class RegistrationType extends DocumentBaseType
 {
     private LocalDate expirationDate;
 
     /** 
-     * Get the 'ExpirationDate' element value. Срок действия до
+     * Get the 'ExpirationDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РґРѕ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RegistrationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Срок действия до
+     * Set the 'ExpirationDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РґРѕ
      * 
      * @param expirationDate
      */

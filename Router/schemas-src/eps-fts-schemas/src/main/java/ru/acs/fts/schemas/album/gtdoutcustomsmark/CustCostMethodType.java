@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.gtdoutcustomsmark;
 
 /** 
- * Признак корректировки и метод определения таможенной стоимости (гр. 43 ДТ) 
+ * РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Рё РјРµС‚РѕРґ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё (РіСЂ. 43 Р”Рў) 
  */
 public class CustCostMethodType
 {
@@ -10,7 +10,7 @@ public class CustCostMethodType
     private String customsCostCorrectMethod;
 
     /** 
-     * Get the 'CustomsCostCorrectMark' element value. Признак корректировки таможенной стоимости.
+     * Get the 'CustomsCostCorrectMark' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustCostMethodType
     }
 
     /** 
-     * Set the 'CustomsCostCorrectMark' element value. Признак корректировки таможенной стоимости.
+     * Set the 'CustomsCostCorrectMark' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @param customsCostCorrectMark
      */
@@ -28,7 +28,7 @@ public class CustCostMethodType
     }
 
     /** 
-     * Get the 'CustomsCostCorrectMethod' element value. Номер метода определения таможенной стоимости. Заполняется в соответствии с классификатором методов определения таможенной стоимости.
+     * Get the 'CustomsCostCorrectMethod' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustCostMethodType
     }
 
     /** 
-     * Set the 'CustomsCostCorrectMethod' element value. Номер метода определения таможенной стоимости. Заполняется в соответствии с классификатором методов определения таможенной стоимости.
+     * Set the 'CustomsCostCorrectMethod' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @param customsCostCorrectMethod
      */

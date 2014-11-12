@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Сведения о декларируемом товаре по лицензии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРј С‚РѕРІР°СЂРµ РїРѕ Р»РёС†РµРЅР·РёРё
  */
 public class LicenseGoodsType
 {
@@ -10,7 +10,7 @@ public class LicenseGoodsType
     private String goodsNumericLic;
 
     /** 
-     * Get the 'AppNumber' element value. Номер приложения/ перечня к лицензии 
+     * Get the 'AppNumber' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ/ РїРµСЂРµС‡РЅСЏ Рє Р»РёС†РµРЅР·РёРё 
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class LicenseGoodsType
     }
 
     /** 
-     * Set the 'AppNumber' element value. Номер приложения/ перечня к лицензии 
+     * Set the 'AppNumber' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ/ РїРµСЂРµС‡РЅСЏ Рє Р»РёС†РµРЅР·РёРё 
      * 
      * @param appNumber
      */
@@ -28,7 +28,7 @@ public class LicenseGoodsType
     }
 
     /** 
-     * Get the 'GoodsNumericLic' element value. Порядковый номер декларируемого товара по приложению/перечню к лицензии
+     * Get the 'GoodsNumericLic' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ/РїРµСЂРµС‡РЅСЋ Рє Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class LicenseGoodsType
     }
 
     /** 
-     * Set the 'GoodsNumericLic' element value. Порядковый номер декларируемого товара по приложению/перечню к лицензии
+     * Set the 'GoodsNumericLic' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ/РїРµСЂРµС‡РЅСЋ Рє Р»РёС†РµРЅР·РёРё
      * 
      * @param goodsNumericLic
      */

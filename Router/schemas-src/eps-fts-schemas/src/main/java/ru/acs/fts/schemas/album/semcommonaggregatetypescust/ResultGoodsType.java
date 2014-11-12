@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Информация о товарах
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class ResultGoodsType
 {
@@ -14,7 +14,7 @@ public class ResultGoodsType
     private List<MarkUpType> goodsDescriptionMarkupList = new ArrayList<MarkUpType>();
 
     /** 
-     * Get the 'GoodsDescription' element value. Текстовое описание товара
+     * Get the 'GoodsDescription' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. Текстовое описание товара
+     * Set the 'GoodsDescription' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param goodsDescription
      */
@@ -32,7 +32,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
+     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
+     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
      * 
      * @param goodsNumeric
      */
@@ -50,7 +50,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescriptionMarkup' element items. Размеченное текстовое описание товара
+     * Get the list of 'GoodsDescriptionMarkup' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescriptionMarkup' element items. Размеченное текстовое описание товара
+     * Set the list of 'GoodsDescriptionMarkup' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */

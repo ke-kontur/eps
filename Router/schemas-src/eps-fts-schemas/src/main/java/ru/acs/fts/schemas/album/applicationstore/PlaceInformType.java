@@ -2,16 +2,17 @@
 package ru.acs.fts.schemas.album.applicationstore;
 
 /** 
- * Сведения о месте назначения
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
  */
 public class PlaceInformType
 {
     private String placeName;
     private String countryName;
     private String countryCode;
+    private String airlineIATACode;
 
     /** 
-     * Get the 'PlaceName' element value. Наименование порта/аэропорта/станции
+     * Get the 'PlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЂС‚Р°/Р°СЌСЂРѕРїРѕСЂС‚Р°/СЃС‚Р°РЅС†РёРё
      * 
      * @return value
      */
@@ -20,7 +21,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'PlaceName' element value. Наименование порта/аэропорта/станции
+     * Set the 'PlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЂС‚Р°/Р°СЌСЂРѕРїРѕСЂС‚Р°/СЃС‚Р°РЅС†РёРё
      * 
      * @param placeName
      */
@@ -29,7 +30,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Get the 'CountryName' element value. Страна назначения (название) 
+     * Get the 'CountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РЅР°Р·РІР°РЅРёРµ) 
      * 
      * @return value
      */
@@ -38,7 +39,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'CountryName' element value. Страна назначения (название) 
+     * Set the 'CountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РЅР°Р·РІР°РЅРёРµ) 
      * 
      * @param countryName
      */
@@ -47,7 +48,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Страна назначения (код)
+     * Get the 'CountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РєРѕРґ)
      * 
      * @return value
      */
@@ -56,11 +57,29 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Страна назначения (код)
+     * Set the 'CountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РєРѕРґ)
      * 
      * @param countryCode
      */
     public void setCountryCode(String countryCode) {
         this.countryCode = countryCode;
+    }
+
+    /** 
+     * Get the 'AirlineIATACode' element value. РљРѕРґ РРђРўРђ Р°СЌСЂРѕРїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * 
+     * @return value
+     */
+    public String getAirlineIATACode() {
+        return airlineIATACode;
+    }
+
+    /** 
+     * Set the 'AirlineIATACode' element value. РљРѕРґ РРђРўРђ Р°СЌСЂРѕРїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * 
+     * @param airlineIATACode
+     */
+    public void setAirlineIATACode(String airlineIATACode) {
+        this.airlineIATACode = airlineIATACode;
     }
 }

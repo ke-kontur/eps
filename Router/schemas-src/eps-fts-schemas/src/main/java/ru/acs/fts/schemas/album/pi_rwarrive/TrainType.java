@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Транспорт(поезд)
+ * РўСЂР°РЅСЃРїРѕСЂС‚(РїРѕРµР·Рґ)
  */
 public class TrainType
 {
@@ -17,7 +17,7 @@ public class TrainType
     private List<WagonType> wagonList = new ArrayList<WagonType>();
 
     /** 
-     * Get the 'TrainNumber' element value. Номер поезда
+     * Get the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class TrainType
     }
 
     /** 
-     * Set the 'TrainNumber' element value. Номер поезда
+     * Set the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
      * 
      * @param trainNumber
      */
@@ -35,7 +35,7 @@ public class TrainType
     }
 
     /** 
-     * Get the 'TrainIndex' element value. Индекс поезда
+     * Get the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class TrainType
     }
 
     /** 
-     * Set the 'TrainIndex' element value. Индекс поезда
+     * Set the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
      * 
      * @param trainIndex
      */
@@ -53,7 +53,7 @@ public class TrainType
     }
 
     /** 
-     * Get the 'PPVNumber' element value. Номер ППВ
+     * Get the 'PPVNumber' element value. РќРѕРјРµСЂ РџРџР’
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class TrainType
     }
 
     /** 
-     * Set the 'PPVNumber' element value. Номер ППВ
+     * Set the 'PPVNumber' element value. РќРѕРјРµСЂ РџРџР’
      * 
      * @param PPVNumber
      */
@@ -71,7 +71,7 @@ public class TrainType
     }
 
     /** 
-     * Get the 'ArrivalDate' element value. Ориентировочная дата прибытия
+     * Get the 'ArrivalDate' element value. РћСЂРёРµРЅС‚РёСЂРѕРІРѕС‡РЅР°СЏ РґР°С‚Р° РїСЂРёР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class TrainType
     }
 
     /** 
-     * Set the 'ArrivalDate' element value. Ориентировочная дата прибытия
+     * Set the 'ArrivalDate' element value. РћСЂРёРµРЅС‚РёСЂРѕРІРѕС‡РЅР°СЏ РґР°С‚Р° РїСЂРёР±С‹С‚РёСЏ
      * 
      * @param arrivalDate
      */
@@ -89,7 +89,7 @@ public class TrainType
     }
 
     /** 
-     * Get the list of 'Wagon' element items. Вагон
+     * Get the list of 'Wagon' element items. Р’Р°РіРѕРЅ
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class TrainType
     }
 
     /** 
-     * Set the list of 'Wagon' element items. Вагон
+     * Set the list of 'Wagon' element items. Р’Р°РіРѕРЅ
      * 
      * @param list
      */

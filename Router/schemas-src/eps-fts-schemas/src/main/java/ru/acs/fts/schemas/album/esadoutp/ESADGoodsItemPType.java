@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupDescrip
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsItemBaseType;
 
 /** 
- * Информация о товаре
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
  */
 public class ESADGoodsItemPType extends GoodsItemBaseType
 {
@@ -25,7 +25,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     private ContainerType container;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
+     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
      * 
      * @param goodsTNVEDCode
      */
@@ -43,7 +43,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения по общероссийскому классификатору стран мира / буквенный код страны происхождения по классификатору экономических союзов и сообществ
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения по общероссийскому классификатору стран мира / буквенный код страны происхождения по классификатору экономических союзов и сообществ
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ
      * 
      * @param originCountryCode
      */
@@ -61,7 +61,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. Краткое наименование страны происхождения / экономического союза.
+     * Get the 'OriginCountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЋР·Р°.
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. Краткое наименование страны происхождения / экономического союза.
+     * Set the 'OriginCountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЋР·Р°.
      * 
      * @param originCountryName
      */
@@ -79,7 +79,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'CountryCodeIndicator' element value. Признак кода страны происхождения. 1 - классификатор OKSMT 2- Классификатор союзов и сообществ EK_EU. В остальных случаях не заполняется.
+     * Get the 'CountryCodeIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРґР° СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ. 1 - РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂ OKSMT 2- РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂ СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ EK_EU. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'CountryCodeIndicator' element value. Признак кода страны происхождения. 1 - классификатор OKSMT 2- Классификатор союзов и сообществ EK_EU. В остальных случаях не заполняется.
+     * Set the 'CountryCodeIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРґР° СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ. 1 - РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂ OKSMT 2- РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂ СЃРѕСЋР·РѕРІ Рё СЃРѕРѕР±С‰РµСЃС‚РІ EK_EU. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
      * 
      * @param countryCodeIndicator
      */
@@ -97,7 +97,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'Preferencii' element value. Преференции, особенности уплаты платежей
+     * Get the 'Preferencii' element value. РџСЂРµС„РµСЂРµРЅС†РёРё, РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СѓРїР»Р°С‚С‹ РїР»Р°С‚РµР¶РµР№
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'Preferencii' element value. Преференции, особенности уплаты платежей
+     * Set the 'Preferencii' element value. РџСЂРµС„РµСЂРµРЅС†РёРё, РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СѓРїР»Р°С‚С‹ РїР»Р°С‚РµР¶РµР№
      * 
      * @param preferencii
      */
@@ -115,7 +115,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. Код страны назначения по общероссийскому классификатору стран мира. 
+     * Get the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. 
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. Код страны назначения по общероссийскому классификатору стран мира. 
+     * Set the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. 
      * 
      * @param destinationCountryCode
      */
@@ -133,7 +133,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'ConformityStatCostIndicator' element value. Признак приведения статистической стоимости  к установленной базе цен
+     * Get the 'ConformityStatCostIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёРІРµРґРµРЅРёСЏ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё  Рє СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ Р±Р°Р·Рµ С†РµРЅ
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'ConformityStatCostIndicator' element value. Признак приведения статистической стоимости  к установленной базе цен
+     * Set the 'ConformityStatCostIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёРІРµРґРµРЅРёСЏ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё  Рє СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ Р±Р°Р·Рµ С†РµРЅ
      * 
      * @param conformityStatCostIndicator
      */
@@ -152,7 +152,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'CustomsCostCorrectMethod' element value. Номер метода определения таможенной стоимости. Заполняется в соответствии с классификатором методов определения таможенной стоимости.
+     * Get the 'CustomsCostCorrectMethod' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'CustomsCostCorrectMethod' element value. Номер метода определения таможенной стоимости. Заполняется в соответствии с классификатором методов определения таможенной стоимости.
+     * Set the 'CustomsCostCorrectMethod' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
      * 
      * @param customsCostCorrectMethod
      */
@@ -170,7 +170,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'InvoiceCostCurCode' element value. Код валюты фактурной стоимости
+     * Get the 'InvoiceCostCurCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'InvoiceCostCurCode' element value. Код валюты фактурной стоимости
+     * Set the 'InvoiceCostCurCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
      * 
      * @param invoiceCostCurCode
      */
@@ -188,7 +188,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'GoodsAddTNVEDCode' element value. Код  товара по классификатору  дополнительной таможенной информации
+     * Get the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsAddTNVEDCode' element value. Код  товара по классификатору  дополнительной таможенной информации
+     * Set the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param goodsAddTNVEDCode
      */
@@ -206,7 +206,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'GoodsGroupDescription' element items. Описание группы товаров одного наименования с отличающимися от других групп характеристиками
+     * Get the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
      * 
      * @return list
      */
@@ -215,7 +215,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'GoodsGroupDescription' element items. Описание группы товаров одного наименования с отличающимися от других групп характеристиками
+     * Set the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
      * 
      * @param list
      */
@@ -225,7 +225,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'Container' element value. Информация о контейнерах
+     * Get the 'Container' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class ESADGoodsItemPType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'Container' element value. Информация о контейнерах
+     * Set the 'Container' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param container
      */

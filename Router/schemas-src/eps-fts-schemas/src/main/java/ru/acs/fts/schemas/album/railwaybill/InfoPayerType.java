@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.railwaybill;
 
 /** 
- * Сведения о плательщике
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
  */
 public class InfoPayerType
 {
@@ -10,7 +10,7 @@ public class InfoPayerType
     private String payerCode;
 
     /** 
-     * Get the 'PayerName' element value. Наименование плательщика
+     * Get the 'PayerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class InfoPayerType
     }
 
     /** 
-     * Set the 'PayerName' element value. Наименование плательщика
+     * Set the 'PayerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param payerName
      */
@@ -28,7 +28,7 @@ public class InfoPayerType
     }
 
     /** 
-     * Get the 'PayerCode' element value. Код плательщика
+     * Get the 'PayerCode' element value. РљРѕРґ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class InfoPayerType
     }
 
     /** 
-     * Set the 'PayerCode' element value. Код плательщика
+     * Set the 'PayerCode' element value. РљРѕРґ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param payerCode
      */

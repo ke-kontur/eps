@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Список архивов декларанта
+ * РЎРїРёСЃРѕРє Р°СЂС…РёРІРѕРІ РґРµРєР»Р°СЂР°РЅС‚Р°
  */
 public class ArchListType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ArchListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'ArchiveList' element items. Элемент списка архивов декларанта
+     * Get the list of 'ArchiveList' element items. Р­Р»РµРјРµРЅС‚ СЃРїРёСЃРєР° Р°СЂС…РёРІРѕРІ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ArchListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ArchiveList' element items. Элемент списка архивов декларанта
+     * Set the list of 'ArchiveList' element items. Р­Р»РµРјРµРЅС‚ СЃРїРёСЃРєР° Р°СЂС…РёРІРѕРІ РґРµРєР»Р°СЂР°РЅС‚Р°
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ArchListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ArchListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

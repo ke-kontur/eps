@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cmr;
 
 /** 
- * Сведения о перевозчике (гр.16)
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ (РіСЂ.16)
  */
 public class CMRCarrierType extends CarrierType
 {
     private String licenseID;
 
     /** 
-     * Get the 'LicenseID' element value. Номер лицензии перевозчика
+     * Get the 'LicenseID' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class CMRCarrierType extends CarrierType
     }
 
     /** 
-     * Set the 'LicenseID' element value. Номер лицензии перевозчика
+     * Set the 'LicenseID' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РїРµСЂРµРІРѕР·С‡РёРєР°
      * 
      * @param licenseID
      */

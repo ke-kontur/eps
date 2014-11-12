@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Документ контроля платежей
+ * Р”РѕРєСѓРјРµРЅС‚ РєРѕРЅС‚СЂРѕР»СЏ РїР»Р°С‚РµР¶РµР№
  */
 public class CustPaymentsDKType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class CustPaymentsDKType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'PaymentDocument' element items. Платежные поручения
+     * Get the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Рµ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. Платежные поручения
+     * Set the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Рµ РїРѕСЂСѓС‡РµРЅРёСЏ
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Payment' element items. Платежи к уплате
+     * Get the list of 'Payment' element items. РџР»Р°С‚РµР¶Рё Рє СѓРїР»Р°С‚Рµ
      * 
      * @return list
      */
@@ -48,7 +48,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Payment' element items. Платежи к уплате
+     * Set the list of 'Payment' element items. РџР»Р°С‚РµР¶Рё Рє СѓРїР»Р°С‚Рµ
      * 
      * @param list
      */
@@ -57,7 +57,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Fine' element items. Пени
+     * Get the list of 'Fine' element items. РџРµРЅРё
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Fine' element items. Пени
+     * Set the list of 'Fine' element items. РџРµРЅРё
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentDelay' element items. Отсрочки, рассрочки
+     * Get the list of 'PaymentDelay' element items. РћС‚СЃСЂРѕС‡РєРё, СЂР°СЃСЃСЂРѕС‡РєРё
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentDelay' element items. Отсрочки, рассрочки
+     * Set the list of 'PaymentDelay' element items. РћС‚СЃСЂРѕС‡РєРё, СЂР°СЃСЃСЂРѕС‡РєРё
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the 'PrimaryList' element value. Основные листы
+     * Get the 'PrimaryList' element value. РћСЃРЅРѕРІРЅС‹Рµ Р»РёСЃС‚С‹
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the 'PrimaryList' element value. Основные листы
+     * Set the 'PrimaryList' element value. РћСЃРЅРѕРІРЅС‹Рµ Р»РёСЃС‚С‹
      * 
      * @param primaryList
      */
@@ -111,7 +111,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Товар
+     * Get the list of 'Goods' element items. РўРѕРІР°СЂ
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Товар
+     * Set the list of 'Goods' element items. РўРѕРІР°СЂ
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Номер ДТ
+     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Номер ДТ
+     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў
      * 
      * @param GTDNumber
      */
@@ -147,7 +147,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class CustPaymentsDKType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

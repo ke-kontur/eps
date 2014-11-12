@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Отгрузочная спецификация на товары 44 группы ТН ВЭД ТС
+ * РћС‚РіСЂСѓР·РѕС‡РЅР°СЏ СЃРїРµС†РёС„РёРєР°С†РёСЏ РЅР° С‚РѕРІР°СЂС‹ 44 РіСЂСѓРїРїС‹ РўРќ Р’Р­Р” РўРЎ
  */
 public class WoodShipingSpecificationType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SpecificationNumber' element value. Номер отгрузочной спецификации
+     * Get the 'SpecificationNumber' element value. РќРѕРјРµСЂ РѕС‚РіСЂСѓР·РѕС‡РЅРѕР№ СЃРїРµС†РёС„РёРєР°С†РёРё
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecificationNumber' element value. Номер отгрузочной спецификации
+     * Set the 'SpecificationNumber' element value. РќРѕРјРµСЂ РѕС‚РіСЂСѓР·РѕС‡РЅРѕР№ СЃРїРµС†РёС„РёРєР°С†РёРё
      * 
      * @param specificationNumber
      */
@@ -50,7 +50,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'UnloadingDate' element value. Дата отгрузки
+     * Get the 'UnloadingDate' element value. Р”Р°С‚Р° РѕС‚РіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'UnloadingDate' element value. Дата отгрузки
+     * Set the 'UnloadingDate' element value. Р”Р°С‚Р° РѕС‚РіСЂСѓР·РєРё
      * 
      * @param unloadingDate
      */
@@ -68,7 +68,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'WagonNumber' element items. Номер вагона
+     * Get the list of 'WagonNumber' element items. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @return list
      */
@@ -77,7 +77,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'WagonNumber' element items. Номер вагона
+     * Set the list of 'WagonNumber' element items. РќРѕРјРµСЂ РІР°РіРѕРЅР°
      * 
      * @param list
      */
@@ -86,7 +86,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RailbillNumber' element value. Номер ж/д накладной
+     * Get the 'RailbillNumber' element value. РќРѕРјРµСЂ Р¶/Рґ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RailbillNumber' element value. Номер ж/д накладной
+     * Set the 'RailbillNumber' element value. РќРѕРјРµСЂ Р¶/Рґ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param railbillNumber
      */
@@ -104,7 +104,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalMarking' element value. Дополнительная маркировка
+     * Get the 'AdditionalMarking' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РјР°СЂРєРёСЂРѕРІРєР°
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalMarking' element value. Дополнительная маркировка
+     * Set the 'AdditionalMarking' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РјР°СЂРєРёСЂРѕРІРєР°
      * 
      * @param additionalMarking
      */
@@ -122,7 +122,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalQuantity' element value. Общее количество в натуральных единицах (шт.)
+     * Get the 'TotalQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РІ РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… (С€С‚.)
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalQuantity' element value. Общее количество в натуральных единицах (шт.)
+     * Set the 'TotalQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РІ РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… (С€С‚.)
      * 
      * @param totalQuantity
      */
@@ -140,7 +140,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalVolume' element value. Общий объем в куб. метрах
+     * Get the 'TotalVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј РІ РєСѓР±. РјРµС‚СЂР°С…
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalVolume' element value. Общий объем в куб. метрах
+     * Set the 'TotalVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј РІ РєСѓР±. РјРµС‚СЂР°С…
      * 
      * @param totalVolume
      */
@@ -158,7 +158,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Контракт
+     * Get the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Контракт
+     * Set the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
      * 
      * @param contract
      */
@@ -176,7 +176,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. Сведения об отправителе
+     * Get the 'Sender' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. Сведения об отправителе
+     * Set the 'Sender' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @param sender
      */
@@ -194,7 +194,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. Сведения о получателе
+     * Get the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. Сведения о получателе
+     * Set the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @param recipient
      */
@@ -212,7 +212,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'StandartsInfo' element value. Информация о стандартах
+     * Get the 'StandartsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚Р°РЅРґР°СЂС‚Р°С…
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'StandartsInfo' element value. Информация о стандартах
+     * Set the 'StandartsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚Р°РЅРґР°СЂС‚Р°С…
      * 
      * @param standartsInfo
      */
@@ -230,7 +230,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о товарах
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -239,7 +239,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о товарах
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -248,7 +248,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TotalLength' element items. Общая информация по длине
+     * Get the list of 'TotalLength' element items. РћР±С‰Р°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РґР»РёРЅРµ
      * 
      * @return list
      */
@@ -257,7 +257,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TotalLength' element items. Общая информация по длине
+     * Set the list of 'TotalLength' element items. РћР±С‰Р°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РґР»РёРЅРµ
      * 
      * @param list
      */
@@ -266,7 +266,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CheckMan' element value. Учетчик
+     * Get the 'CheckMan' element value. РЈС‡РµС‚С‡РёРє
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckMan' element value. Учетчик
+     * Set the 'CheckMan' element value. РЈС‡РµС‚С‡РёРє
      * 
      * @param checkMan
      */
@@ -284,7 +284,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Foreman' element value. Начальник цеха
+     * Get the 'Foreman' element value. РќР°С‡Р°Р»СЊРЅРёРє С†РµС…Р°
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Foreman' element value. Начальник цеха
+     * Set the 'Foreman' element value. РќР°С‡Р°Р»СЊРЅРёРє С†РµС…Р°
      * 
      * @param foreman
      */
@@ -302,7 +302,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Loader' element value. Мастер погрузки
+     * Get the 'Loader' element value. РњР°СЃС‚РµСЂ РїРѕРіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Loader' element value. Мастер погрузки
+     * Set the 'Loader' element value. РњР°СЃС‚РµСЂ РїРѕРіСЂСѓР·РєРё
      * 
      * @param loader
      */
@@ -320,7 +320,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -329,7 +329,7 @@ public class WoodShipingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

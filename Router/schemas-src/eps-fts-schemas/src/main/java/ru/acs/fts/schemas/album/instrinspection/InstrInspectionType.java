@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Информация о проведении досмотра товаров
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР° С‚РѕРІР°СЂРѕРІ
  */
 public class InstrInspectionType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class InstrInspectionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InspectionDate' element value. Дата проведения досмотра
+     * Get the 'InspectionDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionDate' element value. Дата проведения досмотра
+     * Set the 'InspectionDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspectionDate
      */
@@ -45,7 +45,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionTime' element value. Время до которого должен быть проведен досмотр
+     * Get the 'InspectionTime' element value. Р’СЂРµРјСЏ РґРѕ РєРѕС‚РѕСЂРѕРіРѕ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїСЂРѕРІРµРґРµРЅ РґРѕСЃРјРѕС‚СЂ
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionTime' element value. Время до которого должен быть проведен досмотр
+     * Set the 'InspectionTime' element value. Р’СЂРµРјСЏ РґРѕ РєРѕС‚РѕСЂРѕРіРѕ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїСЂРѕРІРµРґРµРЅ РґРѕСЃРјРѕС‚СЂ
      * 
      * @param inspectionTime
      */
@@ -63,7 +63,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'BasisExamination' element value. Основание для проведения досмотра
+     * Get the 'BasisExamination' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'BasisExamination' element value. Основание для проведения досмотра
+     * Set the 'BasisExamination' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param basisExamination
      */
@@ -81,7 +81,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspDecisionDate' element value. Дата принятия решения о проведении досмотра
+     * Get the 'InspDecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspDecisionDate' element value. Дата принятия решения о проведении досмотра
+     * Set the 'InspDecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspDecisionDate
      */
@@ -99,7 +99,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspDecisionTime' element value. Время принятия решения о проведении досмотра
+     * Get the 'InspDecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspDecisionTime' element value. Время принятия решения о проведении досмотра
+     * Set the 'InspDecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspDecisionTime
      */
@@ -117,7 +117,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShortFormSign' element value. Признак возможности составления АТДО в сокращенной форме
+     * Get the 'ShortFormSign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ РІ СЃРѕРєСЂР°С‰РµРЅРЅРѕР№ С„РѕСЂРјРµ
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShortFormSign' element value. Признак возможности составления АТДО в сокращенной форме
+     * Set the 'ShortFormSign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РђРўР”Рћ РІ СЃРѕРєСЂР°С‰РµРЅРЅРѕР№ С„РѕСЂРјРµ
      * 
      * @param shortFormSign
      */
@@ -135,7 +135,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InstrInfo' element value. Сведения о документе
+     * Get the 'InstrInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InstrInfo' element value. Сведения о документе
+     * Set the 'InstrInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param instrInfo
      */
@@ -153,7 +153,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionObject' element value. Сведения об объекте досмотра
+     * Get the 'InspectionObject' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±СЉРµРєС‚Рµ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionObject' element value. Сведения об объекте досмотра
+     * Set the 'InspectionObject' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±СЉРµРєС‚Рµ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspectionObject
      */
@@ -171,7 +171,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InstrNumber' element value. Исходящий номер документа
+     * Get the 'InstrNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InstrNumber' element value. Исходящий номер документа
+     * Set the 'InstrNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param instrNumber
      */
@@ -189,7 +189,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTNumber' element value. Номер декларации на товары, по которой необходимо произвести осмотр/досмотр товаров
+     * Get the 'DTNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹, РїРѕ РєРѕС‚РѕСЂРѕР№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРѕРёР·РІРµСЃС‚Рё РѕСЃРјРѕС‚СЂ/РґРѕСЃРјРѕС‚СЂ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTNumber' element value. Номер декларации на товары, по которой необходимо произвести осмотр/досмотр товаров
+     * Set the 'DTNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹, РїРѕ РєРѕС‚РѕСЂРѕР№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРѕРёР·РІРµСЃС‚Рё РѕСЃРјРѕС‚СЂ/РґРѕСЃРјРѕС‚СЂ С‚РѕРІР°СЂРѕРІ
      * 
      * @param DTNumber
      */
@@ -207,7 +207,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CustomsPersons' element items. Уполномоченное должностное лицо таможенного органа, назначенное на проведение таможенного досмотра
+     * Get the list of 'CustomsPersons' element items. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РЅР°Р·РЅР°С‡РµРЅРЅРѕРµ РЅР° РїСЂРѕРІРµРґРµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return list
      */
@@ -216,7 +216,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CustomsPersons' element items. Уполномоченное должностное лицо таможенного органа, назначенное на проведение таможенного досмотра
+     * Set the list of 'CustomsPersons' element items. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РЅР°Р·РЅР°С‡РµРЅРЅРѕРµ РЅР° РїСЂРѕРІРµРґРµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param list
      */
@@ -225,7 +225,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class InstrInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

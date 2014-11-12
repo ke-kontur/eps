@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.custpaymentsdk;
 
 /** 
- * Исчисление таможенных платежей.
+ * РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
  */
 public class PaymentCalculationType
 {
@@ -19,7 +19,7 @@ public class PaymentCalculationType
     private String customsPaymentSubspecies;
 
     /** 
-     * Get the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Get the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Set the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSign
      */
@@ -37,7 +37,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @param paymentModeCode
      */
@@ -55,7 +55,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentAmount
      */
@@ -73,7 +73,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
      * 
      * @param paymentCurrencyCode
      */
@@ -91,7 +91,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'TaxBase' element value. Основа начисления
+     * Get the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'TaxBase' element value. Основа начисления
+     * Set the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
      * 
      * @param taxBase
      */
@@ -109,7 +109,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'Rate' element value. Ставка.
+     * Get the 'Rate' element value. РЎС‚Р°РІРєР°.
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'Rate' element value. Ставка.
+     * Set the 'Rate' element value. РЎС‚Р°РІРєР°.
      * 
      * @param rate
      */
@@ -127,7 +127,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTypeCode' element value. Вид ставки (адвалорная -"%", специфическая - "*")
+     * Get the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTypeCode' element value. Вид ставки (адвалорная -"%", специфическая - "*")
+     * Set the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
      * 
      * @param rateTypeCode
      */
@@ -145,7 +145,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'RateCurrencyCode' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Get the 'RateCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'RateCurrencyCode' element value. Цифровой код валюты ставки (специфическая ставка)
+     * Set the 'RateCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateCurrencyCode
      */
@@ -163,7 +163,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'RateTNVEDQualifierCode' element value. Код единицы измерения ставки (специфическая ставка)
+     * Get the 'RateTNVEDQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'RateTNVEDQualifierCode' element value. Код единицы измерения ставки (специфическая ставка)
+     * Set the 'RateTNVEDQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
      * 
      * @param rateTNVEDQualifierCode
      */
@@ -181,7 +181,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. Способ платежа
+     * Get the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р°
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. Способ платежа
+     * Set the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р°
      * 
      * @param paymentWayCode
      */
@@ -199,7 +199,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Get the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
+     * Get the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class PaymentCalculationType
     }
 
     /** 
-     * Set the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
+     * Set the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSubspecies
      */

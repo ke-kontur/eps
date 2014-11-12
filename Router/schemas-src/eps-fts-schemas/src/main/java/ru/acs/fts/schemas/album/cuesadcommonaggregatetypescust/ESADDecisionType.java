@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * ДТ и ТД. Принятое решение
+ * Р”Рў Рё РўР”. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
  */
 public class ESADDecisionType
 {
@@ -15,7 +15,7 @@ public class ESADDecisionType
     private String foundation;
 
     /** 
-     * Get the 'DecisionCode' element value. Код решения в соответствии с классификатором решений,  принимаемых таможенными органами (**) - различно по товарам (заполняется при указании решения по декларации)
+     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№,  РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё (**) - СЂР°Р·Р»РёС‡РЅРѕ РїРѕ С‚РѕРІР°СЂР°Рј (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РґРµРєР»Р°СЂР°С†РёРё)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. Код решения в соответствии с классификатором решений,  принимаемых таможенными органами (**) - различно по товарам (заполняется при указании решения по декларации)
+     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№,  РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё (**) - СЂР°Р·Р»РёС‡РЅРѕ РїРѕ С‚РѕРІР°СЂР°Рј (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РґРµРєР»Р°СЂР°С†РёРё)
      * 
      * @param decisionCode
      */
@@ -33,7 +33,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Get the 'DateInf' element value. Дата
+     * Get the 'DateInf' element value. Р”Р°С‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата
+     * Set the 'DateInf' element value. Р”Р°С‚Р°
      * 
      * @param dateInf
      */
@@ -51,7 +51,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Время
+     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Время
+     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ
      * 
      * @param timeInf
      */
@@ -69,7 +69,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Get the 'LNP' element value. ЛНП
+     * Get the 'LNP' element value. Р›РќРџ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП
+     * Set the 'LNP' element value. Р›РќРџ
      * 
      * @param LNP
      */
@@ -87,7 +87,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Get the 'Foundation' element value. Обоснование
+     * Get the 'Foundation' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ESADDecisionType
     }
 
     /** 
-     * Set the 'Foundation' element value. Обоснование
+     * Set the 'Foundation' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
      * 
      * @param foundation
      */

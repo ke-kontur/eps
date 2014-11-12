@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inventoryin;
 import org.joda.time.LocalDate;
 
 /** 
- * Служебные отметки в экземпляре описи.
+ * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РІ СЌРєР·РµРјРїР»СЏСЂРµ РѕРїРёСЃРё.
  */
 public class InventoryInstanceMarkType
 {
@@ -12,7 +12,7 @@ public class InventoryInstanceMarkType
     private String LNP;
 
     /** 
-     * Get the 'InventoryInstanceDate' element value. Дата принятия описи.
+     * Get the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РѕРїРёСЃРё.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class InventoryInstanceMarkType
     }
 
     /** 
-     * Set the 'InventoryInstanceDate' element value. Дата принятия описи.
+     * Set the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РѕРїРёСЃРё.
      * 
      * @param inventoryInstanceDate
      */
@@ -30,7 +30,7 @@ public class InventoryInstanceMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. ЛНП должностного лица, принявшего документы.
+     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїСЂРёРЅСЏРІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚С‹.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class InventoryInstanceMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. ЛНП должностного лица, принявшего документы.
+     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїСЂРёРЅСЏРІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚С‹.
      * 
      * @param LNP
      */

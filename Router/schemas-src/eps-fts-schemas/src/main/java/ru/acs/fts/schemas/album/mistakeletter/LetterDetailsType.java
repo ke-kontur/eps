@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mistakeletter;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о письме
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРёСЃСЊРјРµ
  */
 public class LetterDetailsType
 {
@@ -14,7 +14,7 @@ public class LetterDetailsType
     private String letterOrderNumber;
 
     /** 
-     * Get the 'LetterName' element value. Наименование письма (Письмо, Уведомление о выявленных ошибках и т.п.)
+     * Get the 'LetterName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРёСЃСЊРјР° (РџРёСЃСЊРјРѕ, РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РєР°С… Рё С‚.Рї.)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Set the 'LetterName' element value. Наименование письма (Письмо, Уведомление о выявленных ошибках и т.п.)
+     * Set the 'LetterName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРёСЃСЊРјР° (РџРёСЃСЊРјРѕ, РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РєР°С… Рё С‚.Рї.)
      * 
      * @param letterName
      */
@@ -32,7 +32,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Get the 'LetterNumber' element value. Номер письма 
+     * Get the 'LetterNumber' element value. РќРѕРјРµСЂ РїРёСЃСЊРјР° 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Set the 'LetterNumber' element value. Номер письма 
+     * Set the 'LetterNumber' element value. РќРѕРјРµСЂ РїРёСЃСЊРјР° 
      * 
      * @param letterNumber
      */
@@ -50,7 +50,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Get the 'LetterDate' element value. Дата письма 
+     * Get the 'LetterDate' element value. Р”Р°С‚Р° РїРёСЃСЊРјР° 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Set the 'LetterDate' element value. Дата письма 
+     * Set the 'LetterDate' element value. Р”Р°С‚Р° РїРёСЃСЊРјР° 
      * 
      * @param letterDate
      */
@@ -68,7 +68,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Get the 'LetterOrderNumber' element value. Порядковый номер письма (для первого начиная с единицы), составленного в отношении товаров указанного отчета о принятии, начиная с подачи отчета
+     * Get the 'LetterOrderNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїРёСЃСЊРјР° (РґР»СЏ РїРµСЂРІРѕРіРѕ РЅР°С‡РёРЅР°СЏ СЃ РµРґРёРЅРёС†С‹), СЃРѕСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РѕС‚С‡РµС‚Р° Рѕ РїСЂРёРЅСЏС‚РёРё, РЅР°С‡РёРЅР°СЏ СЃ РїРѕРґР°С‡Рё РѕС‚С‡РµС‚Р°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class LetterDetailsType
     }
 
     /** 
-     * Set the 'LetterOrderNumber' element value. Порядковый номер письма (для первого начиная с единицы), составленного в отношении товаров указанного отчета о принятии, начиная с подачи отчета
+     * Set the 'LetterOrderNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїРёСЃСЊРјР° (РґР»СЏ РїРµСЂРІРѕРіРѕ РЅР°С‡РёРЅР°СЏ СЃ РµРґРёРЅРёС†С‹), СЃРѕСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ СѓРєР°Р·Р°РЅРЅРѕРіРѕ РѕС‚С‡РµС‚Р° Рѕ РїСЂРёРЅСЏС‚РёРё, РЅР°С‡РёРЅР°СЏ СЃ РїРѕРґР°С‡Рё РѕС‚С‡РµС‚Р°
      * 
      * @param letterOrderNumber
      */

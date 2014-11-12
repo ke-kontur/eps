@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Продукты переработки
+ * РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
  */
 public class TrResultType
 {
@@ -14,7 +14,7 @@ public class TrResultType
     private List<TreatProductsType> trResultItemList = new ArrayList<TreatProductsType>();
 
     /** 
-     * Get the list of 'TrResultInfo' element items. Дополнительная информация о продуктах переработки
+     * Get the list of 'TrResultInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class TrResultType
     }
 
     /** 
-     * Set the list of 'TrResultInfo' element items. Дополнительная информация о продуктах переработки
+     * Set the list of 'TrResultInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class TrResultType
     }
 
     /** 
-     * Get the list of 'IdentificationMethod' element items. Способы идентификации товаров в продуктах переработки
+     * Get the list of 'IdentificationMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class TrResultType
     }
 
     /** 
-     * Set the list of 'IdentificationMethod' element items. Способы идентификации товаров в продуктах переработки
+     * Set the list of 'IdentificationMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ РїСЂРѕРґСѓРєС‚Р°С… РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class TrResultType
     }
 
     /** 
-     * Get the list of 'TrResultItem' element items. Описание товара - продукта переработки
+     * Get the list of 'TrResultItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° - РїСЂРѕРґСѓРєС‚Р° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class TrResultType
     }
 
     /** 
-     * Set the list of 'TrResultItem' element items. Описание товара - продукта переработки
+     * Set the list of 'TrResultItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° - РїСЂРѕРґСѓРєС‚Р° РїРµСЂРµСЂР°Р±РѕС‚РєРё
      * 
      * @param list
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.gtdobligationin;
 
 /** 
- * Сведения о стране
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°РЅРµ
  */
 public class CountryType
 {
@@ -10,7 +10,7 @@ public class CountryType
     private String name;
 
     /** 
-     * Get the 'Code' element value. Код страны
+     * Get the 'Code' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryType
     }
 
     /** 
-     * Set the 'Code' element value. Код страны
+     * Set the 'Code' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class CountryType
     }
 
     /** 
-     * Get the 'Name' element value. Краткое название страны
+     * Get the 'Name' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryType
     }
 
     /** 
-     * Set the 'Name' element value. Краткое название страны
+     * Set the 'Name' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @param name
      */

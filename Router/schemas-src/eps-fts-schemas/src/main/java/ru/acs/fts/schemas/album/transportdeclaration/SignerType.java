@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Подпись лица, заявляющего сведения
+ * РџРѕРґРїРёСЃСЊ Р»РёС†Р°, Р·Р°СЏРІР»СЏСЋС‰РµРіРѕ СЃРІРµРґРµРЅРёСЏ
  */
 public class SignerType extends PersonSignatureType
 {
@@ -14,7 +14,7 @@ public class SignerType extends PersonSignatureType
     private DocumentBaseType serviceContract;
 
     /** 
-     * Get the 'RepresentativeName' element value. Наименование таможенного представителя
+     * Get the 'RepresentativeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class SignerType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'RepresentativeName' element value. Наименование таможенного представителя
+     * Set the 'RepresentativeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
      * 
      * @param representativeName
      */
@@ -32,7 +32,7 @@ public class SignerType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'Sertificate' element value. Свидетельство о включении лица в реестр таможенных представителей
+     * Get the 'Sertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р° РІ СЂРµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class SignerType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'Sertificate' element value. Свидетельство о включении лица в реестр таможенных представителей
+     * Set the 'Sertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р° РІ СЂРµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
      * 
      * @param sertificate
      */
@@ -50,7 +50,7 @@ public class SignerType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'ServiceContract' element value. Договор на оказание услуг по совершению таможенных операций в отношении временно ввозимых (вывозимых) ТСМП
+     * Get the 'ServiceContract' element value. Р”РѕРіРѕРІРѕСЂ РЅР° РѕРєР°Р·Р°РЅРёРµ СѓСЃР»СѓРі РїРѕ СЃРѕРІРµСЂС€РµРЅРёСЋ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё РІСЂРµРјРµРЅРЅРѕ РІРІРѕР·РёРјС‹С… (РІС‹РІРѕР·РёРјС‹С…) РўРЎРњРџ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class SignerType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'ServiceContract' element value. Договор на оказание услуг по совершению таможенных операций в отношении временно ввозимых (вывозимых) ТСМП
+     * Set the 'ServiceContract' element value. Р”РѕРіРѕРІРѕСЂ РЅР° РѕРєР°Р·Р°РЅРёРµ СѓСЃР»СѓРі РїРѕ СЃРѕРІРµСЂС€РµРЅРёСЋ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё РІСЂРµРјРµРЅРЅРѕ РІРІРѕР·РёРјС‹С… (РІС‹РІРѕР·РёРјС‹С…) РўРЎРњРџ
      * 
      * @param serviceContract
      */

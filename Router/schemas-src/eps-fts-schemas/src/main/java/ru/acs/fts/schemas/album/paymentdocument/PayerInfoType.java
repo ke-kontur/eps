@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymentdocument;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Сведения о плательщике
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
  */
 public class PayerInfoType
 {
@@ -17,7 +17,7 @@ public class PayerInfoType
     private AccountType account;
 
     /** 
-     * Get the 'OrganizationName' element value. Наименование организации / ФИО физического лица
+     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. Наименование организации / ФИО физического лица
+     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
      * 
      * @param organizationName
      */
@@ -35,7 +35,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'Classification' element value. Классификация плательщика/тип лицевого счета: "1" - "юридическое лицо"; "2" - "физическое лицо"; "3" - "таможенный представитель". 
+     * Get the 'Classification' element value. РљР»Р°СЃСЃРёС„РёРєР°С†РёСЏ РїР»Р°С‚РµР»СЊС‰РёРєР°/С‚РёРї Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р°: "1" - "СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ"; "2" - "С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ"; "3" - "С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ". 
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'Classification' element value. Классификация плательщика/тип лицевого счета: "1" - "юридическое лицо"; "2" - "физическое лицо"; "3" - "таможенный представитель". 
+     * Set the 'Classification' element value. РљР»Р°СЃСЃРёС„РёРєР°С†РёСЏ РїР»Р°С‚РµР»СЊС‰РёРєР°/С‚РёРї Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р°: "1" - "СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ"; "2" - "С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ"; "3" - "С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ". 
      * 
      * @param classification
      */
@@ -53,7 +53,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'ResidenceStatus' element value. Статус плательщика: "true" - резидент; "false" - нерезидент.
+     * Get the 'ResidenceStatus' element value. РЎС‚Р°С‚СѓСЃ РїР»Р°С‚РµР»СЊС‰РёРєР°: "true" - СЂРµР·РёРґРµРЅС‚; "false" - РЅРµСЂРµР·РёРґРµРЅС‚.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'ResidenceStatus' element value. Статус плательщика: "true" - резидент; "false" - нерезидент.
+     * Set the 'ResidenceStatus' element value. РЎС‚Р°С‚СѓСЃ РїР»Р°С‚РµР»СЊС‰РёРєР°: "true" - СЂРµР·РёРґРµРЅС‚; "false" - РЅРµСЂРµР·РёРґРµРЅС‚.
      * 
      * @param residenceStatus
      */
@@ -71,7 +71,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'ITN' element value. ИТН плательщика
+     * Get the 'ITN' element value. РРўРќ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'ITN' element value. ИТН плательщика
+     * Set the 'ITN' element value. РРўРќ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param ITN
      */
@@ -89,7 +89,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'OGRNID' element value. ОГРН/ОГРНИП плательщика
+     * Get the 'OGRNID' element value. РћР“Р Рќ/РћР“Р РќРРџ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'OGRNID' element value. ОГРН/ОГРНИП плательщика
+     * Set the 'OGRNID' element value. РћР“Р Рќ/РћР“Р РќРРџ РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param OGRNID
      */
@@ -107,7 +107,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -125,7 +125,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'Account' element value. Номер лицевого счета плательщика
+     * Get the 'Account' element value. РќРѕРјРµСЂ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'Account' element value. Номер лицевого счета плательщика
+     * Set the 'Account' element value. РќРѕРјРµСЂ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°
      * 
      * @param account
      */

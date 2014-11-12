@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Сведения о таможенном органе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
  */
 public class CUCustomsType extends CustomsType
 {
     private String customsCountryCode;
 
     /** 
-     * Get the 'CustomsCountryCode' element value. Код государства - члена Таможенного союза. Трехзначный цифровой код
+     * Get the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ С†РёС„СЂРѕРІРѕР№ РєРѕРґ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class CUCustomsType extends CustomsType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. Код государства - члена Таможенного союза. Трехзначный цифровой код
+     * Set the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ С†РёС„СЂРѕРІРѕР№ РєРѕРґ
      * 
      * @param customsCountryCode
      */

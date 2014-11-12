@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDResultInfoType;
 
 /** 
- * Результаты обработки запроса.
+ * Р РµР·СѓР»СЊС‚Р°С‚С‹ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР°.
  */
 public class AUDErrorType extends AUDBaseEnvelopeType
 {
@@ -16,7 +16,7 @@ public class AUDErrorType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the list of 'ResultInfo' element items. Информация о результате обработки запроса.
+     * Get the list of 'ResultInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР°.
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class AUDErrorType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'ResultInfo' element items. Информация о результате обработки запроса.
+     * Set the list of 'ResultInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР°.
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class AUDErrorType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the list of 'EmbeddedDocumentResultInfo' element items. Информация о результате обработки документа, вложенного в документ-контейнер.
+     * Get the list of 'EmbeddedDocumentResultInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°, РІР»РѕР¶РµРЅРЅРѕРіРѕ РІ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ.
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class AUDErrorType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'EmbeddedDocumentResultInfo' element items. Информация о результате обработки документа, вложенного в документ-контейнер.
+     * Set the list of 'EmbeddedDocumentResultInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°, РІР»РѕР¶РµРЅРЅРѕРіРѕ РІ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ.
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class AUDErrorType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AUDErrorType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

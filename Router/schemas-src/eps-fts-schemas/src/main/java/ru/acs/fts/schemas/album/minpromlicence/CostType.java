@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.minpromlicence;
 
 /** 
- * Стоимость
+ * РЎС‚РѕРёРјРѕСЃС‚СЊ
  */
 public class CostType
 {
@@ -12,7 +12,7 @@ public class CostType
     private String statCost;
 
     /** 
-     * Get the 'ContractCurrencyCode' element value. Код валюты
+     * Get the 'ContractCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CostType
     }
 
     /** 
-     * Set the 'ContractCurrencyCode' element value. Код валюты
+     * Set the 'ContractCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param contractCurrencyCode
      */
@@ -30,7 +30,7 @@ public class CostType
     }
 
     /** 
-     * Get the 'ContractCurrencyName' element value. Наименование валюты
+     * Get the 'ContractCurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CostType
     }
 
     /** 
-     * Set the 'ContractCurrencyName' element value. Наименование валюты
+     * Set the 'ContractCurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹
      * 
      * @param contractCurrencyName
      */
@@ -48,7 +48,7 @@ public class CostType
     }
 
     /** 
-     * Get the 'CurrencyCost' element value. Cтоимость
+     * Get the 'CurrencyCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class CostType
     }
 
     /** 
-     * Set the 'CurrencyCost' element value. Cтоимость
+     * Set the 'CurrencyCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ
      * 
      * @param currencyCost
      */
@@ -66,7 +66,7 @@ public class CostType
     }
 
     /** 
-     * Get the 'StatCost' element value. Статистическая стоимость товара (USD)
+     * Get the 'StatCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (USD)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class CostType
     }
 
     /** 
-     * Set the 'StatCost' element value. Статистическая стоимость товара (USD)
+     * Set the 'StatCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (USD)
      * 
      * @param statCost
      */

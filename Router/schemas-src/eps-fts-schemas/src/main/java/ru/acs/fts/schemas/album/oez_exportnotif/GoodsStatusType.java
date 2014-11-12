@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Статус товара
+ * РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂР°
  */
 public class GoodsStatusType
 {
@@ -17,7 +17,7 @@ public class GoodsStatusType
     private SupplementaryQuantityType supplementaryQuantity;
 
     /** 
-     * Get the 'StatusSymbolicValue' element value. Символьное значение статуса товара
+     * Get the 'StatusSymbolicValue' element value. РЎРёРјРІРѕР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚Р°С‚СѓСЃР° С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Set the 'StatusSymbolicValue' element value. Символьное значение статуса товара
+     * Set the 'StatusSymbolicValue' element value. РЎРёРјРІРѕР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚Р°С‚СѓСЃР° С‚РѕРІР°СЂР°
      * 
      * @param statusSymbolicValue
      */
@@ -35,7 +35,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. Код таможенной процедуры
+     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. Код таможенной процедуры
+     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹
      * 
      * @param customsModeCode
      */
@@ -53,7 +53,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. Порядковый номер товара гр 32
+     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РіСЂ 32
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Порядковый номер товара гр 32
+     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РіСЂ 32
      * 
      * @param goodsNumeric
      */
@@ -71,7 +71,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Масса товара, нетто (кг)
+     * Get the 'NetWeightQuantity' element value. РњР°СЃСЃР° С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Масса товара, нетто (кг)
+     * Set the 'NetWeightQuantity' element value. РњР°СЃСЃР° С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeightQuantity
      */
@@ -89,7 +89,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Get the 'GTDID' element value. Регистрационный номер ДТ
+     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Set the 'GTDID' element value. Регистрационный номер ДТ
+     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param GTDID
      */
@@ -107,7 +107,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
+     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class GoodsStatusType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
+     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param supplementaryQuantity
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о лицензии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё
  */
 public class LicenseType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class LicenseType extends DocumentBaseType
     private String lastDateChange;
 
     /** 
-     * Get the 'BeginDate' element value. Начальная дата периода действия лицензии
+     * Get the 'BeginDate' element value. РќР°С‡Р°Р»СЊРЅР°СЏ РґР°С‚Р° РїРµСЂРёРѕРґР° РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Начальная дата периода действия лицензии
+     * Set the 'BeginDate' element value. РќР°С‡Р°Р»СЊРЅР°СЏ РґР°С‚Р° РїРµСЂРёРѕРґР° РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @param beginDate
      */
@@ -33,7 +33,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'EndDate' element value. Конечная дата периода действия лицензии
+     * Get the 'EndDate' element value. РљРѕРЅРµС‡РЅР°СЏ РґР°С‚Р° РїРµСЂРёРѕРґР° РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'EndDate' element value. Конечная дата периода действия лицензии
+     * Set the 'EndDate' element value. РљРѕРЅРµС‡РЅР°СЏ РґР°С‚Р° РїРµСЂРёРѕРґР° РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
      * 
      * @param endDate
      */
@@ -51,7 +51,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Status' element value. Информация о текущем статусе лицензии: 1 - действует, 2 - аннулирована, 3 - действие приостановлено, 4 - действие возобновлено)
+     * Get the 'Status' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РµРєСѓС‰РµРј СЃС‚Р°С‚СѓСЃРµ Р»РёС†РµРЅР·РёРё: 1 - РґРµР№СЃС‚РІСѓРµС‚, 2 - Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР°, 3 - РґРµР№СЃС‚РІРёРµ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ, 4 - РґРµР№СЃС‚РІРёРµ РІРѕР·РѕР±РЅРѕРІР»РµРЅРѕ)
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Status' element value. Информация о текущем статусе лицензии: 1 - действует, 2 - аннулирована, 3 - действие приостановлено, 4 - действие возобновлено)
+     * Set the 'Status' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РµРєСѓС‰РµРј СЃС‚Р°С‚СѓСЃРµ Р»РёС†РµРЅР·РёРё: 1 - РґРµР№СЃС‚РІСѓРµС‚, 2 - Р°РЅРЅСѓР»РёСЂРѕРІР°РЅР°, 3 - РґРµР№СЃС‚РІРёРµ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ, 4 - РґРµР№СЃС‚РІРёРµ РІРѕР·РѕР±РЅРѕРІР»РµРЅРѕ)
      * 
      * @param status
      */
@@ -69,7 +69,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LastDateChange' element value. Информация о дате и времени последнего изменения
+     * Get the 'LastDateChange' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LastDateChange' element value. Информация о дате и времени последнего изменения
+     * Set the 'LastDateChange' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
      * 
      * @param lastDateChange
      */

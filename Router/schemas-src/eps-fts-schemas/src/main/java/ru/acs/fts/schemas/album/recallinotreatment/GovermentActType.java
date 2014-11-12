@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.recallinotreatment;
 import org.joda.time.LocalDate;
 
 /** 
- * Акт Правительства Российской Федерации, на основании которого отзывается разрешение
+ * РђРєС‚ РџСЂР°РІРёС‚РµР»СЊСЃС‚РІР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕС‚Р·С‹РІР°РµС‚СЃСЏ СЂР°Р·СЂРµС€РµРЅРёРµ
  */
 public class GovermentActType
 {
@@ -14,7 +14,7 @@ public class GovermentActType
     private LocalDate beginDate;
 
     /** 
-     * Get the 'Form' element value. Вид акта
+     * Get the 'Form' element value. Р’РёРґ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GovermentActType
     }
 
     /** 
-     * Set the 'Form' element value. Вид акта
+     * Set the 'Form' element value. Р’РёРґ Р°РєС‚Р°
      * 
      * @param form
      */
@@ -32,7 +32,7 @@ public class GovermentActType
     }
 
     /** 
-     * Get the 'NameInf' element value. Название акта
+     * Get the 'NameInf' element value. РќР°Р·РІР°РЅРёРµ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GovermentActType
     }
 
     /** 
-     * Set the 'NameInf' element value. Название акта
+     * Set the 'NameInf' element value. РќР°Р·РІР°РЅРёРµ Р°РєС‚Р°
      * 
      * @param nameInf
      */
@@ -50,7 +50,7 @@ public class GovermentActType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Дата выхода акта
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹С…РѕРґР° Р°РєС‚Р°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GovermentActType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата выхода акта
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹С…РѕРґР° Р°РєС‚Р°
      * 
      * @param issueDate
      */
@@ -68,7 +68,7 @@ public class GovermentActType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Дата вступления в силу акта
+     * Get the 'BeginDate' element value. Р”Р°С‚Р° РІСЃС‚СѓРїР»РµРЅРёСЏ РІ СЃРёР»Сѓ Р°РєС‚Р°
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class GovermentActType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Дата вступления в силу акта
+     * Set the 'BeginDate' element value. Р”Р°С‚Р° РІСЃС‚СѓРїР»РµРЅРёСЏ РІ СЃРёР»Сѓ Р°РєС‚Р°
      * 
      * @param beginDate
      */

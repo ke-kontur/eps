@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.sqcommonaggregatetypescust;
 
 /** 
- * Сведения о заключении
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
  */
 public class ConclusionType extends DocumentType
 {
     private String conclusionType;
 
     /** 
-     * Get the 'ConclusionType' element value. Тип заключения
+     * Get the 'ConclusionType' element value. РўРёРї Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ConclusionType extends DocumentType
     }
 
     /** 
-     * Set the 'ConclusionType' element value. Тип заключения
+     * Set the 'ConclusionType' element value. РўРёРї Р·Р°РєР»СЋС‡РµРЅРёСЏ
      * 
      * @param conclusionType
      */

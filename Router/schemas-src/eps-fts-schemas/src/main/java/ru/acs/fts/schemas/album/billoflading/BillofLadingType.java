@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.VesselType;
 
 /** 
- * Коносамент
+ * РљРѕРЅРѕСЃР°РјРµРЅС‚
  */
 public class BillofLadingType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class BillofLadingType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LanguageCode' element value. Код языка коносамента
+     * Get the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РєРѕРЅРѕСЃР°РјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCode' element value. Код языка коносамента
+     * Set the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РєРѕРЅРѕСЃР°РјРµРЅС‚Р°
      * 
      * @param languageCode
      */
@@ -52,7 +52,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'CopyNumber' element value. Число составленных экземпляров коносамента, заполняется если их больше чем один.
+     * Get the 'CopyNumber' element value. Р§РёСЃР»Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹С… СЌРєР·РµРјРїР»СЏСЂРѕРІ РєРѕРЅРѕСЃР°РјРµРЅС‚Р°, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РёС… Р±РѕР»СЊС€Рµ С‡РµРј РѕРґРёРЅ.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'CopyNumber' element value. Число составленных экземпляров коносамента, заполняется если их больше чем один.
+     * Set the 'CopyNumber' element value. Р§РёСЃР»Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹С… СЌРєР·РµРјРїР»СЏСЂРѕРІ РєРѕРЅРѕСЃР°РјРµРЅС‚Р°, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РёС… Р±РѕР»СЊС€Рµ С‡РµРј РѕРґРёРЅ.
      * 
      * @param copyNumber
      */
@@ -70,7 +70,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Clause' element value. Особая оговорка в соответствующих случаях о том, что груз должен или может перевозиться на палубе
+     * Get the 'Clause' element value. РћСЃРѕР±Р°СЏ РѕРіРѕРІРѕСЂРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… СЃР»СѓС‡Р°СЏС… Рѕ С‚РѕРј, С‡С‚Рѕ РіСЂСѓР· РґРѕР»Р¶РµРЅ РёР»Рё РјРѕР¶РµС‚ РїРµСЂРµРІРѕР·РёС‚СЊСЃСЏ РЅР° РїР°Р»СѓР±Рµ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Clause' element value. Особая оговорка в соответствующих случаях о том, что груз должен или может перевозиться на палубе
+     * Set the 'Clause' element value. РћСЃРѕР±Р°СЏ РѕРіРѕРІРѕСЂРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… СЃР»СѓС‡Р°СЏС… Рѕ С‚РѕРј, С‡С‚Рѕ РіСЂСѓР· РґРѕР»Р¶РµРЅ РёР»Рё РјРѕР¶РµС‚ РїРµСЂРµРІРѕР·РёС‚СЊСЃСЏ РЅР° РїР°Р»СѓР±Рµ
      * 
      * @param clause
      */
@@ -88,7 +88,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'BOLDescription' element value. Тип коносамента (именной коносамент) или указание, что коносамент выдан "приказу отправителя", либо наименование получателя с указанием, что коносамент выдан "приказу получателя" (ордерный коносамент), или указание, что коносамент выдан на предъявителя (коносамент на предъявителя); если в ордерном коносаменте не указано, что он составлен "приказу получателя", то он считается составленным "приказу отправителя"
+     * Get the 'BOLDescription' element value. РўРёРї РєРѕРЅРѕСЃР°РјРµРЅС‚Р° (РёРјРµРЅРЅРѕР№ РєРѕРЅРѕСЃР°РјРµРЅС‚) РёР»Рё СѓРєР°Р·Р°РЅРёРµ, С‡С‚Рѕ РєРѕРЅРѕСЃР°РјРµРЅС‚ РІС‹РґР°РЅ "РїСЂРёРєР°Р·Сѓ РѕС‚РїСЂР°РІРёС‚РµР»СЏ", Р»РёР±Рѕ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ СЃ СѓРєР°Р·Р°РЅРёРµРј, С‡С‚Рѕ РєРѕРЅРѕСЃР°РјРµРЅС‚ РІС‹РґР°РЅ "РїСЂРёРєР°Р·Сѓ РїРѕР»СѓС‡Р°С‚РµР»СЏ" (РѕСЂРґРµСЂРЅС‹Р№ РєРѕРЅРѕСЃР°РјРµРЅС‚), РёР»Рё СѓРєР°Р·Р°РЅРёРµ, С‡С‚Рѕ РєРѕРЅРѕСЃР°РјРµРЅС‚ РІС‹РґР°РЅ РЅР° РїСЂРµРґСЉСЏРІРёС‚РµР»СЏ (РєРѕРЅРѕСЃР°РјРµРЅС‚ РЅР° РїСЂРµРґСЉСЏРІРёС‚РµР»СЏ); РµСЃР»Рё РІ РѕСЂРґРµСЂРЅРѕРј РєРѕРЅРѕСЃР°РјРµРЅС‚Рµ РЅРµ СѓРєР°Р·Р°РЅРѕ, С‡С‚Рѕ РѕРЅ СЃРѕСЃС‚Р°РІР»РµРЅ "РїСЂРёРєР°Р·Сѓ РїРѕР»СѓС‡Р°С‚РµР»СЏ", С‚Рѕ РѕРЅ СЃС‡РёС‚Р°РµС‚СЃСЏ СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹Рј "РїСЂРёРєР°Р·Сѓ РѕС‚РїСЂР°РІРёС‚РµР»СЏ"
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'BOLDescription' element value. Тип коносамента (именной коносамент) или указание, что коносамент выдан "приказу отправителя", либо наименование получателя с указанием, что коносамент выдан "приказу получателя" (ордерный коносамент), или указание, что коносамент выдан на предъявителя (коносамент на предъявителя); если в ордерном коносаменте не указано, что он составлен "приказу получателя", то он считается составленным "приказу отправителя"
+     * Set the 'BOLDescription' element value. РўРёРї РєРѕРЅРѕСЃР°РјРµРЅС‚Р° (РёРјРµРЅРЅРѕР№ РєРѕРЅРѕСЃР°РјРµРЅС‚) РёР»Рё СѓРєР°Р·Р°РЅРёРµ, С‡С‚Рѕ РєРѕРЅРѕСЃР°РјРµРЅС‚ РІС‹РґР°РЅ "РїСЂРёРєР°Р·Сѓ РѕС‚РїСЂР°РІРёС‚РµР»СЏ", Р»РёР±Рѕ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ СЃ СѓРєР°Р·Р°РЅРёРµРј, С‡С‚Рѕ РєРѕРЅРѕСЃР°РјРµРЅС‚ РІС‹РґР°РЅ "РїСЂРёРєР°Р·Сѓ РїРѕР»СѓС‡Р°С‚РµР»СЏ" (РѕСЂРґРµСЂРЅС‹Р№ РєРѕРЅРѕСЃР°РјРµРЅС‚), РёР»Рё СѓРєР°Р·Р°РЅРёРµ, С‡С‚Рѕ РєРѕРЅРѕСЃР°РјРµРЅС‚ РІС‹РґР°РЅ РЅР° РїСЂРµРґСЉСЏРІРёС‚РµР»СЏ (РєРѕРЅРѕСЃР°РјРµРЅС‚ РЅР° РїСЂРµРґСЉСЏРІРёС‚РµР»СЏ); РµСЃР»Рё РІ РѕСЂРґРµСЂРЅРѕРј РєРѕРЅРѕСЃР°РјРµРЅС‚Рµ РЅРµ СѓРєР°Р·Р°РЅРѕ, С‡С‚Рѕ РѕРЅ СЃРѕСЃС‚Р°РІР»РµРЅ "РїСЂРёРєР°Р·Сѓ РїРѕР»СѓС‡Р°С‚РµР»СЏ", С‚Рѕ РѕРЅ СЃС‡РёС‚Р°РµС‚СЃСЏ СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹Рј "РїСЂРёРєР°Р·Сѓ РѕС‚РїСЂР°РІРёС‚РµР»СЏ"
      * 
      * @param BOLDescription
      */
@@ -106,7 +106,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
+     * Get the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
+     * Set the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIRegID
      */
@@ -124,7 +124,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationDocument' element value. Информация о регистрации коносамента
+     * Get the 'RegistrationDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅРѕСЃР°РјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDocument' element value. Информация о регистрации коносамента
+     * Set the 'RegistrationDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅРѕСЃР°РјРµРЅС‚Р°
      * 
      * @param registrationDocument
      */
@@ -143,7 +143,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Vessel' element value. Реквизиты судна
+     * Get the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Vessel' element value. Реквизиты судна
+     * Set the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
      * 
      * @param vessel
      */
@@ -161,7 +161,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Loading' element value. Информация о погрузке груза
+     * Get the 'Loading' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРіСЂСѓР·РєРµ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Loading' element value. Информация о погрузке груза
+     * Set the 'Loading' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРіСЂСѓР·РєРµ РіСЂСѓР·Р°
      * 
      * @param loading
      */
@@ -179,7 +179,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Unloading' element value. Информация о разгрузке груза
+     * Get the 'Unloading' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РіСЂСѓР·РєРµ РіСЂСѓР·Р°
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Unloading' element value. Информация о разгрузке груза
+     * Set the 'Unloading' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РіСЂСѓР·РєРµ РіСЂСѓР·Р°
      * 
      * @param unloading
      */
@@ -197,7 +197,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. Информация о перевозчике
+     * Get the 'Carrier' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. Информация о перевозчике
+     * Set the 'Carrier' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @param carrier
      */
@@ -215,7 +215,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Информация о получателе
+     * Get the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Информация о получателе
+     * Set the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
      * 
      * @param consignee
      */
@@ -233,7 +233,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Информация об отправителе
+     * Get the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Информация об отправителе
+     * Set the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
      * 
      * @param consignor
      */
@@ -251,7 +251,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Freight' element value. Информация о платежах, причитающихся перевозчику 
+     * Get the 'Freight' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР¶Р°С…, РїСЂРёС‡РёС‚Р°СЋС‰РёС…СЃСЏ РїРµСЂРµРІРѕР·С‡РёРєСѓ 
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Freight' element value. Информация о платежах, причитающихся перевозчику 
+     * Set the 'Freight' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР¶Р°С…, РїСЂРёС‡РёС‚Р°СЋС‰РёС…СЃСЏ РїРµСЂРµРІРѕР·С‡РёРєСѓ 
      * 
      * @param freight
      */
@@ -269,7 +269,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Destination' element value. Место назначения груза либо, при наличие чартера, место назначения или направления судна 
+     * Get the 'Destination' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РіСЂСѓР·Р° Р»РёР±Рѕ, РїСЂРё РЅР°Р»РёС‡РёРµ С‡Р°СЂС‚РµСЂР°, РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё РЅР°РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР° 
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Destination' element value. Место назначения груза либо, при наличие чартера, место назначения или направления судна 
+     * Set the 'Destination' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РіСЂСѓР·Р° Р»РёР±Рѕ, РїСЂРё РЅР°Р»РёС‡РёРµ С‡Р°СЂС‚РµСЂР°, РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё РЅР°РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР° 
      * 
      * @param destination
      */
@@ -287,7 +287,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Описание груза.
+     * Get the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°.
      * 
      * @return list
      */
@@ -296,7 +296,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Описание груза.
+     * Set the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°.
      * 
      * @param list
      */
@@ -305,7 +305,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
+     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
+     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
      * 
      * @param documentSignature
      */
@@ -323,7 +323,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlaceOfDelivery' element value. Место отгрузки. Пункт, из которого поставщик производит отгрузку товара покупателя. Если договором не предусмотрено иное, то юридический адрес поставщика считается местом отгрузки
+     * Get the 'PlaceOfDelivery' element value. РњРµСЃС‚Рѕ РѕС‚РіСЂСѓР·РєРё. РџСѓРЅРєС‚, РёР· РєРѕС‚РѕСЂРѕРіРѕ РїРѕСЃС‚Р°РІС‰РёРє РїСЂРѕРёР·РІРѕРґРёС‚ РѕС‚РіСЂСѓР·РєСѓ С‚РѕРІР°СЂР° РїРѕРєСѓРїР°С‚РµР»СЏ. Р•СЃР»Рё РґРѕРіРѕРІРѕСЂРѕРј РЅРµ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРѕ РёРЅРѕРµ, С‚Рѕ СЋСЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РїРѕСЃС‚Р°РІС‰РёРєР° СЃС‡РёС‚Р°РµС‚СЃСЏ РјРµСЃС‚РѕРј РѕС‚РіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlaceOfDelivery' element value. Место отгрузки. Пункт, из которого поставщик производит отгрузку товара покупателя. Если договором не предусмотрено иное, то юридический адрес поставщика считается местом отгрузки
+     * Set the 'PlaceOfDelivery' element value. РњРµСЃС‚Рѕ РѕС‚РіСЂСѓР·РєРё. РџСѓРЅРєС‚, РёР· РєРѕС‚РѕСЂРѕРіРѕ РїРѕСЃС‚Р°РІС‰РёРє РїСЂРѕРёР·РІРѕРґРёС‚ РѕС‚РіСЂСѓР·РєСѓ С‚РѕРІР°СЂР° РїРѕРєСѓРїР°С‚РµР»СЏ. Р•СЃР»Рё РґРѕРіРѕРІРѕСЂРѕРј РЅРµ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРѕ РёРЅРѕРµ, С‚Рѕ СЋСЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РїРѕСЃС‚Р°РІС‰РёРєР° СЃС‡РёС‚Р°РµС‚СЃСЏ РјРµСЃС‚РѕРј РѕС‚РіСЂСѓР·РєРё
      * 
      * @param placeOfDelivery
      */
@@ -341,7 +341,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlaceOfReceipt' element value. Место получения груза перевозчиком
+     * Get the 'PlaceOfReceipt' element value. РњРµСЃС‚Рѕ РїРѕР»СѓС‡РµРЅРёСЏ РіСЂСѓР·Р° РїРµСЂРµРІРѕР·С‡РёРєРѕРј
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlaceOfReceipt' element value. Место получения груза перевозчиком
+     * Set the 'PlaceOfReceipt' element value. РњРµСЃС‚Рѕ РїРѕР»СѓС‡РµРЅРёСЏ РіСЂСѓР·Р° РїРµСЂРµРІРѕР·С‡РёРєРѕРј
      * 
      * @param placeOfReceipt
      */
@@ -359,7 +359,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
+     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
      * 
      * @param mark
      */
@@ -377,7 +377,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -386,7 +386,7 @@ public class BillofLadingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

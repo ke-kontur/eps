@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * Валюта и общая стоимость по счету. Гр. 22, 23
+ * Р’Р°Р»СЋС‚Р° Рё РѕР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕ СЃС‡РµС‚Сѓ. Р“СЂ. 22, 23
  */
 public class ContractCostType
 {
@@ -12,7 +12,7 @@ public class ContractCostType
     private String totalInvoiceAmount;
 
     /** 
-     * Get the 'ContractCurrencyCode' element value. Трехзначный буквенный в графе 22 код валюты цены договора/ платежа (оценки). По классификатору валют
+     * Get the 'ContractCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РІ РіСЂР°С„Рµ 22 РєРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё). РџРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІР°Р»СЋС‚
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ContractCostType
     }
 
     /** 
-     * Set the 'ContractCurrencyCode' element value. Трехзначный буквенный в графе 22 код валюты цены договора/ платежа (оценки). По классификатору валют
+     * Set the 'ContractCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РІ РіСЂР°С„Рµ 22 РєРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё). РџРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІР°Р»СЋС‚
      * 
      * @param contractCurrencyCode
      */
@@ -30,7 +30,7 @@ public class ContractCostType
     }
 
     /** 
-     * Get the 'CurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
+     * Get the 'CurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ContractCostType
     }
 
     /** 
-     * Set the 'CurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
+     * Set the 'CurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
      * 
      * @param currencyQuantity
      */
@@ -48,7 +48,7 @@ public class ContractCostType
     }
 
     /** 
-     * Get the 'ContractCurrencyRate' element value. Курс валюты цены договора/ платежа (оценки)
+     * Get the 'ContractCurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ContractCostType
     }
 
     /** 
-     * Set the 'ContractCurrencyRate' element value. Курс валюты цены договора/ платежа (оценки)
+     * Set the 'ContractCurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё)
      * 
      * @param contractCurrencyRate
      */
@@ -66,7 +66,7 @@ public class ContractCostType
     }
 
     /** 
-     * Get the 'TotalInvoiceAmount' element value. Общая стоимость товаров. Гр 22 подраздел 2
+     * Get the 'TotalInvoiceAmount' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ. Р“СЂ 22 РїРѕРґСЂР°Р·РґРµР» 2
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ContractCostType
     }
 
     /** 
-     * Set the 'TotalInvoiceAmount' element value. Общая стоимость товаров. Гр 22 подраздел 2
+     * Set the 'TotalInvoiceAmount' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ. Р“СЂ 22 РїРѕРґСЂР°Р·РґРµР» 2
      * 
      * @param totalInvoiceAmount
      */

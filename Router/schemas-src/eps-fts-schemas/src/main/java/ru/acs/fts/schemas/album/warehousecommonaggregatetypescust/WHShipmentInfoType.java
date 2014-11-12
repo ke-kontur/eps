@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Комплексный тип для  указания сведений о партии товаров, помещаемых на ВХ, согласно транспортным документам
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ  СѓРєР°Р·Р°РЅРёСЏ СЃРІРµРґРµРЅРёР№ Рѕ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РЅР° Р’РҐ, СЃРѕРіР»Р°СЃРЅРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
  */
 public class WHShipmentInfoType extends WhTransportDocType
 {
@@ -14,7 +14,7 @@ public class WHShipmentInfoType extends WhTransportDocType
     private List<WHGoodContLinkType> goodContLinkList = new ArrayList<WHGoodContLinkType>();
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товарах
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class WHShipmentInfoType extends WhTransportDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товарах
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class WHShipmentInfoType extends WhTransportDocType
     }
 
     /** 
-     * Get the list of 'Containers' element items. Сведения о контейнерах
+     * Get the list of 'Containers' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class WHShipmentInfoType extends WhTransportDocType
     }
 
     /** 
-     * Set the list of 'Containers' element items. Сведения о контейнерах
+     * Set the list of 'Containers' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class WHShipmentInfoType extends WhTransportDocType
     }
 
     /** 
-     * Get the list of 'GoodContLinks' element items. Сведения о размещении товаров в контейнерах
+     * Get the list of 'GoodContLinks' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·РјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РІ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class WHShipmentInfoType extends WhTransportDocType
     }
 
     /** 
-     * Set the list of 'GoodContLinks' element items. Сведения о размещении товаров в контейнерах
+     * Set the list of 'GoodContLinks' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·РјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РІ РєРѕРЅС‚РµР№РЅРµСЂР°С…
      * 
      * @param list
      */

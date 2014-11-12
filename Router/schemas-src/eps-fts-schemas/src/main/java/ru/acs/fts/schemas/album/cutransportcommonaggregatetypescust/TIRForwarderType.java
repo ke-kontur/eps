@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Экспедитор в книжке МДП
+ * Р­РєСЃРїРµРґРёС‚РѕСЂ РІ РєРЅРёР¶РєРµ РњР”Рџ
  */
 public class TIRForwarderType
 {
@@ -12,7 +12,7 @@ public class TIRForwarderType
     private AddressType address;
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TIRForwarderType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */
@@ -30,7 +30,7 @@ public class TIRForwarderType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес
+     * Get the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TIRForwarderType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес
+     * Set the 'Address' element value. РђРґСЂРµСЃ
      * 
      * @param address
      */

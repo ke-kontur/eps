@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialact;
 
 /** 
- * Описание несоответствия фактурной стоимости товара сведениям, заявленным в товаросопроводительных документах
+ * РћРїРёСЃР°РЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР° СЃРІРµРґРµРЅРёСЏРј, Р·Р°СЏРІР»РµРЅРЅС‹Рј РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
  */
 public class InvoiceCostType
 {
@@ -10,7 +10,7 @@ public class InvoiceCostType
     private InvoiceCostDataType invoiceCostByFact;
 
     /** 
-     * Get the 'InvoiceCostByDocs' element value. Фактурная стоимость cогласно товаросопроводительным документам
+     * Get the 'InvoiceCostByDocs' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ cРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class InvoiceCostType
     }
 
     /** 
-     * Set the 'InvoiceCostByDocs' element value. Фактурная стоимость cогласно товаросопроводительным документам
+     * Set the 'InvoiceCostByDocs' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ cРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
      * 
      * @param invoiceCostByDocs
      */
@@ -28,7 +28,7 @@ public class InvoiceCostType
     }
 
     /** 
-     * Get the 'InvoiceCostByFact' element value. Фактурная стоимость фактическая
+     * Get the 'InvoiceCostByFact' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С„Р°РєС‚РёС‡РµСЃРєР°СЏ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class InvoiceCostType
     }
 
     /** 
-     * Set the 'InvoiceCostByFact' element value. Фактурная стоимость фактическая
+     * Set the 'InvoiceCostByFact' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С„Р°РєС‚РёС‡РµСЃРєР°СЏ
      * 
      * @param invoiceCostByFact
      */

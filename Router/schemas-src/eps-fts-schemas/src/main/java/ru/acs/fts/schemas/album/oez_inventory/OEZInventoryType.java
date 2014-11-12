@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Опись документов ОЭЗ
+ * РћРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚РѕРІ РћР­Р—
  */
 public class OEZInventoryType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class OEZInventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InventoryInstanceDate' element value. Дата предоставления описи.
+     * Get the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё.
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryInstanceDate' element value. Дата предоставления описи.
+     * Set the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё.
      * 
      * @param inventoryInstanceDate
      */
@@ -35,7 +35,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Документ из описи.
+     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё.
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Документ из описи.
+     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё.
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'InventoryInstancePerson' element value. Сведения о лице, подающем опись.
+     * Get the 'InventoryInstancePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РѕРїРёСЃСЊ.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryInstancePerson' element value. Сведения о лице, подающем опись.
+     * Set the 'InventoryInstancePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РѕРїРёСЃСЊ.
      * 
      * @param inventoryInstancePerson
      */
@@ -72,7 +72,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class OEZInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

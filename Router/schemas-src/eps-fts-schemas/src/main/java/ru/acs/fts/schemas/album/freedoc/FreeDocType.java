@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Неформализованный документ
+ * РќРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
  */
 public class FreeDocType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class FreeDocType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentHead' element value. Заголовок документа
+     * Get the 'DocumentHead' element value. Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentHead' element value. Заголовок документа
+     * Set the 'DocumentHead' element value. Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentHead
      */
@@ -35,7 +35,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentBody' element value. Тело документа
+     * Get the 'DocumentBody' element value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentBody' element value. Тело документа
+     * Set the 'DocumentBody' element value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentBody
      */
@@ -53,7 +53,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentSign' element items. Подписи
+     * Get the list of 'DocumentSign' element items. РџРѕРґРїРёСЃРё
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentSign' element items. Подписи
+     * Set the list of 'DocumentSign' element items. РџРѕРґРїРёСЃРё
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class FreeDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

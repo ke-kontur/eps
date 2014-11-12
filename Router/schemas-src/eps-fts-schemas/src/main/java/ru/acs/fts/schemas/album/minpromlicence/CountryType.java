@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.minpromlicence;
 
 /** 
- * Информация о стране
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚СЂР°РЅРµ
  */
 public class CountryType
 {
@@ -10,7 +10,7 @@ public class CountryType
     private String countryAlpha2;
 
     /** 
-     * Get the 'CountryName' element value. Наименование страны
+     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryType
     }
 
     /** 
-     * Set the 'CountryName' element value. Наименование страны
+     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
      * 
      * @param countryName
      */
@@ -28,7 +28,7 @@ public class CountryType
     }
 
     /** 
-     * Get the 'CountryAlpha2' element value. Код альфа-2 страны
+     * Get the 'CountryAlpha2' element value. РљРѕРґ Р°Р»СЊС„Р°-2 СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryType
     }
 
     /** 
-     * Set the 'CountryAlpha2' element value. Код альфа-2 страны
+     * Set the 'CountryAlpha2' element value. РљРѕРґ Р°Р»СЊС„Р°-2 СЃС‚СЂР°РЅС‹
      * 
      * @param countryAlpha2
      */

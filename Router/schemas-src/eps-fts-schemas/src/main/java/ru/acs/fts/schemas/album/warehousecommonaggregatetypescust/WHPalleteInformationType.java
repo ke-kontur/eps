@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания паллет и поддонов, на которых находится товар
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РїР°Р»Р»РµС‚ Рё РїРѕРґРґРѕРЅРѕРІ, РЅР° РєРѕС‚РѕСЂС‹С… РЅР°С…РѕРґРёС‚СЃСЏ С‚РѕРІР°СЂ
  */
 public class WHPalleteInformationType
 {
@@ -10,7 +10,7 @@ public class WHPalleteInformationType
     private String palleteDescription;
 
     /** 
-     * Get the 'PalleteQuantity' element value. Количество поддонов
+     * Get the 'PalleteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class WHPalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteQuantity' element value. Количество поддонов
+     * Set the 'PalleteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ
      * 
      * @param palleteQuantity
      */
@@ -28,7 +28,7 @@ public class WHPalleteInformationType
     }
 
     /** 
-     * Get the 'PalleteDescription' element value. Описание поддонов.
+     * Get the 'PalleteDescription' element value. РћРїРёСЃР°РЅРёРµ РїРѕРґРґРѕРЅРѕРІ.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WHPalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteDescription' element value. Описание поддонов.
+     * Set the 'PalleteDescription' element value. РћРїРёСЃР°РЅРёРµ РїРѕРґРґРѕРЅРѕРІ.
      * 
      * @param palleteDescription
      */

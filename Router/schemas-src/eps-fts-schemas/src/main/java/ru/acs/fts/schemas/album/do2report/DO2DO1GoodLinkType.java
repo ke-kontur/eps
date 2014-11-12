@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.do2report;
 import org.joda.time.LocalDate;
 
 /** 
- * Комплексный тип для указания товара из ДО2 на товар отчета ДО1
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ СѓРєР°Р·Р°РЅРёСЏ С‚РѕРІР°СЂР° РёР· Р”Рћ2 РЅР° С‚РѕРІР°СЂ РѕС‚С‡РµС‚Р° Р”Рћ1
  */
 public class DO2DO1GoodLinkType
 {
@@ -17,7 +17,7 @@ public class DO2DO1GoodLinkType
     private String MPOIndexNum;
 
     /** 
-     * Get the 'DO1Date' element value. Дата отчета ДО1, товар из которого выдается
+     * Get the 'DO1Date' element value. Р”Р°С‚Р° РѕС‚С‡РµС‚Р° Р”Рћ1, С‚РѕРІР°СЂ РёР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Set the 'DO1Date' element value. Дата отчета ДО1, товар из которого выдается
+     * Set the 'DO1Date' element value. Р”Р°С‚Р° РѕС‚С‡РµС‚Р° Р”Рћ1, С‚РѕРІР°СЂ РёР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ
      * 
      * @param DO1Date
      */
@@ -35,7 +35,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Get the 'DO1Number' element value. Номер отчета ДО1, присвоенный оформляющей системой владельца СВХ, товар из которого выдается
+     * Get the 'DO1Number' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р° Р”Рћ1, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ РѕС„РѕСЂРјР»СЏСЋС‰РµР№ СЃРёСЃС‚РµРјРѕР№ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ, С‚РѕРІР°СЂ РёР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Set the 'DO1Number' element value. Номер отчета ДО1, присвоенный оформляющей системой владельца СВХ, товар из которого выдается
+     * Set the 'DO1Number' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р° Р”Рћ1, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ РѕС„РѕСЂРјР»СЏСЋС‰РµР№ СЃРёСЃС‚РµРјРѕР№ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ, С‚РѕРІР°СЂ РёР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РµС‚СЃСЏ
      * 
      * @param DO1Number
      */
@@ -78,7 +78,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Get the 'DO1GoodNumber' element value. Валовый номер товара в отчете ДО1
+     * Get the 'DO1GoodNumber' element value. Р’Р°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РѕС‚С‡РµС‚Рµ Р”Рћ1
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Set the 'DO1GoodNumber' element value. Валовый номер товара в отчете ДО1
+     * Set the 'DO1GoodNumber' element value. Р’Р°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РѕС‚С‡РµС‚Рµ Р”Рћ1
      * 
      * @param DO1GoodNumber
      */
@@ -106,7 +106,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Get the 'MPOIndexNum' element value. Порядковый номер МПО в отчете ДО1
+     * Get the 'MPOIndexNum' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РњРџРћ РІ РѕС‚С‡РµС‚Рµ Р”Рћ1
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class DO2DO1GoodLinkType
     }
 
     /** 
-     * Set the 'MPOIndexNum' element value. Порядковый номер МПО в отчете ДО1
+     * Set the 'MPOIndexNum' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РњРџРћ РІ РѕС‚С‡РµС‚Рµ Р”Рћ1
      * 
      * @param MPOIndexNum
      */

@@ -164,6 +164,20 @@ public class MessageType
 	public static final String CMN_11121 = "CMN.11121";
 	
 	public static final String CMN_11122 = "CMN.11122";
+
+    public static final String CMN_11138 = "CMN.11138";
+
+    public static final String CMN_11139 = "CMN.11139";
+
+    public static final String CMN_11142 = "CMN.11142";
+
+    public static final String CMN_11143 = "CMN.11143";
+
+    public static final String CMN_11144 = "CMN.11144";
+
+    public static final String CMN_11145 = "CMN.11145";
+
+    public static final String CMN_11146 = "CMN.11146";
 	
 	public static final String CMN_12002 = "CMN.12002";
 	

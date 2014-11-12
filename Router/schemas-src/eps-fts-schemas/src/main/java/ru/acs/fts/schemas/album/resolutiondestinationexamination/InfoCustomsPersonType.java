@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Сведения о должностном лице, назначившего экспертизу.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РЅР°Р·РЅР°С‡РёРІС€РµРіРѕ СЌРєСЃРїРµСЂС‚РёР·Сѓ.
  */
 public class InfoCustomsPersonType
 {
@@ -14,7 +14,7 @@ public class InfoCustomsPersonType
     private AddressType address;
 
     /** 
-     * Get the 'OfficialTelephone' element value. Служебный номер телефона должностного лица
+     * Get the 'OfficialTelephone' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InfoCustomsPersonType
     }
 
     /** 
-     * Set the 'OfficialTelephone' element value. Служебный номер телефона должностного лица
+     * Set the 'OfficialTelephone' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
      * 
      * @param officialTelephone
      */
@@ -32,7 +32,7 @@ public class InfoCustomsPersonType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InfoCustomsPersonType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -50,7 +50,7 @@ public class InfoCustomsPersonType
     }
 
     /** 
-     * Get the 'Address' element value. Адрес таможенного органа
+     * Get the 'Address' element value. РђРґСЂРµСЃ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class InfoCustomsPersonType
     }
 
     /** 
-     * Set the 'Address' element value. Адрес таможенного органа
+     * Set the 'Address' element value. РђРґСЂРµСЃ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param address
      */

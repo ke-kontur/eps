@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Спецификация к дополнению к контракту
+ * РЎРїРµС†РёС„РёРєР°С†РёСЏ Рє РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
  */
 public class AddContractSpecificationType
 {
@@ -15,7 +15,7 @@ public class AddContractSpecificationType
     private List<AddSpecificationGoodsType> addSpecificationGoodList = new ArrayList<AddSpecificationGoodsType>();
 
     /** 
-     * Get the 'IssueDate' element value. Дата составления документа
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата составления документа
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param issueDate
      */
@@ -33,7 +33,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Get the 'ID' element value. Номер документа
+     * Get the 'ID' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Set the 'ID' element value. Номер документа
+     * Set the 'ID' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param ID
      */
@@ -51,7 +51,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Get the list of 'AddSpecificationGoods' element items. Описание товаров из спецификации к контракту
+     * Get the list of 'AddSpecificationGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Set the list of 'AddSpecificationGoods' element items. Описание товаров из спецификации к контракту
+     * Set the list of 'AddSpecificationGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
      * 
      * @param list
      */

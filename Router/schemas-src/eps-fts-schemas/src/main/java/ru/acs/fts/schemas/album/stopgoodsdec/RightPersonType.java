@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.stopgoodsdec;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Правообладатель (декларант, представитель)
+ * РџСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЊ (РґРµРєР»Р°СЂР°РЅС‚, РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ)
  */
 public class RightPersonType
 {
@@ -12,7 +12,7 @@ public class RightPersonType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Name' element value. ФИО правообладателя (представителя)
+     * Get the 'Name' element value. Р¤РРћ РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЏ (РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RightPersonType
     }
 
     /** 
-     * Set the 'Name' element value. ФИО правообладателя (представителя)
+     * Set the 'Name' element value. Р¤РРћ РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЏ (РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @param name
      */
@@ -30,7 +30,7 @@ public class RightPersonType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. Почтовый адрес правообладателя (декларанта, представителя)
+     * Get the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЏ (РґРµРєР»Р°СЂР°РЅС‚Р°, РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RightPersonType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. Почтовый адрес правообладателя (декларанта, представителя)
+     * Set the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЏ (РґРµРєР»Р°СЂР°РЅС‚Р°, РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
      * 
      * @param postalAddress
      */

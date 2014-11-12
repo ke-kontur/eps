@@ -27,8 +27,8 @@
     <properties>
         <!-- Modules -->
         <engineVersion>2.0.0</engineVersion>
-        <routerVersion>5.4.1-3.2.5</routerVersion>
-        <schemaVersion>5.4.1</schemaVersion>
+        <routerVersion>5.4.3/3.3.1</routerVersion>
+        <schemaVersion>5.4.3</schemaVersion>
         <balancerVersion>2.0</balancerVersion>
         <failedMessagesVersion>1.0</failedMessagesVersion>
         <audVersion>1.11.1</audVersion>

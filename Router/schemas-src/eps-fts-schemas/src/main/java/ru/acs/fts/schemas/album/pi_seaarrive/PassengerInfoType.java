@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о пассажире
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
  */
 public class PassengerInfoType extends PersonBaseType
 {
@@ -16,7 +16,7 @@ public class PassengerInfoType extends PersonBaseType
     private CountryPortInfoType arrivalPort;
 
     /** 
-     * Get the 'Nationality' element value. Гражданство (альфа код страны)
+     * Get the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Nationality' element value. Гражданство (альфа код страны)
+     * Set the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
      * 
      * @param nationality
      */
@@ -34,7 +34,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Get the 'BirthDate' element value. Дата рождения
+     * Get the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'BirthDate' element value. Дата рождения
+     * Set the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthDate
      */
@@ -52,7 +52,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Get the 'BirthPlace' element value. Место рождения
+     * Get the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'BirthPlace' element value. Место рождения
+     * Set the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
      * 
      * @param birthPlace
      */
@@ -70,7 +70,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Get the 'DepaturePort' element value. Порт посадки
+     * Get the 'DepaturePort' element value. РџРѕСЂС‚ РїРѕСЃР°РґРєРё
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'DepaturePort' element value. Порт посадки
+     * Set the 'DepaturePort' element value. РџРѕСЂС‚ РїРѕСЃР°РґРєРё
      * 
      * @param depaturePort
      */
@@ -88,7 +88,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Get the 'ArrivalPort' element value. Порт высадки
+     * Get the 'ArrivalPort' element value. РџРѕСЂС‚ РІС‹СЃР°РґРєРё
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PassengerInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'ArrivalPort' element value. Порт высадки
+     * Set the 'ArrivalPort' element value. РџРѕСЂС‚ РІС‹СЃР°РґРєРё
      * 
      * @param arrivalPort
      */

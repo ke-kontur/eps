@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.InspectionPlaceType;
 
 /** 
- * Сведения об объекте досмотра
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±СЉРµРєС‚Рµ РґРѕСЃРјРѕС‚СЂР°
  */
 public class InspectionObjectType
 {
@@ -29,7 +29,7 @@ public class InspectionObjectType
     private List<PresenceNecessityListType> presenceNecessityList = new ArrayList<PresenceNecessityListType>();
 
     /** 
-     * Get the 'ObjectType' element value. Тип объекта: 1-товар; 2-транспортное средство
+     * Get the 'ObjectType' element value. РўРёРї РѕР±СЉРµРєС‚Р°: 1-С‚РѕРІР°СЂ; 2-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'ObjectType' element value. Тип объекта: 1-товар; 2-транспортное средство
+     * Set the 'ObjectType' element value. РўРёРї РѕР±СЉРµРєС‚Р°: 1-С‚РѕРІР°СЂ; 2-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
      * 
      * @param objectType
      */
@@ -47,7 +47,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'ConsigCountryCode' element value. Буквенный код страны отправителя
+     * Get the 'ConsigCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'ConsigCountryCode' element value. Буквенный код страны отправителя
+     * Set the 'ConsigCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @param consigCountryCode
      */
@@ -65,7 +65,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'ConsigCountryName' element value. Наименование страны отправителя
+     * Get the 'ConsigCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'ConsigCountryName' element value. Наименование страны отправителя
+     * Set the 'ConsigCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
      * 
      * @param consigCountryName
      */
@@ -83,7 +83,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'DeliveryPlace' element value. Наименование места доставки
+     * Get the 'DeliveryPlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃС‚Р°РІРєРё
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'DeliveryPlace' element value. Наименование места доставки
+     * Set the 'DeliveryPlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃС‚Р°РІРєРё
      * 
      * @param deliveryPlace
      */
@@ -101,7 +101,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'InspCustCode' element value. Код таможенного органа досмотра
+     * Get the 'InspCustCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'InspCustCode' element value. Код таможенного органа досмотра
+     * Set the 'InspCustCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspCustCode
      */
@@ -119,7 +119,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the list of 'InspDescription' element items. Дополнительные сведения/комментарий
+     * Get the list of 'InspDescription' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ/РєРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return list
      */
@@ -128,7 +128,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the list of 'InspDescription' element items. Дополнительные сведения/комментарий
+     * Set the list of 'InspDescription' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ/РєРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param list
      */
@@ -137,7 +137,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'DelivCountryCode' element value. Буквенный код страны получателя
+     * Get the 'DelivCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'DelivCountryCode' element value. Буквенный код страны получателя
+     * Set the 'DelivCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param delivCountryCode
      */
@@ -155,7 +155,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'DelivCountryName' element value. Наименование страны получателя
+     * Get the 'DelivCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'DelivCountryName' element value. Наименование страны получателя
+     * Set the 'DelivCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
      * 
      * @param delivCountryName
      */
@@ -173,7 +173,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'PersonInspection' element value. Лицо,обладающего полномочиями в отношении товаров и (или) транспортных средств.
+     * Get the 'PersonInspection' element value. Р›РёС†Рѕ,РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'PersonInspection' element value. Лицо,обладающего полномочиями в отношении товаров и (или) транспортных средств.
+     * Set the 'PersonInspection' element value. Р›РёС†Рѕ,РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @param personInspection
      */
@@ -191,7 +191,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'InspTransportMeans' element value. Транспортные средства/контейнеры
+     * Get the 'InspTransportMeans' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°/РєРѕРЅС‚РµР№РЅРµСЂС‹
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'InspTransportMeans' element value. Транспортные средства/контейнеры
+     * Set the 'InspTransportMeans' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°/РєРѕРЅС‚РµР№РЅРµСЂС‹
      * 
      * @param inspTransportMeans
      */
@@ -209,7 +209,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the list of 'InspDocuments' element items. Сведения о документах
+     * Get the list of 'InspDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @return list
      */
@@ -218,7 +218,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the list of 'InspDocuments' element items. Сведения о документах
+     * Set the list of 'InspDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
      * 
      * @param list
      */
@@ -227,7 +227,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'InspGoods' element value. Сведения о товаре
+     * Get the 'InspGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'InspGoods' element value. Сведения о товаре
+     * Set the 'InspGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param inspGoods
      */
@@ -245,7 +245,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'InspDetails' element value. Сведения об особенностях досмотра
+     * Get the 'InspDetails' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЏС… РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'InspDetails' element value. Сведения об особенностях досмотра
+     * Set the 'InspDetails' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЏС… РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param inspDetails
      */
@@ -263,7 +263,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the 'InspGoodsLocation' element value. Местонахождение товаров
+     * Get the 'InspGoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the 'InspGoodsLocation' element value. Местонахождение товаров
+     * Set the 'InspGoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param inspGoodsLocation
      */
@@ -281,7 +281,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the list of 'RiskProfile' element items. Номер профиля риска
+     * Get the list of 'RiskProfile' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @return list
      */
@@ -290,7 +290,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the list of 'RiskProfile' element items. Номер профиля риска
+     * Set the list of 'RiskProfile' element items. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @param list
      */
@@ -299,7 +299,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Get the list of 'PresenceNecessityList' element items. Перечень лиц, присутствие (участие) которых необходимо при (в) проведении таможенного досмотра
+     * Get the list of 'PresenceNecessityList' element items. РџРµСЂРµС‡РµРЅСЊ Р»РёС†, РїСЂРёСЃСѓС‚СЃС‚РІРёРµ (СѓС‡Р°СЃС‚РёРµ) РєРѕС‚РѕСЂС‹С… РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРё (РІ) РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @return list
      */
@@ -308,7 +308,7 @@ public class InspectionObjectType
     }
 
     /** 
-     * Set the list of 'PresenceNecessityList' element items. Перечень лиц, присутствие (участие) которых необходимо при (в) проведении таможенного досмотра
+     * Set the list of 'PresenceNecessityList' element items. РџРµСЂРµС‡РµРЅСЊ Р»РёС†, РїСЂРёСЃСѓС‚СЃС‚РІРёРµ (СѓС‡Р°СЃС‚РёРµ) РєРѕС‚РѕСЂС‹С… РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРё (РІ) РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
      * 
      * @param list
      */

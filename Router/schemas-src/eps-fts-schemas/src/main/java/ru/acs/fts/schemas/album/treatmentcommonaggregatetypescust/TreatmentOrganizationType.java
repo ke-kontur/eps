@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Организация
+ * РћСЂРіР°РЅРёР·Р°С†РёСЏ
  */
 public class TreatmentOrganizationType extends OrganizationBaseType
 {
@@ -23,7 +23,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     private List<TreatmentBankInformationType> valBankInformationList = new ArrayList<TreatmentBankInformationType>();
 
     /** 
-     * Get the 'Phone' element value. Телефон иностранной организации
+     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Phone' element value. Телефон иностранной организации
+     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
      * 
      * @param phone
      */
@@ -41,7 +41,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Fax' element value. Номер факса.
+     * Get the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Fax' element value. Номер факса.
+     * Set the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
      * 
      * @param fax
      */
@@ -59,7 +59,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Telex' element value. Номер телекса.
+     * Get the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Telex' element value. Номер телекса.
+     * Set the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
      * 
      * @param telex
      */
@@ -77,7 +77,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKPOID' element value. Код организации по ОКПО.
+     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKPOID' element value. Код организации по ОКПО.
+     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
      * 
      * @param OKPOID
      */
@@ -95,7 +95,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKATOCode' element value. Код ОКАТО.
+     * Get the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ.
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKATOCode' element value. Код ОКАТО.
+     * Set the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ.
      * 
      * @param OKATOCode
      */
@@ -113,7 +113,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'TreatmentOrganizationAddress' element value. Адрес организации-переработчика
+     * Get the 'TreatmentOrganizationAddress' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРµСЂРµСЂР°Р±РѕС‚С‡РёРєР°
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'TreatmentOrganizationAddress' element value. Адрес организации-переработчика
+     * Set the 'TreatmentOrganizationAddress' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРµСЂРµСЂР°Р±РѕС‚С‡РёРєР°
      * 
      * @param treatmentOrganizationAddress
      */
@@ -132,7 +132,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'FactAddress' element value. Фактический адрес
+     * Get the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'FactAddress' element value. Фактический адрес
+     * Set the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @param factAddress
      */
@@ -150,7 +150,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Юридический адрес
+     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Юридический адрес
+     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
      * 
      * @param legalAddress
      */
@@ -168,7 +168,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'RubBankInformation' element items. Информация о банке а котором находится рублевый счет
+     * Get the list of 'RubBankInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРµ Р° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґРёС‚СЃСЏ СЂСѓР±Р»РµРІС‹Р№ СЃС‡РµС‚
      * 
      * @return list
      */
@@ -177,7 +177,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'RubBankInformation' element items. Информация о банке а котором находится рублевый счет
+     * Set the list of 'RubBankInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРµ Р° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґРёС‚СЃСЏ СЂСѓР±Р»РµРІС‹Р№ СЃС‡РµС‚
      * 
      * @param list
      */
@@ -187,7 +187,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'ValBankInformation' element items. Информация о банке а котором находится валютный счет
+     * Get the list of 'ValBankInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРµ Р° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґРёС‚СЃСЏ РІР°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚
      * 
      * @return list
      */
@@ -196,7 +196,7 @@ public class TreatmentOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'ValBankInformation' element items. Информация о банке а котором находится валютный счет
+     * Set the list of 'ValBankInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРµ Р° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґРёС‚СЃСЏ РІР°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚
      * 
      * @param list
      */

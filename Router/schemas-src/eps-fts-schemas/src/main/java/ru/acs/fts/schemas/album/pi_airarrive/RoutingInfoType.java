@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о маршруте воздушного судна
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
  */
 public class RoutingInfoType
 {
@@ -19,7 +19,7 @@ public class RoutingInfoType
     private AirportInfoType destinationAirport;
 
     /** 
-     * Get the 'ArrivalDateTime' element value. Дата и время прибытия
+     * Get the 'ArrivalDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'ArrivalDateTime' element value. Дата и время прибытия
+     * Set the 'ArrivalDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёР±С‹С‚РёСЏ
      * 
      * @param arrivalDateTime
      */
@@ -37,7 +37,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the 'PlannedDateTime' element value. Планируемые дата и время обратного въезда.выезда
+     * Get the 'PlannedDateTime' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Рµ РґР°С‚Р° Рё РІСЂРµРјСЏ РѕР±СЂР°С‚РЅРѕРіРѕ РІСЉРµР·РґР°.РІС‹РµР·РґР°
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'PlannedDateTime' element value. Планируемые дата и время обратного въезда.выезда
+     * Set the 'PlannedDateTime' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Рµ РґР°С‚Р° Рё РІСЂРµРјСЏ РѕР±СЂР°С‚РЅРѕРіРѕ РІСЉРµР·РґР°.РІС‹РµР·РґР°
      * 
      * @param plannedDateTime
      */
@@ -55,7 +55,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the 'DepartureDateTime' element value. Дата и время убытия
+     * Get the 'DepartureDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СѓР±С‹С‚РёСЏ
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'DepartureDateTime' element value. Дата и время убытия
+     * Set the 'DepartureDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СѓР±С‹С‚РёСЏ
      * 
      * @param departureDateTime
      */
@@ -73,7 +73,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the 'DepartureAirport' element value. Аэропорт отправления
+     * Get the 'DepartureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'DepartureAirport' element value. Аэропорт отправления
+     * Set the 'DepartureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureAirport
      */
@@ -91,7 +91,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the list of 'Interim' element items. Следующий аэропорт
+     * Get the list of 'Interim' element items. РЎР»РµРґСѓСЋС‰РёР№ Р°СЌСЂРѕРїРѕСЂС‚
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the list of 'Interim' element items. Следующий аэропорт
+     * Set the list of 'Interim' element items. РЎР»РµРґСѓСЋС‰РёР№ Р°СЌСЂРѕРїРѕСЂС‚
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Cтрана назначения
+     * Get the 'DestinationCountry' element value. CС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Cтрана назначения
+     * Set the 'DestinationCountry' element value. CС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountry
      */
@@ -127,7 +127,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. Страна отправления
+     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. Страна отправления
+     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param departureCountry
      */
@@ -145,7 +145,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. Аэропорт назначения
+     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class RoutingInfoType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. Аэропорт назначения
+     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationAirport
      */

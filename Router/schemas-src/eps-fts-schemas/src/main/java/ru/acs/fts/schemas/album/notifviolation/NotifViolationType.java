@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Уведомление о несоблюдении условий выпуска товаров, информация о не соответствии заявленных сведений и нарушениях, выявленных в ходе проверки ДТ
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµСЃРѕР±Р»СЋРґРµРЅРёРё СѓСЃР»РѕРІРёР№ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ, РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё Р·Р°СЏРІР»РµРЅРЅС‹С… СЃРІРµРґРµРЅРёР№ Рё РЅР°СЂСѓС€РµРЅРёСЏС…, РІС‹СЏРІР»РµРЅРЅС‹С… РІ С…РѕРґРµ РїСЂРѕРІРµСЂРєРё Р”Рў
  */
 public class NotifViolationType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class NotifViolationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ViolationNimber' element value. Исходящий номер уведомления/требования
+     * Get the 'ViolationNimber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ViolationNimber' element value. Исходящий номер уведомления/требования
+     * Set the 'ViolationNimber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param violationNimber
      */
@@ -48,7 +48,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ViolationTime' element value. Время создания уведомления/требования
+     * Get the 'ViolationTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ViolationTime' element value. Время создания уведомления/требования
+     * Set the 'ViolationTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param violationTime
      */
@@ -66,7 +66,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ViolationDate' element value. Дата  создания уведомления/требования
+     * Get the 'ViolationDate' element value. Р”Р°С‚Р°  СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ViolationDate' element value. Дата  создания уведомления/требования
+     * Set the 'ViolationDate' element value. Р”Р°С‚Р°  СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
      * 
      * @param violationDate
      */
@@ -84,7 +84,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifLawArticle' element value. Статья ТК РФ, Номера нормативных актов и пунктов в них, в соответствии с которыми направляется информация о нарушении (несоответствии)
+     * Get the 'NotifLawArticle' element value. РЎС‚Р°С‚СЊСЏ РўРљ Р Р¤, РќРѕРјРµСЂР° РЅРѕСЂРјР°С‚РёРІРЅС‹С… Р°РєС‚РѕРІ Рё РїСѓРЅРєС‚РѕРІ РІ РЅРёС…, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РЅР°РїСЂР°РІР»СЏРµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°СЂСѓС€РµРЅРёРё (РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё)
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifLawArticle' element value. Статья ТК РФ, Номера нормативных актов и пунктов в них, в соответствии с которыми направляется информация о нарушении (несоответствии)
+     * Set the 'NotifLawArticle' element value. РЎС‚Р°С‚СЊСЏ РўРљ Р Р¤, РќРѕРјРµСЂР° РЅРѕСЂРјР°С‚РёРІРЅС‹С… Р°РєС‚РѕРІ Рё РїСѓРЅРєС‚РѕРІ РІ РЅРёС…, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё РЅР°РїСЂР°РІР»СЏРµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°СЂСѓС€РµРЅРёРё (РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё)
      * 
      * @param notifLawArticle
      */
@@ -102,7 +102,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарий
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарий
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
      * 
      * @param comments
      */
@@ -120,7 +120,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotificationRequest' element value. Вид документа: 0 - требование, 1 - уведомление
+     * Get the 'NotificationRequest' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°: 0 - С‚СЂРµР±РѕРІР°РЅРёРµ, 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotificationRequest' element value. Вид документа: 0 - требование, 1 - уведомление
+     * Set the 'NotificationRequest' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°: 0 - С‚СЂРµР±РѕРІР°РЅРёРµ, 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ
      * 
      * @param notificationRequest
      */
@@ -138,7 +138,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -156,7 +156,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ViolationInfo' element items. Описание выявленных нарушений и несоответствий.
+     * Get the list of 'ViolationInfo' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
      * 
      * @return list
      */
@@ -165,7 +165,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ViolationInfo' element items. Описание выявленных нарушений и несоответствий.
+     * Set the list of 'ViolationInfo' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
      * 
      * @param list
      */
@@ -174,7 +174,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Instruction' element items. Описание действий, необходимых для устранения выявленных нарушений и несоответствий.Требование предоставления документов, корректировки сведений и перехода на общий порядок декларирования.
+     * Get the list of 'Instruction' element items. РћРїРёСЃР°РЅРёРµ РґРµР№СЃС‚РІРёР№, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.РўСЂРµР±РѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ, РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё СЃРІРµРґРµРЅРёР№ Рё РїРµСЂРµС…РѕРґР° РЅР° РѕР±С‰РёР№ РїРѕСЂСЏРґРѕРє РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @return list
      */
@@ -183,7 +183,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Instruction' element items. Описание действий, необходимых для устранения выявленных нарушений и несоответствий.Требование предоставления документов, корректировки сведений и перехода на общий порядок декларирования.
+     * Set the list of 'Instruction' element items. РћРїРёСЃР°РЅРёРµ РґРµР№СЃС‚РІРёР№, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.РўСЂРµР±РѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ, РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё СЃРІРµРґРµРЅРёР№ Рё РїРµСЂРµС…РѕРґР° РЅР° РѕР±С‰РёР№ РїРѕСЂСЏРґРѕРє РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
      * 
      * @param list
      */
@@ -192,7 +192,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган.
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ.
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган.
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ.
      * 
      * @param customs
      */
@@ -210,7 +210,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Информация о декларанте (наименование, ФИО для физических лиц)
+     * Get the 'Applicant' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ, Р¤РРћ РґР»СЏ С„РёР·РёС‡РµСЃРєРёС… Р»РёС†)
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Информация о декларанте (наименование, ФИО для физических лиц)
+     * Set the 'Applicant' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ, Р¤РРћ РґР»СЏ С„РёР·РёС‡РµСЃРєРёС… Р»РёС†)
      * 
      * @param applicant
      */
@@ -228,7 +228,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNUmber' element value. Справочный номер ДТ.
+     * Get the 'GTDNUmber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNUmber' element value. Справочный номер ДТ.
+     * Set the 'GTDNUmber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
      * 
      * @param GTDNUmber
      */
@@ -246,7 +246,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class NotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

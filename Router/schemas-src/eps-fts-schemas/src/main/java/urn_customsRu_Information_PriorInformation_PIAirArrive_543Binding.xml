@@ -1,0 +1,118 @@
+<binding xmlns:piair="urn:customs.ru:Information:PriorInformation:PI_AirArrive:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catTrans_ru="urn:customs.ru:Information:TransportDocuments:TransportCommonAgregateTypesCust:5.4.3">
+  <namespace uri="urn:customs.ru:Information:PriorInformation:PI_AirArrive:5.4.3" default="elements" prefix="piair"/>
+  <mapping abstract="true" type-name="piair:PI_AirArriveType" class="ru.acs.fts.schemas.album.pi_airarrive.PIAirArriveType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="MPOSign" get-method="getMPOSign" set-method="setMPOSign"/>
+    <value style="element" name="ProhobitedGoodsIndicator" get-method="getProhobitedGoodsIndicator" set-method="setProhobitedGoodsIndicator"/>
+    <value style="element" name="NumberCrewMembers" get-method="getNumberCrewMembers" set-method="setNumberCrewMembers"/>
+    <value style="element" name="PI_URN" get-method="getPIURN" set-method="setPIURN" usage="optional"/>
+    <structure map-as="piair:TransportMeansType" get-method="getTransportMeans" set-method="setTransportMeans" name="TransportMeans"/>
+    <collection get-method="getAirCrewInfoList" set-method="setAirCrewInfoList" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:PersonBaseType" name="AirCrewInfo"/>
+    </collection>
+    <structure map-as="piair:AirCarrierInfoType" get-method="getAirCarrierInfo" set-method="setAirCarrierInfo" name="AirCarrierInfo"/>
+    <structure map-as="piair:RoutingInfoType" get-method="getRoutingInfo" set-method="setRoutingInfo" name="RoutingInfo"/>
+    <structure map-as="piair:StoresInfoType" get-method="getStoresInfo" set-method="setStoresInfo" usage="optional" name="StoresInfo"/>
+    <collection get-method="getSparePartsInfoList" set-method="setSparePartsInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="piair:SuppliesStocksDescriptionType" name="SparePartsInfo"/>
+    </collection>
+    <structure map-as="piair:PassengerListType" get-method="getPassengerList" set-method="setPassengerList" name="PassengerList"/>
+    <collection get-method="getCargoManifestList" set-method="setCargoManifestList" create-type="java.util.ArrayList">
+      <structure map-as="piair:CargoManifestType" name="CargoManifest"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.pi_airarrive.PIAirArriveType" name="PI_AirArrive">
+    <structure map-as="piair:PI_AirArriveType"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:AirCarrierInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.AirCarrierInfoType">
+    <value style="element" name="NameAirCarrier" get-method="getNameAirCarrier" set-method="setNameAirCarrier" usage="optional"/>
+    <value style="element" name="IATACode" get-method="getIATACode" set-method="setIATACode"/>
+    <structure map-as="cat_ru:PersonBaseType" get-method="getRepresentativeCarrier" set-method="setRepresentativeCarrier" usage="optional" name="RepresentativeCarrier"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:AirportInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.AirportInfoType">
+    <value style="element" name="AirportName" get-method="getAirportName" set-method="setAirportName" usage="optional"/>
+    <value style="element" name="IATACode" get-method="getIATACode" set-method="setIATACode"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:CargoManifestType" class="ru.acs.fts.schemas.album.pi_airarrive.CargoManifestType">
+    <value style="element" name="CargoPlaceNumber" get-method="getCargoPlaceNumber" set-method="setCargoPlaceNumber"/>
+    <value style="element" name="TotalWeight" get-method="getTotalWeight" set-method="setTotalWeight" usage="optional"/>
+    <value style="element" name="DateExpectedArrival" get-method="getDateExpectedArrival" set-method="setDateExpectedArrival" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="TimeExpectedArrival" get-method="getTimeExpectedArrival" set-method="setTimeExpectedArrival" usage="optional"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="piair:GoodsInfoType" name="GoodsInfo"/>
+    </collection>
+    <structure map-as="piair:AirportInfoType" get-method="getLoadingPoint" set-method="setLoadingPoint" usage="optional" name="LoadingPoint"/>
+    <structure map-as="piair:AirportInfoType" get-method="getUnloadingPoint" set-method="setUnloadingPoint" usage="optional" name="UnloadingPoint"/>
+    <structure map-as="cat_ru:CUCustomsType" get-method="getBorderCustoms" set-method="setBorderCustoms" name="BorderCustoms"/>
+    <structure map-as="catTrans_ru:AWBNumberType" get-method="getCargoManifestNumber" set-method="setCargoManifestNumber" name="CargoManifestNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:CountryInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.CountryInfoType">
+    <value style="element" name="CountryName" get-method="getCountryName" set-method="setCountryName" usage="optional"/>
+    <value style="element" name="CountryCode" get-method="getCountryCode" set-method="setCountryCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:GoodsInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.GoodsInfoType">
+    <value style="element" name="WeightUnitQualifierCode" get-method="getWeightUnitQualifierCode" set-method="setWeightUnitQualifierCode" usage="optional"/>
+    <value style="element" name="GoodsVolume" get-method="getGoodsVolume" set-method="setGoodsVolume" usage="optional"/>
+    <collection get-method="getCargoDescriptionList" set-method="setCargoDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="CargoDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity"/>
+    <structure map-as="piair:PackingInfoType" get-method="getPackingInfo" set-method="setPackingInfo" usage="optional" name="PackingInfo"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:PackingInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.PackingInfoType">
+    <value style="element" name="PackingCode" get-method="getPackingCode" set-method="setPackingCode" usage="optional"/>
+    <value style="element" name="PackingQuantity" get-method="getPackingQuantity" set-method="setPackingQuantity"/>
+    <value style="element" name="PackingDescription" get-method="getPackingDescription" set-method="setPackingDescription" usage="optional"/>
+    <value style="element" name="PackagePartQuantity" get-method="getPackagePartQuantity" set-method="setPackagePartQuantity" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:PassengerInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.PassengerInfoType">
+    <value style="element" name="PassengersName" get-method="getPassengersName" set-method="setPassengersName"/>
+    <structure map-as="piair:AirportInfoType" get-method="getDepatureAirport" set-method="setDepatureAirport" usage="optional" name="DepatureAirport"/>
+    <structure map-as="piair:AirportInfoType" get-method="getDestinationAirport" set-method="setDestinationAirport" usage="optional" name="DestinationAirport"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:PassengerListType" class="ru.acs.fts.schemas.album.pi_airarrive.PassengerListType">
+    <value style="element" name="Passengers" get-method="getPassengers" set-method="setPassengers"/>
+    <collection get-method="getPassengerInfoList" set-method="setPassengerInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="piair:PassengerInfoType" name="PassengerInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="piair:RoutingInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.RoutingInfoType">
+    <value style="element" name="ArrivalDateTime" get-method="getArrivalDateTime" set-method="setArrivalDateTime" usage="optional"/>
+    <value style="element" name="PlannedDateTime" get-method="getPlannedDateTime" set-method="setPlannedDateTime" usage="optional"/>
+    <value style="element" name="DepartureDateTime" get-method="getDepartureDateTime" set-method="setDepartureDateTime" usage="optional"/>
+    <structure map-as="piair:AirportInfoType" get-method="getDepartureAirport" set-method="setDepartureAirport" usage="optional" name="DepartureAirport"/>
+    <collection get-method="getInterimList" set-method="setInterimList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="piair:AirportInfoType" name="Interim"/>
+    </collection>
+    <structure map-as="piair:CountryInfoType" get-method="getDestinationCountry" set-method="setDestinationCountry" usage="optional" name="DestinationCountry"/>
+    <structure map-as="piair:CountryInfoType" get-method="getDepartureCountry" set-method="setDepartureCountry" usage="optional" name="DepartureCountry"/>
+    <structure map-as="piair:AirportInfoType" get-method="getDestinationAirport" set-method="setDestinationAirport" usage="optional" name="DestinationAirport"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:StoresInfoType" class="ru.acs.fts.schemas.album.pi_airarrive.StoresInfoType">
+    <collection get-method="getOperatingList" set-method="setOperatingList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="piair:SuppliesStocksDescriptionType" name="Operating"/>
+    </collection>
+    <collection get-method="getSoldList" set-method="setSoldList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="piair:SuppliesStocksDescriptionType" name="Sold"/>
+    </collection>
+    <collection get-method="getConsumerList" set-method="setConsumerList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="piair:SuppliesStocksDescriptionType" name="Consumer"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="piair:SuppliesStocksDescriptionType" class="ru.acs.fts.schemas.album.pi_airarrive.SuppliesStocksDescriptionType">
+    <collection get-method="getDescriptionList" set-method="setDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="Description" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="Quantity" get-method="getQuantity" set-method="setQuantity"/>
+    <value style="element" name="MeasureUnitQualifier" get-method="getMeasureUnitQualifier" set-method="setMeasureUnitQualifier" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="piair:TransportMeansType" class="ru.acs.fts.schemas.album.pi_airarrive.TransportMeansType">
+    <value style="element" name="AirModification" get-method="getAirModification" set-method="setAirModification" usage="optional"/>
+    <value style="element" name="AirClass" get-method="getAirClass" set-method="setAirClass"/>
+    <value style="element" name="AirRegNumber" get-method="getAirRegNumber" set-method="setAirRegNumber"/>
+    <value style="element" name="AirNationalityCode" get-method="getAirNationalityCode" set-method="setAirNationalityCode" usage="optional"/>
+    <value style="element" name="AirOwerInfo" get-method="getAirOwerInfo" set-method="setAirOwerInfo" usage="optional"/>
+    <value style="element" name="FlightNumber" get-method="getFlightNumber" set-method="setFlightNumber"/>
+  </mapping>
+</binding>

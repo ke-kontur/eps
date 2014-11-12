@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания размещения товара в контейнере
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР° РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
  */
 public class WHGoodContLinkType
 {
@@ -10,7 +10,7 @@ public class WHGoodContLinkType
     private String containerNumber;
 
     /** 
-     * Get the 'GoodNumber' element value. Порядковый номер товара в транспортном документе
+     * Get the 'GoodNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class WHGoodContLinkType
     }
 
     /** 
-     * Set the 'GoodNumber' element value. Порядковый номер товара в транспортном документе
+     * Set the 'GoodNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param goodNumber
      */
@@ -28,7 +28,7 @@ public class WHGoodContLinkType
     }
 
     /** 
-     * Get the 'ContainerNumber' element value. Порядковый номер контейнера  в транспортном документе
+     * Get the 'ContainerNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°  РІ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WHGoodContLinkType
     }
 
     /** 
-     * Set the 'ContainerNumber' element value. Порядковый номер контейнера  в транспортном документе
+     * Set the 'ContainerNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°  РІ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
      * 
      * @param containerNumber
      */

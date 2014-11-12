@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания размещения на складе
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РЅР° СЃРєР»Р°РґРµ
  */
 public class WHPlaceBaseType
 {
@@ -11,7 +11,7 @@ public class WHPlaceBaseType
     private String comments;
 
     /** 
-     * Get the 'Area' element value. Номер площадки / зона
+     * Get the 'Area' element value. РќРѕРјРµСЂ РїР»РѕС‰Р°РґРєРё / Р·РѕРЅР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WHPlaceBaseType
     }
 
     /** 
-     * Set the 'Area' element value. Номер площадки / зона
+     * Set the 'Area' element value. РќРѕРјРµСЂ РїР»РѕС‰Р°РґРєРё / Р·РѕРЅР°
      * 
      * @param area
      */
@@ -29,7 +29,7 @@ public class WHPlaceBaseType
     }
 
     /** 
-     * Get the 'Square' element value. Занимаемая площадь в кв.м.
+     * Get the 'Square' element value. Р—Р°РЅРёРјР°РµРјР°СЏ РїР»РѕС‰Р°РґСЊ РІ РєРІ.Рј.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class WHPlaceBaseType
     }
 
     /** 
-     * Set the 'Square' element value. Занимаемая площадь в кв.м.
+     * Set the 'Square' element value. Р—Р°РЅРёРјР°РµРјР°СЏ РїР»РѕС‰Р°РґСЊ РІ РєРІ.Рј.
      * 
      * @param square
      */
@@ -47,7 +47,7 @@ public class WHPlaceBaseType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарий к размещению
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє СЂР°Р·РјРµС‰РµРЅРёСЋ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class WHPlaceBaseType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарий к размещению
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє СЂР°Р·РјРµС‰РµРЅРёСЋ
      * 
      * @param comments
      */

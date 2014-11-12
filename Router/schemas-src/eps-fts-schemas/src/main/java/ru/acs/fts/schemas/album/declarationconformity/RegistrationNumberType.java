@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.declarationconformity;
 
 /** 
- * Регистрационный номер
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
  */
 public class RegistrationNumberType
 {
@@ -10,7 +10,7 @@ public class RegistrationNumberType
     private String customsCountryCode;
 
     /** 
-     * Get the 'SerialNumber' element value. Номер декларации о соответствии
+     * Get the 'SerialNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Номер декларации о соответствии
+     * Set the 'SerialNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
      * 
      * @param serialNumber
      */
@@ -28,7 +28,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. Код государства члена Таможенного союза
+     * Get the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. Код государства члена Таможенного союза
+     * Set the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
      * 
      * @param customsCountryCode
      */

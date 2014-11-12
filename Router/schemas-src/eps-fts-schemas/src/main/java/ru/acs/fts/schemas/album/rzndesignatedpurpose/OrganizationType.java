@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения об организации
+ * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
  */
 public class OrganizationType extends CUOrganizationType
 {
@@ -13,7 +13,7 @@ public class OrganizationType extends CUOrganizationType
     private PersonBaseType authorizedPerson;
 
     /** 
-     * Get the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
+     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
+     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
      * 
      * @param orgSign
      */
@@ -31,7 +31,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Уполномоченное лицо
+     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class OrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Уполномоченное лицо
+     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
      * 
      * @param authorizedPerson
      */

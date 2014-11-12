@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Таможенные платежи.
+ * РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё.
  */
 public class CustomsPaymentType
 {
@@ -21,7 +21,7 @@ public class CustomsPaymentType
     private LocalDate delayPremitDate;
 
     /** 
-     * Get the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Get the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'CustomsPaymentSign' element value. Признак таможенного платежа.
+     * Set the 'CustomsPaymentSign' element value. РџСЂРёР·РЅР°Рє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
      * 
      * @param customsPaymentSign
      */
@@ -39,7 +39,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
+     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
      * 
      * @param paymentModeCode
      */
@@ -57,7 +57,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. Сумма платежа / обеспечения
+     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. Сумма платежа / обеспечения
+     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param paymentAmount
      */
@@ -75,7 +75,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа / обеспечения
+     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа / обеспечения
+     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param paymentCurrencyCode
      */
@@ -93,7 +93,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. Курс валюты платежа / обеспечения
+     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. Курс валюты платежа / обеспечения
+     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° / РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param currencyRate
      */
@@ -111,7 +111,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Get the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentEnsuringModeCodeType' element value. Код вида обеспечения уплаты
+     * Set the 'PaymentEnsuringModeCodeType' element value. РљРѕРґ РІРёРґР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹
      * 
      * @param paymentEnsuringModeCodeType
      */
@@ -130,7 +130,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'ReturnSign' element value. Признак возврата денежных средств
+     * Get the 'ReturnSign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‚Р° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'ReturnSign' element value. Признак возврата денежных средств
+     * Set the 'ReturnSign' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‚Р° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
      * 
      * @param returnSign
      */
@@ -148,7 +148,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'DelayPaymentDate' element value. Дата отсрочки уплаты
+     * Get the 'DelayPaymentDate' element value. Р”Р°С‚Р° РѕС‚СЃСЂРѕС‡РєРё СѓРїР»Р°С‚С‹
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'DelayPaymentDate' element value. Дата отсрочки уплаты
+     * Set the 'DelayPaymentDate' element value. Р”Р°С‚Р° РѕС‚СЃСЂРѕС‡РєРё СѓРїР»Р°С‚С‹
      * 
      * @param delayPaymentDate
      */
@@ -166,7 +166,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentParticularitySign' element value. Особенность уплаты таможенных платежей:1-ПОД ОБЕСПЕЧЕНИЕ
+     * Get the 'PaymentParticularitySign' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№:1-РџРћР” РћР‘Р•РЎРџР•Р§Р•РќРР•
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentParticularitySign' element value. Особенность уплаты таможенных платежей:1-ПОД ОБЕСПЕЧЕНИЕ
+     * Set the 'PaymentParticularitySign' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№:1-РџРћР” РћР‘Р•РЎРџР•Р§Р•РќРР•
      * 
      * @param paymentParticularitySign
      */
@@ -184,7 +184,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'DelayPremitNumber' element value. Номер разрешения на отсрочку платежа.
+     * Get the 'DelayPremitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'DelayPremitNumber' element value. Номер разрешения на отсрочку платежа.
+     * Set the 'DelayPremitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°.
      * 
      * @param delayPremitNumber
      */
@@ -202,7 +202,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Get the 'DelayPremitDate' element value. Дата разрешения на отсрочку платежа.
+     * Get the 'DelayPremitDate' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°.
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class CustomsPaymentType
     }
 
     /** 
-     * Set the 'DelayPremitDate' element value. Дата разрешения на отсрочку платежа.
+     * Set the 'DelayPremitDate' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РѕС‚СЃСЂРѕС‡РєСѓ РїР»Р°С‚РµР¶Р°.
      * 
      * @param delayPremitDate
      */

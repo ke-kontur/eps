@@ -1,0 +1,21 @@
+<binding xmlns:gca="urn:customs.ru:Information:ExchangeDocuments:GuaranteeContractAmount:5.4.3" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:GuaranteeContractAmount:5.4.3" default="elements" prefix="gca"/>
+  <mapping abstract="true" type-name="gca:GuaranteeContractAmountType" class="ru.acs.fts.schemas.album.GuaranteeContractAmountType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ReserveDate" get-method="getReserveDate" set-method="setReserveDate"/>
+    <value style="element" name="ReserveAmount" get-method="getReserveAmount" set-method="setReserveAmount"/>
+    <value style="element" name="ResAmount" get-method="getResAmount" set-method="setResAmount"/>
+    <value style="element" name="ContractNumber" get-method="getContractNumber" set-method="setContractNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.GuaranteeContractAmountType" name="GuaranteeContractAmount">
+    <structure map-as="gca:GuaranteeContractAmountType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gca:AdditionalInfoType" class="ru.acs.fts.schemas.album.AdditionalInfoType">
+    <value style="element" name="Guarantor" get-method="getGuarantor" set-method="setGuarantor"/>
+    <value style="element" name="ValidityDate" get-method="getValidityDate" set-method="setValidityDate" format="LocalDate.default"/>
+    <value style="element" name="GRN" get-method="getGRN" set-method="setGRN" usage="optional"/>
+    <value style="element" name="AdditionalID" get-method="getAdditionalID" set-method="setAdditionalID"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getAdditionalNumber" set-method="setAdditionalNumber" name="AdditionalNumber"/>
+  </mapping>
+</binding>

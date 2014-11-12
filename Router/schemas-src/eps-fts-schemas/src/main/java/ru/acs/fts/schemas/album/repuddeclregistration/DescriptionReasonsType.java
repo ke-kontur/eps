@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание причины отказа
+ * РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
  */
 public class DescriptionReasonsType
 {
@@ -13,7 +13,7 @@ public class DescriptionReasonsType
     private List<String> commentList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'ReasonRefusal' element items. Причина отказа в регистрации ДТ в соответствии со статьей 190 Таможенного кодекса таможенного союза
+     * Get the list of 'ReasonRefusal' element items. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р° РІ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ СЃС‚Р°С‚СЊРµР№ 190 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class DescriptionReasonsType
     }
 
     /** 
-     * Set the list of 'ReasonRefusal' element items. Причина отказа в регистрации ДТ в соответствии со статьей 190 Таможенного кодекса таможенного союза
+     * Set the list of 'ReasonRefusal' element items. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р° РІ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ СЃС‚Р°С‚СЊРµР№ 190 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class DescriptionReasonsType
     }
 
     /** 
-     * Get the list of 'Comment' element items. Примечание
+     * Get the list of 'Comment' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class DescriptionReasonsType
     }
 
     /** 
-     * Set the list of 'Comment' element items. Примечание
+     * Set the list of 'Comment' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
      * 
      * @param list
      */

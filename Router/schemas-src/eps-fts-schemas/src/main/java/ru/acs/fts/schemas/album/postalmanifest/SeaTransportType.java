@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.postalmanifest;
 
 /** 
- * Почтовое судно
+ * РџРѕС‡С‚РѕРІРѕРµ СЃСѓРґРЅРѕ
  */
 public class SeaTransportType
 {
@@ -11,7 +11,7 @@ public class SeaTransportType
     private String company;
 
     /** 
-     * Get the 'ShipName' element value. Название судна
+     * Get the 'ShipName' element value. РќР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SeaTransportType
     }
 
     /** 
-     * Set the 'ShipName' element value. Название судна
+     * Set the 'ShipName' element value. РќР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°
      * 
      * @param shipName
      */
@@ -29,7 +29,7 @@ public class SeaTransportType
     }
 
     /** 
-     * Get the 'UnloadingPort' element value. Порт выгрузки
+     * Get the 'UnloadingPort' element value. РџРѕСЂС‚ РІС‹РіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SeaTransportType
     }
 
     /** 
-     * Set the 'UnloadingPort' element value. Порт выгрузки
+     * Set the 'UnloadingPort' element value. РџРѕСЂС‚ РІС‹РіСЂСѓР·РєРё
      * 
      * @param unloadingPort
      */
@@ -47,7 +47,7 @@ public class SeaTransportType
     }
 
     /** 
-     * Get the 'Company' element value. Компания
+     * Get the 'Company' element value. РљРѕРјРїР°РЅРёСЏ
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class SeaTransportType
     }
 
     /** 
-     * Set the 'Company' element value. Компания
+     * Set the 'Company' element value. РљРѕРјРїР°РЅРёСЏ
      * 
      * @param company
      */

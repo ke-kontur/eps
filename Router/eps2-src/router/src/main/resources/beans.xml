@@ -161,6 +161,10 @@
     			<entry key="CMN.11097" value="MALAKHIT" />
     			<entry key="CMN.11098" value="MALAKHIT" />
     			<entry key="CMN.11103" value="MALAKHIT" />
+                <entry key="CMN.11145" value="MALAKHIT" />
+                <entry key="CMN.11150" value="MALAKHIT" />
+                <entry key="CMN.11152" value="MALAKHIT" />
+                <entry key="CMN.11138" value="ORDER" />
     		</map>
     	</property>
     </bean>
@@ -334,6 +338,39 @@
     	<entry key="CMN.11118" value-ref="declarantNotUniqDocuments" />
     	<entry key="CMN.11123" value-ref="declarantNotUniqDocuments" />
     	<entry key="CMN.11124" value-ref="declarantNotUniqDocuments" />
+
+        <entry key="CMN.11156">
+            <list>
+                <value>1006107E</value> <!-- ESADout_CU -->
+                <value>1006112E</value> <!-- DTSout_CU -->
+                <value>1006044E</value> <!-- DTSout -->
+                <value>1006003E</value> <!-- Inventory -->
+                <value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+                <value>1006089E</value> <!-- GoodsComponentList -->
+                <value>1006029E</value> <!-- ApplicationStore -->
+            </list>
+        </entry>
+        <!--<entry key="CMN.11156">
+            <list>
+                <value>1006107E</value> &lt;!&ndash; ESADout_CU &ndash;&gt;
+                <value>1006112E</value> &lt;!&ndash; DTSout_CU &ndash;&gt;
+                <value>1006044E</value> &lt;!&ndash; DTSout &ndash;&gt;
+                <value>1006123E</value> &lt;!&ndash; AddInfoForeignTradeContract &ndash;&gt;
+                <value>1006089E</value> &lt;!&ndash; GoodsComponentList &ndash;&gt;
+            </list>
+        </entry>
+        <entry key="CMN.11157">
+            <list>
+                <value>1006107E</value> &lt;!&ndash; ESADout_CU &ndash;&gt;
+                <value>1006112E</value> &lt;!&ndash; DTSout_CU &ndash;&gt;
+                <value>1006044E</value> &lt;!&ndash; DTSout &ndash;&gt;
+                <value>1006003E</value> &lt;!&ndash; Inventory &ndash;&gt;
+                <value>1006113E</value> &lt;!&ndash; KTSout_CU &ndash;&gt;
+                <value>1006123E</value> &lt;!&ndash; AddInfoForeignTradeContract &ndash;&gt;
+                <value>1006089E</value> &lt;!&ndash; GoodsComponentList &ndash;&gt;
+                <value>1006029E</value> &lt;!&ndash; ApplicationStore &ndash;&gt;
+            </list>
+        </entry>-->
     	<entry key="CMN.11051">
     		<list>
     			<value>1006029E</value> <!-- ApplicationStore -->
@@ -399,6 +436,19 @@
     	</entry>
     	<entry key="CMN.11033" value-ref="declarantNotUniqDocuments" />
     	<entry key="CMN.11093" value-ref="declarantNotUniqDocuments" />
+
+        <entry key="CMN.11157">
+            <list>
+                <value>1006107E</value> <!-- ESADout_CU -->
+                <value>1006112E</value> <!-- DTSout_CU -->
+                <value>1006044E</value> <!-- DTSout -->
+                <value>1006003E</value> <!-- Inventory -->
+                <value>1006111E</value> <!-- KDTout_CU -->
+                <value>1006123E</value> <!-- AddInfoForeignTradeContract -->
+                <value>1006089E</value> <!-- GoodsComponentList -->
+                <value>1006029E</value> <!-- ApplicationStore -->
+            </list>
+        </entry>
     	<entry key="CMN.11094" value-ref="declarantNotUniqDocuments" />
     	<entry key="CMN.11101" value-ref="declarantNotUniqDocuments" />
     	<entry key="MSG.11020">
@@ -454,6 +504,7 @@
 				<value>1006113E</value> <!-- KTSout_CU -->				
     		</list>
     	</entry>
+
     	<entry key="MSG.11024" >
     		<list>
     			<value>1006107E</value> <!-- ESADout_CU -->
@@ -552,8 +603,13 @@
     	<entry key="CMN.11076" value-ref="cmn11076CheckSentence" />
     	<entry key="CMN.11090" value-ref="cmn11076CheckSentence" /> <!-- Именно так -->
     	<entry key="CMN.11096" value-ref="cmn11096CheckSentence" />
+        <entry key="CMN.11149" value-ref="cmn11096CheckSentence" />
+        <entry key="CMN.11151" value-ref="cmn11096CheckSentence" />
     	<entry key="CMN.11128" value-ref="cmn11128CheckSentence" />
-    	
+        <entry key="CMN.11142" value-ref="cmn11023CheckSentence2" />
+        <entry key="CMN.11154" value-ref="cmn11154CheckSentence" />
+        <entry key="CMN.11155" value-ref="cmn11154CheckSentence" />
+
     	<entry key="CMN.12076" value-ref="cmn12076CheckSentence" />
     	<entry key="CMN.12078" value-ref="cmn12078CheckSentence" />
     	<entry key="CMN.12079" value-ref="cmn12079CheckSentence" />

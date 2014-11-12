@@ -8,7 +8,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Справочник таможенных органов
+ * РЎРїСЂР°РІРѕС‡РЅРёРє С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ
  */
 public class UDCustListUpdateType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class UDCustListUpdateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CreateDateTime' element value. Дата  и время  создания  выгрузки
+     * Get the 'CreateDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ  РІС‹РіСЂСѓР·РєРё
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDateTime' element value. Дата  и время  создания  выгрузки
+     * Set the 'CreateDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ  РІС‹РіСЂСѓР·РєРё
      * 
      * @param createDateTime
      */
@@ -42,7 +42,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'StartDate' element value. Дата начала действия
+     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'StartDate' element value. Дата начала действия
+     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
      * 
      * @param startDate
      */
@@ -60,7 +60,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Дата окончание действия
+     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёРµ РґРµР№СЃС‚РІРёСЏ
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Дата окончание действия
+     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёРµ РґРµР№СЃС‚РІРёСЏ
      * 
      * @param endDate
      */
@@ -78,7 +78,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comments' element items. Комментарии
+     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return list
      */
@@ -87,7 +87,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Комментарии
+     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param list
      */
@@ -96,7 +96,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecID' element value. Идентификатор записи
+     * Get the 'RecID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecID' element value. Идентификатор записи
+     * Set the 'RecID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё
      * 
      * @param recID
      */
@@ -114,7 +114,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentGroundConnect' element value. Основание для подключения
+     * Get the 'DocumentGroundConnect' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentGroundConnect' element value. Основание для подключения
+     * Set the 'DocumentGroundConnect' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ
      * 
      * @param documentGroundConnect
      */
@@ -133,7 +133,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOut' element value. Внешний таможенный пост
+     * Get the 'CustomsOut' element value. Р’РЅРµС€РЅРёР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOut' element value. Внешний таможенный пост
+     * Set the 'CustomsOut' element value. Р’РЅРµС€РЅРёР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @param customsOut
      */
@@ -151,7 +151,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsIn' element value. Внутренний таможенный пост
+     * Get the 'CustomsIn' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsIn' element value. Внутренний таможенный пост
+     * Set the 'CustomsIn' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
      * 
      * @param customsIn
      */
@@ -169,7 +169,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentGroundDisconnect' element value. Основание для  исключения
+     * Get the 'DocumentGroundDisconnect' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ  РёСЃРєР»СЋС‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentGroundDisconnect' element value. Основание для  исключения
+     * Set the 'DocumentGroundDisconnect' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ  РёСЃРєР»СЋС‡РµРЅРёСЏ
      * 
      * @param documentGroundDisconnect
      */
@@ -188,7 +188,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class UDCustListUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param documentModeID
      */

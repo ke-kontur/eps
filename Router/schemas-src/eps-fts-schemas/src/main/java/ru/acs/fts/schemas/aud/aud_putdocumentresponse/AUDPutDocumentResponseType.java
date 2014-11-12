@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDEmbeddedDocumentArchiveInfoType;
 
 /** 
- * Ответ на запрос на размещение документов на хранение.
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° СЂР°Р·РјРµС‰РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ РЅР° С…СЂР°РЅРµРЅРёРµ.
  */
 public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
 {
@@ -19,7 +19,7 @@ public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchiveDocumentInfo' element value. Информация о размещенном на хранение документе архива.
+     * Get the 'ArchiveDocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РјРµС‰РµРЅРЅРѕРј РЅР° С…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'ArchiveDocumentInfo' element value. Информация о размещенном на хранение документе архива.
+     * Set the 'ArchiveDocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РјРµС‰РµРЅРЅРѕРј РЅР° С…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°.
      * 
      * @param archiveDocumentInfo
      */
@@ -56,7 +56,7 @@ public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the list of 'EmbeddedDocumentArchiveInfo' element items. Информация о размещенном на хранение прикладном документе архива, вложенном в документ-контейнер. Указывается в случае, если переданный на хранение документ представляет собой документ-контейнер ('ED_Container').
+     * Get the list of 'EmbeddedDocumentArchiveInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РјРµС‰РµРЅРЅРѕРј РЅР° С…СЂР°РЅРµРЅРёРµ РїСЂРёРєР»Р°РґРЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, РІР»РѕР¶РµРЅРЅРѕРј РІ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїРµСЂРµРґР°РЅРЅС‹Р№ РЅР° С…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ ('ED_Container').
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'EmbeddedDocumentArchiveInfo' element items. Информация о размещенном на хранение прикладном документе архива, вложенном в документ-контейнер. Указывается в случае, если переданный на хранение документ представляет собой документ-контейнер ('ED_Container').
+     * Set the list of 'EmbeddedDocumentArchiveInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·РјРµС‰РµРЅРЅРѕРј РЅР° С…СЂР°РЅРµРЅРёРµ РїСЂРёРєР»Р°РґРЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, РІР»РѕР¶РµРЅРЅРѕРј РІ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїРµСЂРµРґР°РЅРЅС‹Р№ РЅР° С…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ ('ED_Container').
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class AUDPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

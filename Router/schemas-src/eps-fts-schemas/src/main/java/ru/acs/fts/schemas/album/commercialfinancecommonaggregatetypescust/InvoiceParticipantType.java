@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Сведения об участниках сделки по  купли-продажи (продавец или покупатель)
+ * РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєР°С… СЃРґРµР»РєРё РїРѕ  РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё (РїСЂРѕРґР°РІРµС† РёР»Рё РїРѕРєСѓРїР°С‚РµР»СЊ)
  */
 public class InvoiceParticipantType
 {
@@ -12,7 +12,7 @@ public class InvoiceParticipantType
     private String phone;
 
     /** 
-     * Get the 'CompanyID' element value. Индивидуальный номер налогоплательщика  в соответствии с национальной системой кодирования (в РФ для юр. лиц - ИНН)
+     * Get the 'CompanyID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°  РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ СЃРёСЃС‚РµРјРѕР№ РєРѕРґРёСЂРѕРІР°РЅРёСЏ (РІ Р Р¤ РґР»СЏ СЋСЂ. Р»РёС† - РРќРќ)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Set the 'CompanyID' element value. Индивидуальный номер налогоплательщика  в соответствии с национальной системой кодирования (в РФ для юр. лиц - ИНН)
+     * Set the 'CompanyID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°  РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ СЃРёСЃС‚РµРјРѕР№ РєРѕРґРёСЂРѕРІР°РЅРёСЏ (РІ Р Р¤ РґР»СЏ СЋСЂ. Р»РёС† - РРќРќ)
      * 
      * @param companyID
      */
@@ -30,7 +30,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Get the 'KPPCode' element value. Код причины постановки на налоговый учет
+     * Get the 'KPPCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Set the 'KPPCode' element value. Код причины постановки на налоговый учет
+     * Set the 'KPPCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚
      * 
      * @param KPPCode
      */
@@ -48,7 +48,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Get the 'Name' element value. Наименование
+     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Set the 'Name' element value. Наименование
+     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param name
      */
@@ -66,7 +66,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Get the 'Phone' element value. Телефон
+     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class InvoiceParticipantType
     }
 
     /** 
-     * Set the 'Phone' element value. Телефон
+     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ
      * 
      * @param phone
      */

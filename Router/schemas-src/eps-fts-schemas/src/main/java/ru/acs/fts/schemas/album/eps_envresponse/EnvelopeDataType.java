@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.eps_envresponse;
 
 /** 
- * Запрошенное сообщение
+ * Р—Р°РїСЂРѕС€РµРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ
  */
 public class EnvelopeDataType
 {
     private Object any;
 
     /** 
-     * Get the 'EnvelopeDataType' complexType value. Запрошенное сообщение
+     * Get the 'EnvelopeDataType' complexType value. Р—Р°РїСЂРѕС€РµРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class EnvelopeDataType
     }
 
     /** 
-     * Set the 'EnvelopeDataType' complexType value. Запрошенное сообщение
+     * Set the 'EnvelopeDataType' complexType value. Р—Р°РїСЂРѕС€РµРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ
      * 
      * @param any
      */

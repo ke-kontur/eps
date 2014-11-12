@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о заявителе
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
  */
 public class DeclarantType extends OrganizationType
 {
     private PersonBaseType chief;
 
     /** 
-     * Get the 'Chief' element value. Руководитель (заместителя руководителя)
+     * Get the 'Chief' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ (Р·Р°РјРµСЃС‚РёС‚РµР»СЏ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'Chief' element value. Руководитель (заместителя руководителя)
+     * Set the 'Chief' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ (Р·Р°РјРµСЃС‚РёС‚РµР»СЏ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ)
      * 
      * @param chief
      */

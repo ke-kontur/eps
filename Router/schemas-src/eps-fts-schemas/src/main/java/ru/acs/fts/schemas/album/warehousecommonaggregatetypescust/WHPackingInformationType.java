@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Комплексный тип для описания первичных упаковок товара
+ * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РїРµСЂРІРёС‡РЅС‹С… СѓРїР°РєРѕРІРѕРє С‚РѕРІР°СЂР°
  */
 public class WHPackingInformationType
 {
@@ -10,7 +10,7 @@ public class WHPackingInformationType
     private String pakingQuantity;
 
     /** 
-     * Get the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
+     * Get the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class WHPackingInformationType
     }
 
     /** 
-     * Set the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
+     * Set the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
      * 
      * @param packingCode
      */
@@ -28,7 +28,7 @@ public class WHPackingInformationType
     }
 
     /** 
-     * Get the 'PakingQuantity' element value. Количество упаковок
+     * Get the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WHPackingInformationType
     }
 
     /** 
-     * Set the 'PakingQuantity' element value. Количество упаковок
+     * Set the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє
      * 
      * @param pakingQuantity
      */

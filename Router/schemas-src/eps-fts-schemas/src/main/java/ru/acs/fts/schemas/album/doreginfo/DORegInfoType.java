@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomInspec
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHDocumentRegisterNumberType;
 
 /** 
- * Уведомление  о регистрации отчетности ДО
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ  Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚РЅРѕСЃС‚Рё Р”Рћ
  */
 public class DORegInfoType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class DORegInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegDate' element value. Дата регистрации
+     * Get the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegDate' element value. Дата регистрации
+     * Set the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regDate
      */
@@ -37,7 +37,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegTime' element value. Время регистрации
+     * Get the 'RegTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegTime' element value. Время регистрации
+     * Set the 'RegTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
      * 
      * @param regTime
      */
@@ -55,7 +55,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormReport' element value. Форма отчета: 1- ДО1; 2 - ДО2; 3 - ДО3.
+     * Get the 'FormReport' element value. Р¤РѕСЂРјР° РѕС‚С‡РµС‚Р°: 1- Р”Рћ1; 2 - Р”Рћ2; 3 - Р”Рћ3.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormReport' element value. Форма отчета: 1- ДО1; 2 - ДО2; 3 - ДО3.
+     * Set the 'FormReport' element value. Р¤РѕСЂРјР° РѕС‚С‡РµС‚Р°: 1- Р”Рћ1; 2 - Р”Рћ2; 3 - Р”Рћ3.
      * 
      * @param formReport
      */
@@ -73,7 +73,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomInspector' element value. Должностное лицо таможенного органа
+     * Get the 'CustomInspector' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomInspector' element value. Должностное лицо таможенного органа
+     * Set the 'CustomInspector' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customInspector
      */
@@ -91,7 +91,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegisterNumberReport' element value. Регистрационный номер отчета ДО1/ДО2/ДО3
+     * Get the 'RegisterNumberReport' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡РµС‚Р° Р”Рћ1/Р”Рћ2/Р”Рћ3
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegisterNumberReport' element value. Регистрационный номер отчета ДО1/ДО2/ДО3
+     * Set the 'RegisterNumberReport' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡РµС‚Р° Р”Рћ1/Р”Рћ2/Р”Рћ3
      * 
      * @param registerNumberReport
      */
@@ -110,7 +110,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class DORegInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

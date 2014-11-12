@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.commonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Подпись
+ * РџРѕРґРїРёСЃСЊ
  */
 public class PersonSignatureType extends PersonBaseType
 {
     private LocalDate issueDate;
 
     /** 
-     * Get the 'IssueDate' element value. Дата подписания
+     * Get the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonSignatureType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Дата подписания
+     * Set the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ
      * 
      * @param issueDate
      */

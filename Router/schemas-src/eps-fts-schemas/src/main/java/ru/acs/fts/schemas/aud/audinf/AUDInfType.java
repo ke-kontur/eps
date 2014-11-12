@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audinf;
 
 /** 
- * Информация АЮД
+ * РРЅС„РѕСЂРјР°С†РёСЏ РђР®Р”
  */
 public class AUDInfType
 {
@@ -10,7 +10,7 @@ public class AUDInfType
     private String customsCode;
 
     /** 
-     * Get the 'ArchiveClientId' element value. Идентификатор клиента архива.
+     * Get the 'ArchiveClientId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР»РёРµРЅС‚Р° Р°СЂС…РёРІР°.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDInfType
     }
 
     /** 
-     * Set the 'ArchiveClientId' element value. Идентификатор клиента архива.
+     * Set the 'ArchiveClientId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР»РёРµРЅС‚Р° Р°СЂС…РёРІР°.
      * 
      * @param archiveClientId
      */
@@ -28,7 +28,7 @@ public class AUDInfType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа РФ (по "Классификатору  ТО и их структурных подразделений" ГТК).
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° Р Р¤ (РїРѕ "РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РўРћ Рё РёС… СЃС‚СЂСѓРєС‚СѓСЂРЅС‹С… РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№" Р“РўРљ).
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDInfType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа РФ (по "Классификатору  ТО и их структурных подразделений" ГТК).
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° Р Р¤ (РїРѕ "РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РўРћ Рё РёС… СЃС‚СЂСѓРєС‚СѓСЂРЅС‹С… РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№" Р“РўРљ).
      * 
      * @param customsCode
      */

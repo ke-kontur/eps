@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Отказ в выдаче разрешения на переработку товаров вне таможенной территории
+ * РћС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
  */
 public class RepudInoTreatmentType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class RepudInoTreatmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Дата направления
+     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Дата направления
+     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param sendDate
      */
@@ -41,7 +41,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */
@@ -59,7 +59,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Number' element value. Номер официального письма таможни
+     * Get the 'Number' element value. РќРѕРјРµСЂ РѕС„РёС†РёР°Р»СЊРЅРѕРіРѕ РїРёСЃСЊРјР° С‚Р°РјРѕР¶РЅРё
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Number' element value. Номер официального письма таможни
+     * Set the 'Number' element value. РќРѕРјРµСЂ РѕС„РёС†РёР°Р»СЊРЅРѕРіРѕ РїРёСЃСЊРјР° С‚Р°РјРѕР¶РЅРё
      * 
      * @param number
      */
@@ -77,7 +77,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Date' element value. Дата выхода официального письма таможни
+     * Get the 'Date' element value. Р”Р°С‚Р° РІС‹С…РѕРґР° РѕС„РёС†РёР°Р»СЊРЅРѕРіРѕ РїРёСЃСЊРјР° С‚Р°РјРѕР¶РЅРё
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Дата выхода официального письма таможни
+     * Set the 'Date' element value. Р”Р°С‚Р° РІС‹С…РѕРґР° РѕС„РёС†РёР°Р»СЊРЅРѕРіРѕ РїРёСЃСЊРјР° С‚Р°РјРѕР¶РЅРё
      * 
      * @param date
      */
@@ -95,7 +95,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RepudReason' element items. Причины отказа
+     * Get the list of 'RepudReason' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RepudReason' element items. Причины отказа
+     * Set the list of 'RepudReason' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Таможенный орган
+     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Таможенный орган
+     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
      * 
      * @param customs
      */
@@ -131,7 +131,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -149,7 +149,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class RepudInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

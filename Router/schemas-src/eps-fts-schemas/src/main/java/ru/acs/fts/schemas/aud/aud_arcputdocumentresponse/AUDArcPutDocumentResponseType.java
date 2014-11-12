@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_arcputdocumentresponse;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Ответ на запрос на размещение документа на хранение в архиве верхнего уровня.
+ * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° СЂР°Р·РјРµС‰РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РЅР° С…СЂР°РЅРµРЅРёРµ РІ Р°СЂС…РёРІРµ РІРµСЂС…РЅРµРіРѕ СѓСЂРѕРІРЅСЏ.
  */
 public class AUDArcPutDocumentResponseType extends AUDBaseEnvelopeType
 {
@@ -12,7 +12,7 @@ public class AUDArcPutDocumentResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
+     * Get the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDArcPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
+     * Set the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param archiveDocumentId
      */
@@ -30,7 +30,7 @@ public class AUDArcPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDArcPutDocumentResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
      * 
      * @param documentModeID
      */

@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AuthoritesDocumentType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Декларант, представитель декларанта.
+ * Р”РµРєР»Р°СЂР°РЅС‚, РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РґРµРєР»Р°СЂР°РЅС‚Р°.
  */
 public class DeclPersonType extends PersonBaseType
 {
     private AuthoritesDocumentType authoritesDocument;
 
     /** 
-     * Get the 'AuthoritesDocument' element value. Документ, подтверждающий полномочия. 
+     * Get the 'AuthoritesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ. 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DeclPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'AuthoritesDocument' element value. Документ, подтверждающий полномочия. 
+     * Set the 'AuthoritesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ. 
      * 
      * @param authoritesDocument
      */

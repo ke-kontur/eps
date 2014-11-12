@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.Custom
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Выписка со счета
+ * Р’С‹РїРёСЃРєР° СЃРѕ СЃС‡РµС‚Р°
  */
 public class StatementOfAccountType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class StatementOfAccountType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReservedAmount' element value. Сумма забронированных средств (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Get the 'ReservedAmount' element value. РЎСѓРјРјР° Р·Р°Р±СЂРѕРЅРёСЂРѕРІР°РЅРЅС‹С… СЃСЂРµРґСЃС‚РІ (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReservedAmount' element value. Сумма забронированных средств (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Set the 'ReservedAmount' element value. РЎСѓРјРјР° Р·Р°Р±СЂРѕРЅРёСЂРѕРІР°РЅРЅС‹С… СЃСЂРµРґСЃС‚РІ (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @param reservedAmount
      */
@@ -45,7 +45,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreditLimitAmount' element value. Сумма лимита внутридневного кредита (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Get the 'CreditLimitAmount' element value. РЎСѓРјРјР° Р»РёРјРёС‚Р° РІРЅСѓС‚СЂРёРґРЅРµРІРЅРѕРіРѕ РєСЂРµРґРёС‚Р° (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreditLimitAmount' element value. Сумма лимита внутридневного кредита (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Set the 'CreditLimitAmount' element value. РЎСѓРјРјР° Р»РёРјРёС‚Р° РІРЅСѓС‚СЂРёРґРЅРµРІРЅРѕРіРѕ РєСЂРµРґРёС‚Р° (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @param creditLimitAmount
      */
@@ -63,7 +63,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreditAmount' element value. Общая сумма документов по кредиту счета участников (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Get the 'CreditAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕ РєСЂРµРґРёС‚Сѓ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєРѕРІ (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreditAmount' element value. Общая сумма документов по кредиту счета участников (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Set the 'CreditAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕ РєСЂРµРґРёС‚Сѓ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєРѕРІ (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @param creditAmount
      */
@@ -81,7 +81,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'DebetAmount' element value. Общая сумма документов по дебету счета участников (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Get the 'DebetAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕ РґРµР±РµС‚Сѓ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєРѕРІ (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'DebetAmount' element value. Общая сумма документов по дебету счета участников (если больше нуля). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Set the 'DebetAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕ РґРµР±РµС‚Сѓ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєРѕРІ (РµСЃР»Рё Р±РѕР»СЊС€Рµ РЅСѓР»СЏ). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @param debetAmount
      */
@@ -99,7 +99,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'OutBal' element value. Исходящий остаток на счете участника (дебетовый остаток - отрицательный, кредитовый - положительный)
+     * Get the 'OutBal' element value. РСЃС…РѕРґСЏС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ СѓС‡Р°СЃС‚РЅРёРєР° (РґРµР±РµС‚РѕРІС‹Р№ РѕСЃС‚Р°С‚РѕРє - РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№, РєСЂРµРґРёС‚РѕРІС‹Р№ - РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№)
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'OutBal' element value. Исходящий остаток на счете участника (дебетовый остаток - отрицательный, кредитовый - положительный)
+     * Set the 'OutBal' element value. РСЃС…РѕРґСЏС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ СѓС‡Р°СЃС‚РЅРёРєР° (РґРµР±РµС‚РѕРІС‹Р№ РѕСЃС‚Р°С‚РѕРє - РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№, РєСЂРµРґРёС‚РѕРІС‹Р№ - РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№)
      * 
      * @param outBal
      */
@@ -117,7 +117,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'EnterBal' element value. Входящий остаток на счете участника (дебетовый остаток - отрицательный, кредитовый - положительный). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Get the 'EnterBal' element value. Р’С…РѕРґСЏС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ СѓС‡Р°СЃС‚РЅРёРєР° (РґРµР±РµС‚РѕРІС‹Р№ РѕСЃС‚Р°С‚РѕРє - РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№, РєСЂРµРґРёС‚РѕРІС‹Р№ - РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'EnterBal' element value. Входящий остаток на счете участника (дебетовый остаток - отрицательный, кредитовый - положительный). Не заполняется для выписки, содержащей текущий остаток на счете
+     * Set the 'EnterBal' element value. Р’С…РѕРґСЏС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ СѓС‡Р°СЃС‚РЅРёРєР° (РґРµР±РµС‚РѕРІС‹Р№ РѕСЃС‚Р°С‚РѕРє - РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№, РєСЂРµРґРёС‚РѕРІС‹Р№ - РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№). РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РІС‹РїРёСЃРєРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ
      * 
      * @param enterBal
      */
@@ -135,7 +135,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'LastMovementDate' element value. Дата последнего движения по счету. Не заполняется при отсутствии движения по счету
+     * Get the 'LastMovementDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РґРІРёР¶РµРЅРёСЏ РїРѕ СЃС‡РµС‚Сѓ. РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РґРІРёР¶РµРЅРёСЏ РїРѕ СЃС‡РµС‚Сѓ
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'LastMovementDate' element value. Дата последнего движения по счету. Не заполняется при отсутствии движения по счету
+     * Set the 'LastMovementDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РґРІРёР¶РµРЅРёСЏ РїРѕ СЃС‡РµС‚Сѓ. РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РґРІРёР¶РµРЅРёСЏ РїРѕ СЃС‡РµС‚Сѓ
      * 
      * @param lastMovementDate
      */
@@ -153,7 +153,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'AbstractKind' element value. Тип выписки (0 - окончательная выписка, 1 - промежуточная выписка, 2 - текущий остаток на счете, 3 - свернутая выписка)
+     * Get the 'AbstractKind' element value. РўРёРї РІС‹РїРёСЃРєРё (0 - РѕРєРѕРЅС‡Р°С‚РµР»СЊРЅР°СЏ РІС‹РїРёСЃРєР°, 1 - РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅР°СЏ РІС‹РїРёСЃРєР°, 2 - С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ, 3 - СЃРІРµСЂРЅСѓС‚Р°СЏ РІС‹РїРёСЃРєР°)
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'AbstractKind' element value. Тип выписки (0 - окончательная выписка, 1 - промежуточная выписка, 2 - текущий остаток на счете, 3 - свернутая выписка)
+     * Set the 'AbstractKind' element value. РўРёРї РІС‹РїРёСЃРєРё (0 - РѕРєРѕРЅС‡Р°С‚РµР»СЊРЅР°СЏ РІС‹РїРёСЃРєР°, 1 - РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅР°СЏ РІС‹РїРёСЃРєР°, 2 - С‚РµРєСѓС‰РёР№ РѕСЃС‚Р°С‚РѕРє РЅР° СЃС‡РµС‚Рµ, 3 - СЃРІРµСЂРЅСѓС‚Р°СЏ РІС‹РїРёСЃРєР°)
      * 
      * @param abstractKind
      */
@@ -171,7 +171,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'AbstractDate' element value. Дата, на которую формируется выписка
+     * Get the 'AbstractDate' element value. Р”Р°С‚Р°, РЅР° РєРѕС‚РѕСЂСѓСЋ С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ РІС‹РїРёСЃРєР°
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'AbstractDate' element value. Дата, на которую формируется выписка
+     * Set the 'AbstractDate' element value. Р”Р°С‚Р°, РЅР° РєРѕС‚РѕСЂСѓСЋ С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ РІС‹РїРёСЃРєР°
      * 
      * @param abstractDate
      */
@@ -189,7 +189,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentInfo' element value. Информация о формировании формы документа
+     * Get the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„РѕСЂРјРёСЂРѕРІР°РЅРёРё С„РѕСЂРјС‹ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. Информация о формировании формы документа
+     * Set the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„РѕСЂРјРёСЂРѕРІР°РЅРёРё С„РѕСЂРјС‹ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentInfo
      */
@@ -207,7 +207,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'AccountHolder' element value. Информация о владельце счета
+     * Get the 'AccountHolder' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃС‡РµС‚Р°
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'AccountHolder' element value. Информация о владельце счета
+     * Set the 'AccountHolder' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃС‡РµС‚Р°
      * 
      * @param accountHolder
      */
@@ -225,7 +225,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransInfo' element items. Информация об одной операции по лицевому счету в выписке
+     * Get the list of 'TransInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕРґРЅРѕР№ РѕРїРµСЂР°С†РёРё РїРѕ Р»РёС†РµРІРѕРјСѓ СЃС‡РµС‚Сѓ РІ РІС‹РїРёСЃРєРµ
      * 
      * @return list
      */
@@ -234,7 +234,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransInfo' element items. Информация об одной операции по лицевому счету в выписке
+     * Set the list of 'TransInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕРґРЅРѕР№ РѕРїРµСЂР°С†РёРё РїРѕ Р»РёС†РµРІРѕРјСѓ СЃС‡РµС‚Сѓ РІ РІС‹РїРёСЃРєРµ
      * 
      * @param list
      */
@@ -243,7 +243,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class StatementOfAccountType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

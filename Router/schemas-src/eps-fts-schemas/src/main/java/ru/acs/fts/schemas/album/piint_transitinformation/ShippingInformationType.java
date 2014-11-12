@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TransitRouteType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TransportMeansType;
 
 /** 
- * Информация о перевозке груза
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РіСЂСѓР·Р°
  */
 public class ShippingInformationType
 {
@@ -28,7 +28,7 @@ public class ShippingInformationType
     private DestinationType destination;
 
     /** 
-     * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок: да/нет
+     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє: РґР°/РЅРµС‚
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок: да/нет
+     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє: РґР°/РЅРµС‚
      * 
      * @param containerIndicator
      */
@@ -46,7 +46,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'DateLimit' element value. Планируемый срок перевозки товаров
+     * Get the 'DateLimit' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ СЃСЂРѕРє РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'DateLimit' element value. Планируемый срок перевозки товаров
+     * Set the 'DateLimit' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ СЃСЂРѕРє РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param dateLimit
      */
@@ -64,7 +64,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'DispatchCustoms' element value. Таможня отправления
+     * Get the 'DispatchCustoms' element value. РўР°РјРѕР¶РЅСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'DispatchCustoms' element value. Таможня отправления
+     * Set the 'DispatchCustoms' element value. РўР°РјРѕР¶РЅСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param dispatchCustoms
      */
@@ -82,7 +82,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the list of 'BorderTransport' element items. Транспортное средство на границе.
+     * Get the list of 'BorderTransport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РЅР° РіСЂР°РЅРёС†Рµ.
      * 
      * @return list
      */
@@ -91,7 +91,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the list of 'BorderTransport' element items. Транспортное средство на границе.
+     * Set the list of 'BorderTransport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РЅР° РіСЂР°РЅРёС†Рµ.
      * 
      * @param list
      */
@@ -100,7 +100,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the list of 'Guarantee' element items. Гарантия, меры обеспечения
+     * Get the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ, РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @return list
      */
@@ -109,7 +109,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the list of 'Guarantee' element items. Гарантия, меры обеспечения
+     * Set the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ, РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
      * 
      * @param list
      */
@@ -118,7 +118,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. Страна назначения товаров
+     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. Страна назначения товаров
+     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param destinationCountry
      */
@@ -136,7 +136,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the list of 'ReloadingInfo' element items. Информация о планируемых перегрузках товаров или других грузовых операциях в пути
+     * Get the list of 'ReloadingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјС‹С… РїРµСЂРµРіСЂСѓР·РєР°С… С‚РѕРІР°СЂРѕРІ РёР»Рё РґСЂСѓРіРёС… РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёСЏС… РІ РїСѓС‚Рё
      * 
      * @return list
      */
@@ -145,7 +145,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the list of 'ReloadingInfo' element items. Информация о планируемых перегрузках товаров или других грузовых операциях в пути
+     * Set the list of 'ReloadingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјС‹С… РїРµСЂРµРіСЂСѓР·РєР°С… С‚РѕРІР°СЂРѕРІ РёР»Рё РґСЂСѓРіРёС… РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёСЏС… РІ РїСѓС‚Рё
      * 
      * @param list
      */
@@ -154,7 +154,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'DispatchCountry' element value. Страна отправления товаров
+     * Get the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'DispatchCountry' element value. Страна отправления товаров
+     * Set the 'DispatchCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param dispatchCountry
      */
@@ -172,7 +172,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the list of 'TransitRoute' element items. Маршрут транзита
+     * Get the list of 'TransitRoute' element items. РњР°СЂС€СЂСѓС‚ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @return list
      */
@@ -181,7 +181,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the list of 'TransitRoute' element items. Маршрут транзита
+     * Set the list of 'TransitRoute' element items. РњР°СЂС€СЂСѓС‚ С‚СЂР°РЅР·РёС‚Р°
      * 
      * @param list
      */
@@ -190,7 +190,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Get the 'Destination' element value. Пункт назначения товаров
+     * Get the 'Destination' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ShippingInformationType
     }
 
     /** 
-     * Set the 'Destination' element value. Пункт назначения товаров
+     * Set the 'Destination' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
      * 
      * @param destination
      */

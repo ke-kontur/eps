@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Сведения о юр. лице/физ. лице
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЋСЂ. Р»РёС†Рµ/С„РёР·. Р»РёС†Рµ
  */
 public class OrganizationType
         extends
@@ -17,7 +17,7 @@ public class OrganizationType
     private List<CUBranchDescriptionType> subdivisionInfoList = new ArrayList<CUBranchDescriptionType>();
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class OrganizationType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
      * 
      * @param identityCard
      */
@@ -35,7 +35,7 @@ public class OrganizationType
     }
 
     /** 
-     * Get the list of 'SubdivisionInfo' element items. Обособленное подразделение
+     * Get the list of 'SubdivisionInfo' element items. РћР±РѕСЃРѕР±Р»РµРЅРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class OrganizationType
     }
 
     /** 
-     * Set the list of 'SubdivisionInfo' element items. Обособленное подразделение
+     * Set the list of 'SubdivisionInfo' element items. РћР±РѕСЃРѕР±Р»РµРЅРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ
      * 
      * @param list
      */

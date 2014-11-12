@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Сведения о товарах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
  */
 public class GoodsType
 {
@@ -19,7 +19,7 @@ public class GoodsType
     private SupplementaryQuantityType goodsQuantity;
 
     /** 
-     * Get the list of 'GoodDescription' element items. Наименование товара
+     * Get the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. Наименование товара
+     * Set the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'NetWeight' element value. Вес товара, нетто (кг)
+     * Get the 'NetWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'NetWeight' element value. Вес товара, нетто (кг)
+     * Set the 'NetWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeight
      */
@@ -55,7 +55,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД
+     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р”
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД
+     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р”
      * 
      * @param TNVEDCode
      */
@@ -73,7 +73,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Cost' element value. Стоимость товара
+     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Cost' element value. Стоимость товара
+     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
      * 
      * @param cost
      */
@@ -91,7 +91,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Код валюты
+     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Код валюты
+     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
      * 
      * @param currencyCode
      */
@@ -109,7 +109,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира
+     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира
+     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
      * 
      * @param originCountryCode
      */
@@ -127,7 +127,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. Количество товара
+     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. Количество товара
+     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
      * 
      * @param goodsQuantity
      */

@@ -1,16 +1,20 @@
 
 package ru.acs.fts.schemas.album.transportdeclaration;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /** 
- * Пассажиры
+ * РџР°СЃСЃР°Р¶РёСЂС‹
  */
 public class PassengersType
 {
     private String TSMPPassenger;
     private String memberCount;
+    private List<String> additionalInfoList = new ArrayList<String>();
 
     /** 
-     * Get the 'TSMPPassenger' element value. Признак наличия пассажиров, перевозимых в ТСМП
+     * Get the 'TSMPPassenger' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
      * 
      * @return value
      */
@@ -19,7 +23,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the 'TSMPPassenger' element value. Признак наличия пассажиров, перевозимых в ТСМП
+     * Set the 'TSMPPassenger' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
      * 
      * @param TSMPPassenger
      */
@@ -28,7 +32,7 @@ public class PassengersType
     }
 
     /** 
-     * Get the 'MemberCount' element value. Количество пассажиров, перевозимых в ТСМП
+     * Get the 'MemberCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
      * 
      * @return value
      */
@@ -37,11 +41,29 @@ public class PassengersType
     }
 
     /** 
-     * Set the 'MemberCount' element value. Количество пассажиров, перевозимых в ТСМП
+     * Set the 'MemberCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
      * 
      * @param memberCount
      */
     public void setMemberCount(String memberCount) {
         this.memberCount = memberCount;
+    }
+
+    /** 
+     * Get the list of 'AdditionalInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * 
+     * @return list
+     */
+    public List<String> getAdditionalInfoList() {
+        return additionalInfoList;
+    }
+
+    /** 
+     * Set the list of 'AdditionalInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * 
+     * @param list
+     */
+    public void setAdditionalInfoList(List<String> list) {
+        additionalInfoList = list;
     }
 }

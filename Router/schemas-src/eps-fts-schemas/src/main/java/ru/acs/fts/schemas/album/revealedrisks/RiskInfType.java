@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Обоснование применения мер по минимизации рисков
+ * РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
  */
 public class RiskInfType
 {
@@ -22,7 +22,7 @@ public class RiskInfType
     private String customsActionCode;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск. 0 - 0 - если выявленный риск распространяется на все товары
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹СЏРІР»РµРЅ СЂРёСЃРє. 0 - 0 - РµСЃР»Рё РІС‹СЏРІР»РµРЅРЅС‹Р№ СЂРёСЃРє СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РЅР° РІСЃРµ С‚РѕРІР°СЂС‹
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск. 0 - 0 - если выявленный риск распространяется на все товары
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹СЏРІР»РµРЅ СЂРёСЃРє. 0 - 0 - РµСЃР»Рё РІС‹СЏРІР»РµРЅРЅС‹Р№ СЂРёСЃРє СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РЅР° РІСЃРµ С‚РѕРІР°СЂС‹
      * 
      * @param goodsNumeric
      */
@@ -40,7 +40,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'TerrActionCode' element value. Код вида документа
+     * Get the 'TerrActionCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'TerrActionCode' element value. Код вида документа
+     * Set the 'TerrActionCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param terrActionCode
      */
@@ -58,7 +58,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'RiskProfileRegDate' element value. Дата регистрации профиля риска
+     * Get the 'RiskProfileRegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'RiskProfileRegDate' element value. Дата регистрации профиля риска
+     * Set the 'RiskProfileRegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @param riskProfileRegDate
      */
@@ -76,7 +76,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'RiskProfileNumber' element value. Порядковый номер профиля риска
+     * Get the 'RiskProfileNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'RiskProfileNumber' element value. Порядковый номер профиля риска
+     * Set the 'RiskProfileNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
      * 
      * @param riskProfileNumber
      */
@@ -94,7 +94,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'RiskProfileNumberVersion' element value. Порядковый номер версии профиля риска.
+     * Get the 'RiskProfileNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°.
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'RiskProfileNumberVersion' element value. Порядковый номер версии профиля риска.
+     * Set the 'RiskProfileNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°.
      * 
      * @param riskProfileNumberVersion
      */
@@ -112,7 +112,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'InformationCode' element value. Код информации: 4 - применение мер по минимизации рисков на основании "рамочных" профилей риска, по собственному решению; 7 -  применение мер на основании профилей риска по информации правоохранительных подразделений
+     * Get the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё: 4 - РїСЂРёРјРµРЅРµРЅРёРµ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ РЅР° РѕСЃРЅРѕРІР°РЅРёРё "СЂР°РјРѕС‡РЅС‹С…" РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР°, РїРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕРјСѓ СЂРµС€РµРЅРёСЋ; 7 -  РїСЂРёРјРµРЅРµРЅРёРµ РјРµСЂ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР° РїРѕ РёРЅС„РѕСЂРјР°С†РёРё РїСЂР°РІРѕРѕС…СЂР°РЅРёС‚РµР»СЊРЅС‹С… РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'InformationCode' element value. Код информации: 4 - применение мер по минимизации рисков на основании "рамочных" профилей риска, по собственному решению; 7 -  применение мер на основании профилей риска по информации правоохранительных подразделений
+     * Set the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё: 4 - РїСЂРёРјРµРЅРµРЅРёРµ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ РЅР° РѕСЃРЅРѕРІР°РЅРёРё "СЂР°РјРѕС‡РЅС‹С…" РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР°, РїРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕРјСѓ СЂРµС€РµРЅРёСЋ; 7 -  РїСЂРёРјРµРЅРµРЅРёРµ РјРµСЂ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР° РїРѕ РёРЅС„РѕСЂРјР°С†РёРё РїСЂР°РІРѕРѕС…СЂР°РЅРёС‚РµР»СЊРЅС‹С… РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№
      * 
      * @param informationCode
      */
@@ -130,7 +130,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'LineNumber' element value. Порядковый номер строки информации
+     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Порядковый номер строки информации
+     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param lineNumber
      */
@@ -148,7 +148,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the list of 'TypicalName' element items. Обоснование применения мер:
+     * Get the list of 'TypicalName' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ:
      * 
      * @return list
      */
@@ -157,7 +157,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the list of 'TypicalName' element items. Обоснование применения мер:
+     * Set the list of 'TypicalName' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ:
      * 
      * @param list
      */
@@ -166,7 +166,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска  (заполняется системой таможенного оформления автоматически).
+     * Get the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР°  (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРёСЃС‚РµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё).
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска  (заполняется системой таможенного оформления автоматически).
+     * Set the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР°  (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРёСЃС‚РµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё).
      * 
      * @param pointCode
      */
@@ -184,7 +184,7 @@ public class RiskInfType
     }
 
     /** 
-     * Get the 'CustomsActionCode' element value. Первые пять цифр кода таможенного органа,  утвердившего профиль риска (ориентировку)
+     * Get the 'CustomsActionCode' element value. РџРµСЂРІС‹Рµ РїСЏС‚СЊ С†РёС„СЂ РєРѕРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°,  СѓС‚РІРµСЂРґРёРІС€РµРіРѕ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР° (РѕСЂРёРµРЅС‚РёСЂРѕРІРєСѓ)
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class RiskInfType
     }
 
     /** 
-     * Set the 'CustomsActionCode' element value. Первые пять цифр кода таможенного органа,  утвердившего профиль риска (ориентировку)
+     * Set the 'CustomsActionCode' element value. РџРµСЂРІС‹Рµ РїСЏС‚СЊ С†РёС„СЂ РєРѕРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°,  СѓС‚РІРµСЂРґРёРІС€РµРіРѕ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР° (РѕСЂРёРµРЅС‚РёСЂРѕРІРєСѓ)
      * 
      * @param customsActionCode
      */

@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Описание документа, содержащего фактическое значение
+ * РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ С„Р°РєС‚РёС‡РµСЃРєРѕРµ Р·РЅР°С‡РµРЅРёРµ
  */
 public class FactValueDocumentType extends DescriptionDocumentType
 {
     private List<MarksType> markList = new ArrayList<MarksType>();
 
     /** 
-     * Get the list of 'Marks' element items. Сведения о штампах
+     * Get the list of 'Marks' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С€С‚Р°РјРїР°С…
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class FactValueDocumentType extends DescriptionDocumentType
     }
 
     /** 
-     * Set the list of 'Marks' element items. Сведения о штампах
+     * Set the list of 'Marks' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С€С‚Р°РјРїР°С…
      * 
      * @param list
      */

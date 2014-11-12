@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.billoflading;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.PortType;
 
 /** 
- * Сведения о погрузке/разгрузке груза в порту
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРіСЂСѓР·РєРµ/СЂР°Р·РіСЂСѓР·РєРµ РіСЂСѓР·Р° РІ РїРѕСЂС‚Сѓ
  */
 public class PortLoadType extends PortType
 {
     private String transferTime;
 
     /** 
-     * Get the 'TransferTime' element value. Время в часах, которое отводится на погрузку -разгрузку, передачу груза.
+     * Get the 'TransferTime' element value. Р’СЂРµРјСЏ РІ С‡Р°СЃР°С…, РєРѕС‚РѕСЂРѕРµ РѕС‚РІРѕРґРёС‚СЃСЏ РЅР° РїРѕРіСЂСѓР·РєСѓ -СЂР°Р·РіСЂСѓР·РєСѓ, РїРµСЂРµРґР°С‡Сѓ РіСЂСѓР·Р°.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PortLoadType extends PortType
     }
 
     /** 
-     * Set the 'TransferTime' element value. Время в часах, которое отводится на погрузку -разгрузку, передачу груза.
+     * Set the 'TransferTime' element value. Р’СЂРµРјСЏ РІ С‡Р°СЃР°С…, РєРѕС‚РѕСЂРѕРµ РѕС‚РІРѕРґРёС‚СЃСЏ РЅР° РїРѕРіСЂСѓР·РєСѓ -СЂР°Р·РіСЂСѓР·РєСѓ, РїРµСЂРµРґР°С‡Сѓ РіСЂСѓР·Р°.
      * 
      * @param transferTime
      */

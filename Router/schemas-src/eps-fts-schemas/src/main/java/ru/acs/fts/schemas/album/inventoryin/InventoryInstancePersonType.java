@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Сведения о лице, подающем опись.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РѕРїРёСЃСЊ.
  */
 public class InventoryInstancePersonType extends PersonBaseType
 {
@@ -14,7 +14,7 @@ public class InventoryInstancePersonType extends PersonBaseType
     private AuthoritesDocumentType authoritesDocument;
 
     /** 
-     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность.
+     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InventoryInstancePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность.
+     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ.
      * 
      * @param identityCard
      */
@@ -32,7 +32,7 @@ public class InventoryInstancePersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'AuthoritesDocument' element value. Документ, подтверждающий полномочия. 
+     * Get the 'AuthoritesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ. 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InventoryInstancePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'AuthoritesDocument' element value. Документ, подтверждающий полномочия. 
+     * Set the 'AuthoritesDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїРѕР»РЅРѕРјРѕС‡РёСЏ. 
      * 
      * @param authoritesDocument
      */

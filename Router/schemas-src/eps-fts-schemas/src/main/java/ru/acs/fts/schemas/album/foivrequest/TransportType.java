@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.foivrequest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Сведения о транспортном средстве
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
  */
 public class TransportType extends TransportMeansBaseType
 {
     private String transportModeCode;
 
     /** 
-     * Get the 'TransportModeCode' element value. Вид транспортного средства
+     * Get the 'TransportModeCode' element value. Р’РёРґ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Вид транспортного средства
+     * Set the 'TransportModeCode' element value. Р’РёРґ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
      * 
      * @param transportModeCode
      */

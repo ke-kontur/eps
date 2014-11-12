@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.revealedrisks;
 
 /** 
- * Дела об административных правонарушениях, уголовные дела
+ * Р”РµР»Р° РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС…, СѓРіРѕР»РѕРІРЅС‹Рµ РґРµР»Р°
  */
 public class AdministrativeInfractionType
 {
@@ -12,7 +12,7 @@ public class AdministrativeInfractionType
     private String kodeksPartPunkt;
 
     /** 
-     * Get the 'LineNumber' element value. Порядковый номер строки информации
+     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Порядковый номер строки информации
+     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param lineNumber
      */
@@ -30,7 +30,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Get the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска 
+     * Get the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР° 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Set the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска 
+     * Set the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР° 
      * 
      * @param pointCode
      */
@@ -48,7 +48,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Get the 'KodeksPunkt' element value. Номер статьи Кодекса Российской Федерации об административных правонарушениях (КоАП России), Уголовного Кодекса Российской Федерации (УК России)
+     * Get the 'KodeksPunkt' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС… (РљРѕРђРџ Р РѕСЃСЃРёРё), РЈРіРѕР»РѕРІРЅРѕРіРѕ РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё (РЈРљ Р РѕСЃСЃРёРё)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Set the 'KodeksPunkt' element value. Номер статьи Кодекса Российской Федерации об административных правонарушениях (КоАП России), Уголовного Кодекса Российской Федерации (УК России)
+     * Set the 'KodeksPunkt' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС… (РљРѕРђРџ Р РѕСЃСЃРёРё), РЈРіРѕР»РѕРІРЅРѕРіРѕ РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё (РЈРљ Р РѕСЃСЃРёРё)
      * 
      * @param kodeksPunkt
      */
@@ -66,7 +66,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Get the 'KodeksPartPunkt' element value. Номер части статьи КоАП России, УК России
+     * Get the 'KodeksPartPunkt' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р РѕСЃСЃРёРё, РЈРљ Р РѕСЃСЃРёРё
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class AdministrativeInfractionType
     }
 
     /** 
-     * Set the 'KodeksPartPunkt' element value. Номер части статьи КоАП России, УК России
+     * Set the 'KodeksPartPunkt' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р РѕСЃСЃРёРё, РЈРљ Р РѕСЃСЃРёРё
      * 
      * @param kodeksPartPunkt
      */

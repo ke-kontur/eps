@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.CUKTSCustomsPa
 import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSGoodsItemType;
 
 /** 
- * КТС. Внутренний формат. Сведения о товарах.
+ * РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С….
  */
 public class KTSinGoodsItemType extends KTSGoodsItemType
 {
@@ -19,7 +19,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     private List<AutomobileType> goodsAutomobileList = new ArrayList<AutomobileType>();
 
     /** 
-     * Get the list of 'KTSinPresentedDocuments' element items. КТС. Внутренний формат. Представленные документы.
+     * Get the list of 'KTSinPresentedDocuments' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹.
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTSinPresentedDocuments' element items. КТС. Внутренний формат. Представленные документы.
+     * Set the list of 'KTSinPresentedDocuments' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹.
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTSinCustomsPaymentCalculation' element items. КТС. Внутренний формат. Исчисление таможенных платежей
+     * Get the list of 'KTSinCustomsPaymentCalculation' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTSinCustomsPaymentCalculation' element items. КТС. Внутренний формат. Исчисление таможенных платежей
+     * Set the list of 'KTSinCustomsPaymentCalculation' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
      * 
      * @param list
      */
@@ -57,7 +57,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTSinGoodsOfficialMark' element items. КТС. Внутренний формат. Служебные отметки по товарам.
+     * Get the list of 'KTSinGoodsOfficialMark' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј.
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTSinGoodsOfficialMark' element items. КТС. Внутренний формат. Служебные отметки по товарам.
+     * Set the list of 'KTSinGoodsOfficialMark' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј.
      * 
      * @param list
      */
@@ -76,7 +76,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Get the list of 'GoodsAutomobile' element items. Сведения об автомобилях. Гр. 31.
+     * Get the list of 'GoodsAutomobile' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31.
      * 
      * @return list
      */
@@ -85,7 +85,7 @@ public class KTSinGoodsItemType extends KTSGoodsItemType
     }
 
     /** 
-     * Set the list of 'GoodsAutomobile' element items. Сведения об автомобилях. Гр. 31.
+     * Set the list of 'GoodsAutomobile' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31.
      * 
      * @param list
      */

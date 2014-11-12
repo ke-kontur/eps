@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Уведомление о результате обработки запроса статуса процесса работы с дополнением к договору поручительства.
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР° СЃС‚Р°С‚СѓСЃР° РїСЂРѕС†РµСЃСЃР° СЂР°Р±РѕС‚С‹ СЃ РґРѕРїРѕР»РЅРµРЅРёРµРј Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°.
  */
 public class GuaranteeResultType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class GuaranteeResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResultCode' element value. Код возврата
+     * Get the 'ResultCode' element value. РљРѕРґ РІРѕР·РІСЂР°С‚Р°
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultCode' element value. Код возврата
+     * Set the 'ResultCode' element value. РљРѕРґ РІРѕР·РІСЂР°С‚Р°
      * 
      * @param resultCode
      */
@@ -35,7 +35,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResultDescription' element items. Текстовое описание
+     * Get the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResultDescription' element items. Текстовое описание
+     * Set the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
+     * Get the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
+     * Set the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
      * 
      * @param resultCategory
      */
@@ -71,7 +71,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'StatusDescription' element value. Описание статуса процесса работы с дополнением к договору поручительства.
+     * Get the 'StatusDescription' element value. РћРїРёСЃР°РЅРёРµ СЃС‚Р°С‚СѓСЃР° РїСЂРѕС†РµСЃСЃР° СЂР°Р±РѕС‚С‹ СЃ РґРѕРїРѕР»РЅРµРЅРёРµРј Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusDescription' element value. Описание статуса процесса работы с дополнением к договору поручительства.
+     * Set the 'StatusDescription' element value. РћРїРёСЃР°РЅРёРµ СЃС‚Р°С‚СѓСЃР° РїСЂРѕС†РµСЃСЃР° СЂР°Р±РѕС‚С‹ СЃ РґРѕРїРѕР»РЅРµРЅРёРµРј Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°.
      * 
      * @param statusDescription
      */
@@ -89,7 +89,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class GuaranteeResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

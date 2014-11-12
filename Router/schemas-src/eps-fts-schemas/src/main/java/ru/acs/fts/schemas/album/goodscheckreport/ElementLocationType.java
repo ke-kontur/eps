@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodscheckreport;
 
 /** 
- * Идентификация атрибута сверки (номера графы ДТ)
+ * РРґРµРЅС‚РёС„РёРєР°С†РёСЏ Р°С‚СЂРёР±СѓС‚Р° СЃРІРµСЂРєРё (РЅРѕРјРµСЂР° РіСЂР°С„С‹ Р”Рў)
  */
 public class ElementLocationType
 {
@@ -14,7 +14,7 @@ public class ElementLocationType
     private String fieldName;
 
     /** 
-     * Get the 'ColumnNumber' element value. Номер графы ДТ
+     * Get the 'ColumnNumber' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Set the 'ColumnNumber' element value. Номер графы ДТ
+     * Set the 'ColumnNumber' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў
      * 
      * @param columnNumber
      */
@@ -32,7 +32,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. Номер товара по ДТ
+     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. Номер товара по ДТ
+     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
      * 
      * @param GTDGoodsNumber
      */
@@ -50,7 +50,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Get the 'LineNumber' element value. Номер строки
+     * Get the 'LineNumber' element value. РќРѕРјРµСЂ СЃС‚СЂРѕРєРё
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Номер строки
+     * Set the 'LineNumber' element value. РќРѕРјРµСЂ СЃС‚СЂРѕРєРё
      * 
      * @param lineNumber
      */
@@ -68,7 +68,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Get the 'SubLineNumber' element value. Номер подстроки
+     * Get the 'SubLineNumber' element value. РќРѕРјРµСЂ РїРѕРґСЃС‚СЂРѕРєРё
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Set the 'SubLineNumber' element value. Номер подстроки
+     * Set the 'SubLineNumber' element value. РќРѕРјРµСЂ РїРѕРґСЃС‚СЂРѕРєРё
      * 
      * @param subLineNumber
      */
@@ -86,7 +86,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. Номер записи по графе
+     * Get the 'RecordNumber' element value. РќРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РіСЂР°С„Рµ
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. Номер записи по графе
+     * Set the 'RecordNumber' element value. РќРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РіСЂР°С„Рµ
      * 
      * @param recordNumber
      */
@@ -104,7 +104,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Get the 'FieldName' element value. Название атрибута информации в графе (номер, дата, марка и т.д.)
+     * Get the 'FieldName' element value. РќР°Р·РІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚Р° РёРЅС„РѕСЂРјР°С†РёРё РІ РіСЂР°С„Рµ (РЅРѕРјРµСЂ, РґР°С‚Р°, РјР°СЂРєР° Рё С‚.Рґ.)
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ElementLocationType
     }
 
     /** 
-     * Set the 'FieldName' element value. Название атрибута информации в графе (номер, дата, марка и т.д.)
+     * Set the 'FieldName' element value. РќР°Р·РІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚Р° РёРЅС„РѕСЂРјР°С†РёРё РІ РіСЂР°С„Рµ (РЅРѕРјРµСЂ, РґР°С‚Р°, РјР°СЂРєР° Рё С‚.Рґ.)
      * 
      * @param fieldName
      */

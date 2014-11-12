@@ -31,7 +31,9 @@ public class MessageCMN11092BusinessProcess extends BusinessProcess
 		throws Exception 
 	{
 		EDEnvelope recvEnv = jobBatchContext.getReceivedEnvelope( );
-		List< EDEnvelope > envelopes = createAndPutEnvelopes( jobBatchContext, jobContext );
+        EnvelopeService envSrv = _serviceHolder.getEnvelopeService( );
+
+        List< EDEnvelope > envelopes = createAndPutEnvelopes( jobBatchContext, jobContext );
 		
 		checkRefDocumentId( recvEnv, jobBatchContext, jobContext );
 		
@@ -60,8 +62,11 @@ public class MessageCMN11092BusinessProcess extends BusinessProcess
 			/**
 			 * Локальная удаленка
 			 */
-			envelopes.add( prepareLocalCMN11092_Inner( recvEnv, jobBatchContext, jobContext ) );
-			envelopes.add( prepareLocalCMN11092_Outer( recvEnv, procInfo, jobBatchContext, jobContext ) );
+            EDEnvelope inner = prepareLocalCMN11092_Inner( recvEnv, jobBatchContext, jobContext );
+            EDEnvelope outer = prepareLocalCMN11092_Outer( recvEnv, procInfo, jobBatchContext, jobContext );
+            inner.setInitialEnvelopeID(envSrv.getEnvelope11052InnerByEnvelopeId(recvEnv.getInitialEnvelopeID()));
+			envelopes.add( inner );
+			envelopes.add( outer );
 			envelopes.add( prepareDeclarantCMN00004( recvEnv, jobBatchContext, jobContext ) );
 		}
 		else if ( ProcedureUdFlags.isRemoteRemoteness( procInfo.getUdFlag( ) ) )
@@ -82,7 +87,9 @@ public class MessageCMN11092BusinessProcess extends BusinessProcess
 				/**
 				 * На внутреннем РТУ (ТО получателя - удаленный) надо отправлять на EPS
 				 */
-				envelopes.add( prepareLocalCMN11092_Inner( recvEnv, jobBatchContext, jobContext ) );
+                EDEnvelope inner = prepareLocalCMN11092_Inner( recvEnv, jobBatchContext, jobContext );
+                inner.setInitialEnvelopeID(envSrv.getEnvelope11052InnerByEnvelopeId(recvEnv.getInitialEnvelopeID()));
+				envelopes.add( inner );
 				envelopes.add( prepareRemoteCMN11092( recvEnv, procInfo, jobBatchContext, jobContext ) );
 			}
 		}

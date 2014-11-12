@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust;
 
 /** 
- * Сведения о грузовых  местах  и упаковке товаров
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…  Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
  */
 public class TRPackingInfoType
 {
@@ -12,7 +12,7 @@ public class TRPackingInfoType
     private String pakagePartQuantity;
 
     /** 
-     * Get the 'PackingCode' element value. Код вида упаковки/грузового места товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов
+     * Get the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё/РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р° С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Set the 'PackingCode' element value. Код вида упаковки/грузового места товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов
+     * Set the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё/РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р° С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
      * 
      * @param packingCode
      */
@@ -30,7 +30,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Get the 'PakingQuantity' element value. Количество грузовых мест/упаковок
+     * Get the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚/СѓРїР°РєРѕРІРѕРє
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Set the 'PakingQuantity' element value. Количество грузовых мест/упаковок
+     * Set the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚/СѓРїР°РєРѕРІРѕРє
      * 
      * @param pakingQuantity
      */
@@ -48,7 +48,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Get the 'PackingDescription' element value. Описание грузовых  мест/упаковки
+     * Get the 'PackingDescription' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚/СѓРїР°РєРѕРІРєРё
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Set the 'PackingDescription' element value. Описание грузовых  мест/упаковки
+     * Set the 'PackingDescription' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚/СѓРїР°РєРѕРІРєРё
      * 
      * @param packingDescription
      */
@@ -66,7 +66,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Get the 'PakagePartQuantity' element value. Количество упаковки/грузовых мест, частично занятых товаром
+     * Get the 'PakagePartQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРєРё/РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class TRPackingInfoType
     }
 
     /** 
-     * Set the 'PakagePartQuantity' element value. Количество упаковки/грузовых мест, частично занятых товаром
+     * Set the 'PakagePartQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРєРё/РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
      * 
      * @param pakagePartQuantity
      */

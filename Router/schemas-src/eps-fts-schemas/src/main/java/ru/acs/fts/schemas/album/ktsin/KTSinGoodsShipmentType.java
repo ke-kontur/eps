@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSContractTer
 import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSGoodsShipmentType;
 
 /** 
- * КТС. Внутренний формат. Сведения о товарной партии.
+ * РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
  */
 public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
 {
@@ -16,7 +16,7 @@ public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
     private List<KTSinCommonOfficialMarkType> KTSinCommonOfficialMarkList = new ArrayList<KTSinCommonOfficialMarkType>();
 
     /** 
-     * Get the 'KTSContractTerms' element value. КТС - Сведения об  условиях поставки, валюте и общей стоимости. (гр. 12, 20, 22,23)
+     * Get the 'KTSContractTerms' element value. РљРўРЎ - РЎРІРµРґРµРЅРёСЏ РѕР±  СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё, РІР°Р»СЋС‚Рµ Рё РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РіСЂ. 12, 20, 22,23)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTSContractTerms' element value. КТС - Сведения об  условиях поставки, валюте и общей стоимости. (гр. 12, 20, 22,23)
+     * Set the 'KTSContractTerms' element value. РљРўРЎ - РЎРІРµРґРµРЅРёСЏ РѕР±  СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё, РІР°Р»СЋС‚Рµ Рё РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РіСЂ. 12, 20, 22,23)
      * 
      * @param KTSContractTerms
      */
@@ -34,7 +34,7 @@ public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'KTSinGoodsItem' element items. КТС. Внутренний формат. Сведения о товарах.
+     * Get the list of 'KTSinGoodsItem' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С….
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'KTSinGoodsItem' element items. КТС. Внутренний формат. Сведения о товарах.
+     * Set the list of 'KTSinGoodsItem' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С….
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'KTSinCommonOfficialMark' element items. КТС. Внутренний формат. Служебные отметки общие.
+     * Get the list of 'KTSinCommonOfficialMark' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РѕР±С‰РёРµ.
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class KTSinGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'KTSinCommonOfficialMark' element items. КТС. Внутренний формат. Служебные отметки общие.
+     * Set the list of 'KTSinCommonOfficialMark' element items. РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РѕР±С‰РёРµ.
      * 
      * @param list
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.tdtscustomsmark;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Регистрационный номер ТДТС
+ * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РўР”РўРЎ
  */
 public class TDTSType extends GTDIDType
 {
     private String transportModeCode;
 
     /** 
-     * Get the 'TransportModeCode' element value. Код вида транспорта
+     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TDTSType extends GTDIDType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. Код вида транспорта
+     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
      * 
      * @param transportModeCode
      */

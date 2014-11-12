@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.commonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Сведения о документе, удостоверяющем полномочия
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏ
  */
 public class AuthoritesDocumentType extends DocumentBaseType
 {
     private LocalDate complationAuthorityDate;
 
     /** 
-     * Get the 'ComplationAuthorityDate' element value. Дата окончания полномочий
+     * Get the 'ComplationAuthorityDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРѕР»РЅРѕРјРѕС‡РёР№
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AuthoritesDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ComplationAuthorityDate' element value. Дата окончания полномочий
+     * Set the 'ComplationAuthorityDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРѕР»РЅРѕРјРѕС‡РёР№
      * 
      * @param complationAuthorityDate
      */

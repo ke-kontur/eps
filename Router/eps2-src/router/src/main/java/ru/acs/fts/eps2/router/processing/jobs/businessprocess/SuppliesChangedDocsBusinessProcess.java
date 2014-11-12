@@ -46,7 +46,9 @@ public class SuppliesChangedDocsBusinessProcess extends BusinessProcess
 		{
 			for ( Edecl_Msg_Doc doc : docs )
 			{
-				if ( ! DocumentModeIDs.KDT_OUT_CU.equals( doc.getDocumentModeId( ) ) )
+				if ( ! DocumentModeIDs.KDT_OUT_CU.equals( doc.getDocumentModeId( )) &&
+                        ! DocumentModeIDs.REPRES_APPLIC_CHANGE.equals( doc.getDocumentModeId( )) &&
+                        !DocumentModeIDs.DECL_CHANGE_REQUEST.equals((doc.getDocumentModeId())))
 					checkRefDocument( doc, envelopeService, jobBatchContext );
 			}
 		

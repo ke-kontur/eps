@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Решение продления срока по каждому товару
+ * Р РµС€РµРЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РїРѕ РєР°Р¶РґРѕРјСѓ С‚РѕРІР°СЂСѓ
  */
 public class GoodsDecisionType
 {
@@ -15,7 +15,7 @@ public class GoodsDecisionType
     private List<String> reasonList = new ArrayList<String>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. Номер товара по ДО1
+     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рћ1
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsDecisionType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Номер товара по ДО1
+     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рћ1
      * 
      * @param goodsNumeric
      */
@@ -33,7 +33,7 @@ public class GoodsDecisionType
     }
 
     /** 
-     * Get the 'ReqPeriod' element value. Запрашиваемый срок
+     * Get the 'ReqPeriod' element value. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ СЃСЂРѕРє
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsDecisionType
     }
 
     /** 
-     * Set the 'ReqPeriod' element value. Запрашиваемый срок
+     * Set the 'ReqPeriod' element value. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ СЃСЂРѕРє
      * 
      * @param reqPeriod
      */
@@ -51,7 +51,7 @@ public class GoodsDecisionType
     }
 
     /** 
-     * Get the list of 'Reason' element items. Обоснование
+     * Get the list of 'Reason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class GoodsDecisionType
     }
 
     /** 
-     * Set the list of 'Reason' element items. Обоснование
+     * Set the list of 'Reason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
      * 
      * @param list
      */

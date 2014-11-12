@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportmeanschassispassport;
 import org.joda.time.LocalDate;
 
 /** 
- * Номер таможенного приходного ордера (ТПО)
+ * РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРёС…РѕРґРЅРѕРіРѕ РѕСЂРґРµСЂР° (РўРџРћ)
  */
 public class CustomsProfitOrderType
 {
@@ -14,7 +14,7 @@ public class CustomsProfitOrderType
     private String series;
 
     /** 
-     * Get the 'CustomsCode' element value. Код таможенного органа
+     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. Код таможенного органа
+     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsCode
      */
@@ -32,7 +32,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Дата регистрации документа.
+     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Дата регистрации документа.
+     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
      * 
      * @param registrationDate
      */
@@ -50,7 +50,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Get the 'Number' element value. Номер
+     * Get the 'Number' element value. РќРѕРјРµСЂ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Set the 'Number' element value. Номер
+     * Set the 'Number' element value. РќРѕРјРµСЂ
      * 
      * @param number
      */
@@ -68,7 +68,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Get the 'Series' element value. Серия
+     * Get the 'Series' element value. РЎРµСЂРёСЏ
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class CustomsProfitOrderType
     }
 
     /** 
-     * Set the 'Series' element value. Серия
+     * Set the 'Series' element value. РЎРµСЂРёСЏ
      * 
      * @param series
      */

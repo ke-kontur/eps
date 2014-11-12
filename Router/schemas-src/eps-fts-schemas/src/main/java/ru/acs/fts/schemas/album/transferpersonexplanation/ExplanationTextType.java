@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Текст пояснения
+ * РўРµРєСЃС‚ РїРѕСЏСЃРЅРµРЅРёСЏ
  */
 public class ExplanationTextType
 {
     private List<String> textLineList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'TextLine' element items. Строка текста
+     * Get the list of 'TextLine' element items. РЎС‚СЂРѕРєР° С‚РµРєСЃС‚Р°
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class ExplanationTextType
     }
 
     /** 
-     * Set the list of 'TextLine' element items. Строка текста
+     * Set the list of 'TextLine' element items. РЎС‚СЂРѕРєР° С‚РµРєСЃС‚Р°
      * 
      * @param list
      */

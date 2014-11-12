@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * Применение ТСТК
+ * РџСЂРёРјРµРЅРµРЅРёРµ РўРЎРўРљ
  */
 public class UseTSTKType
 {
@@ -10,7 +10,7 @@ public class UseTSTKType
     private String comments;
 
     /** 
-     * Get the 'TSTKCode' element value. Код применяемых ТСТК
+     * Get the 'TSTKCode' element value. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјС‹С… РўРЎРўРљ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class UseTSTKType
     }
 
     /** 
-     * Set the 'TSTKCode' element value. Код применяемых ТСТК
+     * Set the 'TSTKCode' element value. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјС‹С… РўРЎРўРљ
      * 
      * @param TSTKCode
      */
@@ -28,7 +28,7 @@ public class UseTSTKType
     }
 
     /** 
-     * Get the 'Comments' element value. Комментарии
+     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class UseTSTKType
     }
 
     /** 
-     * Set the 'Comments' element value. Комментарии
+     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param comments
      */

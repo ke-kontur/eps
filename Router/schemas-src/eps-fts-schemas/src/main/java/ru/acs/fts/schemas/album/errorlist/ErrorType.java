@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Описание ошибки
+ * РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
  */
 public class ErrorType
 {
@@ -25,7 +25,7 @@ public class ErrorType
     private String correctValue;
 
     /** 
-     * Get the 'DateInf' element value. Дата обнаружения ошибки.
+     * Get the 'DateInf' element value. Р”Р°С‚Р° РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ РѕС€РёР±РєРё.
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'DateInf' element value. Дата обнаружения ошибки.
+     * Set the 'DateInf' element value. Р”Р°С‚Р° РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ РѕС€РёР±РєРё.
      * 
      * @param dateInf
      */
@@ -43,7 +43,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Время обнаружения ошибки.
+     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ РѕС€РёР±РєРё.
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Время обнаружения ошибки.
+     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ РѕС€РёР±РєРё.
      * 
      * @param timeInf
      */
@@ -61,7 +61,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrCode' element value. Код ошибки.
+     * Get the 'ErrCode' element value. РљРѕРґ РѕС€РёР±РєРё.
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrCode' element value. Код ошибки.
+     * Set the 'ErrCode' element value. РљРѕРґ РѕС€РёР±РєРё.
      * 
      * @param errCode
      */
@@ -79,7 +79,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrorName' element value. Наименование ошибки.
+     * Get the 'ErrorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС€РёР±РєРё.
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrorName' element value. Наименование ошибки.
+     * Set the 'ErrorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС€РёР±РєРё.
      * 
      * @param errorName
      */
@@ -97,7 +97,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the list of 'ErrDescription' element items. Подробное описание ошибки
+     * Get the list of 'ErrDescription' element items. РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
      * 
      * @return list
      */
@@ -106,7 +106,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the list of 'ErrDescription' element items. Подробное описание ошибки
+     * Set the list of 'ErrDescription' element items. РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
      * 
      * @param list
      */
@@ -115,7 +115,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. Номер товара по ДТ/списку
+     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. Номер товара по ДТ/списку
+     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ
      * 
      * @param GTDGoodsNumber
      */
@@ -133,7 +133,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrElement' element value. Имя ошибочного узла/элемента/атрибута 
+     * Get the 'ErrElement' element value. РРјСЏ РѕС€РёР±РѕС‡РЅРѕРіРѕ СѓР·Р»Р°/СЌР»РµРјРµРЅС‚Р°/Р°С‚СЂРёР±СѓС‚Р° 
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrElement' element value. Имя ошибочного узла/элемента/атрибута 
+     * Set the 'ErrElement' element value. РРјСЏ РѕС€РёР±РѕС‡РЅРѕРіРѕ СѓР·Р»Р°/СЌР»РµРјРµРЅС‚Р°/Р°С‚СЂРёР±СѓС‚Р° 
      * 
      * @param errElement
      */
@@ -151,7 +151,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrField' element value. Номер графы ДТ/ДТС/КТС
+     * Get the 'ErrField' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў/Р”РўРЎ/РљРўРЎ
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrField' element value. Номер графы ДТ/ДТС/КТС
+     * Set the 'ErrField' element value. РќРѕРјРµСЂ РіСЂР°С„С‹ Р”Рў/Р”РўРЎ/РљРўРЎ
      * 
      * @param errField
      */
@@ -169,7 +169,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'SuccessContent' element value. Верное значение
+     * Get the 'SuccessContent' element value. Р’РµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'SuccessContent' element value. Верное значение
+     * Set the 'SuccessContent' element value. Р’РµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param successContent
      */
@@ -187,7 +187,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrLevel' element value. Уровень ошибки
+     * Get the 'ErrLevel' element value. РЈСЂРѕРІРµРЅСЊ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrLevel' element value. Уровень ошибки
+     * Set the 'ErrLevel' element value. РЈСЂРѕРІРµРЅСЊ РѕС€РёР±РєРё
      * 
      * @param errLevel
      */
@@ -205,7 +205,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'CodeOrder' element value. Код нормативного документа
+     * Get the 'CodeOrder' element value. РљРѕРґ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'CodeOrder' element value. Код нормативного документа
+     * Set the 'CodeOrder' element value. РљРѕРґ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param codeOrder
      */
@@ -223,7 +223,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'ErrElementDesc' element value. Описание поля в котором найдена ошибка
+     * Get the 'ErrElementDesc' element value. РћРїРёСЃР°РЅРёРµ РїРѕР»СЏ РІ РєРѕС‚РѕСЂРѕРј РЅР°Р№РґРµРЅР° РѕС€РёР±РєР°
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'ErrElementDesc' element value. Описание поля в котором найдена ошибка
+     * Set the 'ErrElementDesc' element value. РћРїРёСЃР°РЅРёРµ РїРѕР»СЏ РІ РєРѕС‚РѕСЂРѕРј РЅР°Р№РґРµРЅР° РѕС€РёР±РєР°
      * 
      * @param errElementDesc
      */
@@ -241,7 +241,7 @@ public class ErrorType
     }
 
     /** 
-     * Get the 'CorrectValue' element value. Верное (ожидаемое) значение
+     * Get the 'CorrectValue' element value. Р’РµСЂРЅРѕРµ (РѕР¶РёРґР°РµРјРѕРµ) Р·РЅР°С‡РµРЅРёРµ
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class ErrorType
     }
 
     /** 
-     * Set the 'CorrectValue' element value. Верное (ожидаемое) значение
+     * Set the 'CorrectValue' element value. Р’РµСЂРЅРѕРµ (РѕР¶РёРґР°РµРјРѕРµ) Р·РЅР°С‡РµРЅРёРµ
      * 
      * @param correctValue
      */

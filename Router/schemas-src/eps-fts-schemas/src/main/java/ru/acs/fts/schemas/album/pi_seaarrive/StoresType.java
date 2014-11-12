@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о судовых припасах
+ * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІС‹С… РїСЂРёРїР°СЃР°С…
  */
 public class StoresType
 {
@@ -15,7 +15,7 @@ public class StoresType
     private String storeSign;
 
     /** 
-     * Get the list of 'Name' element items. Наименование
+     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class StoresType
     }
 
     /** 
-     * Set the list of 'Name' element items. Наименование
+     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class StoresType
     }
 
     /** 
-     * Get the 'Quantity' element value. Количество
+     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class StoresType
     }
 
     /** 
-     * Set the 'Quantity' element value. Количество
+     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
      * 
      * @param quantity
      */
@@ -51,7 +51,7 @@ public class StoresType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifier' element value. Наименование единицы измерения
+     * Get the 'MeasureUnitQualifier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class StoresType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifier' element value. Наименование единицы измерения
+     * Set the 'MeasureUnitQualifier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param measureUnitQualifier
      */
@@ -69,7 +69,7 @@ public class StoresType
     }
 
     /** 
-     * Get the 'StoreSign' element value. Признак принадлежности припасов к определенному типу. 1-  эксплуатационные; 2 - продаваемые; 3 - потребительские.
+     * Get the 'StoreSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё РїСЂРёРїР°СЃРѕРІ Рє РѕРїСЂРµРґРµР»РµРЅРЅРѕРјСѓ С‚РёРїСѓ. 1-  СЌРєСЃРїР»СѓР°С‚Р°С†РёРѕРЅРЅС‹Рµ; 2 - РїСЂРѕРґР°РІР°РµРјС‹Рµ; 3 - РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class StoresType
     }
 
     /** 
-     * Set the 'StoreSign' element value. Признак принадлежности припасов к определенному типу. 1-  эксплуатационные; 2 - продаваемые; 3 - потребительские.
+     * Set the 'StoreSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё РїСЂРёРїР°СЃРѕРІ Рє РѕРїСЂРµРґРµР»РµРЅРЅРѕРјСѓ С‚РёРїСѓ. 1-  СЌРєСЃРїР»СѓР°С‚Р°С†РёРѕРЅРЅС‹Рµ; 2 - РїСЂРѕРґР°РІР°РµРјС‹Рµ; 3 - РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ.
      * 
      * @param storeSign
      */

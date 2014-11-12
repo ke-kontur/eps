@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.eps_docresponse;
 
 /** 
- * Информация о документе из архива
+ * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РёР· Р°СЂС…РёРІР°
  */
 public class ArchDocInfoType
 {
@@ -12,7 +12,7 @@ public class ArchDocInfoType
     private String archDocStatus;
 
     /** 
-     * Get the 'ArchID' element value. Идентификатор архива
+     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Set the 'ArchID' element value. Идентификатор архива
+     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
      * 
      * @param archID
      */
@@ -30,7 +30,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Get the 'ArchDeclID' element value. Идентификатор декларанта в архиве
+     * Get the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. Идентификатор декларанта в архиве
+     * Set the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @param archDeclID
      */
@@ -48,7 +48,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. Архивный идентификатор документа
+     * Get the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. Архивный идентификатор документа
+     * Set the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param archDocID
      */
@@ -66,7 +66,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Get the 'ArchDocStatus' element value. Статус документа в архиве
+     * Get the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ArchDocInfoType
     }
 
     /** 
-     * Set the 'ArchDocStatus' element value. Статус документа в архиве
+     * Set the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
      * 
      * @param archDocStatus
      */

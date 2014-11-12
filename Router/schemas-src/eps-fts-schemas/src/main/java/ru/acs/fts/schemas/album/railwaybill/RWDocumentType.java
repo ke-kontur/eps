@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.DocumentType;
 
 /** 
- * Документы, приложенные отправителем
+ * Р”РѕРєСѓРјРµРЅС‚С‹, РїСЂРёР»РѕР¶РµРЅРЅС‹Рµ РѕС‚РїСЂР°РІРёС‚РµР»РµРј
  */
 public class RWDocumentType extends DocumentType
 {
@@ -13,7 +13,7 @@ public class RWDocumentType extends DocumentType
     private String releaseCustoms;
 
     /** 
-     * Get the 'ExpirationDate' element value. Дата окончания действия документа
+     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RWDocumentType extends DocumentType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Дата окончания действия документа
+     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param expirationDate
      */
@@ -31,7 +31,7 @@ public class RWDocumentType extends DocumentType
     }
 
     /** 
-     * Get the 'ReleaseCustoms' element value. Таможенный орган выдавший документ
+     * Get the 'ReleaseCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІС‹РґР°РІС€РёР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RWDocumentType extends DocumentType
     }
 
     /** 
-     * Set the 'ReleaseCustoms' element value. Таможенный орган выдавший документ
+     * Set the 'ReleaseCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІС‹РґР°РІС€РёР№ РґРѕРєСѓРјРµРЅС‚
      * 
      * @param releaseCustoms
      */

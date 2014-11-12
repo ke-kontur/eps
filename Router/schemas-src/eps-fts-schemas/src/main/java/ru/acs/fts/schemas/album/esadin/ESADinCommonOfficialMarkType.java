@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADCommonOffic
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.SolutionNumberType;
 
 /** 
- * ДТ и ТД. Внутренний формат. Служебные отметки по ДТ.
+ * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ Р”Рў.
  */
 public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
 {
@@ -16,7 +16,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     private SolutionNumberType solutionNumber;
 
     /** 
-     * Get the 'TechnologicalMarkTypeCode' element value. Тип проставленной технологической отметки (1-внешняя, информация по которой может быть передана во внешнюю АИС, 2-внутренняя, информация которой доступна только в рамках ЕАИС)
+     * Get the 'TechnologicalMarkTypeCode' element value. РўРёРї РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё (1-РІРЅРµС€РЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРґР°РЅР° РІРѕ РІРЅРµС€РЅСЋСЋ РђРРЎ, 2-РІРЅСѓС‚СЂРµРЅРЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РєРѕС‚РѕСЂРѕР№ РґРѕСЃС‚СѓРїРЅР° С‚РѕР»СЊРєРѕ РІ СЂР°РјРєР°С… Р•РђРРЎ)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'TechnologicalMarkTypeCode' element value. Тип проставленной технологической отметки (1-внешняя, информация по которой может быть передана во внешнюю АИС, 2-внутренняя, информация которой доступна только в рамках ЕАИС)
+     * Set the 'TechnologicalMarkTypeCode' element value. РўРёРї РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё (1-РІРЅРµС€РЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРґР°РЅР° РІРѕ РІРЅРµС€РЅСЋСЋ РђРРЎ, 2-РІРЅСѓС‚СЂРµРЅРЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РєРѕС‚РѕСЂРѕР№ РґРѕСЃС‚СѓРїРЅР° С‚РѕР»СЊРєРѕ РІ СЂР°РјРєР°С… Р•РђРРЎ)
      * 
      * @param technologicalMarkTypeCode
      */
@@ -34,7 +34,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'RecordSerialNumber' element value. Порядковый номер записи по идентификатору проставленной технологической отметки
+     * Get the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'RecordSerialNumber' element value. Порядковый номер записи по идентификатору проставленной технологической отметки
+     * Set the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
      * 
      * @param recordSerialNumber
      */
@@ -52,7 +52,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. Код способа обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
+     * Get the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. Код способа обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
+     * Set the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
      * 
      * @param paymentWayCode
      */
@@ -70,7 +70,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GuaranteeFoundation' element value. Основание предоставления обеспечения уплаты таможенных  пошлин, налогов, специальных, антидемпинговых, компенсационных пошлин
+     * Get the 'GuaranteeFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ, СЃРїРµС†РёР°Р»СЊРЅС‹С…, Р°РЅС‚РёРґРµРјРїРёРЅРіРѕРІС‹С…, РєРѕРјРїРµРЅСЃР°С†РёРѕРЅРЅС‹С… РїРѕС€Р»РёРЅ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GuaranteeFoundation' element value. Основание предоставления обеспечения уплаты таможенных  пошлин, налогов, специальных, антидемпинговых, компенсационных пошлин
+     * Set the 'GuaranteeFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ, СЃРїРµС†РёР°Р»СЊРЅС‹С…, Р°РЅС‚РёРґРµРјРїРёРЅРіРѕРІС‹С…, РєРѕРјРїРµРЅСЃР°С†РёРѕРЅРЅС‹С… РїРѕС€Р»РёРЅ
      * 
      * @param guaranteeFoundation
      */
@@ -88,7 +88,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'SolutionNumber' element value. Номер решения
+     * Get the 'SolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ESADinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'SolutionNumber' element value. Номер решения
+     * Set the 'SolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
      * 
      * @param solutionNumber
      */

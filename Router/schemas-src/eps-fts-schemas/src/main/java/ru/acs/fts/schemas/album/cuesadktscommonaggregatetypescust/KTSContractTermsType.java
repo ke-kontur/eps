@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DeliveryTermsType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ContractCostType;
 
 /** 
- * КТС - Сведения об  условиях поставки, валюте и общей стоимости. (гр. 20, 22, 23, 24)
+ * РљРўРЎ - РЎРІРµРґРµРЅРёСЏ РѕР±  СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё, РІР°Р»СЋС‚Рµ Рё РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РіСЂ. 20, 22, 23, 24)
  */
 public class KTSContractTermsType extends ContractCostType
 {
@@ -14,7 +14,7 @@ public class KTSContractTermsType extends ContractCostType
     private DeliveryTermsType deliveryTerms;
 
     /** 
-     * Get the 'DealFeatureCode' element value. Код особенности сделки (договора). В соответствии с классификатором особенности внешнеэкономической сделки, используемым в государствах-членах Таможенного союза. Гр. 24 ДТ
+     * Get the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ. 24 Р”Рў
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KTSContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'DealFeatureCode' element value. Код особенности сделки (договора). В соответствии с классификатором особенности внешнеэкономической сделки, используемым в государствах-членах Таможенного союза. Гр. 24 ДТ
+     * Set the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ. 24 Р”Рў
      * 
      * @param dealFeatureCode
      */
@@ -32,7 +32,7 @@ public class KTSContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами в соответствии с классификатором характера сделки, используемым в государствах-членах Таможенного союза. Гр.24 ДТ
+     * Get the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ.24 Р”Рў
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class KTSContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами в соответствии с классификатором характера сделки, используемым в государствах-членах Таможенного союза. Гр.24 ДТ
+     * Set the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ.24 Р”Рў
      * 
      * @param dealNatureCode
      */
@@ -50,7 +50,7 @@ public class KTSContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'DeliveryTerms' element value. Условие поставки товаров
+     * Get the 'DeliveryTerms' element value. РЈСЃР»РѕРІРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class KTSContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'DeliveryTerms' element value. Условие поставки товаров
+     * Set the 'DeliveryTerms' element value. РЈСЃР»РѕРІРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param deliveryTerms
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Товар, на котором были выявлены риски
+ * РўРѕРІР°СЂ, РЅР° РєРѕС‚РѕСЂРѕРј Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
  */
 public class GoodsType
 {
@@ -13,7 +13,7 @@ public class GoodsType
     private List<ProfileRefType> profileRefList = new ArrayList<ProfileRefType>();
 
     /** 
-     * Get the 'GoodsNumber' element value. Номер товара
+     * Get the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. Номер товара
+     * Set the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
      * 
      * @param goodsNumber
      */
@@ -31,7 +31,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'ProfileRef' element items. Ссылки на ПР/СПР, которые сработали на конкретный товар
+     * Get the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РєРѕРЅРєСЂРµС‚РЅС‹Р№ С‚РѕРІР°СЂ
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'ProfileRef' element items. Ссылки на ПР/СПР, которые сработали на конкретный товар
+     * Set the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РєРѕРЅРєСЂРµС‚РЅС‹Р№ С‚РѕРІР°СЂ
      * 
      * @param list
      */

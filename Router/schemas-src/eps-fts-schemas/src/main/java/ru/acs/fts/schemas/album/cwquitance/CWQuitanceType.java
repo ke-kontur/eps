@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cwquitance;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.CWDocType;
 
 /** 
- * Квитанция об успешном получении информации
+ * РљРІРёС‚Р°РЅС†РёСЏ РѕР± СѓСЃРїРµС€РЅРѕРј РїРѕР»СѓС‡РµРЅРёРё РёРЅС„РѕСЂРјР°С†РёРё
  */
 public class CWQuitanceType extends CWDocType
 {
@@ -41,7 +41,7 @@ public class CWQuitanceType extends CWDocType
     }
 
     /** 
-     * Get the 'Quitance' element value. Квитанция
+     * Get the 'Quitance' element value. РљРІРёС‚Р°РЅС†РёСЏ
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class CWQuitanceType extends CWDocType
     }
 
     /** 
-     * Set the 'Quitance' element value. Квитанция
+     * Set the 'Quitance' element value. РљРІРёС‚Р°РЅС†РёСЏ
      * 
      * @param quitance
      */
@@ -69,7 +69,7 @@ public class CWQuitanceType extends CWDocType
     }
 
     /** 
-     * Get the 'DocumentWithErrors' element value. Документ,содержащий ошибки
+     * Get the 'DocumentWithErrors' element value. Р”РѕРєСѓРјРµРЅС‚,СЃРѕРґРµСЂР¶Р°С‰РёР№ РѕС€РёР±РєРё
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class CWQuitanceType extends CWDocType
     }
 
     /** 
-     * Set the 'DocumentWithErrors' element value. Документ,содержащий ошибки
+     * Set the 'DocumentWithErrors' element value. Р”РѕРєСѓРјРµРЅС‚,СЃРѕРґРµСЂР¶Р°С‰РёР№ РѕС€РёР±РєРё
      * 
      * @param documentWithErrors
      */
@@ -88,7 +88,7 @@ public class CWQuitanceType extends CWDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CWQuitanceType extends CWDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Категория товаров, включенных во внутрисистемный список товаров, запрещенных или ограниченных к перемещению через таможенную границу РФ
+ * РљР°С‚РµРіРѕСЂРёСЏ С‚РѕРІР°СЂРѕРІ, РІРєР»СЋС‡РµРЅРЅС‹С… РІРѕ РІРЅСѓС‚СЂРёСЃРёСЃС‚РµРјРЅС‹Р№ СЃРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ, Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤
  */
 public class KTsType
 {
@@ -16,7 +16,7 @@ public class KTsType
     private List<MarkUpType> descriptionMarkupList = new ArrayList<MarkUpType>();
 
     /** 
-     * Get the 'Description' element value. Текстовое описание КТ
+     * Get the 'Description' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РљРў
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class KTsType
     }
 
     /** 
-     * Set the 'Description' element value. Текстовое описание КТ
+     * Set the 'Description' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РљРў
      * 
      * @param description
      */
@@ -34,7 +34,7 @@ public class KTsType
     }
 
     /** 
-     * Get the 'KTID' element value. Системный идентификатор KT
+     * Get the 'KTID' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ KT
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class KTsType
     }
 
     /** 
-     * Set the 'KTID' element value. Системный идентификатор KT
+     * Set the 'KTID' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ KT
      * 
      * @param KTID
      */
@@ -52,7 +52,7 @@ public class KTsType
     }
 
     /** 
-     * Get the 'Requisites' element value. Реквизиты пункта КТ
+     * Get the 'Requisites' element value. Р РµРєРІРёР·РёС‚С‹ РїСѓРЅРєС‚Р° РљРў
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class KTsType
     }
 
     /** 
-     * Set the 'Requisites' element value. Реквизиты пункта КТ
+     * Set the 'Requisites' element value. Р РµРєРІРёР·РёС‚С‹ РїСѓРЅРєС‚Р° РљРў
      * 
      * @param requisites
      */
@@ -70,7 +70,7 @@ public class KTsType
     }
 
     /** 
-     * Get the 'Relevance' element value. Степень соответствия текстового описания объекта КТ (KTID) текстовому описанию товара(GOODS_INDEX). Минимальное значение 1, максимальное значение не ограничено (релевантность 0 приведет к отсутствию товара в списке)
+     * Get the 'Relevance' element value. РЎС‚РµРїРµРЅСЊ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ С‚РµРєСЃС‚РѕРІРѕРіРѕ РѕРїРёСЃР°РЅРёСЏ РѕР±СЉРµРєС‚Р° РљРў (KTID) С‚РµРєСЃС‚РѕРІРѕРјСѓ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР°(GOODS_INDEX). РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ 1, РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РЅРµ РѕРіСЂР°РЅРёС‡РµРЅРѕ (СЂРµР»РµРІР°РЅС‚РЅРѕСЃС‚СЊ 0 РїСЂРёРІРµРґРµС‚ Рє РѕС‚СЃСѓС‚СЃС‚РІРёСЋ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class KTsType
     }
 
     /** 
-     * Set the 'Relevance' element value. Степень соответствия текстового описания объекта КТ (KTID) текстовому описанию товара(GOODS_INDEX). Минимальное значение 1, максимальное значение не ограничено (релевантность 0 приведет к отсутствию товара в списке)
+     * Set the 'Relevance' element value. РЎС‚РµРїРµРЅСЊ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ С‚РµРєСЃС‚РѕРІРѕРіРѕ РѕРїРёСЃР°РЅРёСЏ РѕР±СЉРµРєС‚Р° РљРў (KTID) С‚РµРєСЃС‚РѕРІРѕРјСѓ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР°(GOODS_INDEX). РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ 1, РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РЅРµ РѕРіСЂР°РЅРёС‡РµРЅРѕ (СЂРµР»РµРІР°РЅС‚РЅРѕСЃС‚СЊ 0 РїСЂРёРІРµРґРµС‚ Рє РѕС‚СЃСѓС‚СЃС‚РІРёСЋ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ)
      * 
      * @param relevance
      */
@@ -88,7 +88,7 @@ public class KTsType
     }
 
     /** 
-     * Get the list of 'DescriptionMarkup' element items. Размеченное текстовое описание КТ
+     * Get the list of 'DescriptionMarkup' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РљРў
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class KTsType
     }
 
     /** 
-     * Set the list of 'DescriptionMarkup' element items. Размеченное текстовое описание КТ
+     * Set the list of 'DescriptionMarkup' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РљРў
      * 
      * @param list
      */

@@ -105,6 +105,18 @@ public class EDAddressFactory extends AddressFactory
 		{
 			return getMalakhitTransportAddress( );
 		}
+        else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) )
+        {
+            return getOrderTransportAddress( );
+        }
+        else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) )
+        {
+            return getPayment1TransportAddress( );
+        }
+        else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ) )
+        {
+            return getPayment2TransportAddress( );
+        }
 		else if ( BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.BALANCER ) )
 		{
 			String messageType = envelopeToSend.getMessageType( );
@@ -302,6 +314,33 @@ public class EDAddressFactory extends AddressFactory
 			Integer.parseInt( getConfigurator( ).getMalakhitExchType( ) ) 
 		);
 	}
+
+    private ExternalRoutingInfo getOrderTransportAddress( )
+            throws NumberFormatException, DatabaseException
+    {
+        return getCustomsTransportAddress(
+                getConfigurator( ).getOrderCustomsCode( ),
+                Integer.parseInt( getConfigurator( ).getOrderExchType( ) )
+        );
+    }
+
+    private ExternalRoutingInfo getPayment1TransportAddress( )
+            throws NumberFormatException, DatabaseException
+    {
+        return getCustomsTransportAddress(
+                getConfigurator( ).getPayment1CustomsCode( ),
+                Integer.parseInt( getConfigurator( ).getPayment1ExchType( ) )
+        );
+    }
+
+    private ExternalRoutingInfo getPayment2TransportAddress( )
+            throws NumberFormatException, DatabaseException
+    {
+        return getCustomsTransportAddress(
+                getConfigurator( ).getPayment2CustomsCode( ),
+                Integer.parseInt( getConfigurator( ).getPayment2ExchType( ) )
+        );
+    }
 	
 	private ExternalRoutingInfo getBalancerTransportAddress( String messageType )
 	{

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Параметры фильтра для значения типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
+ * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
  */
 public class AUDStringFilterParamsType extends AUDBaseFilterParamsType
 {
@@ -10,7 +10,7 @@ public class AUDStringFilterParamsType extends AUDBaseFilterParamsType
     private boolean caseSensitiveIndicator;
 
     /** 
-     * Get the 'FilterValue' element value. Значение фильтра для типа "string" (строка).
+     * Get the 'FilterValue' element value. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°).
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDStringFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the 'FilterValue' element value. Значение фильтра для типа "string" (строка).
+     * Set the 'FilterValue' element value. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°).
      * 
      * @param filterValue
      */
@@ -28,7 +28,7 @@ public class AUDStringFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Get the 'CaseSensitiveIndicator' element value. Признак: 0 (false) - выполнять поиск без учета регистра букв; 1 (true) - выполнять поиск с учетом регистра букв.
+     * Get the 'CaseSensitiveIndicator' element value. РџСЂРёР·РЅР°Рє: 0 (false) - РІС‹РїРѕР»РЅСЏС‚СЊ РїРѕРёСЃРє Р±РµР· СѓС‡РµС‚Р° СЂРµРіРёСЃС‚СЂР° Р±СѓРєРІ; 1 (true) - РІС‹РїРѕР»РЅСЏС‚СЊ РїРѕРёСЃРє СЃ СѓС‡РµС‚РѕРј СЂРµРіРёСЃС‚СЂР° Р±СѓРєРІ.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDStringFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the 'CaseSensitiveIndicator' element value. Признак: 0 (false) - выполнять поиск без учета регистра букв; 1 (true) - выполнять поиск с учетом регистра букв.
+     * Set the 'CaseSensitiveIndicator' element value. РџСЂРёР·РЅР°Рє: 0 (false) - РІС‹РїРѕР»РЅСЏС‚СЊ РїРѕРёСЃРє Р±РµР· СѓС‡РµС‚Р° СЂРµРіРёСЃС‚СЂР° Р±СѓРєРІ; 1 (true) - РІС‹РїРѕР»РЅСЏС‚СЊ РїРѕРёСЃРє СЃ СѓС‡РµС‚РѕРј СЂРµРіРёСЃС‚СЂР° Р±СѓРєРІ.
      * 
      * @param caseSensitiveIndicator
      */

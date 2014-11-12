@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Сведения о благополучии (местности, хозяйства)
+ * РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р»Р°РіРѕРїРѕР»СѓС‡РёРё (РјРµСЃС‚РЅРѕСЃС‚Рё, С…РѕР·СЏР№СЃС‚РІР°)
  */
 public class WellBeingInfoType
 {
@@ -14,7 +14,7 @@ public class WellBeingInfoType
     private List<String> descriptionWellBeingList = new ArrayList<String>();
 
     /** 
-     * Get the 'TermWellBeing' element value. Срок благополучия.
+     * Get the 'TermWellBeing' element value. РЎСЂРѕРє Р±Р»Р°РіРѕРїРѕР»СѓС‡РёСЏ.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WellBeingInfoType
     }
 
     /** 
-     * Set the 'TermWellBeing' element value. Срок благополучия.
+     * Set the 'TermWellBeing' element value. РЎСЂРѕРє Р±Р»Р°РіРѕРїРѕР»СѓС‡РёСЏ.
      * 
      * @param termWellBeing
      */
@@ -32,7 +32,7 @@ public class WellBeingInfoType
     }
 
     /** 
-     * Get the 'UnitTermWellBeing' element value. Единица измерения срока благополучия.
+     * Get the 'UnitTermWellBeing' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ СЃСЂРѕРєР° Р±Р»Р°РіРѕРїРѕР»СѓС‡РёСЏ.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WellBeingInfoType
     }
 
     /** 
-     * Set the 'UnitTermWellBeing' element value. Единица измерения срока благополучия.
+     * Set the 'UnitTermWellBeing' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ СЃСЂРѕРєР° Р±Р»Р°РіРѕРїРѕР»СѓС‡РёСЏ.
      * 
      * @param unitTermWellBeing
      */
@@ -50,7 +50,7 @@ public class WellBeingInfoType
     }
 
     /** 
-     * Get the list of 'DescriptionWellBeing' element items. Описание благополучия
+     * Get the list of 'DescriptionWellBeing' element items. РћРїРёСЃР°РЅРёРµ Р±Р»Р°РіРѕРїРѕР»СѓС‡РёСЏ
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class WellBeingInfoType
     }
 
     /** 
-     * Set the list of 'DescriptionWellBeing' element items. Описание благополучия
+     * Set the list of 'DescriptionWellBeing' element items. РћРїРёСЃР°РЅРёРµ Р±Р»Р°РіРѕРїРѕР»СѓС‡РёСЏ
      * 
      * @param list
      */

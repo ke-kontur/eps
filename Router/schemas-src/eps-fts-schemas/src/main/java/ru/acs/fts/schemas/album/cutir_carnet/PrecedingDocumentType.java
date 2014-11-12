@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Предшествующие документы
+ * РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹
  */
 public class PrecedingDocumentType
 {
@@ -22,7 +22,7 @@ public class PrecedingDocumentType
     private SupplementaryQuantityType supplementaryGoodsQuantity;
 
     /** 
-     * Get the 'PrecedingDocumentID' element value. Дополнительный идентификатор предшествующего документа
+     * Get the 'PrecedingDocumentID' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentID' element value. Дополнительный идентификатор предшествующего документа
+     * Set the 'PrecedingDocumentID' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param precedingDocumentID
      */
@@ -40,7 +40,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentCustomsCode' element value. Код таможенного органа предшествующего документа
+     * Get the 'PrecedingDocumentCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentCustomsCode' element value. Код таможенного органа предшествующего документа
+     * Set the 'PrecedingDocumentCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param precedingDocumentCustomsCode
      */
@@ -59,7 +59,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentDate' element value. Предшествующий документ - дата 
+     * Get the 'PrecedingDocumentDate' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґР°С‚Р° 
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentDate' element value. Предшествующий документ - дата 
+     * Set the 'PrecedingDocumentDate' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґР°С‚Р° 
      * 
      * @param precedingDocumentDate
      */
@@ -77,7 +77,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentNumber' element value. Предшествующий документ - регистрационный номер документа / номер документа при транзите
+     * Get the 'PrecedingDocumentNumber' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРё С‚СЂР°РЅР·РёС‚Рµ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentNumber' element value. Предшествующий документ - регистрационный номер документа / номер документа при транзите
+     * Set the 'PrecedingDocumentNumber' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРё С‚СЂР°РЅР·РёС‚Рµ
      * 
      * @param precedingDocumentNumber
      */
@@ -95,7 +95,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentGoodsNumeric' element value. Номер товара в предшествующем документе 
+     * Get the 'PrecedingDocumentGoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРј РґРѕРєСѓРјРµРЅС‚Рµ 
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentGoodsNumeric' element value. Номер товара в предшествующем документе 
+     * Set the 'PrecedingDocumentGoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРј РґРѕРєСѓРјРµРЅС‚Рµ 
      * 
      * @param precedingDocumentGoodsNumeric
      */
@@ -114,7 +114,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentName' element value. Наименование предшествующего документа
+     * Get the 'PrecedingDocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentName' element value. Наименование предшествующего документа
+     * Set the 'PrecedingDocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param precedingDocumentName
      */
@@ -132,7 +132,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentModeCode' element value. Код вида предшествующего документа в соответствии с классификатором видов документов
+     * Get the 'PrecedingDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentModeCode' element value. Код вида предшествующего документа в соответствии с классификатором видов документов
+     * Set the 'PrecedingDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ
      * 
      * @param precedingDocumentModeCode
      */
@@ -150,7 +150,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'LineNumber' element value. Порядковый номер строки
+     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Порядковый номер строки
+     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё
      * 
      * @param lineNumber
      */
@@ -168,7 +168,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
      * 
      * @param netWeightQuantity
      */
@@ -186,7 +186,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. Код страны таможенного органа
+     * Get the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. Код страны таможенного органа
+     * Set the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsCountryCode
      */
@@ -204,7 +204,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения
+     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения
+     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
      * 
      * @param supplementaryGoodsQuantity
      */

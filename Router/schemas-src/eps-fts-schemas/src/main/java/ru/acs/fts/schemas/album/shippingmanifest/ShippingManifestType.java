@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Путевой лист грузового автомобиля
+ * РџСѓС‚РµРІРѕР№ Р»РёСЃС‚ РіСЂСѓР·РѕРІРѕРіРѕ Р°РІС‚РѕРјРѕР±РёР»СЏ
  */
 public class ShippingManifestType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ShippingManifestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Series' element value. Серия путевого листа 
+     * Get the 'Series' element value. РЎРµСЂРёСЏ РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р° 
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Series' element value. Серия путевого листа 
+     * Set the 'Series' element value. РЎРµСЂРёСЏ РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р° 
      * 
      * @param series
      */
@@ -43,7 +43,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Number' element value. Номер путевого листа 
+     * Get the 'Number' element value. РќРѕРјРµСЂ РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р° 
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Number' element value. Номер путевого листа 
+     * Set the 'Number' element value. РќРѕРјРµСЂ РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р° 
      * 
      * @param number
      */
@@ -61,7 +61,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Date' element value. Дата путевого листа 
+     * Get the 'Date' element value. Р”Р°С‚Р° РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р° 
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Дата путевого листа 
+     * Set the 'Date' element value. Р”Р°С‚Р° РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р° 
      * 
      * @param date
      */
@@ -79,7 +79,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Notes' element value. Особые отметки 
+     * Get the 'Notes' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Notes' element value. Особые отметки 
+     * Set the 'Notes' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё 
      * 
      * @param notes
      */
@@ -97,7 +97,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Expire' element value. Дата окончания действия путевого листа
+     * Get the 'Expire' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р°
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Expire' element value. Дата окончания действия путевого листа
+     * Set the 'Expire' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РїСѓС‚РµРІРѕРіРѕ Р»РёСЃС‚Р°
      * 
      * @param expire
      */
@@ -115,7 +115,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationCreatedManifest' element value. Организация, выдавшая путевой лист 
+     * Get the 'OrganizationCreatedManifest' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationCreatedManifest' element value. Организация, выдавшая путевой лист 
+     * Set the 'OrganizationCreatedManifest' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
      * 
      * @param organizationCreatedManifest
      */
@@ -134,7 +134,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Driver' element value. Сведения о водителе 
+     * Get the 'Driver' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРѕРґРёС‚РµР»Рµ 
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Driver' element value. Сведения о водителе 
+     * Set the 'Driver' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРѕРґРёС‚РµР»Рµ 
      * 
      * @param driver
      */
@@ -152,7 +152,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Vehicle' element value. Сведения об автомобиле 
+     * Get the 'Vehicle' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»Рµ 
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Vehicle' element value. Сведения об автомобиле 
+     * Set the 'Vehicle' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»Рµ 
      * 
      * @param vehicle
      */
@@ -170,7 +170,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Escort' element value. Сопровождение 
+     * Get the 'Escort' element value. РЎРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ 
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Escort' element value. Сопровождение 
+     * Set the 'Escort' element value. РЎРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ 
      * 
      * @param escort
      */
@@ -188,7 +188,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Route' element items. Участок маршрута 
+     * Get the list of 'Route' element items. РЈС‡Р°СЃС‚РѕРє РјР°СЂС€СЂСѓС‚Р° 
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Route' element items. Участок маршрута 
+     * Set the list of 'Route' element items. РЈС‡Р°СЃС‚РѕРє РјР°СЂС€СЂСѓС‚Р° 
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'WorkingDay' element value. Режим работы
+     * Get the 'WorkingDay' element value. Р РµР¶РёРј СЂР°Р±РѕС‚С‹
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'WorkingDay' element value. Режим работы
+     * Set the 'WorkingDay' element value. Р РµР¶РёРј СЂР°Р±РѕС‚С‹
      * 
      * @param workingDay
      */
@@ -224,7 +224,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class ShippingManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Сведения о товарной партии
+ * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
  */
 public class ConsignmentType
 {
@@ -38,7 +38,7 @@ public class ConsignmentType
     private OrganizationType seller;
 
     /** 
-     * Get the 'LotID' element value. Идентификатор товарной партии, присваиваемый в АС "УПИ"
+     * Get the 'LotID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РІ РђРЎ "РЈРџР"
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'LotID' element value. Идентификатор товарной партии, присваиваемый в АС "УПИ"
+     * Set the 'LotID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РІ РђРЎ "РЈРџР"
      * 
      * @param lotID
      */
@@ -56,7 +56,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ConsignmentSerNumber' element value. Порядковый номер партии
+     * Get the 'ConsignmentSerNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ConsignmentSerNumber' element value. Порядковый номер партии
+     * Set the 'ConsignmentSerNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїР°СЂС‚РёРё
      * 
      * @param consignmentSerNumber
      */
@@ -74,7 +74,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'DispatchCountryCode2' element value. Символьный код страны отправления
+     * Get the 'DispatchCountryCode2' element value. РЎРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'DispatchCountryCode2' element value. Символьный код страны отправления
+     * Set the 'DispatchCountryCode2' element value. РЎРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
      * 
      * @param dispatchCountryCode2
      */
@@ -92,7 +92,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'DestinationCountryCode2' element value. Символьный код страны назначения
+     * Get the 'DestinationCountryCode2' element value. РЎРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'DestinationCountryCode2' element value. Символьный код страны назначения
+     * Set the 'DestinationCountryCode2' element value. РЎРёРјРІРѕР»СЊРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param destinationCountryCode2
      */
@@ -110,7 +110,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'TotalInvoicedCost' element value. Стоимость товаров в соответствии с коммерческими, транспортными документами
+     * Get the 'TotalInvoicedCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕРјРјРµСЂС‡РµСЃРєРёРјРё, С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'TotalInvoicedCost' element value. Стоимость товаров в соответствии с коммерческими, транспортными документами
+     * Set the 'TotalInvoicedCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕРјРјРµСЂС‡РµСЃРєРёРјРё, С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹РјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
      * 
      * @param totalInvoicedCost
      */
@@ -128,7 +128,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ShipSpecifQuantity' element value. Количество отгрузочных спецификаций
+     * Get the 'ShipSpecifQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ShipSpecifQuantity' element value. Количество отгрузочных спецификаций
+     * Set the 'ShipSpecifQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
      * 
      * @param shipSpecifQuantity
      */
@@ -146,7 +146,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
+     * Get the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
+     * Set the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
      * 
      * @param shipSpecifGoodsQuantity
      */
@@ -164,7 +164,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'TotalPackageQuantity' element value. Общее количество грузовых мест
+     * Get the 'TotalPackageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'TotalPackageQuantity' element value. Общее количество грузовых мест
+     * Set the 'TotalPackageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
      * 
      * @param totalPackageQuantity
      */
@@ -182,7 +182,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ContainerIndicator' element value. Признак контейнерной перевозки
+     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. Признак контейнерной перевозки
+     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
      * 
      * @param containerIndicator
      */
@@ -200,7 +200,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ContractCurrencyCode' element value. Код валюты контракта
+     * Get the 'ContractCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @return value
      */
@@ -209,7 +209,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ContractCurrencyCode' element value. Код валюты контракта
+     * Set the 'ContractCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
      * 
      * @param contractCurrencyCode
      */
@@ -218,7 +218,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'TTNDate' element value. Дата составления международной товаротранспортной накладной
+     * Get the 'TTNDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ С‚РѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -227,7 +227,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'TTNDate' element value. Дата составления международной товаротранспортной накладной
+     * Set the 'TTNDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ С‚РѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param TTNDate
      */
@@ -236,7 +236,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'CountGoodsNames' element value. Количество наименований товаров в партии
+     * Get the 'CountGoodsNames' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ РІ РїР°СЂС‚РёРё
      * 
      * @return value
      */
@@ -245,7 +245,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CountGoodsNames' element value. Количество наименований товаров в партии
+     * Set the 'CountGoodsNames' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ РІ РїР°СЂС‚РёРё
      * 
      * @param countGoodsNames
      */
@@ -254,7 +254,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Вес брутто товара общий (сумма по всем товарам), кг
+     * Get the 'GrossWeight' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂР° РѕР±С‰РёР№ (СЃСѓРјРјР° РїРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј), РєРі
      * 
      * @return value
      */
@@ -263,7 +263,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Вес брутто товара общий (сумма по всем товарам), кг
+     * Set the 'GrossWeight' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂР° РѕР±С‰РёР№ (СЃСѓРјРјР° РїРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј), РєРі
      * 
      * @param grossWeight
      */
@@ -272,7 +272,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'NetWeight' element value. Вес нетто товара общий (сумма по всем товарам), кг
+     * Get the 'NetWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР° РѕР±С‰РёР№ (СЃСѓРјРјР° РїРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј), РєРі
      * 
      * @return value
      */
@@ -281,7 +281,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'NetWeight' element value. Вес нетто товара общий (сумма по всем товарам), кг
+     * Set the 'NetWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР° РѕР±С‰РёР№ (СЃСѓРјРјР° РїРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј), РєРі
      * 
      * @param netWeight
      */
@@ -290,7 +290,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'PIoutDestination' element value. Пункт назначения
+     * Get the 'PIoutDestination' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @return value
      */
@@ -299,7 +299,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'PIoutDestination' element value. Пункт назначения
+     * Set the 'PIoutDestination' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
      * 
      * @param PIoutDestination
      */
@@ -308,7 +308,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ReloadCountryCode' element value. Код страны перегрузки товаров
+     * Get the 'ReloadCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -317,7 +317,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ReloadCountryCode' element value. Код страны перегрузки товаров
+     * Set the 'ReloadCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param reloadCountryCode
      */
@@ -326,7 +326,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ReloadCustomsCode' element value. Код таможенного органа перегрузки товаров
+     * Get the 'ReloadCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -335,7 +335,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ReloadCustomsCode' element value. Код таможенного органа перегрузки товаров
+     * Set the 'ReloadCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param reloadCustomsCode
      */
@@ -344,7 +344,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignee' element value. Сведения о получателе товаров
+     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -353,7 +353,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignee' element value. Сведения о получателе товаров
+     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param consignee
      */
@@ -362,7 +362,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignor' element value. Сведения об отправителе товаров
+     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -371,7 +371,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignor' element value. Сведения об отправителе товаров
+     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
      * 
      * @param consignor
      */
@@ -380,7 +380,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Сведения о товаре
+     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @return list
      */
@@ -389,7 +389,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Сведения о товаре
+     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
      * 
      * @param list
      */
@@ -398,7 +398,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'TTNAddress' element value. Адрес составления международной товаротранспортной накладной
+     * Get the 'TTNAddress' element value. РђРґСЂРµСЃ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ С‚РѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -407,7 +407,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'TTNAddress' element value. Адрес составления международной товаротранспортной накладной
+     * Set the 'TTNAddress' element value. РђРґСЂРµСЃ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ С‚РѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param TTNAddress
      */
@@ -416,7 +416,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Carrier' element value. Сведения о перевозчике
+     * Get the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @return value
      */
@@ -425,7 +425,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Carrier' element value. Сведения о перевозчике
+     * Set the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
      * 
      * @param carrier
      */
@@ -434,7 +434,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Declarant' element value. Сведения о декларанте
+     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @return value
      */
@@ -443,7 +443,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Declarant' element value. Сведения о декларанте
+     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
      * 
      * @param declarant
      */
@@ -452,7 +452,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Seller' element value. Сведения о продавце
+     * Get the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @return value
      */
@@ -461,7 +461,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Seller' element value. Сведения о продавце
+     * Set the 'Seller' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
      * 
      * @param seller
      */

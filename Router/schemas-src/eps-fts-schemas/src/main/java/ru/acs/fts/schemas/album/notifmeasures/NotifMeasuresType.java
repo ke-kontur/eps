@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Уведомление о применении меры по минимизации риска
+ * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёРјРµРЅРµРЅРёРё РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
  */
 public class NotifMeasuresType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class NotifMeasuresType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. Признак документа: 1 - уведомление о применении/неприменении меры по минимизации риска; 2 - уведомление о необходимости применения меры; 3 - уведомление об отсутствии необходимости проведения сверки сведений
+     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёРјРµРЅРµРЅРёРё/РЅРµРїСЂРёРјРµРЅРµРЅРёРё РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹; 3 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± РѕС‚СЃСѓС‚СЃС‚РІРёРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРѕРІРµРґРµРЅРёСЏ СЃРІРµСЂРєРё СЃРІРµРґРµРЅРёР№
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Признак документа: 1 - уведомление о применении/неприменении меры по минимизации риска; 2 - уведомление о необходимости применения меры; 3 - уведомление об отсутствии необходимости проведения сверки сведений
+     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёРјРµРЅРµРЅРёРё/РЅРµРїСЂРёРјРµРЅРµРЅРёРё РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹; 3 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± РѕС‚СЃСѓС‚СЃС‚РІРёРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРѕРІРµРґРµРЅРёСЏ СЃРІРµСЂРєРё СЃРІРµРґРµРЅРёР№
      * 
      * @param docSign
      */
@@ -45,7 +45,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. Идентификатор предварительной информации
+     * Get the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. Идентификатор предварительной информации
+     * Set the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
      * 
      * @param PIRegID
      */
@@ -63,7 +63,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcedureSign' element value. Таможенная процедура, при которой было принято решение должностным лицом: 0 - декларирование; 1 - таможенный транзит
+     * Get the 'ProcedureSign' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°, РїСЂРё РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рѕ РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рј Р»РёС†РѕРј: 0 - РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРµ; 1 - С‚Р°РјРѕР¶РµРЅРЅС‹Р№ С‚СЂР°РЅР·РёС‚
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcedureSign' element value. Таможенная процедура, при которой было принято решение должностным лицом: 0 - декларирование; 1 - таможенный транзит
+     * Set the 'ProcedureSign' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°, РїСЂРё РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рѕ РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рј Р»РёС†РѕРј: 0 - РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРµ; 1 - С‚Р°РјРѕР¶РµРЅРЅС‹Р№ С‚СЂР°РЅР·РёС‚
      * 
      * @param procedureSign
      */
@@ -81,7 +81,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasuresSign' element value. Признак применения мер
+     * Get the 'MeasuresSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasuresSign' element value. Признак применения мер
+     * Set the 'MeasuresSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
      * 
      * @param measuresSign
      */
@@ -99,7 +99,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasuresApplyDate' element value. Дата применения мер
+     * Get the 'MeasuresApplyDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasuresApplyDate' element value. Дата применения мер
+     * Set the 'MeasuresApplyDate' element value. Р”Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
      * 
      * @param measuresApplyDate
      */
@@ -117,7 +117,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasuresApplyTime' element value. Время применения мер
+     * Get the 'MeasuresApplyTime' element value. Р’СЂРµРјСЏ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasuresApplyTime' element value. Время применения мер
+     * Set the 'MeasuresApplyTime' element value. Р’СЂРµРјСЏ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
      * 
      * @param measuresApplyTime
      */
@@ -135,7 +135,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comments' element items. Комментарии
+     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @return list
      */
@@ -144,7 +144,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Комментарии
+     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
      * 
      * @param list
      */
@@ -153,7 +153,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
+     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
      * 
      * @param customsPerson
      */
@@ -171,7 +171,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDT' element value. Регистрационный номер ДТ
+     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Регистрационный номер ДТ
+     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
      * 
      * @param regNumberDT
      */
@@ -189,7 +189,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. Сведения о таможенном органе
+     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. Сведения о таможенном органе
+     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
      * 
      * @param customs
      */
@@ -207,7 +207,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class NotifMeasuresType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
+     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
      * 
      * @param documentModeID
      */

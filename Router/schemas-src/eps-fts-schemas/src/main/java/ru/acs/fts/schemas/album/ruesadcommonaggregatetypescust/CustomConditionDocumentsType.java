@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Сведения о документах, указываемых в  п. 9.1 -9.6 за исключением случаев, когда ДТ используется в качестве заявления на переработку товаров.
+ * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, СѓРєР°Р·С‹РІР°РµРјС‹С… РІ  Рї. 9.1 -9.6 Р·Р° РёСЃРєР»СЋС‡РµРЅРёРµРј СЃР»СѓС‡Р°РµРІ, РєРѕРіРґР° Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ.
  */
 public class CustomConditionDocumentsType extends DocumentBaseType
 {
@@ -21,7 +21,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     private String repairStatus;
 
     /** 
-     * Get the 'LineNumber' element value. Номер строки
+     * Get the 'LineNumber' element value. РќРѕРјРµСЂ СЃС‚СЂРѕРєРё
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LineNumber' element value. Номер строки
+     * Set the 'LineNumber' element value. РќРѕРјРµСЂ СЃС‚СЂРѕРєРё
      * 
      * @param lineNumber
      */
@@ -39,7 +39,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SubLineNumber' element value. Номер подстроки
+     * Get the 'SubLineNumber' element value. РќРѕРјРµСЂ РїРѕРґСЃС‚СЂРѕРєРё
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SubLineNumber' element value. Номер подстроки
+     * Set the 'SubLineNumber' element value. РќРѕРјРµСЂ РїРѕРґСЃС‚СЂРѕРєРё
      * 
      * @param subLineNumber
      */
@@ -57,7 +57,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentModeCode' element value. Код вида представляемого документа(заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
+     * Get the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°(Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. Код вида представляемого документа(заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
+     * Set the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°(Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
      * 
      * @param documentModeCode
      */
@@ -75,7 +75,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'InformationCode' element value. Код информации ( ДТ / разрешение на переработку / разрешение продления сроков по реимпорту и пр.)
+     * Get the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё ( Р”Рў / СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ / СЂР°Р·СЂРµС€РµРЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєРѕРІ РїРѕ СЂРµРёРјРїРѕСЂС‚Сѓ Рё РїСЂ.)
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'InformationCode' element value. Код информации ( ДТ / разрешение на переработку / разрешение продления сроков по реимпорту и пр.)
+     * Set the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё ( Р”Рў / СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ / СЂР°Р·СЂРµС€РµРЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєРѕРІ РїРѕ СЂРµРёРјРїРѕСЂС‚Сѓ Рё РїСЂ.)
      * 
      * @param informationCode
      */
@@ -93,7 +93,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PeriodDate' element value. Срок действия разрешения / срок помещения под режим ТС / дата фактического вывоза при реимпорте.
+     * Get the 'PeriodDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ / СЃСЂРѕРє РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ СЂРµР¶РёРј РўРЎ / РґР°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° РїСЂРё СЂРµРёРјРїРѕСЂС‚Рµ.
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PeriodDate' element value. Срок действия разрешения / срок помещения под режим ТС / дата фактического вывоза при реимпорте.
+     * Set the 'PeriodDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ / СЃСЂРѕРє РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ СЂРµР¶РёРј РўРЎ / РґР°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІС‹РІРѕР·Р° РїСЂРё СЂРµРёРјРїРѕСЂС‚Рµ.
      * 
      * @param periodDate
      */
@@ -111,7 +111,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ConditionDate' element value. Срок годности.
+     * Get the 'ConditionDate' element value. РЎСЂРѕРє РіРѕРґРЅРѕСЃС‚Рё.
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ConditionDate' element value. Срок годности.
+     * Set the 'ConditionDate' element value. РЎСЂРѕРє РіРѕРґРЅРѕСЃС‚Рё.
      * 
      * @param conditionDate
      */
@@ -129,7 +129,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SaleDate' element value. Срок реализации.
+     * Get the 'SaleDate' element value. РЎСЂРѕРє СЂРµР°Р»РёР·Р°С†РёРё.
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SaleDate' element value. Срок реализации.
+     * Set the 'SaleDate' element value. РЎСЂРѕРє СЂРµР°Р»РёР·Р°С†РёРё.
      * 
      * @param saleDate
      */
@@ -147,7 +147,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PresentingDate' element value. Дата представления недостающего документа / сведений
+     * Get the 'PresentingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentingDate' element value. Дата представления недостающего документа / сведений
+     * Set the 'PresentingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№
      * 
      * @param presentingDate
      */
@@ -165,7 +165,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'GoodsStatus' element value. Статус товаров при вывозе 1- Российские, 2 - Продукты переработки. 
+     * Get the 'GoodsStatus' element value. РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂРѕРІ РїСЂРё РІС‹РІРѕР·Рµ 1- Р РѕСЃСЃРёР№СЃРєРёРµ, 2 - РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё. 
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'GoodsStatus' element value. Статус товаров при вывозе 1- Российские, 2 - Продукты переработки. 
+     * Set the 'GoodsStatus' element value. РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂРѕРІ РїСЂРё РІС‹РІРѕР·Рµ 1- Р РѕСЃСЃРёР№СЃРєРёРµ, 2 - РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё. 
      * 
      * @param goodsStatus
      */
@@ -183,7 +183,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RepairStatus' element value. Признак ремонта за пределами таможенной территории РФ. 0 - Операции по ремонту не производились, 1 - Операции по ремонту производились
+     * Get the 'RepairStatus' element value. РџСЂРёР·РЅР°Рє СЂРµРјРѕРЅС‚Р° Р·Р° РїСЂРµРґРµР»Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤. 0 - РћРїРµСЂР°С†РёРё РїРѕ СЂРµРјРѕРЅС‚Сѓ РЅРµ РїСЂРѕРёР·РІРѕРґРёР»РёСЃСЊ, 1 - РћРїРµСЂР°С†РёРё РїРѕ СЂРµРјРѕРЅС‚Сѓ РїСЂРѕРёР·РІРѕРґРёР»РёСЃСЊ
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class CustomConditionDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RepairStatus' element value. Признак ремонта за пределами таможенной территории РФ. 0 - Операции по ремонту не производились, 1 - Операции по ремонту производились
+     * Set the 'RepairStatus' element value. РџСЂРёР·РЅР°Рє СЂРµРјРѕРЅС‚Р° Р·Р° РїСЂРµРґРµР»Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤. 0 - РћРїРµСЂР°С†РёРё РїРѕ СЂРµРјРѕРЅС‚Сѓ РЅРµ РїСЂРѕРёР·РІРѕРґРёР»РёСЃСЊ, 1 - РћРїРµСЂР°С†РёРё РїРѕ СЂРµРјРѕРЅС‚Сѓ РїСЂРѕРёР·РІРѕРґРёР»РёСЃСЊ
      * 
      * @param repairStatus
      */

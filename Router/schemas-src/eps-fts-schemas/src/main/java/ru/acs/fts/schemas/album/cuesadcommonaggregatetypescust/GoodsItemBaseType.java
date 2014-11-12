@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Базовый класс для описания товара
+ * Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
  */
 public class GoodsItemBaseType
 {
@@ -21,7 +21,7 @@ public class GoodsItemBaseType
     private String statisticalCost;
 
     /** 
-     * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого  товара / номер товара по списку/ номер корректируемого товара. Гр.32
+     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ  С‚РѕРІР°СЂР° / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ/ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°. Р“СЂ.32
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого  товара / номер товара по списку/ номер корректируемого товара. Гр.32
+     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ  С‚РѕРІР°СЂР° / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ/ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°. Р“СЂ.32
      * 
      * @param goodsNumeric
      */
@@ -39,7 +39,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'ListNumeric' element value. Номер товара в списке. Для РК
+     * Get the 'ListNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ. Р”Р»СЏ Р Рљ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'ListNumeric' element value. Номер товара в списке. Для РК
+     * Set the 'ListNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ СЃРїРёСЃРєРµ. Р”Р»СЏ Р Рљ
      * 
      * @param listNumeric
      */
@@ -57,7 +57,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'GoodFeatures' element value. МПО (при декларировании товаров, пересылаемых в международных почтовых отправлениях). ЭКГ (при декларировании экспресс-грузов). Гр.32, 2-й подраздел ДТ
+     * Get the 'GoodFeatures' element value. РњРџРћ (РїСЂРё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё С‚РѕРІР°СЂРѕРІ, РїРµСЂРµСЃС‹Р»Р°РµРјС‹С… РІ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕС‡С‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёСЏС…). Р­РљР“ (РїСЂРё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ). Р“СЂ.32, 2-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodFeatures' element value. МПО (при декларировании товаров, пересылаемых в международных почтовых отправлениях). ЭКГ (при декларировании экспресс-грузов). Гр.32, 2-й подраздел ДТ
+     * Set the 'GoodFeatures' element value. РњРџРћ (РїСЂРё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё С‚РѕРІР°СЂРѕРІ, РїРµСЂРµСЃС‹Р»Р°РµРјС‹С… РІ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕС‡С‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёСЏС…). Р­РљР“ (РїСЂРё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРё СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ). Р“СЂ.32, 2-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
      * 
      * @param goodFeatures
      */
@@ -75,7 +75,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. Наименование (торговое, коммерческое или иное традиционное наименование) товаров/ "Товары согласно прилагаемому Списку". Гр.31 первый подраздел
+     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ/ "РўРѕРІР°СЂС‹ СЃРѕРіР»Р°СЃРЅРѕ РїСЂРёР»Р°РіР°РµРјРѕРјСѓ РЎРїРёСЃРєСѓ". Р“СЂ.31 РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. Наименование (торговое, коммерческое или иное традиционное наименование) товаров/ "Товары согласно прилагаемому Списку". Гр.31 первый подраздел
+     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ/ "РўРѕРІР°СЂС‹ СЃРѕРіР»Р°СЃРЅРѕ РїСЂРёР»Р°РіР°РµРјРѕРјСѓ РЎРїРёСЃРєСѓ". Р“СЂ.31 РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг). Гр. 35
+     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі). Р“СЂ. 35
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг). Гр. 35
+     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі). Р“СЂ. 35
      * 
      * @param grossWeightQuantity
      */
@@ -111,7 +111,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг). Гр.38
+     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі). Р“СЂ.38
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг). Гр.38
+     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі). Р“СЂ.38
      * 
      * @param netWeightQuantity
      */
@@ -129,7 +129,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'NetWeightQuantity2' element value. Вес товара, нетто без учета всех видов упаковки. Гр.38
+     * Get the 'NetWeightQuantity2' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ Р±РµР· СѓС‡РµС‚Р° РІСЃРµС… РІРёРґРѕРІ СѓРїР°РєРѕРІРєРё. Р“СЂ.38
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'NetWeightQuantity2' element value. Вес товара, нетто без учета всех видов упаковки. Гр.38
+     * Set the 'NetWeightQuantity2' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ Р±РµР· СѓС‡РµС‚Р° РІСЃРµС… РІРёРґРѕРІ СѓРїР°РєРѕРІРєРё. Р“СЂ.38
      * 
      * @param netWeightQuantity2
      */
@@ -147,7 +147,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Цена/ стоимость товара. Гр 42
+     * Get the 'InvoicedCost' element value. Р¦РµРЅР°/ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ 42
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Цена/ стоимость товара. Гр 42
+     * Set the 'InvoicedCost' element value. Р¦РµРЅР°/ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ 42
      * 
      * @param invoicedCost
      */
@@ -165,7 +165,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'CustomsCost' element value. Таможенная стоимость товара. Гр. 45
+     * Get the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ. 45
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'CustomsCost' element value. Таможенная стоимость товара. Гр. 45
+     * Set the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ. 45
      * 
      * @param customsCost
      */
@@ -183,7 +183,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Get the 'StatisticalCost' element value. Статистическая стоимость товара. Гр. 46
+     * Get the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ. 46
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class GoodsItemBaseType
     }
 
     /** 
-     * Set the 'StatisticalCost' element value. Статистическая стоимость товара. Гр. 46
+     * Set the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ. 46
      * 
      * @param statisticalCost
      */

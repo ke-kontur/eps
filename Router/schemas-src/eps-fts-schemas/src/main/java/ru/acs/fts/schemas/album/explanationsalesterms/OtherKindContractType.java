@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Вид договора: иной
+ * Р’РёРґ РґРѕРіРѕРІРѕСЂР°: РёРЅРѕР№
  */
 public class OtherKindContractType extends DescriptionKindContractType
 {
     private String otherComments;
 
     /** 
-     * Get the 'OtherComments' element value. Иной (указать вид)
+     * Get the 'OtherComments' element value. РРЅРѕР№ (СѓРєР°Р·Р°С‚СЊ РІРёРґ)
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class OtherKindContractType extends DescriptionKindContractType
     }
 
     /** 
-     * Set the 'OtherComments' element value. Иной (указать вид)
+     * Set the 'OtherComments' element value. РРЅРѕР№ (СѓРєР°Р·Р°С‚СЊ РІРёРґ)
      * 
      * @param otherComments
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.resulttk;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Квитанция
+ * РљРІРёС‚Р°РЅС†РёСЏ
  */
 public class CheckType extends DocumentBaseType
 {
     private String sum;
 
     /** 
-     * Get the 'Sum' element value. Сумма дорожных сборов/штрафа
+     * Get the 'Sum' element value. РЎСѓРјРјР° РґРѕСЂРѕР¶РЅС‹С… СЃР±РѕСЂРѕРІ/С€С‚СЂР°С„Р°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CheckType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Sum' element value. Сумма дорожных сборов/штрафа
+     * Set the 'Sum' element value. РЎСѓРјРјР° РґРѕСЂРѕР¶РЅС‹С… СЃР±РѕСЂРѕРІ/С€С‚СЂР°С„Р°
      * 
      * @param sum
      */

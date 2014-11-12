@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * Номер МПО
+ * РќРѕРјРµСЂ РњРџРћ
  */
 public class MPONumberType
 {
@@ -11,7 +11,7 @@ public class MPONumberType
     private String countryCode;
 
     /** 
-     * Get the 'ServiceIndicator' element value. Указатель сервиса
+     * Get the 'ServiceIndicator' element value. РЈРєР°Р·Р°С‚РµР»СЊ СЃРµСЂРІРёСЃР°
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MPONumberType
     }
 
     /** 
-     * Set the 'ServiceIndicator' element value. Указатель сервиса
+     * Set the 'ServiceIndicator' element value. РЈРєР°Р·Р°С‚РµР»СЊ СЃРµСЂРІРёСЃР°
      * 
      * @param serviceIndicator
      */
@@ -29,7 +29,7 @@ public class MPONumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Порядковый номер
+     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MPONumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Порядковый номер
+     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
      * 
      * @param serialNumber
      */
@@ -47,7 +47,7 @@ public class MPONumberType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Код страны
+     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MPONumberType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Код страны
+     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCode
      */

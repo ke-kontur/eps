@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Получатель поставки. Для РФ
+ * РџРѕР»СѓС‡Р°С‚РµР»СЊ РїРѕСЃС‚Р°РІРєРё. Р”Р»СЏ Р Р¤
  */
 public class SupplyConsigneeType extends OrganizationBaseType
 {
     private String countryCode;
 
     /** 
-     * Get the 'CountryCode' element value. Буквенный код страны
+     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SupplyConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Буквенный код страны
+     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
      * 
      * @param countryCode
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 
 /** 
- * Описание товарных партий
+ * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№
  */
 public class CargoManifestType
 {
@@ -23,7 +23,7 @@ public class CargoManifestType
     private AWBNumberType cargoManifestNumber;
 
     /** 
-     * Get the 'CargoPlaceNumber' element value. Количество мест по грузовой накладной
+     * Get the 'CargoPlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ РїРѕ РіСЂСѓР·РѕРІРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'CargoPlaceNumber' element value. Количество мест по грузовой накладной
+     * Set the 'CargoPlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ РїРѕ РіСЂСѓР·РѕРІРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param cargoPlaceNumber
      */
@@ -41,7 +41,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'TotalWeight' element value. Общий вес по грузовой накладной
+     * Get the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ РїРѕ РіСЂСѓР·РѕРІРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'TotalWeight' element value. Общий вес по грузовой накладной
+     * Set the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ РїРѕ РіСЂСѓР·РѕРІРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param totalWeight
      */
@@ -59,7 +59,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Get the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Set the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param dateExpectedArrival
      */
@@ -77,7 +77,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Get the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
+     * Set the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
      * 
      * @param timeExpectedArrival
      */
@@ -95,7 +95,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. Сведения о перевозимом грузе
+     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјРѕРј РіСЂСѓР·Рµ
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. Сведения о перевозимом грузе
+     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјРѕРј РіСЂСѓР·Рµ
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'LoadingPoint' element value. Пункт погрузки товаров
+     * Get the 'LoadingPoint' element value. РџСѓРЅРєС‚ РїРѕРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'LoadingPoint' element value. Пункт погрузки товаров
+     * Set the 'LoadingPoint' element value. РџСѓРЅРєС‚ РїРѕРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param loadingPoint
      */
@@ -131,7 +131,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'UnloadingPoint' element value. Пункт выгрузки товаров
+     * Get the 'UnloadingPoint' element value. РџСѓРЅРєС‚ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'UnloadingPoint' element value. Пункт выгрузки товаров
+     * Set the 'UnloadingPoint' element value. РџСѓРЅРєС‚ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
      * 
      * @param unloadingPoint
      */
@@ -149,7 +149,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств.
+     * Get the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств.
+     * Set the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
      * 
      * @param borderCustoms
      */
@@ -167,7 +167,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Get the 'CargoManifestNumber' element value. Номер грузовой накладной
+     * Get the 'CargoManifestNumber' element value. РќРѕРјРµСЂ РіСЂСѓР·РѕРІРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class CargoManifestType
     }
 
     /** 
-     * Set the 'CargoManifestNumber' element value. Номер грузовой накладной
+     * Set the 'CargoManifestNumber' element value. РќРѕРјРµСЂ РіСЂСѓР·РѕРІРѕР№ РЅР°РєР»Р°РґРЅРѕР№
      * 
      * @param cargoManifestNumber
      */
