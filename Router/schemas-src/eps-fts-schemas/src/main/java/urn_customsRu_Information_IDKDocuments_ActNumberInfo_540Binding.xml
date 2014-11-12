@@ -1,0 +1,12 @@
+<binding xmlns:actNum="urn:customs.ru:Information:IDKDocuments:ActNumberInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:ActNumberInfo:5.4.0" default="elements" prefix="actNum"/>
+  <mapping abstract="true" type-name="actNum:ActNumberInfoType" class="ru.acs.fts.schemas.album.ActNumberInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="catIDK_ru:IDKResultIDType" get-method="getResultInfo" set-method="setResultInfo" name="ResultInfo"/>
+    <structure map-as="cat_ru:GTDID6Type" get-method="getActRegNumber" set-method="setActRegNumber" name="ActRegNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ActNumberInfoType" name="ActNumberInfo">
+    <structure map-as="actNum:ActNumberInfoType"/>
+  </mapping>
+</binding>

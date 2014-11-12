@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:CustomsDocuments:AssignmentDecisionMaking:5.4.0" version="5.4.0.0" xmlns:adm="urn:customs.ru:Information:CustomsDocuments:AssignmentDecisionMaking:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Направление для принятия решений</xs:documentation>
+   </xs:annotation>
+   <xs:element name="AssignmentDecisionMaking" type="adm:AssignmentDecisionMakingType"/>
+   <xs:complexType name="AssignmentDecisionMakingType">
+      <xs:annotation>
+         <xs:documentation>Направления для принятие решений</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="Date" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата </xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="Time" type="clt_ru:TimeCustType">
+                  <xs:annotation>
+                     <xs:documentation>Время</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="Mark" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Отметки уполномоченных должностных лиц о принятии решения (решений)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="OtherMark" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Иные служебные отметки</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="MeasureCode" type="clt_ru:Code2Type">
+                  <xs:annotation>
+                     <xs:documentation>Код меры</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="CustomsPerson" type="cat_ru:CustomsPersonType">
+                  <xs:annotation>
+                     <xs:documentation>Должностное лицо таможенного органа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskTNVED" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по классификации товаров с соответствии с ТН ВЭД России</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskCountry" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по стране происхождения</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskCustomsContril" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по организации таможенного контроля</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskDuty" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по таможенным пошлинам, налогам, а также обеспечению уплаты таможенных платежей</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskIntellectualProperty" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по запретам, ограничениям и защите интеллектуальной собственности</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskCustomsCost" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по таможенной стоимости</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskCurrency" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер профиля риска по валюте контроля</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="CustomsChief" type="cat_ru:CustomsPersonType">
+                  <xs:annotation>
+                     <xs:documentation>Начальник таможенного органа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="GTDID" type="cat_ru:GTDIDType">
+                  <xs:annotation>
+                     <xs:documentation>Регистрационный номер  ДТ.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskRestrictionExpControl" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер риска по торговым ограничениям и экспортному контролю</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="RiskControlFissileRadioactiveMaterial" type="adm:RiskType">
+                  <xs:annotation>
+                     <xs:documentation>Номер риска по контролю делящихся и радиоактивных материалов</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1006025E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа.</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы.</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="RiskType">
+      <xs:annotation>
+         <xs:documentation>Номер профиля риска</xs:documentation>
+      </xs:annotation>
+      <xs:sequence>
+         <xs:element name="TerrActionCode" type="clt_ru:CodeVariable2Type">
+            <xs:annotation>
+               <xs:documentation>Код вида документа</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="CustomsActionCode" type="clt_ru:Code5Type">
+            <xs:annotation>
+               <xs:documentation>Первые пять цифр кода таможенного органа,  утвердившего профиль риска (ориентировку)</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RiskProfileRegDate" type="clt_ru:DateCustType">
+            <xs:annotation>
+               <xs:documentation>Дата регистрации профиля риска</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RiskProfileNumber" type="clt_ru:Text5Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер профиля риска</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="RiskProfileNumberVersion" type="clt_ru:Quantity3Type">
+            <xs:annotation>
+               <xs:documentation>Порядковый номер версии профиля риска.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

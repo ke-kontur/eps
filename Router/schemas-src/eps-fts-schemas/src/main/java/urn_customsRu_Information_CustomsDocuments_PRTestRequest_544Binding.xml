@@ -1,0 +1,47 @@
+<binding xmlns:ns2="urn:customs.ru:Information:CustomsDocuments:PRTestRequest:5.4.4" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PRTestRequest:5.4.4" default="elements"/>
+  <mapping abstract="true" type-name="ns2:PRTestRequestType" class="ru.acs.fts.schemas.album.PRTestRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="UserName" get-method="getUserName" set-method="setUserName"/>
+    <value style="element" name="TestName" get-method="getTestName" set-method="setTestName"/>
+    <value style="element" name="TestComment" get-method="getTestComment" set-method="setTestComment" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="UserSubdivisionCode" get-method="getUserSubdivisionCode" set-method="setUserSubdivisionCode" usage="optional"/>
+    <collection get-method="getTestPeriodList" set-method="setTestPeriodList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.PRTestRequestType$TestPeriod" name="TestPeriod">
+        <value style="element" name="TestStart" get-method="getTestStart" set-method="setTestStart" format="LocalDate.default"/>
+        <value style="element" name="TestEnd" get-method="getTestEnd" set-method="setTestEnd" format="LocalDate.default"/>
+      </structure>
+    </collection>
+    <structure get-method="getChoice" set-method="setChoice" usage="optional" ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifDTNumber" get-method="getDTNumber" set-method="setDTNumber" usage="optional" name="DTNumber"/>
+      <structure map-as="ns2:ServiceInfoType" test-method="ifServiceInfo" get-method="getServiceInfo" set-method="setServiceInfo" usage="optional" name="ServiceInfo"/>
+      <structure map-as="ns2:TIRIDType" test-method="ifTIRID" get-method="getTIRID" set-method="setTIRID" usage="optional" name="TIRID"/>
+      <structure map-as="ns2:TDTSType" test-method="ifTDTS" get-method="getTDTS" set-method="setTDTS" usage="optional" name="TDTS"/>
+      <structure map-as="ns2:MPOType" test-method="ifMPO" get-method="getMPO" set-method="setMPO" usage="optional" name="MPO"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.PRTestRequestType" name="PRTestRequest">
+    <structure map-as="ns2:PRTestRequestType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns2:ServiceInfoType" class="ru.acs.fts.schemas.album.ServiceInfoType">
+    <value style="element" name="TransportID" get-method="getTransportID" set-method="setTransportID"/>
+    <value style="element" name="CrossDate" get-method="getCrossDate" set-method="setCrossDate" format="LocalDate.default"/>
+    <value style="element" name="CustomsArriveID" get-method="getCustomsArriveID" set-method="setCustomsArriveID"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns2:TIRIDType" class="ru.acs.fts.schemas.album.TIRIDType">
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRPageNumber" get-method="getTIRPageNumber" set-method="setTIRPageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns2:TDTSType" class="ru.acs.fts.schemas.album.TDTSType">
+    <structure map-as="cat_ru:GTDIDType"/>
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns2:MPOType" class="ru.acs.fts.schemas.album.MPOType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+  </mapping>
+</binding>

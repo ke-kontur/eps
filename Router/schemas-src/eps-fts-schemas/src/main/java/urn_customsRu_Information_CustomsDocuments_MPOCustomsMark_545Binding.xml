@@ -1,0 +1,26 @@
+<binding xmlns:mpocm="urn:customs.ru:Information:CustomsDocuments:MPOCustomsMark:5.4.5" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:MPOCustomsMark:5.4.5" default="elements" prefix="mpocm"/>
+  <mapping abstract="true" type-name="mpocm:MPOCustomsMarkType" class="ru.acs.fts.schemas.album.mpocustomsmark.MPOCustomsMarkType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DecisionDate" get-method="getDecisionDate" set-method="setDecisionDate" format="LocalDate.default"/>
+    <value style="element" name="DecisionTime" get-method="getDecisionTime" set-method="setDecisionTime" usage="optional"/>
+    <value style="element" name="Decision" get-method="getDecision" set-method="setDecision"/>
+    <value style="element" name="DecisionDescription" get-method="getDecisionDescription" set-method="setDecisionDescription" usage="optional"/>
+    <collection get-method="getCommentList" set-method="setCommentList" usage="optional" create-type="java.util.ArrayList">
+      <value style="element" name="Comments" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="ProlongDate" get-method="getProlongDate" set-method="setProlongDate" usage="optional" format="LocalDate.default"/>
+    <structure map-as="mpocm:MPO_RegistrationType" get-method="getMPORegistration" set-method="setMPORegistration" name="MPO_Registration"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.mpocustomsmark.MPOCustomsMarkType" name="MPOCustomsMark">
+    <structure map-as="mpocm:MPOCustomsMarkType"/>
+  </mapping>
+  <mapping abstract="true" type-name="mpocm:MPO_RegistrationType" class="ru.acs.fts.schemas.album.mpocustomsmark.MPORegistrationType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+  </mapping>
+</binding>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:dtrp="urn:customs.ru:Information:CustomsDocuments:RevealedRiskProtocol:5.4.0" targetNamespace="urn:customs.ru:Information:CustomsDocuments:RevealedRiskProtocol:5.4.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4.0.0">
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Протокол выявления профиля риска с детализацией для СТО</xs:documentation>
+	</xs:annotation>
+	<xs:element name="RevealedRiskProtocol" type="dtrp:RevealedRiskProtocolType">
+		<xs:annotation>
+			<xs:documentation>Протокол о выявленных рисках</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="RevealedRiskProtocolType">
+		<xs:annotation>
+			<xs:documentation>Протокол выявления профиля риска с детализацией</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="RiskAtomicVersion" type="clt_ru:Text40Type" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Версия файла атомарного модуля выявления</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AlertedSign" type="clt_ru:IndicatorType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Признак попадания ДТ в список выявляемых для  АПС Тестирование (true - попала, false - не попала)</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DocumentNumber" type="clt_ru:DocumentNumberType">
+						<xs:annotation>
+							<xs:documentation>Номер ДТ/ПП/ПИ/ТД</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="RiskProfile" minOccurs="0" maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="AlertedSign" type="clt_ru:IndicatorType">
+									<xs:annotation>
+										<xs:documentation>Признак выявления профиля риска (true - выявлен, false - не выявлен)</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="RiskProfileNumber" type="clt_ru:DocumentNumberType">
+									<xs:annotation>
+										<xs:documentation>Номер профиля риска/проекта профиля риска в формате TT/CCCCC/DDMMYY/NNNNN (V)</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="Goods" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Индикаторы группы Товар</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:sequence>
+													<xs:element name="GoodsSeason" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Сезон декларирования товара </xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GoodsCountry" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Страна происхождения</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:sequence>
+																		<xs:element name="ExcludeGoodsCountry" minOccurs="0" maxOccurs="unbounded">
+																			<xs:annotation>
+																				<xs:documentation>Группа Исключения кодов Стран происхождения товара</xs:documentation>
+																			</xs:annotation>
+																			<xs:complexType>
+																				<xs:complexContent>
+																					<xs:extension base="dtrp:RevealingProtocolGroup">
+																						<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																							<xs:annotation>
+																								<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																							</xs:annotation>
+																						</xs:attribute>
+																					</xs:extension>
+																				</xs:complexContent>
+																			</xs:complexType>
+																		</xs:element>
+																	</xs:sequence>
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GoodsAttributes" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Группа Товар-Характеристики товара</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GoodsPayment" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Группа Товар-Платежи</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:sequence>
+																		<xs:element name="ExcludeGoodsPayment" minOccurs="0" maxOccurs="unbounded">
+																			<xs:annotation>
+																				<xs:documentation>Исключения группы Товар-Платежи</xs:documentation>
+																			</xs:annotation>
+																			<xs:complexType>
+																				<xs:complexContent>
+																					<xs:extension base="dtrp:RevealingProtocolGroup">
+																						<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																							<xs:annotation>
+																								<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																							</xs:annotation>
+																						</xs:attribute>
+																					</xs:extension>
+																				</xs:complexContent>
+																			</xs:complexType>
+																		</xs:element>
+																	</xs:sequence>
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GoodsDoc" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Группа Товар-Документы 44 графы ДТ</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:sequence>
+																		<xs:element name="GoodsDocMask" minOccurs="0" maxOccurs="unbounded">
+																			<xs:annotation>
+																				<xs:documentation>Группа Документы - Маски докуметов</xs:documentation>
+																			</xs:annotation>
+																			<xs:complexType>
+																				<xs:complexContent>
+																					<xs:extension base="dtrp:RevealingProtocolGroup">
+																						<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																							<xs:annotation>
+																								<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																							</xs:annotation>
+																						</xs:attribute>
+																					</xs:extension>
+																				</xs:complexContent>
+																			</xs:complexType>
+																		</xs:element>
+																		<xs:element name="ExcludeGoodsDoc" minOccurs="0" maxOccurs="unbounded">
+																			<xs:annotation>
+																				<xs:documentation>Исключения группы Товар-Документы 44 графы</xs:documentation>
+																			</xs:annotation>
+																			<xs:complexType>
+																				<xs:complexContent>
+																					<xs:extension base="dtrp:RevealingProtocolGroup">
+																						<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																							<xs:annotation>
+																								<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																							</xs:annotation>
+																						</xs:attribute>
+																					</xs:extension>
+																				</xs:complexContent>
+																			</xs:complexType>
+																		</xs:element>
+																	</xs:sequence>
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GoodsPreference" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Группа Товар - Преференции и льготы </xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GoodsProcedure" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Группа Товар - Процедура</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:sequence>
+																		<xs:element name="ExcludeGoodsProcedure" minOccurs="0" maxOccurs="unbounded">
+																			<xs:annotation>
+																				<xs:documentation>Исключения группы Товар - Процедура</xs:documentation>
+																			</xs:annotation>
+																			<xs:complexType>
+																				<xs:complexContent>
+																					<xs:extension base="dtrp:RevealingProtocolGroup">
+																						<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																							<xs:annotation>
+																								<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																							</xs:annotation>
+																						</xs:attribute>
+																					</xs:extension>
+																				</xs:complexContent>
+																			</xs:complexType>
+																		</xs:element>
+																	</xs:sequence>
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ExcludeGoods" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Иключения Группы Товары</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="ExcludeGoodsCategory" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Группа Исключения для категории товаров</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Customs" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Группа Таможенный орган</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:sequence>
+													<xs:element name="ExcludeCustoms" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Индикаторы исключения группы Таможенный орган</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Consignment" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Группа Партия товара</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:sequence>
+													<xs:element name="ExcludeConsignment" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Исключения группы Товарная Партия</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="HaulingUnit" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Группа Транспортное средство</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:sequence>
+													<xs:element name="ExcludeHaulingUnit" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Исключения </xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="MemberVED" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Группа Субъъект ВЭД</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:sequence>
+													<xs:element name="MemberVEDCountry" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Страна субъекта ВЭД</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:sequence>
+																		<xs:element name="ExcludeMemberVEDCountry" minOccurs="0" maxOccurs="unbounded">
+																			<xs:annotation>
+																				<xs:documentation>Исключения Страны</xs:documentation>
+																			</xs:annotation>
+																			<xs:complexType>
+																				<xs:complexContent>
+																					<xs:extension base="dtrp:RevealingProtocolGroup">
+																						<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																							<xs:annotation>
+																								<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																							</xs:annotation>
+																						</xs:attribute>
+																					</xs:extension>
+																				</xs:complexContent>
+																			</xs:complexType>
+																		</xs:element>
+																	</xs:sequence>
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ExcludeMemberVED" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Исключения группы Субъект ВЭД</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="dtrp:RevealingProtocolGroup">
+																	<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="true">
+																		<xs:annotation>
+																			<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+																		</xs:annotation>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="ConsignmentExtended" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Группа Характеристики транзитной декларации</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:complexContent>
+											<xs:extension base="dtrp:RevealingProtocolGroup">
+												<xs:attribute name="IsExclusion" type="clt_ru:IndicatorType" use="required" fixed="false">
+													<xs:annotation>
+														<xs:documentation>Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:extension>
+										</xs:complexContent>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="BeginRevealing" type="clt_ru:DateTimeCustType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Дата и время начала выявления</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="EndRevealing" type="clt_ru:DateTimeCustType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Дата и время начала выявления</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required" fixed="R102002E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа (код документа в Альбоме форматов для РФ)</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="RevealingProtocolIndicator">
+		<xs:annotation>
+			<xs:documentation>Конкретный индикатор профиля риска</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name" type="clt_ru:NameType">
+				<xs:annotation>
+					<xs:documentation>Наименование индикатора ПР</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание индикатора ПР</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Value" type="clt_ru:Text3MB">
+				<xs:annotation>
+					<xs:documentation>Значение индикатора в ПР</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AlertedSign" type="clt_ru:IndicatorType">
+				<xs:annotation>
+					<xs:documentation>Признак сравнения (true - совпадение, false - несовпадение). Общий для всех значений из документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:choice>
+				<xs:element name="AlertedInformation" type="dtrp:RevealingProtocolAlertedInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Информация из ДТ о сравнении значений и выставления признака срабатывания</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ConsignmentAlertedInformation" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Информация из ТД/уведомления ПП/документа ПИ о сравнении значений и выставления признака срабатывания</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="LotID" type="clt_ru:DocumentIDType">
+								<xs:annotation>
+									<xs:documentation>Идентификатор конкретной партии товаров</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AlertedSign" type="clt_ru:IndicatorType">
+								<xs:annotation>
+									<xs:documentation>Признак сравнения (true - совпадение, false - несовпадение). Общий для всех значений из товарной партаа документа (ПП)</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AlertedInformation" type="dtrp:RevealingProtocolAlertedInfo" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Информация из ДТ о сравнении значений и выставления признака срабатывания</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RevealingProtocolAlertedInfo">
+		<xs:annotation>
+			<xs:documentation>Информация о срабатывании по товарам конкретного индикатора ПР</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="GoodsNumber" type="clt_ru:Quantity5Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер товара (заполняется, если индикатор подчинен группе товаров)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentValue" type="clt_ru:Text3MB">
+				<xs:annotation>
+					<xs:documentation>Значение из документа с которым выполнялось сравнение значения индикатора (ДТ, ТД и т.д.)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AlertedSign" type="clt_ru:IndicatorType">
+				<xs:annotation>
+					<xs:documentation>Признак сравнения (true - совпадение, false - несовпадение)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RevealingProtocolGroup">
+		<xs:annotation>
+			<xs:documentation>Группа индикаторов профиля риска</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="AlertedSign" type="clt_ru:IndicatorType">
+				<xs:annotation>
+					<xs:documentation>Признак срабатывания по всей группе (true- срабоатло, false - не сработало)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Indicators" type="dtrp:RevealingProtocolIndicator" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Индикаторы группы</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

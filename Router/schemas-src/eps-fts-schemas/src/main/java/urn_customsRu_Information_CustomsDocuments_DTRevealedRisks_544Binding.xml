@@ -1,0 +1,104 @@
+<binding xmlns:rtdt="urn:customs.ru:Information:CustomsDocuments:DTRevealedRisks:5.4.4" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:DTRevealedRisks:5.4.4" default="elements" prefix="rtdt"/>
+  <mapping abstract="true" type-name="rtdt:DTRevealedRisksType" class="ru.acs.fts.schemas.album.DTRevealedRisksType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="SoftVersion" get-method="getSoftVersion" set-method="setSoftVersion"/>
+    <collection get-method="getProfileInfoList" set-method="setProfileInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:ProfileInfoType" name="ProfileInfo"/>
+    </collection>
+    <collection get-method="getHashInfoList" set-method="setHashInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:HashInfoType" name="HashInfo"/>
+    </collection>
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifDTNumber" get-method="getDTNumber" set-method="setDTNumber" usage="optional" name="DTNumber"/>
+      <structure map-as="rtdt:MPORegNumberType" test-method="ifMPONumber" get-method="getMPONumber" set-method="setMPONumber" usage="optional" name="MPONumber"/>
+      <structure map-as="cat_ru:GTDIDType" test-method="ifWHDocInventoryNumber" get-method="getWHDocInventoryNumber" set-method="setWHDocInventoryNumber" usage="optional" name="WHDocInventoryNumber"/>
+    </structure>
+    <structure map-as="rtdt:DocumentType" get-method="getConsigments" set-method="setConsigments" name="Consigments"/>
+    <structure map-as="rtdt:DocBodyType" get-method="getBodySemantica" set-method="setBodySemantica" usage="optional" name="BodySemantica"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.DTRevealedRisksType" name="DTRevealedRisks">
+    <structure map-as="rtdt:DTRevealedRisksType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:NFIInfoType" class="ru.acs.fts.schemas.album.NFIInfoType">
+    <value style="element" name="NFICode" get-method="getNFICode" set-method="setNFICode"/>
+    <value style="element" name="NFIHash" get-method="getNFIHash" set-method="setNFIHash"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:MPORegNumberType" class="ru.acs.fts.schemas.album.MPORegNumberType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:ProfileRefType" class="ru.acs.fts.schemas.album.ProfileRefType">
+    <collection get-method="getNFIInfoList" set-method="setNFIInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:NFIInfoType" name="NFIInfo"/>
+    </collection>
+    <value style="attribute" name="URI" get-method="getURI" set-method="setURI" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:DocBodyType" class="ru.acs.fts.schemas.album.DocBodyType">
+    <structure get-method="getAny" set-method="setAny" marshaller="org.jibx.extras.DomElementMapper" unmarshaller="org.jibx.extras.DomElementMapper"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:ProfileInfoType" class="ru.acs.fts.schemas.album.ProfileInfoType">
+    <value style="element" name="DocumentSignCode" get-method="getDocumentSignCode" set-method="setDocumentSignCode"/>
+    <value style="element" name="DivisionCode" get-method="getDivisionCode" set-method="setDivisionCode"/>
+    <value style="element" name="RegistryDate" get-method="getRegistryDate" set-method="setRegistryDate" format="LocalDate.default"/>
+    <value style="element" name="SequenceNumber" get-method="getSequenceNumber" set-method="setSequenceNumber"/>
+    <value style="element" name="VersionNumber" get-method="getVersionNumber" set-method="setVersionNumber"/>
+    <value style="element" name="CriterionCode" get-method="getCriterionCode" set-method="setCriterionCode"/>
+    <value style="element" name="ActivityCode" get-method="getActivityCode" set-method="setActivityCode" usage="optional"/>
+    <value style="element" name="FormalizedType" get-method="getFormalizedType" set-method="setFormalizedType"/>
+    <value style="element" name="BeginDate" get-method="getBeginDate" set-method="setBeginDate" format="LocalDate.default"/>
+    <value style="element" name="PRNote" get-method="getPRNote" set-method="setPRNote" usage="optional"/>
+    <value style="element" name="MinimizeMeasuresNote" get-method="getMinimizeMeasuresNote" set-method="setMinimizeMeasuresNote" usage="optional"/>
+    <value style="element" name="DescriptionMeasure" get-method="getDescriptionMeasure" set-method="setDescriptionMeasure" usage="optional"/>
+    <collection get-method="getMinimizeMeasuresInfoList" set-method="setMinimizeMeasuresInfoList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:MinimizeInfoType" name="MinimizeMeasuresInfo"/>
+    </collection>
+    <value style="attribute" name="ID" get-method="getID" set-method="setID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:MinimizeInfoType" class="ru.acs.fts.schemas.album.MinimizeInfoType">
+    <value style="element" name="MinimizeMeasureCode" get-method="getMinimizeMeasureCode" set-method="setMinimizeMeasureCode"/>
+    <value style="element" name="MinimizeMeasureMainCode" get-method="getMinimizeMeasureMainCode" set-method="setMinimizeMeasureMainCode" usage="optional"/>
+    <value style="element" name="MinimizeMeasureNecessity" get-method="getMinimizeMeasureNecessity" set-method="setMinimizeMeasureNecessity"/>
+    <value style="element" name="MinimizeMeasureUse" get-method="getMinimizeMeasureUse" set-method="setMinimizeMeasureUse"/>
+    <value style="element" name="MeasureDescription" get-method="getMeasureDescription" set-method="setMeasureDescription" usage="optional"/>
+    <collection get-method="getMeasureAttributeList" set-method="setMeasureAttributeList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:MeasureInfoType" name="MeasureAttribute"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:MeasureInfoType" class="ru.acs.fts.schemas.album.MeasureInfoType">
+    <value style="element" name="MeasureAttributeCode" get-method="getMeasureAttributeCode" set-method="setMeasureAttributeCode"/>
+    <collection get-method="getMeasureAttributeValueList" set-method="setMeasureAttributeValueList" create-type="java.util.ArrayList">
+      <value style="element" name="MeasureAttributeValue" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="MeasureAttributeNecessary" get-method="getMeasureAttributeNecessary" set-method="setMeasureAttributeNecessary"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:HashInfoType" class="ru.acs.fts.schemas.album.HashInfoType">
+    <value style="element" name="Hash" get-method="getHash" set-method="setHash"/>
+    <value style="element" name="HashMean" get-method="getHashMean" set-method="setHashMean"/>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:GoodsType" class="ru.acs.fts.schemas.album.GoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <collection get-method="getProfileRefList" set-method="setProfileRefList" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:ProfileRefType" name="ProfileRef"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:ConsignmentType" class="ru.acs.fts.schemas.album.ConsignmentType">
+    <value style="element" name="ConsigmentNumber" get-method="getConsigmentNumber" set-method="setConsigmentNumber"/>
+    <collection get-method="getProfileRefList" set-method="setProfileRefList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:ProfileRefType" name="ProfileRef"/>
+    </collection>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:GoodsType" name="Goods"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rtdt:DocumentType" class="ru.acs.fts.schemas.album.DocumentType">
+    <collection get-method="getProfileRefList" set-method="setProfileRefList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:ProfileRefType" name="ProfileRef"/>
+    </collection>
+    <collection get-method="getConsigmentList" set-method="setConsigmentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rtdt:ConsignmentType" name="Consigment"/>
+    </collection>
+  </mapping>
+</binding>

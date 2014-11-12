@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:tst="urn:customs.ru:Information:CustomsDocuments:PRTestRequest:5.4.4" xmlns:CategoryCust="urn:customs.ru:Categories:3.0.0" targetNamespace="urn:customs.ru:Information:CustomsDocuments:PRTestRequest:5.4.4" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4.4.0">
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:Categories:3.0.0" schemaLocation="CategoriesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Запрос на тестирование ПР/ППР/ЦПР/ПЦПР</xs:documentation>
+	</xs:annotation>
+	<xs:element name="PRTestRequest" type="tst:PRTestRequestType"/>
+	<xs:complexType name="PRTestRequestType">
+		<xs:annotation>
+			<xs:documentation>Запрос на тестирование ПР/ППР/ЦПР/ПЦПР</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="UserName" type="clt_ru:NameType">
+						<xs:annotation>
+							<xs:documentation>Имя пользователя, отправившего запрос на тестирование из КПС «Ведение БДПР»</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TestName" type="clt_ru:NameType">
+						<xs:annotation>
+							<xs:documentation>Уникальный идентификатор теста, задаваемый пользователем</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TestComment" type="clt_ru:Text3MB" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Комментарий к тесту, задаваемый пользователем</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="CustomsCode" type="clt_ru:CustomsCodeType">
+						<xs:annotation>
+							<xs:documentation>Код таможенного органа</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="UserSubdivisionCode" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Код структурного подразделения пользователя, отправившего запрос на тестирование из КПС Ведение БДПР</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="2"/>
+								<xs:minLength value="2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="TestPeriod" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Периоды тестирования</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="TestStart" type="clt_ru:DateCustType">
+									<xs:annotation>
+										<xs:documentation>Дата начала периода тестирования, соответствует дате регистрации ДТ</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="TestEnd" type="clt_ru:DateCustType">
+									<xs:annotation>
+										<xs:documentation>Дата окончания периода тестирования, соответствует дате регистрации ДТ</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:choice minOccurs="0">
+						<xs:element name="DTNumber">
+							<xs:annotation>
+								<xs:documentation>Регистрационный номер ДТ/ТД/ПП/документа ВХ/реестра экспресс-грузов, по которой необходимо провести тестирование. Заполняется только при запросе детальной информации по тестированию конкретного документа</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:complexContent>
+									<xs:extension base="cat_ru:GTDIDType"/>
+								</xs:complexContent>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="ServiceInfo" type="tst:ServiceInfoType">
+							<xs:annotation>
+								<xs:documentation>Служебная информация по ПИ</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="TIRID" type="tst:TIRIDType">
+							<xs:annotation>
+								<xs:documentation>Номер книжки МДП. Если нетрег. номера ТД для транзита</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="TDTS" type="tst:TDTSType"/>
+						<xs:element name="MPO" type="tst:MPOType"/>
+					</xs:choice>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required" fixed="R102000E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа (код документа в Альбоме форматов для РФ)</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceInfoType">
+		<xs:sequence>
+			<xs:element name="TransportID" type="clt_ru:DocumentIDType">
+				<xs:annotation>
+					<xs:documentation>Уникальный идентификационный номер предварительной информации</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CrossDate" type="clt_ru:DateCustType">
+				<xs:annotation>
+					<xs:documentation>Дата регистрации предварительной информации на уровне ФТС России</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CustomsArriveID" type="clt_ru:CustomsCodeType">
+				<xs:annotation>
+					<xs:documentation>Код таможенного органа, в котором планируется прибытие товаров на таможенную территорию Таможенного союза (КТАМ)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TIRIDType">
+		<xs:annotation>
+			<xs:documentation>Номер книжки МДП.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="TIRID" type="clt_ru:Code8Type">
+				<xs:annotation>
+					<xs:documentation>Номер книжки МДП.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TIRSeries" type="clt_ru:Code2Type">
+				<xs:annotation>
+					<xs:documentation>Серия книжки МДП.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TIRPageNumber" type="clt_ru:Count5Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер листа книжки МДП.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TDTSType">
+		<xs:annotation>
+			<xs:documentation>Рег. номер ТДТС</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:GTDIDType">
+				<xs:sequence>
+					<xs:element name="TransportModeCode" type="clt_ru:TransportModeCodeType">
+						<xs:annotation>
+							<xs:documentation>Код вида транспорта</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MPOType">
+		<xs:annotation>
+			<xs:documentation>Рег. номер МПО</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomsCode" type="clt_ru:CustomsCodeType" minOccurs="0"/>
+			<xs:element name="RegistrationDate" type="clt_ru:DateCustType" minOccurs="0"/>
+			<xs:element name="MPO_Number" type="clt_ru:Code13Type"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

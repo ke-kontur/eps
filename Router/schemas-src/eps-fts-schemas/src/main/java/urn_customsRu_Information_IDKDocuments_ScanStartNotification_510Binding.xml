@@ -1,0 +1,13 @@
+<binding xmlns:nScan="urn:customs.ru:Information:IDKDocuments:ScanStartNotification:5.1.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:ScanStartNotification:5.1.0" default="elements" prefix="nScan"/>
+  <mapping abstract="true" type-name="nScan:ScanStartNotificationType" class="ru.acs.fts.schemas.album.ScanStartNotificationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="ControlStartDate" get-method="getControlStartDate" set-method="setControlStartDate" format="LocalDate.default"/>
+    <value style="element" name="ControlStartTime" get-method="getControlStartTime" set-method="setControlStartTime"/>
+    <value style="element" name="GTDID" get-method="getGTDID" set-method="setGTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.ScanStartNotificationType" name="ScanStartNotification">
+    <structure map-as="nScan:ScanStartNotificationType"/>
+  </mapping>
+</binding>

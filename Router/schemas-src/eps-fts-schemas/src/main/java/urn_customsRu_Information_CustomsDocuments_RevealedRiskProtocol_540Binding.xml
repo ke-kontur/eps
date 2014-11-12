@@ -1,0 +1,208 @@
+<binding xmlns:dtrp="urn:customs.ru:Information:CustomsDocuments:RevealedRiskProtocol:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RevealedRiskProtocol:5.4.0" default="elements" prefix="dtrp"/>
+  <mapping abstract="true" type-name="dtrp:RevealedRiskProtocolType" class="ru.acs.fts.schemas.album.RevealedRiskProtocolType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RiskAtomicVersion" get-method="getRiskAtomicVersion" set-method="setRiskAtomicVersion" usage="optional"/>
+    <value style="element" name="AlertedSign" get-method="getAlertedSign" set-method="setAlertedSign" usage="optional"/>
+    <value style="element" name="DocumentNumber" get-method="getDocumentNumber" set-method="setDocumentNumber"/>
+    <collection get-method="getRiskProfileList" set-method="setRiskProfileList" usage="optional" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile" name="RiskProfile">
+        <value style="element" name="AlertedSign" get-method="getAlertedSign" set-method="setAlertedSign"/>
+        <value style="element" name="RiskProfileNumber" get-method="getRiskProfileNumber" set-method="setRiskProfileNumber"/>
+        <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods" name="Goods">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <collection get-method="getGoodsSeasonList" set-method="setGoodsSeasonList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsSeason" name="GoodsSeason">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getGoodsCountryList" set-method="setGoodsCountryList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsCountry" name="GoodsCountry">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <collection get-method="getExcludeGoodsCountryList" set-method="setExcludeGoodsCountryList" usage="optional" create-type="java.util.ArrayList">
+                  <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsCountry$ExcludeGoodsCountry" name="ExcludeGoodsCountry">
+                    <structure map-as="dtrp:RevealingProtocolGroup"/>
+                    <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+                  </structure>
+                </collection>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getGoodsAttributeList" set-method="setGoodsAttributeList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsAttributes" name="GoodsAttributes">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getGoodsPaymentList" set-method="setGoodsPaymentList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsPayment" name="GoodsPayment">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <collection get-method="getExcludeGoodsPaymentList" set-method="setExcludeGoodsPaymentList" usage="optional" create-type="java.util.ArrayList">
+                  <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsPayment$ExcludeGoodsPayment" name="ExcludeGoodsPayment">
+                    <structure map-as="dtrp:RevealingProtocolGroup"/>
+                    <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+                  </structure>
+                </collection>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getGoodsDocList" set-method="setGoodsDocList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsDoc" name="GoodsDoc">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <collection get-method="getGoodsDocMaskList" set-method="setGoodsDocMaskList" usage="optional" create-type="java.util.ArrayList">
+                  <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsDoc$GoodsDocMask" name="GoodsDocMask">
+                    <structure map-as="dtrp:RevealingProtocolGroup"/>
+                    <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+                  </structure>
+                </collection>
+                <collection get-method="getExcludeGoodsDocList" set-method="setExcludeGoodsDocList" usage="optional" create-type="java.util.ArrayList">
+                  <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsDoc$ExcludeGoodsDoc" name="ExcludeGoodsDoc">
+                    <structure map-as="dtrp:RevealingProtocolGroup"/>
+                    <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+                  </structure>
+                </collection>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getGoodsPreferenceList" set-method="setGoodsPreferenceList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsPreference" name="GoodsPreference">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getGoodsProcedureList" set-method="setGoodsProcedureList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsProcedure" name="GoodsProcedure">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <collection get-method="getExcludeGoodsProcedureList" set-method="setExcludeGoodsProcedureList" usage="optional" create-type="java.util.ArrayList">
+                  <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$GoodsProcedure$ExcludeGoodsProcedure" name="ExcludeGoodsProcedure">
+                    <structure map-as="dtrp:RevealingProtocolGroup"/>
+                    <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+                  </structure>
+                </collection>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getExcludeGoodList" set-method="setExcludeGoodList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Goods$ExcludeGoods" name="ExcludeGoods">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+        <collection get-method="getExcludeGoodsCategoryList" set-method="setExcludeGoodsCategoryList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$ExcludeGoodsCategory" name="ExcludeGoodsCategory">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+        <collection get-method="getCustomList" set-method="setCustomList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Customs" name="Customs">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <collection get-method="getExcludeCustomList" set-method="setExcludeCustomList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Customs$ExcludeCustoms" name="ExcludeCustoms">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+        <collection get-method="getConsignmentList" set-method="setConsignmentList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Consignment" name="Consignment">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <collection get-method="getExcludeConsignmentList" set-method="setExcludeConsignmentList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$Consignment$ExcludeConsignment" name="ExcludeConsignment">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+        <collection get-method="getHaulingUnitList" set-method="setHaulingUnitList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$HaulingUnit" name="HaulingUnit">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <collection get-method="getExcludeHaulingUnitList" set-method="setExcludeHaulingUnitList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$HaulingUnit$ExcludeHaulingUnit" name="ExcludeHaulingUnit">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+        <collection get-method="getMemberVEDList" set-method="setMemberVEDList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$MemberVED" name="MemberVED">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <collection get-method="getMemberVEDCountryList" set-method="setMemberVEDCountryList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$MemberVED$MemberVEDCountry" name="MemberVEDCountry">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <collection get-method="getExcludeMemberVEDCountryList" set-method="setExcludeMemberVEDCountryList" usage="optional" create-type="java.util.ArrayList">
+                  <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$MemberVED$MemberVEDCountry$ExcludeMemberVEDCountry" name="ExcludeMemberVEDCountry">
+                    <structure map-as="dtrp:RevealingProtocolGroup"/>
+                    <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+                  </structure>
+                </collection>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <collection get-method="getExcludeMemberVEDList" set-method="setExcludeMemberVEDList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$MemberVED$ExcludeMemberVED" name="ExcludeMemberVED">
+                <structure map-as="dtrp:RevealingProtocolGroup"/>
+                <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+              </structure>
+            </collection>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+        <collection get-method="getConsignmentExtendedList" set-method="setConsignmentExtendedList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.RevealedRiskProtocolType$RiskProfile$ConsignmentExtended" name="ConsignmentExtended">
+            <structure map-as="dtrp:RevealingProtocolGroup"/>
+            <value style="attribute" name="IsExclusion" get-method="getIsExclusion" set-method="setIsExclusion"/>
+          </structure>
+        </collection>
+      </structure>
+    </collection>
+    <value style="element" name="BeginRevealing" get-method="getBeginRevealing" set-method="setBeginRevealing" usage="optional"/>
+    <value style="element" name="EndRevealing" get-method="getEndRevealing" set-method="setEndRevealing" usage="optional"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.RevealedRiskProtocolType" name="RevealedRiskProtocol">
+    <structure map-as="dtrp:RevealedRiskProtocolType"/>
+  </mapping>
+  <mapping abstract="true" type-name="dtrp:RevealingProtocolIndicator" class="ru.acs.fts.schemas.album.RevealingProtocolIndicator">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Description" get-method="getDescription" set-method="setDescription" usage="optional"/>
+    <value style="element" name="Value" get-method="getValue" set-method="setValue"/>
+    <value style="element" name="AlertedSign" get-method="getAlertedSign" set-method="setAlertedSign"/>
+    <structure usage="optional" ordered="false" choice="true">
+      <collection test-method="ifAlertedInformationList" get-method="getAlertedInformationList" set-method="setAlertedInformationList" usage="optional" create-type="java.util.ArrayList">
+        <structure map-as="dtrp:RevealingProtocolAlertedInfo" name="AlertedInformation"/>
+      </collection>
+      <collection test-method="ifConsignmentAlertedInformationList" get-method="getConsignmentAlertedInformationList" set-method="setConsignmentAlertedInformationList" usage="optional" create-type="java.util.ArrayList">
+        <structure type="ru.acs.fts.schemas.album.RevealingProtocolIndicator$ConsignmentAlertedInformation" name="ConsignmentAlertedInformation">
+          <value style="element" name="LotID" get-method="getLotID" set-method="setLotID"/>
+          <value style="element" name="AlertedSign" get-method="getAlertedSign" set-method="setAlertedSign"/>
+          <collection get-method="getAlertedInformationList" set-method="setAlertedInformationList" usage="optional" create-type="java.util.ArrayList">
+            <structure map-as="dtrp:RevealingProtocolAlertedInfo" name="AlertedInformation"/>
+          </collection>
+        </structure>
+      </collection>
+    </structure>
+  </mapping>
+  <mapping abstract="true" type-name="dtrp:RevealingProtocolAlertedInfo" class="ru.acs.fts.schemas.album.RevealingProtocolAlertedInfo">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber" usage="optional"/>
+    <value style="element" name="DocumentValue" get-method="getDocumentValue" set-method="setDocumentValue"/>
+    <value style="element" name="AlertedSign" get-method="getAlertedSign" set-method="setAlertedSign"/>
+  </mapping>
+  <mapping abstract="true" type-name="dtrp:RevealingProtocolGroup" class="ru.acs.fts.schemas.album.RevealingProtocolGroup">
+    <value style="element" name="AlertedSign" get-method="getAlertedSign" set-method="setAlertedSign"/>
+    <collection get-method="getIndicatorList" set-method="setIndicatorList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="dtrp:RevealingProtocolIndicator" name="Indicators"/>
+    </collection>
+  </mapping>
+</binding>

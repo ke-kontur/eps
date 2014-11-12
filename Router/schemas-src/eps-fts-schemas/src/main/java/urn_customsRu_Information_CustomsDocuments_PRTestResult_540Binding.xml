@@ -1,0 +1,23 @@
+<binding xmlns:tst="urn:customs.ru:Information:CustomsDocuments:PRTestResult:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:PRTestResult:5.4.0" default="elements" prefix="tst"/>
+  <mapping abstract="true" type-name="tst:PRTestResultType" class="ru.acs.fts.schemas.album.PRTestResultType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="TestID" get-method="getTestID" set-method="setTestID"/>
+    <collection get-method="getTestPeriodResultList" set-method="setTestPeriodResultList" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.PRTestResultType$TestPeriodResult" name="TestPeriodResult">
+        <value style="element" name="TestStart" get-method="getTestStart" set-method="setTestStart" format="LocalDate.default"/>
+        <value style="element" name="TestEnd" get-method="getTestEnd" set-method="setTestEnd" format="LocalDate.default"/>
+        <value style="element" name="TotalDT" get-method="getTotalDT" set-method="setTotalDT"/>
+        <value style="element" name="TotalRiskDT" get-method="getTotalRiskDT" set-method="setTotalRiskDT"/>
+      </structure>
+    </collection>
+    <structure name="AverageTestResult">
+      <value style="element" name="TotalDT" get-method="getAverageTestResultTotalDT" set-method="setAverageTestResultTotalDT"/>
+      <value style="element" name="TotalRiskDT" get-method="getAverageTestResultTotalRiskDT" set-method="setAverageTestResultTotalRiskDT"/>
+    </structure>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.PRTestResultType" name="PRTestResult">
+    <structure map-as="tst:PRTestResultType"/>
+  </mapping>
+</binding>

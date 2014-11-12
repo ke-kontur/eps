@@ -1,0 +1,114 @@
+<binding xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0" default="elements" prefix="catIDK_ru"/>
+  <mapping abstract="true" type-name="catIDK_ru:IDKContainerType" class="ru.acs.fts.schemas.album.IDKContainerType">
+    <value style="element" name="Number" get-method="getNumber" set-method="setNumber"/>
+    <value style="element" name="ContainerNumeric" get-method="getContainerNumeric" set-method="setContainerNumeric" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKCostType" class="ru.acs.fts.schemas.album.IDKCostType">
+    <value style="element" name="InvoiceCost" get-method="getInvoiceCost" set-method="setInvoiceCost"/>
+    <value style="element" name="InvoiceCostCurrencyCode" get-method="getInvoiceCostCurrencyCode" set-method="setInvoiceCostCurrencyCode"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKDirecrionDetailsType" class="ru.acs.fts.schemas.album.IDKDirecrionDetailsType">
+    <value style="element" name="ArrivalDate" get-method="getArrivalDate" set-method="setArrivalDate" usage="optional"/>
+    <value style="element" name="DirectionNumber" get-method="getDirectionNumber" set-method="setDirectionNumber" usage="optional"/>
+    <value style="element" name="DirectionCustoms" get-method="getDirectionCustoms" set-method="setDirectionCustoms"/>
+    <value style="element" name="DirectionDate" get-method="getDirectionDate" set-method="setDirectionDate"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP"/>
+    <value style="element" name="MessageNumber" get-method="getMessageNumber" set-method="setMessageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKMetadataType" class="ru.acs.fts.schemas.album.IDKMetadataType">
+    <structure map-as="catIDK_ru:IDKTransportMeansType" get-method="getTransportMeans" set-method="setTransportMeans" usage="optional" name="TransportMeans"/>
+    <structure map-as="catIDK_ru:IDKOrganizationType" get-method="getCarrier" set-method="setCarrier" usage="optional" name="Carrier"/>
+    <structure map-as="catIDK_ru:IDKOrganizationType" get-method="getPrincipal" set-method="setPrincipal" usage="optional" name="Principal"/>
+    <structure map-as="catIDK_ru:IDKShipmentType" get-method="getIDKShipmens" set-method="setIDKShipmens" usage="optional" name="IDKShipmens"/>
+    <structure map-as="catIDK_ru:IDKShippingDocumentsType" get-method="getDirectionDocuments" set-method="setDirectionDocuments" usage="optional" name="DirectionDocuments"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKInspectionPlaceType" class="ru.acs.fts.schemas.album.IDKInspectionPlaceType">
+    <value style="element" name="InspectionDate" get-method="getInspectionDate" set-method="setInspectionDate" usage="optional"/>
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="IDKNumber" get-method="getIDKNumber" set-method="setIDKNumber" usage="optional"/>
+    <value style="element" name="DirectionNumber" get-method="getDirectionNumber" set-method="setDirectionNumber" usage="optional"/>
+    <value style="element" name="MessageNumber" get-method="getMessageNumber" set-method="setMessageNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKShipmentType" class="ru.acs.fts.schemas.album.IDKShipmentType">
+    <value style="element" name="ShipmentQuantity" get-method="getShipmentQuantity" set-method="setShipmentQuantity" usage="optional"/>
+    <value style="element" name="PlaceQuantity" get-method="getPlaceQuantity" set-method="setPlaceQuantity" usage="optional"/>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight" usage="optional"/>
+    <collection get-method="getShipmentInfoList" set-method="setShipmentInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catIDK_ru:IDKShipmentInfoType" name="ShipmentInfo"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKShipmentInfoType" class="ru.acs.fts.schemas.album.IDKShipmentInfoType">
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+    <value style="element" name="MaxWeightIndicator" get-method="getMaxWeightIndicator" set-method="setMaxWeightIndicator" usage="optional"/>
+    <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode"/>
+    <structure map-as="catIDK_ru:IDKOrganizationType" get-method="getConsignor" set-method="setConsignor" name="Consignor"/>
+    <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode"/>
+    <structure map-as="catIDK_ru:IDKOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <structure map-as="catIDK_ru:IDKOrganizationType" get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant"/>
+    <collection get-method="getGoodsInfoList" set-method="setGoodsInfoList" create-type="java.util.ArrayList">
+      <structure map-as="catIDK_ru:IDKGoodsType" name="GoodsInfo"/>
+    </collection>
+    <structure map-as="catIDK_ru:IDKShippingDocumentsType" get-method="getShipmentDocuments" set-method="setShipmentDocuments" usage="optional" name="ShipmentDocuments"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKGoodsType" class="ru.acs.fts.schemas.album.IDKGoodsType">
+    <value style="element" name="GoodsNumber" get-method="getGoodsNumber" set-method="setGoodsNumber"/>
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+    <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription"/>
+    <value style="element" name="OriginalCountryCode" get-method="getOriginalCountryCode" set-method="setOriginalCountryCode" usage="optional"/>
+    <value style="element" name="NetWeight" get-method="getNetWeight" set-method="setNetWeight" usage="optional"/>
+    <value style="element" name="GrossWeigh" get-method="getGrossWeigh" set-method="setGrossWeigh" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity"/>
+    <value style="element" name="QuantityPlaces" get-method="getQuantityPlaces" set-method="setQuantityPlaces" usage="optional"/>
+    <value style="element" name="PlaceNumber" get-method="getPlaceNumber" set-method="setPlaceNumber" usage="optional"/>
+    <structure map-as="catIDK_ru:IDKContainerType" get-method="getContainerInfo" set-method="setContainerInfo" usage="optional" name="ContainerInfo"/>
+    <structure map-as="catIDK_ru:IDKCostType" get-method="getInvoiceCost" set-method="setInvoiceCost" usage="optional" name="InvoiceCost"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKOrganizationType" class="ru.acs.fts.schemas.album.IDKOrganizationType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="OGRN" get-method="getOGRN" set-method="setOGRN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKResultIDType" class="ru.acs.fts.schemas.album.IDKResultIDType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="ResultID" get-method="getResultID" set-method="setResultID"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKShippingDocumentsType" class="ru.acs.fts.schemas.album.IDKShippingDocumentsType">
+    <value style="element" name="DocumentType" get-method="getDocumentType" set-method="setDocumentType" usage="optional"/>
+    <structure map-as="catIDK_ru:IDKTIRInfoType" get-method="getTIRCarnet" set-method="setTIRCarnet" usage="optional" name="TIR_Carnet"/>
+    <value style="element" name="CarnetATA" get-method="getCarnetATA" set-method="setCarnetATA" usage="optional"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTID" set-method="setDTID" usage="optional" name="DTID"/>
+    <collection get-method="getDocumentList" set-method="setDocumentList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="cat_ru:DocumentBaseType" name="Document"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKDocumentsType" class="ru.acs.fts.schemas.album.IDKDocumentsType">
+    <structure map-as="catIDK_ru:IDKTIRInfoType" get-method="getTIRCarnet" set-method="setTIRCarnet" usage="optional" name="TIR_Carnet"/>
+    <structure map-as="cat_ru:DocumentBaseType" get-method="getTiketNumber" set-method="setTiketNumber" usage="optional" name="TiketNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKTIRIdentifierType" class="ru.acs.fts.schemas.album.IDKTIRIdentifierType">
+    <value style="element" name="TIRSeries" get-method="getTIRSeries" set-method="setTIRSeries"/>
+    <value style="element" name="TIRID" get-method="getTIRID" set-method="setTIRID"/>
+    <value style="element" name="TIRListID" get-method="getTIRListID" set-method="setTIRListID" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKTIRInfoType" class="ru.acs.fts.schemas.album.IDKTIRInfoType">
+    <structure map-as="catIDK_ru:IDKTIRIdentifierType"/>
+    <value style="element" name="StatusInfo" get-method="getStatusInfo" set-method="setStatusInfo" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="catIDK_ru:IDKTransportMeansType" class="ru.acs.fts.schemas.album.IDKTransportMeansType">
+    <structure map-as="cat_ru:CUTransportMeansType"/>
+    <value style="element" name="TransportID" get-method="getTransportID" set-method="setTransportID"/>
+    <value style="element" name="TransitDirection" get-method="getTransitDirection" set-method="setTransitDirection" usage="optional"/>
+    <value style="element" name="VIN" get-method="getVIN" set-method="setVIN" usage="optional"/>
+    <value style="element" name="FirstTrailerNumber" get-method="getFirstTrailerNumber" set-method="setFirstTrailerNumber" usage="optional"/>
+    <value style="element" name="SecondTrailerNumber" get-method="getSecondTrailerNumber" set-method="setSecondTrailerNumber" usage="optional"/>
+    <value style="element" name="Weight" get-method="getWeight" set-method="setWeight" usage="optional"/>
+    <structure map-as="catIDK_ru:IDKDocumentsType" get-method="getTransportDocuments" set-method="setTransportDocuments" usage="optional" name="TransportDocuments"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+  </mapping>
+</binding>

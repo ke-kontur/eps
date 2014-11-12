@@ -1,0 +1,32 @@
+<binding xmlns:ntp="urn:customs.ru:Information:ExchangeDocuments:NotifTobaccoPrices:5.4.5" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:NotifTobaccoPrices:5.4.5" default="elements" prefix="ntp"/>
+  <mapping abstract="true" type-name="ntp:NotifTobaccoPricesType" class="ru.acs.fts.schemas.album.NotifTobaccoPricesType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="NewPriceStartDate" get-method="getNewPriceStartDate" set-method="setNewPriceStartDate" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" usage="optional" name="Customs"/>
+    <structure map-as="ntp:TaxPayerType" get-method="getTaxPayer" set-method="setTaxPayer" name="TaxPayer"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getChiefSignature" set-method="setChiefSignature" name="ChiefSignature"/>
+    <collection get-method="getGoodList" set-method="setGoodList" create-type="java.util.ArrayList">
+      <structure map-as="ntp:GoodsType" name="Goods"/>
+    </collection>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.NotifTobaccoPricesType" name="NotifTobaccoPrices">
+    <structure map-as="ntp:NotifTobaccoPricesType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntp:GoodsType" class="ru.acs.fts.schemas.album.GoodsType1">
+    <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode"/>
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GoodsKind" get-method="getGoodsKind" set-method="setGoodsKind"/>
+    <value style="element" name="MinPrice" get-method="getMinPrice" set-method="setMinPrice"/>
+    <value style="element" name="MaxPrice" get-method="getMaxPrice" set-method="setMaxPrice"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+    <structure map-as="cat_ru:SupplementaryQuantityType" get-method="getQuantityPerPackage" set-method="setQuantityPerPackage" name="QuantityPerPackage"/>
+  </mapping>
+  <mapping abstract="true" type-name="ntp:TaxPayerType" class="ru.acs.fts.schemas.album.TaxPayerType">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <structure map-as="cat_ru:AddressType" get-method="getFactAddress" set-method="setFactAddress" usage="optional" name="FactAddress"/>
+  </mapping>
+</binding>

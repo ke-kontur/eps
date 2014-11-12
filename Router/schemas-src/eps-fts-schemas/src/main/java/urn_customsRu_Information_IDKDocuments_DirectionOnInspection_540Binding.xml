@@ -1,0 +1,12 @@
+<binding xmlns:dirInsp="urn:customs.ru:Information:IDKDocuments:DirectionOnInspection:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:DirectionOnInspection:5.4.0" default="elements" prefix="dirInsp"/>
+  <mapping abstract="true" type-name="dirInsp:DirectionOnInspectionType" class="ru.acs.fts.schemas.album.DirectionOnInspectionType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="catIDK_ru:IDKDirecrionDetailsType" get-method="getDirectionRegistration" set-method="setDirectionRegistration" name="DirectionRegistration"/>
+    <structure map-as="catIDK_ru:IDKMetadataType" get-method="getDirectionInformation" set-method="setDirectionInformation" name="DirectionInformation"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.DirectionOnInspectionType" name="DirectionOnInspection">
+    <structure map-as="dirInsp:DirectionOnInspectionType"/>
+  </mapping>
+</binding>

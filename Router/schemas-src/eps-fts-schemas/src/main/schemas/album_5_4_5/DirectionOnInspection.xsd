@@ -1,0 +1,43 @@
+<!-- edited with XMLSpy v2008 rel. 2 (http://www.altova.com) by Ctepx (BlackBird) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dirInsp="urn:customs.ru:Information:IDKDocuments:DirectionOnInspection:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0" targetNamespace="urn:customs.ru:Information:IDKDocuments:DirectionOnInspection:5.4.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4.0.0">
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0" schemaLocation="IDKCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Направление на осмотр</xs:documentation>
+	</xs:annotation>
+	<xs:element name="DirectionOnInspection" type="dirInsp:DirectionOnInspectionType">
+		<xs:annotation>
+			<xs:documentation>Направление на осмотр</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>Локальные прикладные типы</xs:documentation>
+	</xs:annotation>
+	<xs:complexType name="DirectionOnInspectionType">
+		<xs:annotation>
+			<xs:documentation>Направление на осмотр</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="DirectionRegistration" type="catIDK_ru:IDKDirecrionDetailsType">
+						<xs:annotation>
+							<xs:documentation>Реквизиты направления</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DirectionInformation" type="catIDK_ru:IDKMetadataType">
+						<xs:annotation>
+							<xs:documentation>Информация о транспорте и товарах</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required" fixed="1010003E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

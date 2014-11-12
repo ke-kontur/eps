@@ -1,0 +1,28 @@
+<binding xmlns:grn_cl="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeUsage:5.4.5" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:grn_cat="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeCommonAggregateTypesCust:5.4.5">
+  <namespace uri="urn:customs.ru:Information:GuaranteeDocuments:GuaranteeUsage:5.4.5" default="elements" prefix="grn_cl"/>
+  <mapping abstract="true" type-name="grn_cl:GuaranteeUsageType" class="ru.acs.fts.schemas.album.guaranteeusage.GuaranteeUsageType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DocumentDateTime" get-method="getDocumentDateTime" set-method="setDocumentDateTime"/>
+    <value style="element" name="DocumentSign" get-method="getDocumentSign" set-method="setDocumentSign"/>
+    <value style="element" name="DateLimit" get-method="getDateLimit" set-method="setDateLimit" usage="optional" format="LocalDate.default"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustomsOffice" set-method="setCustomsOffice" name="CustomsOffice"/>
+    <structure map-as="cat_ru:CustomsPersonType" get-method="getCustomsOfficial" set-method="setCustomsOfficial" name="CustomsOfficial"/>
+    <structure map-as="grn_cat:CustomsGuaranteeDocType" get-method="getCustomsDocument" set-method="setCustomsDocument" usage="optional" name="CustomsDocument"/>
+    <collection get-method="getGuaranteeDocumentList" set-method="setGuaranteeDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="grn_cat:CustomsGuaranteeDocType" name="GuaranteeDocument"/>
+    </collection>
+    <value style="element" name="ObligationKind" get-method="getObligationKind" set-method="setObligationKind" usage="optional"/>
+    <structure map-as="grn_cat:AmountType" get-method="getReservationAmount" set-method="setReservationAmount" usage="optional" name="ReservationAmount"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getLiableTrader" set-method="setLiableTrader" usage="optional" name="LiableTrader"/>
+    <structure map-as="grn_cl:ReasonType" get-method="getReason" set-method="setReason" usage="optional" name="Reason"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.guaranteeusage.GuaranteeUsageType" name="GuaranteeUsage">
+    <structure map-as="grn_cl:GuaranteeUsageType"/>
+  </mapping>
+  <mapping abstract="true" type-name="grn_cl:ReasonType" class="ru.acs.fts.schemas.album.guaranteeusage.ReasonType">
+    <value style="element" name="Name" get-method="getName" set-method="setName"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+    <value style="element" name="DecisionCode" get-method="getDecisionCode" set-method="setDecisionCode" usage="optional"/>
+  </mapping>
+</binding>

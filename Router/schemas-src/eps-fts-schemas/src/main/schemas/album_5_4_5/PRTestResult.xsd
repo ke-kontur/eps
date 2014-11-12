@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:tst="urn:customs.ru:Information:CustomsDocuments:PRTestResult:5.4.0" targetNamespace="urn:customs.ru:Information:CustomsDocuments:PRTestResult:5.4.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4.0.0">
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Результаты тестирования ПР/ППР/СПР/ПСПР</xs:documentation>
+	</xs:annotation>
+	<xs:element name="PRTestResult" type="tst:PRTestResultType"/>
+	<xs:complexType name="PRTestResultType">
+		<xs:annotation>
+			<xs:documentation>Результаты тестирования ПР/ППР/СПР/ПСПР</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="TestID" type="clt_ru:Count19Type">
+						<xs:annotation>
+							<xs:documentation>Уникальный идентификатор теста</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TestPeriodResult" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Результаты тестирования за период</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="TestStart" type="clt_ru:DateCustType">
+									<xs:annotation>
+										<xs:documentation>Дата начала периода тестирования, соответствует дате регистрации ДТ</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="TestEnd" type="clt_ru:DateCustType">
+									<xs:annotation>
+										<xs:documentation>Дата окончания периода тестирования, соответствует дате регистрации ДТ</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="TotalDT" type="clt_ru:Quantity11Type">
+									<xs:annotation>
+										<xs:documentation>Общее количество ДТ за период, обработанных в процессе тестирования</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="TotalRiskDT" type="clt_ru:Quantity11Type">
+									<xs:annotation>
+										<xs:documentation>Общее количество ДТ за период, по которым был выявлен риск в процессе тестирования</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="AverageTestResult">
+						<xs:annotation>
+							<xs:documentation>Средние результаты тестирования по всем периодам</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="TotalDT" type="clt_ru:Quantity11Type">
+									<xs:annotation>
+										<xs:documentation>Среднее количество ДТ, обработанных в процессе тестирования по всем периодам</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="TotalRiskDT" type="clt_ru:Quantity11Type">
+									<xs:annotation>
+										<xs:documentation>Среднее количество ДТ, по которым был выявлен риск в процессе тестирования по всем периодам</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required" fixed="R102001E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа (код документа в Альбоме форматов для РФ)</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

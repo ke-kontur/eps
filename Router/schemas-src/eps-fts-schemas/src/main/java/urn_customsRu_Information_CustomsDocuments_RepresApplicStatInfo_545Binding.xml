@@ -1,0 +1,51 @@
+<binding xmlns:rasi="urn:customs.ru:Information:CustomsDocuments:RepresApplicStatInfo:5.4.5" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:RepresApplicStatInfo:5.4.5" default="elements" prefix="rasi"/>
+  <mapping abstract="true" type-name="rasi:RepresApplicStatInfoType" class="ru.acs.fts.schemas.album.represapplicstatinfo.RepresApplicStatInfoType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <collection get-method="getConsignmentList" set-method="setConsignmentList" create-type="java.util.ArrayList">
+      <structure map-as="rasi:ConsignmentType" name="Consignment"/>
+    </collection>
+    <structure map-as="rasi:DocIDType" get-method="getDocID" set-method="setDocID" name="DocID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.represapplicstatinfo.RepresApplicStatInfoType" name="RepresApplicStatInfo">
+    <structure map-as="rasi:RepresApplicStatInfoType"/>
+  </mapping>
+  <mapping abstract="true" type-name="rasi:ConsignmentType" class="ru.acs.fts.schemas.album.represapplicstatinfo.ConsignmentType">
+    <value style="element" name="OverWeightSign" get-method="getOverWeightSign" set-method="setOverWeightSign"/>
+    <value style="element" name="OverCostSign" get-method="getOverCostSign" set-method="setOverCostSign"/>
+    <value style="element" name="PreviousGoodsCost" get-method="getPreviousGoodsCost" set-method="setPreviousGoodsCost"/>
+    <value style="element" name="PreviousGoodsGrossWeight" get-method="getPreviousGoodsGrossWeight" set-method="setPreviousGoodsGrossWeight"/>
+    <value style="element" name="GoodsFrequency" get-method="getGoodsFrequency" set-method="setGoodsFrequency"/>
+    <structure map-as="cat_ru:CUOrganizationType" get-method="getConsignee" set-method="setConsignee" name="Consignee"/>
+    <collection get-method="getGoodList" set-method="setGoodList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rasi:GoodsType" name="Goods"/>
+    </collection>
+    <collection get-method="getWayBillList" set-method="setWayBillList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="rasi:WayBillType" name="WayBill"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="rasi:GoodsType" class="ru.acs.fts.schemas.album.represapplicstatinfo.GoodsType">
+    <collection get-method="getGoodsDescriptionList" set-method="setGoodsDescriptionList" create-type="java.util.ArrayList">
+      <value style="element" name="GoodsDescription" type="java.lang.String"/>
+    </collection>
+    <value style="element" name="GrossWeight" get-method="getGrossWeight" set-method="setGrossWeight"/>
+    <value style="element" name="GoodsCostEuro" get-method="getGoodsCostEuro" set-method="setGoodsCostEuro"/>
+    <value style="element" name="GoodsDate" get-method="getGoodsDate" set-method="setGoodsDate" format="LocalDate.default"/>
+  </mapping>
+  <mapping abstract="true" type-name="rasi:WayBillType" class="ru.acs.fts.schemas.album.represapplicstatinfo.WayBillType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="WayBillKind" get-method="getWayBillKind" set-method="setWayBillKind"/>
+  </mapping>
+  <mapping abstract="true" type-name="rasi:MPORegNumType" class="ru.acs.fts.schemas.album.represapplicstatinfo.MPORegNumType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="rasi:DocIDType" class="ru.acs.fts.schemas.album.represapplicstatinfo.DocIDType">
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifDTRegNum" get-method="getDTRegNum" set-method="setDTRegNum" usage="optional" name="DTRegNum"/>
+      <structure map-as="rasi:MPORegNumType" test-method="ifMPORegNum" get-method="getMPORegNum" set-method="setMPORegNum" usage="optional" name="MPORegNum"/>
+    </structure>
+  </mapping>
+</binding>

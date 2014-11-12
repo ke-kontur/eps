@@ -1,0 +1,21 @@
+<binding xmlns:nmpo="urn:customs.ru:Information:CustomsDocuments:NotifMPORegistration:5.4.5" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:NotifMPORegistration:5.4.5" default="elements" prefix="nmpo"/>
+  <mapping abstract="true" type-name="nmpo:NotifMPORegistrationType" class="ru.acs.fts.schemas.album.notifmporegistration.NotifMPORegistrationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="RegistrationTime" get-method="getRegistrationTime" set-method="setRegistrationTime"/>
+    <value style="element" name="Comments" get-method="getComments" set-method="setComments" usage="optional"/>
+    <structure map-as="nmpo:MPO_RegistrationType" get-method="getMPORegistration" set-method="setMPORegistration" name="MPO_Registration"/>
+    <structure map-as="cat_ru:PersonSignatureType" get-method="getCustomsPerson" set-method="setCustomsPerson" usage="optional" name="CustomsPerson"/>
+    <structure map-as="cat_ru:CustomsType" get-method="getCustoms" set-method="setCustoms" name="Customs"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.notifmporegistration.NotifMPORegistrationType" name="NotifMPORegistration">
+    <structure map-as="nmpo:NotifMPORegistrationType"/>
+  </mapping>
+  <mapping abstract="true" type-name="nmpo:MPO_RegistrationType" class="ru.acs.fts.schemas.album.notifmporegistration.MPORegistrationType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+  </mapping>
+</binding>

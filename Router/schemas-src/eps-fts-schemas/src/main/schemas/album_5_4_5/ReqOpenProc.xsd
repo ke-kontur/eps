@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:ExchangeDocuments:ReqOpenProc:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:rodp="urn:customs.ru:Information:ExchangeDocuments:ReqOpenProc:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос на открытие процедуры.</xs:documentation>
+   </xs:annotation>
+   <xs:element name="ReqOpenProc" type="rodp:ReqOpenProcType"/>
+   <xs:complexType name="ReqOpenProcType">
+      <xs:annotation>
+         <xs:documentation>Запрос на открытие процедуры декларирования</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="Declarant" type="cat_ru:OrganizationType">
+                  <xs:annotation>
+                     <xs:documentation>Информация об участнике ВЭД.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1004057E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа.</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

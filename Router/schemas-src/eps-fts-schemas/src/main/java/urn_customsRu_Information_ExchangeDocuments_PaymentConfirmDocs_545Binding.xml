@@ -1,0 +1,44 @@
+<binding xmlns:paycd="urn:customs.ru:Information:ExchangeDocuments:PaymentConfirmDocs:5.4.5" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:ExchangeDocuments:PaymentConfirmDocs:5.4.5" default="elements" prefix="paycd"/>
+  <mapping abstract="true" type-name="paycd:PaymentConfirmDocsType" class="ru.acs.fts.schemas.album.PaymentConfirmDocsType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="Comment" get-method="getComment" set-method="setComment" usage="optional"/>
+    <structure map-as="paycd:TPORegNumberType" get-method="getTPORegNumber" set-method="setTPORegNumber" usage="optional" name="TPORegNumber"/>
+    <structure map-as="paycd:DocIDType" get-method="getDocID" set-method="setDocID" name="DocID"/>
+    <collection get-method="getPaymentDocumentList" set-method="setPaymentDocumentList" create-type="java.util.ArrayList">
+      <structure map-as="paycd:PaymentDocumentType" name="PaymentDocument"/>
+    </collection>
+    <structure map-as="paycd:PayerType" get-method="getPayer" set-method="setPayer" name="Payer"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.PaymentConfirmDocsType" name="PaymentConfirmDocs">
+    <structure map-as="paycd:PaymentConfirmDocsType"/>
+  </mapping>
+  <mapping abstract="true" type-name="paycd:PayerType" class="ru.acs.fts.schemas.album.PayerType1">
+    <structure map-as="cat_ru:CUOrganizationType"/>
+    <value style="element" name="CardNumber" get-method="getCardNumber" set-method="setCardNumber" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="paycd:PaymentDocumentType" class="ru.acs.fts.schemas.album.PaymentDocumentType">
+    <structure map-as="cat_ru:DocumentBaseType"/>
+    <value style="element" name="Amount" get-method="getAmount" set-method="setAmount"/>
+    <value style="element" name="TotalAmount" get-method="getTotalAmount" set-method="setTotalAmount"/>
+    <value style="element" name="PaymentMethodCode" get-method="getPaymentMethodCode" set-method="setPaymentMethodCode" usage="optional"/>
+    <value style="element" name="CurrencyCode" get-method="getCurrencyCode" set-method="setCurrencyCode" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="paycd:TPORegNumberType" class="ru.acs.fts.schemas.album.TPORegNumberType1">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="DocNumber" get-method="getDocNumber" set-method="setDocNumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="paycd:MPORegNumType" class="ru.acs.fts.schemas.album.MPORegNumType">
+    <value style="element" name="CustomsCode" get-method="getCustomsCode" set-method="setCustomsCode" usage="optional"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" usage="optional" format="LocalDate.default"/>
+    <value style="element" name="MPO_Number" get-method="getMPONumber" set-method="setMPONumber"/>
+  </mapping>
+  <mapping abstract="true" type-name="paycd:DocIDType" class="ru.acs.fts.schemas.album.DocIDType">
+    <structure ordered="false" choice="true">
+      <structure map-as="cat_ru:GTDIDType" test-method="ifDTRegNum" get-method="getDTRegNum" set-method="setDTRegNum" usage="optional" name="DTRegNum"/>
+      <structure map-as="paycd:MPORegNumType" test-method="ifMPORegNum" get-method="getMPORegNum" set-method="setMPORegNum" usage="optional" name="MPORegNum"/>
+    </structure>
+  </mapping>
+</binding>

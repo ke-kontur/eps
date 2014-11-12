@@ -1,0 +1,11 @@
+<binding xmlns:rtiReq="urn:customs.ru:Information:IDKDocuments:OriginalRTIRequest:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:OriginalRTIRequest:5.4.0" default="elements" prefix="rtiReq"/>
+  <mapping abstract="true" type-name="rtiReq:OriginalRTIRequestType" class="ru.acs.fts.schemas.album.OriginalRTIRequestType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="catIDK_ru:IDKResultIDType" get-method="getResultInfo" set-method="setResultInfo" name="ResultInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.OriginalRTIRequestType" name="OriginalRTIRequest">
+    <structure map-as="rtiReq:OriginalRTIRequestType"/>
+  </mapping>
+</binding>

@@ -1,0 +1,20 @@
+<binding xmlns:inspMD="urn:customs.ru:Information:IDKDocuments:InspectionMetadata:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:InspectionMetadata:5.4.0" default="elements" prefix="inspMD"/>
+  <mapping abstract="true" type-name="inspMD:InspectionMetadataType" class="ru.acs.fts.schemas.album.InspectionMetadataType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <structure map-as="inspMD:IDKInspectionInfoType" get-method="getInspectionInfo" set-method="setInspectionInfo" name="InspectionInfo"/>
+    <structure map-as="catIDK_ru:IDKMetadataType" get-method="getDirectionInfo" set-method="setDirectionInfo" name="DirectionInfo"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.InspectionMetadataType" name="InspectionMetadata">
+    <structure map-as="inspMD:InspectionMetadataType"/>
+  </mapping>
+  <mapping abstract="true" type-name="inspMD:IDKInspectionInfoType" class="ru.acs.fts.schemas.album.IDKInspectionInfoType">
+    <structure map-as="catIDK_ru:IDKInspectionPlaceType"/>
+    <value style="element" name="IDResult" get-method="getIDResult" set-method="setIDResult"/>
+    <value style="element" name="InspectionResult" get-method="getInspectionResult" set-method="setInspectionResult" usage="optional"/>
+    <value style="element" name="OperatorID" get-method="getOperatorID" set-method="setOperatorID" usage="optional"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+    <value style="element" name="Notes" get-method="getNotes" set-method="setNotes" usage="optional"/>
+  </mapping>
+</binding>

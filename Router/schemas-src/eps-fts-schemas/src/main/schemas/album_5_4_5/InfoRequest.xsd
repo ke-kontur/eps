@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:customs.ru:Information:SQDocuments:InfoRequest:5.4.0" version="5.4.0.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:ir="urn:customs.ru:Information:SQDocuments:InfoRequest:5.4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+   <xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+   <xs:annotation>
+      <xs:documentation>Запрос сведений из удостоверения допуска к осуществлению международных автомобильных перевозок/из реестра лицензий на деятельность по перевозкам внутренним водным транспортом, морским транспортом опасных грузов/о юр. лице/о наличии судимости у сотрудников юр. лица/об учете организации в налоговом органе по месту нахождения ее обособленного подразделения/из реестра свидетельств на право вывоза культурных ценностей с территории РФ/из лицензии на обслуживание и ремонт авиационной техники</xs:documentation>
+   </xs:annotation>
+   <xs:element name="InfoRequest" type="ir:InfoRequestType"/>
+   <xs:complexType name="InfoRequestType">
+      <xs:annotation>
+         <xs:documentation>Запрос сведений из удостоверения допуска к осуществлению международных автомобильных перевозок/из реестра лицензий на деятельность по перевозкам внутренним водным транспортом, морским транспортом опасных грузов/о юр. лице/о наличии судимости у сотрудников юр. лица/об учете организации в налоговом органе по месту нахождения ее обособленного подразделения/из реестра свидетельств на право вывоза культурных ценностей с территории РФ/из лицензии на обслуживание и ремонт авиационной техники</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:BaseDocType">
+            <xs:sequence>
+               <xs:element name="DocSign" type="clt_ru:Numeric1Type">
+                  <xs:annotation>
+                     <xs:documentation>Запрос сведений: 1 - из удостоверения допуска к осуществлению международных автомобильных перевозок; 2 - из реестра лицензий на деятельность по перевозкам внутренним водным транспортом, морским транспортом опасных грузов; 3 - о юр. лице; 4 - о наличии судимости у сотрудников юр. лица; 5 - об учете организации в налоговом органе по месту нахождения ее обособленного подразделения; 6 - из реестра свидетельств на право вывоза культурных ценностей с территории РФ; 7 - из лицензии на обслуживание и ремонт авиационной техники</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="AdditionalInfo" type="clt_ru:FreeText250Type">
+                  <xs:annotation>
+                     <xs:documentation>Дополнительная информация</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ApplicationSourceSystemID" type="clt_ru:DocumentIDType">
+                  <xs:annotation>
+                     <xs:documentation>Идентификатор заявления на ЕПГУ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="ApplicationID" type="clt_ru:DocumentIDType">
+                  <xs:annotation>
+                     <xs:documentation>Идентификатор заявки в АПС "Электронные Госуслуги-2"</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="Organization" type="ir:OrganizationType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения об организации/физ. лице (юр. лицо/ИП)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="RequestOrg" type="cat_ru:CUOrganizationType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения об организации, осуществляющей запрос</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="RequestPerson" type="cat_ru:PersonSignatureType">
+                  <xs:annotation>
+                     <xs:documentation>ФИО лица, заполнившего запрос</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="DocumentDetails" type="ir:DocumentDetailsType">
+                  <xs:annotation>
+                     <xs:documentation>Реквизиты документа</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="1009061E" name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required">
+               <xs:annotation>
+                  <xs:documentation>Идентификатор вида документа</xs:documentation>
+               </xs:annotation>
+            </xs:attribute>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:annotation>
+      <xs:documentation>Локальные прикладные типы</xs:documentation>
+   </xs:annotation>
+   <xs:complexType name="DocumentDetailsType">
+      <xs:annotation>
+         <xs:documentation>Реквизиты документа</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:DocumentBaseType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="IssueOrg" type="cat_ru:CUOrganizationType">
+                  <xs:annotation>
+                     <xs:documentation>Сведения об организации, выдавшей документ</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="OrganizationType">
+      <xs:annotation>
+         <xs:documentation>Сведения об организации/физ. лице (юр. лицо/ИП)</xs:documentation>
+      </xs:annotation>
+      <xs:complexContent>
+         <xs:extension base="cat_ru:CUOrganizationType">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="OrgSign" type="clt_ru:DigitalIndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Признак: 0 - физ. лицо; 1 - юр. лицо</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="InsuranceNumber" type="clt_ru:CodeVariable11Type">
+                  <xs:annotation>
+                     <xs:documentation>Страховой номер индивидуального лицевого счёта (СНИЛС)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="BirthDate" type="clt_ru:DateCustType">
+                  <xs:annotation>
+                     <xs:documentation>Дата рождения</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="AddressSign" type="clt_ru:DigitalIndicatorType">
+                  <xs:annotation>
+                     <xs:documentation>Тип регистрации: 0 - МП (место пребывания); 1 - МЖ (место проживания)</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0" name="BirthPlace" type="cat_ru:AddressType">
+                  <xs:annotation>
+                     <xs:documentation>Место рождения</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

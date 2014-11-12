@@ -1,0 +1,29 @@
+<binding xmlns:gcl="urn:customs.ru:Information:CustomsDocuments:GoodsComponentList:5.4.5" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:GoodsComponentList:5.4.5" default="elements" prefix="gcl"/>
+  <mapping abstract="true" type-name="gcl:ComponentsListType" class="ru.acs.fts.schemas.album.goodscomponentlist.ComponentsListType">
+    <collection get-method="getMechanismUnitList" set-method="setMechanismUnitList" create-type="java.util.ArrayList">
+      <structure map-as="gcl:MechanismUnitType" name="MechanismUnit"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gcl:MechanismUnitType" class="ru.acs.fts.schemas.album.goodscomponentlist.MechanismUnitType">
+    <structure map-as="catESAD_cu:ComponentDescriptionType"/>
+    <value style="element" name="UnitDescription" get-method="getUnitDescription" set-method="setUnitDescription"/>
+    <collection get-method="getMechUnitPartList" set-method="setMechUnitPartList" usage="optional" create-type="java.util.ArrayList">
+      <structure map-as="gcl:MechUnitPartType" name="MechUnitPart"/>
+    </collection>
+  </mapping>
+  <mapping abstract="true" type-name="gcl:GoodsComponentListType" class="ru.acs.fts.schemas.album.goodscomponentlist.GoodsComponentListType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="GTDDocumentID" get-method="getGTDDocumentID" set-method="setGTDDocumentID" usage="optional"/>
+    <structure map-as="gcl:ComponentsListType" get-method="getComponentsList" set-method="setComponentsList" name="ComponentsList"/>
+    <structure map-as="cat_ru:GTDIDType" get-method="getGTDID" set-method="setGTDID" usage="optional" name="GTDID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.goodscomponentlist.GoodsComponentListType" name="GoodsComponentList">
+    <structure map-as="gcl:GoodsComponentListType"/>
+  </mapping>
+  <mapping abstract="true" type-name="gcl:MechUnitPartType" class="ru.acs.fts.schemas.album.goodscomponentlist.MechUnitPartType">
+    <structure map-as="catESAD_cu:MechUnitPartType"/>
+    <value style="element" name="ServiceID" get-method="getServiceID" set-method="setServiceID"/>
+  </mapping>
+</binding>

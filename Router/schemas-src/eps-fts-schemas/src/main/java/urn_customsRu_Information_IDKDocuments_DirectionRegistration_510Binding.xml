@@ -1,0 +1,13 @@
+<binding xmlns:dirReg="urn:customs.ru:Information:IDKDocuments:DirectionRegistration:5.1.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0">
+  <namespace uri="urn:customs.ru:Information:IDKDocuments:DirectionRegistration:5.1.0" default="elements" prefix="dirReg"/>
+  <mapping abstract="true" type-name="dirReg:DirectionRegistrationType" class="ru.acs.fts.schemas.album.DirectionRegistrationType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="RegistrationDate" get-method="getRegistrationDate" set-method="setRegistrationDate" format="LocalDate.default"/>
+    <value style="element" name="RegistrationTime" get-method="getRegistrationTime" set-method="setRegistrationTime"/>
+    <value style="element" name="DirectionID" get-method="getDirectionID" set-method="setDirectionID"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.DirectionRegistrationType" name="DirectionRegistration">
+    <structure map-as="dirReg:DirectionRegistrationType"/>
+  </mapping>
+</binding>

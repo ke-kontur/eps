@@ -1,0 +1,162 @@
+<binding xmlns:ns3="urn:customs.ru:Information:CustomsDocuments:InfoDT:5.4.1" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.4.0">
+  <namespace uri="urn:customs.ru:Information:CustomsDocuments:InfoDT:5.4.1" default="elements"/>
+  <mapping abstract="true" type-name="ns3:InfoDTType" class="ru.acs.fts.schemas.album.InfoDTType">
+    <structure map-as="cat_ru:BaseDocType"/>
+    <value style="element" name="DataVer" get-method="getDataVer" set-method="setDataVer" format="LocalDate.default"/>
+    <value style="element" name="FrontierCustomsCode" get-method="getFrontierCustomsCode" set-method="setFrontierCustomsCode" usage="optional"/>
+    <value style="element" name="LNP" get-method="getLNP" set-method="setLNP" usage="optional"/>
+    <value style="element" name="CustomsProcedure" get-method="getCustomsProcedure" set-method="setCustomsProcedure"/>
+    <value style="element" name="ElectronicDocumentSign" get-method="getElectronicDocumentSign" set-method="setElectronicDocumentSign" usage="optional"/>
+    <value style="element" name="DeclarationKind" get-method="getDeclarationKind" set-method="setDeclarationKind" usage="optional"/>
+    <structure name="GoodsShipment">
+      <value style="element" name="TotalGoodsNumber" get-method="getGoodsShipmentTotalGoodsNumber" set-method="setGoodsShipmentTotalGoodsNumber"/>
+      <value style="element" name="TotalPackageNumber" get-method="getGoodsShipmentTotalPackageNumber" set-method="setGoodsShipmentTotalPackageNumber" usage="optional"/>
+      <structure get-method="getConsignor" set-method="setConsignor" usage="optional" name="Consignor">
+        <structure map-as="ns3:OrganizationInfoType"/>
+        <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+      </structure>
+      <structure get-method="getConsignee" set-method="setConsignee" usage="optional" name="Consignee">
+        <structure map-as="ns3:OrganizationInfoType"/>
+        <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+      </structure>
+      <structure get-method="getFinancialAdjustingResponsiblePerson" set-method="setFinancialAdjustingResponsiblePerson" usage="optional" name="FinancialAdjustingResponsiblePerson">
+        <structure map-as="ns3:OrganizationInfoType"/>
+        <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+      </structure>
+      <structure get-method="getDeclarant" set-method="setDeclarant" usage="optional" name="Declarant">
+        <structure map-as="ns3:OrganizationInfoType"/>
+        <structure map-as="cat_ru:AddressType" get-method="getAddress" set-method="setAddress" usage="optional" name="Address"/>
+      </structure>
+      <structure get-method="getDTFilledPerson1" set-method="setDTFilledPerson1" usage="optional" name="DTFilledPerson">
+        <structure get-method="getCustomsRepresCertificate" set-method="setCustomsRepresCertificate" usage="optional" name="CustomsRepresCertificate">
+          <value style="element" name="PrDocumentNumber" get-method="getPrDocumentNumber" set-method="setPrDocumentNumber" usage="optional"/>
+        </structure>
+      </structure>
+      <collection get-method="getDTGoodsLocationList" set-method="setDTGoodsLocationList" usage="optional" create-type="java.util.ArrayList">
+        <structure type="ru.acs.fts.schemas.album.InfoDTType$DTGoodsLocation" name="DTGoodsLocation">
+          <value style="element" name="CustomsOffice" get-method="getCustomsOffice" set-method="setCustomsOffice" usage="optional"/>
+          <structure get-method="getGoodsLocationWarehouse" set-method="setGoodsLocationWarehouse" usage="optional" name="GoodsLocationWarehouse">
+            <value style="element" name="PrDocumentNumber" get-method="getPrDocumentNumber" set-method="setPrDocumentNumber" usage="optional"/>
+            <value style="element" name="DocumentModeCode" get-method="getDocumentModeCode" set-method="setDocumentModeCode" usage="optional"/>
+          </structure>
+        </structure>
+      </collection>
+      <structure get-method="getDTConsigment1" set-method="setDTConsigment1" usage="optional" name="DTConsigment">
+        <value style="element" name="ContainerIndicator" get-method="getContainerIndicator" set-method="setContainerIndicator" usage="optional"/>
+        <value style="element" name="DispatchCountryCode" get-method="getDispatchCountryCode" set-method="setDispatchCountryCode" usage="optional"/>
+        <value style="element" name="DestinationCountryCode" get-method="getDestinationCountryCode" set-method="setDestinationCountryCode" usage="optional"/>
+        <collection get-method="getBorderCustomsOfficeList" set-method="setBorderCustomsOfficeList" usage="optional" create-type="java.util.ArrayList">
+          <structure type="ru.acs.fts.schemas.album.InfoDTType$DTConsigment$BorderCustomsOffice" name="BorderCustomsOffice">
+            <value style="element" name="Code" get-method="getCode" set-method="setCode"/>
+          </structure>
+        </collection>
+        <structure map-as="ns3:DTTransportType" get-method="getDTDepartureArrivalTransport" set-method="setDTDepartureArrivalTransport" usage="optional" name="DTDepartureArrivalTransport"/>
+        <structure map-as="ns3:DTTransportType" get-method="getDTBorderTransport" set-method="setDTBorderTransport" usage="optional" name="DTBorderTransport"/>
+      </structure>
+      <structure get-method="getDTMainContractTerms1" set-method="setDTMainContractTerms1" usage="optional" name="DTMainContractTerms">
+        <value style="element" name="ContractCurrencyCode" get-method="getContractCurrencyCode" set-method="setContractCurrencyCode" usage="optional"/>
+        <value style="element" name="ContractCurrencyRate" get-method="getContractCurrencyRate" set-method="setContractCurrencyRate" usage="optional"/>
+        <value style="element" name="TotalInvoiceAmount" get-method="getTotalInvoiceAmount" set-method="setTotalInvoiceAmount" usage="optional"/>
+        <value style="element" name="TradeCountryCode" get-method="getTradeCountryCode" set-method="setTradeCountryCode" usage="optional"/>
+        <value style="element" name="DealFeatureCode" get-method="getDealFeatureCode" set-method="setDealFeatureCode" usage="optional"/>
+        <value style="element" name="DealNatureCode" get-method="getDealNatureCode" set-method="setDealNatureCode" usage="optional"/>
+        <structure get-method="getDTDeliveryTerms1" set-method="setDTDeliveryTerms1" usage="optional" name="DTDeliveryTerms">
+          <value style="element" name="DeliveryTermsStringCode" get-method="getDeliveryTermsStringCode" set-method="setDeliveryTermsStringCode" usage="optional"/>
+        </structure>
+      </structure>
+      <collection get-method="getDTGoodList" set-method="setDTGoodList" create-type="java.util.ArrayList">
+        <structure type="ru.acs.fts.schemas.album.InfoDTType$DTGoods" name="DTGoods">
+          <value style="element" name="GoodsNumeric" get-method="getGoodsNumeric" set-method="setGoodsNumeric"/>
+          <value style="element" name="GoodsDescription" get-method="getGoodsDescription" set-method="setGoodsDescription"/>
+          <value style="element" name="GrossWeightQuantity" get-method="getGrossWeightQuantity" set-method="setGrossWeightQuantity" usage="optional"/>
+          <value style="element" name="NetWeightQuantity" get-method="getNetWeightQuantity" set-method="setNetWeightQuantity" usage="optional"/>
+          <value style="element" name="CustomsCost" get-method="getCustomsCost" set-method="setCustomsCost" usage="optional"/>
+          <value style="element" name="StatisticalCost" get-method="getStatisticalCost" set-method="setStatisticalCost" usage="optional"/>
+          <value style="element" name="GoodsTNVEDCode" get-method="getGoodsTNVEDCode" set-method="setGoodsTNVEDCode" usage="optional"/>
+          <value style="element" name="GoodsClassificationCode" get-method="getGoodsClassificationCode" set-method="setGoodsClassificationCode" usage="optional"/>
+          <value style="element" name="OriginCountryCode" get-method="getOriginCountryCode" set-method="setOriginCountryCode" usage="optional"/>
+          <value style="element" name="CustomsCostCorrectMethod" get-method="getCustomsCostCorrectMethod" set-method="setCustomsCostCorrectMethod" usage="optional"/>
+          <value style="element" name="GoodsAddTNVEDCode" get-method="getGoodsAddTNVEDCode" set-method="setGoodsAddTNVEDCode" usage="optional"/>
+          <collection get-method="getGoodsGroupInformationList" set-method="setGoodsGroupInformationList" usage="optional" create-type="java.util.ArrayList">
+            <structure type="ru.acs.fts.schemas.album.InfoDTType$DTGoods$GoodsGroupInformation" name="GoodsGroupInformation">
+              <value style="element" name="Manufacturer" get-method="getManufacturer" set-method="setManufacturer" usage="optional"/>
+              <value style="element" name="TradeMark" get-method="getTradeMark" set-method="setTradeMark" usage="optional"/>
+              <value style="element" name="GoodsMark" get-method="getGoodsMark" set-method="setGoodsMark" usage="optional"/>
+              <value style="element" name="GoodsModel" get-method="getGoodsModel" set-method="setGoodsModel" usage="optional"/>
+              <value style="element" name="GoodsMarking" get-method="getGoodsMarking" set-method="setGoodsMarking" usage="optional"/>
+            </structure>
+          </collection>
+          <structure map-as="catESAD_cu:CUPreferenciiType" get-method="getPreferencii" set-method="setPreferencii" usage="optional" name="Preferencii"/>
+          <collection get-method="getDTPresentedDocumentList" set-method="setDTPresentedDocumentList" usage="optional" create-type="java.util.ArrayList">
+            <structure type="ru.acs.fts.schemas.album.InfoDTType$DTGoods$DTPresentedDocument" name="DTPresentedDocument">
+              <value style="element" name="PrDocumentNumber" get-method="getPrDocumentNumber" set-method="setPrDocumentNumber" usage="optional"/>
+              <value style="element" name="PresentedDocumentModeCode" get-method="getPresentedDocumentModeCode" set-method="setPresentedDocumentModeCode"/>
+              <value style="element" name="PrDocumentDate" get-method="getPrDocumentDate" set-method="setPrDocumentDate" usage="optional" format="LocalDate.default"/>
+            </structure>
+          </collection>
+          <collection get-method="getDTCustomsPaymentCalculationList" set-method="setDTCustomsPaymentCalculationList" usage="optional" create-type="java.util.ArrayList">
+            <structure type="ru.acs.fts.schemas.album.InfoDTType$DTGoods$DTCustomsPaymentCalculation" name="DTCustomsPaymentCalculation">
+              <value style="element" name="PaymentModeCode" get-method="getPaymentModeCode" set-method="setPaymentModeCode"/>
+              <value style="element" name="PaymentAmount" get-method="getPaymentAmount" set-method="setPaymentAmount" usage="optional"/>
+              <value style="element" name="PaymentCurrencyCode" get-method="getPaymentCurrencyCode" set-method="setPaymentCurrencyCode" usage="optional"/>
+              <value style="element" name="Rate" get-method="getRate" set-method="setRate" usage="optional"/>
+              <value style="element" name="RateTypeCode" get-method="getRateTypeCode" set-method="setRateTypeCode" usage="optional"/>
+              <value style="element" name="PaymentCode" get-method="getPaymentCode" set-method="setPaymentCode" usage="optional"/>
+            </structure>
+          </collection>
+          <structure get-method="getSupplementaryGoodsQuantity" set-method="setSupplementaryGoodsQuantity" usage="optional" name="SupplementaryGoodsQuantity">
+            <value style="element" name="GoodsQuantity" get-method="getGoodsQuantity" set-method="setGoodsQuantity"/>
+          </structure>
+          <structure get-method="getGoodsPackaging" set-method="setGoodsPackaging" usage="optional" name="GoodsPackaging">
+            <value style="element" name="PakageQuantity" get-method="getPakageQuantity" set-method="setPakageQuantity" usage="optional"/>
+            <collection get-method="getPackingCodeList" set-method="setPackingCodeList" usage="optional" create-type="java.util.ArrayList">
+              <value style="element" name="PackingCode" type="java.lang.String"/>
+            </collection>
+            <collection get-method="getPalleteCodeList" set-method="setPalleteCodeList" usage="optional" create-type="java.util.ArrayList">
+              <value style="element" name="PalleteCode" type="java.lang.String"/>
+            </collection>
+            <collection get-method="getUnitPackCodeList" set-method="setUnitPackCodeList" usage="optional" create-type="java.util.ArrayList">
+              <value style="element" name="UnitPackCode" type="java.lang.String"/>
+            </collection>
+            <collection get-method="getCargoInfoCodeList" set-method="setCargoInfoCodeList" usage="optional" create-type="java.util.ArrayList">
+              <value style="element" name="CargoInfoCode" type="java.lang.String"/>
+            </collection>
+          </structure>
+          <structure get-method="getDTContainer1" set-method="setDTContainer1" usage="optional" name="DTContainer">
+            <collection get-method="getContainerNumberList" set-method="setContainerNumberList" usage="optional" create-type="java.util.ArrayList">
+              <structure type="ru.acs.fts.schemas.album.InfoDTType$DTGoods$DTContainer$ContainerNumber" name="ContainerNumber">
+                <value style="element" name="ContainerIdentificator" get-method="getContainerIdentificator" set-method="setContainerIdentificator"/>
+              </structure>
+            </collection>
+          </structure>
+          <structure map-as="catESAD_cu:ESADCustomsProcedureType" get-method="getDTCustomsProcedure" set-method="setDTCustomsProcedure" usage="optional" name="DTCustomsProcedure"/>
+        </structure>
+      </collection>
+    </structure>
+    <structure map-as="cat_ru:GTDIDType" get-method="getDTNumber" set-method="setDTNumber" name="DTNumber"/>
+    <value style="attribute" name="DocumentModeID" get-method="getDocumentModeID" set-method="setDocumentModeID"/>
+  </mapping>
+  <mapping class="ru.acs.fts.schemas.album.InfoDTType" name="InfoDT">
+    <structure map-as="ns3:InfoDTType"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns3:OrganizationInfoType" class="ru.acs.fts.schemas.album.OrganizationInfoType">
+    <value style="element" name="OrganizationName" get-method="getOrganizationName" set-method="setOrganizationName" usage="optional"/>
+    <value style="element" name="OGRN" get-method="getOGRN" set-method="setOGRN" usage="optional"/>
+    <value style="element" name="INN" get-method="getINN" set-method="setINN" usage="optional"/>
+    <value style="element" name="KPP" get-method="getKPP" set-method="setKPP" usage="optional"/>
+    <value style="element" name="ITN" get-method="getITN" set-method="setITN" usage="optional"/>
+    <value style="element" name="OKATO" get-method="getOKATO" set-method="setOKATO" usage="optional"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns3:GoodsLocationWarehouseType" class="ru.acs.fts.schemas.album.GoodsLocationWarehouseType">
+    <structure name="рпрр"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns3:DTTransportType" class="ru.acs.fts.schemas.album.DTTransportType">
+    <value style="element" name="TransportModeCode" get-method="getTransportModeCode" set-method="setTransportModeCode" usage="optional"/>
+    <collection get-method="getTransportMeanList" set-method="setTransportMeanList" usage="optional" create-type="java.util.ArrayList">
+      <structure type="ru.acs.fts.schemas.album.DTTransportType$TransportMeans" name="TransportMeans">
+        <value style="element" name="TransportIdentifier" get-method="getTransportIdentifier" set-method="setTransportIdentifier" usage="optional"/>
+        <value style="element" name="TransportMeansNationalityCode" get-method="getTransportMeansNationalityCode" set-method="setTransportMeansNationalityCode" usage="optional"/>
+      </structure>
+    </collection>
+  </mapping>
+</binding>

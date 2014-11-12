@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:actNum="urn:customs.ru:Information:IDKDocuments:ActNumberInfo:5.4.0" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.4.0" xmlns:clt_ru="urn:customs.ru:CommonLeafTypes:5.4.0" xmlns:catIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0" targetNamespace="urn:customs.ru:Information:IDKDocuments:ActNumberInfo:5.4.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="5.4.0.0">
+	<xs:import namespace="urn:customs.ru:CommonAggregateTypes:5.4.0" schemaLocation="CommonAggregateTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:CommonLeafTypes:5.4.0" schemaLocation="CommonLeafTypesCust.xsd"/>
+	<xs:import namespace="urn:customs.ru:Information:IDKDocuments:IDKCommonAggregateTypesCust:5.4.0" schemaLocation="IDKCommonAggregateTypesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Регистрационный номер акта таможенного осмотра</xs:documentation>
+	</xs:annotation>
+	<xs:element name="ActNumberInfo" type="actNum:ActNumberInfoType"/>
+	<xs:complexType name="ActNumberInfoType">
+		<xs:annotation>
+			<xs:documentation>Регистрационный номер акта таможенного осмотра</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="cat_ru:BaseDocType">
+				<xs:sequence>
+					<xs:element name="ResultInfo" type="catIDK_ru:IDKResultIDType">
+						<xs:annotation>
+							<xs:documentation>Информация о результатах осмотра , для которых требуется сформировать акт</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="ActRegNumber" type="cat_ru:GTDID6Type">
+						<xs:annotation>
+							<xs:documentation>Номер акта таможенного осмотра</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="DocumentModeID" type="clt_ru:DocumentModeIDType" use="required" fixed="1010001E">
+					<xs:annotation>
+						<xs:documentation>Идентификатор вида документа</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

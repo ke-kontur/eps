@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cltIDK_ru="urn:customs.ru:Information:IDKDocuments:IDKCommonLeafTypesCust:5.0.11" xmlns:CategoryCust="urn:customs.ru:Categories:3.0.0" targetNamespace="urn:customs.ru:Information:IDKDocuments:IDKCommonLeafTypesCust:5.0.11" elementFormDefault="qualified" version="5.0.11.0">
+	<xs:import namespace="urn:customs.ru:Categories:3.0.0" schemaLocation="CategoriesCust.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Общие простые типы документов информационного обмена ИДК</xs:documentation>
+	</xs:annotation>
+	<xs:simpleType name="IDKIDType">
+		<xs:annotation>
+			<xs:documentation>Число. Идентификатор ИДК/МИДК. 6 символов. Текстовый</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="CategoryCust:TextCategoriesCust">
+			<xs:length value="6"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TIRIDType">
+		<xs:annotation>
+			<xs:documentation>Идентификатор. Номер книжки МДП. 8 символов. Числовой</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="CategoryCust:IdentifierCategoriesCust">
+			<xs:pattern value="\d{8}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TIRSeriesCodeType">
+		<xs:annotation>
+			<xs:documentation>Код. Серия книжки МДП. 2 символа. Текстовый</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="CategoryCust:CodeCategoriesCust">
+			<xs:pattern value="([A-Z ]{2})"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
