@@ -350,6 +350,12 @@
                 <value>1006029E</value> <!-- ApplicationStore -->
             </list>
         </entry>
+
+		<entry key="CMN.11106">
+			<list>
+				<value>1006177E</value> <!--MPODEclaration-->
+			</list>
+		</entry>
         <!--<entry key="CMN.11156">
             <list>
                 <value>1006107E</value> &lt;!&ndash; ESADout_CU &ndash;&gt;

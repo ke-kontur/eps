@@ -144,6 +144,7 @@
 							<constructor-arg>
 								<map>
 									<entry key="envelopeName" value="msg12018" />
+									<entry key="receivingSystem" value="CUSTOMS" />
 								</map>
 							</constructor-arg>
 						</bean>

@@ -12,6 +12,7 @@ import ru.acs.fts.eps2.router.processing.EDJobBatchContext;
 import ru.acs.fts.eps2.router.processing.helpers.EnvelopeCreator;
 import ru.acs.fts.schemas.envelope.CustomsType;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -51,12 +52,18 @@ public class TranzitInProcRemotenes11121 extends BusinessProcess
 		List< EDEnvelope > envelopes = createAndPutEnvelopes( jobBatchContext, jobContext );
 		if(ProcedureUdFlags.isRrwTransit(procInfo.getUdFlag()))
 		{
-			CustomsType receiverCustoms = inferRemoteRecipientCustoms( recvEnv, procInfo );
+			//CustomsType receiverCustoms = inferRemoteRecipientCustoms( recvEnv, procInfo );
+			CustomsType senderCustoms = new CustomsType( );
+			senderCustoms.setCustomsCode( procInfo.getCustCode() );
+			senderCustoms.setExchType( Integer.toString( procInfo.getExchType( ) ) );
+			Map< String, String > messageTypeSubstituion = new HashMap< String, String >( );
+			messageTypeSubstituion.put( MessageType.CMN_11121, MessageType.ADM_11121 );
+
 			EDEnvelope transit = EnvelopeCreator.createTranzitMessage(
 					innerMapping, recvEnv,
-					BusinessSystems.EPS, receiverCustoms
+					BusinessSystems.EPS, recvEnv.getReceiverCustoms()
 			);
-			transit.getEDHeader().setMessageType("ADM.11121");
+			transit.getEDHeader( ).setSenderCustoms( senderCustoms);
 			envelopes.add( transit );
 		}
 		else {

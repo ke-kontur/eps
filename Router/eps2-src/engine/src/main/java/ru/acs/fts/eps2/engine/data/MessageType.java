@@ -345,6 +345,12 @@ public class MessageType
 
 	public static final String CMN_11127 = "CMN.11127";
 
+	public static final String ADM_11092 = "ADM.11092";
+
+	public static final String CMN_11092 = "CMN.11092";
+
+	public static final String ADM_11121 = "ADM.11121";
+
 	public static boolean isOkNotification( String messageType )
 	{
 		boolean isOkNotification = false;

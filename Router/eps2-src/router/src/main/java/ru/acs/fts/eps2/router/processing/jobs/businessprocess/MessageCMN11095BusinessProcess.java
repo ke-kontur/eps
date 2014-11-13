@@ -93,13 +93,13 @@ public class MessageCMN11095BusinessProcess extends BusinessProcess
 
 		CustomsType senderCustoms = recvEnv.getSenderCustoms( );
 
-		CustomsType receiverCustoms = new CustomsType( );
+		/*CustomsType receiverCustoms = new CustomsType( );
 		receiverCustoms.setCustomsCode( process.getBorderCustCode( ) );
-		receiverCustoms.setExchType( Integer.toString( process.getExchType( ) ) );
+		receiverCustoms.setExchType( Integer.toString( process.getExchType( ) ) );*/
 
 		EnvelopeCreator.reRouteMessage(
 				transit, senderCustoms,
-				BusinessSystems.EPS, receiverCustoms,
+				BusinessSystems.EPS, recvEnv.getReceiverCustoms( ),
 				null, transit.getIncomeEnvelopeID( )
 		);
 

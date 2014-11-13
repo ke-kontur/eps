@@ -1,6 +1,8 @@
 package ru.acs.fts.eps2.router.processing.jobs.businessprocess;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import ru.acs.fts.eps2.core.processing.BaseProcessingException;
 import ru.acs.fts.eps2.core.processing.ProcessingConstants;
@@ -58,7 +60,6 @@ public class MessageCMN11092BusinessProcess extends BusinessProcess
             envelopes.add( prepareDeclarantCMN00004( recvEnv, jobBatchContext, jobContext ) );
         }
         else if ( ProcedureUdFlags.isRrwTransit(procInfo.getUdFlag()) ) {
-            //TODO:спорное место имхо. непонятно почему не устраиват транзит как в рамках обычной удаленки
 
             envelopes.add( prepareRemoteADM11092( recvEnv, procInfo, jobBatchContext, jobContext ) );
         }
@@ -191,17 +192,19 @@ public class MessageCMN11092BusinessProcess extends BusinessProcess
             EDJobBatchContext jobBatchContext, JobContext jobContext )
             throws BaseProcessingException, DatabaseException
     {
-        CustomsType receiverCustoms = new CustomsType( );
-        receiverCustoms.setCustomsCode( procInfo.getBorderCustCode( ) );
-        receiverCustoms.setExchType( Integer.toString( procInfo.getExchType( ) ) );
+        CustomsType senderCustoms = new CustomsType( );
+        senderCustoms.setCustomsCode( procInfo.getCustCode() );
+        senderCustoms.setExchType( Integer.toString( procInfo.getExchType( ) ) );
+        Map< String, String > messageTypeSubstituion = new HashMap< String, String >( );
+        messageTypeSubstituion.put( MessageType.CMN_11092, MessageType.ADM_11092 );
 
         EDEnvelope transit = EnvelopeCreator.createTranzitMessage(
-                null, recvEnv,
-                BusinessSystems.EPS, receiverCustoms
+                messageTypeSubstituion, recvEnv,
+                BusinessSystems.EPS, recvEnv.getReceiverCustoms()
         );
 
-        transit.getEDHeader( ).setSenderCustoms( recvEnv.getReceiverCustoms( ) );
-        transit.getEDHeader().setMessageType("ADM.11092");
+        transit.getEDHeader( ).setSenderCustoms( senderCustoms);
+
         return transit;
     }
 
