@@ -72,7 +72,7 @@
                     </constructor-arg>
                 </bean>
 
-                <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
+                <!--<bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
                     <constructor-arg ref="checkSignedEnvelope" />
                     <constructor-arg>
                         <bean class="ru.acs.fts.eps2.engine.processing.JobContext">
@@ -81,7 +81,7 @@
                             </constructor-arg>
                         </bean>
                     </constructor-arg>
-                </bean>
+                </bean>-->
 
                 <bean class="ru.acs.fts.eps2.engine.processing.PreparedJob">
                     <constructor-arg ref="structControlRequest" />
