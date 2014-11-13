@@ -46,6 +46,7 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
 
         String transitMessageName = jobContext.getString( TRANSIT_MESSAGE_NAME );
         EDEnvelope transitMessage = ( EDEnvelope )jobBatchContext.get( transitMessageName );
+        transitMessage.setInitialEnvelopeID(null);
         envelopes.add( transitMessage );
         EDEnvelope recvEnv = jobBatchContext.getReceivedEnvelope( );
         EDDocument regType = recvEnv.getDocument().getDocumentInContainer(NotifMPORegistrationType.class);

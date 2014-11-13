@@ -53,6 +53,7 @@
 						<bean class="ru.acs.fts.eps2.engine.processing.JobContext">
 							<constructor-arg>
 								<map>
+									<entry key="authType" value="FROM_DECL_TO_KASTO_WITHOUT_CODE" />
 								</map>
 							</constructor-arg>
 						</bean>

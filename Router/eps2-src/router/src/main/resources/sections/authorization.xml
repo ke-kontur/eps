@@ -154,11 +154,11 @@
     								<value>CMN.11047</value>
 									<value>CMN.11070</value>
 									<value>CMN.11074</value>
-    								<value>CMN.11104</value>
+    								<!--<value>CMN.11104</value>-->
     								<value>CMN.11108</value>
     								<value>CMN.11110</value>
                                     <value>CMN.11127</value>
-                                    <value>CMN.11132</value>
+                                    <!--<value>CMN.11132</value>-->
                                     <value>CMN.11144</value>
     								
     								<value>CMN.12102</value>
@@ -295,7 +295,7 @@
     								<value>CMN.11033</value>
     								<value>CMN.11042</value>
     								<value>CMN.11043</value>
-    								<value>CMN.11062</value>
+    								<!--<value>CMN.11062</value>-->
     								<value>CMN.11072</value>
     								<value>CMN.11073</value>
     								<value>CMN.11075</value>
@@ -303,12 +303,12 @@
     								<value>CMN.11094</value>
     								<value>CMN.11095</value>
     								<value>CMN.11097</value>
-    								<value>CMN.11099</value>
-                                    <value>CMN.11100</value>
-                                    <value>CMN.11131</value>
+    								<!--<value>CMN.11099</value>-->
+                                    <!--<value>CMN.11100</value>-->
+                                    <!--<value>CMN.11131</value>-->
     								<value>CMN.11101</value>
-    								<value>CMN.11102</value>
-                                    <value>CMN.11105</value>
+    								<!--<value>CMN.11102</value>-->
+                                    <!--<value>CMN.11105</value>-->
                                     <value>CMN.11106</value>
                                     <value>CMN.11107</value>
                                     <value>CMN.11109</value>
@@ -338,7 +338,7 @@
     								<value>MSG.11060</value>
 
     								<!-- Транзит из ТО без ссылочной связанности -->
-									<value>CMN.11002</value> 
+									<!--<value>CMN.11002</value> -->
 									<value>CMN.11009</value> 
 									<value>CMN.11015</value>
 									<value>CMN.11016</value>
@@ -585,7 +585,14 @@
     				<property name="authorization" value="FROM_KASTO_TO_DECL_WITHOUT_CODE" />
     				<property name="condition" >
     					<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
-    						<property name="messageType" value="MSG.11006" />
+    						<!--<property name="messageType" value="MSG.11006" />-->
+							<property name="messageTypes" >
+								<list>
+									<value>MSG.11006</value>
+									<value>CMN.11104</value>
+									<value>CMN.11132</value>
+								</list>
+							</property>
     						<property name="receivingCustomsType" value="MALAKHIT" />
     					</bean>
     				</property>
@@ -604,7 +611,14 @@
                                     <value>CMN.11152</value>
     								<value>CMN.15025</value>
     								<value>CMN.15026</value>
-    							</list>
+									<value>CMN.11105</value>
+									<value>CMN.11099</value>
+									<value>CMN.11062</value>
+									<value>CMN.11002</value>
+									<value>CMN.11100</value>
+									<value>CMN.11131</value>
+									<value>CMN.11102</value>
+								</list>
     						</property>
     					</bean>
     				</property>
