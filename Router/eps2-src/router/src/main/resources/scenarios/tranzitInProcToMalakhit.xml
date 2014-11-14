@@ -113,6 +113,7 @@
 								<map>
 									<entry key="envelopeName" value="transitMessage" />
 									<entry key="receivingSystem" value="MALAKHIT" />
+									<entry key="senderCustomsAsEps" value="true" />
 								</map>
 							</constructor-arg>
 						</bean>

@@ -123,6 +123,7 @@
                                 <map>
                                     <entry key="envelopeName" value="transitMessage" />
                                     <entry key="receivingSystem" value="CUSTOMS" />
+                                    <entry key="receiverCustomsCodeFromProcInfo" value="true"/>
                                 </map>
                             </constructor-arg>
                         </bean>

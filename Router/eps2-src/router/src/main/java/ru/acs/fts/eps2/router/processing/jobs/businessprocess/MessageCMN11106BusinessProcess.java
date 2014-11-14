@@ -10,6 +10,7 @@ import ru.acs.fts.eps2.engine.data.kind.DocumentStates;
 import ru.acs.fts.eps2.engine.processing.JobContext;
 import ru.acs.fts.eps2.engine.processing.helpers.CryptoHelper;
 import ru.acs.fts.eps2.engine.util.RemotenessHelper;
+import ru.acs.fts.eps2.model.entities.Edecl_Messages;
 import ru.acs.fts.eps2.model.entities.Edecl_Msg_Doc;
 import ru.acs.fts.eps2.model.entities.Edecl_Proc_Information;
 import ru.acs.fts.eps2.model.services.EnvelopeService;
@@ -22,6 +23,7 @@ import ru.acs.fts.eps2.router.objects.EDEnvelope;
 import ru.acs.fts.eps2.router.processing.EDJobBatchContext;
 import ru.acs.fts.eps2.router.processing.helpers.EnvelopeCreator;
 import ru.acs.fts.eps2.util.exceptions.DatabaseException;
+import ru.acs.fts.eps2.utils.StringUtil;
 import ru.acs.fts.schemas.album.mpo_declaration.MPODeclarationType;
 import ru.acs.fts.schemas.album.notifmporegistration.NotifMPORegistrationType;
 import ru.acs.fts.schemas.envelope.CustomsType;
@@ -51,12 +53,18 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
         envelopes.add( transitMessage );
         EDEnvelope recvEnv = jobBatchContext.getReceivedEnvelope( );
         EDDocument regType = transitMessage.getDocument().getDocumentInContainer(NotifMPORegistrationType.class);
+        CustomsType senderCustoms=new CustomsType();
+        String processId = recvEnv.getProcessID( );
+
+        Edecl_Proc_Information procInfo=getServiceHolder().getProcedureService().getProcInformation( processId );
+        senderCustoms.setCustomsCode(procInfo.getCustCode());
+        senderCustoms.setExchType(transitMessage.getSenderCustoms().getExchType());
         EDEnvelope cmn11106 = EnvelopeCreator.createFluentMessage(
                 "CMN.11133", recvEnv.getProcessID( ), recvEnv.getParticipantID( ),
                 null,
                 recvEnv.getApplicationInfo( ).getSoftKind( ),
                 recvEnv.getApplicationInfo( ).getSoftVersion( ),
-                recvEnv.getSenderSystem( ), transitMessage.getSenderCustoms(),
+                BusinessSystems.CUSTOMS, senderCustoms,
                 BusinessSystems.DECLARANT, null,
                 regType.getRawDocument()
         );
@@ -64,7 +72,12 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
         EnvelopeService envelopeService = getServiceHolder( ).getEnvelopeService( );
 
         cmn11106.setIncomeEnvelopeID( recvEnv.getEnvelopeID( ) );
-        cmn11106.setInitialEnvelopeID(envelopeService.getEnvelope(recvEnv.getInitialEnvelopeID()).getIncomeEnvelopeId());
+        /*if(!StringUtil.isNullOrEmpty(recvEnv.getInitialEnvelopeID())) {
+            Edecl_Messages initialMsg=envelopeService.getEnvelope(recvEnv.getInitialEnvelopeID());
+            if(initialMsg!=null) {
+                cmn11106.setInitialEnvelopeID(envelopeService.getEnvelope(recvEnv.getInitialEnvelopeID()).getIncomeEnvelopeId());
+            }
+        }*/
         cmn11106.getEDHeader( ).setSenderCustoms(transitMessage.getSenderCustoms());
         cmn11106.setDocument( regType );
         envelopes.add(cmn11106);
