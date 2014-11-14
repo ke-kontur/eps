@@ -11,6 +11,15 @@
 			<list>
 				<!-- Сложные проверки с удаленкой - вперед -->
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="msg11006FromMalakhit" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="MSG.11006" />
+							<property name="sendingSystem" value="MALAKHIT" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="msg11006" />
 					<property name="condition">
 						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
@@ -532,6 +541,19 @@
 								
 				<!-- ДАЛЕЕ ПОРЯДОК ВАЖЕН!!! -->
 				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="cmn11062" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="messageTypes">
+								<list>
+									<value>CMN.11062</value>
+								</list>
+							</property>
+							<property name="sendingSystem" value="MALAKHIT" />
+						</bean>
+					</property>
+				</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
 					<property name="jobBatch" ref="cmn11062Asktt" />
 					<property name="condition">
 						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
@@ -852,6 +874,21 @@
 						</bean>
                     </property>
                 </bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="tranzitInProcIEIDRDIDFromMalakhit" />
+					<property name="condition">
+						<bean
+								class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition">
+							<property name="messageTypes" >
+								<list>
+									<value>CMN.11105</value>
+									<!--<value>CMN.11106</value>-->
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
 
 
                 <bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">

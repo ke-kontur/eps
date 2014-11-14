@@ -325,7 +325,7 @@
 							<property name="messageTypes">
 								<list>
 									<value>CMN.11104</value>
-									<value>CMN.11132</value>
+									<!--<value>CMN.11132</value>-->
 								</list>
 							</property>
 						</bean>
@@ -353,7 +353,7 @@
 									<value>CMN.11074</value>
                             		<!--<value>CMN.11104</value>-->
                             		<value>CMN.11110</value>
-                                    <!--<value>CMN.11132</value>-->
+                                    <value>CMN.11132</value>
 
                                     <value>CMN.11144</value>
 

@@ -158,7 +158,7 @@
     								<value>CMN.11108</value>
     								<value>CMN.11110</value>
                                     <value>CMN.11127</value>
-                                    <!--<value>CMN.11132</value>-->
+                                    <value>CMN.11132</value>
                                     <value>CMN.11144</value>
     								
     								<value>CMN.12102</value>
@@ -303,11 +303,11 @@
     								<value>CMN.11094</value>
     								<value>CMN.11095</value>
     								<value>CMN.11097</value>
-    								<!--<value>CMN.11099</value>-->
-                                    <!--<value>CMN.11100</value>-->
-                                    <!--<value>CMN.11131</value>-->
+    								<value>CMN.11099</value>
+                                    <value>CMN.11100</value>
+                                    <value>CMN.11131</value>
     								<value>CMN.11101</value>
-    								<!--<value>CMN.11102</value>-->
+    								<value>CMN.11102</value>
                                     <!--<value>CMN.11105</value>-->
                                     <value>CMN.11106</value>
                                     <value>CMN.11107</value>
@@ -338,7 +338,7 @@
     								<value>MSG.11060</value>
 
     								<!-- Транзит из ТО без ссылочной связанности -->
-									<!--<value>CMN.11002</value> -->
+									<value>CMN.11002</value>
 									<value>CMN.11009</value> 
 									<value>CMN.11015</value>
 									<value>CMN.11016</value>
@@ -590,10 +590,10 @@
 								<list>
 									<value>MSG.11006</value>
 									<value>CMN.11104</value>
-									<value>CMN.11132</value>
+									<!--<value>CMN.11132</value>-->
 								</list>
 							</property>
-    						<property name="receivingCustomsType" value="MALAKHIT" />
+    						<!--<property name="receivingCustomsType" value="MALAKHIT" />-->
     					</bean>
     				</property>
     			</bean>
@@ -612,12 +612,12 @@
     								<value>CMN.15025</value>
     								<value>CMN.15026</value>
 									<value>CMN.11105</value>
-									<value>CMN.11099</value>
+									<!--<value>CMN.11099</value>-->
 									<value>CMN.11062</value>
-									<value>CMN.11002</value>
-									<value>CMN.11100</value>
+									<!--<value>CMN.11002</value>-->
+									<!--<value>CMN.11100</value>
 									<value>CMN.11131</value>
-									<value>CMN.11102</value>
+									<value>CMN.11102</value>-->
 								</list>
     						</property>
     					</bean>
