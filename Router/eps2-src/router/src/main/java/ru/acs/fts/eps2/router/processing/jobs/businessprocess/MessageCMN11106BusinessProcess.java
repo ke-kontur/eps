@@ -44,8 +44,8 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
         String envelopesName = jobContext.getString(ENVELOPES_NAME);
         jobBatchContext.put( envelopesName, envelopes );
 
-        String transitMessageName = jobContext.getString( TRANSIT_MESSAGE_NAME );
-        EDEnvelope transitMessage = ( EDEnvelope )jobBatchContext.get( transitMessageName );
+        //String transitMessageName = jobContext.getString( TRANSIT_MESSAGE_NAME );
+        EDEnvelope transitMessage = ( EDEnvelope )jobBatchContext.get( TRANSIT_MESSAGE_NAME );
         transitMessage.setInitialEnvelopeID(null);
         CryptoHelper.signEnvelope( transitMessage, true );
         envelopes.add( transitMessage );
