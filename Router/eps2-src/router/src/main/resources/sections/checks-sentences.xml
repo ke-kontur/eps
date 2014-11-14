@@ -844,7 +844,7 @@
                         <id1006003E>1</id1006003E> <!-- Inventory -->
                         <id1004115E>-3</id1004115E> <!-- DeclChangeRequest -->
                         <id1006111E>-1</id1006111E> <!-- KDTout_CU -->
-
+						<id1006044E>-1</id1006044E> <!-- DTSout -->
                         <id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
                         <id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
                         <id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
@@ -869,6 +869,7 @@
                         <id1006003E>1</id1006003E> <!-- Inventory -->
                         <id1004115E>-3</id1004115E> <!-- DeclChangeRequest -->
                         <id1006111E>-1</id1006111E> <!-- KDTout_CU -->
+						<id1006044E>-1</id1006044E> <!-- DTSout -->
                         <id1006082E>-1</id1006082E> <!-- TransportMeanCardOut -->
                         <id1006123E>-1</id1006123E> <!-- AddInfoForeignTradeContract -->
                         <id1006089E>-1</id1006089E> <!-- GoodsComponentList -->
