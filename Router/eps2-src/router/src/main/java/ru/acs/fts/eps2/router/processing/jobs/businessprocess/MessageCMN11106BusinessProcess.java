@@ -49,16 +49,15 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
         //String transitMessageName = jobContext.getString( TRANSIT_MESSAGE_NAME );
         EDEnvelope transitMessage = ( EDEnvelope )jobBatchContext.get( TRANSIT_MESSAGE_NAME );
         transitMessage.setInitialEnvelopeID(null);
-        CryptoHelper.signEnvelope( transitMessage, true );
-        envelopes.add( transitMessage );
         EDEnvelope recvEnv = jobBatchContext.getReceivedEnvelope( );
-        EDDocument regType = transitMessage.getDocument().getDocumentInContainer(NotifMPORegistrationType.class);
+
         CustomsType senderCustoms=new CustomsType();
         String processId = recvEnv.getProcessID( );
-
         Edecl_Proc_Information procInfo=getServiceHolder().getProcedureService().getProcInformation( processId );
         senderCustoms.setCustomsCode(procInfo.getCustCode());
         senderCustoms.setExchType(transitMessage.getSenderCustoms().getExchType());
+
+        EDDocument regType = transitMessage.getDocument().getDocumentInContainer(NotifMPORegistrationType.class);
         EDEnvelope cmn11106 = EnvelopeCreator.createFluentMessage(
                 "CMN.11133", recvEnv.getProcessID( ), recvEnv.getParticipantID( ),
                 null,
@@ -68,6 +67,11 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
                 BusinessSystems.DECLARANT, null,
                 regType.getRawDocument()
         );
+        CryptoHelper.signEnvelope(transitMessage, true);
+        envelopes.add( transitMessage );
+
+
+
 
         EnvelopeService envelopeService = getServiceHolder( ).getEnvelopeService( );
 
