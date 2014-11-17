@@ -125,7 +125,24 @@ public class CryptoHelper
 			
 		envelope.doNotUseThis_setInnerDocument_Raw( signed );
 		envelope.getDocument( ).setSigned( signed );
-	}	
+	}
+
+	public static void signEnvelopeInnerDocumentsExceptOuter( Envelope envelope)
+			throws BaseProcessingException, DatabaseException
+	{
+		Object document = envelope.getDocument( ).getNakedDocument( );
+
+		/**
+		 * Нужно для тестирования, в будущем можем захотеть
+		 * подписывать документы внутри других документов
+		 */
+		signSubDocuments( document, envelope );
+
+		//Object signed = signDocument( document, envelope );
+
+		//envelope.doNotUseThis_setInnerDocument_Raw( signed );
+		//envelope.getDocument( ).setSigned( signed );
+	}
 	
 	public static Document removeSignature( Envelope envelope ) 
 		throws BaseProcessingException, DatabaseException
