@@ -214,6 +214,7 @@
     
     <!-- Транзит -->
     <import resource="tranzitInProc.xml"/>
+    <import resource="tranzitInProc11002.xml"/>
     <import resource="tranzitInProc11119.xml"/>
     <import resource="tranzitInProcIEIDRDIDFromMalakhit.xml"/>
     <import resource="tranzitInProcContainer.xml" />

@@ -482,6 +482,9 @@
 	<bean id="MSG11052BusinessProcess" parent="businessProcessBase"
 			class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageMSG11052BusinessProcess" />
 
+	<bean id="CMN11002BusinessProcess" parent="businessProcessBase"
+		  class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11002BusinessProcess" />
+
     <bean id="CMN11106BusinessProcess" parent="businessProcessBase"
           class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.MessageCMN11106BusinessProcess" />
 

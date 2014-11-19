@@ -1162,6 +1162,14 @@
     					</bean>
     				</property>
     			</bean>
+				<bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
+					<property name="businessProcess" ref="CMN11002BusinessProcess" />
+					<property name="condition" >
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageType" value="CMN.11002" />
+						</bean>
+					</property>
+				</bean>
                 <bean class="ru.acs.fts.eps2.router.processing.jobs.businessprocess.BusinessProcessSelector" >
                     <property name="businessProcess" ref="CMN11106BusinessProcess" />
                     <property name="condition" >

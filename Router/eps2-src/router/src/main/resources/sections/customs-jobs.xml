@@ -232,7 +232,7 @@
 									<value>CMN.15026</value>
 									
 									<!-- Транзит из ТО без ссылочной связанности -->
-									<value>CMN.11002</value> <!-- FROM_KASTO_TO_DECL -->
+									<!--<value>CMN.11002</value>--> <!-- FROM_KASTO_TO_DECL -->
 									<value>CMN.11015</value> <!-- FROM_KASTO_TO_DECL -->
 									<value>CMN.11016</value> <!-- FROM_KASTO_TO_DECL -->
 									<value>CMN.11022</value> <!-- FROM_KASTO_TO_DECL -->
@@ -792,6 +792,20 @@
 								<list>
 									<!-- <value>CMN.11092</value> -->
 									<value>MSG.11052</value>
+								</list>
+							</property>
+						</bean>
+					</property>
+				</bean>
+
+				<bean class="ru.acs.fts.eps2.router.processing.selectors.JobBatchSelector">
+					<property name="jobBatch" ref="tranzitInProc11002" />
+					<property name="condition">
+						<bean class="ru.acs.fts.eps2.router.processing.selectors.EDSelectorCondition" >
+							<property name="messageTypes">
+								<list>
+									<!-- <value>CMN.11092</value> -->
+									<value>CMN.11002</value>
 								</list>
 							</property>
 						</bean>
