@@ -57,5 +57,39 @@ public class MessageCMN11127BusinessProcess extends BusinessProcess
 
         procInfo.setBorderCustCode(custCode);
         _serviceHolder.getProcedureService( ).merge(procInfo);
+
+        EnvelopeService envSrv = _serviceHolder.getEnvelopeService( );
+
+        List< EDEnvelope > envelopes = createAndPutEnvelopes( jobBatchContext, jobContext );
+        envelopes.add( prepareLocalCMN11092_Inner( recvEnv, jobBatchContext, jobContext ) );
+        envelopes.add( prepareDeclarantCMN00004( recvEnv, jobBatchContext, jobContext ) );
+    }
+
+    private EDEnvelope prepareLocalCMN11092_Inner(
+            EDEnvelope recvEnv,
+            EDJobBatchContext jobBatchContext, JobContext jobContext )
+            throws BaseProcessingException, IllegalStateException, DatabaseException
+    {
+        EDEnvelope transit = EnvelopeCreator.createTranzitMessage(
+                null, recvEnv,
+                BusinessSystems.CUSTOMS, recvEnv.getReceiverCustoms( )
+        );
+
+        return transit;
+    }
+
+    private EDEnvelope prepareDeclarantCMN00004(
+            EDEnvelope recvEnv,
+            EDJobBatchContext jobBatchContext, JobContext jobContext )
+            throws Exception
+    {
+        EDEnvelope cmn00004 = EnvelopeCreator.createNotificationMessage(
+                MessageType.CMN_00004, recvEnv, ResultCodes._00_00000_00,
+                BusinessSystems.DECLARANT, null
+        );
+
+        CryptoHelper.signEnvelope( cmn00004, false );
+
+        return cmn00004;
     }
 }
